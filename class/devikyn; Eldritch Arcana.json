@@ -43,7 +43,7 @@
 	},
 	"class": [
 		{
-			"name": "Warlock",
+			"name": "Колдун",
 			"source": "EldArc",
 			"hd": {
 				"number": 1,
@@ -174,7 +174,7 @@
 			],
 			"optionalfeatureProgression": [
 				{
-					"name": "Eldritch Invocations",
+					"name": "Таинственные воззвания",
 					"featureType": [
 						"EI"
 					],
@@ -234,10 +234,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
-					"(a) a {@item scholar's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
-					"Any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, {@item leather armor|phb}, and two {@item dagger|phb|daggers}"
+					"(а) {@item light crossbow|phb} и {@item crossbow bolts (20)|phb|20 болтов} или (б) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(а) {@item component pouch|phb} или (б) {@item arcane focus|phb}",
+					"(а) {@item scholar's pack|phb} или (б) {@item dungeoneer's pack|phb}",
+					"Любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, {@item leather armor|phb} и два {@item dagger|phb|кинжалы}"
 				],
 				"defaultData": [
 					{
@@ -286,8 +286,8 @@
 					"colLabels": [
 						"{@filter Cantrips Known|spells|level=0|class=Warlock|Source=EldArc}",
 						"{@filter Spells Known|spells|class=Warlock|Source=EldArc}",
-						"Spell Slots",
-						"Spell Slot Level",
+						"Ячейки заклинаний",
+						"Уровень ячейки",
 						"{@filter Invocations Known|optionalfeatures|feature type=EI|Source=EldArc}"
 					],
 					"rows": [
@@ -296,7 +296,7 @@
 							2,
 							1,
 							"{@filter 1st|spells|level=1|class=Warlock|Source=EldArc}",
-							"\u2014"
+							"—"
 						],
 						[
 							2,
@@ -436,85 +436,85 @@
 			],
 			"classFeatures": [
 				{
-					"classFeature": "Otherworldly Patron|Warlock|EldArc|1",
+					"classFeature": "Потусторонний покровитель|Warlock|EldArc|1",
 					"gainSubclassFeature": true
 				},
-				"Pact Magic|Warlock|EldArc|1",
-				"Eldritch Invocations|Warlock|EldArc|2",
-				"Pact Boon|Warlock|EldArc|2",
-				"Agonizing Cantrip|Warlock|EldArc|3",
-				"Ability Score Improvement|Warlock|EldArc|4",
-				"Liminal Loop|Warlock|EldArc|5",
+				"Магия договора|Warlock|EldArc|1",
+				"Таинственные воззвания|Warlock|EldArc|2",
+				"Предмет договора|Warlock|EldArc|2",
+				"Мучительный заговор|Warlock|EldArc|3",
+				"Увеличение характеристик|Warlock|EldArc|4",
+				"Пограничная петля|Warlock|EldArc|5",
 				{
-					"classFeature": "Otherworldly Patron feature|Warlock|EldArc|6",
+					"classFeature": "Особенность потустороннего покровителя|Warlock|EldArc|6",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlock|EldArc|8",
+				"Увеличение характеристик|Warlock|EldArc|8",
 				{
-					"classFeature": "Otherworldly Patron feature|Warlock|EldArc|10",
+					"classFeature": "Особенность потустороннего покровителя|Warlock|EldArc|10",
 					"gainSubclassFeature": true
 				},
-				"Mystic Arcanum (6th level)|Warlock|EldArc|11",
-				"Ability Score Improvement|Warlock|EldArc|12",
-				"Mystic Arcanum (7th level)|Warlock|EldArc|13",
+				"Таинственный арканум (6-й уровень)|Warlock|EldArc|11",
+				"Увеличение характеристик|Warlock|EldArc|12",
+				"Таинственный арканум (7-й уровень)|Warlock|EldArc|13",
 				{
-					"classFeature": "Otherworldly Patron feature|Warlock|EldArc|14",
+					"classFeature": "Особенность потустороннего покровителя|Warlock|EldArc|14",
 					"gainSubclassFeature": true
 				},
-				"Mystic Arcanum (8th level)|Warlock|EldArc|15",
-				"Ability Score Improvement|Warlock|EldArc|16",
-				"Mystic Arcanum (9th level)|Warlock|EldArc|17",
-				"Vault of Knowledge|Warlock|EldArc|18",
-				"Ability Score Improvement|Warlock|EldArc|19",
-				"Arcane Feedback|Warlock|EldArc|20"
+				"Таинственный арканум (8-й уровень)|Warlock|EldArc|15",
+				"Увеличение характеристик|Warlock|EldArc|16",
+				"Таинственный арканум (9-й уровень)|Warlock|EldArc|17",
+				"Хранилище знаний|Warlock|EldArc|18",
+				"Увеличение характеристик|Warlock|EldArc|19",
+				"Тайная отдача|Warlock|EldArc|20"
 			],
-			"subclassTitle": "Otherworldly Patron",
+			"subclassTitle": "Потусторонний покровитель",
 			"hasFluff": true
 		}
 	],
 	"classFluff": [
 		{
-			"name": "Warlock",
+			"name": "Колдун",
 			"source": "EldArc",
 			"entries": [
 				{
-					"name": "Warlock",
+					"name": "Колдун",
 					"source": "EldArc",
 					"type": "section",
 					"entries": [
-						"With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.",
-						"As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron. infusing her spell with fiendish magic. Shifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.",
-						"Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular.Drawing on the ancient knowledge of beings such as fey nobles,fiends,hags, and alien entities of the Far Realm, warlocks piece together arcane secrets to bolster their own power.",
+						"С псевдодраконом, свернувшимся на плече, молодой эльф в золотых одеждах тепло улыбается, вплетая магическое заклятие в свои медовые речи и подчиняя дворцового стража своей воле.",
+						"Когда в её руках вспыхивает пламя, иссохший человек шепчет тайное имя своего демонического покровителя, наполняя своё заклинание исчадной магией. Переводя взгляд с потрёпанного фолианта на странное расположение звёзд над головой, тифлинг с безумным взглядом читает мистический ритуал, который откроет дверь в далёкий мир.",
+						"Колдуны — искатели знаний, скрытых в ткани мультивселенной. Через пакты, заключённые с таинственными существами сверхъестественной силы, колдуны открывают магические эффекты — как тонкие, так и впечатляющие. Опираясь на древние знания таких существ, как фейские владыки, исчадия, карги и чуждые сущности Дальнего Предела, колдуны собирают воедино тайные секреты, чтобы приумножить собственную силу.",
 						{
 							"type": "entries",
-							"name": "Sworn and Beholden",
+							"name": "Присягнувшие и Обязанные",
 							"entries": [
-								"A warlock is defined by a pact with an otherworldly being. Sometimes the relationship between warlock and patron is like that of a cleric and a deity,though the beings that serve as patrons for warlocks are not gods.A warlock might lead a cult dedicated to a demon prince, an archdevil, or an utterly alien entity\u2014beings not typically served by clerics. More often, though, the arrangement is similar to that between a master and an apprentice. The warlock learns and grows in power, at the cost of occasional services performed on the patron's behalf.",
-								"The magic bestowed on a warlock ranges from minor but lasting alterations to the warlock's being (such as the ability to see in darkness or to read any language) to access to powerful spells. Unlike bookish wizards, warlocks supplement their magic with some facility at hand-to-hand combat. They are comfortable in light armor and know how to use simple weapons."
+								"Колдуна определяет пакт с потусторонним существом. Иногда отношения между колдуном и покровителем похожи на отношения жреца и божества, хотя существа, служащие покровителями колдунов, не являются богами. Колдун может возглавлять культ, посвящённый демоническому принцу, архидьяволу или совершенно чуждой сущности — существам, которым обычно не служат жрецы. Но чаще всё же соглашение похоже на отношения мастера и подмастерья. Колдун учится и растёт в силе ценой периодических услуг, оказываемых от имени покровителя.",
+								"Магия, дарованная колдуну, варьируется от незначительных, но стойких изменений в самом колдуне (таких как характеристика видеть во тьме или читать на любом языке) до доступа к мощным заклинаниям. В отличие от книжных волшебников, колдуны дополняют свою магию некоторыми навыками рукопашного боя. Они уверенно чувствуют себя в лёгких доспехах и знают, как использовать простое оружие."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Delvers into Secrets",
+							"name": "Погружающиеся в тайны",
 							"entries": [
-								"Warlocks are driven by an insatiable need for knowledge and power,which compels them into their pacts and shapes their lives. This thirst drives warlocks into their pacts and shapes their later careers as well.",
-								"Stories of warlocks binding themselves to fiends are widely known. But many warlocks serve patrons that are not fiendish. Sometimes a traveler in the wilds comes to a strangely beautiful tower, meets its fey lord or lady, and stumbles into a pact without being fully aware of it.And sometimes,while poring over tomes of forbidden lore, a brilliant but crazed student's mind is opened to realities beyond the material world and to the alien beings that dwell in the outer void.",
-								"Once a pact is made, a warlock's thirst for knowledge and power can't be slaked with mere study and research.No one makes a pact with such a mighty patron if he or she doesn't intend to use the power thus gained. Rather, the majority of warlocks spend their days in active pursuit of their goals, which typically means some kind of adventuring. Further, the demands of their patrons drive warlocks toward adventure."
+								"Колдунами движет ненасытная потребность в знаниях и власти, которая толкает их к пактам и формирует их жизни. Эта жажда ведёт колдунов к пактам и определяет их дальнейшую карьеру.",
+								"Истории о колдунах, связывающих себя с исчадиями, широко известны. Но многие колдуны служат покровителям, не являющимся исчадиями. Иногда путник в диких землях находит странно красивую башню, встречает её фейского лорда или леди и ввязывается в пакт, не вполне это осознавая. А иногда, корпя над книгами запретных знаний, разум блестящего, но безумного студента открывается реальностям за пределами материального мира и чуждым существам, обитающим во внешней пустоте.",
+								"После заключения пакта жажду колдуна к знаниям и власти нельзя утолить простой учёбой и исследованиями. Никто не заключает пакт со столь могущественным покровителем, если не намерен использовать полученную силу. Напротив, большинство колдунов проводят дни в активном преследовании своих целей, что обычно означает своего рода приключения. Более того, требования их покровителей толкают колдунов к приключениям."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating a Warlock",
+							"name": "Создание колдуна",
 							"entries": [
-								"As you make your warlock character,think about your patron and the obligations that your pact imposes upon you. What led you to make the pact, and how did you make contact with your patron? Were you seduced into summoning a devil, or did you seek out the ritual that would allow you to make contact with an alien elder god? Did you search for your patron, or did your patron find and choose you? Do you chafe under the obligations of your pact or serve joyfully in anticipation of the rewards promised to you?",
-								"Work with your DM to determine how big a part your pact will play in your character's adventuring career. Your patron's demands might drive you into adventures, or they might consist entirely of small favors you can do between adventures.",
-								"What kind of relationship do you have with your patron? Is it friendly, antagonistic, uneasy, or romantic? How important are you to your patron? What is your part in your patron's plans? Do you know other servants of your patron?",
-								"How does your patron communicate with you? If you have a familiar,it might occasionally speak with your patron's voice.Some warlocks find messages from their patrons etched on trees, mingled among tea leaves, or adrift in the clouds \u2014messages that only the warlock can see. Other warlocks converse with their patrons in dreams or waking visions,or deal only with liaisons.",
+								"Создавая персонажа-колдуна, подумайте о своём покровителе и обязательствах, которые налагает на вас пакт. Что привело вас к заключению пакта и как вы связались с покровителем? Вас соблазнили вызвать дьявола или вы сами искали ритуал, позволяющий связаться с чуждым древним богом? Вы искали покровителя или покровитель нашёл и выбрал вас? Тяготитесь ли вы обязательствами пакта или служите с радостью в предвкушении обещанных наград?",
+								"Обсудите с вашим Мастером, насколько важную роль ваш пакт будет играть в приключениях вашего персонажа. Требования вашего покровителя могут толкать вас на поиски приключений, или же они могут состоять исключительно из маленьких услуг, которые вы можете оказать в перерывах между приключениями.",
+								"Какие у вас отношения с покровителем? Дружеские, враждебные, натянутые или романтические? Насколько вы важны для своего покровителя? Какова ваша роль в его планах? Знаете ли вы других слуг своего покровителя?",
+								"Как покровитель общается с вами? Если у вас есть фамильяр, он порой может говорить голосом вашего покровителя. Некоторые колдуны находят послания от покровителей вырезанными на деревьях, смешанными с чайными листьями или плывущими в облаках — послания, которые видит только колдун. Другие колдуны беседуют с покровителями во снах или видениях наяву либо имеют дело только с посредниками.",
 								{
 									"type": "entries",
-									"name": "Quick Build",
+									"name": "Быстрое создание",
 									"entries": [
-										"You can make a warlock quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the {@background charlatan} background. Third, choose the {@spell chill touch} and {@spell minor illusion} cantrips, along with the 1st-level spells {@spell ray of sickness} and {@spell witch bolt}."
+										"Вы можете быстро создать колдуна, следуя этим советам. Во-первых, Харизма должна быть вашей наивысшей характеристикой, следом — Телосложение. Во-вторых, выберите предысторию {@background charlatan}. В-третьих, выберите заговоры {@spell chill touch} и {@spell minor illusion}, а также заклинания 1-го уровня {@spell ray of sickness} и {@spell witch bolt}."
 									]
 								}
 							]
@@ -526,8 +526,8 @@
 	],
 	"subclass": [
 		{
-			"name": "The Ancient Phoenix",
-			"shortName": "Phoenix",
+			"name": "Древний феникс",
+			"shortName": "Феникс",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -558,18 +558,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Ancient Phoenix|Warlock|EldArc|Phoenix|EldArc|1",
-				"Positive Energy Infusion|Warlock|EldArc|Phoenix|EldArc|1",
-				"Expanded Spell List|Warlock|EldArc|Phoenix|EldArc|1",
-				"Mantle of Flame|Warlock|EldArc|Phoenix|EldArc|1",
-				"Warding Cyclone|Warlock|EldArc|Phoenix|EldArc|6",
-				"Spark of Rebirth|Warlock|EldArc|Phoenix|EldArc|10",
-				"Phoenix Pinion|Warlock|EldArc|Phoenix|EldArc|14"
+				"Древний феникс|Warlock|EldArc|Феникс|EldArc|1",
+				"Наполнение положительной энергией|Warlock|EldArc|Феникс|EldArc|1",
+				"Расширенный список заклинаний|Warlock|EldArc|Феникс|EldArc|1",
+				"Мантия пламени|Warlock|EldArc|Феникс|EldArc|1",
+				"Оберегающий циклон|Warlock|EldArc|Феникс|EldArc|6",
+				"Искра перерождения|Warlock|EldArc|Феникс|EldArc|10",
+				"Перо феникса|Warlock|EldArc|Феникс|EldArc|14"
 			]
 		},
 		{
-			"name": "The Archfey",
-			"shortName": "Archfey",
+			"name": "Верховная фея",
+			"shortName": "Верховная фея",
 			"source": "EldArc-PHB",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -600,15 +600,15 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Archfey|Warlock|PHB|Archfey|PHB|1",
-				"Misty Escape|Warlock|PHB|Archfey|PHB|6",
-				"Beguiling Defenses|Warlock|PHB|Archfey|PHB|10",
-				"Dark Delirium|Warlock|PHB|Archfey|PHB|14"
+				"Верховная фея|Warlock|PHB|Верховная фея|PHB|1",
+				"Туманное исчезновение|Warlock|PHB|Верховная фея|PHB|6",
+				"Чарующая защита|Warlock|PHB|Верховная фея|PHB|10",
+				"Тёмный бред|Warlock|PHB|Верховная фея|PHB|14"
 			]
 		},
 		{
-			"name": "The Celestial",
-			"shortName": "Celestial",
+			"name": "Небесный",
+			"shortName": "Небесный",
 			"source": "EldArc-PHB",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -639,15 +639,15 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Celestial|Warlock|PHB|Celestial|XGE|1",
-				"Radiant Soul|Warlock|PHB|Celestial|XGE|6",
-				"Celestial Resilience|Warlock|PHB|Celestial|XGE|10",
-				"Searing Vengeance|Warlock|PHB|Celestial|XGE|14"
+				"Небесный|Warlock|PHB|Небесный|XGE|1",
+				"Сияющая душа|Warlock|PHB|Небесный|XGE|6",
+				"Небесное сопротивление|Warlock|PHB|Небесный|XGE|10",
+				"Жгучая месть|Warlock|PHB|Небесный|XGE|14"
 			]
 		},
 		{
-			"name": "The Celestial",
-			"shortName": "Celestial",
+			"name": "Небесный",
+			"shortName": "Небесный",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -684,18 +684,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Celestial|Warlock|EldArc|Celestial|EldArc-PHB|1|EldArc",
-				"Expanded Spell List|Warlock|EldArc|Celestial|EldArc-PHB|1|EldArc",
-				"Bonus Cantrips|Warlock|EldArc|Celestial|EldArc-PHB|1|EldArc",
-				"Healing Light|Warlock|EldArc|Celestial|EldArc-PHB|1|EldArc",
-				"Radiant Soul|Warlock|EldArc|Celestial|EldArc-PHB|6|EldArc",
-				"Celestial Reinforcement|Warlock|EldArc|Celestial|EldArc-PHB|10|EldArc",
-				"Ascendant Aura|Warlock|EldArc|Celestial|EldArc-PHB|14|EldArc"
+				"Небесный|Warlock|EldArc|Небесный|EldArc-PHB|1|EldArc",
+				"Расширенный список заклинаний|Warlock|EldArc|Небесный|EldArc-PHB|1|EldArc",
+				"Дополнительные заговоры|Warlock|EldArc|Небесный|EldArc-PHB|1|EldArc",
+				"Лечащий свет|Warlock|EldArc|Небесный|EldArc-PHB|1|EldArc",
+				"Сияющая душа|Warlock|EldArc|Небесный|EldArc-PHB|6|EldArc",
+				"Небесное укрепление|Warlock|EldArc|Небесный|EldArc-PHB|10|EldArc",
+				"Аура вознесения|Warlock|EldArc|Небесный|EldArc-PHB|14|EldArc"
 			]
 		},
 		{
-			"name": "The Chosen of Mystra",
-			"shortName": "Mystra",
+			"name": "Избранник Мистры",
+			"shortName": "Мистра",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -726,18 +726,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Chosen of Mystra|Warlock|EldArc|Mystra|EldArc|1",
-				"Protect the Weave|Warlock|EldArc|Mystra|EldArc|1",
-				"Expanded Spell List|Warlock|EldArc|Mystra|EldArc|1",
-				"Minor Spellfire|Warlock|EldArc|Mystra|EldArc|1",
-				"Chosen's Absorption|Warlock|EldArc|Mystra|EldArc|6",
-				"Arcane Senses|Warlock|EldArc|Mystra|EldArc|10",
-				"Silver Fire|Warlock|EldArc|Mystra|EldArc|14"
+				"Избранник Мистры|Warlock|EldArc|Мистра|EldArc|1",
+				"Защита Плетения|Warlock|EldArc|Мистра|EldArc|1",
+				"Расширенный список заклинаний|Warlock|EldArc|Мистра|EldArc|1",
+				"Малый чароогонь|Warlock|EldArc|Мистра|EldArc|1",
+				"Поглощение Избранника|Warlock|EldArc|Мистра|EldArc|6",
+				"Тайные чувства|Warlock|EldArc|Мистра|EldArc|10",
+				"Серебряный огонь|Warlock|EldArc|Мистра|EldArc|14"
 			]
 		},
 		{
-			"name": "The Fathomless",
-			"shortName": "Fathomless",
+			"name": "Бездна",
+			"shortName": "Бездна",
 			"source": "EldArc-TCE",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -768,16 +768,16 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Fathomless|Warlock|PHB|Fathomless|TCE|1",
-				"Oceanic Soul|Warlock|PHB|Fathomless|TCE|6",
-				"Guardian Coil|Warlock|PHB|Fathomless|TCE|6",
-				"Grasping Tentacles|Warlock|PHB|Fathomless|TCE|10",
-				"Fathomless Plunge|Warlock|PHB|Fathomless|TCE|14"
+				"Бездна|Warlock|PHB|Бездна|TCE|1",
+				"Океаническая душа|Warlock|PHB|Бездна|TCE|6",
+				"Защитный изгиб|Warlock|PHB|Бездна|TCE|6",
+				"Опутывающие щупальца|Warlock|PHB|Бездна|TCE|10",
+				"Бездонное погружение|Warlock|PHB|Бездна|TCE|14"
 			]
 		},
 		{
-			"name": "The Fiend",
-			"shortName": "Fiend",
+			"name": "Исчадие",
+			"shortName": "Исчадие",
 			"source": "EldArc-PHB",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -808,15 +808,15 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Fiend|Warlock|PHB|Fiend|PHB|1",
-				"Dark One's Own Luck|Warlock|PHB|Fiend|PHB|6",
-				"Fiendish Resilience|Warlock|PHB|Fiend|PHB|10",
-				"Hurl Through Hell|Warlock|PHB|Fiend|PHB|14"
+				"Исчадие|Warlock|PHB|Исчадие|PHB|1",
+				"Удача темнейшего|Warlock|PHB|Исчадие|PHB|6",
+				"Устойчивость исчадия|Warlock|PHB|Исчадие|PHB|10",
+				"Низвержение в ад|Warlock|PHB|Исчадие|PHB|14"
 			]
 		},
 		{
-			"name": "The Genie",
-			"shortName": "Genie",
+			"name": "Гений",
+			"shortName": "Гений",
 			"source": "EldArc-TCE",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -935,15 +935,15 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Genie|Warlock|PHB|Genie|TCE|1",
-				"Elemental Gift|Warlock|PHB|Genie|TCE|6",
-				"Sanctuary Vessel|Warlock|PHB|Genie|TCE|10",
-				"Limited Wish|Warlock|PHB|Genie|TCE|14"
+				"Гений|Warlock|PHB|Гений|TCE|1",
+				"Стихийный дар|Warlock|PHB|Гений|TCE|6",
+				"Спасительный сосуд|Warlock|PHB|Гений|TCE|10",
+				"Ограниченное желание|Warlock|PHB|Гений|TCE|14"
 			]
 		},
 		{
-			"name": "The Great Old One",
-			"shortName": "Great Old One",
+			"name": "Великий Древний",
+			"shortName": "Великий Древний",
 			"source": "EldArc-PHB",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -974,15 +974,15 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Great Old One|Warlock|PHB|Great Old One|PHB|1",
-				"Entropic Ward|Warlock|PHB|Great Old One|PHB|6",
-				"Thought Shield|Warlock|PHB|Great Old One|PHB|10",
-				"Create Thrall|Warlock|PHB|Great Old One|PHB|14"
+				"Великий Древний|Warlock|PHB|Великий Древний|PHB|1",
+				"Энтропическая опека|Warlock|PHB|Великий Древний|PHB|6",
+				"Ментальный щит|Warlock|PHB|Великий Древний|PHB|10",
+				"Создание раба|Warlock|PHB|Великий Древний|PHB|14"
 			]
 		},
 		{
-			"name": "The Shadowforce",
-			"shortName": "Shadowforce",
+			"name": "Теневая сила",
+			"shortName": "Теневая сила",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -1013,17 +1013,17 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Shadowforce|Warlock|EldArc|Shadowforce|EldArc|1",
-				"Expanded Spell List|Warlock|EldArc|Shadowforce|EldArc|1",
-				"Hexblade's Curse|Warlock|EldArc|Shadowforce|EldArc|1",
-				"Shadow Shroud|Warlock|EldArc|Shadowforce|EldArc|6",
-				"Accursed Specter|Warlock|EldArc|Shadowforce|EldArc|10",
-				"Master of Hexes|Warlock|EldArc|Shadowforce|EldArc|14"
+				"Теневая сила|Warlock|EldArc|Теневая сила|EldArc|1",
+				"Расширенный список заклинаний|Warlock|EldArc|Теневая сила|EldArc|1",
+				"Проклятие ведьмовского клинка|Warlock|EldArc|Теневая сила|EldArc|1",
+				"Теневой саван|Warlock|EldArc|Теневая сила|EldArc|6",
+				"Проклятый спектр|Warlock|EldArc|Теневая сила|EldArc|10",
+				"Мастер проклятий|Warlock|EldArc|Теневая сила|EldArc|14"
 			]
 		},
 		{
-			"name": "The Undead",
-			"shortName": "Undead",
+			"name": "Нежить",
+			"shortName": "Нежить",
 			"source": "EldArc-PHB",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -1059,15 +1059,15 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Undead|Warlock|PHB|Undead|VRGR|1",
-				"Grave Touched|Warlock|PHB|Undead|VRGR|6",
-				"Necrotic Husk|Warlock|PHB|Undead|VRGR|10",
-				"Spirit Projection|Warlock|PHB|Undead|VRGR|14"
+				"Нежить|Warlock|PHB|Нежить|VRGR|1",
+				"Затронутый могилой|Warlock|PHB|Нежить|VRGR|6",
+				"Омертвевшая оболочка|Warlock|PHB|Нежить|VRGR|10",
+				"Духовная проекция|Warlock|PHB|Нежить|VRGR|14"
 			]
 		},
 		{
-			"name": "The Undying",
-			"shortName": "Undying",
+			"name": "Неумирающий",
+			"shortName": "Неумирающий",
 			"source": "EldArc-PHB",
 			"className": "Warlock",
 			"classSource": "EldArc",
@@ -1098,66 +1098,66 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Undying|Warlock|PHB|Undying|SCAG|1",
-				"Defy Death|Warlock|PHB|Undying|SCAG|6",
-				"Undying Nature|Warlock|PHB|Undying|SCAG|10",
-				"Indestructible Life|Warlock|PHB|Undying|SCAG|14"
+				"Неумирающий|Warlock|PHB|Неумирающий|SCAG|1",
+				"Вызов смерти|Warlock|PHB|Неумирающий|SCAG|6",
+				"Неумирающая природа|Warlock|PHB|Неумирающий|SCAG|10",
+				"Нерушимая жизнь|Warlock|PHB|Неумирающий|SCAG|14"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Otherworldly Patron",
+			"name": "Потусторонний покровитель",
 			"source": "EldArc",
 			"page": 7,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 1,
 			"entries": [
-				"At 1st level, you have struck a bargain with an otherworldly being of your choice: the Ancient Phoenix, the {@class warlock|phb|Archfey|archfey}, the Celestial, the Chosen of Mystra, the {@class warlock|phb|Fiend|fiend}, the {@class warlock|phb|Great Old One|great old one}, the Shadowforce, or the {@class warlock|phb|Undying|undying}. Your choice grants you features at 1st level and again at 6th level, 10th level, and 14th level."
+				"На 1-м уровне вы заключили сделку с потусторонним существом на ваш выбор: Древним фениксом, {@class Колдун|phb|Верховная фея|Верховная фея}, Небесным, Избранником Мистры, {@class Колдун|phb|Исчадие|Исчадие}, {@class Колдун|phb|Великий Древний|Великий Древний}, Теневой силой или {@class Колдун|phb|Неумирающий|Неумирающий}. Ваш выбор даёт вам умения на 1-м уровне, а также на 6-м, 10-м и 14-м уровнях."
 			]
 		},
 		{
-			"name": "Pact Magic",
+			"name": "Магия договора",
 			"source": "EldArc",
 			"page": 7,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 1,
 			"entries": [
-				"Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See the {@i Player's Handbook} for the general rules of {@book spellcasting|PHB|10} and for the {@filter warlock spell list|spells|class=warlock (EldArc)}.",
+				"Ваши тайные исследования и магия, дарованная покровителем, дали вам умение обращаться с заклинаниями. Общие правила {@book spellcasting|PHB|10} и {@filter warlock spell list|spells|class=warlock (EldArc)} приведены в {@i Книге игрока}.",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Заговоры",
 					"entries": [
-						"You know two cantrips of your choice from the warlock spell list. The Warlock table above shows when you learn additional warlock cantrips of your choice."
+						"Вы знаете два заговора на свой выбор из списка заклинаний колдуна. В таблице колдуна выше указано, когда вы изучаете дополнительные заговоры колдуна на свой выбор."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spell Slots",
+					"name": "Ячейки заклинаний",
 					"entries": [
-						"The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; your spell slots are all the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.",
-						"For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell {@spell witch bolt}, you must spend one of those slots, and you cast it as a 3rd-level spell."
+						"В таблице колдуна указано, сколько у вас ячеек заклинаний. Таблица также показывает уровень этих ячеек; все ваши ячейки заклинаний одного уровня. Чтобы наложить одно из ваших заклинаний колдуна 1-го уровня или выше, вы должны потратить ячейку заклинания. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете короткий или продолжительный отдых.",
+						"Например, на 5-м уровне у вас есть две ячейки заклинаний 3-го уровня. Чтобы наложить заклинание 1-го уровня {@spell witch bolt}, вы должны потратить одну из этих ячеек и наложить его как заклинание 3-го уровня."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells Known of 1st Level and Higher",
+					"name": "Известные заклинания 1-го уровня и выше",
 					"entries": [
-						"At 1st level, you know two 1st-level spells of your choice from the warlock spell list.",
-						"The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell of 3rd level or lower.",
-						"Also, when you gain a level in this class, you can replace one warlock spell you know with another spell from the warlock spell list. The new spell must also be of a level for which you have spell slots."
+						"На 1-м уровне вы знаете два заклинания 1-го уровня на свой выбор из списка заклинаний колдуна.",
+						"Столбец «Известные заклинания» таблицы колдуна показывает, когда вы изучаете новые заклинания колдуна на свой выбор 1-го уровня и выше. Выбранное заклинание должно быть уровня не выше указанного в столбце «Уровень ячейки» таблицы для вашего уровня. Например, достигнув 6-го уровня, вы изучаете новое заклинание колдуна 3-го уровня или ниже.",
+						"Кроме того, когда вы получаете уровень в этом классе, вы можете заменить одно известное вам заклинание колдуна другим заклинанием из списка заклинаний колдуна. Новое заклинание также должно быть того уровня, для которого у вас есть ячейки заклинаний."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"entries": [
-						"Choose either Intelligence or Charisma when you gain this feature. Your choice determines your spellcasting ability for your warlock spells. You use the chosen ability score when setting the saving throw DC and when making attack rolls with warlock spells you cast.",
+						"Выберите Интеллект или Харизму, когда получаете это умение. Ваш выбор определяет базовую характеристику для ваших заклинаний колдуна. Вы используете выбранную характеристику при определении Сл спасброска и при совершении бросков атаки вашими заклинаниями колдуна.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"int",
 								"cha"
@@ -1167,97 +1167,97 @@
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Focus",
+					"name": "Фокусировка для сотворения",
 					"entries": [
-						"You can use an {@item arcane focus|phb} as a spellcasting focus for your warlock spells."
+						"Вы можете использовать {@item arcane focus|phb} как фокусировку для сотворения своих заклинаний колдуна."
 					]
 				}
 			]
 		},
 		{
-			"name": "Eldritch Invocations",
+			"name": "Таинственные воззвания",
 			"source": "EldArc",
 			"page": 8,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 2,
 			"entries": [
-				"At 2nd level,through your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability. You gain one eldritch invocation of your choice from the options listed {@filter here|optionalfeatures|Feature Type=EI|Source=EldArc}. At certain warlock levels, you gain new invocations of your choice, as shown in the Invocations Known column of the Warlock table.",
-				"When you gain a level in this class, you can replace one invocation you know with another available invocation for your warlock level."
+				"На 2-м уровне в результате изучения оккультных знаний вы выкопали таинственные воззвания — фрагменты запретных знаний, дарующие вам стойкую магическую способность. Вы получаете одно таинственное воззвание на свой выбор из вариантов, перечисленных {@filter here|optionalfeatures|Feature Type=EI|Source=EldArc}. На определённых уровнях колдуна вы получаете новые воззвания на свой выбор, как показано в столбце «Известные воззвания» таблицы колдуна.",
+				"Когда вы получаете уровень в этом классе, вы можете заменить одно известное вам воззвание другим доступным воззванием для вашего уровня колдуна."
 			]
 		},
 		{
-			"name": "Pact Boon",
+			"name": "Предмет договора",
 			"source": "EldArc",
 			"page": 8,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 2,
 			"entries": [
-				"Also at 2nd level, your patron bestows a gift upon you for your loyal service.You gain one of the following features of your choice.",
+				"Также на 2-м уровне ваш покровитель дарует вам дар за верную службу. Вы получаете одно из следующих умений на свой выбор.",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
-							"name": "Pact of the Armory",
+							"name": "Пакт оружейной",
 							"source": "EldArc",
 							"page": 8,
 							"entries": [
-								"You can use your action to create a magical pact weapon in your empty hand. You choose the form that this weapon takes each time you create it; it can take the form of any {@filter melee weapon|items|source=phb|category=basic|type=melee weapon}, a {@item shortbow|phb}, a {@item longbow|phb}, a {@item light crossbow|phb} or a {@item heavy crossbow|phb}. You are proficient with your pact weapon while you wield it, and you can use your spellcasting ability modifier, instead of Strength or Dexterity, for your attack and damage rolls with it.",
-								"Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more, if you use this action again, if you dismiss the weapon (no action required),or if you die.",
-								"You can transform one magic weapon into your pact weapon by performing a 1-hour-long special ritual while you hold the weapon. The ritual counts as light activity while you are resting. You gain the ability to dismiss the weapon (no action required), shunting it into an extradimensional space. You can cause it to reappear whenever you create your pact weapon thereafter. The weapon ceases being your pact weapon if you die, if you perform the ritual on another weapon, or if you perform a 1-hour ritual to break your bond to it. The weapon appears at your feet if it's shunted away when the bond breaks.",
-								"Also, you can use your action to touch a suit of light or medium armor, which can include a shield, that isn't being worn or carried. Until you use this feature again on another set of equipment, while you wear this equipment, it is magical, and you are proficient with it."
+								"Вы можете действием создать магическое оружие договора в своей пустой руке. Вы выбираете форму, которую принимает это оружие при каждом создании; оно может принять форму любого {@filter melee weapon|items|source=phb|category=basic|type=melee weapon}, {@item shortbow|phb}, {@item longbow|phb}, {@item light crossbow|phb} или {@item heavy crossbow|phb}. Вы владеете своим оружием договора, пока держите его, и можете использовать модификатор своей базовой характеристики для заклинаний вместо Силы или Ловкости для бросков атаки и урона им.",
+								"Ваше оружие договора исчезает, если оно находится от вас дальше 5 футов в течение 1 минуты или дольше, если вы снова используете это действие, если вы отпускаете оружие (действие не требуется) или если вы умираете.",
+								"Вы можете превратить одно магическое оружие в своё оружие договора, проведя особый ритуал длительностью 1 час, держа оружие. Ритуал считается лёгкой деятельностью во время отдыха. Вы получаете способность отпускать оружие (действие не требуется), отправляя его в межмерное пространство. Впоследствии вы можете заставить его появиться всякий раз, когда создаёте своё оружие договора. Оружие перестаёт быть вашим оружием договора, если вы умираете, если вы проводите ритуал с другим оружием или если вы проводите часовой ритуал, чтобы разорвать связь с ним. Если связь разрывается, пока оружие отправлено, оно появляется у ваших ног.",
+								"Кроме того, вы можете действием коснуться комплекта лёгкого или среднего доспеха, который может включать щит, не носимого и не несомого кем-либо. Пока вы носите этот доспех, он магический, и вы владеете им, — до тех пор, пока вы не используете это умение снова на другом комплекте снаряжения."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Pact of the Chain",
+							"name": "Пакт цепи",
 							"source": "EldArc",
 							"page": 8,
 							"entries": [
-								"You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known. You gain the following choices for your familiar's form: {@creature imp}, {@creature phoenix wisp|EldArc}, {@creature pseudodragon}, {@creature quasit}, or {@creature sprite|EldArc}. You can communicate telepathically with your familiar and perceive through your familiar's senses while you are on the same plane of existence. While perceiving through your familiar's senses, you can speak through your familiar in your own voice, even if your familiar is normally incapable of speech.",
-								"Also, you can use your action or you can forego one of your attacks when you take an action that allows you to make one or more attacks\u2014like the Attack or Cast a Spell action\u2014to allow your familiar to make one attack using its reaction."
+								"Вы изучаете заклинание «поиск фамильяра» и можете накладывать его как ритуал. Это заклинание не учитывается в числе известных вам заклинаний. Вы получаете следующий выбор форм для своего фамильяра: {@creature imp}, {@creature Фениксовый огонёк|EldArc}, {@creature pseudodragon}, {@creature quasit} или {@creature Спрайт|EldArc}. Вы можете общаться со своим фамильяром телепатически и воспринимать через его чувства, пока находитесь с ним на одном плане существования. Воспринимая через чувства фамильяра, вы можете говорить через него своим собственным голосом, даже если фамильяр обычно не способен говорить.",
+								"Кроме того, вы можете действием или отказавшись от одной из своих атак, когда совершаете действие, позволяющее совершить одну или несколько атак — например, действие Атака или Наложение заклинания, — позволить своему фамильяру совершить одну атаку, используя его реакцию."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Pact of the Effigy",
+							"name": "Пакт статуэтки",
 							"source": "EldArc",
 							"page": 9,
 							"entries": [
-								"You have a mysterious effigy with a surface that constantly shifts like water. With the effigy in hand, you can use your action and choose a creature you can see within 60 feet of you to magically steal a sliver of their essence, cursing them and storing the essence in your effigy.This essence imposes disadvantage on the creature's Wisdom (Insight) checks against you, as well as its saving throws against being charmed by you. Casting {@spell remove curse} on the cursed creature or on the effigy removes the curse and makes the creature immune to this effect for 24 hours.",
-								"You can have a number of essences equal to your proficiency bonus stored within the effigy at a time. When you steal a creature's essence, you can choose to replace one of your current essences with the new one."
+								"У вас есть таинственная статуэтка с поверхностью, постоянно переливающейся, словно вода. Держа статуэтку, вы можете действием выбрать видимое существо в пределах 60 футов от вас, чтобы магически украсть щепотку его сущности, проклясть его и сохранить сущность в статуэтке. Эта сущность накладывает помеху на проверки Мудрости (Проницательность) существа против вас, а также на его спасброски против очарования вами. Наложение {@spell remove curse} на проклятое существо или на статуэтку снимает проклятие и делает существо невосприимчивым к этому эффекту на 24 часа.",
+								"В статуэтке одновременно может храниться число сущностей, равное вашему бонусу мастерства. Похищая сущность существа, вы можете заменить одну из своих текущих сущностей новой."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Pact of the Gauntlet",
+							"name": "Пакт наручей",
 							"source": "EldArc",
 							"page": 9,
 							"entries": [
-								"Your arms become covered in a thin layer of eerie, unearthly metal that channels powerful arcane blasts. You learn the {@spell eldritch blast} cantrip; if you already know it, you instead learn one warlock cantrip of your choice.Once per turn when you cast eldritch blast, you can split part of the beam, targeting a different creature within range and making a separate attack roll. This beam deals {@damage 1d4} force damage on a hit.",
-								"With these gauntlets, you can use your spellcasting ability modifier in place of Strength for ability checks and saving throws. You can also choose to use your spellcasting ability modifier for the attack and damage rolls of your unarmed strikes."
+								"Ваши руки покрываются тонким слоем жуткого, неземного металла, который направляет мощные тайные заряды. Вы изучаете заговор {@spell eldritch blast}; если вы уже знаете его, вы вместо этого изучаете один заговор колдуна на свой выбор. Один раз за ход, когда вы накладываете «Мистический заряд», вы можете разделить часть луча, нацелившись на другое существо в пределах дистанции и совершив отдельный бросок атаки. При попадании этот луч наносит {@damage 1d4} урона силовым полем.",
+								"С этими наручами вы можете использовать модификатор своей базовой характеристики для заклинаний вместо Силы для проверок характеристик и спасбросков. Вы также можете использовать этот модификатор для бросков атаки и урона своих безоружных ударов."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Pact of the Symbol",
+							"name": "Пакт символа",
 							"source": "EldArc",
 							"page": 9,
 							"entries": [
-								"You receive a symbol imbued with the influence of your patron's power. You can use your bonus action to create this pact symbol in one of your free hands, which takes the shape of any {@item arcane focus|phb}, {@item druidic focus|phb}, {@item musical instrument|phb|instrument}, or {@item holy symbol|phb} of your choice. If you choose an instrument, you are proficient with it while you wield it. You can use this symbol as a spellcasting focus for your warlock spells. Using this feature again destroys your current pact symbol.",
-								"Your pact symbol contains one influence charge, used to call upon your patron's power over your fate. While you hold the symbol, before making a d20 roll for one of your warlock spells, you can expend the charge to replace the d20 roll with a 10. Whenever you finish a short or long rest, or whenever you roll a 1 or a 20 on the d20 for a spell attack, the symbol regains its influence charge if it has been expended."
+								"Вы получаете символ, наполненный влиянием силы вашего покровителя. Вы можете бонусным действием создать этот символ договора в одной из своих свободных рук; он принимает форму {@item arcane focus|phb}, {@item druidic focus|phb}, {@item musical instrument|phb|инструмент} или {@item holy symbol|phb} на ваш выбор. Если вы выбираете инструмент, вы владеете им, пока держите его. Вы можете использовать этот символ как фокусировку для сотворения своих заклинаний колдуна. Повторное использование этого умения уничтожает ваш текущий символ договора.",
+								"Ваш символ договора содержит один заряд влияния, используемый, чтобы взывать к власти покровителя над вашей судьбой. Пока вы держите символ, перед совершением броска d20 для одного из своих заклинаний колдуна вы можете потратить заряд, чтобы заменить результат броска d20 на 10. Всякий раз, когда вы завершаете короткий или продолжительный отдых или когда вы выбрасываете 1 или 20 на d20 для атаки заклинанием, символ восстанавливает свой заряд влияния, если он был потрачен."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Pact of the Tome",
+							"name": "Таинство книги",
 							"source": "EldArc",
 							"page": 9,
 							"entries": [
-								"Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list,they are nonetheless warlock spells for you.",
-								"If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book.The book turns to ash when you die."
+								"Ваш покровитель дарует вам гримуар под названием «Книга теней». Получая это умение, выберите три заговора из списка заклинаний любого класса (они не обязательно должны быть из одного списка). Пока книга при вас, вы можете накладывать эти заговоры по желанию. Они не учитываются в числе известных вам заговоров. Если их нет в списке заклинаний колдуна, они тем не менее для вас заклинания колдуна.",
+								"Если вы теряете «Книгу теней», вы можете провести часовую церемонию, чтобы получить замену от покровителя. Эту церемонию можно провести во время короткого или продолжительного отдыха, и она уничтожает предыдущую книгу. Книга превращается в пепел, когда вы умираете."
 							],
 							"type": "entries"
 						}
@@ -1266,218 +1266,218 @@
 			]
 		},
 		{
-			"name": "Agonizing Cantrip",
+			"name": "Мучительный заговор",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 3,
 			"entries": [
-				"Starting at 3rd level, you can add your spellcasting ability modifier to damage rolls you make with any warlock cantrip, except for damage rolls that already add your spellcasting ability modifier."
+				"Начиная с 3-го уровня вы можете добавлять модификатор своей базовой характеристики для заклинаний к броскам урона любым заговором колдуна, кроме бросков урона, которые уже добавляют этот модификатор."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a feat."
+				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять черту."
 			]
 		},
 		{
-			"name": "Liminal Loop",
+			"name": "Пограничная петля",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 5,
 			"entries": [
-				"At 5th level, when you cast a warlock cantrip, instead of increasing that damage when you reach certain levels, you can cast the cantrip additional times as part of the same action. The cantrip must deal damage, and it must make a spell attack or require a saving throw. You can cast it two times at 5th level, three times at 11th level,and four times at17th level. When you do, the cantrip can deal its damage more than once, but its other effects aren't applied to the same target again."
+				"На 5-м уровне, когда вы накладываете заговор колдуна, вместо увеличения его урона при достижении определённых уровней вы можете накладывать этот заговор дополнительные разы в рамках того же действия. Заговор должен наносить урон, а также требовать броска атаки заклинанием или спасброска. Вы можете накладывать его дважды на 5-м уровне, трижды на 11-м уровне и четырежды на 17-м уровне. При этом заговор может нанести урон более одного раза, но его прочие эффекты не применяются к одной и той же цели повторно."
 			]
 		},
 		{
-			"name": "Otherworldly Patron feature",
+			"name": "Особенность потустороннего покровителя",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain an additional feature from your Otherworldy Patron."
+				"На 6-м уровне вы получаете дополнительное умение от своего потустороннего покровителя."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a feat."
+				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять черту."
 			]
 		},
 		{
-			"name": "Otherworldly Patron feature",
+			"name": "Особенность потустороннего покровителя",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain an additional feature from your Otherworldy Patron."
+				"На 10-м уровне вы получаете дополнительное умение от своего потустороннего покровителя."
 			]
 		},
 		{
-			"name": "Mystic Arcanum (6th Level)",
+			"name": "Таинственный арканум (6-й уровень)",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 11,
 			"entries": [
-				"At 11th level, choose a 6th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+				"На 11-м уровне выберите заклинание 6-го уровня из списка заклинаний колдуна как арканум. Вы можете наложить своё заклинание арканума один раз, не тратя ячейку заклинания. Прежде чем сделать это снова, вы должны завершить продолжительный отдых."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a feat."
+				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять черту."
 			]
 		},
 		{
-			"name": "Mystic Arcanum (7th Level)",
+			"name": "Таинственный арканум (7-й уровень)",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 13,
 			"entries": [
-				"At 13th level, choose a 7th-level spell from the warlock spell list as an additional arcanum. You can cast your additional arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+				"На 13-м уровне выберите заклинание 7-го уровня из списка заклинаний колдуна как дополнительный арканум. Вы можете наложить своё дополнительное заклинание арканума один раз, не тратя ячейку заклинания. Прежде чем сделать это снова, вы должны завершить продолжительный отдых."
 			]
 		},
 		{
-			"name": "Otherworldly Patron feature",
+			"name": "Особенность потустороннего покровителя",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain an additional feature from your Otherworldy Patron."
+				"На 14-м уровне вы получаете дополнительное умение от своего потустороннего покровителя."
 			]
 		},
 		{
-			"name": "Mystic Arcanum (8th Level)",
+			"name": "Таинственный арканум (8-й уровень)",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 15,
 			"entries": [
-				"At 15th level, choose a 8th-level spell from the warlock spell list as an additional arcanum. You can cast your additional arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+				"На 15-м уровне выберите заклинание 8-го уровня из списка заклинаний колдуна как дополнительный арканум. Вы можете наложить своё дополнительное заклинание арканума один раз, не тратя ячейку заклинания. Прежде чем сделать это снова, вы должны завершить продолжительный отдых."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a feat."
+				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять черту."
 			]
 		},
 		{
-			"name": "Mystic Arcanum (9th Level)",
+			"name": "Таинственный арканум (9-й уровень)",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 17,
 			"entries": [
-				"At 17th level, choose a 9th-level spell from the warlock spell list as an additional arcanum. You can cast your additional arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+				"На 17-м уровне выберите заклинание 9-го уровня из списка заклинаний колдуна как дополнительный арканум. Вы можете наложить своё дополнительное заклинание арканума один раз, не тратя ячейку заклинания. Прежде чем сделать это снова, вы должны завершить продолжительный отдых."
 			]
 		},
 		{
-			"name": "Vault of Knowledge",
+			"name": "Хранилище знаний",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 18,
 			"entries": [
-				"At 18th level, you learn the secret to tapping the depths your patron's otherworldly knowledge and power. You can replace one of your invocations with another option when you finish a short or long rest."
+				"На 18-м уровне вы узнаёте секрет, позволяющий черпать из глубин потусторонних знаний и силы вашего покровителя. Когда вы завершаете короткий или продолжительный отдых, вы можете заменить одно из своих воззваний другим вариантом."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a feat."
+				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять черту."
 			]
 		},
 		{
-			"name": "Arcane Feedback",
+			"name": "Тайная отдача",
 			"source": "EldArc",
 			"page": 9,
 			"className": "Warlock",
 			"classSource": "EldArc",
 			"level": 20,
 			"entries": [
-				"At 20th level, whenever you use your Mystic Arcanum feature, you can regain one expended spell slot from your Pact Magic feature."
+				"На 20-м уровне, всякий раз когда вы используете умение «Таинственный арканум», вы можете восстановить одну потраченную ячейку заклинания от умения «Магия договора»."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "The Chosen of Mystra",
+			"name": "Избранник Мистры",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Mystra",
+			"subclassShortName": "Мистра",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your patron is one of the Chosen of Mystra: mortals of great power who serve Mystra, the mother of all magic. These mortals have been granted a portion of Mystra's divine essence - called spellfire - which they use to guard the Weave from disruption, preserving the status quo of magic among the realms. These chosen mortals, while extremely powerful, are not infallible themselves; they sometimes contract Warlocks to assist with their goals, granting them a small part of their silver flame in exchange."
+				"Ваш покровитель — один из Избранников Мистры: смертные огромной силы, служащие Мистре, матери всей магии. Этим смертным дарована часть божественной сущности Мистры — так называемый чароогонь, — который они используют, чтобы охранять Плетение от нарушений, сохраняя статус-кво магии в мирах. Эти избранные смертные, при всей своей чрезвычайной силе, сами не безгрешны; иногда они нанимают колдунов для содействия своим целям, даруя им взамен частицу своего серебристого пламени."
 			]
 		},
 		{
-			"name": "Expanded Spell List",
+			"name": "Расширенный список заклинаний",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Mystra",
+			"subclassShortName": "Мистра",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"The following spells are added to the warlock spell list for you.",
+				"В ваш список заклинаний колдуна добавляются следующие заклинания.",
 				{
 					"type": "table",
-					"caption": "Chosen of MYstra Expanded Spells",
+					"caption": "Расширенные заклинания Избранника Мистры",
 					"colLabels": [
-						"Spell Level",
-						"Spells"
+						"Уровень заклинания",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -1485,42 +1485,42 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell identify}, {@spell magic missile}"
 						],
 						[
-							"2nd",
+							"2-й",
 							"{@spell arcane lock}, {@spell dragon's breath|XGE}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell glyph of warding}, {@spell pulse wave|EGW}"
 						],
 						[
-							"4th",
-							"{@spell conjure minor elementals}, {@spell otiluke's resilient sphere|PHB|resilient sphere}"
+							"4-й",
+							"{@spell conjure minor elementals}, {@spell otiluke's resilient sphere|PHB|упругий шар}"
 						],
 						[
-							"5th",
-							"{@spell bigby's hand|PHB|arcane hand}, {@spell passwall}"
+							"5-й",
+							"{@spell bigby's hand|PHB|тайная рука}, {@spell passwall}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Minor Spellfire",
+			"name": "Малый чароогонь",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Mystra",
+			"subclassShortName": "Мистра",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you choose this patron at 1st level, you possess a fragment of Mystra's spellfire, a flame that protects you from compulsory effects.",
-				"At the start of each of your turns, or as an action, you can end one effect for yourself that is causing you to be {@condition charmed} or {@condition frightened}.",
-				"You can use this feature twice, and expended uses are replenished when you finish a short or long rest."
+				"Когда вы выбираете этого покровителя на 1-м уровне, вы обладаете фрагментом чароогня Мистры — пламенем, защищающим вас от принуждающих эффектов.",
+				"В начале каждого своего хода или действием вы можете окончить для себя один эффект, из-за которого вы получаете состояние {@condition charmed} или {@condition frightened}.",
+				"Вы можете использовать это умение дважды, и потраченные применения восстанавливаются, когда вы завершаете короткий или продолжительный отдых."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -1528,32 +1528,32 @@
 			}
 		},
 		{
-			"name": "Protect the Weave",
+			"name": "Защита Плетения",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Mystra",
+			"subclassShortName": "Мистра",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Occasionally, warlocks of a Chosen of Mystra will receive missives from their patron, ordering them to investigate an event that might cause damage to the Weave. Such events might range from a ritual all the way to an act of the divine. Often, these events will be orchestrated purposely by an evil entity; however, it is still somewhat likely that a Wizard haphazardly creates a broken summoning circle. Work with your DM to determine such scenarios and explore them with your party."
+				"Иногда колдуны Избранника Мистры получают от покровителя послания с приказом расследовать событие, способное повредить Плетению. Такие события могут варьироваться от ритуала вплоть до божественного деяния. Часто эти события намеренно организует злая сущность; однако всё же вполне вероятно, что волшебник небрежно создаст сломанный круг вызова. Обсудите с вашим Мастером такие сценарии и исследуйте их вместе с группой."
 			]
 		},
 		{
-			"name": "Chosen's Absorption",
+			"name": "Поглощение Избранника",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Mystra",
+			"subclassShortName": "Мистра",
 			"subclassSource": "EldArc",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can foil spells directed at you and steal the excess magical power shed by foiled spells for yourself.",
-				"When a spell targets only you, you can cast {@spell counterspell} without expending a spell slot. You can add half your warlock level to the ability check you make for {@spell counterspell} when you cast it in this way.",
-				"Also, when a spell fails within 60 feet of you, you can take a bonus action during your next turn to steal the spell for yourself. The spell must be of a level for which you have spell slots. You can cast the spell once as a warlock spell,using a warlock spell slot.",
-				"Once you use this bonus action, you must finish a long rest before you can do so again. A stolen spell is lost when you finish a long rest."
+				"Начиная с 6-го уровня вы можете отражать направленные на вас заклинания и присваивать себе избыточную магическую силу, сброшенную отражёнными заклинаниями.",
+				"Когда заклинание нацелено только на вас, вы можете наложить {@spell counterspell}, не тратя ячейку заклинания. Вы можете добавить половину своего уровня колдуна к проверке характеристики, совершаемой для {@spell counterspell}, когда накладываете его таким образом.",
+				"Кроме того, когда заклинание проваливается в пределах 60 футов от вас, вы можете в свой следующий ход бонусным действием присвоить это заклинание себе. Заклинание должно быть того уровня, для которого у вас есть ячейки заклинаний. Вы можете наложить это заклинание один раз как заклинание колдуна, используя ячейку заклинания колдуна.",
+				"Использовав это бонусное действие, вы должны завершить продолжительный отдых, прежде чем сделать это снова. Присвоенное заклинание теряется, когда вы завершаете продолжительный отдых."
 			],
 			"foundrySystem": {
 				"activation.type": "bonus",
@@ -1562,32 +1562,32 @@
 			}
 		},
 		{
-			"name": "Arcane Senses",
+			"name": "Тайные чувства",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Mystra",
+			"subclassShortName": "Мистра",
 			"subclassSource": "EldArc",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you can project your vision and sense arcane energy.",
-				"You can cast {@spell clairvoyance} without expending a spell slot. When cast via this feature, the spell's casting time is 1 action, and your vision through the sensor gains the effects of the {@spell detect magic} spell."
+				"Начиная с 10-го уровня вы можете проецировать своё зрение и чувствовать тайную энергию.",
+				"Вы можете наложить {@spell clairvoyance}, не тратя ячейку заклинания. При наложении через это умение время наложения заклинания — 1 действие, а ваше зрение через сенсор получает эффекты заклинания {@spell detect magic}."
 			]
 		},
 		{
-			"name": "Silver Fire",
+			"name": "Серебряный огонь",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Mystra",
+			"subclassShortName": "Мистра",
 			"subclassSource": "EldArc",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you gain the ability to project your spellfire outward, blasting your enemies.",
-				"As an action, you can create a line of silver arcane energy that resembles a spout of fire. Creatures in a line 90 feet long and 5 feet wide originating from you must make a Dexterity saving throw against your warlock spell save DC, taking {@damage 8d8} force damage on a failure, or half as much damage on a success. This damage bypasses resistance and immunity.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"Начиная с 14-го уровня вы получаете способность проецировать свой чароогонь наружу, поражая врагов.",
+				"Действием вы можете создать линию серебряной тайной энергии, напоминающую струю огня. Существа в линии длиной 90 футов и шириной 5 футов, исходящей от вас, должны совершить спасбросок Ловкости против Сл спасброска ваших заклинаний колдуна, получая {@damage 8d8} урона силовым полем при провале или половину этого урона при успехе. Этот урон обходит сопротивление и иммунитет.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите короткий или продолжительный отдых."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -1595,35 +1595,35 @@
 			}
 		},
 		{
-			"name": "The Ancient Phoenix",
+			"name": "Древний феникс",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Phoenix",
+			"subclassShortName": "Феникс",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your patron is a {@creature phoenix|MTF} which has survived thousands of years of pursuit. This being has settled on the elemental plane of fire, and is so suffused with magical energy that its powerful magic can be siphoned through rituals, even on the innermost planes."
+				"Ваш покровитель — {@creature phoenix|MTF}, переживший тысячи лет преследования. Это существо обосновалось на элементальном плане огня и настолько пропитано магической энергией, что его могущественную магию можно перекачивать через ритуалы даже на самых внутренних планах."
 			]
 		},
 		{
-			"name": "Expanded Spell List",
+			"name": "Расширенный список заклинаний",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Phoenix",
+			"subclassShortName": "Феникс",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"The following spells are added to the warlock spell list for you.",
+				"В ваш список заклинаний колдуна добавляются следующие заклинания.",
 				{
 					"type": "table",
-					"caption": "Ancient Phoenix Expanded Spells",
+					"caption": "Расширенные заклинания Древнего феникса",
 					"colLabels": [
-						"Spell Level",
-						"Spells"
+						"Уровень заклинания",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -1631,23 +1631,23 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell feather fall}, {@spell guiding bolt}"
 						],
 						[
-							"2nd",
+							"2-й",
 							"{@spell heat metal}, {@spell pyrotechnics}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell beacon of hope}, {@spell melf's minute meteors}"
 						],
 						[
-							"4th",
+							"4-й",
 							"{@spell aura of purity}, {@spell fire shield}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell holy weapon}, {@spell reincarnate}"
 						]
 					]
@@ -1655,22 +1655,22 @@
 			]
 		},
 		{
-			"name": "Mantle of Flame",
+			"name": "Мантия пламени",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Phoenix",
+			"subclassShortName": "Феникс",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Starting when you choose this patron at 1st level, you can unleash the phoenix fire that blazes within you.",
-				"As an action, you wreathe yourself in swirling flame and your eyes glow like hot coals. You gain the benefits below until you use your bonus action to end the effect or you are {@condition incapacitated}:",
+				"Начиная с момента, когда вы выбираете этого покровителя на 1-м уровне, вы можете высвобождать огонь феникса, пылающий внутри вас.",
+				"Действием вы окутываете себя клубящимся пламенем, а ваши глаза светятся, как раскалённые угли. Вы получаете преимущества ниже, пока не используете бонусное действие, чтобы окончить эффект, или пока не станете {@condition incapacitated}:",
 				{
 					"type": "list",
 					"items": [
-						"Each time a creature hits you with a melee attack or touches you,it take fire damage equal to 1 plus half your warlock level.",
-						"You shed bright light in a 30-foot radius and dim light for an additional 30 feet."
+						"Каждый раз, когда существо попадает по вам рукопашной атакой или касается вас, оно получает урон огнём, равный 1 плюс половина вашего уровня колдуна.",
+						"Вы излучаете яркий свет в радиусе 30 футов и тусклый свет ещё на 30 футов."
 					]
 				}
 			],
@@ -1680,22 +1680,22 @@
 			}
 		},
 		{
-			"name": "Positive Energy Infusion",
+			"name": "Наполнение положительной энергией",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Phoenix",
+			"subclassShortName": "Феникс",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Would-be Warlocks who make contact with an ancient phoenix are accidentally exposed to the raw life energy infused into a phoenix's essence. This change to the composition of your soul causes minor incompatibilities with its vessel. You may roll or choose from the following quirks to add manifestations of this change to your character.",
+				"Потенциальные колдуны, вступившие в контакт с древним фениксом, случайно подвергаются воздействию грубой жизненной энергии, влитой в сущность феникса. Это изменение состава вашей души вызывает небольшие несовместимости с её вместилищем. Вы можете бросить или выбрать из следующих причуд, чтобы добавить проявления этого изменения своему персонажу.",
 				{
 					"type": "table",
-					"caption": "Ancient Phoenix Quirks",
+					"caption": "Причуды Древнего феникса",
 					"colLabels": [
 						"d6",
-						"Quirk"
+						"Причуда"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -1704,43 +1704,43 @@
 					"rows": [
 						[
 							"1",
-							"You absentmindedly ignite small fires that quickly sputter out."
+							"Вы рассеянно поджигаете маленькие огоньки, которые быстро гаснут."
 						],
 						[
 							"2",
-							"You admire fire, even if it burns your friends."
+							"Вы восхищаетесь огнём, даже если он обжигает ваших друзей."
 						],
 						[
 							"3",
-							"You are covered in burns that mark the first time your power manifested."
+							"Вы покрыты ожогами, отметившими первое проявление вашей силы."
 						],
 						[
 							"4",
-							"You have a nervous compulsion to keep a bright light in even the barest shadow."
+							"У вас нервная потребность держать яркий свет даже в самой скупой тени."
 						],
 						[
 							"5",
-							"You have an overwhelming hatred of undead creatures."
+							"Вы испытываете всепоглощающую ненависть к нежити."
 						],
 						[
 							"6",
-							"You fidget and are irritable when you can't see the sun."
+							"Вы ерзаете и раздражаетесь, когда не видите солнца."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Warding Cyclone",
+			"name": "Оберегающий циклон",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Phoenix",
+			"subclassShortName": "Феникс",
 			"subclassSource": "EldArc",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can invoke a protective, fiery gale around yourself. When you are attacked or you must make a saving throw against an effect that only deals damage, you can use your reaction to move 5 feet without provoking opportunity attacks. If your new location is outside of the range or reach of the attack or effect, the attack roll has disadvantage, or you have advantage on your save."
+				"Начиная с 6-го уровня вы можете вызвать вокруг себя защитный огненный вихрь. Когда по вам атакуют или вы должны совершить спасбросок против эффекта, наносящего только урон, вы можете реакцией переместиться на 5 футов, не провоцируя атаки. Если ваше новое местоположение вне дистанции или досягаемости атаки либо эффекта, бросок атаки совершается с помехой, либо вы совершаете спасбросок с преимуществом."
 			],
 			"foundrySystem": {
 				"activation.type": "reaction",
@@ -1749,40 +1749,40 @@
 			}
 		},
 		{
-			"name": "Spark of Rebirth",
+			"name": "Искра перерождения",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Phoenix",
+			"subclassShortName": "Феникс",
 			"subclassSource": "EldArc",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, in the face of defeat, your flame knits your wounds and surges outward in a fiery roar.",
-				"If you are reduced to 0 hit points, you can draw upon the phoenix's spark. You are instead restored to half of your maximum hit points, and creatures within 10 feet of you take fire damage equal to your warlock level + your spellcasting ability modifier.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Начиная с 10-го уровня, перед лицом поражения ваше пламя затягивает ваши раны и вырывается наружу огненным рёвом.",
+				"Если ваши хиты опускаются до 0, вы можете взывать к искре феникса. Вы вместо этого восстанавливаетесь до половины максимума своих хитов, а существа в пределах 10 футов от вас получают урон огнём, равный вашему уровню колдуна + модификатор вашей базовой характеристики для заклинаний.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Phoenix Pinion",
+			"name": "Перо феникса",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Phoenix",
+			"subclassShortName": "Феникс",
 			"subclassSource": "EldArc",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can manifest one of your patron's feathers to sear your foes, heal your allies, and even restore life.",
-				"As an action, you conjure a phoenix pinion in a free hand. This pinion can be used once before crumbling to ashes, and you can use it in one of the following ways:",
+				"Начиная с 14-го уровня вы можете материализовать одно перо своего покровителя, чтобы опалить врагов, исцелить союзников и даже вернуть к жизни.",
+				"Действием вы создаёте перо феникса в свободной руке. Это перо можно использовать один раз, прежде чем оно рассыплется в пепел, и вы можете применить его одним из следующих способов:",
 				{
 					"type": "list",
 					"items": [
-						"For you, it is a simple melee weapon with the finesse and thrown (range 20/60) properties that deals {@damage 10d8} fire damage. When you hit with it, creatures you choose in a 20-foot radius around the target regain {@dice 5d8} hit points, and the pinion crumbles to ash.",
-						"As an action, you stab the heart of a dead creature with the pinion. If creature has died within the last 10 days, the pinion glows brilliantly for 1 minute. If the pinion isn't removed within that time, the creature's body and the pinion crumble to ash, the creature is restored to life as if by the {@spell resurrection} spell, and you can't use this option again for 7 days."
+						"Для вас это простое рукопашное оружие со свойствами «Фехтовальное» и «Метательное» (дистанция 20/60), наносящее {@damage 10d8} урона огнём. Когда вы попадаете им, выбранные вами существа в радиусе 20 футов вокруг цели восстанавливают {@dice 5d8} хитов, а перо рассыпается в пепел.",
+						"Действием вы пронзаете пером сердце мёртвого существа. Если существо погибло в течение последних 10 дней, перо ярко светится 1 минуту. Если за это время перо не извлечь, тело существа и перо рассыпаются в пепел, существо возвращается к жизни, как если бы было наложено заклинание {@spell resurrection}, и вы не можете использовать этот вариант снова 7 дней."
 					]
 				},
-				"Once you use this feature, you can't use it again until you finish a long rest. If you have a pinion at that time, it disintegrates."
+				"Использовав это умение, вы не можете использовать его снова, пока не завершите продолжительный отдых. Если в этот момент у вас есть перо, оно распадается."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -1790,35 +1790,35 @@
 			}
 		},
 		{
-			"name": "The Shadowforce",
+			"name": "Теневая сила",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Shadowforce",
+			"subclassShortName": "Теневая сила",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"You have made your pact with a mysterious entity \u2014 a force manifested in sentient magic weapons carved from shadowstuff. The force behind these weapons can offer power to warlocks who form pacts with it. These warlocks - sometimes called hexblades - can weave this powerful dark magic into the world."
+				"Вы заключили пакт с таинственной сущностью — силой, воплощённой в разумном магическом оружии, вырезанном из теневой материи. Сила, стоящая за этим оружием, может предложить мощь колдунам, заключающим с ней пакты. Эти колдуны — иногда их называют ведьмовскими клинками — могут вплетать эту могущественную тёмную магию в мир."
 			]
 		},
 		{
-			"name": "Expanded Spell List",
+			"name": "Расширенный список заклинаний",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Shadowforce",
+			"subclassShortName": "Теневая сила",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"The Shadowforce lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				"Теневая сила позволяет вам выбирать из расширенного списка заклинаний, когда вы изучаете заклинание колдуна. В ваш список заклинаний колдуна добавляются следующие заклинания.",
 				{
 					"type": "table",
-					"caption": "Shadowforce Expanded Spells",
+					"caption": "Расширенные заклинания Теневой силы",
 					"colLabels": [
-						"Spell Level",
-						"Spells"
+						"Уровень заклинания",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -1826,23 +1826,23 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell ensnaring strike}, {@spell shield}"
 						],
 						[
-							"2nd",
+							"2-й",
 							"{@spell blur}, {@spell branding smite}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell blink}, {@spell elemental weapon}"
 						],
 						[
-							"4th",
-							"{@spell Mordenkainen's faithful hound|PHB|faithful hound}, {@spell phantasmal killer}"
+							"4-й",
+							"{@spell Mordenkainen's faithful hound|PHB|верный пёс}, {@spell phantasmal killer}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell banishing smite}, {@spell cone of cold}"
 						]
 					]
@@ -1850,34 +1850,34 @@
 			]
 		},
 		{
-			"name": "Hexblade's Curse",
+			"name": "Проклятие ведьмовского клинка",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Shadowforce",
+			"subclassShortName": "Теневая сила",
 			"subclassSource": "EldArc",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Also at 1st level, you can imbue your weapons with a curse that seals victims' abilities.",
-				"While you wield a weapon or arcane focus, you can emblazon it with intricate runes that form a wicked, sealing curse - the Hexblade's Curse. While you wield this emblazoned item, you can force a creature you hit with a weapon or spell attack to succeed on a Charisma saving throw against your spell save DC or be cursed with the Hexblade's Curse for 1 minute. A creature can only be forced to make this saving throw once per turn.",
-				"As powerful hexes hamper its abilities, the creature cursed by your Hexblade's Curse must roll a d4 and subtract it from any ability checks,attack rolls,or saving throws it makes.",
-				"Once you've cursed a creature with this feature, you can't use this feature again until you finish a short or long rest."
+				"Также на 1-м уровне вы можете наполнить своё оружие проклятием, запечатывающим способности жертв.",
+				"Пока вы держите оружие или тайную фокусировку, вы можете украсить её замысловатыми рунами, образующими злобное запечатывающее проклятие — проклятие ведьмовского клинка. Пока вы держите украшенный предмет, вы можете заставить существо, по которому попали атакой оружием или заклинанием, преуспеть в спасброске Харизмы против Сл спасброска ваших заклинаний, иначе оно будет проклято проклятием ведьмовского клинка на 1 минуту. Существо можно заставить совершить этот спасбросок только один раз за ход.",
+				"Поскольку мощные сглазы затрудняют его способности, существо, проклятое вашим проклятием ведьмовского клинка, должно бросить d4 и вычесть результат из любых совершаемых им проверок характеристик, бросков атаки или спасбросков.",
+				"После того как вы прокляли существо этим умением, вы не можете использовать это умение снова, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Shadow Shroud",
+			"name": "Теневой саван",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Shadowforce",
+			"subclassShortName": "Теневая сила",
 			"subclassSource": "EldArc",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you weave shadowy magic around your body, protecting you from attacks.",
-				"When you are hit with an attack, you can use your reaction to activate your protective shroud, which lasts until the start of your next turn. If you do, roll a d6 whenever an attack hits you, including during the triggering attack; on a 4 or higher, the attack instead misses you.",
-				"Once you have used this feature, you can't use it again until you finish a short or long rest."
+				"На 6-м уровне вы плетёте теневую магию вокруг своего тела, защищая себя от атак.",
+				"Когда по вам попадает атака, вы можете реакцией активировать свой защитный саван, действующий до начала вашего следующего хода. Если вы это делаете, бросайте d6 всякий раз, когда атака попадает по вам, включая вызвавшую срабатывание атаку; при результате 4 или выше атака вместо этого промахивается.",
+				"Использовав это умение, вы не можете использовать его снова, пока не завершите короткий или продолжительный отдых."
 			],
 			"foundrySystem": {
 				"activation.type": "reaction",
@@ -1886,88 +1886,88 @@
 			}
 		},
 		{
-			"name": "Accursed Specter",
+			"name": "Проклятый спектр",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Shadowforce",
+			"subclassShortName": "Теневая сила",
 			"subclassSource": "EldArc",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you can bind the souls of the slain to your service, weaving them into a shadowy form.",
-				"When you slay a creature, you can cause its spirit to rise from its corpse as a {@creature specter}, the statistics for which are in the Monster Manual. When the specter appears, it takes the form of a shadowy, panther-like creature, and it gains temporary hit points equal to twice your warlock level plus your spellcasting ability modifier. Roll initiative for the specter, which has its own turns. The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife.",
-				"It obeys your verbal commands (no action required by you), and it gains a special bonus to its AC and saving throws, as well as to its attack and damage rolls. This bonus is equal to your spellcasting ability modifier (minimum of +0).",
-				"Once you bind a specter with this feature, you can't use the feature again until you finish a long rest."
+				"Начиная с 10-го уровня вы можете связывать души убитых себе на службу, вплетая их в теневую форму.",
+				"Когда вы убиваете существо, вы можете заставить его дух подняться из трупа в виде {@creature specter}, характеристики которого приведены в «Бестиарии». Когда спектр появляется, он принимает облик теневого существа, похожего на пантеру, и получает временные хиты, равные удвоенному вашему уровню колдуна плюс модификатор вашей базовой характеристики для заклинаний. Совершите бросок инициативы для спектра: у него свои ходы. Спектр остаётся у вас на службе до конца вашего следующего продолжительного отдыха, после чего исчезает в загробную жизнь.",
+				"Он подчиняется вашим словесным приказам (действие не требуется), и он получает особый бонус к своему КД и спасброскам, а также к броскам атаки и урона. Этот бонус равен модификатору вашей базовой характеристики для заклинаний (минимум +0).",
+				"После того как вы связали спектра этим умением, вы не можете использовать это умение снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Master of Hexes",
+			"name": "Мастер проклятий",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Shadowforce",
+			"subclassShortName": "Теневая сила",
 			"subclassSource": "EldArc",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, your curse becomes more persistent and grants you further benefits.",
-				"You can now curse other creatures with your Hexblade's Curse while the curse is in effect. If you do, the curse ends on the previous creature,and the curse's remaining duration carries over.",
-				"Additionally, you gain the following benefits against creatures afflicted by your Hexblade's Curse:",
+				"Начиная с 14-го уровня ваше проклятие становится более стойким и дарует вам дополнительные преимущества.",
+				"Теперь вы можете проклинать других существ своим проклятием ведьмовского клинка, пока проклятие действует. Если вы это делаете, проклятие заканчивается на предыдущем существе, а оставшаяся длительность проклятия переносится.",
+				"Кроме того, вы получаете следующие преимущества против существ, поражённых вашим проклятием ведьмовского клинка:",
 				{
 					"type": "list",
 					"items": [
-						"Once per turn when you deal damage to the cursed target, you can inflict {@damage 3d10} extra damage of the same type.",
-						"Any attack roll you make against the cursed target is a critical hit on a roll of19 or 20 on the d20.",
-						"If the cursed target dies, you regain hit points equal to your warlock level + your spellcasting ability modifier."
+						"Один раз за ход, когда вы наносите урон проклятой цели, вы можете причинить {@damage 3d10} дополнительного урона того же типа.",
+						"Любой ваш бросок атаки по проклятой цели считается критическим попаданием при результате 19 или 20 на d20.",
+						"Если проклятая цель умирает, вы восстанавливаете хиты, равные вашему уровню колдуна + модификатор вашей базовой характеристики для заклинаний."
 					]
 				}
 			]
 		},
 		{
-			"name": "The Celestial",
+			"name": "Небесный",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Celestial",
+			"subclassShortName": "Небесный",
 			"subclassSource": "EldArc-PHB",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient {@creature empyrean}, {@creature solar}, {@creature ki-rin|VGM}, {@creature unicorn}, or other entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.",
-				"Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, and a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now, and that your pact binds you to bring light to the dark places of the world."
+				"Ваш покровитель — могущественное существо Верхних Планов. Вы связали себя с древним {@creature empyrean}, {@creature solar}, {@creature ki-rin|VGM}, {@creature unicorn} или иной сущностью, обитающей на планах вечного блаженства. Ваш пакт с этим существом позволяет вам ощутить легчайшее прикосновение святого света, озаряющего мультивселенную.",
+				"Связь с такой силой может вызвать изменения в вашем поведении и убеждениях. Вы можете обнаружить, что вами движет стремление уничтожать нежить, побеждать исчадий и защищать невинных. Иногда ваше сердце также может наполниться тоской по небесному царству вашего покровителя и желанием странствовать по этому раю до конца своих дней. Но сейчас вы знаете, что ваша миссия связана со смертными и что ваш договор обязывает вас приносить свет в тёмные места мира."
 			]
 		},
 		{
-			"name": "Bonus Cantrips",
+			"name": "Дополнительные заговоры",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Celestial",
+			"subclassShortName": "Небесный",
 			"subclassSource": "EldArc-PHB",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you choose this patron at 1st level, you learn the {@spell light} and {@spell sacred flame} cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
+				"Когда вы выбираете этого покровителя на 1-м уровне, вы изучаете заговоры {@spell light} и {@spell sacred flame}. Они считаются для вас заговорами колдуна, но не учитываются в числе известных вам заговоров."
 			]
 		},
 		{
-			"name": "Expanded Spell List",
+			"name": "Расширенный список заклинаний",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Celestial",
+			"subclassShortName": "Небесный",
 			"subclassSource": "EldArc-PHB",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				"Небесный позволяет вам выбирать из расширенного списка заклинаний, когда вы изучаете заклинание колдуна. В ваш список заклинаний колдуна добавляются следующие заклинания.",
 				{
 					"type": "table",
-					"caption": "Celestial Expanded Spells",
+					"caption": "Расширенные заклинания Небесного",
 					"colLabels": [
-						"Spell Level",
-						"Spells"
+						"Уровень заклинания",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -1975,23 +1975,23 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell cure wounds}, {@spell guiding bolt}"
 						],
 						[
-							"2nd",
+							"2-й",
 							"{@spell flaming sphere}, {@spell lesser restoration}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell daylight}, {@spell revivify}"
 						],
 						[
-							"4th",
+							"4-й",
 							"{@spell guardian of faith}, {@spell wall of fire}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell flame strike}, {@spell greater restoration}"
 						]
 					]
@@ -1999,17 +1999,17 @@
 			]
 		},
 		{
-			"name": "Healing Light",
+			"name": "Лечащий свет",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Celestial",
+			"subclassShortName": "Небесный",
 			"subclassSource": "EldArc-PHB",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At lst level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d8s that you spend to fuel this healing. The number of dice in the pool equals 1 + half of your warlock level, rounded down (minimum of 0). Your pool regains all expended dice when you finish a long rest.",
-				"As a bonus action, you can spend dice from the pool to heal one creature you can see within 60 feet of you. The maximum number of dice you can spend at once equals your spellcasting ability modifier (minimum of one die). Roll the dice you spend, add them together,and restore a number of hit points equal to the total."
+				"На 1-м уровне вы получаете способность направлять небесную энергию для лечения ран. У вас есть запас d8, которые вы тратите для этого лечения. Число костей в запасе равно 1 + половина вашего уровня колдуна с округлением вниз (минимум 0). Ваш запас восстанавливает все потраченные кости, когда вы завершаете продолжительный отдых.",
+				"Бонусным действием вы можете потратить кости из запаса, чтобы исцелить одно существо, которое видите в пределах 60 футов от вас. Максимум костей, который можно потратить за раз, равен модификатору вашей базовой характеристики для заклинаний (минимум одна кость). Бросьте потраченные кости, сложите результаты и восстановите хиты в количестве, равном сумме."
 			],
 			"foundrySystem": {
 				"activation.type": "bonus",
@@ -2017,11 +2017,11 @@
 			}
 		},
 		{
-			"name": "Radiant Soul",
+			"name": "Сияющая душа",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Celestial",
+			"subclassShortName": "Небесный",
 			"subclassSource": "EldArc-PHB",
 			"level": 6,
 			"resist": [
@@ -2035,41 +2035,41 @@
 			],
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, your link to the Celestial emblazons your soul with radiant energy, protecting you. You have resistance to radiant damage, and you are immune to poison and disease."
+				"Начиная с 6-го уровня ваша связь с Небесным озаряет вашу душу сияющей энергией, защищая вас. Вы обладаете сопротивлением урону излучением и невосприимчивы к яду и болезням."
 			]
 		},
 		{
-			"name": "Celestial Reinforcement",
+			"name": "Небесное укрепление",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Celestial",
+			"subclassShortName": "Небесный",
 			"subclassSource": "EldArc-PHB",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, the Celestial magic you wield circulates through you, reinforcing your healing abilities.",
-				"When the result of a Healing Light die you roll is below your proficiency bonus, you can replace the result with your proficiency bonus. Also, you and up to 5 creatures of your choice that can see you gain temporary hit points equal to your warlock level + your spellcasting ability modifier whenever you finish a long rest."
+				"Начиная с 10-го уровня небесная магия, которой вы владеете, циркулирует по вам, усиливая ваши способности к лечению.",
+				"Когда результат броска кости «Лечащего света», которую вы бросаете, ниже вашего бонуса мастерства, вы можете заменить результат своим бонусом мастерства. Кроме того, вы и до 5 существ на ваш выбор, которые вас видят, получаете временные хиты, равные вашему уровню колдуна + модификатор вашей базовой характеристики для заклинаний, всякий раз, когда вы завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Ascendant Aura",
+			"name": "Аура вознесения",
 			"source": "EldArc",
 			"className": "Warlock",
 			"classSource": "EldArc",
-			"subclassShortName": "Celestial",
+			"subclassShortName": "Небесный",
 			"subclassSource": "EldArc-PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level,the radiant energy you channel exudes from your body, healing your allies and burning your foes.",
-				"At the start of each of your turns, you can roll a die from your pool of Healing light. Each creature of your choice within a 30-foot radius of you regains hit points equal to the amount rolled + half of your warlock level, and each other creature within the area must make a Constitution saving throw, taking radiant damage equal to the amount rolled + half your warlock level on a failed saving throw, or half as much damage on a successful one."
+				"Начиная с 14-го уровня сияющая энергия, которую вы направляете, исходит из вашего тела, исцеляя союзников и сжигая врагов.",
+				"В начале каждого своего хода вы можете бросить кость из своего запаса «Лечащего света». Каждое существо на ваш выбор в радиусе 30 футов от вас восстанавливает хиты в количестве, равном выпавшему значению + половина вашего уровня колдуна, а каждое другое существо в этой области должно совершить спасбросок Телосложения, получая урон излучением, равный выпавшему значению + половина вашего уровня колдуна, при провале или половину этого урона при успехе."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Aberrant Implantation",
+			"name": "Аберрантная имплантация",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2094,11 +2094,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell awaken} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell awaken} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Accursed Weapon",
+			"name": "Проклятое оружие",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2113,11 +2113,11 @@
 				}
 			],
 			"entries": [
-				"When you hit with your pact weapon, you can deal extra necrotic damage equal to your spellcasting ability modifier (minimum of 1)."
+				"Когда вы попадаете своим оружием договора, вы можете нанести дополнительный некротический урон, равный модификатору вашей базовой характеристики для заклинаний (минимум 1)."
 			]
 		},
 		{
-			"name": "Ancient Insight",
+			"name": "Древнее озарение",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2142,11 +2142,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell legend lore} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell legend lore} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Arcane Enigma",
+			"name": "Тайная загадка",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2169,11 +2169,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell nystul's magic aura} at will, without expending a spell slot or material components."
+				"Вы можете накладывать {@spell nystul's magic aura} по желанию, не тратя ячейку заклинания и материальные компоненты."
 			]
 		},
 		{
-			"name": "Armor of Shadows",
+			"name": "Доспехи теней",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2191,11 +2191,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell mage armor} on yourself at will, without expending a spell slot or material components."
+				"Вы можете накладывать {@spell mage armor} на себя по желанию, не тратя ячейку заклинания и материальные компоненты."
 			]
 		},
 		{
-			"name": "Ascendant Step",
+			"name": "Возвышенный шаг",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2218,22 +2218,22 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell levitate} on yourself at will, without expending a spell slot or material components."
+				"Вы можете накладывать {@spell levitate} на себя по желанию, не тратя ячейку заклинания и материальные компоненты."
 			]
 		},
 		{
-			"name": "Aspect of the Moon",
+			"name": "Аспект луны",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"You no longer need sleep and can't be forced to sleep. You can gain the benefits of a long rest by spending 8 hours doing only light activity."
+				"Вам больше не нужен сон, и вас нельзя заставить спать. Вы можете получить преимущества продолжительного отдыха, потратив 8 часов только на лёгкую деятельность."
 			]
 		},
 		{
-			"name": "Beast Song",
+			"name": "Песнь зверя",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2251,11 +2251,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell speak with animals} at will, without expending a spell slot."
+				"Вы можете накладывать {@spell speak with animals} по желанию, не тратя ячейку заклинания."
 			]
 		},
 		{
-			"name": "Beguiling Influence",
+			"name": "Обольстительное влияние",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2268,11 +2268,11 @@
 				}
 			],
 			"entries": [
-				"You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill."
+				"Вы получаете владение навыками Обман и Убеждение. Если вы уже владеете любым из них, ваш бонус мастерства удваивается для любых проверок этим навыком."
 			]
 		},
 		{
-			"name": "Bewitching Whispers",
+			"name": "Обольстительный шёпот",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2297,11 +2297,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell compulsion} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell compulsion} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Bolstered Familiar",
+			"name": "Усиленный фамильяр",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2316,20 +2316,20 @@
 				}
 			],
 			"entries": [
-				"When you summon a familiar using your Pact of the Chain feature,it gains the following benefits:",
+				"Когда вы призываете фамильяра с помощью умения «Пакт цепи», он получает следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"One of the familiar's ability scores of your choice increases by 2, to a maximum of 20.",
-						"The familiar's maximum hit points increase by an amount equal to twice your warlock level.",
-						"The familiar adds a bonus to its AC, to its saving throws, to ability checks using skills with which it is proficient, and to its attack rolls. The bonus equals your proficiency bonus minus 2.",
-						"The familiar can use your warlock spell DC for its features."
+						"Одна из характеристик фамильяра на ваш выбор увеличивается на 2 (до максимума 20).",
+						"Максимум хитов фамильяра увеличивается на величину, равную удвоенному вашему уровню колдуна.",
+						"Фамильяр добавляет бонус к своему КД, спасброскам, проверкам характеристик с навыками, которыми он владеет, и броскам атаки. Бонус равен вашему бонусу мастерства минус 2.",
+						"Фамильяр может использовать Сл ваших заклинаний колдуна для своих умений."
 					]
 				}
 			]
 		},
 		{
-			"name": "Book of Ancient Secrets",
+			"name": "Книга древних тайн",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2343,12 +2343,12 @@
 				}
 			],
 			"entries": [
-				"You can now inscribe rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells. You can only cast the spells as rituals, unless you've learned them by some other means. You can also cast your warlock spells that have the ritual tag as rituals.",
-				"On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
+				"Теперь вы можете вписывать ритуалы в свою «Книгу теней». Выберите два заклинания 1-го уровня с меткой «ритуал» из списка заклинаний любого класса (они не обязательно должны быть из одного списка). Эти заклинания появляются в книге и не учитываются в числе известных вам заклинаний. С «Книгой теней» в руках вы можете накладывать выбранные заклинания. Вы можете накладывать их только как ритуалы, если не изучили их иным способом. Вы также можете накладывать свои заклинания колдуна с меткой «ритуал» как ритуалы.",
+				"Во время приключений вы можете добавлять другие заклинания-ритуалы в свою Книгу теней. Найдя такое заклинание, вы можете добавить его в книгу, если его уровень не превышает половину вашего уровня колдуна (округлённую вверх) и если вы можете выделить время на переписывание заклинания. Для каждого уровня заклинания процесс переписывания занимает 2 часа и стоит 50 зм за редкие чернила, необходимые для его записи."
 			]
 		},
 		{
-			"name": "Breath of the Night",
+			"name": "Дыхание ночи",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2372,11 +2372,11 @@
 				}
 			],
 			"entries": [
-				"You know the {@spell bestow curse} spell, which counts as a warlock spell for you. When you target a creature that is already cursed by your pact effigy with {@spell bestow curse}, the spell's level increases by one for each curse you've placed on the target (including this casting of {@spell bestow curse}), you don't need to concentrate on the spell if the spell's level is 5th or higher when you cast it, and the spell ends early if the target isn't cursed by you through any other means."
+				"Вы знаете заклинание {@spell bestow curse}, которое считается для вас заклинанием колдуна. Когда вы нацеливаетесь этим заклинанием на существо, уже проклятое вашей статуэткой договора при помощи {@spell bestow curse}, уровень заклинания увеличивается на один за каждое проклятие, наложенное вами на цель (включая это наложение {@spell bestow curse}); вам не нужно концентрироваться на заклинании, если при наложении его уровень 5-й или выше, а заклинание заканчивается досрочно, если цель не проклята вами каким-либо иным способом."
 			]
 		},
 		{
-			"name": "Call of the Lost",
+			"name": "Зов потерянных",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2401,11 +2401,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell phantasmal force} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell phantasmal force} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Chain Master's Fury",
+			"name": "Ярость владыки цепей",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2420,11 +2420,11 @@
 				}
 			],
 			"entries": [
-				"Your familiar can now attack in combat, using its normal action options (except its Multiattack, if the familiar has one). Also, when your familiar hits with an attack, you can use your reaction to cast the {@spell hex} spell on the target of your familiar's attack."
+				"Ваш фамильяр теперь может атаковать в бою, используя свои обычные варианты действий (кроме мультиатаки, если она у фамильяра есть). Кроме того, когда фамильяр попадает атакой, вы можете реакцией наложить заклинание {@spell hex} на цель атаки фамильяра."
 			]
 		},
 		{
-			"name": "Chains of Carceri",
+			"name": "Цепи Каркери",
 			"source": "EldArc",
 			"page": 14,
 			"featureType": [
@@ -2450,11 +2450,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell hold monster} at will \u2014 targeting a celestial, fiend, or elemental \u2014 without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
+				"Вы можете накладывать {@spell hold monster} по желанию — нацеливаясь на небожителя, исчадие или элементаля — не тратя ячейку заклинания и материальные компоненты. Прежде чем использовать это воззвание на том же существе снова, вы должны завершить продолжительный отдых."
 			]
 		},
 		{
-			"name": "Cloak of Flies",
+			"name": "Покров мух",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2466,9 +2466,9 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action.",
-				"The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your spellcasting ability modifier (minimum of 0 damage).",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"Бонусным действием вы можете окружить себя магической аурой, выглядящей как жужжащие мухи. Аура простирается на 5 футов от вас во всех направлениях, но не сквозь полное укрытие. Она длится, пока вы не станете недееспособны или не отпустите её бонусным действием.",
+				"Аура даёт вам преимущество на проверки Харизмы (Запугивание), но помеху на все прочие проверки Харизмы. Любое другое существо, начинающее свой ход в ауре, получает урон ядом, равный модификатору вашей базовой характеристики для заклинаний (минимум 0 урона).",
+				"Использовав это воззвание, вы не сможете использовать его снова, пока не завершите короткий или продолжительный отдых."
 			],
 			"foundrySystem": {
 				"activation.type": "bonus",
@@ -2476,18 +2476,18 @@
 			}
 		},
 		{
-			"name": "Devil's Sight",
+			"name": "Дьявольское зрение",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"You can see normally in darkness, both magical and non-magical, to a distance of 120 feet."
+				"Вы видите в темноте, как магической, так и немагической, на расстояние до 120 футов."
 			]
 		},
 		{
-			"name": "Dreadful Word",
+			"name": "Ужасающее слово",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2512,11 +2512,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell confusion} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell confusion} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Ejection of Spirit",
+			"name": "Извержение духа",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2530,7 +2530,7 @@
 				}
 			],
 			"entries": [
-				"While your effigy has a creature's essence in it, you can use your reaction when you are attacked to eject the essence, attempting to absorb the blow. Roll a d20; on an 11 or above,the essence absorbs the attack instead of you; you take no damage from the attack, and both your attacker and the creature that the essence belongs to takes necrotic damage equal to your warlock level, plus {@damage 1d6} for each curse you've placed upon them. Regardless of your roll on the d20,the essence is then destroyed."
+				"Пока в вашей статуэтке хранится сущность существа, вы можете реакцией, когда по вам атакуют, извергнуть эту сущность, пытаясь поглотить удар. Бросьте d20; при результате 11 или выше сущность поглощает атаку вместо вас; вы не получаете урона от атаки, а и ваш атакующий, и существо, которому принадлежит сущность, получают некротический урон, равный вашему уровню колдуна, плюс {@damage 1d6} за каждое наложенное вами на них проклятие. Независимо от вашего результата на d20 сущность после этого уничтожается."
 			],
 			"foundrySystem": {
 				"activation.type": "reaction",
@@ -2539,7 +2539,7 @@
 			}
 		},
 		{
-			"name": "Eldritch Cone",
+			"name": "Мистический конус",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2554,7 +2554,7 @@
 				}
 			],
 			"entries": [
-				"As an action, you create a cone of crackling energy in a 15-foot cone originating from you.Creatures in the area must succeed on a Dexterity saving throw or take force damage equal to {@damage 4d8} plus your spellcasting ability modifier. You can expend a spell slot to increase the damage by {@damage 1d8} and the size of the cone by 5 feet for each level of the slot."
+				"Действием вы создаёте конус потрескивающей энергии в 15 футов, исходящий от вас. Существа в этой области должны преуспеть в спасброске Ловкости, иначе получить урон силовым полем, равный {@damage 4d8} плюс модификатор вашей базовой характеристики для заклинаний. Вы можете потратить ячейку заклинания, чтобы увеличить урон на {@damage 1d8} и размер конуса на 5 футов за каждый уровень ячейки."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -2562,7 +2562,7 @@
 			}
 		},
 		{
-			"name": "Eldritch Doom",
+			"name": "Мистическая погибель",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2577,7 +2577,7 @@
 				}
 			],
 			"entries": [
-				"As an action, choose a point that you can see within 120 feet of you. An explosion of crackling energy erupts from that point, filling a 5-foot radius around it. Creatures in the area must succeed on a Dexterity saving throw or take force damage equal to {@damage 6d6} plus your spellcasting ability modifier. You can expend a spell slot to increase the damage by {@damage 1d6} and the radius by 5 feet for each level of the slot."
+				"Действием выберите точку, которую видите в пределах 120 футов от вас. Из этой точки вырывается взрыв потрескивающей энергии, заполняющий радиус 5 футов вокруг неё. Существа в этой области должны преуспеть в спасброске Ловкости, иначе получить урон силовым полем, равный {@damage 6d6} плюс модификатор вашей базовой характеристики для заклинаний. Вы можете потратить ячейку заклинания, чтобы увеличить урон на {@damage 1d6} и радиус на 5 футов за каждый уровень ячейки."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -2585,7 +2585,7 @@
 			}
 		},
 		{
-			"name": "Eldritch Sight",
+			"name": "Эльдрический взор",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2603,22 +2603,22 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell detect magic} at will, without expending a spell slot."
+				"Вы можете накладывать {@spell detect magic} по желанию, не тратя ячейку заклинания."
 			]
 		},
 		{
-			"name": "Eldritch Spear",
+			"name": "Мистическое копьё",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"When you cast {@spell eldritch blast}, its range is doubled."
+				"Когда вы накладываете {@spell eldritch blast}, его дистанция удваивается."
 			]
 		},
 		{
-			"name": "Eldritch Wave",
+			"name": "Мистическая волна",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2633,7 +2633,7 @@
 				}
 			],
 			"entries": [
-				"As an action, you create a beam of crackling energy that's 5-feet-wide by 20-feet-long. Creatures in the area must succeed on a Dexterity saving throw or take force damage equal to {@damage 2d10} plus your spellcasting ability modifier. You can expend a spell slot to increase the damage by {@damage 1d10} and the length of the beam by 10 feet for each level of the slot."
+				"Действием вы создаёте луч потрескивающей энергии шириной 5 футов и длиной 20 футов. Существа в этой области должны преуспеть в спасброске Ловкости, иначе получить урон силовым полем, равный {@damage 2d10} плюс модификатор вашей базовой характеристики для заклинаний. Вы можете потратить ячейку заклинания, чтобы увеличить урон на {@damage 1d10} и длину луча на 10 футов за каждый уровень ячейки."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -2641,7 +2641,7 @@
 			}
 		},
 		{
-			"name": "Emblazoned Chain",
+			"name": "Украшенная цепь",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2655,22 +2655,22 @@
 				}
 			],
 			"entries": [
-				"Your familiar can trigger the effects of curses you've placed on creatures, and it adds your spellcasting ability modifier to its damage rolls."
+				"Ваш фамильяр может вызывать эффекты проклятий, наложенных вами на существ, и добавляет модификатор вашей базовой характеристики для заклинаний к своим броскам урона."
 			]
 		},
 		{
-			"name": "Eyes of the Rune Keeper",
+			"name": "Очи рунохранителя",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"You automatically understand the meaning of any non-magical writing that you read, and you can see writing that is invisible."
+				"Вы автоматически понимаете смысл любых немагических письмен, которые читаете, и можете видеть невидимые письмена."
 			]
 		},
 		{
-			"name": "Fate's Vice",
+			"name": "Тиски судьбы",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2685,11 +2685,11 @@
 				}
 			],
 			"entries": [
-				"When you deal damage with a curse, you can deal psychic damage instead of the curse's damage type. Also, at the top of each hour, you can deal psychic damage to any number of creatures that are cursed by you, as long as you are on the same plane of existence. You choose the amount of damage each target takes, but you can't deal more damage to a single creature than half of your warlock level times the number of curses you've placed on that creature."
+				"Когда вы наносите урон проклятием, вы можете нанести психический урон вместо типа урона этого проклятия. Кроме того, в начале каждого часа вы можете нанести психический урон любому числу проклятых вами существ, пока находитесь с ними на одном плане существования. Вы выбираете величину урона для каждой цели, но не можете нанести одному существу больше урона, чем половина вашего уровня колдуна, умноженная на число наложенных вами на это существо проклятий."
 			]
 		},
 		{
-			"name": "Fiendish Vigor",
+			"name": "Демоническая мощь",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2707,18 +2707,18 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell false life} on yourself at will at its lowest level, without expending a spell slot or material components."
+				"Вы можете накладывать {@spell false life} на себя по желанию на его низшем уровне, не тратя ячейку заклинания и материальные компоненты."
 			]
 		},
 		{
-			"name": "Gaze of Two Minds",
+			"name": "Взор двух разумов",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to extend the duration until the end of your next turn. While perceiving through the target creature's senses, you benefit from any of that creature's special senses, and you are blinded and deafened to your own surroundings."
+				"Вы можете действием коснуться согласного гуманоида и воспринимать через его чувства до конца вашего следующего хода. Пока это существо находится с вами на одном плане существования, в последующие ходы вы можете действием продлевать длительность до конца вашего следующего хода. Воспринимая через чувства целевого существа, вы получаете пользу от его особых чувств, но вы ослеплены и оглушены в отношении своего окружения."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -2726,7 +2726,7 @@
 			}
 		},
 		{
-			"name": "Ghostly Gaze",
+			"name": "Призрачный взгляд",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2738,7 +2738,7 @@
 				}
 			],
 			"entries": [
-				"As an action, you gain the ability to see through solid objects to a range of 30 feet for 1 minute or until your concentration ends (as if you were concentrating on a spell). Within that range, you have darkvision if you don't already have it. During that time, you perceive objects as ghostly, transparent images. You can't use this invocation again until you finish a short or long rest."
+				"Действием вы на 1 минуту или до окончания концентрации (как если бы вы концентрировались на заклинании) получаете способность видеть сквозь твёрдые предметы на расстояние до 30 футов. В этом радиусе вы обладаете тёмным зрением, если у вас его нет. В это время вы воспринимаете предметы как призрачные прозрачные образы. Вы не можете использовать это воззвание снова, пока не завершите короткий или продолжительный отдых."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -2746,7 +2746,7 @@
 			}
 		},
 		{
-			"name": "Gift of the Depths",
+			"name": "Дар глубин",
 			"source": "EldArc",
 			"page": 15,
 			"featureType": [
@@ -2769,12 +2769,12 @@
 				}
 			],
 			"entries": [
-				"You can breathe underwater, and you gain a swimming speed equal to your walking speed.",
-				"You can also cast {@spell water breathing} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете дышать под водой и получаете скорость плавания, равную вашей скорости ходьбы.",
+				"Вы также можете наложить {@spell water breathing} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Gift of the Ever-Living Ones",
+			"name": "Дар вечноживущих",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2788,11 +2788,11 @@
 				}
 			],
 			"entries": [
-				"Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you."
+				"Когда вы восстанавливаете хиты, пока ваш фамильяр находится в пределах 100 фт. от вас, считайте, что при броске любых костей для определения восстанавливаемых вами хитов выпало максимальное значение."
 			]
 		},
 		{
-			"name": "Gift of the Protectors",
+			"name": "Дар защитников",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2807,22 +2807,22 @@
 				}
 			],
 			"entries": [
-				"A page appears in your Book of Shadows which contains a number of names equal to your spellcasting ability modifier. If you allow, a creature can use its action to write its name on the page. Any creature whose name is on the page is under the effects of the {@spell death ward} spell. When the spell ends for a creature, the creature's name disappears from the page. Each creature's name can't be inscribed onto the page again until you finish a long rest."
+				"В вашей «Книге теней» появляется страница, содержащая число имён, равное модификатору вашей базовой характеристики для заклинаний. Если вы позволите, существо может действием написать своё имя на этой странице. Любое существо, чьё имя есть на странице, находится под действием заклинания {@spell death ward}. Когда заклинание для существа заканчивается, его имя исчезает со страницы. Имя каждого существа нельзя вписать на страницу снова, пока вы не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Grasp of Hadar",
+			"name": "Хватка Хадара",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"When you hit a creature with your {@spell eldritch blast}, you can move the target in a straight line 10 feet closer to you."
+				"Когда вы попадаете по существу своим {@spell eldritch blast}, вы можете переместить цель по прямой на 10 футов ближе к вам."
 			]
 		},
 		{
-			"name": "Heed the Call",
+			"name": "Внемли зову",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2837,11 +2837,11 @@
 				}
 			],
 			"entries": [
-				"When you cast a warlock spell, instead of the spell originating from you, you can cause the spell to originate from your pact symbol, as long as you are on the same plane of existence. Also, a creature holding your pact symbol can use its action to teleport, switching places with you and leaving the symbol behind, as long as you are within 500 feet of each other. Once this action has been used, it can't be used again by any creature until you finish a long rest."
+				"Когда вы накладываете заклинание колдуна, вместо того чтобы оно исходило от вас, вы можете заставить его исходить от вашего символа договора, пока находитесь с ним на одном плане существования. Кроме того, существо, держащее ваш символ договора, может действием телепортироваться, поменявшись с вами местами и оставив символ, пока вы находитесь в пределах 500 футов друг от друга. После использования этого действия оно не может быть использовано снова ни одним существом, пока вы не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Hidden in Oblivion",
+			"name": "Скрытый в забвении",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2864,11 +2864,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell nondetection} at will, targeting yourself, without expending a spell slot."
+				"Вы можете накладывать {@spell nondetection} по желанию, нацеливаясь на себя, не тратя ячейку заклинания."
 			]
 		},
 		{
-			"name": "Hideous Blow",
+			"name": "Отвратительный удар",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2882,11 +2882,11 @@
 				}
 			],
 			"entries": [
-				"When you cast {@spell eldritch blast}, you can replace any number of the beams with an equal number of melee spell attacks that deal force damage equal to the damage dealt by the beam on a hit. You can add a +1 bonus to the attack and damage rolls of each melee spell attack you make in this way."
+				"Когда вы накладываете {@spell eldritch blast}, вы можете заменить любое число лучей таким же числом рукопашных атак заклинанием, наносящих при попадании урон силовым полем, равный урону этого луча. Вы можете добавить бонус +1 к броскам атаки и урона каждой рукопашной атаки заклинанием, совершённой таким образом."
 			]
 		},
 		{
-			"name": "Horrific Shackles",
+			"name": "Ужасающие оковы",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2911,11 +2911,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell phantasmal killer} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell phantasmal killer} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Improved Pact Weapon",
+			"name": "Улучшенное оружие договора",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2929,23 +2929,23 @@
 				}
 			],
 			"entries": [
-				"You can use any weapon you summon with your Pact of the Armory feature as a spellcasting focus for your warlock spells.",
-				"Additionally, once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra {@damage 1d8} force damage, plus another 1d8 per level of the spell slot, and you can knock the target {@condition prone} if it is Huge or smaller."
+				"Вы можете использовать любое оружие, созданное умением «Пакт оружейной», как фокусировку для сотворения своих заклинаний колдуна.",
+				"Кроме того, один раз за ход, когда вы попадаете по существу своим оружием договора, вы можете потратить ячейку заклинаний колдуна, чтобы нанести дополнительные {@damage 1d8} урона силовым полем плюс ещё 1d8 за каждый уровень ячейки, и вы можете сбить цель {@condition prone}, если она Огромного размера или меньше."
 			]
 		},
 		{
-			"name": "Lance of Lethargy",
+			"name": "Копьё вялости",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"Once on each of your turns when you hit a creature with your {@spell eldritch blast}, you can reduce that creature's speed by 10 feet until the end of your next turn."
+				"Один раз в каждый свой ход, когда вы попадаете по существу своим {@spell eldritch blast}, вы можете уменьшить скорость этого существа на 10 футов до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Lifedrinker",
+			"name": "Пожиратель жизни",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2960,11 +2960,11 @@
 				}
 			],
 			"entries": [
-				"Once on each of your turns,when you hit a creature with a weapon attack using your pact weapon, you can regain hit points equal to half the damage dealt (minimum of 0)."
+				"Один раз в каждый свой ход, когда вы попадаете по существу атакой оружием, используя своё оружие договора, вы можете восстановить хиты в количестве, равном половине нанесённого урона (минимум 0)."
 			]
 		},
 		{
-			"name": "Maddening Hex",
+			"name": "Сводящий с ума сглаз",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -2984,11 +2984,11 @@
 				}
 			],
 			"entries": [
-				"Once on each of your turns,when you hit a creature with a weapon attack using your pact weapon, you can regain hit points equal to half the damage dealt (minimum of 0)."
+				"Один раз в каждый свой ход, когда вы попадаете по существу атакой оружием, используя своё оружие договора, вы можете восстановить хиты в количестве, равном половине нанесённого урона (минимум 0)."
 			]
 		},
 		{
-			"name": "Mask of Many Faces",
+			"name": "Маска Многоликого",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -3006,11 +3006,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell disguise self} at will, without expending a spell slot."
+				"Вы можете накладывать {@spell disguise self} по желанию, не тратя ячейку заклинания."
 			]
 		},
 		{
-			"name": "Mask of Many Faces",
+			"name": "Маска Многоликого",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -3033,11 +3033,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell alter self} at will, without expending a spell slot."
+				"Вы можете накладывать {@spell alter self} по желанию, не тратя ячейку заклинания."
 			]
 		},
 		{
-			"name": "Master's Imposition",
+			"name": "Внушение владыки",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -3052,11 +3052,11 @@
 				}
 			],
 			"entries": [
-				"While your pact symbol is on your person, you have advantage on ability checks and saving throws against spells (including those that you cast), and the DC of ability checks other creatures make against your warlock spells increases by half your warlock level."
+				"Пока ваш символ договора при вас, вы совершаете с преимуществом проверки характеристик и спасброски против заклинаний (включая те, что накладываете вы сами), а Сл проверок характеристик, совершаемых другими существами против ваших заклинаний колдуна, увеличивается на половину вашего уровня колдуна."
 			]
 		},
 		{
-			"name": "Materializing Focus",
+			"name": "Материализующаяся фокусировка",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -3070,11 +3070,11 @@
 				}
 			],
 			"entries": [
-				"When you cast a warlock spell using your patron's symbol as a spellcasting focus, you can forego providing a material component if its value is no more than 25gp times your warlock level. If the spell's material component costs more than this amount, you can decrease the required cost of the component by the same amount."
+				"Когда вы накладываете заклинание колдуна, используя символ покровителя как фокусировку для сотворения, вы можете не предоставлять материальный компонент, если его стоимость не превышает 25 зм, умноженные на ваш уровень колдуна. Если материальный компонент заклинания стоит больше этой суммы, вы можете уменьшить требуемую стоимость компонента на ту же величину."
 			]
 		},
 		{
-			"name": "Minions of Chaos",
+			"name": "Миньоны хаоса",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -3099,11 +3099,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell conjure elemental} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell conjure elemental} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Mire the Mind",
+			"name": "Трясина разума",
 			"source": "EldArc",
 			"page": 16,
 			"featureType": [
@@ -3128,11 +3128,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell slow} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете один раз сотворить {@spell slow}, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Nightmares from Beyond",
+			"name": "Кошмары из-за грани",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3166,11 +3166,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell animate dead} using a warlock spell slot. You can't do so again until you finish a long rest. You can also cast the spell once without expending a spell slot, and you must finish a long rest before you can do so again."
+				"Вы можете наложить {@spell animate dead}, используя ячейку заклинаний колдуна. Вы не можете сделать это снова, пока не завершите продолжительный отдых. Вы также можете наложить это заклинание один раз, не тратя ячейку заклинания, и прежде чем сделать это снова, должны завершить продолжительный отдых."
 			]
 		},
 		{
-			"name": "One with Shadows",
+			"name": "Единение с тенями",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3182,7 +3182,7 @@
 				}
 			],
 			"entries": [
-				"When you are in dim light or darkness, you can use your action to become {@condition invisible} until you move, take an action, or take a reaction."
+				"Находясь в тусклом свете или темноте, вы можете действием стать {@condition invisible} до тех пор, пока не переместитесь, не совершите действие или реакцию."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -3190,18 +3190,18 @@
 			}
 		},
 		{
-			"name": "Otherworldly Leap",
+			"name": "Запредельный прыжок",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"Your jump distance is tripled, and you do not need a running start to attain the full distance of your long jumps."
+				"Дистанция вашего прыжка утраивается, и вам не нужен разбег, чтобы прыгнуть в длину на полную дистанцию."
 			]
 		},
 		{
-			"name": "Otherworldly Whispers",
+			"name": "Потусторонний шёпот",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3214,11 +3214,11 @@
 				}
 			],
 			"entries": [
-				"You gain proficiency in the Arcana and Religion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill."
+				"Вы получаете владение навыками Магия и Религия. Если вы уже владеете любым из них, ваш бонус мастерства удваивается для любых проверок этим навыком."
 			]
 		},
 		{
-			"name": "Pact-forged Counsel",
+			"name": "Совет, выкованный пактом",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3243,11 +3243,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell planar ally} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell planar ally} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Prophetic Falsehoods",
+			"name": "Пророческая ложь",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3272,11 +3272,11 @@
 				}
 			],
 			"entries": [
-				"You can cast the {@spell guidance} cantrip. If you target a creature other than yourself, rather than adding the result of its d4 roll to an ability check, the DM subtracts the result in secret."
+				"Вы можете накладывать заговор {@spell guidance}. Если вы нацеливаетесь на существо, отличное от себя, то вместо добавления результата его броска d4 к проверке характеристики Мастер тайно вычитает этот результат."
 			]
 		},
 		{
-			"name": "Relentless Hex",
+			"name": "Неослабевающий сглаз",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3296,7 +3296,7 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you can teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your {@spell hex} spell or by a warlock feature of yours, such as Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target."
+				"Бонусным действием вы можете телепортироваться на расстояние до 30 футов в незанятое пространство, которое видите, в пределах 5 футов от цели, проклятой вашим заклинанием {@spell hex} или умением колдуна вроде «Знаков дурного предзнаменования». Чтобы телепортироваться таким образом, вы должны видеть проклятую цель."
 			],
 			"foundrySystem": {
 				"activation.type": "bonus",
@@ -3304,7 +3304,7 @@
 			}
 		},
 		{
-			"name": "Scribe of Esoteric Knowledge",
+			"name": "Писец сокровенных знаний",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3319,11 +3319,11 @@
 				}
 			],
 			"entries": [
-				"Instead of knowing spells, you prepare a number of spells equal to the Spells Known column of the warlock table plus your spellcasting ability modifier from the warlock spell list. Spells you choose must be of a level no greater than what's shown in the Warlock table's Slot Level column for your level. You can replace any of your prepared spells whenever you finish a long rest."
+				"Вместо знания заклинаний вы подготавливаете число заклинаний, равное столбцу «Известные заклинания» таблицы колдуна плюс модификатор вашей базовой характеристики для заклинаний, из списка заклинаний колдуна. Выбранные заклинания должны быть уровня не выше указанного в столбце «Уровень ячейки» таблицы колдуна для вашего уровня. Вы можете заменить любое из своих подготовленных заклинаний, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Sculptor of Flesh",
+			"name": "Скульптор плоти",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3348,11 +3348,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell polymorph} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell polymorph} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Shepherd of the Occult",
+			"name": "Пастырь оккультного",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3378,11 +3378,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell scrying} at will - targeting a creature cursed by you - without expending a spell slot or providing material components. Your curse counts as a body part for the purposes of determining the save DC for the spell. For the duration of a {@spell scrying} spell you've cast in this way, the target of your scrying is also a valid target for your other warlock spells - regardless of the distance between you and the target - provided you can see the target through the sensor, and the spell that you cast can only target a single creature."
+				"Вы можете накладывать {@spell scrying} по желанию — нацеливаясь на проклятое вами существо — не тратя ячейку заклинания и не предоставляя материальные компоненты. Ваше проклятие считается частью тела для определения Сл спасброска этого заклинания. На время действия наложенного таким образом заклинания {@spell scrying} цель вашего наблюдения также является допустимой целью для других ваших заклинаний колдуна — независимо от расстояния между вами и целью, — при условии, что вы можете видеть цель через сенсор, а накладываемое заклинание может нацеливаться только на одно существо."
 			]
 		},
 		{
-			"name": "Shroud of Shadow",
+			"name": "Покров тени",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3405,11 +3405,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell invisibility} at will,without expending a spell slot."
+				"Вы можете накладывать {@spell invisibility} по желанию, не тратя ячейку заклинания."
 			]
 		},
 		{
-			"name": "Sign of Ill Omen",
+			"name": "Знаки дурного предзнаменования",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3434,11 +3434,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell bestow curse} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете один раз наложить {@spell bestow curse}, не расходуя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Sovereign Arcana",
+			"name": "Верховные арканумы",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3453,11 +3453,11 @@
 				}
 			],
 			"entries": [
-				"Whenever you finish a long rest, you may choose new spells from the warlock spell list to replace any of your Mystic Arcanum choices. Each new spell must be of the same spell level as the one it replaces."
+				"Всякий раз, когда вы завершаете продолжительный отдых, вы можете выбрать новые заклинания из списка заклинаний колдуна, чтобы заменить любой из своих выборов «Таинственного арканума». Каждое новое заклинание должно быть того же уровня, что и заменяемое."
 			]
 		},
 		{
-			"name": "Symbolic Bond",
+			"name": "Символическая связь",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3472,11 +3472,11 @@
 				}
 			],
 			"entries": [
-				"While another creature is carrying your pact symbol, that creature can cast any warlock spells that you know, as long as you allow it. A spell cast in this way originates from the creature carrying your symbol, and you must pay any associated cost, but is otherwise treated as though you had cast the spell."
+				"Пока другое существо несёт ваш символ договора, это существо может накладывать любые известные вам заклинания колдуна, если вы это позволите. Наложенное таким образом заклинание исходит от существа, несущего ваш символ, и вы должны оплатить все связанные с ним затраты, но во всём остальном оно считается наложенным вами."
 			]
 		},
 		{
-			"name": "Thief of Five Fates",
+			"name": "Вор пяти судеб",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3496,11 +3496,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell bane} once without expending a spell slot. You can't do so again until you finish a long rest."
+				"Вы можете наложить {@spell bane} один раз, не тратя ячейку заклинания. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Thirsting Blade",
+			"name": "Жаждущий клинок",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3515,11 +3515,11 @@
 				}
 			],
 			"entries": [
-				"Whenever you take the {@action Attack} action on your turn, you can make one additional attack with your pact weapon as part of the action."
+				"Всякий раз, когда вы совершаете в свой ход действие {@action Attack}, вы можете совершить в рамках этого действия одну дополнительную атаку своим оружием договора."
 			]
 		},
 		{
-			"name": "Tomb of Levistus",
+			"name": "Гробница Левистуса",
 			"source": "EldArc",
 			"page": 17,
 			"featureType": [
@@ -3531,8 +3531,8 @@
 				}
 			],
 			"entries": [
-				"As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are {@condition incapacitated}. These effects, including any remaining temporary hit points, all end when the ice melts.",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"Реакцией, когда вы получаете урон, вы можете заключить себя в ледяной гроб, который тает в конце вашего следующего хода. Вы получаете 10 временных хитов за уровень колдуна, которые поглощают как можно больше полученного урона. Сразу после получения урона вы получаете уязвимость к огненному урону, ваша скорость снижается до 0, и вы становитесь {@condition incapacitated}. Эти эффекты, включая любые оставшиеся временные хиты, прекращаются, когда лёд тает.",
+				"Использовав это воззвание, вы не сможете использовать его снова, пока не завершите короткий или продолжительный отдых."
 			],
 			"foundrySystem": {
 				"activation.type": "reaction",
@@ -3541,7 +3541,7 @@
 			}
 		},
 		{
-			"name": "Toy of Whimsy's Calling",
+			"name": "Игрушка зова прихоти",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3566,11 +3566,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell tiny servant|XGE} once without expending a spell slot. You regain the ability to do so when you finish a long rest."
+				"Вы можете наложить {@spell tiny servant|XGE} один раз, не тратя ячейку заклинания. Вы восстанавливаете эту способность, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Trickster's Escape",
+			"name": "Побег трикстера",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3595,11 +3595,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell freedom of movement} once without expending a spell slot. You regain the ability to do so when you finish a long rest."
+				"Вы можете наложить {@spell freedom of movement} один раз, не тратя ячейку заклинания. Вы восстанавливаете эту способность, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Two Wise Monkeys",
+			"name": "Две мудрые обезьяны",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3624,11 +3624,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell blindness/deafness} once without expending a spell slot. You regain the ability to do so when you finish a long rest."
+				"Вы можете наложить {@spell blindness/deafness} один раз, не тратя ячейку заклинания. Вы восстанавливаете эту способность, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Usurper in Shadow",
+			"name": "Узурпатор в тени",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3643,11 +3643,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell find familiar} as an action, instead of its normal casting time, and you can have a maximum of two familiars from this spell. In addition, you can choose from one of the following forms when you cast {@spell find familiar}, in addition to any forms you already have: {@creature gargoyle}, {@creature nothic}, and {@creature will-o'-wisp}."
+				"Вы можете накладывать {@spell find familiar} действием вместо обычного времени наложения, и вы можете иметь максимум два фамильяра от этого заклинания. Кроме того, при наложении {@spell find familiar} вы можете выбрать одну из следующих форм в дополнение к любым уже доступным вам: {@creature gargoyle}, {@creature nothic} и {@creature will-o'-wisp}."
 			]
 		},
 		{
-			"name": "Visions of Distant Realms",
+			"name": "Видения далёких миров",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3670,11 +3670,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell arcane eye} at will, without expending a spell slot."
+				"Вы можете накладывать {@spell arcane eye} по желанию, не тратя ячейку заклинания."
 			]
 		},
 		{
-			"name": "Warmonger's Calling",
+			"name": "Зов поджигателя войны",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3688,11 +3688,11 @@
 				}
 			],
 			"entries": [
-				"When you touch a suit of armor and grant it the benefits of your Pact of the Armory feature, that armor can be heavy armor, and you can teleport it onto you, instantly donning it as part of the action."
+				"Когда вы касаетесь комплекта доспеха и даруете ему преимущества своего умения «Пакт оружейной», этот доспех может быть тяжёлым, и вы можете телепортировать его на себя, мгновенно надевая его в рамках этого действия."
 			]
 		},
 		{
-			"name": "Weaver of Nightmares",
+			"name": "Ткач кошмаров",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3717,11 +3717,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell web} once without expending a spell slot. You regain the ability to do so when you finish a long rest."
+				"Вы можете наложить {@spell web} один раз, не тратя ячейку заклинания. Вы восстанавливаете эту способность, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Whispers of the Grave",
+			"name": "Шёпот могилы",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3744,11 +3744,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell speak with dead} at will, without expending a spell slot."
+				"Вы можете накладывать {@spell speak with dead} по желанию, не тратя ячейку заклинания."
 			]
 		},
 		{
-			"name": "Witch Sight",
+			"name": "Ведьмин взор",
 			"source": "EldArc",
 			"page": 18,
 			"featureType": [
@@ -3760,13 +3760,13 @@
 				}
 			],
 			"entries": [
-				"You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."
+				"Вы можете видеть истинный облик любого Меняющего форму или существа, скрытого магией Иллюзии или Преобразования, если существо находится в пределах 30 футов от вас и в пределах Поля зрения."
 			]
 		}
 	],
 	"spell": [
 		{
-			"name": "Eldritch Blast",
+			"name": "Мистический заряд",
 			"source": "EldArc",
 			"page": 18,
 			"level": 0,
@@ -3794,8 +3794,8 @@
 				}
 			],
 			"entries": [
-				"A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} force damage.",
-				"This spell's damage increases by {@damage 1d10} when you reach 5th level ({@damage 2d10}),11th level ({@damage 3d10}),and 17th level ({@damage 4d10})."
+				"К существу в пределах дистанции устремляется луч потрескивающей энергии. Совершите дальнобойную атаку заклинанием по цели. При попадании цель получает {@damage 1d10} урона силовым полем.",
+				"Урон этого заклинания увеличивается на {@damage 1d10}, когда вы достигаете 5-го уровня ({@damage 2d10}), 11-го уровня ({@damage 3d10}) и 17-го уровня ({@damage 4d10})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -3820,14 +3820,14 @@
 			],
 			"fluff": {
 				"entries": [
-					"When using {@class warlock|EldArc|this class}, it is recommended to make the following change to the eldritch blast cantrip. This change requires that you take 5 levels in {@class Warlock|EldArc} to get their signature \"multi-cast\" cantrip style as a balancing measure for multiclassing."
+					"Используя {@class Колдун|EldArc|этот класс}, рекомендуется внести следующее изменение в заговор «Мистический заряд». Это изменение требует взять 5 уровней в {@class Колдун|EldArc}, чтобы получить их фирменный стиль заговора с «множественным наложением» в качестве меры баланса для мультиклассирования."
 				]
 			}
 		}
 	],
 	"monster": [
 		{
-			"name": "Phoenix Wisp",
+			"name": "Фениксовый огонёк",
 			"source": "EldArc",
 			"page": 19,
 			"size": [
@@ -3890,10 +3890,10 @@
 			"cr": "1/4",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The phoenix wisp's innate spellcasting ability is Charisma (spell save {@dc 12}, +4 to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"Врождённая базовая характеристика для заклинаний фениксова огонька — Харизма (Сл спасброска {@dc 12}, +4 к попаданию атаками заклинаниями). Он может врождённо накладывать следующие заклинания, не требуя компонентов:"
 					],
 					"will": [
 						"control flames",
@@ -3911,35 +3911,35 @@
 			],
 			"trait": [
 				{
-					"name": "Keen Senses",
+					"name": "Острые чувства",
 					"entries": [
-						"The phoenix wisp has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell."
+						"Фениксовый огонёк совершает с преимуществом проверки Мудрости (Внимательность), основанные на зрении, слухе или обонянии."
 					]
 				},
 				{
-					"name": "Limited Telepathy",
+					"name": "Ограниченная телепатия",
 					"entries": [
-						"The phoenix wisp can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 ft. of it that can understand a language."
+						"Фениксовый огонёк может магически передавать простые идеи, эмоции и образы телепатически любому существу в пределах 100 фт. от него, понимающему какой-либо язык."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The phoenix wisp has advantage on saving throws against spells and other magical effects."
+						"Фениксовый огонёк совершает с преимуществом спасброски против заклинаний и других магических эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Peck",
+					"name": "Клюв",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing and 2 ({@damage 1d4}) fire or radiant damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона и 2 ({@damage 1d4}) урона огнём или излучением."
 					]
 				},
 				{
-					"name": "Flame Lick",
+					"name": "Язык пламени",
 					"entries": [
-						"{@atk rs} {@hit 4} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d8 + 2}) fire or radiant damage."
+						"{@atk rs} {@hit 4} к попаданию, дистанция 20/60 фт., одна цель. {@h}6 ({@damage 1d8 + 2}) урона огнём или излучением."
 					]
 				}
 			],
@@ -3952,7 +3952,7 @@
 			]
 		},
 		{
-			"name": "Sprite",
+			"name": "Спрайт",
 			"source": "EldArc",
 			"page": 19,
 			"size": [
@@ -4006,10 +4006,10 @@
 			"cr": "1/4",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The sprite's innate spellcasting ability is Wisdom (spell save {@dc 11}, +3 to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"Врождённая базовая характеристика для заклинаний спрайта — Мудрость (Сл спасброска {@dc 11}, +3 к попаданию атаками заклинаниями). Он может врождённо накладывать следующие заклинания, не требуя компонентов:"
 					],
 					"will": [
 						"dancing lights",
@@ -4027,41 +4027,41 @@
 			],
 			"trait": [
 				{
-					"name": "Magic Weapons",
+					"name": "Магическое оружие",
 					"entries": [
-						"The sprite's weapon attacks are magical."
+						"Атаки оружием спрайта считаются магическими."
 					]
 				},
 				{
-					"name": "Read Intent",
+					"name": "Чтение намерений",
 					"entries": [
-						"The sprite knows the emotional state of any creature it can see. It also knows whether the creature is hostile, neutral, or friendly to the sprite."
+						"Спрайт знает эмоциональное состояние любого существа, которое видит. Он также знает, настроено ли существо к спрайту враждебно, нейтрально или дружественно."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage, and the target must succeed on a {@dc 10} Constitution saving throw or become {@condition poisoned} for 1 minute. If the poisoned target failed its saving throw by 5 or more, it falls {@condition unconscious} for the same duration, or until it takes damage or another creature takes an action to shake it awake."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) рубящего урона, и цель должна преуспеть в спасброске Телосложения {@dc 10}, иначе получить состояние {@condition poisoned} на 1 минуту. Если отравленная цель провалила спасбросок на 5 или больше, она становится {@condition unconscious} на ту же длительность или до получения урона либо пока другое существо не потратит действие, чтобы разбудить её."
 					]
 				},
 				{
-					"name": "Shortbow",
+					"name": "Короткий лук",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 40/160 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+						"{@atk rw} {@hit 6} к попаданию, дистанция 40/160 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Heart Sight",
+					"name": "Видение сердца",
 					"entries": [
-						"The sprite touches a creature, and the target must make a {@dc 10} Charisma saving throw. On a failed save, the sprite knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw."
+						"Спрайт касается существа, и цель должна совершить спасбросок Харизмы {@dc 10}. При провале спрайт узнаёт мировоззрение существа. Небожители, исчадия и нежить автоматически проваливают этот спасбросок."
 					]
 				},
 				{
-					"name": "Invisibility",
+					"name": "Невидимость",
 					"entries": [
-						"The sprite magically turns {@condition invisible} until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it."
+						"Спрайт магически становится {@condition invisible}, пока не атакует, не наложит заклинание или пока не окончится его концентрация (как если бы он концентрировался на заклинании). Любое снаряжение, которое спрайт носит или несёт, невидимо вместе с ним."
 					]
 				}
 			],

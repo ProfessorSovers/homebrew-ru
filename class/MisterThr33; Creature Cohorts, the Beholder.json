@@ -24,7 +24,7 @@
 	},
 	"class": [
 		{
-			"name": "Beholder",
+			"name": "Созерцатель",
 			"source": "BeholderCohorts",
 			"hd": {
 				"number": 1,
@@ -53,363 +53,363 @@
 				]
 			},
 			"classFeatures": [
-				"Bonus Proficiencies|Beholder|BeholderCohorts|1",
-				"Lesser Eye Ray|Beholder|BeholderCohorts|2",
-				"Ocular Expertise|Beholder|BeholderCohorts|3",
-				"Ability Score Improvement|Beholder|BeholderCohorts|4",
-				"Natural Armor 14|Beholder|BeholderCohorts|5",
-				"Twin Rays|Beholder|BeholderCohorts|6",
-				"Size Increase (Medium)|Beholder|BeholderCohorts|7",
-				"Ability Score Improvement|Beholder|BeholderCohorts|8",
-				"Natural armor 16|Beholder|BeholderCohorts|9",
-				"Shape Change|Beholder|BeholderCohorts|9",
-				"Despot of Dreams|Beholder|BeholderCohorts|10",
-				"Greater Eye Ray|Beholder|BeholderCohorts|11",
-				"Ability Score Improvement|Beholder|BeholderCohorts|12",
-				"Antimagic Cone|Beholder|BeholderCohorts|13",
-				"Ray Mastery|Beholder|BeholderCohorts|14",
-				"Size Increase (Large)|Beholder|BeholderCohorts|15",
-				"Ability Score Improvement|Beholder|BeholderCohorts|16",
-				"Natural Armor 18|Beholder|BeholderCohorts|17",
-				"Panopticon|Beholder|BeholderCohorts|18",
-				"Ability Score Improvement|Beholder|BeholderCohorts|19",
-				"Eye Tyrant|Beholder|BeholderCohorts|20"
+				"Бонусные владения|Beholder|BeholderCohorts|1",
+				"Малый глазной луч|Beholder|BeholderCohorts|2",
+				"Мастерство глаза|Beholder|BeholderCohorts|3",
+				"Увеличение характеристик|Beholder|BeholderCohorts|4",
+				"Природная броня 14|Beholder|BeholderCohorts|5",
+				"Парные лучи|Beholder|BeholderCohorts|6",
+				"Увеличение размера (средний)|Beholder|BeholderCohorts|7",
+				"Увеличение характеристик|Beholder|BeholderCohorts|8",
+				"Природная броня 16|Beholder|BeholderCohorts|9",
+				"Изменение формы|Beholder|BeholderCohorts|9",
+				"Владыка сновидений|Beholder|BeholderCohorts|10",
+				"Большой глазной луч|Beholder|BeholderCohorts|11",
+				"Увеличение характеристик|Beholder|BeholderCohorts|12",
+				"Конус антимагии|Beholder|BeholderCohorts|13",
+				"Мастерство лучей|Beholder|BeholderCohorts|14",
+				"Увеличение размера (большой)|Beholder|BeholderCohorts|15",
+				"Увеличение характеристик|Beholder|BeholderCohorts|16",
+				"Природная броня 18|Beholder|BeholderCohorts|17",
+				"Паноптикум|Beholder|BeholderCohorts|18",
+				"Увеличение характеристик|Beholder|BeholderCohorts|19",
+				"Глазной тиран|Beholder|BeholderCohorts|20"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Bonus Proficiencies",
+			"name": "Бонусные владения",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 1,
 			"entries": [
-				"The beholder gains profiency in one saving throw of your choice: Constitution, Intelligence, or Charisma.",
-				"In addition, the cohort gains proficiency in two skills of your choice from the following list: {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Intimidation}, {@skill Investigation}, or {@skill Persuasion}.",
-				"(The above list assumes the cohort has the Beholder race--if not, then add Perception to the list of options.)"
+				"Созерцатель получает владение одним спасброском на ваш выбор: Телосложение, Интеллект или Харизма.",
+				"Кроме того, соратник получает владение двумя навыками на ваш выбор из следующего списка: {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Intimidation}, {@skill Investigation} или {@skill Persuasion}.",
+				"(Приведённый выше список предполагает, что у соратника есть раса созерцателя; если нет, добавьте к вариантам Внимательность.)"
 			]
 		},
 		{
-			"name": "Lesser Eye Ray",
+			"name": "Малый глазной луч",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 2,
 			"entries": [
-				"Starting at level 2, the beholder learns to use its most feared ability: eye rays. The save DC against your eye rays (from both the Lesser Eye Ray and Greater Eye Ray abilities) is calcuated as follows:",
+				"Начиная со 2-го уровня созерцатель учится использовать свою самую страшную способность — глазные лучи. Сл спасброска против ваших глазных лучей (как от умения «Малый глазной луч», так и от «Большого глазного луча») рассчитывается так:",
 				{
 					"type": "abilityDc",
-					"name": "Eye Ray",
+					"name": "Глазной луч",
 					"attributes": [
 						"int"
 					]
 				},
-				"As an action during your turn, you may roll {@dice 1d4} and fire the associated eye ray listed below, choosing one target you can see within 60 feet of you:",
+				"Действием в свой ход вы можете бросить {@dice 1d4} и выпустить соответствующий глазной луч из приведённых ниже, выбрав одну цель, которую вы видите в пределах 60 футов от вас:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "1. Confusion Ray.",
-							"entry": "The target must succeed on a Wisdom saving throw against your Eye Ray save DC, or it can't take reactions until the end of its next turn. On its turn, the target can't move, and it uses its action to make a melee or ranged attack against a randomly determined creature within range. If the target can't attack, it does nothing on its turn."
+							"name": "1. Луч смятения.",
+							"entry": "Цель должна преуспеть в спасброске Мудрости против Сл спасброска ваших глазных лучей, иначе она не может совершать реакции до конца своего следующего хода. В свой ход цель не может перемещаться и использует действие, чтобы совершить рукопашную или дальнобойную атаку по случайно определённому существу в пределах дистанции. Если цель не может атаковать, в свой ход она ничего не делает."
 						},
 						{
 							"type": "item",
-							"name": "2. Paralyzing Ray",
-							"entry": "The target must succeed on a Constitution saving throw against your Eye Ray save DC or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+							"name": "2. Парализующий луч",
+							"entry": "Цель должна преуспеть в спасброске Телосложения против Сл спасброска ваших глазных лучей, иначе она становится {@condition paralyzed} на 1 минуту. Цель может повторять спасбросок в конце каждого своего хода, прекращая эффект при успехе."
 						},
 						{
 							"type": "item",
-							"name": "3. Fear Ray",
-							"entry": "The target must succeed on a Wisdom saving throw against your Eye Ray save DC or be or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the spectator is visible to the target, ending the effect on itself on a success."
+							"name": "3. Луч страха",
+							"entry": "Цель должна преуспеть в спасброске Мудрости против Сл спасброска ваших глазных лучей, иначе она становится {@condition frightened} на 1 минуту. Цель может повторять спасбросок в конце каждого своего хода с помехой, если созерцатель виден цели, прекращая эффект при успехе."
 						},
 						{
 							"type": "item",
-							"name": "4. Wounding Ray",
-							"entry": "The target must make a Constitution saving throw against your Eye Ray save DC, taking {@dice 3d10} necrotic damage on a failed save, or half as much damage on a successful one."
+							"name": "4. Раневой луч",
+							"entry": "Цель должна совершить спасбросок Телосложения против Сл спасброска ваших глазных лучей, получая {@dice 3d10} некротического урона при провале или половину этого урона при успехе."
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Ocular Expertise",
+			"name": "Мастерство глаза",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 3,
 			"entries": [
-				"At 3rd level, your proficiency bonus is doubled for the purposes of your passive perception score, as well as for any ability check you make that uses the {@skill Perception} skill."
+				"На 3-м уровне ваш бонус мастерства удваивается для определения показателя пассивной внимательности, а также для любой проверки характеристики, использующей навык {@skill Perception}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"При достижении 4-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Natural Armor 14",
+			"name": "Природная броня 14",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 5,
 			"entries": [
-				"At 5th level, your hide becomes more resilient. Each beholder is unique, so this armor increase may be due to a thicker hide, chitinous plates along your body, or harder skin (as a few possible examples). When unarmored, your armor class is now 14."
+				"На 5-м уровне ваша шкура становится прочнее. Каждый созерцатель уникален, поэтому это увеличение брони может объясняться более толстой шкурой, хитиновыми пластинами по всему телу или более твёрдой кожей (лишь несколько возможных примеров). Без брони ваш класс доспеха теперь равен 14."
 			]
 		},
 		{
-			"name": "Twin Rays",
+			"name": "Парные лучи",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 6,
 			"entries": [
-				"Starting at 6th level, whenever you fire a Lesser or Greater Eye Ray (see below) as an action, you may fire another Lesser Eye Ray as a bonus action. You may choose to target the same or a different creature within range that you can see."
+				"Начиная с 6-го уровня каждый раз, когда вы выпускаете малый или большой глазной луч (см. ниже) действием, вы можете выпустить ещё один малый глазной луч бонусным действием. Вы можете выбрать целью то же или другое существо в пределах дистанции, которое видите."
 			]
 		},
 		{
-			"name": "Size Increase (Medium)",
+			"name": "Увеличение размера (средний)",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 7,
 			"entries": [
-				"At 7th level, you finally grow enough to become a larger size category entirely. You are now Medium size. The range of your Lesser and Greater Eye Ray abilities is now 90 feet. Your darkvision (from the beholder race) now extends to 90 feet.",
-				"In addition, your bite attack now deals {@dice 2d6} piercing damage plus your strength modifier. From now on, your natural weapons now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+				"На 7-м уровне вы наконец вырастаете достаточно, чтобы полностью перейти в более крупную категорию размера. Теперь вы среднего размера. Дистанция ваших умений «Малый глазной луч» и «Большой глазной луч» теперь 90 футов. Ваше тёмное зрение (от расы созерцателя) теперь простирается на 90 футов.",
+				"Кроме того, ваша атака укусом теперь наносит {@dice 2d6} колющего урона плюс ваш модификатор Силы. С этого момента ваше природное оружие считается магическим для преодоления сопротивления и иммунитета к немагическим атакам и урону."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"При достижении 8-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Natural Armor 16",
+			"name": "Природная броня 16",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 9,
 			"entries": [
-				"At 9th level, your natural armor becomes 16."
+				"На 9-м уровне ваша природная броня становится 16."
 			]
 		},
 		{
-			"name": "Shape Change",
+			"name": "Изменение формы",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 9,
 			"entries": [
-				"Starting at 9th level, your innate magical abilities allow you to change your physical form. You are able to cast the {@spell alter self} spell without any material components and without using a spell slot. Whenever you use this ability, you can take on the form of any Small or Medium-sized humanoid. You cannot use your Lesser Eye Ray or Greater Eye Ray abilities while in humanoid form, though you may still use your Antimagic Cone ability (see below). Note that, when you use the Antimagic Cone ability in humanoid form, you must close all of this form's eyes to suppress the ability",
-				"Due to the otherworldly influence you exert on your surroundings, however, there is always something a little unsettling about you regardless of your outward appearance. When in humanoid form, a creature observing you closely (DM's discretion) may make a Perception check against a DC of 18. Whenever a creature succeeds on this check, they recognize that your appearance is close, but not quite right for a member of your species. The creature may not know how they are aware of this fact--but, without a doubt, they believe there is something inherently disturbing about you."
+				"Начиная с 9-го уровня ваши врождённые магические способности позволяют вам изменять свою физическую форму. Вы можете сотворить заклинание {@spell alter self} без материальных компонентов и не тратя ячейку заклинаний. Каждый раз, когда вы используете эту способность, вы можете принять облик любого гуманоида маленького или среднего размера. В гуманоидной форме вы не можете использовать умения «Малый глазной луч» и «Большой глазной луч», хотя по-прежнему можете использовать умение «Конус антимагии» (см. ниже). Учтите: используя умение «Конус антимагии» в гуманоидной форме, вы должны закрыть все глаза этой формы, чтобы подавить способность.",
+				"Однако из-за потустороннего влияния, которое вы оказываете на окружение, в вас всегда есть что-то немного тревожное, независимо от внешности. В гуманоидной форме существо, внимательно вас рассматривающее (на усмотрение Мастера), может совершить проверку Внимательности против Сл 18. Каждый раз, когда существо преуспевает в этой проверке, оно понимает, что ваша внешность близка, но не совсем верна для представителя вашего вида. Существо может не знать, откуда оно это знает, — но, без сомнения, оно верит, что в вас есть что-то глубоко тревожащее."
 			]
 		},
 		{
-			"name": "Despot of Dreams",
+			"name": "Владыка сновидений",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 10,
 			"entries": [
-				"At 10th level, you learn how to use the power of the Far Realm to alter the world in hazy, dreamlike ways. However, in this regard you are somewhat unique. Many of your kind are able to manifest powers of the Far Realm, but only when in the lairs they inhabit. Though you cannot use these abilities as often as others of your kind, you have learned to exert your will on reality no matter where you are.",
-				"During your turn, you can use a bonus action to cause one of the following effects:",
+				"На 10-м уровне вы учитесь использовать силу Дальнего Предела, чтобы изменять мир туманными, сновидческими способами. Однако в этом отношении вы несколько уникальны. Многие из вашего вида способны проявлять силы Дальнего Предела, но только находясь в своих логовах. Хотя вы не можете использовать эти способности так часто, как другие вашего вида, вы научились оказывать свою волю на реальность, где бы вы ни находились.",
+				"В свой ход вы можете бонусным действием вызвать один из следующих эффектов:",
 				{
 					"type": "list",
 					"items": [
-						"A 50-foot square area of ground within 120 feet of you becomes slimy; that area is difficult terrain for a duration of one minute or until you cease concentrating on this ability.",
-						"Walls within 120 feet of you sprout grasping appendages for a duration of 5 rounds or until you cease concentrating. Each creature of your choice that starts its turn within 10 feet of such a wall must succeed on a Dexterity saving throw equal to your Eye Ray DC or be grappled. Escaping requires a successful Strength (Athletics) or Dexterity (Acrobatics) check against your Eye Ray DC.",
-						"An eye opens on a solid surface within 60 feet of you. One random Greater Eye Ray (see below) shoots from that eye at a target of your choice that you can see. The eye then closes and disappears."
+						"Область земли 50 x 50 футов в пределах 120 футов от вас становится скользкой; эта область является труднопроходимой местностью в течение одной минуты или пока вы не перестанете концентрироваться на этой способности.",
+						"Стены в пределах 120 футов от вас выпускают хватающие отростки на 5 раундов или пока вы не перестанете концентрироваться. Каждое существо на ваш выбор, начинающее свой ход в пределах 10 футов от такой стены, должно преуспеть в спасброске Ловкости против Сл ваших глазных лучей, иначе оно схвачено. Чтобы вырваться, нужна успешная проверка Силы (Атлетика) или Ловкости (Акробатика) против Сл ваших глазных лучей.",
+						"На твёрдой поверхности в пределах 60 футов от вас открывается глаз. Из этого глаза вылетает один случайный большой глазной луч (см. ниже) в цель на ваш выбор, которую вы видите. Затем глаз закрывается и исчезает."
 					]
 				},
-				"You may use each of these abilities once. You recover all expended use of these abilities upon completion of a short or long rest."
+				"Вы можете использовать каждую из этих способностей один раз. Вы восстанавливаете все потраченные использования этих способностей по завершении короткого или продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Greater Eye Ray",
+			"name": "Большой глазной луч",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 11,
 			"entries": [
-				"As you mature, more of your eye stalks develop offensive abilities. Starting at 11th level, you can hinder enemies with a wider array of effects... much to their displeasure.",
-				"As an action during your turn, you may roll {@dice 1d10} and fire the associated eye ray listed below, choosing one target you can see within 60 feet of you:",
+				"По мере взросления всё больше ваших глазных стеблей развивают боевые способности. Начиная с 11-го уровня вы можете мешать врагам более широким набором эффектов... к их великому неудовольствию.",
+				"Действием в свой ход вы можете бросить {@dice 1d10} и выпустить соответствующий глазной луч из приведённых ниже, выбрав одну цель, которую вы видите в пределах 60 футов от вас:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "1. Charm Ray.",
-							"entry": "The targeted creature must succeed on a Wisdom saving throw equal to your Eye Ray save DC, or be {@condition charmed} by the beholder for 1 hour, or until the beholder (or one of its allies) harms the creature."
+							"name": "1. Луч очарования.",
+							"entry": "Выбранное целью существо должно преуспеть в спасброске Мудрости против Сл спасброска ваших глазных лучей, иначе оно становится {@condition charmed} созерцателем на 1 час или пока созерцатель (или один из его союзников) не причинит существу вред."
 						},
 						{
 							"type": "item",
-							"name": "2. Paralyzing Ray.",
-							"entry": "The targeted creature must succeed on a Constitution saving throw equal to your Eye Ray save DC, or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself as a success."
+							"name": "2. Парализующий луч.",
+							"entry": "Выбранное целью существо должно преуспеть в спасброске Телосложения против Сл спасброска ваших глазных лучей, иначе оно становится {@condition paralyzed} на 1 минуту. Цель может повторять спасбросок в конце каждого своего хода, прекращая эффект при успехе."
 						},
 						{
 							"type": "item",
-							"name": "3. Fear Ray.",
-							"entry": "The targeted creature must succeed on a Wisdom saving throw equal to your Eye Ray save DC, or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+							"name": "3. Луч страха.",
+							"entry": "Выбранное целью существо должно преуспеть в спасброске Мудрости против Сл спасброска ваших глазных лучей, иначе оно становится {@condition frightened} на 1 минуту. Цель может повторять спасбросок в конце каждого своего хода, прекращая эффект при успехе."
 						},
 						{
 							"type": "item",
-							"name": "4. Slowing Ray.",
-							"entry": "The targeted creature must succeed on a Dexterity saving throw equal to your Eye Ray save DC. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+							"name": "4. Замедляющий луч.",
+							"entry": "Выбранное целью существо должно преуспеть в спасброске Ловкости против Сл спасброска ваших глазных лучей. При провале скорость цели уменьшается вдвое на 1 минуту. Кроме того, существо не может совершать реакции и может в свой ход совершить либо действие, либо бонусное действие, но не оба. Существо может повторять спасбросок в конце каждого своего хода, прекращая эффект при успехе."
 						},
 						{
 							"type": "item",
-							"name": "5. Enervation Ray.",
-							"entry": "The targeted creature must succeed on a Constitution saving throw equal to your Eye Ray save DC, taking {@dice 8d8} necrotic damage on a failed save, or half as much damage on a successful one."
+							"name": "5. Луч истощения.",
+							"entry": "Выбранное целью существо должно преуспеть в спасброске Телосложения против Сл спасброска ваших глазных лучей, получая {@dice 8d8} некротического урона при провале или половину этого урона при успехе."
 						},
 						{
 							"type": "item",
-							"name": "6. Telekinetic Ray.",
+							"name": "6. Телекинетический луч.",
 							"entries": [
-								"If the target is a creature, it must succeed on a Strength saving throw equal to your Eye Ray save DC, or you move the creature up to 30 feet in any direction. It is {@condition restrained} by the ray's telekinetic grip until the start of your next turn or until you are {@condition incapacitated}.",
-								"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. You can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
+								"Если цель — существо, оно должно преуспеть в спасброске Силы против Сл спасброска ваших глазных лучей, иначе вы перемещаете существо на расстояние до 30 футов в любом направлении. Оно {@condition restrained} телекинетической хваткой луча до начала вашего следующего хода или пока вы не станете {@condition incapacitated}.",
+								"Если цель — предмет весом 300 фунтов или меньше, который не надет и не несётся, он перемещается на расстояние до 30 футов в любом направлении. Этим лучом вы также можете тонко управлять предметами, например орудовать простым инструментом или открывать дверь либо ёмкость."
 							]
 						},
 						{
 							"type": "item",
-							"name": "7. Sleep Ray.",
-							"entry": "The targeted creature must succeed on a Wisdom saving throw equal to your Eye Ray save DC, or fall asleep and remain {@condition unconscious} for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead."
+							"name": "7. Луч сна.",
+							"entry": "Выбранное целью существо должно преуспеть в спасброске Мудрости против Сл спасброска ваших глазных лучей, иначе оно засыпает и остаётся {@condition unconscious} на 1 минуту. Цель просыпается, если получает урон или другое существо действием её разбудит. Этот луч не действует на конструктов и нежить."
 						},
 						{
 							"type": "item",
-							"name": "8. Petrification Ray.",
-							"entry": " The targeted creature must succeed on a Dexterity saving throw equal to your Eye Ray save DC. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} for 1 hour, or until freed by the {@spell greater restoration} spell or other magic."
+							"name": "8. Луч окаменения.",
+							"entry": "Выбранное целью существо должно преуспеть в спасброске Ловкости против Сл спасброска ваших глазных лучей. При провале существо начинает превращаться в камень и становится схваченным. Оно должно повторить спасбросок в конце своего следующего хода. При успехе эффект заканчивается. При провале существо {@condition petrified} на 1 час или пока не будет освобождено заклинанием {@spell greater restoration} или другой магией."
 						},
 						{
 							"type": "item",
-							"name": "9. Disintegration Ray.",
+							"name": "9. Луч дезинтеграции.",
 							"entries": [
-								"If the target is a creature, it must succeed on a Dexterity saving throw equal to your Eye Ray save DC, or take {@dice 10d8} force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.",
-								"If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it."
+								"Если цель — существо, оно должно преуспеть в спасброске Ловкости против Сл спасброска ваших глазных лучей, иначе оно получает {@dice 10d8} силового урона. Если этот урон опускает существо до 0 хитов, его тело превращается в кучку мелкой серой пыли.",
+								"Если цель — немагический предмет большого или меньшего размера либо создание магической силы, оно дезинтегрируется без спасброска. Если цель — предмет огромного или большего размера либо создание магической силы, этот луч дезинтегрирует её куб 10 футов."
 							]
 						},
 						{
 							"type": "item",
-							"name": "10. Death Ray.",
-							"entry": "The targeted creature must succeed on a Wisdom saving throw equal to your Eye Ray save DC, or take {@dice 10d10} necrotic damage. The target dies if the ray reduces it to 0 hit points."
+							"name": "10. Луч смерти.",
+							"entry": "Выбранное целью существо должно преуспеть в спасброске Мудрости против Сл спасброска ваших глазных лучей, иначе оно получает {@dice 10d10} некротического урона. Цель погибает, если луч опускает её до 0 хитов."
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"При достижении 12-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Antimagic Cone",
+			"name": "Конус антимагии",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 13,
 			"entries": [
-				"At 13th level, your vision of the world begins to alter reality in subtle ways-- specifically, your large, central eye can now cancel out magical effects that it can see.",
-				"As a bonus action during your turn, your central eye creates an area of antimagic, as in the {@spell antimagic field} spell, in a 90 foot cone. At the start of each of your turns, you decide which way the cone faces and whether the cone is active (closing your central eye supresses the cone until you open your eye again or until the duration expires). The area works against your own eye rays.",
-				"This ability lasts for 10 minutes. You may use this ability once, and regain any expended use upon completion of a short or long rest."
+				"На 13-м уровне ваше видение мира начинает незаметно изменять реальность — а именно: ваш большой центральный глаз теперь может отменять магические эффекты, которые он видит.",
+				"Бонусным действием в свой ход ваш центральный глаз создаёт область антимагии, как в заклинании {@spell antimagic field}, в виде конуса 90 футов. В начале каждого своего хода вы решаете, куда направлен конус и активен ли он (закрытие центрального глаза подавляет конус, пока вы снова не откроете глаз или пока не истечёт длительность). Эта область действует и против ваших собственных глазных лучей.",
+				"Эта способность длится 10 минут. Вы можете использовать её один раз и восстанавливаете потраченное использование по завершении короткого или продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Ray Mastery",
+			"name": "Мастерство лучей",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 14,
 			"entries": [
-				"Starting at 14th level, whenever you use your Lesser Eye Ray or Greater Eye Ray abilities, you can choose to reroll the result. You must accept the result of the new roll.",
-				"Once you use this ability, you cannot do so again until the beginning of your next turn."
+				"Начиная с 14-го уровня каждый раз, когда вы используете умения «Малый глазной луч» или «Большой глазной луч», вы можете перебросить результат. Вы должны принять результат нового броска.",
+				"После использования этой способности вы не можете использовать её снова до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Size Increase (Large)",
+			"name": "Увеличение размера (большой)",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 15,
 			"entries": [
-				"At 15th level, your mass has grown to again meet a new threshold. You have come a long way since your earliest days, and could no longer be confused for your lesser kin. You are now a Large-sized creature, taking up a 10 by 10 foot space. Your darkvision, as well as the range of your Lesser and Greater Eye Ray abilities now extend to 120 feet. Your Antimagic Cone ability is now a 150 foot cone.",
-				"In addition, you now add your proficiency bonus to the damage you deal with your bite attack."
+				"На 15-м уровне ваша масса снова выросла и перешла новый порог. Вы прошли долгий путь с первых дней, и вас уже не спутать с вашими меньшими родичами. Теперь вы существо большого размера, занимающее пространство 10 на 10 футов. Ваше тёмное зрение, а также дистанция умений «Малый глазной луч» и «Большой глазной луч» теперь простираются на 120 футов. Ваше умение «Конус антимагии» теперь конус 150 футов.",
+				"Кроме того, теперь вы добавляете свой бонус мастерства к урону, наносимому атакой укусом."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"При достижении 16-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Natural Armor 18",
+			"name": "Природная броня 18",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 17,
 			"entries": [
-				"At 17th level, your natural armor becomes 18."
+				"На 17-м уровне ваша природная броня становится 18."
 			]
 		},
 		{
-			"name": "Panopticon",
+			"name": "Паноптикум",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 18,
 			"entries": [
-				"At 18th level, your array of eyes ensure that you are aware of threats before they can strike. You may act normally during a surprise round as long as you are not incapacitated.",
-				"In addition, creatures cannot gain advantage on attack rolls against you unless their number of maximum hit dice exceeds your own, or unless you are suffering from the {@condition blinded}, {@condition paralyzed}, {@condition restrained}, {@condition stunned} or {@condition unconscious} conditions."
+				"На 18-м уровне множество ваших глаз позволяет вам замечать угрозы прежде, чем они успеют нанести удар. Вы можете действовать как обычно в раунд неожиданности, если вы не недееспособны.",
+				"Кроме того, существа не могут получить преимущество на броски атаки против вас, если их максимальное число костей хитов не превышает ваше, или если вы не страдаете состояниями {@condition blinded}, {@condition paralyzed}, {@condition restrained}, {@condition stunned} или {@condition unconscious}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"При достижении 19-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Eye Tyrant",
+			"name": "Глазной тиран",
 			"source": "BeholderCohorts",
 			"className": "Beholder",
 			"classSource": "BeholderCohorts",
 			"level": 20,
 			"entries": [
-				"At 20th level, your strengths as a beholder finally reach their full potential. Your allies (assuming you have any) should consider themselves fortunate they have the greatest of all beholderkin fighting alongside them. Your enemies, however, may not be so lucky.",
-				"Your hit dice all become d10s. This causes your current and maximum hit points to increase by 20 immediately. Further, your hit dice all become d10s for the purpose of restoring hit points during a short rest.",
-				"In addition, whenever you use your Greater Eye Ray ability, you can choose to fire one or two Greater Eye Rays, choosing one to two targets you can see within 120 feet of you."
+				"На 20-м уровне ваши силы как созерцателя наконец достигают полного потенциала. Ваши союзники (если они у вас есть) должны считать, что им повезло: рядом с ними сражается величайший из всех родичей-созерцателей. Вашим врагам, однако, так не повезёт.",
+				"Все ваши кости хитов становятся d10. Это немедленно увеличивает ваши текущие и максимальные хиты на 20. Кроме того, все ваши кости хитов становятся d10 для восстановления хитов во время короткого отдыха.",
+				"Кроме того, каждый раз, когда вы используете умение «Большой глазной луч», вы можете выпустить один или два больших глазных луча, выбрав одну-две цели, которые вы видите в пределах 120 футов от вас."
 			]
 		}
 	],
 	"race": [
 		{
-			"name": "Beholder",
+			"name": "Созерцатель",
 			"source": "BeholderCohorts",
 			"page": 2,
 			"size": [
@@ -429,89 +429,89 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Age",
+					"name": "Возраст",
 					"entries": [
-						"Every beholder is unique in size and shape but in terms of age, it is said they generally mature quickly (within a few years) and live long lives. The oldest known beholders are rumored to be centuries old."
+						"Каждый созерцатель уникален по размеру и форме, но что касается возраста, говорят, что они обычно быстро взрослеют (за несколько лет) и живут долго. Про старейших известных созерцателей говорят, что им века."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Alignment",
+					"name": "Мировоззрение",
 					"entries": [
-						"Beholders are known for two personality traits above all others: their paranoia and xenophobic tendencies. When exposed to humanoids from a young age, though, beholders are more likely to be cooperative. Note that even in the best cases, beholders are generally slow to trust others, and they often assume that they are more powerful and intelligent than the others around them.",
-						"What is less known about beholders is their dual natures: beholders contain not one consciousness, but two that exist in their minds at the same time. Some beholders have personalities that are very much in sync, much like siblings that know each other so well that they can complete each others' sentences. These beholders can be of any alignment on the spectrum from good to evil.",
-						"Other beholders, though, have personalities that clash regularly--leading to the erratic and sometimes hostile behavior that the species is known for. These beholders tend to put personal survival above all other concerns, and are more likely to be evil as a result."
+						"Созерцатели известны прежде всего двумя чертами характера: паранойей и ксенофобскими наклонностями. Однако при общении с гуманоидами с юного возраста созерцатели чаще склонны к сотрудничеству. Учтите, что даже в лучшем случае созерцатели обычно медленно доверяют другим и часто полагают, что они могущественнее и умнее окружающих.",
+						"Менее известно о созерцателях то, что у них двойственная природа: в сознании созерцателя существуют не одно, а два сознания одновременно. У некоторых созерцателей личности хорошо согласованы, как братья и сёстры, которые так хорошо знают друг друга, что договаривают фразы друг за друга. Такие созерцатели могут иметь любое мировоззрение — от доброго до злого.",
+						"Другие же созерцатели имеют личности, которые постоянно конфликтуют, что ведёт к непредсказуемому, а иногда враждебному поведению, которым известен этот вид. Такие созерцатели склонны ставить личное выживание выше всех прочих соображений и потому чаще бывают злыми."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "Размер",
 					"entries": [
-						"At an early age, beholders are often no more than two feet in diameter. That said, they are capable of growing to great size in a short time. Initially, though, your size is Small."
+						"В раннем возрасте созерцатели обычно не более двух футов в диаметре. Тем не менее они способны за короткое время вырасти до огромных размеров. Поначалу, однако, ваш размер — маленький."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "Скорость",
 					"entries": [
-						" Beholders do not have legs, but instead float with a fine degree of control. Your base flying speed is 30 feet (hover)."
+						"У созерцателей нет ног, вместо этого они парят с высокой степенью контроля. Ваша базовая скорость полёта — 30 футов (парение)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Тёмное зрение",
 					"entries": [
-						"Your many eyes adapt easily to darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Множество ваших глаз легко приспосабливается к темноте. Вы видите в тусклом свете в пределах 60 футов от вас как при ярком свете, а в темноте — как при тусклом свете. В темноте вы не различаете цвета, только оттенки серого."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Eyes in All Directions",
+					"name": "Глаза во все стороны",
 					"entries": [
-						"You gain proficiency in the {@skill Perception} skill."
+						"Вы получаете владение навыком {@skill Perception}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Aberrant Nature",
+					"name": "Аберрантная природа",
 					"entries": [
-						"You count as an aberration for the purposes of spells and effects."
+						"Для заклинаний и эффектов вы считаетесь аберрацией."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Oversized Jaws",
+					"name": "Огромные челюсти",
 					"entries": [
-						"Your gaping maw has the size and strength needed to pierce through thick hide or even armor. You have a bite attack that counts as a natural melee weapon. Your bite deals {@dice 1d6} piercing damage, and adds your Strength bonus to attack and damage rolls. You are automatically proficient in your bite attack."
+						"Ваша зияющая пасть достаточно велика и сильна, чтобы пробить толстую шкуру или даже броню. У вас есть атака укусом, которая считается природным рукопашным оружием. Ваш укус наносит {@dice 1d6} колющего урона и добавляет ваш бонус Силы к броскам атаки и урона. Вы автоматически владеете своей атакой укусом."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Natural Armor",
+					"name": "Природная защита",
 					"entries": [
-						"When you are unarmored, you have a natural armor class of 13. Since you do not have any limbs, however, you do not add your Dexterity modifier to this number.",
-						"As you level up in the Beholder class (below) your natural armor will increase further."
+						"Когда вы без брони, ваш класс природной брони равен 13. Однако, поскольку у вас нет конечностей, вы не добавляете к этому числу модификатор Ловкости.",
+						"По мере роста уровня в классе созерцателя (см. ниже) ваша природная броня будет увеличиваться."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Limbless",
+					"name": "Без конечностей",
 					"entries": [
-						"Beholders do not have legs, arms, or hands, and as a result are immune to the {@condition prone} condition. Further, beholders cannot equip weapons or armor made for other races. Beholders primarily interact with the world using their Kinetic Ray (below)."
+						"У созерцателей нет ног, рук или кистей, и поэтому они невосприимчивы к состоянию {@condition prone}. Кроме того, созерцатели не могут использовать оружие или броню, сделанные для других рас. Созерцатели в основном взаимодействуют с миром с помощью своего кинетического луча (см. ниже)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Kinetic Ray",
+					"name": "Кинетический луч",
 					"entries": [
-						"The beholder learns to manipulate objects using a telekinetic eye ray in place of needing limbs. You learn the {@spell mage hand} cantrip. The spell's hand is invisible when you cast the spell using this ability."
+						"Созерцатель учится управлять предметами с помощью телекинетического глазного луча вместо конечностей. Вы изучаете заговор {@spell mage hand}. Рука заклинания невидима, когда вы творите заклинание с помощью этой способности."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Languages",
+					"name": "Языки",
 					"entries": [
-						"You are proficient in Common and Deep Speech. Many beholders choose Undercommon as a bonus language (if their intelligence is high enough)."
+						"Вы владеете Общим и Глубокой речью. Многие созерцатели выбирают Подземный в качестве дополнительного языка (если их показатель Интеллекта достаточно высок)."
 					]
 				}
 			]

@@ -37,7 +37,7 @@
 	},
 	"class": [
 		{
-			"name": "Warlord",
+			"name": "Воевода",
 			"source": "ktw",
 			"hd": {
 				"number": 1,
@@ -83,12 +83,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} or (b) any {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} (if proficient)",
-					"(a) a {@item light crossbow} and {@item crossbow bolts (20)|phb|20 bolts} or (b) a {@item shield|phb} (if proficient)",
-					"(a) {@item leather armor|phb} or (b) {@item scale mail|phb} or (c) {@item chain mail|phb} (if proficient)",
-					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}"
+					"(а) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} или (б) любое {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} (если есть владение)",
+					"(а) {@item light crossbow} и {@item crossbow bolts (20)|phb|20 болтов} или (б) {@item shield|phb} (если есть владение)",
+					"(а) {@item leather armor|phb} или (б) {@item scale mail|phb} или (в) {@item chain mail|phb} (если есть владение)",
+					"(а) {@item scholar's pack|phb} или (б) {@item explorer's pack|phb}"
 				],
-				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}",
+				"goldAlternative": "{@dice 5d4|5d4|Начальное золото}",
 				"defaultData": [
 					{
 						"a": [
@@ -142,7 +142,7 @@
 						}
 					]
 				},
-				"requirementsSpecial": "Must have two of these.",
+				"requirementsSpecial": "Необходимо иметь два из этих навыков.",
 				"proficienciesGained": {
 					"armor": [
 						"light",
@@ -159,8 +159,8 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Leadership Die",
-						"Leadership Dice"
+						"Кость лидерства",
+						"Кости лидерства"
 					],
 					"rows": [
 						[
@@ -400,96 +400,96 @@
 			],
 			"classFeatures": [
 				{
-					"classFeature": "Warlord Presence|Warlord|ktw|1",
+					"classFeature": "Присутствие воеводы|Warlord|ktw|1",
 					"gainSubclassFeature": true
 				},
-				"Battlefield Presence|Warlord|ktw|1",
-				"Leadership Dice|Warlord|ktw|2",
-				"Warlord's Expertise|Warlord|ktw|3",
+				"Присутствие на поле боя|Warlord|ktw|1",
+				"Кости лидерства|Warlord|ktw|2",
+				"Компетентность воеводы|Warlord|ktw|3",
 				{
-					"classFeature": "Warlord Presence feature|Warlord|ktw|3",
+					"classFeature": "Особенность «Присутствие воеводы»|Warlord|ktw|3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlord|ktw|4",
-				"Extra Attack|Warlord|ktw|5",
-				"Prepare for Battle|Warlord|ktw|6",
+				"Увеличение характеристик|Warlord|ktw|4",
+				"Дополнительная атака|Warlord|ktw|5",
+				"Подготовка к битве|Warlord|ktw|6",
 				{
-					"classFeature": "Warlord Presence feature|Warlord|ktw|7",
+					"classFeature": "Особенность «Присутствие воеводы»|Warlord|ktw|7",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlord|ktw|8",
-				"Press the Attack|Warlord|ktw|9",
-				"Ability Score Improvement|Warlord|ktw|10",
+				"Увеличение характеристик|Warlord|ktw|8",
+				"Начать атаку|Warlord|ktw|9",
+				"Увеличение характеристик|Warlord|ktw|10",
 				{
-					"classFeature": "Warlord Presence feature|Warlord|ktw|11",
+					"classFeature": "Особенность «Присутствие воеводы»|Warlord|ktw|11",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlord|ktw|12",
-				"Warlord's Intuition|Warlord|ktw|13",
-				"Shift the Field|Warlord|ktw|14",
+				"Увеличение характеристик|Warlord|ktw|12",
+				"Интуиция воеводы|Warlord|ktw|13",
+				"Сдвиг поля|Warlord|ktw|14",
 				{
-					"classFeature": "Warlord Presence feature|Warlord|ktw|15",
+					"classFeature": "Особенность «Присутствие воеводы»|Warlord|ktw|15",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlord|ktw|16",
-				"Unbreakable Will|Warlord|ktw|17",
+				"Увеличение характеристик|Warlord|ktw|16",
+				"Неразрушимая воля|Warlord|ktw|17",
 				{
-					"classFeature": "Warlord Presence feature|Warlord|ktw|18",
+					"classFeature": "Особенность «Присутствие воеводы»|Warlord|ktw|18",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlord|ktw|19",
-				"Tireless Leader|Warlord|ktw|20"
+				"Увеличение характеристик|Warlord|ktw|19",
+				"Неутомимый предводитель|Warlord|ktw|20"
 			],
-			"subclassTitle": "Warlord's Presence",
+			"subclassTitle": "Присутствие воеводы",
 			"hasFluff": true
 		}
 	],
 	"classFluff": [
 		{
-			"name": "Warlord",
+			"name": "Воевода",
 			"source": "ktw",
 			"entries": [
 				{
-					"name": "Warlord",
+					"name": "Воевода",
 					"source": "ktw",
 					"type": "section",
 					"entries": [
-						"Two vast armies stand across the field of death, fear gripping the heart of every soldier. From their ranks, the banner is carried forth - a shining beacon without fear. Before they even know it, their feet pound across the ground, their fear left behind as they follow their symbol of hope to victory.",
-						"Collapsing to the ground, a man succumbs to wounds, exhaustion, terror, and the overwhelming clash of steel all around. Death closes in, but before it can claim him, a hand appears, pulling him to his feet.",
-						"\"On your feet, soldier.\"",
-						"The line will soon be overrun\u2014until, among the broken ranks of soldiers, a lone soldier spots his liege. She stands, unwilling to turn aside, unwilling to step back from danger, holding back the horde of enemies alone. Retreat is no longer an option. With newfound strength behind every blow, the soldiers stand and fight like no one has ever fought before.",
-						"\"How did you do it?\" hisses the marauder, his sword dropped before him in surrender. He kneels beside his captured comrades, encircled by a smaller force that seems to have come from nowhere. The victorious general smiles knowingly and shrugs.",
-						"\"Luck,\" he says. \"And perhaps a bit of planning.\"",
-						"Warlords are force multipliers for their companions. Some may be fearsome combatants, while others may never lift a weapon, but in either case their presence on the battlefield will drive their allies to new heights, guiding them safely through what would surely have been their doom.",
-						"How victory is stolen from the jaws of defeat can vary, from inciting crazed zeal, to tempering an overeager charge, to pulling their friends out of the line of danger in the nick of time. The sole commonality is that a Warlord alone is but a man, while a Warlord with their companions is a legend.",
+						"Две огромные армии стоят друг напротив друга на поле смерти, и ужас сковывает сердца каждого солдата. Из их рядов выносится знамя — сияющий маяк, не знающий страха. Прежде чем они успевают это осознать, их ноги уже гулко топают по земле, а страх остаётся позади, пока они следуют за своим знаком надежды к победе.",
+						"Падая на землю, мужчина уступает ранам, истощению, ужасу и оглушительному лязгу стали вокруг. Смерть приближается, но прежде чем она успевает забрать его, появляется рука и поднимает его на ноги.",
+						"«На ноги, солдат».",
+						"Строй вот-вот пробегут враги — пока среди разбитых рядов солдат одинокий солдат не замечает своего господина. Она стоит, не желая отступать в сторону, не желая отступать перед опасностью, в одиночку сдерживая орду врагов. Отступление больше не вариант. Обретя новую силу, солдаты отражают каждый удар и встают, чтобы сражаться так, как ещё никто не сражался.",
+						"«Как тебе это удалось?» — шипит мародёр, бросив перед собой меч в знак капитуляции. Он преклоняет колено рядом с пленными товарищами, окружённый меньшими силами, появившимися словно из ниоткуда. Победоносный генерал понимающе улыбается и пожимает плечами.",
+						"«Удача», — говорит он. «И, возможно, немного планирования».",
+						"Воеводы усиливают своих спутников. Некоторые из них могут быть грозными бойцами, другие же никогда не поднимут оружие, но в любом случае их присутствие на поле боя побуждает союзников достигать новых высот и безопасно ведёт их через то, что наверняка стало бы их злой судьбой.",
+						"Победа, вырванная из пасти поражения, может достигаться по-разному: от разжигания безумного рвения до умерения чрезмерно рьяного натиска или вытаскивания друзей из опасной линии в самый последний момент. Объединяет их лишь одно: воевода в одиночку всего лишь человек, а воевода вместе со своими спутниками — легенда.",
 						{
 							"type": "entries",
-							"name": "Purpose and Drive",
+							"name": "Цель и стремление",
 							"entries": [
-								"Purpose is a common element to those that walk the path of a Warlord. Purpose empowers Warlords to be a larger-than-life, and allows them to be a guiding hand to their comrades. Some Warlords may not seek any particular cause, and merely pursue victory - either as a tribute to a god they worship or simply to attain meet a personal glory. More often, though, a Warlord is driven by a higher purpose - a loyalty to their country or their men, a drive to protect the innocent or crush the weak.",
-								"Purpose is an important consideration to a Warlord in understanding why they fight, as it will inform how they fight. Do they try to keep their companions and followers out of danger? Or do they simply press for the strategy that is most likely to win?"
+								"Цель — общий элемент для тех, кто идёт путём воеводы. Цель наделяет воевод силой быть больше, чем просто человеком, и позволяет им направлять своих товарищей. Некоторые воеводы могут не искать какой-либо конкретной причины и просто стремиться к победе — либо в качестве подношения почитаемому божеству, либо просто желая обрести личную славу. Однако чаще воеводой движет более высокая цель — верность своей стране или своим людям, стремление защитить невиновных или сокрушить слабых.",
+								"Цель важна для воеводы, который пытается понять, почему он сражается, поскольку она определяет, как он сражается. Пытается ли он уберечь своих спутников и последователей от опасности? Или просто продвигает стратегию, которая с наибольшей вероятностью приведёт к победе?"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Power of Presence",
+							"name": "Сила присутствия",
 							"entries": [
-								"Most warlords have no explicitly magical powers, but the presence on the battlefield allows people to exceed what they might have thought of as their own limits, pushing beyond what they could hope to achieve on their own. A Walord will make their allies feel like they've become better at everything, they will make problems seem surmountable, and they will make the path clear. They make the world less bleak, they make the foes less terrifying. When you have a Warlord on yourside, more things go right.",
-								"Just as a dragon's frightful presence instills a supernatural dread in mortal adventurers, a Warlord's presence is more than just simple common sense and a head for strategy, it is the power of conviction, the perfection of tactics, or the will to win incarnated in Adventurer form."
+								"Большинство воевод не обладают явными магическими силами, но их присутствие на поле боя позволяет людям превзойти собственные предполагаемые пределы, достигнув большего, чем они могли бы надеяться достичь в одиночку. Воевода заставляет союзников чувствовать, будто они стали лучше во всём, делает проблемы преодолимыми и проясняет путь. Он делает мир менее мрачным, а врагов — менее устрашающими. Когда на вашей стороне есть воевода, больше событий складывается удачно.",
+								"Подобно тому как ужасающее присутствие дракона внушает сверхъестественный страх смертным героям, присутствие воеводы — это не просто здравый смысл и умение разрабатывать стратегии, а сила убеждённости, совершенство тактики или воля к победе, воплощённая в облике героя."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating a Warlord",
+							"name": "Создание военачальника",
 							"entries": [
-								"When creating a Warlord you should always start with answering the question: what sort of Presence does this person bring to the battlefield? Are they a charismatic inspiration to their allies that drives them to fight on? Are they a wise veteran who acts as a force multiplier for their companions, offering pointers and grit? Or are they a scheming manipulator who sees one step ahead of any move their foes can make, always making sure their allies are in the right spot?",
-								"Any of these paths and many more are all possible through the Warlord, but what sort of Presence you select at level one will guide what attribute is most impactful for you in exerting your influence and driving your companions to greater heights.",
+								"Создавая воеводу, всегда начинайте с ответа на вопрос: какое присутствие этот человек привносит на поле боя? Является ли он харизматичным источником вдохновения для союзников, побуждающим их продолжать сражаться? Или он мудрый ветеран, усиливающий своих спутников, предлагающий советы и упорство? А может, он хитрый манипулятор, который на один шаг опережает любое перемещение врагов и всегда следит, чтобы его союзники находились в нужном месте?",
+								"Любой из этих путей и многие другие становятся возможными благодаря Воеводе, но то, какое Присутствие вы выберете на первом уровне, определит, какая характеристика будет наиболее значимой для вас при осуществлении влияния и ведении ваших спутников к высшим вершинам.",
 								{
 									"type": "entries",
-									"name": "Quick Build",
+									"name": "Быстрое создание",
 									"entries": [
-										"You can make a warlord quickly by following these suggestions. For a Chieftain or Paragon select Strength as your highest attribute followed by Charisma. For a Commander select Strength as your highest attribute followed by Wisdom.",
-										"For a Noble select Charisma as your highest attribute followed by Constitution, and for a Tactician select Intelligence followed by Constitution."
+										"Вы можете быстро создать воеводу, следуя этим рекомендациям. Для Вождя или Парагона выберите Силу в качестве высшей характеристики, за которой следует Харизма. Для Командира выберите Силу в качестве высшей характеристики, за которой следует Мудрость.",
+										"Для Дворянина выберите Харизму в качестве высшей характеристики, за которой следует Телосложение, а для Тактика выберите Интеллект, за которым следует Телосложение."
 									]
 								}
 							]
@@ -501,107 +501,107 @@
 	],
 	"subclass": [
 		{
-			"name": "Chieftain's Presence",
-			"shortName": "Chieftain",
+			"name": "Присутствие вождя",
+			"shortName": "Вождь",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"subclassFeatures": [
-				"Chieftain's Presence|Warlord|ktw|Chieftain|ktw|1",
-				"Warcry|Warlord|ktw|Chieftain|ktw|3",
-				"Savage Momentum|Warlord|ktw|Chieftain|ktw|3",
-				"Reckless Assault|Warlord|ktw|Chieftain|ktw|7",
-				"Wolfpack Tactics|Warlord|ktw|Chieftain|ktw|11",
-				"Booming Shout|Warlord|ktw|Chieftain|ktw|15",
-				"Bloody Victory|Warlord|ktw|Chieftain|ktw|18"
+				"Присутствие вождя|Warlord|ktw|Вождь|ktw|1",
+				"Боевой клич|Warlord|ktw|Вождь|ktw|3",
+				"Дикое ускорение|Warlord|ktw|Вождь|ktw|3",
+				"Безрассудное нападение|Warlord|ktw|Вождь|ktw|7",
+				"Тактика волчьей стаи|Warlord|ktw|Вождь|ktw|11",
+				"Гулкий крик|Warlord|ktw|Вождь|ktw|15",
+				"Кровавая победа|Warlord|ktw|Вождь|ktw|18"
 			]
 		},
 		{
-			"name": "Commander's Presence",
-			"shortName": "Commander",
+			"name": "Присутствие командира",
+			"shortName": "Командир",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"subclassFeatures": [
-				"Commander's Presence|Warlord|ktw|Commander|ktw|1",
-				"Keen Pointer|Warlord|ktw|Commander|ktw|3",
-				"On Your Feet|Warlord|ktw|Commander|ktw|7",
-				"Martial Advantage|Warlord|ktw|Commander|ktw|11",
-				"Bulwark|Warlord|ktw|Commander|ktw|15",
-				"No One Left Behind|Warlord|ktw|Commander|ktw|18"
+				"Присутствие командира|Warlord|ktw|Командир|ktw|1",
+				"Меткий указатель|Warlord|ktw|Командир|ktw|3",
+				"На ноги|Warlord|ktw|Командир|ktw|7",
+				"Воинское превосходство|Warlord|ktw|Командир|ktw|11",
+				"Оплот|Warlord|ktw|Командир|ktw|15",
+				"Никого не бросаем|Warlord|ktw|Командир|ktw|18"
 			]
 		},
 		{
-			"name": "Gifted's Presence",
-			"shortName": "Gifted",
+			"name": "Присутствие одарённого",
+			"shortName": "Одарённый",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"subclassFeatures": [
-				"Gifted's Presence|Warlord|ktw|Gifted|ktwe|1",
-				"Psionic Discipline|Warlord|ktw|Gifted|ktwe|3",
-				"Psionic Battlefield Presence|Warlord|ktw|Gifted|ktwe|7",
-				"Gifted Leader|Warlord|ktw|Gifted|ktwe|11",
-				"Battle Mind|Warlord|ktw|Gifted|ktwe|15",
-				"Perfect Convergence|Warlord|ktw|Gifted|ktwe|18"
+				"Присутствие одарённого|Warlord|ktw|Одарённый|ktwe|1",
+				"Псионическая дисциплина|Warlord|ktw|Одарённый|ktwe|3",
+				"Присутствие псионического поля боя|Warlord|ktw|Одарённый|ktwe|7",
+				"Одарённый лидер|Warlord|ktw|Одарённый|ktwe|11",
+				"Боевой разум|Warlord|ktw|Одарённый|ktwe|15",
+				"Идеальное слияние|Warlord|ktw|Одарённый|ktwe|18"
 			]
 		},
 		{
-			"name": "Noble's Presence",
-			"shortName": "Noble",
+			"name": "Присутствие дворянина",
+			"shortName": "Дворянин",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"subclassFeatures": [
-				"Noble's Presence|Warlord|ktw|Noble|ktw|1",
-				"Retainers & Followers|Warlord|ktw|Noble|ktw|1",
-				"Divine Right|Warlord|ktw|Noble|ktw|3",
-				"Charismatic Leadership|Warlord|ktw|Noble|ktw|3",
-				"Words of Conviction|Warlord|ktw|Noble|ktw|7",
-				"Imperative Order|Warlord|ktw|Noble|ktw|7",
-				"Inspired Zeal|Warlord|ktw|Noble|ktw|11",
-				"Untouchable Presence|Warlord|ktw|Noble|ktw|15",
-				"Grand Decree|Warlord|ktw|Noble|ktw|18"
+				"Присутствие дворянина|Warlord|ktw|Дворянин|ktw|1",
+				"Вассалы и последователи|Warlord|ktw|Дворянин|ktw|1",
+				"Божественное право|Warlord|ktw|Дворянин|ktw|3",
+				"Харизматичное лидерство|Warlord|ktw|Дворянин|ktw|3",
+				"Слова убеждения|Warlord|ktw|Дворянин|ktw|7",
+				"Императивный приказ|Warlord|ktw|Дворянин|ktw|7",
+				"Вдохновлённое рвение|Warlord|ktw|Дворянин|ktw|11",
+				"Неприкосновенное присутствие|Warlord|ktw|Дворянин|ktw|15",
+				"Великий указ|Warlord|ktw|Дворянин|ktw|18"
 			]
 		},
 		{
-			"name": "Packleader's Presence",
-			"shortName": "Packleader",
+			"name": "Присутствие вожака стаи",
+			"shortName": "Вожак стаи",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"subclassFeatures": [
-				"Packleader's Presence|Warlord|ktw|Packleader|ktw|1",
-				"Nature's Gift|Warlord|ktw|Packleader|ktw|3",
-				"A Pack Leader's Pack|Warlord|ktw|Packleader|ktw|3",
-				"Shroud of Nature|Warlord|ktw|Packleader|ktw|7",
-				"Trackless Trails|Warlord|ktw|Packleader|ktw|7",
-				"Fleeting Strikers|Warlord|ktw|Packleader|ktw|11",
-				"Ghosts of the Wild|Warlord|ktw|Packleader|ktw|15",
-				"Warlord of the Wilds|Warlord|ktw|Packleader|ktw|18"
+				"Присутствие вожака стаи|Warlord|ktw|Вожак стаи|ktw|1",
+				"Дар природы|Warlord|ktw|Вожак стаи|ktw|3",
+				"Стая вожака|Warlord|ktw|Вожак стаи|ktw|3",
+				"Покров природы|Warlord|ktw|Вожак стаи|ktw|7",
+				"Бесследные тропы|Warlord|ktw|Вожак стаи|ktw|7",
+				"Мимолётные нападающие|Warlord|ktw|Вожак стаи|ktw|11",
+				"Призраки Дикого|Warlord|ktw|Вожак стаи|ktw|15",
+				"Воевода Диких земель|Warlord|ktw|Вожак стаи|ktw|18"
 			]
 		},
 		{
-			"name": "Paragon's Presence",
-			"shortName": "Paragon",
+			"name": "Присутствие идеала",
+			"shortName": "Идеал",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"subclassFeatures": [
-				"Paragon's Presence|Warlord|ktw|Paragon|ktw|1",
-				"Fighting Style|Warlord|ktw|Paragon|ktw|3",
-				"Heroic Strike|Warlord|ktw|Paragon|ktw|3",
-				"Stand Defiant|Warlord|ktw|Paragon|ktw|7",
-				"Inspired Warrior|Warlord|ktw|Paragon|ktw|11",
-				"The Prowess of the Inspired|Warlord|ktw|Paragon|ktw|11",
-				"Dauntless Resolve|Warlord|ktw|Paragon|ktw|15",
-				"Invincible Legion|Warlord|ktw|Paragon|ktw|18",
-				"Invincible Deathwarded Legions?|Warlord|ktw|Paragon|ktw|18"
+				"Присутствие идеала|Warlord|ktw|Идеал|ktw|1",
+				"Боевой стиль|Warlord|ktw|Идеал|ktw|3",
+				"Героический удар|Warlord|ktw|Идеал|ktw|3",
+				"Стойте непоколебимо|Warlord|ktw|Идеал|ktw|7",
+				"Вдохновлённый боец|Warlord|ktw|Идеал|ktw|11",
+				"Доблесть вдохновлённых|Warlord|ktw|Идеал|ktw|11",
+				"Непоколебимая решимость|Warlord|ktw|Идеал|ktw|15",
+				"Непобедимый легион|Warlord|ktw|Идеал|ktw|18",
+				"Непобедимые легионы, защищённые от смерти?|Warlord|ktw|Идеал|ktw|18"
 			]
 		},
 		{
-			"name": "Spellweaver's Presence",
-			"shortName": "Spellweaver",
+			"name": "Присутствие Ткача заклинаний",
+			"shortName": "Ткач заклинаний",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
@@ -651,964 +651,964 @@
 				"arcane lock"
 			],
 			"subclassFeatures": [
-				"Spellweaver's Presence|Warlord|ktw|Spellweaver|ktwe|1",
-				"Spell Manipulation|Warlord|ktw|Spellweaver|ktwe|3",
-				"Shield and Shrouding|Warlord|ktw|Spellweaver|ktwe|3",
-				"Contested Magic|Warlord|ktw|Spellweaver|ktwe|7",
-				"Mirror Ally|Warlord|ktw|Spellweaver|ktwe|11",
-				"Independent Arcana|Warlord|ktw|Spellweaver|ktwe|15",
-				"Mirror Army|Warlord|ktw|Spellweaver|ktwe|18"
+				"Присутствие Ткача заклинаний|Warlord|ktw|Ткач заклинаний|ktwe|1",
+				"Манипуляция заклинаниями|Warlord|ktw|Ткач заклинаний|ktwe|3",
+				"Щит и покров|Warlord|ktw|Ткач заклинаний|ktwe|3",
+				"Оспариваемая магия|Warlord|ktw|Ткач заклинаний|ktwe|7",
+				"Отражение союзника|Warlord|ktw|Ткач заклинаний|ktwe|11",
+				"Независимая Магия|Warlord|ktw|Ткач заклинаний|ktwe|15",
+				"Армия отражений|Warlord|ktw|Ткач заклинаний|ktwe|18"
 			]
 		},
 		{
-			"name": "Tactician's Presence",
-			"shortName": "Tactician",
+			"name": "Присутствие тактика",
+			"shortName": "Тактик",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"subclassFeatures": [
-				"Tactician's Presence|Warlord|ktw|Tactician|ktw|1",
-				"Tactical Insight|Warlord|ktw|Tactician|ktw|3",
-				"Planning Movement... or not.|Warlord|ktw|Tactician|ktw|3",
-				"Tactical Flexibility|Warlord|ktw|Tactician|ktw|3",
-				"Inscrutable Mind|Warlord|ktw|Tactician|ktw|7",
-				"Control the Field|Warlord|ktw|Tactician|ktw|7",
-				"Tactical Strike|Warlord|ktw|Tactician|ktw|11",
-				"Advanced Orders|Warlord|ktw|Tactician|ktw|15",
-				"Unstoppable Schemes|Warlord|ktw|Tactician|ktw|18",
-				"Multilayered Tactics|Warlord|ktw|Tactician|ktw|18"
+				"Присутствие тактика|Warlord|ktw|Тактик|ktw|1",
+				"Тактическое чутьё|Warlord|ktw|Тактик|ktw|3",
+				"Плановое перемещение... или нет.|Warlord|ktw|Тактик|ktw|3",
+				"Тактическая гибкость|Warlord|ktw|Тактик|ktw|3",
+				"Непостижимый разум|Warlord|ktw|Тактик|ktw|7",
+				"Контролировать поле|Warlord|ktw|Тактик|ktw|7",
+				"Тактический удар|Warlord|ktw|Тактик|ktw|11",
+				"Продвинутые приказы|Warlord|ktw|Тактик|ktw|15",
+				"Неостановимые замыслы|Warlord|ktw|Тактик|ktw|18",
+				"Многоуровневая тактика|Warlord|ktw|Тактик|ktw|18"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Battlefield Presence",
+			"name": "Присутствие на поле боя",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 1,
 			"entries": [
-				"Starting at 1st level, when you take the {@action Attack} action, in place of making an attack, you can use your Battlefield Presence to grant a friendly creature that can see or hear you an additional attack the next time they take the {@action Attack} action during their turn.",
-				"Any additional attacks granted that are unused at the start of your next turn are lost. A friendly creature can only gain one additional attack from this feature per round."
+				"Начиная с 1-го уровня, когда вы совершаете {@action Attack}, вместо совершения атаки вы можете использовать своё присутствие на поле боя, чтобы предоставить дружелюбному существу, которое может вас видеть или слышать, дополнительную атаку в следующий раз, когда оно совершит {@action Attack} в свой ход.",
+				"Любые дополнительные атаки, предоставленные этой способностью и не использованные в начале вашего следующего хода, теряются. Дружелюбное существо может получить только одну дополнительную атаку от этой способности за Раунд."
 			]
 		},
 		{
-			"name": "Warlord Presence",
+			"name": "Присутствие воеводы",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 1,
 			"entries": [
-				"At 1st level, you pick the archetype of Warlord you embody, called a Presence. Your choice grants you features at 1st level, and again at 3rd, 7th, 11th, 15th, and 18th level."
+				"На 1-м уровне вы выбираете архетип Воеводы, которому соответствуете, называемый Присутствием. Ваш выбор предоставляет вам умения на 1-м уровне, а затем на 3-м, 7-м, 11-м, 15-м и 18-м уровнях."
 			]
 		},
 		{
-			"name": "Leadership Dice",
+			"name": "Кости лидерства",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, you have access to Leadership Dice. These represent your ability to focus your battlefield presence to powerful results. Your Warlord level determines the number and size of the dice, as shown on the Leadership Dice column of the Warlord table. You can spend these to fuel various features.",
-				"You start knowing three such features: Rallying Mark, Urgent Orders, and Helpful Word. When you get this feature, you can spend one Leadership Die per turn. Starting at 6th level, you can spend two Leadership Dice per turn. The number you can expend increases at 11th level (to three dice), and again at 17th level (to four dice).",
-				"A Leadership Die is expended when you use it. You regain all of your expended Leadership Dice when you finish a short or long rest.",
+				"Начиная со 2-го уровня, вы получаете доступ к костям лидерства. Они отражают вашу способность сосредоточить своё присутствие на поле боя для достижения мощных результатов. Уровень Воеводы определяет количество и размер костей, как показано в столбце «Кости лидерства» таблицы Воеводы. Вы можете тратить их для подпитки различных умений.",
+				"Вы начинаете, зная три таких умения: Воодушевляющая метка, Срочные приказы и Полезное слово. Получив это умение, вы можете тратить одну кость лидерства за ход. Начиная с 6-го уровня, вы можете тратить две кости лидерства за ход. Количество костей, которые вы можете потратить, увеличивается на 11-м уровне (до трёх костей), а затем на 17-м уровне (до четырёх костей).",
+				"Кость лидерства тратится, когда вы её используете. Вы восстанавливаете все потраченные кости лидерства, когда заканчиваете короткий или продолжительный отдых.",
 				{
 					"type": "entries",
-					"name": "Rallying Mark",
+					"name": "Воодушевляющая метка",
 					"entries": [
-						"As a bonus action, you can expend a number of Leadership Dice (up to your per turn limit) to rally your allies to attack a hostile creature within 60 feet of you.",
-						"The next time damage is rolled against that target by an allied creature before the start of your next turn, they can add the Leadership Dice to the damage roll, and the attacking creature regains hit points equal to the amount rolled on the Leadership Dice."
+						"Бонусным действием вы можете потратить несколько костей лидерства (в пределах установленного для вас ограничения за ход), чтобы воодушевить своих союзников атаковать враждебное существо в пределах 60 футов от вас.",
+						"В следующий раз, когда союзное существо совершит бросок урона против этой цели до начала вашего следующего хода, оно может добавить кости лидерства к броску урона, а атакующее существо восстанавливает количество хитов, равное результату броска костей лидерства."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Urgent Orders",
+					"name": "Срочные приказы",
 					"entries": [
-						"As a bonus action, you can expend a number of Leadership Dice (up to your per turn limit) to guide your allies in expeditious action.",
-						"Target an allied creature within 60 feet of you that can see or hear you, that creature can immediately use its reaction to move up to its movement speed (up to a maximum of 30 feet) without provoking opportunity attacks. Roll the leadership dice expended, the target gains temporary hit points equal to the value rolled."
+						"Бонусным действием вы можете потратить несколько костей лидерства (в пределах установленного вами ограничения за ход), чтобы направить своих союзников на быстрые действия.",
+						"Выберите союзное существо в пределах 60 футов от вас, которое может видеть или слышать вас; это существо может немедленно использовать свою реакцию, чтобы переместиться на расстояние, не превышающее его скорость перемещения (но не более чем на 30 футов), не провоцируя провоцированные атаки. Бросьте потраченные кости лидерства — цель получает временные хиты в количестве, равном выпавшему результату."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Helpful Word",
+					"name": "Полезное слово",
 					"entries": [
-						"You can spend one Leadership Die to take the {@action Help} action as a bonus action on your turn. When you use the {@action Help} action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you."
+						"Вы можете потратить одну кость лидерства, чтобы бонусным действием в свой ход совершить действие {@action Help}. Когда вы используете действие {@action Help}, чтобы помочь союзнику атаковать существо, цель этой атаки может находиться в пределах 30 футов от вас, а не в пределах 5 футов, если цель может видеть или слышать вас."
 					]
 				}
 			]
 		},
 		{
-			"name": "Warlord Presence feature",
+			"name": "Особенность «Присутствие воеводы»",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you gain a feature granted by your Warlord Presence."
+				"На 3-м уровне вы получаете особенность, предоставляемую вашим присутствием воеводы."
 			]
 		},
 		{
-			"name": "Warlord's Expertise",
+			"name": "Компетентность воеводы",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 3,
 			"entries": [
-				"Starting at 3rd level, you gain proficiency one of the {@skill Persuasion}, {@skill Intimidation}, {@skill Insight} or {@skill Investigation}. If you are already proficient in the skill you select, your proficiency bonus is doubled for any ability check you make that uses that skill."
+				"Начиная с 3-го уровня вы получаете владение одним из следующих навыков: {@skill Persuasion}, {@skill Intimidation}, {@skill Insight} или {@skill Investigation}. Если вы уже владеете выбранным навыком, ваш бонус мастерства удваивается для любой проверки характеристики, использующей этот навык."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Extra Attack",
+			"name": "Дополнительная атака",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
-				"You can use Battlefield Presence in place of either or both attacks."
+				"Начиная с 5-го уровня, вы можете атаковать дважды вместо одного раза всякий раз, когда совершаете действие {@action Attack} в свой ход.",
+				"Вы можете использовать «Присутствие на поле боя» вместо одной или обеих атак."
 			]
 		},
 		{
-			"name": "Prepare for Battle",
+			"name": "Подготовка к битве",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 6,
 			"entries": [
-				"Starting at 6th level, you can spend a minute preparing up to five allies for combat. You can expend a number of Leadership Dice up to your per turn limit, rolling them and causing your allies to gain temporary hit points equal to the number rolled. Allies that have benefited from this ability can expend a number of hit dice equal to the number of Leadership Dice you expended, using them as they would during a short rest. Any temporary hit points gained from this last until you complete a short or long rest."
+				"Начиная с 6-го уровня, вы можете потратить минуту, чтобы подготовить к бою до пяти союзников. Вы можете израсходовать количество Костей Лидерства, не превышающее ваш предел за ход, бросить их и предоставить союзникам временные хиты в количестве, равном выпавшему числу. Союзники, получившие пользу от этой характеристики, могут израсходовать количество Костей Хитов, равное количеству израсходованных вами Костей Лидерства, используя их так же, как во время короткого отдыха. Все временные хиты, полученные таким образом, сохраняются, пока вы не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Warlord Presence feature",
+			"name": "Особенность «Присутствие воеводы»",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 7,
 			"entries": [
-				"At 7th level, you gain a feature granted by your Warlord Presence."
+				"На 7-м уровне вы получаете умение, предоставляемое вашим присутствием Воеводы."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Press the Attack",
+			"name": "Начать атаку",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 9,
 			"entries": [
-				"Starting at 9th level, your abilities are further empowered:",
+				"Начиная с 9-го уровня ваши способности получают дополнительные усиления:",
 				{
 					"type": "entries",
-					"name": "Rallying Mark: Boost Morale",
+					"name": "Сплачивающая метка: повысить боевой дух",
 					"entries": [
-						"When a creature gains hit points from Rallying Mark, you can expend a Leadership die to cause another creature within 30 feet to regain the same number of hit points."
+						"Когда существо получает хиты от сплачивающей метки, вы можете израсходовать Кость Лидерства, чтобы другое существо в пределах 30 фт. восстановило такое же количество хитов."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Urgent Orders: Coordinated Movements",
+					"name": "Срочные приказы: согласованные перемещения",
 					"entries": [
-						"When you use Urgent Orders, you can target a number of creatures equal to the number of Leadership Dice spent, spending dice on each target individually."
+						"Когда вы используете «Срочные приказы», вы можете выбрать целью количество существ, равное числу потраченных костей лидерства, тратя кости на каждую цель отдельно."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Helpful Word: Expert Instructions",
+					"name": "Полезное слово: экспертные наставления",
 					"entries": [
-						"When a creature benefits from your {@action Help} action, you can use your reaction to expend a Leadership Die and add it to their roll. You can use this ability after the original roll, but before the outcome is revealed."
+						"Когда существо получает преимущества от вашего {@action Help} действия, вы можете реакцией потратить кость лидерства и добавить её к своему броску. Вы можете использовать эту способность после исходного броска, но до объявления результата."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 10,
 			"entries": [
-				"When you reach 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 10-го уровня, вы можете повысить одну характеристику на свой выбор на 2 или две характеристики на свой выбор на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Warlord Presence feature",
+			"name": "Особенность «Присутствие воеводы»",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 11,
 			"entries": [
-				"At 11th level, you gain a feature granted by your Warlord Presence."
+				"На 11-м уровне вы получаете умение, дарованное вашим воеводским присутствием."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Warlord's Intuition",
+			"name": "Интуиция воеводы",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 13,
 			"entries": [
-				"Starting at 13th level, before rolling an ability check you are proficient in, you can exercise this ability, choosing for the {@dice d20} to be equal to your Warlord level rather than rolling. Once you do this, you cannot do this until you complete a long rest."
+				"Начиная с 13-го уровня, перед совершением проверки характеристики, которой вы владеете, вы можете применить эту способность, решив, что результатом {@dice d20} будет ваш уровень воеводы, вместо совершения броска. Использовав эту способность, вы не можете использовать её снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Shift the Field",
+			"name": "Сдвиг поля",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 14,
 			"entries": [
-				"Starting at 14th level, you gain the ability to relocate friendly creatures. As an action, you can expend a Leadership Die to move up to 5 friendly creatures that can see or hear you up to half their movement without provoking attacks of opportunity."
+				"Начиная с 14-го уровня, вы получаете способность перемещать дружелюбных существ. Действием вы можете потратить кость лидерства, чтобы переместить до 5 дружелюбных существ, которые могут видеть или слышать вас, на расстояние до половины их перемещения, не провоцируя провоцированные атаки."
 			]
 		},
 		{
-			"name": "Warlord Presence feature",
+			"name": "Особенность «Присутствие воеводы»",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 15,
 			"entries": [
-				"At 15th level, you gain a feature granted by your Warlord Presence."
+				"На 15-м уровне вы получаете умение, дарованное вашим воеводским присутствием."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Unbreakable Will",
+			"name": "Неразрушимая воля",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 17,
 			"entries": [
-				"Starting at 17th level, the Warlord cannot be {@condition frightened} or {@condition charmed}, and gains immunity to these conditions."
+				"Начиная с 17-го уровня, воевода не может быть {@condition frightened} или {@condition charmed} и получает неуязвимость к этим состояниям."
 			]
 		},
 		{
-			"name": "Warlord Presence feature",
+			"name": "Особенность «Присутствие воеводы»",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain a feature granted by your Warlord Presence."
+				"На 18-м уровне вы получаете умение, дарованное вашим воеводским присутствием."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Tireless Leader",
+			"name": "Неутомимый предводитель",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
 			"level": 20,
 			"entries": [
-				"Starting at 20th level, you can roll {@dice d4}s and use them instead of expending Leadership Dice for Rallying Mark, Urgent Orders, Helpful Word, or Prepare for Battle."
+				"Начиная с 20-го уровня, вы можете бросать {@dice d4} и использовать их вместо траты костей лидерства для «Воодушевляющей метки», «Срочных приказов», «Полезного слова» или «Подготовки к битве»."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Chieftain's Presence",
+			"name": "Присутствие вождя",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 1,
 			"entries": [
-				"A chieftain is Warlord that rules by the sheer force of their personality, marked by their booming voice and fearless attitude, it is easy to believe that your band is infallible while your chieftain stands.",
-				"They can be lawful or chaotic, good or evil, with such things depending on how they got to where they are in life. An orc that cut their way to top may be chaotic, believing that strength needs room to rise to the top unfettered by rules, while someone that inherited their authority may have a more lawful bent.",
-				"A Warlord with the Presence of a Chieftain need not literally rule anything, but is an exemplar of someone that has or could walk that path through their force of personality and the boisterous inspiration they give those around them.",
+				"Вождь — это воевода, правящий благодаря одной лишь силе своей личности; его отличают громкий голос и бесстрашное отношение, и пока вождь стоит во главе, легко поверить, что его отряд непобедим.",
+				"Они могут быть привержены Порядку или Хаосу, Добру или Злу — всё зависит от того, как они пришли к своему нынешнему положению. Орк, пробивший себе путь наверх, может быть привержен Хаосу, считая, что Силе нужно дать возможность подняться на вершину, не стесняя её правилами, тогда как тот, кто унаследовал свою власть, может быть более склонен к Порядку.",
+				"Воевода с присутствием вождя не обязан буквально кем-либо править, но является примером того, кто прошёл или мог бы пройти этот путь благодаря силе своей личности и воодушевлению, которое он с воодушевлением дарит окружающим.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Chieftain's Proficiency|Warlord|ktw|Chieftain|ktw|1"
+					"subclassFeature": "Владение вождя|Warlord|ktw|Вождь|ktw|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wolfpack Movement|Warlord|ktw|Chieftain|ktw|1"
+					"subclassFeature": "Перемещение волчьей стаи|Warlord|ktw|Вождь|ktw|1"
 				}
 			]
 		},
 		{
-			"name": "Chieftain's Proficiency",
+			"name": "Владение вождя",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level when you take this Presence, you gain proficiency in shields, martial weapons, and the {@skill Intimidation} skill."
+				"Начиная с 1-го уровня, когда вы выбираете это присутствие, вы получаете владение щитами, воинским оружием и навыком {@skill Intimidation}."
 			]
 		},
 		{
-			"name": "Wolfpack Movement",
+			"name": "Перемещение волчьей стаи",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, the first time you move after you roll initiative, you can bring a number of willing creatures equal to your Charisma modifier (minimum 1) within 20 feet of you with you. These creatures move the same distance and direction that you move but cannot move farther than their speed would allow. Creature can stop this movement at any point along the path.",
-				"Creatures cannot move more than their movement speed in following you."
+				"Начиная с 1-го уровня, в первый раз, когда вы перемещаетесь после броска инициативы, вы можете взять с собой количество желающих существ, равное вашему модификатору Харизмы (минимум 1), находящихся в пределах 20 футов от вас. Эти существа перемещаются на то же расстояние и в том же направлении, что и вы, но не могут переместиться дальше, чем позволяет их скорость. Существо может остановить это перемещение в любой точке пути.",
+				"Существа не могут перемещаться вслед за вами дальше, чем позволяет их скорость."
 			]
 		},
 		{
-			"name": "Savage Momentum",
+			"name": "Дикое ускорение",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Additionally at 3rd level, whenever you spend a Leadership Die, you gain advantage on the next attack roll you make before the end of your turn."
+				"Кроме того, на 3-м уровне, всякий раз, когда вы тратите кость лидерства, вы получаете преимущество на следующий бросок атаки, который совершите до конца своего хода."
 			]
 		},
 		{
-			"name": "Warcry",
+			"name": "Боевой клич",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, as an action or in place of an attack as part of the {@action Attack} action, you can expend a number of Leadership Dice (up to your per turn limit) to inspire your allies with a mighty Warcry. You and friendly creatures within 20 feet of you gain temporary hit points equal to the Leadership Dice roll + your Charisma modifier (minimum 1).",
-				"This can affect a number of creatures up to your Charisma modifier (minimum 1)."
+				"Начиная с 3-го уровня, действием или вместо атаки в рамках действия {@action Attack} вы можете потратить количество костей лидерства, не превышающее ваш лимит за ход, чтобы воодушевить союзников могучим боевым кличем. Вы и дружелюбные существа в пределах 20 футов от вас получаете временные хиты, равные результату броска костей лидерства + вашему модификатору Харизмы (минимум 1).",
+				"Это может повлиять на количество существ, не превышающее ваш модификатор Харизмы (минимум 1)."
 			]
 		},
 		{
-			"name": "Reckless Assault",
+			"name": "Безрассудное нападение",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, when a creature with temporary hitpoints from one of your abilities deals damage with a weapon attack, they can expend those temporary hitpoints to add damage equal to half the temporary hit points sacrificed to their damage roll."
+				"Начиная с 7-го уровня, когда существо с временными хитами, полученными благодаря одному из ваших умений, наносит урон атакой оружием, оно может потратить эти временные хиты, чтобы добавить к своему броску урона урон, равный половине принесённых в жертву временных хитов."
 			]
 		},
 		{
-			"name": "Wolfpack Tactics",
+			"name": "Тактика волчьей стаи",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, you excel at taking down prey in coordination with your allies. The first creature you hit that has taken damage from one of your allies since the end of your last turn suffers an additional {@dice 1d12} damage.",
-				"If an attack you grant with Battlefield Presence is used to attack a creature you dealt damage to during your turn, that attack deals an additional {@dice 1d4} damage."
+				"Начиная с 11-го уровня, вы превосходно сражаетесь с добычей вместе с союзниками. Первое существо, в которое вы попадёте и которому с конца вашего прошлого хода нанёс урон один из ваших союзников, получает дополнительный {@dice 1d12} урона.",
+				"Если атака, которую вы даруете с помощью «Воеводского присутствия», используется для атаки существа, которому вы нанесли урон в течение своего хода, эта атака наносит дополнительный {@dice 1d4} урона."
 			]
 		},
 		{
-			"name": "Booming Shout",
+			"name": "Гулкий крик",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, when you unleash your Warcry, you can attempt to frighten enemies. Any number of creatures within range of your Warcry must make a Wisdom saving throw (DC of 8 + your proficiency bonus + your Charisma modifier) or become {@condition frightened} of you until the end of their turn. Once you have used Booming Shout, you cannot use it in this way again until you complete a short or long rest.",
-				"Additionally, the range of your Rallying Mark, Urgent Orders, Helpful Word, and Warcry is doubled."
+				"Начиная с 15-го уровня, когда вы высвобождаете свой Боевой клич, вы можете попытаться напугать врагов. Любое количество существ в пределах дистанции вашего Боевого клича должно совершить спасбросок Мудрости (Сл спасброска 8 + ваш бонус мастерства + ваш модификатор Харизмы), иначе станет {@condition frightened} вас до конца своего хода. Использовав Громкий крик, вы не можете использовать его таким образом снова, пока не завершите короткий или продолжительный отдых.",
+				"Кроме того, дистанция ваших Сплачивающей метки, Срочных приказов, Полезного слова и Боевого клича удваивается."
 			]
 		},
 		{
-			"name": "Bloody Victory",
+			"name": "Кровавая победа",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Chieftain",
+			"subclassShortName": "Вождь",
 			"subclassSource": "ktw",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, when you or an ally reduce a hostile creature that has dealt damage to you to 0 hit points, you can unleash a Warcry as a reaction. When you unleash your Warcry in this way, you do not expend any Leadership Dice and you use a {@dice d12} in place of your Leadership Die.",
-				"You can use this reaction a number of times equal to your Charisma modifier, regaining all uses on a long rest."
+				"Начиная с 18-го уровня, когда вы или ваш союзник уменьшаете до 0 хитов враждебное существо, которое нанесло вам урон, вы можете высвободить Боевой клич в качестве реакции. Когда вы высвобождаете свой Боевой клич таким образом, вы не тратите кубики лидерства и используете {@dice d12} вместо своей кости лидерства.",
+				"Вы можете использовать эту реакцию количество раз, равное вашему модификатору Харизмы, восстанавливая все использования после продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Commander's Presence",
+			"name": "Присутствие командира",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 1,
 			"entries": [
-				"A Commander on the field can be many things - a trusted sergeant, a weary veteran, or merely a man with an uncommon degree of common sense and a particularly keen eye for how to win a fight.",
-				"While not as flashy as some of the other Presences on the Battlefield, that just means they are less likely to get themselves skewered. A keen word there and helping hand here, their influence is subtle but effective, inexorably shifting the tides of battle in their favor.",
-				"A Commander can come from any background, but is usually someone that has acquired their Wisdom the hard way, having seen a bit of what life and battlefields have to offer.",
+				"Командир на поле боя может быть кем угодно — доверенным сержантом, уставшим ветераном или просто человеком с необычайно здравым смыслом и особенно зорким взглядом на то, как выиграть битву.",
+				"Хотя они не столь эффектны, как некоторые другие Присутствия на поле боя, это лишь означает, что их с меньшей вероятностью насадят на клинок. Острый совет здесь и рука помощи там — их влияние незаметно, но эффективно, неумолимо склоняя ход битвы в их пользу.",
+				"Командир может происходить из любого окружения, но обычно это тот, кто приобрёл свою Мудрость тяжёлым путём, увидев немало того, что могут предложить жизнь и поля сражений.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Martial Proficiency|Warlord|ktw|Commander|ktw|1"
+					"subclassFeature": "Воинское владение|Warlord|ktw|Командир|ktw|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Form Up!|Warlord|ktw|Commander|ktw|1"
+					"subclassFeature": "В строй!|Warlord|ktw|Командир|ktw|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sequential Movement at the Same Time.|Warlord|ktw|Commander|ktw|1"
+					"subclassFeature": "Последовательное перемещение одновременно.|Warlord|ktw|Командир|ktw|1"
 				}
 			]
 		},
 		{
-			"name": "Form Up!",
+			"name": "В строй!",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, when you roll initiative and are not surprised, any number of friendly creatures within 30 feet of you can move up to a number of feet equal to five times your Wisdom modifier (minimum 5 feet)."
+				"Начиная с 1-го уровня, когда вы совершаете бросок инициативы и не застигнуты врасплох, любое количество дружественных существ в пределах 30 футов от вас может переместиться на расстояние до количества футов, равного пятикратному вашему модификатору Мудрости (минимум 5 футов)."
 			]
 		},
 		{
-			"name": "Martial Proficiency",
+			"name": "Воинское владение",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level when you take this Presence, you gain proficiency in heavy armor, shields, and martial weapons."
+				"Начиная с 1-го уровня, когда вы выбираете это Присутствие, вы получаете владение тяжёлыми доспехами, щитами и воинским оружием."
 			]
 		},
 		{
-			"name": "Sequential Movement at the Same Time.",
+			"name": "Последовательное перемещение одновременно.",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"type": "inset",
 			"entries": [
-				"D&D is typically a turn based game, and thus people do not typically move at the same time; an ability that allows multiple creatures to move at the same time opens the door to questions about order. This ability represents the Commander's Presence causing their companions to spring into a well oiled routine, and it is recommended that you let the players move in their desired order during this movement.",
-				"It should also be noted that this movement is determined by the player moving. A Warlord grants his allies the ability to move, he does not necessarily move them."
+				"D&D обычно является пошаговой игрой, поэтому существа обычно не перемещаются одновременно; способность, позволяющая нескольким существам перемещаться одновременно, порождает вопросы о порядке. Эта способность отражает то, как Присутствие командира заставляет его спутников слаженно действовать, и рекомендуется позволить игрокам перемещаться в желаемом порядке во время этого перемещения.",
+				"Также следует отметить, что это перемещение определяется перемещающимся игроком. Воевода даёт своим союзникам возможность переместиться, но не обязательно перемещает их сам."
 			]
 		},
 		{
-			"name": "Keen Pointer",
+			"name": "Меткий указатель",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you can take the Helpful Word bonus action without expending a Leadership Die if you are within 5 feet of the creature you are taking the {@action Help} action against.",
-				"When you do so, you can expend one Leadership Die to apply Rallying Mark to the creature you are targeting with this {@action Help} action."
+				"Начиная с 3-го уровня, вы можете использовать бонусное действие «Полезное слово», не расходуя кость лидерства, если находитесь в пределах 5 футов от существа, против которого совершаете действие {@action Help}.",
+				"При этом вы можете израсходовать одну кость лидерства, чтобы наложить Сплочающую метку на существо, являющееся целью этого действия {@action Help}."
 			]
 		},
 		{
-			"name": "On Your Feet",
+			"name": "На ноги",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you can use a bonus action and expend one Leadership Die to restore in an ally the will to fight. Choose a friendly creature within 5 feet of you. That creature regains hit points equal to your Leadership Die.",
-				"When you use this feature to restore hit points to a creature at 0 hit points, you can add your Wisdom modifier to the amount of hit points restored. If the creature is {@condition prone}, it can choose to stand immediately."
+				"Начиная с 7-го уровня, вы можете использовать бонусное действие и израсходовать одну кость лидерства, чтобы вернуть союзнику волю к борьбе. Выберите дружественное существо в пределах 5 футов от вас. Это существо восстанавливает хиты в размере, равном результату вашей кости лидерства.",
+				"Когда вы используете эту способность, чтобы восстановить хиты существу с 0 хитами, вы можете добавить к количеству восстановленных хитов свой модификатор мудрости. Если существо находится в состоянии {@condition prone}, оно может немедленно встать."
 			]
 		},
 		{
-			"name": "Martial Advantage",
+			"name": "Воинское превосходство",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, you've learned to leverage fighting alongside an ally. Once per turn, you can deal an extra {@dice 2d6} damage to a creature you hit with a weapon attack if that creature is within 5 feet of an ally that isn't {@condition incapacitated}."
+				"Начиная с 11-го уровня, вы учитесь использовать преимущества сражения бок о бок с союзником. Один раз за ход вы можете нанести дополнительный урон {@dice 2d6} существу, по которому вы попали атакой оружием, если это существо находится в пределах 5 футов от союзника, который не является {@condition incapacitated}."
 			]
 		},
 		{
-			"name": "Bulwark",
+			"name": "Оплот",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, when you and any number of friendly creatures within 30 feet of you make a Saving Throw against the same effect, your allies gain Advantage on their Saving Throw if you succeed on the Saving Throw."
+				"Начиная с 15-го уровня, когда вы и любое количество дружественных существ в пределах 30 футов от вас совершаете спасбросок против одного и того же эффекта, ваши союзники получают преимущество на спасбросок, если вы преуспели в спасброске."
 			]
 		},
 		{
-			"name": "No One Left Behind",
+			"name": "Никого не бросаем",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Commander",
+			"subclassShortName": "Командир",
 			"subclassSource": "ktw",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you can move up to your speed to get within 5 feet of a creature while using your On Your Feet feature. During this movement you gain resistance to all damage and the target regains an additional {@dice 1d8} hit points for each attack of opportunity that hits you during this movement."
+				"Начиная с 18-го уровня, вы можете переместиться на расстояние вплоть до своей скорости, чтобы оказаться в пределах 5 футов от существа, используя особенность «На ноги». Во время этого перемещения вы получаете сопротивление всему урону, а цель восстанавливает дополнительные {@dice 1d8} хитов за каждую свободную атаку, которая попала по вам во время этого перемещения."
 			]
 		},
 		{
-			"name": "Noble's Presence",
+			"name": "Присутствие дворянина",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 1,
 			"entries": [
-				"A Warlord with a Noble Presence is not inherently one that was born a Noble, though many are. A Noble Presence Warlord is one that serves to drive their retainers and companions onto greater heights through sheer charisma, a shining beacon of what they are fighting for standing beside them.",
-				"Since time immemorial men have fought twice as hard on a battlefield when their leader takes the field to stand among them, driven to heights that would seem impossible in order to protect their liege - while an adventurer of this path may or may not be their liege, their charisma invokes the same fervor in their companions and retainers.",
-				"An adventurer on this path is not inherently of noble background, though many often are. A noble reared on the laws of the land is usually lawful, but extraordinary circumstances may have brought about a rebellious streak in one that now seeks to overthrow unfit rulers (or rulers that aren't them, anyway).",
+				"Воевода с Благородным присутствием не обязательно является тем, кто родился дворянином, хотя многие из них таковы. Воевода с Благородным присутствием служит тому, чтобы благодаря одной лишь Харизме вести своих подчинённых и спутников к высшим достижениям, являясь рядом с ними сияющим маяком того, за что они сражаются.",
+				"С незапамятных времён люди сражались на поле боя вдвое усерднее, когда их предводитель выходил на поле боя и вставал рядом с ними, воодушевляя их на свершения, которые казались бы невозможными, чтобы защитить своего сюзерена — хотя герой этого пути может быть, а может и не быть их сюзереном, его Харизма пробуждает такое же Рвение в его спутниках и вассалах.",
+				"Герой этого пути не обязательно происходит из дворянского рода, хотя многие таковы. Дворянин, воспитанный на законах своей земли, обычно придерживается Порядка, но чрезвычайные обстоятельства могли пробудить в нём мятежный дух, и теперь он стремится свергнуть негодных правителей (или правителей, которые не являются им самим).",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Destined Leader|Warlord|ktw|Noble|ktw|1"
+					"subclassFeature": "Избранный лидер|Warlord|ktw|Дворянин|ktw|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Call to Arms|Warlord|ktw|Noble|ktw|1"
+					"subclassFeature": "Призыв к оружию|Warlord|ktw|Дворянин|ktw|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Inspiring Leader|Warlord|ktw|Noble|ktw|1"
+					"subclassFeature": "Воодушевляющий лидер|Warlord|ktw|Дворянин|ktw|1"
 				}
 			]
 		},
 		{
-			"name": "Retainers & Followers",
+			"name": "Вассалы и последователи",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 1,
 			"type": "inset",
 			"entries": [
-				"A Noble Warlord gets more mileage out their retainers or followers than other Warlords, but in turn is more dependent on having someone else make their attacks for them.",
-				"This does not inherently mean they need NPC followers, however. A loyal retainer is always a good idea, but they can help a friendly Fighter just as easily as an NPC follower."
+				"Дворянин-воевода получает от своих вассалов или последователей больше пользы, чем другие воеводы, но взамен сильнее зависит от того, чтобы кто-то другой совершал Атаки вместо него.",
+				"Однако это не обязательно означает, что ему нужны последователи-НИП. Верный вассал всегда полезен, но он с такой же лёгкостью может помочь Дружелюбному Воину, как и НИП-последователь."
 			]
 		},
 		{
-			"name": "Call to Arms",
+			"name": "Призыв к оружию",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, when you roll initiative, you can call out to friendly creatures within 60 feet of you, providing them with a surge of inspiration. They can add your Charisma modifier to their first attack roll made before the end of their turn."
+				"Начиная с 1-го уровня, когда вы совершаете бросок инициативы, вы можете обратиться к Дружелюбным существам в пределах 60 футов от вас, воодушевляя их всплеском Вдохновения. Они могут добавить ваш Модификатор Харизмы к своему первому Броску атаки, совершённому до конца своего хода."
 			]
 		},
 		{
-			"name": "Destined Leader",
+			"name": "Избранный лидер",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level when you take this Presence you gain proficiency with the {@item rapier|phb}, the {@item longsword|phb}, and the {@skill Persuasion} skill. Additionally, you gain an additional Leadership Die at 3rd level, 9th level, and 15th level."
+				"Начиная с 1-го уровня, когда вы выбираете это Присутствие, вы получаете Владение {@item rapier|phb}, {@item longsword|phb} и навыком {@skill Persuasion}. Кроме того, вы получаете дополнительную Кость лидерства на 3-м, 9-м и 15-м уровнях."
 			]
 		},
 		{
-			"name": "Inspiring Leader",
+			"name": "Воодушевляющий лидер",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Additionally at 1st level, a creature with a CR of less than half your Warlord level (or with fewer class levels than you have Warlord levels if the creature does not have a CR) can choose to use your proficiency bonus + your Charisma modifier for their attack roll modifier on any Attack granted by Battlefield Presence."
+				"Кроме того, начиная с 1-го уровня, Существо с ПО меньше половины вашего уровня воеводы (или с меньшим количеством уровней Класса, чем у вас уровней воеводы, если у существа нет ПО) может выбрать использование вашего Бонуса мастерства + вашего Модификатора Харизмы в качестве Модификатора Броска атаки для любой Атаки, полученной благодаря Присутствию на поле боя."
 			]
 		},
 		{
-			"name": "Charismatic Leadership",
+			"name": "Харизматичное лидерство",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Additionally at 3rd level, you can add your Charisma modifier to the damage done by Rallying Mark, the temporary hit points granted by Urgent Orders, and the attack roll of a creature that gains advantage from Helpful Word."
+				"Кроме того, начиная с 3-го уровня, вы можете добавить свой Модификатор Харизмы к Урону, наносимому Меткой сплочения, к Временным хитам, предоставляемым Срочными приказами, и к Броску атаки существа, получающего Преимущество благодаря Полезному слову."
 			]
 		},
 		{
-			"name": "Divine Right",
+			"name": "Божественное право",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you can use Leadership Dice (up to your per turn limit) to cast {@spell command}. The level of the spell is equal to the Leadership Dice spent.",
-				"The spell save DC for this spell is 8 + your proficiency bonus + your Charisma modifier.",
-				"You can also add your Charisma (maximum 2) to your AC so long as you are not wearing heavy armor or using a shield."
+				"Начиная с 3-го уровня, вы можете использовать Кости лидерства (в пределах вашего лимита за ход), чтобы сотворить {@spell command}. Уровень Заклинания равен количеству потраченных Костей лидерства.",
+				"Сл спасброска от заклинаний для этого заклинания равна 8 + ваш Бонус Владения + ваш Модификатор Харизмы.",
+				"Вы также можете добавить свою Харизму (максимум 2) к своему КД, пока вы не носите Тяжёлые доспехи и не используете Щит."
 			]
 		},
 		{
-			"name": "Imperative Order",
+			"name": "Императивный приказ",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, when you spend 2 or more Leadership Dice on a target with Urgent Orders, you can allow the the target creature to make a single weapon attack with their reaction instead of moving. If you spend 3 or more Leadership Dice on a target, the target creature can both move and make a single weapon attack with their reaction."
+				"Начиная с 7-го уровня, когда вы тратите 2 или более костей лидерства на Цель с помощью «Срочных приказов», вы можете позволить этому Существу совершить одну Атаку Оружием Реакцией вместо Перемещения. Если вы тратите 3 или более костей лидерства на Цель, это Существо может совершить и Перемещение, и одну Атаку Оружием Реакцией."
 			]
 		},
 		{
-			"name": "Words of Conviction",
+			"name": "Слова убеждения",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you can use Leadership Dice to cast {@spell bless} or {@spell heroism} without providing material components. The level of the spell is equal to the Leadership Dice spent."
+				"Начиная с 7-го уровня, вы можете использовать кости лидерства, чтобы накладывать {@spell bless} или {@spell heroism}, не предоставляя материальные Компоненты. Уровень Заклинания равен количеству потраченных костей лидерства."
 			]
 		},
 		{
-			"name": "Inspired Zeal",
+			"name": "Вдохновлённое рвение",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, you are always under the effect of {@spell crusader's mantle}. This effect does not require concentration, and returns at the start of your next turn if removed, dispelled, or suppressed."
+				"Начиная с 11-го уровня, вы постоянно находитесь под действием {@spell crusader's mantle}. Этот эффект не требует Концентрации и возвращается в начале вашего следующего хода, если он снят, рассеян или подавлен."
 			]
 		},
 		{
-			"name": "Untouchable Presence",
+			"name": "Неприкосновенное присутствие",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, you are under the effect of {@spell sanctuary}. This effect ends as normal if you take an action that would break it, but returns at the start of your next turn.",
-				"The spell save DC for this spell is 8 + your proficiency bonus + your Charisma modifier."
+				"Начиная с 15-го уровня, вы находитесь под действием {@spell sanctuary}. Этот эффект заканчивается как обычно, если вы совершаете Действие, которое нарушает его, но возвращается в начале вашего следующего хода.",
+				"Сл спасброска от заклинаний для этого заклинания равна 8 + ваш Бонус Владения + ваш Модификатор Харизмы."
 			]
 		},
 		{
-			"name": "Grand Decree",
+			"name": "Великий указ",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Noble",
+			"subclassShortName": "Дворянин",
 			"subclassSource": "ktw",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you can use this ability to cast {@spell command} without expending a spell slot or Leadership Dice. When you do so, the spell affects all creatures of your choice within range that could be affected by the spell.",
-				"Once you cast {@spell command} using this ability, you cannot cast it using this ability again until you complete a long rest."
+				"Начиная с 18-го уровня, вы можете использовать эту Характеристику, чтобы наложить {@spell command}, не тратя Ячейку заклинания или кости лидерства. В таком случае Заклинание воздействует на всех выбранных вами существ в пределах Дистанции, на которых может воздействовать это Заклинание.",
+				"После того как вы наложили {@spell command} с помощью этой Характеристики, вы не можете снова наложить его с помощью этой Характеристики, пока не завершите Продолжительный отдых."
 			]
 		},
 		{
-			"name": "Packleader's Presence",
+			"name": "Присутствие вожака стаи",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 1,
 			"entries": [
-				"While Warlords may specialize in the control of battles, a Packleader is a Warlord that aims to win a fight before it becomes a battle. Through scouting, preparing, and stacking the odds, they don't fight fair, they fight to win, and seek to only fight when they've already won.",
-				"Their control of the battlefield doesn't merely extend to those that fight on it, but to twisting the battlefield itself to suit their needs, stymying and stupefying their foes while concealing and sheltering their allies with the terrain itself.",
-				"While good and evil rarely play directly into a Packleader's perspective (they can be either or Neutral just as easily), they tend be Chaotic, viewing the so called \"rules of engagement\" and other traditions of civilization to be convenient weaknesses they can exploit rather than any sort of guideline they might actually follow.",
+				"Хотя Воеводы могут специализироваться на управлении сражениями, Вожак стаи — это Воевода, стремящийся победить в схватке до того, как она превратится в сражение. Разведывая местность, готовясь и увеличивая свои преимущества, они не сражаются честно — они сражаются ради победы и стремятся вступать в бой только тогда, когда уже победили.",
+				"Их контроль над полем боя распространяется не только на тех, кто сражается на нём, но и на изменение самого поля боя в соответствии со своими потребностями: они срывают планы и ошеломляют врагов, скрывая и защищая союзников с помощью самой местности.",
+				"Хотя добро и зло редко напрямую влияют на мировоззрение Вожака стаи (они с такой же лёгкостью могут быть любыми из них или Нейтральными (Н)), они обычно склоняются к Хаосу, считая так называемые «правила ведения боя» и другие традиции цивилизации удобными слабостями, которые можно использовать, а не какими-либо наставлениями, которым они действительно стали бы следовать.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Wild|Warlord|ktw|Packleader|ktw|1"
+					"subclassFeature": "Инструменты Дикого|Warlord|ktw|Вожак стаи|ktw|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Concealed Approach|Warlord|ktw|Packleader|ktw|1"
+					"subclassFeature": "Скрытное приближение|Warlord|ktw|Вожак стаи|ktw|1"
 				}
 			]
 		},
 		{
-			"name": "Concealed Approach",
+			"name": "Скрытное приближение",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, if you have at least a minute to prepare, you can add your Wisdom modifier to a Dexterity ({@skill Stealth}) check for you and up five friendly creatures.",
-				"You and friendly creatures within 30 feet of you that roll for initiative while hidden can add your Wisdom modifier to the initiative result."
+				"Начиная с 1-го уровня, если у вас есть хотя бы минута на подготовку, вы можете добавить свой модификатор Мудрости к проверке Ловкости ({@skill Stealth}), которую совершаете вы и до пяти дружелюбных существ.",
+				"Вы и дружелюбные существа в пределах 30 футов от вас, которые совершают бросок на инициативу, находясь в засаде, можете добавить свой модификатор Мудрости к результату инициативы."
 			]
 		},
 		{
-			"name": "Tools of the Wild",
+			"name": "Инструменты Дикого",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level when you take this Presence, you gain proficiency in martial weapons, {@skill Survival}, and your choice of {@item Herbalism Kit|phb} or {@item Poisoner's Kit|phb}."
+				"Начиная с 1-го уровня, когда вы выбираете это Присутствие, вы получаете владение воинским оружием, {@skill Survival} и на ваш выбор {@item Herbalism Kit|phb} или {@item Poisoner's Kit|phb}."
 			]
 		},
 		{
-			"name": "A Pack Leader's Pack",
+			"name": "Стая вожака",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 3,
 			"type": "inset",
 			"entries": [
-				"Many Packleaders opt to pick {@spell animal friendship} or {@spell speak with animals} in order to establish animal allies to expand their pack, but just as many don't feel the need to be required to have an animal companion."
+				"Многие Вожаки стаи предпочитают выбрать {@spell animal friendship} или {@spell speak with animals}, чтобы установить союз с животными и расширить свою стаю, но столь же многие не считают необходимым иметь животное-спутника."
 			]
 		},
 		{
-			"name": "Nature's Gift",
+			"name": "Дар природы",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, your connection to the wild battlefields you've mastered offers you some measure of control of them. You learn the spell {@spell mold earth|xge}, and can pick one additional cantrip from the {@filter druid spell list|spells|class=druid} that you know.",
-				"Additionally, as an action, you can expend one Leadership Die to cast {@spell fog cloud} or {@spell snare|xge} as a first level spells, and can pick one additional 1st level spell from the {@filter druid spell list|spells|class=druid} to cast this way.",
-				"The spell save DC for these spells is 8 + your proficiency bonus + your Wisdom modifier."
+				"Начиная с 3-го уровня, ваша связь с дикими полями сражений, которые вы освоили, даёт вам некоторую степень контроля над ними. Вы изучаете заклинание {@spell mold earth|xge}, а также можете выбрать один дополнительный заговор из {@filter druid spell list|spells|class=druid}, который вы знаете.",
+				"Кроме того, действием вы можете потратить одну кость Лидерства, чтобы наложить {@spell fog cloud} или {@spell snare|xge} как заклинание 1-го уровня, а также можете выбрать одно дополнительное заклинание 1-го уровня из {@filter druid spell list|spells|class=druid}, чтобы накладывать его таким образом.",
+				"Сл спасброска от заклинаний для этих заклинаний равна 8 + ваш бонус мастерства + ваш модификатор Мудрости."
 			]
 		},
 		{
-			"name": "Shroud of Nature",
+			"name": "Покров природы",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you and your allies can fade away behind natural shrouds. Whenever you cast a spell that results in you or a friendly creature becoming obscured (such as being within the radius of a {@spell fog cloud} or behind earth moved by {@spell mold earth|xge}), the obscured creature can use their reaction to take the {@action Hide} action."
+				"Начиная с 7-го уровня, вы и ваши союзники можете исчезать за природными покровами. Каждый раз, когда вы накладываете заклинание, в результате которого вы или дружелюбное существо становитесь скрытыми (например, находясь в радиусе действия {@spell fog cloud} или за землёй, перемещённой с помощью {@spell mold earth|xge}), скрытое существо может реакцией совершить действие {@action Hide}."
 			]
 		},
 		{
-			"name": "Trackless Trails",
+			"name": "Бесследные тропы",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Additionally at 7th level, you can spend 2 Leadership Dice to cast {@spell pass without trace} without providing material components."
+				"Кроме того, на 7-м уровне вы можете потратить 2 кости Лидерства, чтобы наложить {@spell pass without trace}, не предоставляя материальные компоненты."
 			]
 		},
 		{
-			"name": "Fleeting Strikers",
+			"name": "Мимолётные нападающие",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, if you are not in the same spot you were at the end of your last turn or are obscured from your target, the first attack you make during your turn deals an additional {@dice 1d10} damage.",
-				"Additionally, a creature that you grant an attack to with Battlefield Presence can take the {@action Dash} action instead of making the attack you granted."
+				"Начиная с 11-го уровня, если вы не находитесь в той же точке, где были в конце своего прошлого хода, или скрыты от своей цели, первая атака, которую вы совершаете в свой ход, наносит дополнительный {@dice 1d10} урон.",
+				"Кроме того, существо, которому вы предоставили атаку с помощью «Присутствия на поле боя», может совершить действие {@action Dash} вместо предоставленной атаки."
 			]
 		},
 		{
-			"name": "Ghosts of the Wild",
+			"name": "Призраки Дикого",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, while under the effect of {@spell pass without trace}, you can expend one Leadership Die to take the {@action Hide} action at the end of your turn without expending an action.",
-				"If you use Battlefield Presence to grant an attack to a creature, you can expend one Leadership Die to shroud them with shadows or natural phenomena, granting them advantage on the first attack they make before the start of your next turn. If they are under the effect of {@spell pass without trace}, you can do this without expending a Leadership Die."
+				"Начиная с 15-го уровня, пока на вас действует {@spell pass without trace}, вы можете потратить одну кость Лидерства, чтобы в конце своего хода совершить действие {@action Hide}, не тратя действие.",
+				"Если вы используете «Присутствие на поле боя», чтобы предоставить существу атаку, вы можете потратить одну кость Лидерства, чтобы окутать его тенями или природными явлениями и дать ему преимущество на первую атаку, которую оно совершит до начала вашего следующего хода. Если на него действует {@spell pass without trace}, вы можете сделать это, не тратя кость Лидерства."
 			]
 		},
 		{
-			"name": "Warlord of the Wilds",
+			"name": "Воевода Диких земель",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Packleader",
+			"subclassShortName": "Вожак стаи",
 			"subclassSource": "ktw",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you can pick five additional spells from the {@filter druid spell list|spells|class=druid} of 4th level or lower. You can cast these spells using Leadership Dice equal to the level of the spell. You can change the list of spells you have selected when you complete a long rest.",
-				"The spell save DC for these spells is 8 + your proficiency bonus + your Wisdom modifier.",
-				"Any time you use Leadership Dice to cast a spell, you can take the {@action Attack} action (one weapon attack only) as a bonus action."
+				"Начиная с 18-го уровня, вы можете выбрать пять дополнительных заклинаний из {@filter druid spell list|spells|class=druid} 4-го уровня или ниже. Вы можете накладывать эти заклинания, тратя количество костей Лидерства, равное уровню заклинания. Вы можете изменить список выбранных заклинаний после завершения продолжительного отдыха.",
+				"Сл спасброска от заклинаний для этих заклинаний равна 8 + ваш бонус мастерства + ваш модификатор Мудрости.",
+				"Когда вы используете кости Лидерства для наложения заклинания, вы можете бонусным действием совершить действие {@action Attack} (только одну атаку оружием)."
 			]
 		},
 		{
-			"name": "Paragon's Presence",
+			"name": "Присутствие идеала",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 1,
 			"entries": [
-				"Legends tell of warriors that fight at the front of a legion, of the valor they display and the inspiration it gives their comrades. A Paragon before their army is a dauntless foe, and an army behind their Paragon is an unstoppable legion.",
-				"A Paragon is not inherently good or evil. An evil legion can be lead by a bold and charismatic Warlord just as effectively as the forces of good.",
-				"As they tend to be those that inspire an organized force, more often than not they will be lawful, but what that personal code of laws entails can vary quite widely.",
+				"Легенды рассказывают о воинах, сражающихся в первых рядах легиона, об их доблести и воодушевлении, которое она дарит товарищам. Парагон перед своей армией — бесстрашный враг, а армия за его Парагоном — неудержимый легион.",
+				"Парагон не обязательно является добрым или злым. Злым легионом может с такой же эффективностью командовать смелый и харизматичный Воевода, как и силами добра.",
+				"Поскольку обычно они воодушевляют организованные войска, чаще всего они придерживаются Порядка, но содержание их личного свода законов может сильно различаться.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Martial Proficiency|Warlord|ktw|Paragon|ktw|1"
+					"subclassFeature": "Воинское владение|Warlord|ktw|Идеал|ktw|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lead the Charge|Warlord|ktw|Paragon|ktw|1"
+					"subclassFeature": "Возглавить атаку|Warlord|ktw|Идеал|ktw|1"
 				}
 			]
 		},
 		{
-			"name": "Lead the Charge",
+			"name": "Возглавить атаку",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you can give yourself a bonus to your initiative rolls equal to your Charisma modifier. Additionally, when you roll initiative you gain temporary hit points equal to your your proficiency bonus + Charisma modifier."
+				"Начиная с 1-го уровня, вы можете добавить к результату броска инициативы свой модификатор Харизмы. Кроме того, совершая бросок инициативы, вы получаете временные хиты в количестве, равном вашему бонусу мастерства + модификатору Харизмы."
 			]
 		},
 		{
-			"name": "Martial Proficiency",
+			"name": "Воинское владение",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level when you take this Presence, you gain proficiency in heavy armor, shields, and martial weapons."
+				"Начиная с 1-го уровня, когда вы выбираете это Присутствие, вы получаете владение тяжёлыми доспехами, щитами и воинским оружием."
 			]
 		},
 		{
-			"name": "Fighting Style",
+			"name": "Боевой стиль",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+				"Вы выбираете особый стиль боя в качестве своей специальности. Выберите один из следующих вариантов. Вы не можете выбрать один и тот же вариант боевого стиля дважды, даже если получите новый выбор.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Defense",
+							"name": "Защита",
 							"entries": [
-								"While you are wearing armor, you gain a +1 bonus to AC."
+								"Пока на вас надет доспех, вы получаете бонус +1 к КД."
 							]
 						}
 					]
@@ -1618,9 +1618,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Dueling",
+							"name": "Дуэльный бой",
 							"entries": [
-								"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+								"Если в одной руке у вас оружие ближнего боя и никакого другого оружия, вы получаете бонус +2 к броскам урона этим оружием."
 							]
 						}
 					]
@@ -1630,9 +1630,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Great Weapon Fighting",
+							"name": "Бой большим оружием",
 							"entries": [
-								"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+								"Если вы бросаете 1 или 2 на кость урона за атаку, совершаемую вами оружием ближнего боя, которое вы держите двумя руками, вы можете перебросить кость и должны использовать новый бросок, даже если новый бросок — 1 или 2. Оружие должно иметь свойство двуручного или универсального, чтобы вы получили это преимущество."
 							]
 						}
 					]
@@ -1642,9 +1642,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Two-Weapon Fighting",
+							"name": "Бой двумя оружиями",
 							"entries": [
-								"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+								"Когда вы сражаетесь в бою двумя руками, вы можете добавить свой модификатор характеристик к урону второй атаки."
 							]
 						}
 					]
@@ -1652,195 +1652,195 @@
 			]
 		},
 		{
-			"name": "Heroic Strike",
+			"name": "Героический удар",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Additionally at 3rd level, when you take the {@action Attack} action, you can expend Leadership Dice (up to your per turn limit) to apply Rallying Mark as part of a melee weapon attack.",
-				"Whenever you expend Leadership Dice as part of making an attack, you can add the expended Leadership Dice to the damage roll of the attack."
+				"Кроме того, на 3-м уровне, когда вы совершаете {@action Attack} действие, вы можете потратить кости лидерства (в пределах установленного вами лимита за ход), чтобы применить Метку сплочения в рамках атаки оружием ближнего боя.",
+				"Всякий раз, когда вы расходуете кости Лидерства при совершении Атаки, вы можете добавить израсходованные кости Лидерства к броску урона Атаки."
 			]
 		},
 		{
-			"name": "Stand Defiant",
+			"name": "Стойте непоколебимо",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, when you are reduced to zero hit points, you instantly regain a number of hit points equal to your Charisma modifier (minimum 1). Additionally, you can expend a number of Leadership Dice equal to the number of friendly creatures within 60 feet of you. You regain additional hit points equal to the amount of dice expended this way.",
-				"Once you use this feature, you cannot use it again until you complete a short or long rest."
+				"Начиная с 7-го уровня, когда ваши хиты опускаются до 0, вы мгновенно восстанавливаете количество хитов, равное вашему модификатору Харизмы (минимум 1). Кроме того, вы можете потратить количество костей лидерства, равное количеству Дружелюбных существ в пределах 60 фт. от вас. Вы восстанавливаете дополнительные хиты, равные количеству потраченных таким образом костей.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "The Prowess of the Inspired",
+			"name": "Доблесть вдохновлённых",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 11,
 			"type": "inset",
 			"entries": [
-				"Effectively in almost all cases, what this ability boils down to is that if their companions are fighting around them within 30 feet, the Paragon will add a number of {@dice d4} equal to their Charisma modifier to the first attack on their turn.",
-				"The ability can be simplified to that, but that will result it in being slightly stronger than anticipated if the Paragon moves first or has few companions at their side."
+				"По сути, почти во всех случаях эта способность сводится к тому, что если их спутники сражаются вокруг них в пределах 30 фт., Парагон добавляет к первой атаке в своём ходу количество {@dice d4}, равное своему модификатору Харизмы.",
+				"Способность можно упростить до этого, но тогда она окажется немного сильнее, чем предполагалось, если Парагон ходит первым или рядом с ним находится мало спутников."
 			]
 		},
 		{
-			"name": "Inspired Warrior",
+			"name": "Вдохновлённый боец",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, once per turn, when one of your allies within 30 feet takes or deals damage, you gain a {@dice d4} die, adding it to a pool of dice. You can have a maximum number of {@dice d4} dice in this pool equal to your Charisma modifier (minimum 1).",
-				"Until the end of your next turn, when you deal damage you can expend any number of dice from this pool, rolling them and dealing additional damage equal to the value rolled."
+				"Начиная с 11-го уровня, один раз за ход, когда один из ваших союзников в пределах 30 фт. получает или наносит урон, вы получаете кость {@dice d4}, добавляя её в запас костей. Максимальное количество костей {@dice d4} в этом запасе равно вашему модификатору Харизмы (минимум 1).",
+				"До конца вашего следующего хода, когда вы наносите урон, вы можете потратить любое количество костей из этого запаса, бросить их и нанести дополнительный урон, равный выпавшему результату."
 			]
 		},
 		{
-			"name": "Dauntless Resolve",
+			"name": "Непоколебимая решимость",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, when you fail a Saving Throw, you can choose to succeed instead. Once you do this, you cannot do this again until you complete a long rest."
+				"Начиная с 15-го уровня, когда вы проваливаете Спасброски, вы можете вместо этого решить, что преуспели. Сделав это, вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Invincible Deathwarded Legions?",
+			"name": "Непобедимые легионы, защищённые от смерти?",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 18,
 			"type": "inset",
 			"entries": [
-				"It is intended that Invincible Legion can be activated before the effect of {@spell death ward} or similar effects would be triggered."
+				"Предполагается, что Непобедимый легион можно активировать до того, как сработает эффект {@spell death ward} или аналогичный эффект."
 			]
 		},
 		{
-			"name": "Invincible Legion",
+			"name": "Непобедимый легион",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Paragon",
+			"subclassShortName": "Идеал",
 			"subclassSource": "ktw",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, your allies will never fall so long as their symbol of hope remains. When a friendly creature within 60 feet of you is reduced to 0 hit points, but not killed outright, they can drop to 1 hit point instead so long as they can see or hear you.",
-				"Once a creature benefits from this effect, they cannot benefit from it again until they complete a long rest."
+				"Начиная с 18-го уровня, ваши союзники никогда не падут, пока остаётся их Знак надежды. Когда Дружелюбное существо в пределах 60 фт. от вас получает 0 хитов, но не погибает сразу, оно может вместо этого опуститься до 1 хита, если видит или слышит вас.",
+				"После того как существо получает преимущество от этого эффекта, оно не может получить от него преимущество снова, пока не завершит продолжительный отдых."
 			]
 		},
 		{
-			"name": "Tactician's Presence",
+			"name": "Присутствие тактика",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 1,
 			"entries": [
-				"A Tactician may very well tell you they would just as soon not be close enough to the battle to be considered a combatant, preferring to win their fights before it ever gets to that stage, but one would be a fool to underestimate how dangerous they are once on the battlefield.",
-				"While they might have laid their plans in advance, their sharp minds can quickly pick apart how their foes try to fight against them and effortlessly pierce the crude tactics that would be used against them and their allies.",
-				"What tends to mark a Tactician is a keen mind and a willingness to plan ahead... in great detail. Adventurers with a tactician among them are near impossible to pin down, as they will always find a way to turn the tables.",
+				"Тактик вполне может сказать вам, что предпочёл бы вовсе не находиться достаточно близко к сражению, чтобы считаться его участником, предпочитая побеждать в своих битвах ещё до того, как дело доходит до этой стадии, но недооценивать его опасность на поле боя мог бы лишь глупец.",
+				"Возможно, они заранее продумали свои планы, но их острый ум способен быстро разобрать, как враги пытаются сражаться против них, и без труда пробить грубую тактику, которую использовали бы против них и их союзников.",
+				"Тактика обычно отличается отличной памятью и готовностью планировать заранее... и в мельчайших деталях. Приключенцев, среди которых есть тактик, почти невозможно взять в мёртвый захват, поскольку они всегда найдут способ изменить ход битвы.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tactician's Cunning|Warlord|ktw|Tactician|ktw|1"
+					"subclassFeature": "Хитрость тактика|Warlord|ktw|Тактик|ktw|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battle Plans|Warlord|ktw|Tactician|ktw|1"
+					"subclassFeature": "Планы сражения|Warlord|ktw|Тактик|ktw|1"
 				}
 			]
 		},
 		{
-			"name": "Battle Plans",
+			"name": "Планы сражения",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you can give yourself a bonus to your initiative rolls equal to your Intelligence modifier. Additionally, you can exchange your total on this roll with a willing friendly creature within 60 feet."
+				"Начиная с 1-го уровня, вы можете добавить к своим броскам инициативы бонус, равный вашему модификатору Интеллекта. Кроме того, вы можете заменить результат этого броска своим результатом или результатом Дружелюбного существа в пределах 60 фт., которое согласно на это."
 			]
 		},
 		{
-			"name": "Tactician's Cunning",
+			"name": "Хитрость тактика",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you take this Presence at 1st level, you gain proficiency in the {@skill History} and {@skill Investigation} skills. Additionally, if you can take a minute or more making a skill check, you can treat a {@dice d20} roll of 4 or lower as a 5."
+				"Когда вы получаете это Присутствие на 1-м уровне, вы получаете Владение навыками {@skill History} и {@skill Investigation}. Кроме того, если вы можете потратить минуту или больше на выполнение проверки навыка, вы можете считать результат броска {@dice d20}, равный 4 или ниже, результатом 5."
 			]
 		},
 		{
-			"name": "Planning Movement... or not.",
+			"name": "Плановое перемещение... или нет.",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 3,
 			"type": "inset",
 			"entries": [
-				"A DM can choose to read the second bullet point of Tactical Insight as simply reducing the targets movement by 10. It is balanced around this assumption; predicting the movement is optional flavor, but may not fit all DMs styles."
+				"Мастер может решить читать второй пункт Тактической проницательности просто как уменьшение перемещения целей на 10. Баланс способности рассчитан на это предположение; предсказание перемещения — необязательная деталь, но она может не соответствовать стилю некоторых Мастеров."
 			]
 		},
 		{
-			"name": "Tactical Flexibility",
+			"name": "Тактическая гибкость",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Additionally at 3rd level, you gain the ability to use Tactical Insight, Rallying Mark, Helpful Word, and Urgent Orders as an action or a bonus action on your turn."
+				"Кроме того, на 3-м уровне вы получаете возможность использовать Тактическую проницательность, Метку сплочения, Полезное слово и Срочные приказы как действие или бонусное действие в свой ход."
 			]
 		},
 		{
-			"name": "Tactical Insight",
+			"name": "Тактическое чутьё",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you can tactically assess a creature's options. As a bonus action, make an Intelligence ({@skill Investigation}) check contested by a Charisma ({@skill Deception}) check against any creature you can see within 60 feet.",
-				"On a success, you can see through their tactics, granting one of the following effects:",
+				"Начиная с 3-го уровня, вы можете тактически оценивать возможности существа. Бонусным действием совершите проверку Интеллекта ({@skill Investigation}), которой противостоит проверка Харизмы ({@skill Deception}) любого существа, которого вы видите в пределах 60 фт.",
+				"В случае успеха вы видите сквозь их тактику, получая один из следующих эффектов:",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Determine Attack",
+							"name": "Определить атаку",
 							"entries": [
-								"You can cause them to have disadvantage on their next attack against a creature that can see or hear you."
+								"Вы можете создать им помеху на следующую атаку против существа, которое может видеть или слышать вас."
 							]
 						}
 					]
@@ -1850,9 +1850,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Predict Movement",
+							"name": "Предсказать перемещение",
 							"entries": [
-								"You deduce where they are planning to move on their next turn. They can choose to change their plans, but if they move anywhere else, their movement speed is reduced by 10 feet as they scramble to adapt."
+								"Вы понимаете, куда они планируют переместиться в свой следующий ход. Они могут изменить свои планы, но если переместятся куда-либо ещё, их Скорость уменьшается на 10 футов, пока они пытаются приспособиться."
 							]
 						}
 					]
@@ -1862,9 +1862,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Outwit Response",
+							"name": "Переиграть реакцию",
 							"entries": [
-								"You can find a find their openings, negating their ability to use their reaction until the end of their next turn."
+								"Вы можете найти их уязвимости, лишая их возможности использовать Реакции до конца их следующего хода."
 							]
 						}
 					]
@@ -1874,9 +1874,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Expose Weakness",
+							"name": "Раскрыть слабость",
 							"entries": [
-								"You can use Helpful Word to grant advantage against that target as part of the bonus action without expending a Leadership Die."
+								"Вы можете использовать «Полезное слово», чтобы дать Преимущество против этой Цели в рамках бонусного действия, не тратя кость Лидерства."
 							]
 						}
 					]
@@ -1884,24 +1884,24 @@
 			]
 		},
 		{
-			"name": "Control the Field",
+			"name": "Контролировать поле",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, when you use an ability the moves allied creatures (such as Urgent Orders or Shift the Field), it gains the following properties:",
+				"Начиная с 7-го уровня, когда вы используете Характеристику, которая перемещает союзных существ, например «Срочные приказы» или «Сместить поле», она получает следующие свойства:",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Deceptive Movement",
+							"name": "Обманчивое перемещение",
 							"entries": [
-								"You can attempt to move creatures that are not allies up to 5 feet (or half their movement speed, whichever is less). The creature must make an Intelligence Saving Throw with a DC of 8 + your proficiency bonus + your Intelligence modifier, or feel compelled to move to the new position immediately. Targets moved this way do not gain temporary hit points."
+								"Вы можете попытаться переместить не являющихся союзниками существ на расстояние до 5 футов или на половину их Перемещения — в зависимости от того, что меньше. Существо должно совершить спасбросок Интеллекта со СЛ 8 + ваш бонус мастерства + ваш Модификатор Интеллекта, иначе оно немедленно почувствует необходимость переместиться на новую позицию. Цели, перемещённые таким образом, не получают временные хиты."
 							]
 						}
 					]
@@ -1911,9 +1911,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Flanking Maneuvers",
+							"name": "Манёвры флангирования",
 							"entries": [
-								"If two allies you move are on opposite sides of a creatures after the movement you grant, the first one to attack that enemy has advantage on their first attack if they attack before the creature moves."
+								"Если после предоставленного вами перемещения два перемещённых вами союзника находятся по разные стороны существа, первый из них, атаковавший этого врага до перемещения существа, получает преимущество на свою первую атаку."
 							]
 						}
 					]
@@ -1923,9 +1923,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Coordinated Transitions",
+							"name": "Согласованные переходы",
 							"entries": [
-								"Allies can move through each other's spaces during the movement you grant without it being difficult terrain."
+								"Союзники могут перемещаться через пространства друг друга во время предоставленного вами перемещения, не считая их труднопроходимой местностью."
 							]
 						}
 					]
@@ -1933,106 +1933,106 @@
 			]
 		},
 		{
-			"name": "Inscrutable Mind",
+			"name": "Непостижимый разум",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you gain proficiency in Intelligence Saving Throws.",
-				"Additionally, as a reaction when being forced to make a Wisdom, Intelligence, or Charisma Saving Throw, you can expend one Leadership Die and add the die result to the saving throw."
+				"Начиная с 7-го уровня, вы получаете владение спасбросками Интеллекта.",
+				"Кроме того, когда вас вынуждают совершить спасбросок Мудрости, Интеллекта или Харизмы, вы можете реакцией потратить одну кость лидерства и добавить результат броска к спасброску."
 			]
 		},
 		{
-			"name": "Tactical Strike",
+			"name": "Тактический удар",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, when you succeed on a Tactical Insight check against a creature, the next attack you or a friendly creature makes against it before the start of your next turn deals an additional {@dice 2d6} damage."
+				"Начиная с 11-го уровня, когда вы успешно проходите проверку тактической проницательности против существа, следующая атака, которую вы или дружелюбное существо совершаете против него до начала вашего следующего хода, причиняет дополнительный {@dice 2d6} урона."
 			]
 		},
 		{
-			"name": "Advanced Orders",
+			"name": "Продвинутые приказы",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, when you expend a Leadership Die on Urgent Orders, you can allow the creature to take one of the {@action Use an Object}, {@action Search}, {@action Hide}, or {@action Dodge} actions as their reaction instead of moving."
+				"На 15-м уровне, когда вы тратите Кость Лидерства на «Срочные приказы», вы можете позволить существу совершить одно из действий {@action Use an Object}, {@action Search}, {@action Hide} или {@action Dodge} в качестве реакции вместо перемещения."
 			]
 		},
 		{
-			"name": "Multilayered Tactics",
+			"name": "Многоуровневая тактика",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Additionally at 18th level, when you succeed on a Tactical Insight check against a creature, you can choose two of the listed effects."
+				"Кроме того, на 18-м уровне, когда вы преуспеваете в проверке тактической проницательности против существа, вы можете выбрать два из перечисленных эффектов."
 			]
 		},
 		{
-			"name": "Unstoppable Schemes",
+			"name": "Неостановимые замыслы",
 			"source": "ktw",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Tactician",
+			"subclassShortName": "Тактик",
 			"subclassSource": "ktw",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, standing in your way becomes a pointless endeavor. When you move your allies with Urgent Orders or Shift the Field, they can move through spaces occupied by hostile creatures so long as they do not end their movement in an occupied space."
+				"Начиная с 18-го уровня, попытки встать у вас на пути становятся бессмысленными. Когда вы перемещаете своих союзников с помощью Срочных приказов или Смены поля боя, они могут перемещаться через пространства, занятые враждебными существами, если только не заканчивают своё перемещение в занятом пространстве."
 			]
 		},
 		{
-			"name": "Gifted's Presence",
+			"name": "Присутствие одарённого",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Gifted",
+			"subclassShortName": "Одарённый",
 			"subclassSource": "ktwe",
 			"level": 1,
 			"entries": [
-				"A Gifted is a unique Warlord who's presence stems from their 'gift' of Psionic powers. Like any Psion, the root of their power may vary, and it can come in several different expressions, but in all cases they leverage the unique gifts to wield an mysterious and effective presence that aids their allies immeasurable.",
+				"Одарённый — это уникальный воевода, чьё присутствие проистекает из его «дара» псионических сил. Как и у любого псиона, источник его силы может различаться и проявляться по-разному, но во всех случаях он использует свои уникальные дары, чтобы создать таинственное и эффективное присутствие, оказывающее его союзникам неизмеримую помощь.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "The Gift|Warlord|ktw|Gifted|ktwe|1"
+					"subclassFeature": "Дар|Warlord|ktw|Одарённый|ktwe|1"
 				}
 			]
 		},
 		{
-			"name": "The Gift",
+			"name": "Дар",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Gifted",
+			"subclassShortName": "Одарённый",
 			"subclassSource": "ktwe",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level when you take this Presence, you must first select your psionic gift from the following options. Your gift will impact several of your features.",
+				"Начиная с 1-го уровня, когда вы выбираете это присутствие, вы должны сначала выбрать свой псионический дар из следующих вариантов. Ваш дар повлияет на несколько ваших особенностей.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Enhancement",
+							"name": "Усиление",
 							"entries": [
-								"You can bring out the inner strength of yourself and others. You gain proficiency in {@skill Athletics} and gain access to the {@optfeature Enhancement Discipline|ktp|Enhancing Skill} psionic power."
+								"Вы можете пробудить внутреннюю силу в себе и других. Вы получаете владение {@skill Athletics} и доступ к псионической силе {@optfeature Enhancement Discipline|ktp|Навык усиления}."
 							]
 						}
 					]
@@ -2042,9 +2042,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Precognition",
+							"name": "Предвидение",
 							"entries": [
-								"You can see flashes of the future. You gain proficiency in {@skill Perception} and gain access to the {@optfeature Precognition Discipline|ktp|Prescience} psionic power."
+								"Вы видите вспышки будущего. Вы получаете владение {@skill Perception} и доступ к псионической силе {@optfeature Precognition Discipline|ktp|Предвидение}."
 							]
 						}
 					]
@@ -2054,9 +2054,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Telepathy",
+							"name": "Телепатия",
 							"entries": [
-								"Other minds are an open book to you. You gain proficiency in {@skill Insight} skill and gain access to the {@optfeature Telepathy Discipline|ktp|Telepathic Communication} psionic power."
+								"Разум других существ для вас — открытая книга. Вы получаете владение навыком {@skill Insight} и доступ к псионической силе {@optfeature Telepathy Discipline|ktp|Телепатическое общение}."
 							]
 						}
 					]
@@ -2064,29 +2064,29 @@
 			]
 		},
 		{
-			"name": "Psionic Discipline",
+			"name": "Псионическая дисциплина",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Gifted",
+			"subclassShortName": "Одарённый",
 			"subclassSource": "ktwe",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd, your gift evolves to a full expression of your powers. You gain the access to the full Discipline (including alternate effect spells) associated with your Gift ({@optfeature Enhancement Discipline|ktp|Enhancement}, {@optfeature Precognition Discipline|ktp|Precognition}, or {@optfeature Telepathy Discipline|ktp|Telepathy}).",
-				"You can use Leadership Dice as Psi Points, with a limit of 1 Leadership Die. This limit increases to 2 Leadership Dice at level 5, 3 Leadership Dice at level 9, 4 Leadership Dice at level 14, and 5 Leadership Dice at level 17.",
-				"Your Psionic Ability modifier is Intelligence.",
-				"Refer to the {@classFeature Psionics|Psion|ktp|1} feature for the rules governing psionic disciplines.",
+				"Начиная с 3-го уровня ваш дар развивается, полностью раскрывая ваши силы. Вы получаете доступ к полной дисциплине (включая заклинания с альтернативным эффектом), связанной с вашим даром ({@optfeature Enhancement Discipline|ktp|Усиление}, {@optfeature Precognition Discipline|ktp|Предвидение} или {@optfeature Telepathy Discipline|ktp|Телепатия}).",
+				"Вы можете использовать кости лидерства как очки пси, но не более 1 кости лидерства. Этот предел увеличивается до 2 костей лидерства на 5-м уровне, до 3 костей лидерства на 9-м уровне, до 4 костей лидерства на 14-м уровне и до 5 костей лидерства на 17-м уровне.",
+				"Ваш модификатор псионической характеристики — Интеллект.",
+				"Обратитесь к особенности {@classFeature Psionics|Psion|ktp|1}, чтобы ознакомиться с правилами, управляющими псионическими дисциплинами.",
 				{
 					"type": "abilityDc",
-					"name": "Psionic",
+					"name": "Псионика",
 					"attributes": [
 						"int"
 					]
 				},
 				{
 					"type": "abilityAttackMod",
-					"name": "Psionic",
+					"name": "Псионика",
 					"attributes": [
 						"int"
 					]
@@ -2094,51 +2094,51 @@
 			]
 		},
 		{
-			"name": "Psionic Battlefield Presence",
+			"name": "Присутствие псионического поля боя",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Gifted",
+			"subclassShortName": "Одарённый",
 			"subclassSource": "ktwe",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, when you use your action on a Psionic Discipline Power, you can grant one attack from Battlefield Presence as part of the same action."
+				"Начиная с 7-го уровня, когда вы используете своё действие для применения силы псионической дисциплины, вы можете совершить одну атаку с помощью «Присутствия псионического поля боя» в рамках того же действия."
 			]
 		},
 		{
-			"name": "Gifted Leader",
+			"name": "Одарённый лидер",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Gifted",
+			"subclassShortName": "Одарённый",
 			"subclassSource": "ktwe",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, your gift and talent as a leader work in perfect harmony, each emphasizing the other. When you spend one or more Leadership Dice on a psionic discipline power, you gain one special Leadership Die that you can only spend on Rallying Mark, Overwhelming Mark, or Helpful Word. This die expires if unspent at the end of your next turn; you can only have one of these special Leadership Dice at a time.",
-				"Additionally, when you spend a Leadership Die on the power of Psionic Discipline, the first die you spend counts as two Psi Points for the purposes of the Power."
+				"Начиная с 11-го уровня ваш дар и талант лидера работают в полной гармонии, усиливая друг друга. Когда вы тратите одну или несколько костей лидерства на силу псионической дисциплины, вы получаете одну особую кость лидерства, которую можно потратить только на «Сплачивающую метку», «Подавляющую метку» или «Полезное слово». Эта кость исчезает, если не потрачена до конца вашего следующего хода; одновременно у вас может быть только одна такая особая кость лидерства.",
+				"Кроме того, когда вы тратите кость лидерства на силу псионической дисциплины, первая потраченная вами кость считается двумя очками псионики для целей этой силы."
 			]
 		},
 		{
-			"name": "Battle Mind",
+			"name": "Боевой разум",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Gifted",
+			"subclassShortName": "Одарённый",
 			"subclassSource": "ktwe",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, the battle around you becomes part of you, and you become part of it, connected by your Psionic power. You gain one of the following benefits based on your gift.",
+				"Начиная с 15-го уровня окружающая вас битва становится частью вас, а вы становитесь её частью, соединённые вашей псионической силой. Вы получаете одно из следующих преимуществ в зависимости от вашего дара.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Enhancement",
+							"name": "Усиление",
 							"entries": [
-								"You can feel the strengthen within your allies, and bolster it when it fails. When an ally within 60 feet fails a Strength or Constitution Saving throw, you can allow them to pass instead."
+								"Вы чувствуете силу своих союзников и укрепляете её, когда она ослабевает. Когда союзник в пределах 60 футов проваливает спасбросок Силы или Телосложения, вы можете позволить ему вместо этого преуспеть."
 							]
 						}
 					]
@@ -2148,9 +2148,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Precognition",
+							"name": "Предвидение",
 							"entries": [
-								"Your foresee what misfortune will befall your allies before it happens. When an ally within 60 feet fails a Dexterity or Charisma saving throw, you can allow them to pass instead."
+								"Вы предвидите несчастья, которые постигнут ваших союзников, ещё до того, как они произойдут. Когда союзник в пределах 60 футов проваливает спасбросок Ловкости или Харизмы, вы можете позволить ему вместо этого преуспеть."
 							]
 						}
 					]
@@ -2160,80 +2160,80 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Telepathy",
+							"name": "Телепатия",
 							"entries": [
-								"You are with your allies in their mind, giving them a second chance. When an ally within 60 feet fails a Wisdom or Intelligence saving throw, you can allow them to pass instead."
+								"Вы присутствуете в сознании своих союзников, даруя им второй шанс. Когда союзник в пределах 60 футов проваливает спасбросок Мудрости или Интеллекта, вы можете позволить ему вместо этого преуспеть."
 							]
 						}
 					]
 				},
-				"If you are rolling a Saving Throw against the same effect you cause an ally to pass their save for, you gain advantage on your Saving Throw. Once you use the power granted by this feature, you cannot use it again until you complete a long rest."
+				"Если вы совершаете спасбросок против того же эффекта, для которого вы позволили союзнику преуспеть в спасброске, вы совершаете свой спасбросок с преимуществом. Использовав силу, предоставленную этой особенностью, вы не можете использовать её снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Perfect Convergence",
+			"name": "Идеальное слияние",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Gifted",
+			"subclassShortName": "Одарённый",
 			"subclassSource": "ktwe",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you can use your powers in perfect synchronization with the influence of your presence. You can use Battlefield Presence to grant one attack even when casting a spell from the Alternate Effects of your Psionic Discipline.",
-				"Additionally, when you spend a Leadership Die on the power of Psionic Discipline, the first die you spend counts as three Psi Points for the purposes of the Power."
+				"Начиная с 18-го уровня, вы можете использовать свои силы в полной синхронизации с влиянием своего присутствия. Вы можете использовать «Присутствие на поле боя», чтобы совершить одну атаку даже при Наложении заклинаний из альтернативных эффектов вашей псионической дисциплины.",
+				"Кроме того, когда вы тратите кость лидерства на силу псионической дисциплины, первая потраченная вами кость считается тремя очками пси для целей этой силы."
 			]
 		},
 		{
-			"name": "Spellweaver's Presence",
+			"name": "Присутствие Ткача заклинаний",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 1,
 			"entries": [
-				"A Spellweaver is a magically adapt individual who holds great mechanical knowledge of magic and its tactical applications, but frequently lacks - or at least doesn't focus on - the raw power arcane power that a Wizard or Sorcerer might. A deft touch to manipulate magic, pulling and warping the spells of others, shrouding their allies with abjuration and illusion, their touch is subtle and effective.",
-				"A careless observe may take their efforts as less, but a wise one realizes the danger of their manipulations can far outweigh a flashy fireball when it comes to shifting the tides of war.",
+				"Плетельщик заклинаний — это магически адаптированный индивидуум, обладающий глубокими механическими знаниями о магии и её тактическом применении, но часто лишённый — или, по крайней мере, не сосредоточенный на — необузданной тайной силе, которой может обладать Волшебник или Чародей. Искусно манипулируя магией, вытягивая и искажая чужие заклинания, окутывая союзников ограждением и иллюзией, он действует тонко и эффективно.",
+				"Невнимательный наблюдатель может счесть их усилия незначительными, но мудрый понимает, что опасность их манипуляций при изменении хода войны может намного превосходить опасность броского Огненного шара.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Proficiency|Warlord|ktw|Spellweaver|ktwe|1"
+					"subclassFeature": "Владение тайной силой|Warlord|ktw|Ткач заклинаний|ktwe|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enchanter's Shroud|Warlord|ktw|Spellweaver|ktwe|1"
+					"subclassFeature": "Покров заклинателя|Warlord|ktw|Ткач заклинаний|ktwe|1"
 				}
 			]
 		},
 		{
-			"name": "Arcane Proficiency",
+			"name": "Владение тайной силой",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level when you take this Presence, you gain proficiency in the {@skill Arcana} skill, and learn two cantrips of your choice from the {@filter Wizard or Bard spell list from the abjuration, enchantment, or illusion schools|spells|level=0|class=bard;wizard|school=I;A;E}. These are Warlord spells for you.",
+				"Начиная с 1-го уровня, когда вы выбираете это Присутствие, вы получаете владение навыком {@skill Arcana} и изучаете два заговора на свой выбор из {@filter Wizard or Bard spell list from the abjuration, enchantment, or illusion schools|spells|level=0|class=bard;wizard|school=I;A;E}. Для вас это заклинания Воеводы.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spellcasting Ability",
+							"name": "Базовая характеристика для заклинаний",
 							"entries": [
-								"Intelligence is your spellcasting ability for your spells, since you learn your spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+								"Интеллект — ваша базовая характеристика для заклинаний, поскольку вы изучаете свои заклинания. Вы используете Интеллект всякий раз, когда заклинание ссылается на вашу базовую характеристику для заклинаний. Кроме того, вы используете модификатор Интеллекта при установке Сл спасброска для заклинания, которое вы накладываете, и при совершении броска атаки с его помощью.",
 								{
 									"type": "abilityDc",
-									"name": "Spell",
+									"name": "Заклинание",
 									"attributes": [
 										"int"
 									]
 								},
 								{
 									"type": "abilityAttackMod",
-									"name": "Spell",
+									"name": "Заклинание",
 									"attributes": [
 										"int"
 									]
@@ -2245,50 +2245,50 @@
 			]
 		},
 		{
-			"name": "Enchanter's Shroud",
+			"name": "Покров заклинателя",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Additionally at 1st level, when you roll initiative you wrap an allied creature in an arcane enchantment, making the target creature {@condition invisible} for a number of rounds equal to your Intelligence modifier, or until the target creature attacks, makes a damage roll, or forces someone to make a saving throw."
+				"Кроме того, на 1-м уровне, когда вы совершаете бросок инициативы, вы окутываете союзное существо тайным заклятием, делая целевое существо {@condition invisible} на число раундов, равное вашему модификатору Интеллекта, или до тех пор, пока целевое существо не совершит атаку, бросок урона или не заставит кого-либо совершить спасбросок."
 			]
 		},
 		{
-			"name": "Shield and Shrouding",
+			"name": "Щит и покров",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Additionally at 3rd level, your proficiency with magic gives the ability to cast magic of limited scope to shroud and protect your allies. You know two {@filter 1st-level wizard spells|spells|level=1|class=wizard|school=I;A} of your choice, which must be from the abjuration or illusion schools on the Wizard spell list. These are Warlord spells for you. You can cast these spell by expending leadership dice equal to the level of the spell."
+				"Кроме того, на 3-м уровне ваше владение магией позволяет вам накладывать заклинания ограниченной силы, чтобы укрывать и защищать союзников. Вы знаете два заклинания волшебника 1-го уровня на свой выбор из {@filter 1st-level wizard spells|spells|level=1|class=wizard|school=I;A}, которые должны относиться к школам ограждения или иллюзии из списка заклинаний Волшебника. Для вас это заклинания Воеводы. Вы можете накладывать эти заклинания, расходуя кости лидерства в количестве, равном уровню заклинания."
 			]
 		},
 		{
-			"name": "Spell Manipulation",
+			"name": "Манипуляция заклинаниями",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you gain the ability to use your magic to subtly influence the battlefield, tweaking and modifying spells and attacks with your magic. You learn three of the following options, gaining an additional option at 6th and 14th level.",
+				"Начиная с 3-го уровня, вы получаете возможность использовать магию, чтобы тонко влиять на поле боя, изменяя и модифицируя заклинания и атаки своей магией. Вы изучаете три варианта из приведённых ниже и получаете дополнительный вариант на 6-м и 14-м уровнях.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Arcane Surge",
+							"name": "Арканный всплеск",
 							"entries": [
-								"As a reaction to an ally casting a spell, you can expend one leadership die adding it to or subtracting it from one attack roll or damage roll of that spell."
+								"В ответ на сотворение союзником заклинания вы можете потратить одну кость лидерства, добавив её к одному броску атаки или броску урона этого заклинания либо вычтя её из него."
 							]
 						}
 					]
@@ -2298,9 +2298,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Illusory Distraction",
+							"name": "Иллюзорное отвлечение",
 							"entries": [
-								"As a reaction to a creature being the target of an attack, you can expend one Leadership Die to cause an illusory distraction. Roll the leadership die and subtract it from the attack roll."
+								"В ответ на то, что существо становится целью атаки, вы можете потратить одну кость лидерства, чтобы создать иллюзорное отвлечение. Бросьте кость лидерства и вычтите результат из броска атаки."
 							]
 						}
 					]
@@ -2310,9 +2310,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Pull Spell",
+							"name": "Перенаправление заклинания",
 							"entries": [
-								"As a reaction to a spell targeting an ally within 30 feet or a radius that includes you, you can make the spell target you. For a radius this places the center of the radius on you."
+								"В ответ на заклинание, целью которого становится союзник в пределах 30 футов или радиус которого включает вас, вы можете сделать целью заклинания себя. Если это радиус, его центр перемещается на вас."
 							]
 						}
 					]
@@ -2322,9 +2322,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Redirection",
+							"name": "Перенаправление",
 							"entries": [
-								"You can redirect a ranged weapon or spell attack that has missed its target. As a reaction to a missed attack you can expend one Leadership Die to reroll the attack against another creature within 30 feet of the target, in the case of a leveled spell, redirecting the spell in this fashion requires a number of Leadership Dice equal to the spell's level."
+								"Вы можете перенаправить дальнобойное оружие или атаку заклинанием, промахнувшуюся по цели. В ответ на промахнувшуюся атаку вы можете потратить одну кость лидерства, чтобы перебросить атаку по другому существу в пределах 30 футов от цели; если это заклинание определённого уровня, для его перенаправления таким образом требуется количество костей лидерства, равное уровню заклинания."
 							]
 						}
 					]
@@ -2334,9 +2334,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Tweak Area",
+							"name": "Изменение зоны действия",
 							"entries": [
-								"As reaction to an allies casting a spell with an area of effect, you can expend warp the shape of their spell. You can exclude a creature within the effect or include a creature not in the effect but adjacent to the spell from being affected by the spell, spending one leadership die for each creature excluded or included."
+								"В ответ на сотворение союзником заклинания с зоной действия вы можете исказить форму его заклинания. Вы можете исключить существо в пределах зоны действия или включить существо, не находящееся в зоне действия, но соседнее с заклинанием, чтобы оно не подвергалось воздействию заклинания или подвергалось ему соответственно, тратя одну кость лидерства за каждое исключённое или включённое существо."
 							]
 						}
 					]
@@ -2344,58 +2344,58 @@
 			]
 		},
 		{
-			"name": "Contested Magic",
+			"name": "Оспариваемая магия",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you can use your Spell Manipulation effects that only work on allied spells on all spells. When you use them on a non-allied spell, they cost an extra Leadership Die"
+				"Начиная с 7-го уровня, вы можете использовать эффекты «Манипуляции заклинаниями», действующие только на союзные заклинания, на все заклинания. При использовании их на несоюзном заклинании они требуют дополнительную кость Лидерства"
 			]
 		},
 		{
-			"name": "Mirror Ally",
+			"name": "Отражение союзника",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting 11th, once per turn when you grant an attack with Battlefield Presence, you can summon an illusory copy of the allied creature that works as a single copy of {@spell mirror image}. This illusory copy lasts until the start of your next turn, until it is destroyed by an attack, or until the copied creature makes an attack. If the copied creature deals damage, the illusory version deals {@damage 1d6} force damage imitating the attack.",
-				"When you create an illusory copy, you can expend a leadership die to make it not disappear until it is destroyed or the start of your next turn (continuing to do damage on additional mirrored attacks)."
+				"Начиная с 11-го уровня, один раз за ход, когда вы предоставляете возможность совершить Атаку с помощью «Присутствия на поле боя», вы можете призвать иллюзорную копию союзного существа, действующую как одна копия {@spell mirror image}. Эта иллюзорная копия существует до начала вашего следующего хода, пока не будет уничтожена Атакой или пока скопированное существо не совершит Атаку. Если скопированное существо наносит Урон, иллюзорная версия наносит {@damage 1d6} Силовой урон, имитируя эту Атаку.",
+				"Когда вы создаёте иллюзорную копию, вы можете потратить кость Лидерства, чтобы она не исчезала, пока не будет уничтожена или пока не наступит начало вашего следующего хода (продолжая наносить Урон при последующих отражённых Атаках)."
 			]
 		},
 		{
-			"name": "Independent Arcana",
+			"name": "Независимая Магия",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting 15th level, you can select three addition spells of your choice of {@filter 3rd-level or lower|spells|level=1;2;3|class=wizard|school=I;A}, which must be from the abjuration or illusion schools on the Wizard spell list. These are Warlord spells for you. You can cast these spells by expending leadership dice equal to the level of the spell.",
-				"When you cast a spell with a range of self, you can target an ally within 30 feet with that spell instead."
+				"Начиная с 15-го уровня, вы можете выбрать три дополнительных Заклинания по вашему выбору из {@filter 3rd-level or lower|spells|level=1;2;3|class=wizard|school=I;A}, которые должны принадлежать школам Ограждения или Иллюзии и находиться в списке Заклинаний Волшебника. Для вас это Заклинания Воеводы. Вы можете накладывать эти Заклинания, тратя количество костей Лидерства, равное уровню Заклинания.",
+				"Когда вы накладываете Заклинание с Дистанцией «на себя», вместо этого вы можете выбрать его Целью союзника в пределах 30 футов."
 			]
 		},
 		{
-			"name": "Mirror Army",
+			"name": "Армия отражений",
 			"source": "ktwe",
 			"className": "Warlord",
 			"classSource": "ktw",
-			"subclassShortName": "Spellweaver",
+			"subclassShortName": "Ткач заклинаний",
 			"subclassSource": "ktwe",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting 18th level, as an action you can apply Mirror Allied to creatures up to Intelligence modifier within 60 feet.",
-				"Once you use this ability, you cannot use it again until you complete a long rest."
+				"Начиная с 18-го уровня, действием вы можете применить «Отражение союзника» к существам в количестве, не превышающем ваш Модификатор Интеллекта, находящимся в пределах 60 футов.",
+				"Использовав эту способность, вы не можете использовать её снова, пока не завершите продолжительный отдых."
 			]
 		}
 	]

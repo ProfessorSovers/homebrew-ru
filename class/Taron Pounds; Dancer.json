@@ -29,7 +29,7 @@
 	},
 	"class": [
 		{
-			"name": "Dancer",
+			"name": "Танцор",
 			"source": "TPDanc",
 			"hd": {
 				"number": 1,
@@ -59,7 +59,7 @@
 				],
 				"weapons": [
 					"simple",
-					"{@item whip|PHB|whips}"
+					"{@item whip|PHB|хлысты}"
 				],
 				"tools": [
 					"{@item Disguise kit|PHB} and one {@item musical instrument}"
@@ -68,12 +68,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item whip|PHB} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a set of {@item fine clothes|PHB} or (b) {@item costume clothes|PHB|costume}",
-					"(a) an {@item entertainer's pack|PHB} or (b) an {@item explorer's pack|PHB}",
-					"{@item leather armor|PHB|Leather armor}, a set of {@item Traveler's Clothes|PHB}, a {@item disguise kit|PHB}, a {@item Perfume (vial)|PHB|vial of perfume}, and a {@item dagger|PHB}"
+					"(а) {@item whip|PHB} или (б) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(а) комплект {@item fine clothes|PHB} или (б) {@item costume clothes|PHB|костюм}",
+					"(а) {@item entertainer's pack|PHB} или (б) {@item explorer's pack|PHB}",
+					"{@item leather armor|PHB|Кожаный доспех}, комплект {@item Traveler's Clothes|PHB}, {@item disguise kit|PHB}, {@item Perfume (vial)|PHB|флакон духов} и {@item dagger|PHB}"
 				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}"
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Начальное золото}"
 			},
 			"multiclassing": {
 				"requirements": {
@@ -164,97 +164,97 @@
 				}
 			],
 			"classFeatures": [
-				"Break a Leg|Dancer|TPDanc|1",
-				"Dance Flares|Dancer|TPDanc|1",
-				"Feather Step|Dancer|TPDanc|2",
-				"Step Up|Dancer|TPDanc|2",
+				"Ни пуха ни пера|Dancer|TPDanc|1",
+				"Танцевальные вспышки|Dancer|TPDanc|1",
+				"Поступь пёрышка|Dancer|TPDanc|2",
+				"Шаг вперёд|Dancer|TPDanc|2",
 				{
-					"classFeature": "Dancer's Choreo|Dancer|TPDanc|3",
+					"classFeature": "Хореография танцора|Dancer|TPDanc|3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Dancer|TPDanc|4",
-				"Double Time|Dancer|TPDanc|5",
+				"Увеличение характеристик|Dancer|TPDanc|4",
+				"Удвоенный темп|Dancer|TPDanc|5",
 				{
-					"classFeature": "Dancer's Choreo feature|Dancer|TPDanc|6",
+					"classFeature": "Умение «Хореография танцора»|Dancer|TPDanc|6",
 					"gainSubclassFeature": true
 				},
-				"Endless Stamina|Dancer|TPDanc|7",
-				"Evasion|Dancer|TPDanc|7",
-				"Ability Score Improvement|Dancer|TPDanc|8",
-				"Don't Stop Me Now|Dancer|TPDanc|9",
-				"Call and Response|Dancer|TPDanc|10",
+				"Бесконечная выносливость|Dancer|TPDanc|7",
+				"Уклонение|Dancer|TPDanc|7",
+				"Увеличение характеристик|Dancer|TPDanc|8",
+				"Не останавливай меня|Dancer|TPDanc|9",
+				"Зов и отклик|Dancer|TPDanc|10",
 				{
-					"classFeature": "Dancer's Choreo feature|Dancer|TPDanc|11",
+					"classFeature": "Умение «Хореография танцора»|Dancer|TPDanc|11",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Dancer|TPDanc|12",
-				"Allegro|Dancer|TPDanc|13",
-				"Force of Personality|Dancer|TPDanc|14",
-				"Rondo|Dancer|TPDanc|15",
-				"Ability Score Improvement|Dancer|TPDanc|16",
+				"Увеличение характеристик|Dancer|TPDanc|12",
+				"Аллегро|Dancer|TPDanc|13",
+				"Сила личности|Dancer|TPDanc|14",
+				"Рондо|Dancer|TPDanc|15",
+				"Увеличение характеристик|Dancer|TPDanc|16",
 				{
-					"classFeature": "Dancer's Choreo feature|Dancer|TPDanc|17",
+					"classFeature": "Умение «Хореография танцора»|Dancer|TPDanc|17",
 					"gainSubclassFeature": true
 				},
-				"Elusive|Dancer|TPDanc|18",
-				"Ability Score Improvement|Dancer|TPDanc|19",
-				"Encore|Dancer|TPDanc|20"
+				"Неуловимый|Dancer|TPDanc|18",
+				"Увеличение характеристик|Dancer|TPDanc|19",
+				"На бис|Dancer|TPDanc|20"
 			],
-			"subclassTitle": "Dancer's Choreo",
+			"subclassTitle": "Хореография танцора",
 			"hasFluff": true
 		}
 	],
 	"classFluff": [
 		{
-			"name": "Dancer",
+			"name": "Танцор",
 			"source": "TPDanc",
 			"entries": [
 				{
-					"name": "Dancer",
+					"name": "Танцор",
 					"source": "TPDanc",
 					"type": "section",
 					"page": 2,
 					"entries": [
-						"As a knight swings wide trying to strike the frothing maw of a displacer beast, a tiefling moves across the cave in a display of confidence and beauty. The mere sight of her invigorates the knight with an inner fire, who musters the strength to raise their sword up once more. The beast's deafening roar is silenced, as the blade is plunged deep past its fangs, seconds before those same fangs would have buried themselves within the knight's neck.",
-						"An archmage opens his flame-wreathed hands, sending bolts of fire directly towards the party. Interceding, a human guides the flames through the air, flinging them back at the archmage, giving him a taste of his own medicine.",
-						"Throwing all of his weight at the bandits, a dwarf slams against the leader and hurls them into a wall while bringing his elbow up into the gut of a subordinate, pummeling them both with a brutish fluidity and grace.",
-						"Preservers and pioneers of dance traditions, dancers are practitioners of the alluring and, at times, distracting art of dance. They have a remarkable flair for drawing the attention of others, allowing these awe-inspiring muses to turn the tide of any engagement.",
+						"Пока рыцарь широко замахивается, пытаясь поразить пенящуюся пасть сумеречного кота, тифлинг пересекает пещеру в проявлении уверенности и красоты. Один лишь вид её разжигает в рыцаре внутренний огонь, и он собирает силы, чтобы ещё раз поднять меч. Оглушительный рёв зверя стихает, когда клинок уходит глубоко мимо его клыков — за секунды до того, как те же клыки вонзились бы в шею рыцаря.",
+						"Верховный маг разводит объятые пламенем руки, посылая сгустки огня прямо в отряд. Вмешиваясь, человек направляет пламя по воздуху, отбрасывая его обратно в верховного мага, давая тому отведать собственное зелье.",
+						"Вкладывая всю свою тяжесть в удар по разбойникам, дварф сбивает главаря и швыряет его в стену, одновременно вгоняя локоть в живот подчинённого, обрушивая на них обоих град ударов с грубоватой ловкостью и грацией.",
+						"Хранители и первопроходцы танцевальных традиций, танцоры — практики чарующего и порой отвлекающего искусства танца. Они обладают замечательным чутьём на привлечение внимания других, что позволяет этим внушающим благоговение музам переломить ход любой схватки.",
 						{
 							"type": "entries",
-							"name": "Baskers of Limelight",
+							"name": "Зеваки в свете рампы",
 							"entries": [
-								"Anything created that elicits an emotional response can be considered art. Writers pen the story, musicians compose the song, painters color the landscape, but dancers simply dance. It is the only art form in which the performer is the entirety of the artistic medium, putting themselves on display for their passion. They are mavens of distraction, for no person is truly more at-home as the center of attention than a dancer.",
-								"Captivating their audience with their enthusiasm, grace, and force of personality, dancers use dazzling flares on the battlefield to support their allies, and distract their foes."
+								"Всё созданное, что вызывает эмоциональный отклик, можно считать искусством. Писатели пишут историю, музыканты сочиняют песню, художники раскрашивают пейзаж, а танцоры просто танцуют. Это единственная форма искусства, в которой исполнитель и есть всё художественное средство, выставляя себя на обозрение ради своей страсти. Они мастера отвлечения внимания, ибо никто не чувствует себя так в своей тарелке в центре внимания, как танцор.",
+								"Пленяя публику своим воодушевлением, грацией и силой личности, танцоры применяют на поле боя ослепительные вспышки, чтобы поддерживать союзников и отвлекать врагов."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Flair and Panache",
+							"name": "Шик и щегольство",
 							"entries": [
-								"Drawing the comparison between a bard and a dancer is inevitable; but the two are compliments, not competitors. While bards actualize their magic by performing or reciting tones of power, the dancer uses beautiful dance flares to externalize and influence emotion. The two work separately, yet cohesively, for a bard's music decorates time and the Dancer's beauty decorates space. Anyone can dance, but few can claim to have gone through the practice, study, then application of this art form that makes one a dancer."
+								"Сравнение барда и танцора неизбежно; но эти двое — дополнения, а не соперники. Барды воплощают свою магию, исполняя или декламируя звуки силы, а танцор использует прекрасные танцевальные вспышки, чтобы вывести наружу эмоции и повлиять на них. Оба действуют порознь, но слаженно: музыка барда украшает время, а красота танцора украшает пространство. Танцевать может каждый, но немногие могут похвастаться тем, что прошли практику, обучение, а затем применение этой формы искусства, делающей человека танцором."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Playing a Dancer",
+							"name": "Игра за танцора",
 							"entries": [
-								"The dancer is a medium defense, low damage and high support through optimizing your party's action economy. In combat, you should look out for party members that have limited duration effects, use unique class resources, or are in an advantageous position to exploit the enemy.",
-								"Action: Step Up or preform a Dance Flare",
-								"Bonus Action: Disengage or perform a Dance Flare",
-								"Movement: Safe distance from the enemy, but within your allies' vision.",
-								"Reaction: Class features, or trigger for Ready action."
+								"Танцор — это средняя защита, низкий урон и высокая поддержка за счёт оптимизации экономики действий вашего отряда. В бою вам следует присматривать за членами отряда с эффектами ограниченной длительности, использующими уникальные классовые ресурсы или находящимися в выгодной позиции для расправы над врагом.",
+								"Действие: Шаг вперёд или исполнение танцевальной вспышки",
+								"Бонусное действие: Отход или исполнение танцевальной вспышки",
+								"Перемещение: безопасное расстояние от врага, но в поле зрения союзников.",
+								"Реакция: классовые умения или триггер для действия «Готовность»."
 							]
 						},
 						{
 							"type": "section",
-							"name": "Creating a Dancer",
+							"name": "Создание танцора",
 							"entries": [
-								"To create a dancer, consult the following subsections, which give you hit points, proficiencies, and starting equipment. Then look at the Dancer table to see which features you get at each level. Your Proficiency Bonus is shown in the PB column. The descriptions of those features appear in the \"Class Features\" section.",
+								"Чтобы создать танцора, обратитесь к следующим подразделам, где указаны ваши хиты, владения и начальное снаряжение. Затем посмотрите таблицу танцора, чтобы узнать, какие умения вы получаете на каждом уровне. Ваш бонус мастерства указан в столбце БМ. Описания этих умений приведены в разделе «Классовые умения».",
 								{
 									"type": "entries",
-									"name": "Quick Build",
+									"name": "Быстрое создание",
 									"entries": [
-										"You can make a dancer quickly by following these suggestions. First, put your highest ability score in Dexterity, followed by Charisma then Constitution. Second, choose the {@background entertainer} background."
+										"Вы можете быстро создать танцора, следуя этим советам. Во-первых, поместите свою самую высокую характеристику в Ловкость, затем в Харизму, потом в Телосложение. Во-вторых, выберите предысторию {@background entertainer}."
 									]
 								}
 							]
@@ -266,99 +266,99 @@
 	],
 	"subclass": [
 		{
-			"name": "Bladed Bravo",
-			"shortName": "Bladed Bravo",
+			"name": "Клинковый браво",
+			"shortName": "Клинковый браво",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"subclassFeatures": [
-				"Bladed Bravo|Dancer|TPDanc|Bladed Bravo|TPDanc|3",
-				"Dancing Blade|Dancer|TPDanc|Bladed Bravo|TPDanc|6",
-				"Fluid Momentum|Dancer|TPDanc|Bladed Bravo|TPDanc|11",
-				"Dazzling Destruction|Dancer|TPDanc|Bladed Bravo|TPDanc|17"
+				"Клинковый браво|Dancer|TPDanc|Клинковый браво|TPDanc|3",
+				"Танцующий клинок|Dancer|TPDanc|Клинковый браво|TPDanc|6",
+				"Плавный разгон|Dancer|TPDanc|Клинковый браво|TPDanc|11",
+				"Ослепительное разрушение|Dancer|TPDanc|Клинковый браво|TPDanc|17"
 			]
 		},
 		{
-			"name": "Danse Macabre",
-			"shortName": "Danse Macabre",
+			"name": "Пляска смерти",
+			"shortName": "Пляска смерти",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"subclassFeatures": [
-				"Danse Macabre|Dancer|TPDanc|Danse Macabre|TPDanc|3",
-				"Grim Fandango|Dancer|TPDanc|Danse Macabre|TPDanc|6",
-				"Giving Up the Ghost|Dancer|TPDanc|Danse Macabre|TPDanc|11",
-				"Beauty Beyond the Grave|Dancer|TPDanc|Danse Macabre|TPDanc|17"
+				"Пляска смерти|Dancer|TPDanc|Пляска смерти|TPDanc|3",
+				"Мрачный фанданго|Dancer|TPDanc|Пляска смерти|TPDanc|6",
+				"Испустить дух|Dancer|TPDanc|Пляска смерти|TPDanc|11",
+				"Красота по ту сторону могилы|Dancer|TPDanc|Пляска смерти|TPDanc|17"
 			]
 		},
 		{
-			"name": "Idolized Superstar",
-			"shortName": "Idolized Superstar",
+			"name": "Обожествлённая суперзвезда",
+			"shortName": "Обожествлённая суперзвезда",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"subclassFeatures": [
-				"Idolized Superstar|Dancer|TPDanc|Idolized Superstar|TPDanc|3",
-				"Commercial Success|Dancer|TPDanc|Idolized Superstar|TPDanc|6",
-				"Enrapturing Routine|Dancer|TPDanc|Idolized Superstar|TPDanc|11",
-				"Star-Studded Performance|Dancer|TPDanc|Idolized Superstar|TPDanc|17"
+				"Обожествлённая суперзвезда|Dancer|TPDanc|Обожествлённая суперзвезда|TPDanc|3",
+				"Коммерческий успех|Dancer|TPDanc|Обожествлённая суперзвезда|TPDanc|6",
+				"Увлекательный номер|Dancer|TPDanc|Обожествлённая суперзвезда|TPDanc|11",
+				"Выступление со звёздами|Dancer|TPDanc|Обожествлённая суперзвезда|TPDanc|17"
 			]
 		},
 		{
-			"name": "Noble Waltz",
-			"shortName": "Noble Waltz",
+			"name": "Благородный вальс",
+			"shortName": "Благородный вальс",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"subclassFeatures": [
-				"Noble Waltz|Dancer|TPDanc|Noble Waltz|TPDanc|3",
-				"On My Authority|Dancer|TPDanc|Noble Waltz|TPDanc|6",
-				"Subdue Transgression|Dancer|TPDanc|Noble Waltz|TPDanc|11",
-				"Regal Magnificence|Dancer|TPDanc|Noble Waltz|TPDanc|17"
+				"Благородный вальс|Dancer|TPDanc|Благородный вальс|TPDanc|3",
+				"По моему велению|Dancer|TPDanc|Благородный вальс|TPDanc|6",
+				"Подавление проступка|Dancer|TPDanc|Благородный вальс|TPDanc|11",
+				"Царственное великолепие|Dancer|TPDanc|Благородный вальс|TPDanc|17"
 			]
 		},
 		{
-			"name": "Rallying Harbinger",
-			"shortName": "Rallying Harbinger",
+			"name": "Воодушевляющий предвестник",
+			"shortName": "Воодушевляющий предвестник",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"subclassFeatures": [
-				"Rallying Harbinger|Dancer|TPDanc|Rallying Harbinger|TPDanc|3",
-				"Call to Arms|Dancer|TPDanc|Rallying Harbinger|TPDanc|6",
-				"Oppressive Attrition|Dancer|TPDanc|Rallying Harbinger|TPDanc|11",
-				"Flare of Frenzy|Dancer|TPDanc|Rallying Harbinger|TPDanc|17"
+				"Воодушевляющий предвестник|Dancer|TPDanc|Воодушевляющий предвестник|TPDanc|3",
+				"Призыв к оружию|Dancer|TPDanc|Воодушевляющий предвестник|TPDanc|6",
+				"Гнетущее истощение|Dancer|TPDanc|Воодушевляющий предвестник|TPDanc|11",
+				"Вспышка бешенства|Dancer|TPDanc|Воодушевляющий предвестник|TPDanc|17"
 			]
 		},
 		{
-			"name": "Sylvan Mirth",
-			"shortName": "Sylvan Mirth",
+			"name": "Лесное веселье",
+			"shortName": "Лесное веселье",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"subclassFeatures": [
-				"Sylvan Mirth|Dancer|TPDanc|Sylvan Mirth|TPDanc|3",
-				"Pixie Tricks|Dancer|TPDanc|Sylvan Mirth|TPDanc|6",
-				"Good Mischief|Dancer|TPDanc|Sylvan Mirth|TPDanc|11",
-				"Wander the Wooded|Dancer|TPDanc|Sylvan Mirth|TPDanc|17"
+				"Лесное веселье|Dancer|TPDanc|Лесное веселье|TPDanc|3",
+				"Уловки пикси|Dancer|TPDanc|Лесное веселье|TPDanc|6",
+				"Добрые шалости|Dancer|TPDanc|Лесное веселье|TPDanc|11",
+				"Странствие по лесам|Dancer|TPDanc|Лесное веселье|TPDanc|17"
 			]
 		},
 		{
-			"name": "Thrashing Pit",
-			"shortName": "Thrashing Pit",
+			"name": "Толчея",
+			"shortName": "Толчея",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"subclassFeatures": [
-				"Thrashing Pit|Dancer|TPDanc|Thrashing Pit|TPDanc|3",
-				"Disrespect Your Surroundings|Dancer|TPDanc|Thrashing Pit|TPDanc|6",
-				"Killing in the Name|Dancer|TPDanc|Thrashing Pit|TPDanc|11",
-				"Wall of Death|Dancer|TPDanc|Thrashing Pit|TPDanc|17"
+				"Толчея|Dancer|TPDanc|Толчея|TPDanc|3",
+				"Не уважай окружение|Dancer|TPDanc|Толчея|TPDanc|6",
+				"Убийство во имя|Dancer|TPDanc|Толчея|TPDanc|11",
+				"Стена смерти|Dancer|TPDanc|Толчея|TPDanc|17"
 			]
 		},
 		{
-			"name": "Weave Teaser",
-			"shortName": "Weave Teaser",
+			"name": "Искуситель Плетения",
+			"shortName": "Искуситель Плетения",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
@@ -412,7 +412,7 @@
 				{
 					"subclasses": [
 						{
-							"name": "Weave Teaser",
+							"name": "Искуситель Плетения",
 							"source": "PHB"
 						}
 					],
@@ -504,10 +504,10 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"subclasses": [
 						{
-							"name": "Weave Teaser",
+							"name": "Искуситель Плетения",
 							"source": "PHB"
 						}
 					],
@@ -642,48 +642,48 @@
 				}
 			],
 			"subclassFeatures": [
-				"Weave Teaser|Dancer|TPDanc|Weave Teaser|TPDanc|3",
-				"Trip the Light Fantastic|Dancer|TPDanc|Weave Teaser|TPDanc|6",
-				"Weaver's Counter|Dancer|TPDanc|Weave Teaser|TPDanc|11",
-				"Font Mystique|Dancer|TPDanc|Weave Teaser|TPDanc|17"
+				"Искуситель Плетения|Dancer|TPDanc|Искуситель Плетения|TPDanc|3",
+				"Станцуй фантастический танец|Dancer|TPDanc|Искуситель Плетения|TPDanc|6",
+				"Контрприём ткача|Dancer|TPDanc|Искуситель Плетения|TPDanc|11",
+				"Мистический источник|Dancer|TPDanc|Искуситель Плетения|TPDanc|17"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Break a Leg",
+			"name": "Ни пуха ни пера",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 1,
 			"entries": [
-				"You can add your proficiency bonus to your initiative rolls and when you roll for initiative, you can use your reaction to grant a creature within 30 feet of you that can see you advantage on the first attack roll or ability check it makes before the end of its next turn.",
-				"Additionally, when you dance as a part of making a Charisma ({@skill Performance}) check, you are considered proficient with the skill and you can add your Dexterity modifier to the check."
+				"Вы можете добавить свой бонус мастерства к броскам инициативы, а когда бросаете инициативу, можете использовать свою реакцию, чтобы дать существу в пределах 30 футов от вас, которое вас видит, преимущество на первый бросок атаки или проверку характеристики, которую оно совершит до конца своего следующего хода.",
+				"Кроме того, когда вы танцуете в рамках проверки Харизмы ({@skill Performance}), вы считаетесь владеющим этим навыком и можете добавить к проверке свой модификатор Ловкости."
 			]
 		},
 		{
-			"name": "Dance Flares",
+			"name": "Танцевальные вспышки",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 1,
 			"entries": [
-				"You can use an action to captivate your audience with your enthusiasm, grace, and force of personality, performing a dazzling flare to support allies and distract foes.",
+				"Вы можете действием захватить внимание публики своим воодушевлением, грацией и силой личности, исполняя ослепительную вспышку для поддержки союзников и отвлечения врагов.",
 				{
 					"type": "entries",
-					"name": "Flares Known",
+					"name": "Известные вспышки",
 					"entries": [
-						"You learn three {@filter Flares|optionalfeatures|feature type=DF|source=TPDanc} of your choice, detailed at the end of the class description. When you reach certain dancer levels, you learn additional flares of your choice, as shown in the Flares Known column of the Dancer table. When you gain a level in this class, you can replace a flare you know with a different one."
+						"Вы изучаете три {@filter Flares|optionalfeatures|feature type=DF|source=TPDanc} на ваш выбор, подробно описанные в конце описания класса. Достигая определённых уровней танцора, вы изучаете дополнительные вспышки на ваш выбор, как показано в столбце «Известные вспышки» таблицы танцора. Получая уровень в этом классе, вы можете заменить известную вам вспышку другой."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Saving Throws",
+					"name": "Спасброски",
 					"entries": [
-						" If a flare requires your target to make a saving throw to resist its effects, the saving throw DC is calculated as follows:",
+						"Если вспышка требует, чтобы ваша цель совершила спасбросок для сопротивления её эффектам, Сл спасброска рассчитывается так:",
 						{
 							"type": "abilityDc",
-							"name": "Flare",
+							"name": "Вспышка",
 							"attributes": [
 								"dex"
 							]
@@ -693,240 +693,240 @@
 			]
 		},
 		{
-			"name": "Feather Step",
+			"name": "Поступь пёрышка",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 2,
 			"entries": [
-				"While you are not wearing medium or heavy armor or wielding a shield, your speed increases by 10 feet and you can take the Disengage action as a bonus action on your turn.",
-				"When you take the Disengage action, moving through nonmagical difficult terrain costs you no extra movement for the turn and you don't set off traps by walking on them."
+				"Пока вы не носите средние или тяжёлые доспехи и не владеете щитом, ваша скорость увеличивается на 10 футов, и вы можете совершать действие Отход бонусным действием в свой ход.",
+				"Когда вы совершаете действие Отход, перемещение по немагической труднопроходимой местности не стоит вам дополнительного перемещения в этот ход, и вы не приводите в действие ловушки, наступая на них."
 			]
 		},
 		{
-			"name": "Step Up",
+			"name": "Шаг вперёд",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 2,
 			"entries": [
-				"You can use your action to perform an invigorating dance that enlivens your audience. When you do, choose one creature that can see you within 30 feet of you. The creature can immediately move up to half its speed and take one action, treating it as an action it would take on its turn. Afterwords, that creature can't benefit from this feature again until the end of its next turn."
+				"Вы можете действием исполнить бодрящий танец, оживляющий вашу публику. Делая это, выберите одно существо, которое может вас видеть в пределах 30 футов от вас. Существо может немедленно переместиться на расстояние до половины своей скорости и совершить одно действие, как если бы оно совершило его в свой ход. После этого это существо не может снова получить выгоду от этого умения до конца своего следующего хода."
 			]
 		},
 		{
-			"name": "Dancer's Choreo",
+			"name": "Хореография танцора",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You define your style of dancing, your Dancer's Choreo. Your choreo grants you features at 3rd level and again at 6th, 11th, and 17th levels.",
+				"Вы определяете свой стиль танца — свою хореографию танцора. Ваша хореография дарует вам умения на 3-м уровне, а также на 6-м, 11-м и 17-м уровне.",
 				{
 					"type": "entries",
-					"name": "Choreo Flares",
+					"name": "Вспышки хореографии",
 					"entries": [
-						"Each choreo has a signature dance flare, detailed in its feature. Choreo flares don't count against your number of flares known."
+						"У каждой хореографии есть своя фирменная танцевальная вспышка, подробно описанная в её умении. Вспышки хореографии не учитываются при подсчёте числа известных вам вспышек."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 4-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Double Time",
+			"name": "Удвоенный темп",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 5,
 			"entries": [
-				"You can perform a {@filter Dance Flare|optionalfeatures|feature type=DF|source=TPDanc} as a bonus action on your turn."
+				"Вы можете исполнить {@filter Dance Flare|optionalfeatures|feature type=DF|source=TPDanc} бонусным действием в свой ход."
 			]
 		},
 		{
-			"name": "Dancer's Choreo feature",
+			"name": "Умение «Хореография танцора»",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain one feature granted by your Dancer's Choreo."
+				"На 6-м уровне вы получаете одно умение, даруемое вашей хореографией танцора."
 			]
 		},
 		{
-			"name": "Endless Stamina",
+			"name": "Бесконечная выносливость",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 7,
 			"entries": [
-				"Your movement speed can't be reduced by exhaustion and, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1 if you aren't dehydrated or starving."
+				"Ваша скорость перемещения не может быть снижена истощением, и всякий раз, завершая короткий отдых, ваш уровень истощения, если он есть, снижается на 1, если вы не страдаете от обезвоживания или голода."
 			]
 		},
 		{
-			"name": "Evasion",
+			"name": "Уклонение",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 7,
 			"entries": [
-				"Your poise allows you to stylishly avoid certain area effects, such as an ancient black dragon's acid breath or a {@spell call lightning } spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+				"Ваша выдержка позволяет вам изящно избегать некоторых эффектов по области, таких как кислотное дыхание древнего чёрного дракона или заклинание {@spell call lightning }. Когда вы подвергаетесь эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить лишь половину урона, вы вместо этого не получаете урона при успехе и получаете лишь половину урона при провале."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 8-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Don't Stop Me Now",
+			"name": "Не останавливай меня",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 9,
 			"entries": [
-				"Your speed increases by an additional 10 feet and, when you make a contested check or saving throw against being {@condition grappled}, {@condition paralyzed}, {@condition petrified}, {@condition restrained}, or {@condition stunned}, you can make a Dexterity saving throw instead of the check or saving throw called for in the effect."
+				"Ваша скорость увеличивается дополнительно на 10 футов, и когда вы совершаете проверку на противостояние или спасбросок против состояний {@condition grappled}, {@condition paralyzed}, {@condition petrified}, {@condition restrained} или {@condition stunned}, вы можете совершить спасбросок Ловкости вместо проверки или спасброска, указанного эффектом."
 			]
 		},
 		{
-			"name": "Call and Response",
+			"name": "Зов и отклик",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 10,
 			"entries": [
-				"When a creature misses you with an attack, you can use your reaction to perform a {@filter Dance Flare|optionalfeatures|feature type=DF|source=TPDanc}."
+				"Когда существо промахивается по вам атакой, вы можете использовать свою реакцию, чтобы исполнить {@filter Dance Flare|optionalfeatures|feature type=DF|source=TPDanc}."
 			]
 		},
 		{
-			"name": "Dancer's Choreo feature",
+			"name": "Умение «Хореография танцора»",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"At 11th level, you gain one feature granted by your Dancer's Choreo."
+				"На 11-м уровне вы получаете одно умение, даруемое вашей хореографией танцора."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 12-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Allegro",
+			"name": "Аллегро",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 13,
 			"entries": [
-				"When you use your {@classFeature Step Up|Dancer|TPDanc|2} feature on a creature, each of your and the target's speeds increases by 10 feet until the start of your next turn."
+				"Когда вы используете своё умение {@classFeature Шаг вперёд|Dancer|TPDanc|2} на существе, каждая из ваших скоростей и скоростей цели увеличивается на 10 футов до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Force of Personality",
+			"name": "Сила личности",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 14,
 			"entries": [
-				"You have been instilled with a fervor for captivating audiences. You can add your Charisma modifier to the damage you deal with {@filter Dance Flare|optionalfeatures|feature type=DF|source=TPDanc}, and to saving throws you make against being {@condition charmed}, {@condition frightened}, and against spells that would cause you to act against your will through mental manipulation (such as the {@spell command} spell)."
+				"В вас вселили рвение к захвату внимания публики. Вы можете добавить свой модификатор Харизмы к урону, который наносите {@filter Dance Flare|optionalfeatures|feature type=DF|source=TPDanc}, и к спасброскам против состояний {@condition charmed}, {@condition frightened}, а также против заклинаний, которые заставили бы вас действовать против своей воли через ментальное воздействие (например, заклинание {@spell command})."
 			]
 		},
 		{
-			"name": "Rondo",
+			"name": "Рондо",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 15,
 			"entries": [
-				"When you use {@classFeature Step Up|Dancer|TPDanc|2}, you can perform a {@filter Dance Flare|optionalfeatures|feature type=DF|source=TPDanc} as a part of the same action."
+				"Когда вы используете {@classFeature Шаг вперёд|Dancer|TPDanc|2}, вы можете в рамках того же действия исполнить {@filter Dance Flare|optionalfeatures|feature type=DF|source=TPDanc}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 16-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Dancer's Choreo feature",
+			"name": "Умение «Хореография танцора»",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"At 17th level, you gain one feature granted by your Dancer's Choreo."
+				"На 17-м уровне вы получаете одно умение, даруемое вашей хореографией танцора."
 			]
 		},
 		{
-			"name": "Elusive",
+			"name": "Неуловимый",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 18,
 			"entries": [
-				"You are so hard to pin-down that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
+				"Вас так трудно прижать, что атакующие редко берут над вами верх. Ни один бросок атаки не совершается с преимуществом против вас, пока вы не {@condition incapacitated}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 19-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Encore",
+			"name": "На бис",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
 			"level": 20,
 			"entries": [
-				"If the target of your {@classFeature Step Up|Dancer|TPDanc|2} feature rolls a 20 on the d20 for the action you grant them with {@classFeature Step Up|Dancer|TPDanc|2}, they can take one additional action."
+				"Если цель вашего умения {@classFeature Шаг вперёд|Dancer|TPDanc|2} выбросит 20 на d20 для действия, которое вы ей даруете с помощью {@classFeature Шаг вперёд|Dancer|TPDanc|2}, она может совершить одно дополнительное действие."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Bladed Bravo",
+			"name": "Клинковый браво",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Bladed Bravo",
+			"subclassShortName": "Клинковый браво",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"Masters of blade, spear, whip, and staff, dancers of this choreo blend artistic grace and martial prowess to put on breathtaking displays that are as beautiful as they are deadly. Their performances call for more than just raw strength or speed, but precision and control of both one's weapon and body, with dancers often showing how well they can dodge a weapon as well as wield one.",
+				"Мастера клинка, копья, хлыста и посоха, танцоры этой хореографии сочетают артистичную грацию и воинскую доблесть, устраивая захватывающие представления, столь же прекрасные, сколь и смертоносные. Их выступления требуют не просто грубой силы или скорости, а точности и контроля — как над своим оружием, так и над телом; танцоры часто показывают, насколько хорошо они умеют уклоняться от оружия и владеть им.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Choreo Flare: Saber Dance|Dancer|TPDanc|Bladed Bravo|TPDanc|3"
@@ -942,16 +942,16 @@
 			]
 		},
 		{
-			"name": "Choreo Flare: Saber Dance",
+			"name": "Вспышка хореографии: танец с саблей",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Bladed Bravo",
+			"subclassShortName": "Клинковый браво",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You learn the {@optfeature Saber Dance|TPDanc} flare, detailed at the end of this class, which doesn't count against the number of flares you know. While other dancers might use weapons in their dances, this choreo specializes in this flare. Your attacks with Saber Dance score a critical hit on a roll of 19 or 20.",
-				"Further, if an enemy provokes an opportunity attack from you, you can perform Saber Dance as the attack.",
+				"Вы изучаете вспышку {@optfeature Танец с саблей|TPDanc}, подробно описанную в конце этого класса, которая не учитывается при подсчёте числа известных вам вспышек. Хотя другие танцоры могут использовать оружие в своих танцах, эта хореография специализируется на этой вспышке. Ваши атаки с помощью танца с саблей наносят критическое попадание при результате 19 или 20.",
+				"Кроме того, если враг провоцирует вами провоцированную атаку, вы можете совершить в качестве этой атаки танец с саблей.",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Saber Dance|TPDanc"
@@ -959,15 +959,15 @@
 			]
 		},
 		{
-			"name": "Fighting Style",
+			"name": "Боевой стиль",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Bladed Bravo",
+			"subclassShortName": "Клинковый браво",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if a feature lets you choose again.",
+				"Вы принимаете стиль боя как свою специальность. Выберите один из следующих вариантов. Вы не можете выбирать один и тот же вариант боевого стиля более одного раза, даже если умение позволяет выбрать снова.",
 				{
 					"type": "options",
 					"count": 1,
@@ -985,65 +985,65 @@
 			]
 		},
 		{
-			"name": "Weapon Arts",
+			"name": "Искусства оружия",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Bladed Bravo",
+			"subclassShortName": "Клинковый браво",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain proficiency with medium armor and martial weapons that have the finesse property. You can still benefit from your Feather Step feature while wearing medium armor."
+				"Вы получаете владение средними доспехами и воинским оружием, обладающим свойством «фехтовальное». Вы по-прежнему можете получать выгоду от умения «Поступь пёрышка», нося средний доспех."
 			]
 		},
 		{
-			"name": "Dancing Blade",
+			"name": "Танцующий клинок",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Bladed Bravo",
+			"subclassShortName": "Клинковый браво",
 			"subclassSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"Whenever you finish a long rest, you can touch one melee weapon that you are proficient with and that lacks the twohanded or heavy properties. The weapon becomes a dancing blade imbued with a facsimile of life until it is reduced to 0 hit points, you die, or you use this feature again. It is friendly to you and your companions and obeys your commands.",
-				"In combat, the dancing blade shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you command it to take another action as a bonus action or as a part of performing your Saber Dance flare. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the dancing blade can take any action of its choice, not just Dodge."
+				"Всякий раз, завершая продолжительный отдых, вы можете коснуться одного рукопашного оружия, которым владеете и которое не обладает свойствами «двуручное» или «тяжёлое». Оружие становится танцующим клинком, наделённым подобием жизни, пока его хиты не опустятся до 0, пока вы не погибнете или пока вы не используете это умение снова. Он дружественен к вам и вашим спутникам и подчиняется вашим командам.",
+				"В бою танцующий клинок использует вашу инициативу, но действует сразу после вас. Он может перемещаться и использовать свою реакцию самостоятельно, но единственное действие, которое он совершает в свой ход, — действие Уклонение, если только вы не прикажете ему бонусным действием или в рамках исполнения вспышки «Танец с саблей» совершить другое действие. Это действие может быть одним из его блока статистики или иным действием. Если вы {@condition incapacitated}, танцующий клинок может совершить любое действие на свой выбор, а не только Уклонение."
 			]
 		},
 		{
-			"name": "Fluid Momentum",
+			"name": "Плавный разгон",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Bladed Bravo",
+			"subclassShortName": "Клинковый браво",
 			"subclassSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"If you perform {@optfeature Saber Dance|TPDanc} as an opportunity attack, you can make two attacks with it, rather than one.",
-				"Further, you have advantage on attack rolls you make as a reaction."
+				"Если вы исполняете {@optfeature Танец с саблей|TPDanc} в качестве провоцированной атаки, вы можете совершить ею две атаки вместо одной.",
+				"Кроме того, вы совершаете с преимуществом броски атаки, совершаемые в качестве реакции."
 			]
 		},
 		{
-			"name": "Dazzling Destruction",
+			"name": "Ослепительное разрушение",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Bladed Bravo",
+			"subclassShortName": "Клинковый браво",
 			"subclassSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"Your attacks with Saber Dance score a critical hit on a roll of 18\u201320."
+				"Ваши атаки с помощью танца с саблей наносят критическое попадание при результате 18–20."
 			]
 		},
 		{
-			"name": "Choreo Flare: Thriller",
+			"name": "Вспышка хореографии: триллер",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Danse Macabre",
+			"subclassShortName": "Пляска смерти",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@optfeature Thriller|TPDanc} flare, detailed below. It does not count against the number of flares you know.",
+				"Вы получаете вспышку {@optfeature Триллер|TPDanc}, подробно описанную ниже. Она не учитывается при подсчёте числа известных вам вспышек.",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Thriller|TPDanc"
@@ -1051,15 +1051,15 @@
 			]
 		},
 		{
-			"name": "Danse Macabre",
+			"name": "Пляска смерти",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Danse Macabre",
+			"subclassShortName": "Пляска смерти",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"This choreo's choreography is modeled upon necromantic rituals, embracing death as a \"beautiful curtain call to the performance of life.\" But what's a legendary performance without an encore? Dancers of the Grim Fandango are able to raise and command their own dance troupe of undead.",
+				"Основой для этой хореографии послужили некромантские ритуалы, принимающие смерть как «прекрасный выход на поклон в представлении жизни». Но что за легендарное представление без номера на бис? Танцоры мрачного фанданго способны поднимать и вести собственную труппу нежити.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Choreo Flare: Thriller|Dancer|TPDanc|Danse Macabre|TPDanc|3"
@@ -1071,66 +1071,66 @@
 			]
 		},
 		{
-			"name": "Necromantic Arts",
+			"name": "Некромантские искусства",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Danse Macabre",
+			"subclassShortName": "Пляска смерти",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@spell chill touch} and {@spell corpselight|TPDanc} cantrips. Charisma is your spellcasting ability for these spells.",
-				"Further, if you deal necrotic damage to a creature, you can spend one of your Hit Dice to gain temporary hit points equal to 1d8 + your Constitution modifer."
+				"Вы получаете заговоры {@spell chill touch} и {@spell Свет мертвеца|TPDanc}. Харизма — ваша характеристика для сотворения этих заклинаний.",
+				"Кроме того, если вы наносите существу некротический урон, вы можете потратить одну из своих Костей Хитов, чтобы получить временные хиты, равные 1d8 + ваш модификатор Телосложения."
 			]
 		},
 		{
-			"name": "Grim Fandango",
+			"name": "Мрачный фанданго",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Danse Macabre",
+			"subclassShortName": "Пляска смерти",
 			"subclassSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"You can have a number of undead under your control with your {@optfeature Thriller|TPDanc} flare equal to half your proficiency bonus, round up.",
-				"Additionally, any undead you raise through {@optfeature Thriller|TPDanc} add your proficiency bonus to their weapon damage rolls."
+				"Вы можете иметь под контролем количество нежити с помощью своей вспышки {@optfeature Триллер|TPDanc}, равное половине вашего бонуса мастерства с округлением вверх.",
+				"Кроме того, любая поднятая вами нежить с помощью {@optfeature Триллер|TPDanc} добавляет ваш бонус мастерства к своим броскам урона оружием."
 			]
 		},
 		{
-			"name": "Giving Up the Ghost",
+			"name": "Испустить дух",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Danse Macabre",
+			"subclassShortName": "Пляска смерти",
 			"subclassSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"You can dance upon the Border Ethereal while you move, allowing you and any equipment you are wearing or carrying to move through other creatures and objects as if they were difficult terrain. If you end your turn inside an object, you take 1d10 force damage."
+				"Вы можете танцевать по Границе Эфира, пока перемещаетесь, что позволяет вам и любому надетому или несомому снаряжению проходить сквозь других существ и предметы, как если бы они были труднопроходимой местностью. Если вы оканчиваете свой ход внутри предмета, вы получаете 1d10 урона силовым полем."
 			]
 		},
 		{
-			"name": "Beauty Beyond the Grave",
+			"name": "Красота по ту сторону могилы",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Danse Macabre",
+			"subclassShortName": "Пляска смерти",
 			"subclassSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"You can perform your {@optfeature Thriller|TPDanc} flare to enthrall anything without a pulse. When an undead within 60 feet of you can see you perform {@optfeature Thriller|TPDanc}, it must make a Charisma saving throw against your flare save DC. If it succeeds on this saving throw or any subsequent saves, you can't use this feature on it again. If it fails, if becomes friendly to you and obeys your commands until you use this feature again.",
-				"Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free."
+				"Вы можете исполнить свою вспышку {@optfeature Триллер|TPDanc}, чтобы подчинить всё, у чего нет пульса. Когда нежить в пределах 60 футов от вас видит, как вы исполняете {@optfeature Триллер|TPDanc}, она должна совершить спасбросок Харизмы против Сл спасброска вашей вспышки. Если она преуспевает в этом спасброске или в любых последующих, вы не можете снова использовать это умение на ней. При провале она становится дружественной к вам и подчиняется вашим командам, пока вы не используете это умение снова.",
+				"Разумной нежитью управлять таким образом сложнее. Если у цели Интеллект 8 или выше, она совершает спасбросок с преимуществом. Если она проваливает спасбросок и имеет Интеллект 12 или выше, она может повторять спасбросок в конце каждого часа, пока не добьётся успеха и не освободится."
 			]
 		},
 		{
-			"name": "Choreo Flare: Star Struck",
+			"name": "Вспышка хореографии: звёздный удар",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Idolized Superstar",
+			"subclassShortName": "Обожествлённая суперзвезда",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@optfeature Star Struck|TPDanc} flare, detailed below. It does not count against the number of flares you know",
+				"Вы получаете вспышку {@optfeature Звёздный удар|TPDanc}, подробно описанную ниже. Она не учитывается при подсчёте числа известных вам вспышек",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Star Struck|TPDanc"
@@ -1138,15 +1138,15 @@
 			]
 		},
 		{
-			"name": "Idolized Superstar",
+			"name": "Обожествлённая суперзвезда",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Idolized Superstar",
+			"subclassShortName": "Обожествлённая суперзвезда",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"Some are born destined for fame, others work their fingers to the bone daily to achieve it, some are just in the right place at the right time. From these individuals, the choreo of the Idolized Superstar was born. Ever the center of public attention, most students of this Choreo live in the public's eye, soaking in the adulation of their adoring fans. Once famous, some take to adopting a secret persona or alter ego, so they may go about the more mundane aspects of their life without being mobbed by crowds.",
+				"Некоторые рождены, чтобы стать знаменитыми, другие день за днём трудятся в поте лица, чтобы этого добиться, а третьи просто оказались в нужном месте в нужное время. Из таких людей и родилась хореография обожествлённой суперзвезды. Всегда в центре общественного внимания, большинство учеников этой хореографии живут на виду у публики, купаясь в обожании своих поклонников. Став знаменитыми, некоторые принимают тайную персону или альтер эго, чтобы заниматься более обыденными сторонами своей жизни, не будучи затоптанными толпой.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Choreo Flare: Star Struck|Dancer|TPDanc|Idolized Superstar|TPDanc|3"
@@ -1162,77 +1162,77 @@
 			]
 		},
 		{
-			"name": "Melodic Arts",
+			"name": "Мелодические искусства",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Idolized Superstar",
+			"subclassShortName": "Обожествлённая суперзвезда",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You are proficient with the Charisma ({@skill Performance}) skill and your singing voice, which you can use to make musical instrument tools checks. Your proficiency bonus is doubled for any checks you make using these proficiencies."
+				"Вы владеете навыком Харизма ({@skill Performance}) и своим певческим голосом, который можете использовать для проверок инструментов «музыкальный инструмент». Ваш бонус мастерства удваивается для любых проверок, которые вы совершаете с использованием этих владений."
 			]
 		},
 		{
-			"name": "Stage Name",
+			"name": "Сценическое имя",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Idolized Superstar",
+			"subclassShortName": "Обожествлённая суперзвезда",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You can add double your proficiency bonus to any checks you make using {@item disguise kit|PHB|disguise kits} and your singing voice.",
-				"Further, you create a secret identity which you can adopt or discard using a bonus action. Unless you tell a creature, or the creature sees you adopt or discard this identity, they do not know you and your secret identity are the same person."
+				"Вы можете добавить удвоенный бонус мастерства к любым проверкам, совершаемым с использованием {@item disguise kit|PHB|наборов для маскировки} и вашего певческого голоса.",
+				"Кроме того, вы создаёте тайную личность, которую можете принять или отбросить бонусным действием. Если вы не скажете существу или существо не увидит, как вы принимаете или отбрасываете эту личность, оно не знает, что вы и ваша тайная личность — один и тот же человек."
 			]
 		},
 		{
-			"name": "Commercial Success",
+			"name": "Коммерческий успех",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Idolized Superstar",
+			"subclassShortName": "Обожествлённая суперзвезда",
 			"subclassSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"Stories of your must-see performances have spread far and wide, gaining you a bit of a fandom. When you make a Charisma check while interacting with a creature that respects your clout, be it by your true name or stage name, you can treat a d20 roll of 9 or lower as a 10."
+				"Рассказы о ваших выступлениях, которые нельзя пропустить, разошлись далеко и широко, снискав вам некоторую известность. Когда вы совершаете проверку Харизмы при взаимодействии с существом, которое уважает ваш авторитет — под вашим настоящим или сценическим именем, — вы можете считать результат d20, равный 9 или меньше, за 10."
 			]
 		},
 		{
-			"name": "Enrapturing Routine",
+			"name": "Увлекательный номер",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Idolized Superstar",
+			"subclassShortName": "Обожествлённая суперзвезда",
 			"subclassSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"When a creature is charmed by your {@optfeature Star Struck|TPDanc} flare, you can choose to maintain the effect at the start of your subsequent turns with your bonus action.",
-				"Further, if the target of your {@optfeature Star Struck|TPDanc} flare is immune to being {@condition charmed}, it can be {@condition charmed} but instead makes the Wisdom saving throw with advantage."
+				"Когда существо очаровано вашей вспышкой {@optfeature Звёздный удар|TPDanc}, вы можете бонусным действием поддерживать эффект в начале своих последующих ходов.",
+				"Кроме того, если цель вашей вспышки {@optfeature Звёздный удар|TPDanc} невосприимчива к состоянию {@condition charmed}, её всё же можно {@condition charmed}, но она совершает спасбросок Мудрости с преимуществом."
 			]
 		},
 		{
-			"name": "Star-Studded Performance",
+			"name": "Выступление со звёздами",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Idolized Superstar",
+			"subclassShortName": "Обожествлённая суперзвезда",
 			"subclassSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"While you are maintaining your {@subclassFeature Enrapturing Routine|Dancer|TPDanc|Idolized Superstar|TPDanc|11}, the effects of any other flares you perform last while you maintain the performance. If a flare requires a saving throw to end its effects, an affected target can make the saving throw again at the end of each of its turns, ending the effect on a success."
+				"Пока вы поддерживаете {@subclassFeature Увлекательный номер|Dancer|TPDanc|Обожествлённая суперзвезда|TPDanc|11}, эффекты любых других исполняемых вами вспышек длятся, пока вы поддерживаете выступление. Если вспышка требует спасброска для окончания её эффектов, подвергшаяся воздействию цель может снова совершить спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
 			]
 		},
 		{
-			"name": "Choreo Flare: Ballroom Blitz",
+			"name": "Вспышка хореографии: бальный блиц",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Noble Waltz",
+			"subclassShortName": "Благородный вальс",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@optfeature Ballroom Blitz|TPDanc} dance flare, detailed below. It does not count against the number of flares you know.",
+				"Вы получаете танцевальную вспышку {@optfeature Бальный блиц|TPDanc}, подробно описанную ниже. Она не учитывается при подсчёте числа известных вам вспышек.",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Ballroom Blitz|TPDanc"
@@ -1240,27 +1240,27 @@
 			]
 		},
 		{
-			"name": "Lap of Luxury",
+			"name": "Роскошь",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Noble Waltz",
+			"subclassShortName": "Благородный вальс",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"Carousing counts as light activity for you for the purposes of resting. When you finish a long rest while maintaining an Aristocratic lifestyle, you regain all of your expended hit dice and can reduce your exhaustion level by 2, instead of 1. Your allies that carouse with you during the rest gain these benefits as well."
+				"Кутежи считаются для вас лёгкой деятельностью с точки зрения отдыха. Завершая продолжительный отдых, пока вы поддерживаете аристократический образ жизни, вы восстанавливаете все потраченные Кости Хитов и можете снизить уровень истощения на 2 вместо 1. Ваши союзники, которые кутили с вами во время отдыха, также получают эти преимущества."
 			]
 		},
 		{
-			"name": "Noble Waltz",
+			"name": "Благородный вальс",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Noble Waltz",
+			"subclassShortName": "Благородный вальс",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"Lavish parties among the aristocracy are essentially a rite of passage for members of nobility, as politics unfold in the ballroom as often as they do in the war room. Even if these dancers cannot claim the pedigree of noble birth, they are learned in the practices and pomp of patricians; be it from rubbing elbows with those of royal hierarchy or from instructing members of ruling families in this style. Masters of this choreo strive for nothing short of perfection in their every action, conducting themselves with a calculated tact and suave that allows them to navigate even the most treacherous of social environments as easily as they could a dance floor.",
+				"Роскошные пиры среди аристократии по сути являются обрядом посвящения для членов знати, ведь политика разворачивается в бальном зале не реже, чем в военном шатре. Даже если эти танцоры не могут похвастаться знатным происхождением, они сведущи в обычаях и пышности патрициев — будь то от общения с особами королевской иерархии или от обучения представителей правящих семей этому стилю. Мастера этой хореографии стремятся ни к чему иному, как к совершенству в каждом своём действии, ведя себя с расчётливой тактичностью и обходительностью, что позволяет им с той же лёгкостью, что и танцпол, преодолевать самое коварное социальное окружение.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Choreo Flare: Ballroom Blitz|Dancer|TPDanc|Noble Waltz|TPDanc|3"
@@ -1276,63 +1276,63 @@
 			]
 		},
 		{
-			"name": "The Sport of Kings",
+			"name": "Королевский спорт",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Noble Waltz",
+			"subclassShortName": "Благородный вальс",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain proficiency with {@item rapier|PHB|rapiers}. If a creature hits you with a melee attack while you are weilding a rapier and you can see the attacker, you can use your reaction to add your proficiency bonus to your AC against the attack, potentially causing the attack to miss."
+				"Вы получаете владение {@item rapier|PHB|рапирами}. Если существо попадает по вам рукопашной атакой, пока вы владеете рапирой, и вы можете видеть атакующего, вы можете использовать свою реакцию, чтобы добавить свой бонус мастерства к своему КД против этой атаки, что может заставить атаку промахнуться."
 			]
 		},
 		{
-			"name": "On My Authority",
+			"name": "По моему велению",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Noble Waltz",
+			"subclassShortName": "Благородный вальс",
 			"subclassSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"When you use your {@classFeature Step Up|Dancer|TPDanc|2} feature, you can dictate a course of action. If the creature takes the stated course of action during the action you grant it with {@classFeature Step Up|Dancer|TPDanc|2}, the action's attack roll, ability check, or saving throw DC gains a bonus equal to your Charisma modifier."
+				"Когда вы используете своё умение {@classFeature Шаг вперёд|Dancer|TPDanc|2}, вы можете предписать план действий. Если существо следует заявленному плану в рамках действия, которое вы даруете ему с помощью {@classFeature Шаг вперёд|Dancer|TPDanc|2}, бросок атаки, проверка характеристики или Сл спасброска этого действия получает бонус, равный вашему модификатору Харизмы."
 			]
 		},
 		{
-			"name": "Subdue Transgression",
+			"name": "Подавление проступка",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Noble Waltz",
+			"subclassShortName": "Благородный вальс",
 			"subclassSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"If a creature misses you with a melee weapon attack, you can immediately perform your {@optfeature Ballroom Blitz|TPDanc} flare. A target that previously won this contest is not immune to the effect when used this way."
+				"Если существо промахивается по вам рукопашной атакой оружием, вы можете немедленно исполнить свою вспышку {@optfeature Бальный блиц|TPDanc}. Цель, которая ранее выиграла эту борьбу, не получает иммунитет к эффекту при таком использовании."
 			]
 		},
 		{
-			"name": "Regal Magnificence",
+			"name": "Царственное великолепие",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Noble Waltz",
+			"subclassShortName": "Благородный вальс",
 			"subclassSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"The duration of your {@optfeature Ballroom Blitz|TPDanc} flare becomes 1 minute, but you must use your bonus action on your turn to maintain the effect. An affected creature can make a Wisdom saving throw at the end of each of its turns to end the effect early, and succeeding on the save counts as the creature having won the contest."
+				"Длительность вашей вспышки {@optfeature Бальный блиц|TPDanc} становится 1 минута, но вы должны использовать бонусное действие в свой ход, чтобы поддерживать эффект. Подвергшееся воздействию существо может совершать спасбросок Мудрости в конце каждого своего хода, чтобы досрочно окончить эффект, и успех в этом спасброске считается победой существа в борьбе."
 			]
 		},
 		{
-			"name": "Choreo Flare: Rallying Stomp",
+			"name": "Вспышка хореографии: воодушевляющий топот",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Rallying Harbinger",
+			"subclassShortName": "Воодушевляющий предвестник",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@optfeature Rallying Stomp|TPDanc} dance flare, which does not count against your number of flares known.",
+				"Вы получаете танцевальную вспышку {@optfeature Воодушевляющий топот|TPDanc}, которая не учитывается при подсчёте числа известных вам вспышек.",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Rallying Stomp|TPDanc"
@@ -1340,15 +1340,15 @@
 			]
 		},
 		{
-			"name": "Fighting Style",
+			"name": "Боевой стиль",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Rallying Harbinger",
+			"subclassShortName": "Воодушевляющий предвестник",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.",
+				"Вы принимаете стиль боя как свою специальность. Выберите один из следующих вариантов. Вы не можете выбирать один и тот же вариант боевого стиля более одного раза, даже если что-то в игре позволит вам выбрать снова.",
 				{
 					"type": "options",
 					"count": 1,
@@ -1370,27 +1370,27 @@
 			]
 		},
 		{
-			"name": "Herald of War",
+			"name": "Вестник войны",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Rallying Harbinger",
+			"subclassShortName": "Воодушевляющий предвестник",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain proficiency in the {@skill Intimidation} skill and with medium armor and shields."
+				"Вы получаете владение навыком {@skill Intimidation}, а также средними доспехами и щитами."
 			]
 		},
 		{
-			"name": "Rallying Harbinger",
+			"name": "Воодушевляющий предвестник",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Rallying Harbinger",
+			"subclassShortName": "Воодушевляющий предвестник",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"With bold, aggressive movements and chant-like, primal vocalizations, adepts of this choreo use their dances to invigorate and strengthen the resolve of their allies and to terrify and break the morale of their foes, both on and off the battlefield. These dancers can work the meekest of allied forces into fervorous frenzies and send fear sweeping through the lines of battle hardened enemy armies like flames through a field of dry wheat.",
+				"Смелыми, агрессивными движениями и напевными первобытными возгласами адепты этой хореографии используют свои танцы, чтобы воодушевлять и укреплять решимость союзников и ужасать и ломать боевой дух врагов — как на поле боя, так и вне его. Эти танцоры способны довести самые робкие союзные силы до исступлённого бешенства и послать страх, прокатывающийся по рядам закалённых в боях вражеских армий, как пламя по полю сухой пшеницы.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Choreo Flare: Rallying Stomp|Dancer|TPDanc|Rallying Harbinger|TPDanc|3"
@@ -1406,53 +1406,53 @@
 			]
 		},
 		{
-			"name": "Call to Arms",
+			"name": "Призыв к оружию",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Rallying Harbinger",
+			"subclassShortName": "Воодушевляющий предвестник",
 			"subclassSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"When you grant a creature an action with your {@classFeature Step Up|Dancer|TPDanc|2} feature and it uses the Attack action, it can make one additional attack with the given action."
+				"Когда вы даруете существу действие своим умением {@classFeature Шаг вперёд|Dancer|TPDanc|2} и оно использует действие Атака, оно может совершить одну дополнительную атаку в рамках данного действия."
 			]
 		},
 		{
-			"name": "Oppressive Attrition",
+			"name": "Гнетущее истощение",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Rallying Harbinger",
+			"subclassShortName": "Воодушевляющий предвестник",
 			"subclassSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"You can use a bonus action to terrify your opposition. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, you make a Charisma ({@skill Intimidation}) check contested by the target's Charisma ({@skill Intimidation}) check or Wisdom saving throw (their choice).",
-				"If you win the contest, the target is {@condition frightened} of you and your allies until the end of your next turn. While {@condition frightened} in this way, a target's speed is halved. On subsequent turns, you can perform your {@optfeature Rallying Stomp|TPDanc} flare to extend the duration of this effect on the {@condition frightened} creature until the end of your next turn. The effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.",
-				"If you lose the contest, you can't frighten that creature again for 24 hours."
+				"Вы можете бонусным действием ужаснуть своих противников. Делая это, выберите одно существо, которое можете видеть в пределах 30 футов от вас. Если существо может видеть или слышать вас, вы совершаете проверку Харизмы ({@skill Intimidation}), которой противостоит проверка Харизмы ({@skill Intimidation}) цели или спасбросок Мудрости (на их выбор).",
+				"Если вы выигрываете борьбу, цель становится {@condition frightened} вас и ваших союзников до конца вашего следующего хода. Пока цель {@condition frightened} таким образом, её скорость уменьшается вдвое. В последующие ходы вы можете исполнять свою вспышку {@optfeature Воодушевляющий топот|TPDanc}, чтобы продлить длительность этого эффекта на {@condition frightened} существо до конца вашего следующего хода. Эффект оканчивается, если существо оканчивает свой ход вне линии обзора или дальше 60 футов от вас.",
+				"Если вы проигрываете борьбу, вы не можете снова испугать это существо в течение 24 часов."
 			]
 		},
 		{
-			"name": "Flare of Frenzy",
+			"name": "Вспышка бешенства",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Rallying Harbinger",
+			"subclassShortName": "Воодушевляющий предвестник",
 			"subclassSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"Allies benefiting from your {@optfeature Rallying Stomp|TPDanc} flare can make a single melee weapon attack as a bonus action during their turns and, while you perform this flare, you have resistance to bludgeoning, piercing, and slashing damage."
+				"Союзники, получающие выгоду от вашей вспышки {@optfeature Воодушевляющий топот|TPDanc}, могут совершать одну рукопашную атаку оружием бонусным действием в свои ходы, а пока вы исполняете эту вспышку, у вас есть сопротивление дробящему, колющему и рубящему урону."
 			]
 		},
 		{
-			"name": "Choreo Flare: Hedonistic Revel",
+			"name": "Вспышка хореографии: гедонистическая гульба",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Sylvan Mirth",
+			"subclassShortName": "Лесное веселье",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@optfeature Hedonistic Revel|TPDanc} dance flare, detailed below. It does not count against the number of flares you know.",
+				"Вы получаете танцевальную вспышку {@optfeature Гедонистическая гульба|TPDanc}, подробно описанную ниже. Она не учитывается при подсчёте числа известных вам вспышек.",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Hedonistic Revel|TPDanc"
@@ -1460,39 +1460,39 @@
 			]
 		},
 		{
-			"name": "Paths Unseen",
+			"name": "Невидимые тропы",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Sylvan Mirth",
+			"subclassShortName": "Лесное веселье",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"While traveling in forests, both magical and nonmagical, you are always aware of your location approximate the forest's nearest border, the forest's overall health, and if there are any portals within the forest."
+				"Путешествуя по лесам, магическим и немагическим, вы всегда знаете, где находитесь относительно ближайшей границы леса, общее состояние леса и есть ли в лесу порталы."
 			]
 		},
 		{
-			"name": "Sylvan Arts",
+			"name": "Лесные искусства",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Sylvan Mirth",
+			"subclassShortName": "Лесное веселье",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@spell dancing lights} and {@spell druidcraft} cantrips, and you learn to read, speak, and write Druidic and Sylvan."
+				"Вы получаете заговоры {@spell dancing lights} и {@spell druidcraft}, а также учитесь читать, говорить и писать на друидическом и сильване."
 			]
 		},
 		{
-			"name": "Sylvan Mirth",
+			"name": "Лесное веселье",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Sylvan Mirth",
+			"subclassShortName": "Лесное веселье",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"While almost all dancers are known to perform to music, none are as well known for the music they dance to as those of the choreo of Sylvan Mirth. Whether it's the dulcet melody of a set of pan-pipes, the lively ditty of a fiddle, or simply the metronomic clacking of a pair of spoons against their body, Dancers of this Choreo rarely dance without also providing their own musical accompaniment. Due to these styles coming primarily from the Spring and Summer Courts, this choreo is focused on expressions of joy, passion, and, of course, mischievousness.",
+				"Хотя почти все танцоры, как известно, выступают под музыку, никто не известен своей музыкой для танца так, как танцоры хореографии лесного веселья. Будь то нежная мелодия свирели, живая песенка скрипки или просто метрономное постукивание пары ложек по телу — танцоры этой хореографии редко танцуют, не обеспечивая себе музыкального сопровождения. Поскольку эти стили происходят в основном из Весеннего и Летнего дворов, эта хореография сосредоточена на выражениях радости, страсти и, конечно же, озорства.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Choreo Flare: Hedonistic Revel|Dancer|TPDanc|Sylvan Mirth|TPDanc|3"
@@ -1508,53 +1508,53 @@
 			]
 		},
 		{
-			"name": "Pixie Tricks",
+			"name": "Уловки пикси",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Sylvan Mirth",
+			"subclassShortName": "Лесное веселье",
 			"subclassSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"When you take the Disengage action, you can chose to either teleport up to your speed to any area you can see as if by the {@spell misty step} spell or turn {@condition invisible}, along with any equipment you are wearing or carrying, until the start of your next turn, or until you deal damage to a creature or force a creature to make a saving throw.",
-				"Once you turn {@condition invisible} with this feature, you can't do so again until you finish a short or long rest."
+				"Когда вы совершаете действие Отход, вы можете выбрать: телепортироваться на расстояние до своей скорости в любую видимую область, как в заклинании {@spell misty step}, или стать {@condition invisible} вместе с любым снаряжением, которое вы носите или несёте, до начала вашего следующего хода или пока вы не нанесёте существу урон или не заставите существо совершить спасбросок.",
+				"Став {@condition invisible} с помощью этого умения, вы не можете снова стать им, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Good Mischief",
+			"name": "Добрые шалости",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Sylvan Mirth",
+			"subclassShortName": "Лесное веселье",
 			"subclassSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"Creatures that have immunity to your spells and effects that cause the {@condition charmed} or {@condition frightened} condition instead only have advantage on saving throws made against them.",
-				"Further, if a creature that is {@condition charmed} or {@condition frightened} by you hits you with an attack roll, you can use your reaction to magically cause the attack to miss, provided you can see the attacker."
+				"Существа, обладающие иммунитетом к вашим заклинаниям и эффектам, накладывающим состояние {@condition charmed} или {@condition frightened}, вместо этого совершают с преимуществом спасброски против них.",
+				"Кроме того, если существо, {@condition charmed} или {@condition frightened} вами, попадает по вам броском атаки, вы можете использовать свою реакцию, чтобы магически заставить атаку промахнуться, если вы можете видеть атакующего."
 			]
 		},
 		{
-			"name": "Wander the Wooded",
+			"name": "Странствие по лесам",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Sylvan Mirth",
+			"subclassShortName": "Лесное веселье",
 			"subclassSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"When you use the bonus action granted to you with {@subclassFeature Pixie Tricks|Dancer|TPDanc|Sylvan Mirth|TPDanc|6}, you can choose to grant the target of your Step Up feature the benefit as well."
+				"Когда вы используете бонусное действие, дарованное вам {@subclassFeature Уловки пикси|Dancer|TPDanc|Лесное веселье|TPDanc|6}, вы можете также даровать это преимущество цели вашего умения «Шаг вперёд»."
 			]
 		},
 		{
-			"name": "Choreo Flare: Mosh",
+			"name": "Вспышка хореографии: мош",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Thrashing Pit",
+			"subclassShortName": "Толчея",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@optfeature Mosh|TPDanc} dance flare, detailed below. It does not count against the number of flares you know.",
+				"Вы получаете танцевальную вспышку {@optfeature Мош|TPDanc}, подробно описанную ниже. Она не учитывается при подсчёте числа известных вам вспышек.",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Mosh|TPDanc"
@@ -1562,28 +1562,28 @@
 			]
 		},
 		{
-			"name": "If You Can't Take a Hit",
+			"name": "Если не можешь держать удар",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Thrashing Pit",
+			"subclassShortName": "Толчея",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"Your hit point maximum increases by 3 and increases by 1 whenever you gain a level in this class.",
-				"Additionally, when you reach 6th level in this class, yougain resistance to bludgeoning damage."
+				"Максимум ваших хитов увеличивается на 3 и увеличивается на 1 всякий раз, когда вы получаете уровень в этом классе.",
+				"Кроме того, когда вы достигаете 6-го уровня в этом классе, вы получаете сопротивление дробящему урону."
 			]
 		},
 		{
-			"name": "Thrashing Pit",
+			"name": "Толчея",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Thrashing Pit",
+			"subclassShortName": "Толчея",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"Originally developed by the destitute and dispossessed as a means of protesting the established rules both of dance and of society, Dancers of this choreo are typically referred to as 'hooligans.' To these Dancers, Thrash is not a Choreo one studies, but a way of life that one lives. Leading a comfortable life, one can never understand the true meaning of Thrash, for Thrash is real, Thrash is raw, Thrash is the struggle to survive against insurmountable odds.",
+				"Изначально разработанный обездоленными и лишёнными прав как способ протеста против устоявшихся правил как танца, так и общества, танцоры этой хореографии обычно именуются «хулиганами». Для этих танцоров трэш — не хореография, которую изучают, а образ жизни, которым живут. Ведя обеспеченную жизнь, невозможно понять истинный смысл трэша, ибо трэш реален, трэш груб, трэш — это борьба за выживание против непреодолимых трудностей.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Choreo Flare: Mosh|Dancer|TPDanc|Thrashing Pit|TPDanc|3"
@@ -1599,65 +1599,65 @@
 			]
 		},
 		{
-			"name": "Throwing Elbows",
+			"name": "Удары локтями",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Thrashing Pit",
+			"subclassShortName": "Толчея",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain proficiency in the {@skill Athletics} and {@skill Intimidation} skills.",
-				"Further, you can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and {@skill Athletics} checks."
+				"Вы получаете владение навыками {@skill Athletics} и {@skill Intimidation}.",
+				"Кроме того, вы можете использовать Ловкость вместо Силы для бросков атаки и урона ваших безоружных ударов и проверок {@skill Athletics}."
 			]
 		},
 		{
-			"name": "Disrespect Your Surroundings",
+			"name": "Не уважай окружение",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Thrashing Pit",
+			"subclassShortName": "Толчея",
 			"subclassSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"When you use your {@classFeature Step Up|Dancer|TPDanc|2} feature or take the {@action Help} action, you and your target have advantage on Strength checks and saving throws, and deal double damage to objects and structures until the end of your next turn."
+				"Когда вы используете своё умение {@classFeature Шаг вперёд|Dancer|TPDanc|2} или совершаете действие {@action Help}, вы и ваша цель получаете преимущество на проверки Силы и спасброски и наносите двойной урон предметам и строениям до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Killing in the Name",
+			"name": "Убийство во имя",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Thrashing Pit",
+			"subclassShortName": "Толчея",
 			"subclassSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"Once during their turn, when your allies hit with a melee weapon attack or unarmed strike while they are within 10 feet of you and you are not {@condition incapacitated}, they can roll 2d6 and add the result to the damage of the attack."
+				"Раз в свой ход, когда ваши союзники попадают рукопашной атакой оружием или безоружным ударом, находясь в пределах 10 футов от вас и пока вы не {@condition incapacitated}, они могут бросить 2d6 и добавить результат к урону атаки."
 			]
 		},
 		{
-			"name": "Wall of Death",
+			"name": "Стена смерти",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Thrashing Pit",
+			"subclassShortName": "Толчея",
 			"subclassSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"As an action, you can scream a call to aggression to your allies. When you do, choose a number of creatures within 60 feet that can see or hear you equal to your Charisma modifier. A chosen creature can use their reaction to move up to half their speed and make a melee attack against a creature.You can do so as well as a part of this action.",
-				"Once you use this feature, you cannot do so again until you finish a long rest."
+				"Действием вы можете выкрикнуть союзникам призыв к агрессии. Делая это, выберите количество существ в пределах 60 футов, которые вас видят или слышат, равное вашему модификатору Харизмы. Выбранное существо может использовать свою реакцию, чтобы переместиться на расстояние до половины своей скорости и совершить рукопашную атаку по существу. Вы можете сделать то же самое в рамках этого действия.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Choreo Flare: Soma Fonta Arcana",
+			"name": "Вспышка хореографии: сома фонта аркана",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Weave Teaser",
+			"subclassShortName": "Искуситель Плетения",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain the {@optfeature Soma Fonta Arcana|TPDanc} dance flare, detailed below. It does not count against the number of flares you know.",
+				"Вы получаете танцевальную вспышку {@optfeature Сома фонта аркана|TPDanc}, подробно описанную ниже. Она не учитывается при подсчёте числа известных вам вспышек.",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Soma Fonta Arcana|TPDanc"
@@ -1665,67 +1665,67 @@
 			]
 		},
 		{
-			"name": "Spell Dancer Lore",
+			"name": "Знания танцора заклинаний",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Weave Teaser",
+			"subclassShortName": "Искуситель Плетения",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"You gain proficiency with the {@skill Arcana} skill and when you make an {@skill Arcana} check, you can make the check using Charisma instead of Intelligence."
+				"Вы получаете владение навыком {@skill Arcana}, и при совершении проверки {@skill Arcana} можете совершать её, используя Харизму вместо Интеллекта."
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Weave Teaser",
+			"subclassShortName": "Искуситель Плетения",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"See {@book chapter 10|PHB|10} of the Player's Handbook for Spells Rules for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter sorcerer spell list|spells|class=sorcerer}.",
+				"См. {@book chapter 10|PHB|10} «Книги игрока» о правилах заклинаний для общих правил сотворения заклинаний и {@book chapter 11|PHB|11} для {@filter sorcerer spell list|spells|class=sorcerer}.",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Заговоры",
 					"entries": [
-						"You learn three cantrips of your choice from the {@filter sorcerer spell list|spells|class=sorcerer}. You learn an additional sorcerer cantrip of your choice at 10th level."
+						"Вы изучаете три заговора на ваш выбор из {@filter sorcerer spell list|spells|class=sorcerer}. На 10-м уровне вы изучаете ещё один заговор чародея на ваш выбор."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spell Slots",
+					"name": "Ячейки заклинаний",
 					"entries": [
-						"The Weave Teaser Spellcasting table shows how many spell slots you have to cast your {@filter sorcerer spells|spells|class=sorcerer} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"For example, if you know the 1st-level spell {@spell charm person} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person} using either slot."
+						"Таблица колдовства искусителя Плетения показывает, сколько ячеек заклинаний у вас есть для сотворения своих {@filter sorcerer spells|spells|class=sorcerer} 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете продолжительный отдых.",
+						"Например, если вы знаете заклинание 1-го уровня {@spell charm person} и у вас есть ячейка 1-го и ячейка 2-го уровня, вы можете сотворить {@spell charm person}, используя любую из них."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells Known of 1st-Level and Higher",
+					"name": "Известные заклинания 1-го уровня и выше",
 					"entries": [
-						"You know three 1st-level sorcerer spells of your choice, two of which you must choose from the abjuration and enchantment spells on the sorcerer spell list.",
-						"The Spells Known column of the Weave Teaser Spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be an abjuration or enchantment spell, and must be of a level no higher than the level shown in the Maximum Spell Level column of the Weave Teaser Spellcasting table. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-						"The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
-						"Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice. The new spell must be an abjuration or evocation spell of a level no higher than the level indicated in the Maximum Spell Level Column, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
+						"Вы знаете три заклинания чародея 1-го уровня на ваш выбор, два из которых должны быть выбраны из заклинаний ограждения и очарования в списке заклинаний чародея.",
+						"Столбец «Известные заклинания» таблицы колдовства искусителя Плетения показывает, когда вы изучаете новые заклинания 1-го уровня и выше. Каждое из этих заклинаний должно быть заклинанием ограждения или очарования и должно быть уровня не выше указанного в столбце «Максимальный уровень заклинания» таблицы колдовства искусителя Плетения. Например, достигнув 7-го уровня в этом классе, вы можете изучить одно новое заклинание 1-го или 2-го уровня.",
+						"Заклинания, которые вы изучаете на 8-м, 14-м и 20-м уровнях, могут быть из любой школы магии.",
+						"Всякий раз, получая уровень в этом классе, вы можете заменить одно из известных вам заклинаний другим заклинанием на ваш выбор. Новое заклинание должно быть заклинанием ограждения или воплощения уровня не выше указанного в столбце «Максимальный уровень заклинания», если только вы не заменяете заклинание, полученное на 3-м, 8-м, 14-м или 20-м уровне, из любой школы магии."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"entries": [
-						"Charisma is your spellcasting ability for your spells, since the beauty of your dance teases the Weave and allows you to harness its magic. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+						"Харизма — ваша характеристика для сотворения заклинаний, поскольку красота вашего танца дразнит Плетение и позволяет вам черпать его магию. Вы используете свою Харизму всякий раз, когда заклинание ссылается на вашу характеристику для сотворения заклинаний. Кроме того, вы используете свой модификатор Харизмы при определении Сл спасброска для сотворяемого вами заклинания и при совершении им броска атаки.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"cha"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"cha"
 							]
@@ -1735,15 +1735,15 @@
 			]
 		},
 		{
-			"name": "Weave Teaser",
+			"name": "Искуситель Плетения",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Weave Teaser",
+			"subclassShortName": "Искуситель Плетения",
 			"subclassSource": "TPDanc",
 			"level": 3,
 			"entries": [
-				"The somatic components of spells can be seen as a dance, as every careful movement must be rehearsed to tease the Weave and unleash its power. The techniques of the Weave Teaser developed alongside other arcane practices like Bladesinging, and practitioners of each are frequently found journeying together. Warping the Weave through movement alone is not a feat easily done, as it requires syncing one's body and mind to the rhythm of the very flow of magic itself.",
+				"Соматические компоненты заклинаний можно воспринимать как танец, ведь каждое аккуратное движение должно быть отрепетировано, чтобы дразнить Плетение и высвобождать его силу. Техники искусителя Плетения развивались вместе с другими тайными практиками, такими как пение клинков, и практиков каждой из них часто можно встретить в совместных странствиях. Искажать Плетение одним лишь движением — подвиг, дающийся нелегко, ибо он требует синхронизации тела и разума с ритмом самого потока магии.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Choreo Flare: Soma Fonta Arcana|Dancer|TPDanc|Weave Teaser|TPDanc|3"
@@ -1759,67 +1759,67 @@
 			]
 		},
 		{
-			"name": "Trip the Light Fantastic",
+			"name": "Станцуй фантастический танец",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Weave Teaser",
+			"subclassShortName": "Искуситель Плетения",
 			"subclassSource": "TPDanc",
 			"level": 6,
 			"entries": [
-				"You can cast the {@spell feather fall} spell on yourself at will, without expending spell charges or spell slots.",
-				"Further, you can move along the outer area of spells with a defined area as if they were solid surfaces. You can move across the spell's area in any direction, including vertically, while leaving your hands free. If the spell is moved while you are moving on its surface, you move with the spell."
+				"Вы можете сотворять заклинание {@spell feather fall} на себя по желанию, не тратя заряды или ячейки заклинаний.",
+				"Кроме того, вы можете перемещаться по внешней области заклинаний с определённой областью так, как если бы они были твёрдыми поверхностями. Вы можете перемещаться по области заклинания в любом направлении, включая вертикальное, оставляя руки свободными. Если заклинание перемещается, пока вы движетесь по его поверхности, вы перемещаетесь вместе с заклинанием."
 			]
 		},
 		{
-			"name": "Weaver's Counter",
+			"name": "Контрприём ткача",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Weave Teaser",
+			"subclassShortName": "Искуситель Плетения",
 			"subclassSource": "TPDanc",
 			"level": 11,
 			"entries": [
-				"When a creature targets you with a ranged spell attack, you can use your reaction to manipulate the essence of the spell. When you do, you contest the spell's attack roll with a Charisma ({@skill Performance}) check.",
-				"If you win the contest, you gain control of the spell and you can make a ranged spell attack with the spell as a part of the same reaction as if you had cast it."
+				"Когда существо нацеливается на вас дальнобойной атакой заклинанием, вы можете использовать свою реакцию, чтобы управлять сутью заклинания. Делая это, вы противопоставляете броску атаки заклинания проверку Харизмы ({@skill Performance}).",
+				"Если вы выигрываете борьбу, вы получаете контроль над заклинанием и можете в рамках той же реакции совершить им дальнобойную атаку заклинанием так, как если бы сотворили его."
 			]
 		},
 		{
-			"name": "Font Mystique",
+			"name": "Мистический источник",
 			"source": "TPDanc",
 			"className": "Dancer",
 			"classSource": "TPDanc",
-			"subclassShortName": "Weave Teaser",
+			"subclassShortName": "Искуситель Плетения",
 			"subclassSource": "TPDanc",
 			"level": 17,
 			"entries": [
-				"When you finish a short rest, you can choose to regain all your spent spell slots. Once you do, you can't do so again until you finish a long rest."
+				"Завершив короткий отдых, вы можете восстановить все потраченные ячейки заклинаний. Сделав это, вы не можете сделать так снова, пока не завершите продолжительный отдых."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Ambient Arabesque",
+			"name": "Окружающая арабеска",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"This dance creates an aura which extends the nondamaging effects of any spell currently affecting you to all willing creatures of your choice while they are within 10 feet of you. The aura lasts until the start of your next turn, and never longer than the effect's stated duration."
+				"Этот танец создаёт ауру, распространяющую не наносящие урон эффекты любого действующего на вас заклинания на всех согласных существ вашего выбора, пока они находятся в пределах 10 футов от вас. Аура длится до начала вашего следующего хода и никогда дольше заявленной длительности эффекта."
 			]
 		},
 		{
-			"name": "Artful Dodge",
+			"name": "Искусное уклонение",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Preparing yourself to gracefully react to those around you, you take the {@action Dodge} action. If you are targeted with an opportunity attack before the start of your next turn, the attack roll suffers a penalty equal to your Charisma modifier."
+				"Готовя себя к тому, чтобы изящно реагировать на окружающих, вы совершаете действие {@action Dodge}. Если до начала вашего следующего хода по вам нацеливают провоцированную атаку, бросок атаки получает штраф, равный вашему модификатору Харизмы."
 			]
 		},
 		{
-			"name": "Ballroom Blitz",
+			"name": "Бальный блиц",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
@@ -1827,30 +1827,30 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "Choreo of the Noble Waltz",
+						"entry": "Хореография благородного вальса",
 						"entrySummary": "Noble Waltz"
 					}
 				}
 			],
 			"entries": [
-				"You can choose a creature within 15 feet of you and issue a one-word command to it, as per the {@spell command} spell. You then make a Charisma (Intimidation or Persuasion, your choice) check contested by the target's Wisdom saving throw.",
-				"If you win the contest, the target must use its reaction to follow the issued command. If you lose the contest, the target is immune to this flare for 24 hours."
+				"Вы можете выбрать существо в пределах 15 футов от вас и отдать ему команду из одного слова, как в заклинании {@spell command}. Затем вы совершаете проверку Харизмы (Запугивание или Убеждение, на ваш выбор), которой противостоит спасбросок Мудрости цели.",
+				"Если вы выигрываете борьбу, цель должна использовать свою реакцию, чтобы выполнить отданную команду. Если вы проигрываете борьбу, цель получает иммунитет к этой вспышке на 24 часа."
 			]
 		},
 		{
-			"name": "Bewildering Grace",
+			"name": "Ошеломляющая грация",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You toss caution to the wind performing this mysterious dance that briefly opens the wild potential of the universe. After you move, you roll a d20 and consult the Bewildering Grace table for the Effect that occurs. In order for a creature to be subjected to this flare's effects, it must be able to see you.",
-				"Performing this flare strains your body, giving you a level of {@condition exhaustion} after you perform it.",
+				"Вы отбрасываете осторожность, исполняя этот таинственный танец, который ненадолго открывает дикий потенциал вселенной. После перемещения вы бросаете d20 и сверяетесь с таблицей «Ошеломляющая грация», чтобы узнать, какой эффект произойдёт. Чтобы существо было подвергнуто эффектам этой вспышки, оно должно быть способно вас видеть.",
+				"Исполнение этой вспышки напрягает ваше тело, давая вам один уровень {@condition exhaustion} после её исполнения.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d20",
-						"Effect"
+						"Эффект"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -1859,193 +1859,193 @@
 					"rows": [
 						[
 							1,
-							"A small, violent lightning storm controlled by the DM appears above you, as per the {@spell call lightning} spell. The storm lasts for 1 minute."
+							"Небольшая яростная грозовая туча, управляемая Мастером, появляется над вами, как в заклинании {@spell call lightning}. Гроза длится 1 минуту."
 						],
 						[
 							2,
-							"A {@filter fiend|bestiary|type=fiend} of CR no higher than your proficiency bonus (DM's choice) appears in an unoccupied space within 60 feet of you. The fiend is controlled by the DM."
+							"{@filter fiend|bestiary|type=fiend} с показателем опасности не выше вашего бонуса мастерства (на выбор Мастера) появляется в свободном пространстве в пределах 60 футов от вас. Исчадие управляется Мастером."
 						],
 						[
 							3,
-							"Each creature within 30 feet of you must succeed on a Wisdom saving throw or be subjected to the {@spell confusion} spell."
+							"Каждое существо в пределах 30 футов от вас должно преуспеть в спасброске Мудрости, иначе на него подействует заклинание {@spell confusion}."
 						],
 						[
 							4,
-							"You shrink yourself as if by the {@spell enlarge/reduce} spell."
+							"Вы уменьшаете себя, как в заклинании {@spell enlarge/reduce}."
 						],
 						[
 							5,
-							"{@dice 1d8} {@creature swarm of wasps||swarms of wasps} appear within 60 feet of you, controlled by the DM."
+							"{@dice 1d8} {@creature swarm of wasps||рои ос} появляются в пределах 60 футов от вас, под контролем Мастера."
 						],
 						[
 							6,
-							"You become {@condition stunned} until the start of your next turn"
+							"Вы становитесь {@condition stunned} до начала вашего следующего хода"
 						],
 						[
 							7,
-							"Each creature within 60 feet of you, including yourself, must succeed on a Wisdom saving throw or be compelled to scream uncontrollably for the next minue."
+							"Каждое существо в пределах 60 футов от вас, включая вас самих, должно преуспеть в спасброске Мудрости, иначе его принуждает неудержимо кричать в течение следующей минуты."
 						],
 						[
 							8,
-							"Each creature within 30 feet of you, including you, must succeed on a Charisma saving throw or be transformed for 1 hour. This transformation causes a creature's feet to all become left versions of their feet, causing them to make Dexterity saving throws with disadvantage."
+							"Каждое существо в пределах 30 футов от вас, включая вас, должно преуспеть в спасброске Харизмы, иначе оно преображается на 1 час. Это превращение делает все ступни существа левыми, из-за чего оно совершает спасброски Ловкости с помехой."
 						],
 						[
 							9,
-							"Each creature within 60 feet of you must succeed on a Constitution saving throw or become {@condition poisoned} for 1 hour. While {@condition poisoned} in this way, a creature cannot regain hit points."
+							"Каждое существо в пределах 60 футов от вас должно преуспеть в спасброске Телосложения, иначе становится {@condition poisoned} на 1 час. Пока существо {@condition poisoned} таким образом, оно не может восстанавливать хиты."
 						],
 						[
 							10,
-							"Music originates from a point of your choice within 60 feet for 1 hour. The music is audible out to a range of 300 feet."
+							"Музыка звучит из выбранной вами точки в пределах 60 футов в течение 1 часа. Музыку слышно на расстоянии до 300 футов."
 						],
 						[
 							11,
-							"Roll on this table at the start of your turn every round for 1 minute. Doing so does not give you additional levels of {@condition exhaustion}."
+							"Бросайте по этой таблице в начале своего хода каждый раунд в течение 1 минуты. Это не даёт вам дополнительных уровней {@condition exhaustion}."
 						],
 						[
 							12,
-							"Each creature within 60 feet of you must succeed on a Constitution saving throw or fall {@condition unconscious} for 1 minute. This effect ends early if the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake."
+							"Каждое существо в пределах 60 футов от вас должно преуспеть в спасброске Телосложения, иначе упадёт {@condition unconscious} на 1 минуту. Этот эффект оканчивается досрочно, если спящий получает урон или кто-то действием трясёт или бьёт спящего, чтобы разбудить."
 						],
 						[
 							13,
-							"Each creature within 10 feet of you gain a flying speed of 60 feet for 1 hour."
+							"Каждое существо в пределах 10 футов от вас получает скорость полёта 60 футов на 1 час."
 						],
 						[
 							14,
-							"{@dice 1d8} {@creature pixie|MM|pixies} appear within 60 feet of you"
+							"{@dice 1d8} {@creature pixie|MM|пикси} появляются в пределах 60 футов от вас"
 						],
 						[
 							15,
-							"You enlarge yourself as if by the {@spell enlarge/reduce} spell"
+							"Вы увеличиваете себя, как в заклинании {@spell enlarge/reduce}"
 						],
 						[
 							16,
-							"Each enemy within 30 feet of you takes necrotic damage, and you regain hit points equal to the sum of the necrotic damage dealt. The necrotic damage dealt is equal to a number of d6s equal to your proficiency bonus."
+							"Каждый враг в пределах 30 футов от вас получает некротический урон, и вы восстанавливаете хиты, равные сумме нанесённого некротического урона. Нанесённый некротический урон равен количеству d6, равному вашему бонусу мастерства."
 						],
 						[
 							17,
-							"A weapon of your choice within 60 feet of you begins to glow with holy power for 1 hour. On a hit, the weapon deals additional radiant damage equal to your Charisma modifier."
+							"Выбранное вами оружие в пределах 60 футов от вас начинает светиться священной силой в течение 1 часа. При попадании оружие наносит дополнительный урон излучением, равный вашему модификатору Харизмы."
 						],
 						[
 							18,
-							"Every creature of your choice within 60 feet of you must succeed on a Charisma saving throw or be turned into a {@filter beast of your choice of CR 1/2 or lower|bestiary|challenge rating=[&0;&1/2]|type=beast|miscellaneous=!swarm} for 1 minute."
+							"Каждое выбранное вами существо в пределах 60 футов от вас должно преуспеть в спасброске Харизмы, иначе превратится в {@filter beast of your choice of CR 1/2 or lower|bestiary|challenge rating=[&0;&1/2]|type=beast|miscellaneous=!swarm} на 1 минуту."
 						],
 						[
 							19,
-							"Allied creatures within 60 feet of you gain a bonus to attack and damage rolls until the end of your next turn equal to half your proficiency bonus (round down)."
+							"Союзные существа в пределах 60 футов от вас получают бонус к броскам атаки и урона до конца вашего следующего хода, равный половине вашего бонуса мастерства (округление вниз)."
 						],
 						[
 							20,
-							"Allied creatures within 60 feet of you regain a number of hit points equal to your dancer level + your Charisma modifier, and any effect causing them to be {@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, or {@condition stunned} ends. If an ally in the area has died in the last minute, they return to life with these hit points."
+							"Союзные существа в пределах 60 футов от вас восстанавливают количество хитов, равное вашему уровню танцора + ваш модификатор Харизмы, и любой эффект, делающий их {@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned} или {@condition stunned}, оканчивается. Если союзник в этой области погиб за последнюю минуту, он возвращается к жизни с этими хитами."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Blood Mass Montero",
+			"name": "Кровавая месса монтеро",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Rites and rituals are always made stronger through sacrificial dance. If a blood hunter uses their crimson rite before the start of your next turn, your current and maximum hit points are reduced by an amount equal to one roll of the blood hunter's hemocraft die while the rite is active, and heighten its power.",
-				"While the rite is active, attacks from the weapon affected by their crimson rite deal an additional {@dice 1d4} of the chosen rite's type."
+				"Обряды и ритуалы всегда становятся сильнее от жертвенного танца. Если охотник на кровь использует свой багровый обряд до начала вашего следующего хода, ваши текущие и максимальные хиты уменьшаются на величину, равную одному броску кости гемомантии охотника на кровь, пока обряд активен, а его мощь возрастает.",
+				"Пока обряд активен, атаки оружия, затронутого багровым обрядом, наносят дополнительно {@dice 1d4} урона выбранного типа обряда."
 			]
 		},
 		{
-			"name": "Bolstering Bolero",
+			"name": "Поддерживающее болеро",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You perform this enlivening spin, granting yourself and each ally within 5 feet of you temporary hit points equal to {@dice 1d6} + your Charisma modifier until the start of your next turn."
+				"Вы исполняете это оживляющее вращение, даруя себе и каждому союзнику в пределах 5 футов от вас временные хиты, равные {@dice 1d6} + ваш модификатор Харизмы, до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Cold Cut",
+			"name": "Холодный разрез",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You can force a creature within 5 feet of you to make a Charisma ({@skill Performance}) check contested by the creature's Charisma ({@skill Performance}) or Charisma ({@skill Persuasion}) check (the target chooses the ability to use). If you win the contest, you push the target up to 5 feet away from you and can also knock it {@condition prone}."
+				"Вы можете заставить существо в пределах 5 футов от вас совершить проверку Харизмы ({@skill Performance}), которой противостоит проверка Харизмы ({@skill Performance}) или Харизмы ({@skill Persuasion}) существа (цель выбирает, какую использовать). Если вы выигрываете борьбу, вы отталкиваете цель на расстояние до 5 футов от себя и можете также сбить её {@condition prone}."
 			]
 		},
 		{
-			"name": "Defense",
+			"name": "Защита",
 			"source": "TPDanc",
 			"featureType": [
 				"FS:D"
 			],
 			"entries": [
-				"While you are wearing armor, you gain a +1 bonus to AC."
+				"Пока на вас надет доспех, вы получаете бонус +1 к КД."
 			]
 		},
 		{
-			"name": "Dueling",
+			"name": "Дуэлянт",
 			"source": "TPDanc",
 			"featureType": [
 				"FS:D"
 			],
 			"entries": [
-				"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+				"Если в одной руке у вас оружие ближнего боя и никакого другого оружия, вы получаете бонус +2 к броскам урона этим оружием."
 			]
 		},
 		{
-			"name": "Electric Slide",
+			"name": "Электрический слайд",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"A shocking dance that supercharges the static energy nearby. Until the start of your next turn, you have resistance to lightning damage. Additionally, when you move during this turn, you leave behind a trail of arcing surgest of electricity when you move. Each 5-foot square area you move through becomes charged when you leave that space, and remains charged until the start of your next turn.",
-				"Creatures that enter a charged area for the first time on a turn or that starts its turn there must succeed on a Constitution saving throw or take {@dice 1d6} lightning damage, and it can't take reactions until the start of its next turn.",
-				"This flare's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"Ошеломляющий танец, переполняющий статическую энергию поблизости. До начала вашего следующего хода у вас есть сопротивление урону электричеством. Кроме того, когда вы перемещаетесь в этот ход, вы оставляете за собой след из электрических дуг. Каждая область 5 на 5 футов, через которую вы проходите, становится заряженной, когда вы покидаете это пространство, и остаётся заряженной до начала вашего следующего хода.",
+				"Существа, впервые за ход входящие в заряженную область или начинающие там свой ход, должны преуспеть в спасброске Телосложения, иначе получат {@dice 1d6} урона электричеством и не смогут совершать реакции до начала своего следующего хода.",
+				"Урон этой вспышки увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@dice 2d6}), 11-го уровня ({@dice 3d6}) и 17-го уровня ({@dice 4d6})."
 			]
 		},
 		{
-			"name": "Enrapturing Avant",
+			"name": "Увлекающая прелюдия",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Choose a creature within 30 feet of you that can see you. The creature has disadvantage on any saving throws it makes against being {@condition charmed} or {@condition frightened} until the end of your next turn."
+				"Выберите существо в пределах 30 футов от вас, которое вас видит. Существо совершает с помехой все спасброски против состояний {@condition charmed} или {@condition frightened} до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Ensorcelling Turn",
+			"name": "Околдовывающий поворот",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Developed amongst eldritch societies, this dance is a ritual that aids in the application of mystic marks. When you perform this flare, you can target a creature within 30 feet of you that can see you after you move. If that creature has the Mystic Mark feature, it can use its Aegis or Enspell action as a reaction, expending a use as detailed in the feature."
+				"Рождённый в тайных обществах, этот танец — ритуал, помогающий накладывать мистические метки. Исполняя эту вспышку, вы можете после перемещения выбрать целью существо в пределах 30 футов от вас, которое вас видит. Если у этого существа есть умение «Мистическая метка», оно может в качестве реакции использовать своё действие «Эгида» или «Заклятие», потратив использование, как указано в умении."
 			]
 		},
 		{
-			"name": "Fallaway Reverse",
+			"name": "Обратный фоллэвей",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Until the start of your next turn, any creature that misses you with a melee attack falls {@condition prone}."
+				"До начала вашего следующего хода любое существо, промахивающееся по вам рукопашной атакой, падает {@condition prone}."
 			]
 		},
 		{
-			"name": "Goading Glissade",
+			"name": "Дразнящее скольжение",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"This infuriating flare distracts those that would dare aggress against you. For the rest of the turn, any enemy you move within 5 feet of must make a Wisdom saving throw. On a failure, a creature has disadvantage on attack roll made against creatures other than you until the start of your next turn."
+				"Эта вызывающая ярость вспышка отвлекает тех, кто осмелится пойти против вас. До конца хода любой враг, в пределах 5 футов от которого вы перемещаетесь, должен совершить спасбросок Мудрости. При провале существо совершает с помехой броски атаки по существам, кроме вас, до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Hedonistic Revel",
+			"name": "Гедонистическая гульба",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
@@ -2053,112 +2053,112 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "Choreo of the Sylvan Mirth",
+						"entry": "Хореография лесного веселья",
 						"entrySummary": "Sylvan Mirth"
 					}
 				}
 			],
 			"entries": [
-				"While performing this flare, you choose one of the following magical effects: a charming melody, a frightening strain, or a gentle lullaby. You then choose one creature within 60 feet of you that can see or hear your performance. The chosen creature must succeed on a Wisdom saving throw or be affected as described below. Fey and creatures that can't be {@condition charmed} cannot be affected by this flare.",
-				"An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this flare for the next 24 hours.",
+				"Исполняя эту вспышку, вы выбираете один из следующих магических эффектов: чарующая мелодия, пугающий напев или нежная колыбельная. Затем вы выбираете одно существо в пределах 60 футов от вас, которое видит или слышит ваше выступление. Выбранное существо должно преуспеть в спасброске Мудрости, иначе на него подействует описанное ниже. Феи и существа, которых нельзя {@condition charmed}, не могут быть подвергнуты этой вспышке.",
+				"Подвергшееся воздействию существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа успешен или эффект для него оканчивается, существо получает иммунитет к этой вспышке на следующие 24 часа.",
 				{
-					"name": "Charming Melody",
+					"name": "Очаровывающая мелодия",
 					"type": "entries",
 					"entries": [
-						"It is {@condition charmed} by you for 1 minute, or until you or any of your companions harm it."
+						"Оно {@condition charmed} вами в течение 1 минуты или пока вы или кто-либо из ваших спутников не причинит ему вред."
 					]
 				},
 				{
-					"name": "Frightening Cacophony",
+					"name": "Пугающая какофония",
 					"type": "entries",
 					"entries": [
-						"It is {@condition frightened} for 1 minute."
+						"Оно {@condition frightened} в течение 1 минуты."
 					]
 				},
 				{
-					"name": "Gentle Lullaby",
+					"name": "Нежная колыбельная",
 					"type": "entries",
 					"entries": [
-						"t falls asleep and is {@condition unconscious} for 1 minute, or until it takes damage or if someone takes an action to shake it awake."
+						"оно засыпает и становится {@condition unconscious} на 1 минуту или пока не получит урон или кто-то действием не потрясёт его, чтобы разбудить."
 					]
 				}
 			]
 		},
 		{
-			"name": "Holistic Impetus",
+			"name": "Целостный порыв",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Quickening a creature's natural healing, you spend one of your Hit Dice to allow any creatures within 5 feet of you that can see you to use their reaction to spend and roll one of their Hit Dice. Any creature that spends a Hit Die regains an amount of hit points equal to the result of the roll. If your hit points are fully restored and any hit points remain, the remainder is instead given to you as temporary hit points."
+				"Ускоряя естественное исцеление существа, вы тратите одну из своих Костей Хитов, чтобы позволить любым существам в пределах 5 футов от вас, которые вас видят, использовать свою реакцию, чтобы потратить и бросить одну из их Костей Хитов. Любое существо, потратившее Кость Хитов, восстанавливает количество хитов, равное результату броска. Если ваши хиты восстановлены полностью и остались лишние, остаток вместо этого даётся вам как временные хиты."
 			]
 		},
 		{
-			"name": "Interception",
+			"name": "Перехват",
 			"source": "TPDanc",
 			"featureType": [
 				"FS:D"
 			],
 			"entries": [
-				"When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by {@dice 1d10} + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction."
+				"Когда существо, которое вы можете видеть, попадает атакой по цели в пределах 5 футов от вас, кроме вас, вы можете использовать свою реакцию, чтобы уменьшить получаемый целью урон на {@dice 1d10} + ваш бонус мастерства (минимум 0 урона). Чтобы использовать эту реакцию, вы должны владеть щитом или простым либо воинским оружием."
 			]
 		},
 		{
-			"name": "Kamae Kabuki",
+			"name": "Камаэ-кабуки",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"A display of supreme balance and harmony inspired by the sacred bushido code. Any ally that sees you give this performance that has either the Kamae or {@subclassFeature Fighting Spirit|Fighter|PHB|Samurai|XGE|3} features can use one of these features as a reaction to you performing this flare."
+				"Проявление высшего равновесия и гармонии, вдохновлённое священным кодексом бусидо. Любой союзник, который видит, как вы исполняете этот номер и у которого есть умение «Камаэ» или {@subclassFeature Fighting Spirit|Fighter|PHB|Samurai|XGE|3}, может использовать одно из этих умений в качестве реакции на исполнение вами этой вспышки."
 			]
 		},
 		{
-			"name": "Ki Eclecticism",
+			"name": "Эклектика ки",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"A sacred dance of martial artists, which aligns oneself with the mystical energy of ki. When you perform this flare, any creature with the {@classFeature Ki|Monk|PHB|2} feature that sees your performance can use its reaction to spend one ki point and move up to a number of feet equal to its {@classFeature Unarmored Movement|Monk|PHB|2} bonus. This movement doesn't provoke opportunity attacks.",
-				"Alternatively, if a creature that sees you give this performance has the {@subclassFeature Fighting Spirit|Fighter|PHB|Samurai|XGE|3} feature, it can use that feature as a reaction to you performing this flare."
+				"Священный танец воинов боевых искусств, приводящий в согласие с мистической энергией ки. Исполняя эту вспышку, любое существо с умением {@classFeature Ki|Monk|PHB|2}, которое видит ваше выступление, может использовать свою реакцию, чтобы потратить одно очко ки и переместиться на количество футов, равное его бонусу от {@classFeature Unarmored Movement|Monk|PHB|2}. Это перемещение не провоцирует атаки.",
+				"Или, если существо, видящее, как вы исполняете этот номер, обладает умением {@subclassFeature Fighting Spirit|Fighter|PHB|Samurai|XGE|3}, оно может использовать это умение в качестве реакции на исполнение вами этой вспышки."
 			]
 		},
 		{
-			"name": "Mana Majesticka",
+			"name": "Мана мажестик",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Drawing forth the mana inherent to sculptors, you ease the burden of their shaping. A sculptor can use their Mana Shaper feature as a reaction to seeing you perform this flare."
+				"Извлекая ману, присущую скульпторам, вы облегчаете им бремя формовки. Скульптор может в качестве реакции на то, что видит исполнение вами этой вспышки, использовать своё умение «Формирователь маны»."
 			]
 		},
 		{
-			"name": "Mesmerizing Twist",
+			"name": "Гипнотизирующий твист",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"An enchanting dance of the fey that befuddles the minds of your audience. Upon performing the flare, you can force a creature within 30 feet of you that can see you to make a Wisdom saving throw. On a failure, the creature is confused as per the effects listed in the {@spell confusion} spell until the start of your next turn."
+				"Чарующий танец фей, затуманивающий разум вашей публики. Исполняя вспышку, вы можете заставить существо в пределах 30 футов от вас, которое вас видит, совершить спасбросок Мудрости. При провале существо сбито с толку, как указано в эффектах заклинания {@spell confusion}, до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Moonwalk",
+			"name": "Лунная походка",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You walk backwards in a straight line up to 30 feet, illuminating the area you move through with silvery moonlight. Each 5-foot square you move through remains illuminated until the start of your next turn, shedding dim moonlight out to 5 feet.",
-				"Creatures that enter the area for the first time on a turn or that starts its turn there takes {@dice 1d6} radiant damage. A shapechanger instantly reverts to its original form and can't assume a different form until it leaves the area.",
-				"This flare's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"Вы идёте спиной вперёд по прямой на расстояние до 30 футов, освещая область, через которую проходите, серебристым лунным светом. Каждый квадрат 5 на 5 футов, через который вы проходите, остаётся освещённым до начала вашего следующего хода, испуская тусклый лунный свет в пределах до 5 футов.",
+				"Существа, впервые за ход входящие в область или начинающие там свой ход, получают {@dice 1d6} урона излучением. Оборотень мгновенно возвращается к своему исходному облику и не может принять другую форму, пока не покинет область.",
+				"Урон этой вспышки увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@dice 2d6}), 11-го уровня ({@dice 3d6}) и 17-го уровня ({@dice 4d6})."
 			]
 		},
 		{
-			"name": "Mosh",
+			"name": "Мош",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
@@ -2166,39 +2166,39 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "Choreo of the Thrashing Pit",
+						"entry": "Хореография толчеи",
 						"entrySummary": "Thrashing Pit"
 					}
 				}
 			],
 			"entries": [
-				"You can target a creature within your reach and try to {@action shove} it or help it stand up if it's {@condition prone}.",
-				"If you choose to {@action shove} it and win the contest, you can also make an unarmed strike against a creature within your reach before the {@action shove}.",
-				"If you choose to help it stand up, it gains advantage on the next attack roll or skill check it makes before the start of your next turn."
+				"Вы можете выбрать целью существо в пределах вашей досягаемости и попытаться {@action shove} его или помочь ему встать, если оно {@condition prone}.",
+				"Если вы решите {@action shove} её и выиграете борьбу, вы также можете совершить безоружный удар по существу в пределах вашей досягаемости до {@action shove}.",
+				"Если вы решите помочь ей встать, она получает преимущество на следующий бросок атаки или проверку навыка, которую совершит до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Protection",
+			"name": "Покровительство",
 			"source": "TPDanc",
 			"featureType": [
 				"FS:D"
 			],
 			"entries": [
-				"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+				"Когда существо, которое вы видите, атакует цель, не являющуюся вами и находящуюся в пределах 5 футов от вас, вы можете использовать свою реакцию, чтобы наложить помеху на бросок атаки. Вы должны держать щит."
 			]
 		},
 		{
-			"name": "Quick Change",
+			"name": "Быстрое переодевание",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You instantly change out of and into any equipment you are proficient with in your inventory."
+				"Вы мгновенно переодеваетесь из любого снаряжения, которым владеете в своём инвентаре, в любое другое."
 			]
 		},
 		{
-			"name": "Rallying Stomp",
+			"name": "Воодушевляющий топот",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
@@ -2206,66 +2206,66 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "Choreo of the Rallying Harbinger",
+						"entry": "Хореография воодушевляющего предвестника",
 						"entrySummary": "Rallying Harbinger"
 					}
 				}
 			],
 			"entries": [
-				"You remain in place until the start of your next turn while you perform this physical show of force. While you perform this flare, you cause the following effects:",
+				"Пока вы исполняете этот физический показ силы, вы остаётесь на месте до начала вашего следующего хода. Пока вы исполняете эту вспышку, вы вызываете следующие эффекты:",
 				{
 					"type": "list",
 					"items": [
-						"While an ally is within 15 feet of you, the roll required for their weapon attacks to score a critical hit is reduced.",
-						"You reduce any nonmagical bludgeoning, piercing, and slashing damage you take."
+						"Пока союзник находится в пределах 15 футов от вас, результат, необходимый для критического попадания его атак оружием, снижается.",
+						"Вы уменьшаете получаемый вами немагический дробящий, колющий и рубящий урон."
 					]
 				},
-				"The reduction listed for both of these benefits is equal to half of your proficiency bonus (round down)."
+				"Уменьшение, указанное для обоих этих преимуществ, равно половине вашего бонуса мастерства (округление вниз)."
 			]
 		},
 		{
-			"name": "Ringside Swagger",
+			"name": "Уверенность ринг-сайда",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"A flare born on the hard streets and back alleys, dancers that perform this flare are cheerleaders and hype-men to brawlers everywhere. When you perform this flare, you can target a creature within 30 feet of you that can see you after you move. If that creature has the Moxie feature, it can use an action that requires moxie points as a reaction, expending moxie points as detailed in the feature."
+				"Вспышка, рождённая на суровых улицах и в тёмных переулках; исполняющие её танцоры — болельщики и заводилы для драчунов всего мира. Исполняя эту вспышку, вы можете после перемещения выбрать целью существо в пределах 30 футов от вас, которое вас видит. Если у этого существа есть умение «Кураж», оно может в качестве реакции использовать действие, требующее очков куража, потратив очки куража, как указано в умении."
 			]
 		},
 		{
-			"name": "Rising Windmill",
+			"name": "Восходящая мельница",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You perform a devastating spin, which you can finish off with a deft leap. All other creatures within 5 feet of you when you spin must succeed on a Dexterity saving throw or take {@dice 1d6} bludgeoning damage. You can then leap up to an unoccupied area of your choice within half your Speed, which uses your Speed and ends the flare.",
-				"This flare's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"Вы исполняете сокрушительное вращение, которое можете завершить ловким прыжком. Все другие существа в пределах 5 футов от вас в момент вращения должны преуспеть в спасброске Ловкости, иначе получат {@dice 1d6} дробящего урона. Затем вы можете прыгнуть в любое свободное пространство на свой выбор в пределах половины своей скорости, что использует вашу скорость и оканчивает вспышку.",
+				"Урон этой вспышки увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@dice 2d6}), 11-го уровня ({@dice 3d6}) и 17-го уровня ({@dice 4d6})."
 			]
 		},
 		{
-			"name": "Saber Dance",
+			"name": "Танец с саблей",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"As a part of this performance, you make an attack with a weapon that has the finesse property. If you score a critical hit with this attack, you can make an additional weapon attack, as part of the same action."
+				"В рамках этого номера вы совершаете атаку оружием, обладающим свойством «фехтовальное». Если вы наносите этой атакой критическое попадание, вы можете в рамках того же действия совершить дополнительную атаку оружием."
 			]
 		},
 		{
-			"name": "Sensational Sway",
+			"name": "Сенсационное покачивание",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"The performance of this inspirational dance acts as you taking the {@action Help} action, doing so allows you to aid an ally in attacking a creature if the target of the attack is within 30 feet of you while you move and if the ally can see you."
+				"Исполнение этого воодушевляющего танца действует как совершение вами действия {@action Help}, что позволяет вам помочь союзнику в атаке по существу, если цель атаки находится в пределах 30 футов от вас, пока вы перемещаетесь, и если союзник вас видит."
 			]
 		},
 		{
-			"name": "Soma Fonta Arcana",
+			"name": "Сома фонта аркана",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
@@ -2273,18 +2273,18 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "Choreo of the Weave Teaser",
+						"entry": "Хореография искусителя Плетения",
 						"entrySummary": "Weave Teaser"
 					}
 				}
 			],
 			"entries": [
-				"You use the {@action Cast a Spell} action to cast a spell with a casting time of 1 action. The remnants of your spell can be teased, allowing you to act as a conduit for your allies' magic. Until the start of your next turn, your allies within 60 feet of you that can see you can cast spells as if they had been cast from your position.",
-				"Once you perform this flare, you can't do so again until the start of your next turn."
+				"Вы используете действие {@action Cast a Spell}, чтобы сотворить заклинание со временем сотворения 1 действие. Остатки вашего заклинания можно использовать, что позволяет вам служить проводником для магии союзников. До начала вашего следующего хода ваши союзники в пределах 60 футов от вас, которые вас видят, могут сотворять заклинания так, как если бы они были сотворены из вашей позиции.",
+				"Исполнив эту вспышку, вы не можете применить её снова до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Star Struck",
+			"name": "Звёздный удар",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
@@ -2292,59 +2292,59 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "Choreo of the Idolized Superstar",
+						"entry": "Хореография обожествлённой суперзвезды",
 						"entrySummary": "Idolized Superstar"
 					}
 				}
 			],
 			"entries": [
-				"You sing one of your big hits (or possibly one you were inspired to sing from another realm) while performing this flare. Choose a creature within 60 feet of you that can hear and see you. You make a Charisma ({@skill Performance}) check contested by a Wisdom saving throw by the chosen creature.",
-				"If you win the contest, the target becomes {@condition charmed} by you until the start of your next turn. While {@condition charmed} this way, it is being effectively {@condition blinded} when trying to observe anything other than you for the duration, or until you become {@condition incapacitated}.",
-				"If you lose the contest and when the effect ends, the target can't be {@condition charmed} by that person with this flare for 24 hours. For example, if you change your identity with {@subclassFeature Stage Name|Dancer|TPDanc|Idolized Superstar|TPDanc|3} after having failed to charm a target, the target could potentially be {@condition charmed} by this flare again."
+				"Исполняя эту вспышку, вы поёте один из своих главных хитов (или, возможно, тот, что вас вдохновили спеть из другого мира). Выберите существо в пределах 60 футов от вас, которое вас слышит и видит. Вы совершаете проверку Харизмы ({@skill Performance}), которой противостоит спасбросок Мудрости выбранного существа.",
+				"Если вы выигрываете борьбу, цель становится {@condition charmed} вами до начала вашего следующего хода. Пока она {@condition charmed} таким образом, она фактически {@condition blinded}, когда пытается наблюдать что-либо, кроме вас, в течение этого времени или пока вы не станете {@condition incapacitated}.",
+				"Если вы проигрываете борьбу и когда эффект оканчивается, цель не может быть {@condition charmed} этим человеком с помощью этой вспышки в течение 24 часов. Например, если вы меняете свою личность с помощью {@subclassFeature Сценическое имя|Dancer|TPDanc|Обожествлённая суперзвезда|TPDanc|3} после неудачной попытки очаровать цель, цель может снова быть {@condition charmed} этой вспышкой."
 			]
 		},
 		{
-			"name": "Succor Chassé",
+			"name": "Спасительное шассé",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You target a creature within 30 feet of you that can see you. If the creature is under the effects that a successful saving throw can end, the creature can immediately attempt the saving throw to end the effect."
+				"Вы выбираете целью существо в пределах 30 футов от вас, которое вас видит. Если на существо действуют эффекты, которые может окончить успешный спасбросок, существо может немедленно попытаться совершить этот спасбросок, чтобы окончить эффект."
 			]
 		},
 		{
-			"name": "Syllabus of Mimicry",
+			"name": "Программа подражания",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You open yourself up to suggestion through the somatic gestures of spells into a dance of mimicry, allowing you to bear the burden of their focus. If a willing creature within 60 feet of you performs the somatic components to cast a spell of 5th-level or lower before the start of your next turn, you can use your reaction to maintain concentration on the spell instead of the caster."
+				"Вы открываете себя внушению через соматические жесты заклинаний, превращая их в танец подражания, что позволяет вам нести бремя их сосредоточения. Если согласное существо в пределах 60 футов от вас исполняет соматические компоненты для сотворения заклинания 5-го уровня или ниже до начала вашего следующего хода, вы можете использовать свою реакцию, чтобы поддерживать концентрацию на заклинании вместо заклинателя."
 			]
 		},
 		{
-			"name": "Tango Flame",
+			"name": "Пламя танго",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Choose a creature within 15 feet of you. While the chosen creature is within 15 feet of you and either you or the creature can see the other, you both have resistance to fire damage and each of your attacks deal an extra {@dice 1d4} fire damage on a hit. These benefits last until the start of your next turn."
+				"Выберите существо в пределах 15 футов от вас. Пока выбранное существо находится в пределах 15 футов от вас и либо вы, либо существо можете видеть друг друга, вы оба обладаете сопротивлением урону огнём, и каждая ваша атака при попадании наносит дополнительно {@dice 1d4} урона огнём. Эти преимущества длятся до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "The Hustle",
+			"name": "Хастл",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"You target a creature within 30 feet of you that can see you. Until the start of your next turn, the creature gains an additional 10 feet of speed and it can use a bonus action on its turn to take the {@action Dash} action."
+				"Вы выбираете целью существо в пределах 30 футов от вас, которое вас видит. До начала вашего следующего хода существо получает дополнительные 10 футов скорости и может использовать бонусное действие в свой ход, чтобы совершить действие {@action Dash}."
 			]
 		},
 		{
-			"name": "Thriller",
+			"name": "Триллер",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
@@ -2352,71 +2352,71 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "Choreo of the Danse Macabre",
+						"entry": "Хореография пляски смерти",
 						"entrySummary": "Danse Macabre"
 					}
 				}
 			],
 			"entries": [
-				"This flare creates an undead dance partner. Choose a pile of bones or a corpse of a Medium or Small humanoid within 10 feet of you. This flare raises it as an undead creature, becoming a {@creature skeleton} if you chose bones or a {@creature zombie} if you chose a corpse.",
-				"The raised undead only has a number of hit points equal to your Dancer level. You control any undead raised this way as if by the {@spell animate dead} spell for 24 hours, after which they fall lifelessly. You can also dismiss any undead animated this way as an action.",
-				"You can have one undead animated with this flare. Using this flare to animate undead beyond this number causes the previously animated undead to fall lifelessly."
+				"Эта вспышка создаёт партнёра по танцу из нежити. Выберите груду костей или труп гуманоида среднего или малого размера в пределах 10 футов от вас. Эта вспышка поднимает его как существо-нежить: {@creature skeleton}, если вы выбрали кости, или {@creature zombie}, если выбрали труп.",
+				"У поднятой нежити хитов ровно столько, сколько равен ваш уровень танцора. Вы контролируете любую нежить, поднятую таким образом, как если бы это было заклинание {@spell animate dead}, в течение 24 часов, после чего она безжизненно падает. Вы также можете отпустить любую нежить, оживлённую таким образом, действием.",
+				"Вы можете иметь одну нежить, оживлённую этой вспышкой. Использование этой вспышки для оживления нежити сверх этого числа заставляет ранее оживлённую нежить безжизненно упасть."
 			]
 		},
 		{
-			"name": "Twist of Misfortune",
+			"name": "Твист несчастья",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Pulling wisps of curse energy as ribbons around you, you extend the malignant influence of an ally bearing a curse. If you can see your ally using their Jinx feature while within 30 feet of you, you can perform this flare and touch a creature after you move, subjecting that creature to the effect as well."
+				"Натягивая нити проклятой энергии лентами вокруг себя, вы расширяете злотворное влияние союзника, несущего проклятие. Если вы можете видеть, как ваш союзник использует своё умение «Порча», находясь в пределах 30 футов от вас, вы можете исполнить эту вспышку и после перемещения коснуться существа, подвергая это существо тому же эффекту."
 			]
 		},
 		{
-			"name": "Two-Weapon Fighting",
+			"name": "Бой двумя оружиями",
 			"source": "TPDanc",
 			"featureType": [
 				"FS:D"
 			],
 			"entries": [
-				"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+				"Когда вы сражаетесь в бою двумя руками, вы можете добавить свой модификатор характеристик к урону второй атаки."
 			]
 		},
 		{
-			"name": "Uncorking the Bronco",
+			"name": "Высвобождение бронко",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"A dance of the wild frontier that shores up resolve, which evokes the storied power of grit. When you perform this flare, you can target a creature within 30 feet of you that can see you after you move. If that creature has a class feature that uses grit points and currently has fewer grit points than its maximum, you give them 1 grit point."
+				"Танец дикого фронтира, укрепляющий решимость и пробуждающий легендарную силу удали. Исполняя эту вспышку, вы можете после перемещения выбрать целью существо в пределах 30 футов от вас, которое вас видит. Если у этого существа есть классовое умение, использующее очки удали, и очков удали у него меньше максимума, вы даёте ему 1 очко удали."
 			]
 		},
 		{
-			"name": "Vision of the Muse",
+			"name": "Видение музы",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"Until the start of your next turn, if you or another creature gains a {@classFeature Bardic Inspiration|Bard|PHB|1} die, you can use your reaction to give another creature that can see you within 60 feet a {@classFeature Bardic Inspiration|Bard|PHB|1} die of the same size. Doing so does not subtract from the bard's uses of {@classFeature Bardic Inspiration|Bard|PHB|1}."
+				"До начала вашего следующего хода, если вы или другое существо получаете кость {@classFeature Bardic Inspiration|Bard|PHB|1}, вы можете использовать свою реакцию, чтобы дать другому существу, которое может вас видеть в пределах 60 футов, кость {@classFeature Bardic Inspiration|Bard|PHB|1} того же размера. Это не уменьшает число использований {@classFeature Bardic Inspiration|Bard|PHB|1} у барда."
 			]
 		},
 		{
-			"name": "Wild Passion",
+			"name": "Дикая страсть",
 			"source": "TPDanc",
 			"featureType": [
 				"DF"
 			],
 			"entries": [
-				"This flare inflames primal anger and fury. When you perform this flare, you can target a creature within 30 feet of you that can see you. If that creature has the {@classFeature Rage|Barbarian|PHB|1} or {@classFeature Wild Shape|Druid|PHB|2} features, it can use the feature as a reaction, expending a use as detailed in the feature."
+				"Эта вспышка разжигает первобытный гнев и ярость. Исполняя эту вспышку, вы можете выбрать целью существо в пределах 30 футов от вас, которое вас видит. Если у этого существа есть умения {@classFeature Rage|Barbarian|PHB|1} или {@classFeature Wild Shape|Druid|PHB|2}, оно может использовать умение в качестве реакции, потратив использование, как указано в умении."
 			]
 		}
 	],
 	"feat": [
 		{
-			"name": "Body Linguist",
+			"name": "Знаток языка тела",
 			"source": "TPDanc",
 			"prerequisite": [
 				{
@@ -2435,18 +2435,18 @@
 				}
 			],
 			"entries": [
-				"You can interpret the intentions of others by reading their posture and mannerisms, granting you the following benefits:",
+				"Вы можете толковать намерения других, читая их осанку и манеры, что даёт вам следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You have advantage on Wisdom ({@skill Insight}) checks when trying to determine a creature's attitude as either friendly, indifferent, or hostile if you can see it.",
-						"You can use a bonus action to unerringly convey a message silently using only physical gestures to other creatures that can see you. This message must be a simple concept, emotion, or one-word command."
+						"Вы совершаете с преимуществом проверки Мудрости ({@skill Insight}), пытаясь определить отношение существа как дружественное, безразличное или враждебное, если вы можете его видеть.",
+						"Вы можете бонусным действием безошибочно передать послание молча, используя только физические жесты, другим существам, которые вас видят. Это послание должно быть простым понятием, эмоцией или командой из одного слова."
 					]
 				}
 			]
 		},
 		{
-			"name": "Bravo's Apprentice",
+			"name": "Ученик браво",
 			"source": "TPDanc",
 			"prerequisite": [
 				{
@@ -2454,12 +2454,12 @@
 				}
 			],
 			"entries": [
-				"You have studied the art of dance and developed martial techniques to convey this artistry. As a result, you learn one {@filter dance flare|optionalfeatures|feature type=DF|source=TPDanc} option of your choice from the dancer class. If the flare has a prerequisite of any kind, you can't choose it.",
-				"Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's {@filter dance flare|optionalfeatures|feature type=DF|source=TPDanc} with another one from the dancer class that you don't have."
+				"Вы изучали искусство танца и разработали боевые техники для передачи этого мастерства. В результате вы изучаете один вариант {@filter dance flare|optionalfeatures|feature type=DF|source=TPDanc} на ваш выбор из класса танцора. Если у вспышки есть какие-либо требования, вы не можете её выбрать.",
+				"Всякий раз, достигая уровня, дарующего умение «Увеличение характеристик», вы можете заменить {@filter dance flare|optionalfeatures|feature type=DF|source=TPDanc} этой черты на другую из класса танцора, которой у вас нет."
 			]
 		},
 		{
-			"name": "Fencer",
+			"name": "Фехтовальщик",
 			"source": "TPDanc",
 			"prerequisite": [
 				{
@@ -2467,18 +2467,18 @@
 				}
 			],
 			"entries": [
-				"Deft at defensive swordplay, you gain the following benefits:",
+				"Искусный в оборонительном фехтовании, вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You are proficient with {@skill Acrobatics} and can use a bonus action on your turn to make an {@skill Acrobatics} check.",
-						"When a creature you can see makes a weapon attack against you while you are wielding a {@item rapier|PHB}, {@item scimitar|PHB}, {@item shortsword|PHB}, or {@item longsword|PHB} and no other weapons, you can use your reaction to make an attack roll with your weapon. If your attack roll is higher than the triggering attack, that attack misses and your attack hits the creature if it is within your reach."
+						"Вы владеете навыком {@skill Acrobatics} и можете бонусным действием в свой ход совершить проверку {@skill Acrobatics}.",
+						"Когда существо, которое вы можете видеть, совершает атаку оружием по вам, пока вы владеете {@item rapier|PHB}, {@item scimitar|PHB}, {@item shortsword|PHB} или {@item longsword|PHB} и никаким другим оружием, вы можете использовать свою реакцию, чтобы совершить бросок атаки своим оружием. Если ваш бросок атаки выше спровоцировавшей атаки, та атака промахивается, а ваша атака попадает по существу, если оно в пределах вашей досягаемости."
 					]
 				}
 			]
 		},
 		{
-			"name": "Singer",
+			"name": "Певец",
 			"source": "TPDanc",
 			"ability": [
 				{
@@ -2492,11 +2492,11 @@
 				}
 			],
 			"entries": [
-				"You are professionally trained or gifted as a vocalist, granting you the following benefits:",
+				"Вы профессионально обучены или одарены как вокалист, что даёт вам следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You are proficient with your voice, which you can use to make tools checks as a musical instrument."
+						"Вы владеете своим голосом, который можете использовать для проверок инструментов как музыкальный инструмент."
 					]
 				}
 			]
@@ -2504,7 +2504,7 @@
 	],
 	"spell": [
 		{
-			"name": "Corpselight",
+			"name": "Свет мертвеца",
 			"source": "TPDanc",
 			"level": 0,
 			"school": "N",
@@ -2534,9 +2534,9 @@
 				}
 			],
 			"entries": [
-				"You target either the corpse of a creature or an undead within range and illuminate it with a faint radiance of corpselight. This spell can affect multiple targets depending on their size. one Medium-sized corpse or Undead, two Small corpses or undead, or four Tiny corpses or undead. The spell ends if you cast it again or dismiss it as an action.",
-				"The target illuminates, shedding dim light in a 20-foot radius. If you have any corpses or undead illuminated with this spell, you can use your action to extinguish one of their corpselights, forcing each creature within 10 feet of the corpse or undead to succeed on a Constitution saving throw or take {@dice 1d4} necrotic damage and {@dice 1d4} cold damage.",
-				"This spell's necrotic and cold damage each increase by {@dice 1d4} when you reach 5th level ({@dice 2d4} necrotic, {@dice 2d4} cold), 11th level ({@dice 3d4} necrotic, {@dice 3d4} cold), and 17th level ({@dice 4d4} necrotic, {@dice 4d4} cold)."
+				"Вы выбираете целью либо труп существа, либо нежить в пределах дистанции и освещаете это слабым сиянием света мертвеца. Это заклинание может подействовать на несколько целей в зависимости от их размера: на один труп или нежить среднего размера, на два трупа или нежити малого размера или на четыре трупа или нежити крошечного размера. Заклинание оканчивается, если вы сотворите его снова или развеете действием.",
+				"Цель освещается, испуская тусклый свет радиусом 20 футов. Если у вас есть трупы или нежить, освещённые этим заклинанием, вы можете действием погасить один из их огней мертвеца, заставляя каждое существо в пределах 10 футов от трупа или нежити преуспеть в спасброске Телосложения, иначе получить {@dice 1d4} некротического урона и {@dice 1d4} урона холодом.",
+				"Некротический урон и урон холодом этого заклинания увеличиваются на {@dice 1d4}, когда вы достигаете 5-го уровня ({@dice 2d4} некротического урона, {@dice 2d4} урона холодом), 11-го уровня ({@dice 3d4} некротического урона, {@dice 3d4} урона холодом) и 17-го уровня ({@dice 4d4} некротического урона, {@dice 4d4} урона холодом)."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2552,12 +2552,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Dancer",
+							"name": "Танцор",
 							"source": "TPDanc"
 						},
 						"subclass": {
-							"name": "Danse Macabre",
-							"shortName": "Danse Macabre",
+							"name": "Пляска смерти",
+							"shortName": "Пляска смерти",
 							"source": "TPDanc"
 						}
 					}
@@ -2582,7 +2582,7 @@
 	],
 	"monster": [
 		{
-			"name": "Bravo",
+			"name": "Браво",
 			"source": "TPDanc",
 			"size": [
 				"S",
@@ -2635,43 +2635,43 @@
 			"pbNote": "+3",
 			"trait": [
 				{
-					"name": "Break a Leg",
+					"name": "Ни пуха ни пера",
 					"entries": [
-						"The dancer adds its proficiency bonus to its initiative rolls and can use a reaction to rolling initiative to grant an ally within 30 feet of it advantage on the first attack roll or ability check it makes before the end of its first turn."
+						"Танцор добавляет свой бонус мастерства к броскам инициативы и может использовать реакцию на бросок инициативы, чтобы дать союзнику в пределах 30 футов от него преимущество на первый бросок атаки или проверку характеристики, которую тот совершит до конца своего первого хода."
 					]
 				},
 				{
-					"name": "Dance Flares",
+					"name": "Танцевальные вспышки",
 					"entries": [
-						"The dancer knows the following flares (Flare save {@dc 15}): {@optfeature Artful Dodge|TPDanc}, {@optfeature Bolstering Bolero|TPDanc}, {@optfeature Fallaway Reverse|TPDanc}, {@optfeature Rising Windmill|TPDanc}, {@optfeature Saber Dance|TPDanc}, {@optfeature Sensational Sway|TPDanc}, {@optfeature Tango Flame|TPDanc}"
+						"Танцор знает следующие вспышки (Сл вспышки {@dc 15}): {@optfeature Искусное уклонение|TPDanc}, {@optfeature Поддерживающее болеро|TPDanc}, {@optfeature Обратный фоллэвей|TPDanc}, {@optfeature Восходящая мельница|TPDanc}, {@optfeature Танец с саблей|TPDanc}, {@optfeature Сенсационное покачивание|TPDanc}, {@optfeature Пламя танго|TPDanc}"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6+4}) slashing damage. This attack scores a critical hit on a roll of 19 or 20 when used with {@optfeature Saber Dance|TPDanc}."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d6+4}) рубящего урона. Эта атака наносит критическое попадание при результате 19 или 20 при использовании с {@optfeature Танец с саблей|TPDanc}."
 					]
 				},
 				{
-					"name": "Step Up",
+					"name": "Шаг вперёд",
 					"entries": [
-						"The dancer grants one of its allies an action, which it must take immediately. It can move up to half its speed before taking this action, and treats it as if it took the action on its turn."
+						"Танцор дарует одному из своих союзников действие, которое тот должен совершить немедленно. Он может переместиться на расстояние до половины своей скорости перед совершением этого действия и считается совершившим его в свой ход."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				}
 			],
@@ -2688,7 +2688,7 @@
 			]
 		},
 		{
-			"name": "Dancer",
+			"name": "Танцор",
 			"source": "TPDanc",
 			"size": [
 				"M",
@@ -2740,29 +2740,29 @@
 			"pbNote": "+2",
 			"trait": [
 				{
-					"name": "Break a Leg",
+					"name": "Ни пуха ни пера",
 					"entries": [
-						"The dancer adds its proficiency bonus to its initiative rolls and can use a reaction to rolling initiative to grant an ally within 30 feet of it advantage on the first attack roll or ability check it makes before the end of its first turn."
+						"Танцор добавляет свой бонус мастерства к броскам инициативы и может использовать реакцию на бросок инициативы, чтобы дать союзнику в пределах 30 футов от него преимущество на первый бросок атаки или проверку характеристики, которую тот совершит до конца своего первого хода."
 					]
 				},
 				{
-					"name": "Dance Flares",
+					"name": "Танцевальные вспышки",
 					"entries": [
-						"The dancer knows the following flares (Flare save {@dc 14}): {@optfeature Artful Dodge|TPDanc}, {@optfeature Electric Slide|TPDanc}, {@optfeature Fallaway Reverse|TPDanc}, {@optfeature Rising Windmill|TPDanc}"
+						"Танцор знает следующие вспышки (Сл вспышки {@dc 14}): {@optfeature Искусное уклонение|TPDanc}, {@optfeature Электрический слайд|TPDanc}, {@optfeature Обратный фоллэвей|TPDanc}, {@optfeature Восходящая мельница|TPDanc}"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				},
 				{
-					"name": "Step Up",
+					"name": "Шаг вперёд",
 					"entries": [
-						"The dancer grants one of its allies an action, which it must take immediately. It can move up to half its speed before taking this action, and treats it as if it took the action on its turn."
+						"Танцор дарует одному из своих союзников действие, которое тот должен совершить немедленно. Он может переместиться на расстояние до половины своей скорости перед совершением этого действия и считается совершившим его в свой ход."
 					]
 				}
 			],
@@ -2772,7 +2772,7 @@
 			]
 		},
 		{
-			"name": "Dancing Blade",
+			"name": "Танцующий клинок",
 			"source": "TPDanc",
 			"summonedByClass": "Dancer|TPDanc",
 			"size": [
@@ -2788,7 +2788,7 @@
 				}
 			],
 			"hp": {
-				"special": "10 + five times your dancer level"
+				"special": "10 + пятикратный ваш уровень танцора"
 			},
 			"speed": {
 				"walk": 0,
@@ -2828,29 +2828,29 @@
 			"pbNote": "equals your bonus",
 			"trait": [
 				{
-					"name": "False Appearance",
+					"name": "Ложная внешность",
 					"entries": [
-						"While the blade remains motionless and isn't flying, it is indistinguishable from its normal form."
+						"Пока клинок неподвижен и не летает, он неотличим от своей обычной формы."
 					]
 				},
 				{
-					"name": "Immutable Form",
+					"name": "Неизменная форма",
 					"entries": [
-						"The item is immune to any spell or effect that would alter its form."
+						"Предмет невосприимчив к любым заклинаниям или эффектам, изменяющим его форму."
 					]
 				},
 				{
-					"name": "Striking Beauty",
+					"name": "Разительная красота",
 					"entries": [
-						"The weapon's attacks count as magical for the purposes of overcoming resistance and immunity."
+						"Атаки оружия считаются магическими для преодоления сопротивления и иммунитета."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Strike",
+					"name": "Удар",
 					"entries": [
-						"{@atk mw} PB plus your DEX mod to hit, reach 5 ft., one target you can see. {@h}{@damage 1d10 + PB} (bludgeoning, piercing, or slashing) damage."
+						"{@atk mw} БМ плюс ваш модификатор ЛОВ к попаданию, досягаемость 5 футов, одна цель, которую вы можете видеть. {@h}{@damage 1d10 + PB} (дробящего, колющего или рубящего типа) урона."
 					]
 				}
 			],
@@ -2867,7 +2867,7 @@
 			]
 		},
 		{
-			"name": "Danse Macabre",
+			"name": "Пляска смерти",
 			"source": "TPDanc",
 			"size": [
 				"S",
@@ -2920,16 +2920,16 @@
 			"pbNote": "+3",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dancer can cast the following spells, using Charisma (spell save {@dc 14}, {@hit 6} to hit):"
+						"Танцор может сотворять следующие заклинания, используя Харизму (Сл спасброска заклинаний {@dc 14}, {@hit 6} к попаданию):"
 					],
 					"spells": {
 						"0": {
 							"spells": [
 								"{@spell chill touch}",
-								"{@spell corpselight|TPDanc}"
+								"{@spell Свет мертвеца|TPDanc}"
 							]
 						}
 					},
@@ -2938,43 +2938,43 @@
 			],
 			"trait": [
 				{
-					"name": "Break a Leg",
+					"name": "Ни пуха ни пера",
 					"entries": [
-						"The dancer adds its proficiency bonus to its initiative rolls and can use a reaction to rolling initiative to grant an ally within 30 feet of it advantage on the first attack roll or ability check it makes before the end of its first turn."
+						"Танцор добавляет свой бонус мастерства к броскам инициативы и может использовать реакцию на бросок инициативы, чтобы дать союзнику в пределах 30 футов от него преимущество на первый бросок атаки или проверку характеристики, которую тот совершит до конца своего первого хода."
 					]
 				},
 				{
-					"name": "Dance Flares",
+					"name": "Танцевальные вспышки",
 					"entries": [
-						"The dancer knows the following flares (Flare save {@dc 15}): {@optfeature Artful Dodge|TPDanc}, {@optfeature Bolstering Bolero|TPDanc}, {@optfeature Enrapturing Avant|TPDanc}, {@optfeature Fallaway Reverse|TPDanc}, {@optfeature Goading Glissade|TPDanc}, {@optfeature Mosh|TPDanc}, {@optfeature Sensational Sway|TPDanc}, {@optfeature Thriller|TPDanc}"
+						"Танцор знает следующие вспышки (Сл вспышки {@dc 15}): {@optfeature Искусное уклонение|TPDanc}, {@optfeature Поддерживающее болеро|TPDanc}, {@optfeature Увлекающая прелюдия|TPDanc}, {@optfeature Обратный фоллэвей|TPDanc}, {@optfeature Дразнящее скольжение|TPDanc}, {@optfeature Мош|TPDanc}, {@optfeature Сенсационное покачивание|TPDanc}, {@optfeature Триллер|TPDanc}"
 					]
 				},
 				{
-					"name": "Grim Fandango",
+					"name": "Мрачный фанданго",
 					"entries": [
-						"Undead being controlled by this dancer gain a +3 bonus to their weapon damage rolls."
+						"Нежить, контролируемая этим танцором, получает +3 к броскам урона оружием."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				},
 				{
-					"name": "Step Up",
+					"name": "Шаг вперёд",
 					"entries": [
-						"The dancer grants one of its allies an action, which it must take immediately. It can move up to half its speed before taking this action, and treats it as if it took the action on its turn."
+						"Танцор дарует одному из своих союзников действие, которое тот должен совершить немедленно. Он может переместиться на расстояние до половины своей скорости перед совершением этого действия и считается совершившим его в свой ход."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				}
 			],
@@ -2991,7 +2991,7 @@
 			]
 		},
 		{
-			"name": "Rallying Harbinger",
+			"name": "Воодушевляющий предвестник",
 			"source": "TPDanc",
 			"size": [
 				"S",
@@ -3045,43 +3045,43 @@
 			"pbNote": "+3",
 			"trait": [
 				{
-					"name": "Break a Leg",
+					"name": "Ни пуха ни пера",
 					"entries": [
-						"The dancer adds its proficiency bonus to its initiative rolls and can use a reaction to rolling initiative to grant an ally within 30 feet of it advantage on the first attack roll or ability check it makes before the end of its first turn."
+						"Танцор добавляет свой бонус мастерства к броскам инициативы и может использовать реакцию на бросок инициативы, чтобы дать союзнику в пределах 30 футов от него преимущество на первый бросок атаки или проверку характеристики, которую тот совершит до конца своего первого хода."
 					]
 				},
 				{
-					"name": "Dance Flares",
+					"name": "Танцевальные вспышки",
 					"entries": [
-						"The dancer knows the following flares (Flare save {@dc 14}): {@optfeature Artful Dodge|TPDanc}, {@optfeature Bolstering Bolero|TPDanc}, {@optfeature Enrapturing Avant|TPDanc}, {@optfeature Fallaway Reverse|TPDanc}, {@optfeature Goading Glissade|TPDanc}, {@optfeature Rallying Stomp|TPDanc}, {@optfeature Sensational Sway|TPDanc}"
+						"Танцор знает следующие вспышки (Сл вспышки {@dc 14}): {@optfeature Искусное уклонение|TPDanc}, {@optfeature Поддерживающее болеро|TPDanc}, {@optfeature Увлекающая прелюдия|TPDanc}, {@optfeature Обратный фоллэвей|TPDanc}, {@optfeature Дразнящее скольжение|TPDanc}, {@optfeature Воодушевляющий топот|TPDanc}, {@optfeature Сенсационное покачивание|TPDanc}"
 					]
 				},
 				{
-					"name": "Call to Arms",
+					"name": "Призыв к оружию",
 					"entries": [
-						"When the dancer uses its Step Up feature, the target can make one additional attack with the given action if it takes the Attack action."
+						"Когда танцор использует своё умение «Шаг вперёд», цель может совершить одну дополнительную атаку в рамках данного действия, если она совершает действие Атака."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				},
 				{
-					"name": "Step Up",
+					"name": "Шаг вперёд",
 					"entries": [
-						"The dancer grants one of its allies an action, which it must take immediately. It can move up to half its speed before taking this action, and treats it as if it took the action on its turn."
+						"Танцор дарует одному из своих союзников действие, которое тот должен совершить немедленно. Он может переместиться на расстояние до половины своей скорости перед совершением этого действия и считается совершившим его в свой ход."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				}
 			],
@@ -3091,7 +3091,7 @@
 			]
 		},
 		{
-			"name": "Thrasher",
+			"name": "Молотильщик",
 			"source": "TPDanc",
 			"size": [
 				"S",
@@ -3149,49 +3149,49 @@
 			"pbNote": "+3",
 			"trait": [
 				{
-					"name": "Break a Leg",
+					"name": "Ни пуха ни пера",
 					"entries": [
-						"The dancer adds its proficiency bonus to its initiative rolls and can use a reaction to rolling initiative to grant an ally within 30 feet of it advantage on the first attack roll or ability check it makes before the end of its first turn."
+						"Танцор добавляет свой бонус мастерства к броскам инициативы и может использовать реакцию на бросок инициативы, чтобы дать союзнику в пределах 30 футов от него преимущество на первый бросок атаки или проверку характеристики, которую тот совершит до конца своего первого хода."
 					]
 				},
 				{
-					"name": "Dance Flares",
+					"name": "Танцевальные вспышки",
 					"entries": [
-						"The dancer knows the following flares (Flare save {@dc 14}): {@optfeature Artful Dodge|TPDanc}, {@optfeature Bolstering Bolero|TPDanc}, {@optfeature Enrapturing Avant|TPDanc}, {@optfeature Fallaway Reverse|TPDanc}, {@optfeature Goading Glissade|TPDanc}, {@optfeature Mosh|TPDanc}, {@optfeature Sensational Sway|TPDanc}"
+						"Танцор знает следующие вспышки (Сл вспышки {@dc 14}): {@optfeature Искусное уклонение|TPDanc}, {@optfeature Поддерживающее болеро|TPDanc}, {@optfeature Увлекающая прелюдия|TPDanc}, {@optfeature Обратный фоллэвей|TPDanc}, {@optfeature Дразнящее скольжение|TPDanc}, {@optfeature Мош|TPDanc}, {@optfeature Сенсационное покачивание|TPDanc}"
 					]
 				},
 				{
-					"name": "Disrestpect Your Surroundings",
+					"name": "Не уважай своё окружение",
 					"entries": [
-						"When the dancer uses Step Up or the Help action, the dancer and the ally it targets have advantage on Strength checks and saving throws, and deal double damage to objects and structures until the end of the dancer's next turn."
+						"Когда танцор использует Шаг вперёд или действие Помощь, танцор и его цель получают преимущество на проверки Силы и спасброски и наносят двойной урон предметам и строениям до конца следующего хода танцора."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				},
 				{
-					"name": "Unarmed Strike",
+					"name": "Удар без оружия",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d4 + 4}) дробящего урона."
 					]
 				},
 				{
-					"name": "Step Up",
+					"name": "Шаг вперёд",
 					"entries": [
-						"The dancer grants one of its allies an action, which it must take immediately. It can move up to half its speed before taking this action, and treats it as if it took the action on its turn."
+						"Танцор дарует одному из своих союзников действие, которое тот должен совершить немедленно. Он может переместиться на расстояние до половины своей скорости перед совершением этого действия и считается совершившим его в свой ход."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Dance",
+					"name": "Танец",
 					"entries": [
-						"The dancer performs one of the dance flares it knows."
+						"Танцор исполняет одну из известных ему танцевальных вспышек."
 					]
 				}
 			],

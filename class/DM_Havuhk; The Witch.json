@@ -29,7 +29,7 @@
 	},
 	"class": [
 		{
-			"name": "Witch",
+			"name": "Ведьма",
 			"source": "DMHavuhkWitch",
 			"page": 1,
 			"hd": {
@@ -241,7 +241,7 @@
 			],
 			"optionalfeatureProgression": [
 				{
-					"name": "Curses",
+					"name": "Проклятия",
 					"featureType": [
 						"DMHW:C"
 					],
@@ -281,12 +281,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item quarterstaff|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) an {@item arcane focus|phb} or (b) a {@item component pouch|phb}",
-					"(a) an {@item explorer's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
-					"Two {@item dagger|phb|daggers}"
+					"(а) {@item quarterstaff|phb} или (б) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(а) {@item arcane focus|phb} или (б) {@item component pouch|phb}",
+					"(а) {@item explorer's pack|phb} или (б) {@item dungeoneer's pack|phb}",
+					"Два {@item dagger|phb|кинжала}"
 				],
-				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
+				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Начальное золото}",
 				"defaultData": [
 					{
 						"a": [
@@ -332,8 +332,8 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Curses Known",
-						"Cantrips Known"
+						"Известные проклятия",
+						"Известные заговоры"
 					],
 					"rows": [
 						[
@@ -419,7 +419,7 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"colLabels": [
 						"{@filter 1st|spells|level=1|class=Witch (DMHW}",
 						"{@filter 2nd|spells|level=2|class=Witch (DMHW}",
@@ -656,95 +656,95 @@
 				}
 			],
 			"classFeatures": [
-				"Spellcasting|Witch|DMHavuhkWitch|1",
-				"Curses|Witch|DMHavuhkWitch|1",
-				"Witch's Familiar|Witch|DMHavuhkWitch|1",
+				"Сотворение заклинаний|Witch|DMHavuhkWitch|1",
+				"Проклятия|Witch|DMHavuhkWitch|1",
+				"Фамильяр ведьмы|Witch|DMHavuhkWitch|1",
 				{
-					"classFeature": "Witch's Coven|Witch|DMHavuhkWitch|2",
+					"classFeature": "Ковен ведьмы|Witch|DMHavuhkWitch|2",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Witch|DMHavuhkWitch|4",
-				"Metamorphic Familiar|Witch|DMHavuhkWitch|5",
+				"Увеличение характеристик|Witch|DMHavuhkWitch|4",
+				"Метаморфный фамильяр|Witch|DMHavuhkWitch|5",
 				{
-					"classFeature": "Coven Feature|Witch|DMHavuhkWitch|6",
+					"classFeature": "Умение ковена|Witch|DMHavuhkWitch|6",
 					"gainSubclassFeature": true
 				},
-				"Additional Curse|Witch|DMHavuhkWitch|6",
-				"Ability Score Improvement|Witch|DMHavuhkWitch|8",
+				"Дополнительное проклятие|Witch|DMHavuhkWitch|6",
+				"Увеличение характеристик|Witch|DMHavuhkWitch|8",
 				{
-					"classFeature": "Coven Feature|Witch|DMHavuhkWitch|10",
+					"classFeature": "Умение ковена|Witch|DMHavuhkWitch|10",
 					"gainSubclassFeature": true
 				},
-				"Greater Familiar|Witch|DMHavuhkWitch|10",
-				"Additional Curse|Witch|DMHavuhkWitch|10",
-				"Ability Score Improvement|Witch|DMHavuhkWitch|12",
+				"Старший фамильяр|Witch|DMHavuhkWitch|10",
+				"Дополнительное проклятие|Witch|DMHavuhkWitch|10",
+				"Увеличение характеристик|Witch|DMHavuhkWitch|12",
 				{
-					"classFeature": "Coven Feature|Witch|DMHavuhkWitch|14",
+					"classFeature": "Умение ковена|Witch|DMHavuhkWitch|14",
 					"gainSubclassFeature": true
 				},
-				"Additional Curse|Witch|DMHavuhkWitch|14",
-				"Ability Score Improvement|Witch|DMHavuhkWitch|16",
+				"Дополнительное проклятие|Witch|DMHavuhkWitch|14",
+				"Увеличение характеристик|Witch|DMHavuhkWitch|16",
 				{
-					"classFeature": "Coven Feature|Witch|DMHavuhkWitch|18",
+					"classFeature": "Умение ковена|Witch|DMHavuhkWitch|18",
 					"gainSubclassFeature": true
 				},
-				"Additional Curse|Witch|DMHavuhkWitch|18",
-				"Ability score Improvement|Witch|DMHavuhkWitch|19",
-				"Split Mind|Witch|DMHavuhkWitch|20"
+				"Дополнительное проклятие|Witch|DMHavuhkWitch|18",
+				"Увеличение характеристик|Witch|DMHavuhkWitch|19",
+				"Разделённый разум|Witch|DMHavuhkWitch|20"
 			],
-			"subclassTitle": "Witch Coven",
+			"subclassTitle": "Ковен ведьмы",
 			"hasFluff": true
 		}
 	],
 	"classFluff": [
 		{
-			"name": "Witch",
+			"name": "Ведьма",
 			"source": "DMHavuhkWitch",
 			"entries": [
 				{
 					"type": "section",
-					"name": "The Witch",
+					"name": "Ведьма",
 					"source": "DMHavuhkWitch",
 					"page": 1,
 					"entries": [
-						"Standing alone in the swamp, knee deep in water, a half-orc woman places her hand upon the trunk of a very large tree. She mutters a question under her breath, and her vision moves through the vines that run throughout the swamp, as the swamp itself shows her the answer she seeks.",
-						"Within a small purple tent in the market district of a large city, a tiefling sits hunched over a crystal ball, as he peers through reality to predict the future of the young boy who is paying him.",
-						"Standing amidst a sea of corpses, the elven woman turns her gaze to one of the few remaining soldiers, as he cowers and begs for his life. She begins to cackle maniacally, as pain begins to wash throughout the soldier's entire body.",
-						"Witches are the outcasts of society, powerful spellcasters who study magics frowned upon by most people. Usually prefering to stay away from cities and towns, witches seclude themselves to forests and swamps, away from the prying eyes of others, where they can practice their arcane arts in peace.",
+						"Стоя в одиночестве в болоте по колено в воде, женщина-полуорк кладёт руку на ствол очень большого дерева. Она бормочет вопрос себе под нос, и её взгляд движется по лианам, тянущимся через всё болото, — само болото показывает ей ответ, который она ищет.",
+						"В небольшой фиолетовой палатке в торговом квартале большого города тифлинг сидит сгорбившись над хрустальным шаром, вглядываясь сквозь реальность, чтобы предсказать будущее мальчика, который ему платит.",
+						"Стоя посреди моря трупов, эльфийка переводит взгляд на одного из немногих оставшихся солдат, который съёжился и молит о пощаде. Она начинает маниакально хихикать, и по всему телу солдата разливается боль.",
+						"Ведьмы — изгои общества, могущественные заклинательницы, изучающие магию, которую большинство людей не одобряет. Обычно предпочитая держаться подальше от городов и деревень, ведьмы уединяются в лесах и болотах, вдали от посторонних глаз, где они могут спокойно практиковать свои тайные искусства.",
 						{
 							"type": "entries",
-							"name": "Scholars of the Dark Arts",
+							"name": "Учёные тёмных искусств",
 							"page": 1,
 							"entries": [
-								"Similarly to their wizardly bretheren, witches use their knowledge of the arcane to perform their magic, studying spells and rituals. However, unlike wizards, witches are not bound by silly things like laws and morals. Free to study the secrets of the arcane in peace, witches are able to study magics that others would not dare look into; Powerful spells that rip the life from others, rituals that bring forth horrible fiends, and potent curses that cripple their targets.",
-								"Witches are not inherently evil. While there are many who pursue this path as a way to gain power, most simply wish to pursue their studies without the restrictions of magic institutions and colleges. Others are simply born into the life of a witch, never knowing the rules or morals of standard mages, simply studying what catches their interest. A rare few are born with a gift for the dark arts, abandoning society to futher improve their natural talents."
+								"Подобно своим собратьям-волшебникам, ведьмы используют свои знания тайных искусств для совершения магии, изучая заклинания и ритуалы. Однако, в отличие от волшебников, ведьмы не связаны такими глупостями, как законы и мораль. Свободно изучая секреты тайных искусств, ведьмы могут исследовать магию, в которую другие не осмелились бы заглянуть: могущественные заклинания, вырывающие жизнь из других, ритуалы, призывающие ужасных исчадий, и сильные проклятия, калечащие их цели.",
+								"Ведьмы не злы по своей природе. Хотя многие идут этим путём ради обретения силы, большинство просто желает продолжать свои исследования без ограничений магических институтов и коллегий. Другие просто родились в жизни ведьмы, никогда не зная правил или морали обычных магов, и изучают лишь то, что вызывает у них интерес. Немногие редкие наделены даром к тёмным искусствам и покидают общество, чтобы ещё больше развить свои природные таланты."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Familiar Magic",
+							"name": "Магия фамильяра",
 							"page": 1,
 							"entries": [
-								"While witches come in many shapes and forms, almost all of them carry a familiar with them. While many mages keep familiars with them, witches tend to have a special bond with their familiars, often becoming very attached to the creatures. Their familiars act as both companion and protector, acting as scouts and conduits for the witch's magic.",
-								"As a witch grows in power, their familar reflects this as well, becoming more capable of delivering a witch's magic. Powerful witches are known to carry familiars that are able to hold their own against seasoned warriors. The most powerful witches have familiars that are able to share the burden of their magic, performing feats of spellcasting far outside the limits of any normal wizard."
+								"Хотя ведьмы бывают самыми разными, почти все они носят с собой фамильяра. Многие маги держат при себе фамильяров, но ведьмы, как правило, связаны с ними особой связью и часто очень привязываются к этим существам. Их фамильяры выступают и как компаньон, и как защитник, служа разведчиками и проводниками магии ведьмы.",
+								"По мере роста могущества ведьмы её фамильяр также отражает это, становясь более способным проводить магию ведьмы. Известно, что могущественные ведьмы носят с собой фамильяров, способных противостоять закалённым воинам. У самых могущественных ведьм фамильяры способны разделить с ними бремя их магии, совершая подвиги колдовства далеко за пределами возможностей любого обычного волшебника."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating a Witch",
+							"name": "Создание ведьмы",
 							"page": 2,
 							"entries": [
-								"While creating your witch character, one of the first things you should decide is why they follow the path of a witch. What led you to this decision? Were you once a member of a prestigious magic academy, but left due to the limitations of what you could learn? Perhaps you found an old tome that directed you in the ways of old magic. Or perhaps you were simply born into the life of a witch, never knowing any different.",
-								"What kind of life did your character live before their adventuring career began? Did you isolate yourself from the world, hiding away in forests and caves where you could practice you magic in peace? Did you try to integrate yourself with society, hiding away your magical prowess? Maybe you were well known as the witch that lived at the edge of town, interacting with the townsfolk only when they came by. Were you a part of a coven of witches? How large is it? Where is it based? Do you all live together, or do you simply meet every so often to perform your rituals?",
-								"What led you to go out into the world and begin adventuring? Was it a craving for more power? An opportunity to test the skills and spells that you have learned over your years of study? Perhaps your coven sent you out on a quest or a journey to hone your skills. Or maybe your coven was raided by the nearby law enforcement, and now you're on the run."
+								"Создавая персонажа-ведьму, первым делом стоит решить, почему она следует пути ведьмы. Что привело вас к этому решению? Быть может, вы когда-то были членом престижной магической академии, но ушли из-за ограничений в том, что можно изучать? Возможно, вы нашли старый том, направивший вас на путь древней магии. А может, вы просто родились в жизни ведьмы и не знали иной.",
+								"Какую жизнь вёл ваш персонаж до того, как началась его карьера искателя приключений? Изолировали ли вы себя от мира, прячась в лесах и пещерах, где могли спокойно практиковать свою магию? Пытались ли вы влиться в общество, скрывая своё магическое мастерство? Возможно, вас хорошо знали как ведьму, живущую на краю города, и общались с горожанами только когда они заходили к вам. Были ли вы частью ковена ведьм? Насколько он большой? Где он находится? Вы все живёте вместе или просто встречаетесь время от времени, чтобы совершать ритуалы?",
+								"Что побудило вас уйти в мир и начать искать приключения? Жажда большей силы? Возможность проверить навыки и заклинания, которые вы выучили за годы учёбы? Возможно, ваш ковен отправил вас в поход или путешествие, чтобы отточить ваши навыки. А может, на ваш ковен устроила облаву местная стража, и теперь вы в бегах."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Quick Build",
+							"name": "Быстрое создание",
 							"page": 2,
 							"entries": [
-								"You can make a witch quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Wisdom or Constitution. Second, choose the {@background Sage} or {@background Hermit} background."
+								"Вы можете быстро создать ведьму, следуя этим советам. Во-первых, Интеллект должен быть вашей самой высокой характеристикой, следом — Мудрость или Телосложение. Во-вторых, выберите предысторию {@background Sage} или {@background Hermit}."
 							]
 						}
 					]
@@ -754,8 +754,8 @@
 	],
 	"subclass": [
 		{
-			"name": "Coven of Crones",
-			"shortName": "Crones",
+			"name": "Ковен карг",
+			"shortName": "Карги",
 			"source": "DMHavuhkWitch",
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
@@ -773,16 +773,16 @@
 				"Scrying"
 			],
 			"subclassFeatures": [
-				"Covenant of Three|Witch|DMHavuhkWitch|Crones|DMHavuhkWitch|2",
-				"Fey Protection|Witch|DMHavuhkWitch|Crones|DMHavuhkWitch|6",
-				"Hag's Eye|Witch|DMHavuhkWitch|Crones|DMHavuhkWitch|10",
-				"Bond of Magic|Witch|DMHavuhkWitch|Crones|DMHavuhkWitch|14",
-				"Protection of the Covenant|Witch|DMHavuhkWitch|Crones|DMHavuhkWitch|18"
+				"Союз трёх|Witch|DMHavuhkWitch|Карги|DMHavuhkWitch|2",
+				"Защита фей|Witch|DMHavuhkWitch|Карги|DMHavuhkWitch|6",
+				"Глаз карги|Witch|DMHavuhkWitch|Карги|DMHavuhkWitch|10",
+				"Узы магии|Witch|DMHavuhkWitch|Карги|DMHavuhkWitch|14",
+				"Защита союза|Witch|DMHavuhkWitch|Карги|DMHavuhkWitch|18"
 			]
 		},
 		{
-			"name": "Coven of Moon",
-			"shortName": "The Moon",
+			"name": "Ковен луны",
+			"shortName": "Луна",
 			"source": "DMHavuhkWitch",
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
@@ -800,16 +800,16 @@
 				"Seeming"
 			],
 			"subclassFeatures": [
-				"Mantle of Moonlight|Witch|DMHavuhkWitch|The Moon|DMHavuhkWitch|2",
-				"Eye for Illusions|Witch|DMHavuhkWitch|The Moon|DMHavuhkWitch|6",
-				"Blessing of the Moon|Witch|DMHavuhkWitch|The Moon|DMHavuhkWitch|10",
-				"Shattered Reality|Witch|DMHavuhkWitch|The Moon|DMHavuhkWitch|14",
-				"Mass Invisibility|Witch|DMHavuhkWitch|The Moon|DMHavuhkWitch|18"
+				"Мантия лунного света|Witch|DMHavuhkWitch|Луна|DMHavuhkWitch|2",
+				"Глаз на иллюзии|Witch|DMHavuhkWitch|Луна|DMHavuhkWitch|6",
+				"Благословение луны|Witch|DMHavuhkWitch|Луна|DMHavuhkWitch|10",
+				"Разбитая реальность|Witch|DMHavuhkWitch|Луна|DMHavuhkWitch|14",
+				"Массовая невидимость|Witch|DMHavuhkWitch|Луна|DMHavuhkWitch|18"
 			]
 		},
 		{
-			"name": "Coven of Seers",
-			"shortName": "Seers",
+			"name": "Ковен провидцев",
+			"shortName": "Провидцы",
 			"source": "DMHavuhkWitch",
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
@@ -827,16 +827,16 @@
 				"Scrying"
 			],
 			"subclassFeatures": [
-				"Prediction|Witch|DMHavuhkWitch|Seers|DMHavuhkWitch|2",
-				"Mind's Eye|Witch|DMHavuhkWitch|Seers|DMHavuhkWitch|6",
-				"Pierce the Veil|Witch|DMHavuhkWitch|Seers|DMHavuhkWitch|10",
-				"Between the Lines|Witch|DMHavuhkWitch|Seers|DMHavuhkWitch|14",
-				"Prophecy|Witch|DMHavuhkWitch|Seers|DMHavuhkWitch|18"
+				"Предсказание|Witch|DMHavuhkWitch|Провидцы|DMHavuhkWitch|2",
+				"Мысленный взор|Witch|DMHavuhkWitch|Провидцы|DMHavuhkWitch|6",
+				"Проникновение за завесу|Witch|DMHavuhkWitch|Провидцы|DMHavuhkWitch|10",
+				"Между строк|Witch|DMHavuhkWitch|Провидцы|DMHavuhkWitch|14",
+				"Пророчество|Witch|DMHavuhkWitch|Провидцы|DMHavuhkWitch|18"
 			]
 		},
 		{
-			"name": "Coven of Spirits",
-			"shortName": "Spirits",
+			"name": "Ковен духов",
+			"shortName": "Духи",
 			"source": "DMHavuhkWitch",
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
@@ -854,17 +854,17 @@
 				"steel wind strike|xge"
 			],
 			"subclassFeatures": [
-				"Bonus Proficiencies|Witch|DMHavuhkWitch|Spirits|DMHavuhkWitch|2",
-				"Ethereal Form|Witch|DMHavuhkWitch|Spirits|DMHavuhkWitch|2",
-				"Swift Strike|Witch|DMHavuhkWitch|Spirits|DMHavuhkWitch|6",
-				"Spirit Caller|Witch|DMHavuhkWitch|Spirits|DMHavuhkWitch|10",
-				"Death Walker|Witch|DMHavuhkWitch|Spirits|DMHavuhkWitch|14",
-				"Emergency Shift|Witch|DMHavuhkWitch|Spirits|DMHavuhkWitch|18"
+				"Бонусные владения|Witch|DMHavuhkWitch|Духи|DMHavuhkWitch|2",
+				"Эфирная форма|Witch|DMHavuhkWitch|Духи|DMHavuhkWitch|2",
+				"Быстрый удар|Witch|DMHavuhkWitch|Духи|DMHavuhkWitch|6",
+				"Заклинатель духов|Witch|DMHavuhkWitch|Духи|DMHavuhkWitch|10",
+				"Ходящий со смертью|Witch|DMHavuhkWitch|Духи|DMHavuhkWitch|14",
+				"Экстренный сдвиг|Witch|DMHavuhkWitch|Духи|DMHavuhkWitch|18"
 			]
 		},
 		{
-			"name": "Coven of Spite",
-			"shortName": "Spite",
+			"name": "Ковен злобы",
+			"shortName": "Злоба",
 			"source": "DMHavuhkWitch",
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
@@ -882,16 +882,16 @@
 				"negative energy flood|xge"
 			],
 			"subclassFeatures": [
-				"Coven of Spite|Witch|DMHavuhkWitch|Spite|DMHavuhkWitch|2",
-				"Hexmaster|Witch|DMHavuhkWitch|Spite|DMHavuhkWitch|6",
-				"Image of Fear|Witch|DMHavuhkWitch|Spite|DMHavuhkWitch|10",
-				"Vampiric Curse|Witch|DMHavuhkWitch|Spite|DMHavuhkWitch|14",
-				"Cackle|Witch|DMHavuhkWitch|Spite|DMHavuhkWitch|18"
+				"Ковен злобы|Witch|DMHavuhkWitch|Злоба|DMHavuhkWitch|2",
+				"Мастер сглаза|Witch|DMHavuhkWitch|Злоба|DMHavuhkWitch|6",
+				"Образ страха|Witch|DMHavuhkWitch|Злоба|DMHavuhkWitch|10",
+				"Вампирическое проклятие|Witch|DMHavuhkWitch|Злоба|DMHavuhkWitch|14",
+				"Злорадный смех|Witch|DMHavuhkWitch|Злоба|DMHavuhkWitch|18"
 			]
 		},
 		{
-			"name": "Coven of the Wyld",
-			"shortName": "The Wyld",
+			"name": "Ковен диких",
+			"shortName": "Дикие",
 			"source": "DMHavuhkWitch",
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
@@ -909,73 +909,73 @@
 				"Insect Plague"
 			],
 			"subclassFeatures": [
-				"Bonus Proficiency|Witch|DMHavuhkWitch|The Wyld|DMHavuhkWitch|2",
-				"Potion Brewing|Witch|DMHavuhkWitch|The Wyld|DMHavuhkWitch|2",
-				"One with Nature|Witch|DMHavuhkWitch|The Wyld|DMHavuhkWitch|6",
-				"Alchemical Knowledge|Witch|DMHavuhkWitch|The Wyld|DMHavuhkWitch|10",
-				"Budding Defence|Witch|DMHavuhkWitch|The Wyld|DMHavuhkWitch|14",
-				"Dual-Mix|Witch|DMHavuhkWitch|The Wyld|DMHavuhkWitch|18"
+				"Дополнительное владение|Witch|DMHavuhkWitch|Дикие|DMHavuhkWitch|2",
+				"Варка зелий|Witch|DMHavuhkWitch|Дикие|DMHavuhkWitch|2",
+				"Одно целое с природой|Witch|DMHavuhkWitch|Дикие|DMHavuhkWitch|6",
+				"Алхимические знания|Witch|DMHavuhkWitch|Дикие|DMHavuhkWitch|10",
+				"Расцветающая защита|Witch|DMHavuhkWitch|Дикие|DMHavuhkWitch|14",
+				"Двойная смесь|Witch|DMHavuhkWitch|Дикие|DMHavuhkWitch|18"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Curses",
+			"name": "Проклятия",
 			"source": "DMHavuhkWitch",
 			"page": 3,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 1,
 			"entries": [
-				"{@filter Curses|optionalfeatures|feature type=dmhw:c} are words of power, simple words or phrases that carry enough malicious intent to bring their meaning to life. Many witches often find themselves uttering a curse by accident, simply through force of habit or a slip of the tongue. Most curses only last for a short period of time, and can be resisted by the target if they have a strong enough body or mind. The 'Remove Curse' spell instantly ends any curse.",
-				"Starting at 1st level, you gain the ability to use {@filter curses|optionalfeatures|feature type=dmhw:c}. You learn two {@filter curses|optionalfeatures|feature type=dmhw:c} of your choice, which are detailed at the end of this class description. You gain one additional curse at 6th, 10th, 14th, and 18th level. Additionally, when you gain a level in this class, you may choose one curse and replace it with another one.",
-				"As a bonus action on your turn, you can attempt to curse a creature within 60ft of you. You may only have one curse active at a time, and the curse automatically ends if the creature moves more than 60ft away from you. You can use your curses twice at 1st level, and gain additional uses of your curses as you level up, as shown in the Curses column of the Witch table. You regain all expended uses of your curses when you finish a long rest."
+				"{@filter Curses|optionalfeatures|feature type=dmhw:c} — это слова силы, простые слова или фразы, несущие достаточно злого умысла, чтобы воплотить своё значение в жизнь. Многие ведьмы часто произносят проклятие случайно, просто по привычке или из-за оговорки. Большинство проклятий длится лишь короткое время, и цель может им противостоять, если у неё достаточно крепкое тело или разум. Заклинание «Снятие проклятия» мгновенно оканчивает любое проклятие.",
+				"Начиная с 1-го уровня вы получаете способность использовать {@filter curses|optionalfeatures|feature type=dmhw:c}. Вы изучаете два {@filter curses|optionalfeatures|feature type=dmhw:c} на ваш выбор, подробно описанных в конце описания этого класса. Вы получаете одно дополнительное проклятие на 6-м, 10-м, 14-м и 18-м уровне. Кроме того, получая уровень в этом классе, вы можете выбрать одно проклятие и заменить его другим.",
+				"Бонусным действием в свой ход вы можете попытаться проклясть существо в пределах 60 футов от вас. Одновременно у вас может быть активно только одно проклятие, и проклятие автоматически оканчивается, если существо удаляется от вас дальше чем на 60 футов. На 1-м уровне вы можете использовать свои проклятия дважды, а по мере получения уровней получаете дополнительные использования проклятий, как показано в столбце «Проклятия» таблицы ведьмы. Вы восстанавливаете все потраченные использования проклятий, завершив продолжительный отдых."
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "DMHavuhkWitch",
 			"page": 3,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 1,
 			"entries": [
-				"Drawing upon your arcane knowledge, you can cast spells to influence those around you. See {@book chapter 10|PHB|10} of the PHB for the general rules of spellcasting, and {@filter here |spells|class=Witch (DMHW)} for the Witch's spell list.",
+				"Опираясь на свои тайные знания, вы можете творить заклинания, чтобы влиять на окружающих. Общие правила сотворения заклинаний см. в {@book chapter 10|PHB|10} PHB, а список заклинаний ведьмы — {@filter here |spells|class=Witch (DMHW)}.",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Заговоры",
 					"page": 3,
 					"entries": [
-						"At 1st level, you know three cantrips of your choice from the {@filter witch spell list|spells|class=Witch (DMHW)}. You gain additional witch cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Witch table."
+						"На 1-м уровне вы знаете три заговора на свой выбор из {@filter witch spell list|spells|class=Witch (DMHW)}. Вы получаете дополнительные заговоры ведьмы на свой выбор на более высоких уровнях, как показано в столбце «Известные заговоры» таблицы ведьмы."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Preparing and Casting Spells",
+					"name": "Подготовка и сотворение заклинаний",
 					"page": 3,
 					"entries": [
-						"The Witch table shows how many spell slots you have to cast your witch spells of 1st Level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"You prepare the list of witch spells that are available for you to cast, choosing from the witch spell list. When you do so, choose a number of witch spells equal to your Intelligence modifier + your witch level (minimum of one spell). The spells must be of a level for which you have spell slots.",
-						"For example, if you are a 3rd-level witch, you have four 1st-level and two 2nd-level Spell Slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd Level, in any combination. If you prepare the 1st-level spell {@spell witch bolt}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of witch spells requires time spent recalling the rituals and incantations for the spells: at least 1 minute per spell Level for each spell on your list."
+						"Таблица «Ведьма» показывает, сколько у вас ячеек заклинаний для сотворения ваших заклинаний ведьмы 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете продолжительный отдых.",
+						"Вы подготавливаете список заклинаний ведьмы, доступных вам для сотворения, выбирая из списка заклинаний ведьмы. Делая это, выберите количество заклинаний ведьмы, равное вашему модификатору Интеллекта + ваш уровень ведьмы (минимум одно заклинание). Заклинания должны быть уровня, для которого у вас есть ячейки заклинаний.",
+						"Например, если вы ведьма 3-го уровня, у вас есть четыре ячейки заклинаний 1-го уровня и две ячейки 2-го уровня. При Интеллекте 16 список ваших подготовленных заклинаний может включать шесть заклинаний 1-го или 2-го уровня в любой комбинации. Если вы подготовите заклинание 1-го уровня {@spell witch bolt}, вы можете сотворить его, используя ячейку 1-го или 2-го уровня. Сотворение заклинания не удаляет его из списка подготовленных.",
+						"Вы можете изменить список подготовленных заклинаний, когда завершаете продолжительный отдых. Подготовка нового списка заклинаний ведьмы требует времени на припоминание ритуалов и формул заклинаний: как минимум 1 минута на уровень каждого заклинания в вашем списке."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"page": 3,
 					"entries": [
-						"Intelligence is your spellcasting ability for your witch spells, as your power comes from your study of the dark arts. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a witch spell you cast and when making an attack roll with one.",
+						"Интеллект — ваша характеристика для сотворения заклинаний ведьмы, поскольку ваша сила исходит из изучения тёмных искусств. Вы используете свой Интеллект всякий раз, когда заклинание ссылается на вашу характеристику для сотворения заклинаний. Кроме того, вы используете свой модификатор Интеллекта при определении Сл спасброска для сотворяемого вами заклинания ведьмы и при совершении им броска атаки.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"int"
 							]
@@ -984,279 +984,279 @@
 				},
 				{
 					"type": "entries",
-					"name": "Ritual Casting",
+					"name": "Ритуальное сотворение",
 					"page": 3,
 					"entries": [
-						"You can cast any witch spell you know as a ritual if that spell has the ritual tag."
+						"Вы можете наложить любое известное вам заклинание ведьмы как ритуал, если у этого заклинания есть метка «ритуал»."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Focus",
+					"name": "Фокусировка для сотворения",
 					"page": 3,
 					"entries": [
-						"You can use an {@item arcane focus|phb} (see {@book chapter 5|PHB|5} of the PHB \"Equipment\") as a spellcasting focus for your witch spells."
+						"Вы можете использовать {@item arcane focus|phb} (см. {@book chapter 5|PHB|5} PHB «Снаряжение») как фокусировку для сотворения ваших заклинаний ведьмы."
 					]
 				}
 			]
 		},
 		{
-			"name": "Witch's Familiar",
+			"name": "Фамильяр ведьмы",
 			"source": "DMHavuhkWitch",
 			"page": 3,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 1,
 			"entries": [
-				"Also at 1st level, you gain a familiar, a fey creature who is able to transform itself into other animals. You learn the {@spell find familiar} spell. You always have the spell prepared, and it does not count towards the number of spells you can prepare. When you gain this feature, choose one of the forms that a familiar can take. This becomes your familiar's base form. When you summon your familiar in this form, the gold in materials you must spend to summon it is halved.",
+				"Также на 1-м уровне вы получаете фамильяра — существо фей, способное превращаться в других животных. Вы изучаете заклинание {@spell find familiar}. Оно всегда у вас подготовлено и не учитывается при подсчёте числа заклинаний, которые вы можете подготовить. Получая это умение, выберите одну из форм, которые может принимать фамильяр. Она становится базовой формой вашего фамильяра. Когда вы призываете фамильяра в этой форме, золото, которое требуется потратить на материалы для его призыва, уменьшается вдвое.",
 				{
 					"type": "inset",
-					"name": "Optional Rule: Intelligent Familiar",
+					"name": "Дополнительное правило: разумный фамильяр",
 					"entries": [
-						"Some players may like their familiar to be sentient, capable of speaking and giving advice. In such a situation, increase the familiar's intelligence to 10, and give them the ability to speak any language that the witch speaks."
+						"Некоторым игрокам может понравиться, если их фамильяр разумен, способен говорить и давать советы. В такой ситуации увеличьте Интеллект фамильяра до 10 и дайте ему способность говорить на любом языке, на котором говорит ведьма."
 					]
 				}
 			]
 		},
 		{
-			"name": "Witch's Coven",
+			"name": "Ковен ведьмы",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 2,
 			"entries": [
-				"Witches often band together in groups called covens, sharing information and magical secrets. The witches in these covens often specialize in a certain form of magic, such as summoning or augury. While joining one of these covens is the easiest way to learn these secrets, some witches prefer to keep to themselves, and instead learn the coven's secrets in other ways.",
-				"At 2nd level, you join a coven, which will shape the kind of witch you will become. Choose one of the following archetypes: Coven of Seers, Coven of the Wyld, Coven of Spirits, Coven of Spite, Coven of Crones, or Coven of the Moon.",
-				"Your choice grants you features at 2nd level, and again at 6th, 10th, 14th, and 18th level.",
+				"Ведьмы часто объединяются в группы, называемые ковенами, делясь сведениями и магическими секретами. Ведьмы в таких ковенах часто специализируются на определённой форме магии, например на призыве или гадании. Хотя вступление в один из таких ковенов — самый простой способ узнать эти секреты, некоторые ведьмы предпочитают держаться особняком и узнают секреты ковена иными путями.",
+				"На 2-м уровне вы вступаете в ковен, который определит, какой ведьмой вы станете. Выберите один из следующих архетипов: Ковен провидцев, Ковен диких, Ковен духов, Ковен злобы, Ковен карг или Ковен луны.",
+				"Ваш выбор дарует вам умения на 2-м уровне, а также на 6-м, 10-м, 14-м и 18-м уровне.",
 				{
 					"type": "entries",
-					"name": "Coven Spells",
+					"name": "Заклинания ковена",
 					"page": 4,
 					"entries": [
-						"Each coven has a list of spells -it's coven spells- that you gain at witch levels noted in the domain description. Once you gain a Coven Spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
-						"If you have a coven spell that does not appear on the witch spell list, the spell is nontheless a witch spell for you."
+						"У каждого ковена есть список заклинаний — его заклинания ковена, — которые вы получаете на указанных в описании домена уровнях ведьмы. Получив заклинание ковена, вы всегда имеете его подготовленным, и оно не учитывается при подсчёте числа заклинаний, которые вы можете подготовить каждый день.",
+						"Если у вас есть заклинание ковена, которое не указано в списке заклинаний ведьмы, оно тем не менее считается для вас заклинанием ведьмы."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Metamorphic Familiar",
+			"name": "Метаморфный фамильяр",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 5,
 			"entries": [
-				"At 5th level, you've grown accustomed to summoning and changing the form of your familiar, opening up new possibilities. When you summon your familiar in its base form, you can choose to give it one of the following traits. You can change your familiar's trait during a long rest. At 15th level, you can choose to give your familiar two traits, and you can change one or both of them during a long rest.",
+				"На 5-м уровне вы привыкли призывать фамильяра и менять его форму, что открывает новые возможности. Призывая фамильяра в его базовой форме, вы можете дать ему одну из следующих особенностей. Вы можете изменить особенность фамильяра во время продолжительного отдыха. На 15-м уровне вы можете дать фамильяру две особенности, и можете изменить одну или обе во время продолжительного отдыха.",
 				{
 					"type": "list",
 					"items": [
-						"{@bold Flight.} Your familiar gains a a flying speed of 30 feet if it didn't already have it. Additionally, your familiar doesn't provoke attacks of opportunity when it flies out of an opponents reach.",
-						"{@bold Aquatic Adaptation.} Your familiar gains a swim speed of 30 feet if it didn't already have it, and it is able to breathe underwater.",
-						"{@bold Invisibility.} As an action, your familiar can magically turn invisible until it attacks, you cast a spell through it, or its concentration ends (As if concentrating on a spell).",
-						"{@bold Magic Resistance.} Your familiar has advantage on saving throws against spells and other magical effects. Your familiar shares this trait with you if you are within 10 feet of your familiar.",
-						"{@bold Telepathy.} You are able to telepathically communicate with a creature, as long as your familiar is touching them, and you are both on the same plane of existence."
+						"{@bold Полёт.} Ваш фамильяр получает скорость полёта 30 футов, если у него её не было. Кроме того, ваш фамильяр не провоцирует атаки, когда вылетает из зоны досягаемости противника.",
+						"{@bold Водная адаптация.} Ваш фамильяр получает скорость плавания 30 футов, если у него её не было, и он способен дышать под водой.",
+						"{@bold Невидимость.} Действием ваш фамильяр может магически стать невидимым, пока не атакует, не сотворит через него заклинание или пока не окончится его концентрация (как если бы он концентрировался на заклинании).",
+						"{@bold Сопротивление магии.} Ваш фамильяр совершает с преимуществом спасброски против заклинаний и других магических эффектов. Ваш фамильяр делится этой особенностью с вами, если вы находитесь в пределах 10 футов от него.",
+						"{@bold Телепатия.} Вы способны телепатически общаться с существом, пока ваш фамильяр касается его и вы оба находитесь на одном плане существования."
 					]
 				}
 			]
 		},
 		{
-			"name": "Additional Curse",
+			"name": "Дополнительное проклятие",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 6,
 			"entries": [
-				"You gain one additional curse at 6th level."
+				"Вы получаете одно дополнительное проклятие на 6-м уровне."
 			]
 		},
 		{
-			"name": "Coven Feature",
+			"name": "Умение ковена",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain a feature granted by your Witch Coven."
+				"На 6-м уровне вы получаете умение, даруемое вашим ковеном ведьм."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Additional Curse",
+			"name": "Дополнительное проклятие",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 10,
 			"entries": [
-				"You gain one additional curse at 10th level."
+				"Вы получаете одно дополнительное проклятие на 10-м уровне."
 			]
 		},
 		{
-			"name": "Coven Feature",
+			"name": "Умение ковена",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain a feature granted by your Witch Coven."
+				"На 10-м уровне вы получаете умение, даруемое вашим ковеном ведьм."
 			]
 		},
 		{
-			"name": "Greater Familiar",
+			"name": "Старший фамильяр",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 10,
 			"entries": [
-				"At 10th level, your familiar becomes more powerful, enabling it to better serve you. Your familiar gains the following features:",
+				"На 10-м уровне ваш фамильяр становится могущественнее, что позволяет ему лучше служить вам. Ваш фамильяр получает следующие умения:",
 				{
 					"type": "list",
 					"items": [
-						"Your familar's hit point maximum is equal to twice your witch level.",
-						"You can cast any spell through your familiar, regardless of the spells range."
+						"Максимум хитов вашего фамильяра равен удвоенному вашему уровню ведьмы.",
+						"Вы можете сотворить любое заклинание через своего фамильяра, независимо от дистанции заклинания."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Additional Curse",
+			"name": "Дополнительное проклятие",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 14,
 			"entries": [
-				"You gain one additional curse at 14th level."
+				"Вы получаете одно дополнительное проклятие на 14-м уровне."
 			]
 		},
 		{
-			"name": "Coven Feature",
+			"name": "Умение ковена",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain a feature granted by your Witch Coven."
+				"На 14-м уровне вы получаете умение, даруемое вашим ковеном ведьм."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Additional Curse",
+			"name": "Дополнительное проклятие",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 18,
 			"entries": [
-				"You gain one additional curse at 18th level."
+				"Вы получаете одно дополнительное проклятие на 18-м уровне."
 			]
 		},
 		{
-			"name": "Coven Feature",
+			"name": "Умение ковена",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain a feature granted by your Witch Coven."
+				"На 18-м уровне вы получаете умение, даруемое вашим ковеном ведьм."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Split Mind",
+			"name": "Разделённый разум",
 			"source": "DMHavuhkWitch",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "DmHavuhkWitch",
 			"level": 20,
 			"entries": [
-				"At 20th level, you and your familiar share an unbreakable bond, allowing them to carry the burden of your spells for you. When you are concentrating on a spell, you can use a bonus action to share the spell with your familiar, allowing them to concentrate on it for you. While your familiar is concentrating on a spell, you cannot cast other spells through your familiar, however you are free to concentrate on a different spell. Your familiar makes concentration checks in the same way that you do, but does not benefit from features that affect concentration checks, such as the {@feat War Caster} feat."
+				"На 20-м уровне вы и ваш фамильяр разделяете нерушимую связь, позволяющую ему нести бремя ваших заклинаний за вас. Когда вы концентрируетесь на заклинании, вы можете бонусным действием поделиться заклинанием с фамильяром, позволяя ему концентрироваться на нём за вас. Пока ваш фамильяр концентрируется на заклинании, вы не можете творить через него другие заклинания, но вольны концентрироваться на другом заклинании. Ваш фамильяр совершает проверки концентрации так же, как и вы, но не получает преимуществ от умений, влияющих на проверки концентрации, таких как черта {@feat War Caster}."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Coven of Crones",
+			"name": "Ковен карг",
 			"source": "DMHavuhkWitch",
 			"page": 10,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Crones",
+			"subclassShortName": "Карги",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"entries": [
-				"It is often said that the first witches were inspired by hags, learning how to channel magic in strange and uncontrolled ways from the fey creatures. Witches of the Coven of Crones take this a step further, learning spells and rituals that allow them to emulate the magic of hags, forming covens and making pacts with others. Many of these witches learn their magic directly from hags, making deals with the fey in exchange for knowledge, which they soon come to regret.",
+				"Часто говорят, что первые ведьмы вдохновлялись каргами, перенимая у фейских существ умение направлять магию странными и неконтролируемыми способами. Ведьмы Ковена карг идут дальше, изучая заклинания и ритуалы, позволяющие им подражать магии карг, создавать ковены и заключать пакты с другими. Многие из этих ведьм учатся своей магии непосредственно у карг, заключая сделку с феями в обмен на знания, о чём вскоре начинают сожалеть.",
 				{
 					"type": "table",
-					"caption": "Coven of Crones Spells",
+					"caption": "Заклинания ковена карг",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1264,23 +1264,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell disguise self}, {@spell ray of sickness}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell alter self}, {@spell invisibility}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell bestow curse}, {@spell remove curse}"
 						],
 						[
-							"7th",
-							"{@spell polymorph}, {@spell Witch's Broom|dmhw}"
+							"7-й",
+							"{@spell polymorph}, {@spell Метла ведьмы|dmhw}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell geas}, {@spell scrying}"
 						]
 					]
@@ -1292,97 +1292,97 @@
 			]
 		},
 		{
-			"name": "Covenant of Three",
+			"name": "Союз трёх",
 			"source": "DMHavuhkWitch",
 			"page": 10,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Crones",
+			"subclassShortName": "Карги",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, your study of hags has granted you the ability to perform a ritual to form a coven. You can perform a 10 minute ritual with 2 other willing humanoids, forming a coven with them. This coven lasts until you finish a long rest, one of the members of the coven falls to 0 hit points, or one of the coven members chooses to end the coven (No action required). A creature can only be in one coven at a time.",
-				"When you create the coven, choose up to two spells. These must be spells that you have prepared and they must be of 5th level or lower. While the coven is active, you can use your reaction on one of the coven member's turns to allow them to cast one of these spells. The spell is cast using your spellcasting ability, and thus uses your spell attack bonus and spell save DC, and casting the spell consumes one of your spell slots. The number of spells you can choose to share increases to three at 6th level, four at 10th level, five at 14th level, and six at 18th level.",
-				"After one of your coven members casts a spell using this feature, you cannot cast spells other than cantrips until the end of your next turn. Additionally, if one of your coven members uses this feature to cast a concentration spell, you lose concentration on any spells you are concentrating on, and vice versa."
+				"Начиная с 2-го уровня изучение карг дало вам способность совершать ритуал для создания ковена. Вы можете совершить 10-минутный ритуал с 2 другими согласными гуманоидами, создав с ними ковен. Этот ковен существует, пока вы не завершите продолжительный отдых, один из участников ковена не опустится до 0 хитов или один из участников ковена не решит окончить ковен (действие не требуется). Существо может состоять только в одном ковене одновременно.",
+				"Создавая ковен, выберите до двух заклинаний. Это должны быть заклинания, которые у вас подготовлены, и они должны быть 5-го уровня или ниже. Пока ковен активен, вы можете использовать свою реакцию в ход одного из участников ковена, чтобы позволить ему сотворить одно из этих заклинаний. Заклинание сотворяется с использованием вашей характеристики для сотворения заклинаний, то есть использует ваш бонус атаки заклинанием и Сл спасброска заклинаний, а сотворение заклинания тратит одну из ваших ячеек заклинаний. Количество заклинаний, которые вы можете выбрать для передачи, увеличивается до трёх на 6-м уровне, четырёх на 10-м, пяти на 14-м и шести на 18-м уровне.",
+				"После того как один из участников вашего ковена сотворит заклинание с помощью этого умения, вы не можете творить заклинания, кроме заговоров, до конца вашего следующего хода. Кроме того, если один из участников вашего ковена использует это умение, чтобы сотворить заклинание с концентрацией, вы теряете концентрацию на всех заклинаниях, на которых концентрируетесь, и наоборот."
 			]
 		},
 		{
-			"name": "Fey Protection",
+			"name": "Защита фей",
 			"source": "DMHavuhkWitch",
 			"page": 10,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Crones",
+			"subclassShortName": "Карги",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, working with the fey has granted your protection against some of their magic. You have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+				"На 6-м уровне работа с феями дала вам защиту от части их магии. Вы совершаете с преимуществом спасброски против состояний {@condition charmed} или {@condition frightened}."
 			]
 		},
 		{
-			"name": "Hag's Eye",
+			"name": "Глаз карги",
 			"source": "DMHavuhkWitch",
 			"page": 10,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Crones",
+			"subclassShortName": "Карги",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you have learned how to create a Hag's Eye, an amulet that allows you and your coven members to observe the world around it. By performing a 1 hour ritual with your coven members, you can create a Hag's Eye. The eye has an AC of 10 and hit points equal to your witch level. As an action, a coven member can see through the eye, seeing whatever the eye does, as long as the eye is on the same plane of existence. While looking through the eye, a creature is blind and deaf.",
-				"If the coven is broken, then the eye becomes inert until the coven is reformed. If the eye is destroyed, then members of the coven have disadvantage on attack rolls and perceptions checks that rely on sight until they finish a long rest."
+				"На 10-м уровне вы научились создавать Глаз карги — амулет, позволяющий вам и участникам вашего ковена наблюдать за окружающим миром. Совершив 1-часовой ритуал вместе с участниками ковена, вы можете создать Глаз карги. Глаз имеет КД 10 и хиты, равные вашему уровню ведьмы. Действием участник ковена может смотреть сквозь глаз, видя всё, что видит он, если глаз находится на том же плане существования. Пока существо смотрит сквозь глаз, оно слепо и глухо.",
+				"Если ковен распадается, глаз становится бездейственным, пока ковен не будет восстановлен. Если глаз уничтожен, участники ковена совершают с помехой броски атаки и проверки Восприятия, основанные на зрении, пока не завершат продолжительный отдых."
 			]
 		},
 		{
-			"name": "Bond of Magic",
+			"name": "Узы магии",
 			"source": "DMHavuhkWitch",
 			"page": 10,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Crones",
+			"subclassShortName": "Карги",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, the magical bond you share with the members of your coven allows you to share your magical protection. You and your coven members share your resistances and immunities.",
-				"Additionally, when a member of the coven is affected by a spell, you can choose for the spell to affect all members of the coven. Once you use this ability, you cannot do so again until you finish a long rest."
+				"На 14-м уровне магическая связь, которую вы разделяете с участниками вашего ковена, позволяет вам делиться своей магической защитой. Вы и участники вашего ковена разделяете ваши сопротивления и иммунитеты.",
+				"Кроме того, когда на участника ковена действует заклинание, вы можете выбрать, чтобы заклинание подействовало на всех участников ковена. Использовав эту способность, вы не можете применить её снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Protection of the Covenant",
+			"name": "Защита союза",
 			"source": "DMHavuhkWitch",
 			"page": 10,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Crones",
+			"subclassShortName": "Карги",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, the members of your coven are able to use your magical bond to protect each other. You gain a second reaction that can only be used for your 'Covenant of Three' or 'Protection of the Covenant' features.",
-				"Additionally, when one of the coven members is attacked or forced to make a saving throw, another coven member can use their reaction to grant the target their AC or saving throw Modifier. For example, if the witch is being attacked, a fighter in the coven can use their reaction to grant the witch their AC. Similarly, if the fighter is forced to make an Intelligence saving throw, the witch can allow the figher to use their Intelligence saving throw Modifier instead of the figher's. You must choose to use this feature before any rolls are made."
+				"На 18-м уровне участники вашего ковена способны использовать вашу магическую связь для защиты друг друга. Вы получаете вторую реакцию, которую можно использовать только для ваших умений «Союз трёх» или «Защита союза».",
+				"Кроме того, когда на одного из участников ковена нападают или заставляют его совершить спасбросок, другой участник ковена может использовать свою реакцию, чтобы дать цели свой КД или модификатор спасброска. Например, если нападают на ведьму, воин в ковене может использовать свою реакцию, чтобы дать ведьме свой КД. Точно так же, если воина заставляют совершить спасбросок Интеллекта, ведьма может позволить воину использовать её модификатор спасброска Интеллекта вместо его собственного. Вы должны решить использовать это умение до любых бросков."
 			]
 		},
 		{
-			"name": "Coven of Seers",
+			"name": "Ковен провидцев",
 			"source": "DMHavuhkWitch",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Seers",
+			"subclassShortName": "Провидцы",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"entries": [
-				"Witches of the Coven of Seers are those gifted with foresight, the ability to glance through time to predict the future. They are able to use their magic to see through time, learning long lost secrets of the past, uncovering forgotten knowledge, peering into someone's mind, or glimpsing into the future. Seers are the most commonly known witches, and though they are generally untrusted, there are many who would risk bargaining with a witch to gain insight into their future.",
+				"Ведьмы Ковена провидцев — те, кто наделён предвидением, способностью заглядывать сквозь время, чтобы предсказывать будущее. Они способны использовать свою магию, чтобы видеть сквозь время: узнавать давно утраченные секреты прошлого, раскрывать забытые знания, заглядывать в чей-то разум или смотреть в будущее. Провидцы — самые известные из ведьм, и хотя им обычно не доверяют, многие готовы рискнуть и поторговаться с ведьмой, чтобы узнать о своём будущем.",
 				{
 					"type": "table",
-					"caption": "Coven of Seers Spells",
+					"caption": "Заклинания ковена провидцев",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1390,23 +1390,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell detect magic}, {@spell identify}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell augury}, {@spell detect thoughts}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell clairvoyance}, {@spell sending}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell arcane eye}, {@spell divination}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell legend lore}, {@spell scrying}"
 						]
 					]
@@ -1418,94 +1418,94 @@
 			]
 		},
 		{
-			"name": "Prediction",
+			"name": "Предсказание",
 			"source": "DMHavuhkWitch",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Seers",
+			"subclassShortName": "Провидцы",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you can peer into the near future, and attempt to force the future you see to come to pass. When you see creature make an attack roll, ability check, or saving throw, you can use your reaction to roll a {@dice d4}, adding or subtracting the result to the creature's roll. You can do this after the creature rolls but before the outcome of the roll is determined.",
-				"You can use this ability a number of times equal to your Intelligence modifier. When you finish a long rest, you regain all expended uses."
+				"Начиная с 2-го уровня вы можете заглядывать в ближайшее будущее и пытаться заставить увиденное будущее сбыться. Когда вы видите, как существо совершает бросок атаки, проверку характеристики или спасбросок, вы можете использовать свою реакцию, чтобы бросить {@dice d4} и добавить или вычесть результат из броска существа. Вы можете сделать это после броска существа, но до определения его результата.",
+				"Вы можете использовать эту способность количество раз, равное вашему модификатору Интеллекта. Завершив продолжительный отдых, вы восстанавливаете все потраченные использования."
 			]
 		},
 		{
-			"name": "Mind's Eye",
+			"name": "Мысленный взор",
 			"source": "DMHavuhkWitch",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Seers",
+			"subclassShortName": "Провидцы",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you become able to sense the presence of others around you, even when you cannot see or hear them. You can use a bonus action to grant yourself {@sense blindsight} within 30ft, out to a range of 30 feet for 1 minute. When you do so, you become blinded if you aren't already. You can end this effect early as a bonus action."
+				"На 6-м уровне вы обретаете способность ощущать присутствие окружающих, даже когда не можете их видеть или слышать. Вы можете бонусным действием дать себе {@sense blindsight} в пределах 30 футов на 1 минуту. Делая это, вы становитесь ослеплённым, если ещё не были. Вы можете досрочно окончить этот эффект бонусным действием."
 			]
 		},
 		{
-			"name": "Pierce the Veil",
+			"name": "Проникновение за завесу",
 			"source": "DMHavuhkWitch",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Seers",
+			"subclassShortName": "Провидцы",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you can extend your senses to discover is you are being watched from afar. You can use an action to determine if you are being watched via magic, such as the {@spell scrying} or {@spell clairvoyance} spells, or the {@filter scar|optionalfeatures|feature type=dmhw:c} curse. You do not know who is watching you or how, simply that you are being observed."
+				"На 10-м уровне вы можете расширить свои чувства, чтобы узнать, не следят ли за вами издалека. Вы можете действием определить, наблюдают ли за вами посредством магии, например заклинаний {@spell scrying} или {@spell clairvoyance}, либо {@filter scar|optionalfeatures|feature type=dmhw:c} проклятия. Вы не знаете, кто за вами следит и как, — только то, что за вами наблюдают."
 			]
 		},
 		{
-			"name": "Between the Lines",
+			"name": "Между строк",
 			"source": "DMHavuhkWitch",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Seers",
+			"subclassShortName": "Провидцы",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you recognize that fate holds more than one outcome, and that your prediction is only one of many possibilities. When you use your 'Prediction' ability, you roll twice instead of once, and take the higher number."
+				"На 14-м уровне вы осознаёте, что у судьбы больше одного исхода и что ваше предсказание — лишь одна из многих возможностей. Используя способность «Предсказание», вы бросаете дважды вместо одного раза и берёте большее число."
 			]
 		},
 		{
-			"name": "Prophecy",
+			"name": "Пророчество",
 			"source": "DMHavuhkWitch",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Seers",
+			"subclassShortName": "Провидцы",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you have learned how to predict everything that will happen in the near future, giving you the ability to prevent it. As an action, you can choose to begin predicting the future. Until the start of your next turn, allies that can hear you within 60ft have advantage on all attack rolls, ability checks, and saving throws, and enemies have disadvantage on attack rolls against those allies.",
-				"Once you use this ability, you cannot do so again until you finish a long rest."
+				"На 18-м уровне вы научились предсказывать всё, что произойдёт в ближайшем будущем, что даёт вам способность это предотвращать. Действием вы можете начать предсказывать будущее. До начала вашего следующего хода союзники в пределах 60 футов от вас, которые вас слышат, совершают с преимуществом все броски атаки, проверки характеристик и спасброски, а враги совершают броски атаки по этим союзникам с помехой.",
+				"Использовав эту способность, вы не можете применить её снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Coven of Spirits",
+			"name": "Ковен духов",
 			"source": "DMHavuhkWitch",
 			"page": 9,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spirits",
+			"subclassShortName": "Духи",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"entries": [
-				"Witches of the Coven of Spirits have a connection to The Ethereal Plane, the home of ghosts and spirits. This connection allows them to take on a more ethereal form, phasing in and out of the Ethereal Plane. This allows the witch to avoid blows, making them proficient fighters. Over time, the witch begins to exhibit ghost-like qualities, with some being able to seperate their spirit from their body in times of peril.",
+				"Ведьмы Ковена духов связаны с Эфирным планом — домом призраков и духов. Эта связь позволяет им принимать более эфирную форму, смещаясь в Эфирный план и обратно. Это позволяет ведьме избегать ударов, делая её умелым бойцом. Со временем ведьма начинает проявлять призрачные качества, а некоторые способны отделять свой дух от тела в минуту опасности.",
 				{
 					"type": "table",
-					"caption": "Coven of Spirits Spells",
+					"caption": "Заклинания ковена духов",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1513,23 +1513,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell False Life}, {@spell Ice Knife|xge}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell blur}, {@spell invisibility}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell blink}, {@spell spirit guardians}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell banishment}, {@spell greater invisibility}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell cone of cold}, {@spell Steel Wind Strike|xge}"
 						]
 					]
@@ -1545,128 +1545,128 @@
 			]
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"name": "Бонусные владения",
 			"source": "DMHavuhkWitch",
 			"page": 9,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spirits",
+			"subclassShortName": "Духи",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When you choose this coven at 2nd level, you gain proficiency with shields and martial weapons."
+				"Выбирая этот ковен на 2-м уровне, вы получаете владение щитами и воинским оружием."
 			]
 		},
 		{
-			"name": "Ethereal Form",
+			"name": "Эфирная форма",
 			"source": "DMHavuhkWitch",
 			"page": 9,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spirits",
+			"subclassShortName": "Духи",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, your connection to the Ethereal Plane allows you to partially phase in and out. As a bonus action on your turn, you can transform for 1 minute. While in your Ethereal Form, you gain the following benefits:",
+				"Начиная с 2-го уровня ваша связь с Эфирным планом позволяет вам частично смещаться туда и обратно. Бонусным действием в свой ход вы можете превратиться на 1 минуту. В Эфирной форме вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"While not wearing armour, your AC equals 13 + your Intelligence modifier. You can use a shield and still gain this benefit.",
-						"You gain a fly speed equal to your movement speed. You fall if you end your turn in the air and nothing else is holding you aloft. At 14th level, you no longer fall if you end your turn in the air.",
-						"Creatures have disadvantage on attacks of opportunity against you.",
-						"You can choose to have your attacks deal force damage instead of their normal damage types."
+						"Пока вы не носите доспехи, ваш КД равен 13 + ваш модификатор Интеллекта. Вы можете использовать щит и по-прежнему получать это преимущество.",
+						"Вы получаете скорость полёта, равную вашей скорости перемещения. Вы падаете, если оканчиваете свой ход в воздухе и ничто иное не удерживает вас. На 14-м уровне вы больше не падаете, если оканчиваете свой ход в воздухе.",
+						"Существа совершают с помехой провоцированные атаки по вам.",
+						"Вы можете сделать так, чтобы ваши атаки наносили урон силовым полем вместо своих обычных типов урона."
 					]
 				},
-				"You have two uses of this feature. The number of uses of this feature increases to three at 6th level, four at 10th level, five at 14th level, and six at 18th level. You regain all expended uses when you finish a long rest."
+				"У вас есть два использования этого умения. Количество использований этого умения увеличивается до трёх на 6-м уровне, четырёх на 10-м, пяти на 14-м и шести на 18-м уровне. Вы восстанавливаете все потраченные использования, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Swift Strike",
+			"name": "Быстрый удар",
 			"source": "DMHavuhkWitch",
 			"page": 9,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spirits",
+			"subclassShortName": "Духи",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, when you cast a spell that has a range of self or touch, you can make one attack as a bonus action."
+				"На 6-м уровне, когда вы сотворяете заклинание с дистанцией «на себя» или «касание», вы можете бонусным действием совершить одну атаку."
 			]
 		},
 		{
-			"name": "Spirit Caller",
+			"name": "Заклинатель духов",
 			"source": "DMHavuhkWitch",
 			"page": 9,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spirits",
+			"subclassShortName": "Духи",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Also at 10th level, your connection to the Ethereal Plane allows you to call on the spirits of the dead. You gain the ability to call on the spirit of a creature that you know is dead.",
-				"You can perform a 1 hour ritual to cast the {@spell speak with dead} spell on a creature without expending a spell slot. When you cast the spell using this feature, you do not need the creature's corpse to be within range. However, you need to know the name of the creature that died.",
-				"Once you use this ability, you cannot do so again until you finish a long rest."
+				"Также на 10-м уровне ваша связь с Эфирным планом позволяет вам взывать к духам мёртвых. Вы получаете способность взывать к духу существа, о смерти которого вам известно.",
+				"Вы можете совершить 1-часовой ритуал, чтобы сотворить {@spell speak with dead} на существе без траты ячейки заклинания. Сотворяя заклинание с помощью этого умения, вам не нужно, чтобы труп существа был в пределах дистанции. Однако вам нужно знать имя умершего существа.",
+				"Использовав эту способность, вы не можете применить её снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Death Walker",
+			"name": "Ходящий со смертью",
 			"source": "DMHavuhkWitch",
 			"page": 9,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spirits",
+			"subclassShortName": "Духи",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, your attunement to the ethereal plane has strengthened your spirit, allowing it to exist separately from your body. When you are reduced to 0 hit points and not killed outright, you can choose to separate your spirit from your body, allowing you to continue fighting. While in your spirit form, you continue making death saving throws as normal, but you also gain the following benefits:",
+				"На 14-м уровне ваша настроенность на Эфирный план укрепила ваш дух, позволяя ему существовать отдельно от тела. Когда ваши хиты опускаются до 0 и вы не погибаете сразу, вы можете выбрать отделение своего духа от тела, что позволяет вам продолжать бой. Находясь в форме духа, вы продолжаете совершать спасброски от смерти как обычно, но также получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"Your spirit is immune to all damage, as well as the exhaustion, grappled, incapacitated, paralyzed, petrified, poisoned, restrained, stunned, and unconscious conditions.",
-						"Your spirit is able to move freely, and has a fly speed of 30ft, however it must remain within 60ft of your body.",
-						"You are able to attack, cast spells, and use curses as normal, however you cannot affect your own body."
+						"Ваш дух невосприимчив ко всему урону, а также к состояниям «истощённый», «захваченный», «недееспособный», «парализованный», «окаменевший», «отравленный», «опутанный», «ошеломлённый» и «бессознательный».",
+						"Ваш дух способен свободно перемещаться и имеет скорость полёта 30 футов, однако он должен оставаться в пределах 60 футов от вашего тела.",
+						"Вы можете как обычно атаковать, творить заклинания и использовать проклятия, однако не можете воздействовать на собственное тело."
 					]
 				},
-				"Your spirit remains until you are stabilized, regain any hit points, or you die. Once you use this feature, you cannot do so again until you finish a long rest."
+				"Ваш дух остаётся, пока вы не станете стабильным, не восстановите какие-либо хиты или не погибнете. Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Emergency Shift",
+			"name": "Экстренный сдвиг",
 			"source": "DMHavuhkWitch",
 			"page": 9,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spirits",
+			"subclassShortName": "Духи",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"By 18th level, your body has grown used to partially shifting in and out of the Ethereal Plane. Now, you've gained the ability to quickly shunt yourself into the Ethereal Plane to avoid harm. When you are hit with an attack, targeted by a spell or ability that would deal damage, or caught within an area of affect that would deal damage, you can use your reaction to quickly shift into the Ethereal Plane, avoiding all of the damage. You remain in the Ethereal Plane until the start of your next turn.",
-				"Once you use this ability, you cannot do so again until you finish a long rest."
+				"К 18-му уровню ваше тело привыкло частично смещаться в Эфирный план и обратно. Теперь вы обрели способность быстро уходить в Эфирный план, чтобы избежать вреда. Когда по вам попадают атакой, на вас нацеливают заклинание или способность, которые нанесли бы урон, или вы попадаете под действие эффекта по области, который нанёс бы урон, вы можете использовать свою реакцию, чтобы быстро сместиться в Эфирный план, избежав всего урона. Вы остаётесь в Эфирном плане до начала вашего следующего хода.",
+				"Использовав эту способность, вы не можете применить её снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Coven of Spite",
+			"name": "Ковен злобы",
 			"source": "DMHavuhkWitch",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spite",
+			"subclassShortName": "Злоба",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"entries": [
-				"For many, the path of the witch is one of freedom. While many witches are stigmatized as dark magicians and demon summoners, most choose this path as a way to be free of the restrictions of other mages. However, a select few choose to become witches not to be free to study magic in any way they see fit, but as a way to cause pain and suffering. Witches of the Coven of Spite see the potential in magic to torture and inflict pain, taking influence from demons, vampires, and other creatures of such ilk.",
+				"Для многих путь ведьмы — это путь свободы. Хотя многих ведьм клеймят как тёмных магов и призывателей демонов, большинство выбирает этот путь как способ освободиться от ограничений других магов. Однако немногие избранные становятся ведьмами не для того, чтобы свободно изучать магию как им угодно, а чтобы причинять боль и страдания. Ведьмы Ковена злобы видят в магии возможность пытать и причинять боль, беря пример с демонов, вампиров и других подобных существ.",
 				{
 					"type": "table",
-					"caption": "Coven of Spite Spells",
+					"caption": "Заклинания ковена злобы",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1674,23 +1674,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell cause fear|xge}, {@spell hex}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell darkness}, {@spell ray of enfeeblement}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell bestow curse}, {@spell fear}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell blight}, {@spell phantasmal killer}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell enervation|xge}, {@spell negative energy flood|xge}"
 						]
 					]
@@ -1702,95 +1702,95 @@
 			]
 		},
 		{
-			"name": "Curse of Spite",
+			"name": "Проклятие злобы",
 			"source": "DMHavuhkWitch",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spite",
+			"subclassShortName": "Злоба",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you've begun delving into the darker side of magic. The magic is simple to learn, as it only has one purpose; to cause pain. You have a pool of d6s called curse die. The number of dice is equal to your witch level.",
-				"When you cast a spell of 1st level or higher that targets another creature, you can choose to expend a number of curse die, dealing necrotic damage equal to the number rolled on the dice. The maximum number of dice you can spend at once equals your Intelligence modifier (minimum of one die).",
-				"Your pool regains all expended dice when you finish a long rest."
+				"Начиная с 2-го уровня вы начинаете углубляться в тёмную сторону магии. Эта магия проста в изучении, так как у неё лишь одна цель — причинять боль. У вас есть запас d6, называемых костями проклятия. Количество костей равно вашему уровню ведьмы.",
+				"Когда вы сотворяете заклинание 1-го уровня или выше, нацеленное на другое существо, вы можете потратить некоторое количество костей проклятия, нанося некротический урон, равный выпавшему на костях числу. Максимальное количество костей, которое вы можете потратить за раз, равно вашему модификатору Интеллекта (минимум одна кость).",
+				"Ваш запас восстанавливает все потраченные кости по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Hexmaster",
+			"name": "Мастер сглаза",
 			"source": "DMHavuhkWitch",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spite",
+			"subclassShortName": "Злоба",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you're proficiency with magic allows you to cut through a target's defenses. Your spells and abilities ignore resistance to necrotic damage. In addition, your visage strikes fear into the hearts of those around you, giving creatures within 10ft of you disadvantage on saving throws against spells and abilities that cause the '{@condition Frightened}' condition."
+				"На 6-м уровне ваше мастерство в магии позволяет вам пробивать защиту цели. Ваши заклинания и способности игнорируют сопротивление некротическому урону. Кроме того, ваш облик вселяет страх в сердца окружающих, давая существам в пределах 10 футов от вас помеху на спасброски против заклинаний и способностей, накладывающих состояние «{@condition Frightened}»."
 			]
 		},
 		{
-			"name": "Image of Fear",
+			"name": "Образ страха",
 			"source": "DMHavuhkWitch",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spite",
+			"subclassShortName": "Злоба",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, your visage strikes fear into the hearts of those around you, giving hostile creatures within 10ft of you disadvantage on saving throws against spells and abilities that cause the '{@condition Frightened}' condition."
+				"На 10-м уровне ваш облик вселяет страх в сердца окружающих, давая враждебным существам в пределах 10 футов от вас помеху на спасброски против заклинаний и способностей, накладывающих состояние «{@condition Frightened}»."
 			]
 		},
 		{
-			"name": "Vampiric Curse",
+			"name": "Вампирическое проклятие",
 			"source": "DMHavuhkWitch",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spite",
+			"subclassShortName": "Злоба",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you've taken inspiration from vampires and other creatures that drain the life force of others. When you deal damage with your curse die, you reduce the target's hit point maximum by an equal amount. Additionally, you regain hit points equal to half the damage dealt by your curse die."
+				"На 14-м уровне вы вдохновлялись вампирами и другими существами, вытягивающими жизненную силу других. Когда вы наносите урон своей костью проклятия, вы уменьшаете максимум хитов цели на такое же количество. Кроме того, вы восстанавливаете хиты, равные половине урона, нанесённого вашей костью проклятия."
 			]
 		},
 		{
-			"name": "Cackle",
+			"name": "Злорадный смех",
 			"source": "DMHavuhkWitch",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "Spite",
+			"subclassShortName": "Злоба",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, your voice alone is enough to cause pain to those around you. As an action, you can begin cackling manically. For the next minute, creatures you choose within 60ft of you that can hear you must make a Wisdom saving throw at the start of their turn. On a failure, the creature is {@condition frightened} of you. While {@condition frightened} in this way, the creature has disadvantage on saving throws against your spells. The creature may repeat the saving throw at the start of their turn, taking {@dice 2d10} psychic damage on a failure, and ending the effect on a success.",
-				"Once you use this ability, you cannot use it again until you finish a long rest."
+				"На 18-м уровне одного вашего голоса достаточно, чтобы причинять боль окружающим. Действием вы можете начать маниакально хихикать. В течение следующей минуты выбранные вами существа в пределах 60 футов от вас, которые вас слышат, должны совершить спасбросок Мудрости в начале своего хода. При провале существо становится {@condition frightened} вас. Пока оно {@condition frightened} таким образом, оно совершает спасброски против ваших заклинаний с помехой. Существо может повторять спасбросок в начале своего хода, получая {@dice 2d10} психического урона при провале и оканчивая эффект при успехе.",
+				"Использовав эту способность, вы не можете использовать её снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Coven of the Moon",
+			"name": "Ковен луны",
 			"source": "DMHavuhkWitch",
 			"page": 11,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "the Moon",
+			"subclassShortName": "луна",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"entries": [
-				"Witches of the Coven of the Moon are often the most reclusive in nature. Witches of this coven are those that seek to hide away from and deceive the world, casting illusions and enchantments to mislead others. As the name implies, these witches draw their power from the moon, often preferring to work at night while bathed in moonlight. Many of these witches idolize the moon in an almost religious fashion, seeing it as more than a source of power, and speaking of it almost like how one would praise a deity.",
+				"Ведьмы Ковена луны часто самые скрытные по натуре. Ведьмы этого ковена — те, кто стремится спрятаться от мира и обмануть его, творя иллюзии и чары, чтобы ввести других в заблуждение. Как следует из названия, эти ведьмы черпают силу из луны и часто предпочитают работать ночью, омытые лунным светом. Многие из этих ведьм поклоняются луне почти религиозно, видя в ней больше, чем источник силы, и говоря о ней почти как о божестве.",
 				{
 					"type": "table",
-					"caption": "Coven of Moon Spells",
+					"caption": "Заклинания ковена луны",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1798,23 +1798,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell charm person}, {@spell silent image}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell enthrall}, {@spell moonbeam}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell enemies abound|xge}, {@spell major image}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell confusion}, {@spell greater invisibility}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell modify memory}, {@spell seeming}"
 						]
 					]
@@ -1826,94 +1826,94 @@
 			]
 		},
 		{
-			"name": "Mantle of Moonlight",
+			"name": "Мантия лунного света",
 			"source": "DMHavuhkWitch",
 			"page": 11,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Moon",
+			"subclassShortName": "Луна",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you are able to shroud yourself in moonlight, granting you a brief moment of invisibility and deceiving your foes. As a bonus action on your turn, you can turn invisible. When you do so, you leave behind an illusiory duplicate of yourself. This effect lasts until the start of your next turn, at which point you become visible and the illusiory duplicate disappears.",
-				"You can use this feature twice. You regain all expended uses when you finish a long rest."
+				"Начиная с 2-го уровня вы можете окутать себя лунным светом, даруя себе краткий миг невидимости и обманывая врагов. Бонусным действием в свой ход вы можете стать невидимым. Делая это, вы оставляете за собой иллюзорного двойника. Этот эффект длится до начала вашего следующего хода, после чего вы становитесь видимым, а иллюзорный двойник исчезает.",
+				"Вы можете использовать эту способность дважды. Вы восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Eye for Illusions",
+			"name": "Глаз на иллюзии",
 			"source": "DMHavuhkWitch",
 			"page": 11,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Moon",
+			"subclassShortName": "Луна",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your knowledge of illusions makes it easier for you to identify magical deceptions. You have advantage on checks made to discover and see through illusions."
+				"На 6-м уровне ваше знание иллюзий облегчает вам распознавание магических обманов. Вы совершаете с преимуществом проверки, совершаемые, чтобы обнаружить иллюзии и распознать их."
 			]
 		},
 		{
-			"name": "Blessing of the Moon",
+			"name": "Благословение луны",
 			"source": "DMHavuhkWitch",
 			"page": 11,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Moon",
+			"subclassShortName": "Луна",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you've learned how to hide your spellcasting, making it nearly impossible to tell when your weaving lies. You no longer require verbal or somatic components to cast your illusion spells."
+				"На 10-м уровне вы научились скрывать своё колдовство, делая почти невозможным определить, когда ваше плетение лжёт. Вам больше не требуются вербальные или соматические компоненты для сотворения ваших заклинаний иллюзий."
 			]
 		},
 		{
-			"name": "Shattered Reality",
+			"name": "Разбитая реальность",
 			"source": "DMHavuhkWitch",
 			"page": 11,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Moon",
+			"subclassShortName": "Луна",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, the illusions that you create are near perfect, to the point where breaking the illusion is enough to shatter a person's mind. Whenever a creature targets one of your illusions with an attack, spell, or effect, you can use your reaction to cause the illusion to disappear. When you do so, the creature that targeted the illusion must make an Intelligence saving throw. On a failure, they suffer {@dice 2d8} psychic damage, and are incapacitated until the start of their next turn. On a success, they take half damage and are not incapacitated."
+				"На 14-м уровне создаваемые вами иллюзии почти безупречны — до такой степени, что разрушение иллюзии способно сломать разум человека. Всякий раз, когда существо нацеливается на одну из ваших иллюзий атакой, заклинанием или эффектом, вы можете использовать свою реакцию, чтобы заставить иллюзию исчезнуть. Делая это, существо, нацелившееся на иллюзию, должно совершить спасбросок Интеллекта. При провале оно получает {@dice 2d8} психического урона и становится недееспособным до начала своего следующего хода. При успехе оно получает половину урона и не становится недееспособным."
 			]
 		},
 		{
-			"name": "Mass Invisibility",
+			"name": "Массовая невидимость",
 			"source": "DMHavuhkWitch",
 			"page": 11,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Moon",
+			"subclassShortName": "Луна",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you can weave an illusory dome that veils you and your allies from your enemies sight. As an action, you can create a 30-foot radius at a point within 60 feet of you. While inside of this radius, you and any amount of creatures (which you choose when you create this radius) are invisible. You can use a bonus action on subsequent turns to move the radius up to 30 feet. The radius lasts for 1 minute, or until you dismiss it early as a bonus action.",
-				"Once you use this feature, you cannot do so again until you finish a long rest."
+				"На 18-м уровне вы можете сплести иллюзорный купол, скрывающий вас и ваших союзников от взгляда врагов. Действием вы можете создать радиус 30 футов в точке в пределах 60 футов от вас. Находясь внутри этого радиуса, вы и любое количество существ (которых вы выбираете при создании радиуса) невидимы. В последующие ходы вы можете бонусным действием переместить радиус на расстояние до 30 футов. Радиус существует 1 минуту или пока вы не развеете его досрочно бонусным действием.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Coven of the Wyld",
+			"name": "Ковен диких",
 			"source": "DMHavuhkWitch",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Wyld",
+			"subclassShortName": "Дикие",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"entries": [
-				"Wyld Witches have a connection to nature, allowing them to exert their will on the wildlife around them. They also have an affinty for alchemy, allowing them to brew potions and other concoctions. These are the kinds of witches people mention in fairytails, the green skinned hags living alone in the woods, leaning over a cauldron filled with a viscious purple liquid. While they may be untrustworthy, a Wyld Witch's potion may be the only thing that can save you from your demise.",
+				"Дикие ведьмы связаны с природой, что позволяет им навязывать свою волю окружающей живой природе. У них также есть склонность к алхимии, позволяющая им варить зелья и прочие снадобья. Это те ведьмы, о которых упоминают в сказках, — зеленокожие карги, живущие в одиночестве в лесу, склонившиеся над котлом, полным едкой фиолетовой жидкости. Хотя им, возможно, и нельзя доверять, зелье дикой ведьмы может оказаться единственным, что спасёт вас от гибели.",
 				{
 					"type": "table",
-					"caption": "Coven of the Wyld Spells",
+					"caption": "Заклинания ковена диких",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1921,23 +1921,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell Entangle}, {@spell Goodberry}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell Locate Animals or Plants}, {@spell Spike Growth}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell Plant Growth}, {@spell Speak with Plants}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell Blight}, {@spell Giant Insect}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell Commune with Nature}, {@spell Insect Plague}"
 						]
 					]
@@ -1957,73 +1957,73 @@
 			]
 		},
 		{
-			"name": "Bonus Proficiency",
+			"name": "Дополнительное владение",
 			"source": "DMHavuhkWitch",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Wyld",
+			"subclassShortName": "Дикие",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When you choose this coven at 2nd level, you gain proficiency with the {@skill Nature} skill and you learn the {@spell druidcraft} cantrip."
+				"Выбирая этот ковен на 2-м уровне, вы получаете владение навыком {@skill Nature} и изучаете заговор {@spell druidcraft}."
 			]
 		},
 		{
-			"name": "Potion Brewing",
+			"name": "Варка зелий",
 			"source": "DMHavuhkWitch",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Wyld",
+			"subclassShortName": "Дикие",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you learn to spend your spare time brewing potions. You learn to create two potions, which are detailed {@filter here|optionalfeatures|feature type=dmhw:p}. You learn to create an additional potion type at 6th, 10th, 14th, and 18th level.",
-				"During a long rest, you can choose to spend some of that time brewing potions. At the end of a long rest, you create one potion. When creating potions that have multiple options, such as '{@optfeature Elixir of Resistance|DMHavuhkWitch}', you must choose one of the options while creating the potion. The potions do not require any herbs or material components, as they are primarily magical. Because of this, you are only able to create a maximum of 3 potions. If you create a 4th potion, one of your other potions loses its magical properties (Your choice)."
+				"Начиная с 2-го уровня вы учитесь проводить свободное время за варкой зелий. Вы учитесь создавать два зелья, подробно описанных {@filter here|optionalfeatures|feature type=dmhw:p}. Вы учитесь создавать ещё один тип зелья на 6-м, 10-м, 14-м и 18-м уровне.",
+				"Во время продолжительного отдыха вы можете потратить часть этого времени на варку зелий. В конце продолжительного отдыха вы создаёте одно зелье. Создавая зелья, имеющие несколько вариантов, например «{@optfeature Эликсир сопротивления|DMHavuhkWitch}», вы должны выбрать один из вариантов при создании зелья. Зелья не требуют трав или материальных компонентов, так как они преимущественно магические. Из-за этого вы можете создать максимум 3 зелья. Если вы создаёте 4-е зелье, одно из других ваших зелий теряет свои магические свойства (на ваш выбор)."
 			]
 		},
 		{
-			"name": "Potion Options",
+			"name": "Варианты зелий",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Wyld",
+			"subclassShortName": "Дикие",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Potions created by the Wyld Witch come in one of three forms: {@b Elixirs}, which can be consumed to provide beneficial effects, {@b Poisons}, which cause harmful effects to those who ingest or contact them, and {@b Oils}, which can be applied to weapons or armour.",
-				"If a potion calls for a creature to make a saving throw, the saving throw is against your Spell Save DC.",
+				"Зелья, создаваемые дикой ведьмой, бывают одной из трёх форм: {@b эликсиры}, которые можно выпить для получения полезных эффектов, {@b яды}, вызывающие вредные эффекты у тех, кто их проглотит или коснётся, и {@b масла}, которые можно наносить на оружие или доспехи.",
+				"Если зелье требует, чтобы существо совершило спасбросок, спасбросок совершается против вашей Сл спасброска заклинаний.",
 				{
 					"type": "inset",
-					"name": "Rules for using Potions",
+					"name": "Правила использования зелий",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Drinking Elixirs",
+							"name": "Питьё эликсиров",
 							"page": 8,
 							"entries": [
-								"Drinking an elixir costs an action. Your DM can choose to make this cost a bonus action instead."
+								"Питьё эликсира стоит действия. Ваш Мастер может вместо этого сделать его стоимость бонусным действием."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "ApplyEach vial of poison carries 3 charges. Applying poison to a weapon costs an action and 1 charge. The poison on the weapon wears off after 1 minute or after the first hit. This applies to both melee and ranged weapons.ing Poison",
+							"name": "Нанесение яда. Каждая склянка яда содержит 3 заряда. Нанесение яда на оружие стоит действия и 1 заряда. Яд на оружии перестаёт действовать через 1 минуту или после первого попадания. Это касается и рукопашного, и дальнобойного оружия.",
 							"page": 8,
 							"entries": [
-								"Each vial of poison carries 3 charges. Applying poison to a weapon costs an action and 1 charge. The poison on the weapon wears off after 1 minute or after the first hit. This applies to both melee and ranged weapons."
+								"Каждая склянка яда содержит 3 заряда. Нанесение яда на оружие стоит действия и 1 заряда. Яд на оружии перестаёт действовать через 1 минуту или после первого попадания. Это касается и рукопашного, и дальнобойного оружия."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Applying Oils",
+							"name": "Нанесение масел",
 							"page": 8,
 							"entries": [
-								"Applying an oil takes 1 minute. The effect of the oil lasts for 1 hour."
+								"Нанесение масла занимает 1 минуту. Эффект масла длится 1 час."
 							]
 						}
 					]
@@ -2031,383 +2031,383 @@
 			]
 		},
 		{
-			"name": "One with Nature",
+			"name": "Одно целое с природой",
 			"source": "DMHavuhkWitch",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Wyld",
+			"subclassShortName": "Дикие",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you can disguise yourself as a part of your environment. As an action, you can transform into a plant, such as a small tree or a bush. While in this form, you have vulnerability to fire damage. A creature can make an intelligence (investigation) check against your Spell Save DC to see through your disguise.",
-				"This disguise lasts for 10 minutes, until you are reduced to 0 hit points, or until you end it early (no action required). You can use this feature a number of times equal to your Intelligence modifier (minimum of 1). You regain all expended uses at the end of a long rest."
+				"На 6-м уровне вы можете замаскироваться под часть своего окружения. Действием вы можете превратиться в растение, например в небольшое дерево или куст. Находясь в этой форме, вы получаете уязвимость к урону огнём. Существо может совершить проверку Интеллекта (Анализ) против вашей Сл спасброска заклинаний, чтобы распознать вашу маскировку.",
+				"Эта маскировка длится 10 минут, пока ваши хиты не опустятся до 0 или пока вы не окончите её досрочно (действие не требуется). Вы можете использовать это умение количество раз, равное вашему модификатору Интеллекта (минимум 1). Вы восстанавливаете все потраченные использования в конце продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Alchemical Knowledge",
+			"name": "Алхимические знания",
 			"source": "DMHavuhkWitch",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Wyld",
+			"subclassShortName": "Дикие",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you have become very accustomed to creating potions, and have a deep understanding of how they function. You have advantage on checks based on identifying potions and poisons. In addition, the maximum number of potions you can have at once is increased from 3 to 4."
+				"На 10-м уровне вы очень привыкли к созданию зелий и глубоко понимаете, как они работают. Вы совершаете с преимуществом проверки, основанные на определении зелий и ядов. Кроме того, максимальное количество зелий, которое вы можете иметь одновременно, увеличивается с 3 до 4."
 			]
 		},
 		{
-			"name": "Budding Defence",
+			"name": "Расцветающая защита",
 			"source": "DMHavuhkWitch",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Wyld",
+			"subclassShortName": "Дикие",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you can conjure a large flower bud to protect yourself from harm. When you take damage, you can use your reaction to encase yourself in a large flower bud. The bud has a number of hit points equal to 5 times your witch level, and takes as much of the triggering damage as possible. While you are in the bud, your speed is reduced to 0, you are incapacitated, and you cannot be targeted by any spells or effects.",
-				"You remain inside of the bud until the start of your next turn, or until the bud is reduced to 0 hit points.",
-				"Once you use this feature, you cannot do so again until you finish a long rest."
+				"На 14-м уровне вы можете создать большой цветочный бутон, чтобы защитить себя от вреда. Когда вы получаете урон, вы можете использовать свою реакцию, чтобы заключить себя в большой цветочный бутон. Бутон имеет хиты, равные 5, умноженным на ваш уровень ведьмы, и принимает на себя как можно большую часть вызвавшего его урона. Пока вы находитесь в бутоне, ваша скорость снижена до 0, вы недееспособны, и по вам не могут быть нацелены никакие заклинания или эффекты.",
+				"Вы остаётесь внутри бутона до начала вашего следующего хода или пока хиты бутона не опустятся до 0.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Dual-Mix",
+			"name": "Двойная смесь",
 			"source": "DMHavuhkWitch",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "DMHavuhkWitch",
-			"subclassShortName": "The Wyld",
+			"subclassShortName": "Дикие",
 			"subclassSource": "DMHavuhkWitch",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, when you create a potion, you can choose to infuse it with two effects, instead of one. For example, you could create a potion that has the effects of an {@optfeature Elixir of Healing|DMHavuhkWitch} and an {@optfeature Elixir of Life|DMHavuhkWitch}. However, these potions count as two instead of one for the sake of your maximum number of potions.",
-				"When creating a potion with two effects, both effects must be of the same type. For example, you cannot create a potion that has an elixir effect and a poison effect."
+				"На 18-м уровне, создавая зелье, вы можете выбрать, чтобы влить в него два эффекта вместо одного. Например, вы можете создать зелье, обладающее эффектами {@optfeature Эликсир исцеления|DMHavuhkWitch} и {@optfeature Эликсир жизни|DMHavuhkWitch}. Однако такие зелья считаются двумя вместо одного при подсчёте вашего максимального количества зелий.",
+				"Создавая зелье с двумя эффектами, оба эффекта должны быть одного типа. Например, вы не можете создать зелье, обладающее и эффектом эликсира, и эффектом яда."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Agony",
+			"name": "Агония",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"The target is wracked with pain, making every minor cut feel like a fatal injury. The creature must make a Constitution saving throw. On a failure, for the next minute, whenever any creature deals damage to the cursed creature, they may reroll a 1 on the damage die and use the new roll."
+				"Цель терзает боль, из-за которой каждая мелкая царапина ощущается как смертельная рана. Существо должно совершить спасбросок Телосложения. При провале в течение следующей минуты всякий раз, когда любое существо наносит проклятому существу урон, оно может перебросить 1 на кости урона и использовать новый результат."
 			]
 		},
 		{
-			"name": "Armour Polish Oil",
+			"name": "Масло для полировки доспехов",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature can spend 1 minute applying this oil to a piece of non-magical armour or shield. For the next hour, the armour grants an additional +1 bonus to the creature's AC. This bonus increases to +2 at 10th level, and +3 at 14th level. This effect cannot stack."
+				"Существо может потратить 1 минуту, чтобы нанести это масло на немагический доспех или щит. В течение следующего часа доспех даёт дополнительный бонус +1 к КД существа. Этот бонус увеличивается до +2 на 10-м уровне и до +3 на 14-м уровне. Этот эффект не складывается."
 			]
 		},
 		{
-			"name": "Bind",
+			"name": "Связывание",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You attempt to charm the creature's legs, preventing them from moving. The creature must make a Strength saving throw. On a failure, for the next minute, the creature's speed is 0. The creature can repeat the saving throw at the end of their turn, ending the curse on a success."
+				"Вы пытаетесь зачаровать ноги существа, не давая ему двигаться. Существо должно совершить спасбросок Силы. При провале в течение следующей минуты скорость существа равна 0. Существо может повторять спасбросок в конце своего хода, оканчивая проклятие при успехе."
 			]
 		},
 		{
-			"name": "Bleed",
+			"name": "Кровотечение",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You curse a creature, causing blood to pour from any open wounds. The creature must make a Constitution saving throw. On a failure, for the next minute, they cannot regain hit points, and suffer an additional {@dice 1d4} damage whenever they are hit by a weapon attack. This curse does not work on creatures that do not have blood."
+				"Вы проклинаете существо, заставляя кровь хлестать из любых открытых ран. Существо должно совершить спасбросок Телосложения. При провале в течение следующей минуты оно не может восстанавливать хиты и получает дополнительно {@dice 1d4} урона всякий раз, когда по нему попадают атакой оружием. Это проклятие не действует на существ, у которых нет крови."
 			]
 		},
 		{
-			"name": "Doubt",
+			"name": "Сомнение",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You force feelings of doubt into a creature's heart, making them hesitate. The creature must make a Wisdom saving throw. On a failure, for the next minute, whenever they try to attack a creature, they must make an additional Wisdom saving throw. If they fail, they must use their action for something other than attacking. This curse does not stop them from harming creatures with area effects, such as a dragon's breath attack. The cursed creature may repeat the saving throw at the end of their turn or whenever they take damage, ending the curse on a success."
+				"Вы вселяете в сердце существа чувство сомнения, заставляя его колебаться. Существо должно совершить спасбросок Мудрости. При провале в течение следующей минуты всякий раз, когда оно пытается атаковать существо, оно должно совершить дополнительный спасбросок Мудрости. При провале оно должно использовать своё действие на что-то иное, а не на атаку. Это проклятие не мешает ему вредить существам эффектами по области, например дыханием дракона. Проклятое существо может повторять спасбросок в конце своего хода или всякий раз, когда получает урон, оканчивая проклятие при успехе."
 			]
 		},
 		{
-			"name": "Drow Poison",
+			"name": "Яд дроу",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature that is subjected to this poison must make a Constitution saving throw, or be {@condition poisoned} for 1 hour. If the creature fails the saving throw by 5 or more, the creature is also {@condition unconscious} while poisoned in this way. The creature has disadvantage on the saving throw if they ingest the poison, and wakes up if it takes damage or if another creature takes an action to shake it awake."
+				"Существо, подвергнутое действию этого яда, должно совершить спасбросок Телосложения, иначе оно становится {@condition poisoned} на 1 час. Если существо проваливает спасбросок на 5 или больше, оно также становится {@condition unconscious}, пока отравлено таким образом. Существо совершает спасбросок с помехой, если проглатывает яд, и просыпается, если получает урон или если другое существо действием трясёт его, чтобы разбудить."
 			]
 		},
 		{
-			"name": "Elemental Oil",
+			"name": "Стихийное масло",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature can spend 1 minute applying this oil to a non-magical weapon. For the next hour, the weapon deals an additional {@dice 1d4} fire, cold, or lightning damage. The damage increases to {@dice 1d6} at 6th level, {@dice 1d8} at 10th level, {@dice 1d10} at 14th level, and {@dice 1d12} at 18th level."
+				"Существо может потратить 1 минуту, чтобы нанести это масло на немагическое оружие. В течение следующего часа оружие наносит дополнительно {@dice 1d4} урона огнём, холодом или электричеством. Урон увеличивается до {@dice 1d6} на 6-м уровне, {@dice 1d8} на 10-м, {@dice 1d10} на 14-м и {@dice 1d12} на 18-м уровне."
 			]
 		},
 		{
-			"name": "Elixir of Healing",
+			"name": "Эликсир исцеления",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature can drink this elixir to regain {@dice 2d6} hit points. The healing increases to {@dice 4d6} at 6th level, {@dice 6d6} at 10th level, and {@dice 8d6} at 14th level."
+				"Существо может выпить этот эликсир, чтобы восстановить {@dice 2d6} хитов. Лечение увеличивается до {@dice 4d6} на 6-м уровне, {@dice 6d6} на 10-м и {@dice 8d6} на 14-м уровне."
 			]
 		},
 		{
-			"name": "Elixir of Life",
+			"name": "Эликсир жизни",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature that drinks this elixir gains 5 temporary hit points at the start of its turn for 1 minute. The amount of temporary hit points gained increases to 7 at 6th level, 10 at 10th level, and 12 at 14th level."
+				"Существо, выпившее этот эликсир, получает 5 временных хитов в начале своего хода в течение 1 минуты. Количество получаемых временных хитов увеличивается до 7 на 6-м уровне, до 10 на 10-м и до 12 на 14-м уровне."
 			]
 		},
 		{
-			"name": "Elixir of Potential",
+			"name": "Эликсир потенциала",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"When you create this elixir, choose an ability score: Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma. A creature that drinks this elixir has the chosen ability score increased by +2 for 1 minute. This bonus cannot increase an ability score past 20. At 10th level, the duration increases to 1 hour, and at 14th level, the bonus increases to +4. This effect cannot stack"
+				"Создавая этот эликсир, выберите характеристику: Сила, Ловкость, Телосложение, Интеллект, Мудрость или Харизма. У существа, выпившего этот эликсир, выбранная характеристика увеличивается на +2 на 1 минуту. Этот бонус не может поднять характеристику выше 20. На 10-м уровне длительность увеличивается до 1 часа, а на 14-м уровне бонус увеличивается до +4. Этот эффект не складывается"
 			]
 		},
 		{
-			"name": "Elixir of Resistance",
+			"name": "Эликсир сопротивления",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"When you create this elixir, choose a damage type: Acid, Fire, Cold, Lightning, Poison, Radiant, or Necrotic. A creature that drinks this elixir gains resistance to that damage type for 10 minutes. At 10th level, the duration increases to 1 hour."
+				"Создавая этот эликсир, выберите тип урона: кислота, огонь, холод, электричество, яд, излучение или некротический урон. Существо, выпившее этот эликсир, получает сопротивление этому типу урона на 10 минут. На 10-м уровне длительность увеличивается до 1 часа."
 			]
 		},
 		{
-			"name": "Elixir of Speed",
+			"name": "Эликсир скорости",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature that drinks this elixir has their speed increased by 10 feet for 1 hour. This bonus increases to 20 feet at 10th level."
+				"Скорость существа, выпившего этот эликсир, увеличивается на 10 футов на 1 час. Этот бонус увеличивается до 20 футов на 10-м уровне."
 			]
 		},
 		{
-			"name": "Elixir of Vitality",
+			"name": "Эликсир бодрости",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature that drinks this elixir is instantly cured of any disease or poison afflicting them."
+				"Существо, выпившее этот эликсир, мгновенно излечивается от любой болезни или яда, поразивших его."
 			]
 		},
 		{
-			"name": "Empathy",
+			"name": "Эмпатия",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You form a bond with the target, forcing them to feel your pain. The creature must make a Wisdom saving throw. On a failure, for the next minute, whenever you take damage, you can use your reaction to cause the target to take psychic damage equal to your witch level. At the end of the cursed creatures turn, or whenever they take damage from this curse, they can repeat the saving throw, ending the curse on a sucess."
+				"Вы образуете связь с целью, заставляя её чувствовать вашу боль. Существо должно совершить спасбросок Мудрости. При провале в течение следующей минуты всякий раз, когда вы получаете урон, вы можете использовать свою реакцию, чтобы заставить цель получить психический урон, равный вашему уровню ведьмы. В конце хода проклятого существа или всякий раз, когда оно получает урон от этого проклятия, оно может повторить спасбросок, оканчивая проклятие при успехе."
 			]
 		},
 		{
-			"name": "Iron Skin Oil",
+			"name": "Масло железной кожи",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature can spend 1 minute applying this oil to their skin. For the next hour, the creature's AC cannot be lower than 13, regardless of what kind of armour it is wearing. The AC increases to 15 at 10th level, and 17 at 14th level."
+				"Существо может потратить 1 минуту, чтобы нанести это масло на свою кожу. В течение следующего часа КД существа не может быть ниже 13, независимо от того, какие доспехи оно носит. КД увеличивается до 15 на 10-м уровне и до 17 на 14-м уровне."
 			]
 		},
 		{
-			"name": "Karma",
+			"name": "Карма",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You twist the supernatural forces of luck, preventing them from benefiting the target. The creature must make a Charisma saving throw. On a failure, they are unable to gain advantage on ability checks and attack rolls for 1 minute. The cursed creature may repeat the saving throw at the end of their turn, ending the curse on a success."
+				"Вы искажаете сверхъестественные силы удачи, не давая им приносить пользу цели. Существо должно совершить спасбросок Харизмы. При провале оно не может получать преимущество на проверки характеристик и броски атаки в течение 1 минуты. Проклятое существо может повторять спасбросок в конце своего хода, оканчивая проклятие при успехе."
 			]
 		},
 		{
-			"name": "Mark",
+			"name": "Метка",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"The target has a magical mark placed on them, guiding others' spells and weapons. The creature must make a Wisdom saving throw. On a failure, for the next minute, creatures other than you have advantage on attack rolls against the cursed creature. Once the cursed target has been hit with an attack, the mark disapears, reappearing at the start of your next turn."
+				"На цель наложена магическая метка, направляющая чужие заклинания и оружие. Существо должно совершить спасбросок Мудрости. При провале в течение следующей минуты существа, кроме вас, совершают броски атаки по проклятому существу с преимуществом. Как только по проклятой цели попадают атакой, метка исчезает, появляясь вновь в начале вашего следующего хода."
 			]
 		},
 		{
-			"name": "Oil of Sharpness",
+			"name": "Масло остроты",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature can spend 1 minute applying this oil to a non-magical weapon or 10 pieces of ammo. For the next hour, the weapon or ammo has a +1 bonus to attack rolls. This bonus increases to +2 at 10t level, and +3 at 14th level."
+				"Существо может потратить 1 минуту, чтобы нанести это масло на немагическое оружие или 10 единиц боеприпасов. В течение следующего часа оружие или боеприпасы получают +1 к броскам атаки. Этот бонус увеличивается до +2 на 10-м уровне и до +3 на 14-м уровне."
 			]
 		},
 		{
-			"name": "Paralysis Poison",
+			"name": "Парализующий яд",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature that is subjected to this poison must make a Constitution saving throw, or be {@condition poisoned} until the end of their next turn. The poisoned creature is {@condition paralyzed}.",
-				"Once a creature has been affected by this poison, they become immune to its effects for 24 hours."
+				"Существо, подвергнутое действию этого яда, должно совершить спасбросок Телосложения, иначе оно становится {@condition poisoned} до конца своего следующего хода. Отравленное существо становится {@condition paralyzed}.",
+				"После того как на существо подействовал этот яд, оно становится невосприимчиво к его эффектам на 24 часа."
 			]
 		},
 		{
-			"name": "Pure Poison",
+			"name": "Чистый яд",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature that is subjected to this poison must make a Constitution saving throw, suffering {@dice 1d4} poison damage on a fail, or half as much on a success.",
-				"This damage increases to {@dice 2d4} at 6th level, {@dice 3d4} at 10th level, and {@dice 4d4} at 14th level."
+				"Существо, подвергнутое действию этого яда, должно совершить спасбросок Телосложения, получая {@dice 1d4} урона ядом при провале или половину этого при успехе.",
+				"Этот урон увеличивается до {@dice 2d4} на 6-м уровне, {@dice 3d4} на 10-м и {@dice 4d4} на 14-м уровне."
 			]
 		},
 		{
-			"name": "Rage",
+			"name": "Ярость",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You force feelings of rage into a creature's heart, causing them to lash out at everyone around them. The creature must make a Wisdom saving throw. On a failure, on the creature's next turn, the cursed creature must spend their action attacking the nearest creature. If they have multi-attack, they must use it."
+				"Вы вселяете в сердце существа чувство ярости, заставляя его набрасываться на всех вокруг. Существо должно совершить спасбросок Мудрости. При провале в свой следующий ход проклятое существо должно потратить своё действие на атаку по ближайшему существу. Если оно обладает мультиатакой, оно должно её использовать."
 			]
 		},
 		{
-			"name": "Scar",
+			"name": "Шрам",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You place an invisible mark on a creature, allowing you to monitor them, no matter how far away they are. The creature must make a Wisdom saving throw. On a failure, they are marked until you end the effect. While the target is marked, you sense the direction to the creature's location, and know how far away they are. A creature that succeeds on their saving throw is immune to this curse for 24 hours.",
-				"Unlike other curses, Scar does not end if the target creature moves more than 60ft away."
+				"Вы ставите невидимую метку на существо, позволяя себе следить за ним на любом расстоянии. Существо должно совершить спасбросок Мудрости. При провале оно отмечено, пока вы не окончите эффект. Пока цель отмечена, вы чувствуете направление к её местоположению и знаете, как далеко она находится. Существо, преуспевшее в спасброске, получает иммунитет к этому проклятию на 24 часа.",
+				"В отличие от других проклятий, «Шрам» не оканчивается, если целевое существо отходит от вас дальше чем на 60 футов."
 			]
 		},
 		{
-			"name": "Silence",
+			"name": "Тишина",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You attempt to charm the creatures tongue, forcing them to be silent. The creature must make a Charisma saving throw. On a failure, they are unable to speak or use verbal components until the end of their next turn"
+				"Вы пытаетесь зачаровать язык существа, вынуждая его молчать. Существо должно совершить спасбросок Харизмы. При провале оно не может говорить или использовать вербальные компоненты до конца своего следующего хода."
 			]
 		},
 		{
-			"name": "Silver Tongue Elixir",
+			"name": "Эликсир серебряного языка",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature that drinks this elixir has advantage on Charisma checks for 10 minutes. At 10th level, the duration increases to 1 hour."
+				"Существо, выпившее этот эликсир, совершает с преимуществом проверки Харизмы в течение 10 минут. На 10-м уровне длительность увеличивается до 1 часа."
 			]
 		},
 		{
-			"name": "Terror",
+			"name": "Ужас",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You force the feeling of fear into a creature's heart, shaking them to their core. The creature must make a Wisdom saving throw. On a failure, choose a creature or object that you can see. For the next minute, the cursed creature is considered '{@condition frightened}' of the creature or object you chose. The cursed creature may repeat the saving throw at the end of their turn, ending the curse on a success."
+				"Вы вселяете в сердце существа чувство страха, потрясая его до глубины души. Существо должно совершить спасбросок Мудрости. При провале выберите существо или предмет, который вы можете видеть. В течение следующей минуты проклятое существо считается «{@condition frightened}» выбранного вами существа или предмета. Проклятое существо может повторять спасбросок в конце своего хода, оканчивая проклятие при успехе."
 			]
 		},
 		{
-			"name": "Truth",
+			"name": "Правда",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You attempt to charm the creature's tongue, preventing them from lying. The creature must make a Charisma saving throw. If they fail, they are unable to tell a deliberate lie for 1 minute. A creature that succeeds on their saving throw is immune to this curse for 24 hours."
+				"Вы пытаетесь зачаровать язык существа, не давая ему лгать. Существо должно совершить спасбросок Харизмы. При провале оно не способно намеренно лгать в течение 1 минуты. Существо, преуспевшее в спасброске, получает иммунитет к этому проклятию на 24 часа."
 			]
 		},
 		{
-			"name": "Weakening Poison",
+			"name": "Ослабляющий яд",
 			"source": "DMHavuhkWitch",
 			"page": 8,
 			"featureType": [
 				"DMHW:P"
 			],
 			"entries": [
-				"A creature that is subjected to this poison must make a Constitution saving throw. On a failure, any weapon attack they make deals {@dice 1d4} less damage for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-				"Once a creature has been affected by this poison, they become immune to its effects for 24 hours."
+				"Существо, подвергнутое действию этого яда, должно совершить спасбросок Телосложения. При провале любая совершаемая им атака оружием наносит {@dice 1d4} меньше урона в течение 1 минуты. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе.",
+				"После того как на существо подействовал этот яд, оно становится невосприимчиво к его эффектам на 24 часа."
 			]
 		},
 		{
-			"name": "Wither",
+			"name": "Увядание",
 			"source": "DMHavuhkWitch",
 			"page": 12,
 			"featureType": [
 				"DMHW:C"
 			],
 			"entries": [
-				"You cause the creature to rapidly age, slowing them down. The creature must make a Wisdom saving throw. On a failure, for the next minute, they lose the ability to take reactions, and on their turn, they can use an Action or a Bonus Action, not both. At the end of the creature's turn, they can repeat the saving throw, ending the effect on a success."
+				"Вы заставляете существо быстро стареть, замедляя его. Существо должно совершить спасбросок Мудрости. При провале в течение следующей минуты оно теряет способность совершать реакции и в свой ход может использовать либо действие, либо бонусное действие, но не оба. В конце хода существа оно может повторить спасбросок, оканчивая эффект при успехе."
 			]
 		}
 	],
 	"spell": [
 		{
-			"name": "Animate Hair",
+			"name": "Оживление волос",
 			"source": "DMHavuhkWitch",
 			"page": 14,
 			"level": 0,
@@ -2433,12 +2433,12 @@
 				}
 			],
 			"entries": [
-				"Your hair extends and comes to life, before lashing out at your foes. When you cast this spell, choose a creature within 5 feet of you to target, and choose one of the following effects:",
+				"Ваши волосы удлиняются и оживают, прежде чем обрушиться на врагов. Сотворяя это заклинание, выберите существо в пределах 5 футов от вас в качестве цели и выберите один из следующих эффектов:",
 				{
 					"type": "list",
 					"items": [
-						"Your hair attempts to grapple the target. Make a grapple check against a creature within 5 feet of you, using yourSpell Attack Bonus instead of Athletics. On a success, the target is grappled by your hair.",
-						"Your hair hardens and attempts to stab the creature. Make a melee spell attack against the target. On a hit, you deal 1d8 piercing damage."
+						"Ваши волосы пытаются захватить цель. Совершите проверку захвата против существа в пределах 5 футов от вас, используя ваш бонус атаки заклинанием вместо Атлетики. При успехе цель захвачена вашими волосами.",
+						"Ваши волосы затвердевают и пытаются пронзить существо. Совершите рукопашную атаку заклинанием по цели. При попадании вы наносите 1d8 колющего урона."
 					]
 				}
 			],
@@ -2458,7 +2458,7 @@
 			]
 		},
 		{
-			"name": "Baba Yaga's Moving Hut",
+			"name": "Ходячая изба Бабы-яги",
 			"source": "DMHavuhkWitch",
 			"page": 14,
 			"level": 7,
@@ -2480,7 +2480,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "A mundane broom",
+					"text": "Обычная метла",
 					"consume": false
 				}
 			},
@@ -2495,12 +2495,12 @@
 				}
 			],
 			"entries": [
-				"You cause a house to appear on ground you can see within range. The hut must fit within an unoccupied cube of space, up to 60 feet on each side. The hut remains until the spell ends. If you cast this spell again before the duration ends, you can refresh the duration of the hut.",
-				"You make all decisions about the hut's appearance, as well as any furnishing inside the hut. The interior is enclosed by a floor, walls, and a roof. You decide how many doors and windows there are when you cast the spell.",
-				"You and any creature you designate can enter the hut without issue. If a creature you have not designated attempts to enter the hut, you instantly know, and can choose to make the door or window they attempt to enter through grows a large mouth, and attempt to bite the creature. Make a melee spell attack against the creature. On a hit, the hut deals 4d8piercing damage, and the creature is grappled if it is large or smaller. The hut can remake the attack against a grappled target at advantage until the grapple ends.",
-				"The hut has an AC of 15, and 200 hit points. It has resistance to bludgeoning, piercing, and slashing damage from non-magical weapons, and is immune to necrotic, poison, and psychic damage. The house is considered a construct, however it is able to be healed with spells such as cure wounds. If the hut is reduced to 0 hit points, the spell ends, and the hut disappears, along with any objects and furnishings created with this spell.",
-				"As an action, you can cause the hut to grow a pair of legs. You decide the appearance of these legs. When you do so, the house gains a movement speed of 60 feet. You can mentally command the hut to move to a point you can see (no action required). Alternatively, you can state a destination, and the house will begin moving towards that destination without you needing to constantly tell it where to move, as long as you know where the destination is. Additionally, you can use an action to call the house to you, as long as it is on the same plane of existence as you. The house immediately sprouts legs if it hasn't already, and begins move directly towards you as quickly as it can. The house takes the most direct route possible, but will not move through areas that will harm it, such as running off a cliff or through lava, unless you command it to.",
-				"Finally, you can choose to cast this spell on a house instead of creating a house, as long as the house is no larger than the hut could be. The house must have a door, four walls, one floor, and a roof to be considered a house. When you do so, the house gains the same properties as the hut for the duration of this spell. If you cast this spell on the same house for a year, or cast the spell on a hut created by this spell for a year, the effect becomes permanent."
+				"Вы заставляете дом появиться на земле, которую видите в пределах дистанции. Хижина должна помещаться в незанятом кубе пространства со стороной до 60 футов. Хижина остаётся, пока заклинание не окончится. Если вы сотворите это заклинание снова до окончания длительности, вы можете обновить длительность хижины.",
+				"Вы принимаете все решения о внешнем виде хижины, а также о любой обстановке внутри неё. Внутреннее пространство ограничено полом, стенами и крышей. Вы решаете, сколько в ней дверей и окон, когда сотворяете заклинание.",
+				"Вы и любое назначенное вами существо можете войти в хижину без помех. Если существо, которое вы не назначили, пытается войти в хижину, вы мгновенно узнаёте об этом и можете сделать так, чтобы дверь или окно, через которое оно пытается войти, отрастило большую пасть и попыталось укусить это существо. Совершите рукопашную атаку заклинанием по существу. При попадании хижина наносит 4d8 колющего урона, а существо становится захваченным, если оно большого размера или меньше. Хижина может повторять атаку по захваченной цели с преимуществом, пока захват не окончится.",
+				"Хижина имеет КД 15 и 200 хитов. Она обладает сопротивлением дробящему, колющему и рубящему урону от немагического оружия и невосприимчива к некротическому урону, урону ядом и психическому урону. Дом считается конструктом, однако его можно лечить такими заклинаниями, как «Лечение ран». Если хиты хижины опускаются до 0, заклинание оканчивается, и хижина исчезает вместе со всеми предметами и обстановкой, созданными этим заклинанием.",
+				"Действием вы можете заставить хижину отрастить пару ног. Вы определяете внешний вид этих ног. Делая это, дом получает скорость перемещения 60 футов. Вы можете мысленно приказывать хижине переместиться в точку, которую видите (действие не требуется). Alternatively, вы можете назвать пункт назначения, и дом начнёт двигаться к нему без необходимости постоянно указывать, куда идти, если вы знаете, где находится этот пункт. Кроме того, вы можете действием призвать дом к себе, если он находится на том же плане существования, что и вы. Дом немедленно отращивает ноги, если ещё не отрастил, и начинает двигаться прямо к вам так быстро, как может. Дом идёт самым прямым возможным путём, но не будет двигаться через области, которые ему навредят, например не сорвётся с обрыва и не пойдёт через лаву, если вы не прикажете ему.",
+				"Наконец, вы можете сотворить это заклинание на дом вместо создания дома, если дом не больше, чем могла бы быть хижина. Чтобы считаться домом, у дома должны быть дверь, четыре стены, один пол и крыша. Делая это, дом получает те же свойства, что и хижина, на время действия этого заклинания. Если вы сотворяете это заклинание на один и тот же дом в течение года или сотворяете заклинание на хижину, созданную этим заклинанием, в течение года, эффект становится постоянным."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2515,7 +2515,7 @@
 			]
 		},
 		{
-			"name": "Bubbling Cauldron",
+			"name": "Бурлящий котёл",
 			"source": "DMHavuhkWitch",
 			"page": 14,
 			"level": 3,
@@ -2537,7 +2537,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "A miniature iron cauldron",
+					"text": "Миниатюрный железный котёл",
 					"consume": false
 				}
 			},
@@ -2552,8 +2552,8 @@
 				}
 			],
 			"entries": [
-				"You conjure a cauldron filled with bubbling acid, attempting to trap a creature inside. Choose a large or smaller creature within range. The creature must make a Dexterity saving throw. On a failure, the creature takes 2d8 acid damage, and is traped inside the cauldron. The creature is blinded and restrained, and has total cover against all attacks and effects outside of the cauldron. Additionally, the creature takes 2d8 acid damage at the start of it's turn.",
-				"A creature can use an action to make a Strength check against your Spell Save DC. On a success, they remove the lid from the cauldron, and the spell ends."
+				"Вы создаёте котёл, полный бурлящей кислоты, пытаясь поймать в него существо. Выберите существо большого размера или меньше в пределах дистанции. Существо должно совершить спасбросок Ловкости. При провале существо получает 2d8 урона кислотой и оказывается заперто внутри котла. Существо ослеплено, опутано и имеет полное укрытие от всех атак и эффектов снаружи котла. Кроме того, в начале своего хода существо получает 2d8 урона кислотой.",
+				"Существо может действием совершить проверку Силы против вашей Сл спасброска заклинаний. При успехе оно снимает крышку с котла, и заклинание оканчивается."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2574,7 +2574,7 @@
 			]
 		},
 		{
-			"name": "Burning Stake",
+			"name": "Горящий кол",
 			"source": "DMHavuhkWitch",
 			"page": 15,
 			"level": 5,
@@ -2596,7 +2596,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "A wooden stake",
+					"text": "Деревянный кол",
 					"consume": true
 				}
 			},
@@ -2611,9 +2611,9 @@
 				}
 			],
 			"entries": [
-				"You cause a large wooden stake to sprout from the ground at a point you can see within range. Ropes magically spring from the stake, attempting to restrain any nearby enemies. Choose any number of creatures within 10 feet of the stake. The chosen creatures must make a Strength saving throw. On a failure, the creatures are pulled within 5 feet of the stake, and are restrained. You can use a bonus action on subsequent turns to force a creature within 10 feet of the stake to make the saving throw again.",
-				"As a bonus action, you can cause the stake to ignite. Any creature restrained by this spell immediately take 6d6 fire damage, and take an additional 4d6 fire damage if they end their turn while still restrained.",
-				"A creature can use an action to remake the saving throw or to attempt to free another creature restrained by this spell, ending the effect on a success."
+				"Вы заставляете большой деревянный кол вырасти из земли в точке, которую видите в пределах дистанции. От кола магически вылетают верёвки, пытаясь опутать любых ближних врагов. Выберите любое количество существ в пределах 10 футов от кола. Выбранные существа должны совершить спасбросок Силы. При провале существа подтягиваются к колу на расстояние до 5 футов и становятся опутанными. В последующие ходы вы можете бонусным действием заставить существо в пределах 10 футов от кола повторить спасбросок.",
+				"Бонусным действием вы можете заставить кол загореться. Любое существо, опутанное этим заклинанием, немедленно получает 6d6 урона огнём и получает дополнительно 4d6 урона огнём, если оканчивает свой ход, оставаясь опутанным.",
+				"Существо может действием повторить спасбросок или попытаться освободить другое существо, опутанное этим заклинанием, оканчивая эффект при успехе."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2639,7 +2639,7 @@
 			]
 		},
 		{
-			"name": "Poppet",
+			"name": "Кукла",
 			"source": "DMHavuhkWitch",
 			"page": 15,
 			"level": 3,
@@ -2661,7 +2661,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "A straw poppet and a needle",
+					"text": "Соломенная кукла и игла",
 					"consume": false
 				}
 			},
@@ -2676,23 +2676,23 @@
 				}
 			],
 			"entries": [
-				"You attempt to bind a person's soul to your poppet. A huge or smaller humanoid you choose within range must make a Wisdom saving throw. On a failure, their soul is bound to the poppet, and the poppet transforms to resemble them.",
-				"You can use a bonus action on subsequent turns to perform one of the following actions: ",
+				"Вы пытаетесь привязать душу человека к своей кукле. Выбранный вами в пределах дистанции гуманоид огромного размера или меньше должен совершить спасбросок Мудрости. При провале его душа привязывается к кукле, и кукла преображается, становясь похожей на него.",
+				"В последующие ходы вы можете бонусным действием совершить одно из следующих действий:",
 				{
 					"type": "list",
 					"items": [
-						"{@bold Needle.} You stab the poppet with a needle. The bound person must make a Consitiution saving throw. They take 2d12 piercing damage on a failure, or half as much on a success.",
-						"{@bold Jerk.} You violently jerk the poppet. The bound person must make a Strength saving throw. On a failure, they are moved up to 20 feet in a direction of your choice.",
-						"{@bold Twist.} You twist the poppets limbs behind it's back. The person must make a Strength saving throw or be restrained. The person can repeat the saving throw at the end of their turn, ending the condition on a success. This effect immediately ends if you use another effect from this spell."
+						"{@bold Игла.} Вы протыкаете куклу иглой. Привязанный человек должен совершить спасбросок Телосложения. При провале он получает 2d12 колющего урона, при успехе — половину этого.",
+						"{@bold Рывок.} Вы резко дёргаете куклу. Привязанный человек должен совершить спасбросок Силы. При провале его перемещает на расстояние до 20 футов в выбранном вами направлении.",
+						"{@bold Выкручивание.} Вы выкручиваете конечности куклы за спину. Человек должен совершить спасбросок Силы, иначе станет опутанным. Человек может повторять спасбросок в конце своего хода, оканчивая состояние при успехе. Этот эффект немедленно оканчивается, если вы используете другой эффект этого заклинания."
 					]
 				},
-				"The spell lasts for the duration, until you end the connection (no action required), or until the poppet is moved more than 5 feet away from you."
+				"Заклинание длится весь срок действия, пока вы не разорвёте связь (действие не требуется) или пока кукла не будет перемещена от вас дальше чем на 5 футов."
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a slot of 4th level or higher, the damage of the needle effect increases by 1d12 for each level above 3rd. Additionally, the distance you can move a person using the Jerk effect increases by 5 feet for each level above 3rd."
+						"Когда вы сотворяете это заклинание, используя ячейку 4-го уровня или выше, урон эффекта иглы увеличивается на 1d12 за каждый уровень выше 3-го. Кроме того, расстояние, на которое вы можете переместить человека эффектом рывка, увеличивается на 5 футов за каждый уровень выше 3-го."
 					],
 					"type": "entries"
 				}
@@ -2720,7 +2720,7 @@
 			]
 		},
 		{
-			"name": "Psychic Leash",
+			"name": "Психический поводок",
 			"source": "DMHavuhkWitch",
 			"page": 15,
 			"level": 3,
@@ -2753,15 +2753,15 @@
 				}
 			],
 			"entries": [
-				"You create a leash of psychic energy. Choose up to 5 creatures within range. Those creatures must make an Intelligence saving throw. On a failure, they take 4d6 psychic damage, and a leash of psychic energy connects them to you.",
-				"You can use an action on subsequent turns to send a wave of psychic energy through the leashes, causing all creatures that are connected to you to make another Intelligence saving throw, taking 4d6 psychic damage on a failure, or half as much on a success.",
-				"If a creature under the effects of this spell attempts to move more than 30 feet away from you, they can remake the initial saving throw. On a failure, they take 4d6 psychic damage, and cannot move further away from you. On a success, the spell ends for them."
+				"Вы создаёте поводок из психической энергии. Выберите до 5 существ в пределах дистанции. Эти существа должны совершить спасбросок Интеллекта. При провале они получают 4d6 психического урона, и поводок из психической энергии соединяет их с вами.",
+				"В последующие ходы вы можете действием отправить волну психической энергии по поводкам, заставляя всех соединённых с вами существ совершить ещё один спасбросок Интеллекта, получая 4d6 психического урона при провале или половину этого при успехе.",
+				"Если существо, находящееся под действием этого заклинания, попытается отойти от вас дальше чем на 30 футов, оно может повторить первоначальный спасбросок. При провале оно получает 4d6 психического урона и не может отойти от вас дальше. При успехе заклинание для него оканчивается."
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a slot of 4th level or higher, the initial damage and the damage from sending psychic energy through the leashes increases by 1d6 for each level above 3rd."
+						"Когда вы сотворяете это заклинание, используя ячейку 4-го уровня или выше, первоначальный урон и урон от передачи психической энергии по поводкам увеличиваются на 1d6 за каждый уровень выше 3-го."
 					],
 					"type": "entries"
 				}
@@ -2786,7 +2786,7 @@
 			]
 		},
 		{
-			"name": "Rain of Toads",
+			"name": "Дождь из жаб",
 			"source": "DMHavuhkWitch",
 			"page": 15,
 			"level": 4,
@@ -2808,7 +2808,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "A toad's tongue",
+					"text": "Язык жабы",
 					"consume": true
 				}
 			},
@@ -2823,8 +2823,8 @@
 				}
 			],
 			"entries": [
-				"Until the spell ends, toads rain down from a cloud in a 60-foot-tall cylinder with a 20-foot radius centered on a point you choose within range. The toads explode into a spray of poisonous mist upon hitting the ground. Any creature within the spell's area must make a Constitution saving throw at the start of their turn. On a failure, they take 4d6 poison damage, and are incapacitated until the end of their next turn. On a success, they take half damage and are not incapacitated.",
-				"If you are within 60 feet of the cloud, you can use your bonus action to move it up to 30 feet."
+				"Пока заклинание не окончится, с неба дождём падают жабы из облака в цилиндре высотой 60 футов и радиусом 20 футов с центром в выбранной вами в пределах дистанции точке. Ударяясь о землю, жабы взрываются брызгами ядовитого тумана. Любое существо в области заклинания должно совершить спасбросок Телосложения в начале своего хода. При провале оно получает 4d6 урона ядом и становится недееспособным до конца своего следующего хода. При успехе оно получает половину урона и не становится недееспособным.",
+				"Если вы находитесь в пределах 60 футов от облака, вы можете бонусным действием переместить его на расстояние до 30 футов."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2848,7 +2848,7 @@
 			]
 		},
 		{
-			"name": "Ritual of Infusion",
+			"name": "Ритуал вливания",
 			"source": "DMHavuhkWitch",
 			"page": 16,
 			"level": 9,
@@ -2869,7 +2869,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "Rare chalk infused with magic worth 500gp, which the spell consumes, and a quartz statuette of the creature you are casting the spell on",
+					"text": "Редкий мел, пропитанный магией, стоимостью 500 зм, который заклинание уничтожает, и кварцевая статуэтка существа, на которое вы сотворяете это заклинание",
 					"consume": true
 				}
 			},
@@ -2887,9 +2887,9 @@
 				"ritual": true
 			},
 			"entries": [
-				"As you cast this spell, you draw a 10-foot-diameter circle on the ground, placing the the quartz statuette at the center of the circle. The creature you are casting this spell on must remain within the circle for the duration of the casting.",
-				"In addition, you must also choose a spell of 5th level or lower that you can cast. The spell must have a casting time of 1 action, must be able to target another creature, and cannot deal damage. You cast this spell -called the infused spell- as a part of casting ritual of infusion, expending the spell slot for both.",
-				"When you finish casting the spell, the infused spell is cast on the target. The duration of the infused spell is increased to 10 days, and it does not require concentration if it usually would. A creature can only be infused with one spell at a time. If you cast this spell on a creature again, the infused spell immediately ends. Additionally, if the quartz statuette is destroyed, the infused spell ends."
+				"Сотворяя это заклинание, вы чертите на земле круг диаметром 10 футов, помещая кварцевую статуэтку в центр круга. Существо, на которое вы сотворяете это заклинание, должно оставаться в круге в течение всего сотворения.",
+				"Кроме того, вы также должны выбрать заклинание 5-го уровня или ниже, которое можете сотворить. Заклинание должно иметь время сотворения 1 действие, должно быть способно нацелиться на другое существо и не может наносить урон. Вы сотворяете это заклинание — так называемое влитое заклинание — как часть ритуала вливания, тратя ячейку заклинания для обоих.",
+				"Когда вы оканчиваете сотворение заклинания, влитое заклинание сотворяется на цели. Длительность влитого заклинания увеличивается до 10 дней, и оно не требует концентрации, если обычно её требовало. На существо можно влить только одно заклинание за раз. Если вы снова сотворите это заклинание на существо, влитое заклинание немедленно оканчивается. Кроме того, если кварцевая статуэтка уничтожена, влитое заклинание оканчивается."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2901,7 +2901,7 @@
 			}
 		},
 		{
-			"name": "Ritual of Nightmares",
+			"name": "Ритуал кошмаров",
 			"source": "DMHavuhkWitch",
 			"page": 16,
 			"level": 6,
@@ -2922,7 +2922,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "Rare chalk infused with magic worth 500gp, a blanket made of silk, and a lock of the target's hair or a vial of their blood, all of which the spell consumes",
+					"text": "Редкий мел, пропитанный магией, стоимостью 500 зм, одеяло из шёлка и прядь волос цели или склянка её крови — всё это заклинание уничтожает",
 					"consume": true
 				}
 			},
@@ -2940,15 +2940,15 @@
 				"ritual": true
 			},
 			"entries": [
-				"As you cast this spell, you draw a 10-foot-diameter circle on the ground, placing the materials at the center of the circle. This spell fails if the target is on a different plane of existence to you.",
-				"When you finish casting this spell, the target is inflicted with a curse, causing them to be haunted by nightmares whenever they sleep. Whenever the creature attempts to take a long rest, they must make a Wisdom saving throw. On a failure, they take 5d8 psychic damage, and do not gain the benefits of the long rest.",
-				"This spell lasts for 30 days, or until a creature casts the {@spell remove curse} spell at 6th level or higher on the cursed creature."
+				"Сотворяя это заклинание, вы чертите на земле круг диаметром 10 футов, помещая материалы в центр круга. Это заклинание проваливается, если цель находится на другом плане существования.",
+				"Когда вы оканчиваете сотворение этого заклинания, на цель накладывается проклятие, из-за которого её во сне преследуют кошмары. Всякий раз, когда существо пытается совершить продолжительный отдых, оно должно совершить спасбросок Мудрости. При провале оно получает 5d8 психического урона и не получает преимуществ продолжительного отдыха.",
+				"Это заклинание длится 30 дней или пока существо не сотворит заклинание {@spell remove curse} 6-го уровня или выше на проклятое существо."
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d8 for each level above 6th. Additionally, the level that {@spell remove curse} must be cast at to end this spell increases to the same level this spell was cast at. For example, if you cast this spell at 8th level, the {@spell remove curse} spell must be cast at 8th level to end the spell's effects."
+						"Когда вы сотворяете это заклинание, используя ячейку заклинания 7-го уровня или выше, урон увеличивается на 1d8 за каждый уровень выше 6-го. Кроме того, уровень, на котором нужно сотворить {@spell remove curse}, чтобы окончить это заклинание, повышается до того уровня, на котором было сотворено это заклинание. Например, если вы сотворили это заклинание на 8-м уровне, заклинание {@spell remove curse} должно быть сотворено на 8-м уровне, чтобы окончить эффекты заклинания."
 					],
 					"type": "entries"
 				}
@@ -2969,7 +2969,7 @@
 			]
 		},
 		{
-			"name": "Ritual of Summoning",
+			"name": "Ритуал призыва",
 			"source": "DMHavuhkWitch",
 			"page": 16,
 			"level": 8,
@@ -2990,7 +2990,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "Rare chalk infused with magic worth 500gp, a rune carved stone attune to your current plane of existence, and a lock of the target's hair or a vial of their blood, all of which the spell consumes",
+					"text": "Редкий мел, пропитанный магией, стоимостью 500 зм, камень с вырезанной руной, настроенный на ваш текущий план существования, и прядь волос цели или склянка её крови — всё это заклинание уничтожает",
 					"consume": true
 				}
 			},
@@ -3003,8 +3003,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"As you cast this spell, you draw a 10-foot-diameter circle on the ground, placing the materials at the center of the circle. This spell fails if the target is on a different plane of existence to you.",
-				"When you finish casting this spell, the target must make a Charisma saving throw. On a failure, the target is teleported to the center of the circle."
+				"Сотворяя это заклинание, вы чертите на земле круг диаметром 10 футов, помещая материалы в центр круга. Это заклинание проваливается, если цель находится на другом плане существования.",
+				"Когда вы оканчиваете сотворение этого заклинания, цель должна совершить спасбросок Харизмы. При провале цель телепортируется в центр круга."
 			],
 			"classes": {
 				"fromClassList": [
@@ -3022,7 +3022,7 @@
 			]
 		},
 		{
-			"name": "Ritual of the Eclipse",
+			"name": "Ритуал затмения",
 			"source": "DMHavuhkWitch",
 			"page": 16,
 			"level": 8,
@@ -3044,7 +3044,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "Rare chalk infused with magic worth 500gp, a black pearl, and a small clay moon, all of which the spell consumes",
+					"text": "Редкий мел, пропитанный магией, стоимостью 500 зм, чёрная жемчужина и маленькая глиняная луна — всё это заклинание уничтожает",
 					"consume": true
 				}
 			},
@@ -3062,10 +3062,10 @@
 				"ritual": true
 			},
 			"entries": [
-				"As you cast this spell, you draw a 10-foot-diameter circle on the ground, placing the materials at the center of the circle.",
-				"When you finish casting this spell, a field of darkness spawns in the sky, completely blocking the sun. No sunlight can appear within a 5 mile radius, and any spell that would create sunlight, such as {@spell sunbeam} fails.",
-				"Additionally, a small mark depicting an eclipse appears at the point where you cast the spell. A creature can attempt to dispel the darkness by casting the {@spell dispel magic} or {@spell remove curse} spell at 8th level or higher on the mark. When they do so, they must make a spell check against your spell save DC. If they succeed, the spell's effects end early.",
-				"If you cast this spell on the same spot so that the effect lasts for a year, then the darkness becomes permanent, and remains until it is dispelled."
+				"Сотворяя это заклинание, вы чертите на земле круг диаметром 10 футов, помещая материалы в центр круга.",
+				"Когда вы оканчиваете сотворение этого заклинания, в небе возникает поле тьмы, полностью закрывающее солнце. В радиусе 5 миль не может появиться солнечный свет, и любое заклинание, создающее солнечный свет, например {@spell sunbeam}, проваливается.",
+				"Кроме того, в месте, где вы сотворяете заклинание, появляется небольшая метка, изображающая затмение. Существо может попытаться развеять эту тьму, сотворив {@spell dispel magic} или {@spell remove curse} 8-го уровня или выше на метку. Делая это, оно должно совершить проверку заклинания против вашей Сл спасброска заклинаний. При успехе эффекты заклинания оканчиваются досрочно.",
+				"Если вы сотворяете это заклинание в одном и том же месте так, что эффект длится год, тьма становится постоянной и остаётся, пока не будет развеяна."
 			],
 			"classes": {
 				"fromClassList": [
@@ -3081,7 +3081,7 @@
 			]
 		},
 		{
-			"name": "Witch's Broom",
+			"name": "Метла ведьмы",
 			"source": "DMHavuhkWitch",
 			"page": 16,
 			"level": 4,
@@ -3102,7 +3102,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "A mundane broom",
+					"text": "Обычная метла",
 					"consume": true
 				}
 			},
@@ -3117,7 +3117,7 @@
 				}
 			],
 			"entries": [
-				"You enchant an ordinary broom with the power of flight. The broom has an AC of 10 and a number of hit points equal to 2 times your level. While riding the broom, you have a fly speed of 40 feet. The broom can carry up to two people, but while two people are riding it, its speed is reduced to 20 feet."
+				"Вы зачаровываете обычную метлу силой полёта. Метла имеет КД 10 и хиты, равные удвоенному вашему уровню. Пока вы летите на метле, у вас есть скорость полёта 40 футов. Метла может нести до двух человек, но пока на ней летят двое, её скорость снижается до 20 футов."
 			],
 			"classes": {
 				"fromClassList": [

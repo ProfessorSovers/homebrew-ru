@@ -27,7 +27,7 @@
 	},
 	"class": [
 		{
-			"name": "Cook",
+			"name": "Повар",
 			"source": "Cook",
 			"hd": {
 				"number": 1,
@@ -58,10 +58,10 @@
 				],
 				"weapons": [
 					"simple",
-					"{@item hand crossbow|PHB|hand crossbows}",
-					"{@item longsword|PHB|longswords}",
-					"{@item rapier|PHB|rapiers}",
-					"{@item shortsword|PHB|shortswords}"
+					"{@item hand crossbow|PHB|ручных арбалетов}",
+					"{@item longsword|PHB|длинных мечей}",
+					"{@item rapier|PHB|рапир}",
+					"{@item shortsword|PHB|коротких мечей}"
 				],
 				"tools": [
 					"{@item cook's utensils|PHB}"
@@ -80,11 +80,11 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item longsword|PHB} or (b) a {@item hand crossbow|PHB} and {@item crossbow bolts (20)|PHB|20 bolts}",
+					"(а) {@item longsword|PHB} или (б) {@item hand crossbow|PHB} и {@item crossbow bolts (20)|PHB|20 арбалетных болтов}",
 					"(a) {@item leather armor|PHB} or (b) {@item scale mail|PHB}",
-					"(a) two {@item dagger|PHB|daggers} or (b) two {@item light hammer|PHB|light hammers}",
+					"(а) два {@item dagger|PHB|кинжала} или (б) два {@item light hammer|PHB|лёгких молота}",
 					"(a) an {@item explorer's pack|PHB} or (b) a {@item scholar's pack|PHB}",
-					"{@item cook's utensils|PHB|Cook's Utenstils} and a  {@classFeature Cook's Bag|Cook|Cook|1}"
+					"{@item cook's utensils|PHB|Поварские принадлежности} и {@classFeature Сумка повара|Cook|Cook|1}"
 				],
 				"goldAlternative": "4d4 x 10",
 				"defaultData": [
@@ -178,7 +178,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Morsels"
+						"Кусочки"
 					],
 					"rows": [
 						[
@@ -245,46 +245,46 @@
 				}
 			],
 			"classFeatures": [
-				"Cook's Bag|Cook|Cook|1",
-				"Morsels|Cook|Cook|1",
-				"Smelling Salts|Cook|Cook|1",
-				"Expertise|Cook|Cook|2",
+				"Сумка повара|Cook|Cook|1",
+				"Кусочки|Cook|Cook|1",
+				"Нюхательная соль|Cook|Cook|1",
+				"Компетентность|Cook|Cook|2",
 				{
-					"classFeature": "Cook Archetype|Cook|Cook|3",
+					"classFeature": "Архетип повара|Cook|Cook|3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Cook|Cook|4",
-				"Rotund Reflection|Cook|Cook|5",
+				"Увеличение характеристик|Cook|Cook|4",
+				"Округлый отпор|Cook|Cook|5",
 				{
-					"classFeature": "Cook Archetype Feature|Cook|Cook|6",
+					"classFeature": "Умение архетипа повара|Cook|Cook|6",
 					"gainSubclassFeature": true
 				},
-				"Order Up|Cook|Cook|7",
-				"Smelling Salts Improved|Cook|Cook|7",
-				"Ability Score Improvement|Cook|Cook|8",
-				"Expertise|Cook|Cook|9",
-				"Iron Stomach|Cook|Cook|9",
+				"Заказ готов|Cook|Cook|7",
+				"Улучшенная нюхательная соль|Cook|Cook|7",
+				"Увеличение характеристик|Cook|Cook|8",
+				"Компетентность|Cook|Cook|9",
+				"Железный желудок|Cook|Cook|9",
 				{
-					"classFeature": "Cook Archetype Feature|Cook|Cook|10",
+					"classFeature": "Умение архетипа повара|Cook|Cook|10",
 					"gainSubclassFeature": true
 				},
-				"Order Up Improved|Cook|Cook|11",
-				"Ability Score Improvement|Cook|Cook|12",
-				"Smelling Salts Improved|Cook|Cook|13",
+				"Улучшенный заказ|Cook|Cook|11",
+				"Увеличение характеристик|Cook|Cook|12",
+				"Улучшенная нюхательная соль|Cook|Cook|13",
 				{
-					"classFeature": "Cook Archetype Feature|Cook|Cook|14",
+					"classFeature": "Умение архетипа повара|Cook|Cook|14",
 					"gainSubclassFeature": true
 				},
-				"Soul of Food|Cook|Cook|15",
-				"Ability Score Improvement|Cook|Cook|16",
-				"Fulfilling Meal|Cook|Cook|17",
-				"Smelling Salts Improved|Cook|Cook|17",
+				"Душа еды|Cook|Cook|15",
+				"Увеличение характеристик|Cook|Cook|16",
+				"Сытная трапеза|Cook|Cook|17",
+				"Улучшенная нюхательная соль|Cook|Cook|17",
 				{
-					"classFeature": "Cook Archetype Feature|Cook|Cook|18",
+					"classFeature": "Умение архетипа повара|Cook|Cook|18",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Cook|Cook|19",
-				"Leftovers|Cook|Cook|20"
+				"Увеличение характеристик|Cook|Cook|19",
+				"Объедки|Cook|Cook|20"
 			],
 			"subclassTitle": "Cook Archetypes",
 			"hasFluff": true
@@ -292,48 +292,48 @@
 	],
 	"classFluff": [
 		{
-			"name": "Cook",
+			"name": "Повар",
 			"source": "Cook",
 			"entries": [
 				{
-					"name": "Cook",
+					"name": "Повар",
 					"source": "Cook",
 					"type": "section",
 					"entries": [
-						"A half-orc throws a perfectly seasoned chicken leg at his dwarven friend, lands it directly in her mouth. As a horde of goblins charge the dwarf, she begins nibbling, her arms swell, and she swipes away three of the charging goblins with a single swipe of her shield. The half-orc wipes his greasy hands on his apron and smiles.",
-						"A halfling stares a dragon down over a mile of open field. As the dragon inhales deeply, she pulls out a roasted pepper and chomps down. She begins to sweat profusely. The dragon breathes fire, and the halfling charges straight on through.",
-						"A human mixes the contents of a boiling pot and looks around at all his friends, tired and spent, but he'll see to it that that doesn't last too long.",
-						"Cooks are the much-forgotten caretakers of every band of heroes, for a dragon-slaying barbarian can always die of hunger. Through tasty foods cooks strengthen their allies and debilitate their foes, commanding incredible control over any battle.",
+						"Полуорк бросает безупречно приправленную куриную ножку своей подруге-дварфу и попадает ей прямо в рот. Пока на дварфа несётся орда гоблинов, она начинает грызть ножку, её руки раздуваются, и одним взмахом щита она сметает трёх атакующих гоблинов. Полуорк вытирает жирные руки о фартук и улыбается.",
+						"Полурослик смотрит в глаза дракону через милю открытого поля. Пока дракон глубоко вдыхает, она достаёт жареный перец и вгрызается в него. Её прошибает пот. Дракон дышит огнём, и полурослик бежит прямо навстречу.",
+						"Человек помешивает содержимое кипящего котла и оглядывает своих друзей — усталых и вымотанных, но он позаботится о том, чтобы это продлилось недолго.",
+						"Повара — незаслуженно забытые хранители любой ватаги героев: даже варвар, убивающий драконов, может умереть от голода. Вкусной едой повара укрепляют союзников и ослабляют врагов, обретая невероятный контроль над любым боем.",
 						{
 							"type": "entries",
-							"name": "Food as Craft",
+							"name": "Еда как ремесло",
 							"entries": [
-								"Anyone can throw meat atop a fire, but only cooks can make that meat sing. Just as an artist can watch a child paint their house, so too does the cook look at the typical kitchen. They may laugh or smile or even snarl at the naivety presented, but they all recognize it as simple, basic. Meals are more than a collection of ingredients to a cook.",
-								"Every creature is suffused with the same magical energy that binds the multiverse together. Cooks have, knowingly or unknowingly, learned to tap into the magic of creatures through food, the source of their vitality, and cooks use their craft to shape it.",
-								"Their talents put cooks above the common people, and that's where you'll find them: Some traveling with adventurers who've wrestled with giants, giving those adventurers the power to succeed. Some see their bodies as test subjects, formulating dietary plans to improve themselves beyond the normal limits of their species. Some even find a way to take advantage of the senses, and create food that is not meant to improve but to hinder, to weaken, to destroy. Cooks understand how finely tuned a body is, especially once you get inside it, and they know how to make or break it."
+								"Бросить мясо на огонь может каждый, но петь его заставить умеет только повар. Как художник смотрит на то, как ребёнок раскрашивает свой домик, так и повар смотрит на обычную кухню. Он может засмеяться, улыбнуться или даже зарычать на такую наивность, но всегда узнаёт в ней простое, начальное. Для повара блюда — больше, чем набор ингредиентов.",
+								"Каждое существо пронизано той же магической энергией, что связывает мультивселенную. Повара — осознанно или нет — научились обращаться к магии существ через еду, источник их жизненных сил, и своим ремеслом придают ей форму.",
+								"Их талант поднимает поваров над простыми людьми, и потому вы найдёте их где угодно: одни путешествуют с искателями приключений, что боролись с великанами, давая тем силы преуспеть. Другие видят собственное тело как подопытный материал, составляя диеты, чтобы превзойти обычные пределы своего вида. Третьи даже находят способ обыграть чувства и создают еду не для улучшения, а чтобы мешать, ослаблять, уничтожать. Повара понимают, насколько тонко настроено тело — особенно когда заглядывают внутрь него, — и знают, как его укрепить или сломать."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "A Life of Servitude",
+							"name": "Жизнь в услужении",
 							"entries": [
-								"Cooks are on a constant search, a search for the perfect flavor, the best diet, the choicest ingredients. The meeker ones find employ with wealthy manors or in gritty taverns, but the ones with ambition know that their search could not end in a stuffy kitchen beholden to the bland tastes of big wigs and commoners.",
-								"Bold adventurers come with bold tongues, and they are the only hope of an end to a cook's journey. True cooks offer their services only to those proven worthy of the food they will prepare. Adventurers rip the essence out of life, and cooks take that essence and throw it in their pot. Cooks will keep these adventurers alive and fed until their personal quests find completion."
+								"Повара в постоянном поиске: идеального вкуса, лучшей диеты, отборнейших ингредиентов. Скромные устраиваются в богатые поместья или в грязные таверны, но те, у кого есть амбиции, знают: их поиск не может закончиться в душной кухне, зависящей от пресных вкусов важных господ и простолюдинов.",
+								"С дерзкими искателями приключений приходят и дерзкие языки, и только они дают надежду завершить путь повара. Настоящие повара предлагают свои услуги лишь тем, кто доказал, что достоин приготовленной ими еды. Искатели приключений вырывают суть из жизни, а повара берут эту суть и бросают её в свой котёл. Повара будут держать таких искателей приключений живыми и сытыми, пока их личные поиски не завершатся."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating a Cook",
+							"name": "Создание повара",
 							"entries": [
-								"As you create your cook, keep in mind how your character got into the gourmet arts. Were they a hired hand that learned too quickly in the kitchen and developed an insatiable ego? Were they taught by a family member or a close friend and thus have a sentimental approach to their craft? Were they thrust into cooking out of necessity, living on their own in harsh conditions trying to squeeze vitality out of their barren surroundings?",
-								"A cook may begin their culinary studies in family kitchens or tiny inns, but they will soon realize that to progress means to move on from these dead ends. Most cooks will find employ with adventurers, allies that the cook can trust for safety and for feedback. Every great cook needs a couple of critics."
+								"Создавая повара, подумайте, как ваш персонаж пришёл в искусство гурмана. Был ли он наёмным работником, который слишком быстро всему научился на кухне и обзавёлся ненасытным самомнением? Учил ли его родственник или близкий друг, отчего он относится к своему ремеслу сентиментально? Или он занялся готовкой по необходимости, живя один в суровых условиях и пытаясь выжать жизнь из скудного окружения?",
+								"Повар может начать кулинарную науку на домашней кухне или в крошечном трактире, но скоро поймёт: чтобы расти, нужно уйти от этих тупиков. Большинство поваров находит работу у искателей приключений — союзников, которым можно доверить свою безопасность и которые дадут отзыв о готовке. Каждому великому повару нужна пара критиков."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Quick Build",
+							"name": "Быстрая сборка",
 							"entries": [
-								"You can make a cook quickly by following these suggestions. First, make Constitution your highest ability score, followed by Dexterity. Second, choose the {@background Guild Artisan|PHB} background. Third, choose the {@optfeature Hardened Bread|Cook}, {@optfeature Invigorating Juices|Cook}, and {@optfeature Packed Protein|Cook} morsels."
+								"Вы можете быстро создать повара, следуя этим советам. Во-первых, сделайте Телосложение вашей наивысшей характеристикой, следом идёт Ловкость. Во-вторых, выберите предысторию {@background Guild Artisan|PHB}. В-третьих, выберите кусочки {@optfeature Затвердевший хлеб|Cook}, {@optfeature Бодрящий сок|Cook} и {@optfeature Плотный белок|Cook}."
 							]
 						}
 					]
@@ -343,365 +343,365 @@
 	],
 	"subclass": [
 		{
-			"name": "Brewmeister",
-			"shortName": "Brew",
+			"name": "Пивовар",
+			"shortName": "Пивовар",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"subclassFeatures": [
-				"Spiked Morsels|Cook|Cook|Brew|Cook|3",
-				"Drunken Stumble|Cook|Cook|Brew|Cook|6",
-				"Boozy Yield|Cook|Cook|Brew|Cook|10",
-				"Angry Drunk|Cook|Cook|Brew|Cook|14",
-				"Legendary Morsel|Cook|Cook|Brew|Cook|18"
+				"Кусочки с добавкой|Cook|Cook|Пивовар|Cook|3",
+				"Пьяная походка|Cook|Cook|Пивовар|Cook|6",
+				"Хмельная отдача|Cook|Cook|Пивовар|Cook|10",
+				"Злой пьяница|Cook|Cook|Пивовар|Cook|14",
+				"Легендарный кусочек|Cook|Cook|Пивовар|Cook|18"
 			]
 		},
 		{
-			"name": "Hash Slinger",
-			"shortName": "Hash",
+			"name": "Поваришка",
+			"shortName": "Поваришка",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"subclassFeatures": [
-				"Bonus Proficiencies|Cook|Cook|Hash|Cook|3",
-				"We Deliver Death|Cook|Cook|Hash|Cook|3",
-				"Extra Attack|Cook|Cook|Hash|Cook|6",
-				"Horrific Stench|Cook|Cook|Hash|Cook|10",
-				"Noxious Strike|Cook|Cook|Hash|Cook|14",
-				"Legendary Morsel|Cook|Cook|Hash|Cook|18"
+				"Бонусные владения|Cook|Cook|Поваришка|Cook|3",
+				"Мы доставляем смерть|Cook|Cook|Поваришка|Cook|3",
+				"Дополнительная атака|Cook|Cook|Поваришка|Cook|6",
+				"Ужасное зловоние|Cook|Cook|Поваришка|Cook|10",
+				"Ядовитый удар|Cook|Cook|Поваришка|Cook|14",
+				"Легендарный кусочек|Cook|Cook|Поваришка|Cook|18"
 			]
 		},
 		{
-			"name": "Mess Sergeant",
-			"shortName": "Mess",
+			"name": "Сержант столовой",
+			"shortName": "Сержант",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"subclassFeatures": [
-				"Never Satisfied|Cook|Cook|Mess|Cook|3",
-				"Raucous Belch|Cook|Cook|Mess|Cook|6",
-				"Sturdy Stomach|Cook|Cook|Mess|Cook|10",
-				"Strict Diet|Cook|Cook|Mess|Cook|14",
-				"Legendary Morsel|Cook|Cook|Mess|Cook|18"
+				"Никогда не сыт|Cook|Cook|Сержант|Cook|3",
+				"Громкая отрыжка|Cook|Cook|Сержант|Cook|6",
+				"Крепкий желудок|Cook|Cook|Сержант|Cook|10",
+				"Строгая диета|Cook|Cook|Сержант|Cook|14",
+				"Легендарный кусочек|Cook|Cook|Сержант|Cook|18"
 			]
 		},
 		{
-			"name": "Monster Masher",
-			"shortName": "Monster",
+			"name": "Монстродав",
+			"shortName": "Монстродав",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"subclassFeatures": [
-				"Vital Harvest|Cook|Cook|Monster|Cook|3",
-				"Autonomous Bag|Cook|Cook|Monster|Cook|6",
-				"Combat Bag|Cook|Cook|Monster|Cook|10",
-				"Vital Observance|Cook|Cook|Monster|Cook|14",
-				"Legendary Morsel|Cook|Cook|Monster|Cook|18"
+				"Живой урожай|Cook|Cook|Монстродав|Cook|3",
+				"Автономная сумка|Cook|Cook|Монстродав|Cook|6",
+				"Боевая сумка|Cook|Cook|Монстродав|Cook|10",
+				"Жизненное наблюдение|Cook|Cook|Монстродав|Cook|14",
+				"Легендарный кусочек|Cook|Cook|Монстродав|Cook|18"
 			]
 		},
 		{
-			"name": "Sous Chef",
-			"shortName": "Sous",
+			"name": "Су-шеф",
+			"shortName": "Су-шеф",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"subclassFeatures": [
-				"We Deliver|Cook|Cook|Sous|Cook|3",
-				"Secret Sauce|Cook|Cook|Sous|Cook|6",
-				"Aromatic Scent|Cook|Cook|Sous|Cook|10",
-				"Magnificent Meal|Cook|Cook|Sous|Cook|14",
-				"Legendary Morsel|Cook|Cook|Sous|Cook|18"
+				"Мы доставляем|Cook|Cook|Су-шеф|Cook|3",
+				"Тайный соус|Cook|Cook|Су-шеф|Cook|6",
+				"Ароматный запах|Cook|Cook|Су-шеф|Cook|10",
+				"Великолепная трапеза|Cook|Cook|Су-шеф|Cook|14",
+				"Легендарный кусочек|Cook|Cook|Су-шеф|Cook|18"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Cook's Bag",
+			"name": "Сумка повара",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 1,
 			"entries": [
-				"At first level, you craft a Cook's Bag, a bag that magically preserves not only your morsels (described below), but also the ingredients required to make them.",
-				"You must replenish these ingredients at least once every 30 days. When you do so, you can buy 10 gp worth of food from a market, or you can spend 8 hours scavenging food from your surroundings.",
-				"If you lose this bag, you can create a new one by expending 100 gp worth of leather, gems, and other raw materials. Doing so takes 8 hours of work."
+				"На 1-м уровне вы изготавливаете Сумку повара — сумку, которая магически сохраняет не только ваши кусочки (описаны ниже), но и ингредиенты, необходимые для их приготовления.",
+				"Вы должны пополнять эти ингредиенты хотя бы раз в 30 дней. Делая это, вы можете купить еды на 10 зм на рынке либо потратить 8 часов на поиски еды в окрестностях.",
+				"Если вы потеряете эту сумку, вы можете создать новую, потратив кожи, самоцветов и других материалов на 100 зм. Это требует 8 часов работы."
 			]
 		},
 		{
-			"name": "Morsels",
+			"name": "Кусочки",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 1,
 			"entries": [
-				"Years of cooking have taught you that every meal has that one perfect bite, a morsel where all the ingredients mix together into something truly special. You have learned how to instill this morsel with magical effects dependent on the ingredients of the morsel. Creatures that ingest your morsels are given these effects.",
-				"Choose three morsels of your choice from the lists at the end of this feature. These are the morsels that you can prepare. A creature can only be under the effects of one morsel at a time. If a creature is under the effects of a morsel, and they ingest another morsel, the original effect ends.",
-				"You learn how to prepare additional types of morsels as you level as detailed in the Cook Table. Each time you gain a level, you can replace one morsel you know with a different one.",
-				"You can cook a number of morsels equal to your Constitution modifier every short or long rest. You can cook the same type of morsel more than once. All morsels are stored in your  {@classFeature Cook's Bag|Cook|Cook|1} and expire if taken out for longer than 6 seconds, or the next time you cook morsels.",
-				"You can use your action to feed a morsel to a creature. When you do so, you reach into your {@classFeature Cook's Bag|Cook|Cook|1}, pull out a morsel, and feed it to a conscious creature you can touch. They ingest it immediately. You must have a free hand to feed a morsel.",
-				"{@bold Saving Throws.} Some of your morsels require your target to make a saving throw to resist the effect. The saving throw DC is calculated as follows:",
+				"Годы готовки научили вас, что в каждой трапезе есть тот самый идеальный кусочек, где все ингредиенты сливаются во что-то поистине особенное. Вы научились вкладывать в этот кусочек магические эффекты, зависящие от его ингредиентов. Существа, проглотившие ваши кусочки, получают эти эффекты.",
+				"Выберите три кусочка на свой вкус из списков в конце этого умения. Это кусочки, которые вы умеете готовить. Существо может находиться под действием только одного кусочка одновременно. Если существо находится под действием кусочка и проглотит другой, первоначальный эффект заканчивается.",
+				"С ростом уровня вы узнаёте, как готовить дополнительные виды кусочков, как указано в таблице Повара. Каждый раз, получая уровень, вы можете заменить один известный вам кусочек на другой.",
+				"За каждый короткий или продолжительный отдых вы можете приготовить число кусочков, равное вашему модификатору Телосложения. Вы можете приготовить один и тот же вид кусочка несколько раз. Все кусочки хранятся в вашей {@classFeature Сумка повара|Cook|Cook|1} и портятся, если пробыли вне неё дольше 6 секунд, либо когда вы в следующий раз готовите кусочки.",
+				"Вы можете действием накормить существо кусочком. Делая это, вы тянетесь в {@classFeature Сумка повара|Cook|Cook|1}, достаёте кусочек и скармливаете его находящемуся в сознании существу, которого можете коснуться. Оно проглатывает кусочек немедленно. Чтобы накормить кусочком, у вас должна быть свободная рука.",
+				"{@bold Спасброски.} Некоторые ваши кусочки требуют, чтобы цель совершила спасбросок для сопротивления эффекту. Сл спасброска рассчитывается так:",
 				{
 					"type": "abilityDc",
-					"name": "Morsel",
+					"name": "Кусочек",
 					"attributes": [
 						"con"
 					]
 				},
-				"Creatures who do not have mouths or analogous orifices can still be affected by your morsels. Mere contact with your morsels imparts a weakened effect. If a creature cannot ingest your morsel, it has advantage on any saving throws it makes against the morsel's effect.",
-				"{@bold 1st Level Morsels:} {@optfeature Almond Milk|Cook}, {@optfeature Carrot Casserole|Cook}, {@optfeature Cow Innards|Cook}, {@optfeature Flavored Ice|Cook}, {@optfeature Hardened Bread|Cook}, {@optfeature Herbal Grey Tea|Cook}, {@optfeature Invigorating Juices|Cook}, {@optfeature Packed Protein|Cook}, {@optfeature Smoky Chops|Cook}, {@optfeature Spicy Pepper|Cook}, {@optfeature Sugar Crystals|Cook}",
-				"{@bold 7th Level Morsels:} {@optfeature Braised Rabbit|Cook}, {@optfeature Buttered Trout|Cook}, {@optfeature Roast Pheasant|Cook}, {@optfeature Spider Eggs|Cook}, {@optfeature Thickening Gruel|Cook}",
-				"{@bold 11th Level Morsels:} {@optfeature Chamomile Tea|Cook}, {@optfeature Shreevy Leaves|Cook}, {@optfeature Spectral Sprouts|Cook}, {@optfeature Startouched Seeds|Cook}, {@optfeature Sweet and Sour Beets|Cook}",
-				"{@bold 15th Level Morsels:} {@optfeature Boiled Dragon's Tail|Cook}, {@optfeature Hydra Tongue|Cook}, {@optfeature Elemental Pie|Cook}",
-				"{@bold Sous Chef Morsels:} {@optfeature Frosted Grapes|Cook}, {@optfeature Strong Ale|Cook}, {@optfeature Honeyed Fish|Cook}, {@optfeature Pine Nut Mash|Cook}",
-				"{@bold Mess Sergeant Morsels:} {@optfeature Stinking Sprouts|Cook}, {@optfeature Bloating Beans|Cook}, {@optfeature Jittering Coffee|Cook}, {@optfeature Fatty Oats|Cook}",
-				"{@bold Hash Slinger Morsels:} {@optfeature Greasy Slosh|Cook}, {@optfeature Fire Salts|Cook}, {@optfeature Garlic Tuna|Cook}, {@optfeature Rancid Onion|Cook}",
-				"{@bold Brewmeister Morsels:} {@optfeature Underdark Draught|Cook}, {@optfeature Vodka Slushie|Cook}, {@optfeature Hellfire Whiskey|Cook}, {@optfeature Angel's Kiss|Cook}"
+				"Существа без рта или подобного отверстия всё равно могут попасть под действие ваших кусочков. Одно лишь соприкосновение с вашим кусочком даёт ослабленный эффект. Если существо не может проглотить ваш кусочек, оно совершает с преимуществом все спасброски против эффекта этого кусочка.",
+				"{@bold Кусочки 1-го уровня:} {@optfeature Миндальное молоко|Cook}, {@optfeature Морковная запеканка|Cook}, {@optfeature Коровьи потроха|Cook}, {@optfeature Ароматный лёд|Cook}, {@optfeature Затвердевший хлеб|Cook}, {@optfeature Травяной серый чай|Cook}, {@optfeature Бодрящий сок|Cook}, {@optfeature Плотный белок|Cook}, {@optfeature Копчёные отбивные|Cook}, {@optfeature Острый перец|Cook}, {@optfeature Сахарные кристаллы|Cook}",
+				"{@bold Кусочки 7-го уровня:} {@optfeature Тушёный кролик|Cook}, {@optfeature Форель в масле|Cook}, {@optfeature Жареный фазан|Cook}, {@optfeature Паучьи яйца|Cook}, {@optfeature Густеющая каша|Cook}",
+				"{@bold Кусочки 11-го уровня:} {@optfeature Ромашковый чай|Cook}, {@optfeature Листья шрива|Cook}, {@optfeature Призрачные ростки|Cook}, {@optfeature Семена, тронутые звёздами|Cook}, {@optfeature Кисло-сладкая свёкла|Cook}",
+				"{@bold Кусочки 15-го уровня:} {@optfeature Варёный хвост дракона|Cook}, {@optfeature Язык гидры|Cook}, {@optfeature Стихийный пирог|Cook}",
+				"{@bold Кусочки Су-шефа:} {@optfeature Засахаренный виноград|Cook}, {@optfeature Крепкий эль|Cook}, {@optfeature Рыба в меду|Cook}, {@optfeature Пюре из кедровых орехов|Cook}",
+				"{@bold Кусочки Сержанта столовой:} {@optfeature Вонючие ростки|Cook}, {@optfeature Вздувающие бобы|Cook}, {@optfeature Дрожащий кофе|Cook}, {@optfeature Жирная овсянка|Cook}",
+				"{@bold Кусочки Поваришки:} {@optfeature Жирная похлёбка|Cook}, {@optfeature Огненные соли|Cook}, {@optfeature Тунец с чесноком|Cook}, {@optfeature Прогнивший лук|Cook}",
+				"{@bold Кусочки Пивовара:} {@optfeature Глоток Подземья|Cook}, {@optfeature Водочный шербет|Cook}, {@optfeature Виски адского огня|Cook}, {@optfeature Поцелуй ангела|Cook}"
 			]
 		},
 		{
-			"name": "Smelling Salts",
+			"name": "Нюхательная соль",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 1,
 			"entries": [
-				"At 1st level, you discover a mix of spices that creates such a visceral and powerful assault on the nose as to break a creature from its stupor. You can use a bonus action to choose one creature that you can touch. You wave the spices under the creature's nose, and it can immediately repeat a saving throw against one condition it currently has, ending the condition on a success. The condition can be the {@condition Charmed} or {@condition Frightened} condition."
+				"На 1-м уровне вы открываете смесь специй, которая наносит по носу такой резкий и мощный удар, что выводит существо из оцепенения. Вы можете бонусным действием выбрать одно существо, которого можете коснуться. Вы проводите специями у него под носом, и оно может немедленно повторить спасбросок против одного состояния, которое у него сейчас есть, оканчивая состояние при успехе. Это состояние может быть {@condition Charmed} или {@condition Frightened}."
 			]
 		},
 		{
-			"name": "Expertise",
+			"name": "Компетентность",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 2,
 			"entries": [
-				"At 2nd level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item cook's utensils|PHB}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies."
+				"На 2-м уровне выберите два своих владения навыками либо одно владение навыком и владение {@item cook's utensils|PHB}. Ваш бонус мастерства удваивается для любой проверки характеристики, где используется любое из выбранных владений."
 			]
 		},
 		{
-			"name": "Cook Archetype",
+			"name": "Архетип повара",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you choose an archetype that you emulate in the exercise of your cook abilities: Sous Chef, Mess Sergeant, Hash Slinger, Brewmeister, or Monster Masher. Your archetype choice grants you features at 3rd level and then again at 6th , 10th, 14th, and 18th level."
+				"На 3-м уровне вы выбираете архетип, которому следуете в применении своих поварских способностей: Су-шеф, Сержант столовой, Поваришка, Пивовар или Монстродав. Ваш выбор архетипа даёт вам умения на 3-м уровне, а затем на 6-м, 10-м, 14-м и 18-м уровне."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вместо этого вы можете взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Rotund Reflection",
+			"name": "Округлый отпор",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 5,
 			"entries": [
-				"At 5th level, you gain the ability to repel enemies that attack you. Your stomach is of utmost importance, and you have toned your belly to be tough and somewhat gelatinous. When a Large or smaller creature within 5 feet of you hits you with a melee attack, you can use your reaction to cause the creature to make a Dexterity saving throw against your Morsel save DC. On a failed save, their speed becomes 0 until the end of the turn, and they are either pushed 10 ft. away from you or knocked {@condition prone} (your choice)."
+				"На 5-м уровне вы получаете способность отталкивать врагов, атакующих вас. Ваш живот — важнее всего, и вы натренировали его быть крепким и слегка желеобразным. Когда существо Большого размера или меньше в пределах 5 футов от вас попадает по вам рукопашной атакой, вы можете реакцией заставить это существо совершить спасбросок Ловкости против Сл спасброска ваших кусочков. При провале его скорость становится 0 до конца хода, и его либо отталкивает на 10 футов от вас, либо оно падает {@condition prone} (на ваш выбор)."
 			]
 		},
 		{
-			"name": "Cook Archetype Feature",
+			"name": "Умение архетипа повара",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain an additional feature from your {@classFeature Cook Archetype|Cook|Cook|3}."
+				"На 6-м уровне вы получаете дополнительное умение от своего {@classFeature Архетип повара|Cook|Cook|3}."
 			]
 		},
 		{
-			"name": "Order Up",
+			"name": "Заказ готов",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 7,
 			"entries": [
-				"Beginning at 7th level, when you make morsels during a long rest, you can make a number of additional morsels equal to your Constitution ability modifier, none of which can have prerequisites."
+				"Начиная с 7-го уровня, готовя кусочки во время продолжительного отдыха, вы можете приготовить дополнительное число кусочков, равное вашему модификатору Телосложения, и ни у одного из них не может быть требований."
 			]
 		},
 		{
-			"name": "Smelling Salts Improved",
+			"name": "Улучшенная нюхательная соль",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 7,
 			"entries": [
-				"At 7th level, the condition chosen for your {@classFeature Smelling Salts|Cook|Cook|1} feature can be the {@condition Stunned} condition."
+				"На 7-м уровне состоянием, выбранным для вашего умения {@classFeature Нюхательная соль|Cook|Cook|1}, может быть {@condition Stunned}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вместо этого вы можете взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Expertise",
+			"name": "Компетентность",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 9,
 			"entries": [
-				"At 9th level, you can choose two more of your proficiencies (in skills or with {@item cook's utensils|PHB}) to gain the benefit of your {@classFeature Expertise|Cook|Cook|2} feature."
+				"На 9-м уровне вы можете выбрать ещё два своих владения (навыками или {@item cook's utensils|PHB}), чтобы получить преимущество вашего умения {@classFeature Компетентность|Cook|Cook|2}."
 			]
 		},
 		{
-			"name": "Iron Stomach",
+			"name": "Железный желудок",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 9,
 			"entries": [
-				"At 9th level, a lifetime of eating any and all sorts of foods has prepared your stomach for anything. You are immune to any ingested poisons and the {@condition poisoned} condition."
+				"На 9-м уровне жизнь, проведённая за поеданием любой еды, подготовила ваш желудок ко всему. Вы обладаете невосприимчивостью к любым проглоченным ядам и состоянию {@condition poisoned}."
 			]
 		},
 		{
-			"name": "Cook Archetype Feature",
+			"name": "Умение архетипа повара",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain an additional feature from your {@classFeature Cook Archetype|Cook|Cook|3}."
+				"На 10-м уровне вы получаете дополнительное умение от своего {@classFeature Архетип повара|Cook|Cook|3}."
 			]
 		},
 		{
-			"name": "Order Up Improved",
+			"name": "Улучшенный заказ",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 11,
 			"entries": [
-				"At 11th level, you can make the additional morsels from your {@classFeature Order Up|Cook|Cook|7} feature during a short rest as well as during a long rest."
+				"На 11-м уровне вы можете готовить дополнительные кусочки от умения {@classFeature Заказ готов|Cook|Cook|7} как во время короткого, так и во время продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вместо этого вы можете взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Smelling Salts Improved",
+			"name": "Улучшенная нюхательная соль",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 13,
 			"entries": [
-				"At 13th level, the condition chosen for your {@classFeature Smelling Salts|Cook|Cook|1} feature can be the {@condition Paralyzed} condition."
+				"На 13-м уровне состоянием, выбранным для вашего умения {@classFeature Нюхательная соль|Cook|Cook|1}, может быть {@condition Paralyzed}."
 			]
 		},
 		{
-			"name": "Cook Archetype Feature",
+			"name": "Умение архетипа повара",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain an additional feature from your {@classFeature Cook Archetype|Cook|Cook|3}."
+				"На 14-м уровне вы получаете дополнительное умение от своего {@classFeature Архетип повара|Cook|Cook|3}."
 			]
 		},
 		{
-			"name": "Soul of Food",
+			"name": "Душа еды",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 15,
 			"entries": [
-				"At 15th level, you have attuned your body's life force to the nourishing energies of the world. You can cast {@spell Create Food and Water|PHB} once with this feature and regain the ability to do so when you finish a long rest. When you do so, you create 100 gold pieces worth of food that is not bland, but flavorful and enjoyable.",
-				"In addition, if you make morsels, and you have no ingredients left, you conjure the necessary ingredients as part of making the morsels."
+				"На 15-м уровне вы настроили жизненную силу своего тела на питающие энергии мира. Этим умением вы можете один раз сотворить {@spell Create Food and Water|PHB} и восстанавливаете эту возможность, когда завершаете продолжительный отдых. Сотворяя его, вы создаёте еды на 100 золотых, причём не пресной, а вкусной и приятной.",
+				"Кроме того, если вы готовите кусочки и у вас закончились ингредиенты, вы создаёте необходимые ингредиенты в процессе готовки кусочков."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вместо этого вы можете взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Fulfilling Meal",
+			"name": "Сытная трапеза",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 17,
 			"entries": [
-				"At 17th level, whenever you feed a morsel to a creature that you have shared a long rest with (including yourself), you can double the duration of the morsel's effect."
+				"На 17-м уровне, когда вы кормите кусочком существо, с которым делили продолжительный отдых (включая себя), вы можете удвоить длительность эффекта этого кусочка."
 			]
 		},
 		{
-			"name": "Smelling Salts Improved",
+			"name": "Улучшенная нюхательная соль",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 17,
 			"entries": [
-				"At 17th level, the chosen creature for your {@classFeature Smelling Salts|Cook|Cook|1} feature has advantage on the repeated saving throw."
+				"На 17-м уровне выбранное существо для вашего умения {@classFeature Нюхательная соль|Cook|Cook|1} совершает повторный спасбросок с преимуществом."
 			]
 		},
 		{
-			"name": "Cook Archetype Feature",
+			"name": "Умение архетипа повара",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain an additional feature from your {@classFeature Cook Archetype|Cook|Cook|3}."
+				"На 18-м уровне вы получаете дополнительное умение от своего {@classFeature Архетип повара|Cook|Cook|3}."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вместо этого вы можете взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Leftovers",
+			"name": "Объедки",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
 			"level": 20,
 			"entries": [
-				"At 20th level, when you roll initiative and have no morsels left, you conjure one morsel that you know how to prepare inside your {@classFeature Cook's Bag|Cook|Cook|1}."
+				"На 20-м уровне, когда вы бросаете инициативу и у вас не осталось кусочков, вы создаёте один кусочек, который умеете готовить, внутри своей {@classFeature Сумка повара|Cook|Cook|1}."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Spiked Morsels",
+			"name": "Кусочки с добавкой",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Brew",
+			"subclassShortName": "Пивовар",
 			"subclassSource": "Cook",
 			"level": 3,
 			"toolProficiencies": [
@@ -710,71 +710,71 @@
 				}
 			],
 			"entries": [
-				"At 3rd level, you become an expert in alcohol, its benefits and detriments, and you know how to work it into any morsel you prepare.",
-				"You gain proficiency with {@item Brewer's Supplies|PHB} if you don't already have it.",
-				"Additionally, when you prepare a morsel, you can choose to spike it, allowing your morsels to build off one another. If a creature is under the effects of a spiked morsel, and they ingest another spiked morsel, the original effect does not end, and the creature becomes intoxicated for 1 minute. An intoxicated creature is immune to the {@condition charmed} and {@condition frightened} conditions.",
-				"When a creature's intoxication ends, it loses all effects gained from morsels, and the creature can't move or take actions until the end of its next turn as it becomes hungover.",
-				"Once a creature has become intoxicated, it can't do so again until it has finished a short or long rest."
+				"На 3-м уровне вы становитесь знатоком алкоголя, его пользы и вреда, и умеете встраивать его в любой готовимый вами кусочек.",
+				"Вы получаете владение {@item Brewer's Supplies|PHB}, если у вас его ещё нет.",
+				"Кроме того, готовя кусочек, вы можете добавить в него алкоголь, позволяя кусочкам усиливать друг друга. Если существо находится под действием кусочка с добавкой и проглотит другой кусочек с добавкой, первоначальный эффект не заканчивается, а существо становится опьяневшим на 1 минуту. Опьяневшее существо обладает невосприимчивостью к состояниям {@condition charmed} и {@condition frightened}.",
+				"Когда опьянение существа заканчивается, оно теряет все эффекты, полученные от кусочков, и не может перемещаться или совершать действия до конца своего следующего хода, так как страдает от похмелья.",
+				"Опьянев один раз, существо не может опьянеть снова, пока не завершит короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Drunken Stumble",
+			"name": "Пьяная походка",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Brew",
+			"subclassShortName": "Пивовар",
 			"subclassSource": "Cook",
 			"level": 6,
 			"entries": [
-				"Beginning at 6th level, you start to manipulate your alcoholic additions to provide added benefits to intoxicated creatures.",
-				"Creatures you intoxicate increase their speed by 10 feet, and other creatures have disadvantage on opportunity attack rolls against them."
+				"Начиная с 6-го уровня вы учитесь подбирать алкогольные добавки так, чтобы опьяневшие существа получали дополнительные преимущества.",
+				"Существа, которых вы опьянили, увеличивают свою скорость на 10 футов, а другие существа совершают с помехой броски атак по возможности против них."
 			]
 		},
 		{
-			"name": "Boozy Yield",
+			"name": "Хмельная отдача",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Brew",
+			"subclassShortName": "Пивовар",
 			"subclassSource": "Cook",
 			"level": 10,
 			"entries": [
-				"At 10th level, your brew relaxes the muscles, softening the blow of certain assaults.",
-				"Creatures you intoxicate gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapon attacks."
+				"На 10-м уровне ваш напиток расслабляет мышцы, смягчая некоторые удары.",
+				"Существа, которых вы опьянили, получают сопротивление дробящему, колющему и рубящему урону от немагических атак оружием."
 			]
 		},
 		{
-			"name": "Angry Drunk",
+			"name": "Злой пьяница",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Brew",
+			"subclassShortName": "Пивовар",
 			"subclassSource": "Cook",
 			"level": 14,
 			"entries": [
-				"At 14th level, you craft your booze to create a frenzied buzz.",
-				"Once per turn, when a creature that you have intoxicated hits a creature with an attack, they can add your Constitution modifier to the damage roll."
+				"На 14-м уровне вы готовите свой напиток так, чтобы он давал яростное опьянение.",
+				"Один раз в ход, когда опьянённое вами существо попадает по существу атакой, оно может прибавить ваш модификатор Телосложения к броску урона."
 			]
 		},
 		{
-			"name": "Legendary Morsel",
+			"name": "Легендарный кусочек",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Brew",
+			"subclassShortName": "Пивовар",
 			"subclassSource": "Cook",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.",
-				"{@bold Master Brew.} A hard, fine liquor. When ingested, the target immediately becomes intoxicated for 10 minutes. When this intoxication ends, the target does not become hung over."
+				"На 18-м уровне вы получаете способность готовить следующий кусочек во время продолжительного отдыха. При этом вы можете приготовить только один. Он не портится до вашего следующего продолжительного отдыха и не учитывается в общем числе кусочков, которые вы можете приготовить.",
+				"{@bold Мастерский напиток.} Крепкий отменный ликёр. При проглатывании цель немедленно пьянеет на 10 минут. Когда это опьянение заканчивается, цель не страдает от похмелья."
 			]
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"name": "Бонусные владения",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Hash",
+			"subclassShortName": "Поваришка",
 			"subclassSource": "Cook",
 			"level": 3,
 			"weaponProficiencies": [
@@ -783,280 +783,280 @@
 				}
 			],
 			"entries": [
-				"When you become a Hash Slinger at 3rd level, you gain proficiency with martial weapons."
+				"Становясь Поваришкой на 3-м уровне, вы получаете владение воинским оружием."
 			]
 		},
 		{
-			"name": "We Deliver Death",
+			"name": "Мы доставляем смерть",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Hash",
+			"subclassShortName": "Поваришка",
 			"subclassSource": "Cook",
 			"level": 3,
 			"entries": [
-				"Also at 3rd level, you gain the ability to feed your enemies at range. When you feed a morsel to a hostile creature, the creature you feed can be up to 30 feet away from you, so long as you can see them, and their mouth or analogous orifice is not blocked by total cover. You throw the morsel directly into their mouth or analogous orifice, and they ingest it immediately."
+				"Также на 3-м уровне вы получаете способность кормить врагов на расстоянии. Когда вы кормите кусочком враждебное существо, оно может находиться на расстоянии до 30 футов от вас, если вы его видите и его рот или подобное отверстие не закрыт полным укрытием. Вы бросаете кусочек прямо ему в рот или подобное отверстие, и оно проглатывает его немедленно."
 			]
 		},
 		{
-			"name": "Extra Attack",
+			"name": "Дополнительная атака",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Hash",
+			"subclassShortName": "Поваришка",
 			"subclassSource": "Cook",
 			"level": 6,
 			"entries": [
-				"Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+				"Начиная с 6-го уровня вы можете атаковать дважды вместо одного раза всякий раз, когда в свой ход совершаете действие «Атака»."
 			]
 		},
 		{
-			"name": "Horrific Stench",
+			"name": "Ужасное зловоние",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Hash",
+			"subclassShortName": "Поваришка",
 			"subclassSource": "Cook",
 			"level": 10,
 			"entries": [
-				"At 10th level, your food-based experiments have weaved a sickening and distracting smell into your body that releases when you're in danger. Whenever a hostile creature within 10 feet of you makes an ability check or saving throw, they subtract {@dice 1d4} from their roll."
+				"На 10-м уровне ваши пищевые эксперименты вплели в ваше тело тошнотворный и отвлекающий запах, который выходит наружу в момент опасности. Всякий раз, когда враждебное существо в пределах 10 футов от вас совершает проверку характеристики или спасбросок, оно вычитает {@dice 1d4} из своего броска."
 			]
 		},
 		{
-			"name": "Noxious Strike",
+			"name": "Ядовитый удар",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Hash",
+			"subclassShortName": "Поваришка",
 			"subclassSource": "Cook",
 			"level": 14,
 			"entries": [
-				"At 14th level when a creature makes a saving throw against one of your morsel's effects, you can impose disadvantage on the roll. Once you use this feature, you must finish a short or long rest before you can use it again."
+				"На 14-м уровне, когда существо совершает спасбросок против эффекта одного из ваших кусочков, вы можете наложить помеху на этот бросок. Использовав это умение, вы должны завершить короткий или продолжительный отдых, прежде чем применить его снова."
 			]
 		},
 		{
-			"name": "Legendary Morsel",
+			"name": "Легендарный кусочек",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Hash",
+			"subclassShortName": "Поваришка",
 			"subclassSource": "Cook",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.",
-				"{@bold Bubbly pill.} This Carbon dioxide infused morsel dissolves in the target's stomach, building up pressure inside their body. The target must make a Constitution saving throw. On a failed save they are {@condition poisoned} and their speed is halved until the end of your next turn. Whether the save is successful or not, if the target is killed within 1 hour, it explodes. All creatures within 10 feet of the target must make a Dexterity saving throw. On a failed save they take {@damage 10d6} force damage if the target was Medium sized or smaller, and {@damage 5d6} extra force damage for each size category larger than Medium, or half as much damage on a successful save."
+				"На 18-м уровне вы получаете способность готовить следующий кусочек во время продолжительного отдыха. При этом вы можете приготовить только один. Он не портится до вашего следующего продолжительного отдыха и не учитывается в общем числе кусочков, которые вы можете приготовить.",
+				"{@bold Шипучая пилюля.} Этот насыщенный углекислым газом кусочек растворяется в желудке цели, создавая давление внутри тела. Цель должна совершить спасбросок Телосложения. При провале она становится {@condition poisoned}, и её скорость уменьшается вдвое до конца вашего следующего хода. Независимо от результата спасброска, если цель погибнет в течение 1 часа, она взрывается. Все существа в пределах 10 футов от цели должны совершить спасбросок Ловкости. При провале они получают {@damage 10d6} урона силовым полем, если цель была Среднего размера или меньше, и {@damage 5d6} дополнительного урона силовым полем за каждую категорию размера больше Среднего, либо половину при успехе."
 			]
 		},
 		{
-			"name": "Never Satisfied",
+			"name": "Никогда не сыт",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Mess",
+			"subclassShortName": "Сержант",
 			"subclassSource": "Cook",
 			"level": 3,
 			"entries": [
-				"At 3rd level you gain the ability to eat very quickly. On your turn, you can feed a morsel to yourself as a bonus action.",
-				"Additionally, your healthy appetite bolsters your health. Your hit point maximum immediately increases by 3 and increases by 1 whenever you gain a level in this class."
+				"На 3-м уровне вы получаете способность есть очень быстро. В свой ход вы можете накормить кусочком себя бонусным действием.",
+				"Кроме того, ваш здоровый аппетит укрепляет ваше здоровье. Ваш максимум хитов немедленно увеличивается на 3 и увеличивается на 1 каждый раз, когда вы получаете уровень в этом классе."
 			]
 		},
 		{
-			"name": "Raucous Belch",
+			"name": "Громкая отрыжка",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Mess",
+			"subclassShortName": "Сержант",
 			"subclassSource": "Cook",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain the ability to taunt your foes with a loud and odorous burp. As an action you can have each hostile creature in a 10 foot cone originating from you make a Wisdom saving throw against your Morsel save DC. On a failed save, the target(s) have disadvantage on attack rolls against all creatures other than you until the start of your next turn.",
-				"You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest."
+				"На 6-м уровне вы получаете способность дразнить врагов громкой и зловонной отрыжкой. Действием вы можете заставить каждое враждебное существо в 10-футовом конусе, исходящем от вас, совершить спасбросок Мудрости против Сл спасброска ваших кусочков. При провале цели совершают с помехой броски атак по всем существам, кроме вас, до начала вашего следующего хода.",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Телосложения (минимум один раз). Вы восстанавливаете все потраченные применения, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Sturdy Stomach",
+			"name": "Крепкий желудок",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Mess",
+			"subclassShortName": "Сержант",
 			"subclassSource": "Cook",
 			"level": 10,
 			"entries": [
-				"At 10th level, you can be under the effects of two morsels at the same time.",
-				"If you are under the effects of two morsels and ingest a third morsel, you lose one of the original effects (your choice)."
+				"На 10-м уровне вы можете находиться под действием двух кусочков одновременно.",
+				"Если вы находитесь под действием двух кусочков и проглотите третий, вы теряете один из первоначальных эффектов (на ваш выбор)."
 			]
 		},
 		{
-			"name": "Strict Diet",
+			"name": "Строгая диета",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Mess",
+			"subclassShortName": "Сержант",
 			"subclassSource": "Cook",
 			"level": 14,
 			"entries": [
-				"At 14th level your diet optimizes your body beyond its normal limits. Choose Strength, Dexterity, or Constitution. Increase the ability score of the chosen ability by 2, and the limit for that ability score becomes 22."
+				"На 14-м уровне ваша диета доводит тело до предела его возможностей. Выберите Силу, Ловкость или Телосложение. Увеличьте значение выбранной характеристики на 2, и предел для этой характеристики становится 22."
 			]
 		},
 		{
-			"name": "Legendary Morsel",
+			"name": "Легендарный кусочек",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Mess",
+			"subclassShortName": "Сержант",
 			"subclassSource": "Cook",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.",
-				"{@bold Crytalline Heart.} The heart of a rock candy giant. For 10 minutes, if the target's total for a Strength, Dexterity, or Constitution ability check or saving throw is less than their score for the ability being checked, they can use that score in place of the total."
+				"На 18-м уровне вы получаете способность готовить следующий кусочек во время продолжительного отдыха. При этом вы можете приготовить только один. Он не портится до вашего следующего продолжительного отдыха и не учитывается в общем числе кусочков, которые вы можете приготовить.",
+				"{@bold Кристальное сердце.} Сердце великана из леденцов. В течение 10 минут, если итог проверки характеристики или спасброска цели по Силе, Ловкости или Телосложению меньше значения проверяемой характеристики, она может использовать это значение вместо итога."
 			]
 		},
 		{
-			"name": "Vital Harvest",
+			"name": "Живой урожай",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Monster",
+			"subclassShortName": "Монстродав",
 			"subclassSource": "Cook",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you learn that there is a power left in creatures recently killed. During their last moments, the threat of death brings a creature to full and utmost life. The vital essence of a creature killed in this state lingers, but must be harvested and preserved to be utilized.",
-				"If you or an ally kills a hostile creature with a challenge rating of 1 or higher, and the creature's body is not destroyed, you can harvest meat from the body for a special meal if it is of a type you know how to cook (described below). Harvesting this meat takes 1 hour, and you have 24 hours after killing the creature to harvest the meat before the vital essence fades.",
-				"You keep this meat in your {@classFeature Cook's Bag|Cook|Cook|1} until you are ready to prepare it. You can only have one of these meats in your {@classFeature Cook's Bag|Cook|Cook|1} at a time. As part of a short or long rest, you can prepare the special meal from this meat. A number of creatures equal to 5 + your Constitution modifier can partake of the meal as part of the same short or long rest. These creatures gain a benefit depending on the creature type of the creature from which the meat came. This benefit lasts for 24 hours after the short or long rest ends, or until your next long rest, whichever comes first.",
-				"{@bold Beast.} Your current and maximum hit points increase by 10.",
-				"{@bold Monstrosity.} You have advantage on Strength, Dexterity, and Constitution saving throws against magic.",
-				"{@bold Ooze.} You gain blindsight out to a range of 10 feet.",
-				"{@bold Plant.} While you are standing in direct sunlight, you have advantage on Strength and Constitution checks, and whenever you would regain hit points, treat any dice rolled as having rolled their maximum value.",
-				"{@bold Aberration.} You gain darkvision out to a range of 60 feet and telepathy out to a range of 60 feet.",
-				"{@bold Dragon.} You gain a flying speed of 60 feet. If you end your turn in the air, and nothing is keeping you aloft, you fall.",
-				"{@bold Fiend.} You have advantage on all Charisma and Intelligence checks and saving throws.",
-				"{@bold Giant.} You gain the benefits of the {@spell Enlarge|PHB} spell."
+				"На 3-м уровне вы узнаёте, что в недавно убитых существах остаётся сила. В последние мгновения угроза смерти доводит существо до предельной полноты жизни. Жизненная сущность существа, убитого в таком состоянии, не исчезает сразу, но её нужно собрать и сохранить, чтобы использовать.",
+				"Если вы или союзник убивает враждебное существо с показателем опасности 1 или выше и тело существа не уничтожено, вы можете собрать с тела мясо для особой трапезы, если его тип вы умеете готовить (описано ниже). Сбор этого мяса занимает 1 час, и у вас есть 24 часа после убийства существа, чтобы собрать мясо, пока жизненная сущность не угасла.",
+				"Вы храните это мясо в своей {@classFeature Сумка повара|Cook|Cook|1}, пока не решите его приготовить. Одновременно в вашей {@classFeature Сумка повара|Cook|Cook|1} может быть только одно такое мясо. В рамках короткого или продолжительного отдыха вы можете приготовить из этого мяса особую трапезу. Число существ, равное 5 + ваш модификатор Телосложения, может принять участие в трапезе в рамках того же короткого или продолжительного отдыха. Эти существа получают преимущество в зависимости от типа существа, от которого взято мясо. Это преимущество длится 24 часа после окончания короткого или продолжительного отдыха либо до вашего следующего продолжительного отдыха — что наступит раньше.",
+				"{@bold Зверь.} Ваши текущие и максимальные хиты увеличиваются на 10.",
+				"{@bold Чудовище.} Вы совершаете с преимуществом спасброски Силы, Ловкости и Телосложения против магии.",
+				"{@bold Слизь.} Вы получаете слепое зрение в радиусе 10 футов.",
+				"{@bold Растение.} Пока вы стоите под прямыми лучами солнца, вы совершаете с преимуществом проверки Силы и Телосложения, и всякий раз, когда вы должны восстановить хиты, считайте любые брошенные кости выпавшими по максимуму.",
+				"{@bold Аберрация.} Вы получаете тёмное зрение в радиусе 60 футов и телепатию в радиусе 60 футов.",
+				"{@bold Дракон.} Вы получаете скорость полёта 60 футов. Если вы заканчиваете свой ход в воздухе и ничто не удерживает вас в нём, вы падаете.",
+				"{@bold Исчадие.} Вы совершаете с преимуществом все проверки и спасброски Харизмы и Интеллекта.",
+				"{@bold Великан.} Вы получаете преимущества заклинания {@spell Enlarge|PHB}."
 			]
 		},
 		{
-			"name": "Autonomous Bag",
+			"name": "Автономная сумка",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Monster",
+			"subclassShortName": "Монстродав",
 			"subclassSource": "Cook",
 			"level": 6,
 			"entries": [
-				"At 6th level, you modify your {@classFeature Cook's Bag|Cook|Cook|1} to use the vitality coursing through a recently taken piece of flesh to cook it into a morsel.",
-				"When you deal slashing or piercing damage to a hostile creature that isn't a humanoid, celestial, undead, construct, or fey, with a melee weapon attack, you can cut off a chunk of meat and place it into your {@classFeature Cook's Bag|Cook|Cook|1} as part of the same attack. The chunk is immediately prepared into the Fresh Cut morsel (described below) by your {@classFeature Cook's Bag|Cook|Cook|1}. You can't have more than one morsel of this type in your bag at a time.",
-				"Your {@classFeature Cook's Bag|Cook|Cook|1} can season and cook the following morsel a number of times equal to your Constitution modifier (minimum of once). You regain expended uses when you finish a long rest.",
-				"{@bold Fresh Cut.} A rare slice of flesh that heals allies and harms foes. When ingested by a friendly creature, the target regains {@dice 2d6} hit points. When ingested by a hostile creature, the target must make a Constitution saving throw. On a failed save they take {@damage 2d6} acid damage, or half as much damage on a success.",
-				"The morsel's healing and damage increase by 1d6 when you reach certain levels in this class: 7th level ({@dice 3d6}), 9th level ({@dice 4d6}), 13th level ({@dice 5d6}), 17th level ({@dice 6d6}), 20th level ({@dice 7d6})."
+				"На 6-м уровне вы дорабатываете свою {@classFeature Сумка повара|Cook|Cook|1}, чтобы она использовала жизненную силу, текущую в недавно отрезанном куске плоти, и готовила из него кусочек.",
+				"Когда вы наносите рубящий или колющий урон враждебному существу, которое не является гуманоидом, небожителем, нежитью, конструктом или феей, рукопашной атакой оружием, вы можете отрезать кусок мяса и положить его в свою {@classFeature Сумка повара|Cook|Cook|1} в рамках той же атаки. Ваша {@classFeature Сумка повара|Cook|Cook|1} немедленно готовит из этого куска кусочек «Свежий отрез» (описан ниже). Одновременно в вашей сумке может быть не более одного такого кусочка.",
+				"Ваша {@classFeature Сумка повара|Cook|Cook|1} может приправить и приготовить следующий кусочек число раз, равное вашему модификатору Телосложения (минимум один раз). Вы восстанавливаете потраченные применения, когда завершаете продолжительный отдых.",
+				"{@bold Свежий отрез.} Сырой ломтик плоти, который лечит союзников и вредит врагам. Когда его проглатывает дружественное существо, цель восстанавливает {@dice 2d6} хитов. Когда его проглатывает враждебное существо, цель должна совершить спасбросок Телосложения. При провале она получает {@damage 2d6} урона кислотой, при успехе — половину.",
+				"Исцеление и урон этого кусочка увеличиваются на 1d6, когда вы достигаете определённых уровней в этом классе: 7-го уровня ({@dice 3d6}), 9-го ({@dice 4d6}), 13-го ({@dice 5d6}), 17-го ({@dice 6d6}), 20-го ({@dice 7d6})."
 			]
 		},
 		{
-			"name": "Combat Bag",
+			"name": "Боевая сумка",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Monster",
+			"subclassShortName": "Монстродав",
 			"subclassSource": "Cook",
 			"level": 10,
 			"entries": [
-				"At 10th level, you modify your {@classFeature Cook's Bag|Cook|Cook|1} into a weapon that spits your morsels out as projectiles. It counts as a simple, magical ranged weapon that only you are proficient with. It deals {@damage 1d12} bludgeoning damage, and has the ammunition (range 30/120) property.",
-				"The only ammunition you can use for this weapon are your morsels. You choose which morsel you use as ammunition for each attack before you make an attack roll. When you hit a creature with this weapon, you can have the target immediately ingest the morsel used for ammunition."
+				"На 10-м уровне вы превращаете свою {@classFeature Сумка повара|Cook|Cook|1} в оружие, выплёвывающее ваши кусочки как снаряды. Оно считается простым магическим дальнобойным оружием, которым владеете только вы. Оно наносит {@damage 1d12} дробящего урона и имеет свойство «Боеприпас (дальность 30/120)».",
+				"Единственный боеприпас, который можно использовать для этого оружия, — ваши кусочки. Перед броском атаки вы выбираете, какой кусочек используете как боеприпас для каждой атаки. Когда вы попадаете этим оружием по существу, вы можете заставить цель немедленно проглотить кусочек, использованный как боеприпас."
 			]
 		},
 		{
-			"name": "Vital Observance",
+			"name": "Жизненное наблюдение",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Monster",
+			"subclassShortName": "Монстродав",
 			"subclassSource": "Cook",
 			"level": 14,
 			"entries": [
-				"At 14th level, your study of the vital essence of creatures allows you to see its ebb and flow, giving you insights into creatures you observe closely.",
-				"If you observe a creature for 1 minute, you learn if it has any vulnerabilities, immunities, or resistances and what they are. You need only to be able to see the creature for the duration of the minute to gain this knowledge. You cannot observe more than one creature during this minute.",
-				"You can gain knowledge using this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest."
+				"На 14-м уровне ваше изучение жизненной сущности существ позволяет вам видеть её приливы и отливы, давая вам понимание существ, за которыми вы внимательно наблюдаете.",
+				"Если вы наблюдаете за существом 1 минуту, вы узнаёте, есть ли у него уязвимости, невосприимчивости или сопротивления и какие именно. Чтобы получить это знание, вам достаточно видеть существо в течение этой минуты. Вы не можете наблюдать более чем за одним существом в течение этой минуты.",
+				"Вы можете получать знание с помощью этого умения число раз, равное вашему модификатору Телосложения (минимум один раз). Вы восстанавливаете все потраченные применения, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Legendary Morsel",
+			"name": "Легендарный кусочек",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Monster",
+			"subclassShortName": "Монстродав",
 			"subclassSource": "Cook",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.",
-				"{@bold Vital Meat.} A bite of one of your harvests. When prepared, choose one of the benefits listed in your Vital Harvest feature. When this morsel is ingested, the target gains the chosen benefit for 1 minute."
+				"На 18-м уровне вы получаете способность готовить следующий кусочек во время продолжительного отдыха. При этом вы можете приготовить только один. Он не портится до вашего следующего продолжительного отдыха и не учитывается в общем числе кусочков, которые вы можете приготовить.",
+				"{@bold Живое мясо.} Кусок одного из ваших урожаев. При приготовлении выберите одно из преимуществ, перечисленных в вашем умении «Живой урожай». Когда этот кусочек проглатывают, цель получает выбранное преимущество на 1 минуту."
 			]
 		},
 		{
-			"name": "We Deliver",
+			"name": "Мы доставляем",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Sous",
+			"subclassShortName": "Су-шеф",
 			"subclassSource": "Cook",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you become a caretaker of heroes, ready at any moment to help your allies, even at range. When you feed a morsel to a willing creature, the creature you feed can be up to 30 feet away from you, so long as you can see them, and their mouth is not blocked by total cover. You throw the morsel directly into their mouth, and they ingest it immediately.",
-				"Additionally, when you feed a morsel to a willing creature that you can touch (other than yourself), you can do so as a bonus action."
+				"На 3-м уровне вы становитесь хранителем героев, готовым в любой момент помочь союзникам, даже на расстоянии. Когда вы кормите кусочком согласное существо, оно может находиться на расстоянии до 30 футов от вас, если вы его видите и его рот не закрыт полным укрытием. Вы бросаете кусочек ему прямо в рот, и оно проглатывает его немедленно.",
+				"Кроме того, когда вы кормите кусочком согласное существо, которого можете коснуться (кроме себя), вы можете делать это бонусным действием."
 			]
 		},
 		{
-			"name": "Secret Sauce",
+			"name": "Тайный соус",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Sous",
+			"subclassShortName": "Су-шеф",
 			"subclassSource": "Cook",
 			"level": 6,
 			"entries": [
-				"At 6th level, you create a signature sauce that you dab onto all of your beneficial morsels. Whenever you feed a morsel to a friendly creature, it regains a number of hit points equal to your Constitution modifier."
+				"На 6-м уровне вы создаёте фирменный соус, которым сдабриваете все свои полезные кусочки. Всякий раз, когда вы кормите кусочком дружественное существо, оно восстанавливает число хитов, равное вашему модификатору Телосложения."
 			]
 		},
 		{
-			"name": "Aromatic Scent",
+			"name": "Ароматный запах",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Sous",
+			"subclassShortName": "Су-шеф",
 			"subclassSource": "Cook",
 			"level": 10,
 			"entries": [
-				"By 10th level, the continuous consumption of culinary delights has infused your body with a thousand revitalizing smells that stir your companions to action. As an action you can expel these smells in one powerful wave. All friendly creatures (including yourself) within 30 feet of you that you can see regain a number of hit points equal to your Cook Level, and they can each immediately use their reaction to make a single weapon attack or cast one cantrip they know that requires an attack roll or saving throw (their choice).",
-				"Once you use this feature, you must finish a long rest before you can use it again."
+				"К 10-му уровню постоянное поглощение кулинарных изысков наполнило ваше тело тысячей бодрящих запахов, поднимающих спутников к действию. Действием вы можете выпустить эти запахи одной мощной волной. Все дружественные существа (включая вас) в пределах 30 футов от вас, которых вы видите, восстанавливают число хитов, равное вашему уровню Повара, и каждое из них может немедленно реакцией совершить одну атаку оружием либо сотворить один известный ему заговор, требующий броска атаки или спасброска (на его выбор).",
+				"Использовав это умение, вы должны завершить продолжительный отдых, прежде чем сможете применить его снова."
 			]
 		},
 		{
-			"name": "Magnificent Meal",
+			"name": "Великолепная трапеза",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Sous",
+			"subclassShortName": "Су-шеф",
 			"subclassSource": "Cook",
 			"level": 14,
 			"entries": [
-				"Beginning at 14th level, you can prepare a magical feast that strengthens both body and will. You gain the ability to cast the {@spell Heroes' Feast|PHB} spell. When you do so, you replace the material components of the spell with fine foods worth at least 500 gp, which the spell consumes.",
-				"Once you cast {@spell Heroes' Feast|PHB} in this way, you cannot do so again until you have finished a long rest."
+				"Начиная с 14-го уровня вы можете приготовить магический пир, укрепляющий и тело, и волю. Вы получаете способность творить заклинание {@spell Heroes' Feast|PHB}. Сотворяя его, вы заменяете материальные компоненты заклинания изысканной едой стоимостью не менее 500 зм, которую заклинание поглощает.",
+				"Сотворив {@spell Heroes' Feast|PHB} таким образом, вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Legendary Morsel",
+			"name": "Легендарный кусочек",
 			"source": "Cook",
 			"className": "Cook",
 			"classSource": "Cook",
-			"subclassShortName": "Sous",
+			"subclassShortName": "Су-шеф",
 			"subclassSource": "Cook",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.",
-				"{@bold Monkey's Brains.} The well-seasoned brains of the world's most capable simians. For 10 minutes, if the target fails a saving throw, they can choose to succeed instead. If they choose to do so, this morsel's effect ends."
+				"На 18-м уровне вы получаете способность готовить следующий кусочек во время продолжительного отдыха. При этом вы можете приготовить только один. Он не портится до вашего следующего продолжительного отдыха и не учитывается в общем числе кусочков, которые вы можете приготовить.",
+				"{@bold Обезьяньи мозги.} Хорошо приправленные мозги самых смышлёных приматов мира. В течение 10 минут, если цель проваливает спасбросок, она может вместо этого преуспеть. Если она так решает, эффект этого кусочка заканчивается."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Almond Milk",
+			"name": "Миндальное молоко",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1073,12 +1073,12 @@
 				}
 			],
 			"entries": [
-				"Warm almond milk sprinkled with nutmeg. When ingested, it prepares the body for sleep. The target must make a Constitution saving throw. On a failed save, they will fall {@condition unconscious} in 1 minute and remain {@condition unconscious} for 10 minutes. They wake early if they take any damage or if a creature spends an action to shake or slap them awake.",
-				"Creatures that do not need to sleep are unaffected by this morsel."
+				"Тёплое миндальное молоко с мускатным орехом. При проглатывании оно готовит тело ко сну. Цель должна совершить спасбросок Телосложения. При провале она через 1 минуту упадёт {@condition unconscious} и останется {@condition unconscious} на 10 минут. Она просыпается раньше, если получит урон или если существо потратит действие, чтобы растолкать её или разбудить пощёчиной.",
+				"Существа, которым не нужно спать, не подвержены действию этого кусочка."
 			]
 		},
 		{
-			"name": "Angel's Kiss",
+			"name": "Поцелуй ангела",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1099,11 +1099,11 @@
 				}
 			],
 			"entries": [
-				"White wine, bubbling with divine energy. When ingested, the target sheds bright light in a 30 foot radius, and dim light for an additional 30 feet for 1 minute. When a creature hostile to the target starts their turn in the bright light, they must make a Constitution saving throw. On a failed save, they are {@condition blinded} until the start of their next turn. Creatures with darkvision make this save with disadvantage."
+				"Белое вино, пузырящееся божественной энергией. При проглатывании цель в течение 1 минуты излучает яркий свет в радиусе 30 футов и тусклый свет ещё на 30 футов. Когда враждебное цели существо начинает свой ход в ярком свете, оно должно совершить спасбросок Телосложения. При провале оно становится {@condition blinded} до начала своего следующего хода. Существа с тёмным зрением совершают этот спасбросок с помехой."
 			]
 		},
 		{
-			"name": "Bloating Beans",
+			"name": "Вздувающие бобы",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1124,11 +1124,11 @@
 				}
 			],
 			"entries": [
-				"Hearty, yet swelling food. When ingested by a Medium or smaller creature, the target grows into a much pudgier, threatening form. The target's size doubles, and its weight is multiplied by eight for 1 minute. This growth increases its size by one category. The target also gains advantage on Strength checks and Strength saving throws for the duration."
+				"Сытная, но раздувающая еда. Когда её проглатывает существо Среднего размера или меньше, цель превращается в куда более пухлую и угрожающую форму. Размер цели удваивается, а вес умножается на восемь на 1 минуту. Этот рост увеличивает её размер на одну категорию. Также на это время цель совершает с преимуществом проверки Силы и спасброски Силы."
 			]
 		},
 		{
-			"name": "Boiled Dragon's Tail",
+			"name": "Варёный хвост дракона",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1145,13 +1145,13 @@
 				}
 			],
 			"entries": [
-				"A tough chunk of tail, boiled until soft and white. When ingested, the target grows scales across their body, and they sprout a tail made of fire. For 1 minute, the target gains a +1 bonus to AC, and they can use an action to do one of the following:",
-				"{@bold Frightful Presence.} The target roars. Each creature of the target's choice that is within 30 feet of the target must succeed on a Wisdom saving throw or become {@condition Frightened} of the target for 1 minute. The DC for the saving throw is equal to your Morsel save DC. A creature can repeat its saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful, the creature is immune to the target's Frightful Presence for the next minute.",
-				"{@bold Tail Swipe.} Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: {@damage 4d8} fire damage."
+				"Жёсткий кусок хвоста, сваренный до мягкости и белизны. При проглатывании у цели по всему телу вырастает чешуя и появляется хвост из огня. На 1 минуту цель получает бонус +1 к КД и может действием сделать одно из следующего:",
+				"{@bold Внушающее ужас присутствие.} Цель издаёт рёв. Каждое выбранное целью существо в пределах 30 футов от неё должно преуспеть в спасброске Мудрости, иначе станет {@condition Frightened} цели на 1 минуту. Сл спасброска равна Сл спасброска ваших кусочков. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа успешен, оно становится невосприимчиво к внушающему ужас присутствию цели на следующую минуту.",
+				"{@bold Взмах хвостом.} Рукопашная атака оружием: +8 к попаданию, досягаемость 10 фт., одна цель. Попадание: {@damage 4d8} урона огнём."
 			]
 		},
 		{
-			"name": "Braised Rabbit",
+			"name": "Тушёный кролик",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1168,11 +1168,11 @@
 				}
 			],
 			"entries": [
-				"A rabbit haunch cooked with wine and herbs. When ingested, it instills the body with a springy dexterity. The target gains the effect of the {@spell Jump|PHB} spell for 1 hour."
+				"Кроличья ножка, тушённая с вином и травами. При проглатывании она наполняет тело пружинистой ловкостью. Цель получает эффект заклинания {@spell Jump|PHB} на 1 час."
 			]
 		},
 		{
-			"name": "Buttered Trout",
+			"name": "Форель в масле",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1189,11 +1189,11 @@
 				}
 			],
 			"entries": [
-				"Trout coated in butter. When ingested, it seizes the lungs and reworks the body's breathing apparatus. The target gains the effect of the {@spell Water Breathing|PHB} spell for 1 hour. The target also gains a swim speed equal to their movement speed for the duration."
+				"Форель, покрытая маслом. При проглатывании она перестраивает дыхательный аппарат тела. Цель получает эффект заклинания {@spell Water Breathing|PHB} на 1 час. На это же время цель получает скорость плавания, равную её скорости перемещения."
 			]
 		},
 		{
-			"name": "Carrot Casserole",
+			"name": "Морковная запеканка",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1210,11 +1210,11 @@
 				}
 			],
 			"entries": [
-				"Carrots cooked with a dozen herbs and spices. When ingested, it improves eyesight. The target gains darkvision out to a range of 60 feet for 8 hours. If the target already has darkvision, increase its range by 60 feet."
+				"Морковь, приготовленная с десятком трав и специй. При проглатывании она улучшает зрение. Цель получает тёмное зрение в радиусе 60 футов на 8 часов. Если у цели уже есть тёмное зрение, его радиус увеличивается на 60 футов."
 			]
 		},
 		{
-			"name": "Chamomile Tea",
+			"name": "Ромашковый чай",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1231,11 +1231,11 @@
 				}
 			],
 			"entries": [
-				"Tea steeped with Chamomile leaves. When ingested, the tea relaxes the muscles, weakening physical strikes. For 1 minute, whenever the target makes a weapon attack, they must subtract {@dice 1d6} from their damage roll for that attack."
+				"Чай, настоянный на листьях ромашки. При проглатывании он расслабляет мышцы, ослабляя физические удары. В течение 1 минуты всякий раз, когда цель совершает атаку оружием, она должна вычесть {@dice 1d6} из броска урона этой атаки."
 			]
 		},
 		{
-			"name": "Cow Innards",
+			"name": "Коровьи потроха",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1252,11 +1252,11 @@
 				}
 			],
 			"entries": [
-				"A delectable treat that smells terrible. When ingested, it gives the body disgusting breath. The target must make a Constitution saving throw. If it fails, the target has disadvantage on all Charisma checks, and creatures cannot be {@condition charmed} by the target for 10 minutes. If any creatures were {@condition charmed} by the target when it ingested the morsel, the effect is suspended for the duration for any creatures that can smell the target."
+				"Лакомство, которое ужасно пахнет. При проглатывании оно придаёт телу отвратительное дыхание. Цель должна совершить спасбросок Телосложения. При провале цель совершает с помехой все проверки Харизмы, и существа не могут быть {@condition charmed} целью в течение 10 минут. Если на момент проглатывания кусочка какие-либо существа были {@condition charmed} целью, для всех существ, которые чуют цель, эффект приостанавливается на это время."
 			]
 		},
 		{
-			"name": "Elemental Pie",
+			"name": "Стихийный пирог",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1273,11 +1273,11 @@
 				}
 			],
 			"entries": [
-				"A pastry with a fruity filling swirled together with the primal elemental salts. When ingested, the power of the elements manifests itself inside the target's body. For 1 minute, the target gains resistance to Acid, Fire, Poison, Lightning, and Thunder damage. They also gain a flying and swimming speed equal to their walking speed for the duration."
+				"Пирог с фруктовой начинкой, смешанной с первородными стихийными солями. При проглатывании внутри тела цели проявляется сила стихий. На 1 минуту цель получает сопротивление урону кислотой, огнём, ядом, электричеством и звуком. На это же время она получает скорость полёта и плавания, равную её скорости ходьбы."
 			]
 		},
 		{
-			"name": "Fatty Oats",
+			"name": "Жирная овсянка",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1298,11 +1298,11 @@
 				}
 			],
 			"entries": [
-				"Complex grains suffused with healthy fats. When ingested, it builds up the hardiness of the skin to prevent harm. The target has resistance to all damage until the end of your next turn."
+				"Сложные зёрна, насыщенные полезными жирами. При проглатывании они укрепляют кожу, оберегая от вреда. Цель получает сопротивление всему урону до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Fire Salts",
+			"name": "Огненные соли",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1323,12 +1323,12 @@
 				}
 			],
 			"entries": [
-				"A rare and combustible spice. When ingested, it mixes with the target creature's breath and spit to create a fiery discharge. All creatures within 15 feet of the target (including the target) must make a Dexterity saving throw. On a failed save they take {@damage 4d6} fire damage, or half as much on a successful save.",
-				"The morsel's damage increases by 1d6 when you reach certain levels in this class: 9th level ({@damage 5d6}), 13th level ({@damage 6d6}), 17th level ({@damage 7d6}), 20th level ({@damage 8d6})."
+				"Редкая и горючая специя. При проглатывании она смешивается с дыханием и слюной существа-цели, создавая огненный выброс. Все существа в пределах 15 футов от цели (включая саму цель) должны совершить спасбросок Ловкости. При провале они получают {@damage 4d6} урона огнём, при успехе — половину.",
+				"Урон этого кусочка увеличивается на 1d6, когда вы достигаете определённых уровней в этом классе: 9-го уровня ({@damage 5d6}), 13-го ({@damage 6d6}), 17-го ({@damage 7d6}), 20-го ({@damage 8d6})."
 			]
 		},
 		{
-			"name": "Flavored Ice",
+			"name": "Ароматный лёд",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1345,12 +1345,12 @@
 				}
 			],
 			"entries": [
-				"Cream cold as ice. When ingested, it creates a brain freeze. The target must make an Intelligence saving throw. On a failed save, it takes {@damage 1d6} cold damage and has disadvantage on Concentration checks until the start of your next turn. On a successful save, the creature takes half damage and doesn't have disadvantage.",
-				"The morsel's damage increases by 1d6 when you reach certain levels in this class: 4th level ({@damage 2d6}), 7th level ({@damage 3d6}), 9th level ({@damage 4d6}), 13th level ({@damage 5d6}), 17th level ({@damage 6d6}), and 20th level ({@damage 7d6})."
+				"Мороженое, холодное как лёд. При проглатывании оно вызывает заморозку мозга. Цель должна совершить спасбросок Интеллекта. При провале она получает {@damage 1d6} урона холодом и совершает с помехой проверки Концентрации до начала вашего следующего хода. При успешном спасброске существо получает половину урона и не получает помеху.",
+				"Урон этого кусочка увеличивается на 1d6, когда вы достигаете определённых уровней в этом классе: 4-го уровня ({@damage 2d6}), 7-го ({@damage 3d6}), 9-го ({@damage 4d6}), 13-го ({@damage 5d6}), 17-го ({@damage 6d6}) и 20-го ({@damage 7d6})."
 			]
 		},
 		{
-			"name": "Frosted Grapes",
+			"name": "Засахаренный виноград",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1371,12 +1371,12 @@
 				}
 			],
 			"entries": [
-				"Grapes dusted with white sugar. When ingested, it powers the nerves at an enhanced rate. For 1 minute, the target adds {@damage 1d4} to all damage rolls and ability checks they make using Dexterity.",
-				"The die rolled for this morsel increases when you reach certain levels in this class: 10th level ({@damage 1d6}), 15th level ({@damage 1d8}), 20th level ({@damage 1d10})."
+				"Виноград, посыпанный белым сахаром. При проглатывании он ускоряет работу нервов. В течение 1 минуты цель прибавляет {@damage 1d4} ко всем броскам урона и проверкам характеристик, совершаемым с использованием Ловкости.",
+				"Кость, бросаемая для этого кусочка, увеличивается, когда вы достигаете определённых уровней в этом классе: 10-го уровня ({@damage 1d6}), 15-го ({@damage 1d8}), 20-го ({@damage 1d10})."
 			]
 		},
 		{
-			"name": "Garlic Tuna",
+			"name": "Тунец с чесноком",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1397,11 +1397,11 @@
 				}
 			],
 			"entries": [
-				"Festering tuna baked in over-ripened garlic. When ingested, it causes the target to exude rot from every pore. The target must make a Constitution saving throw. On a failed save, all hostile creatures within 10 feet of the target (including the target) have disadvantage on saving throws for 1 minute."
+				"Тунец с душком, запечённый в перезрелом чесноке. При проглатывании цель начинает источать гниль из каждой поры. Цель должна совершить спасбросок Телосложения. При провале все враждебные существа в пределах 10 футов от цели (включая саму цель) совершают с помехой спасброски в течение 1 минуты."
 			]
 		},
 		{
-			"name": "Greasy Slosh",
+			"name": "Жирная похлёбка",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1422,12 +1422,12 @@
 				}
 			],
 			"entries": [
-				"A thick, heavy, and acidic porridge. When ingested, it forces the body to use a significant amount of energy to process. The target must make a Constitution saving throw. On a failed save, it takes {@damage 1d6} acid damage and is considered {@condition restrained} for 1 minute. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the effect ends on the target. On a successful save, the target takes half damage and is not {@condition restrained}.",
-				"The morsel's damage increases by 1d6 when you reach certain levels in this class: 4th level ({@damage 2d6}), 7th level ({@damage 3d6}), 9th level ({@damage 4d6}), 13th level ({@damage 5d6}), 17th level ({@damage 6d6}), and 20th level ({@damage 7d6})."
+				"Густая, тяжёлая и кислая каша. При проглатывании она заставляет тело тратить много сил на переваривание. Цель должна совершить спасбросок Телосложения. При провале она получает {@damage 1d6} урона кислотой и считается {@condition restrained} в течение 1 минуты. В конце каждого своего хода цель может совершить ещё один спасбросок Телосложения. При успехе эффект на цели заканчивается. При успешном первом спасброске цель получает половину урона и не становится {@condition restrained}.",
+				"Урон этого кусочка увеличивается на 1d6, когда вы достигаете определённых уровней в этом классе: 4-го уровня ({@damage 2d6}), 7-го ({@damage 3d6}), 9-го ({@damage 4d6}), 13-го ({@damage 5d6}), 17-го ({@damage 6d6}) и 20-го ({@damage 7d6})."
 			]
 		},
 		{
-			"name": "Hardened Bread",
+			"name": "Затвердевший хлеб",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1444,12 +1444,12 @@
 				}
 			],
 			"entries": [
-				"Bread baked to be harder than stone. When ingested, it breaks into chunks and clogs the throat. The target must make a Strength saving throw. On a failed save, it takes {@damage 1d6} bludgeoning damage and has disadvantage on attack rolls until the start of your next turn. On a successful save, the creature takes half as much damage and doesn't have disadvantage.",
-				"The morsel's damage increases by 1d6 when you reach certain levels in this class: 4th level ({@damage 2d6}), 7th level ({@damage 3d6}), 9th level ({@damage 4d6}), 13th level ({@damage 5d6}), 17th level ({@damage 6d6}), and 20th level ({@damage 7d6})."
+				"Хлеб, испечённый твёрже камня. При проглатывании он разламывается на куски и забивает горло. Цель должна совершить спасбросок Силы. При провале она получает {@damage 1d6} дробящего урона и совершает с помехой броски атак до начала вашего следующего хода. При успешном спасброске существо получает половину этого урона и не получает помеху.",
+				"Урон этого кусочка увеличивается на 1d6, когда вы достигаете определённых уровней в этом классе: 4-го уровня ({@damage 2d6}), 7-го ({@damage 3d6}), 9-го ({@damage 4d6}), 13-го ({@damage 5d6}), 17-го ({@damage 6d6}) и 20-го ({@damage 7d6})."
 			]
 		},
 		{
-			"name": "Hellfire Whiskey",
+			"name": "Виски адского огня",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1470,11 +1470,11 @@
 				}
 			],
 			"entries": [
-				"A grey liquor, with sickly, yellow flames caressing the surface. When ingested, the target's eyes and body become wreathed in yellow-green flames for 1 minute. The flames shed dim light in a 10-foot radius, reaching out to drain the life of the target's enemies. When a large or smaller creature that is hostile to the target moves into the dim light for the first time on a turn, or starts its turn there, they must make a Constitution saving throw. On a failed save, they suffer one level of exhaustion."
+				"Серый ликёр, поверхность которого ласкают болезненные жёлтые языки пламени. При проглатывании глаза и тело цели на 1 минуту охватывает жёлто-зелёное пламя. Пламя испускает тусклый свет в радиусе 10 футов, вытягивая жизнь из врагов цели. Когда враждебное цели существо Большого размера или меньше впервые за ход входит в этот тусклый свет или начинает в нём свой ход, оно должно совершить спасбросок Телосложения. При провале оно получает один уровень истощения."
 			]
 		},
 		{
-			"name": "Herbal Grey Tea",
+			"name": "Травяной серый чай",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1491,11 +1491,11 @@
 				}
 			],
 			"entries": [
-				"A cup of steaming tea. When ingested, it clears the mind, and calms the body. The target adds {@dice 1d4} to all Constitution saving throws, Intelligence checks, and Wisdom checks for 1 hour."
+				"Чашка дымящегося чая. При проглатывании он проясняет разум и успокаивает тело. В течение 1 часа цель прибавляет {@dice 1d4} ко всем спасброскам Телосложения, проверкам Интеллекта и проверкам Мудрости."
 			]
 		},
 		{
-			"name": "Honeyed Fish",
+			"name": "Рыба в меду",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1516,11 +1516,11 @@
 				}
 			],
 			"entries": [
-				"A sweet and juicy fish. When ingested, it boosts the powers of the mind. The target has advantage on all Intelligence, Wisdom, and Charisma checks for 1 minute."
+				"Сладкая и сочная рыба. При проглатывании она усиливает силы разума. В течение 1 минуты цель совершает с преимуществом все проверки Интеллекта, Мудрости и Харизмы."
 			]
 		},
 		{
-			"name": "Hydra Tongue",
+			"name": "Язык гидры",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1537,21 +1537,21 @@
 				}
 			],
 			"entries": [
-				"Tongue from one of a Hydra's mouths, simmered in strong aromatics. When ingested, the target grows a second head that lasts for 1 minute. The head grants them the following benefits:",
+				"Язык из одной из пастей гидры, томлённый в крепких ароматных специях. При проглатывании у цели вырастает вторая голова, которая держится 1 минуту. Голова даёт ей следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"They gain {@dice 1d10} temporary hit points at the start of their turn.",
-						"Any limbs amputated within the last 24 hours regenerate at the start of each of their turns.",
-						"They gain an extra reaction that can only be used for opportunity attacks.",
-						"They gain an extra action that can only be used to take the Disengage, Help, or Search action."
+						"Она получает {@dice 1d10} временных хитов в начале своего хода.",
+						"Любые конечности, отсечённые за последние 24 часа, отрастают в начале каждого её хода.",
+						"Она получает дополнительную реакцию, которую можно использовать только для атак по возможности.",
+						"Она получает дополнительное действие, которое можно использовать только для действия «Отход», «Помощь» или «Поиск»."
 					]
 				},
-				"At the end of the duration, the head falls off and evaporates, leaving behind no trace."
+				"В конце длительности голова отпадает и испаряется, не оставляя следов."
 			]
 		},
 		{
-			"name": "Invigorating Juices",
+			"name": "Бодрящий сок",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1568,12 +1568,12 @@
 				}
 			],
 			"entries": [
-				"A delectable fruit sloshing with good juices. When ingested, the juices bolster the body's constitution. The target gains {@dice 1d8} temporary hit points for 1 minute.",
-				"The number of temporary hit points gained from this morsel increases by 1d8 when you reach certain levels in this class: 4th level ({@dice 2d8}), 7th level ({@dice 3d8}), 9th level ({@dice 4d8}), 13th level ({@dice 5d8}), 17th level ({@dice 6d8}), and 20th level ({@dice 7d8})."
+				"Восхитительный плод, полный хорошего сока. При проглатывании сок укрепляет телосложение тела. Цель получает {@dice 1d8} временных хитов на 1 минуту.",
+				"Число временных хитов, получаемых от этого кусочка, увеличивается на 1d8, когда вы достигаете определённых уровней в этом классе: 4-го уровня ({@dice 2d8}), 7-го ({@dice 3d8}), 9-го ({@dice 4d8}), 13-го ({@dice 5d8}), 17-го ({@dice 6d8}) и 20-го ({@dice 7d8})."
 			]
 		},
 		{
-			"name": "Jittering Coffee",
+			"name": "Дрожащий кофе",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1594,11 +1594,11 @@
 				}
 			],
 			"entries": [
-				"Coffee with an unnaturally high amount of caffeine. When ingested, it supercharges the nerves, constantly sending electrical currents through the heart. For 1 minute, if the target drops to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and this morsel's effect ends."
+				"Кофе с неестественно высоким содержанием кофеина. При проглатывании он перевозбуждает нервы, постоянно посылая через сердце электрические импульсы. В течение 1 минуты, если цель опускается до 0 хитов в результате полученного урона, она вместо этого опускается до 1 хита, и эффект этого кусочка заканчивается."
 			]
 		},
 		{
-			"name": "Packed Protein",
+			"name": "Плотный белок",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1615,12 +1615,12 @@
 				}
 			],
 			"entries": [
-				"A fried chicken leg. When ingested, it feeds the muscles at an enhanced rate. For 1 minute, the target adds {@dice 1d4} to all damage rolls and ability checks they make using Strength.",
-				"The die rolled for this morsel increases when you reach certain levels in this class: 10th level ({@dice 1d6}), 15th level ({@dice 1d8}), 20th level ({@dice 1d10})."
+				"Жареная куриная ножка. При проглатывании она усиленно питает мышцы. В течение 1 минуты цель прибавляет {@dice 1d4} ко всем броскам урона и проверкам характеристик, совершаемым с использованием Силы.",
+				"Кость, бросаемая для этого кусочка, увеличивается, когда вы достигаете определённых уровней в этом классе: 10-го уровня ({@dice 1d6}), 15-го ({@dice 1d8}), 20-го ({@dice 1d10})."
 			]
 		},
 		{
-			"name": "Pine Nut Mash",
+			"name": "Пюре из кедровых орехов",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1641,11 +1641,11 @@
 				}
 			],
 			"entries": [
-				"Roasted pine nuts smashed into a chunky cream. When ingested, it gives the target a sweet, fragrant breath. All friendly creatures within 10 feet of the target (including the target) have advantage on saving throws for 1 minute."
+				"Жареные кедровые орехи, растолчённые в густой крем. При проглатывании он придаёт цели сладкое ароматное дыхание. Все дружественные существа в пределах 10 футов от цели (включая саму цель) совершают с преимуществом спасброски в течение 1 минуты."
 			]
 		},
 		{
-			"name": "Rancid Onion",
+			"name": "Прогнивший лук",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1666,11 +1666,11 @@
 				}
 			],
 			"entries": [
-				"A vegetable in the heat of decomposition. When ingested, the target sprays the vegetable's over-ripened juices all around itself. All hostile creatures within 30 feet of the target (including the target) must make a Constitution saving throw. On a failed save they are {@condition paralyzed} until the start of your next turn and {@condition blinded} for 1 minute. At the end of each of its turns, a target can make another Constitution saving throw. On a success, they are no longer {@condition blinded}."
+				"Овощ в разгар разложения. При проглатывании цель разбрызгивает перезрелый сок овоща вокруг себя. Все враждебные существа в пределах 30 футов от цели (включая саму цель) должны совершить спасбросок Телосложения. При провале они становятся {@condition paralyzed} до начала вашего следующего хода и {@condition blinded} на 1 минуту. В конце каждого своего хода цель может совершить ещё один спасбросок Телосложения. При успехе она перестаёт быть {@condition blinded}."
 			]
 		},
 		{
-			"name": "Roast Pheasant",
+			"name": "Жареный фазан",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1687,11 +1687,11 @@
 				}
 			],
 			"entries": [
-				"Roasted pheasant wing. When ingested, it creates a lightness in the body. For 10 minutes, when the target falls, their rate of descent slows to a rate between 5 feet per round and 60 feet per round (their choice). They can choose their rate of descent again at the start of each of their turns. If they land before the morsel's effect ends, they take no falling damage."
+				"Жареное фазанье крыло. При проглатывании оно создаёт в теле лёгкость. В течение 10 минут, когда цель падает, скорость её снижения замедляется до значения от 5 до 60 футов за раунд (на её выбор). Она может заново выбрать скорость снижения в начале каждого своего хода. Если она приземлится до окончания действия кусочка, она не получает урона от падения."
 			]
 		},
 		{
-			"name": "Shreevy Leaves",
+			"name": "Листья шрива",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1708,11 +1708,11 @@
 				}
 			],
 			"entries": [
-				"Leaves of the Shreeve shrub, baked to release calming chemicals. When ingested, the target must make a Wisdom saving throw. On a failed save, the creature becomes indifferent to all other creatures for 1 minute. The indifference ends early if the target is damaged in any way. A creature who can't be {@condition charmed} is immune to this effect."
+				"Листья куста шрив, запечённые так, чтобы выделить успокаивающие вещества. При проглатывании цель должна совершить спасбросок Мудрости. При провале существо становится безразличным ко всем другим существам на 1 минуту. Безразличие заканчивается раньше, если цель получит любой урон. Существа, на которых нельзя наложить {@condition charmed}, невосприимчивы к этому эффекту."
 			]
 		},
 		{
-			"name": "Smoky Chops",
+			"name": "Копчёные отбивные",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1729,11 +1729,11 @@
 				}
 			],
 			"entries": [
-				"A smoky bite of pork. When ingested, it reacts with the stomach's juices to create a fiery sensation that warms the body and manifests a fever. The target gains resistance to cold damage and immunity to the {@condition poisoned} condition for 10 minutes."
+				"Копчёный кусочек свинины. При проглатывании он реагирует с желудочным соком, создавая жгучее ощущение, которое согревает тело и вызывает жар. На 10 минут цель получает сопротивление урону холодом и невосприимчивость к состоянию {@condition poisoned}."
 			]
 		},
 		{
-			"name": "Spectral Sprouts",
+			"name": "Призрачные ростки",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1750,11 +1750,11 @@
 				}
 			],
 			"entries": [
-				"Bean sprouts grown on haunted ground. When ingested, the target gains the benefits of the {@spell See Invisibility|PHB} spell for 1 minute. The target can also use an action to enter or exit the ethereal plane for the duration."
+				"Ростки бобов, выросшие на населённой призраками земле. При проглатывании цель получает преимущества заклинания {@spell See Invisibility|PHB} на 1 минуту. На это же время цель может действием войти в Эфирный план или покинуть его."
 			]
 		},
 		{
-			"name": "Spicy Pepper",
+			"name": "Острый перец",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1771,11 +1771,11 @@
 				}
 			],
 			"entries": [
-				"A spicy, roasted pepper. When ingested, it causes intense sweating that greases the body. The target gains resistance to fire damage and immunity to the {@condition grappled} condition for 10 minutes."
+				"Острый жареный перец. При проглатывании он вызывает обильное потоотделение, которое смазывает тело. На 10 минут цель получает сопротивление урону огнём и невосприимчивость к состоянию {@condition grappled}."
 			]
 		},
 		{
-			"name": "Spider Eggs",
+			"name": "Паучьи яйца",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1792,11 +1792,11 @@
 				}
 			],
 			"entries": [
-				"Salt-cured spider eggs. When ingested, it improves the body's grip. The target gains the effect of the {@spell Spider Climb|PHB} spell for 1 hour."
+				"Паучьи яйца, засоленные впрок. При проглатывании они улучшают сцепление тела. Цель получает эффект заклинания {@spell Spider Climb|PHB} на 1 час."
 			]
 		},
 		{
-			"name": "Startouched Seeds",
+			"name": "Семена, тронутые звёздами",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1813,11 +1813,11 @@
 				}
 			],
 			"entries": [
-				"Sunflower seeds baked in starlight. When ingested the target rolls {@dice 1d4}. The creature can recover expended spell slots that have a combined level that is equal to or less than the number rolled. If the recovered spell slots are not used in the next minute, they are lost."
+				"Семечки подсолнуха, запечённые в звёздном свете. При проглатывании цель бросает {@dice 1d4}. Существо может восстановить потраченные ячейки заклинаний, суммарный уровень которых равен или меньше выпавшего числа. Если восстановленные ячейки заклинаний не использованы в течение следующей минуты, они теряются."
 			]
 		},
 		{
-			"name": "Stinking Sprouts",
+			"name": "Вонючие ростки",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1838,11 +1838,11 @@
 				}
 			],
 			"entries": [
-				"Brussel sprouts wrapped in ham. When ingested, they power consistent and disruptive flatulence. The target gains immunity to the {@condition charmed} and {@condition frightened} conditions for 1 minute."
+				"Брюссельская капуста, завёрнутая в ветчину. При проглатывании она даёт обильное и мешающее газообразование. На 1 минуту цель получает невосприимчивость к состояниям {@condition charmed} и {@condition frightened}."
 			]
 		},
 		{
-			"name": "Strong Ale",
+			"name": "Крепкий эль",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1863,11 +1863,11 @@
 				}
 			],
 			"entries": [
-				"Intensely fermented alcohol. When ingested, it loosens the body's muscles. The target gains resistance to nonmagical bludgeoning, piercing, and slashing damage from weapon attacks for 1 minute."
+				"Интенсивно перебродивший напиток. При проглатывании он расслабляет мышцы тела. На 1 минуту цель получает сопротивление немагическому дробящему, колющему и рубящему урону от атак оружием."
 			]
 		},
 		{
-			"name": "Sugar Crystals",
+			"name": "Сахарные кристаллы",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1884,12 +1884,12 @@
 				}
 			],
 			"entries": [
-				"A string of crystallized sugars. When ingested, it overcharges the cells. The target's speed increases by 5 feet for 10 minutes.",
-				"This bonus increases when you reach certain levels in this class: 5th level (10 feet), 10th level (15 feet), 15th level (20 feet) and 20th level (25 feet)."
+				"Нить кристаллизованного сахара. При проглатывании он перезаряжает клетки. Скорость цели увеличивается на 5 футов на 10 минут.",
+				"Этот бонус увеличивается, когда вы достигаете определённых уровней в этом классе: 5-го уровня (10 футов), 10-го (15 футов), 15-го (20 футов) и 20-го (25 футов)."
 			]
 		},
 		{
-			"name": "Sweet and Sour Beets",
+			"name": "Кисло-сладкая свёкла",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1906,11 +1906,11 @@
 				}
 			],
 			"entries": [
-				"Sugared beets dipped in soured creams. When ingested, it softens the skin, weakening the body against physical attacks. For 1 minute, add {@damage 1d6} extra damage to the first weapon attack that hits the target on each turn."
+				"Свёкла в сахаре, обмакнутая в скисшие сливки. При проглатывании она смягчает кожу, ослабляя тело против физических атак. В течение 1 минуты первая попавшая по цели атака оружием в каждом ходу наносит дополнительно {@damage 1d6} урона."
 			]
 		},
 		{
-			"name": "Thickening Gruel",
+			"name": "Густеющая каша",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1927,11 +1927,11 @@
 				}
 			],
 			"entries": [
-				"A hardy porridge . When ingested, it thickens the skin. The target gains the effect of the {@spell Barkskin|PHB} spell for 10 minutes."
+				"Питательная каша. При проглатывании она делает кожу толще. Цель получает эффект заклинания {@spell Barkskin|PHB} на 10 минут."
 			]
 		},
 		{
-			"name": "Underdark Draught",
+			"name": "Глоток Подземья",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1952,12 +1952,12 @@
 				}
 			],
 			"entries": [
-				"A pitch black ale, foaming with shadows. When ingested, the target immediately vomits magical darkness that fills a 10-foot radius sphere centered on the target. A creature with darkvision can't see through this darkness and nonmagical light can't illuminate it.",
-				"The darkness lasts for 1 minute. All creatures friendly to the target (including the target) can see through this magical darkness."
+				"Чёрный как смоль эль, пенящийся тенями. При проглатывании цель немедленно изрыгает магическую тьму, заполняющую сферу радиусом 10 футов с центром на цели. Существо с тёмным зрением не может видеть сквозь эту тьму, и немагический свет её не освещает.",
+				"Тьма держится 1 минуту. Все дружественные цели существа (включая саму цель) могут видеть сквозь эту магическую тьму."
 			]
 		},
 		{
-			"name": "Vodka Slushie",
+			"name": "Водочный шербет",
 			"source": "Cook",
 			"featureType": [
 				"MOR"
@@ -1978,8 +1978,8 @@
 				}
 			],
 			"entries": [
-				"A white swirl of frozen vodka, misting a boozy aroma. When ingested, the target immediately vomits snow that covers the ground around them. The ground in a 15-foot radius centered on the target becomes covered with snow.",
-				"The snow is considered difficult terrain for all creatures hostile to the target. When the snow is vomited, all creatures hostile to the target within in the area must make a Strength saving throw. On a failed save, a creature is pushed out of the snow's area, away from the target. The snow lasts for 1 minute, or until melted by an intense heat."
+				"Белая воронка замороженной водки, источающая хмельной аромат. При проглатывании цель немедленно изрыгает снег, покрывающий землю вокруг неё. Земля в радиусе 15 футов с центром на цели покрывается снегом.",
+				"Снег считается труднопроходимой местностью для всех враждебных цели существ. Когда снег изрыгается, все враждебные цели существа в этой области должны совершить спасбросок Силы. При провале существо выталкивается из области снега в сторону от цели. Снег держится 1 минуту или пока не растает от сильного жара."
 			]
 		}
 	]

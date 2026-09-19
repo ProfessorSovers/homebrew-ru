@@ -20,7 +20,7 @@
 	},
 	"class": [
 		{
-			"name": "Hunter",
+			"name": "Охотник",
 			"source": "Hunter",
 			"page": 1,
 			"hd": {
@@ -130,13 +130,13 @@
 					}
 				],
 				"weapons": [
-					"simple",
+					"простое",
 					"martial"
 				],
 				"armor": [
-					"light",
-					"medium",
-					"shield"
+					"лёгкий",
+					"средний",
+					"щит"
 				],
 				"armorProficiencies": [
 					{
@@ -149,12 +149,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
-					"(a) two {@filter martial melee weapons|items|source=phb|category=basic|type=martial weapon;melee weapon=&} or (b) a {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=&} and a {@item shield|phb}",
-					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"A {@filter simple or martial ranged weapon|items|source=phb|category=basic|type=ranged weapon} and 20  {@filter pieces of ammunition|items|source=phb|category=basic|type=ammunition}"
+					"(а) {@item scale mail|phb} или (б) {@item leather armor|phb}",
+					"(а) два {@filter martial melee weapons|items|source=phb|category=basic|type=martial weapon;melee weapon=&} или (б) {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=&} и {@item shield|phb}",
+					"(а) {@item dungeoneer's pack|phb} или (б) {@item explorer's pack|phb}",
+					"Одно {@filter simple or martial ranged weapon|items|source=phb|category=basic|type=ranged weapon} и 20 {@filter pieces of ammunition|items|source=phb|category=basic|type=ammunition}"
 				],
-				"goldAlternative": "{@dice 4d4×10|5d4 × 10|Starting Gold}",
+				"goldAlternative": "{@dice 4d4×10|5d4 × 10|Начальное золото}",
 				"defaultData": [
 					{
 						"a": [
@@ -234,7 +234,7 @@
 			},
 			"classTableGroups": [
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"colLabels": [
 						"{@filter 1st|spells|level=1|class=Hunter}",
 						"{@filter 2nd|spells|level=2|class=Hunter}",
@@ -387,85 +387,85 @@
 				}
 			],
 			"classFeatures": [
-				"Natural Explorer|Hunter|Hunter|1",
-				"Swift Response|Hunter|Hunter|1",
-				"Fighting Style|Hunter|Hunter|2",
-				"Hunter's Mark|Hunter|Hunter|2",
-				"Spellcasting|Hunter|Hunter|2",
+				"Исследователь природы|Hunter|Hunter|1",
+				"Быстрый отклик|Hunter|Hunter|1",
+				"Боевой стиль|Hunter|Hunter|2",
+				"Метка охотника|Hunter|Hunter|2",
+				"Сотворение заклинаний|Hunter|Hunter|2",
 				{
-					"classFeature": "Hunter's Prey|Hunter|Hunter|3",
+					"classFeature": "Добыча охотника|Hunter|Hunter|3",
 					"gainSubclassFeature": true
 				},
-				"Hunter's Technique (1/rest)|Hunter|Hunter|3",
-				"Ability Score Improvement|Hunter|Hunter|4",
-				"Extra Attack|Hunter|Hunter|5",
-				"Hunter's Guard|Hunter|Hunter|6",
+				"Техника охотника (1 раз за отдых)|Hunter|Hunter|3",
+				"Увеличение характеристик|Hunter|Hunter|4",
+				"Дополнительная атака|Hunter|Hunter|5",
+				"Защита охотника|Hunter|Hunter|6",
 				{
-					"classFeature": "Hunter's Prey feature|Hunter|Hunter|7",
+					"classFeature": "Умение добычи охотника|Hunter|Hunter|7",
 					"gainSubclassFeature": true
 				},
-				"Hunter's Technique (2/rest)|Hunter|Hunter|7",
-				"Ability Score Improvement|Hunter|Hunter|8",
-				"Quick Reflexes|Hunter|Hunter|10",
+				"Техника охотника (2 раза за отдых)|Hunter|Hunter|7",
+				"Увеличение характеристик|Hunter|Hunter|8",
+				"Быстрые рефлексы|Hunter|Hunter|10",
 				{
-					"classFeature": "Hunter's Prey feature|Hunter|Hunter|11",
+					"classFeature": "Умение добычи охотника|Hunter|Hunter|11",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Hunter|Hunter|12",
-				"Counterattack|Hunter|Hunter|14",
+				"Увеличение характеристик|Hunter|Hunter|12",
+				"Контратака|Hunter|Hunter|14",
 				{
-					"classFeature": "Hunter's Prey feature|Hunter|Hunter|15",
+					"classFeature": "Умение добычи охотника|Hunter|Hunter|15",
 					"gainSubclassFeature": true
 				},
-				"Hunter's Technique (3/rest)|Hunter|Hunter|15",
-				"Ability Score Improvement|Hunter|Hunter|16",
-				"Feral Senses|Hunter|Hunter|18",
-				"Ability Score Improvement|Hunter|Hunter|19",
-				"Foe Slayer|Hunter|Hunter|20"
+				"Техника охотника (3 раза за отдых)|Hunter|Hunter|15",
+				"Увеличение характеристик|Hunter|Hunter|16",
+				"Звериные чувства|Hunter|Hunter|18",
+				"Увеличение характеристик|Hunter|Hunter|19",
+				"Убийца врагов|Hunter|Hunter|20"
 			],
-			"subclassTitle": "Hunter's Prey",
+			"subclassTitle": "Добыча охотника",
 			"hasFluff": true
 		}
 	],
 	"classFluff": [
 		{
-			"name": "Hunter",
+			"name": "Охотник",
 			"source": "Hunter",
 			"entries": [
 				{
 					"entries": [
-						"Rough and wild looking, a human stalks alone through the shadows of the trees, hunting a horde of goblins he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.",
-						"After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another, sundering the dragon's thick scales.",
-						"Leaping back, a half-elf narrowly evades a grave blow from a towering stone giant, as its club leaves a large crater in the ground. With deft steps, he darts up the titan's arm, longsword drawn as he rushes for the giant's throat.",
-						"Stepping past a cowering guard, a dwarf strides boldly onward through the dingy back alley. Behind him lies half a dozen battered men, bandits that would dare stand between him and his quarry.",
-						"Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, hunters keep their watch.",
+						"Суровый и дикий на вид человек в одиночку крадётся среди теней деревьев, охотясь на орду гоблинов, которые, как он знает, готовят набег на соседнюю ферму. Сжимая в каждой руке по короткому мечу, он превращается в стальной вихрь, срезая одного врага за другим.",
+						"Уклонившись кувырком от конуса ледяного воздуха, эльфийка встаёт на ноги и натягивает лук, чтобы выпустить стрелу в белого дракона. Стряхнув волну страха, исходящую от дракона, как холод от его дыхания, она посылает стрелу за стрелой, раскалывая толстую чешую дракона.",
+						"Отпрыгнув назад, полуэльф едва уходит от страшного удара огромного каменного великана, чья дубина оставляет в земле большую воронку. Ловкими шагами он взбирается по руке титана, выхватив длинный меч и устремляясь к горлу великана.",
+						"Шагнув мимо съёжившегося стражника, дварф смело идёт дальше по грязному заднему переулку. Позади него остались полдюжины избитых людей — разбойников, осмелившихся встать между ним и его добычей.",
+						"Вдали от суеты городов и деревень, за живыми изгородями, что укрывают самые далёкие фермы от ужасов дикой природы, среди густых деревьев непроходимых лесов и по широким пустым равнинам охотники несут свою стражу.",
 						{
 							"type": "entries",
-							"name": "Deadly Predators",
+							"name": "Смертоносные хищники",
 							"entries": [
-								"Warriors of the wilderness, hunters specialize in bringging down the monsters that threated the edges of civilization\u2014\u2014humanoid raiders, rampaging beats and monstrosities, terrible giants, ghosts and demons, and deadly dragons. Each hunter's techniques are efficiently designed to combat the prey they hunt, employing various tactics to disable and destroy their quarry. Often, hunters' study of their prey leads to adoption of tactics from the very prey they hunt.",
-								"Their experience with their prey and the wild lands they inhabit allows hunters to harness nature's power to cast spells, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A hunter's talents and abilities are flexible, able to be tailored to suit any situation that may stand between them and their prey."
+								"Воины дикой природы, охотники специализируются на том, чтобы одолевать чудовищ, угрожающих границам цивилизации: гуманоидов-налётчиков, разъярённых зверей и чудовищ, ужасных великанов, призраков и демонов, смертоносных драконов. Техники каждого охотника разработаны так, чтобы эффективно сражаться с той добычей, на которую он охотится, используя разные приёмы, чтобы обездвижить и уничтожить её. Часто изучение добычи приводит охотников к заимствованию приёмов у той самой добычи.",
+								"Опыт обращения с добычей и с дикими землями, которые она населяет, позволяет охотникам использовать силу природы для сотворения заклинаний — во многом как это делает друид. Их заклинания, как и боевые способности, подчёркивают скорость, скрытность и охоту. Таланты и способности охотника гибки и могут быть приспособлены к любой ситуации, что встанет между ним и его добычей."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Independent Adventurers",
+							"name": "Независимые искатели приключений",
 							"entries": [
-								"Though a hunter may make a living as a guide or a tracker, a hunter's true calling lies with hunting down its prey in the wild. Many hunters are independent almost to a fault, knowing that, when a dragon or horde of goblins attacks, a hunter may the the first\u2014and possibly the last\u2014line of defense.",
-								"This fierce independence makes hunters well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, hunters respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization's foes are worthy any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways."
+								"Хотя охотник может зарабатывать на жизнь как проводник или следопыт, его истинное призвание — выслеживать добычу в дикой природе. Многие охотники независимы почти до недостатка: они знают, что когда дракон или орда гоблинов нападёт, охотник может оказаться первой — и, возможно, последней — линией обороны.",
+								"Эта яростная независимость делает охотников отлично приспособленными к приключениям: они привыкли к жизни вдали от удобств сухой постели и горячей ванны. Столкнувшись с выросшими в городе искателями приключений, которые брюзжат и стонут о тяготах дикой природы, охотники отвечают смесью веселья, досады и сострадания. Но они быстро понимают, что другие искатели приключений, способные выдержать свой вес в бою с врагами цивилизации, достойны любой дополнительной ноши. Избалованные горожане могут не знать, как прокормиться или найти свежую воду в дикой природе, но они компенсируют это иначе."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating a Hunter",
+							"name": "Создание охотника",
 							"entries": [
-								"As you create your hunter character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the hunter's ways? Did you leave your apprenticeship, or was your mater slain\u2014perhaps by the same kind of monster that became your favored prey? Or perhaps you learned your skills as part of a band of hunters associated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the harsh wilderness.",
-								"What's the source of your particular hatred of a certain kind of prey? Did a monster kill someone you loved or destroy your home village? Or did you see to much destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from the silent solitude that they offer?",
+								"Создавая персонажа-охотника, подумайте о природе подготовки, давшей вам ваши способности. Вы учились у одного наставника, странствуя с ним по дебрям, пока не освоили пути охотника? Вы оставили своё обучение, или вашего наставника убили — возможно, то самое чудовище, которое стало вашей избранной добычей? А может, вы получили свои навыки в отряде охотников, связанном с друидическим кругом, где учились и мистическим путям, и знанию дикой природы. Вы можете быть самоучкой — отшельником, освоившим боевые навыки, выслеживание и даже магическую связь с природой из необходимости выжить в суровых дебрях.",
+								"Что стало источником вашей особой ненависти к определённому виду добычи? Чудовище убило того, кого вы любили, или разрушило вашу деревню? Или вы повидали слишком много разрушений, причинённых этими чудовищами, и посвятили себя обузданию их грабежей? Ваша карьера искателя приключений — продолжение вашей работы по охране пограничных земель или значительная перемена? Что заставило вас присоединиться к отряду искателей приключений? Трудно ли вам учить новых союзников путям дикой природы, или вы приветствуете избавление от тихого одиночества, которое они предлагают?",
 								{
 									"type": "entries",
-									"name": "Quick Build",
+									"name": "Быстрое создание",
 									"entries": [
-										"You can make a hunter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). If you plan to adopt the Bounty Hunter prey, make Strength your highest ability score. Your next-highest score should be Wisdom or Constitution, depending on whether you want to focus on ranged combat or melee combat respectively. Second, choose the outlander background."
+										"Вы можете быстро создать охотника, следуя этим советам. Во-первых, сделайте своей самой высокой характеристикой Силу или Ловкость — в зависимости от того, хотите ли вы сосредоточиться на рукопашном оружии или на стрельбе из лука (либо на фехтовальном оружии). Если вы планируете выбрать добычу Охотник за головами, сделайте своей самой высокой характеристикой Силу. Вашей следующей по величине характеристикой должна быть Мудрость или Телосложение — в зависимости от того, хотите ли вы сосредоточиться на дальнем или на рукопашном бое соответственно. Во-вторых, выберите предысторию «чужеземец»."
 									]
 								}
 							]
@@ -473,7 +473,7 @@
 					],
 					"source": "Hunter",
 					"page": 1,
-					"name": "Hunter",
+					"name": "Охотник",
 					"type": "section"
 				}
 			]
@@ -481,228 +481,228 @@
 	],
 	"subclass": [
 		{
-			"name": "Blood Hunter",
-			"shortName": "Blood Hunter",
+			"name": "Охотник на кровь",
+			"shortName": "Охотник на кровь",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Blood Hunter|Hunter|Hunter|Blood Hunter|Hunter|3",
-				"Profaned Blood|Hunter|Hunter|Blood Hunter|Hunter|7",
-				"Spilled Blood|Hunter|Hunter|Blood Hunter|Hunter|11",
-				"Blood Curse|Hunter|Hunter|Blood Hunter|Hunter|15"
+				"Охотник на кровь|Hunter|Hunter|Кровавый охотник|Hunter|3",
+				"Осквернённая кровь|Hunter|Hunter|Кровавый охотник|Hunter|7",
+				"Пролитая кровь|Hunter|Hunter|Кровавый охотник|Hunter|11",
+				"Кровавое проклятие|Hunter|Hunter|Кровавый охотник|Hunter|15"
 			]
 		},
 		{
-			"name": "Bounty Hunter",
-			"shortName": "Bounty Hunter",
+			"name": "Охотник за головами",
+			"shortName": "Охотник за головами",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Bounty Hunter|Hunter|Hunter|Bounty Hunter|Hunter|3",
-				"Multiattack Defense|Hunter|Hunter|Bounty Hunter|Hunter|7",
-				"Menacing Warrior|Hunter|Hunter|Bounty Hunter|Hunter|11",
-				"Misdirection|Hunter|Hunter|Bounty Hunter|Hunter|15"
+				"Охотник за головами|Hunter|Hunter|Охотник за головами|Hunter|3",
+				"Защита от мультиатаки|Hunter|Hunter|Охотник за головами|Hunter|7",
+				"Грозный воин|Hunter|Hunter|Охотник за головами|Hunter|11",
+				"Отвлечение|Hunter|Hunter|Охотник за головами|Hunter|15"
 			]
 		},
 		{
-			"name": "Colossus Slayer",
-			"shortName": "Colossus Slayer",
+			"name": "Истребитель великанов",
+			"shortName": "Истребитель великанов",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Colossus Slayer|Hunter|Hunter|Colossus Slayer|Hunter|3",
-				"Uncanny Dodge|Hunter|Hunter|Colossus Slayer|Hunter|7",
-				"Coordinated Strike|Hunter|Hunter|Colossus Slayer|Hunter|11",
-				"Become Immense|Hunter|Hunter|Colossus Slayer|Hunter|15"
+				"Истребитель великанов|Hunter|Hunter|Губитель колоссов|Hunter|3",
+				"Невероятное уклонение|Hunter|Hunter|Губитель колоссов|Hunter|7",
+				"Согласованный удар|Hunter|Hunter|Губитель колоссов|Hunter|11",
+				"Стать огромным|Hunter|Hunter|Губитель колоссов|Hunter|15"
 			]
 		},
 		{
-			"name": "Demon Slayer",
-			"shortName": "Demon Slayer",
+			"name": "Губитель демонов",
+			"shortName": "Губитель демонов",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Demon Slayer|Hunter|Hunter|Demon Slayer|Hunter|3",
-				"Unshakable|Hunter|Hunter|Demon Slayer|Hunter|7",
-				"Undercut Resistances|Hunter|Hunter|Demon Slayer|Hunter|11",
-				"Regeneration|Hunter|Hunter|Demon Slayer|Hunter|15"
+				"Губитель демонов|Hunter|Hunter|Губитель демонов|Hunter|3",
+				"Несгибаемый|Hunter|Hunter|Губитель демонов|Hunter|7",
+				"Подрыв сопротивлений|Hunter|Hunter|Губитель демонов|Hunter|11",
+				"Регенерация|Hunter|Hunter|Губитель демонов|Hunter|15"
 			]
 		},
 		{
-			"name": "Dragon Slayer",
-			"shortName": "Dragon Slayer",
+			"name": "Убийца драконов",
+			"shortName": "Убийца драконов",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Dragon Slayer|Hunter|Hunter|Dragon Slayer|Hunter|3",
-				"Evasion|Hunter|Hunter|Dragon Slayer|Hunter|7",
-				"Elemental Resistance|Hunter|Hunter|Dragon Slayer|Hunter|11",
-				"Frightening Presence|Hunter|Hunter|Dragon Slayer|Hunter|15"
+				"Убийца драконов|Hunter|Hunter|Губитель драконов|Hunter|3",
+				"Увёртливость|Hunter|Hunter|Губитель драконов|Hunter|7",
+				"Сопротивление стихиям|Hunter|Hunter|Губитель драконов|Hunter|11",
+				"Устрашающее присутствие|Hunter|Hunter|Губитель драконов|Hunter|15"
 			]
 		},
 		{
-			"name": "Horde Breaker",
-			"shortName": "Horde Breaker",
+			"name": "Разрушитель орд",
+			"shortName": "Разрушитель орд",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Horde Breaker|Hunter|Hunter|Horde Breaker|Hunter|3",
-				"Escape the Horde|Hunter|Hunter|Horde Breaker|Hunter|7",
-				"Multiattack|Hunter|Hunter|Horde Breaker|Hunter|11",
-				"Horde Tactics|Hunter|Hunter|Horde Breaker|Hunter|15"
+				"Разрушитель орд|Hunter|Hunter|Гроза орды|Hunter|3",
+				"Побег от орды|Hunter|Hunter|Гроза орды|Hunter|7",
+				"Мультиатака|Hunter|Hunter|Гроза орды|Hunter|11",
+				"Тактика орды|Hunter|Hunter|Гроза орды|Hunter|15"
 			]
 		},
 		{
-			"name": "Mage Hunter",
-			"shortName": "Mage Hunter",
+			"name": "Охотник на магов",
+			"shortName": "Охотник на магов",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Mage Hunter|Hunter|Hunter|Mage Hunter|Hunter|3",
-				"Iron Mind|Hunter|Hunter|Mage Hunter|Hunter|7",
-				"Mage's Bane|Hunter|Hunter|Mage Hunter|Hunter|11",
-				"Battle Magic|Hunter|Hunter|Mage Hunter|Hunter|15"
+				"Охотник на магов|Hunter|Hunter|Охотник на магов|Hunter|3",
+				"Железный разум|Hunter|Hunter|Охотник на магов|Hunter|7",
+				"Погибель магов|Hunter|Hunter|Охотник на магов|Hunter|11",
+				"Боевая магия|Hunter|Hunter|Охотник на магов|Hunter|15"
 			]
 		},
 		{
-			"name": "Night Stalker",
-			"shortName": "Night Stalker",
+			"name": "Ночной охотник",
+			"shortName": "Ночной охотник",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Night Stalker|Hunter|Hunter|Night Stalker|Hunter|3",
-				"Cloak of Darkness|Hunter|Hunter|Night Stalker|Hunter|7",
-				"Symphony of the Night|Hunter|Hunter|Night Stalker|Hunter|11",
-				"Shadow Clone|Hunter|Hunter|Night Stalker|Hunter|15"
+				"Ночной охотник|Hunter|Hunter|Ночной охотник|Hunter|3",
+				"Плащ тьмы|Hunter|Hunter|Ночной охотник|Hunter|7",
+				"Симфония ночи|Hunter|Hunter|Ночной охотник|Hunter|11",
+				"Теневой двойник|Hunter|Hunter|Ночной охотник|Hunter|15"
 			]
 		},
 		{
-			"name": "Plane Keeper",
-			"shortName": "Plane Keeper",
+			"name": "Хранитель планов",
+			"shortName": "Хранитель планов",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Plane Keeper|Hunter|Hunter|Plane Keeper|Hunter|3",
-				"Spectral Defense|Hunter|Hunter|Plane Keeper|Hunter|7",
-				"Stutter Strike|Hunter|Hunter|Plane Keeper|Hunter|11",
-				"Astral Rift|Hunter|Hunter|Plane Keeper|Hunter|15"
+				"Хранитель планов|Hunter|Hunter|Хранитель планов|Hunter|3",
+				"Спектральная защита|Hunter|Hunter|Хранитель планов|Hunter|7",
+				"Рваный удар|Hunter|Hunter|Хранитель планов|Hunter|11",
+				"Астральный разлом|Hunter|Hunter|Хранитель планов|Hunter|15"
 			]
 		},
 		{
-			"name": "Ranger",
-			"shortName": "Ranger",
+			"name": "Следопыт",
+			"shortName": "Следопыт",
 			"source": "Hunter",
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"subclassFeatures": [
-				"Ranger|Hunter|Hunter|Ranger|Hunter|3",
-				"Land's Stride|Hunter|Hunter|Ranger|Hunter|7",
-				"Expert Skirmisher|Hunter|Hunter|Ranger|Hunter|11",
-				"One With the Wild|Hunter|Hunter|Ranger|Hunter|15"
+				"Следопыт|Hunter|Hunter|Следопыт|Hunter|3",
+				"Поступь земли|Hunter|Hunter|Следопыт|Hunter|7",
+				"Искусный застрельщик|Hunter|Hunter|Следопыт|Hunter|11",
+				"Единство с дикой природой|Hunter|Hunter|Следопыт|Hunter|15"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Natural Explorer",
+			"name": "Исследователь природы",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 1,
 			"entries": [
-				"Starting at 1st level, your experience in the wild grants you the following features:",
+				"Начиная с 1-го уровня ваш опыт в дикой природе даёт вам следующие умения:",
 				{
 					"type": "list",
 					"items": [
-						"You can forage the terrain around you to craft a healing salve when you finish a long rest. Preparing a salve requires 1 hour spent gathering and mixing components. As an action, you can apply the salve to a creature within 5 feet of you. The creature can immediately spend one hit die to heal itself. The creature rolls the die, adds its Constitution modifier plus your hunter level, and regains a number of hit points equal to the total (minimum of 1). The salve loses its potency after 24 hours.",
-						"Other creatures have disadvantage on checks made to track your group.",
-						"When you take a long rest, you can spend 1 hour to prepare a camp. Each creature that rests in your camp regains one additional hit die when it finishes a long rest. Hit dice gained in this way can't exceed a creature's maximum number of hit dice."
+						"Завершив продолжительный отдых, вы можете насобирать в окружающей местности травы и приготовить целебную мазь. Приготовление мази требует 1 часа на сбор и смешивание компонентов. Действием вы можете нанести мазь существу в пределах 5 футов от вас. Существо может немедленно потратить одну кость хитов, чтобы излечиться. Существо бросает эту кость, добавляет свой модификатор Телосложения плюс ваш уровень охотника и восстанавливает количество хитов, равное сумме (минимум 1). Мазь теряет свои свойства через 24 часа.",
+						"Другие существа совершают с помехой проверки, чтобы выследить вашу группу.",
+						"Устраивая продолжительный отдых, вы можете потратить 1 час на подготовку лагеря. Каждое существо, отдыхающее в вашем лагере, восстанавливает одну дополнительную кость хитов, завершая продолжительный отдых. Полученные так кости хитов не могут превысить максимум костей хитов существа."
 					]
 				}
 			]
 		},
 		{
-			"name": "Swift Response",
+			"name": "Быстрый отклик",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 1,
 			"entries": [
-				"At 1st level, you learn to react with swift and decisive action when attacked. This grants you the following benefits:",
+				"На 1-м уровне вы учитесь отвечать на атаки быстрыми и решительными действиями. Это даёт вам следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You can add your proficiency bonus to initiative rolls.",
-						"On your first turn during combat, you have advantage on the first attack roll you make against a creature that has not yet acted."
+						"Вы можете добавлять свой бонус мастерства к броскам инициативы.",
+						"В свой первый ход в бою вы совершаете с преимуществом первый бросок атаки по существу, которое ещё не действовало."
 					]
 				}
 			]
 		},
 		{
-			"name": "Fighting Style",
+			"name": "Боевой стиль",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+				"На 2-м уровне вы избираете особый боевой стиль как свою специальность. Выберите один из следующих вариантов. Вы не можете взять один вариант боевого стиля более одного раза, даже если позже получите возможность выбора снова.",
 				{
 					"type": "options",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Archery",
+							"name": "Стрельба из лука",
 							"entries": [
-								"You gain a +2 bonus to attack rolls you make with ranged weapons."
+								"Вы получаете бонус +2 к броскам атаки дальнобойным оружием."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Defense",
+							"name": "Защита",
 							"entries": [
-								"While you are wearing armor, you gain a +1 bonus to AC."
+								"Пока на вас надет доспех, вы получаете бонус +1 к КД."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Dueling",
+							"name": "Дуэль",
 							"entries": [
-								"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+								"Если в одной руке у вас оружие ближнего боя и никакого другого оружия, вы получаете бонус +2 к броскам урона этим оружием."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Thrown-Weapon Fighting",
+							"name": "Бой метательным оружием",
 							"entries": [
-								"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
-								"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll."
+								"Вы можете достать оружие, обладающее метательным свойством, как часть атаки этим оружием.",
+								"Кроме того, когда вы попадаете дальнобойной атакой метательным оружием, вы получаете бонус +1 к броску урона."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Two-Weapon Fighting",
+							"name": "Бой двумя оружиями",
 							"entries": [
-								"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+								"Когда вы сражаетесь в бою двумя руками, вы можете добавить свой модификатор характеристик к урону второй атаки."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Unarmed Fighting",
+							"name": "Борьба без оружия",
 							"entries": [
-								"Your unarmed strikes can deal bludgeoning damage equal to {@damage 1d6} + your Strength modifier. If you strike with two free hands, the {@damage d6} becomes a {@damage d8}.",
-								"When you successfully grapple a creature, you can deal {@damage 1d4} bludgeoning damage to it. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack."
+								"Ваши безоружные удары могут наносить дробящий урон, равный {@damage 1d6} + ваш модификатор Силы. Если вы бьёте двумя свободными руками, {@damage d6} становится {@damage d8}.",
+								"Успешно захватив существо, вы можете нанести ему {@damage 1d4} дробящего урона. Пока захват не окончен, вы также можете наносить этот урон существу всякий раз, когда попадаете по нему рукопашной атакой."
 							]
 						}
 					]
@@ -710,60 +710,60 @@
 			]
 		},
 		{
-			"name": "Hunter's Mark",
+			"name": "Метка охотника",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you learn to read your prey, allowing you to strike deeper and truer. As a bonus action on your turn, you can choose a creature you can see within 90 feet of you and mark it as your quarry. You can maintain this mark for a number of hours equal to your hunter level. You deal an extra {@damage 1d6} damage of the weapon's type to the marked target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it.",
-				"This effect ends if you fall {@condition unconscious}, use it on another creature, or dismiss it as a bonus action.",
-				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a short or long rest."
+				"На 2-м уровне вы учитесь читать свою добычу, что позволяет бить глубже и точнее. Бонусным действием в свой ход вы можете выбрать существо, которое видите в пределах 90 футов от вас, и отметить его как свою добычу. Вы можете поддерживать эту метку число часов, равное вашему уровню охотника. Вы наносите помеченной цели дополнительный урон {@damage 1d6} того вида, что и оружие, всякий раз, когда попадаете по ней атакой оружием, и совершаете с преимуществом любую проверку Мудрости (Внимательность) или Мудрости (Выживание), чтобы найти её.",
+				"Этот эффект заканчивается, если вы получаете состояние {@condition unconscious}, используете его на другом существе или отменяете его бонусным действием.",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Мудрости (минимум один раз). Вы восстанавливаете все потраченные использования, когда завершаете короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 2,
 			"entries": [
-				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and the table at the end of this document for the {@filter hunter spell list|spells|class=hunter}.",
+				"Ко 2-му уровню вы научились использовать магическую сущность природы для сотворения заклинаний — во многом как друид. Общие правила сотворения заклинаний см. в {@book chapter 10|PHB|10}, а {@filter hunter spell list|spells|class=hunter} — в таблице в конце этого документа.",
 				{
 					"type": "entries",
-					"name": "Spell Slots",
+					"name": "Ячейки заклинаний",
 					"entries": [
-						"The Hunter table shows how many spell slots you have to cast your {@filter hunter spells|spells|class=hunter} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"For example, if you know the 1st-level spell {@spell animal friendship} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship} using either slot."
+						"Таблица охотника показывает, сколько у вас ячеек заклинаний для сотворения ваших {@filter hunter spells|spells|class=hunter} 1-го уровня и выше. Чтобы сотворить такое заклинание, вы должны потратить ячейку его уровня или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете продолжительный отдых.",
+						"Например, если вы знаете заклинание 1-го уровня {@spell animal friendship} и у вас есть свободные ячейка заклинаний 1-го уровня и ячейка 2-го уровня, вы можете сотворить {@spell animal friendship}, используя любую из них."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Preparing and Casting Spells",
+					"name": "Подготовка и сотворение заклинаний",
 					"entries": [
-						"The Hunter table shows how many spell slots you have to cast your spells. To cast one of your hunter spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"You prepare the list of hunter spells that are available for you to cast, choosing from the hunter spell list. When you do so, choose a number of hunter spells equal to your Wisdom modifier + half your hunter level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
-						"For example, if you are a 5th-level hunter, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of hunter spells requires time spent in research and preparation: at least 1 minute per spell level for each spell on your list."
+						"Таблица охотника показывает, сколько у вас ячеек заклинаний для сотворения заклинаний. Чтобы сотворить одно из ваших заклинаний охотника 1-го уровня или выше, вы должны потратить ячейку его уровня или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете продолжительный отдых.",
+						"Вы подготавливаете список заклинаний охотника, доступных вам для сотворения, выбирая из списка заклинаний охотника. При этом вы выбираете число заклинаний охотника, равное вашему модификатору Мудрости + половина вашего уровня охотника, с округлением вниз (минимум одно заклинание). Заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.",
+						"Например, если вы охотник 5-го уровня, у вас четыре ячейки 1-го уровня и две ячейки 2-го уровня. При Мудрости 14 ваш список подготовленных заклинаний может включать четыре заклинания 1-го или 2-го уровня в любом сочетании. Если вы подготовили заклинание 1-го уровня лечение ран, вы можете сотворить его, используя ячейку 1-го или 2-го уровня. Сотворение заклинания не убирает его из списка подготовленных.",
+						"Вы можете изменить список подготовленных заклинаний, когда завершаете продолжительный отдых. Подготовка нового списка заклинаний охотника требует времени на исследования и подготовку: не менее 1 минуты на уровень заклинания для каждого заклинания в списке."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"entries": [
-						"Wisdom is your spellcasting ability for your hunter spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a hunter spell you cast and when making an attack roll with one.",
+						"Мудрость — ваша базовая характеристика для заклинаний охотника. Вы используете Мудрость, когда заклинание ссылается на вашу базовую характеристику для заклинаний. Кроме того, вы используете модификатор Мудрости, определяя Сл спасброска для сотворяемого заклинания охотника и совершая бросок атаки заклинанием.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"wis"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"wis"
 							]
@@ -772,328 +772,328 @@
 				},
 				{
 					"type": "entries",
-					"name": "Ritual Casting",
+					"name": "Ритуальное сотворение",
 					"entries": [
-						"You can cast a hunter spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+						"Вы можете сотворять заклинание охотника как ритуал, если у него есть метка ритуала и оно у вас подготовлено."
 					]
 				}
 			]
 		},
 		{
-			"name": "Hunter's Prey",
+			"name": "Добыча охотника",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you choose a prey that you focus your hunt on from the list of available archetypes. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.",
+				"На 3-м уровне вы выбираете добычу, на охоте за которой сосредоточитесь, из списка доступных архетипов. Ваш выбор даёт вам умения на 3-м уровне, а также на 7-м, 11-м и 15-м уровнях.",
 				{
 					"type": "entries",
-					"name": "Prey Spells",
+					"name": "Заклинания добычи",
 					"entries": [
-						"Each prey has a list of associated spells. You gain access to those spells at the levels specified in the prey description. Once you gain access to a prey spell, you always have it prepared. Prey spells don't count against the number of spells you can prepare each day.",
-						"If you gain a prey spell that doesn't appear on the hunter spell list, the spell is nonetheless a hunter spell for you."
+						"У каждой добычи есть список связанных заклинаний. Вы получаете доступ к этим заклинаниям на уровнях, указанных в описании добычи. Получив доступ к заклинанию добычи, вы всегда имеете его подготовленным. Заклинания добычи не учитываются в числе заклинаний, которые вы можете подготовить каждый день.",
+						"Если вы получаете заклинание добычи, отсутствующее в списке заклинаний охотника, оно всё равно считается для вас заклинанием охотника."
 					]
 				}
 			]
 		},
 		{
-			"name": "Hunter's Technique (1/rest)",
+			"name": "Техника охотника (1 раз за отдых)",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Your choice of prey allows you to perform certain maneuvers. Each Hunter's Technique option provided by your prey explains how to use it.",
-				"When you use your Hunter's Technique, you choose which option to use. You must then finish a short or long rest to use your Hunter's Technique again.",
-				"Some of your Hunter's Technique effects require your target to make a saving throw to resist the technique's effects. The saving throw DC is calculated as follows:",
+				"Выбранная добыча позволяет вам выполнять определённые приёмы. Каждый вариант техники охотника, предоставляемый вашей добычей, объясняет, как его использовать.",
+				"Используя технику охотника, вы выбираете, какой вариант применить. После этого вы должны завершить короткий или продолжительный отдых, чтобы снова использовать технику охотника.",
+				"Некоторые эффекты вашей техники охотника требуют от цели совершить спасбросок, чтобы противостоять эффектам техники. Сл спасброска рассчитывается следующим образом:",
 				{
 					"type": "abilityDc",
-					"name": "Technique",
+					"name": "Приём",
 					"attributes": [
 						"str",
 						"dex"
 					]
 				},
-				"Beginning at 7th level, you can use your Hunter's Technique twice between rests, and beginning at 15th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses."
+				"Начиная с 7-го уровня вы можете использовать технику охотника дважды между отдыхами, а начиная с 15-го — трижды между отдыхами. Завершив короткий или продолжительный отдых, вы восстанавливаете потраченные использования."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Extra Attack",
+			"name": "Дополнительная атака",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"Начиная с 5-го уровня вы можете атаковать дважды вместо одного раза, когда в свой ход совершаете действие {@action Attack}."
 			]
 		},
 		{
-			"name": "Hunter's Guard",
+			"name": "Защита охотника",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 6,
 			"entries": [
-				"At 6th level, your ability to read your prey's movements allows you to better protect you and your allies. As a reaction when the target of your Hunter's Mark hits you or a creature within 5 feet of you with an attack, you can impose a {@dice 1d6} penalty on the attack roll, potentially causing it to miss.",
-				"Additionally, whenever the target of your Hunter's Mark forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, you can use your reaction to add {@dice 1d6} to your roll."
+				"На 6-м уровне ваша способность читать движения добычи позволяет вам лучше защищать себя и союзников. Реакцией, когда цель вашей Метки охотника попадает по вам или по существу в пределах 5 футов от вас, вы можете наложить штраф {@dice 1d6} на бросок атаки, возможно заставив её промахнуться.",
+				"Кроме того, каждый раз, когда цель вашей Метки охотника вынуждает вас совершить спасбросок и когда вы совершаете проверку характеристики, чтобы вырваться из её захвата, вы можете реакцией добавить {@dice 1d6} к своему броску."
 			]
 		},
 		{
-			"name": "Hunter's Prey feature",
+			"name": "Умение добычи охотника",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 7,
 			"entries": [
-				"At 7th level, you gain a feature granted to you by your Hunter's Prey."
+				"На 7-м уровне вы получаете умение, даруемое вашей Добычей охотника."
 			]
 		},
 		{
-			"name": "Hunter's Technique (2/rest)",
+			"name": "Техника охотника (2 раза за отдых)",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 7,
 			"entries": [
-				"Beginning at 7th level, you can use your Hunter's Technique twice between rests."
+				"Начиная с 7-го уровня вы можете использовать технику охотника дважды между отдыхами."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Quick Reflexes",
+			"name": "Быстрые рефлексы",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 10,
 			"entries": [
-				"Starting at 10th level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action. Additionally, when you roll initiative and are not surprised, you can use your reaction to take the {@action Hide} action, move up to your speed, or make one weapon attack."
+				"Начиная с 10-го уровня ваша быстрота мышления и ловкость позволяют вам быстро двигаться и действовать. Вы можете совершать бонусное действие в каждый свой ход в бою. Это действие можно использовать только для действий {@action Dash}, {@action Disengage} или {@action Hide}. Кроме того, когда вы совершаете бросок инициативы и не застигнуты врасплох, вы можете реакцией совершить действие {@action Hide}, переместиться на расстояние до своей скорости или совершить одну атаку оружием."
 			]
 		},
 		{
-			"name": "Hunter's Prey feature",
+			"name": "Умение добычи охотника",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 11,
 			"entries": [
-				"At 11th level, you gain a feature granted to you by your Hunter's Prey."
+				"На 11-м уровне вы получаете умение, даруемое вашей Добычей охотника."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Counterattack",
+			"name": "Контратака",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 14,
 			"entries": [
-				"At 14th level, you learn to strike back as you defend. If the target of your Hunter's Mark misses an attack due to your Hunter's Guard, you can make one weapon attack at the creature as part of the same reaction."
+				"На 14-м уровне вы учитесь наносить ответный удар, защищаясь. Если цель вашей Метки охотника промахивается атакой из-за вашей Защиты охотника, вы можете в рамках той же реакции совершить одну атаку оружием по этому существу."
 			]
 		},
 		{
-			"name": "Hunter's Prey feature",
+			"name": "Умение добычи охотника",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 15,
 			"entries": [
-				"At 15th level, you gain a feature granted to you by your Hunter's Prey."
+				"На 15-м уровне вы получаете умение, даруемое вашей Добычей охотника."
 			]
 		},
 		{
-			"name": "Hunter's Technique (3/rest)",
+			"name": "Техника охотника (3 раза за отдых)",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 15,
 			"entries": [
-				"Beginning at 15th level, you can use your Hunter's Technique twice between rests."
+				"Начиная с 15-го уровня вы можете использовать технику охотника дважды между отдыхами."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Feral Senses",
+			"name": "Звериные чувства",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain preternatural senses that help you fight creatures you can't see. As long as you are not both {@condition blinded} and {@condition deafened}, you can see {@condition invisible} creatures and objects within 30 feet of you as if they were visible."
+				"На 18-м уровне вы получаете сверхъестественные чувства, помогающие сражаться с существами, которых вы не видите. Пока вы одновременно не {@condition blinded} и не {@condition deafened}, вы видите {@condition invisible} существ и предметы в пределах 30 футов от себя так, как будто они видимы."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Foe Slayer",
+			"name": "Убийца врагов",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
 			"level": 20,
 			"entries": [
-				"At 20th level, you strike with supernatural accuracy. You gain a {@dice 1d6} bonus on attack rolls made against the target of your Hunter's Mark.",
-				"Additionally, once per turn when you make an attack at the target of your Hunter's Mark, you can choose to roll a {@dice d6}. On a 6, if the attack hits the creature, it is a critical hit."
+				"На 20-м уровне вы бьёте со сверхъестественной точностью. Вы получаете бонус {@dice 1d6} к броскам атаки по цели вашей Метки охотника.",
+				"Кроме того, один раз в ход, атакуя цель своей Метки охотника, вы можете выбрать бросок {@dice d6}. При результате 6, если атака попадает по существу, она становится критическим попаданием."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Blood Hunter",
+			"name": "Охотник на кровь",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Blood Hunter",
+			"subclassShortName": "Охотник на кровь",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"The blood carries many curses that if left unchecked spread rampant across the lands. It is the duty of Blood Hunters to scour the lands for signs of infection and wipe them out, no matter the cost.",
+				"Кровь несёт в себе множество проклятий, которые, если их не сдерживать, расползаются по землям безудержно. Долг кровавых охотников — обыскивать земли в поисках признаков заражения и истреблять их, чего бы это ни стоило.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Blood Hunter|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Кровавый охотник|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Crimson Rite|Hunter|Hunter|Blood Hunter|Hunter|3"
+					"subclassFeature": "Техника охотника: багровый обряд|Hunter|Hunter|Кровавый охотник|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Infusion|Hunter|Hunter|Blood Hunter|Hunter|3"
+					"subclassFeature": "Техника охотника: вливание|Hunter|Hunter|Кровавый охотник|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bloodhound|Hunter|Hunter|Blood Hunter|Hunter|3"
+					"subclassFeature": "Ищейка|Hunter|Hunter|Кровавый охотник|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Bloodhound",
+			"name": "Ищейка",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Blood Hunter",
+			"subclassShortName": "Охотник на кровь",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this prey at 3rd level, you learn to track your prey through the scent of their blood. Whenever you make any Intelligence (Investigation) or Wisdom (Survival) check to track or find a a creature whose blood you have a sample of, your proficiency bonus is doubled if it applies to the check."
+				"Выбрав эту добычу на 3-м уровне, вы учитесь выслеживать её по запаху крови. Всякий раз, совершая проверку Интеллекта (Анализ) или Мудрости (Выживание), чтобы выследить или найти существо, образец крови которого у вас есть, ваш бонус мастерства удваивается, если он применим к этой проверке."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Crimson Rite",
+			"name": "Техника охотника: багровый обряд",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Blood Hunter",
+			"subclassShortName": "Охотник на кровь",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As a bonus action, you can expend a use of your Hunter's Technique to empower your weapons with blood. You take {@damage 1d6} necrotic damage, which ignores resistance and immunity, and sheathe your weapons and ammunition in blood for 1 minute. Your weapons and ammunition become silvered, and when you hit a creature that has less than half of its maximum hit points, it takes an additional {@damage 1d6} necrotic damage."
+				"Бонусным действием вы можете потратить использование техники охотника, чтобы наполнить своё оружие кровью. Вы получаете {@damage 1d6} урона некротической энергией, игнорирующего сопротивление и невосприимчивость, и на 1 минуту покрываете своё оружие и боеприпасы кровью. Ваше оружие и боеприпасы становятся серебряными, и когда вы попадаете по существу, у которого осталось меньше половины максимальных хитов, оно получает дополнительно {@damage 1d6} урона некротической энергией."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Infusion",
+			"name": "Техника охотника: вливание",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Blood Hunter",
+			"subclassShortName": "Охотник на кровь",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As a bonus action, you can expend a use of your Hunter's Technique to resupply your body with blood. You regain hit points equal to {@dice 1d6} + your hunter level."
+				"Бонусным действием вы можете потратить использование техники охотника, чтобы пополнить своё тело кровью. Вы восстанавливаете хиты в количестве {@dice 1d6} + ваш уровень охотника."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Blood Hunter",
+			"subclassShortName": "Охотник на кровь",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Blood Hunter Spells",
+					"caption": "Заклинания кровавого охотника",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1101,23 +1101,23 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell bane}, {@spell inflict wounds}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell blindness/deafness}, {@spell crown of madness}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell bestow curse}, {@spell vampiric touch}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell aura of purity}, {@spell blight}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell contagion}, {@spell dream}"
 						]
 					]
@@ -1125,146 +1125,146 @@
 			]
 		},
 		{
-			"name": "Profaned Blood",
+			"name": "Осквернённая кровь",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Blood Hunter",
+			"subclassShortName": "Охотник на кровь",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, your mastery of the blood flowing through you makes you immune to disease and poison."
+				"На 7-м уровне ваше мастерство владения кровью, текущей в вас, делает вас невосприимчивым к болезням и ядам."
 			]
 		},
 		{
-			"name": "Spilled Blood",
+			"name": "Пролитая кровь",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Blood Hunter",
+			"subclassShortName": "Охотник на кровь",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you can channel the blood from your wounds into your crimson rite. When a creature lands a critical hit on you, or when you land a critical hit on a creature, you can use your reaction to activate your Hunter's Technique: Crimson Rite without taking necrotic damage or expending a use of your Hunter's Technique."
+				"На 11-м уровне вы можете направлять кровь из своих ран в свой багровый обряд. Когда существо наносит вам критическое попадание или когда вы наносите критическое попадание существу, вы можете реакцией активировать свою Технику охотника: багровый обряд, не получая урона некротической энергией и не тратя использование техники охотника."
 			]
 		},
 		{
-			"name": "Blood Curse",
+			"name": "Кровавое проклятие",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Blood Hunter",
+			"subclassShortName": "Охотник на кровь",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you learn to emulate to the effects of the blood curse you seek to eliminate, granting you supernatural fortitude. As a bonus action, you can draw upon the power of the curse and gain the following benefits:",
+				"На 15-м уровне вы учитесь воспроизводить эффекты проклятия крови, которое стремитесь уничтожить, получая сверхъестественную стойкость. Бонусным действием вы можете воззвать к силе этого проклятия и получить следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered.",
-						"A creature that hits you with a melee attack while within 5 feet of you takes {@damage 1d6} necrotic damage.",
-						"When you hit a creature with a weapon attack, you regain hit points equal to your Constitution modifier (minimum of 1 hit point) if you have taken any damage since the end of your last turn."
+						"Вы получаете сопротивление дробящему, колющему и рубящему урону от немагического оружия, не посеребрённого.",
+						"Существо, попадающее по вам рукопашной атакой, находясь в пределах 5 футов от вас, получает {@damage 1d6} урона некротической энергией.",
+						"Когда вы попадаете по существу атакой оружием, вы восстанавливаете хиты в количестве, равном вашему модификатору Телосложения (минимум 1 хит), если получили любой урон с конца своего последнего хода."
 					]
 				},
-				"This curse lasts for 1 minute. It ends early if you are knocked {@condition unconscious}. You can also end this curse on your turn as a bonus action.",
-				"Once you use this feature, you must finish a short or long rest before you can use it again."
+				"Это проклятие длится 1 минуту. Оно заканчивается раньше, если вы получаете состояние {@condition unconscious}. Вы также можете окончить это проклятие в свой ход бонусным действием.",
+				"Использовав это умение, вы должны завершить короткий или продолжительный отдых, прежде чем сможете использовать его снова."
 			]
 		},
 		{
-			"name": "Bounty Hunter",
+			"name": "Охотник за головами",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Bounty Hunter",
+			"subclassShortName": "Охотник за головами",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Hunters that excel in fighting humanoids, Bounty Hunters develop techniques specialized for subduing humanoid enemies. These techniques cover the spectrum in lethality, allowing the hunters to catch their prey, dead or alive. Vicious and terrifying to behold, few dare stand in their way.",
+				"Охотники, преуспевшие в борьбе с гуманоидами, — охотники за головами — разрабатывают техники, специализированные на том, чтобы подчинять врагов-гуманоидов. Эти техники охватывают весь спектр летальности, позволяя им поймать добычу живой или мёртвой. Жестокие и устрашающие на вид, они редко встречают сопротивление.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Bounty Hunter|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Охотник за головами|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Disarm|Hunter|Hunter|Bounty Hunter|Hunter|3"
+					"subclassFeature": "Техника охотника: обезоруживание|Hunter|Hunter|Охотник за головами|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Pin Down|Hunter|Hunter|Bounty Hunter|Hunter|3"
+					"subclassFeature": "Техника охотника: прижать к земле|Hunter|Hunter|Охотник за головами|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Investigative|Hunter|Hunter|Bounty Hunter|Hunter|3"
+					"subclassFeature": "Сыскной|Hunter|Hunter|Охотник за головами|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Hunter's Technique: Disarm",
+			"name": "Техника охотника: обезоруживание",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Bounty Hunter",
+			"subclassShortName": "Охотник за головами",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you hit a creature with a weapon attack, or when a creature misses you with a melee weapon attack, you can expend a use of your Hunter's Technique to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The target must succeed on a Strength saving throw or drop the object you choose, which lands at its feet."
+				"Когда вы попадаете по существу атакой оружием или когда существо промахивается по вам рукопашной атакой оружием, вы можете потратить использование техники охотника, чтобы попытаться обезоружить цель, вынудив её уронить один предмет на ваш выбор из тех, что она держит. Цель должна преуспеть в спасброске Силы, иначе уронит выбранный вами предмет, который падает к её ногам."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Pin Down",
+			"name": "Техника охотника: прижать к земле",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Bounty Hunter",
+			"subclassShortName": "Охотник за головами",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you attack a creature within 5 feet of you that is no more than one size larger than you, you can expend a use of your Hunter's Technique to force the creature to make a Strength saving throw. On a failed save, it is knocked {@condition prone} and {@condition grappled}. You must have a free hand to use this Hunter's Technique."
+				"Когда вы атакуете существо в пределах 5 футов от вас, которое не более чем на одну категорию размера крупнее вас, вы можете потратить использование техники охотника, чтобы вынудить это существо совершить спасбросок Силы. При провале оно получает состояния {@condition prone} и {@condition grappled}. Для использования этой техники охотника у вас должна быть свободная рука."
 			]
 		},
 		{
-			"name": "Investigative",
+			"name": "Сыскной",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Bounty Hunter",
+			"subclassShortName": "Охотник за головами",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this prey at 3rd level, you develop techniques to obtain information on your quarry. If you spend at least ten minutes interrogating, questioning, or conversing with a person, your proficiency bonus is doubled on checks made against that person pertaining to information regarding a specific creature."
+				"Выбрав эту добычу на 3-м уровне, вы разрабатываете приёмы получения сведений о своей цели. Если вы потратите не менее десяти минут на допрос, расспросы или беседу с человеком, ваш бонус мастерства удваивается при проверках против этого человека, касающихся сведений об определённом существе."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Bounty Hunter",
+			"subclassShortName": "Охотник за головами",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Bounty Hunter Spells",
+					"caption": "Заклинания охотника за головами",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1272,23 +1272,23 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell command}, {@spell sleep}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell detect thoughts}, {@spell hold person}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell hypnotic pattern}, {@spell slow}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell compulsion}, {@spell confusion}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell dominate person}, {@spell scrying}"
 						]
 					]
@@ -1296,136 +1296,136 @@
 			]
 		},
 		{
-			"name": "Multiattack Defense",
+			"name": "Защита от мультиатаки",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Bounty Hunter",
+			"subclassShortName": "Охотник за головами",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, when a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+				"Начиная с 7-го уровня, когда существо попадает по вам атакой, вы получаете бонус +4 к КД против всех последующих атак этого существа до конца хода."
 			]
 		},
 		{
-			"name": "Menacing Warrior",
+			"name": "Грозный воин",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Bounty Hunter",
+			"subclassShortName": "Охотник за головами",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you have learned to intimidate those would stand in your way. When you score a critical hit or reduce a creature to 0 hit points, you can use your bonus action to force one creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw against your hunter spell save DC. On a failed save, a creature becomes {@condition frightened} of you for 1 minute. A creature can repeat this saving throw at the end of each of its turns, ending the effect on a success."
+				"На 11-м уровне вы научились запугивать тех, кто встанет у вас на пути. Когда вы наносите критическое попадание или снижаете хиты существа до 0, вы можете бонусным действием вынудить одно существо на ваш выбор, которое видите в пределах 30 футов от вас, совершить спасбросок Мудрости против Сл спасброска ваших заклинаний охотника. При провале существо получает состояние {@condition frightened} по отношению к вам на 1 минуту. Существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
 			]
 		},
 		{
-			"name": "Misdirection",
+			"name": "Отвлечение",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Bounty Hunter",
+			"subclassShortName": "Охотник за головами",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you learn to evade pursuit by leading your foes astray. While you are hidden, you can use your action to stir up a disturbance in a space you can see within 30 feet of you. Each creature attempting to locate you must make a Wisdom (Perception) check against your hunter spell save DC. A creature automatically succeeds this check if it can see the space and knows it is unoccupied. On a failed check, a creature thinks you are hidden in that location. In addition, the next hit you score against a creature that failed the check before the end of your next turn is a critical hit if you attack while hidden."
+				"На 15-м уровне вы учитесь уходить от погони, сбивая преследователей с толку. Пока вы скрыты, вы можете действием устроить шум в пространстве, которое видите в пределах 30 футов от вас. Каждое существо, пытающееся определить ваше местонахождение, должно совершить проверку Мудрости (Внимательность) против Сл спасброска ваших заклинаний охотника. Существо автоматически преуспевает в этой проверке, если видит то пространство и знает, что оно свободно. При провале проверки существо думает, что вы спрятались именно там. Кроме того, следующее ваше попадание по существу, провалившему проверку, до конца вашего следующего хода становится критическим, если вы атакуете, находясь скрытым."
 			]
 		},
 		{
-			"name": "Colossus Slayer",
+			"name": "Истребитель великанов",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Colossus Slayer",
+			"subclassShortName": "Истребитель великанов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"The adage \"the bigger they are, the harder they fall\" is one that hunters of giants and other large quarry live by every day. With techniques designed to take down massive foes, these hunters utilize their quick thinking and even quicker reflexes to bring down the largest of prey. These hunters utilize hit-and-run tactics, siege weaponry, and barricades to wear down their prey. Should the situation call for it, the most powerful of these hunters can become towering giants themselves.",
+				"Поговорка «чем больше они, тем больнее падают» — то, чем охотники на великанов и другую крупную добычу живут каждый день. Их техники разработаны для того, чтобы побеждать огромных врагов; такие охотники используют быстроту мышления и ещё более быстрые рефлексы, чтобы одолеть самую крупную добычу. Они применяют тактику наскоков, осадные орудия и баррикады, чтобы измотать добычу. А если того требует ситуация, самые могущественные из этих охотников сами могут стать огромными великанами.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Colossus Slayer|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Губитель колоссов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Bring Down|Hunter|Hunter|Colossus Slayer|Hunter|3"
+					"subclassFeature": "Техника охотника: сбить с ног|Hunter|Hunter|Губитель колоссов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Persistence|Hunter|Hunter|Colossus Slayer|Hunter|3"
+					"subclassFeature": "Техника охотника: настойчивость|Hunter|Hunter|Губитель колоссов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Climber|Hunter|Hunter|Colossus Slayer|Hunter|3"
+					"subclassFeature": "Лазающий|Hunter|Hunter|Губитель колоссов|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Climber",
+			"name": "Лазающий",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Colossus Slayer",
+			"subclassShortName": "Истребитель великанов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this prey at 3rd level, you gain a climbing speed equal to your walking speed and have advantage on any ability checks or saving throws made to maintain your grip while climbing."
+				"Выбрав эту добычу на 3-м уровне, вы получаете скорость лазания, равную вашей скорости ходьбы, и совершаете с преимуществом любые проверки характеристик или спасброски на удержание хвата при лазании."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Bring Down",
+			"name": "Техника охотника: сбить с ног",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Colossus Slayer",
+			"subclassShortName": "Истребитель великанов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend a use of your Hunter's Technique to attempt to knock the target down. It must succeed on a Dexterity saving throw or be knocked {@condition prone} and take bludgeoning damage as it hits the ground. A Medium or smaller creature takes {@damage 1d6} damage, a Large creature takes {@damage 2d6} damage, a Huge creature takes {@damage 3d6} damage, and a Gargantuan creature takes {@damage 4d6} damage."
+				"Когда вы попадаете по существу атакой оружием, вы можете потратить использование техники охотника, чтобы попытаться сбить цель с ног. Она должна преуспеть в спасброске Ловкости, иначе получит состояние {@condition prone} и дробящий урон при падении на землю. Существо Среднего размера или меньше получает {@damage 1d6} урона, Большое — {@damage 2d6}, Огромное — {@damage 3d6}, а Гигантское — {@damage 4d6}."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Persistence",
+			"name": "Техника охотника: настойчивость",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Colossus Slayer",
+			"subclassShortName": "Истребитель великанов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When a creature within 30 feet of succeeds a saving throw against one of your hunter spells, you can expend a use of your Hunter's Technique to force it to reroll the save."
+				"Когда существо в пределах 30 футов преуспевает в спасброске против одного из ваших заклинаний охотника, вы можете потратить использование техники охотника, чтобы вынудить его перебросить спасбросок."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Colossus Slayer",
+			"subclassShortName": "Истребитель великанов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Colossus Slayer Spells",
+					"caption": "Заклинания губителя колоссов",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1433,23 +1433,23 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell entangle}, {@spell grease}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell enlarge/reduce}, {@spell ray of enfeeblement}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell plant growth}, {@spell sleet storm}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell Evard's black tentacles}, {@spell polymorph}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell Bigby's hand}, {@spell hold monster}"
 						]
 					]
@@ -1457,139 +1457,139 @@
 			]
 		},
 		{
-			"name": "Uncanny Dodge",
+			"name": "Невероятное уклонение",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Colossus Slayer",
+			"subclassShortName": "Истребитель великанов",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+				"Начиная с 7-го уровня, когда видимый вам нападающий попадает по вам атакой, вы можете реакцией уменьшить урон этой атаки по вам вдвое."
 			]
 		},
 		{
-			"name": "Coordinated Strike",
+			"name": "Согласованный удар",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Colossus Slayer",
+			"subclassShortName": "Истребитель великанов",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you learn to coordinate your attacks with your allies on your quarry. When you use your Hunter's Mark, you can choose a friendly creature within 60 feet of you. That creature's weapon attacks also deal an extra {@damage 1d6} damage of the weapon's type to the marked target.",
-				"This effect ends if you fall {@condition unconscious}, use your Hunter's Mark on another creature, or dismiss it as a bonus action."
+				"На 11-м уровне вы учитесь согласовывать свои атаки по добыче с союзниками. Используя Метку охотника, вы можете выбрать дружественное существо в пределах 60 футов от вас. Атаки оружием этого существа также наносят помеченной цели дополнительный урон {@damage 1d6} того вида, что и оружие.",
+				"Этот эффект заканчивается, если вы получаете состояние {@condition unconscious}, используете Метку охотника на другом существе или отменяете её бонусным действием."
 			]
 		},
 		{
-			"name": "Become Immense",
+			"name": "Стать огромным",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Colossus Slayer",
+			"subclassShortName": "Истребитель великанов",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you gain the power to bolster your size in order to face large foes. When you cast {@spell enlarge/reduce} on yourself to increase your size, you can increase your size by two categories\u2014from Medium to Huge, for example, instead of just one category, for the spell's duration. This growth quadruple your size all dimensions, multiplying your weight by 64. If there isn't enough room for you to quadruple your size, you attain the maximum possible size in the space available. You gain all the effects of the enlarge option, and your weapons also grow to match your new size. While these weapons are enlarged, your attacks with them deal {@damage 2d8} extra damage (instead of the spell's 1d4 extra damage) and your reach with these weapons is doubled.",
-				"Once you use this feature, you must finish a long rest before you can use it again."
+				"На 15-м уровне вы получаете силу увеличить свой размер, чтобы противостоять крупным врагам. Когда вы сотворяете на себя {@spell enlarge/reduce}, чтобы увеличить свой размер, вы можете увеличить его на две категории — например, со Среднего до Огромного вместо всего одной категории — на время действия заклинания. Этот рост увеличивает ваш размер во всех измерениях вчетверо, умножая ваш вес на 64. Если места для четырёхкратного увеличения не хватает, вы достигаете максимально возможного размера в доступном пространстве. Вы получаете все эффекты варианта увеличения, и ваше оружие также растёт вместе с вашим новым размером. Пока это оружие увеличено, ваши атаки им наносят дополнительно {@damage 2d8} урона (вместо дополнительных 1d4 урона от заклинания), а ваша досягаемость этим оружием удваивается.",
+				"Использовав это умение, вы должны завершить продолжительный отдых, прежде чем сможете применить его снова."
 			]
 		},
 		{
-			"name": "Demon Slayer",
+			"name": "Губитель демонов",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Demon Slayer",
+			"subclassShortName": "Губитель демонов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Specialized to face the most profane of creatures, these hunters fight undead, fiends, and other creatures of the night. Experts in wounding, tracking, and crushing their quarry, these hunters are fearless in the face of death.",
+				"Эти охотники, специализирующиеся на самых нечестивых существах, сражаются с нежитью, исчадиями и другими созданиями ночи. Эксперты в нанесении ран, выслеживании и уничтожении своей добычи, они бесстрашны перед лицом смерти.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Demon Slayer|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Губитель демонов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Fortify|Hunter|Hunter|Demon Slayer|Hunter|3"
+					"subclassFeature": "Техника охотника: укрепление|Hunter|Hunter|Губитель демонов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Vicious Wound|Hunter|Hunter|Demon Slayer|Hunter|3"
+					"subclassFeature": "Техника охотника: жестокая рана|Hunter|Hunter|Губитель демонов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Locate Origin|Hunter|Hunter|Demon Slayer|Hunter|3"
+					"subclassFeature": "Поиск истока|Hunter|Hunter|Губитель демонов|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Hunter's Technique: Fortify",
+			"name": "Техника охотника: укрепление",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Demon Slayer",
+			"subclassShortName": "Губитель демонов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As a bonus action, you can expend a use of your Hunter's Technique to bolster your resilience. Choose one ability score. For 1 minute, you have advantage on saving throws made using that ability score."
+				"Бонусным действием вы можете потратить использование техники охотника, чтобы укрепить свою стойкость. Выберите одну характеристику. На 1 минуту вы совершаете с преимуществом спасброски с использованием этой характеристики."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Vicious Wound",
+			"name": "Техника охотника: жестокая рана",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Demon Slayer",
+			"subclassShortName": "Губитель демонов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend a use of your Hunter's Technique to inflict a festering wound, preventing the target from regaining hit points for 1 minute. Any creature can take an action to stanch the wound with a successful Wisdom (Medicine) check against your technique save DC."
+				"Когда вы попадаете по существу атакой оружием, вы можете потратить использование техники охотника, чтобы нанести гноящуюся рану, не позволяющую цели восстанавливать хиты в течение 1 минуты. Любое существо может действием остановить кровотечение, преуспев в проверке Мудрости (Медицина) против Сл спасброска вашей техники."
 			]
 		},
 		{
-			"name": "Locate Origin",
+			"name": "Поиск истока",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Demon Slayer",
+			"subclassShortName": "Губитель демонов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this prey at 3rd level, you gain the ability to track the source of your slain prey. When the target of your Hunter's Mark is reduced to 0 hit points, you can choose to move your Hunter's Mark to the creature's place of origin.",
-				"If the creature was created or summoned into this plane, the creator or summoner becomes the target of your Hunter's Mark. If the creature entered the plane by a portal or teleportation magic, the location they first entered this plane becomes the target of your Hunter's Mark. If the creature is native to this plane and was not created by magic, the creature's den, lair, or place of residence becomes the target of your Hunter's Mark."
+				"Выбрав эту добычу на 3-м уровне, вы получаете способность отслеживать источник убитой добычи. Когда хиты цели вашей Метки охотника снижаются до 0, вы можете переместить Метку охотника на место происхождения этого существа.",
+				"Если существо было создано или призвано на этот план, целью вашей Метки охотника становится его создатель или призыватель. Если существо попало на план через портал или магию телепортации, целью Метки становится место, где оно впервые оказалось на этом плане. Если существо родом с этого плана и не было создано магией, целью Метки становится его логово, убежище или место обитания."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Demon Slayer",
+			"subclassShortName": "Губитель демонов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Demon Slayer Spells",
+					"caption": "Заклинания губителя демонов",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1597,168 +1597,168 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell divine favor}, {@spell shield of faith}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell gentle repose}, {@spell Nystul's magic aura}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell remove curse}, {@spell speak with dead}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell aura of life}, {@spell death ward}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell dawn|XGE}, {@spell hallow}"
 						]
 					]
 				},
 				{
-					"name": "Variant: Alternative Spells",
+					"name": "Вариант: альтернативные заклинания",
 					"type": "inset",
 					"entries": [
-						"For players who do not have access to Xanathar's Guide to Everything, the following spell in the Demon Slayer Spells can be replaced:",
-						"17th - {@spell dawn|XGE} with {@spell geas}"
+						"Игрокам, у которых нет доступа к Руководству Занатара обо всём, можно заменить следующие заклинания из списка заклинаний губителя демонов:",
+						"17-й — {@spell dawn|XGE} на {@spell geas}"
 					]
 				}
 			]
 		},
 		{
-			"name": "Unshakable",
+			"name": "Несгибаемый",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Demon Slayer",
+			"subclassShortName": "Губитель демонов",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, your dealings with the dark has left your spirit unshakable. You can't be charmed, frightened, or possessed."
+				"На 7-м уровне ваше общение с тьмой сделало ваш дух несгибаемым. Вас нельзя очаровать, испугать или вселиться в вас."
 			]
 		},
 		{
-			"name": "Undercut Resistances",
+			"name": "Подрыв сопротивлений",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Demon Slayer",
+			"subclassShortName": "Губитель демонов",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you learn how to make your weapon strikes undercut a creature's resistance. When you hit a creature with a weapon attack, it loses any resistances it has until the end of your next turn."
+				"На 11-м уровне вы учитесь делать так, чтобы удары вашим оружием подтачивали сопротивление существа. Когда вы попадаете по существу атакой оружием, оно теряет все свои сопротивления до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Regeneration",
+			"name": "Регенерация",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Demon Slayer",
+			"subclassShortName": "Губитель демонов",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, your dealings with the unholy has imparted supernatural healing upon yourself. At the start of each of your turns, you gain temporary hit points equal to 1d6 plus your Wisdom modifier if you are not standing in sunlight."
+				"На 15-м уровне ваше общение с нечестивым даровало вам сверхъестественное исцеление. В начале каждого своего хода вы получаете временные хиты, равные 1d6 плюс ваш модификатор Мудрости, если не стоите на солнечном свете."
 			]
 		},
 		{
-			"name": "Dragon Slayer",
+			"name": "Убийца драконов",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Dragon Slayer",
+			"subclassShortName": "Убийца драконов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Seeking dragons is truly the height of insanity. Yet regardless, hunters who seek dragons learn techniques specifically honed to pierce their armor scales and clip their wings.",
+				"Искать драконов — поистине верх безумия. И всё же охотники, охотящиеся на драконов, изучают техники, специально отточенные для того, чтобы пробивать их чешую и подрезать им крылья.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Dragon Slayer|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Губитель драконов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Clip Wings|Hunter|Hunter|Dragon Slayer|Hunter|3"
+					"subclassFeature": "Техника охотника: подрезать крылья|Hunter|Hunter|Губитель драконов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Sunder Scales|Hunter|Hunter|Dragon Slayer|Hunter|3"
+					"subclassFeature": "Техника охотника: разрубить чешую|Hunter|Hunter|Губитель драконов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dragon Anatomist|Hunter|Hunter|Dragon Slayer|Hunter|3"
+					"subclassFeature": "Анатом драконов|Hunter|Hunter|Губитель драконов|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Dragon Anatomist",
+			"name": "Анатом драконов",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Dragon Slayer",
+			"subclassShortName": "Убийца драконов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this prey at 3rd level, your proficiency bonus is doubled on checks pertaining to extracting resources or materials from dragons."
+				"Выбрав эту добычу на 3-м уровне, вы удваиваете бонус мастерства при проверках, связанных с извлечением ресурсов и материалов из драконов."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Clip Wings",
+			"name": "Техника охотника: подрезать крылья",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Dragon Slayer",
+			"subclassShortName": "Убийца драконов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you hit a creature that is flying and has wings with a weapon attack, you can expend a use of your Hunter's Technique to attempt to knock it from the sky. The creature must succeed on a Strength saving throw or plummet, landing {@condition prone} if it hits the ground."
+				"Когда вы попадаете атакой оружием по летящему существу с крыльями, вы можете потратить использование техники охотника, чтобы попытаться сбить его с неба. Существо должно преуспеть в спасброске Силы, иначе рухнет вниз и получит состояние {@condition prone}, если упадёт на землю."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Sunder Scales",
+			"name": "Техника охотника: разрубить чешую",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Dragon Slayer",
+			"subclassShortName": "Убийца драконов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend a use of your Hunter's Technique to reduce the creature's AC by {@dice 1d6} if it has natural armor or armor consisting of plate or scales. A creature's AC cannot be reduced to lower than 10 + its Dexterity modifier. A creature's natural armor heals over 1d6 days."
+				"Когда вы попадаете по существу атакой оружием, вы можете потратить использование техники охотника, чтобы уменьшить КД существа на {@dice 1d6}, если у него природная броня или броня из пластин либо чешуи. КД существа нельзя уменьшить ниже 10 + его модификатор Ловкости. Природная броня существа восстанавливается за 1d6 дней."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Dragon Slayer",
+			"subclassShortName": "Убийца драконов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Dragon Slayer Spells",
+					"caption": "Заклинания губителя драконов",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1766,39 +1766,39 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell absorb elements|XGE}, {@spell heroism}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell dragon's breath|XGE}, {@spell earthbind|XGE}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell fly}, {@spell protection from energy}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell charm monster|XGE}, {@spell elemental bane|XGE}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell control winds|XGE}, {@spell hold monster}"
 						]
 					]
 				},
 				{
-					"name": "Variant: Alternative Spells",
+					"name": "Вариант: альтернативные заклинания",
 					"type": "inset",
 					"entries": [
-						"For players who do not have access to Xanathar's Guide to Everything, the following spell in the Dragon Slayer Spells can be replaced:",
+						"Игрокам, у которых нет доступа к Руководству Занатара обо всём, можно заменить следующие заклинания из списка заклинаний губителя драконов:",
 						{
 							"type": "list",
 							"items": [
-								"3rd - {@spell absorb elements|XGE} with {@spell chromatic orb}",
-								"5th - {@spell dragon's breath|XGE} and {@spell earthbind|XGE} with {@spell misty step} and {@spell web}",
-								"13th - {@spell charm monster|XGE} and {@spell elemental bane|XGE} with {@spell confusion} and {@spell dimension door}",
-								"17th - {@spell control winds|XGE} with {@spell conjure volley}"
+								"3-й — {@spell absorb elements|XGE} на {@spell chromatic orb}",
+								"5-й — {@spell dragon's breath|XGE} и {@spell earthbind|XGE} на {@spell misty step} и {@spell web}",
+								"13-й — {@spell charm monster|XGE} и {@spell elemental bane|XGE} на {@spell confusion} и {@spell dimension door}",
+								"17-й — {@spell control winds|XGE} на {@spell conjure volley}"
 							]
 						}
 					]
@@ -1806,137 +1806,137 @@
 			]
 		},
 		{
-			"name": "Evasion",
+			"name": "Увёртливость",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Dragon Slayer",
+			"subclassShortName": "Убийца драконов",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a {@creature adult red dragon|MM|red dragon's} fiery breath or an {@spell ice storm} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+				"Начиная с 7-го уровня вы можете ловко уклоняться от некоторых областей воздействия, например от огненного дыхания {@creature adult red dragon|MM|красного дракона} или заклинания {@spell ice storm}. Когда вы подвергаетесь эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить только половину урона, вы вместо этого не получаете урона при успехе и получаете лишь половину урона при провале."
 			]
 		},
 		{
-			"name": "Elemental Resistance",
+			"name": "Сопротивление стихиям",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Dragon Slayer",
+			"subclassShortName": "Убийца драконов",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you can prepare yourself for the elemental hazards you may face. Choose one damage type from acid, cold, fire, lightning, or poison when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature."
+				"На 11-м уровне вы можете подготовиться к стихийным опасностям, с которыми можете столкнуться. Выберите один вид урона из кислоты, холода, огня, электричества или яда, завершая короткий или продолжительный отдых. Вы получаете сопротивление этому виду урона, пока не выберете с помощью этого умения другой."
 			]
 		},
 		{
-			"name": "Frightening Presence",
+			"name": "Устрашающее присутствие",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Dragon Slayer",
+			"subclassShortName": "Убийца драконов",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you develop the same terrifying aura that dragons exude. As an action, you can force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw against your hunter spell save DC. On a failed save, a creature becomes {@condition frightened} of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this feature for the next 24 hours.",
-				"Once you use this feature, you must finish a short or long rest before you can use it again."
+				"На 15-м уровне вы приобретаете ту же ужасающую ауру, что источают драконы. Действием вы можете вынудить каждое существо на ваш выбор, которое видите в пределах 30 футов от вас, совершить спасбросок Мудрости против Сл спасброска ваших заклинаний охотника. При провале существо получает состояние {@condition frightened} по отношению к вам на 1 минуту. Испуганное существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект при успехе. Если спасбросок существа успешен или эффект для него заканчивается, оно становится невосприимчиво к этому умению на следующие 24 часа.",
+				"Использовав это умение, вы должны завершить короткий или продолжительный отдых, прежде чем сможете использовать его снова."
 			]
 		},
 		{
-			"name": "Horde Breaker",
+			"name": "Разрушитель орд",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Horde Breaker",
+			"subclassShortName": "Разрушитель орд",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Hunters who specialize in fighting large numbers of foes, Horde Breakers favor agility over raw might, quickly dispatching foe after foe in order to survive. They employ tactics that are capable of effectively disrupting and eliminating large numbers of enemies at once.",
+				"Охотники, специализирующиеся на борьбе с большим числом врагов, — гроза орды — предпочитают ловкость грубой силе, быстро расправляясь с врагом за врагом, чтобы выжить. Они применяют тактики, способные эффективно нарушать порядки и уничтожать большие группы врагов разом.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Horde Breaker|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Гроза орды|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Nimble Evasion|Hunter|Hunter|Horde Breaker|Hunter|3"
+					"subclassFeature": "Техника охотника: ловкое уклонение|Hunter|Hunter|Гроза орды|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Shift Focus|Hunter|Hunter|Horde Breaker|Hunter|3"
+					"subclassFeature": "Техника охотника: сменить цель|Hunter|Hunter|Гроза орды|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Follow Footprints|Hunter|Hunter|Horde Breaker|Hunter|3"
+					"subclassFeature": "По следам|Hunter|Hunter|Гроза орды|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Follow Footprints",
+			"name": "По следам",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Horde Breaker",
+			"subclassShortName": "Разрушитель орд",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this prey at 3rd level, whenever you make any Wisdom (Perception) or Wisdom (Survival) check to track or find a group of 4 or more creatures, your proficiency bonus is doubled if it applies to the check."
+				"Выбрав эту добычу на 3-м уровне, вы удваиваете бонус мастерства всякий раз, когда совершаете проверку Мудрости (Внимательность) или Мудрости (Выживание), чтобы выследить или найти группу из 4 и более существ, если он применим к этой проверке."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Nimble Evasion",
+			"name": "Техника охотника: ловкое уклонение",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Horde Breaker",
+			"subclassShortName": "Разрушитель орд",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As a reaction to being targeted by an attack or being forced to make a Dexterity saving throw, you can expend a use of your Hunter's Technique to take the Dodge action. Additionally, if you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage before the start of your next turn, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+				"Реакцией на то, что вас выбрали целью атаки или вынудили совершить спасбросок Ловкости, вы можете потратить использование техники охотника, чтобы совершить действие Уклонение. Кроме того, если до начала вашего следующего хода вы подвергаетесь эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить только половину урона, вы вместо этого не получаете урона при успехе и получаете лишь половину урона при провале."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Shift Focus",
+			"name": "Техника охотника: сменить цель",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Horde Breaker",
+			"subclassShortName": "Разрушитель орд",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you reduce the target of your Hunter's Mark to 0 hp, you can expend a use of your Hunter's Technique to shift the mark to another creature you can see within 90 feet of you. Doing so does not consume a use of your Hunter's Mark."
+				"Когда вы снижаете хиты цели своей Метки охотника до 0, вы можете потратить использование техники охотника, чтобы перенести метку на другое существо, которое видите в пределах 90 футов от вас. Это не расходует использование вашей Метки охотника."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Horde Breaker",
+			"subclassShortName": "Разрушитель орд",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Horde Breaker Spells",
+					"caption": "Заклинания грозы орды",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1944,71 +1944,71 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell burning hands}, {@spell thunderwave}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell mirror image}, {@spell shatter}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell conjure barrage}, {@spell enemies abound|XGE}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell confusion}, {@spell wall of fire}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell antilife shell}, {@spell cloudkill}"
 						]
 					]
 				},
 				{
-					"name": "Variant: Alternative Spells",
+					"name": "Вариант: альтернативные заклинания",
 					"type": "inset",
 					"entries": [
-						"For players who do not have access to Xanathar's Guide to Everything, the following spell in the Demon Slayer Spells can be replaced:",
-						"9th - {@spell enemies abound|XGE} with {@spell slow}"
+						"Игрокам, у которых нет доступа к Руководству Занатара обо всём, можно заменить следующие заклинания из списка заклинаний губителя демонов:",
+						"9-й — {@spell enemies abound|XGE} на {@spell slow}"
 					]
 				}
 			]
 		},
 		{
-			"name": "Escape the Horde",
+			"name": "Побег от орды",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Horde Breaker",
+			"subclassShortName": "Разрушитель орд",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn to evade blows when you maneuver yourself out of the fray. Opportunity attacks against you are made with disadvantage."
+				"На 7-м уровне вы учитесь уклоняться от ударов, выбираясь из свалки. Атаки по возможности против вас совершаются с помехой."
 			]
 		},
 		{
-			"name": "Multiattack",
+			"name": "Мультиатака",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Horde Breaker",
+			"subclassShortName": "Разрушитель орд",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you learn to strike fast and hard against the oncoming hoard. You gain both of the following features:",
+				"На 11-м уровне вы учитесь бить быстро и сильно по наступающей орде. Вы получаете оба следующих умения:",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Volley",
+							"name": "Залп",
 							"entries": [
-								"You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+								"Вы можете использовать своё действие, чтобы совершить дальнюю атаку против любого количества существ в пределах 10 футов от точки, которую вы видите и которая находится в пределах дистанции вашего оружия. У вас должны быть боеприпасы для каждой цели, как в обычном состоянии, и вы совершаете отдельный бросок атаки для каждой цели."
 							]
 						}
 					]
@@ -2018,9 +2018,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Whirlwind Attack",
+							"name": "Веерная атака",
 							"entries": [
-								"You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+								"Вы можете действием совершить рукопашную атаку по любому числу существ в пределах 5 футов от вас, совершая отдельный бросок атаки против каждой цели."
 							]
 						}
 					]
@@ -2028,109 +2028,109 @@
 			]
 		},
 		{
-			"name": "Horde Tactics",
+			"name": "Тактика орды",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Horde Breaker",
+			"subclassShortName": "Разрушитель орд",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you learn to press the attack with your allies to overwhelm your foes. You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}. Additionally, when you hit a creature with an attack while within 5 feet of it, it has disadvantage on all attack rolls against targets other than you until the end of your next turn."
+				"На 15-м уровне вы учитесь наступать вместе с союзниками, чтобы подавить врагов. Вы совершаете с преимуществом бросок атаки по существу, если хотя бы один из ваших союзников находится в пределах 5 футов от него и не является {@condition incapacitated}. Кроме того, когда вы попадаете по существу атакой, находясь в пределах 5 футов от него, оно совершает с помехой все броски атаки по целям, кроме вас, до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Mage Hunter",
+			"name": "Охотник на магов",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Mage Hunter",
+			"subclassShortName": "Охотник на магов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Trained in the arcane, Mage Hunters are hunters that specialize in subduing spellcasters. From the subtle flick of a wrist, to the whispers of an incantation in the wind, these hunters are well versed in the signs of magic, being practitioners of magic themselves.",
+				"Обученные тайным искусствам, охотники на магов специализируются на подчинении заклинателей. От тонкого движения запястья до шёпота заклинания на ветру — эти охотники хорошо разбираются в признаках магии, будучи и сами практиками магии.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Mage Hunter|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Охотник на магов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Copy Cast|Hunter|Hunter|Mage Hunter|Hunter|3"
+					"subclassFeature": "Техника охотника: скопировать заклинание|Hunter|Hunter|Охотник на магов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Enchant Weapon|Hunter|Hunter|Mage Hunter|Hunter|3"
+					"subclassFeature": "Техника охотника: зачаровать оружие|Hunter|Hunter|Охотник на магов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcanist Training|Hunter|Hunter|Mage Hunter|Hunter|3"
+					"subclassFeature": "Обучение арканиста|Hunter|Hunter|Охотник на магов|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Arcanist Training",
+			"name": "Обучение арканиста",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Mage Hunter",
+			"subclassShortName": "Охотник на магов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this prey at 3rd level, you gain proficiency in the Arcana skill and learn one cantrip of your choice from the wizard spell list. Wisdom is your spellcasting ability for the cantrip."
+				"Выбрав эту добычу на 3-м уровне, вы получаете владение навыком Магия и изучаете один заговор на ваш выбор из списка заклинаний волшебника. Мудрость — ваша базовая характеристика для этого заговора."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Copy Cast",
+			"name": "Техника охотника: скопировать заклинание",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Mage Hunter",
+			"subclassShortName": "Охотник на магов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As a reaction when you see a creature cast a cantrip or spell within 60 feet of you, you can expend a use of your Hunter's Technique to make an ability check using your spellcasting ability to attempt to copy the cantrip or spell. The DC equals 10 + the spell's level (DC 10 for cantrips). On a success, you know the cantrip or spell and can cast it as if it were a hunter spell for 1 minute."
+				"Реакцией, когда вы видите, как существо сотворяет заговор или заклинание в пределах 60 футов от вас, вы можете потратить использование техники охотника, чтобы совершить проверку характеристики со своей базовой характеристикой для заклинаний и попытаться скопировать этот заговор или заклинание. Сл равна 10 + уровень заклинания (Сл 10 для заговоров). При успехе вы знаете этот заговор или заклинание и можете сотворять его как заклинание охотника в течение 1 минуты."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Enchant Weapon",
+			"name": "Техника охотника: зачаровать оружие",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Mage Hunter",
+			"subclassShortName": "Охотник на магов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As a bonus action, you can expend a use of your Hunter's Technique to imbue one weapon that you are holding with arcane energy. For 1 minute, you add your Wisdom modifier to damage rolls made with that weapon (with a minimum bonus of +1). If the weapon is not already magical, it becomes magical for the duration.",
-				"You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall {@condition unconscious}, this effect ends."
+				"Бонусным действием вы можете потратить использование техники охотника, чтобы наполнить одно оружие в вашей руке тайной энергией. На 1 минуту вы добавляете свой модификатор Мудрости к броскам урона этим оружием (минимальный бонус +1). Если оружие ещё не магическое, на это время оно становится магическим.",
+				"Вы можете окончить этот эффект в свой ход в рамках любого другого действия. Если вы больше не держите и не несёте это оружие или получаете состояние {@condition unconscious}, эффект заканчивается."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Mage Hunter",
+			"subclassShortName": "Охотник на магов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Mage Hunter Spells",
+					"caption": "Заклинания охотника на магов",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -2138,155 +2138,155 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell detect magic}, {@spell shield}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell magic weapon}, {@spell silence}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell counterspell}, {@spell dispel magic}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell hallucinatory terrain}, {@spell locate creature}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell circle of power}, {@spell synaptic static|XGE}"
 						]
 					]
 				},
 				{
-					"name": "Variant: Alternative Spells",
+					"name": "Вариант: альтернативные заклинания",
 					"type": "inset",
 					"entries": [
-						"For players who do not have access to Xanathar's Guide to Everything, the following spell in the Mage Hunter Spells can be replaced:",
-						"17th - {@spell synaptic static|XGE} with {@spell dream}"
+						"Игрокам, у которых нет доступа к Руководству Занатара обо всём, можно заменить следующие заклинания из списка заклинаний охотника на магов:",
+						"17-й — {@spell synaptic static|XGE} на {@spell dream}"
 					]
 				}
 			]
 		},
 		{
-			"name": "Iron Mind",
+			"name": "Железный разум",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Mage Hunter",
+			"subclassShortName": "Охотник на магов",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"By 7th level, you have honed your ability to resist the mind-altering powers of your prey. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+				"К 7-му уровню вы оттачиваете способность сопротивляться изменяющим разум силам вашей добычи. Вы получаете владение спасбросками мудрости. Если у вас уже есть это владение, вместо этого вы получаете владение спасбросками Интеллекта или Харизмы (на ваш выбор)."
 			]
 		},
 		{
-			"name": "Mage's Bane",
+			"name": "Погибель магов",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Mage Hunter",
+			"subclassShortName": "Охотник на магов",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you hone your skills to quickly analyze and shut down spellcasters. When you see the target of your Hunter's Mark casting a spell, you can use your reaction to make one weapon attack at the target. On a hit, the creature must succeed on a Wisdom saving throw against your spell save DC or its spell fails and is wasted."
+				"На 11-м уровне вы оттачиваете навыки, чтобы быстро анализировать и обезвреживать заклинателей. Когда вы видите, как цель вашей Метки охотника сотворяет заклинание, вы можете реакцией совершить одну атаку оружием по цели. При попадании существо должно преуспеть в спасброске Мудрости против Сл спасброска ваших заклинаний, иначе его заклинание проваливается и тратится впустую."
 			]
 		},
 		{
-			"name": "Battle Magic",
+			"name": "Боевая магия",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Mage Hunter",
+			"subclassShortName": "Охотник на магов",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a hunter spell, you can make one weapon attack as a bonus action."
+				"На 15-м уровне вы овладели искусством сплетать сотворение заклинаний и использование оружия в единый гармоничный акт. Когда вы действием сотворяете заклинание охотника, вы можете бонусным действием совершить одну атаку оружием."
 			]
 		},
 		{
-			"name": "Night Stalker",
+			"name": "Ночной охотник",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Night Stalker",
+			"subclassShortName": "Ночной охотник",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Night Stalkers are at home in the darkest places: deep under the surface, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Night Stalker ventures boldly into the darkness, seeking to ambush the threats of the deep such as umberhulks, goblins, kobolds and illithids. Such hunters are often found in the Underdark, but they will go any place where monsters lurk in the shadows.",
+				"Ночные охотники чувствуют себя как дома в самых тёмных местах: глубоко под землёй, в мрачных переулках, в первобытных лесах и везде, где меркнет свет. Большинство людей входят в такие места с опаской, но ночной охотник смело углубляется во тьму, стремясь устроить засаду на угрозы глубин — гримлоков, гоблинов, кобольдов и иллитидов. Таких охотников часто встречают в Подземье, но они пойдут куда угодно, где чудовища прячутся в тенях.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Night Stalker|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Ночной охотник|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Deceive Senses|Hunter|Hunter|Night Stalker|Hunter|3"
+					"subclassFeature": "Техника охотника: обмануть чувства|Hunter|Hunter|Ночной охотник|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Dread Ambush|Hunter|Hunter|Night Stalker|Hunter|3"
+					"subclassFeature": "Техника охотника: ужасная засада|Hunter|Hunter|Ночной охотник|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Umbral Senses|Hunter|Hunter|Night Stalker|Hunter|3"
+					"subclassFeature": "Сумеречные чувства|Hunter|Hunter|Ночной охотник|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Hunter's Technique: Deceive Senses",
+			"name": "Техника охотника: обмануть чувства",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Night Stalker",
+			"subclassShortName": "Ночной охотник",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As an action, you can expend a use of your Hunter's Technique to trick the senses of a creature. Choose a creature within 30 feet of you. The target must succeed on a Wisdom saving throw or be unable to perceive you with sight, smell, hearing, blindsight, or tremorsense for 1 minute. It can repeat this saving throw at the end of each of its turns, ending the effect on a success."
+				"Действием вы можете потратить использование техники охотника, чтобы обмануть чувства существа. Выберите существо в пределах 30 футов от вас. Цель должна преуспеть в спасброске Мудрости, иначе не сможет воспринимать вас зрением, обонянием, слухом, слепым зрением или чувством вибрации в течение 1 минуты. Оно может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Dread Ambush",
+			"name": "Техника охотника: ужасная засада",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Night Stalker",
+			"subclassShortName": "Ночной охотник",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you roll initiative and are not surprised, or as a bonus action on your turn, you can expend a use of your Hunter's Technique to cloak yourself with umbral magic for 1 minute. Until you cast a spell, force a creature to make a saving throw, or make a weapon attack, you are {@condition invisible} and your speed increases by 10 feet.",
-				"If this effect ends due to making a weapon attack against a creature, the attack deals additional psychic damage equal to your hunter level."
+				"Когда вы совершаете бросок инициативы и не застигнуты врасплох или бонусным действием в свой ход, вы можете потратить использование техники охотника, чтобы на 1 минуту окутать себя сумеречной магией. Пока вы не сотворите заклинание, не вынудите существо совершить спасбросок и не совершите атаку оружием, вы {@condition invisible} и ваша скорость увеличивается на 10 футов.",
+				"Если этот эффект заканчивается из-за атаки оружием по существу, атака наносит дополнительный психический урон, равный вашему уровню охотника."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Night Stalker",
+			"subclassShortName": "Ночной охотник",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Night Hunter Spells",
+					"caption": "Заклинания ночного охотника",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -2294,23 +2294,23 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell alarm}, {@spell detect poison and disease}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell darkvision}, {@spell invisibility}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell clairvoyance}, {@spell nondetection}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell greater invisibility}, {@spell locate creature}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell mislead}, {@spell passwall}"
 						]
 					]
@@ -2318,158 +2318,158 @@
 			]
 		},
 		{
-			"name": "Umbral Senses",
+			"name": "Сумеречные чувства",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Night Stalker",
+			"subclassShortName": "Ночной охотник",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, your experience with dimly lit environments has allowed you to detect things even in low light. Dim light doesn't impose disadvantage on checks that rely on sight.",
-				"Additionally, being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you."
+				"На 3-м уровне ваш опыт пребывания в слабо освещённых местах позволяет вам замечать предметы даже при тусклом свете. Тусклый свет не налагает помеху на проверки, основанные на зрении.",
+				"Кроме того, невозможность видеть существо не налагает помеху на ваши броски атаки по нему, при условии, что оно не скрыто от вас."
 			]
 		},
 		{
-			"name": "Cloak of Darkness",
+			"name": "Плащ тьмы",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Night Stalker",
+			"subclassShortName": "Ночной охотник",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Beginning at 7th level, you can empty your mind to hide your presence. While in dim light or darkness, you are immune to any effect that would sense your emotions or read your thoughts and have resistances to psychic damage.",
-				"Additionally, while you are in darkness, you are {@condition invisible} to any creature that relies on darkvision to see you in that darkness."
+				"Начиная с 7-го уровня вы можете опустошить свой разум, чтобы скрыть своё присутствие. Находясь при тусклом свете или в темноте, вы невосприимчивы к любому эффекту, который ощутил бы ваши эмоции или прочитал ваши мысли, и получаете сопротивление психическому урону.",
+				"Кроме того, находясь в темноте, вы {@condition invisible} для любого существа, которое полагается на тёмное зрение, чтобы видеть вас в этой темноте."
 			]
 		},
 		{
-			"name": "Symphony of the Night",
+			"name": "Симфония ночи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Night Stalker",
+			"subclassShortName": "Ночной охотник",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, you can sing to the shadows around you, twisting them to encircle you. As a bonus action on your turn, you can exude an aura of darkness in a 30-foot radius around you until the start of your next turn. Any bright light within the aura becomes dim light, and any dim light becomes darkness.",
-				"Additionally, whenever you hit a creature that is in dim light or darkness with a weapon attack, the creature takes an extra {@damage 1d8} psychic damage."
+				"Начиная с 11-го уровня вы можете петь окружающим вас теням, скручивая их в кольцо вокруг себя. Бонусным действием в свой ход вы можете испускать ауру тьмы радиусом 30 футов вокруг себя до начала вашего следующего хода. Любой яркий свет внутри ауры становится тусклым, а любой тусклый свет — темнотой.",
+				"Кроме того, когда вы попадаете атакой оружием по существу при тусклом свете или в темноте, это существо получает дополнительно {@damage 1d8} психического урона."
 			]
 		},
 		{
-			"name": "Shadow Clone",
+			"name": "Теневой двойник",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Night Stalker",
+			"subclassShortName": "Ночной охотник",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you have learned methods to deceive your prey, striking both their body and mind. As an action while you are standing in dim light or darkness, you can create a shadowy replica of yourself, which appears in your space and lasts until you dismiss it as a bonus action or use this feature again. The replica is instantly destroyed if it is exposed to bright light, if it is subject to fire or radiant damage, or is targeted by any effect that dispels magic.",
-				"The replica's appearance, weight, size, and smell are identical to yours, and produces sounds as you do. It has no thoughts, and creatures with truesight can perceive it as a shadowy mass and are immune to the replica's attacks. The replica is immune to all damage and effects, but reacts realistically to being struck. It can occupy the spaces of other creatures. On your turn, you can mentally command the replica to move up to 30 feet in any direction (no action required), to a space you can see.",
-				"While the replica is in your space, creatures that don't have truesight or see the replica for what it is have disadvantage on attacks made against you. When you take the Attack action on your turn, you can attack as if you were in the replica's space, but you must use your own senses. If you do so, the attack deals psychic damage instead of its normal type.",
-				"If a creature within 30 feet of the replica uses its action to examine it, the creature can make an Intelligence (Investigation) check against your spell save DC. On a success, the creature can perceive the replica as a mass of shadowy darkness, becomes unaffected by this particular replica's attacks, and has advantage on Intelligence (Investigation) checks made to examine all replicas created by you for the next 24 hours.",
-				"Once you use this feature, you must finish a short or long rest before you can use it again."
+				"На 15-м уровне вы научились обманывать свою добычу, поражая и её тело, и разум. Действием, стоя при тусклом свете или в темноте, вы можете создать теневую копию себя, которая появляется в вашем пространстве и существует, пока вы не отмените её бонусным действием или снова не используете это умение. Копия мгновенно уничтожается, если её освещает яркий свет, если она подвергается урону огнём или излучением или если её выбирает целью любой эффект, рассеивающий магию.",
+				"Внешность, вес, размер и запах копии идентичны вашим, и она издаёт звуки, как вы. У неё нет мыслей, а существа с истинным зрением воспринимают её как теневую массу и невосприимчивы к атакам копии. Копия невосприимчива ко всему урону и эффектам, но реалистично реагирует на удары. Она может занимать пространство других существ. В свой ход вы можете мысленно приказать копии переместиться на расстояние до 30 футов в любом направлении (не требует действий) в пространство, которое видите.",
+				"Пока копия находится в вашем пространстве, существа, у которых нет истинного зрения и которые не видят копию насквозь, совершают с помехой атаки по вам. Совершая в свой ход действие Атака, вы можете атаковать так, как если бы находились в пространстве копии, но при этом должны использовать собственные чувства. Если вы так делаете, атака наносит психический урон вместо обычного вида.",
+				"Если существо в пределах 30 футов от копии использует своё действие, чтобы её изучить, оно может совершить проверку Интеллекта (Анализ) против Сл спасброска ваших заклинаний. При успехе существо воспринимает копию как массу теневой тьмы, перестаёт подвергаться атакам этой конкретной копии и совершает с преимуществом проверки Интеллекта (Анализ) для изучения всех созданных вами копий в течение следующих 24 часов.",
+				"Использовав это умение, вы должны завершить короткий или продолжительный отдых, прежде чем сможете использовать его снова."
 			]
 		},
 		{
-			"name": "Plane Keeper",
+			"name": "Хранитель планов",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Plane Keeper",
+			"subclassShortName": "Хранитель планов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Plane Keepers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These hunters are also friends to any forces in the multiverse\u2013especially benevolent dragons, fey, and elementals\u2013that work to preserve life and the order of the planes.",
+				"Хранители планов охраняют мир от угроз, происходящих с других планов или стремящихся опустошить смертный мир чуждой магией. Они разыскивают планарные порталы и следят за ними, отправляясь при необходимости на внутренние и внешние планы в погоне за врагами. Эти охотники также дружат со всеми силами мультивселенной — особенно с благожелательными драконами, феями и элементалями, — что трудятся над сохранением жизни и порядка планов.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Plane Keeper|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Хранитель планов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Ethereal Step|Hunter|Hunter|Plane Keeper|Hunter|3"
+					"subclassFeature": "Техника охотника: эфирный шаг|Hunter|Hunter|Хранитель планов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Force Chains|Hunter|Hunter|Plane Keeper|Hunter|3"
+					"subclassFeature": "Техника охотника: силовые цепи|Hunter|Hunter|Хранитель планов|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Planar Warrior|Hunter|Hunter|Plane Keeper|Hunter|3"
+					"subclassFeature": "Планарный воин|Hunter|Hunter|Хранитель планов|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Hunter's Technique: Ethereal Step",
+			"name": "Техника охотника: эфирный шаг",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Plane Keeper",
+			"subclassShortName": "Хранитель планов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You can expend a use of your Hunter's Technique as a bonus action on your turn to infuse yourself with astral energies and become ethereal. Until the end of your turn, you can move through other creatures and objects as if they were difficult terrain. If you end your turn inside an object or creature, you are ejected into the nearest unoccupied space and take 5 force damage."
+				"Бонусным действием в свой ход вы можете потратить использование техники охотника, чтобы наполнить себя астральными энергиями и стать эфирным. До конца вашего хода вы можете перемещаться сквозь других существ и предметы, как если бы они были труднопроходимой местностью. Если вы оканчиваете ход внутри предмета или существа, вас выталкивает в ближайшее свободное пространство, и вы получаете 5 урона силовым полем."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Force Chains",
+			"name": "Техника охотника: силовые цепи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Plane Keeper",
+			"subclassShortName": "Хранитель планов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend a use of your Hunter's Technique to attempt to bind it with planar energies. The target must succeed on a Strength saving throw or be {@condition grappled} for 1 minute. If the target is a creature that is not native to the plane you are in, it takes additional force damage equal to your hunter level and is {@condition restrained} while it is {@condition grappled}. A creature {@condition grappled} by this ability can use an action to make a Strength check against your technique save DC, ending the effect on a success."
+				"Когда вы попадаете по существу атакой оружием, вы можете потратить использование техники охотника, чтобы попытаться связать его планарными энергиями. Цель должна преуспеть в спасброске Силы, иначе получит состояние {@condition grappled} на 1 минуту. Если цель — существо, не являющееся уроженцем плана, на котором вы находитесь, она получает дополнительный урон силовым полем, равный вашему уровню охотника, и получает состояние {@condition restrained}, пока {@condition grappled}. Существо, {@condition grappled} этим умением, может действием совершить проверку Силы против Сл спасброска вашей техники, оканчивая эффект при успехе."
 			]
 		},
 		{
-			"name": "Planar Warrior",
+			"name": "Планарный воин",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Plane Keeper",
+			"subclassShortName": "Хранитель планов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level you can spend 1 hour magically bond to a weapon that you are holding, granting it a pocket plane from which you summon it. While bonded to a weapon, you can summon it as a bonus action on your turn, opening a tear in space leading to the weapon's pocket plane.",
-				"You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two."
+				"На 3-м уровне вы можете потратить 1 час, чтобы магически связаться с оружием в вашей руке, даруя ему карманный план, из которого вы его призываете. Будучи связаны с оружием, вы можете призвать его бонусным действием в свой ход, разрывая пространство и открывая путь в карманный план оружия.",
+				"У вас может быть до двух связанных оружий, но бонусным действием вы можете призвать только одно за раз. Если вы попытаетесь связаться с третьим оружием, вам придётся разорвать связь с одним из двух других."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Plane Keeper",
+			"subclassShortName": "Хранитель планов",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Plane Keeper Spells",
+					"caption": "Заклинания хранителя планов",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -2477,23 +2477,23 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell protection from evil and good}, {@spell sanctuary}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell misty step}, {@spell rope trick}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell blink}, {@spell haste}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell banishment}, {@spell dimension door}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell contact other plane}, {@spell dispel evil and good}"
 						]
 					]
@@ -2501,140 +2501,140 @@
 			]
 		},
 		{
-			"name": "Spectral Defense",
+			"name": "Спектральная защита",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Plane Keeper",
+			"subclassShortName": "Хранитель планов",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"By 7th level, your ability to move between planes allows you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage, you can use your reaction to give yourself resistance to all damage until the end of the turn."
+				"К 7-му уровню ваша способность перемещаться между планами позволяет вам проскальзывать через планарные границы, чтобы уменьшить вред, наносимый вам в бою. Получая урон, вы можете реакцией получить сопротивление всему урону до конца хода."
 			]
 		},
 		{
-			"name": "Stutter Strike",
+			"name": "Рваный удар",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Plane Keeper",
+			"subclassShortName": "Хранитель планов",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you gain the ability to pass between the planes in a blink of an eye. When you use the Attack action, you can teleport up to 10 feet before or after each attack to an unoccupied space you can see. If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+				"На 11-м уровне вы получаете способность проходить между планами в мгновение ока. Используя действие Атака, вы можете телепортироваться на расстояние до 10 футов до или после каждой атаки в свободное пространство, которое видите. Если этим действием вы атакуете как минимум двух разных существ, вы можете совершить дополнительную атаку по третьему существу."
 			]
 		},
 		{
-			"name": "Astral Rift",
+			"name": "Астральный разлом",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Plane Keeper",
+			"subclassShortName": "Хранитель планов",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, your extraplanar experiences have granted you the ability to walk the rift between worlds. When you are in the Astral Plane, you can use your normal movement speed. Additionally, you can create a rift to the Astral Plane as an action, filling a 100-foot cube originating from you. For 1 minute, the area becomes filled with the essence of the Astral Plane. Each creatures aside from you inside the area can't use its normal movement speed, and instead has a movement speed (in feet) equal to 3 × its Intelligence score.",
-				"When a creature starts its turn within the area or enters the area for the first time on its turn, you can force it to make an Intelligence saving throw against your hunter spell save DC. The target takes {@damage 2d10} psychic damage on a failed save. If it fails this saving throw by 5 or more, it is {@condition stunned} until the end of its turn.",
-				"Once you create a rift, you can't do so again until you finish a long rest."
+				"На 15-м уровне ваш внепланарный опыт дал вам способность ходить по разлому между мирами. Находясь на Астральном плане, вы можете использовать свою обычную скорость перемещения. Кроме того, действием вы можете создать разлом в Астральный план, заполняющий куб со стороной 100 футов, исходящий от вас. В течение 1 минуты область наполняется сущностью Астрального плана. Каждое существо, кроме вас, внутри области не может использовать свою обычную скорость перемещения и вместо этого имеет скорость перемещения (в футах), равную 3 × значение его Интеллекта.",
+				"Когда существо начинает свой ход внутри области или впервые за ход входит в неё, вы можете вынудить его совершить спасбросок Интеллекта против Сл спасброска ваших заклинаний охотника. При провале цель получает {@damage 2d10} психического урона. Если она проваливает этот спасбросок на 5 или больше, она получает состояние {@condition stunned} до конца своего хода.",
+				"Один раз создав разлом, вы не можете создать его снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Ranger",
+			"name": "Следопыт",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Ranger",
+			"subclassShortName": "Следопыт",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"entries": [
-				"Hunters that deal primarily with beasts and plants, Rangers are experts at navigating treacherous terrain and moving without a trace. They cultivate a codependency with the flora and fauna, serving as wardens of nature.",
+				"Охотники, имеющие дело в основном со зверями и растениями, — следопыты — эксперты в преодолении опасной местности и передвижении без следа. Они развивают взаимозависимость с флорой и фауной, служа хранителями природы.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Prey Spells|Hunter|Hunter|Ranger|Hunter|3"
+					"subclassFeature": "Заклинания добычи|Hunter|Hunter|Следопыт|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Fleet Footed|Hunter|Hunter|Ranger|Hunter|3"
+					"subclassFeature": "Техника охотника: быстрые ноги|Hunter|Hunter|Следопыт|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Technique: Flurry|Hunter|Hunter|Ranger|Hunter|3"
+					"subclassFeature": "Техника охотника: шквал|Hunter|Hunter|Следопыт|Hunter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Breath of the Wild|Hunter|Hunter|Ranger|Hunter|3"
+					"subclassFeature": "Дыхание дикой природы|Hunter|Hunter|Следопыт|Hunter|3"
 				}
 			]
 		},
 		{
-			"name": "Breath of the Wild",
+			"name": "Дыхание дикой природы",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Ranger",
+			"subclassShortName": "Следопыт",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, your knowledge of the wild allows you to establish a powerful link to beasts the land around you.",
-				"You have an innate ability to communicate with beasts, and they recognize you as a kindred spirit. Through sounds and gestures, you can communicate simple ideas to a beast as an action, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs (such as food or safety), and actions you can take (if any) to persuade it to not attack.",
-				"You cannot use this ability against a creature that you have attacked within the past 10 minutes."
+				"На 3-м уровне ваше знание дикой природы позволяет вам установить мощную связь со зверями и землёй вокруг вас.",
+				"Вы обладаете врождённой способностью общаться со зверями, и они признают в вас родственную душу. Посредством звуков и жестов вы можете действием передать зверю простые идеи и считать его основное настроение и намерение. Вы узнаёте его эмоциональное состояние, подвержен ли он магии любого рода, его краткосрочные потребности (например, в еде или безопасности) и действия, которые вы можете предпринять (если таковые есть), чтобы убедить его не нападать.",
+				"Вы не можете использовать эту способность против существа, которое атаковали за последние 10 минут."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Fleet Footed",
+			"name": "Техника охотника: быстрые ноги",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Ranger",
+			"subclassShortName": "Следопыт",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you move on your turn, you can expend a use of your Hunter's Technique to increase your walking speed by 20 feet until the end of your turn. Additionally, opportunity attacks made against you are at disadvantage until the end of your turn."
+				"Перемещаясь в свой ход, вы можете потратить использование техники охотника, чтобы увеличить свою скорость ходьбы на 20 футов до конца вашего хода. Кроме того, атаки по возможности против вас совершаются с помехой до конца вашего хода."
 			]
 		},
 		{
-			"name": "Hunter's Technique: Flurry",
+			"name": "Техника охотника: шквал",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Ranger",
+			"subclassShortName": "Следопыт",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you miss with a weapon attack, you can expend a use of your Hunter's Technique to make two additional weapon attacks at the same target as part of the same action."
+				"Когда вы промахиваетесь атакой оружием, вы можете потратить использование техники охотника, чтобы в рамках того же действия совершить две дополнительные атаки оружием по той же цели."
 			]
 		},
 		{
-			"name": "Prey Spells",
+			"name": "Заклинания добычи",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Ranger",
+			"subclassShortName": "Следопыт",
 			"subclassSource": "Hunter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain prey spells at the hunter levels listed.",
+				"Вы получаете заклинания добычи на указанных уровнях охотника.",
 				{
 					"type": "table",
-					"caption": "Ranger Spells",
+					"caption": "Заклинания следопыта",
 					"colLabels": [
-						"Hunter Level",
-						"Spells"
+						"Уровень охотника",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -2642,95 +2642,95 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell longstrider}, {@spell speak with animals}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell animal messenger}, {@spell pass without trace}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell conjure animals}, {@spell speak with plants}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell guardian of nature|XGE}, {@spell grasping vine}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell commune with nature}, {@spell tree stride}"
 						]
 					]
 				},
 				{
-					"name": "Variant: Alternative Spells",
+					"name": "Вариант: альтернативные заклинания",
 					"type": "inset",
 					"entries": [
-						"For players who do not have access to Xanathar's Guide to Everything, the following spell in the Ranger Spells can be replaced:",
-						"13th - {@spell guardian of nature|XGE} with {@spell polymorph}"
+						"Игрокам, у которых нет доступа к Руководству Занатара обо всём, можно заменить следующие заклинания из списка заклинаний следопыта:",
+						"13-й — {@spell guardian of nature|XGE} на {@spell polymorph}"
 					]
 				}
 			]
 		},
 		{
-			"name": "Land's Stride",
+			"name": "Поступь земли",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Ranger",
+			"subclassShortName": "Следопыт",
 			"subclassSource": "Hunter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
-				"In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the {@spell entangle} spell."
+				"Начиная с 7-го уровня перемещение по немагической труднопроходимой местности не требует от вас дополнительного перемещения. Вы также можете проходить сквозь немагические растения, не замедляясь ими и не получая от них урона, если у них есть шипы, колючки или подобная опасность.",
+				"Кроме того, вы совершаете с преимуществом спасброски против растений, магически созданных или изменённых, чтобы мешать перемещению, например созданных заклинанием {@spell entangle}."
 			]
 		},
 		{
-			"name": "Expert Skirmisher",
+			"name": "Искусный застрельщик",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Ranger",
+			"subclassShortName": "Следопыт",
 			"subclassSource": "Hunter",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when a hostile creature moves within 5 feet of you. This movement doesn't provoke opportunity attacks."
+				"Начиная с 11-го уровня вас трудно удержать в бою. Вы можете реакцией переместиться на расстояние до половины своей скорости, когда враждебное существо приближается на 5 футов к вам. Это перемещение не вызывает атак по возможности."
 			]
 		},
 		{
-			"name": "One With the Wild",
+			"name": "Единство с дикой природой",
 			"source": "Hunter",
 			"page": 1,
 			"className": "Hunter",
 			"classSource": "Hunter",
-			"subclassShortName": "Ranger",
+			"subclassShortName": "Следопыт",
 			"subclassSource": "Hunter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, your connection with the wild allows you to take on the shape of a creature of the wild. As an action, you can transform into a beast or plant with a challenge rating of 3 or lower.",
-				"You can stay in this form for 1 hour. You then revert to your normal form. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall {@condition unconscious}, drop to 0 hit points, or die.",
-				"While you are transformed, the following rules apply:",
+				"На 15-м уровне ваша связь с дикой природой позволяет вам принимать облик существа из дикой природы. Действием вы можете превратиться в зверя или растение с показателем опасности 3 или ниже.",
+				"Вы можете оставаться в этой форме 1 час, после чего возвращаетесь в свою обычную форму. Вы можете вернуться в обычную форму раньше, использовав бонусное действие в свой ход. Вы автоматически возвращаетесь, если получаете состояние {@condition unconscious}, ваши хиты снижаются до 0 или вы умираете.",
+				"Пока вы превращены, действуют следующие правила:",
 				{
 					"type": "list",
 					"items": [
-						"Your game statistics are replaced by the statistics of the chosen creature, though you retain your alignment and Intelligence, Wisdom, and Charisma scores. You assumes the hit points of your new form, and when you reverts to your normal form, you return to the number of hit points you had before transforming. If you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. As long as the excess damage doesn't reduce the your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
-						"Your ability to speak or take any action that requires hands is limited to the capabilities of your new form, and you can't cast spells. You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.",
-						"Your gear melds into the new form. You can't activate, wield, or otherwise benefit from any of its equipment."
+						"Ваши игровые характеристики заменяются характеристиками выбранного существа, хотя вы сохраняете своё мировоззрение и значения Интеллекта, Мудрости и Харизмы. Вы принимаете хиты своей новой формы, а возвращаясь в обычную форму, возвращаетесь к числу хитов, которое было у вас до превращения. Если вы возвращаетесь из-за снижения хитов до 0, избыточный урон переносится на вашу обычную форму. Пока избыточный урон не снижает вашу обычную форму до 0 хитов, вы не получаете состояние {@condition unconscious}.",
+						"Ваша способность говорить и совершать любые действия, требующие рук, ограничена возможностями вашей новой формы, и вы не можете сотворять заклинания. Вы сохраняете преимущества любых умений от своего класса, расы или другого источника и можете использовать их, если новая форма физически способна на это. Однако вы не можете использовать свои особые чувства, например тёмное зрение, если у новой формы нет такого чувства.",
+						"Ваше снаряжение сливается с новой формой. Вы не можете активировать его, использовать его как оружие или иным образом получать от него преимущества."
 					]
 				},
-				"Once you use this feature, you must finish a long rest before you can use it again."
+				"Использовав это умение, вы должны завершить продолжительный отдых, прежде чем сможете применить его снова."
 			]
 		}
 	],
 	"spell": [
 		{
-			"name": "Find Greater Familiar",
+			"name": "Найти высшего фамильяра",
 			"source": "Hunter",
 			"page": 16,
 			"level": 2,
@@ -2752,7 +2752,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "50 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+					"text": "Уголь, благовония и травы на 50 зм, которые должны сгореть в латунной жаровне",
 					"cost": 5000,
 					"consume": true
 				}
@@ -2766,20 +2766,20 @@
 				"ritual": false
 			},
 			"entries": [
-				"You gain the service of a familiar, a spirit that takes an animal form you choose, of a beast with a challenge rating of 1/2 or lower. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.",
-				"Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. Your familiar can use your spell attack modifier in place of its own modifier for weapon attacks, and its natural weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. When it hits a creature with a weapon attack, it is considered as one of your own weapon attacks for the purposes of spells and effects such as Hunter's Mark.",
-				"When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.",
-				"While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.",
-				"As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
-				"You can't have more than one familiar at a time. If you cast this spell (or the {@spell find familiar} spell) while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms allowed by the spell. Your familiar transforms into the chosen creature.",
-				"Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
+				"Вы получаете служение фамильяра — духа, принимающего выбранную вами звериную форму зверя с показателем опасности 1/2 или ниже. Появляясь в свободном пространстве в пределах досягаемости, фамильяр имеет характеристики выбранной формы, хотя вместо зверя он является небожителем, феей или исчадием (на ваш выбор).",
+				"Ваш фамильяр действует независимо от вас, но всегда подчиняется вашим приказам. В бою он совершает свой бросок инициативы и действует в свой ход. Ваш фамильяр может использовать ваш модификатор атаки заклинанием вместо своего для атак оружием, а его природное оружие считается магическим для преодоления сопротивления и невосприимчивости к немагическим атакам и урону. Когда он попадает по существу атакой оружием, для заклинаний и эффектов вроде Метки охотника это считается одной из ваших собственных атак оружием.",
+				"Когда хиты фамильяра снижаются до 0, он исчезает, не оставляя физической формы. Он появляется вновь после того, как вы снова сотворите это заклинание.",
+				"Пока ваш фамильяр находится в пределах 100 футов от вас, вы можете общаться с ним телепатически. Кроме того, действием вы можете видеть глазами фамильяра и слышать то, что слышит он, до начала вашего следующего хода, получая преимущества любых особых чувств, которые есть у фамильяра. В это время вы глухи и слепы в отношении собственных чувств.",
+				"Действием вы можете временно отпустить фамильяра. Он исчезает в карманное измерение, где ожидает вашего призыва. В качестве альтернативы вы можете отпустить его навсегда. Действием, пока он временно отпущен, вы можете заставить его появиться в любом свободном пространстве в пределах 30 футов от вас.",
+				"Одновременно у вас не может быть более одного фамильяра. Если вы сотворяете это заклинание (или заклинание {@spell find familiar}), уже имея фамильяра, вы вместо этого заставляете его принять новую форму. Выберите одну из форм, разрешённых заклинанием. Ваш фамильяр превращается в выбранное существо.",
+				"Наконец, когда вы сотворяете заклинание с дистанцией касание, ваш фамильяр может передать это заклинание, как если бы сотворил его сам. Ваш фамильяр должен находиться в пределах 100 футов от вас и должен использовать свою реакцию, чтобы передать заклинание, когда вы его сотворяете. Если заклинание требует броска атаки, для этого броска вы используете свой модификатор атаки."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using certain higher-level spell slots, the challenge rating of the beast that you can choose increases: to a challenge rating of 1 or lower with a 3rd-level slot, a challenge rating of 2 or lower with a 4th-level slot, or a challenge rating of 3 or lower with a slot of 5th-level or higher."
+						"Когда вы сотворяете это заклинание, используя определённые ячейки более высокого уровня, показатель опасности зверя, которого вы можете выбрать, повышается: до ПО 1 или ниже с ячейкой 3-го уровня, до ПО 2 или ниже с ячейкой 4-го уровня, или до ПО 3 или ниже с ячейкой 5-го уровня или выше."
 					]
 				}
 			],
@@ -2798,7 +2798,7 @@
 			]
 		},
 		{
-			"name": "Howling Wind",
+			"name": "Воющий ветер",
 			"source": "Hunter",
 			"page": 17,
 			"level": 2,
@@ -2834,17 +2834,17 @@
 				"ritual": false
 			},
 			"entries": [
-				"You summon an elemental spirit of wind that takes on the form of a {@creature wolf} and appears in unoccupied space you can see within range. The elemental uses a {@creature wolf}'s statistics, except that it is an elemental instead of a beast, has resistance to bludgeoning, piercing, and slashing damage, has a fly speed of 60 feet, and its movement doesn't provoke opportunity attacks. Additionally, creatures within 10 feet of the elemental are {@condition deafened}.",
-				"The elemental is friendly to you and your companions, and acts on your initiative. When you cast the spell, you can command the elemental to move up to its speed and make an attack, using your spell attack modifier and spell save DC instead of its own attack bonus and save DC. Until the spell ends, you can use a bonus action to command the elemental again. If you don't issue any commands to it, the elemental takes the Dodge action.",
-				"A summoned creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The DM has the creature's statistics."
+				"Вы призываете элементального духа ветра, который принимает форму {@creature wolf} и появляется в свободном пространстве, которое вы видите в пределах досягаемости. Элементаль использует характеристики {@creature wolf}, за исключением того, что он элементаль, а не зверь, имеет сопротивление дробящему, колющему и рубящему урону, имеет скорость полёта 60 футов, и его перемещение не вызывает атак по возможности. Кроме того, существа в пределах 10 футов от элементаля получают состояние {@condition deafened}.",
+				"Элементаль дружественен вам и вашим спутникам и действует по вашей инициативе. Сотворяя заклинание, вы можете приказать элементалю переместиться на расстояние до своей скорости и совершить атаку, используя ваш модификатор атаки заклинанием и Сл спасброска от заклинаний вместо его собственного бонуса атаки и Сл спасброска. Пока заклинание действует, вы можете бонусным действием приказывать элементалю снова. Если вы не отдаёте ему никаких приказов, элементаль совершает действие Уклонение.",
+				"Призванное существо исчезает, когда опускается до 0 хитов или когда заклинание заканчивается.",
+				"Характеристики этого существа есть у Мастера."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a slot of 4th level or higher, you conjure another elemental for every two slot levels above 2nd. Each additional elemental appears in an unoccupied space you can see within range, and you can command all elementals conjured by this spell as part of the same bonus action."
+						"Когда вы сотворяете это заклинание, используя ячейку 4-го уровня или выше, вы призываете ещё одного элементаля за каждые два уровня ячейки выше 2-го. Каждый дополнительный элементаль появляется в свободном пространстве, которое вы видите в пределах досягаемости, и вы можете отдавать приказы всем призванным этим заклинанием элементалям в рамках одного бонусного действия."
 					]
 				}
 			],
@@ -2867,7 +2867,7 @@
 			]
 		},
 		{
-			"name": "Junglerazer",
+			"name": "Разрушитель джунглей",
 			"source": "Hunter",
 			"page": 17,
 			"level": 3,
@@ -2888,7 +2888,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of ash from a burnt plant"
+				"m": "щепотка пепла сожжённого растения"
 			},
 			"duration": [
 				{
@@ -2899,15 +2899,15 @@
 				"ritual": false
 			},
 			"entries": [
-				"You send forth a blast of withering magic, forming a line 100 feet long and 10 feet wide from you in a direction you choose. Each beast, fey, or plant creature in the line must make a Constitution saving throw. A creature takes {@damage 4d10} necrotic damage on a failed save, or half as much damage on a successful one.",
-				"The spell destroys nonmagical plants and vegetation in the area, clearing away any such difficult terrain caused by them and reducing them to ash. Plants created by the {@spell entangle} or {@spell plant growth} spells in the area are also destroyed."
+				"Вы испускаете вспышку иссушающей магии, образующую линию длиной 100 футов и шириной 10 футов, исходящую от вас в выбранном направлении. Каждое существо-зверь, фея или растение в этой линии должно совершить спасбросок Телосложения. При провале существо получает {@damage 4d10} урона некротической энергией или половину этого урона при успехе.",
+				"Заклинание уничтожает немагические растения и растительность в области, убирая любую вызванную ими труднопроходимую местность и превращая их в пепел. Растения, созданные заклинаниями {@spell entangle} или {@spell plant growth} в области, также уничтожаются."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 4d10|3-9|1d10} and the length of the line increases by 20 feet for each slot level above 3rd."
+						"Когда вы сотворяете это заклинание, используя ячейку заклинаний 4-го уровня или выше, урон увеличивается на {@scaledamage 4d10|3-9|1d10}, а длина линии увеличивается на 20 футов за каждый уровень ячейки выше 3-го."
 					]
 				}
 			],
@@ -2934,7 +2934,7 @@
 			]
 		},
 		{
-			"name": "Mark of the Leech",
+			"name": "Метка пиявки",
 			"source": "Hunter",
 			"page": 17,
 			"level": 2,
@@ -2956,7 +2956,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a leech"
+					"text": "пиявка"
 				}
 			},
 			"duration": [
@@ -2973,8 +2973,8 @@
 				"ritual": false
 			},
 			"entries": [
-				"You choose a creature you can see within range and mark it with draining energy. Until the spell ends, each time the target regains hit points, it takes necrotic damage equal to half the hit points it regained, and you gain temporary hit points equal to the necrotic damage taken and become aware of its location.",
-				"If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature that you can see within the spell's range."
+				"Вы выбираете существо, которое видите в пределах досягаемости, и отмечаете его иссушающей энергией. Пока заклинание действует, каждый раз, когда цель восстанавливает хиты, она получает урон некротической энергией, равный половине восстановленных хитов, а вы получаете временные хиты, равные полученному некротическому урону, и узнаёте о её местонахождении.",
+				"Если хиты цели снижаются до 0 до окончания этого заклинания, вы можете бонусным действием в один из своих последующих ходов отметить новое существо, которое видите в пределах досягаемости заклинания."
 			],
 			"classes": {
 				"fromClassList": [
@@ -3002,7 +3002,7 @@
 			]
 		},
 		{
-			"name": "Mark of the Prey",
+			"name": "Метка добычи",
 			"source": "Hunter",
 			"page": 17,
 			"level": 2,
@@ -3024,7 +3024,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a drop of rabbit's blood"
+					"text": "капля крови кролика"
 				}
 			},
 			"duration": [
@@ -3041,8 +3041,8 @@
 				"ritual": false
 			},
 			"entries": [
-				"You choose a creature you can see within range and mark it as prey for beasts of the wild. Until the spell ends, each beast that starts its turn within 120 feet of the target becomes aware of its location and is hostile to the target, regarding it as prey to be hunted.",
-				"If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature that you can see within the spell's range."
+				"Вы выбираете существо, которое видите в пределах досягаемости, и отмечаете его как добычу для диких зверей. Пока заклинание действует, каждый зверь, начинающий свой ход в пределах 120 футов от цели, узнаёт о её местонахождении и становится враждебным к цели, считая её добычей для охоты.",
+				"Если хиты цели снижаются до 0 до окончания этого заклинания, вы можете бонусным действием в один из своих последующих ходов отметить новое существо, которое видите в пределах досягаемости заклинания."
 			],
 			"classes": {
 				"fromClassList": [
@@ -3065,7 +3065,7 @@
 			]
 		},
 		{
-			"name": "Mark of the Storm",
+			"name": "Метка бури",
 			"source": "Hunter",
 			"page": 17,
 			"level": 2,
@@ -3087,7 +3087,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a piece of iron"
+					"text": "кусок железа"
 				}
 			},
 			"duration": [
@@ -3104,9 +3104,9 @@
 				"ritual": false
 			},
 			"entries": [
-				"You choose a creature you can see within range and mark it as a lightning rod for the wrath of the storm. Until the spell ends, dark storm clouds form in the shape of a cylinder that is 10 feet tall with a 30-foot radius, centered on a point at least 300 feet above the target. When you cast the spell and every hour that passes before the spell ends, the target must succeed on a Dexterity saving throw, taking {@damage 1d12} lightning damage on a failed save, or half as much damage on a success. Until the spell ends, you can use a bonus action on your turn to call down lightning in this way again if you can see the target.",
-				"If the target goes indoors or has cover from above, the lightning will instead strike the structure directly above the target.",
-				"If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature that you can see within the spell's range."
+				"Вы выбираете существо, которое видите в пределах досягаемости, и отмечаете его как громоотвод для гнева бури. Пока заклинание действует, тёмные грозовые тучи образуют цилиндр высотой 10 футов и радиусом 30 футов с центром в точке не менее чем в 300 футах над целью. Когда вы сотворяете заклинание и каждый час до его окончания цель должна преуспеть в спасброске Ловкости, получая {@damage 1d12} урона электричеством при провале или половину этого урона при успехе. Пока заклинание действует, вы можете бонусным действием в свой ход снова вызвать молнию таким же образом, если видите цель.",
+				"Если цель уходит в помещение или получает укрытие сверху, молния вместо этого ударит в строение прямо над целью.",
+				"Если хиты цели снижаются до 0 до окончания этого заклинания, вы можете бонусным действием в один из своих последующих ходов отметить новое существо, которое видите в пределах досягаемости заклинания."
 			],
 			"classes": {
 				"fromClassList": [
@@ -3132,7 +3132,7 @@
 			]
 		},
 		{
-			"name": "Mark of the Wild",
+			"name": "Метка дикой природы",
 			"source": "Hunter",
 			"page": 18,
 			"level": 2,
@@ -3154,7 +3154,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a grape"
+					"text": "виноградина"
 				}
 			},
 			"duration": [
@@ -3171,8 +3171,8 @@
 				"ritual": false
 			},
 			"entries": [
-				"You choose a creature you can see within range and mark it with verdant energy. Until the spell ends, any fertile soil near the target grows with vines and plants, becoming difficult terrain for it. These plants recede back into the ground after the target moves away. Additionally, if the target spends at least 1 minute in the same space of fertile soil, it becomes {@condition restrained} by sprouting vines. A creature {@condition restrained} by the vines can use its action to make a Strength check against your spell save DC. On a success, it frees itself. The vines can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
-				"If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature that you can see within the spell's range."
+				"Вы выбираете существо, которое видите в пределах досягаемости, и отмечаете его изумрудной энергией. Пока заклинание действует, любая плодородная почва рядом с целью зарастает лозами и растениями, становясь для неё труднопроходимой местностью. Когда цель отходит, эти растения возвращаются в землю. Кроме того, если цель проведёт не менее 1 минуты в одном и том же пространстве плодородной почвы, её опутывают прорастающие лозы, давая состояние {@condition restrained}. Существо, {@condition restrained} лозами, может действием совершить проверку Силы против Сл спасброска ваших заклинаний. При успехе оно освобождается. Лозы также можно атаковать и уничтожить (КД 10; хиты 5; уязвимость к урону огнём; невосприимчивость к дробящему, ядовитому и психическому урону).",
+				"Если хиты цели снижаются до 0 до окончания этого заклинания, вы можете бонусным действием в один из своих последующих ходов отметить новое существо, которое видите в пределах досягаемости заклинания."
 			],
 			"classes": {
 				"fromClassList": [
@@ -3201,7 +3201,7 @@
 			]
 		},
 		{
-			"name": "Survey Terrain",
+			"name": "Обзор местности",
 			"source": "Hunter",
 			"page": 18,
 			"level": 2,
@@ -3223,7 +3223,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a crystal"
+					"text": "кристалл"
 				}
 			},
 			"duration": [
@@ -3235,14 +3235,14 @@
 				"ritual": false
 			},
 			"entries": [
-				"You create a mental image of the terrain in a location you choose within range. The area of this spell consists of up to three 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. You become aware of any creatures, objects that bear magic, and the layout and any mechanical intricacies within the area."
+				"Вы создаёте мысленный образ местности в выбранном вами месте в пределах досягаемости. Область этого заклинания состоит из максимум трёх кубов со стороной 10 футов, которые вы можете расположить по своему усмотрению. Каждый куб должен хотя бы одной гранью прилегать к грани другого куба. Вы узнаёте обо всех существах, несущих магию предметах, а также о планировке и любых механических тонкостях внутри области."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you create an additional 10-foot cube for each slot level above 2nd."
+						"Когда вы сотворяете это заклинание, используя ячейку заклинаний 3-го уровня или выше, вы создаёте дополнительный куб со стороной 10 футов за каждый уровень ячейки выше 2-го."
 					]
 				}
 			],

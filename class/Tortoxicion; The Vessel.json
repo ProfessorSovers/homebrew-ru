@@ -22,7 +22,7 @@
 	},
 	"class": [
 		{
-			"name": "Vessel",
+			"name": "Сосуд",
 			"source": "TVC",
 			"hd": {
 				"number": 1,
@@ -68,11 +68,11 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) {@item leather armor|PHB} or (b) {@item padded armor|PHB}",
-					"(a) a {@item light crossbow|PHB} and {@item Crossbow Bolts (20)|PHB|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item dungeoneer's pack|PHB}, (b) a {@item scholar's pack|PHB}, or (c) any two {@table tools|PHB}"
+					"(а) {@item leather armor|PHB} или (б) {@item padded armor|PHB}",
+					"(а) {@item light crossbow|PHB} и {@item Crossbow Bolts (20)|PHB|20 болтов} или (б) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(а) {@item dungeoneer's pack|PHB}, (б) {@item scholar's pack|PHB} или (в) любые два {@table tools|PHB}"
 				],
-				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}"
+				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Начальное золото}"
 			},
 			"multiclassing": {
 				"requirements": {
@@ -96,8 +96,8 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Transformations",
-						"Form Strike"
+						"Превращения",
+						"Удар формы"
 					],
 					"rows": [
 						[
@@ -184,49 +184,49 @@
 				}
 			],
 			"classFeatures": [
-				"Manifest|Vessel|TVC|1",
+				"Воплощение|Vessel|TVC|1",
 				{
-					"classFeature": "Uncanny Emergence|Vessel|TVC|1",
+					"classFeature": "Жуткое пробуждение|Vessel|TVC|1",
 					"gainSubclassFeature": true
 				},
-				"Dual Minds|Vessel|TVC|3",
-				"Ability Score Improvement|Vessel|TVC|4",
-				"Extra Attack|Vessel|TVC|5",
+				"Два разума|Vessel|TVC|3",
+				"Увеличение характеристик|Vessel|TVC|4",
+				"Дополнительная атака|Vessel|TVC|5",
 				{
-					"classFeature": "Uncanny Emergence feature|Vessel|TVC|6",
+					"classFeature": "Умение жуткого пробуждения|Vessel|TVC|6",
 					"gainSubclassFeature": true
 				},
-				"Mana Infusion|Vessel|TVC|6",
-				"Enhanced Ability|Vessel|TVC|7",
-				"Ability Score Improvement|Vessel|TVC|8",
+				"Вливание маны|Vessel|TVC|6",
+				"Усиленная способность|Vessel|TVC|7",
+				"Увеличение характеристик|Vessel|TVC|8",
 				{
-					"classFeature": "Essence Form feature|Vessel|TVC|9",
-					"gainSubclassFeature": true
-				},
-				{
-					"classFeature": "Uncanny Emergence feature|Vessel|TVC|10",
-					"gainSubclassFeature": true
-				},
-				"Empowered Form|Vessel|TVC|11",
-				"Ability Score Improvement|Vessel|TVC|12",
-				"Kindred Intuition|Vessel|TVC|13",
-				{
-					"classFeature": "Uncanny Emergence feature|Vessel|TVC|14",
+					"classFeature": "Умение формы сущности|Vessel|TVC|9",
 					"gainSubclassFeature": true
 				},
 				{
-					"classFeature": "Essence Form feature|Vessel|TVC|15",
+					"classFeature": "Умение жуткого пробуждения|Vessel|TVC|10",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Vessel|TVC|16",
-				"Unleashed Form|Vessel|TVC|17",
+				"Усиленная форма|Vessel|TVC|11",
+				"Увеличение характеристик|Vessel|TVC|12",
+				"Родственная интуиция|Vessel|TVC|13",
 				{
-					"classFeature": "Uncanny Emergence feature|Vessel|TVC|18",
+					"classFeature": "Умение жуткого пробуждения|Vessel|TVC|14",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Vessel|TVC|19",
 				{
-					"classFeature": "Legendary Essence|Vessel|TVC|20",
+					"classFeature": "Умение формы сущности|Vessel|TVC|15",
+					"gainSubclassFeature": true
+				},
+				"Увеличение характеристик|Vessel|TVC|16",
+				"Освобождённая форма|Vessel|TVC|17",
+				{
+					"classFeature": "Умение жуткого пробуждения|Vessel|TVC|18",
+					"gainSubclassFeature": true
+				},
+				"Увеличение характеристик|Vessel|TVC|19",
+				{
+					"classFeature": "Легендарная сущность|Vessel|TVC|20",
 					"gainSubclassFeature": true
 				}
 			],
@@ -235,51 +235,51 @@
 	],
 	"classFluff": [
 		{
-			"name": "Vessel",
+			"name": "Сосуд",
 			"source": "TVC",
 			"entries": [
 				{
-					"name": "The Vessel",
+					"name": "Сосуд",
 					"source": "TVC",
 					"page": 2,
 					"type": "section",
 					"entries": [
-						"A circle of cultists surround a weak gnome sitting in a ritual circle. Their chains summon eldritch magic that seeps into the gnome giving them magic, as well as shifting them into a horrible abomination. The magic puts the gnome into a terrifying rage, who lashes out with tendrils, killing the cultists.",
-						"Two bandits corner a mature elf in an alley, holding their daggers close to the elf's neck. Fur rips through their would-be victim's skin, and hands melt into deadly claws, and the elft's shadow grows, looming over them. It's too late for the bandits; their fate is sealed.",
-						"A meek alchemist ponders over a glowing vial, and after a moment of doubt, he drinks the whole thing. After a moment of silence, his body twists and contorts into a mass of flesh and tentacles, only barely resembling a man.",
-						"Unpredictable, uncanny, able to shift into a mockery of themselves and split between two forms. When you're a vessel, you're never truly alone.",
+						"Круг культистов окружает слабого гнома, сидящего в ритуальном круге. Их цепи призывают мистическую магию, которая просачивается в гнома, даруя ему магию и превращая его в ужасное чудовище. Магия приводит гнома в неистовую ярость, и он бьёт щупальцами, убивая культистов.",
+						"Двое бандитов зажимают в переулке зрелого эльфа, держа кинжалы у его шеи. Шерсть прорывается сквозь кожу их жертвы, руки превращаются в смертоносные когти, а тень эльфа растёт, нависая над ними. Для бандитов слишком поздно; их участь решена.",
+						"Кроткий алхимик размышляет над светящимся флаконом и после минуты сомнений выпивает его целиком. После мгновения тишины его тело искривляется и корчится, превращаясь в массу плоти и щупалец, лишь отдалённо напоминающую человека.",
+						"Непредсказуемый, жуткий, способный превращаться в карикатуру на самого себя и разделяться между двумя формами. Когда вы сосуд, вы никогда по-настоящему не одни.",
 						{
 							"type": "entries",
-							"name": "Warp Spasms",
+							"name": "Искажающие спазмы",
 							"entries": [
-								"A vessel, as the name suggests, is a carrier, a host to a strange essence of power. This power can sometimes be another entity or consciousness. Vessels permit it to take over their body, transforming them into a physical manifestation of their power. This form enhances their abilities and grants them new ones; even in their normal form, its power leaks into their everyday life. This essence can shift their vessels into a variety of shapes based on the essence's nature, from an imposing beast to a horrible abomination. They also use this new form for a variety of needs, from battle to traveling. The vessel and their essence grow together, unlocking potential in each other."
+								"Сосуд, как следует из названия, — это носитель, вместилище странной сущности силы. Эта сила иногда может быть другой сущностью или сознанием. Сосуды позволяют ей завладеть своим телом, превращая их в физическое воплощение её силы. Эта форма усиливает их способности и дарует новые; даже в обычной форме её сила просачивается в их повседневную жизнь. Эта сущность может придавать своим сосудам различные облики в зависимости от своей природы — от внушительного зверя до ужасного чудовища. Они также используют эту новую форму для самых разных нужд, от битвы до путешествий. Сосуд и его сущность растут вместе, раскрывая потенциал друг в друге."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Duality of One",
+							"name": "Двойственность единого",
 							"entries": [
-								"Vessels are uncommon in the many worlds of D&D. They share their existence with a sentient force within them that has their own goals, bonds, and flaws. This force can drive a vessel to learn more about their situation, being consumed by it, embrace it, or rid themselves of it. They are considered some form of shapechanger, that master a single form such as a lycanthrope.",
-								"The source of this essence varies greatly and is never so simple. Their powers are mostly if not always accidental and unpredictable. Some search for this power through magical curses and rituals, or even more artificial alchemical means."
+								"Сосуды редки во многих мирах D&D. Они делят своё существование с разумной силой внутри них, у которой есть свои цели, узы и недостатки. Эта сила может побуждать сосуд узнавать больше о своём положении, поглощать его, заставлять его принять её или избавиться от неё. Они считаются своего рода оборотнями, освоившими единственную форму, как ликантропы.",
+								"Источник этой сущности очень разнообразен и никогда не бывает простым. Их силы по большей части, если не всегда, случайны и непредсказуемы. Некоторые ищут эту силу через магические проклятия и ритуалы или даже более искусственные алхимические средства."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating a Vessel",
+							"name": "Создание сосуда",
 							"entries": [
-								"The origin of your vessel is crucial to its development. Work with your DM when deciding how your character gained this ability and the characteristics of your manifestation. Some of the more important details to consider are when, where, and how you gained your power.",
-								"Think about their relationship with this essence. Do they love it, hate it, or maybe even fear it? Along with that, how does your monster feel about you? Do they see you as dead weight, a friend, or an enemy? Maybe they want to get rid of you altogether. Also, how do they act? Tame, vicious, quirky? Think of their bonds, flaws, and alignment.",
-								"Like your character's appearance, describing how your manifestation looks is also very important. Your form should complement the Essence Form you pick. The transformation from man to the monster is significant too. Is it unpleasant or torturous? Is there a unique sequence you go through? Does your character remember what happens when you transform? Does your character have any sway over its actions?",
+								"Происхождение вашего сосуда имеет решающее значение для его развития. Работайте с Мастером, решая, как ваш персонаж получил эту способность и каковы характеристики его проявления. Некоторые из наиболее важных деталей, которые стоит учесть, — когда, где и как вы получили свою силу.",
+								"Подумайте о его отношениях с этой сущностью. Он любит её, ненавидит или, может быть, даже боится? Вместе с этим, как ваше чудовище относится к вам? Считает ли оно вас обузой, другом или врагом? Возможно, оно хочет избавиться от вас совсем. А ещё, как оно себя ведёт? Кротко, свирепо, чудаковато? Подумайте о его узах, недостатках и мировоззрении.",
+								"Как и внешность вашего персонажа, описание того, как выглядит его проявление, тоже очень важно. Ваша форма должна дополнять выбранную вами «Форму сущности». Превращение из человека в чудовище также значимо. Оно неприятно или мучительно? Есть ли уникальная последовательность, через которую вы проходите? Помнит ли ваш персонаж, что происходит при превращении? Влияет ли ваш персонаж на его действия?",
 								{
 									"type": "entries",
-									"name": "Essence Quirks",
+									"name": "Причуды сущности",
 									"entries": [
-										"Your freakish alternative form can have odd or uncanny personalities, giving them quirks to make them distinct from your normal form. You can use the following table to customize your character's essence in addition to the trait, ideal, bond, and flaw from your background.",
+										"Ваша уродливая альтернативная форма может обладать странной или жуткой личностью, и она получает причуды, отличающие её от вашей обычной формы. Вы можете использовать следующую таблицу, чтобы настроить сущность вашего персонажа в дополнение к черте, идеалу, узам и недостатку из вашей предыстории.",
 										{
 											"type": "table",
 											"colLabels": [
 												"d8",
-												"Quirks"
+												"Причуды"
 											],
 											"colStyles": [
 												"col-2 text-center",
@@ -288,35 +288,35 @@
 											"rows": [
 												[
 													"1",
-													"They always need something to chew on."
+													"Им всегда нужно что-нибудь погрызть."
 												],
 												[
 													"2",
-													"They speak in the third person."
+													"Они говорят о себе в третьем лице."
 												],
 												[
 													"3",
-													"They have odd primal urges and often act animalistic."
+													"У них странные первобытные порывы, и они часто ведут себя по-звериному."
 												],
 												[
 													"4",
-													"They are completely unable to lie."
+													"Они совершенно неспособны лгать."
 												],
 												[
 													"5",
-													"They have trouble showing or understanding emotion."
+													"Им трудно показывать или понимать эмоции."
 												],
 												[
 													"6",
-													"Incredibly afraid of mirrors and will do anything to avoid them."
+													"Невероятно боятся зеркал и сделают что угодно, чтобы их избежать."
 												],
 												[
 													"7",
-													"All food is finger food to them."
+													"Для них вся еда — еда руками."
 												],
 												[
 													"8",
-													"The more people there are, the quieter they are."
+													"Чем больше людей вокруг, тем тише они становятся."
 												]
 											]
 										}
@@ -324,9 +324,9 @@
 								},
 								{
 									"type": "entries",
-									"name": "Quick Build",
+									"name": "Быстрое создание",
 									"entries": [
-										"You can make a vessel quickly by following these suggestions. First, put your highest ability score in Constitution, followed by Charisma. Second, choose the {@background hermit|PHB} background."
+										"Вы можете быстро создать сосуд, следуя этим советам. Во-первых, поместите наивысшую характеристику в Телосложение, следом — Харизму. Во-вторых, выберите предысторию {@background hermit|PHB}."
 									]
 								}
 							]
@@ -338,8 +338,8 @@
 	],
 	"subclass": [
 		{
-			"name": "Altered Mage",
-			"shortName": "Altered Mage",
+			"name": "Изменённый маг",
+			"shortName": "Изменённый маг",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
@@ -484,7 +484,7 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"colLabels": [
 						"{@filter 1st|spells|level=1|subclass=Vessel: Altered Mage (TVC)}",
 						"{@filter 2nd|spells|level=2|subclass=Vessel: Altered Mage (TVC)}",
@@ -616,402 +616,402 @@
 				}
 			],
 			"subclassFeatures": [
-				"Altered Mage|Vessel|TVC|Altered Mage|TVC|1",
-				"Eldritch Shell|Vessel|TVC|Altered Mage|TVC|6",
-				"Syphon Essence|Vessel|TVC|Altered Mage|TVC|10",
-				"Spell Sense|Vessel|TVC|Altered Mage|TVC|14",
-				"Shared Burden|Vessel|TVC|Altered Mage|TVC|18"
+				"Изменённый маг|Vessel|TVC|Изменённый маг|TVC|1",
+				"Мистический панцирь|Vessel|TVC|Изменённый маг|TVC|6",
+				"Вытягивание сущности|Vessel|TVC|Изменённый маг|TVC|10",
+				"Чутьё на магию|Vessel|TVC|Изменённый маг|TVC|14",
+				"Разделённое бремя|Vessel|TVC|Изменённый маг|TVC|18"
 			]
 		},
 		{
-			"name": "Aquatic",
-			"shortName": "Aquatic",
+			"name": "Водный",
+			"shortName": "Водный",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
 			"subclassFeatures": [
-				"Aquatic|Vessel|TVC|Aquatic|TVC|1",
-				"Marine Agility|Vessel|TVC|Aquatic|TVC|9",
-				"Thrashing Jaws|Vessel|TVC|Aquatic|TVC|15",
-				"Legendary Actions|Vessel|TVC|Aquatic|TVC|20"
+				"Водный|Vessel|TVC|Водный|TVC|1",
+				"Морская ловкость|Vessel|TVC|Водный|TVC|9",
+				"Рвущиеся челюсти|Vessel|TVC|Водный|TVC|15",
+				"Легендарные действия|Vessel|TVC|Водный|TVC|20"
 			]
 		},
 		{
-			"name": "Araneae",
-			"shortName": "Araneae",
+			"name": "Паукообразный",
+			"shortName": "Паукообразный",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
 			"subclassFeatures": [
-				"Araneae|Vessel|TVC|Araneae|TVC|1",
-				"Advanced Arachnid|Vessel|TVC|Araneae|TVC|9",
-				"Venomous Bite|Vessel|TVC|Araneae|TVC|15",
-				"Legendary Actions|Vessel|TVC|Araneae|TVC|20"
+				"Паукообразный|Vessel|TVC|Паукообразный|TVC|1",
+				"Развитая арахнида|Vessel|TVC|Паукообразный|TVC|9",
+				"Ядовитый укус|Vessel|TVC|Паукообразный|TVC|15",
+				"Легендарные действия|Vessel|TVC|Паукообразный|TVC|20"
 			]
 		},
 		{
-			"name": "Avian",
-			"shortName": "Avian",
+			"name": "Птичий",
+			"shortName": "Птичий",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
 			"subclassFeatures": [
-				"Avian|Vessel|TVC|Avian|TVC|1",
-				"Death from Above|Vessel|TVC|Avian|TVC|9",
-				"Dive Bomb|Vessel|TVC|Avian|TVC|15",
-				"Legendary Actions|Vessel|TVC|Avian|TVC|20"
+				"Птичий|Vessel|TVC|Птичий|TVC|1",
+				"Смерть с небес|Vessel|TVC|Птичий|TVC|9",
+				"Пикирующая бомбардировка|Vessel|TVC|Птичий|TVC|15",
+				"Легендарные действия|Vessel|TVC|Птичий|TVC|20"
 			]
 		},
 		{
-			"name": "Brute",
-			"shortName": "Brute",
+			"name": "Громила",
+			"shortName": "Громила",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
 			"subclassFeatures": [
-				"Brute|Vessel|TVC|Brute|TVC|1",
-				"Overwhelming Might|Vessel|TVC|Brute|TVC|9",
-				"Riot|Vessel|TVC|Brute|TVC|15",
-				"Legendary Actions|Vessel|TVC|Brute|TVC|20"
+				"Громила|Vessel|TVC|Громила|TVC|1",
+				"Подавляющая мощь|Vessel|TVC|Громила|TVC|9",
+				"Погром|Vessel|TVC|Громила|TVC|15",
+				"Легендарные действия|Vessel|TVC|Громила|TVC|20"
 			]
 		},
 		{
-			"name": "Horned",
-			"shortName": "Horned",
+			"name": "Рогатый",
+			"shortName": "Рогатый",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
 			"subclassFeatures": [
-				"Horned|Vessel|TVC|Horned|TVC|1",
-				"Devastating Ram|Vessel|TVC|Horned|TVC|9",
-				"Stomp|Vessel|TVC|Horned|TVC|15",
-				"Legendary Actions|Vessel|TVC|Horned|TVC|20"
+				"Рогатый|Vessel|TVC|Рогатый|TVC|1",
+				"Сокрушительный таран|Vessel|TVC|Рогатый|TVC|9",
+				"Топот|Vessel|TVC|Рогатый|TVC|15",
+				"Легендарные действия|Vessel|TVC|Рогатый|TVC|20"
 			]
 		},
 		{
-			"name": "Lycan",
-			"shortName": "Lycan",
+			"name": "Ликан",
+			"shortName": "Ликан",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
 			"subclassFeatures": [
-				"Lycan|Vessel|TVC|Lycan|TVC|1",
-				"Strength of the Pack|Vessel|TVC|Lycan|TVC|9",
-				"Advanced Hunter|Vessel|TVC|Lycan|TVC|15",
-				"Legendary Actions|Vessel|TVC|Lycan|TVC|20"
+				"Ликан|Vessel|TVC|Ликан|TVC|1",
+				"Сила стаи|Vessel|TVC|Ликан|TVC|9",
+				"Улучшенный охотник|Vessel|TVC|Ликан|TVC|15",
+				"Легендарные действия|Vessel|TVC|Ликан|TVC|20"
 			]
 		},
 		{
-			"name": "Primal Curse",
-			"shortName": "Primal Curse",
+			"name": "Первобытное проклятие",
+			"shortName": "Первобытное проклятие",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
 			"subclassFeatures": [
-				"Primal Curse|Vessel|TVC|Primal Curse|TVC|1",
-				"Favored Prey|Vessel|TVC|Primal Curse|TVC|6",
-				"Imposing Display|Vessel|TVC|Primal Curse|TVC|10",
-				"Ferocious Rush|Vessel|TVC|Primal Curse|TVC|14",
-				"Sustaining Essence|Vessel|TVC|Primal Curse|TVC|18"
+				"Первобытное проклятие|Vessel|TVC|Первобытное проклятие|TVC|1",
+				"Излюбленная добыча|Vessel|TVC|Первобытное проклятие|TVC|6",
+				"Внушительная демонстрация|Vessel|TVC|Первобытное проклятие|TVC|10",
+				"Свирепый натиск|Vessel|TVC|Первобытное проклятие|TVC|14",
+				"Поддерживающая сущность|Vessel|TVC|Первобытное проклятие|TVC|18"
 			]
 		},
 		{
-			"name": "Unhinged Alchemist",
-			"shortName": "Unhinged Alchemist",
+			"name": "Безумный алхимик",
+			"shortName": "Безумный алхимик",
 			"source": "TVC",
 			"className": "Vessel",
 			"classSource": "TVC",
 			"subclassFeatures": [
-				"Unhinged Alchemist|Vessel|TVC|Unhinged Alchemist|TVC|1",
-				"Easy Design|Vessel|TVC|Unhinged Alchemist|TVC|6",
-				"Essence Elixir|Vessel|TVC|Unhinged Alchemist|TVC|10",
-				"Desperate Brew|Vessel|TVC|Unhinged Alchemist|TVC|14",
-				"Eurika|Vessel|TVC|Unhinged Alchemist|TVC|18"
+				"Безумный алхимик|Vessel|TVC|Безумный алхимик|TVC|1",
+				"Удобная конструкция|Vessel|TVC|Безумный алхимик|TVC|6",
+				"Эликсир сущности|Vessel|TVC|Безумный алхимик|TVC|10",
+				"Отчаянное варево|Vessel|TVC|Безумный алхимик|TVC|14",
+				"Эврика|Vessel|TVC|Безумный алхимик|TVC|18"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Manifest",
+			"name": "Воплощение",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 1,
 			"entries": [
-				"You can transform into a manifestation of a more inhuman mockery of yourself and your essence. On your turn, you can transform into your form as a bonus action. Additionally, you gain the Shapeshifter subtype.",
-				"Your transformation lasts for 1 minute. It ends early if you are knocked {@condition unconscious}, reach 0 hit points, or die. You can also end your transformation as a bonus action. Once you have transformed the number of times shown for your vessel's level in the Transformations column of the Vessel table, you must finish a long rest before you can transform again.",
-				"While you are transformed, the following rules apply:",
+				"Вы можете превратиться в проявление более бесчеловечной карикатуры на себя и свою сущность. В свой ход вы можете превратиться в свою форму бонусным действием. Кроме того, вы получаете подтип «Оборотень».",
+				"Ваше превращение длится 1 минуту. Оно заканчивается раньше, если вы стали {@condition unconscious}, достигли 0 хитов или умерли. Вы также можете прекратить превращение бонусным действием. После того как вы превращались число раз, указанное для уровня вашего сосуда в колонке «Превращения» таблицы сосуда, вы должны завершить продолжительный отдых, прежде чем сможете превратиться снова.",
+				"Пока вы превращены, действуют следующие правила:",
 				{
 					"type": "list",
 					"items": [
-						"Your game statistics are replaced by the statistics of the essence, but you retain your ability scores and senses. You also retain all of your skill and saving throw proficiencies.",
-						"When you transform, you assume the form's hit points and you share hit dice with the form. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in this form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
-						"You can't cast spells. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent youfrom taking actions that are part of a spell, such as {@spell confusion}, that you've already cast.",
-						"You retain the benefits of any features from your class, race, or other source and can use them if the new form is physically capable of doing so.",
-						"Your form deals a {@dice 1d8} in damage it makes with its attacks, included in its statblock. This die changes as you gain vessel levels, as shown in the Form Strike column of the Vessel table.",
-						"You can choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
+						"Ваши игровые характеристики заменяются характеристиками сущности, но вы сохраняете свои значения характеристик и чувства. Вы также сохраняете все свои владения навыками и спасбросками.",
+						"При превращении вы принимаете хиты формы и разделяете с формой кости хитов. Возвращаясь в обычную форму, вы возвращаетесь к числу хитов, которое было у вас до превращения. Однако если вы возвращаетесь в результате падения до 0 хитов, избыточный урон переносится в вашу обычную форму. Например, если вы получаете 10 урона в этой форме и у вас оставался только 1 хит, вы возвращаетесь и получаете 9 урона. Пока избыточный урон не снижает хиты вашей обычной формы до 0, вы не становитесь {@condition unconscious}.",
+						"Вы не можете творить заклинания. Однако превращение не нарушает вашу концентрацию на уже сотворённом заклинании и не мешает вам совершать действия, являющиеся частью уже сотворённого вами заклинания, такого как {@spell confusion}.",
+						"Вы сохраняете преимущества любых умений от вашего класса, расы или иного источника и можете использовать их, если новая форма физически способна на это.",
+						"Ваша форма наносит {@dice 1d8} урона своими атаками, что указано в её блоке характеристик. Эта кость меняется по мере получения уровней сосуда, как показано в колонке «Удар формы» таблицы сосуда.",
+						"Вы можете решить, падает ли ваше снаряжение на землю в вашем пространстве, сливается с новой формой или носится ею. Носимое снаряжение работает как обычно, но Мастер решает, практично ли для новой формы носить тот или иной предмет, исходя из формы и размера существа. Ваше снаряжение не меняет размер или форму в соответствии с новой формой, и любое снаряжение, которое новая форма не может носить, должно либо упасть на землю, либо слиться с ней. Снаряжение, слившееся с формой, не оказывает эффекта, пока вы не покинете форму."
 					]
 				}
 			]
 		},
 		{
-			"name": "Uncanny Emergence",
+			"name": "Жуткое пробуждение",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 1,
 			"entries": [
-				"At 1st level, you choose the path that bests defines how you gained and command your essence. Choose Unhinged Alchemist, Altered Mage, or Primal Curse. The uncanny emergence you choose grants you features at 1st level and again at 6th, 10th, 14th, and 18th level.",
-				"In addition, you choose an essence that represents the nature and capabilities of your form. The Brute, Lycan, Araneae, Horned, Avian, and Aquatic. The essence you choose grants your form's statblock additional traits and attributes at 9th and 15th level."
+				"На 1-м уровне вы выбираете путь, лучше всего определяющий, как вы получили свою сущность и как повелеваете ею. Выберите «Безумный алхимик», «Изменённый маг» или «Первобытное проклятие». Выбранное жуткое пробуждение дарует вам умения на 1-м уровне, а также на 6-м, 10-м, 14-м и 18-м уровнях.",
+				"Кроме того, вы выбираете сущность, отражающую природу и возможности вашей формы: «Громила», «Ликан», «Паукообразный», «Рогатый», «Птичий» и «Водный». Выбранная сущность дарует блоку характеристик вашей формы дополнительные черты и свойства на 9-м и 15-м уровнях."
 			]
 		},
 		{
-			"name": "Dual Minds",
+			"name": "Два разума",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 3,
 			"entries": [
-				"Starting at 3rd level, the being within you pairs with your mind, giving it strength. You have advantage against being {@condition frightened} and {@condition charmed}. You also have advantage against effects that would change your memories and emotions."
+				"Начиная с 3-го уровня существо внутри вас сочетается с вашим разумом, придавая ему силу. Вы обладаете преимуществом против состояний {@condition frightened} и {@condition charmed}. Вы также обладаете преимуществом против эффектов, которые изменили бы вашу память и эмоции."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Extra Attack",
+			"name": "Дополнительная атака",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"Начиная с 5-го уровня вы можете атаковать дважды вместо одного раза каждый раз, когда совершаете в свой ход действие {@action Attack}."
 			]
 		},
 		{
-			"name": "Mana Infusion",
+			"name": "Вливание маны",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 6,
 			"entries": [
-				"At 6th level, while transformed your attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+				"На 6-м уровне, пока вы превращены, ваши атаки считаются магическими для преодоления сопротивления и иммунитета к немагическим атакам и урону."
 			]
 		},
 		{
-			"name": "Uncanny Emergence feature",
+			"name": "Умение жуткого пробуждения",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain a feature granted by your Uncanny Emergence."
+				"На 6-м уровне вы получаете умение, даруемое вашим «Жутким пробуждением»."
 			]
 		},
 		{
-			"name": "Enhanced Ability",
+			"name": "Усиленная способность",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 7,
 			"entries": [
-				"At 7th level, you allow your essence to tap into your skills, further enhancing them. Choose two skills you are proficient in, while transformed you double your proficiency bonus for checks you make with those skills for the duration of the transformation."
+				"На 7-м уровне вы позволяете своей сущности подключиться к вашим навыкам, дополнительно усиливая их. Выберите два навыка, которыми владеете; пока вы превращены, вы удваиваете свой бонус мастерства для проверок этими навыками на время превращения."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Essence Form feature",
+			"name": "Умение формы сущности",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 9,
 			"entries": [
-				"At 9th level, you gain a feature granted by your Essence Form."
+				"На 9-м уровне вы получаете умение, даруемое вашей «Формой сущности»."
 			]
 		},
 		{
-			"name": "Uncanny Emergence feature",
+			"name": "Умение жуткого пробуждения",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain a feature granted by your Uncanny Emergence."
+				"На 10-м уровне вы получаете умение, даруемое вашим «Жутким пробуждением»."
 			]
 		},
 		{
-			"name": "Empowered Form",
+			"name": "Усиленная форма",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 11,
 			"entries": [
-				"At 11th level, you can push your essence further, increasing its might. When you use your Manifest feature, you can spend one additional use of your transformations to give your form the following benefits for the duration of the transformation:",
+				"На 11-м уровне вы можете продвинуть свою сущность дальше, увеличив её мощь. Используя умение «Воплощение», вы можете потратить одно дополнительное использование превращений, чтобы дать своей форме следующие преимущества на время превращения:",
 				{
 					"type": "list",
 					"items": [
-						"Your form becomes Large.",
-						"You deal an extra {@dice 1d4} damage with melee and ranged attacks.",
-						"You have advantage on checks and saving throws that rely on Strength.",
-						"Your essence's hit points increases by +5."
+						"Ваша форма становится Большой.",
+						"Вы наносите дополнительный {@dice 1d4} урона рукопашными и дальнобойными атаками.",
+						"Вы обладаете преимуществом на проверки и спасброски, основанные на Силе.",
+						"Хиты вашей сущности увеличиваются на +5."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Kindred Intuition",
+			"name": "Родственная интуиция",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 13,
 			"entries": [
-				"Starting at 13th level, you and your other half are able to work together and pierce through others true intentions. You have advantage on Wisdom ({@skill Insight}) checks, and you gain {@sense truesight} up to 5 feet."
+				"Начиная с 13-го уровня вы и ваша вторая половина способны действовать сообща и видеть истинные намерения других. Вы обладаете преимуществом на проверки Мудрости ({@skill Insight}) и получаете {@sense truesight} до 5 футов."
 			]
 		},
 		{
-			"name": "Uncanny Emergence feature",
+			"name": "Умение жуткого пробуждения",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain a feature granted by your Uncanny Emergence."
+				"На 14-м уровне вы получаете умение, даруемое вашим «Жутким пробуждением»."
 			]
 		},
 		{
-			"name": "Essence Form feature",
+			"name": "Умение формы сущности",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 15,
 			"entries": [
-				"At 15th level, you gain a feature granted by your Essence Form."
+				"На 15-м уровне вы получаете умение, даруемое вашей «Формой сущности»."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Unleashed Form",
+			"name": "Освобождённая форма",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 17,
 			"entries": [
-				"At 17th level, you can unhinge your essence, unleashing its expansive potential. When you use your Manifest feature, you can spend two additional uses of your transformation to give your form the following benefits for the duration of the transformation:",
+				"На 17-м уровне вы можете высвободить свою сущность, раскрыв её обширный потенциал. Используя умение «Воплощение», вы можете потратить два дополнительных использования превращений, чтобы дать своей форме следующие преимущества на время превращения:",
 				{
 					"type": "list",
 					"items": [
-						"Your form becomes Huge.",
-						"You deal an extra {@dice 1d6} damage with melee and ranged attacks.",
-						"You have advantage on checks and saving throws that rely on Strength.",
-						"Your essence's hit points increases by +10.",
-						"You deal double damage to objects and structures.",
-						"Your reach increases by 5 feet."
+						"Ваша форма становится Огромной.",
+						"Вы наносите дополнительный {@dice 1d6} урона рукопашными и дальнобойными атаками.",
+						"Вы обладаете преимуществом на проверки и спасброски, основанные на Силе.",
+						"Хиты вашей сущности увеличиваются на +10.",
+						"Вы наносите удвоенный урон предметам и строениям.",
+						"Ваша досягаемость увеличивается на 5 футов."
 					]
 				}
 			]
 		},
 		{
-			"name": "Uncanny Emergence feature",
+			"name": "Умение жуткого пробуждения",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain a feature granted by your Uncanny Emergence."
+				"На 18-м уровне вы получаете умение, даруемое вашим «Жутким пробуждением»."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "TVC",
 			"page": 4,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
 			]
 		},
 		{
-			"name": "Legendary Essence",
+			"name": "Легендарная сущность",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
 			"level": 20,
 			"entries": [
-				"Starting at 20th level, you and your inner companion become a legendary duo.",
-				"Once per short or long rest, if you fail a saving throw, you can choose to succeed instead.",
-				"Your form gains access to legendary actions, included in its stat block.",
-				"Additionally, your transformation ends early only if you fall {@condition unconscious}, the form drops to 0 hit points, or if you choose to end it."
+				"Начиная с 20-го уровня вы и ваш внутренний спутник становитесь легендарным дуэтом.",
+				"Один раз за короткий или продолжительный отдых, если вы проваливаете спасбросок, вы можете вместо этого решить, что преуспели.",
+				"Ваша форма получает доступ к легендарным действиям, указанным в её блоке характеристик.",
+				"Кроме того, ваше превращение заканчивается раньше, только если вы стали {@condition unconscious}, форма опустилась до 0 хитов или вы решили его прекратить."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Altered Mage",
+			"name": "Изменённый маг",
 			"source": "TVC",
 			"page": 6,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Altered Mage",
+			"subclassShortName": "Изменённый маг",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Vessels of this origin are trained in the arcane arts and more. Your essence comes from rituals and other magical infusions of usually dark magics that were forced upon you. You harness energy from your essence to empower yourself and so does it in return.",
+				"Сосуды этого происхождения обучены тайным искусствам и не только. Ваша сущность происходит из ритуалов и других магических вливаний обычно тёмной магии, которые были навязаны вам. Вы черпаете энергию из своей сущности, чтобы усилить себя, и она делает то же в ответ.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Spellcasting|Vessel|TVC|Altered Mage|TVC|1"
@@ -1027,84 +1027,84 @@
 			]
 		},
 		{
-			"name": "Essence Brand (Arcane)",
+			"name": "Клеймо сущности (Тайное)",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Altered Mage",
+			"subclassShortName": "Изменённый маг",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level when you choose this emergence, you can choose your form's creature type from: aberration, elemental, fey, fiend, humanoid, or monstrosity."
+				"На 1-м уровне, выбирая это пробуждение, вы можете выбрать тип существа для своей формы из: аберрация, элементаль, фея, исчадие, гуманоид или чудовище."
 			]
 		},
 		{
-			"name": "Innate Power",
+			"name": "Врождённая сила",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Altered Mage",
+			"subclassShortName": "Изменённый маг",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level, your power flows from the essence within. You can cast spells without using material components if it doesn't have a coin cost."
+				"На 1-м уровне ваша сила исходит из сущности внутри вас. Вы можете творить заклинания, не используя материальные компоненты, если они не имеют денежной стоимости."
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "TVC",
 			"page": 6,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Altered Mage",
+			"subclassShortName": "Изменённый маг",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Beginning when you choose this emergence at 1st level, your ancient connection to elder magic has given you the ability to cast spells.",
+				"Начиная с выбора этого пробуждения на 1-м уровне ваша древняя связь с изначальной магией даровала вам способность творить заклинания.",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Заговоры",
 					"entries": [
-						"You learn two cantrips of your choice from the {@filter warlock spell list|spells|level=0|class=Warlock}. You learn an additional warlock cantrip of your choice at 12th level."
+						"Вы изучаете два заговора на свой выбор из {@filter warlock spell list|spells|level=0|class=Warlock}. Вы изучаете ещё один заговор колдуна на свой выбор на 12-м уровне."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spell Slots",
+					"name": "Ячейки заклинаний",
 					"entries": [
-						"The Altered Mage Spellcasting table shows how many spell slots you have to cast your warlock spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended slots when you finish a long rest.",
-						"For example, if you know the 1st-level spell {@spell witch bolt} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell witch bolt} using either slot."
+						"Таблица «Сотворение заклинаний изменённого мага» показывает, сколько ячеек заклинаний у вас есть для сотворения ваших заклинаний колдуна 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки, когда завершаете продолжительный отдых.",
+						"Например, если вы знаете заклинание 1-го уровня {@spell witch bolt} и у вас есть доступные ячейки заклинаний 1-го и 2-го уровня, вы можете сотворить {@spell witch bolt}, используя любую из них."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells Known of 1st-Level and Higher",
+					"name": "Известные заклинания 1-го уровня и выше",
 					"entries": [
-						"You know one 1st-level warlock spell of your choice.",
-						"The Spells Known column of the Altered Mage Spellcasting table shows when you learn more warlock spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 10th level in this class, you can learn one new spell of 1st or 2nd level.",
-						"Whenever you gain a level in this class, you can replace one of the warlock spells you know with another spell of your choice from the warlock spell list. The new spell must be of a level for which you have spell slots."
+						"Вы знаете одно заклинание колдуна 1-го уровня на свой выбор.",
+						"Колонка «Известные заклинания» таблицы «Сотворение заклинаний изменённого мага» показывает, когда вы изучаете новые заклинания колдуна 1-го уровня или выше. Каждое из этих заклинаний должно быть уровня, для которого у вас есть ячейки заклинаний. Например, достигнув 10-го уровня в этом классе, вы можете изучить одно новое заклинание 1-го или 2-го уровня.",
+						"Каждый раз, получая уровень в этом классе, вы можете заменить одно из известных вам заклинаний колдуна другим заклинанием на свой выбор из списка заклинаний колдуна. Новое заклинание должно быть уровня, для которого у вас есть ячейки заклинаний."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"entries": [
-						"Charisma is your spellcasting ability for your warlock spells, since you develop your spells, your connection with the entity inside you, and your arcane teachings. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.",
+						"Харизма — ваша базовая характеристика для заклинаний колдуна, поскольку вы развиваете свои заклинания, свою связь с сущностью внутри вас и свои тайные знания. Вы используете Харизму всякий раз, когда заклинание ссылается на вашу базовую характеристику для заклинаний. Кроме того, вы используете модификатор Харизмы при определении КС спасброска для творимого вами заклинания колдуна и при совершении им броска атаки.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"cha"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"cha"
 							]
@@ -1114,74 +1114,74 @@
 			]
 		},
 		{
-			"name": "Eldritch Shell",
+			"name": "Мистический панцирь",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Altered Mage",
+			"subclassShortName": "Изменённый маг",
 			"subclassSource": "TVC",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your essence enhances your protection against magic. You have advantage on saving throws against spells and other magical effects. Additionally, you have resistance to force damage."
+				"На 6-м уровне ваша сущность усиливает вашу защиту от магии. Вы обладаете преимуществом на спасброски против заклинаний и других магических эффектов. Кроме того, вы получаете сопротивление урону силовым полем."
 			]
 		},
 		{
-			"name": "Syphon Essence",
+			"name": "Вытягивание сущности",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Altered Mage",
+			"subclassShortName": "Изменённый маг",
 			"subclassSource": "TVC",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you tap into your essence to empower your spells. When you cast a spell that does damage, you can add your Form Strike die to the spell's damage.",
-				"You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses of it when you finish a long rest."
+				"На 10-м уровне вы обращаетесь к своей сущности, чтобы усилить свои заклинания. Творя заклинание, наносящее урон, вы можете добавить кость «Удара формы» к урону заклинания.",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Харизмы (минимум один раз). Вы восстанавливаете все потраченные использования, когда завершаете продолжительный отдых."
 			]
 		},
 		{
-			"name": "Spell Sense",
+			"name": "Чутьё на магию",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Altered Mage",
+			"subclassShortName": "Изменённый маг",
 			"subclassSource": "TVC",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you gain a taste for magic. You can cast {@spell detect magic} at will, without expending a spell slot or material components.",
-				"You can cast this even while transformed."
+				"Начиная с 14-го уровня вы обретаете вкус к магии. Вы можете творить {@spell detect magic} по своему желанию, не тратя ячейку заклинаний или материальные компоненты.",
+				"Вы можете творить его даже будучи превращённым."
 			]
 		},
 		{
-			"name": "Shared Burden",
+			"name": "Разделённое бремя",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Altered Mage",
+			"subclassShortName": "Изменённый маг",
 			"subclassSource": "TVC",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you share your concentration with your essence. You can concentrate on two spells at once, if at least one spell is targeted only towards yourself."
+				"На 18-м уровне вы делите свою концентрацию со своей сущностью. Вы можете концентрироваться на двух заклинаниях одновременно, если хотя бы одно заклинание нацелено только на вас."
 			]
 		},
 		{
-			"name": "Aquatic",
+			"name": "Водный",
 			"source": "TVC",
 			"page": 14,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Aquatic",
+			"subclassShortName": "Водный",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Your essence is connected to the tides and the creatures that dwell within it from the simple minnow to the mighty kraken.",
+				"Ваша сущность связана с приливами и существами, обитающими в них, от простой плотвы до могущественного кракена.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Aquatic Form|Vessel|TVC|Aquatic|TVC|1"
@@ -1189,22 +1189,22 @@
 			]
 		},
 		{
-			"name": "Aquatic Form",
+			"name": "Водная форма",
 			"source": "TVC",
 			"page": 14,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Aquatic",
+			"subclassShortName": "Водный",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you gain this essence at 1st level, you gain the form of an aquatic or amphibious creature. The statblock below is the statistics you adopt when you use your Manifest feature.",
+				"Получая эту сущность на 1-м уровне, вы обретаете форму водного или земноводного существа. Приведённый ниже блок характеристик — это характеристики, которые вы принимаете, используя умение «Воплощение».",
 				{
 					"type": "statblockInline",
 					"dataType": "monster",
 					"data": {
-						"name": "Aquatic Form",
+						"name": "Водная форма",
 						"size": [
 							"M"
 						],
@@ -1249,21 +1249,21 @@
 						],
 						"trait": [
 							{
-								"name": "Amphibious",
+								"name": "Земноводный",
 								"entries": [
-									"The form can breathe air and water."
+									"Форма может дышать воздухом и под водой."
 								]
 							},
 							{
-								"name": "Underwater Camouflage",
+								"name": "Подводная маскировка",
 								"entries": [
-									"The form has advantage on Dexterity ({@skill Stealth}) checks made to hide while underwater."
+									"Форма обладает преимуществом на проверки Ловкости ({@skill Stealth}), совершаемые для того, чтобы скрыться под водой."
 								]
 							},
 							{
-								"name": "Thrashing Jaws (15th level)",
+								"name": "Рвущиеся челюсти (15-й уровень)",
 								"entries": [
-									"Thrash foes with the power of the waves. When the form hits a creature with a bite attack, the creature must make a Constitution saving throw ({@dc 8} + your proficiency bonus + your Constitution modifier) or have disadvantage on attack rolls until the end of your next turn."
+									"Раздирайте врагов мощью волн. Когда форма попадает по существу укусом, существо должно совершить спасбросок Телосложения ({@dc 8} + ваш бонус мастерства + ваш модификатор Телосложения), иначе получит помеху на броски атаки до конца вашего следующего хода."
 								]
 							}
 						],
@@ -1272,21 +1272,21 @@
 						],
 						"action": [
 							{
-								"name": "Multiattack (5th level)",
+								"name": "Мультиатака (5-й уровень)",
 								"entries": [
-									"The form makes two attacks."
+									"Форма совершает две атаки."
 								]
 							},
 							{
-								"name": "Bite",
+								"name": "Укус",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 								]
 							},
 							{
-								"name": "Claw",
+								"name": "Коготь",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier slashing damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы рубящего урона."
 								]
 							}
 						],
@@ -1301,27 +1301,27 @@
 						],
 						"bonus": [
 							{
-								"name": "Marine Agility (9th level)",
+								"name": "Морская ловкость (9-й уровень)",
 								"entries": [
-									"The form's swimming prowess increases. While swimming, the form can take either the {@action Dash}, {@action Disengage}, or {@action Dodge} actions as a bonus action while submerged in water."
+									"Мастерство плавания формы возрастает. Плавая и находясь в воде, форма может совершать действия {@action Dash}, {@action Disengage} или {@action Dodge} как бонусное действие."
 								]
 							}
 						],
 						"legendaryActions": 1,
 						"legendaryHeader": [
-							"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+							"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 						],
 						"legendary": [
 							{
-								"name": "Attack",
+								"name": "Атака",
 								"entries": [
-									"The form makes one bite or one claw attack."
+									"Форма совершает одну атаку укусом или когтем."
 								]
 							},
 							{
-								"name": "Move",
+								"name": "Перемещение",
 								"entries": [
-									"The form moves up to half its speed."
+									"Форма перемещается на расстояние до половины своей скорости."
 								]
 							}
 						]
@@ -1330,72 +1330,72 @@
 			]
 		},
 		{
-			"name": "Marine Agility",
+			"name": "Морская ловкость",
 			"source": "TVC",
 			"page": 14,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Aquatic",
+			"subclassShortName": "Водный",
 			"subclassSource": "TVC",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"The form's swimming prowess increases. While swimming, the form can take either the {@action Dash}, {@action Disengage}, or {@action Dodge} actions as a bonus action while submerged in water."
+				"Мастерство плавания формы возрастает. Плавая и находясь в воде, форма может совершать действия {@action Dash}, {@action Disengage} или {@action Dodge} как бонусное действие."
 			]
 		},
 		{
-			"name": "Thrashing Jaws",
+			"name": "Рвущиеся челюсти",
 			"source": "TVC",
 			"page": 14,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Aquatic",
+			"subclassShortName": "Водный",
 			"subclassSource": "TVC",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Thrash foes with the power of the waves. When the form hits a creature with a bite attack, the creature must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or have disadvantage on attack rolls until the end of your next turn."
+				"Раздирайте врагов мощью волн. Когда форма попадает по существу укусом, существо должно совершить спасбросок Телосложения (КС 8 + ваш бонус мастерства + ваш модификатор Телосложения), иначе получит помеху на броски атаки до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Legendary Actions",
+			"name": "Легендарные действия",
 			"source": "TVC",
 			"page": 14,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Aquatic",
+			"subclassShortName": "Водный",
 			"subclassSource": "TVC",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"The form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn.",
+				"Форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода.",
 				{
 					"type": "entries",
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one bite or one claw attack."
+						"Форма совершает одну атаку укусом или когтем."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			]
 		},
 		{
-			"name": "Araneae",
+			"name": "Паукообразный",
 			"source": "TVC",
 			"page": 11,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Araneae",
+			"subclassShortName": "Паукообразный",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Your essence is a creeping horror that spits webs to trap prey and control their environment.",
+				"Ваша сущность — ползучий ужас, который плюётся паутиной, чтобы ловить добычу и управлять своим окружением.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Araneae Form|Vessel|TVC|Araneae|TVC|1"
@@ -1403,22 +1403,22 @@
 			]
 		},
 		{
-			"name": "Araneae Form",
+			"name": "Паукообразная форма",
 			"source": "TVC",
 			"page": 11,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Araneae",
+			"subclassShortName": "Паукообразный",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you gain this essence at 1st level, you gain the form of a creeping spider like creature. The statblock below is the statistics you adopt when you use your Manifest feature.",
+				"Получая эту сущность на 1-м уровне, вы обретаете форму ползающего паукообразного существа. Приведённый ниже блок характеристик — это характеристики, которые вы принимаете, используя умение «Воплощение».",
 				{
 					"type": "statblockInline",
 					"dataType": "monster",
 					"data": {
-						"name": "Araneae Form",
+						"name": "Паукообразная форма",
 						"size": [
 							"M"
 						],
@@ -1463,33 +1463,33 @@
 						],
 						"trait": [
 							{
-								"name": "Spider Climb",
+								"name": "Паучье лазанье",
 								"entries": [
-									"The form can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+									"Форма может лазать по трудным поверхностям, включая потолки вниз головой, не совершая проверок характеристик."
 								]
 							},
 							{
-								"name": "Web Sense",
+								"name": "Чувство паутины",
 								"entries": [
-									"While in contact with a web, the form knows the exact location of any other creature in contact with the same web."
+									"Находясь в контакте с паутиной, форма знает точное местоположение любого другого существа, находящегося в контакте с той же паутиной."
 								]
 							},
 							{
-								"name": "Web Walker",
+								"name": "Ходок по паутине",
 								"entries": [
-									"The form ignores movement restrictions caused by webbing."
+									"Форма игнорирует ограничения перемещения, вызванные паутиной."
 								]
 							},
 							{
-								"name": "Advanced Arachnid (9th level)",
+								"name": "Развитая арахнида (9-й уровень)",
 								"entries": [
-									"The form's hunting abilities sharpen. The form gains {@sense blindsight} up to 10 feet, and its Web range increases to 30/60 feet."
+									"Охотничьи способности формы обостряются. Форма получает {@sense blindsight} до 10 футов, а дистанция её паутины увеличивается до 30/60 футов."
 								]
 							},
 							{
-								"name": "Venomous Bite (15th level)",
+								"name": "Ядовитый укус (15-й уровень)",
 								"entries": [
-									"Venom fills the form's mandibles. If the form bites a creature that is {@condition grappled} or {@condition restrained}, they must make a Constitution saving throw (DC = 8 + PB + your Constitution modifier) or take poison damage equal to your PB and become {@condition poisoned} until the end of your next turn."
+									"Яд наполняет жвала формы. Если форма кусает существо, находящееся {@condition grappled} или {@condition restrained}, оно должно совершить спасбросок Телосложения (КС = 8 + ваш бонус мастерства + ваш модификатор Телосложения), иначе получит урон ядом, равный вашему бонусу мастерства, и станет {@condition poisoned} до конца вашего следующего хода."
 								]
 							}
 						],
@@ -1500,21 +1500,21 @@
 						],
 						"action": [
 							{
-								"name": "Multiattack (5th level)",
+								"name": "Мультиатака (5-й уровень)",
 								"entries": [
-									"The form makes two attacks."
+									"Форма совершает две атаки."
 								]
 							},
 							{
-								"name": "Bite",
+								"name": "Укус",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 								]
 							},
 							{
-								"name": "Web {@recharge}",
+								"name": "Паутина {@recharge}",
 								"entries": [
-									"{@atk rw} your Charisma modifier + PB to hit, 15/30 ft., one Large or smaller creature. {@h}The creature is {@condition restrained} by webbing. As an action, the {@condition restrained} creature can make a DC (8 + PB + Constitution modifier) Strength check, escaping from the webbing on a success. The effect also ends if the webbing is destroyed. The webbing has AC 10 + PB, hit points equal to your Vessel level, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage."
+									"{@atk rw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, 15/30 фт., одно существо Большого размера или меньше. {@h}Существо становится {@condition restrained} от паутины. Действием {@condition restrained} существо может совершить проверку Силы с КС (8 + ваш бонус мастерства + ваш модификатор Телосложения), вырываясь из паутины при успехе. Эффект также заканчивается, если паутина уничтожена. Паутина имеет КД 10 + ваш бонус мастерства, хиты, равные вашему уровню сосуда, уязвимость к урону огнём и иммунитет к дробящему, яду и психическому урону."
 								]
 							}
 						],
@@ -1534,19 +1534,19 @@
 						],
 						"legendaryActions": 1,
 						"legendaryHeader": [
-							"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+							"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 						],
 						"legendary": [
 							{
-								"name": "Attack",
+								"name": "Атака",
 								"entries": [
-									"The form makes one bite attack."
+									"Форма совершает одну атаку укусом."
 								]
 							},
 							{
-								"name": "Move",
+								"name": "Перемещение",
 								"entries": [
-									"The form moves up to half its speed."
+									"Форма перемещается на расстояние до половины своей скорости."
 								]
 							}
 						]
@@ -1555,72 +1555,72 @@
 			]
 		},
 		{
-			"name": "Advanced Arachnid",
+			"name": "Развитая арахнида",
 			"source": "TVC",
 			"page": 11,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Araneae",
+			"subclassShortName": "Паукообразный",
 			"subclassSource": "TVC",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"The form's hunting abilities sharpen. The form gains {@sense blindsight} up to 10 feet, and its Web range increases to 30/60 feet."
+				"Охотничьи способности формы обостряются. Форма получает {@sense blindsight} до 10 футов, а дистанция её паутины увеличивается до 30/60 футов."
 			]
 		},
 		{
-			"name": "Venomous Bite",
+			"name": "Ядовитый укус",
 			"source": "TVC",
 			"page": 11,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Araneae",
+			"subclassShortName": "Паукообразный",
 			"subclassSource": "TVC",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Venom fills the form's mandibles. If the form bites a creature that is {@condition grappled} or {@condition restrained}, they must make a Constitution saving throw (DC = 8 + PB + your Constitution modifier) or take poison damage equal to your PB and become {@condition poisoned} until the end of your next turn."
+				"Яд наполняет жвала формы. Если форма кусает существо, находящееся {@condition grappled} или {@condition restrained}, оно должно совершить спасбросок Телосложения (КС = 8 + ваш бонус мастерства + ваш модификатор Телосложения), иначе получит урон ядом, равный вашему бонусу мастерства, и станет {@condition poisoned} до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Legendary Actions",
+			"name": "Легендарные действия",
 			"source": "TVC",
 			"page": 11,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Araneae",
+			"subclassShortName": "Паукообразный",
 			"subclassSource": "TVC",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"The form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn.",
+				"Форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода.",
 				{
 					"type": "entries",
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one bite attack."
+						"Форма совершает одну атаку укусом."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			]
 		},
 		{
-			"name": "Avian",
+			"name": "Птичий",
 			"source": "TVC",
 			"page": 13,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Avian",
+			"subclassShortName": "Птичий",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Your essence contains the power of flight and all the freeing elements that come with it, the form often resembling a flying beast.",
+				"Ваша сущность содержит силу полёта и все освобождающие стихии, что с ней связаны; форма часто напоминает летающего зверя.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Avian Form|Vessel|TVC|Avian|TVC|1"
@@ -1628,22 +1628,22 @@
 			]
 		},
 		{
-			"name": "Avian Form",
+			"name": "Птичья форма",
 			"source": "TVC",
 			"page": 13,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Avian",
+			"subclassShortName": "Птичий",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you gain this essence at 1st level, you gain the form of a great bird or other flying creature. The statblock below is the statistics you adopt when you use your Manifest feature.",
+				"Получая эту сущность на 1-м уровне, вы обретаете форму большой птицы или другого летающего существа. Приведённый ниже блок характеристик — это характеристики, которые вы принимаете, используя умение «Воплощение».",
 				{
 					"type": "statblockInline",
 					"dataType": "monster",
 					"data": {
-						"name": "Avian Form",
+						"name": "Птичья форма",
 						"size": [
 							"M"
 						],
@@ -1681,28 +1681,28 @@
 						],
 						"trait": [
 							{
-								"name": "Keen Sight",
+								"name": "Острое зрение",
 								"entries": [
-									"The form has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+									"Форма обладает преимуществом на проверки Мудрости ({@skill Perception}), основанные на зрении."
 								]
 							},
 							{
-								"name": "Light Bones",
+								"name": "Лёгкие кости",
 								"entries": [
-									"When the form takes damage as a result of falling, the form reduces the damage taken by an amount equal to your Constitution modifier + PB."
+									"Когда форма получает урон в результате падения, она уменьшает полученный урон на величину, равную вашему модификатору Телосложения + ваш бонус мастерства."
 								]
 							},
 							{
-								"name": "Death from Above (9th level)",
+								"name": "Смерть с небес (9-й уровень)",
 								"entries": [
-									"The form takes to the skies. The form gains a flight speed of 60 feet."
+									"Форма устремляется в небеса. Форма получает скорость полёта 60 футов."
 								]
 							},
 							{
-								"name": "Dive Bomb (15th level)",
+								"name": "Пикирующая бомбардировка (15-й уровень)",
 								"entries": [
-									"Drop down on foes with ease. If the form is flying and dives at least 30 feet straight toward a target and then hits it with a talon, the attack deals an extra {@dice 1d6} damage to the target.",
-									"Additionally, the form doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+									"Обрушивайтесь на врагов с лёгкостью. Если форма летит и пикирует не менее 30 футов по прямой к цели, а затем попадает по ней когтями, атака наносит цели дополнительный {@dice 1d6} урона.",
+									"Кроме того, форма не провоцирует атаку по возможности, когда вылетает за пределы досягаемости врага."
 								]
 							}
 						],
@@ -1711,21 +1711,21 @@
 						],
 						"action": [
 							{
-								"name": "Multiattack (5th level)",
+								"name": "Мультиатака (5-й уровень)",
 								"entries": [
-									"The form makes two attacks."
+									"Форма совершает две атаки."
 								]
 							},
 							{
-								"name": "Beak",
+								"name": "Клюв",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 								]
 							},
 							{
-								"name": "Talons",
+								"name": "Когти",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier slashing damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы рубящего урона."
 								]
 							}
 						],
@@ -1740,19 +1740,19 @@
 						],
 						"legendaryActions": 1,
 						"legendaryHeader": [
-							"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+							"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 						],
 						"legendary": [
 							{
-								"name": "Attack",
+								"name": "Атака",
 								"entries": [
-									"The form makes one beak or one talon attack."
+									"Форма совершает одну атаку клювом или когтями."
 								]
 							},
 							{
-								"name": "Move",
+								"name": "Перемещение",
 								"entries": [
-									"The form moves up to half its speed."
+									"Форма перемещается на расстояние до половины своей скорости."
 								]
 							}
 						]
@@ -1761,73 +1761,73 @@
 			]
 		},
 		{
-			"name": "Death from Above",
+			"name": "Смерть с небес",
 			"source": "TVC",
 			"page": 13,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Avian",
+			"subclassShortName": "Птичий",
 			"subclassSource": "TVC",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"The form takes to the skies. The form gains a flight speed of 60 feet."
+				"Форма устремляется в небеса. Форма получает скорость полёта 60 футов."
 			]
 		},
 		{
-			"name": "Dive Bomb",
+			"name": "Пикирующая бомбардировка",
 			"source": "TVC",
 			"page": 13,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Avian",
+			"subclassShortName": "Птичий",
 			"subclassSource": "TVC",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Drop down on foes with ease. If the form is flying and dives at least 30 feet straight toward a target and then hits it with a talon, the attack deals an extra {@dice 1d6} damage to the target.",
-				"Additionally, the form doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+				"Обрушивайтесь на врагов с лёгкостью. Если форма летит и пикирует не менее 30 футов по прямой к цели, а затем попадает по ней когтями, атака наносит цели дополнительный {@dice 1d6} урона.",
+				"Кроме того, форма не провоцирует атаку по возможности, когда вылетает за пределы досягаемости врага."
 			]
 		},
 		{
-			"name": "Legendary Actions",
+			"name": "Легендарные действия",
 			"source": "TVC",
 			"page": 13,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Avian",
+			"subclassShortName": "Птичий",
 			"subclassSource": "TVC",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"The form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn.",
+				"Форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода.",
 				{
 					"type": "entries",
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one beak or one talon attack."
+						"Форма совершает одну атаку клювом или когтями."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			]
 		},
 		{
-			"name": "Brute",
+			"name": "Громила",
 			"source": "TVC",
 			"page": 9,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Brute",
+			"subclassShortName": "Громила",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Your essence embodies strength. They resemble bulky and thick forms such as something similar to ogres or owlbears.",
+				"Ваша сущность воплощает силу. Она напоминает грузные и плотные формы, что-то вроде огров или совомедведей.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Brute Form|Vessel|TVC|Brute|TVC|1"
@@ -1835,22 +1835,22 @@
 			]
 		},
 		{
-			"name": "Brute Form",
+			"name": "Форма громилы",
 			"source": "TVC",
 			"page": 9,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Brute",
+			"subclassShortName": "Громила",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you gain this essence at 1st level, you gain the form of a towering brute. The statblock below is the statistics adopt when you use your Manifest feature.",
+				"Получая эту сущность на 1-м уровне, вы обретаете форму возвышающегося громилы. Приведённый ниже блок характеристик — это характеристики, которые вы принимаете, используя умение «Воплощение».",
 				{
 					"type": "statblockInline",
 					"dataType": "monster",
 					"data": {
-						"name": "Brute Form",
+						"name": "Форма громилы",
 						"size": [
 							"M"
 						],
@@ -1888,41 +1888,41 @@
 						],
 						"trait": [
 							{
-								"name": "Grappler",
+								"name": "Захватчик",
 								"entries": [
-									"The form has advantage on attack rolls against any creature {@condition grappled} by it."
+									"Форма обладает преимуществом на броски атаки против любого существа, {@condition grappled} ею."
 								]
 							},
 							{
-								"name": "Powerful Build",
+								"name": "Мощное телосложение",
 								"entries": [
-									"The form counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+									"Форма считается на одну категорию размера больше при определении её грузоподъёмности и веса, который она может толкать, волочить или поднимать."
 								]
 							},
 							{
-								"name": "Standing Leap",
+								"name": "Прыжок с места",
 								"entries": [
-									"The form's long jump is up to 20 ft. and its high jump is up to 40 ft., with or without a running start."
+									"Длина прыжка формы — до 20 фт., а высота прыжка — до 40 фт., с разбега или без него."
 								]
 							},
 							{
-								"name": "Overwhelming Might (9th level)",
+								"name": "Подавляющая мощь (9-й уровень)",
 								"entries": [
-									"The form's strength is unmatched. The form gains a +2 bonus to any skill check, saving throw, attack, and damage roll that uses Strength."
+									"Сила формы бесподобна. Форма получает бонус +2 к любой проверке навыка, спасброску, броску атаки и урона, использующим Силу."
 								]
 							}
 						],
 						"action": [
 							{
-								"name": "Multiattack (5th level)",
+								"name": "Мультиатака (5-й уровень)",
 								"entries": [
-									"The form makes two attacks."
+									"Форма совершает две атаки."
 								]
 							},
 							{
-								"name": "Slam",
+								"name": "Удар",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier bludgeoning damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы дробящего урона."
 								]
 							}
 						],
@@ -1937,27 +1937,27 @@
 						],
 						"bonus": [
 							{
-								"name": "Riot (15th level)",
+								"name": "Погром (15-й уровень)",
 								"entries": [
-									"Your essence becomes unhinged. When the form reduces a creature to 0 hit points with a melee attack on its turn, the form can take a bonus action to move up to half its speed and make a slam attack."
+									"Ваша сущность выходит из-под контроля. Когда форма в свой ход снижает хиты существа до 0 рукопашной атакой, форма может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку ударом."
 								]
 							}
 						],
 						"legendaryActions": 1,
 						"legendaryHeader": [
-							"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+							"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 						],
 						"legendary": [
 							{
-								"name": "Attack",
+								"name": "Атака",
 								"entries": [
-									"The form makes one slam attack."
+									"Форма совершает одну атаку ударом."
 								]
 							},
 							{
-								"name": "Move",
+								"name": "Перемещение",
 								"entries": [
-									"The form moves up to half its speed."
+									"Форма перемещается на расстояние до половины своей скорости."
 								]
 							}
 						]
@@ -1966,72 +1966,72 @@
 			]
 		},
 		{
-			"name": "Overwhelming Might",
+			"name": "Подавляющая мощь",
 			"source": "TVC",
 			"page": 9,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Brute",
+			"subclassShortName": "Громила",
 			"subclassSource": "TVC",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"The form's strength is unmatched. The form gains a +2 bonus to any skill check, saving throw, attack, and damage roll that uses Strength."
+				"Сила формы бесподобна. Форма получает бонус +2 к любой проверке навыка, спасброску, броску атаки и урона, использующим Силу."
 			]
 		},
 		{
-			"name": "Riot",
+			"name": "Погром",
 			"source": "TVC",
 			"page": 9,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Brute",
+			"subclassShortName": "Громила",
 			"subclassSource": "TVC",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Your essence becomes unhinged. When the form reduces a creature to 0 hit points with a melee attack on its turn, the form can take a bonus action to move up to half its speed and make a slam attack."
+				"Ваша сущность выходит из-под контроля. Когда форма в свой ход снижает хиты существа до 0 рукопашной атакой, форма может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку ударом."
 			]
 		},
 		{
-			"name": "Legendary Actions",
+			"name": "Легендарные действия",
 			"source": "TVC",
 			"page": 9,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Brute",
+			"subclassShortName": "Громила",
 			"subclassSource": "TVC",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"The form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn.",
+				"Форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода.",
 				{
 					"type": "entries",
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one slam attack."
+						"Форма совершает одну атаку ударом."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			]
 		},
 		{
-			"name": "Horned",
+			"name": "Рогатый",
 			"source": "TVC",
 			"page": 12,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Horned",
+			"subclassShortName": "Рогатый",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Your essence embodies an unstoppable force, using their spiked body to blow through obstacles.",
+				"Ваша сущность воплощает неудержимую силу, пробивающую препятствия своим шипастым телом.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Horned Form|Vessel|TVC|Horned|TVC|1"
@@ -2039,22 +2039,22 @@
 			]
 		},
 		{
-			"name": "Horned Form",
+			"name": "Рогатая форма",
 			"source": "TVC",
 			"page": 12,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Horned",
+			"subclassShortName": "Рогатый",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you gain this essence at 1st level, you gain the form of a horned or tusked creature. The statblock below is the statistics you adopt when you use your Manifest feature.",
+				"Получая эту сущность на 1-м уровне, вы обретаете форму рогатого или клыкастого существа. Приведённый ниже блок характеристик — это характеристики, которые вы принимаете, используя умение «Воплощение».",
 				{
 					"type": "statblockInline",
 					"dataType": "monster",
 					"data": {
-						"name": "Horned Form",
+						"name": "Рогатая форма",
 						"size": [
 							"M"
 						],
@@ -2092,22 +2092,22 @@
 						],
 						"trait": [
 							{
-								"name": "Charge",
+								"name": "Натиск",
 								"entries": [
-									"If the form moves at least 20 ft. straight toward a target and then hits it with a gore attack on the same turn, if the target is a creature, it must succeed on a DC (8 + PB + Constitution modifier) Strength saving throw or be knocked {@condition prone}."
+									"Если форма перемещается не менее 20 фт. по прямой к цели, а затем в тот же ход попадает по ней атакой бодания, и цель является существом, она должна преуспеть в спасброске Силы с КС (8 + ваш бонус мастерства + ваш модификатор Телосложения), иначе будет сбита {@condition prone}."
 								]
 							},
 							{
-								"name": "Sure-Footed",
+								"name": "Устойчивость",
 								"entries": [
-									"The form has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+									"Форма обладает преимуществом на спасброски Силы и Ловкости, совершаемые против эффектов, которые сбили бы её {@condition prone}."
 								]
 							},
 							{
-								"name": "Devastating Ram (9th level)",
+								"name": "Сокрушительный таран (9-й уровень)",
 								"entries": [
-									"The form rushes at foes with heavy force. When the form uses its Charge trait, the creature takes an extra {@damage 1d6} damage from the Gore attack.",
-									"Additionally, if a creature fails the Strength saving throw from your Charge trait, they are also pushed back 5 feet if they are your size or smaller."
+									"Форма стремительно бросается на врагов с огромной силой. Когда форма использует свою черту «Натиск», существо получает дополнительный {@damage 1d6} урона от атаки бодания.",
+									"Кроме того, если существо проваливает спасбросок Силы от вашей черты «Натиск», оно также отталкивается на 5 футов, если его размер не больше вашего."
 								]
 							}
 						],
@@ -2119,21 +2119,21 @@
 						],
 						"action": [
 							{
-								"name": "Multiattack (5th level)",
+								"name": "Мультиатака (5-й уровень)",
 								"entries": [
-									"The form makes two attacks."
+									"Форма совершает две атаки."
 								]
 							},
 							{
-								"name": "Gore",
+								"name": "Бодание",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 								]
 							},
 							{
-								"name": "Slam",
+								"name": "Удар",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier bludgeoning damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы дробящего урона."
 								]
 							}
 						],
@@ -2148,27 +2148,27 @@
 						],
 						"reaction": [
 							{
-								"name": "Stomp (15th level)",
+								"name": "Топот (15-й уровень)",
 								"entries": [
-									"Your essence tramples your foes. When the form knocks a creature {@condition prone} with its Charge trait, the form can make one slam attack against it as a reaction."
+									"Ваша сущность топчет врагов. Когда форма сбивает существо {@condition prone} своей чертой «Натиск», форма может реакцией совершить по нему одну атаку ударом."
 								]
 							}
 						],
 						"legendaryActions": 1,
 						"legendaryHeader": [
-							"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+							"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 						],
 						"legendary": [
 							{
-								"name": "Attack",
+								"name": "Атака",
 								"entries": [
-									"The form makes one gore or one slam attack."
+									"Форма совершает одну атаку боданием или ударом."
 								]
 							},
 							{
-								"name": "Move",
+								"name": "Перемещение",
 								"entries": [
-									"The form moves up to half its speed."
+									"Форма перемещается на расстояние до половины своей скорости."
 								]
 							}
 						]
@@ -2177,73 +2177,73 @@
 			]
 		},
 		{
-			"name": "Devastating Ram",
+			"name": "Сокрушительный таран",
 			"source": "TVC",
 			"page": 12,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Horned",
+			"subclassShortName": "Рогатый",
 			"subclassSource": "TVC",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"The form rushes at foes with a heavy force. WHen the form uses its Charge trait, the creature takes an extra {@dice 1d6} damage from the Gore attack.",
-				"Additionally, if a creature fails the Strength saving throw from your Charge trait, they are also pushed back 5 feet if they are your size or smaller."
+				"Форма стремительно бросается на врагов с огромной силой. Когда форма использует свою черту «Натиск», существо получает дополнительный {@dice 1d6} урона от атаки бодания.",
+				"Кроме того, если существо проваливает спасбросок Силы от вашей черты «Натиск», оно также отталкивается на 5 футов, если его размер не больше вашего."
 			]
 		},
 		{
-			"name": "Stomp",
+			"name": "Топот",
 			"source": "TVC",
 			"page": 12,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Horned",
+			"subclassShortName": "Рогатый",
 			"subclassSource": "TVC",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Your essence tramples your foes. When the form knocks a creature {@condition prone} with its Charge trait, the form can make one slame attack against it as a reaction."
+				"Ваша сущность топчет врагов. Когда форма сбивает существо {@condition prone} своей чертой «Натиск», форма может реакцией совершить по нему одну атаку ударом."
 			]
 		},
 		{
-			"name": "Legendary Actions",
+			"name": "Легендарные действия",
 			"source": "TVC",
 			"page": 12,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Horned",
+			"subclassShortName": "Рогатый",
 			"subclassSource": "TVC",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"The form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn.",
+				"Форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода.",
 				{
 					"type": "entries",
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one gore or one slam attack."
+						"Форма совершает одну атаку боданием или ударом."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			]
 		},
 		{
-			"name": "Lycan",
+			"name": "Ликан",
 			"source": "TVC",
 			"page": 10,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Lycan",
+			"subclassShortName": "Ликан",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Your essence resembles the stealthy and pack hunting creatures such as wolves and hyenas.",
+				"Ваша сущность напоминает скрытных и охотящихся стаей существ, таких как волки и гиены.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Lycan Form|Vessel|TVC|Lycan|TVC|1"
@@ -2251,22 +2251,22 @@
 			]
 		},
 		{
-			"name": "Lycan Form",
+			"name": "Форма ликана",
 			"source": "TVC",
 			"page": 10,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Lycan",
+			"subclassShortName": "Ликан",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you gain this essence at 1st level, you gain the form of a canine creature. The statblock below is the statistics you adopt when you use your Manifest feature.",
+				"Получая эту сущность на 1-м уровне, вы обретаете форму псового существа. Приведённый ниже блок характеристик — это характеристики, которые вы принимаете, используя умение «Воплощение».",
 				{
 					"type": "statblockInline",
 					"dataType": "monster",
 					"data": {
-						"name": "Lycan Form",
+						"name": "Форма ликана",
 						"size": [
 							"M"
 						],
@@ -2304,33 +2304,33 @@
 						],
 						"trait": [
 							{
-								"name": "Keen Hearing and Smell",
+								"name": "Острый слух и нюх",
 								"entries": [
-									"The form has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+									"Форма обладает преимуществом на проверки Мудрости ({@skill Perception}), основанные на слухе или обонянии."
 								]
 							},
 							{
-								"name": "Speak with Wolves",
+								"name": "Разговор с волками",
 								"entries": [
-									"The form can communicate simple concepts to {@creature wolf|MM|wolves} and similar creatures when it speaks in Common."
+									"Форма может передавать простые понятия {@creature wolf|MM|волкам} и подобным существам, когда говорит на Общем."
 								]
 							},
 							{
-								"name": "Pack Tactics",
+								"name": "Тактика стаи",
 								"entries": [
-									"The form has advantage on an attack roll against a creature if at least one of the form's allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+									"Форма обладает преимуществом на бросок атаки против существа, если хотя бы один из союзников формы находится в пределах 5 фт. от этого существа и союзник не {@condition incapacitated}."
 								]
 							},
 							{
-								"name": "Strength of the Pack (9th level)",
+								"name": "Сила стаи (9-й уровень)",
 								"entries": [
-									"The pack prevails. Allies within 10 ft. of the form gain advantage on Strength and Wisdom saving throws."
+									"Стая побеждает. Союзники в пределах 10 фт. от формы получают преимущество на спасброски Силы и Мудрости."
 								]
 							},
 							{
-								"name": "Advanced Hunter (15th level)",
+								"name": "Улучшенный охотник (15-й уровень)",
 								"entries": [
-									"The form becomes in tune with its predatory nature. When the form hits a creature with a bite attack, it must succeed on a DC (8 + PB + your Strength modifier) Strength saving throw, or be knocked {@condition prone}."
+									"Форма настраивается на свою хищную природу. Когда форма попадает по существу укусом, оно должно преуспеть в спасброске Силы с КС (8 + ваш бонус мастерства + ваш модификатор Силы), иначе будет сбито {@condition prone}."
 								]
 							}
 						],
@@ -2340,21 +2340,21 @@
 						],
 						"action": [
 							{
-								"name": "Multiattack (5th level)",
+								"name": "Мультиатака (5-й уровень)",
 								"entries": [
-									"The form makes two attacks."
+									"Форма совершает две атаки."
 								]
 							},
 							{
-								"name": "Bite",
+								"name": "Укус",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 								]
 							},
 							{
-								"name": "Claw",
+								"name": "Коготь",
 								"entries": [
-									"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier slashing damage."
+									"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы рубящего урона."
 								]
 							}
 						],
@@ -2372,19 +2372,19 @@
 						],
 						"legendaryActions": 1,
 						"legendaryHeader": [
-							"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+							"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 						],
 						"legendary": [
 							{
-								"name": "Attack",
+								"name": "Атака",
 								"entries": [
-									"The form makes one bite or one claw attack."
+									"Форма совершает одну атаку укусом или когтем."
 								]
 							},
 							{
-								"name": "Move",
+								"name": "Перемещение",
 								"entries": [
-									"The form moves up to half its speed."
+									"Форма перемещается на расстояние до половины своей скорости."
 								]
 							}
 						]
@@ -2393,72 +2393,72 @@
 			]
 		},
 		{
-			"name": "Strength of the Pack",
+			"name": "Сила стаи",
 			"source": "TVC",
 			"page": 10,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Lycan",
+			"subclassShortName": "Ликан",
 			"subclassSource": "TVC",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"The pack prevails. Allies within 10 ft. of the form gain advantage on Strength and Wisdom saving throws."
+				"Стая побеждает. Союзники в пределах 10 фт. от формы получают преимущество на спасброски Силы и Мудрости."
 			]
 		},
 		{
-			"name": "Advanced Hunter",
+			"name": "Улучшенный охотник",
 			"source": "TVC",
 			"page": 10,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Lycan",
+			"subclassShortName": "Ликан",
 			"subclassSource": "TVC",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"The form becomes in tune with its predatory nature. When the form hits a creature with a bite attack, it must succeed on a DC (8 + PB + your Strength modifier) Strength saving throw, or be knocked {@condition prone}."
+				"Форма настраивается на свою хищную природу. Когда форма попадает по существу укусом, оно должно преуспеть в спасброске Силы с КС (8 + ваш бонус мастерства + ваш модификатор Силы), иначе будет сбито {@condition prone}."
 			]
 		},
 		{
-			"name": "Legendary Actions",
+			"name": "Легендарные действия",
 			"source": "TVC",
 			"page": 10,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Lycan",
+			"subclassShortName": "Ликан",
 			"subclassSource": "TVC",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"The form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn.",
+				"Форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода.",
 				{
 					"type": "entries",
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one bite or one claw attack."
+						"Форма совершает одну атаку укусом или когтем."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			]
 		},
 		{
-			"name": "Primal Curse",
+			"name": "Первобытное проклятие",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Primal Curse",
+			"subclassShortName": "Первобытное проклятие",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Some become afflicted by primal or fey curses, primarily lycanthropy. A vessel of this origin contains a feral essence that is not so easy to control. They use this curse to rip through foes and dribble on the balance of man or monster.",
+				"Некоторые становятся поражёнными первобытными или фейскими проклятиями, в первую очередь ликантропией. Сосуд этого происхождения содержит дикую сущность, которой не так просто управлять. Они используют это проклятие, чтобы разрывать врагов и колебать равновесие между человеком и чудовищем.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Fey Resilience|Vessel|TVC|Primal Curse|TVC|1"
@@ -2474,134 +2474,134 @@
 			]
 		},
 		{
-			"name": "Beastly Influence",
+			"name": "Звериное влияние",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Primal Curse",
+			"subclassShortName": "Первобытное проклятие",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level, your essence opens your mind to new feral feelings. You gain proficiency in one skill of your choiec from: {@skill Animal Handling}, {@skill Intimidation}, {@skill Nature}, {@skill Perception}, or {@skill Stealth}.",
-				"Additionally, you have the ability to communicate in a limited manner with beasts. They can understand the meaning of your words, though you have no special ability to understand them in return if they cannot speak."
+				"На 1-м уровне ваша сущность открывает ваш разум новым диким чувствам. Вы получаете владение одним навыком на свой выбор из: {@skill Animal Handling}, {@skill Intimidation}, {@skill Nature}, {@skill Perception} или {@skill Stealth}.",
+				"Кроме того, вы обладаете способностью ограниченно общаться со зверями. Они могут понимать смысл ваших слов, хотя у вас нет особой способности понимать их в ответ, если они не умеют говорить."
 			]
 		},
 		{
-			"name": "Essence Brand (Untamed)",
+			"name": "Клеймо сущности (Неукрощённое)",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Primal Curse",
+			"subclassShortName": "Первобытное проклятие",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level when you choose this emergence, you can choose your forms creature type from: beast, dragon, fey, fiend, humanoid, or monstrosity."
+				"На 1-м уровне, выбирая это пробуждение, вы можете выбрать тип существа для своей формы из: зверь, дракон, фея, исчадие, гуманоид или чудовище."
 			]
 		},
 		{
-			"name": "Fey Resilience",
+			"name": "Стойкость фей",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Primal Curse",
+			"subclassShortName": "Первобытное проклятие",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Beginning when you choose this emergence at 1st level, your curse grants your essence a high level of fortitude. While transformed, bludgeoning, piercing, and slashing damage you take from nonmagical attacks not made with silver weapons are reduced by an amount equal to your Constitution modifier."
+				"Начиная с выбора этого пробуждения на 1-м уровне ваше проклятие дарует вашей сущности высокий уровень стойкости. Пока вы превращены, дробящий, колющий и рубящий урон, получаемый вами от немагических атак, совершённых не серебряным оружием, уменьшается на величину, равную вашему модификатору Телосложения."
 			]
 		},
 		{
-			"name": "Favored Prey",
+			"name": "Излюбленная добыча",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Primal Curse",
+			"subclassShortName": "Первобытное проклятие",
 			"subclassSource": "TVC",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you've developed a taste for particular kinds of creatures. Choose two types of creatures: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoids (such as kenku and humans) as favored prey.",
+				"На 6-м уровне вы развиваете вкус к определённым видам существ. Выберите два типа существ: аберрации, звери, небожители, конструкты, драконы, элементали, феи, исчадия, великаны, чудовища, слизь, растения или нежить. Либо вы можете выбрать две расы гуманоидов (такие как кенку и люди) в качестве излюбленной добычи.",
 				{
 					"type": "list",
 					"items": [
-						"You have advantage on Wisdom ({@skill Survival} and {@skill Perception}) checks to track your favored prey.",
-						"You have advantage on attack rolls against your favored prey if they are {@condition frightened}.",
-						"You have advantage on Charisma ({@skill Intimidation}) checks against your favored prey."
+						"Вы обладаете преимуществом на проверки Мудрости ({@skill Survival} и {@skill Perception}) для выслеживания вашей излюбленной добычи.",
+						"Вы обладаете преимуществом на броски атаки против вашей излюбленной добычи, если она {@condition frightened}.",
+						"Вы обладаете преимуществом на проверки Харизмы ({@skill Intimidation}) против вашей излюбленной добычи."
 					]
 				},
-				"Each time you level in this class, you can change your two favored prey."
+				"Каждый раз, получая уровень в этом классе, вы можете изменить двух своих излюбленных добыч."
 			]
 		},
 		{
-			"name": "Imposing Display",
+			"name": "Внушительная демонстрация",
 			"source": "TVC",
 			"page": 7,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Primal Curse",
+			"subclassShortName": "Первобытное проклятие",
 			"subclassSource": "TVC",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you can let out a fearsome roar. As an action, you let out a roar. Any hostile or surprised creature within 60 feet of you that can see or hear you must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened} by you until the end of your next turn.",
-				"While transformed, creatures have disadvantage on this saving throw."
+				"На 10-м уровне вы можете издать устрашающий рёв. Действием вы издаёте рёв. Любое враждебное или захваченное врасплох существо в пределах 60 футов от вас, которое может вас видеть или слышать, должно совершить спасбросок Мудрости (КС = 8 + ваш бонус мастерства + ваш модификатор Телосложения), иначе станет {@condition frightened} вами до конца вашего следующего хода.",
+				"Пока вы превращены, существа получают помеху на этот спасбросок."
 			]
 		},
 		{
-			"name": "Ferocious Rush",
+			"name": "Свирепый натиск",
 			"source": "TVC",
 			"page": 8,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Primal Curse",
+			"subclassShortName": "Первобытное проклятие",
 			"subclassSource": "TVC",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, nothing shall hold back your feral wrath. You gain the following benefits:",
+				"На 14-м уровне ничто не сдержит вашу дикую ярость. Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You ignore difficult terrain.",
-						"You have advantage against effects that would restrain or paralyze you.",
-						"You add your Strength modifier to your initiative roll (minimum of 1)."
+						"Вы игнорируете труднопроходимую местность.",
+						"Вы обладаете преимуществом против эффектов, которые опутали бы или парализовали вас.",
+						"Вы добавляете модификатор Силы к броску инициативы (минимум 1)."
 					]
 				}
 			]
 		},
 		{
-			"name": "Sustaining Essence",
+			"name": "Поддерживающая сущность",
 			"source": "TVC",
 			"page": 8,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Primal Curse",
+			"subclassShortName": "Первобытное проклятие",
 			"subclassSource": "TVC",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, your lycanthropic powers preserve your being. While in combat, at the start of each of your turns, you regain hit points equal to your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 points, or if you have been damaged by a silvered weapon on your last turn.",
-				"Additionally, for every 10 years that pass, your body ages only 1 year."
+				"На 18-м уровне ваши ликантропические силы сохраняют ваше существо. В бою, в начале каждого вашего хода, вы восстанавливаете хиты в количестве, равном вашему модификатору Телосложения, если у вас осталось не более половины хитов. Вы не получаете это преимущество, если у вас 0 хитов или если в ваш последний ход вас ранили серебряным оружием.",
+				"Кроме того, за каждые 10 прошедших лет ваше тело стареет всего на 1 год."
 			]
 		},
 		{
-			"name": "Unhinged Alchemist",
+			"name": "Безумный алхимик",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Unhinged Alchemist",
+			"subclassShortName": "Безумный алхимик",
 			"subclassSource": "TVC",
 			"level": 1,
 			"entries": [
-				"Those of this origin are trained in the art of alchemy, creating amazing elixirs and strange compounds. Your work can sometimes be called mad or wicked, especially when your prime test subject is yourself. Your powers are artificial in nature, coming from your research and knowledge of transmutation and alchemy.",
+				"Представители этого происхождения обучены искусству алхимии, созданию удивительных эликсиров и странных составов. Вашу работу иногда могут называть безумной или порочной, особенно когда главный подопытный — вы сами. Ваши силы искусственны по своей природе, происходя из ваших исследований и знаний о превращении и алхимии.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Alchemical Training|Vessel|TVC|Unhinged Alchemist|TVC|1"
@@ -2617,53 +2617,53 @@
 			]
 		},
 		{
-			"name": "Alchemical Training",
+			"name": "Алхимическая подготовка",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Unhinged Alchemist",
+			"subclassShortName": "Безумный алхимик",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Beginning when you choose this emergence at 1st level, you have learned the arts of alchemy and potion making through your studies. You gain proficiency in two tools of your choice from: {@item alchemist's supplies|PHB}, {@item poisoner's kit|PHB}, or {@item herbalism kit|PHB}.",
-				"Additionally, you gain proficiency in your choice of the {@skill Medicine} or {@skill Nature} skill."
+				"Начиная с выбора этого пробуждения на 1-м уровне вы изучили искусства алхимии и изготовления зелий в ходе своих занятий. Вы получаете владение двумя инструментами на свой выбор из: {@item alchemist's supplies|PHB}, {@item poisoner's kit|PHB} или {@item herbalism kit|PHB}.",
+				"Кроме того, вы получаете владение навыком {@skill Medicine} или {@skill Nature} на свой выбор."
 			]
 		},
 		{
-			"name": "Essence Brand (Alchemical)",
+			"name": "Клеймо сущности (Алхимическое)",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Unhinged Alchemist",
+			"subclassShortName": "Безумный алхимик",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level when you choose this emergence, you can choose your forms creature type from: elemental, giant, humanoid, monstrosity, ooze, or plant."
+				"На 1-м уровне, выбирая это пробуждение, вы можете выбрать тип существа для своей формы из: элементаль, великан, гуманоид, чудовище, слизь или растение."
 			]
 		},
 		{
-			"name": "Unstable Mixture",
+			"name": "Нестабильная смесь",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Unhinged Alchemist",
+			"subclassShortName": "Безумный алхимик",
 			"subclassSource": "TVC",
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level, you have brewed a series of unpredictable potions. When you finish a long rest, you create a number of unstable mixtures equal to your Intelligence modifier + proficiency bonus. As an action, you can throw this potion up to 30/60 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the unstable mixture as a simple weapon. On a hit, the target takes {@dice 1d6} + your Intelligence modifier damage, roll on the Mixture Damage table to determine the damage for that attack.",
-				"This potion's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6}).",
+				"На 1-м уровне вы сварили серию непредсказуемых зелий. Завершая продолжительный отдых, вы создаёте количество нестабильных смесей, равное вашему модификатору Интеллекта + ваш бонус мастерства. Действием вы можете бросить это зелье на расстояние до 30/60 футов, разбивая его при попадании. Совершите дальнобойную атаку по существу или предмету, считая нестабильную смесь простым оружием. При попадании цель получает {@dice 1d6} + ваш модификатор Интеллекта урона; бросьте по таблице «Урон смеси», чтобы определить тип урона для этой атаки.",
+				"Урон этого зелья увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@dice 2d6}), 11-го уровня ({@dice 3d6}) и 17-го уровня ({@dice 4d6}).",
 				{
 					"type": "table",
-					"caption": "Mixture Damage",
+					"caption": "Урон смеси",
 					"colLabels": [
 						"d6",
-						"Damage Type"
+						"Тип урона"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2672,89 +2672,89 @@
 					"rows": [
 						[
 							"1",
-							"acid"
+							"кислота"
 						],
 						[
 							"2",
-							"cold"
+							"холод"
 						],
 						[
 							"3",
-							"fire"
+							"огонь"
 						],
 						[
 							"4",
-							"lightning"
+							"электричество"
 						],
 						[
 							"5",
-							"necrotic"
+							"некротическая энергия"
 						],
 						[
 							"6",
-							"poison"
+							"яд"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Easy Design",
+			"name": "Удобная конструкция",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Unhinged Alchemist",
+			"subclassShortName": "Безумный алхимик",
 			"subclassSource": "TVC",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you created a more easy to use design to your mixtures. Your throwing range for your unstable mixtures increases to 60/120 feet.",
-				"Additionally, you can now throw unstable mixtures as an action or a bonus action."
+				"На 6-м уровне вы создали более удобную в использовании конструкцию своих смесей. Дистанция броска ваших нестабильных смесей увеличивается до 60/120 футов.",
+				"Кроме того, теперь вы можете бросать нестабильные смеси действием или бонусным действием."
 			]
 		},
 		{
-			"name": "Essence Elixir",
+			"name": "Эликсир сущности",
 			"source": "TVC",
 			"page": 5,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Unhinged Alchemist",
+			"subclassShortName": "Безумный алхимик",
 			"subclassSource": "TVC",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you pour your essence into your work. When you finish a short or long rest, you create one Essence Elixir. A creature can use a bonus action to drink the potion, or feed the potion to a creature to shift them into a monstrous form. While shifted, the creature gains the following effects:",
+				"На 10-м уровне вы вливаете свою сущность в свою работу. Завершая короткий или продолжительный отдых, вы создаёте один «Эликсир сущности». Существо может бонусным действием выпить зелье или напоить им существо, чтобы превратить его в чудовищную форму. Пока существо превращено, оно получает следующие эффекты:",
 				{
 					"type": "list",
 					"items": [
-						"You gain a +1 bonus to saving throws.",
-						"Your overall AC increases by +1.",
-						"You gain a number of temporary hit points equal to double your character level or CR (minimum of 2). If any of these remain when this shift ends, they are lost.",
-						"You grow claws that are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d8} + your proficiency bonus, instead of the bludgeoning damage normal for an unarmed strike."
+						"Вы получаете бонус +1 к спасброскам.",
+						"Ваш общий КД увеличивается на +1.",
+						"Вы получаете количество временных хитов, равное удвоенному вашему уровню персонажа или ПО (минимум 2). Если какие-то из них остаются, когда это превращение заканчивается, они теряются.",
+						"У вас вырастают когти — природное оружие, которым вы можете совершать безоружные удары. При попадании ими вы наносите рубящий урон, равный {@dice 1d8} + ваш бонус мастерства, вместо обычного для безоружного удара дробящего урона."
 					]
 				},
-				"This effect lasts for 1 minute, you drop to 0 hit points or die. This elixir has no effect on constructs. If you drink this elixir instead of gaining the effects of the shift you instead transform as if you used your Manifest feature without extending a use of the feature."
+				"Этот эффект длится 1 минуту, пока вы не опуститесь до 0 хитов или не умрёте. Этот эликсир не действует на конструктов. Если вы выпьете этот эликсир вместо получения эффектов превращения, вы вместо этого превращаетесь так, как если бы использовали умение «Воплощение», не тратя его использование."
 			]
 		},
 		{
-			"name": "Desperate Brew",
+			"name": "Отчаянное варево",
 			"source": "TVC",
 			"page": 6,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Unhinged Alchemist",
+			"subclassShortName": "Безумный алхимик",
 			"subclassSource": "TVC",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, when the time calls for it you quickly create an unpredictable elixir in a panicked brew. As an action, you can create a random potion if you have {@item alchemist's supplies|PHB} on your person. This potion lasts for 1 minute, afterwards it expires and loses its unique properties if not used due to its unstable mixture. Roll on the Makeshift Potion table below to randomly determine what potion you create.",
+				"На 14-м уровне, когда приходит время, вы быстро создаёте непредсказуемый эликсир в паническом вареве. Действием вы можете создать случайное зелье, если у вас при себе есть {@item alchemist's supplies|PHB}. Это зелье существует 1 минуту, после чего истекает и теряет свои уникальные свойства, если не использовано, из-за нестабильности смеси. Бросьте по таблице «Импровизированное зелье» ниже, чтобы случайно определить, какое зелье вы создаёте.",
 				{
 					"type": "table",
-					"caption": "Makeshift Potion",
+					"caption": "Импровизированное зелье",
 					"colLabels": [
 						"d12",
-						"Potion"
+						"Зелье"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2811,28 +2811,28 @@
 						]
 					]
 				},
-				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses of it when you finish a long rest. You can use two uses of this feature to instead pick a potion of your choice off the table.",
-				"You can't use this feature while transformed."
+				"Вы можете использовать это умение число раз, равное вашему модификатору Интеллекта (минимум один раз). Вы восстанавливаете все потраченные использования, когда завершаете продолжительный отдых. Вы можете использовать два использования этого умения, чтобы вместо этого выбрать зелье на свой выбор из таблицы.",
+				"Вы не можете использовать это умение, пока превращены."
 			]
 		},
 		{
-			"name": "Eurika",
+			"name": "Эврика",
 			"source": "TVC",
 			"page": 6,
 			"className": "Vessel",
 			"classSource": "TVC",
-			"subclassShortName": "Unhinged Alchemist",
+			"subclassShortName": "Безумный алхимик",
 			"subclassSource": "TVC",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you made an amazing break through in your alchemical study. You gain the following effects:",
+				"На 18-м уровне вы совершаете удивительный прорыв в своём алхимическом исследовании. Вы получаете следующие эффекты:",
 				{
 					"type": "list",
 					"items": [
-						"You are immune to poison and disease.",
-						"Potions made with the Desperate Brew feature can be used as a bonus action.",
-						"You double your proficiency bonus with checks you make with your {@item alchemist's supplies|PHB}, {@item poisoner's kit|PHB}, and {@item herbalism kit|PHB}."
+						"Вы обладаете иммунитетом к яду и болезням.",
+						"Зелья, созданные умением «Отчаянное варево», можно использовать бонусным действием.",
+						"Вы удваиваете свой бонус мастерства для проверок, совершаемых с помощью {@item alchemist's supplies|PHB}, {@item poisoner's kit|PHB} и {@item herbalism kit|PHB}."
 					]
 				}
 			]
@@ -2840,7 +2840,7 @@
 	],
 	"monster": [
 		{
-			"name": "Aquatic Form",
+			"name": "Водная форма",
 			"source": "TVC",
 			"page": 14,
 			"size": [
@@ -2882,67 +2882,67 @@
 			],
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Земноводный",
 					"entries": [
-						"The form can breathe air and water."
+						"Форма может дышать воздухом и под водой."
 					]
 				},
 				{
-					"name": "Underwater Camouflage",
+					"name": "Подводная маскировка",
 					"entries": [
-						"The form has advantage on Dexterity ({@skill Stealth}) checks made to hide while underwater."
+						"Форма обладает преимуществом на проверки Ловкости ({@skill Stealth}), совершаемые для того, чтобы скрыться под водой."
 					]
 				},
 				{
-					"name": "Thrashing Jaws (15th level)",
+					"name": "Рвущиеся челюсти (15-й уровень)",
 					"entries": [
-						"Thrash foes with the power of the waves. When the form hits a creature with a bite attack, the creature must make a Constitution saving throw ({@dc 8} + your proficiency bonus + your Constitution modifier) or have disadvantage on attack rolls until the end of your next turn."
+						"Раздирайте врагов мощью волн. Когда форма попадает по существу укусом, существо должно совершить спасбросок Телосложения ({@dc 8} + ваш бонус мастерства + ваш модификатор Телосложения), иначе получит помеху на броски атаки до конца вашего следующего хода."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (5th level)",
+					"name": "Мультиатака (5-й уровень)",
 					"entries": [
-						"The form makes two attacks."
+						"Форма совершает две атаки."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier slashing damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы рубящего урона."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Marine Agility (9th level)",
+					"name": "Морская ловкость (9-й уровень)",
 					"entries": [
-						"The form's swimming prowess increases. While swimming, the form can take either the {@action Dash}, {@action Disengage}, or {@action Dodge} actions as a bonus action while submerged in water."
+						"Мастерство плавания формы возрастает. Плавая и находясь в воде, форма может совершать действия {@action Dash}, {@action Disengage} или {@action Dodge} как бонусное действие."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+				"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 			],
 			"legendaryActions": 1,
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one bite or onw claw attack."
+						"Форма совершает одну атаку укусом или когтем."
 					]
 				},
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			],
@@ -2963,7 +2963,7 @@
 			]
 		},
 		{
-			"name": "Araneae Form",
+			"name": "Паукообразная форма",
 			"source": "TVC",
 			"page": 11,
 			"size": [
@@ -3005,71 +3005,71 @@
 			],
 			"trait": [
 				{
-					"name": "Spider Climb",
+					"name": "Паучье лазанье",
 					"entries": [
-						"The form can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Форма может лазать по трудным поверхностям, включая потолки вниз головой, не совершая проверок характеристик."
 					]
 				},
 				{
-					"name": "Web Sense",
+					"name": "Чувство паутины",
 					"entries": [
-						"While in contact with a web, the form knows the exact location of any other creature in contact with the same web."
+						"Находясь в контакте с паутиной, форма знает точное местоположение любого другого существа, находящегося в контакте с той же паутиной."
 					]
 				},
 				{
-					"name": "Web Walker",
+					"name": "Ходок по паутине",
 					"entries": [
-						"The form ignores movement restrictions caused by webbing."
+						"Форма игнорирует ограничения перемещения, вызванные паутиной."
 					]
 				},
 				{
-					"name": "Advanced Arachnid (9th level)",
+					"name": "Развитая арахнида (9-й уровень)",
 					"entries": [
-						"The form's hunting abilities sharpen. The form gains {@sense blindsight} up to 10 feet, and its Web range increases to 30/60 feet."
+						"Охотничьи способности формы обостряются. Форма получает {@sense blindsight} до 10 футов, а дистанция её паутины увеличивается до 30/60 футов."
 					]
 				},
 				{
-					"name": "Venomous Bite (15th level)",
+					"name": "Ядовитый укус (15-й уровень)",
 					"entries": [
-						"Venom fills the form's mandibles. If the form bites a creature that is {@condition grappled} or {@condition restrained}, they must make a Constitution saving throw (DC = 8 + PB + your Constitution modifier) or take poison damage equal to your PB and become {@condition poisoned} until the end of your next turn."
+						"Яд наполняет жвала формы. Если форма кусает существо, находящееся {@condition grappled} или {@condition restrained}, оно должно совершить спасбросок Телосложения (КС = 8 + ваш бонус мастерства + ваш модификатор Телосложения), иначе получит урон ядом, равный вашему бонусу мастерства, и станет {@condition poisoned} до конца вашего следующего хода."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (5th level)",
+					"name": "Мультиатака (5-й уровень)",
 					"entries": [
-						"The form makes two attacks."
+						"Форма совершает две атаки."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 					]
 				},
 				{
-					"name": "Web {@recharge}",
+					"name": "Паутина {@recharge}",
 					"entries": [
-						"{@atk rw} your Charisma modifier + PB to hit, 15/30 ft., one Large or smaller creature. {@h}The creature is {@condition restrained} by webbing. As an action, the {@condition restrained} creature can make a DC (8 + PB + Constitution modifier) Strength check, escaping from the webbing on a success. The effect also ends if the webbing is destroyed. The webbing has AC 10 + PB, hit points equal to your Vessel level, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage."
+						"{@atk rw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, 15/30 фт., одно существо Большого размера или меньше. {@h}Существо становится {@condition restrained} от паутины. Действием {@condition restrained} существо может совершить проверку Силы с КС (8 + ваш бонус мастерства + ваш модификатор Телосложения), вырываясь из паутины при успехе. Эффект также заканчивается, если паутина уничтожена. Паутина имеет КД 10 + ваш бонус мастерства, хиты, равные вашему уровню сосуда, уязвимость к урону огнём и иммунитет к дробящему, яду и психическому урону."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+				"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 			],
 			"legendaryActions": 1,
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one bite attack."
+						"Форма совершает одну атаку укусом."
 					]
 				},
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			],
@@ -3097,7 +3097,7 @@
 			]
 		},
 		{
-			"name": "Avian Form",
+			"name": "Птичья форма",
 			"source": "TVC",
 			"page": 13,
 			"size": [
@@ -3135,66 +3135,66 @@
 			],
 			"trait": [
 				{
-					"name": "Keen Sight",
+					"name": "Острое зрение",
 					"entries": [
-						"The form has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+						"Форма обладает преимуществом на проверки Мудрости ({@skill Perception}), основанные на зрении."
 					]
 				},
 				{
-					"name": "Light Bones",
+					"name": "Лёгкие кости",
 					"entries": [
-						"When the form takes damage as a result of falling, the form reduces the damage taken by an amount equal to your Constitution modifier + PB."
+						"Когда форма получает урон в результате падения, она уменьшает полученный урон на величину, равную вашему модификатору Телосложения + ваш бонус мастерства."
 					]
 				},
 				{
-					"name": "Death from Above (9th level)",
+					"name": "Смерть с небес (9-й уровень)",
 					"entries": [
-						"The form takes to the skies. The form gains a flight speed of 60 feet."
+						"Форма устремляется в небеса. Форма получает скорость полёта 60 футов."
 					]
 				},
 				{
-					"name": "Dive Bomb (15th level)",
+					"name": "Пикирующая бомбардировка (15-й уровень)",
 					"entries": [
-						"Drop down on foes with ease. If the form is flying and dives at least 30 feet straight toward a target and then hits it with a talon, the attack deals an extra {@dice 1d6} damage to the target.",
-						"Additionally, the form doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+						"Обрушивайтесь на врагов с лёгкостью. Если форма летит и пикирует не менее 30 футов по прямой к цели, а затем попадает по ней когтями, атака наносит цели дополнительный {@dice 1d6} урона.",
+						"Кроме того, форма не провоцирует атаку по возможности, когда вылетает за пределы досягаемости врага."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (5th level)",
+					"name": "Мультиатака (5-й уровень)",
 					"entries": [
-						"The form makes two attacks."
+						"Форма совершает две атаки."
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Клюв",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 					]
 				},
 				{
-					"name": "Talons",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier slashing damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы рубящего урона."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+				"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 			],
 			"legendaryActions": 1,
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one beak or one talon attack."
+						"Форма совершает одну атаку клювом или когтями."
 					]
 				},
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			],
@@ -3212,7 +3212,7 @@
 			]
 		},
 		{
-			"name": "Brute Form",
+			"name": "Форма громилы",
 			"source": "TVC",
 			"page": 9,
 			"size": [
@@ -3250,67 +3250,67 @@
 			],
 			"trait": [
 				{
-					"name": "Grappler",
+					"name": "Захватчик",
 					"entries": [
-						"The form has advantage on attack rolls against any creature {@condition grappled} by it."
+						"Форма обладает преимуществом на броски атаки против любого существа, {@condition grappled} ею."
 					]
 				},
 				{
-					"name": "Powerful Build",
+					"name": "Мощное телосложение",
 					"entries": [
-						"The form counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+						"Форма считается на одну категорию размера больше при определении её грузоподъёмности и веса, который она может толкать, волочить или поднимать."
 					]
 				},
 				{
-					"name": "Standing Leap",
+					"name": "Прыжок с места",
 					"entries": [
-						"The form's long jump is up to 20 ft. and its high jump is up to 40 ft., with or without a running start."
+						"Длина прыжка формы — до 20 фт., а высота прыжка — до 40 фт., с разбега или без него."
 					]
 				},
 				{
-					"name": "Overwhelming Might (9th level)",
+					"name": "Подавляющая мощь (9-й уровень)",
 					"entries": [
-						"The form's strength is unmatched. The form gains a +2 bonus to any skill check, saving throw, attack, and damage roll that uses Strength."
+						"Сила формы бесподобна. Форма получает бонус +2 к любой проверке навыка, спасброску, броску атаки и урона, использующим Силу."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (5th level)",
+					"name": "Мультиатака (5-й уровень)",
 					"entries": [
-						"The form makes two attacks."
+						"Форма совершает две атаки."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Удар",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier bludgeoning damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы дробящего урона."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Riot (15th level)",
+					"name": "Погром (15-й уровень)",
 					"entries": [
-						"Your essence becomes unhinged. When the form reduces a creature to 0 hit points with a melee attack on its turn, the form can take a bonus action to move up to half its speed and make a slam attack."
+						"Ваша сущность выходит из-под контроля. Когда форма в свой ход снижает хиты существа до 0 рукопашной атакой, форма может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку ударом."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+				"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 			],
 			"legendaryActions": 1,
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one slam attack."
+						"Форма совершает одну атаку ударом."
 					]
 				},
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			],
@@ -3325,7 +3325,7 @@
 			]
 		},
 		{
-			"name": "Horned Form",
+			"name": "Рогатая форма",
 			"source": "TVC",
 			"page": 12,
 			"size": [
@@ -3363,68 +3363,68 @@
 			],
 			"trait": [
 				{
-					"name": "Charge",
+					"name": "Натиск",
 					"entries": [
-						"If the form moves at least 20 ft. straight toward a target and then hits it with a gore attack on the same turn, if the target is a creature, it must succeed on a DC (8 + PB + Constitution modifier) Strength saving throw or be knocked {@condition prone}."
+						"Если форма перемещается не менее 20 фт. по прямой к цели, а затем в тот же ход попадает по ней атакой бодания, и цель является существом, она должна преуспеть в спасброске Силы с КС (8 + ваш бонус мастерства + ваш модификатор Телосложения), иначе будет сбита {@condition prone}."
 					]
 				},
 				{
-					"name": "Sure-Footed",
+					"name": "Устойчивость",
 					"entries": [
-						"The form has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+						"Форма обладает преимуществом на спасброски Силы и Ловкости, совершаемые против эффектов, которые сбили бы её {@condition prone}."
 					]
 				},
 				{
-					"name": "Devastating Ram (9th level)",
+					"name": "Сокрушительный таран (9-й уровень)",
 					"entries": [
-						"The form rushes at foes with heavy force. When the form uses its Charge trait, the creature takes an extra {@damage 1d6} damage from the Gore attack.",
-						"Additionally, if a creature fails the Strength saving throw from your Charge trait, they are also pushed back 5 feet if they are your size or smaller."
+						"Форма стремительно бросается на врагов с огромной силой. Когда форма использует свою черту «Натиск», существо получает дополнительный {@damage 1d6} урона от атаки бодания.",
+						"Кроме того, если существо проваливает спасбросок Силы от вашей черты «Натиск», оно также отталкивается на 5 футов, если его размер не больше вашего."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (5th level)",
+					"name": "Мультиатака (5-й уровень)",
 					"entries": [
-						"The form makes two attacks."
+						"Форма совершает две атаки."
 					]
 				},
 				{
-					"name": "Gore",
+					"name": "Бодание",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Удар",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier bludgeoning damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы дробящего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Stomp (15th level)",
+					"name": "Топот (15-й уровень)",
 					"entries": [
-						"Your essence tramples your foes. When the form knocks a creature {@condition prone} with its Charge trait, the form can make one slam attack against it as a reaction."
+						"Ваша сущность топчет врагов. Когда форма сбивает существо {@condition prone} своей чертой «Натиск», форма может реакцией совершить по нему одну атаку ударом."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+				"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 			],
 			"legendaryActions": 1,
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one gore or one slam attack."
+						"Форма совершает одну атаку боданием или ударом."
 					]
 				},
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			],
@@ -3445,7 +3445,7 @@
 			]
 		},
 		{
-			"name": "Lycan Form",
+			"name": "Форма ликана",
 			"source": "TVC",
 			"page": 10,
 			"size": [
@@ -3483,71 +3483,71 @@
 			],
 			"trait": [
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Острый слух и нюх",
 					"entries": [
-						"The form has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+						"Форма обладает преимуществом на проверки Мудрости ({@skill Perception}), основанные на слухе или обонянии."
 					]
 				},
 				{
-					"name": "Speak with Wolves",
+					"name": "Разговор с волками",
 					"entries": [
-						"The form can communicate simple concepts to {@creature wolf|MM|wolves} and similar creatures when it speaks in Common."
+						"Форма может передавать простые понятия {@creature wolf|MM|волкам} и подобным существам, когда говорит на Общем."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The form has advantage on an attack roll against a creature if at least one of the form's allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+						"Форма обладает преимуществом на бросок атаки против существа, если хотя бы один из союзников формы находится в пределах 5 фт. от этого существа и союзник не {@condition incapacitated}."
 					]
 				},
 				{
-					"name": "Strength of the Pack (9th level)",
+					"name": "Сила стаи (9-й уровень)",
 					"entries": [
-						"The pack prevails. Allies within 10 ft. of the form gain advantage on Strength and Wisdom saving throws."
+						"Стая побеждает. Союзники в пределах 10 фт. от формы получают преимущество на спасброски Силы и Мудрости."
 					]
 				},
 				{
-					"name": "Advanced Hunter (15th level)",
+					"name": "Улучшенный охотник (15-й уровень)",
 					"entries": [
-						"The form becomes in tune with its predatory nature. When the form hits a creature with a bite attack, it must succeed on a DC (8 + PB + your Strength modifier) Strength saving throw, or be knocked {@condition prone}."
+						"Форма настраивается на свою хищную природу. Когда форма попадает по существу укусом, оно должно преуспеть в спасброске Силы с КС (8 + ваш бонус мастерства + ваш модификатор Силы), иначе будет сбито {@condition prone}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (5th level)",
+					"name": "Мультиатака (5-й уровень)",
 					"entries": [
-						"The form makes two attacks."
+						"Форма совершает две атаки."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier piercing damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы колющего урона."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} your Charisma modifier + PB to hit, reach 5 ft., one target. {@h} ({@damage 1d8}) + Charisma modifier slashing damage."
+						"{@atk mw} ваш модификатор Харизмы + ваш бонус мастерства к попаданию, досягаемость 5 фт., одна цель. {@h}({@damage 1d8}) + модификатор Харизмы рубящего урона."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"At 20th level, the form can take 1 legendary action, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Spent legendary actions are regained at the start of each turn."
+				"На 20-м уровне форма может совершать 1 легендарное действие, выбирая из вариантов ниже. За раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Потраченные легендарные действия восстанавливаются в начале каждого хода."
 			],
 			"legendaryActions": 1,
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The form makes one bite or one claw attack."
+						"Форма совершает одну атаку укусом или когтем."
 					]
 				},
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The form moves up to half its speed."
+						"Форма перемещается на расстояние до половины своей скорости."
 					]
 				}
 			],

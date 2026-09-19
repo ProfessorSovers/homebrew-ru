@@ -29,7 +29,7 @@
 	},
 	"class": [
 		{
-			"name": "Alternate Cleric",
+			"name": "Альтернативный жрец",
 			"source": "LLAClr",
 			"hd": {
 				"number": 1,
@@ -227,10 +227,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item mace|phb} or (b) two {@item daggers|phb} or (c) a {@item warhammer|phb}",
-					"(a) {@item scale mail|phb}, (b) {@item leather armor|phb}, or (c) {@item chain mail|phb}",
-					"(a) a {@item light crossbow|phb} and 20 {@item crossbow bolts|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"{@item shield|phb}, a {@item holy symbol|phb}, and a {@item priest's pack|phb}"
+					"(а) {@item mace|phb} или (б) два {@item daggers|phb} или (в) {@item warhammer|phb}",
+					"(а) {@item scale mail|phb}, (б) {@item leather armor|phb} или (в) {@item chain mail|phb}",
+					"(а) {@item light crossbow|phb} и 20 {@item crossbow bolts|phb} или (б) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"{@item shield|phb}, {@item holy symbol|phb} и {@item priest's pack|phb}"
 				],
 				"defaultData": [
 					{
@@ -305,7 +305,7 @@
 				{
 					"colLabels": [
 						"{@filter Cantrips Known|spells|level=0|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)}",
-						"Channel Divinity"
+						"Божественный канал"
 					],
 					"rows": [
 						[
@@ -391,7 +391,7 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"colLabels": [
 						"{@filter 1st|spells|level=1|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)}",
 						"{@filter 2nd|spells|level=2|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)}",
@@ -628,36 +628,36 @@
 				}
 			],
 			"classFeatures": [
-				"Sacred Calling|Alternate Cleric|LLAClr|1",
-				"Spellcasting|Alternate Cleric|LLAClr|1",
+				"Священное призвание|Alternate Cleric|LLAClr|1",
+				"Сотворение заклинаний|Alternate Cleric|LLAClr|1",
 				{
-					"classFeature": "Divine Domain|Alternate Cleric|LLAClr|2",
+					"classFeature": "Божественный домен|Alternate Cleric|LLAClr|2",
 					"gainSubclassFeature": true
 				},
-				"Channel Divinity|Alternate Cleric|LLAClr|3",
+				"Божественный канал|Alternate Cleric|LLAClr|3",
 				{
-					"classFeature": "Domain Feature|Alternate Cleric|LLAClr|3",
+					"classFeature": "Умение домена|Alternate Cleric|LLAClr|3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Alternate Cleric|LLAClr|4",
+				"Увеличение характеристик|Alternate Cleric|LLAClr|4",
 				{
-					"classFeature": "Domain Feature|Alternate Cleric|LLAClr|6",
+					"classFeature": "Умение домена|Alternate Cleric|LLAClr|6",
 					"gainSubclassFeature": true
 				},
-				"Greater Calling|Alternate Cleric|LLAClr|7",
-				"Ability Score Improvement|Alternate Cleric|LLAClr|8",
-				"Divine Intervention|Alternate Cleric|LLAClr|10",
-				"Ability Score Improvement|Alternate Cleric|LLAClr|12",
-				"Sanctified Calling|Alternate Cleric|LLAClr|14",
-				"Ability Score Improvement|Alternate Cleric|LLAClr|16",
+				"Великое призвание|Alternate Cleric|LLAClr|7",
+				"Увеличение характеристик|Alternate Cleric|LLAClr|8",
+				"Божественное вмешательство|Alternate Cleric|LLAClr|10",
+				"Увеличение характеристик|Alternate Cleric|LLAClr|12",
+				"Освящённое призвание|Alternate Cleric|LLAClr|14",
+				"Увеличение характеристик|Alternate Cleric|LLAClr|16",
 				{
-					"classFeature": "Domain Feature|Alternate Cleric|LLAClr|18",
+					"classFeature": "Умение домена|Alternate Cleric|LLAClr|18",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Alternate Cleric|LLAClr|19",
-				"Miraculous Intervention|Alternate Cleric|LLAClr|20"
+				"Увеличение характеристик|Alternate Cleric|LLAClr|19",
+				"Чудесное вмешательство|Alternate Cleric|LLAClr|20"
 			],
-			"subclassTitle": "Domain",
+			"subclassTitle": "Домен",
 			"foundryAdvancement": [
 				{
 					"type": "ScaleValue",
@@ -683,72 +683,72 @@
 	],
 	"classFluff": [
 		{
-			"name": "Alternate Cleric",
+			"name": "Альтернативный жрец",
 			"source": "LLAClr",
 			"entries": [
 				{
-					"name": "Cleric",
+					"name": "Жрец",
 					"type": "section",
 					"entries": [
-						"Crouching behind the crumbling wall, a party of warriors waited for the terrifying black dragon to finish them off. When hope seemed lost, a larger-than-life human chanted and gripped a medallion around his neck, and a wave of luminous divine power rushed over the party, mending their wounds and giving them the vitality to stand against the dragon.",
-						"As the vampire and its spawn closed in, a great red-bearded dwarf stepped forward, his warhammer alight with celestial flame. He held it aloft and from it burst a wave of purest sunlight, searing the vampire lord and reducing its undead thralls to grave dust.",
-						"Climbing out along the mast of the vessel, the tattooed elvish woman raised her hands to the sky, and stormy clouds began to gather. She chanted an ancient prayer of the sea, and great bolts of lightning began to rain down upon the enemy fleet, lighting the warships aflame.",
-						"All three of the adventurers described above are Clerics, servants of the divine realms who are given the ability to channel the magic of great deities. Clerics conjure divine power to heal the wounded and smite evildoers.",
+						"Пригнувшись за осыпающейся стеной, отряд воинов ждал, когда ужасающий чёрный дракон добьёт их. Когда надежда, казалось, была потеряна, человек исполинского роста прочитал заклинание и сжал медальон на своей шее, и волна светящейся божественной силы накрыла отряд, залечивая раны и даруя им жизненные силы, чтобы противостоять дракону.",
+						"Когда вампир и его отродья сомкнулись вокруг, вперёд вышел огромный рыжебородый дварф, его боевой молот пылал небесным пламенем. Он поднял его высоко, и из него вырвалась волна чистейшего солнечного света, выжигая повелителя вампиров и обращая его нежить-прислужников в могильную пыль.",
+						"Выбираясь по мачте судна, татуированная эльфийка воздела руки к небу, и начали собираться грозовые облака. Она прочла древнюю морскую молитву, и на вражеский флот обрушились великие разряды молний, поджигая боевые корабли.",
+						"Все три искателя приключений, описанных выше, — жрецы, служители божественных сфер, которым дана способность направлять магию великих божеств. Жрецы призывают божественную силу, чтобы исцелять раненых и карать злодеев.",
 						{
 							"type": "entries",
-							"name": "Anointed Avatars",
+							"name": "Помазанные аватары",
 							"entries": [
-								"While each town, country, and clan has its own patron deity and priests who lead the people in worship, very few can claim to be true Clerics. Chosen for many reasons as varied as the great celestial deities, mortals anointed as Clerics are given access to a mote of their deity's divine power. With this divine power comes the responsibility to carry out the goals of their deity on the material plane.",
-								"Though the relationship between each Cleric and the deity they serve varies greatly, other mortals view any Cleric as the living representative of that deity on the material plane. They serve as a voice for the heavens, answering the petitions and prayers of the common folk with spell and steel. While some receive direct communication from their deity through rituals or dreams, others are left to carry out their divine will as best they can with little, if any, otherworldly guidance."
+								"Хотя у каждого города, страны и клана есть своё божество-покровитель и жрецы, ведущие народ в поклонении, очень немногие могут назвать себя истинными жрецами. Избранные по множеству причин, столь же разнообразных, как великие небесные божества, смертные, помазанные в жрецы, получают доступ к крупице божественной силы своего божества. С этой божественной силой приходит ответственность исполнять цели своего божества на материальном плане.",
+								"Хотя отношения каждого жреца с божеством, которому он служит, сильно разнятся, прочие смертные видят в любом жреце живого представителя этого божества на материальном плане. Они служат голосом небес, отвечая на просьбы и молитвы простого люда заклинанием и сталью. Пока одни получают прямое общение от своего божества через ритуалы или сны, другие предоставлены сами себе и исполняют его божественную волю как могут, почти без иного потустороннего руководства."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Divine Conduits",
+							"name": "Божественные проводники",
 							"entries": [
-								"What makes a Cleric is their ability to draw upon and channel the divine power of the celestial realms. While all Clerics can use this miraculous magic to heal the sick and drive back the darkness, much of their most powerful magic is limited to the Divine Domain granted to them by their deity. Though deities may have access to large swaths of celestial influence, Clerics are limited to one such Domain when given their power.",
-								"Zealots, penitents, philosophers, and ascetics are all found among the ranks of Clerics and are granted equal access to divine power. Some use this power within strict frameworks and ritual lives, while others see this power as another tool to achieve their own goals. Clerics and their motivations are as diverse as the Domains and pantheons of the heavens."
+								"Жреца делает жрецом способность черпать и направлять божественную силу небесных сфер. Хотя все жрецы могут использовать эту чудесную магию, чтобы лечить больных и отгонять тьму, большая часть их самой могущественной магии ограничена Божественным доменом, дарованным им их божеством. Хотя божества могут обладать обширными сферами небесного влияния, жрецы, получая силу, ограничены одним таким доменом.",
+								"Фанатики, кающиеся, философы и аскеты встречаются в рядах жрецов, и всем им дан равный доступ к божественной силе. Одни используют эту силу в строгих рамках и ритуальной жизни, другие видят в ней ещё один инструмент для достижения собственных целей. Жрецы и их побуждения столь же разнообразны, как домены и пантеоны небес."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating Your Cleric",
+							"name": "Создание вашего жреца",
 							"entries": [
-								"When creating your Cleric, consider why they may have been chosen as a conduit of divine power. Were they consecrated to serve a church or deity? Do their personality, morality, and goals align perfectly with a celestial entity, opening the path to miraculous magic? Or, is the reason for their anointing yet another mystery for them to discover as they adventure?",
-								"Also, consider how your Cleric feels about the deity from which they draw their power. Are they a zealous servant who seeks to convert fellow mortals into service of their deity? Or, are they indifferent to the divine so long as they have power? ",
+								"Создавая своего жреца, подумайте, почему его могли избрать проводником божественной силы. Был ли он посвящён на служение церкви или божеству? Идеально ли его личность, мораль и цели совпадают с небесной сущностью, открывая путь к чудесной магии? Или причина его помазания — ещё одна тайна, которую ему предстоит раскрыть в приключениях?",
+								"Подумайте также, как ваш жрец относится к божеству, от которого черпает силу. Он ревностный слуга, стремящийся обратить смертных в служение своему божеству? Или он равнодушен к божественному, пока у него есть сила?",
 								{
 									"type": "inset",
-									"name": "Multiclassing and the Cleric",
+									"name": "Мультиклассирование и жрец",
 									"entries": [
-										"If your group uses multiclassing, here's what you need to know if you take a level in the Cleric class.",
+										"Если ваша группа использует мультиклассирование, вот что вам нужно знать, если вы берёте уровень в классе жреца.",
 										{
 											"type": "entries",
-											"name": "Ability Score Minimum",
+											"name": "Минимум характеристик",
 											"entries": [
-												"As a multiclass character, you must have a minimum Wisdom score of 13 to take a level in the Cleric class, or to take a level in another class if you are already a Cleric."
+												"Как персонаж с мультиклассированием вы должны иметь минимальное значение Мудрости 13, чтобы взять уровень в классе жреца или взять уровень в другом классе, если вы уже жрец."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Proficiencies Gained",
+											"name": "Получаемые владения",
 											"entries": [
-												"If Cleric isn't your initial class, here are the proficiencies you gain when you take your first Cleric level: light and medium armor, shields."
+												"Если жрец не ваш первый класс, вот владения, которые вы получаете, беря свой первый уровень жреца: лёгкие и средние доспехи, щиты."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Spellcasting",
+											"name": "Сотворение заклинаний",
 											"entries": [
-												"Add all of your levels in the Cleric class to the appropriate levels from other classes to determine available spell slots."
+												"Прибавляйте все свои уровни в классе жреца к соответствующим уровням других классов, чтобы определить доступные ячейки заклинаний."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Quick Build",
+									"name": "Быстрое создание",
 									"entries": [
-										"You can make a Cleric quickly by using these suggestions: First, make Wisdom your highest ability score, followed by Constitution. Second, choose the Acolyte background. Last, select the sacred flame and thaumaturgy Cantrips."
+										"Вы можете быстро создать жреца, используя эти советы: во-первых, сделайте Мудрость своей самой высокой характеристикой, следом — Телосложение. Во-вторых, выберите предысторию «Прислужник». Наконец, выберите заговоры «Священное пламя» и «Чудотворство»."
 									]
 								}
 							]
@@ -760,8 +760,8 @@
 	],
 	"subclass": [
 		{
-			"name": "Arcana",
-			"shortName": "Arcana",
+			"name": "Тайная магия",
+			"shortName": "Тайная магия",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
@@ -805,16 +805,16 @@
 				"wall of force (alternate)|llspell"
 			],
 			"subclassFeatures": [
-				"Arcana Domain|Alternate Cleric|LLAClr|Arcana|LLAClr|2",
-				"Abjure the Arcane|Alternate Cleric|LLAClr|Arcana|LLAClr|3",
-				"Spellcraft|Alternate Cleric|LLAClr|Arcana|LLAClr|3",
-				"Purifying Magic|Alternate Cleric|LLAClr|Arcana|LLAClr|6",
-				"Arcane Archpriest|Alternate Cleric|LLAClr|Arcana|LLAClr|18"
+				"Домен магии|Alternate Cleric|LLAClr|Тайная магия|LLAClr|2",
+				"Отречение от тайной магии|Alternate Cleric|LLAClr|Тайная магия|LLAClr|3",
+				"Заклинательное искусство|Alternate Cleric|LLAClr|Тайная магия|LLAClr|3",
+				"Очищающая магия|Alternate Cleric|LLAClr|Тайная магия|LLAClr|6",
+				"Тайный верховный жрец|Alternate Cleric|LLAClr|Тайная магия|LLAClr|18"
 			]
 		},
 		{
-			"name": "Death",
-			"shortName": "Death",
+			"name": "Смерть",
+			"shortName": "Смерть",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
@@ -858,16 +858,16 @@
 				"mass cure wounds"
 			],
 			"subclassFeatures": [
-				"Death Domain|Alternate Cleric|LLAClr|Death|LLAClr|2",
-				"Doomed to Die|Alternate Cleric|LLAClr|Death|LLAClr|3",
-				"Turn Undead|Alternate Cleric|LLAClr|Death|LLAClr|3",
-				"Rebuke Death|Alternate Cleric|LLAClr|Death|LLAClr|6",
-				"Vital Reaping|Alternate Cleric|LLAClr|Death|LLAClr|18"
+				"Домен смерти|Alternate Cleric|LLAClr|Смерть|LLAClr|2",
+				"Обречённые на смерть|Alternate Cleric|LLAClr|Смерть|LLAClr|3",
+				"Изгнание нежити|Alternate Cleric|LLAClr|Смерть|LLAClr|3",
+				"Отпор смерти|Alternate Cleric|LLAClr|Смерть|LLAClr|6",
+				"Жатва жизни|Alternate Cleric|LLAClr|Смерть|LLAClr|18"
 			]
 		},
 		{
-			"name": "Forge",
-			"shortName": "Forge",
+			"name": "Кузня",
+			"shortName": "Кузня",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
@@ -910,16 +910,16 @@
 				"creation"
 			],
 			"subclassFeatures": [
-				"Forge Domain|Alternate Cleric|LLAClr|Forge|LLAClr|2",
-				"Divine Artisan|Alternate Cleric|LLAClr|Forge|LLAClr|3",
-				"Forge Assistant|Alternate Cleric|LLAClr|Forge|LLAClr|3",
-				"Forged in Fire|Alternate Cleric|LLAClr|Forge|LLAClr|6",
-				"Master Smith|Alternate Cleric|LLAClr|Forge|LLAClr|18"
+				"Домен кузни|Alternate Cleric|LLAClr|Кузня|LLAClr|2",
+				"Божественный ремесленник|Alternate Cleric|LLAClr|Кузня|LLAClr|3",
+				"Помощник кузни|Alternate Cleric|LLAClr|Кузня|LLAClr|3",
+				"Закалённый в огне|Alternate Cleric|LLAClr|Кузня|LLAClr|6",
+				"Мастер-кузнец|Alternate Cleric|LLAClr|Кузня|LLAClr|18"
 			]
 		},
 		{
-			"name": "Life",
-			"shortName": "Life",
+			"name": "Жизнь",
+			"shortName": "Жизнь",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
@@ -963,16 +963,16 @@
 				"raise dead"
 			],
 			"subclassFeatures": [
-				"Life Domain|Alternate Cleric|LLAClr|Life|LLAClr|2",
-				"Preserve Life|Alternate Cleric|LLAClr|Life|LLAClr|3",
-				"Turn Undead|Alternate Cleric|LLAClr|Life|LLAClr|3",
-				"Blessed Healer|Alternate Cleric|LLAClr|Life|LLAClr|6",
-				"Conduit of Life|Alternate Cleric|LLAClr|Life|LLAClr|18"
+				"Домен жизни|Alternate Cleric|LLAClr|Жизнь|LLAClr|2",
+				"Сохранение жизни|Alternate Cleric|LLAClr|Жизнь|LLAClr|3",
+				"Изгнание нежити|Alternate Cleric|LLAClr|Жизнь|LLAClr|3",
+				"Благословенный целитель|Alternate Cleric|LLAClr|Жизнь|LLAClr|6",
+				"Проводник жизни|Alternate Cleric|LLAClr|Жизнь|LLAClr|18"
 			]
 		},
 		{
-			"name": "Light",
-			"shortName": "Light",
+			"name": "Свет",
+			"shortName": "Свет",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
@@ -1016,16 +1016,16 @@
 				"flame strike (alternate)|llspell"
 			],
 			"subclassFeatures": [
-				"Light Domain|Alternate Cleric|LLAClr|Light|LLAClr|2",
-				"Radiant Flare|Alternate Cleric|LLAClr|Light|LLAClr|3",
-				"Dispel Darkness|Alternate Cleric|LLAClr|Light|LLAClr|3",
-				"Piercing Sight|Alternate Cleric|LLAClr|Light|LLAClr|6",
-				"Luminous Form|Alternate Cleric|LLAClr|Light|LLAClr|18"
+				"Домен света|Alternate Cleric|LLAClr|Свет|LLAClr|2",
+				"Сверкающая вспышка|Alternate Cleric|LLAClr|Свет|LLAClr|3",
+				"Развеивание тьмы|Alternate Cleric|LLAClr|Свет|LLAClr|3",
+				"Проницательный взгляд|Alternate Cleric|LLAClr|Свет|LLAClr|6",
+				"Светоносная форма|Alternate Cleric|LLAClr|Свет|LLAClr|18"
 			]
 		},
 		{
-			"name": "Tempest",
-			"shortName": "Tempest",
+			"name": "Буря",
+			"shortName": "Буря",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
@@ -1069,17 +1069,17 @@
 				"destructive wave"
 			],
 			"subclassFeatures": [
-				"Tempest Domain|Alternate Cleric|LLAClr|Tempest|LLAClr|2",
-				"Destructive Wrath|Alternate Cleric|LLAClr|Tempest|LLAClr|3",
-				"Tempestuous Rebuke|Alternate Cleric|LLAClr|Tempest|LLAClr|3",
-				"Thunderous Magic|Alternate Cleric|LLAClr|Tempest|LLAClr|6",
-				"Divine Tempest|Alternate Cleric|LLAClr|Tempest|LLAClr|18",
-				"Stormlord|Alternate Cleric|LLAClr|Tempest|LLAClr|18"
+				"Домен бури|Alternate Cleric|LLAClr|Буря|LLAClr|2",
+				"Разрушительный гнев|Alternate Cleric|LLAClr|Буря|LLAClr|3",
+				"Бурный отпор|Alternate Cleric|LLAClr|Буря|LLAClr|3",
+				"Громовая магия|Alternate Cleric|LLAClr|Буря|LLAClr|6",
+				"Божественная буря|Alternate Cleric|LLAClr|Буря|LLAClr|18",
+				"Повелитель бури|Alternate Cleric|LLAClr|Буря|LLAClr|18"
 			]
 		},
 		{
-			"name": "Trickery",
-			"shortName": "Trickery",
+			"name": "Обман",
+			"shortName": "Обман",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
@@ -1122,16 +1122,16 @@
 				"seeming"
 			],
 			"subclassFeatures": [
-				"Trickery Domain|Alternate Cleric|LLAClr|Trickery|LLAClr|2",
-				"Illusory Duplicate|Alternate Cleric|LLAClr|Trickery|LLAClr|3",
-				"Mischievous Mask|Alternate Cleric|LLAClr|Trickery|LLAClr|3",
-				"Tricky Transposition|Alternate Cleric|LLAClr|Trickery|LLAClr|6",
-				"Perfect Prank|Alternate Cleric|LLAClr|Trickery|LLAClr|18"
+				"Домен обмана|Alternate Cleric|LLAClr|Обман|LLAClr|2",
+				"Иллюзорный двойник|Alternate Cleric|LLAClr|Обман|LLAClr|3",
+				"Озорная маска|Alternate Cleric|LLAClr|Обман|LLAClr|3",
+				"Хитрое перемещение|Alternate Cleric|LLAClr|Обман|LLAClr|6",
+				"Идеальная шалость|Alternate Cleric|LLAClr|Обман|LLAClr|18"
 			]
 		},
 		{
-			"name": "War",
-			"shortName": "War",
+			"name": "Война",
+			"shortName": "Война",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
@@ -1175,47 +1175,47 @@
 				"steel wind strike (alternate)|llspell"
 			],
 			"subclassFeatures": [
-				"War Domain|Alternate Cleric|LLAClr|War|LLAClr|2",
-				"Divine Strike|Alternate Cleric|LLAClr|War|LLAClr|3",
-				"Blessed Fortitude|Alternate Cleric|LLAClr|War|LLAClr|3",
-				"War Magic|Alternate Cleric|LLAClr|War|LLAClr|6",
-				"Paragon of War|Alternate Cleric|LLAClr|War|LLAClr|18"
+				"Домен войны|Alternate Cleric|LLAClr|Война|LLAClr|2",
+				"Божественный удар|Alternate Cleric|LLAClr|Война|LLAClr|3",
+				"Благословенная стойкость|Alternate Cleric|LLAClr|Война|LLAClr|3",
+				"Военная магия|Alternate Cleric|LLAClr|Война|LLAClr|6",
+				"Образец войны|Alternate Cleric|LLAClr|Война|LLAClr|18"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Crusader",
+			"name": "Крестоносец",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 1,
 			"entries": [
-				"You have trained to serve the divine on the field of battle. You gain proficiency in heavy armor and a single martial weapon of your choice, often one considered sacred to your deity."
+				"Вы обучены служению божественному на поле боя. Вы получаете владение тяжёлыми доспехами и одним воинским оружием на ваш выбор, часто считающимся священным для вашего божества."
 			],
 			"foundryImg": "icons/equipment/head/helm-basinet-shemagh-steel.webp"
 		},
 		{
-			"name": "Monastic",
+			"name": "Монах",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 1,
 			"entries": [
-				"You have forgone worldly pleasure to better connect with the divine. You gain proficiency with one set of Artisan's Tools of your choice and either Insight, Medicine, or Perception.",
-				"Also, so long as you are not wearing armor or a shield and wielding only bludgeoning weapons, your Armor Class equals 10 + your Dexterity modifier + your Wisdom modifier."
+				"Вы отказались от мирских удовольствий, чтобы лучше соединиться с божественным. Вы получаете владение одним набором инструментов ремесленника на ваш выбор и либо Проницательностью, либо Медициной, либо Восприятием.",
+				"Кроме того, если вы не носите доспехи или щит и владеете только дробящим оружием, ваш Класс Доспеха равен 10 + ваш модификатор Ловкости + ваш модификатор Мудрости."
 			],
 			"foundryImg": "icons/environment/people/cleric-orange.webp"
 		},
 		{
-			"name": "Sacred Calling",
+			"name": "Священное призвание",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 1,
 			"entries": [
-				"Mortals are called according to their abilities in the service of the divine. At 1st level, choose a Sacred Calling from the list below that best represents how you serve your deity.",
-				"Once it is chosen, your Sacred Calling cannot be changed:",
+				"Смертные призываются к служению божественному согласно своим способностям. На 1-м уровне выберите Священное призвание из списка ниже, которое лучше всего отражает то, как вы служите своему божеству.",
+				"Однажды выбранное, ваше Священное призвание нельзя изменить:",
 				{
 					"type": "options",
 					"count": 1,
@@ -1238,79 +1238,79 @@
 			"foundryImg": "icons/sundries/books/book-symbol-cross-blue.webp"
 		},
 		{
-			"name": "Scholastic",
+			"name": "Учёный",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 1,
 			"entries": [
-				"You dedicate your mind in service of the divine. You learn to speak, read, and write Celestial (or another language sacred to your deity), and you gain proficiency in History or Religion. If you are already proficient in that skill, you add double your Proficiency Bonus to any checks you make with it.",
-				"You also learn one additional Cleric Cantrip of your choice, but it does not count against your total Cantrips Known. See the Spellcasting feature below for more details on Cantrips."
+				"Вы посвящаете свой разум служению божественному. Вы учитесь говорить, читать и писать на небесном (или другом языке, священном для вашего божества), и получаете владение Историей или Религией. Если вы уже владеете этим навыком, вы добавляете удвоенный бонус мастерства ко всем совершаемым с ним проверкам.",
+				"Вы также изучаете один дополнительный заговор жреца на ваш выбор, но он не учитывается при подсчёте общего числа известных вам заговоров. Подробнее о заговорах см. умение «Сотворение заклинаний» ниже."
 			],
 			"foundryImg": "icons/tools/scribal/ink-quill-pink.webp"
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "LLAClr",
 			"page": 4,
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 1,
 			"entries": [
-				"At 1st level, you begin to learn sacred rites and rituals which allow you to draw upon the power of the divine to cast {@filter spells|spells|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)}:",
+				"На 1-м уровне вы начинаете изучать священные обряды и ритуалы, позволяющие вам черпать божественную силу, чтобы сотворять {@filter spells|spells|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)}:",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Заговоры",
 					"entries": [
-						"At 1st level, you know two {@filter Cleric Cantrips|spells|level=0|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)} of your choice. You learn another Cleric Cantrip at 4th and 10th level, as shown in the Cantrips Known column of the Cleric table above."
+						"На 1-м уровне вы знаете два {@filter Cleric Cantrips|spells|level=0|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)} на ваш выбор. Вы изучаете ещё один заговор жреца на 4-м и 10-м уровне, как показано в столбце «Известные заговоры» таблицы жреца выше."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Preparing and Casting Spells",
+					"name": "Подготовка и сотворение заклинаний",
 					"entries": [
-						"The Cleric table shows how many spell slots you have to cast {@filter spells|spells|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)}. To cast a spell of 1st-level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"During each long rest, you can spend 1 hour in prayer to prepare the list of Cleric spells available for you to cast. You choose a number of Cleric spells equal to your Cleric level + your Wisdom modifier (minimum of 1). To prepare a Cleric spell, it must be of a level for which you have spell slots."
+						"Таблица жреца показывает, сколько ячеек заклинаний у вас есть для сотворения {@filter spells|spells|class=alternate Cleric (LLAClr);alternate Cleric (LLAClr)}. Чтобы сотворить заклинание 1-го уровня или выше, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете продолжительный отдых.",
+						"Во время каждого продолжительного отдыха вы можете провести 1 час в молитве, чтобы подготовить список заклинаний жреца, доступных вам для сотворения. Вы выбираете количество заклинаний жреца, равное вашему уровню жреца + ваш модификатор Мудрости (минимум 1). Чтобы подготовить заклинание жреца, оно должно быть уровня, для которого у вас есть ячейки заклинаний."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Ritual Casting",
+					"name": "Ритуальное сотворение",
 					"entries": [
-						"Your connection to the divine powers allows you to draw on their ambient magic. You can cast any Cleric spell you have prepared as a Ritual so long as that spell has the Ritual tag."
+						"Ваша связь с божественными силами позволяет вам черпать их окружающую магию. Вы можете сотворять как ритуал любое подготовленное вами заклинание жреца, если у этого заклинания есть метка «ритуал»."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"entries": [
-						"Your power is drawn from an intuitive divine connection, so Wisdom is your spellcasting ability for Cleric spells. You use Wisdom when a spell refers to your spellcasting ability, your Spell save DC, or when you make a spell attack roll:"
+						"Ваша сила черпается из интуитивной божественной связи, поэтому Мудрость — ваша характеристика для сотворения заклинаний жреца. Вы используете Мудрость, когда заклинание ссылается на вашу характеристику для сотворения заклинаний, вашу Сл спасброска заклинаний или когда вы совершаете бросок атаки заклинанием:"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Focus",
+					"name": "Фокусировка для сотворения",
 					"entries": [
-						"You can use a Holy Symbol as the spellcasting focus for your Cleric spells. A Holy Symbol is a Tiny item bearing the mark of your deity, often a medallion or relic sacred to your faith."
+						"Вы можете использовать священный символ как фокусировку для сотворения ваших заклинаний жреца. Священный символ — это крошечный предмет с отметкой вашего божества, часто медальон или реликвия, священная для вашей веры."
 					]
 				}
 			],
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Divine Domain",
+			"name": "Божественный домен",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you prove your devotion and are consecrated as the bearer of a Divine Domain.",
-				"Your Divine Domain grants you features at 2nd level, and again when you reach 6th and 18th levels in this class. Your Domain features use your Spell save DC for saving throws.",
+				"На 2-м уровне вы доказываете свою преданность и посвящаетесь как носитель Божественного домена.",
+				"Ваш Божественный домен дарует вам умения на 2-м уровне, а также при достижении 6-го и 18-го уровня в этом классе. Умения вашего домена используют вашу Сл спасброска заклинаний для спасбросков.",
 				{
 					"type": "entries",
-					"name": "Domain Spells",
+					"name": "Заклинания домена",
 					"entries": [
-						"Each Divine Domain has a list of Domain Spells you always have prepared once you reach the Cleric levels noted in your Domain's description. Domain Spells count as Cleric spells for you, but they do not count against the spells you prepare."
+						"У каждого Божественного домена есть список заклинаний домена, которые всегда у вас подготовлены, как только вы достигаете уровней жреца, указанных в описании вашего домена. Заклинания домена считаются для вас заклинаниями жреца, но они не учитываются при подсчёте подготавливаемых заклинаний."
 					]
 				}
 			],
@@ -1333,15 +1333,15 @@
 			}
 		},
 		{
-			"name": "Channel Divinity",
+			"name": "Божественный канал",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 3,
 			"entries": [
-				"Beginning at 3rd level, can channel the power of your deity to produce miraculous effects beyond the bounds of spells. You can use three such effects: Divine Restoration, shown below, and two determined by your Divine Domain.",
-				"You can Channel Divinity twice. You regain one expended use after a short rest, and all uses when you finish a long rest.",
-				"You gain more uses of Channel Divinity at certain levels, as shown in the Channel Divinity column of the Cleric table.",
+				"Начиная с 3-го уровня вы можете направлять силу своего божества, чтобы производить чудесные эффекты за пределами возможностей заклинаний. Вы можете использовать три таких эффекта: Божественное восстановление, описанное ниже, и два, определяемые вашим Божественным доменом.",
+				"Вы можете применять Божественный канал дважды. Вы восстанавливаете одно потраченное использование после короткого отдыха и все использования, когда завершаете продолжительный отдых.",
+				"Вы получаете больше использований Божественного канала на определённых уровнях, как показано в столбце «Божественный канал» таблицы жреца.",
 				{
 					"type": "refClassFeature",
 					"classFeature": "Divine Restoration|Alternate Cleric|LLAClr|3"
@@ -1350,56 +1350,56 @@
 			"foundryImg": "icons/magic/light/explosion-beam-impact-silhouette.webp"
 		},
 		{
-			"name": "Divine Restoration",
+			"name": "Божественное восстановление",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 3,
 			"entries": [
-				"As a bonus action, you grasp your Holy Symbol and expend one or more uses of Channel Divinity to regain an expended spell slot of a level equal to the number of uses expended."
+				"Бонусным действием вы сжимаете свой священный символ и тратите одно или несколько использований Божественного канала, чтобы восстановить потраченную ячейку заклинания уровня, равного числу потраченных использований."
 			],
 			"foundryImg": "icons/magic/life/cross-embers-glow-yellow-purple.webp"
 		},
 		{
-			"name": "Domain Feature",
+			"name": "Умение домена",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you gain a feature granted by your Deity."
+				"На 3-м уровне вы получаете умение, даруемое вашим Божеством."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "LLAClr",
 			"page": 5,
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Domain Feature",
+			"name": "Умение домена",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 6,
 			"entries": [
-				"At 3rd level, you gain a feature granted by your Deity."
+				"На 3-м уровне вы получаете умение, даруемое вашим Божеством."
 			]
 		},
 		{
-			"name": "Greater Calling",
+			"name": "Великое призвание",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 7,
 			"entries": [
-				"At 7th level, your deity calls you deeper into their service. You gain the feature below associated with your Sacred Calling:",
+				"На 7-м уровне ваше божество призывает вас глубже в своё служение. Вы получаете указанное ниже умение, связанное с вашим Священным призванием:",
 				{
 					"type": "options",
 					"count": 1,
@@ -1422,61 +1422,61 @@
 			"foundryImg": "icons/sundries/books/book-symbol-cross-blue.webp"
 		},
 		{
-			"name": "Greater Crusader",
+			"name": "Великий крестоносец",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 7,
 			"entries": [
-				"Your deity infuses your weapons with divine wrath. Choose a damage type from this list that best fits your Divine Domain: cold, fire, lightning, necrotic, poison, thunder, or radiant.",
-				"Once per turn, when you hit with a weapon attack, you can deal a bonus {@damage 1d8} damage of your chosen type."
+				"Ваше божество наполняет ваше оружие божественным гневом. Выберите тип урона из этого списка, который лучше всего подходит вашему Божественному домену: холод, огонь, электричество, некротический урон, яд, звук или излучение.",
+				"Раз в ход, когда вы попадаете атакой оружием, вы можете нанести дополнительный {@damage 1d8} урона выбранного типа."
 			],
 			"foundryImg": "icons/equipment/head/helm-basinet-shemagh-steel.webp"
 		},
 		{
-			"name": "Greater Monastic",
+			"name": "Великий монах",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 7,
 			"entries": [
-				"Your deity calls you to further detach yourself from worldly vices. You have advantage on saving throws to resist and end the Charmed, Frightened, and Poisoned conditions."
+				"Ваше божество призывает вас ещё дальше отстраниться от мирских пороков. Вы совершаете с преимуществом спасброски для сопротивления состояниям «Очарованный», «Испуганный» и «Отравленный» и для их окончания."
 			],
 			"foundryImg": "icons/environment/people/cleric-orange.webp"
 		},
 		{
-			"name": "Greater Scholastic",
+			"name": "Великий учёный",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 7,
 			"entries": [
-				"Your minor magic is infused with divine judgment. Whenever you deal damage with a Cleric Cantrip, you add your Wisdom modifier (a minimum of +1) to your damage roll."
+				"Ваша малая магия наполнена божественным судом. Всякий раз, когда вы наносите урон заговором жреца, вы добавляете свой модификатор Мудрости (минимум +1) к броску урона."
 			],
 			"foundryImg": "icons/tools/scribal/ink-quill-pink.webp"
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "LLAClr",
 			"page": 5,
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Divine Intervention",
+			"name": "Божественное вмешательство",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 10,
 			"entries": [
-				"Starting at 10th level, you can use an action to hold aloft your Holy Symbol and call upon your deity to intervene directly on your behalf. One of your Domain Spells instantly takes effect at a level of your choice (maximum of 5th-level). You need not expend a spell slot or any of its material components.",
-				"Alternatively, you call for your deity to intervene in a way within bounds of your Divine Domain, but not covered by one of your Domain Spells. The exact nature of this effect is up to your DM and remains in the bounds of a 5th-level spell.",
-				"Once you use this feature to call upon your deity, you must complete a long rest before you can do so again."
+				"Начиная с 10-го уровня вы можете действием поднять свой священный символ и воззвать к своему божеству, чтобы оно вмешалось напрямую от вашего имени. Одно из ваших заклинаний домена мгновенно возымеет эффект на выбранном вами уровне (максимум 5-й уровень). Вам не нужно тратить ячейку заклинания или его материальные компоненты.",
+				"Или вы призываете своё божество вмешаться способом, находящимся в границах вашего Божественного домена, но не покрытым одним из ваших заклинаний домена. Точная природа этого эффекта определяется вашим Мастером и остаётся в рамках заклинания 5-го уровня.",
+				"Использовав это умение, чтобы воззвать к своему божеству, вы должны завершить продолжительный отдых, прежде чем сможете сделать это снова."
 			],
 			"foundrySystem": {
 				"uses": {
@@ -1493,25 +1493,25 @@
 			"foundryImg": "icons/magic/holy/chalice-glowing-yellow-blue.webp"
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "LLAClr",
 			"page": 5,
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Sanctified Calling",
+			"name": "Освящённое призвание",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 14,
 			"entries": [
-				"At 14th level, you perfectly live your life of divine service. You gain one final feature associated with your Sacred Calling:",
+				"На 14-м уровне вы в совершенстве живёте жизнью божественного служения. Вы получаете одно последнее умение, связанное с вашим Священным призванием:",
 				{
 					"type": "options",
 					"count": 1,
@@ -1534,83 +1534,83 @@
 			"foundryImg": "icons/sundries/books/book-symbol-cross-blue.webp"
 		},
 		{
-			"name": "Sanctified Crusader",
+			"name": "Освящённый крестоносец",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 14,
 			"entries": [
-				"Your weapons strike with the full force of your deity's will. The bonus damage from Greater Crusader becomes {@damage 2d8}."
+				"Ваше оружие бьёт с полной силой воли вашего божества. Бонусный урон от «Великого крестоносца» становится {@damage 2d8}."
 			],
 			"foundryImg": "icons/equipment/head/helm-basinet-shemagh-steel.webp"
 		},
 		{
-			"name": "Sanctified Monastic",
+			"name": "Освящённый монах",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 14,
 			"entries": [
-				"An aura of divine peace emanates from you. You can perform a 10-minute ritual prayer to gain the benefits of the {@spell sanctuary} spell, targeting yourself only, until the end of your next long rest. The benefits of this spell can still end early, as normal."
+				"От вас исходит аура божественного покоя. Вы можете совершить 10-минутную молитву-ритуал, чтобы получить преимущества заклинания {@spell sanctuary}, нацеленного только на вас, до конца вашего следующего продолжительного отдыха. Преимущества этого заклинания всё равно могут окончиться досрочно, как обычно."
 			],
 			"foundryImg": "icons/environment/people/cleric-orange.webp"
 		},
 		{
-			"name": "Sanctified Scholastic",
+			"name": "Освящённый учёный",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 14,
 			"entries": [
-				"Your knowledge of the divine grants you greater mastery over your magic. During a short rest, you can replace a number of your prepared spells equal to your Wisdom modifier."
+				"Ваше знание божественного дарует вам большее мастерство в магии. Во время короткого отдыха вы можете заменить количество своих подготовленных заклинаний, равное вашему модификатору Мудрости."
 			],
 			"foundryImg": "icons/tools/scribal/ink-quill-pink.webp"
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "LLAClr",
 			"page": 5,
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Domain Feature",
+			"name": "Умение домена",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain a feature granted by your Deity."
+				"На 18-м уровне вы получаете умение, даруемое вашим Божеством."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "LLAClr",
 			"page": 5,
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Miraculous Intervention",
+			"name": "Чудесное вмешательство",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
 			"level": 20,
 			"entries": [
-				"At 20th level, you are able to directly call on the might of your deity, and they intervene on your behalf. When you use Divine Intervention, you can cause a Cleric spell of 9th-level or lower to instantly take effect, without spending a spell slot or any of its normal material components.",
-				"Alternately, you can call for your deity to intervene in a way within the bounds of their Divine Domain, but not covered by a Cleric spell. The exact nature of this effect is up to your DM and must remain within the bounds of a 9th-level spell.",
-				"After you use Miraculous Intervention, you still regain use of Divine Intervention after a long rest. However, you cannot use Miraculous Intervention until you finish {@dice 2d4} long rests.",
-				"You can spend 24 hours performing ritual sacrifices and prayers appropriate to your deity to regain your use of Miraculous Intervention after you next long rest."
+				"На 20-м уровне вы способны напрямую взывать к мощи своего божества, и оно вмешивается от вашего имени. Используя Божественное вмешательство, вы можете заставить заклинание жреца 9-го уровня или ниже мгновенно возыметь эффект, не тратя ячейку заклинания и его обычные материальные компоненты.",
+				"Или вы можете призвать своё божество вмешаться способом, находящимся в границах его Божественного домена, но не покрытым заклинанием жреца. Точная природа этого эффекта определяется вашим Мастером и должна оставаться в рамках заклинания 9-го уровня.",
+				"Использовав Чудесное вмешательство, вы всё равно восстанавливаете возможность использовать Божественное вмешательство после продолжительного отдыха. Однако вы не можете использовать Чудесное вмешательство, пока не завершите {@dice 2d4} продолжительных отдыхов.",
+				"Вы можете потратить 24 часа на совершение жертвенных ритуалов и молитв, подобающих вашему божеству, чтобы восстановить возможность использовать Чудесное вмешательство после следующего продолжительного отдыха."
 			],
 			"foundryImg": "icons/magic/holy/chalice-glowing-yellow-blue.webp"
 		}
@@ -1691,15 +1691,15 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Arcana Domain",
+			"name": "Домен магии",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Тайная магия",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"You have been chosen by a deity of magic to enact its will upon the world. Infused with an innate knowledge of the arcane arts, you walk the line between mage and priest. Using this divine power, you safeguard arcane secrets and ensure spellcasters do not use their power for evil.",
+				"Вы избраны божеством магии, чтобы исполнять его волю в мире. Наделённый врождённым знанием тайных искусств, вы идёте по грани между магом и жрецом. Используя эту божественную силу, вы оберегаете тайные секреты и следите за тем, чтобы заклинатели не использовали свою силу во зло.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Arcana Domain Spells|Alternate Cleric|LLAClr|Arcana|LLAClr|2"
@@ -1711,23 +1711,23 @@
 			]
 		},
 		{
-			"name": "Arcana Domain Spells",
+			"name": "Заклинания домена магии",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Тайная магия",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Arcana feature}",
-				"You always have certain spells prepared at the Cleric levels in the table below. The spells count as Cleric spells for you, but they don't count against the spells you can prepare each day:",
-				"Also, each time you gain a Cleric level, you can replace one Domain Spell with an Abjuration, Transmutation, or Divination spell of the same level, from the Wizard list: ",
+				"{@i умение домена Тайной магии 2-го уровня}",
+				"У вас всегда подготовлены определённые заклинания на уровнях жреца, указанных в таблице ниже. Эти заклинания считаются для вас заклинаниями жреца, но они не учитываются при подсчёте числа заклинаний, которые вы можете подготовить каждый день:",
+				"Кроме того, каждый раз, когда вы получаете уровень жреца, вы можете заменить одно заклинание домена на заклинание ограждения, превращения или прорицания того же уровня из списка волшебника:",
 				{
 					"type": "table",
-					"caption": "Arcana Spells",
+					"caption": "Заклинания тайной магии",
 					"colLabels": [
-						"Alternate Cleric Level",
-						"Spells"
+						"Уровень альтернативного жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1735,23 +1735,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell magic missile}, {@spell detect magic}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell magic weapon (alternate)|llspell}, {@spell rope trick}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell counterspell (alternate)|llspell}, {@spell dispel magic}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell arcane eye}, {@spell Otiluke's Resilient Sphere}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell Bigby's Hand}, {@spell wall of force (alternate)|llspell}"
 						]
 					]
@@ -1760,17 +1760,17 @@
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Divine Arcana",
+			"name": "Божественная тайная магия",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Тайная магия",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Arcana feature}",
-				"Your deity has infused you with a divine knowledge of magic. You gain proficiency in Arcana and you can use your Wisdom, instead of Intelligence, for Arcana checks. If you are already proficient in Arcana, you instead add double your Proficiency Bonus to any Wisdom (Arcana) checks you make.",
-				"In addition, you learn two Cantrips of your choice from the Wizard spell list. They count as Cleric spells for you, but they do not count against your number of Cantrips Known. When you gain a Cleric level, you can replace one of these Cantrips with a different Wizard Cantrip of your choice."
+				"{@i умение домена Тайной магии 2-го уровня}",
+				"Ваше божество наполнило вас божественным знанием магии. Вы получаете владение навыком Тайная магия и можете использовать Мудрость вместо Интеллекта для проверок этого навыка. Если вы уже владеете им, вы вместо этого добавляете удвоенный бонус мастерства ко всем совершаемым проверкам Мудрости (Тайная магия).",
+				"Кроме того, вы изучаете два заговора на ваш выбор из списка заклинаний волшебника. Они считаются для вас заклинаниями жреца, но не учитываются при подсчёте числа известных вам заговоров. Получая уровень жреца, вы можете заменить один из этих заговоров другим заговором волшебника на ваш выбор."
 			],
 			"foundrySystem": {
 				"uses": {
@@ -1787,90 +1787,90 @@
 			"foundryImg": "icons/weapons/swords/sword-gold-holy.webp"
 		},
 		{
-			"name": "Abjure the Arcane",
+			"name": "Отречение от тайной магии",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Тайная магия",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Arcana feature}",
-				"You can draw on the power of your deity to disrupt the magic of spellcasters and arcane entities. As an action, you can hold aloft your holy symbol to Channel Divinity, forcing all Hostile creatures that can cast spells within 30 feet of you to make a Charisma saving throw. If the creature is concentrating on a spell, or is a Celestial, Elemental, Fey, or Fiend, it makes this saving throw with disadvantage.",
-				"On a failure, they take force damage equal to 5 times your Cleric level, then are Turned for 1 minute, or until they take damage. A Turned creature can't take reactions, and will use its turns to safely move as far from you as possible, escape an effect preventing movement, or take the Dodge action."
+				"{@i умение домена Тайной магии 3-го уровня}",
+				"Вы можете черпать силу своего божества, чтобы нарушать магию заклинателей и тайных сущностей. Действием вы можете поднять свой священный символ, чтобы применить Божественный канал, заставляя всех Враждебных существ, способных творить заклинания, в пределах 30 футов от вас совершить спасбросок Харизмы. Если существо концентрируется на заклинании или является небожителем, элементалем, феей или исчадием, оно совершает этот спасбросок с помехой.",
+				"При провале они получают урон силовым полем, равный 5, умноженным на ваш уровень жреца, затем Изгнаны на 1 минуту или пока не получат урон. Изгнанное существо не может совершать реакции и будет в свои ходы безопасно отходить как можно дальше от вас, вырываться из эффекта, мешающего движению, или совершать действие Уклонение."
 			],
 			"foundryImg": "icons/magic/light/explosion-star-glow-blue-purple.webp"
 		},
 		{
-			"name": "Spellcraft",
+			"name": "Заклинательное искусство",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Тайная магия",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your deity allows you to bend the laws of magic when casting spells. When you cast a Cleric spell, you can Channel Divinity to modify the spell in one of the following ways:",
+				"Ваше божество позволяет вам гнуть законы магии при сотворении заклинаний. Когда вы сотворяете заклинание жреца, вы можете применить Божественный канал, чтобы изменить заклинание одним из следующих способов:",
 				{
 					"type": "entries",
-					"name": "Elemental Transmutation",
+					"name": "Стихийное превращение",
 					"entries": [
-						"You replace the damage dealt by your spell with acid, cold, fire, lightning, or poison damage, and you add your Wisdom modifier to the damage roll."
+						"Вы заменяете наносимый вашим заклинанием урон на урон кислотой, холодом, огнём, электричеством или ядом и добавляете свой модификатор Мудрости к броску урона."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Potent Casting",
+					"name": "Могущественное колдовство",
 					"entries": [
-						"One target of your choice makes its initial saving throw to resist this spell with disadvantage."
+						"Одна цель на ваш выбор совершает свой первоначальный спасбросок для сопротивления этому заклинанию с помехой."
 					]
 				}
 			],
 			"foundryImg": "icons/magic/symbols/rune-sigil-black-pink.webp"
 		},
 		{
-			"name": "Purifying Magic",
+			"name": "Очищающая магия",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Тайная магия",
 			"subclassSource": "LLAClr",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Arcana feature}",
-				" Your magic dispels all but the most potent curses and spells. When you restore hit points to a creature with a Cleric spell, you can also end a spell of your choice affecting that creature of a level equal to the spell slot you expended or lower."
+				"{@i умение домена Тайной магии 6-го уровня}",
+				"Ваша магия развеивает все проклятия и заклинания, кроме самых могущественных. Когда вы восстанавливаете существу хиты с помощью заклинания жреца, вы также можете окончить одно заклинание на ваш выбор, действующее на это существо, уровня не выше потраченной вами ячейки заклинания."
 			],
 			"foundryImg": "icons/magic/holy/chalice-glowing-gold.webp"
 		},
 		{
-			"name": "Arcane Archpriest",
+			"name": "Тайный верховный жрец",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Тайная магия",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Arcana feature}",
-				"Your deity grants you power to rival the greatest archmages. You add one spell of 6th-level, 7th-level, 8th-level, and 9th-level from the Wizard spell list to your Domain Spells, all must be Abjuration, Divination, or Transmutation spells.",
-				"Finally, each time you gain a Cleric level, you can replace one of these spells with another Transmutation, Divination, or Abjuration Wizard spell of your choice of the same level."
+				"{@i умение домена Тайной магии 18-го уровня}",
+				"Ваше божество дарует вам силу, способную соперничать с величайшими архимагами. Вы добавляете по одному заклинанию 6-го, 7-го, 8-го и 9-го уровня из списка заклинаний волшебника к своим заклинаниям домена; все они должны быть заклинаниями ограждения, прорицания или превращения.",
+				"Наконец, каждый раз, когда вы получаете уровень жреца, вы можете заменить одно из этих заклинаний другим заклинанием волшебника — превращения, прорицания или ограждения — на ваш выбор того же уровня."
 			],
 			"foundryImg": "icons/equipment/head/hat-pointed-buckle-leather-purple.webp"
 		},
 		{
-			"name": "Death Domain",
+			"name": "Домен смерти",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Death",
+			"subclassShortName": "Смерть",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"You serve a deity of death who guards the border between life and death. Many such deities shepherd mortal spirits into the afterlife or judge the content of the soul. No matter the deity, they all view undeath as an abomination, and you are bound to destroy any who use this sinister and unnatural power.",
+				"Вы служите божеству смерти, стерегущему границу между жизнью и смертью. Многие такие божества препровождают души смертных в загробную жизнь или судят содержимое души. Каким бы ни было божество, все они считают нежить мерзостью, и вы обязаны уничтожать любого, кто использует эту зловещую и противоестественную силу.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Death Domain Spells|Alternate Cleric|LLAClr|Death|LLAClr|2"
@@ -1886,22 +1886,22 @@
 			]
 		},
 		{
-			"name": "Death Domain Spells",
+			"name": "Заклинания домена смерти",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Death",
+			"subclassShortName": "Смерть",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Death feature}",
-				"You have certain spells prepared at the Cleric levels in the table below. The spells count as Cleric spells for you, but do not count against the spells you prepare each day:",
+				"{@i умение домена Смерти 2-го уровня}",
+				"У вас подготовлены определённые заклинания на уровнях жреца, указанных в таблице ниже. Эти заклинания считаются для вас заклинаниями жреца, но не учитываются при подсчёте подготавливаемых вами заклинаний каждый день:",
 				{
 					"type": "table",
-					"caption": "Death Spells",
+					"caption": "Заклинания смерти",
 					"colLabels": [
-						"Alternate Cleric Level",
-						"Spells"
+						"Уровень альтернативного жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1909,23 +1909,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell false life}, {@spell healing word}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell gentle repose}, {@spell ray of enfeeblement}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell revivify}, {@spell speak with dead (alternate)|llspell}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell blight}, {@spell death ward (alternate)|llspell}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell antilife shell}, {@spell mass cure wounds}"
 						]
 					]
@@ -1934,78 +1934,78 @@
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Grave Guardian",
+			"name": "Страж могил",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Death",
+			"subclassShortName": "Смерть",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Death feature}",
-				"You can channel divine power that normally restores life to destroy the blasphemous creatures of undeath. When you target Undead creatures with Cleric spells that would normally restore hit points, the Undead must make a Charisma saving throw instead of benefitting from the normal healing effects of the spell.",
-				"Undead take radiant damage equal to the hit points that would normally be restored on a failure, and half as much radiant damage on a successful save."
+				"{@i умение домена Смерти 2-го уровня}",
+				"Вы можете направлять божественную силу, обычно возвращающую жизнь, чтобы уничтожать кощунственных существ-нежить. Когда вы нацеливаетесь заклинаниями жреца, обычно восстанавливающими хиты, на существ-нежить, нежить должна совершить спасбросок Харизмы вместо получения обычных целительных эффектов заклинания.",
+				"Нежить получает урон излучением, равный хитам, которые обычно восстанавливались бы при провале, и половину этого урона излучением при успешном спасброске."
 			],
 			"foundryImg": "icons/magic/death/undead-skeleton-rags-fire-green.webp"
 		},
 		{
-			"name": "Keeper of the Veil",
+			"name": "Хранитель завесы",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Death",
+			"subclassShortName": "Смерть",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Death feature}",
-				"You stand guard over the veil between death and life, restoring life to those who deserve it. When you cast a Cleric spell that restores hit points to a creature at 0 hit points, you treat any dice as their maximum roll."
+				"{@i умение домена Смерти 2-го уровня}",
+				"Вы стоите на страже завесы между смертью и жизнью, возвращая жизнь тем, кто её заслуживает. Когда вы сотворяете заклинание жреца, восстанавливающее хиты существу с 0 хитов, вы считаете любые кости выпавшими по максимуму."
 			],
 			"foundryImg": "icons/magic/life/heart-cross-purple-orange.webp"
 		},
 		{
-			"name": "Doomed to Die",
+			"name": "Обречённые на смерть",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Death",
+			"subclassShortName": "Смерть",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Death feature}",
-				"You mark enemies for death's grasp. As an action, you can grasp your Holy Symbol and Channel Divinity to curse one creature you can see within 30 feet. The first time it is hit by an attack before the end of your next turn, the creature has Vulnerability to all damage from that attack."
+				"{@i умение домена Смерти 3-го уровня}",
+				"Вы отмечаете врагов для хватки смерти. Действием вы можете сжать свой священный символ и применить Божественный канал, чтобы проклясть одно существо, которое видите в пределах 30 футов. Первый раз, когда по нему попадают атакой до конца вашего следующего хода, существо получает уязвимость ко всему урону этой атаки."
 			],
 			"foundryImg": "icons/magic/death/grave-tombstone-glow-teal.webp"
 		},
 		{
-			"name": "Turn Undead",
+			"name": "Изгнание нежити",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Death",
+			"subclassShortName": "Смерть",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Death feature}",
-				"As an action, you hold aloft your Holy Symbol and Channel Divinity to rebuke creatures of unlife. Undead within 30 feet must make a Wisdom saving throw. On a failed save, Undead take radiant damage equal to five times your Cleric level, then are Turned for 1 minute, or until they take damage.",
-				"A Turned creature can't take reactions, and will only use its turns to safely move as far from you as possible, try to escape effects preventing its movement, or take the Dodge action."
+				"{@i умение домена Смерти 3-го уровня}",
+				"Действием вы поднимаете свой священный символ и применяете Божественный канал, чтобы отогнать существ-нежить. Нежить в пределах 30 футов должна совершить спасбросок Мудрости. При провале нежить получает урон излучением, равный пятикратному вашему уровню жреца, затем Изгнана на 1 минуту или пока не получит урон.",
+				"Изгнанное существо не может совершать реакции и в свои ходы будет лишь безопасно отходить как можно дальше от вас, пытаться вырваться из эффектов, мешающих ему двигаться, или совершать действие Уклонение."
 			],
 			"foundryImg": "icons/magic/death/skeleton-glow-yellow-black.webp"
 		},
 		{
-			"name": "Rebuke Death",
+			"name": "Отпор смерти",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Death",
+			"subclassShortName": "Смерть",
 			"subclassSource": "LLAClr",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Death feature}",
-				"Your connection with the deities of death allows you to stave off their influence. When you or another creature you can see within 30 feet suffers a critical hit, you can use your reaction to turn it into a regular hit.",
-				"You can use this reaction a number of times equal to your Wisdom modifier (a minimum of once), and you regain all of your expended uses when you finish a long rest."
+				"{@i умение домена Смерти 6-го уровня}",
+				"Ваша связь с божествами смерти позволяет вам отвращать их влияние. Когда вы или другое существо, которое вы можете видеть в пределах 30 футов, получаете критическое попадание, вы можете использовать свою реакцию, чтобы превратить его в обычное попадание.",
+				"Вы можете использовать эту реакцию количество раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования, когда завершаете продолжительный отдых."
 			],
 			"foundrySystem": {
 				"uses": {
@@ -2022,45 +2022,45 @@
 			"foundryImg": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp"
 		},
 		{
-			"name": "Vital Reaping",
+			"name": "Жатва жизни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Death",
+			"subclassShortName": "Смерть",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Death feature}",
-				"You can siphon life from death. Once per turn, when a Hostile creature dies within 30 feet of you, you can siphon the last of its life into yourself, then immediately restore hit points equal to the dying creature's CR to yourself or to another creature within 30 feet of you. You cannot siphon life from, or restore hit points to Constructs or Undead with this feature."
+				"{@i умение домена Смерти 18-го уровня}",
+				"Вы можете вытягивать жизнь из смерти. Раз в ход, когда Враждебное существо погибает в пределах 30 футов от вас, вы можете вытянуть остатки его жизни в себя, а затем немедленно восстановить хиты, равные показателю опасности погибшего существа, себе или другому существу в пределах 30 футов от вас. С помощью этого умения вы не можете вытягивать жизнь из конструктов или нежити и восстанавливать им хиты."
 			],
 			"foundryImg": "icons/magic/death/weapon-scythe-rune-green.webp"
 		},
 		{
-			"name": "Disciple of the Forge",
+			"name": "Ученик кузни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Кузня",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Forge feature}",
-				"You are a disciple of a divine craftsman. You gain proficiency with Smith's Tools, or a different set of Artisan's Tools of your choice if you were already proficient with Smith's Tools. For you, Artisan's Tools can be used as a Holy Symbol.",
-				"During the course of a long rest, you can perform a 1-hour ritual using Smith's Tools to bless a single non-magical suit of armor, weapon, or shield. Until you perform the ritual again, it becomes a magic item that grants a +1 bonus to Armor Class (armor or shield) or a +1 bonus to attack and damage rolls (weapon)."
+				"{@i умение домена Кузни 2-го уровня}",
+				"Вы ученик божественного ремесленника. Вы получаете владение инструментами кузнеца или другим набором инструментов ремесленника на ваш выбор, если вы уже владели инструментами кузнеца. Для вас инструменты ремесленника можно использовать как священный символ.",
+				"Во время продолжительного отдыха вы можете провести 1-часовой ритуал с использованием инструментов кузнеца, чтобы благословить один немагический комплект доспехов, оружие или щит. Пока вы не проведёте ритуал снова, он становится магическим предметом, дающим бонус +1 к Классу Доспеха (доспех или щит) или бонус +1 к броскам атаки и урона (оружие)."
 			],
 			"foundryImg": "icons/skills/trades/smithing-tongs-metal-red.webp"
 		},
 		{
-			"name": "Forge Domain",
+			"name": "Домен кузни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Кузня",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"You have been chosen as the prophet for a great artisan deity. As a Cleric of the Forge, you strive to mirror your deity in the act of creation through fire, forge, and metal. You channel the divine power of creation to craft miraculous works of beauty and creativity, but also fortification, destruction, and flame.",
+				"Вы избраны пророком великого божества-ремесленника. Как жрец кузни, вы стремитесь подражать своему божеству в акте творения через огонь, горн и металл. Вы направляете божественную силу творения, чтобы создавать чудесные произведения красоты и творчества, но также укрепления, разрушения и пламени.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Forge Domain Spells|Alternate Cleric|LLAClr|Forge|LLAClr|2"
@@ -2072,22 +2072,22 @@
 			]
 		},
 		{
-			"name": "Forge Domain Spells",
+			"name": "Заклинания домена кузни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Кузня",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Forge feature}",
-				"You have certain spells prepared at the Cleric levels in the table below. The spells count as Cleric spells for you, but do not count against the spells you prepare each day:",
+				"{@i умение домена Кузни 2-го уровня}",
+				"У вас подготовлены определённые заклинания на уровнях жреца, указанных в таблице ниже. Эти заклинания считаются для вас заклинаниями жреца, но не учитываются при подсчёте подготавливаемых вами заклинаний каждый день:",
 				{
 					"type": "table",
-					"caption": "Forge Spells",
+					"caption": "Заклинания кузни",
 					"colLabels": [
-						"Alternate Cleric Level",
-						"Spells"
+						"Уровень альтернативного жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2095,23 +2095,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell identify}, {@spell searing smite (alternate)|llspell}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell animate object (alternate)|llspell}, {@spell heat metal}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell elemental weapon}, {@spell melf's minute meteors|xge}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell fabricate}, {@spell wall of fire}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell create construct|llspell}, {@spell creation}"
 						]
 					]
@@ -2120,92 +2120,92 @@
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Divine Artisan",
+			"name": "Божественный ремесленник",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Кузня",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Forge feature}",
-				" Using Smith's Tools, you can Channel Divinity to carry out a 1-hour ritual to transmute metal material, which can include coins, into a single non-magical object of equivalent value to the material provided. The total value of this creation cannot exceed 100 gold per Cleric level.",
-				"To create an object that would require expertise to craft, you must be proficient in the corresponding Artisan's Tools. For example, you could use Smith's Tools to craft a weapon, shield, or ammunition from raw material and coins.",
-				"At the end of the ritual, the metal permanently transforms into that object, including any non-metal parts of the object."
+				"{@i умение домена Кузни 3-го уровня}",
+				"Используя инструменты кузнеца, вы можете применить Божественный канал, чтобы провести 1-часовой ритуал превращения металлического материала, включая монеты, в единый немагический предмет эквивалентной стоимости предоставленному материалу. Общая стоимость этого создания не может превышать 100 золотых за каждый уровень жреца.",
+				"Чтобы создать предмет, для изготовления которого требуется экспертиза, вы должны владеть соответствующими инструментами ремесленника. Например, вы можете использовать инструменты кузнеца, чтобы изготовить оружие, щит или боеприпасы из сырья и монет.",
+				"В конце ритуала металл навсегда превращается в этот предмет, включая любые неметаллические части предмета."
 			],
 			"foundryImg": "icons/magic/symbols/star-inverted-yellow.webp"
 		},
 		{
-			"name": "Forge Assistant",
+			"name": "Помощник кузни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Кузня",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Forge feature}",
-				"You infuse your Tools with divine creativity. As an action, you can touch your Holy Symbol to one set of Artisan's Tools and Channel Divinity, animating them as if by an {@spell unseen servant} spell, for a number of hours equal to your Wisdom modifier.",
-				"These Tools, which are proficient with themselves, will aid you in your work and perform simple tasks for the duration."
+				"{@i умение домена Кузни 3-го уровня}",
+				"Вы наполняете свои инструменты божественной творческой силой. Действием вы можете коснуться священным символом одного набора инструментов ремесленника и применить Божественный канал, оживив их, как если бы это было заклинание {@spell unseen servant}, на количество часов, равное вашему модификатору Мудрости.",
+				"Эти инструменты, владеющие сами собой, будут помогать вам в работе и выполнять простые задачи в течение этого времени."
 			],
 			"foundryImg": "icons/creatures/magical/construct-gargoyle-stone-gray.webp"
 		},
 		{
-			"name": "Forged in Fire",
+			"name": "Закалённый в огне",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Кузня",
 			"subclassSource": "LLAClr",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Forge feature}",
-				"The divine power of the forge grants you increased resilience. You gain Resistance to fire damage, and while wearing armor, you gain a +1 bonus to your Armor Class."
+				"{@i умение домена Кузни 6-го уровня}",
+				"Божественная сила кузни дарует вам повышенную стойкость. Вы получаете сопротивление урону огнём, а нося доспех, получаете бонус +1 к Классу Доспеха."
 			],
 			"foundryImg": "icons/magic/fire/flame-burning-fist-strike.webp"
 		},
 		{
-			"name": "Master Smith",
+			"name": "Мастер-кузнец",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Кузня",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Forge feature}",
-				"You are a blessed prophet of the forge. You gain Immunity to fire damage, and while wearing armor, you gain Resistance to bludgeoning, piercing, and slashing damage from non-magical attacks."
+				"{@i умение домена Кузни 18-го уровня}",
+				"Вы благословенный пророк кузни. Вы получаете иммунитет к урону огнём, а нося доспех, получаете сопротивление дробящему, колющему и рубящему урону от немагических атак."
 			],
 			"foundryImg": "icons/skills/trades/smithing-anvil-silver-red.webp"
 		},
 		{
-			"name": "Disciple of Life",
+			"name": "Ученик жизни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Life",
+			"subclassShortName": "Жизнь",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Life feature}",
-				"The life-giving energies of the divine infuse your healing magic. Whenever you cast a Cleric spell that restores hit points to a creature, it regains additional hit points equal to twice the level of the spell slot used to cast the spell."
+				"{@i умение домена Жизни 2-го уровня}",
+				"Жизнедающие энергии божественного наполняют вашу целительную магию. Всякий раз, когда вы сотворяете заклинание жреца, восстанавливающее существу хиты, оно восстанавливает дополнительные хиты, равные удвоенному уровню ячейки заклинания, использованной для сотворения заклинания."
 			],
 			"foundryImg": "icons/magic/life/cross-area-circle-green-white.webp"
 		},
 		{
-			"name": "Life Domain",
+			"name": "Домен жизни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Life",
+			"subclassShortName": "Жизнь",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"Deities who bestow the Life Domain upon Clerics are many, but they are invariably aligned with the cosmic forces of Goodness. They include deities of health and healing, preservation, growth, community, and family. Despite their varied patronages, deities who bestow this Divine Domain universally despise Undead and Necromancy magic as the highest blasphemies.",
+				"Божеств, дарующих жрецам домен Жизни, много, но все они неизменно связаны с космическими силами Добра. Среди них божества здоровья и исцеления, сохранения, роста, общины и семьи. При всём разнообразии их покровительства божества, дарующие этот Божественный домен, единодушно презирают нежить и некромантию как высшее кощунство.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Life Domain Spells|Alternate Cleric|LLAClr|Life|LLAClr|2"
@@ -2217,22 +2217,22 @@
 			]
 		},
 		{
-			"name": "Life Domain Spells",
+			"name": "Заклинания домена жизни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Life",
+			"subclassShortName": "Жизнь",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Life feature}",
-				"You have certain spells prepared at the Cleric levels in the table below. The spells count as Cleric spells for you, but do not count against the spells you prepare each day:",
+				"{@i умение домена Жизни 2-го уровня}",
+				"У вас подготовлены определённые заклинания на уровнях жреца, указанных в таблице ниже. Эти заклинания считаются для вас заклинаниями жреца, но не учитываются при подсчёте подготавливаемых вами заклинаний каждый день:",
 				{
 					"type": "table",
-					"caption": "Life Spells",
+					"caption": "Заклинания жизни",
 					"colLabels": [
-						"Alternate Cleric Level",
-						"Spells"
+						"Уровень альтернативного жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2240,23 +2240,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell bless}, {@spell cure wounds}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell aid}, {@spell restoration|llspell}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell mass healing word}, {@spell revivify}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell aura of life}, {@spell death ward (alternate)|llspell}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell raise dead}, {@spell mass cure wounds}"
 						]
 					]
@@ -2265,92 +2265,92 @@
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Preserve Life",
+			"name": "Сохранение жизни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Life",
+			"subclassShortName": "Жизнь",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Life feature}",
-				"You can directly call on the restorative power of your deity. As an action, you hold aloft your Holy Symbol and Channel Divinity to unleash a wave of divine healing. You restore a total number of hit points equal to five times your Cleric level, distributed among creatures of your choice within 30 feet.",
-				"You cannot use this Channel Divinity to restore hit points to Constructs or Undead creatures."
+				"{@i умение домена Жизни 3-го уровня}",
+				"Вы можете напрямую взывать к восстанавливающей силе своего божества. Действием вы поднимаете свой священный символ и применяете Божественный канал, чтобы испустить волну божественного исцеления. Вы восстанавливаете суммарное количество хитов, равное пятикратному вашему уровню жреца, распределяя их между существами на ваш выбор в пределах 30 футов.",
+				"Вы не можете использовать этот Божественный канал, чтобы восстанавливать хиты конструктам или существам-нежити."
 			],
 			"foundryImg": "icons/magic/life/heart-area-circle-red-green.webp"
 		},
 		{
-			"name": "Turn Undead",
+			"name": "Изгнание нежити",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Life",
+			"subclassShortName": "Жизнь",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Life feature}",
-				"As an action, you hold aloft your Holy Symbol and Channel Divinity to rebuke creatures of unlife. Undead within 30 feet must make a Wisdom saving throw. On a failed save, Undead take radiant damage equal to five times your Cleric level, then are Turned for 1 minute, or until they take damage.",
-				"A Turned creature can't take reactions, and will only use its turns to safely move as far from you as possible, try to escape effects preventing its movement, or take the Dodge action."
+				"{@i умение домена Жизни 3-го уровня}",
+				"Действием вы поднимаете свой священный символ и применяете Божественный канал, чтобы отогнать существ-нежить. Нежить в пределах 30 футов должна совершить спасбросок Мудрости. При провале нежить получает урон излучением, равный пятикратному вашему уровню жреца, затем Изгнана на 1 минуту или пока не получит урон.",
+				"Изгнанное существо не может совершать реакции и в свои ходы будет лишь безопасно отходить как можно дальше от вас, пытаться вырваться из эффектов, мешающих ему двигаться, или совершать действие Уклонение."
 			],
 			"foundryImg": "icons/magic/death/skeleton-glow-yellow-black.webp"
 		},
 		{
-			"name": "Blessed Healer",
+			"name": "Благословенный целитель",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Life",
+			"subclassShortName": "Жизнь",
 			"subclassSource": "LLAClr",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Life feature}",
-				"Channeling your deity's power to restore others also restores you. Any time you cast a Cleric spell that restores hit points to another creature, you also regain hit points equal to twice the level of the spell slot used to cast the spell."
+				"{@i умение домена Жизни 6-го уровня}",
+				"Направление силы вашего божества на восстановление других восстанавливает и вас. Всякий раз, когда вы сотворяете заклинание жреца, восстанавливающее хиты другому существу, вы также восстанавливаете хиты, равные удвоенному уровню ячейки заклинания, использованной для сотворения заклинания."
 			],
 			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp"
 		},
 		{
-			"name": "Conduit of Life",
+			"name": "Проводник жизни",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Life",
+			"subclassShortName": "Жизнь",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Life feature}",
-				" Devotion to your deity allows you to channel their pure divine essence to heal. Whenever you restore hit points to a creature with a Cleric spell, you treat any dice as the maximum roll."
+				"{@i умение домена Жизни 18-го уровня}",
+				"Преданность вашему божеству позволяет вам направлять его чистую божественную сущность для исцеления. Всякий раз, когда вы восстанавливаете существу хиты с помощью заклинания жреца, вы считаете любые кости выпавшими по максимуму."
 			],
 			"foundryImg": "icons/magic/life/ankh-gold-blue.webp"
 		},
 		{
-			"name": "Light Bearer",
+			"name": "Носитель света",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Light",
+			"subclassShortName": "Свет",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Light feature}",
-				"You bear the divine light of truth, which pierces the darkness. As a bonus action, you can cause your eyes to glow with light or return to normal. This sight allows you to see normally, as if by daylight, in darkness or dim light out to a 30-foot radius.",
-				"You also learn the {@spell light} Cantrip, or another Cleric Cantrip if you know light. It doesn't count against your Cantrips Known."
+				"{@i умение домена Света 2-го уровня}",
+				"Вы несёте божественный свет истины, пронзающий тьму. Бонусным действием вы можете заставить свои глаза светиться или вернуться в норму. Это зрение позволяет вам видеть как при дневном свете в темноте или тусклом свете в радиусе до 30 футов.",
+				"Вы также изучаете заговор {@spell light} или другой заговор жреца, если знаете свет. Он не учитывается при подсчёте известных вам заговоров."
 			],
 			"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp"
 		},
 		{
-			"name": "Light Domain",
+			"name": "Домен света",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Light",
+			"subclassShortName": "Свет",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"You are a servant of divine Light. Light which illuminates the darkness, unveils deception, and sears unholy creatures with its radiance. Deities of this Domain are often associated with the sun, and charge their Clerics to seek out light and truth.",
+				"Вы слуга божественного Света. Света, который освещает тьму, раскрывает обман и выжигает нечестивых существ своим сиянием. Божества этого домена часто связаны с солнцем и поручают своим жрецам искать свет и истину.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Light Domain Spells|Alternate Cleric|LLAClr|Light|LLAClr|2"
@@ -2362,22 +2362,22 @@
 			]
 		},
 		{
-			"name": "Light Domain Spells",
+			"name": "Заклинания домена света",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Light",
+			"subclassShortName": "Свет",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Light feature}",
-				"You have certain spells prepared at the Cleric levels in the table below. The spells count as Cleric spells for you, but do not count against the spells you prepare each day:",
+				"{@i умение домена Света 2-го уровня}",
+				"У вас подготовлены определённые заклинания на уровнях жреца, указанных в таблице ниже. Эти заклинания считаются для вас заклинаниями жреца, но не учитываются при подсчёте подготавливаемых вами заклинаний каждый день:",
 				{
 					"type": "table",
-					"caption": "Light Spells",
+					"caption": "Заклинания света",
 					"colLabels": [
-						"Alternate Cleric Level",
-						"Spells"
+						"Уровень альтернативного жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2385,23 +2385,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell faerie fire}, {@spell guiding bolt}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell flaming sphere}, {@spell scorching ray}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell daylight (alternate)|llspell}, {@spell fireball}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell guardian of faith}, {@spell wall of fire}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell dawn|xge}, {@spell flame strike (alternate)|llspell}"
 						]
 					]
@@ -2410,72 +2410,72 @@
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Dispel Darkness",
+			"name": "Развеивание тьмы",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Light",
+			"subclassShortName": "Свет",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Light feature}",
-				"As an action, you hold aloft your Holy Symbol and Channel Divinity to unleash a wave of divine radiance out to 30 feet. Any magical darkness in this area created by a spell equal to your highest spell slot, or lower, is dispelled, and creatures of your choice must make a Constitution saving throw.",
-				"On a failure, they take radiant damage equal to 2d8 + your Cleric level and are Blinded until the start of your next turn. On a success, they take half damage and are not Blinded."
+				"{@i умение домена Света 3-го уровня}",
+				"Действием вы поднимаете свой священный символ и применяете Божественный канал, чтобы испустить волну божественного сияния радиусом 30 футов. Любая магическая тьма в этой области, созданная заклинанием уровня вашей высшей ячейки заклинаний или ниже, развеивается, а существа на ваш выбор должны совершить спасбросок Телосложения.",
+				"При провале они получают урон излучением, равный 2d8 + ваш уровень жреца, и Ослеплены до начала вашего следующего хода. При успехе они получают половину урона и не Ослеплены."
 			],
 			"foundryImg": "icons/magic/fire/barrier-wall-flame-ring-blue.webp"
 		},
 		{
-			"name": "Radiant Flare",
+			"name": "Сверкающая вспышка",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Light",
+			"subclassShortName": "Свет",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Light feature}",
-				"When a creature you can see within 30 feet hits you with an attack, you can use your reaction to Channel Divinity, searing its eyes with a burst of brilliant light. If the attacker can see, it must make a Constitution saving throw, or its attack becomes a miss, and it is Blinded until the start of your next turn.",
-				"Starting at 6th level, you can use this Channel Divinity as a reaction when a creature you can see within 30 feet hits with any attack, even attacks against other targets."
+				"{@i умение домена Света 3-го уровня}",
+				"Когда существо, которое вы можете видеть в пределах 30 футов, попадает по вам атакой, вы можете использовать свою реакцию, чтобы применить Божественный канал, выжигая ему глаза вспышкой яркого света. Если атакующий может видеть, он должен совершить спасбросок Телосложения, иначе его атака становится промахом, и он Ослеплён до начала вашего следующего хода.",
+				"Начиная с 6-го уровня вы можете использовать этот Божественный канал в качестве реакции, когда существо, которое вы можете видеть в пределах 30 футов, попадает любой атакой, даже по другим целям."
 			],
 			"foundryImg": "icons/magic/light/explosion-star-large-blue-yellow.webp"
 		},
 		{
-			"name": "Piercing Sight",
+			"name": "Проницательный взгляд",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Light",
+			"subclassShortName": "Свет",
 			"subclassSource": "LLAClr",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Light feature}",
-				"The divine light you bear grows in strength, piercing untruth. Light Bearer now grants you Blindsight within its radius. Finally, at 18th level, you gain Truesight within its radius."
+				"{@i умение домена Света 6-го уровня}",
+				"Божественный свет, который вы несёте, набирает силу, пронзая неправду. Носитель света теперь дарует вам слепое зрение в пределах своего радиуса. Наконец, на 18-м уровне вы получаете истинное зрение в пределах его радиуса."
 			],
 			"foundryImg": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp"
 		},
 		{
-			"name": "Luminous Form",
+			"name": "Светоносная форма",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Light",
+			"subclassShortName": "Свет",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				" As a bonus action, you can completely fill yourself with divine light, taking on a Luminous Form that grants these benefits: ",
+				"Бонусным действием вы можете полностью наполнить себя божественным светом, принимая Светоносную форму, дающую следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You emit bright light out to a 30-foot radius, and dim light 30 feet beyond that. This light is true sunlight.",
-						"Creatures within this light have disadvantage on saving throws to resist your Light Domain Spells and features.",
-						"You gain the benefits of your Light Bearer feature. "
+						"Вы испускаете яркий свет радиусом 30 футов и тусклый свет ещё на 30 футов за ним. Этот свет — истинный солнечный свет.",
+						"Существа в этом свете совершают с помехой спасброски против ваших заклинаний домена света и умений.",
+						"Вы получаете преимущества своего умения «Носитель света»."
 					]
 				},
-				"You remain in Luminous Form for 1 minute. It ends early if you use a bonus action to end it or you are Incapacitated. You can use this feature once per short or long rest. After that you must expend a spell slot of 5th-level or higher to use it again."
+				"Вы остаётесь в Светоносной форме 1 минуту. Она оканчивается досрочно, если вы используете бонусное действие, чтобы её окончить, или если вы Недееспособны. Вы можете использовать это умение один раз за короткий или продолжительный отдых. После этого вы должны потратить ячейку заклинания 5-го уровня или выше, чтобы использовать его снова."
 			],
 			"foundrySystem": {
 				"uses": {
@@ -2492,30 +2492,30 @@
 			"foundryImg": "icons/magic/light/explosion-star-glow-silhouette.webp"
 		},
 		{
-			"name": "Storm Priest",
+			"name": "Жрец бури",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Буря",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Tempest feature}",
-				"Your deity has infused you with a spark of their tempestuous wrath. You learn a single Cantrip of your choice from any spell list that deals thunder or lightning damage. It is a Cleric Cantrip for you, but it doesn't count against your Cantrips Known",
-				"Also, you can perfectly predict the weather for the next 24 hours so long as you can see the sky."
+				"{@i умение домена Бури 2-го уровня}",
+				"Ваше божество вдохнуло в вас искру своего бурного гнева. Вы изучаете один заговор на ваш выбор из любого списка заклинаний, наносящий урон звуком или электричеством. Для вас это заговор жреца, но он не учитывается при подсчёте известных вам заговоров",
+				"Кроме того, вы можете безошибочно предсказывать погоду на следующие 24 часа, если можете видеть небо."
 			],
 			"foundryImg": "icons/magic/lightning/bolt-cloud-sky-green.webp"
 		},
 		{
-			"name": "Tempest Domain",
+			"name": "Домен бури",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Буря",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"Within you rages the destructive power of the divine storm. Using this holy power, you can hurl bolts of of lightning, booming thunder, and blustering wind. Like a storm, deities of the Tempest are fickle and quick to pour out destruction and wrath. Do you work to placate your deity and avert this anger? Or, are you a tool of tempestuous destruction?",
+				"В вас бушует разрушительная сила божественной бури. Используя эту святую силу, вы можете метать разряды молний, грохочущий гром и завывающий ветер. Как и буря, божества домена Бури переменчивы и скоры на разрушение и гнев. Вы трудитесь, чтобы умилостивить своё божество и отвести этот гнев? Или вы орудие бурного разрушения?",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Tempest Domain Spells|Alternate Cleric|LLAClr|Tempest|LLAClr|2"
@@ -2527,22 +2527,22 @@
 			]
 		},
 		{
-			"name": "Tempest Domain Spells",
+			"name": "Заклинания домена бури",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Буря",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Tempest feature}",
-				"You have certain spells prepared at the Cleric levels in the table below. The spells count as Cleric spells for you, but do not count against the spells you prepare each day:",
+				"{@i умение домена Бури 2-го уровня}",
+				"У вас подготовлены определённые заклинания на уровнях жреца, указанных в таблице ниже. Эти заклинания считаются для вас заклинаниями жреца, но не учитываются при подсчёте подготавливаемых вами заклинаний каждый день:",
 				{
 					"type": "table",
-					"caption": "Tempest Spells",
+					"caption": "Заклинания бури",
 					"colLabels": [
-						"Alternate Cleric Level",
-						"Spells"
+						"Уровень альтернативного жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2550,23 +2550,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell fog cloud}, {@spell thunderwave}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell shatter}, {@spell warding wind|xge}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell call lightning}, {@spell thunder step|xge}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell ice storm}, {@spell storm sphere|xge}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell control winds|xge}, {@spell destructive wave}"
 						]
 					]
@@ -2575,93 +2575,93 @@
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Destructive Wrath",
+			"name": "Разрушительный гнев",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Буря",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Tempest feature}",
-				"You can pour out the unchecked power of your deity upon your foes. When you deal lightning or thunder damage with a Cleric spell or feature, you can Channel Divinity to deal the maximum thunder and lightning damage, instead of rolling."
+				"{@i умение домена Бури 3-го уровня}",
+				"Вы можете излить на врагов необузданную силу своего божества. Когда вы наносите урон электричеством или звуком заклинанием или умением жреца, вы можете применить Божественный канал, чтобы нанести максимальный урон звуком и электричеством вместо броска."
 			],
 			"foundryImg": "icons/magic/lightning/bolts-forked-large-blue.webp"
 		},
 		{
-			"name": "Tempestuous Rebuke",
+			"name": "Бурный отпор",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Буря",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Tempest feature}",
-				"You channel the divine storm to punish those who strike you. When a creature you can see within 30 feet damages you, you can use your reaction to Channel Divinity, forcing it to make a Dexterity saving throw.",
-				"On a failure, it takes lightning or thunder damage equal to {@damage 2d8} + your Cleric level, and it cannot take reactions until the start of your next turn. On a successful save, it takes half as much damage and can take reactions as normal."
+				"{@i умение домена Бури 3-го уровня}",
+				"Вы направляете божественную бурю, чтобы покарать тех, кто вас бьёт. Когда существо, которое вы можете видеть в пределах 30 футов, наносит вам урон, вы можете использовать свою реакцию, чтобы применить Божественный канал, заставляя его совершить спасбросок Ловкости.",
+				"При провале оно получает урон электричеством или звуком, равный {@damage 2d8} + ваш уровень жреца, и не может совершать реакции до начала вашего следующего хода. При успешном спасброске оно получает половину этого урона и может совершать реакции как обычно."
 			],
 			"foundryImg": "icons/magic/lightning/bolt-strike-creature-pink.webp"
 		},
 		{
-			"name": "Thunderous Magic",
+			"name": "Громовая магия",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Буря",
 			"subclassSource": "LLAClr",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Tempest feature}",
-				" Your magic carries the tempestuous power of a divine storm. Whenever you deal lightning or thunder damage to a target, you can push it 10 feet away from you in a line. The distance is halved for every size the target is above Large.",
-				"The distance you push targets with this feature increases at 12th level (15 feet) and again at 18th level (20 feet)."
+				"{@i умение домена Бури 6-го уровня}",
+				"Ваша магия несёт бурную мощь божественной грозы. Всякий раз, когда вы наносите цели урон электричеством или звуком, вы можете оттолкнуть её на 10 футов от себя по прямой. Расстояние уменьшается вдвое за каждый размер цели выше большого.",
+				"Расстояние, на которое вы отталкиваете цели этим умением, увеличивается на 12-м уровне (15 футов) и снова на 18-м уровне (20 футов)."
 			],
 			"foundryImg": "icons/magic/lightning/fist-unarmed-strike-blue.webp"
 		},
 		{
-			"name": "Divine Tempest",
+			"name": "Божественная буря",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Буря",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Tempest feature}",
-				" You are always prepared to call down the wrath of your deity. You always have the {@spell storm of vengeance (alternate)|llspell} spell prepared, but it doesn't count against the spells you can prepare each day."
+				"{@i умение домена Бури 18-го уровня}",
+				"Вы всегда готовы призвать гнев своего божества. У вас всегда подготовлено заклинание {@spell storm of vengeance (alternate)|llspell}, но оно не учитывается при подсчёте числа заклинаний, которые вы можете подготовить каждый день."
 			],
 			"foundryImg": "icons/magic/lightning/bolt-strike-clouds-blue.webp"
 		},
 		{
-			"name": "Stormlord",
+			"name": "Повелитель бури",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Буря",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Tempest feature}",
-				"You are the mortal avatar of your tempestuous deity, able to command the wind itself to carry you. You have a flying speed equal to your walking speed, so long as you are not indoors or underground.",
-				"While underground or indoors, you can use your action to Channel Divinity to gain this flying speed for 1 hour."
+				"{@i умение домена Бури 18-го уровня}",
+				"Вы смертный аватар своего бурного божества, способный приказать самому ветру нести вас. У вас есть скорость полёта, равная вашей скорости ходьбы, если вы не в помещении и не под землёй.",
+				"Находясь под землёй или в помещении, вы можете действием применить Божественный канал, чтобы получить эту скорость полёта на 1 час."
 			],
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp"
 		},
 		{
-			"name": "Trickery Domain",
+			"name": "Домен обмана",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Обман",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"You have been deemed worthy to wield the divine magick of a deity of Trickery. Often patrons of thieves and pranksters, you have been given power by a deity to sow chaos in their name.",
+				"Вас сочли достойным владеть божественной магией божества обмана. Часто покровители воров и шутников, вы получили силу от божества, чтобы сеять хаос его именем.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Trickery Domain Spells|Alternate Cleric|LLAClr|Trickery|LLAClr|2"
@@ -2673,22 +2673,22 @@
 			]
 		},
 		{
-			"name": "Trickery Domain Spells",
+			"name": "Заклинания домена обмана",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Обман",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Trickery feature}",
-				"You always have certain spells prepared at the Cleric levels in the table below. The spells count as Cleric spells for you, but they don't count against the spells you can prepare each day: ",
+				"{@i умение домена Обмана 2-го уровня}",
+				"У вас всегда подготовлены определённые заклинания на уровнях жреца, указанных в таблице ниже. Эти заклинания считаются для вас заклинаниями жреца, но они не учитываются при подсчёте числа заклинаний, которые вы можете подготовить каждый день:",
 				{
 					"type": "table",
-					"caption": "Trickery Spells",
+					"caption": "Заклинания обмана",
 					"colLabels": [
-						"Alternate Cleric Level",
-						"Spells"
+						"Уровень альтернативного жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2696,23 +2696,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell charm person}, {@spell sleep}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell pass without trace (alternate)|llspell}, {@spell invisibility}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell hypnotic pattern (alternate)|llspell}, {@spell dispel magic}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell polymorph (alternate)|llspell}, {@spell dominate creature (alternate)|llspell}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell modify memory}, {@spell seeming}"
 						]
 					]
@@ -2721,134 +2721,134 @@
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Trickster's Mantle",
+			"name": "Мантия плута",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Обман",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level Trickery feature}",
-				"You can cloak yourself and others in the divine deceptions of your deity. As an action, you can touch a creature, including yourself and grant it proficiency in Stealth. If already proficient in Stealth, they can add double their Proficiency Bonus to any Stealth checks they make.",
-				"This effect lasts for the target until you use this feature on another creature, you choose to end it, you finish a long rest, or you are slain."
+				"{@i умение домена Обмана 2-го уровня}",
+				"Вы можете окутывать себя и других божественными обманами своего божества. Действием вы можете коснуться существа, включая себя, и дать ему владение Скрытностью. Если оно уже владеет Скрытностью, оно может добавлять удвоенный бонус мастерства ко всем совершаемым проверкам Скрытности.",
+				"Этот эффект действует на цель, пока вы не используете это умение на другом существе, пока вы не решите его окончить, пока вы не завершите продолжительный отдых или пока вас не убьют."
 			],
 			"foundryImg": "icons/magic/nature/stealth-hide-beast-eyes-green.webp"
 		},
 		{
-			"name": "Illusory Duplicate",
+			"name": "Иллюзорный двойник",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Обман",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Trickery feature}",
-				"As an action, you can grasp your Holy Symbol and Channel Divinity to conjure your Illusory Duplicate, a perfect copy of yourself in an unoccupied space you can see within 30 feet. The Illusory Duplicate lasts for 1 minute, but it disappears if you become Incapacitated, you are more than 120 feet from it, or you dismiss it (no action needed). The Illusory Duplicate uses the following rules:",
+				"{@i умение домена Обмана 3-го уровня}",
+				"Действием вы сжимаете свой священный символ и применяете Божественный канал, чтобы создать Иллюзорного двойника — точную копию себя в свободном пространстве, которое вы видите в пределах 30 футов. Иллюзорный двойник существует 1 минуту, но исчезает, если вы становитесь Недееспособным, если вы находитесь дальше 120 футов от него или если вы его отпускаете (действие не требуется). Иллюзорный двойник использует следующие правила:",
 				{
 					"type": "entries",
-					"name": "Appearance",
+					"name": "Внешность",
 					"entries": [
-						"Your Duplicate is a perfect copy of you. It mimics your expressions and gestures, but it is incorporeal, cannot affect objects, and does not occupy its space."
+						"Ваш двойник — точная ваша копия. Он повторяет ваши выражения лица и жесты, но он бесплотен, не может воздействовать на предметы и не занимает своё пространство."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Movement",
+					"name": "Перемещение",
 					"entries": [
-						"As a bonus action, you can have your Illusory Duplicate move up to 30 feet to an unoccupied space within 120 feet of you."
+						"Бонусным действием вы можете переместить своего Иллюзорного двойника на расстояние до 30 футов в свободное пространство в пределах 120 футов от вас."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"entries": [
-						"You can cast Cleric spells as if you were in your Illusory Duplicate's space, but you must use your own senses."
+						"Вы можете сотворять заклинания жреца так, как если бы находились в пространстве своего Иллюзорного двойника, но должны использовать свои собственные чувства."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Trickery",
+					"name": "Обман",
 					"entries": [
-						"If both you and your Duplicate are within 5 feet of a creature, you have advantage on your attack rolls against that creature."
+						"Если и вы, и ваш двойник находитесь в пределах 5 футов от существа, вы совершаете с преимуществом броски атаки по этому существу."
 					]
 				}
 			],
 			"foundryImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp"
 		},
 		{
-			"name": "Mischievous Mask",
+			"name": "Озорная маска",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Обман",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Trickery feature}",
-				"As an action, you touch your Holy Symbol to yourself or another creature and Channel Divinity to cast the {@spell disguise self} spell on it. Unwilling targets must make a Constitution saving throw or suffer its effects."
+				"{@i умение домена Обмана 3-го уровня}",
+				"Действием вы касаетесь священным символом себя или другого существа и применяете Божественный канал, чтобы сотворить на нём заклинание {@spell disguise self}. Нежелающие цели должны преуспеть в спасброске Телосложения, иначе подвергнутся его эффектам."
 			],
 			"foundryImg": "icons/magic/control/fear-fright-white.webp"
 		},
 		{
-			"name": "Tricky Transposition",
+			"name": "Хитрое перемещение",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Обман",
 			"subclassSource": "LLAClr",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Trickery feature}",
-				" The magic of your Illusory Duplicate has increased in service of your deity. Any time that you conjure, or move your Illusory Duplicate, you can undetectably switch places with it."
+				"{@i умение домена Обмана 6-го уровня}",
+				"Магия вашего Иллюзорного двойника усилилась на службе вашему божеству. Всякий раз, когда вы создаёте или перемещаете своего Иллюзорного двойника, вы можете незаметно поменяться с ним местами."
 			],
 			"foundryImg": "icons/magic/time/arrows-circling-pink.webp"
 		},
 		{
-			"name": "Perfect Prank",
+			"name": "Идеальная шалость",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Обман",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Trickery feature}",
-				" You can unleash magic stored within an Illusory Duplicate to vex your foes and aid your allies. When you cast a Cleric spell that targets a creature within 5 feet of your Illusory Duplicate you can dismiss the Duplicate to cause one of these effects:",
+				"{@i умение домена Обмана 18-го уровня}",
+				"Вы можете высвободить магию, хранящуюся в Иллюзорном двойнике, чтобы досадить врагам и помочь союзникам. Когда вы сотворяете заклинание жреца, нацеленное на существо в пределах 5 футов от вашего Иллюзорного двойника, вы можете отпустить двойника, вызвав один из этих эффектов:",
 				{
 					"type": "entries",
-					"name": "Debilitating Distraction",
+					"name": "Изнуряющее отвлечение",
 					"entries": [
-						"The creature must subtract your Wisdom modifier (minimum of 1) from its initial saving throw to resist the effects of your spell."
+						"Существо должно вычесть ваш модификатор Мудрости (минимум 1) из своего первоначального спасброска для сопротивления эффектам вашего заклинания."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Healing Hoax",
+					"name": "Целительный обман",
 					"entries": [
-						"The creature regains (additional) hit points equal to your Cleric level."
+						"Существо восстанавливает (дополнительные) хиты, равные вашему уровню жреца."
 					]
 				}
 			],
 			"foundryImg": "icons/creatures/unholy/demon-fire-imp.webp"
 		},
 		{
-			"name": "Celestial Armory",
+			"name": "Небесная оружейная",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "War",
+			"subclassShortName": "Война",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level War feature}",
-				"You can channel the power of your deity of War through your weapons. For you, any melee weapon you are proficient with counts as a Holy Symbol for your Cleric spells and features.",
-				"You can also call down power from your deity's armory. You can cast the {@spell divine favor (alternate)|llspell} or the {@spell shield of faith} spell at 1st-level, targeting yourself, without expending a spell slot a number of times equal to your Wisdom modifier (minimum of once), and you regain all uses when you complete a long rest."
+				"{@i умение домена Войны 2-го уровня}",
+				"Вы можете направлять силу своего божества войны через своё оружие. Для вас любое рукопашное оружие, которым вы владеете, считается священным символом для ваших заклинаний и умений жреца.",
+				"Вы также можете призвать силу из оружейной своего божества. Вы можете сотворить {@spell divine favor (alternate)|llspell} или {@spell shield of faith} 1-го уровня, нацелившись на себя, не тратя ячейку заклинания, количество раз, равное вашему модификатору Мудрости (минимум один раз), и вы восстанавливаете все использования, завершив продолжительный отдых."
 			],
 			"foundrySystem": {
 				"uses": {
@@ -2865,15 +2865,15 @@
 			"foundryImg": "icons/weapons/swords/sword-gold-holy.webp"
 		},
 		{
-			"name": "War Domain",
+			"name": "Домен войны",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "War",
+			"subclassShortName": "Война",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"Deities of all alignments in the great cosmic struggle bestow the War Domain on their Clerics. Some charge their soldiers to stand in defense of the innocent, while others demand they use this divine power to conquer and subdue. Some Clerics of War become great heroes, and others feared warlords.",
+				"Божества всех мировоззрений в великой космической борьбе даруют домен Войны своим жрецам. Одни поручают своим воинам встать на защиту невинных, другие требуют использовать эту божественную силу для завоевания и подчинения. Некоторые жрецы войны становятся великими героями, а другие — грозными военачальниками.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "War Domain Spells|Alternate Cleric|LLAClr|War|LLAClr|2"
@@ -2885,22 +2885,22 @@
 			]
 		},
 		{
-			"name": "War Domain Spells",
+			"name": "Заклинания домена войны",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "War",
+			"subclassShortName": "Война",
 			"subclassSource": "LLAClr",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level War feature}",
-				" You always have certain spells prepared at the Cleric levels in the table below. The spells count as Cleric spells for you, but they don't count against the spells you can prepare each day: ",
+				"{@i умение домена Войны 2-го уровня}",
+				"У вас всегда подготовлены определённые заклинания на уровнях жреца, указанных в таблице ниже. Эти заклинания считаются для вас заклинаниями жреца, но они не учитываются при подсчёте числа заклинаний, которые вы можете подготовить каждый день:",
 				{
 					"type": "table",
-					"caption": "War Spells",
+					"caption": "Заклинания войны",
 					"colLabels": [
-						"Alternate Cleric Level",
-						"Spells"
+						"Уровень альтернативного жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2908,23 +2908,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell divine favor (alternate)|llspell}, {@spell shield of faith}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell branding smite (alternate)|llspell}, {@spell spiritual weapon}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell conjure volley (alternate)|llspell}, {@spell crusader's mantle}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell freedom of movement}, {@spell guardian of faith}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell holy weapon|xge}, {@spell steel wind strike (alternate)|llspell}"
 						]
 					]
@@ -2933,64 +2933,64 @@
 			"foundryImg": "icons/sundries/books/book-worn-purple.webp"
 		},
 		{
-			"name": "Blessed Fortitude",
+			"name": "Благословенная стойкость",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "War",
+			"subclassShortName": "Война",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level War feature}",
-				" You can fortify your magic with the divine power of your deity. When you cast a Domain Spell which requires concentration, you can Channel Divinity to fortify that spell. For its duration, your concentration cannot be broken by taking damage."
+				"{@i умение домена Войны 3-го уровня}",
+				"Вы можете укрепить свою магию божественной силой своего божества. Когда вы сотворяете заклинание домена, требующее концентрации, вы можете применить Божественный канал, чтобы укрепить это заклинание. На время его действия вашу концентрацию нельзя прервать, получив урон."
 			],
 			"foundryImg": "icons/magic/defensive/shield-barrier-deflect-teal.webp"
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Божественный удар",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "War",
+			"subclassShortName": "Война",
 			"subclassSource": "LLAClr",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level War feature}",
-				"You infuse your strikes with the divine intent of a War deity. When you miss with a Consecrated Weapon attack, you can Channel Divinity to add your Cleric level to your attack roll, possibly turning your missed attack into a hit.",
-				"Beginning at 6th level, you can use this Channel Divinity as a reaction when a creature you can see within 30 feet misses with a weapon attack, granting it the same bonus to its roll."
+				"{@i умение домена Войны 3-го уровня}",
+				"Вы наполняете свои удары божественным намерением божества войны. Когда вы промахиваетесь атакой освящённым оружием, вы можете применить Божественный канал, чтобы добавить свой уровень жреца к броску атаки, возможно превратив промах в попадание.",
+				"Начиная с 6-го уровня вы можете использовать этот Божественный канал в качестве реакции, когда существо, которое вы можете видеть в пределах 30 футов, промахивается атакой оружием, давая ему такой же бонус к броску."
 			],
 			"foundryImg": "icons/skills/targeting/target-strike-triple-blue.webp"
 		},
 		{
-			"name": "War Magic",
+			"name": "Военная магия",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "War",
+			"subclassShortName": "Война",
 			"subclassSource": "LLAClr",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level War feature}",
-				"Your devotion to warfare allows you to weave spell and steel together. When you use your action to Cast a Cleric Spell, you can make one melee weapon attack as a bonus action."
+				"{@i умение домена Войны 6-го уровня}",
+				"Ваша преданность войне позволяет вам сплетать заклинание и сталь воедино. Когда вы используете действие, чтобы сотворить заклинание жреца, вы можете бонусным действием совершить одну рукопашную атаку оружием."
 			],
 			"foundryImg": "icons/magic/fire/dagger-rune-enchant-flame-strong-blue.webp"
 		},
 		{
-			"name": "Paragon of War",
+			"name": "Образец войны",
 			"source": "LLAClr",
 			"className": "Alternate Cleric",
 			"classSource": "LLAClr",
-			"subclassShortName": "War",
+			"subclassShortName": "Война",
 			"subclassSource": "LLAClr",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level War feature}",
-				"You are marked as a divine champion of war itself. Whenever you take the Attack action, you can make two attacks instead of one. Moreover, when you use your action to take the Dash or Disengage action, you can make one melee weapon attack as a bonus action on that turn.",
-				"Finally, you gain Resistance to all bludgeoning, piercing, and slashing damage from weapon attacks."
+				"{@i умение домена Войны 18-го уровня}",
+				"Вы отмечены как божественный поборник самой войны. Всякий раз, когда вы совершаете действие Атака, вы можете совершить две атаки вместо одной. Кроме того, когда вы действием совершаете действие Рывок или Отход, вы можете в этот ход бонусным действием совершить одну рукопашную атаку оружием.",
+				"Наконец, вы получаете сопротивление всему дробящему, колющему и рубящему урону от атак оружием."
 			],
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-purple.webp"
 		}

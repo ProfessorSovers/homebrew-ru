@@ -29,7 +29,7 @@
 	},
 	"class": [
 		{
-			"name": "Witch",
+			"name": "Ведьма",
 			"source": "WitchWBN",
 			"page": 2,
 			"hd": {
@@ -286,12 +286,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|phb} and 20 {@item crossbow bolt|phb|bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) an {@item arcane focus|phb} or (b) a {@item component pouch|phb}",
-					"(a) an {@item explorer's pack|phb} or (b) a {@item scholar's pack|phb}",
-					"Two {@item dagger|phb|daggers}"
+					"(a) {@item light crossbow|phb} и 20 {@item crossbow bolt|phb|болты} или (b) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) {@item arcane focus|phb} или (b) {@item component pouch|phb}",
+					"(a) {@item explorer's pack|phb} или (b) {@item scholar's pack|phb}",
+					"Два {@item dagger|phb|кинжала}"
 				],
-				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
+				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|стартовое золото}",
 				"defaultData": [
 					{
 						"a": [
@@ -338,7 +338,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Cantrips Known"
+						"Известные заговоры"
 					],
 					"rows": [
 						[
@@ -404,7 +404,7 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"colLabels": [
 						"{@filter 1st|spells|level=1|class=Witch (WWBN)}",
 						"{@filter 2nd|spells|level=2|class=Witch (WWBN)}",
@@ -641,84 +641,84 @@
 				}
 			],
 			"classFeatures": [
-				"Spellcasting|Witch|WitchWBN|1",
-				"Witchcraft|Witch|WitchWBN|1",
-				"Witch's Familiar|Witch|WitchWBN|1",
+				"Сотворение заклинаний|Witch|WitchWBN|1",
+				"Ведьмовство|Witch|WitchWBN|1",
+				"Фамильяр ведьмы|Witch|WitchWBN|1",
 				{
-					"classFeature": "Witch's Coven|Witch|WitchWBN|2",
+					"classFeature": "Ведьмовской ковен|Witch|WitchWBN|2",
 					"gainSubclassFeature": true
 				},
-				"Retributive Curses|Witch|WitchWBN|3",
-				"Ability Score Improvement|Witch|WitchWBN|4",
-				"Wracking Curses|Witch|WitchWBN|5",
+				"Возмездные проклятия|Witch|WitchWBN|3",
+				"Увеличение характеристик|Witch|WitchWBN|4",
+				"Мучительные проклятия|Witch|WitchWBN|5",
 				{
-					"classFeature": "Coven Feature|Witch|WitchWBN|6",
+					"classFeature": "Умение ковена|Witch|WitchWBN|6",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Witch|WitchWBN|8",
+				"Увеличение характеристик|Witch|WitchWBN|8",
 				{
-					"classFeature": "Coven Feature|Witch|WitchWBN|10",
+					"classFeature": "Умение ковена|Witch|WitchWBN|10",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Witch|WitchWBN|12",
+				"Увеличение характеристик|Witch|WitchWBN|12",
 				{
-					"classFeature": "Coven Feature|Witch|WitchWBN|14",
+					"classFeature": "Умение ковена|Witch|WitchWBN|14",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Witch|WitchWBN|16",
-				"Willful Walls|Witch|WitchWBN|18",
-				"Ability score Improvement|Witch|WitchWBN|19",
-				"True Craft|Witch|WitchWBN|20"
+				"Увеличение характеристик|Witch|WitchWBN|16",
+				"Упрямые стены|Witch|WitchWBN|18",
+				"Увеличение характеристик|Witch|WitchWBN|19",
+				"Истинное ремесло|Witch|WitchWBN|20"
 			],
-			"subclassTitle": "Covens",
+			"subclassTitle": "Ковены",
 			"hasFluff": true
 		}
 	],
 	"classFluff": [
 		{
-			"name": "Witch",
+			"name": "Ведьма",
 			"source": "WitchWBN",
 			"entries": [
 				{
 					"type": "section",
-					"name": "The Witch",
+					"name": "Ведьма",
 					"source": "WitchWBN",
 					"page": 1,
 					"entries": [
-						"Standing on moss-covered steps in the path of an advancing ogre, a young shrine maiden carefully pours a hot cup of tea. She whispers a word of thanks into the rising steam, and as she raises the drink, the ogre drops the greatclub from his hand as he sits in wonder, gazing at the offering.",
-						"Peering over a bubbling cauldron, a mother watches her child breathe raggedly under a patch-work quilt. A crow alights upon her shoulder with white-blossoming herbs in its beak, and she sighs with relief as she adds them to the magic brew. Striding through the great mead hall, a wizened crone strikes terror into the hearts of once-brave warriors. She points a bony finger at the old king, and as shadow and fire leap to the fury of her cackling command, the king dies knowing he has earned this fate.",
-						"Witches are powerful mages as well as devoted caretakers, combining patience, insight, and subtlety with extraordinary wilfulness. While other spellcasters might use magic in grand gestures that bend the world to their whims, a witch's power works in harmony with the people, plants, animals, and magical forces around them. The practice of witchcraft is often rooted in everyday rituals and chores, emphasizing the value in doing things with care and deliberation rather than taking shortcuts.",
+						"Стоя на покрытых мхом ступенях на пути наступающего Огра, молодая жрица святилища осторожно наливает чашку горячего чая. Она шепчет слова благодарности в поднимающийся пар, и, когда поднимает напиток, Огр выпускает Палицу из руки и садится в изумлении, глядя на подношение.",
+						"Склонившись над бурлящим котлом, мать наблюдает, как её ребёнок хрипло дышит под лоскутным одеялом. Ворона садится ей на плечо; в её клюве — травы с белыми цветами, и мать с облегчением вздыхает, добавляя их в волшебное варево. Проходя через большой пиршественный зал, древняя старуха вселяет ужас в сердца некогда храбрых воинов. Она указывает костлявым пальцем на старого короля, и, когда Тень и Огненный свет взмывают навстречу яростному Приказу её хихиканья, король умирает, зная, что заслужил эту участь.",
+						"Ведьмы — могущественные маги и преданные хранители, сочетающие терпение, Проницательность и утончённость с необычайным своенравием. Пока другие заклинатели могут использовать магию широкими жестами, сгибающими мир согласно их прихотям, сила ведьмы действует в гармонии с окружающими её людьми, растениями, животными и магическими силами. Практика ведьмовства часто основана на повседневных Ритуалах и заботах, подчёркивая ценность выполнения дел тщательно и обдуманно, а не поиска коротких путей.",
 						{
 							"type": "entries",
-							"name": "Powerful Consequences",
+							"name": "Могущественные последствия",
 							"page": 1,
 							"entries": [
-								"Witches are infamous for their curses, but they don't curse others on a whim. A witch's curse is most often a consequence for causing harm or engaging in disrespectful behaviour, to the witch themselves or the people and places under their care. Curses range from a minor, temporary rebuke\u2014causing a bully to startle at their own shadow\u2014to permanent ramifications meted out as justice for wicked acts\u2014transforming a greedy poacher into a helpless deer. If the recipient of the curse demonstrates increased understanding and remorse for their actions, the witch may be persuaded to lift the spell."
+								"Ведьмы печально известны своими проклятиями, но они не проклинают других по прихоти. Проклятие ведьмы чаще всего становится последствием за причинённое Поражение или проявленное неуважительное поведение по отношению к самой ведьме либо к людям и местам, находящимся под её опекой. Проклятия варьируются от незначительного временного порицания — например, задира начинает вздрагивать от собственной Тени, — до постоянных последствий, назначенных в качестве наказания за злодеяния, — например, превращения жадного браконьера в беспомощного Оленя. Если получатель проклятия демонстрирует большее понимание и раскаяние в своих действиях, ведьму можно убедить снять Заклинание."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Connection and Community",
+							"name": "Связь и сообщество",
 							"page": 2,
 							"entries": [
-								"A home\u2014both a location and the people who live there\u2014is a foundational part of witchcraft. A witch often serves as a protector, counsellor, and healer to the people (and animals, plants, and Wicked) who live near them, whether or not this role is sanctioned by the local authorities. Often, this spellwork is seamlessly incorporated into simple home goods and handcrafts, familiar gifts that comfort their recipients and lie dormant until needed. While a witch doesn't necessarily stay in one place, they understand the importance of community, and work to preserve balance between people, the natural world, and supernatural forces wherever they go."
+								"Дом — как место, так и живущие в нём люди — основополагающая часть ведьмовства. Ведьма часто выступает Защитником, советником и Лекарем для людей (а также животных, растений и Злых), живущих поблизости от неё, независимо от того, санкционирована ли эта роль местными властями. Нередко такая работа с заклинаниями незаметно вплетается в простые домашние товары и изделия ручной работы — знакомые подарки, которые утешают получателей и бездействуют до тех пор, пока не понадобятся. Хотя ведьма не обязана оставаться на одном месте, она понимает важность сообщества и стремится повсюду сохранять Равновесие между людьми, природным миром и сверхъестественными силами."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating a Witch",
+							"name": "Создание ведьмы",
 							"page": 2,
 							"entries": [
-								"When making a witch, consider your character's relationship to the world and the creatures around them. How closely do they live to the subjects of their care, and what would it take to make your witch break away from them? How did they meet their familiar, and what do they do for each other? What everyday rituals ground them in their work?",
-								"Perhaps your character is new to witchcraft, or perhaps they spent years as an apprentice learning traditions, rituals, and hexes from their mentor. If your character had a mentor, what was your relationship with that witch, and what lessons did they impart to you beyond the practices of spellcasting and magic?"
+								"Создавая ведьму, подумайте об отношениях вашего персонажа с миром и окружающими его существами. Насколько тесно он живёт с теми, кто находится под его опекой, и что заставило бы вашу ведьму порвать с ними? Как она встретила своего фамильяра и что они делают друг для друга? Какие повседневные Ритуалы помогают ей сохранять связь со своей работой?",
+								"Возможно, ваш персонаж только начинает изучать ведьмовство, а возможно, он провёл годы в качестве Подопечного, изучая традиции, Ритуалы и сглазы у своего Наставника. Если у вашего персонажа был наставник, какими были ваши отношения с этой ведьмой и какие уроки она преподала вам помимо практик Использования заклинаний и магии?"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Quick Build",
+							"name": "Быстрое создание",
 							"page": 2,
 							"entries": [
-								"You can make a witch quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Dexterity or Constitution. Second, choose the {@spell cackle|WitchWBN}, {@spell guidance}, and {@spell mending} cantrips (the {@spell cackle|WitchWBN} cantrip is included at the end of this class)."
+								"Вы можете быстро создать ведьму, следуя этим рекомендациям. Во-первых, мудрость должна быть вашей наивысшей Характеристикой, за которой следуют Ловкость или Телосложение. Во-вторых, выберите Заговоры {@spell Злобный хохот|WitchWBN}, {@spell guidance} и {@spell mending} (заговор {@spell Злобный хохот|WitchWBN} приведён в конце этого класса)."
 							]
 						}
 					]
@@ -728,8 +728,8 @@
 	],
 	"subclass": [
 		{
-			"name": "Coven of the Claw",
-			"shortName": "Claw",
+			"name": "Ковен Когтя",
+			"shortName": "Коготь",
 			"source": "WitchWBN",
 			"className": "Witch",
 			"classSource": "WitchWBN",
@@ -747,18 +747,18 @@
 				"Wyrding|WitchWBN"
 			],
 			"subclassFeatures": [
-				"Coven of the Claw|Witch|WitchWBN|Claw|WitchWBN|2",
-				"Claw Spells|Witch|WitchWBN|Claw|WitchWBN|2",
-				"Curse of the Claw|Witch|WitchWBN|Claw|WitchWBN|2",
-				"Crimson Gift|Witch|WitchWBN|Claw|WitchWBN|2",
-				"Call to the Hunter|Witch|WitchWBN|Claw|WitchWBN|6",
-				"Red Frenzy|Witch|WitchWBN|Claw|WitchWBN|10",
-				"Steady Will|Witch|WitchWBN|Claw|WitchWBN|14"
+				"Ковен Когтя|Witch|WitchWBN|Коготь|WitchWBN|2",
+				"Заклинания Когтя|Witch|WitchWBN|Коготь|WitchWBN|2",
+				"Проклятие Когтя|Witch|WitchWBN|Коготь|WitchWBN|2",
+				"Багровый дар|Witch|WitchWBN|Коготь|WitchWBN|2",
+				"Зов охотника|Witch|WitchWBN|Коготь|WitchWBN|6",
+				"Красное бешенство|Witch|WitchWBN|Коготь|WitchWBN|10",
+				"Стойкая воля|Witch|WitchWBN|Коготь|WitchWBN|14"
 			]
 		},
 		{
-			"name": "Coven of the Green",
-			"shortName": "Green",
+			"name": "Ковен Зелени",
+			"shortName": "Зелёный",
 			"source": "WitchWBN",
 			"className": "Witch",
 			"classSource": "WitchWBN",
@@ -778,18 +778,18 @@
 				"Tree Stride"
 			],
 			"subclassFeatures": [
-				"Coven of the Green|Witch|WitchWBN|Green|WitchWBN|2",
-				"Green Spells|Witch|WitchWBN|Green|WitchWBN|2",
-				"Curse of the Grasping Green|Witch|WitchWBN|Green|WitchWBN|2",
-				"Green Gifts|Witch|WitchWBN|Green|WitchWBN|2",
-				"Wild Growth|Witch|WitchWBN|Green|WitchWBN|6",
-				"Bloodthorn|Witch|WitchWBN|Green|WitchWBN|10",
-				"Verdant Slumber|Witch|WitchWBN|Green|WitchWBN|14"
+				"Ковен Зелени|Witch|WitchWBN|Зелёный|WitchWBN|2",
+				"Заклинания Зелени|Witch|WitchWBN|Зелёный|WitchWBN|2",
+				"Проклятие цепкой зелени|Witch|WitchWBN|Зелёный|WitchWBN|2",
+				"Дары Зелени|Witch|WitchWBN|Зелёный|WitchWBN|2",
+				"Дикий рост|Witch|WitchWBN|Зелёный|WitchWBN|6",
+				"Кровавый шип|Witch|WitchWBN|Зелёный|WitchWBN|10",
+				"Зелёная дремота|Witch|WitchWBN|Зелёный|WitchWBN|14"
 			]
 		},
 		{
-			"name": "Coven of the Heart",
-			"shortName": "Heart",
+			"name": "Ковен Сердца",
+			"shortName": "Сердце",
 			"source": "WitchWBN",
 			"className": "Witch",
 			"classSource": "WitchWBN",
@@ -809,18 +809,18 @@
 				"Raise Dead"
 			],
 			"subclassFeatures": [
-				"Coven of the Heart|Witch|WitchWBN|Heart|WitchWBN|2",
-				"Heart Spells|Witch|WitchWBN|Heart|WitchWBN|2",
-				"Curse upon the Heartless|Witch|WitchWBN|Heart|WitchWBN|2",
-				"Heart's Gifts|Witch|WitchWBN|Heart|WitchWBN|2",
-				"Overflowing Heart|Witch|WitchWBN|Heart|WitchWBN|6",
-				"Sympathetic Bond|Witch|WitchWBN|Heart|WitchWBN|10",
-				"Witch's Grace|Witch|WitchWBN|Heart|WitchWBN|14"
+				"Ковен Сердца|Witch|WitchWBN|Сердце|WitchWBN|2",
+				"Заклинания сердца|Witch|WitchWBN|Сердце|WitchWBN|2",
+				"Проклятие бессердечных|Witch|WitchWBN|Сердце|WitchWBN|2",
+				"Дары сердца|Witch|WitchWBN|Сердце|WitchWBN|2",
+				"Переполняющее сердце|Witch|WitchWBN|Сердце|WitchWBN|6",
+				"Симпатическая связь|Witch|WitchWBN|Сердце|WitchWBN|10",
+				"Ведьмина благодать|Witch|WitchWBN|Сердце|WitchWBN|14"
 			]
 		},
 		{
-			"name": "Coven of the Wicked",
-			"shortName": "Wicked",
+			"name": "Ковен Зловещих",
+			"shortName": "Зловещий",
 			"source": "WitchWBN",
 			"className": "Witch",
 			"classSource": "WitchWBN",
@@ -838,61 +838,61 @@
 				"Contagion"
 			],
 			"subclassFeatures": [
-				"Coven of the Wicked|Witch|WitchWBN|Wicked|WitchWBN|2",
-				"Turning Wicked|Witch|WitchWBN|Wicked|WitchWBN|2",
-				"Curse of Cruelty|Witch|WitchWBN|Wicked|WitchWBN|2",
-				"Loathsome Gifts|Witch|WitchWBN|Wicked|WitchWBN|2",
-				"Curse-Token|Witch|WitchWBN|Wicked|WitchWBN|6",
-				"Malicious Bond|Witch|WitchWBN|Wicked|WitchWBN|10",
-				"Twisted by Cruelty|Witch|WitchWBN|Wicked|WitchWBN|14"
+				"Ковен Зловещих|Witch|WitchWBN|Зловещий|WitchWBN|2",
+				"Обращение к жестокости|Witch|WitchWBN|Зловещий|WitchWBN|2",
+				"Проклятие жестокости|Witch|WitchWBN|Зловещий|WitchWBN|2",
+				"Отвратительные дары|Witch|WitchWBN|Зловещий|WitchWBN|2",
+				"Жетон проклятия|Witch|WitchWBN|Зловещий|WitchWBN|6",
+				"Злонамеренная связь|Witch|WitchWBN|Зловещий|WitchWBN|10",
+				"Искажённая жестокостью|Witch|WitchWBN|Зловещий|WitchWBN|14"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "WitchWBN",
 			"page": 3,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 1,
 			"entries": [
-				"As a custodian of old folkways and the balance between worlds, you can cast witch spells. Your magic works through subtle but emphatic suggestion, channelling your will to influence the wellbeing, fate, or opinions of beings who need a little (or not-so-little) nudge to exist in harmony with others.",
+				"Как хранитель старых народных традиций и равновесия между мирами, вы можете накладывать заклинания ведьмы. Ваша магия действует посредством тонкого, но убедительного внушения, направляя вашу волю, чтобы влиять на благополучие, судьбу или мнения существ, которым нужно немного (или не так уж мало) помочь, чтобы жить в гармонии с другими.",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Заговоры",
 					"page": 3,
 					"entries": [
-						"At 1st level, you know three cantrips of your choice from the {@filter witch spell list|spells|class=Witch (WWBN)}. You gain additional witch cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Witch table."
+						"На 1-м уровне вы знаете три заговора на свой выбор из {@filter witch spell list|spells|class=Witch (WWBN)}. На больших уровнях вы получаете дополнительные заговоры ведьмы на свой выбор, как показано в столбце «Известные заговоры» таблицы ведьмы."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Preparing and Casting Spells",
+					"name": "Подготовка и сотворение заклинаний",
 					"page": 3,
 					"entries": [
-						"The Witch table shows how many spell slots you have to cast your witch spells of 1st Level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"You prepare the list of witch spells that are available for you to cast, choosing from the witch spell list. When you do so, choose a number of witch spells equal to your Wisdom modifier + your witch level (minimum of one spell). The spells must be of a level for which you have spell slots.",
-						"For example, if you are a 3rd-level witch, you have four 1st-level and two 2nd-level Spell Slots. With an Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd Level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of witch spells requires time spent practicing your craft: at least 1 minute per spell Level for each spell on your list."
+						"Таблица ведьмы показывает, сколько ячеек заклинаний у вас есть для накладывания заклинаний ведьмы 1-го уровня и выше. Чтобы наложить одно из этих заклинаний, вы должны израсходовать ячейку заклинания соответствующего уровня или выше. Вы восстанавливаете все израсходованные ячейки заклинаний после продолжительного отдыха.",
+						"Вы подготавливаете список заклинаний ведьмы, доступных для сотворения, выбирая их из списка заклинаний ведьмы. При этом выберите число заклинаний ведьмы, равное вашему модификатору мудрости + вашему уровню ведьмы (минимум 1 заклинание). Заклинания должны быть такого круга, для которого у вас есть ячейки заклинаний.",
+						"Например, если вы ведьма 3-го уровня, у вас есть четыре ячейки заклинаний 1-го круга и две ячейки заклинаний 2-го круга. При мудрости 16 ваш список известных заклинаний может включать 6 заклинаний 1-го или 2-го круга в любой комбинации. Если вы подготовили заклинание 1-го круга {@spell cure wounds}, вы можете сотворить его, используя ячейку заклинаний 1-го или 2-го круга. Сотворение заклинания не удаляет его из списка известных заклинаний.",
+						"Вы можете изменить список известных заклинаний, когда завершаете продолжительный отдых. Подготовка нового списка заклинаний ведьмы требует времени, потраченного на практику вашего ремесла: не менее 1 минуты на каждый круг заклинания для каждого заклинания в вашем списке."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"page": 3,
 					"entries": [
-						"Wisdom is your spellcasting ability for your witch spells, as your magic draws upon your profound attunement to the presence of magic in all things. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a witch spell you cast and when making an attack roll with one.",
+						"Мудрость — ваша базовая характеристика для заклинаний ведьмы, поскольку ваша магия черпает силу из глубокой настройки на присутствие магии во всём сущем. Вы используете мудрость всякий раз, когда заклинание ссылается на вашу базовую характеристику для заклинаний. Кроме того, вы используете модификатор мудрости при определении Сл спасброска для сотворённого вами заклинания ведьмы и при выполнении броска атаки с его помощью.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"wis"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"wis"
 							]
@@ -901,82 +901,82 @@
 				},
 				{
 					"type": "entries",
-					"name": "Ritual Casting",
+					"name": "Ритуальное сотворение",
 					"page": 3,
 					"entries": [
-						"You can cast any witch spell you know as a ritual if that spell has the ritual tag and you have the spell prepared."
+						"Вы можете сотворить любое известное вам заклинание ведьмы как ритуал, если у этого заклинания есть метка ритуала и оно известно вам."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Focus",
+					"name": "Фокусировка для сотворения",
 					"page": 3,
 					"entries": [
-						"You can use an {@item arcane focus|phb} as a spellcasting focus for your witch spells. Witches may also have unusual, homemade, or repurposed objects as their arcane focuses, such as brooms, kitchen knives, kettles, dolls, or similar household objects. To use such an item, you must spend an hour long meditation dedicating it to that purpose."
+						"Вы можете использовать {@item arcane focus|phb} как заклинательную фокусировку для заклинаний ведьмы. Ведьмы также могут использовать необычные, самодельные или приспособленные предметы в качестве магических фокусировок, например мётлы, кухонные ножи, котлы, куклы или подобные бытовые предметы. Чтобы использовать такой предмет, вы должны потратить час на медитацию, посвящая его этой цели."
 					]
 				}
 			]
 		},
 		{
-			"name": "Witch's Familiar",
+			"name": "Фамильяр ведьмы",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 1,
 			"entries": [
-				"A witch's familiar is their lifelong companion and friend. You can choose to invest a willing bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel (or any other CR 0 creature approved by your GM) with magical power. Your familiar acts independently of you, but they generally heed your requests. In combat, they roll their own initiative and act on their own turn.",
-				"When your familiar is reduced to 0 hit points, you can use a reaction to expend a spell slot of 1st level or higher to make them drop to 1 hit point instead. If your familiar dies, you can perform a ritual to revive them during a short or long rest. The ritual requires 10 gp of herbs or incense, and your familiar returns to life with all their hit points.",
-				"You can communicate telepathically with your familiar, regardless of distance. Additionally, as an action, you can see through your familiar's eyes and hear what they hear until the start of your next turn, gaining the benefits of any special senses the familiar has. During this time, you are deaf and blind with regard to your own senses. You can't have more than one familiar at a time. If you choose another animal as your witch's familiar, you lose your connection to your previous familiar.",
+				"Фамильяр ведьмы — её пожизненный спутник и друг. Вы можете наделить магической силой добровольную летучую мышь, кошку, краба, лягушку (жабу), ястреба, ящерицу, осьминога, сову, ядовитую змею, рыбу (квиппера), крысу, ворона, морского конька, паука или куницу (либо любое другое существо с ПО 0, одобренное вашим Мастером). Ваш фамильяр действует независимо от вас, но обычно прислушивается к вашим просьбам. В бою он совершает собственный бросок инициативы и действует в свой ход.",
+				"Когда хиты вашего фамильяра уменьшаются до 0, вы можете реакцией потратить ячейку заклинания 1-го круга или выше, чтобы вместо этого уменьшить его хиты до 1. Если ваш фамильяр умирает, вы можете совершить ритуал, чтобы вернуть его к жизни во время короткого или продолжительного отдыха. Для ритуала требуются травы или благовония стоимостью 10 зм, и фамильяр возвращается к жизни со всеми хитами.",
+				"Вы можете общаться телепатически со своим фамильяром независимо от расстояния. Кроме того, вы можете действием видеть глазами своего фамильяра и слышать то, что слышит он, до начала вашего следующего хода, получая преимущества любых Особых чувств фамильяра. В это время вы Недееспособны и слепы и глухи в отношении собственных чувств. Одновременно у вас не может быть более одного фамильяра. Если вы выберете другое Животное в качестве фамильяра ведьмы, вы потеряете связь с прежним фамильяром.",
 				{
 					"type": "entries",
-					"name": "Magical Assistant",
+					"name": "Магический помощник",
 					"page": 4,
 					"entries": [
-						"When you cast a spell with a range of touch, your familiar can deliver the spell as if they had cast the spell. Your familiar must be within 100 feet of you, and they must use their reaction to deliver the spell when you cast it. If the spell requires an attack roll, they use your attack modifier for the roll.",
-						"While you are maintaining concentration on a spell and touching your familiar, you can transfer concentration to your familiar as a bonus action. Damage that you take can't break your concentration on the spell, though the spell your familiar is concentrating on ends if you cast another spell that requires concentration. You can transfer concentration on the spell back to yourself as a bonus action by touching your familiar.",
-						"Your familiar can use your Constitution saving throw bonus in place of their own if they must make a saving throw to maintain concentration. The spell ends if they lose concentration or if they are killed or incapacitated."
+						"Когда вы накладываете Заклинание с Дистанцией «касание», ваш фамильяр может доставить заклинание, как если бы он сам наложил его. Ваш фамильяр должен находиться в пределах 100 футов от вас и должен использовать свою реакцию, чтобы доставить заклинание, когда вы его накладываете. Если для заклинания требуется бросок атаки, фамильяр использует для этого ваш Модификатор атаки.",
+						"Пока вы поддерживаете концентрацию на заклинании и касаетесь фамильяра, вы можете передать ему концентрацию бонусным действием. Получаемый вами урон не может нарушить вашу концентрацию на заклинании, однако заклинание, на котором концентрируется ваш фамильяр, заканчивается, если вы накладываете другое заклинание, требующее концентрации. Вы можете передать концентрацию на заклинании обратно себе бонусным действием, коснувшись фамильяра.",
+						"Ваш фамильяр может использовать ваш бонус к спасброску Телосложения вместо собственного, если ему требуется совершить спасбросок для поддержания концентрации. Заклинание заканчивается, если фамиляр теряет концентрацию, погибает или становится Недееспособным."
 					]
 				}
 			]
 		},
 		{
-			"name": "Witchcraft",
+			"name": "Ведьмовство",
 			"source": "WitchWBN",
 			"page": 3,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 1,
 			"entries": [
-				"You bring a touch of magic to everyday materials and tasks, and as a result, the fruits of your labour bear a subtle\u2014but potent\u2014power. Savvy witches soon learn that common chores can be just as useful as flashier forms of spellcasting; they can channel magic just as easily by cooking up restorative meals, growing strange medicines in their gardens, weaving charm bracelets, and stitching protection into the seams of clothes. They also empower their familiars to aid them in spellcasting.",
+				"Вы привносите частицу магии в повседневные материалы и задачи, и в результате плоды вашего труда обретают тонкую, но мощную силу. Умелые ведьмы вскоре понимают, что обыкновенные хлопоты могут быть столь же полезны, как и более эффектные формы Использования заклинаний; они могут столь же легко направлять магию, готовя восстанавливающие обеды, выращивая странные лекарства в своих садах, сплетая браслеты-заклятия и вшивая защиту в швы одежды. Они также наделяют своих фамильяров силой, чтобы те помогали им в Использовании заклинаний.",
 				{
 					"type": "entries",
-					"name": "Tokens",
+					"name": "Талисманы",
 					"page": 3,
 					"entries": [
-						"The minor results of a witch's craft\u2014potions, salves, one-use charms, and favours\u2014are commonly called tokens, and any given witch can expect to make countless numbers of them in their lifetime. Many witches make a living by trading tokens with those in need, although few ever become wealthy that way.",
-						"Any 1st-level witch spell that targets one or more creatures can be crafted into a token with 1 hour of labour. To craft it, you must have an unexpended spell slot of a high enough level to cast the spell (you need not have the spell prepared) and you must succeed on a Wisdom check using artisan's tools with a DC of 10 + the spell's level. On a failure, the item isn't created; if the check fails by 5 or more, you also expend a spell slot of the spell's level. You can attempt to make a single token during a short or long rest. Tokens take a form appropriate to the artisan's tools you use to create them. An herbalism kit might produce a potion or salve; chef's tools might produce a cupcake.",
-						"Once created, a creature holding the token can cast the spell from it using your spell save DC, spell attack bonus, and spellcasting ability. If the spell requires concentration, the creature must concentrate. The token then loses its magical properties, becoming a mundane item of its kind. At 9th level, you can create a token with any witch spell of 2nd level or lower. At 13th level, you can create a token with any witch spell of 3rd level or lower.",
-						"You can maintain a number of active tokens equal to your proficiency bonus. If you make an additional token while at your limit, the magic fades from your oldest token."
+						"Незначительные результаты Ремесла ведьмы — зелья, мази, одноразовые заклятия и услуги — обычно называют талисманами, и любая ведьма может рассчитывать создать их бесчисленное множество за свою жизнь. Многие ведьмы зарабатывают на жизнь, обменивая талисманы с нуждающимися, хотя таким образом мало кто становится богатым.",
+						"Любое заклинание ведьмы 1-го уровня, целью которого являются одно или более существ, можно создать в виде талисмана за 1 час труда. Чтобы создать его, вы должны иметь неиспользованную ячейку заклинания достаточно высокого уровня для наложения заклинания (вам не обязательно иметь это заклинание подготовленным) и преуспеть в проверке мудрости с использованием Инструментов ремесленников со Сл 10 + уровень заклинания. При провале предмет не создаётся; если результат проверки меньше Сл на 5 или больше, вы также тратите ячейку заклинания уровня этого заклинания. Вы можете попытаться создать один талисман во время короткого или Продолжительного отдыха. Талисманы принимают форму, соответствующую использованным вами Инструментам ремесленников. Набор травника может дать зелье или мазь, а инструменты повара — кекс.",
+						"Создав талисман, существо, держащее его, может наложить содержащееся в нём заклинание, используя ваш Сл спасброска от заклинаний, бонус атаки заклинаниями и базовую характеристику для заклинаний. Если заклинание требует концентрации, существо должно концентрироваться. После этого талисман теряет свои магические свойства и становится обыкновенным предметом своего вида. На 9-м уровне вы можете создать талисман с любым заклинанием ведьмы 2-го уровня или ниже. На 13-м уровне вы можете создать талисман с любым заклинанием ведьмы 3-го уровня или ниже.",
+						"Вы можете поддерживать количество действующих талисманов, равное вашему бонусу мастерства. Если вы создаёте дополнительный талисман, достигнув предела, магия исчезает из вашего самого старого талисмана."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Talismans",
+					"name": "Амулеты",
 					"page": 3,
 					"entries": [
-						"When you put your back into your craft and devote a little part of yourself to what you're making, you can weave your magic into a talisman that will last forever. Many witches make talismans of their hats, boots, cloaks, or walking sticks. Brooms, athames, keys, and tools are also popular. Some witches guard their talismans jealously, but others craft them specifically for heroes, loved ones, or younger witches under their tutelage.",
-						"Any witch spell that doesn't require a costly material component can be crafted into a talisman if you have an unexpended spell slot of a high enough level to cast it (you need not have the spell prepared). To craft a talisman, you must spend 24 hours of labor (this time need not be continuous) and make a DC 20 Wisdom check using artisan's tools. On a success, you permanently sacrifice a spell slot of the spell's level to complete the talisman.",
-						"A creature holding the talisman can cast that spell from it, using your spell save DC, spell attack bonus, and spellcasting ability. Once the talisman is used to cast its spell, it can't be used that way again until the next dawn.",
-						"You can add more spells to a talisman, or more uses of the same spell, with an additional 24 hours of labour, another Wisdom check using artisan's tools, and another sacrificed spell slot of the appropriate level.",
-						"You can recover the sacrificed spell slot by holding the talisman for 1 minute. The talisman ceases to be a magic item, and you regain that spell slot the next time you finish a long rest. Similarly, if the talisman is destroyed, you regain the spell slot when you finish your next long rest.",
-						"Alternatively, you can sacrifice a 3rd-level spell slot to craft an item from the Common or Uncommon Items table, or a 6th-level spell slot to craft an item from the Rare Items table.",
+						"Когда вы вкладываете всю душу в своё Ремесло и посвящаете небольшую часть себя создаваемому предмету, вы можете вплести магию в амулет, который просуществует вечно. Многие ведьмы создают амулеты из своих шляп, сапог, плащей или посохов. Метлы, атамы, ключи и Инструменты также популярны. Некоторые ведьмы ревниво охраняют свои амулеты, но другие создают их специально для героев, близких людей или молодых ведьм, находящихся под их наставничеством.",
+						"Любое заклинание ведьмы, для которого не требуется дорогостоящий материальный Компонент, можно создать в виде амулета, если у вас есть неиспользованная Ячейка заклинания достаточно высокого уровня для его наложения (вам не обязательно иметь это заклинание подготовленным). Чтобы создать амулет, вы должны потратить 24 часа труда (это время не обязательно должно быть непрерывным) и совершить проверку мудрости со Сл 20 с использованием Инструментов ремесленников. При успехе вы навсегда жертвуете ячейкой заклинания уровня этого заклинания, чтобы завершить создание амулета.",
+						"Существо, держащее талисман, может сотворить это заклинание из него, используя ваш Сл спасброска от заклинаний, бонус атаки заклинанием и базовую характеристику для заклинаний. После того как талисман использован для сотворения своего заклинания, его нельзя использовать таким образом снова до следующего Рассвета.",
+						"Вы можете добавить в талисман больше заклинаний или дополнительные использования того же заклинания, потратив ещё 24 часа на работу, совершив ещё одну проверку мудрости с использованием инструментов ремесленников и пожертвовав ещё одну ячейку заклинания соответствующего уровня.",
+						"Вы можете восстановить пожертвованную ячейку заклинания, держа талисман в течение 1 минуты. Талисман перестаёт быть магическим предметом, и вы восстанавливаете эту ячейку заклинания, когда в следующий раз завершаете продолжительный отдых. Точно так же, если талисман уничтожен, вы восстанавливаете ячейку заклинания, когда завершаете свой следующий продолжительный отдых.",
+						"В качестве альтернативы вы можете пожертвовать ячейкой заклинания 3-го уровня, чтобы создать предмет из таблицы общих или необычных предметов, либо ячейкой заклинания 6-го уровня, чтобы создать предмет из таблицы редких предметов.",
 						{
 							"type": "table",
-							"caption": "Common and Uncommon Items",
+							"caption": "Общие и необычные предметы",
 							"colLabels": [
-								"Magic Item",
-								"Attunement"
+								"Магический предмет",
+								"Настройка"
 							],
 							"colStyles": [
 								"col-10",
@@ -985,72 +985,72 @@
 							"rows": [
 								[
 									"{@item Amulet of Proof against Detection and Location}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item Bag of Tricks}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Boots of the winterlands}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item Brooch of shielding}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item Broom of flying}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Cloak of the manta ray}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Eversmoking bottle}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Gem of brightness}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item lantern of revealing}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item necklace of adaptation}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item periapt of health}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item periapt of wound closure}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item ring of mind shielding}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item slippers of spider climbing}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item stone of good luck}",
-									"Yes"
+									"Да"
 								]
 							]
 						},
 						{
 							"type": "table",
-							"caption": "Rare Items",
+							"caption": "Редкие предметы",
 							"colLabels": [
-								"Magic Item",
-								"Attunement"
+								"Магический предмет",
+								"Настройка"
 							],
 							"colStyles": [
 								"col-10",
@@ -1059,51 +1059,51 @@
 							"rows": [
 								[
 									"{@item Cape of the mountebank}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Cloak of the bat}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item Dagger of venom}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Folding boat}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Gem of seeing}",
-									"Yes"
+									"Да"
 								],
 								[
-									"{@item Heward's Handy Haversack|DMG|Handy Haversack}",
-									"No"
+									"{@item Heward's Handy Haversack|DMG|удобный рюкзак}",
+									"Нет"
 								],
 								[
 									"{@item Horseshoes of speed}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Mantle of spell resistance}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item Periapt of proof against poison}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Ring of feather falling}",
-									"Yes"
+									"Да"
 								],
 								[
 									"{@item Rope of entanglement}",
-									"No"
+									"Нет"
 								],
 								[
 									"{@item Staff of withering}",
-									"Yes"
+									"Да"
 								]
 							]
 						}
@@ -1112,35 +1112,35 @@
 			]
 		},
 		{
-			"name": "Witch's Coven",
+			"name": "Ведьмовской ковен",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"A witch's coven reflects their approach to practicing witchcraft, the intertwined discipline of high spellcasting with the rituals of daily life. A witch's coven is usually shared by a mentor or small group of more experienced witches, although some witches find their philosophy and coven drift from that of their fellows into another, and some have even been known to find their way to a coven's philosophies self-taught."
+				"Ведьмовской ковен отражает их подход к ведьмовству — переплетение дисциплины мастерского использования заклинаний с ритуалами повседневной жизни. Ведьмовской ковен обычно объединяет наставника и небольшую группу более опытных ведьм, хотя некоторые ведьмы обнаруживают, что их философия и ковен расходятся с философией товарищей и превращаются в нечто иное, а некоторые даже находят путь к философии ковена самостоятельно."
 			]
 		},
 		{
-			"name": "Retributive Curses",
+			"name": "Возмездные проклятия",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 3,
 			"entries": [
-				"Witches are quick to punish those who wrong them. A witch's curse carries a personal grudge, imbuing certain spells with additional potency, as shown in the Curse Spells table below.",
-				"Starting at 3rd level, when a creature within 60 feet of you deals damage to you or forces you to make a saving throw, you can cast a curse spell on the triggering creature as a reaction. You must have the spell prepared, have a spell slot of a high enough level to cast it with, and can only target the triggering creature. However, the spell's range becomes 60 feet and you can cast it even if you can't see the triggering creature.",
-				"You can also use this reaction when a creature within range deals damage to or forces a saving throw from a creature holding a token or talisman you've created.",
-				"At the GM's discretion, you may be able to use this reaction when you come within range of someone who has dealt serious harm to you, or to people or things under your care. Someone who burned down your house while you were away might be subject to a curse as soon as you track them down.",
+				"Ведьмы быстро карают тех, кто их обидел. Проклятие ведьмы несёт личную обиду, наделяя определённые заклинания дополнительной мощью, как показано в таблице «Заклинания проклятия» ниже.",
+				"Начиная с 3-го уровня, когда существо в пределах 60 футов от вас наносит вам урон или вынуждает вас совершить спасбросок, вы можете сотворить заклинание проклятия на вызвавшее это существо в качестве реакции. Вы должны иметь это заклинание подготовленным и ячейку заклинания достаточно высокого уровня для его сотворения, а целью может быть только вызвавшее это существо. Однако дистанция заклинания становится равной 60 футам, и вы можете сотворить его, даже если не видите вызвавшее это существо.",
+				"Вы также можете использовать эту реакцию, когда существо в пределах дистанции наносит урон или вынуждает совершить спасбросок существо, держащее жетон или талисман, созданный вами.",
+				"По усмотрению Мастера вы можете использовать эту реакцию, когда оказываетесь в пределах дистанции от кого-то, кто причинил серьёзное поражение вам, людям или вещам, находящимся под вашей опекой. Тот, кто сжёг ваш дом, пока вас не было, может стать целью проклятия, как только вы его выследите.",
 				{
 					"type": "table",
-					"caption": "Curse Spells",
+					"caption": "Заклинания проклятия",
 					"colLabels": [
-						"Spell Level",
-						"Spell",
-						"Concentration"
+						"Круг заклинания",
+						"Заклинание",
+						"Концентрация"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1149,258 +1149,258 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell bane}",
-							"Yes"
+							"Да"
 						],
 						[
-							"1st",
+							"1-й",
 							"{@spell hideous laughter}",
-							"Yes"
+							"Да"
 						],
 						[
-							"1st",
-							"{@spell witch's grasp|WitchWBN}",
-							"Yes"
+							"1-й",
+							"{@spell Хватка ведьмы|WitchWBN}",
+							"Да"
 						],
 						[
-							"2nd",
+							"2-й",
 							"{@spell blindness/deafness}",
-							"No"
+							"Нет"
 						],
 						[
-							"2nd",
+							"2-й",
 							"{@spell ray of enfeeblement}",
-							"Yes"
+							"Да"
 						],
 						[
-							"2nd",
-							"{@spell tongue-tie|WitchWBN}",
-							"Yes"
+							"2-й",
+							"{@spell Связанный язык|WitchWBN}",
+							"Да"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell bestow curse}",
-							"Yes"
+							"Да"
 						],
 						[
-							"4th",
-							"{@spell phantasmal killer} (Coven of the Wicked only)",
-							"Yes"
+							"4-й",
+							"{@spell phantasmal killer} (только для ковена нечестивых)",
+							"Да"
 						],
 						[
-							"5th",
-							"{@spell othershoes|WitchWBN}",
-							"Yes"
+							"5-й",
+							"{@spell Чужие ботинки|WitchWBN}",
+							"Да"
 						],
 						[
-							"6th",
+							"6-й",
 							"{@spell irresistable dance}",
-							"Yes"
+							"Да"
 						],
 						[
-							"6th",
+							"6-й",
 							"{@spell flesh to stone}",
-							"Yes"
+							"Да"
 						],
 						[
-							"8th",
-							"{@spell miser's menace|WitchWBN}",
-							"No"
+							"8-й",
+							"{@spell Угроза скряги|WitchWBN}",
+							"Нет"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell imprisonment}",
-							"No"
+							"Нет"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Wracking Curses",
+			"name": "Мучительные проклятия",
 			"source": "WitchWBN",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 5,
 			"entries": [
-				"A witch's curse inflicts added harm on any who have wronged them. Starting at 5th level, once per turn when you deal damage to a creature that is under the effects of a curse you cast with your Retributive Curses feature, you can deal an extra 1d10 psychic damage to it.",
-				"When you reach 11th level in this class, the extra damage increases to 2d10."
+				"Проклятие ведьмы наносит дополнительное поражение всем, кто причинил ей зло. Начиная с 5-го уровня, раз за ход, когда вы наносите урон существу, находящемуся под действием проклятия, наложенного вами с помощью умения «Мстительные проклятия», вы можете нанести ему дополнительно 1d10 психического урона.",
+				"Когда вы достигаете 11-го уровня в этом классе, дополнительный урон увеличивается до 2d10."
 			]
 		},
 		{
-			"name": "Coven Feature",
+			"name": "Умение ковена",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain a feature granted by your Witch Coven."
+				"На 6-м уровне вы получаете умение, предоставляемое вашим ведьмовским ковеном."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "WitchWBN",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Coven Feature",
+			"name": "Умение ковена",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain a feature granted by your Witch Coven."
+				"На 10-м уровне вы получаете умение, предоставляемое вашим ведьмовским ковеном."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "WitchWBN",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Coven Feature",
+			"name": "Умение ковена",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain a feature granted by your Witch Coven."
+				"На 14-м уровне вы получаете умение, предоставляемое вашим ведьмовским ковеном."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "WitchWBN",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Willful Walls",
+			"name": "Упрямые стены",
 			"source": "WitchWBN",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 18,
 			"entries": [
-				"At 18th level, a witch's labour bears so much of their connection to magic that the very sticks, stones, walls, and hearth of their dwelling respond. You may take 8 hours to fashion a place where you've taken a long rest into a sanctum. If the place is already owned or inhabited, you must have permission from its owner to reside there. You determine the boundaries of your sanctum, but you must be able to traverse its perimeter in an hour or less.",
-				"If you have a sanctum that's at least 7 days old, it becomes highly resistant to intrusion; you can cast the {@spell hallow} spell on one 60-foot-radius area within your sanctum without material components. If you are in your sanctum when a creature tries to force its way into this area, you can impose disadvantage on the Charisma saving throw it makes to ignore the spell's effects.",
-				"You can only have one sanctum at a time. Whenever you fashion a new sanctum, your old sanctum goes dormant, and if you decide to restore it, it takes another 8 hours of labour and another 7 days to regain its full power. If you designate a new sanctum, any {@spell hallow} spell you cast on a previous sanctum with this feature immediately ends."
+				"На 18-м уровне труд ведьмы настолько сильно связан с магией, что сами палки, камни, стены и очаг её жилища начинают откликаться. Вы можете потратить 8 часов, чтобы превратить место, где вы провели продолжительный отдых, в святилище. Если это место уже кому-то принадлежит или кем-то заселено, вы должны получить разрешение владельца жить там. Вы определяете границы своего святилища, но должны быть способны обойти его по периметру за 1 час или быстрее.",
+				"Если вашему святилищу не менее 7 дней, оно становится чрезвычайно устойчивым к вторжениям; вы можете наложить заклинание {@spell hallow} на одну область радиусом 60 футов внутри своего святилища без материальных компонентов. Если вы находитесь в своём святилище, когда существо пытается силой проникнуть в эту область, вы можете наложить помеху на спасбросок Харизмы, который оно совершает, чтобы игнорировать эффекты заклинания.",
+				"Одновременно у вас может быть только одно святилище. Когда вы создаёте новое святилище, ваше старое святилище бездействует, и если вы решите восстановить его, потребуется ещё 8 часов труда и ещё 7 дней, чтобы оно восстановило полную силу. Если вы назначаете новое святилище, действие любого заклинания {@spell hallow}, наложенного вами на предыдущее святилище с помощью этого умения, немедленно заканчивается."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "WitchWBN",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "True Craft",
+			"name": "Истинное ремесло",
 			"source": "WitchWBN",
 			"page": 5,
 			"className": "Witch",
 			"classSource": "WitchWBN",
 			"level": 20,
 			"entries": [
-				"True witchcraft knows no limits. At 20th level, you can create a token or talisman using a spell of 8th level or lower from another class's spell list by expending a spell slot one level higher than the spell you choose."
+				"Истинное ведьмовство не знает границ. На 20-м уровне вы можете создать талисман или амулет, используя заклинание 8-го уровня или ниже из списка заклинаний другого класса, потратив ячейку заклинания на 1 уровень выше выбранного заклинания."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Coven of the Claw",
+			"name": "Ковен Когтя",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Claw",
+			"subclassShortName": "Коготь",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"Living far from civilization in remote places of wilderness and isolation, the Coven of the Claw's wisdom is piercing, contemplative, and often ascetic. Claw witches tend to their fellow outsiders, trappers and hunters and hermits with no one else to watch over them, and to those compelled to travel the hard path, deep and far, to seek them out. Their care is harsh and truthful, but they fiercely protect their territory and those within it against harm and exploitation."
+				"Живя вдали от цивилизации, в отдалённых местах дикой природы и уединения, ковен Когтя обладает проницательной, созерцательной и часто аскетичной мудростью. Ведьмы Когтя заботятся о других чужаках, ловцах, охотниках и отшельниках, которым больше некому помочь, а также о тех, кто вынужден идти трудным путём, преодолевая большие расстояния и глубокие дебри, чтобы отыскать их. Их забота сурова и правдива, но они яростно защищают свою территорию и тех, кто находится на ней, от поражения и эксплуатации."
 			]
 		},
 		{
-			"name": "Crimson Gift",
+			"name": "Багровый дар",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Claw",
+			"subclassShortName": "Коготь",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"Witches of the Coven of the Claw are trained for battle as few other witches are. When you choose this coven, you gain the following benefits:",
+				"Ведьмы ковена Когтя обучены сражаться лучше, чем большинство других ведьм. Выбирая этот ковен, вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with light and medium armour, and with shields.",
-						"Your hit point maximum increases by 2, and each time you gain a level in the witch class your hit point maximum increases by an additional 1 hit point.",
-						"You can use Wisdom instead of Strength or Dexterity for your weapon attack and damage rolls, including unarmed strikes."
+						"Вы получаете владение лёгкими и средними доспехами, а также щитами.",
+						"Ваш максимум хитов увеличивается на 2, а каждый раз, когда вы получаете уровень в классе ведьмы, ваш максимум хитов увеличивается ещё на 1 хит.",
+						"Вы можете использовать мудрость вместо Силы или Ловкости для бросков атаки и урона оружием, включая безоружные удары."
 					]
 				}
 			]
 		},
 		{
-			"name": "Claw Spells",
+			"name": "Заклинания Когтя",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Claw",
+			"subclassShortName": "Коготь",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your philosophical understanding of the laws of wild places grants you access to certain spells. At 2nd level, you learn the {@spell poison spray} and {@spell primal savagery} cantrips. You gain access to additional spells when you reach certain levels in this class, as shown in the Coven of the Claw Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the witch spell list, the spell is nonetheless a witch spell for you.",
+				"Ваше философское понимание законов диких мест даёт вам доступ к определённым заклинаниям. На 2-м уровне вы изучаете заговоры {@spell poison spray} и {@spell primal savagery}. Вы получаете доступ к дополнительным заклинаниям, когда достигаете определённых уровней в этом классе, как показано в таблице «Заклинания ковена Когтя».",
+				"Получив доступ к одному из этих заклинаний, вы всегда считаете его подготовленным, и оно не учитывается при подсчёте числа заклинаний, которые вы можете подготавливать каждый день. Если вы получаете доступ к заклинанию, отсутствующему в списке заклинаний ведьмы, для вас оно всё равно считается заклинанием ведьмы.",
 				{
 					"type": "table",
-					"caption": "Coven of Claw Spells",
+					"caption": "Заклинания ковена Когтя",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1408,23 +1408,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell Hunter's Mark}, {@spell Speak with Animals}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell alter self}, {@spell spider climb}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell conjure animals}, {@spell haste}"
 						],
 						[
-							"7th",
-							"{@spell dominate beast}, {@spell wyrding|WitchWBN}"
+							"7-й",
+							"{@spell dominate beast}, {@spell Вирдинг|WitchWBN}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell insect plague}, {@spell hold monster}"
 						]
 					]
@@ -1432,36 +1432,36 @@
 			]
 		},
 		{
-			"name": "Curse of the Claw",
+			"name": "Проклятие Когтя",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Claw",
+			"subclassShortName": "Коготь",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When you cast {@spell hunter's mark} or a curse spell on one or more creatures, for the duration of the spell you can use a bonus action to make a melee weapon attack against an affected target within 5 feet of you using an unarmed strike or simple weapon."
+				"Когда вы накладываете {@spell hunter's mark} или заклинание проклятия на одно или несколько существ, вы можете в течение длительности заклинания использовать бонусное действие, чтобы совершить атаку оружием ближнего боя по поражённой цели в пределах 5 футов от вас, используя безоружный удар или простое оружие."
 			]
 		},
 		{
-			"name": "Call to the Hunter",
+			"name": "Зов охотника",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Claw",
+			"subclassShortName": "Коготь",
 			"subclassSource": "WitchWBN",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You can call an allied Beast to your side in times of need, drawing on your reciprocal connection to the living things around you. When you summon this ally, choose its native environment: Air, Land, or Water. The creature has the form of an animal native to the chosen environment, which determines certain traits in its stat block. The creature disappears after 1 minute or when it is reduced to 0 hit points.",
-				"In combat, it shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it defends itself from hostile creatures or takes the Dodge action, using its movement to avoid danger.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest, or until you expend a spell slot of 2nd level or higher as an action to regain the use of this feature.",
+				"В трудные времена вы можете призвать союзного зверя на свою сторону, черпая силу из взаимной связи с окружающими вас живыми существами. Призывая этого союзника, выберите его естественную среду: Воздух, суша или Вода. Существо принимает облик животного, обитающего в выбранной среде, что определяет некоторые особенности в его блоке характеристик. Существо исчезает через 1 минуту или когда его хиты уменьшаются до 0.",
+				"В бою оно делит с вами значение инициативы, но ходит сразу после вас. Оно подчиняется вашим устным командам (вам не требуется для этого действие). Если вы не отдаёте приказов, оно защищается от враждебных существ или совершает действие «Уклонение», используя своё перемещение, чтобы избежать опасности.",
+				"Использовав эту особенность, вы не можете использовать её снова, пока не завершите короткий или продолжительный отдых либо не потратите ячейку заклинания 2-го уровня или выше действием, чтобы восстановить возможность использования этой особенности.",
 				{
 					"type": "statblock",
-					"name": "Allied Hunter",
+					"name": "Союзный охотник",
 					"source": "WitchWBN",
 					"page": 7,
 					"tag": "creature",
@@ -1470,94 +1470,94 @@
 			]
 		},
 		{
-			"name": "Red Frenzy",
+			"name": "Красное бешенство",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Claw",
+			"subclassShortName": "Коготь",
 			"subclassSource": "WitchWBN",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"You can attack twice, instead of once, whenever you take the Attack action on your turn or make an attack as part of casting the {@spell primal savagery} cantrip. Alternatively, when you take the Attack action on your turn, you can cast one of your witch cantrips in place of one of those attacks."
+				"Вы можете атаковать дважды вместо одного раза, когда совершаете действие «Атака» в свой ход или совершаете атаку в рамках сотворения заговора {@spell primal savagery}. В качестве альтернативы, совершая действие «Атака» в свой ход, вы можете сотворить один из своих заговоров ведьмы вместо одной из этих атак."
 			]
 		},
 		{
-			"name": "Steady Will",
+			"name": "Стойкая воля",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Claw",
+			"subclassShortName": "Коготь",
 			"subclassSource": "WitchWBN",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You can't lose concentration on {@spell hunter's mark} or curse spells that you cast as a result of taking damage. Additionally, you have advantage on saving throws against the {@condition frightened} and {@condition stunned} conditions."
+				"Вы не можете потерять концентрацию на {@spell hunter's mark} или заклинаниях проклятия, которые накладываете, в результате получения урона. Кроме того, вы совершаете с преимуществом спасброски от состояний {@condition frightened} и {@condition stunned}."
 			]
 		},
 		{
-			"name": "Coven of the Green",
+			"name": "Ковен Зелени",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Green",
+			"subclassShortName": "Зелёный",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"The Coven of the Green are custodians of ancient medicinal wisdom, showing their care by attentively cultivating things that grow and transforming them into nourishment, charms, salves and poultices. They understand best the symmetry between people and the natural world, the dancing of bees and the games that hares and foxes play, and how the roots of trees and fungi lace together and support a stump that's been cut. But being so aware of the big picture places them beyond and apart from it; green witches tend to settle well outside of towns and villages, if only a short trip away. A gardener tends the flower beds, but she isn't herself a flower."
+				"Ковен Зелени хранит древнюю лекарственную мудрость, проявляя заботу посредством внимательного выращивания растений и превращения их в пищу, обереги, мази и припарки. Лучше всего они понимают симметрию между людьми и природным миром, танец пчёл и игры, в которые играют зайцы и лисы, а также то, как корни деревьев и грибов переплетаются и поддерживают срубленный пень. Но столь глубокое понимание общей картины отделяет их от неё и выводит за её пределы; ведьмы Зелени обычно селятся далеко за пределами городов и деревень, пусть даже всего в нескольких минутах пути. Садовник ухаживает за клумбами, но сам он не является цветком."
 			]
 		},
 		{
-			"name": "Green Gifts",
+			"name": "Дары Зелени",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Green",
+			"subclassShortName": "Зелёный",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"You gain proficiency with a herbalism kit and a poisoner's kit. You gain resistance to poison damage, and you have advantage on saving throws to avoid or end the poisoned condition. Additionally, you can keep plant cuttings alive and well for as long as they're on your person, and can coax them into taking root again with 1 hour of labor. While you're carrying a plant cutting, you may use it as an arcane focus.",
-				"As part of a short or long rest, you can prepare an herbal tea for up to eight creatures. A creature that drinks this tea during this rest gains advantage on the next Constitution saving throw it makes before the end of its next long rest."
+				"Вы получаете владение набором травника и инструментами отравителя. Вы получаете сопротивление урону ядом и совершаете с преимуществом спасброски, чтобы избежать состояния Отравленный или прекратить его действие. Кроме того, вы можете сохранять черенки растений живыми и здоровыми, пока носите их при себе, а также заставить их снова укорениться за 1 час работы. Пока вы носите черенок растения, вы можете использовать его как магическую фокусировку.",
+				"Во время короткого или продолжительного отдыха вы можете приготовить травяной чай не более чем для 8 существ. Существо, выпившее этот чай во время отдыха, получает преимущество на следующий спасбросок Телосложения, который оно совершит до окончания следующего продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Curse of the Grasping Green",
+			"name": "Проклятие цепкой зелени",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Green",
+			"subclassShortName": "Зелёный",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A creature under the effects of a curse spell you cast also treats soil and nonmagical vegetation as difficult terrain for the duration of the spell. A flying creature treats air within 15 feet of soil or nonmagical plants as difficult terrain. While in difficult terrain, the creature also has disadvantage on saving throws against spells and abilities that would grant the {@condition prone} and {@condition restrained} conditions.",
-				"However, when you cast a spell that creates magical plant growth or transforms the ground in an area, creatures of your choice automatically succeed on saving throws against the spell's effects, and they can move normally through the area even if your spell turns it into difficult terrain."
+				"Существо, находящееся под действием заклинания проклятия, наложенного вами, также считает почву и немагическую растительность труднопроходимой местностью на время действия заклинания. Летающее существо считает воздух в пределах 15 футов от почвы или немагических растений труднопроходимой местностью. Находясь в труднопроходимой местности, существо также совершает с помехой спасброски против заклинаний и умений, которые накладывают состояния {@condition prone} и {@condition restrained}.",
+				"Однако, когда вы накладываете заклинание, создающее магический рост растений или изменяющее землю на определённой территории, выбранные вами существа автоматически преуспевают в спасбросках против эффектов этого заклинания, а также могут нормально перемещаться по этой территории, даже если ваше заклинание превращает её в труднопроходимую местность."
 			]
 		},
 		{
-			"name": "Green Spells",
+			"name": "Заклинания Зелени",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Green",
+			"subclassShortName": "Зелёный",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your connection with root and leaf grants you access to certain spells. At 2nd level, you learn the {@spell druidcraft} and {@spell thorn whip} cantrips. You gain access to additional spells when you reach certain levels in this class, as shown in the Coven of the Green Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the witch spell list, the spell is nonetheless a witch spell for you.",
+				"Ваша связь с корнями и листьями позволяет вам получить доступ к определённым заклинаниям. На 2-м уровне вы изучаете заговоры {@spell druidcraft} и {@spell thorn whip}. Вы получаете доступ к дополнительным заклинаниям при достижении определённых уровней в этом классе, как показано в таблице «Ковен зелёных заклинаний».",
+				"Получив доступ к одному из этих заклинаний, вы всегда считаете его подготовленным, и оно не учитывается при подсчёте числа заклинаний, которые вы можете подготавливать каждый день. Если вы получаете доступ к заклинанию, отсутствующему в списке заклинаний ведьмы, для вас оно всё равно считается заклинанием ведьмы.",
 				{
 					"type": "table",
-					"caption": "Coven of Green Spells",
+					"caption": "Ковен зелёных заклинаний",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1565,23 +1565,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell Entangle}, {@spell Goodberry}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell Barkskin}, {@spell Spike Growth}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell Plant Growth}, {@spell Speak with Plants}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell Grasping Vine}, {@spell Hallucinatory Terrain}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell Commune with Nature}, {@spell Tree Stride}"
 						]
 					]
@@ -1589,17 +1589,17 @@
 			]
 		},
 		{
-			"name": "Wild Growth",
+			"name": "Дикий рост",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Green",
+			"subclassShortName": "Зелёный",
 			"subclassSource": "WitchWBN",
 			"level": 6,
 			"entries": [
-				"Plants around you grow faster while your dreaming mind works on them. When you plant seeds or clippings in fertile soil at the start of a long rest, they grow as if a month has passed when you finish that long rest. They must be exposed to sunlight or moonlight, and they must be within 30 feet of you for the duration of your rest.",
-				"If you grow herbs with this feature, the next time you prepare spells, you can create a number of potions equal to your proficiency bonus from herbs that you grow, chosen from the following options:",
+				"Растения вокруг вас растут быстрее, пока ваш сновидящий разум работает над ними. Когда вы сажаете семена или черенки в плодородную почву в начале продолжительного отдыха, к его окончанию они вырастают так, словно прошёл месяц. Они должны находиться под солнечным или лунным светом и в пределах 30 футов от вас всё время отдыха.",
+				"Если вы выращиваете травы с помощью этого умения, во время следующей подготовки заклинаний вы можете создать из выращенных вами трав количество зелий, равное вашему бонусу мастерства, выбрав их из следующих вариантов:",
 				{
 					"type": "list",
 					"items": [
@@ -1609,103 +1609,103 @@
 						"{@item Potion of growth}",
 						"{@item Potion of healing}",
 						"{@item Potion of mind reading}",
-						"{@item Potion of resistance} (you decide the type of resistance it grants)",
+						"{@item Potion of resistance} (вы определяете вид предоставляемого им сопротивления)",
 						"{@item Potion of water breathing}"
 					]
 				},
-				"Potions that you create with this feature lose their potency in 24 hours if unused. You can gather seeds or clippings for this feature with 10 minutes of labor in a garden or other fertile area, or purchase seeds worth at least 1 gp."
+				"Зелья, созданные с помощью этого умения, теряют свои свойства через 24 часа, если их не использовать. Вы можете собрать семена или черенки для этого умения, потратив 10 минут на работу в саду или другой плодородной местности, либо купить семена стоимостью не менее 1 зм."
 			]
 		},
 		{
-			"name": "Bloodthorn",
+			"name": "Кровавый шип",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Green",
+			"subclassShortName": "Зелёный",
 			"subclassSource": "WitchWBN",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"You can sprout deadly thorns from vines you create. As a bonus action when a creature is {@condition grappled}, {@condition restrained}, or {@condition paralyzed} by a witch spell you cast, you can impale that creature with thorns, dealing 2d8 + your Wisdom modifier piercing damage."
+				"Вы можете выращивать смертоносные шипы на созданных вами лозах. Бонусным действием, когда существо оказывается {@condition grappled}, {@condition restrained} или {@condition paralyzed} наложенным вами ведьмовским заклинанием, вы можете пронзить это существо шипами, нанеся ему 2d8 + ваш модификатор мудрости колющего урона."
 			]
 		},
 		{
-			"name": "Verdant Slumber",
+			"name": "Зелёная дремота",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Green",
+			"subclassShortName": "Зелёный",
 			"subclassSource": "WitchWBN",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You can preserve defeated foes or fallen allies in a lasting slumber. When a creature you can see within 60 feet of you would die as a result of damage or failed death saving throws, you can stabilize it and put it to sleep at 0 hit points as a reaction. The creature remains asleep for 24 hours, or until you choose for it to awaken as an action. It is immune to all damage in this form.",
-				"If you move the creature to an area of fertile soil and natural growth, the duration of its slumber extends to a year and a day, as moss and vines grow over it. When you sleep within 60 feet of the sleeping creature, you can communicate with it in dreams. Many creatures preserved in this way are willing to share knowledge in exchange for eventual release, and you have advantage on Charisma checks that you make to interact with them.",
-				"You can extend the duration of a creature's slumber by another year and a day by expending a 7th-level spell slot as an action on the day that the duration would end. Otherwise, it wakes as if it had finished a long rest.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Вы можете сохранять поверженных врагов или павших союзников в продолжительном сне. Когда видимое вами существо в пределах 60 футов от вас должно погибнуть из-за урона или проваленных спасбросков от смерти, вы можете реакцией стабилизировать его и погрузить в сон с 0 хитами. Существо остаётся спящим в течение 24 часов или пока вы не решите пробудить его действием. В этой форме оно невосприимчиво ко всему урону.",
+				"Если вы переместите существо в область с плодородной почвой и естественной растительностью, длительность его сна увеличивается до года и одного дня, пока мох и лозы разрастаются по нему. Когда вы спите в пределах 60 футов от спящего существа, вы можете общаться с ним во сне. Многие существа, сохранённые таким образом, готовы делиться знаниями в обмен на последующее освобождение, и вы совершаете с преимуществом проверки Харизмы, совершённые для взаимодействия с ними.",
+				"Вы можете продлить сон существа ещё на год и один день, потратив ячейку заклинания 7-го уровня действием в день, когда должна закончиться длительность сна. В противном случае оно просыпается так, словно завершило продолжительный отдых.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Coven of the Heart",
+			"name": "Ковен Сердца",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Heart",
+			"subclassShortName": "Сердце",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"Of all witches, witches of the heart take the most interest in the lives and troubles of ordinary people, and they excel as matchmakers, advice-givers, and gossips. Whether they dwell in the charmingly odd house at the edge of town or in the attic apartments above a busy store, heart witches tend to live among the people that their magic serves and become fixtures of community life, attending town halls and festivals and helping out around town until others hardly think there's anything remarkable about a witch living among them."
+				"Из всех ведьм именно ведьмы сердца проявляют наибольший интерес к жизням и проблемам обычных людей и преуспевают в роли свах, советчиц и сплетниц. Живут ли они в очаровательно странном доме на окраине города или в чердачных квартирах над оживлённым магазином, ведьмы сердца обычно селятся среди людей, которым служит их магия, и становятся неотъемлемой частью жизни общины: посещают городские собрания и фестивали, помогают по городу, пока окружающие почти перестают считать удивительным то, что ведьма живёт среди них."
 			]
 		},
 		{
-			"name": "Heart's Gifts",
+			"name": "Дары сердца",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Heart",
+			"subclassShortName": "Сердце",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"When you cast {@spell spare the dying} or a spell that restores hit points to a creature, you can expend a number of Hit Dice up to your proficiency bonus to roll an equal number of d6s and add the total to the number of hit points one target of your spell regains."
+				"Когда вы накладываете {@spell spare the dying} или Заклинание, восстанавливающее хиты существо, вы можете потратить количество Костей хитов вплоть до вашего бонуса владения, бросить такое же количество d6 и прибавить итог к количеству хитов, которое восстанавливает одна цель вашего заклинания."
 			]
 		},
 		{
-			"name": "Curse upon the Heartless",
+			"name": "Проклятие бессердечных",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Heart",
+			"subclassShortName": "Сердце",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When you cast a curse spell on one or more creatures, you also reduce the targets' ability to inflict harm on others. For the duration of your curse, once per round when a target of your spell deals damage, you can roll a d8 and reduce the damage it deals to one target by that amount. If the target of your curse is a Fiend or Undead, roll the die twice and use the higher roll."
+				"Когда вы накладываете заклинание-проклятие на одно или несколько существ, вы также уменьшаете способность Целей причинять Поражение другим. В течение длительности вашего проклятия раз за Раунд, когда цель вашего заклинания наносит урон, вы можете бросить d8 и уменьшить наносимый ею урон одной цели на выпавшее число. Если цель вашего проклятия — исчадие или Нежить, бросьте Кость дважды и используйте больший результат."
 			]
 		},
 		{
-			"name": "Heart Spells",
+			"name": "Заклинания сердца",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Heart",
+			"subclassShortName": "Сердце",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your connection to the magic of emotions and bonds grants you access to certain spells. At 2nd level, you learn the {@spell prestidigitation} and {@spell spare the dying} cantrips. You gain access to additional spells when you reach certain levels in this class, as shown in the Coven of the Heart Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the witch spell list, the spell is nonetheless a witch spell for you.",
+				"Ваша связь с магией эмоций и узами предоставляет вам доступ к определённым заклинаниям. На 2-м уровне вы изучаете Заговоры {@spell prestidigitation} и {@spell spare the dying}. Вы получаете доступ к дополнительным заклинаниям, когда достигаете определённых уровней этого класса, как показано в таблице «Заклинания ковена сердца».",
+				"Получив доступ к одному из этих заклинаний, вы всегда считаете его подготовленным, и оно не учитывается при подсчёте числа заклинаний, которые вы можете подготавливать каждый день. Если вы получаете доступ к заклинанию, отсутствующему в списке заклинаний ведьмы, для вас оно всё равно считается заклинанием ведьмы.",
 				{
 					"type": "table",
-					"caption": "Coven of Heart Spells",
+					"caption": "Ковен заклинаний сердца",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1713,23 +1713,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell Healing word}, {@spell Sanctuary}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell calm emotions}, {@spell warding bond}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell mass healing word}, {@spell revivify}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell death ward}, {@spell Otiluke's resilient sphere|PHB}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell rary's telepathic bond|PHB}, {@spell raise dead}"
 						]
 					]
@@ -1737,125 +1737,125 @@
 			]
 		},
 		{
-			"name": "Overflowing Heart",
+			"name": "Переполняющее сердце",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Heart",
+			"subclassShortName": "Сердце",
 			"subclassSource": "WitchWBN",
 			"level": 6,
 			"entries": [
-				"You begin to channel your true feelings into your magic. When you finish a long rest, you can select a number of willing creatures up to your proficiency bonus + your Wisdom modifier. When you cast a spell that targets one or more of these creatures, you can replace one verbal or somatic component, or one material component worth up to 500 gp. You replace that component with the target's laughter or tears, or a shared kiss or embrace"
+				"Вы начинаете направлять свои истинные чувства в свою магию. Когда вы заканчиваете Продолжительный отдых, вы можете выбрать количество готовых существ вплоть до вашего бонуса владения + ваш Модификатор мудрости. Когда вы накладываете заклинание, нацеленное на одно или несколько из этих существ, вы можете заменить один вербальный или соматический Компонент либо один материальный Компонент стоимостью до 500 зм. Вы заменяете этот Компонент смехом или слезами цели либо общим поцелуем или объятием"
 			]
 		},
 		{
-			"name": "Sympathetic Bond",
+			"name": "Симпатическая связь",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Heart",
+			"subclassShortName": "Сердце",
 			"subclassSource": "WitchWBN",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"The bonds of the heart care nothing for distance. When a creature gives you an object that symbolizes their friendship or love, such as a lock of hair or a rose in bloom, you can target them with spells you cast as if you can see and touch them while you hold the object. If the creature's friendship or love toward you ends, the object loses this feature and you are aware of it."
+				"Узы сердца не ведают расстояний. Когда существо передаёт вам предмет, символизирующий его дружбу или любовь, например прядь волос или распустившуюся розу, вы можете выбирать его целью накладываемых вами Заклинаний, как если бы вы могли видеть и касаться его, пока держите предмет. Если дружба или любовь существа к вам прекращается, предмет утрачивает это свойство, и вы узнаёте об этом."
 			]
 		},
 		{
-			"name": "Witch's Grace",
+			"name": "Ведьмина благодать",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Heart",
+			"subclassShortName": "Сердце",
 			"subclassSource": "WitchWBN",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"The power of your sympathy and empathy can overwhelm the hardest of hearts, making you a powerful force for reconciliation. When a creature that you and your allies haven't harmed or insulted deals damage to you or an ally of yours that you can see, you can use an action on your turn to implore the creature to cease hostility. At the start of your next turn, if the creature has not been attacked, threatened, or forced to make a saving throw by you and your allies since you used this feature, it feels the presence of a curse waiting to inflict consequences should it harm you or your allies. For the next 24 hours, or until you or your allies attack, threaten, or force the creature to make a saving throw, the act of harming you or your allies causes the curse to immediately take effect. While cursed in this way, the creature has disadvantage on all ability checks, attack rolls, and saving throws for the following 24 hours, including the action that triggered the curse.",
-				"Creatures that can't understand a language can't be affected by this feature. If you or your allies have harmed or insulted a creature but made sufficient amends (as determined by the GM), you can use this feature as if you have not done harm or given insult.",
-				"Once you use this feature, you can't do so again until you expend a 7th-level spell slot as an action to regain the use of it."
+				"Сила вашей Симпатии и эмпатии может сокрушить самые чёрствые сердца, делая вас мощной силой примирения. Когда существо, которому вы и ваши союзники не причиняли Поражения и не оскорбляли его, наносит урон вам или видимому вами союзнику, вы можете использовать действие в свой ход, чтобы призвать существо прекратить враждебность. В начале вашего следующего хода, если с момента использования этого умения вы и ваши союзники не атаковали, не Угрожали существу и не заставляли его совершать спасбросок, оно ощущает присутствие проклятия, готового обрушить последствия, если оно причинит вам или вашим союзникам Поражение. В течение следующих 24 часов или пока вы или ваши союзники не атакуете, не Угрожаете существу или не заставите его совершить спасбросок, причинение Поражения вам или вашим союзникам немедленно активирует проклятие. Пока существо проклято таким образом, оно совершает с помехой все проверки Характеристик, броски атаки и спасброски в течение следующих 24 часов, включая действие, активировавшее проклятие.",
+				"Существа, которые не понимают никаких Языков, не могут подвергаться воздействию этого умения. Если вы или ваши союзники причинили Поражение существу или оскорбили его, но загладили вину в достаточной мере (по определению Мастера), вы можете использовать это умение так, словно не причиняли Поражения и не оскорбляли его.",
+				"Использовав это умение, вы не можете использовать его снова, пока не потратите ячейку заклинания 7-го уровня действием, чтобы восстановить возможность его использования."
 			]
 		},
 		{
-			"name": "Coven of the Wicked",
+			"name": "Ковен Зловещих",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Wicked",
+			"subclassShortName": "Зловещий",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"No witch sets out to be wicked, and no witch chooses the wicked coven. Players may not pick the Coven of the Wicked at 2nd level; this coven is a doom that befalls witches whose care turns to selfishness and whose magic sours with misuse. Members of this coven like to paint themselves as misunderstood victims, but it's not tragedy that turns a witch's heart to darkness\u2014it's the inability to let go of their suffering.",
-				"A wicked witch might claim to be an enemy to all the world, but they always have one kind of person in particular\u2014usually related to their past self, and what soured their magic\u2014that they despise above all else. When you become wicked, choose a virtue that is anathema to you: courage, fairness, generosity, innocence, loyalty, kindness, optimism, prudence, selflessness, or being in love. Beings that display this virtue are especially tempting targets for your ire."
+				"Ни одна ведьма не стремится стать злой, и ни одна ведьма не выбирает злой ковен. Игроки не могут выбрать ковен злых на 2-м уровне; этот ковен — Злая судьба, постигающая ведьм, чья забота превращается в эгоизм, а магия портится из-за неправильного использования. Члены этого ковена любят выставлять себя непонятыми жертвами, но сердце ведьмы обращает во Тьму не трагедия — а неспособность отпустить свои страдания.",
+				"Злая ведьма может заявлять, что она враг всему миру, но всегда есть определённый тип людей — обычно связанный с её прежней сущностью и тем, что испортило её магию, — которых она презирает превыше всего. Став злой, выберите Доблесть, которая для вас является Анафемой: храбрость, справедливость, щедрость, невинность, верность, доброта, оптимизм, благоразумие, бескорыстие или влюблённость. Существа, проявляющие эту Доблесть, становятся особенно соблазнительными Целями вашего гнева."
 			]
 		},
 		{
-			"name": "Loathsome Gifts",
+			"name": "Отвратительные дары",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Wicked",
+			"subclassShortName": "Зловещий",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"entries": [
-				"In your wickedness, you feed on death and misery. When a creature dies while affected by a curse spell you cast, you can extract spell energy from its corpse. If you touch the corpse's head or heart for the duration of a short rest, you can regain expended spell slots. The spell slots can have a combined level that is equal to or less than your proficiency bonus.",
-				"You can't use this feature more than once during the same short rest, and you can't extract spell energy from the same creature more than once (even if it is restored to life)."
+				"В своей жестокости вы питаетесь смертью и страданиями. Когда существо умирает, находясь под действием заклинания проклятия, которое вы наложили, вы можете извлечь энергию заклинания из его трупа. Если вы касаетесь головы или сердца трупа в течение короткого отдыха, вы можете восстановить использованные ячейки заклинаний. Суммарный уровень ячеек заклинаний не может превышать ваш бонус мастерства.",
+				"Вы не можете использовать эту особенность более 1 раза в течение одного короткого отдыха и не можете извлекать энергию заклинания из одного и того же существа более 1 раза, даже если его вернули к жизни."
 			]
 		},
 		{
-			"name": "Rest for the Wicked",
+			"name": "Отдых для жестоких",
 			"source": "WitchWBN",
 			"page": 10,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Wicked",
+			"subclassShortName": "Зловещий",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"type": "inset",
 			"entries": [
-				"A witch that has turned to wickedness can never turn away from it\u2014alone. If someone shows they care for a wicked witch, shows them how far they've fallen, and dedicates themselves to the witch's rehabilitation, the two of them can begin the process of repairing the damage done. During the process of rehabilitation, the witch loses access to their Coven of the Wicked features. These features return if they renege on their desire to mend their ways.",
-				"Magic, like milk, can't unspoil, but the spilling of it can be forgiven. Whenever the witch makes amends for a cruel or destructive act they committed in the past, and earns the forgiveness of those worst hurt by it, they can regain one of their original coven spells that they lost. When all of their original coven spells are restored, they may change covens and regain their original coven's features, losing those associated with the Coven of the Wicked.",
-				"The wicked spells that the witch learned remain on their coven list after rehabilitation\u2014as does the temptation to use them."
+				"Ведьма, обратившаяся к жестокости, никогда не сможет отвернуться от неё в одиночку. Если кто-то проявит заботу о жестокой ведьме, покажет ей, как далеко она зашла, и посвятит себя её исправлению, они смогут начать процесс исправления нанесённого вреда. Во время процесса исправления ведьма теряет доступ к особенностям своего ковена жестоких. Эти особенности возвращаются, если ведьма отказывается от своего желания исправиться.",
+				"Магию, как и молоко, нельзя сделать свежей, но за её разлив можно простить. Каждый раз, когда ведьма заглаживает вину за жестокий или разрушительный поступок, совершённый в прошлом, и получает прощение тех, кому он причинил наибольший вред, она может вернуть одно из своих исходных заклинаний ковена, которое потеряла. Когда все исходные заклинания ковена будут восстановлены, она может сменить ковен и вернуть особенности своего исходного ковена, утратив особенности, связанные с ковеном жестоких.",
+				"Жестокие заклинания, которые ведьма выучила, остаются в списке её ковена после исправления — как и искушение использовать их."
 			]
 		},
 		{
-			"name": "Curse of Cruelty",
+			"name": "Проклятие жестокости",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Wicked",
+			"subclassShortName": "Зловещий",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When you cast a curse spell on one or more creatures, spells that you cast upon it can cause it wracking pain. Once per turn, when an affected target fails a saving throw against a spell you cast by 5 or more, you can choose to make it {@condition incapacitated} until the start of your next turn."
+				"Когда вы накладываете заклинание проклятия на одно или несколько существ, заклинания, которые вы накладываете на них, могут причинять им мучительную боль. 1 раз за ход, когда затронутая цель проваливает спасбросок от наложенного вами заклинания на 5 или больше, вы можете сделать её {@condition incapacitated} до начала своего следующего хода."
 			]
 		},
 		{
-			"name": "Turning Wicked",
+			"name": "Обращение к жестокости",
 			"source": "WitchWBN",
 			"page": 6,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Wicked",
+			"subclassShortName": "Зловещий",
 			"subclassSource": "WitchWBN",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When a witch begins to go wicked, their magic warps, and they lose access to some of their coven spells. This should be a conversation between the player and the GM. The line between righteous retribution and vindictive cruelty can be very thin, but witchcraft permits the former and condemns the latter.",
-				"When the first signs of your wickedness peek through, pick one of the coven spells you've been granted and replace it with one of the Coven of the Wicked spells of the same level below. Each time you finish a long rest, replace another of your coven spells if you've continued down the path of wickedness.",
+				"Когда ведьма начинает становиться жестокой, её магия искажается, и она теряет доступ к некоторым заклинаниям своего ковена. Это должно обсуждаться игроком и Мастером. Грань между праведным возмездием и мстительной жестокостью может быть очень тонкой, но ведьмовство допускает первое и осуждает второе.",
+				"Когда первые признаки вашей жестокости начинают проявляться, выберите одно из заклинаний ковена, которые вам были предоставлены, и замените его одним из заклинаний ковена жестоких того же уровня, приведённых ниже. Каждый раз, когда вы завершаете продолжительный отдых, заменяйте ещё одно заклинание ковена, если вы продолжили идти по пути жестокости.",
 				{
 					"type": "table",
-					"caption": "Coven of Wicked Spells",
+					"caption": "Заклинания ковена жестоких",
 					"colLabels": [
-						"Witch Level",
-						"Spells"
+						"Уровень ведьмы",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -1863,76 +1863,76 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell Inflict wounds}, {@spell command}"
 						],
 						[
-							"3rd",
-							"{@spell melf's acid arrow|PHB|Acid Arrow}, {@spell detect thoughts}"
+							"3-й",
+							"{@spell melf's acid arrow|PHB|кислотная стрела}, {@spell detect thoughts}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell animate dead}, {@spell vampiric touch}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell blight}, {@spell phantasmal killer}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell antilife shell}, {@spell contagion}"
 						]
 					]
 				},
-				"When half of your original coven spells are gone, change your coven to the Coven of the Wicked, replacing your old coven features with those below. Hereafter, if you gain your 3rd, 5th, 7th or 9th level in the witch class, you learn one spell of your choice you would have learned from your previous coven and one spell of your choice from the Coven of the Wicked Spells table. These are witch spells for you."
+				"Когда исчезает половина исходных заклинаний вашего ковена, смените свой ковен на ковен жестоких, заменив особенности прежнего ковена приведёнными ниже. В дальнейшем, если вы получаете 3-й, 5-й, 7-й или 9-й уровень в классе ведьмы, вы изучаете одно выбранное вами заклинание, которое изучили бы в прежнем ковене, и одно выбранное вами заклинание из таблицы «Заклинания ковена жестоких». Эти заклинания считаются для вас заклинаниями ведьмы."
 			]
 		},
 		{
-			"name": "Curse-Token",
+			"name": "Жетон проклятия",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Wicked",
+			"subclassShortName": "Зловещий",
 			"subclassSource": "WitchWBN",
 			"level": 6,
 			"entries": [
-				"You instantly know if a curse you cast is lifted by a remove curse or greater restoration spell or similar magic. Additionally, your curses are persistent in their power. When you cast a curse and it successfully affects a creature, you can transfer the concentration requirement of that curse into a nonmagical Tiny or Small object that isn't being worn or carried by another creature as a bonus action. You can't lose concentration on the spell unless the object is destroyed or you transfer another curse's concentration into the same object. The object has 35 hit points and a damage threshold of 20.",
-				"Once you transfer concentration in this way, you can't do so again until you finish a long rest."
+				"Вы мгновенно узнаёте, если наложенное вами проклятие снято заклинанием снятия проклятия, высшего восстановления или подобной магией. Кроме того, сила ваших проклятий сохраняется. Когда вы накладываете проклятие и оно успешно затрагивает существо, вы можете перенести требование концентрации этого проклятия на немагический Миниатюрный или Маленький предмет, который не носит и не держит другое существо, используя бонусное действие. Вы не можете потерять концентрацию на заклинании, пока предмет не будет уничтожен или пока вы не перенесёте концентрацию другого проклятия на тот же предмет. У предмета 35 хитов и порог урона 20.",
+				"Перенеся концентрацию таким образом, вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Malicious Bond",
+			"name": "Злонамеренная связь",
 			"source": "WitchWBN",
 			"page": 7,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Wicked",
+			"subclassShortName": "Зловещий",
 			"subclassSource": "WitchWBN",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Your wicked magic cares nothing for distance. Using a lock of hair, nail clippings, or other body part from a creature, you can target it with spells as if you can see and touch it. An item with an active curse from your Curse-Token feature also satisfies this requirement."
+				"Ваша жестокая магия не обращает внимания на расстояние. Используя прядь волос, обрезок ногтя или другую часть тела существа, вы можете выбирать его целью заклинаний, как если бы вы видели и касались его. Предмет с действующим проклятием от вашей особенности «Жетон проклятия» также удовлетворяет этому требованию."
 			]
 		},
 		{
-			"name": "Twisted by Cruelty",
+			"name": "Искажённая жестокостью",
 			"source": "WitchWBN",
 			"page": 4,
 			"className": "Witch",
 			"classSource": "WitchWBN",
-			"subclassShortName": "Wicked",
+			"subclassShortName": "Зловещий",
 			"subclassSource": "WitchWBN",
 			"level": 14,
 			"entries": [
-				"Your wicked disposition brings on changes to your physical form, as you embody the most vengeful aspects of nature. You gain the following benefits:",
+				"Ваша жестокая натура изменяет вашу физическую форму, поскольку вы воплощаете самые мстительные стороны природы. Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"Any critical hit against you that doesn't include radiant damage is a normal hit instead.",
-						"You gain resistance to necrotic and poison damage. You have advantage on saving throws to avoid or end the {@condition poisoned} and {@condition stunned} conditions.",
-						"You can see normally in darkness, both magical and nonmagical, out to a distance of 60 feet.",
-						"Nonmagical plants within 30 feet of you wither after 1 hour in your presence. If you live in one location for at least a year, nonmagical plants within 5 miles of that place wither and the soil becomes barren."
+						"Любое критическое попадание по вам, не наносящее урон излучением, становится обычным попаданием.",
+						"Вы получаете сопротивление некротическому и ядовитому урону. Вы совершаете спасброски с преимуществом, чтобы избежать состояний {@condition poisoned} и {@condition stunned} или прекратить их.",
+						"Вы можете нормально видеть в Тьме, магической и немагической, на расстоянии до 60 футов.",
+						"Немагические растения в пределах 30 футов от вас вянут после 1 часа вашего присутствия. Если вы проживёте в одном месте как минимум год, немагические растения в пределах 5 миль от этого места завянут, а почва станет бесплодной."
 					]
 				}
 			]
@@ -1940,7 +1940,7 @@
 	],
 	"spell": [
 		{
-			"name": "Animate Hut",
+			"name": "Ожившая хижина",
 			"source": "WitchWBN",
 			"page": 12,
 			"level": 5,
@@ -1960,7 +1960,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "leg and foot bones from one creature"
+				"m": "кости ноги и ступни одного существа"
 			},
 			"duration": [
 				{
@@ -1974,16 +1974,16 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell, you touch one building of up to 30 feet long by 30 feet wide and up to two stories tall. Ten foot-long legs resembling the creature whose bones you used as a material component (or chicken legs, if you cast this spell without components) sprout under the building, and the building gains a walking speed of 40 feet. The building can stand up or sit down as an action, and it must sit down to lower its doorways to ground level.",
-				"For the duration of the spell, the building becomes a Construct that follows your verbal commands and acts immediately after your turn in initiative. The building can stomp its legs, making a melee weapon attack using your spell attack bonus; on a hit it deals {@damage 3d10} bludgeoning damage. The building has AC 15, 100 hit points, and immunity to poison and psychic damage. It uses your saving throw bonuses. If the building is reduced to 0 hit points, the spell ends and it settles to the ground.",
-				"When you cast the spell, any unwilling creatures in the building that aren't {@condition incapacitated} can make a Charisma saving throw; if any of them succeed, the spell fails and has no effect."
+				"Когда вы накладываете это заклинание, вы касаетесь одного здания длиной не более 30 футов, шириной не более 30 футов и высотой не более двух этажей. Под зданием вырастают десятифутовые ноги, напоминающие существо, чьи кости вы использовали в качестве материального компонента (или куриные ноги, если вы наложили это заклинание без компонентов), и здание получает Скорость ходьбы 40 футов. Здание может встать или сесть, используя действие, и оно должно сесть, чтобы опустить свои дверные проёмы до уровня земли.",
+				"На время действия заклинания здание становится конструктом, который следует вашим вербальным командам и действует сразу после вашего хода в инициативе. Здание может топать ногами, совершая атаку оружием ближнего боя с использованием вашего бонуса атаки заклинанием; при попадании оно наносит {@damage 3d10} дробящего урона. Здание имеет КД 15, 100 хитов и неуязвимость к ядовитому и психическому урону. Оно использует ваши бонусы спасбросков. Если хиты здания уменьшаются до 0, заклинание заканчивается, и оно опускается на землю.",
+				"Когда вы накладываете заклинание, любые не желающие этого существа в здании, которые не являются {@condition incapacitated}, могут совершить спасбросок Харизмы; если хотя бы одно из них преуспеет, заклинание проваливается и не оказывает никакого эффекта."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"If you use a spell slot of 8th level or higher to cast this spell, you can give the building wings in addition to legs, and it gains a flying speed equal to its walking speed."
+						"Если для накладывания этого заклинания вы используете ячейку заклинания 8-го уровня или выше, вы можете дать зданию крылья в дополнение к ногам, и оно получает Скорость полёта, равную его Скорости ходьбы."
 					]
 				}
 			],
@@ -1997,7 +1997,7 @@
 			}
 		},
 		{
-			"name": "Breath of Belladonna",
+			"name": "Дыхание белладонны",
 			"source": "WitchWBN",
 			"page": 12,
 			"level": 2,
@@ -2018,7 +2018,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "three belladonna berries worth 1 gp, which the spell consumes",
+					"text": "три ягоды белладонны стоимостью 1 зм, которые заклинание поглощает",
 					"consume": true,
 					"cost": 100
 				}
@@ -2029,14 +2029,14 @@
 				}
 			],
 			"entries": [
-				"You consume the belladonna berries used as a material component, taking {@damage 1d10} poison damage, and breathe out a poisonous cloud. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes {@damage 3d10} poison damage and is {@condition poisoned} until the start of your next turn. On a success, the creature takes half as much damage and isn't {@condition poisoned}. A creature that doesn't need to breathe automatically succeeds on its saving throw."
+				"Вы поглощаете ягоды белладонны, использованные в качестве материального компонента, получая {@damage 1d10} ядовитого урона, и выдыхаете ядовитое облако. Каждое существо в кубе со стороной 15 футов, исходящем от вас, должно совершить спасбросок Телосложения. При провале существо получает {@damage 3d10} ядовитого урона и становится {@condition poisoned} до начала вашего следующего хода. При успехе существо получает половину этого урона и не становится {@condition poisoned}. Существо, которому не нужно дышать, автоматически преуспевает в спасброске."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"If you use a spell slot of 3rd level or higher to cast this spell, the damage you deal increases by {@dice 1d10} for each slot level above 2nd. The damage you take doesn't increase."
+						"Если для накладывания этого заклинания вы используете ячейку заклинания 3-го уровня или выше, наносимый вами урон увеличивается на {@dice 1d10} за каждый уровень ячейки выше 2-го. Получаемый вами урон не увеличивается."
 					]
 				}
 			],
@@ -2066,7 +2066,7 @@
 			]
 		},
 		{
-			"name": "Cackle",
+			"name": "Злобный хохот",
 			"source": "WitchWBN",
 			"page": 12,
 			"level": 0,
@@ -2093,14 +2093,14 @@
 				}
 			],
 			"entries": [
-				"You cackle wildly at one creature within range that can hear you, unleashing the power of your scorn and animosity. The target must make a Wisdom saving throw. On a failure, it takes {@damage 1d8} psychic damage and has disadvantage on the next Strength or Dexterity ability check or saving throw it makes before the start of your next turn."
+				"Вы безумно хохочете над одним слышащим вас существом в пределах дистанции, высвобождая силу своего презрения и вражды. Цель должна совершить спасбросок мудрости. При провале она получает {@damage 1d8} психического урона и совершает с помехой следующую проверку Силы или Ловкости либо спасбросок, который она совершит до начала вашего следующего хода."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+						"Урон заклинания увеличивается на {@dice 1d8}, когда вы достигаете 5-го уровня ({@dice 2d8}), 11-го уровня ({@dice 3d8}) и 17-го уровня ({@dice 4d8})."
 					]
 				}
 			],
@@ -2117,7 +2117,7 @@
 			]
 		},
 		{
-			"name": "Cleansing Crystal",
+			"name": "Очищающий кристалл",
 			"source": "WitchWBN",
 			"page": 12,
 			"level": 2,
@@ -2138,7 +2138,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gem worth at least 50gp",
+					"text": "драгоценный камень стоимостью не менее 50 зм",
 					"cost": 500
 				}
 			},
@@ -2154,15 +2154,15 @@
 				}
 			],
 			"entries": [
-				"You imbue a crystal with magic to absorb harmful influences. While carrying the crystal, when you would take damage as a result of a spell or magical effect in the space you occupy when you start your turn, reduce the damage you take by {@dice 2d6}. When you would make a saving throw to avoid an effect based on the space you occupy when you start your turn, you have advantage on the saving throw.",
-				"During the spell's duration, when you would take necrotic, poison, or psychic damage, you can end the spell as a reaction to gain resistance to the triggering damage type until the end of your next turn."
+				"Вы наделяете кристалл магией, чтобы он поглощал вредоносные воздействия. Пока вы носите кристалл, когда вы должны получить урон в результате заклинания или магического эффекта в пространстве, которое вы занимаете в начале своего хода, уменьшите получаемый вами урон на {@dice 2d6}. Когда вы должны совершить спасбросок, чтобы избежать эффекта, основанного на пространстве, которое вы занимаете в начале своего хода, вы совершаете этот спасбросок с преимуществом.",
+				"Пока длится заклинание, когда вы должны получить некротический, ядовитый или психический урон, вы можете закончить заклинание реакцией, чтобы получить сопротивление вызвавшему его типу урона до конца вашего следующего хода."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, creatures of your choice within 5 feet of you gain the benefits of the spell. They can't use the spell's reaction."
+						"Когда вы накладываете это заклинание, используя ячейку заклинания 4-го уровня или выше, выбранные вами существа в пределах 5 футов от вас получают преимущества заклинания. Они не могут использовать реакцию этого заклинания."
 					]
 				}
 			],
@@ -2180,7 +2180,7 @@
 			]
 		},
 		{
-			"name": "Create Poppet",
+			"name": "Создание куколки",
 			"source": "WitchWBN",
 			"page": 12,
 			"level": 3,
@@ -2200,7 +2200,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "clay and willow branches"
+				"m": "глина и ветви ивы"
 			},
 			"duration": [
 				{
@@ -2212,11 +2212,11 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell, you fashion the material components into a Tiny doll (or pull the doll from your shadow if you cast it without material components). While you hold this doll in one hand, you can use any of the following bonus actions or reactions.",
-				"• As a bonus action, choose one creature you can see within 15 feet of you. That creature regains {@dice 1d8} hit points.",
-				"• As a bonus action, choose one creature you can see within 15 feet of you. You can end either one disease or one condition afflicting it. The condition can be {@condition blinded}, {@condition deafened}, {@condition poisoned}, or {@condition stunned}.",
-				"• As a reaction when you are the target of a curse spell, you negate its effect on you",
-				"When you use the doll for the third time, it is destroyed, leaving a seed behind. Until the spell ends, any creature can eat the seed as an action. A creature that does so gains {@dice 2d8} temporary hit points."
+				"Когда вы накладываете это заклинание, вы превращаете материальные компоненты в миниатюрную куклу (или вытягиваете куклу из своей тени, если накладываете заклинание без материальных компонентов). Пока вы держите эту куклу в одной руке, вы можете использовать любое из следующих бонусных действий или реакций.",
+				"• бонусным действием выберите одно видимое вам существо в пределах 15 футов от вас. Это существо восстанавливает {@dice 1d8} хитов.",
+				"• бонусным действием выберите одно видимое вам существо в пределах 15 футов от вас. Вы можете прекратить одну болезнь или одно состояние, воздействующее на него. Состоянием может быть {@condition blinded}, {@condition deafened}, {@condition poisoned} или {@condition stunned}.",
+				"• реакцией, когда вы становитесь целью заклинания проклятия, вы прекращаете его действие на себе",
+				"Когда вы используете куклу в третий раз, она уничтожается, оставляя после себя семя. Пока заклинание не закончится, любое существо может съесть семя действием. Существо, сделавшее это, получает {@dice 2d8} Временных хитов."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2231,7 +2231,7 @@
 			]
 		},
 		{
-			"name": "Miser's Menace",
+			"name": "Угроза скряги",
 			"source": "WitchWBN",
 			"page": 13,
 			"level": 8,
@@ -2263,8 +2263,8 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell, choose a creature you can see within range. The target must succeed on a Wisdom saving throw or become cursed for the duration of the spell. While the target is cursed, it is compelled to give away all of its wealth, possessions, and positions of power to those who lack them, gifting at least ten percent of its wealth to each sentient creature it encounters.",
-				"If the target has broken its end of a bargain with you, or has refused your polite request for food and shelter, you can cast this spell as an action and the effect is permanent, ending only when the curse is broken or the target has nothing but rags to its name."
+				"Когда вы накладываете это заклинание, выберите видимое вам существо в пределах дистанции. Цель должна преуспеть в спасброске мудрости, иначе станет проклятой на время действия заклинания. Пока цель проклята, её принуждают отдать всё своё богатство, владения и властные полномочия тем, кому их не хватает, даруя не менее десяти процентов своего богатства каждому разумному существу, с которым она встречается.",
+				"Если цель нарушила свою часть сделки с вами или отказалась от вашей вежливой просьбы о пище и укрытии, вы можете наложить это заклинание действием, и эффект становится постоянным, заканчиваясь только после снятия проклятия или когда у цели не останется ничего, кроме лохмотьев."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2279,7 +2279,7 @@
 			]
 		},
 		{
-			"name": "Othershoes",
+			"name": "Чужие ботинки",
 			"source": "WitchWBN",
 			"page": 13,
 			"level": 5,
@@ -2313,10 +2313,10 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell, choose two Humanoids within 30 feet of one another. Each target must succeed on a Wisdom saving throw or take {@damage 3d8} psychic damage.",
-				"If both targets fail their saving throw, they are cursed for the duration of the spell, and while they both remain cursed, they swap bodies, retaining their original personalities but exchanging all of their game statistics other than alignment and Intelligence, Wisdom, and Charisma ability scores. Additionally, they have disadvantage on Charisma checks related to convincing others of their new forms.",
-				"For the first hour of the curse's duration, both targets have disadvantage on attack rolls, and if they attempt to cast a spell of 1st level or higher, they must expend a spell slot of one level higher than the spell they're casting (and don't receive any benefit from using a higher-level slot).",
-				"If the targets have quarreled with one another within the past minute, they have disadvantage on the saving throw and the effect is permanent unless removed by a remove curse or greater restoration spell, or similar magic. You can also choose to end the spell by using an action to dismiss it."
+				"Когда вы накладываете это заклинание, выберите двух гуманоидов, находящихся в пределах 30 футов друг от друга. Каждая цель должна преуспеть в спасброске мудрости, иначе получит {@damage 3d8} психического урона.",
+				"Если обе цели провалили спасбросок, они становятся проклятыми на время действия заклинания, и пока обе остаются проклятыми, они меняются телами, сохраняя свои исходные личности, но обмениваясь всеми игровыми статистиками, кроме мировоззрения и характеристик Интеллекта, мудрости и Харизмы. Кроме того, они совершают с помехой проверки Харизмы, связанные с убеждением других в том, что их новые формы принадлежат им.",
+				"В течение первого часа действия проклятия обе цели совершают с помехой броски атаки, а если они пытаются наложить заклинание 1-го уровня или выше, то должны потратить ячейку заклинания на 1 уровень выше, чем заклинание, которое они накладывают (и не получают никаких преимуществ от использования ячейки более высокого уровня).",
+				"Если цели ссорились друг с другом в течение последней минуты, они совершают спасбросок с помехой, а эффект становится постоянным, если его не снять заклинанием снятия проклятия, заклинанием высшего восстановления или подобной магией. Вы также можете решить закончить заклинание, использовав действие для его прекращения."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2331,7 +2331,7 @@
 			]
 		},
 		{
-			"name": "Spellwarping Curse",
+			"name": "Проклятие искажения заклинаний",
 			"source": "WitchWBN",
 			"page": 13,
 			"level": 4,
@@ -2363,9 +2363,9 @@
 				}
 			],
 			"entries": [
-				"You place a curse on a creature you can see within range. The target must succeed on a Wisdom saving throw or becomes cursed for the duration of the spell. While cursed in this way, the creature takes {@dice 1d8} + its spellcasting ability modifier (minimum of 1) psychic damage each time it casts a spell that deals damage or forces a creature to make a saving throw. Remove curse spells that the target casts on itself can't remove this curse.",
-				"While you have this spell prepared or choose it as one of your spells known, you become aware of any creature that is observing you from afar with magic, such as a clairvoyance, dream, or scrying spell. While a creature is observing you in this way, you can cast this spell on that creature as if you could see it and it were in range. If you cast this spell on a creature that can't cast at least one spell, the spell fails, and you are aware of why it failed.",
-				"If the target of this spell has ever targeted you with a harmful spell against your will, they have disadvantage on the saving throw and the effect is permanent unless removed by a remove curse or greater restoration spell, or similar magic. You can also choose to end the spell by using an action to dismiss it."
+				"Вы накладываете проклятие на видимое вам существо в пределах дистанции. Цель должна преуспеть в спасброске мудрости, иначе становится проклятой на время действия заклинания. Пока существо проклято таким образом, оно получает {@dice 1d8} + модификатор базовой характеристики для заклинаний (минимум 1) психического урона каждый раз, когда накладывает заклинание, которое наносит урон или вынуждает существо совершить спасбросок. Заклинания снятия проклятия, которые цель накладывает на себя, не могут снять это проклятие.",
+				"Пока это заклинание подготовлено вами или выбрано вами в качестве одного из известных вам заклинаний, вы узнаёте о любом существе, которое наблюдает за вами издалека с помощью магии, например заклинания подсматривания, вещего сна или наблюдения. Пока существо наблюдает за вами таким образом, вы можете наложить на него это заклинание, как если бы вы могли его видеть и оно находилось в пределах дистанции. Если вы накладываете это заклинание на существо, которое не может наложить хотя бы одно заклинание, заклинание проваливается, и вы узнаёте причину провала.",
+				"Если цель этого заклинания когда-либо против её воли нацеливала на вас вредоносное заклинание, она совершает спасбросок с помехой, а эффект становится постоянным, если его не снять заклинанием снятия проклятия, заклинанием высшего восстановления или подобной магией. Вы также можете решить закончить заклинание, использовав действие для его прекращения."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2386,7 +2386,7 @@
 			]
 		},
 		{
-			"name": "Swineskin",
+			"name": "Свиная шкура",
 			"source": "WitchWBN",
 			"page": 13,
 			"level": 5,
@@ -2420,10 +2420,10 @@
 				}
 			],
 			"entries": [
-				"Choose a creature within range that you can see or hear. The targeted creature must succeed on a Wisdom saving throw or become cursed. While cursed, the target is transformed into a Beast of your choice with a challenge rating of 1 or lower. The target retains its Intelligence, Wisdom, and Charisma scores, alignment, personality, and current and maximum hit points, but all of its other game statistics are replaced by those of its new form.",
-				"The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.",
-				"If the target has eaten your food or slept in your home within the past 24 hours, or if it has shown unkindness to another creature of the chosen form in the past 24 hours, it has disadvantage on its saving throw and the effect is permanent unless removed by a remove curse or greater restoration spell, or similar magic. You can also choose to end the spell by using an action to dismiss it.",
-				"A Humanoid cursed permanently by this spell regains the ability to speak and use their special traits and class features after a long rest, although they may be limited in the kinds of actions they can take by their new form."
+				"Выберите видимое или слышимое вам существо в пределах дистанции. Цель должна преуспеть в спасброске мудрости, иначе станет проклятой. Пока цель проклята, она превращается в выбранного вами зверя с показателем опасности 1 или ниже. Цель сохраняет свои значения Интеллекта, мудрости и Харизмы, мировоззрение, личность, текущие и максимальные хиты, но все остальные игровые статистики заменяются статистиками её новой формы.",
+				"Снаряжение цели сливается с новой формой. Существо не может активировать, использовать, держать или иным образом получать пользу от своего снаряжения.",
+				"Если цель ела вашу пищу или спала в вашем доме в течение последних 24 часов либо проявила недоброжелательность к другому существу выбранной формы в течение последних 24 часов, она совершает спасбросок с помехой, а эффект становится постоянным, если его не снять заклинанием снятия проклятия, заклинанием высшего восстановления или подобной магией. Вы также можете решить закончить заклинание, использовав действие для его прекращения.",
+				"Гуманоид, навсегда проклятый этим заклинанием, после продолжительного отдыха вновь получает способность говорить и использовать свои особые черты и умения класса, хотя новая форма может ограничивать виды действий, которые он способен совершать."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2438,7 +2438,7 @@
 			]
 		},
 		{
-			"name": "Tongue-Tie",
+			"name": "Связанный язык",
 			"source": "WitchWBN",
 			"page": 14,
 			"level": 2,
@@ -2472,21 +2472,21 @@
 				}
 			],
 			"entries": [
-				"Choose one creature within range that you can see or hear. The target must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast the spell, choose a topic of conversation. While the target remains cursed, whenever it attempts to speak about the chosen topic, you, or this spell, a phenomenon of your choice spills forth from its lips instead of words:",
-				"• Tiny toads, snakes, moths, or other vermin",
-				"• Short-lived wildflowers in full bloom",
-				"• Black filth or bile",
-				"• Fairy tales and nursery rhymes",
-				"• Unflattering, unrelated truths about the target or those they are addressing.",
-				"Attempts to circumvent the curse by writing about the subject result in crude drawings of the chosen phenomenon. If the target can communicate telepathically or another creature reads its mind, it can communicate about the curse that way.",
-				"If you have caught the target in a lie, or if you have done it a kindness and receive no thanks within 1 minute, the target has disadvantage on its saving throw, the spell doesn't require {@status concentration}, and the effect is permanent unless removed by a remove curse or greater restoration spell, or similar magic. You can also choose to end the spell by using an action to dismiss it."
+				"Выберите одно существо в пределах дистанции, которое вы можете видеть или слышать. Цель должна преуспеть в спасброске мудрости или стать проклятой на время действия заклинания. Накладывая заклинание, выберите тему разговора. Пока цель остаётся проклятой, всякий раз, когда она пытается говорить на выбранную тему, о вас или об этом заклинании, из её уст вместо слов изливается выбранное вами явление:",
+				"• Миниатюрные жабы, змеи, мотыльки или другие беспозвоночные",
+				"• Недолговечные полевые цветы в полном цвету",
+				"• Чёрная грязь или желчь",
+				"• Сказки и детские стишки",
+				"• Нелестные, не связанные с темой правдивые сведения о цели или тех, к кому она обращается.",
+				"Попытки обойти проклятие, записывая что-либо о предмете разговора, приводят к появлению грубых рисунков выбранного явления. Если цель может общаться телепатически или другое существо читает её мысли, она может таким образом говорить о проклятии.",
+				"Если вы поймали цель на лжи или сделали ей добро, а благодарности не получили в течение 1 минуты, цель совершает спасбросок с помехой, заклинание не требует {@status concentration}, а эффект становится постоянным, если его не устранить заклинанием «Снятие проклятия» или «Высшее восстановление» либо подобной магией. Вы также можете окончить заклинание, использовав действие, чтобы развеять его."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, вы можете выбрать целью одно дополнительное существо за каждый уровень ячейки выше 2-го."
 					]
 				}
 			],
@@ -2503,7 +2503,7 @@
 			]
 		},
 		{
-			"name": "Witch's Grasp",
+			"name": "Хватка ведьмы",
 			"source": "WitchWBN",
 			"page": 14,
 			"level": 1,
@@ -2537,16 +2537,16 @@
 				}
 			],
 			"entries": [
-				"You clench your hand in a grasping motion toward a creature within range, wrapping the target with twisting ribbons of shadow. The target must succeed on a Strength saving throw or be {@condition grappled} for the duration, and you may choose to levitate the creature up to 3 feet off the ground. A creature {@condition grappled} by this spell can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.",
-				"If the target of this spell has attacked you or forced you to make a saving throw within the last minute and has never been damaged by you, it has disadvantage on its Strength saving throw. On a failure, you can choose for the target to take {@damage 1d8} necrotic damage as part of the casting of this spell, and an additional {@damage 1d8} necrotic damage at the beginning of each of its turns while {@condition grappled} by this spell.",
-				"The spell ends if the target is ever outside the spell's range."
+				"Вы сжимаете руку, направляя её в хватательном движении к существу в пределах дистанции, и обвиваете цель извивающимися лентами тени. Цель должна преуспеть в спасброске Силы или стать {@condition grappled} на время действия, а вы можете поднять существо левитацией на высоту до 3 футов над землёй. Существо, {@condition grappled} этим заклинанием, может действием совершить проверку Силы или Ловкости (по своему выбору) против вашей Сл спасброска от заклинаний. В случае успеха оно освобождается.",
+				"Если цель этого заклинания атаковала вас или вынудила вас совершить спасбросок в течение последней минуты и вы никогда не причиняли ей урон, она совершает спасбросок Силы с помехой. При провале вы можете решить, что цель получает {@damage 1d8} некротического урона в рамках Сотворения (заклинания), а также дополнительный {@damage 1d8} некротического урона в начале каждого своего хода, пока остаётся {@condition grappled} этим заклинанием.",
+				"Заклинание оканчивается, если цель когда-либо окажется за пределами его дистанции."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d8} for each slot level above 1st."
+						"Если вы накладываете это заклинание, используя ячейку заклинания 2-го уровня или выше, первоначальный урон увеличивается на {@dice 1d8} за каждый уровень ячейки выше 1-го."
 					]
 				}
 			],
@@ -2573,7 +2573,7 @@
 			]
 		},
 		{
-			"name": "Wyrding",
+			"name": "Вирдинг",
 			"source": "WitchWBN",
 			"page": 14,
 			"level": 4,
@@ -2604,19 +2604,19 @@
 				}
 			],
 			"entries": [
-				"In a fit of shakes and spasms, you take on a monstrous semi-humanoid shape unique to you and your magic. When you cast this spell, describe your new form and choose one of the following benefits:",
-				"• Huge, molting feathers and a flying speed of 30 feet",
-				"• Squamous skin, the ability to breathe water, and a swimming speed of 60 feet",
-				"• Shaggy fur hide and an AC of 13 + your Wisdom modifier.",
-				"For the duration of the spell, you gain the chosen qualities and you have advantage on Strength and Constitution saving throws and ability checks. Whenever you cast a spell or cantrip as an action, you can also make a melee spell attack against a creature within reach as a bonus action. On a hit, you deal {@damage 2d10} acid damage.",
-				"You can end the Wyrding early as an action. If the spell doesn't end early, you become cursed until the curse is lifted by a remove curse or greater restoration spell, or similar magic. While cursed in this way, you remain trapped in your Wyrding form, and you lose the ability to speak, read, write, understand language, or cast spells with verbal components."
+				"В припадке дрожи и судорог вы принимаете чудовищную полу-гуманоидную форму, уникальную для вас и вашей магии. Накладывая это заклинание, опишите свою новую форму и выберите одно из следующих преимуществ:",
+				"• Огромные линяющие перья и скорость полёта 30 футов",
+				"• Чешуйчатая кожа, способность дышать под водой и скорость плавания 60 футов",
+				"• Лохматый мех и КД 13 + ваш модификатор мудрости.",
+				"На время действия заклинания вы получаете выбранные качества, а также совершаете с преимуществом спасброски и проверки Силы и Телосложения. Всякий раз, когда вы накладываете заклинание или заговор действием, вы также можете совершить бросок атаки заклинанием ближнего боя против существа в пределах досягаемости бонусным действием. При попадании вы наносите {@damage 2d10} кислотного урона.",
+				"Вы можете досрочно окончить Вёрдинг действием. Если заклинание не окончится досрочно, вы становитесь прокляты, пока проклятие не будет снято заклинанием «Снятие проклятия» или «Высшее восстановление» либо подобной магией. Оставаясь проклятыми таким образом, вы пребываете в своей форме Вёрдинга, теряете способность говорить, читать, писать, понимать языки и накладывать заклинания с вербальными компонентами."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage you deal with your melee spell attack increases to {@dice 3d10}."
+						"Если вы накладываете это заклинание, используя ячейку заклинания 6-го уровня или выше, урон, который вы наносите броском атаки заклинанием ближнего боя, увеличивается до {@dice 3d10}."
 					]
 				}
 			],
@@ -2646,7 +2646,7 @@
 	],
 	"monster": [
 		{
-			"name": "Allied Hunter",
+			"name": "Союзный охотник",
 			"source": "WitchWBN",
 			"page": 7,
 			"summonedByClass": "Witch|WitchWBN",
@@ -2657,25 +2657,25 @@
 			"type": "beast",
 			"ac": [
 				{
-					"special": "10 + PB (natural armor)"
+					"special": "10 + PB (природная защита)"
 				}
 			],
 			"hp": {
-				"special": "10 (Air only) or 20 (Land and Water only)"
+				"special": "10 (только Воздух) или 20 (только Земля и Вода)"
 			},
 			"speed": {
 				"walk": 30,
 				"climb": {
 					"number": 30,
-					"condition": "(Land Only)"
+					"condition": "(только Земля)"
 				},
 				"fly": {
 					"number": 40,
-					"condition": "(Air Only)"
+					"condition": "(только Воздух)"
 				},
 				"swim": {
 					"number": 30,
-					"condition": "(Water only)"
+					"condition": "(только Вода)"
 				}
 			},
 			"str": 18,
@@ -2698,41 +2698,41 @@
 			"pbNote": "equals your bonus",
 			"trait": [
 				{
-					"name": "Claw-Called",
+					"name": "Призванный когтем",
 					"entries": [
-						"The hunter has advantage on attack rolls against a creature that is {@condition frightened}, {@condition grappled}, {@condition incapacitated}, or under the effects of a curse spell you cast."
+						"Охотник совершает броски атаки с преимуществом против существа, которое является {@condition frightened}, {@condition grappled}, {@condition incapacitated} или находится под действием наложенного вами заклинания-проклятия."
 					]
 				},
 				{
-					"name": "Curse Eater",
+					"name": "Пожиратель проклятий",
 					"entries": [
-						"Once per turn, when the hunter deals damage to a creature that is under the effects of a curse spell that you cast, the hunter regains PB hit points."
+						"Один раз за ход, когда охотник наносит урон существу, находящемуся под действием наложенного вами заклинания-проклятия, охотник восстанавливает PB хитов."
 					]
 				},
 				{
-					"name": "Aquatic Adaption (Water only)",
+					"name": "Адаптация к воде (только Вода)",
 					"entries": [
-						"The hunter can breathe only underwater. It has advantage on Dexterity checks and saving throws in aquatic environments."
+						"Охотник может дышать только под водой. Он совершает с преимуществом проверки и спасброски Ловкости в водной среде."
 					]
 				},
 				{
-					"name": "Tenacious (Land only)",
+					"name": "Упорный (только Земля)",
 					"entries": [
-						"The hunter has advantage on Strength checks made to grapple a target or escape from a grapple."
+						"Охотник совершает с преимуществом проверки Силы, совершаемые для того, чтобы схватить цель или высвободиться из захвата."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The hunter makes a number of attacks equal to half your proficiency bonus (rounded down)."
+						"Охотник совершает количество атак, равное половине вашего бонуса мастерства (округляя вниз)."
 					]
 				},
 				{
-					"name": "Hunter's Strike",
+					"name": "Удар охотника",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h} {@damage 1d8 + 4 + PB} piercing damage."
+						"{@atk mw} {@hitYourSpellAttack} к попаданию, досягаемость 5 фт., одна цель. {@h} {@damage 1d8 + 4 + PB} колющего урона."
 					]
 				}
 			],

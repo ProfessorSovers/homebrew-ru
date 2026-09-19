@@ -25,7 +25,7 @@
 	},
 	"class": [
 		{
-			"name": "Summoner",
+			"name": "Призыватель",
 			"source": "NPOSS",
 			"page": 2,
 			"hd": {
@@ -138,11 +138,11 @@
 				],
 				"weapons": [
 					"simple",
-					"{@item rapier|phb|rapiers}",
-					"{@item scimitar|phb|scimitars}",
-					"{@item shortsword|phb|shortswords}",
-					"{@item whip|phb|whips}",
-					"{@item hand crossbow|phb|hand crossbows}"
+					"{@item rapier|phb|рапиры}",
+					"{@item scimitar|phb|сцимитары}",
+					"{@item shortsword|phb|короткие мечи}",
+					"{@item whip|phb|кнуты}",
+					"{@item hand crossbow|phb|ручные арбалеты}"
 				],
 				"armor": [
 					"light",
@@ -161,7 +161,7 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) two {@filter simple weapons|items|source=phb|type=simple weapon} or (b) any {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand} and a {@item shield|phb}",
-					"(a) {@item chain mail|PHB} or (b) {@item leather armor|PHB} and a {@item hand crossbow|PHB} with {@item crossbow bolts (20)|PHB|20 bolts}",
+					"(a) {@item chain mail|PHB} or (b) {@item leather armor|PHB} and a {@item hand crossbow|PHB} with {@item crossbow bolts (20)|PHB|20 болтов}",
 					"(a) an {@item explorer's pack|PHB} or (b) {@item scholar's pack|PHB}"
 				],
 				"defaultData": [
@@ -239,8 +239,8 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Summon's CR",
-						"Evolution Points",
+						"ПО призыва",
+						"Очки эволюции",
 						"{@filter Cantrips Known|spells|level=0|class=Summoner (NPOSS)}"
 					],
 					"rows": [
@@ -367,7 +367,7 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"colLabels": [
 						"{@filter 1st|spells|level=1|class=Summoner (NPOSS)}",
 						"{@filter 2nd|spells|level=2|class=Summoner (NPOSS)}",
@@ -520,36 +520,36 @@
 				}
 			],
 			"classFeatures": [
-				"Summoning Stones|Summoner|NPOSS|1",
-				"Spellcasting|Summoner|NPOSS|1",
-				"Natural Evolution|Summoner|NPOSS|2",
-				"Artificial Evolution|Summoner|NPOSS|2",
+				"Камни призыва|Summoner|NPOSS|1",
+				"Сотворение заклинаний|Summoner|NPOSS|1",
+				"Естественная эволюция|Summoner|NPOSS|2",
+				"Искусственная эволюция|Summoner|NPOSS|2",
 				{
-					"classFeature": "Summoner Bond|Summoner|NPOSS|3",
+					"classFeature": "Связь призывателя|Summoner|NPOSS|3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Summoner|NPOSS|4",
-				"Natural Evolution Increase|Summoner|NPOSS|6",
+				"Увеличение характеристик|Summoner|NPOSS|4",
+				"Усиление естественной эволюции|Summoner|NPOSS|6",
 				{
-					"classFeature": "Summoner Bond Feature|Summoner|NPOSS|7",
+					"classFeature": "Умение связи призывателя|Summoner|NPOSS|7",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Summoner|NPOSS|8",
-				"Improved Summoning|Summoner|NPOSS|10",
-				"Ability Score Improvement|Summoner|NPOSS|12",
-				"Natural Evolution Increase|Summoner|NPOSS|12",
+				"Увеличение характеристик|Summoner|NPOSS|8",
+				"Улучшенный призыв|Summoner|NPOSS|10",
+				"Увеличение характеристик|Summoner|NPOSS|12",
+				"Усиление естественной эволюции|Summoner|NPOSS|12",
 				{
-					"classFeature": "Summoner Bond Feature|Summoner|NPOSS|14",
+					"classFeature": "Умение связи призывателя|Summoner|NPOSS|14",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Summoner|NPOSS|16",
+				"Увеличение характеристик|Summoner|NPOSS|16",
 				{
-					"classFeature": "Summoner Bond Feature|Summoner|NPOSS|17",
+					"classFeature": "Умение связи призывателя|Summoner|NPOSS|17",
 					"gainSubclassFeature": true
 				},
-				"Natural Evolution Increase|Summoner|NPOSS|18",
-				"Ability Score Improvement|Summoner|NPOSS|19",
-				"Sacrificial Pawn|Summoner|NPOSS|20"
+				"Усиление естественной эволюции|Summoner|NPOSS|18",
+				"Увеличение характеристик|Summoner|NPOSS|19",
+				"Жертвенная пешка|Summoner|NPOSS|20"
 			],
 			"subclassTitle": "Summoner Bond",
 			"hasFluff": true
@@ -557,35 +557,35 @@
 	],
 	"classFluff": [
 		{
-			"name": "Summoner",
+			"name": "Призыватель",
 			"source": "NPOSS",
 			"entries": [
 				{
-					"name": "The Summoner",
+					"name": "Призыватель",
 					"source": "NPOSS",
 					"type": "section",
 					"entries": [
-						"A young man in fine clothes waits inside his carriage as he watches the armed bandits slowly approach his rider. He pulls a runic stone out of his pocket and tosses it out of the window. In the air the runes on the stone glow a dark red and upon impact with the ground the stone burst with red arcane energy. Standing where the stone landed is a large threeheaded chimera that releases a frightful roar from all of it's heads.",
+						"Молодой человек в изысканной одежде ждёт внутри своей кареты, наблюдая, как вооружённые бандиты медленно приближаются к его вознице. Он вытаскивает из кармана камень с рунами и выбрасывает его в окно. В воздухе руны на камне вспыхивают тёмно-красным, и при ударе о землю камень взрывается красной магической энергией. Там, где упал камень, стоит крупная трёхголовая химера, издающая ужасающий рёв из всех своих голов.",
 						{
-							"name": "Binders of Beasts",
+							"name": "Покорители зверей",
 							"type": "entries",
 							"entries": [
-								"Summoners are those who binds the beasts who would be a danger to themselves and use them as allies in battle to use them as dangers to their foes. These summons act as both faithful friends and ever-loyal servants to their master. These summoned creatures may act upon their own will, though that of the summoner takes more precedence, as they are magically compelled to follow the summoner's desires."
+								"Призыватели — это те, кто привязывает зверей, которые могли бы быть опасны сами по себе, и использует их как союзников в бою, обращая их в угрозу для своих врагов. Такие призывы служат одновременно верными друзьями и неизменно преданными слугами своему хозяину. Эти призванные существа могут действовать по своей воле, хотя воля призывателя имеет больший приоритет, так как они магически вынуждены следовать желаниям призывателя."
 							]
 						},
 						{
-							"name": "Creating a Summoner",
+							"name": "Создание призывателя",
 							"type": "entries",
 							"entries": [
-								"When creating your Summoner think about why your characters chooses to specializes in summoning. Do they enjoy the company of animals and keeps them as pet? Or do they see them as slaves only good for certain purposes? Do you like the creatures you summon? How do you react to the creatures you summon?",
-								"It's important to work with your DM to better understand your relationship to the character and its summons. Are you their leader? Or are you some strange being to them as well, one that they must simply follow?"
+								"Создавая своего Призывателя, подумайте, почему ваш персонаж решил специализироваться на призыве. Нравится ли ему общество животных, и держит ли он их как питомцев? Или он видит в них лишь рабов, годных для определённых целей? Нравятся ли вам существа, которых вы призываете? Как вы реагируете на существ, которых призываете?",
+								"Важно работать вместе с вашим Мастером, чтобы лучше понять ваши отношения с персонажем и его призывами. Вы их лидер? Или вы для них тоже некое странное существо, которому они просто должны следовать?"
 							]
 						},
 						{
-							"name": "Quick Build",
+							"name": "Быстрое создание",
 							"type": "entries",
 							"entries": [
-								"You can make a summoner quickly by following these suggestions. First, make Wisdom your highest ability score, followed by either Strength or Dexterity. Second, choose the {@background Hermit} or {@background Outlander} background. Third, choose the {@spell Mage Hand} and {@spell Fire Bolt} cantrips, along with the 1st level spells; {@spell Feather Fall} and {@spell Mage Armor}."
+								"Вы можете быстро создать призывателя, следуя этим советам. Во-первых, сделайте Мудрость своей самой высокой характеристикой, а следующей — либо Силу, либо Ловкость. Во-вторых, выберите предысторию {@background Hermit} или {@background Outlander}. В-третьих, выберите заговоры {@spell Mage Hand} и {@spell Fire Bolt}, а также заклинания 1-го уровня {@spell Feather Fall} и {@spell Mage Armor}."
 							]
 						}
 					]
@@ -595,102 +595,102 @@
 	],
 	"subclass": [
 		{
-			"name": "Bond of the Elements",
-			"shortName": "Elements",
+			"name": "Связь стихий",
+			"shortName": "Стихии",
 			"source": "NPOSS",
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"page": 9,
 			"subclassFeatures": [
-				"Bond of the Elements|Summoner|NPOSS|Elements|NPOSS|3",
-				"Primal Sacrifice|Summoner|NPOSS|Elements|NPOSS|7",
-				"Elemental Resistance|Summoner|NPOSS|Elements|NPOSS|14",
-				"Final Bow|Summoner|NPOSS|Elements|NPOSS|17"
+				"Связь стихий|Summoner|NPOSS|Стихии|NPOSS|3",
+				"Первобытная жертва|Summoner|NPOSS|Стихии|NPOSS|7",
+				"Сопротивление стихиям|Summoner|NPOSS|Стихии|NPOSS|14",
+				"Последний поклон|Summoner|NPOSS|Стихии|NPOSS|17"
 			]
 		},
 		{
-			"name": "Bond of the Guardian",
-			"shortName": "Guardian",
+			"name": "Связь стража",
+			"shortName": "Страж",
 			"source": "NPOSS",
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"page": 9,
 			"subclassFeatures": [
-				"Bond of the Guardian|Summoner|NPOSS|Guardian|NPOSS|3",
-				"Tower Aura|Summoner|NPOSS|Guardian|NPOSS|7",
-				"Shield of Scales|Summoner|NPOSS|Guardian|NPOSS|14",
-				"Titan's Might|Summoner|NPOSS|Guardian|NPOSS|17"
+				"Связь стража|Summoner|NPOSS|Страж|NPOSS|3",
+				"Аура башни|Summoner|NPOSS|Страж|NPOSS|7",
+				"Щит чешуи|Summoner|NPOSS|Страж|NPOSS|14",
+				"Мощь титана|Summoner|NPOSS|Страж|NPOSS|17"
 			]
 		},
 		{
-			"name": "Bond of the Observer",
-			"shortName": "Observer",
+			"name": "Связь наблюдателя",
+			"shortName": "Наблюдатель",
 			"source": "NPOSS",
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"page": 10,
 			"subclassFeatures": [
-				"Bond of the Observer|Summoner|NPOSS|Observer|NPOSS|3",
-				"Trackless Aura|Summoner|NPOSS|Observer|NPOSS|7",
-				"Hidden Agent|Summoner|NPOSS|Observer|NPOSS|14",
-				"Surprise Attack|Summoner|NPOSS|Observer|NPOSS|14",
-				"Invisibility|Summoner|NPOSS|Observer|NPOSS|17"
+				"Связь наблюдателя|Summoner|NPOSS|Наблюдатель|NPOSS|3",
+				"Аура без следа|Summoner|NPOSS|Наблюдатель|NPOSS|7",
+				"Тайный агент|Summoner|NPOSS|Наблюдатель|NPOSS|14",
+				"Внезапная атака|Summoner|NPOSS|Наблюдатель|NPOSS|14",
+				"Невидимость|Summoner|NPOSS|Наблюдатель|NPOSS|17"
 			]
 		},
 		{
-			"name": "Bond of the Souls",
-			"shortName": "Souls",
+			"name": "Связь душ",
+			"shortName": "Души",
 			"source": "NPOSS",
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"page": 11,
 			"subclassFeatures": [
-				"Bond of Souls|Summoner|NPOSS|Souls|NPOSS|3",
-				"Undead Bestiary|Summoner|NPOSS|Souls|NPOSS|7",
-				"Necrosis|Summoner|NPOSS|Souls|NPOSS|14",
-				"Fallen Army|Summoner|NPOSS|Souls|NPOSS|17"
+				"Связь душ|Summoner|NPOSS|Души|NPOSS|3",
+				"Бестиарий нежити|Summoner|NPOSS|Души|NPOSS|7",
+				"Некроз|Summoner|NPOSS|Души|NPOSS|14",
+				"Павшая армия|Summoner|NPOSS|Души|NPOSS|17"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "NPOSS",
 			"page": 4,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 1,
 			"entries": [
-				"As a summoner, your use of magical summoning stones have given you a basic understanding of magic that you can use in combat to aid your summons in combat.",
+				"Как призыватель, используя магические камни призыва, вы обрели базовое понимание магии, которое можете применять в бою, чтобы помогать своим призывам.",
 				{
 					"type": "entries",
-					"name": "Cantrips (0-Level Spell)",
+					"name": "Заговоры (заклинания 0-го уровня)",
 					"entries": [
-						"At 1st level, you know two cantrips from the {@filter summoner spell list|spells|level=0|class=Summoner (NPOSS)}. At higher levels, you learn additional summoner cantrips of your choice, as shown in the Cantrip Known column of the Summoner table. When you gain a level in this class, you can replace one of the summoner cantrips you know with another cantrip from the summoner spell list."
+						"На 1-м уровне вы знаете два заговора из {@filter summoner spell list|spells|level=0|class=Summoner (NPOSS)}. На более высоких уровнях вы изучаете дополнительные заговоры призывателя на ваш выбор, как показано в столбце «Известные заговоры» таблицы Призывателя. Когда вы получаете уровень в этом классе, вы можете заменить один из известных вам заговоров призывателя другим заговором из списка заклинаний призывателя."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells Known",
+					"name": "Известные заклинания",
 					"entries": [
-						"You know {@filter two 1st-level spells of your choice from summoner spell list|spells|level=1|class=Summoner (NPOSS)}. The Summoner table shows when you learn more Summoner spells of your choice. Each of these spells must be of a level for which you have spell slots."
+						"Вы знаете {@filter two 1st-level spells of your choice from summoner spell list|spells|level=1|class=Summoner (NPOSS)}. Таблица Призывателя показывает, когда вы изучаете больше заклинаний Призывателя на ваш выбор. Каждое из этих заклинаний должно быть уровня, для которого у вас есть ячейки заклинаний."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"entries": [
-						"Wisdom is your spellcasting ability for your Summoner spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a summoner spell you cast and when making an attack roll with one.",
+						"Мудрость — ваша способность к наложению заклинаний для ваших заклинаний Призывателя. Вы используете Мудрость всякий раз, когда заклинание ссылается на вашу способность к наложению заклинаний. Кроме того, вы используете модификатор Мудрости при определении Сл спасброска для накладываемого вами заклинания призывателя и при совершении им броска атаки.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"wis"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"wis"
 							]
@@ -700,954 +700,954 @@
 			]
 		},
 		{
-			"name": "Summoning Stones",
+			"name": "Камни призыва",
 			"source": "NPOSS",
 			"page": 3,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 1,
 			"entries": [
-				"Beginning at 1st level, you can turn the souls of certain monsters you kill into magical items known as Summoning Stones. This process takes two mechanical steps: Marking the creature then killing the creature to turn the creature into a summoning stone.",
+				"Начиная с 1-го уровня вы можете обращать души некоторых убитых вами монстров в магические предметы, известные как Камни призыва. Этот процесс состоит из двух механических шагов: отметить существо, а затем убить его, чтобы превратить в камень призыва.",
 				{
 					"type": "entries",
-					"name": "Creating Summons",
+					"name": "Создание призывов",
 					"entries": [
-						"As a bonus action, you can place your Summoner's Mark on a beast, plant, or monstrosity of size tiny to large with a CR equal to a third of your level(rounded down). You may do this three times per day. You can not mark swarms of creatures. Whenever a marked creature within 60 feet of you dies, you can use your reaction to turn the creature's body into a summoner's stone. You do not need to be the person to kill the creature. You can only have a number of summoner's stones equal to your Wisdom modifier (minimum of 1). If you gain a summoner's stone if you are already at your limit you must choose to destroy one stone."
+						"Бонусным действием вы можете поставить Метку призывателя на зверя, растение или чудовище размером от Крошечного до Большого с ПО, равным трети вашего уровня (с округлением вниз). Вы можете делать это трижды в день. Вы не можете отмечать стаи существ. Всякий раз, когда отмеченное существо в пределах 60 футов от вас погибает, вы можете использовать свою реакцию, чтобы обратить тело существа в камень призывателя. Вам не обязательно быть тем, кто убил существо. Вы можете иметь количество камней призывателя, равное вашему модификатору Мудрости (минимум 1). Если вы получаете камень призывателя, уже находясь на своём пределе, вы должны выбрать один камень и уничтожить его."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Summoning Summons",
+					"name": "Призыв существ",
 					"entries": [
-						"As an action, you can crush one of your summoner's stones and summon the creature inside. The creature you summon counts as a party ally and its turn is controlled by you immediately after you take your own turn. You can only summon one creature at a time. The creature is a reconstruction of the original creature that was used to make the summoner stone and has all the same features and abilities that the creature had in life with the excpetion of legendary actions the creature had. When summoned, it appears with full HP and materializes in a place you choose within 10 ft of you, or in the nearest unoccupied space. If you take the {@action Attack} action or cast a spell with a casting time of one action, your summon can't take the {@action Attack} action on the same turn. A summoned creature disappears if it is reduced to 0 HP and can't be summoned again until you complete a long rest. If you are knocked {@condition unconscious} your summon disappears and returns to being a summoner's stone. A summon can be summoned and resummoned without limits but it doesn't regain any of its hit points or other features dependent on rests until a short or long rest accordingly.",
-						"Summons can't be healed with healing spells such as {@spell healing word} or {@spell cure wounds} or magic items such as Healing potions. At level 1 you can only control 1 summoned creature at a time."
+						"Действием вы можете раздавить один из своих камней призывателя и призвать находящееся внутри существо. Призванное существо считается союзником отряда, и его ход контролируется вами сразу после вашего собственного хода. Вы можете призвать одновременно только одно существо. Существо является воссозданием оригинала, использованного для создания камня призывателя, и обладает всеми теми же умениями и способностями, что были у существа при жизни, за исключением легендарных действий, которые у него были. При призыве оно появляется с полными хитами и материализуется в выбранном вами месте в пределах 10 футов от вас или в ближайшем свободном пространстве. Если вы используете действие {@action Attack} или накладываете заклинание со временем накладывания в одно действие, ваш призыв не может использовать действие {@action Attack} в тот же ход. Призванное существо исчезает, если его хиты уменьшаются до 0, и не может быть призвано вновь, пока вы не завершите продолжительный отдых. Если вас сбивают с ног {@condition unconscious}, ваш призыв исчезает и возвращается к состоянию камня призывателя. Призыв можно призывать и призывать заново без ограничений, но он не восстанавливает свои хиты или иные способности, зависящие от отдыха, пока не завершите короткий или продолжительный отдых соответственно.",
+						"Призывы нельзя исцелять лечащими заклинаниями, такими как {@spell healing word} или {@spell cure wounds}, или магическими предметами, такими как зелья лечения. На 1-м уровне вы можете контролировать одновременно только 1 призванное существо."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Starting Stones",
+					"name": "Начальные камни",
 					"entries": [
-						"At 1st level, you start with 1 summoner's stone. This summoner's stone holds a small or medium size beast of CR 1/4 or lower that can not fly or swim. You may not choose swarms."
+						"На 1-м уровне вы начинаете с 1 камнем призывателя. Этот камень призывателя содержит зверя Маленького или Среднего размера с ПО 1/4 или ниже, который не умеет летать или плавать. Вы не можете выбирать стаи."
 					]
 				}
 			]
 		},
 		{
-			"name": "Artificial Evolution",
+			"name": "Искусственная эволюция",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you gain 2 Evolution Points which you can spend on Artificial Evolutions. Artificial evolutions are abilities, powers, and upgrades you can purchase with evolution points to give to summons. Each artificial evolution applies to one summon and each summon can have a maximum of 3 artificial evolutions on it at a time. Artificial evolutions can be changed whenever the summoner gains a new level, but they are otherwise set. Evolution points cannot be saved all of the points must be spent whenever the summoner gains a level. The list of Artificial Evolutions can be found on the {@filter Optional Features page|optionalfeatures|feature type=s:ae}."
+				"На 2-м уровне вы получаете 2 Очка эволюции, которые можете потратить на Искусственные эволюции. Искусственные эволюции — это способности, силы и улучшения, которые вы можете приобрести за очки эволюции, чтобы дать их призывам. Каждая искусственная эволюция применяется к одному призыву, и каждый призыв может иметь одновременно максимум 3 искусственные эволюции. Искусственные эволюции можно менять всякий раз, когда призыватель получает новый уровень, но в остальном они фиксированы. Очки эволюции нельзя сохранять — все очки должны быть потрачены всякий раз, когда призыватель получает уровень. Список Искусственных эволюций можно найти на {@filter Optional Features page|optionalfeatures|feature type=s:ae}."
 			]
 		},
 		{
-			"name": "Natural Evolution",
+			"name": "Естественная эволюция",
 			"source": "NPOSS",
 			"page": 4,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, when you level up the summons you currently have on you gain certain benefits. You add an additional hit die and increase its hit points accordingly. Whenever you gain the Ability Score Improvement class feature from the summoner class, your summons' abilities also improve. Your summons can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your summoners can't increase an ability score above 20 using this feature unless it has a stat above 20 when captured. At 6th, 12th, and 18th level you can improve the die of damage of each of your summons you have at the time you level up. For example, if you have a Giant Eagle that deals {@dice 1d6} slashing damage with its claws it improves to {@dice 2d6}. If you capture a new summon that is one CR below your current maximum CR it gains all ability score increases and damage increases that start from the level where there CR becomes available."
+				"Начиная со 2-го уровня, когда вы повышаете уровень, имеющиеся у вас призывы получают определённые улучшения. Вы добавляете дополнительную кость хитов и соответственно увеличиваете их хиты. Всякий раз, когда вы получаете классовое умение Увеличение характеристик от класса призывателя, характеристики ваших призывов также улучшаются. Ваши призывы могут увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, ваши призыватели не могут увеличить характеристику выше 20 с помощью этого умения, если только при захвате у них не было характеристики выше 20. На 6-м, 12-м и 18-м уровнях вы можете улучшить кость урона каждого из ваших призывов, которые у вас есть на момент повышения уровня. Например, если у вас есть Гигантский орёл, наносящий {@dice 1d6} рубящего урона когтями, это улучшается до {@dice 2d6}. Если вы захватываете новый призыв, ПО которого на единицу ниже вашего текущего максимума ПО, он получает все увеличения характеристик и увеличения урона, начиная с уровня, на котором его ПО становится доступным."
 			]
 		},
 		{
-			"name": "Summoner Bond",
+			"name": "Связь призывателя",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you choose an archetype to enhance your summoning abilities. Choose Bond of the Elements, Bond of the Guardian, or Bond of the Observer, all detailed at the end of the class description. The archetype you choose grants you features at 3rd, 7th, 14th, and 17th level."
+				"На 3-м уровне вы выбираете архетип, усиливающий ваши способности к призыву. Выберите Связь стихий, Связь стража или Связь наблюдателя — все они подробно описаны в конце описания класса. Выбранный архетип даёт вам умения на 3-м, 7-м, 14-м и 17-м уровнях."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 4-го уровня вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этой способности нельзя увеличить характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Natural Evolution Increase",
+			"name": "Усиление естественной эволюции",
 			"source": "NPOSS",
 			"page": 3,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 6,
 			"entries": [
-				"Your Natural Evolution improves according to its rules."
+				"Ваша Естественная эволюция улучшается согласно своим правилам."
 			]
 		},
 		{
-			"name": "Summoner Bond Feature",
+			"name": "Умение связи призывателя",
 			"source": "NPOSS",
 			"page": 3,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 7,
 			"entries": [
-				"At 7th level, you gain a feature granted by your Summoner Bond."
+				"На 7-м уровне вы получаете умение, дарованное вашей Связью призывателя."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 8-го уровня вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этой способности нельзя увеличить характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Improved Summoning",
+			"name": "Улучшенный призыв",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 10,
 			"entries": [
-				"At 10th level, you've learned to improve your skills of summoning and capturing monsters. You can now mark, capture, and summon any creature as long as it is not a humanoid. Their size is allowed to be huge now. Your summons' attacks are now counted as magical. You can also now summon 2 summons at once if both of their CRs combined does not exceed half your level rounded up. For example, at level 10 you can summon two summons if their combined CRs don't exceed 5. Both summons go immediately after you with the one with the higher Dexterity score going first."
+				"На 10-м уровне вы научились совершенствовать свои навыки призыва и захвата монстров. Теперь вы можете отмечать, захватывать и призывать любое существо, если только оно не гуманоид. Теперь допускается Огромный размер. Атаки ваших призывов теперь считаются магическими. Теперь вы также можете призывать 2 призыва сразу, если их суммарное ПО не превышает половину вашего уровня, округлённую вверх. Например, на 10-м уровне вы можете призвать два призыва, если их суммарное ПО не превышает 5. Оба призыва действуют сразу после вас, причём тот, у кого выше Ловкость, ходит первым."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 12-го уровня вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этой способности нельзя увеличить характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Natural Evolution Increase",
+			"name": "Усиление естественной эволюции",
 			"source": "NPOSS",
 			"page": 3,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 12,
 			"entries": [
-				"Your Natural Evolution improves according to its rules."
+				"Ваша Естественная эволюция улучшается согласно своим правилам."
 			]
 		},
 		{
-			"name": "Summoner Bond Feature",
+			"name": "Умение связи призывателя",
 			"source": "NPOSS",
 			"page": 3,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain a feature granted by your Summoner Bond."
+				"На 14-м уровне вы получаете умение, дарованное вашей Связью призывателя."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 16-го уровня вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этой способности нельзя увеличить характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Summoner Bond Feature",
+			"name": "Умение связи призывателя",
 			"source": "NPOSS",
 			"page": 3,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 17,
 			"entries": [
-				"At 17th level, you gain a feature granted by your Summoner Bond."
+				"На 17-м уровне вы получаете умение, дарованное вашей Связью призывателя."
 			]
 		},
 		{
-			"name": "Natural Evolution Increase",
+			"name": "Усиление естественной эволюции",
 			"source": "NPOSS",
 			"page": 3,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 18,
 			"entries": [
-				"Your Natural Evolution improves according to its rules."
+				"Ваша Естественная эволюция улучшается согласно своим правилам."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Увеличение характеристик",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"При достижении 19-го уровня вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этой способности нельзя увеличить характеристику выше 20.",
+				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Sacrificial Pawn",
+			"name": "Жертвенная пешка",
 			"source": "NPOSS",
 			"page": 5,
 			"className": "Summoner",
 			"classSource": "NPOSS",
 			"level": 20,
 			"entries": [
-				"At 20th level, when you fall {@condition unconscious} and have at least one summon currently summoned you can remove the summon and regain it's CR in hit points. The summon can't be summoned again until your next long rest. Alternatively if your summon drops to 0 hit points you can use your reaction to remove it's CR in hit points from yourself and let it regain the same number of hit points you lost. If the summon's CR is less than 1 you gain or lose 1 hit point."
+				"На 20-м уровне, когда вы падаете {@condition unconscious} и у вас есть хотя бы один призванный призыв, вы можете убрать призыв и восстановить хиты в размере его ПО. Призыв нельзя призвать вновь до вашего следующего продолжительного отдыха. Как вариант, если ваш призыв уменьшается до 0 хитов, вы можете использовать свою реакцию, чтобы забрать у себя количество хитов, равное его ПО, и позволить ему восстановить то же количество хитов, которое потеряли вы. Если ПО призыва меньше 1, вы получаете или теряете 1 хит."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Bond of the Elements",
+			"name": "Связь стихий",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Стихии",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"entries": [
-				"On the edge of existence there lies worlds made of the primal energy of the universe. Those who practice the Bond of the Elements specialize in the overwhelming powers of these realms and the primal titans from them. You combine the elements with power of your summoned creatures to create the most dangerous threats on the battlefield.",
+				"На краю существования лежат миры, созданные из первобытной энергии вселенной. Те, кто практикует Связь стихий, специализируются на подавляющих силах этих миров и первобытных титанах из них. Вы соединяете стихии с мощью своих призванных существ, чтобы создавать самые опасные угрозы на поле боя.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Summoner|NPOSS|Elements|NPOSS|3"
+					"subclassFeature": "Бонусные владения|Summoner|NPOSS|Стихии|NPOSS|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elemental Strike|Summoner|NPOSS|Elements|NPOSS|3"
+					"subclassFeature": "Стихийный удар|Summoner|NPOSS|Стихии|NPOSS|3"
 				}
 			]
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"name": "Бонусные владения",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Стихии",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i (3rd-level Bond of the Elements feature)}",
-				"Starting at 3rd level, you can speak, read, and write one of the following; Auran, Aquan, Ignan or Terran. You also gain proficiency in one of the following; {@skill Arcana}, {@skill Nature}, or {@skill Religion}."
+				"{@i (умение «Связь стихий» 3-го уровня)}",
+				"Начиная с 3-го уровня вы можете говорить, читать и писать на одном из следующих языков: ауран, акван, игнан или терран. Вы также получаете владение одним из следующих навыков: {@skill Arcana}, {@skill Nature} или {@skill Religion}."
 			]
 		},
 		{
-			"name": "Elemental Strike",
+			"name": "Стихийный удар",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Стихии",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i (3rd-level Bond of the Elements feature)}",
-				"At 3rd level, your summons gain the ability to infuse their weapon strikes with elemental energy. Once on each of your summon's turns when they hit a creature with a melee attack they deal an extra {@dice 1d8} damage to the target. You can choose the damage to be one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You can pick which damage type at the end of a long rest and can't change until your next long rest.",
-				"At 7th level, the die increases to a {@dice 1d10}, at 15th level, {@dice 1d12}."
+				"{@i (умение «Связь стихий» 3-го уровня)}",
+				"На 3-м уровне ваши призывы обретают способность наполнять свои удары оружием стихийной энергией. Один раз в каждый ход вашего призыва, когда он попадает по существу рукопашной атакой, он наносит цели дополнительный урон {@dice 1d8}. Вы можете выбрать один из следующих типов урона: кислота, холод, огонь, электричество или звук. Вы можете выбрать тип урона в конце продолжительного отдыха и не можете изменить его до следующего продолжительного отдыха.",
+				"На 7-м уровне кость увеличивается до {@dice 1d10}, на 15-м уровне — до {@dice 1d12}."
 			]
 		},
 		{
-			"name": "Primal Sacrifice",
+			"name": "Первобытная жертва",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Стихии",
 			"subclassSource": "NPOSS",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i (7th-level Bond of the Elements feature)}",
-				"At 7th level, when your summons drop to 0 hit points they create an explosion of elemental damage of the type of you chose for your elemental strike. All creatures within 10 feet must make a Dexterity saving throw (DC = 8 + your proficiency bonus + summon's CR). On a failure, they take {@dice 1d10} + your summoner level in damage of the same type you chose for their elemental strike. On a success, they take half damage."
+				"{@i (умение «Связь стихий» 7-го уровня)}",
+				"На 7-м уровне, когда ваши призывы уменьшаются до 0 хитов, они создают взрыв стихийного урона того типа, который вы выбрали для своего стихийного удара. Все существа в пределах 10 футов должны совершить спасбросок Ловкости (Сл = 8 + ваш бонус мастерства + ПО призыва). При провале они получают {@dice 1d10} + ваш уровень призывателя урона того же типа, который вы выбрали для их стихийного удара. При успехе они получают половину урона."
 			]
 		},
 		{
-			"name": "Elemental Resistance",
+			"name": "Сопротивление стихиям",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Стихии",
 			"subclassSource": "NPOSS",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i (14th-level Bond of the Elements feature)}",
-				"At 14th level, your summons have adapted to the use of the elements in their attacks and gain resistance to the damage type you currently chose as their Elemental Strike."
+				"{@i (умение «Связь стихий» 14-го уровня)}",
+				"На 14-м уровне ваши призывы адаптировались к использованию стихий в своих атаках и получают сопротивление типу урона, который вы в настоящее время выбрали для их Стихийного удара."
 			]
 		},
 		{
-			"name": "Final Bow",
+			"name": "Последний поклон",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Стихии",
 			"subclassSource": "NPOSS",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"{@i (17th-level Bond of the Elements feature)}",
-				"At 17th level, whenever you de-summon a summon you can choose to activate the primal sacrifice feature even if they did not drop to 0 hit points. You can only do this one time per summon with each having to wait until a long rest to use this feature again. If the summon drops to 0 hit points it can still use Primal Sacrifice if it already used it with Final Bow."
+				"{@i (умение «Связь стихий» 17-го уровня)}",
+				"На 17-м уровне, всякий раз когда вы отзываете призыв, вы можете активировать умение первобытной жертвы, даже если его хиты не уменьшились до 0. Вы можете делать это только один раз на призыв, и каждому нужно ждать до продолжительного отдыха, чтобы снова использовать это умение. Если хиты призыва уменьшаются до 0, он всё ещё может использовать Первобытную жертву, если уже использовал её с Последним поклоном."
 			]
 		},
 		{
-			"name": "Bond of the Guardian",
+			"name": "Связь стража",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Guardian",
+			"subclassShortName": "Страж",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"entries": [
-				"Guardians are those who defend the weak from threats to dangerous to defend themselves from. Summoners of the bond of the guardian turn their summons into such being. You develop powerful summons to act as towers of defense for yourself and your allies.",
+				"Стражи — это те, кто защищает слабых от угроз, слишком опасных для того, чтобы они могли защититься сами. Призыватели связи стража превращают своих призывов в таких существ. Вы развиваете могучих призывов, служащих башнями защиты для вас и ваших союзников.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Beastial Bulwark|Summoner|NPOSS|Guardian|NPOSS|3"
+					"subclassFeature": "Звериный оплот|Summoner|NPOSS|Страж|NPOSS|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Summoner's Armor|Summoner|NPOSS|Guardian|NPOSS|3"
+					"subclassFeature": "Доспех призывателя|Summoner|NPOSS|Страж|NPOSS|3"
 				}
 			]
 		},
 		{
-			"name": "Beastial Bulwark",
+			"name": "Звериный оплот",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Guardian",
+			"subclassShortName": "Страж",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i (3rd-level Bond of the Guardian feature)}",
-				"Starting at 3rd level, your summons are designed to defend you. Your summons gain proficiency in Constitution saving throws and a Constitution score equal to their original Constitution score + your Wisdom modifier (minimum of +1). For example, a giant eagle summon with a Constitution of 13 and its Summoner with a Wisdom of 15 will have its Constitution score become 15.",
-				"The summons HP increases accordingly to the changes to their Constitution modifier because a monster's Constitution modifier also affects the number of hit points it has. Its Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its hit points. For example, if a monster has a Constitution of 13(+1 modifier) and {@dice 2d8} Hit Dice, it has {@dice 2d8 + 2} hit points (average 11)."
+				"{@i (умение «Связь стража» 3-го уровня)}",
+				"Начиная с 3-го уровня ваши призывы созданы, чтобы защищать вас. Ваши призывы получают владение спасбросками Телосложения и значение Телосложения, равное их исходному значению Телосложения + ваш модификатор Мудрости (минимум +1). Например, призыв гигантского орла с Телосложением 13 и его Призыватель с Мудростью 15 получат значение Телосложения, равное 15.",
+				"Хиты призыва увеличиваются соответственно изменениям его модификатора Телосложения, поскольку модификатор Телосложения монстра также влияет на количество его хитов. Его модификатор Телосложения умножается на количество имеющихся у него костей хитов, и результат прибавляется к его хитам. Например, если у монстра Телосложение 13 (модификатор +1) и {@dice 2d8} костей хитов, у него {@dice 2d8 + 2} хитов (в среднем 11)."
 			]
 		},
 		{
-			"name": "Summoner's Armor",
+			"name": "Доспех призывателя",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Guardian",
+			"subclassShortName": "Страж",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i (3rd-level Bond of the Guardian feature)}",
-				"At 3rd level, if your summon does not have any form of armor(natural or unnatural) it's AC increases to 13 + your summon's Dexterity score."
+				"{@i (умение «Связь стража» 3-го уровня)}",
+				"На 3-м уровне, если у вашего призыва нет какой-либо формы доспеха (природного или неприродного), его КД увеличивается до 13 + значение Ловкости вашего призыва."
 			]
 		},
 		{
-			"name": "Tower Aura",
+			"name": "Аура башни",
 			"source": "NPOSS",
 			"page": 9,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Guardian",
+			"subclassShortName": "Страж",
 			"subclassSource": "NPOSS",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i (7th-level Bond of the Guardian feature)}",
-				"At 7th level, your summons exude an aura of protection which you and your allies benefit from. All allies within 5 feet of your summons have advantage on Constitution saving throws and concentration checks. If you have two summons present you have to pick one to give of the Tower Aura. The other produces no aura. At 17th level, this aura increases to 10 feet."
+				"{@i (умение «Связь стража» 7-го уровня)}",
+				"На 7-м уровне ваши призывы испускают ауру защиты, от которой получаете пользу вы и ваши союзники. Все союзники в пределах 5 футов от ваших призывов получают преимущество на спасброски Телосложения и проверки концентрации. Если у вас есть два призыва, вы должны выбрать один, дающий Ауру башни. Другой не создаёт ауру. На 17-м уровне эта аура увеличивается до 10 футов."
 			]
 		},
 		{
-			"name": "Shield of Scales",
+			"name": "Щит чешуи",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Guardian",
+			"subclassShortName": "Страж",
 			"subclassSource": "NPOSS",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i (14th-level Bond of the Guardian feature)}",
-				"At 14th level, your summons specialize in protecting those around it. Your summons can use their reaction to impose disadvantage on any non-spell attack roll that targets them or an ally with 5 feet of them."
+				"{@i (умение «Связь стража» 14-го уровня)}",
+				"На 14-м уровне ваши призывы специализируются на защите окружающих. Ваши призывы могут использовать свою реакцию, чтобы наложить помеху на любой не-заклинательный бросок атаки, нацеленный на них или на союзника в пределах 5 футов от них."
 			]
 		},
 		{
-			"name": "Titan's Might",
+			"name": "Мощь титана",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Guardian",
+			"subclassShortName": "Страж",
 			"subclassSource": "NPOSS",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"{@i (17th-level Bond of the Guardian feature)}",
-				"Starting at 17th level, your summons' abilities to protect others and take hits have given it mighty resistances. your summons gain resistance to all forms of bludgeoning, piercing, and slashing damage."
+				"{@i (умение «Связь стража» 17-го уровня)}",
+				"Начиная с 17-го уровня способности ваших призывов защищать других и принимать удары дали им могучие сопротивления. Ваши призывы получают сопротивление всем формам дробящего, колющего и рубящего урона."
 			]
 		},
 		{
-			"name": "Bond of the Observer",
+			"name": "Связь наблюдателя",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Observer",
+			"subclassShortName": "Наблюдатель",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"entries": [
-				"Using their summons as spies to watch the enemy from a far. The bond of the observer uses their summons to aid them in spying, stealing, and sneaking in the world. You specialize intrugue and stealth and use your summons to aid you in your venture.",
+				"Используя своих призывов как шпионов, чтобы наблюдать за врагом издалека. Связь наблюдателя использует своих призывов, чтобы помогать им в шпионаже, воровстве и скрытном передвижении по миру. Вы специализируетесь на интригах и скрытности и используете своих призывов, чтобы помочь себе в ваших затеях.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Summon's Proficiencies|Summoner|NPOSS|Observer|NPOSS|3"
+					"subclassFeature": "Владения призыва|Summoner|NPOSS|Наблюдатель|NPOSS|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Third Eye|Summoner|NPOSS|Observer|NPOSS|3"
+					"subclassFeature": "Третий глаз|Summoner|NPOSS|Наблюдатель|NPOSS|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tread Cautiously|Summoner|NPOSS|Observer|NPOSS|3"
+					"subclassFeature": "Ступай осторожно|Summoner|NPOSS|Наблюдатель|NPOSS|3"
 				}
 			]
 		},
 		{
-			"name": "Summon's Proficiencies",
+			"name": "Владения призыва",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Observer",
+			"subclassShortName": "Наблюдатель",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i (3rd-level Bond of the Observer feature)}",
-				"Starting at 3rd level, all your summons gain proficiency in {@skill Perception}, {@skill Sleight of Hand} and {@skill Stealth}."
+				"{@i (умение «Связь наблюдателя» 3-го уровня)}",
+				"Начиная с 3-го уровня все ваши призывы получают владение {@skill Perception}, {@skill Sleight of Hand} и {@skill Stealth}."
 			]
 		},
 		{
-			"name": "Third Eye",
+			"name": "Третий глаз",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Observer",
+			"subclassShortName": "Наблюдатель",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i (3rd-level Bond of the Observer feature)}",
-				"At 3rd level, as long as your summon is within 100 feet of you, you can communicate with it telepathically and see through their senses. As an action, you can see through your summon's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the summon has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses."
+				"{@i (умение «Связь наблюдателя» 3-го уровня)}",
+				"На 3-м уровне, пока ваш призыв находится в пределах 100 футов от вас, вы можете общаться с ним телепатически и видеть через его чувства. Действием вы можете видеть глазами своего призыва и слышать то, что слышит он, до начала вашего следующего хода, получая преимущества любых особых чувств, которые есть у призыва. В течение этого времени вы {@condition deafened||оглох} и {@condition blinded||ослеплён} в отношении своих собственных чувств."
 			]
 		},
 		{
-			"name": "Tread Cautiously",
+			"name": "Ступай осторожно",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Observer",
+			"subclassShortName": "Наблюдатель",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i (3rd-level Bond of the Observer feature)}",
-				"At 3rd level, your summons can temporarily become {@condition invisible}. As a bonus action, your summon can magically turn {@condition invisible} until the start of its next turn or until your summon attacks, makes a damage roll, or forces someone to make a saving throw. They can't use it again until you finish a short or long rest."
+				"{@i (умение «Связь наблюдателя» 3-го уровня)}",
+				"На 3-м уровне ваши призывы могут на время становиться {@condition invisible}. Бонусным действием ваш призыв может магически стать {@condition invisible} до начала своего следующего хода или пока ваш призыв не атакует, не совершит бросок урона или не вынудит кого-либо совершить спасбросок. Он не может использовать это снова, пока вы не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Trackless Aura",
+			"name": "Аура без следа",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Observer",
+			"subclassShortName": "Наблюдатель",
 			"subclassSource": "NPOSS",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i (7th-level Bond of the Observer feature)}",
-				"At 7th level, your summons exude an aura of shadows which you and your allies benefit from. All allies within 5 feet of your summons have advantage on {@skill Stealth} checks and Dexterity saving throws. If you have two summons present you have to pick one to give off the Trackless Aura. The other produces no aura. At 17th level, this aura increases to 10 feet."
+				"{@i (умение «Связь наблюдателя» 7-го уровня)}",
+				"На 7-м уровне ваши призывы испускают ауру теней, от которой получаете пользу вы и ваши союзники. Все союзники в пределах 5 футов от ваших призывов получают преимущество на проверки {@skill Stealth} и спасброски Ловкости. Если у вас есть два призыва, вы должны выбрать один, дающий Ауру без следа. Другой не создаёт ауру. На 17-м уровне эта аура увеличивается до 10 футов."
 			]
 		},
 		{
-			"name": "Hidden Agent",
+			"name": "Тайный агент",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Observer",
+			"subclassShortName": "Наблюдатель",
 			"subclassSource": "NPOSS",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i (14th-level Bond of the Observer feature)}",
-				"Starting at 14th level, your summons can use the Tread Cautiously feature a number of times as your Wisdom modifier (minimum of 1). You regain all uses of Hidden Agent after finishing a short or long rest."
+				"{@i (умение «Связь наблюдателя» 14-го уровня)}",
+				"Начиная с 14-го уровня ваши призывы могут использовать умение Ступай осторожно число раз, равное вашему модификатору Мудрости (минимум 1). Вы восстанавливаете все использования Тайного агента после завершения короткого или продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Surprise Attack",
+			"name": "Внезапная атака",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Observer",
+			"subclassShortName": "Наблюдатель",
 			"subclassSource": "NPOSS",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i (14th-level Bond of the Observer feature)}",
-				"At 14th level, your summons are adept at surprising enemies in combat. Whenever your summons have advantage on an attack roll they can add an extra {@dice 2d6} damage to the damage roll."
+				"{@i (умение «Связь наблюдателя» 14-го уровня)}",
+				"На 14-м уровне ваши призывы искусны в том, чтобы заставать врагов врасплох в бою. Всякий раз, когда у ваших призывов есть преимущество на бросок атаки, они могут добавить дополнительный урон {@dice 2d6} к броску урона."
 			]
 		},
 		{
-			"name": "Invisibility",
+			"name": "Невидимость",
 			"source": "NPOSS",
 			"page": 10,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Observer",
+			"subclassShortName": "Наблюдатель",
 			"subclassSource": "NPOSS",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"{@i (17th-level Bond of the Observer feature)}",
-				"At 17th level, whenever your summons use their Tread Cautiously or Hidden Agent ability the invisibility lasts for 1 minute. It is still dispelled when your summon attacks, makes a damage roll, or forces someone to make a saving throw."
+				"{@i (умение «Связь наблюдателя» 17-го уровня)}",
+				"На 17-м уровне, всякий раз когда ваши призывы используют свою способность Ступай осторожно или Тайный агент, невидимость длится 1 минуту. Она всё ещё рассеивается, когда ваш призыв атакует, совершает бросок урона или вынуждает кого-либо совершить спасбросок."
 			]
 		},
 		{
-			"name": "Bond of Souls",
+			"name": "Связь душ",
 			"source": "NPOSS",
 			"page": 11,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Souls",
+			"subclassShortName": "Души",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"entries": [
-				"Summoners can't control the powerful souls of humanoids. But if undead they are weak enough to control. Summoners of the Bond of Souls focus on weakening the souls of their summons to better control them and use them in combat.",
+				"Призыватели не могут контролировать могучие души гуманоидов. Но если это нежить, они достаточно слабы, чтобы их контролировать. Призыватели Связи душ сосредотачиваются на ослаблении душ своих призывов, чтобы лучше контролировать их и использовать в бою.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Undead Summons|Summoner|NPOSS|Souls|NPOSS|3"
+					"subclassFeature": "Призывы нежити|Summoner|NPOSS|Души|NPOSS|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Necromancer|Summoner|NPOSS|Souls|NPOSS|3"
+					"subclassFeature": "Некромант|Summoner|NPOSS|Души|NPOSS|3"
 				}
 			]
 		},
 		{
-			"name": "Necromancer",
+			"name": "Некромант",
 			"source": "NPOSS",
 			"page": 11,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Souls",
+			"subclassShortName": "Души",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i (3rd-level Bond of the Souls feature)}",
-				"At 3rd level, you can mark, capture, and summon Undead and Humanoids. Any humanoids you capture and summon will appear as a zombie version of themselves but will use their original statblock with excpetions of their creature type changing to Undead and their Intelligence score become 3 + their Intelligence modifier they had in life. If they used Intelligence as their spellcasting ability, the bonus they get is 3 + double their Intelligence modifier they had in life."
+				"{@i (умение «Связь душ» 3-го уровня)}",
+				"На 3-м уровне вы можете отмечать, захватывать и призывать нежить и гуманоидов. Любые захваченные и призванные вами гуманоиды будут выглядеть как зомби-версии самих себя, но будут использовать свой исходный блок статистики, за исключением того, что их тип существа меняется на Нежить, а значение Интеллекта становится 3 + их модификатор Интеллекта, который у них был при жизни. Если они использовали Интеллект как свою способность к наложению заклинаний, получаемый ими бонус равен 3 + удвоенный их модификатор Интеллекта, который у них был при жизни."
 			]
 		},
 		{
-			"name": "Undead Summons",
+			"name": "Призывы нежити",
 			"source": "NPOSS",
 			"page": 11,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Souls",
+			"subclassShortName": "Души",
 			"subclassSource": "NPOSS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, the weakening of your summons' souls weaken their bodies. All your summons gain the Undead Fortitude feature.",
+				"Начиная с 3-го уровня ослабление душ ваших призывов ослабляет их тела. Все ваши призывы получают умение Незыблемость нежити.",
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"type": "entries",
 					"entries": [
-						"If damage reduces your summon to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the summon drops to 1 hit point instead."
+						"Если урон уменьшает хиты вашего призыва до 0, он должен совершить спасбросок Телосложения со Сл 5 + полученный урон, если только урон не является излучением или результатом критического попадания. При успехе призыв вместо этого падает до 1 хита."
 					]
 				}
 			]
 		},
 		{
-			"name": "Undead Bestiary",
+			"name": "Бестиарий нежити",
 			"source": "NPOSS",
 			"page": 11,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Souls",
+			"subclassShortName": "Души",
 			"subclassSource": "NPOSS",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i (7th-level Bond of the Souls feature)}",
-				"Starting at 7th level, you can decide the type of undead your summons appear as. At the end of a long rest you can choose to either have all your summons as Shadow, Skeletal or Zombified.",
+				"{@i (умение «Связь душ» 7-го уровня)}",
+				"Начиная с 7-го уровня вы можете решать, в каком виде нежити предстают ваши призывы. В конце продолжительного отдыха вы можете выбрать, чтобы все ваши призывы были Тенями, Скелетными или Зомбифицированными.",
 				{
-					"name": "Shadow",
+					"name": "Тень",
 					"type": "entries",
 					"entries": [
-						"Summons that are shadows can hide as a bonus action and can move through a space as narrow as 1 inch wide without squeezing"
+						"Призывы, являющиеся тенями, могут прятаться бонусным действием и могут перемещаться через пространство шириной всего 1 дюйм, не протискиваясь."
 					]
 				},
 				{
-					"name": "Skeletal",
+					"name": "Скелетный",
 					"type": "entries",
 					"entries": [
-						"Summons that are skeletal are immune to poison damage and the {@condition poisoned} condition."
+						"Призывы, являющиеся скелетными, невосприимчивы к урону ядом и состоянию {@condition poisoned}."
 					]
 				},
 				{
-					"name": "Zombified",
+					"name": "Зомбифицированный",
 					"type": "entries",
 					"entries": [
-						"Summons that are zombified have advantage on Constitution saving throws."
+						"Призывы, являющиеся зомбифицированными, получают преимущество на спасброски Телосложения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Necrosis",
+			"name": "Некроз",
 			"source": "NPOSS",
 			"page": 11,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Souls",
+			"subclassShortName": "Души",
 			"subclassSource": "NPOSS",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i (14th-level Bond of the Souls feature)}",
-				"At 14th level, your summons have become powerful and their bodies of bone have given them resistant to necrotic damage and are immune to the effects of {@condition exhaustion}."
+				"{@i (умение «Связь душ» 14-го уровня)}",
+				"На 14-м уровне ваши призывы стали могучими, и их костяные тела дали им сопротивление некротическому урону, а также невосприимчивость к эффектам {@condition exhaustion}."
 			]
 		},
 		{
-			"name": "Fallen Army",
+			"name": "Павшая армия",
 			"source": "NPOSS",
 			"page": 11,
 			"className": "Summoner",
 			"classSource": "NPOSS",
-			"subclassShortName": "Souls",
+			"subclassShortName": "Души",
 			"subclassSource": "NPOSS",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"{@i (17th-level Bond of the Souls feature)}",
-				"At 17th level, your summons' nature spreads like an infectious virus. When ever your summons kill a humanoid it rises from the dead into temporary service of you. It uses the stat block of {@creature zombie|MM} and it keeps its place in the initiative order if you were in combat. The zombie remains in your service for a number of rounds equal to your Wisdom modifier (minimum of 1). You can only have one zombie at a time, if your summon kills another humanoid the zombie returns to a corpse."
+				"{@i (умение «Связь душ» 17-го уровня)}",
+				"На 17-м уровне природа ваших призывов распространяется, как заразный вирус. Всякий раз, когда ваши призывы убивают гуманоида, он восстаёт из мёртвых, поступая на временную службу к вам. Он использует блок статистики {@creature zombie|MM} и сохраняет своё место в порядке инициативы, если вы были в бою. Зомби остаётся у вас на службе число раундов, равное вашему модификатору Мудрости (минимум 1). У вас может быть только один зомби одновременно: если ваш призыв убьёт другого гуманоида, зомби снова становится трупом."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Aerial",
+			"name": "Воздушный",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon gains a flying speed of 20 feet."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв получает скорость полёта 20 футов."
 			]
 		},
 		{
-			"name": "Aquatic",
+			"name": "Водный",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon can breathe in both air and water. The summon also gains a swimming speed of 20 feet."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв может дышать и в воздухе, и в воде. Призыв также получает скорость плавания 20 футов."
 			]
 		},
 		{
-			"name": "Basic Magic",
+			"name": "Базовая магия",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 1 Evolution Points}",
-				"A summon gain {@filter a single cantrip from the Summoner spell list|spells|level=0|class=Summoner (NPOSS)}. Constitution is its spellcasting ability when determining spellcasting modifier and DC."
+				"{@b Стоимость: 1 очко эволюции}",
+				"Призыв получает {@filter a single cantrip from the Summoner spell list|spells|level=0|class=Summoner (NPOSS)}. Телосложение является его способностью к наложению заклинаний при определении модификатора наложения заклинаний и Сл."
 			]
 		},
 		{
-			"name": "Blindsight",
+			"name": "Слепое зрение",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon gains blindsight, enabling it to see 60 feet without the need for eyes. If the summon already has {@sense blindsight} it is expanded 60 feet."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв получает слепое зрение, позволяющее ему видеть на 60 футов без необходимости в глазах. Если у призыва уже есть {@sense blindsight}, оно расширяется на 60 футов."
 			]
 		},
 		{
-			"name": "Climbing Speed",
+			"name": "Скорость лазания",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 1 Evolution Points}",
-				"A summon gains a climbing speed of 20 feet."
+				"{@b Стоимость: 1 очко эволюции}",
+				"Призыв получает скорость лазания 20 футов."
 			]
 		},
 		{
-			"name": "Condition Immunity",
+			"name": "Иммунитет к состояниям",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon gains immunity to one of the following conditions; {@condition Blinded}, {@condition Charmed}, {@condition Deafened}, {@condition Frightened}, {@condition Paralyzed}, {@condition Petrified}, {@condition Poisoned}, or {@condition Stunned}"
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв получает невосприимчивость к одному из следующих состояний: {@condition Blinded}, {@condition Charmed}, {@condition Deafened}, {@condition Frightened}, {@condition Paralyzed}, {@condition Petrified}, {@condition Poisoned} или {@condition Stunned}."
 			]
 		},
 		{
-			"name": "Darkvision",
+			"name": "Тёмное зрение",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 1 Evolution Points}",
-				"A summon gains darkvision, enabling it to see 60 feet in darkness in shades of gray. If the summon already has darkvision it is expanded by 60 feet."
+				"{@b Стоимость: 1 очко эволюции}",
+				"Призыв получает тёмное зрение, позволяющее ему видеть на 60 футов в темноте в оттенках серого. Если у призыва уже есть тёмное зрение, оно расширяется на 60 футов."
 			]
 		},
 		{
-			"name": "Elemental Resistance",
+			"name": "Сопротивление стихиям",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 3 Evolution Points}",
-				"A summon gains resistance to an elemental damage type. Choose one of the following; Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder."
+				"{@b Стоимость: 3 очка эволюции}",
+				"Призыв получает сопротивление одному типу стихийного урона. Выберите один из следующих: кислота, холод, огонь, электричество, некротический, яд, психический, излучение или звук."
 			]
 		},
 		{
-			"name": "Forceful",
+			"name": "Силовой",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"One of a summon's attacks is capable of knocking a foe to the ground. Pick one attack. The summon forces any foe hit by the attack to make a Strength saving equal to 8 + summon's proficiency bonus + summon's Strength modifier. On a failure, the target is knocked prone. On a success, they are unaffected."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Одна из атак призыва способна сбить противника с ног. Выберите одну атаку. Призыв вынуждает любого противника, поражённого этой атакой, совершить спасбросок Силы, равный 8 + бонус мастерства призыва + модификатор Силы призыва. При провале цель сбивается с ног Ничком. При успехе она не подвергается эффекту."
 			]
 		},
 		{
-			"name": "Improved Armor",
+			"name": "Улучшенный доспех",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 1 Evolution Points}",
-				"A summon increases its Armor Class by +1. You may choose this evolution multiple times increasing in cost by 1 evolution point each, to a total of 3."
+				"{@b Стоимость: 1 очко эволюции}",
+				"Призыв увеличивает свой Класс Доспеха на +1. Вы можете выбрать эту эволюцию несколько раз, каждый раз увеличивая стоимость на 1 очко эволюции, вплоть до 3."
 			]
 		},
 		{
-			"name": "Keen Sense",
+			"name": "Обострённое чувство",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 1 Evolution Points}",
-				"A summon has advantage on perception checks relying on one sense; Hearing, Sight, or Smell."
+				"{@b Стоимость: 1 очко эволюции}",
+				"Призыв получает преимущество на проверки Внимательности, опирающиеся на одно чувство: слух, зрение или обоняние."
 			]
 		},
 		{
-			"name": "Magic Resistance",
+			"name": "Сопротивление магии",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 4 Evolution Points}",
-				"A summon has advantage on saving throws against spells and other magical effects."
+				"{@b Стоимость: 4 очка эволюции}",
+				"Призыв получает преимущество на спасброски против заклинаний и других магических эффектов."
 			]
 		},
 		{
-			"name": "Major Magic",
+			"name": "Старшая магия",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 3 Evolution Points}",
-				"A summon gains {@filter a single 2nd-level spell from the Summoner spell list|spells|level=2|class=Summoner (NPOSS)}. It can cast this spell once before requiring a long rest to cast again. Constitution is its spellcasting ability when determining spellcasting modifier and DC."
+				"{@b Стоимость: 3 очка эволюции}",
+				"Призыв получает {@filter a single 2nd-level spell from the Summoner spell list|spells|level=2|class=Summoner (NPOSS)}. Он может наложить это заклинание один раз, прежде чем потребуется продолжительный отдых, чтобы наложить его снова. Телосложение является его способностью к наложению заклинаний при определении модификатора наложения заклинаний и Сл."
 			]
 		},
 		{
-			"name": "Minor Magic",
+			"name": "Младшая магия",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon gains a single {@filter a single 1st-level spell from the Summoner spell list|spells|level=1|class=Summoner (NPOSS)}. It can cast this spell a number of times equal to its Constitution modifier. Constitution is its spellcasting ability when determining spellcasting modifier and DC."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв получает одно {@filter a single 1st-level spell from the Summoner spell list|spells|level=1|class=Summoner (NPOSS)}. Он может наложить это заклинание число раз, равное его модификатору Телосложения. Телосложение является его способностью к наложению заклинаний при определении модификатора наложения заклинаний и Сл."
 			]
 		},
 		{
-			"name": "Mobile",
+			"name": "Подвижный",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon gain 10 extra feet of movement."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв получает 10 дополнительных футов перемещения."
 			]
 		},
 		{
-			"name": "Mount",
+			"name": "Скакун",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 1 Evolution Points}",
-				"A summon is properly skilled and formed to serve as a combat-trained mount. The summon must be at least one size category larger than its rider."
+				"{@b Стоимость: 1 очко эволюции}",
+				"Призыв должным образом обучен и сформирован, чтобы служить боевым скакуном. Призыв должен быть как минимум на одну категорию размера крупнее своего всадника."
 			]
 		},
 		{
-			"name": "Multiattack",
+			"name": "Мультиатака",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 4 Evolution Points}",
-				"A summon gains the ability to attack an extra time in a turn. The attack can be made with any natural attack the summon has. If the summon already has multiattack it adds another attack to it."
+				"{@b Стоимость: 4 очка эволюции}",
+				"Призыв получает способность атаковать дополнительный раз в ход. Атака может быть совершена любым природным оружием, которое есть у призыва. Если у призыва уже есть мультиатака, она добавляет ещё одну атаку к ней."
 			]
 		},
 		{
-			"name": "Physical Resistance",
+			"name": "Сопротивление урону",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 4 Evolution Points}",
-				"A summon gains resistance to a physical damage type. Choose one of the following; Force, Non-Magical Bludgeoning, Non-Magical Piercing, or Non-Magical Slashing."
+				"{@b Стоимость: 4 очка эволюции}",
+				"Призыв получает сопротивление одному типу физического урона. Выберите один из следующих: силовой, немагический дробящий, немагический колющий или немагический рубящий."
 			]
 		},
 		{
-			"name": "Reach",
+			"name": "Досягаемость",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"One of a summon's attacks is capable of striking at foes at a distance. Pick one attack. The summon's reach with that attack increases by 5 feet. If the attack already has reach, the range increases. This artificial evolution can be selected multiple times. Its effects do not stack. Each time you select this artificial evolution, you pick a different attack to gain reach."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Одна из атак призыва способна поражать противников на расстоянии. Выберите одну атаку. Досягаемость призыва с этой атакой увеличивается на 5 футов. Если у атаки уже есть досягаемость, дистанция увеличивается. Эту искусственную эволюцию можно выбирать несколько раз. Её эффекты не складываются. Каждый раз, выбирая эту искусственную эволюцию, вы выбираете другую атаку, чтобы дать ей досягаемость."
 			]
 		},
 		{
-			"name": "Regeneration",
+			"name": "Регенерация",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 4 Evolution Points}",
-				"A summon regains {@dice 1d10} hit points at the start of their turn. If they take damage from magic, this trait doesn't function at the start of their next turn. The summon dies only if they starts their turn with 0 hit points and doesn't regenerate."
+				"{@b Стоимость: 4 очка эволюции}",
+				"Призыв восстанавливает {@dice 1d10} хитов в начале своего хода. Если он получает урон от магии, эта черта не действует в начале его следующего хода. Призыв умирает только если он начинает свой ход с 0 хитов и не восстанавливается."
 			]
 		},
 		{
-			"name": "Resilient",
+			"name": "Стойкий",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon gains proficiency in one saving throw of the summoner's choice."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв получает владение одним спасброском на выбор призывателя."
 			]
 		},
 		{
-			"name": "Skilled",
+			"name": "Умелый",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 1 Evolution Points}",
-				"A summon gains proficiency in one skill of the summoner's choice."
+				"{@b Стоимость: 1 очко эволюции}",
+				"Призыв получает владение одним навыком на выбор призывателя."
 			]
 		},
 		{
-			"name": "Subterranean",
+			"name": "Подземный",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 3 Evolution Points}",
-				"A summon gains a burrowing speed of 10 feet."
+				"{@b Стоимость: 3 очка эволюции}",
+				"Призыв получает скорость рытья 10 футов."
 			]
 		},
 		{
-			"name": "Tremorsense",
+			"name": "Чувство вибрации",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon gains tremorsense, enabling it to feel the movement of the earth up to 30 feet. If the summon already has tremorsense it is expanded by 30 feet."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв получает чувство вибрации, позволяющее ему ощущать движение земли на расстоянии до 30 футов. Если у призыва уже есть чувство вибрации, оно расширяется на 30 футов."
 			]
 		},
 		{
-			"name": "Truesight",
+			"name": "Истинное зрение",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"A summon gains truesight, enabling it to see into the astral sea up to 30 feet. If the summon already has truesight it is expanded by 30 feet."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Призыв получает истинное зрение, позволяющее ему видеть в астральном море на расстоянии до 30 футов. Если у призыва уже есть истинное зрение, оно расширяется на 30 футов."
 			]
 		},
 		{
-			"name": "Venom",
+			"name": "Яд",
 			"source": "NPOSS",
 			"featureType": [
 				"S:AE"
 			],
 			"entries": [
-				"{@b Cost: 2 Evolution Points}",
-				"One of a summon's attacks becomes venomous. Pick one attack. The summon forces any foe hit by this attack to make a Constitution saving throw equal to 8 + summon's proficiency bonus + summon's Constitution modifier. On a failure, they take {@dice 1d6} poison damage. On a success, they are unaffected. If the summon already deals poison damage then they add {@dice 1d6} to the damage. This artificial evolution can be selected multiple times. Its effects do not stack. Each time you select this artificial evolution, you pick a different attack to gain venom."
+				"{@b Стоимость: 2 очка эволюции}",
+				"Одна из атак призыва становится ядовитой. Выберите одну атаку. Призыв вынуждает любого противника, поражённого этой атакой, совершить спасбросок Телосложения, равный 8 + бонус мастерства призыва + модификатор Телосложения призыва. При провале он получает {@dice 1d6} урона ядом. При успехе он не подвергается эффекту. Если призыв уже наносит урон ядом, он дополнительно добавляет {@dice 1d6} к урону. Эту искусственную эволюцию можно выбирать несколько раз. Её эффекты не складываются. Каждый раз, выбирая эту искусственную эволюцию, вы выбираете другую атаку, чтобы дать ей яд."
 			]
 		}
 	]
