@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of Growth",
-			"shortName": "Growth",
+			"name": "Круг роста",
+			"shortName": "Рост",
 			"source": "CircleofGrowth",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -66,55 +66,55 @@
 				"scrying"
 			],
 			"subclassFeatures": [
-				"Circle of Growth|Druid||Growth|CircleofGrowth|2",
-				"Boons of Nature|Druid||Growth|CircleofGrowth|6",
-				"Natural Burst|Druid||Growth|CircleofGrowth|10",
-				"Rapid Growth|Druid||Growth|CircleofGrowth|14"
+				"Круг роста|Druid||Рост|CircleofGrowth|2",
+				"Дары природы|Druid||Рост|CircleofGrowth|6",
+				"Природный всплеск|Druid||Рост|CircleofGrowth|10",
+				"Стремительный рост|Druid||Рост|CircleofGrowth|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of Growth",
+			"name": "Круг роста",
 			"source": "CircleofGrowth",
 			"page": 1,
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Growth",
+			"subclassShortName": "Рост",
 			"subclassSource": "CircleofGrowth",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Druids of the Circle of Growth believe that nature should not be contrained or heavily manipulated by a user, but allowed to take over the magic the users abilities to let nature grow as it wishes.",
+				"Друиды Круга роста верят, что природу не следует сдерживать или сильно изменять, а нужно позволить ей завладеть магией и способностями носителя, чтобы она развивалась по своей воле.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Growth|CircleofGrowth|2|CircleofGrowth"
+					"subclassFeature": "Заклинания круга|Druid||Рост|CircleofGrowth|2|CircleofGrowth"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Leech of Nature|Druid||Growth|CircleofGrowth|2|CircleofGrowth"
+					"subclassFeature": "Пиявка природы|Druid||Рост|CircleofGrowth|2|CircleofGrowth"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Заклинания круга",
 			"source": "CircleofGrowth",
 			"page": 1,
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Growth",
+			"subclassShortName": "Рост",
 			"subclassSource": "CircleofGrowth",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"{@i 2nd-level Circle of Growth Feature}",
-				"You have taken on the raw power of nature, you gain spells in order to allow nature to expand.",
+				"{@i Умение Круга роста 2-го уровня}",
+				"Вы приняли в себя сырую силу природы и получаете заклинания, чтобы позволить природе разрастаться.",
 				{
 					"type": "table",
-					"caption": "Circle of Growth Spells",
+					"caption": "Заклинания Круга роста",
 					"colLabels": [
-						"Druid Level",
-						"Spells"
+						"Уровень друида",
+						"Заклинания"
 					],
 					"colStyles": [
 						"text-center col-3",
@@ -122,23 +122,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell goodberry}, {@spell entangle}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell enhance ability}, {@spell dust devil}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell call lightning}, {@spell wall of water}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell ice storm}, {@spell summon elemental|TCE}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell transmute rock}, {@spell scrying}"
 						]
 					]
@@ -146,24 +146,24 @@
 			]
 		},
 		{
-			"name": "Leech of Nature",
+			"name": "Пиявка природы",
 			"source": "CircleofGrowth",
 			"page": 1,
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Growth",
+			"subclassShortName": "Рост",
 			"subclassSource": "CircleofGrowth",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"{@i 2nd-level Circle of Growth Feature}",
-				"You absorb the natural energies around you, when you cast a 1st level spell or higher with your druidic focus roll a D20, if you roll a 1, 2, 19 or 20 a roll will be made on a Natural Magic Surge table. This may only happen once per turn",
+				"{@i Умение Круга роста 2-го уровня}",
+				"Вы впитываете природные энергии вокруг себя: когда вы накладываете заклинание 1-го уровня или выше, используя свою друидическую фокусировку, бросьте d20. Если выпадет 1, 2, 19 или 20, будет сделан бросок по таблице волны природной магии. Это может происходить только раз за ход.",
 				{
 					"type": "table",
-					"caption": "Wild Magic Surge",
+					"caption": "Волна дикой магии",
 					"colLabels": [
 						"{@dice d100}",
-						"Effect"
+						"Эффект"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -172,203 +172,203 @@
 					"rows": [
 						[
 							"01-02",
-							"Roll on this table at the start of each of your turns for the next minute, this stacks."
+							"Бросайте по этой таблице в начале каждого своего хода в течение следующей минуты; этот эффект суммируется."
 						],
 						[
 							"03-04",
-							"For the next minute, you and anyone within 10 ft of you can speak to animals and plants."
+							"В течение следующей минуты вы и все, кто в пределах 10 фт. от вас, можете разговаривать с животными и растениями."
 						],
 						[
 							"05-06",
-							"A beast is chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears 1 minute later."
+							"Выбранный и контролируемый Мастером зверь появляется в свободном пространстве в пределах 5 футов от вас, а затем исчезает через 1 минуту."
 						],
 						[
 							"07-08",
-							"You cast {@spell ice knife} at the 5th level at a random target."
+							"Вы накладываете {@spell ice knife} 5-го уровня по случайной цели."
 						],
 						[
 							"09-10",
-							"You cast {@spell magic missile} as a 5th-level spell."
+							"Вы накладываете {@spell magic missile} как заклинание 5-го уровня."
 						],
 						[
 							"11-12",
-							"Roll a {@dice d100}. Your height changes by a number of cm equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow."
+							"Бросьте {@dice d100}. Ваш рост изменяется на число сантиметров, равное результату. Если результат нечётный, вы уменьшаетесь. Если чётный — растёте."
 						],
 						[
 							"13-14",
-							"You cast {@spell confusion} centered on yourself."
+							"Вы накладываете {@spell confusion} с центром на себе."
 						],
 						[
 							"15-16",
-							"For the next minute, you regain 5 hit points at the start of each of your turns."
+							"В течение следующей минуты вы восстанавливаете 5 хитов в начале каждого своего хода."
 						],
 						[
 							"17-18",
-							"You grow a long beard made of leaves that remains until you sneeze, at which point the leaves explode out from your face."
+							"У вас вырастает длинная борода из листьев, которая держится, пока вы не чихнёте, после чего листья разлетаются от вашего лица."
 						],
 						[
 							"19-20",
-							"You cast feign death on yourself and must wait the duration."
+							"Вы накладываете на себя притворную смерть и должны выждать её продолжительность."
 						],
 						[
 							"21-22",
-							"Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."
+							"Существа совершают с помехой спасброски против следующего наложенного вами в течение минуты заклинания, требующего спасброска."
 						],
 						[
 							"23-24",
-							"Your skin turns into bark and grants no advantages or disadvanatages. A remove curse spell can end this effect."
+							"Ваша кожа превращается в кору, что не даёт ни преимуществ, ни помех. Заклинание «снятие проклятия» может окончить этот эффект."
 						],
 						[
 							"25-26",
-							"A light emmiting mushroom on your head, you provide dim light for 30 ft, and bright light for 5 ft."
+							"На вашей голове вырастает светящийся гриб: вы излучаете тусклый свет в радиусе 30 фт. и яркий свет в радиусе 5 фт."
 						],
 						[
 							"27-28",
-							"For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action."
+							"В течение следующей минуты все ваши заклинания со временем накладывания «1 действие» имеют время накладывания «1 бонусное действие»."
 						],
 						[
 							"29-30",
-							"You polymorph one creature that you can see at random."
+							"Вы случайным образом превращаете одно существо, которое видите."
 						],
 						[
 							"31-32",
-							"You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."
+							"Вас переносит на Астральный план до конца вашего следующего хода, после чего вы возвращаетесь в пространство, которое занимали ранее, или в ближайшее свободное пространство, если то занято."
 						],
 						[
 							"33-34",
-							"Maximize the damage of the next damaging spell you cast within the next minute."
+							"Урон следующего наносящего урон заклинания, наложенного вами в течение следующей минуты, становится максимальным."
 						],
 						[
 							"35-36",
-							"Roll a {@dice d10}. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older."
+							"Бросьте {@dice d10}. Ваш возраст изменяется на число лет, равное результату. Если результат нечётный, вы молодеете (минимум до 1 года). Если чётный — стареете."
 						],
 						[
 							"37-38",
-							"{@dice 1d6} {@creature twig blight||twig blights} controlled by the DM appear in unoccupied spaces within 60 feet of you and are {@condition frightened} of you. They vanish after 1 minute."
+							"{@dice 1d6} {@creature twig blight||ветвистых зараз}, контролируемых Мастером, появляются в свободных пространствах в пределах 60 футов от вас и боятся вас ({@condition frightened}). Они исчезают через 1 минуту."
 						],
 						[
 							"39-40",
-							"You regain {@dice 2d10} hit points."
+							"Вы восстанавливаете {@dice 2d10} хитов."
 						],
 						[
 							"41-42",
-							"You turn into a potted plant until the start of your next turn. While a plant, you are {@condition incapacitated} and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
+							"Вы превращаетесь в растение в горшке до начала вашего следующего хода. Пока вы растение, вы {@condition incapacitated} и обладаете уязвимостью ко всем видам урона. Если ваши хиты опускаются до 0, ваш горшок разбивается, и ваша форма возвращается."
 						],
 						[
 							"43-44",
-							"For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."
+							"В течение следующей минуты вы можете телепортироваться на расстояние до 20 футов бонусным действием в каждый свой ход."
 						],
 						[
 							"45-46",
-							"You cast {@spell meld with stone} on yourself, and are dragged into the nearest stone."
+							"Вы накладываете на себя {@spell meld with stone}, и вас затягивает в ближайший камень."
 						],
 						[
 							"47-48",
-							"A {@creature unicorn} controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."
+							"Контролируемый Мастером {@creature unicorn} появляется в пространстве в пределах 5 футов от вас, а затем исчезает через 1 минуту."
 						],
 						[
 							"49-50",
-							"You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."
+							"В течение следующей минуты вы не можете говорить. Каждый раз, когда вы пытаетесь, из вашего рта вылетают розовые пузыри."
 						],
 						[
 							"51-52",
-							"A viney shield grows near you for the next minute, granting you a +2 bonus to AC."
+							"В течение следующей минуты рядом с вами вырастает увитый лозами щит, дающий вам бонус +2 к КД."
 						],
 						[
 							"53-54",
-							"You are intoxicated as if by alcohol for the next 5d6 days."
+							"В течение следующих 5d6 дней вы пьяны, как от алкоголя."
 						],
 						[
 							"55-56",
-							"Your hair falls out but grows back within 24 hours."
+							"Ваши волосы выпадают, но отрастают обратно в течение 24 часов."
 						],
 						[
 							"57-58",
-							"For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."
+							"В течение следующей минуты любой горючий предмет, которого вы касаетесь и который не носится и не несётся другим существом, вспыхивает пламенем."
 						],
 						[
 							"59-60",
-							"You regain your lowest-level expended spell slot."
+							"Вы восстанавливаете свою потраченную ячейку заклинаний наименьшего уровня."
 						],
 						[
 							"61-62",
-							"For the next minute, you must shout when you speak."
+							"В течение следующей минуты вы должны кричать, когда говорите."
 						],
 						[
 							"63-64",
-							"You cast {@spell daylight} centered on yourself."
+							"Вы накладываете {@spell daylight} с центром на себе."
 						],
 						[
 							"65-66",
-							"Up to three creatures you choose within 30 feet of you take {@damage 4d10} lightning damage."
+							"До трёх выбранных вами существ в пределах 30 футов от вас получают {@damage 4d10} урона электричеством."
 						],
 						[
 							"67-68",
-							"You are {@condition frightened} by the nearest creature until the end of your next turn."
+							"До конца вашего следующего хода вы боитесь ближайшее существо ({@condition frightened})."
 						],
 						[
 							"69-70",
-							"Each creature within 30 feet of you becomes polymorphed for the next minute."
+							"Каждое существо в пределах 30 футов от вас становится превращённым на следующую минуту."
 						],
 						[
 							"71-72",
-							"You gain resistance to all damage for the next minute."
+							"В течение следующей минуты вы получаете сопротивление всем видам урона."
 						],
 						[
 							"73-74",
-							"A random creature within 60 feet of you becomes {@condition poisoned} for {@dice 1d4} hours."
+							"Случайное существо в пределах 60 футов от вас становится {@condition poisoned} на {@dice 1d4} часов."
 						],
 						[
 							"75-76",
-							"You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is {@condition blinded} until the end of its next turn."
+							"В течение следующей минуты вы светитесь ярким светом в радиусе 30 футов. Любое существо, оканчивающее свой ход в пределах 5 футов от вас, становится {@condition blinded} до конца своего следующего хода."
 						],
 						[
 							"77-78",
-							"You cast {@spell polymorph} on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."
+							"Вы накладываете {@spell polymorph} на себя. Если вы проваливаете спасбросок, вы превращаетесь в овцу на время действия заклинания."
 						],
 						[
 							"79-80",
-							"Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute."
+							"В течение следующей минуты в воздухе в пределах 10 футов от вас порхают иллюзорные бабочки и лепестки цветов."
 						],
 						[
 							"81-82",
-							"You can take one additional action immediately."
+							"Вы можете немедленно совершить одно дополнительное действие."
 						],
 						[
 							"83-84",
-							"Each creature within 30 feet of you takes {@damage 1d10} necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."
+							"Каждое существо в пределах 30 футов от вас получает {@damage 1d10} урона некротической энергией. Вы восстанавливаете хиты в количестве, равном сумме нанесённого некротического урона."
 						],
 						[
 							"85-86",
-							"You cast {@spell stone skin}."
+							"Вы накладываете {@spell stone skin}."
 						],
 						[
 							"87-88",
-							"You cast {@spell fly} on a random creature within 60 feet of you."
+							"Вы накладываете {@spell fly} на случайное существо в пределах 60 футов от вас."
 						],
 						[
 							"89-90",
-							"You become {@condition invisible} for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."
+							"Вы становитесь {@condition invisible} на следующую минуту. В это время другие существа не могут вас слышать. Невидимость оканчивается, если вы атакуете или накладываете заклинание."
 						],
 						[
 							"91-92",
-							"If you die within the next minute, you immediately come back to life as if by the {@spell reincarnate} spell."
+							"Если вы умрёте в течение следующей минуты, вы немедленно возвращаетесь к жизни, как если бы было наложено заклинание {@spell reincarnate}."
 						],
 						[
 							"93-94",
-							"Your size increases by one size category for the next minute."
+							"В течение следующей минуты ваш размер увеличивается на одну категорию."
 						],
 						[
 							"95-96",
-							"You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."
+							"В течение следующей минуты вы и все существа в пределах 30 футов от вас получаете уязвимость к колющему урону."
 						],
 						[
 							"97-98",
-							"You are surrounded by faint, ethereal smash mouth music for the next minute."
+							"В течение следующей минуты вас окружает тихая эфирная музыка группы Smash Mouth."
 						],
 						[
 							"99-00",
-							"You regain expended spell slots equal to your level."
+							"Вы восстанавливаете потраченные ячейки заклинаний в количестве, равном вашему уровню."
 						]
 					],
 					"data": {
@@ -378,48 +378,48 @@
 			]
 		},
 		{
-			"name": "Boons of Nature",
+			"name": "Дары природы",
 			"source": "CircleofGrowth",
 			"page": 1,
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Growth",
+			"subclassShortName": "Рост",
 			"subclassSource": "CircleofGrowth",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of Growth Feature}",
-				"Your attacks become infused with the innate magic of dragons. While in your Dragon Aspect form, you can attack twice, instead of once, whenever you take the Attack action on your turn. Additionally, attacks you make in your Dragon Aspect form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+				"{@i Умение Круга роста 6-го уровня}",
+				"Ваши атаки наполняются врождённой магией драконов. Пока вы в форме драконьего аспекта, вы можете атаковать дважды вместо одного раза, каждый раз, когда совершаете действие Атака в свой ход. Кроме того, ваши атаки в форме драконьего аспекта считаются магическими для преодоления сопротивления и иммунитета к немагическим атакам и урону."
 			]
 		},
 		{
-			"name": "Natural Burst",
+			"name": "Природный всплеск",
 			"source": "CircleofGrowth",
 			"page": 2,
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Growth",
+			"subclassShortName": "Рост",
 			"subclassSource": "CircleofGrowth",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of Growth Feature}",
-				"You may expend 2 uses of wild shape, and cast a spell at your highest spell slot at a random target."
+				"{@i Умение Круга роста 10-го уровня}",
+				"Вы можете потратить 2 использования «Дикого облика» и наложить заклинание своей ячейкой наивысшего уровня по случайной цели."
 			]
 		},
 		{
-			"name": "Rapid Growth",
+			"name": "Стремительный рост",
 			"source": "CircleofGrowth",
 			"page": 2,
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Growth",
+			"subclassShortName": "Рост",
 			"subclassSource": "CircleofGrowth",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of Growth Feature}",
-				"Once a short rest you may trigger the Natral Magic Surge at will."
+				"{@i Умение Круга роста 14-го уровня}",
+				"Один раз за короткий отдых вы можете вызвать волну природной магии по своей воле."
 			]
 		}
 	]

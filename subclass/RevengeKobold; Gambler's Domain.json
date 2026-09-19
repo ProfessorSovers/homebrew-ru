@@ -23,8 +23,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Gambler's Domain",
-			"shortName": "Gambler",
+			"name": "Домен азартного игрока",
+			"shortName": "Азартный игрок",
 			"source": "RKGamblersDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -42,31 +42,31 @@
 				"Rary's Telepathic Bond"
 			],
 			"subclassFeatures": [
-				"Gambler's Domain|Cleric||Gambler|RKGamblersDomain|1",
-				"Channel Divinity: On a Roll|Cleric||Gambler|RKGamblersDomain|2",
-				"Go For Broke|Cleric||Gambler|RKGamblersDomain|6",
-				"Divine Strike|Cleric||Gambler|RKGamblersDomain|8",
-				"Poker Face|Cleric||Gambler|RKGamblersDomain|17"
+				"Домен азартного игрока|Cleric||Азартный игрок|RKGamblersDomain|1",
+				"Божественный канал: в ударе|Cleric||Азартный игрок|RKGamblersDomain|2",
+				"Ва-банк|Cleric||Азартный игрок|RKGamblersDomain|6",
+				"Божественный удар|Cleric||Азартный игрок|RKGamblersDomain|8",
+				"Непроницаемое лицо|Cleric||Азартный игрок|RKGamblersDomain|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Gambler's Domain",
+			"name": "Домен азартного игрока",
 			"source": "RKGamblersDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Gambler",
+			"subclassShortName": "Азартный игрок",
 			"subclassSource": "RKGamblersDomain",
 			"level": 1,
 			"entries": [
-				"The Gambler's domain favors the reckless and the cunning - those in the world who are willing to place their lives in the hands of chance. The gods of gambling exemplify calculated risks, luck, impulsion, and misdirection. Deities from all alignments can influence this domain, but most have a tendency towards chaos. Gods of luck (such as Avandra, Tyche, and Tymora), trickery (such as Mask, Olidamarra, and Ormet), or patrons of gambling itself (like Norebo, or Olladra) may grant their clerics the Gambler's domain.",
+				"Домен азартного игрока покровительствует безрассудным и хитроумным — тем в этом мире, кто готов вверить свою жизнь случаю. Боги азартных игр воплощают просчитанный риск, удачу, порыв и введение в заблуждение. На этот домен могут влиять божества любого мировоззрения, но большинство из них склонны к хаосу. Боги удачи (такие как Авандра, Тиха и Тимора), обмана (такие как Маск, Олидамарра и Ормет) или покровители самой игры (как Норебо или Олладра) могут даровать своим жрецам домен азартного игрока.",
 				{
 					"type": "table",
-					"caption": "Gambler's Domain Spells",
+					"caption": "Заклинания домена азартного игрока",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"Уровень жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -74,39 +74,39 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell charm person}, {@spell expeditious retreat}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell detect thoughts}, {@spell enthrall}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell blink}, {@spell clairvoyance}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell arcane eye}, {@spell confusion}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell mislead}, {@spell rary's telepathic bond}"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stacking the Deck|Cleric||Gambler|RKGamblersDomain|1"
+					"subclassFeature": "Краплёные карты|Cleric||Азартный игрок|RKGamblersDomain|1"
 				}
 			]
 		},
 		{
-			"name": "Bread Knife Expert",
+			"name": "Мастер хлебного ножа",
 			"source": "RKGamblersDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Gambler",
+			"subclassShortName": "Азартный игрок",
 			"subclassSource": "RKGamblersDomain",
 			"level": 1,
 			"skillProficiencies": [
@@ -122,86 +122,86 @@
 			],
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency in the {@skill Deception} and {@skill Sleight of Hand} skills, as well as one gaming set of your choice."
+				"На 1-м уровне вы получаете владение навыками {@skill Deception} и {@skill Sleight of Hand}, а также одним игровым набором на ваш выбор."
 			]
 		},
 		{
-			"name": "Stacking the Deck",
+			"name": "Краплёные карты",
 			"source": "RKGamblersDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Gambler",
+			"subclassShortName": "Азартный игрок",
 			"subclassSource": "RKGamblersDomain",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Also at 1st level, you learn the Guidance cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action.",
-				"In addition, when you cast Guidance you can choose to cast it without any somatic or verbal components. You can do this a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+				"Также на 1-м уровне вы изучаете заговор «Указание», который не учитывается при подсчёте числа известных вам заговоров жреца. Для вас его дальность составляет 30 футов, и вы можете накладывать его бонусным действием.",
+				"Кроме того, накладывая «Указание», вы можете наложить его без соматических и словесных компонентов. Вы можете делать это число раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Channel Divinity: On a Roll",
+			"name": "Божественный канал: в ударе",
 			"source": "RKGamblersDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Gambler",
+			"subclassShortName": "Азартный игрок",
 			"subclassSource": "RKGamblersDomain",
 			"level": 2,
 			"header": 2,
 			"consumes": {
-				"name": "Channel Divinity"
+				"name": "Божественный канал"
 			},
 			"entries": [
-				"Starting at 2nd level, when you hit a creature with a weapon or spell attack, you can use Channel Divinity to repeat your attack roll against that creature. If the new attack roll hits, add one additional damage die of the weapon or spell's type to your damage roll and repeat the attack roll again. You can make a number of additional attack rolls equal to your Wisdom modifier, adding an additional damage die for each successive hit."
+				"Начиная с 2-го уровня, когда вы попадаете по существу атакой оружием или заклинанием, вы можете использовать «Божественный канал», чтобы повторить свой бросок атаки по этому существу. Если новый бросок атаки попадает, добавьте к своему броску урона одну дополнительную кость урона типа оружия или заклинания и повторите бросок атаки снова. Вы можете совершить число дополнительных бросков атаки, равное вашему модификатору Мудрости, добавляя дополнительную кость урона за каждое последовательное попадание."
 			]
 		},
 		{
-			"name": "Go For Broke",
+			"name": "Ва-банк",
 			"source": "RKGamblersDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Gambler",
+			"subclassShortName": "Азартный игрок",
 			"subclassSource": "RKGamblersDomain",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, whenever you roll multiple damage or restorative dice of the same type, you can choose to roll only one die instead, and multiply the number you roll by the number of dice you would typically use to calculate your total. You must choose to use this feature before rolling any damage or restorative dice, but if you roll a 1 on any die while using this feature, you can reroll the die and must use the new roll.",
-				"For example, instead of rolling 4d6 when calculating your damage for a hit with Guiding Bolt, you can roll 1d6 instead, and multiply the number you roll by 4."
+				"На 6-м уровне, когда вы бросаете несколько костей урона или исцеления одного типа, вы можете вместо этого бросить только одну кость и умножить выпавшее число на количество костей, которые обычно использовали бы для подсчёта результата. Вы должны выбрать использование этого умения до броска любых костей урона или исцеления, но если при использовании этого умения на какой-либо кости выпадет 1, вы можете перебросить её и должны использовать новый результат.",
+				"Например, вместо броска 4d6 при подсчёте урона от попадания «Направляющим снарядом» вы можете бросить 1d6 и умножить выпавшее число на 4."
 			]
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Божественный удар",
 			"source": "RKGamblersDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Gambler",
+			"subclassShortName": "Азартный игрок",
 			"subclassSource": "RKGamblersDomain",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level, once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@dice 1d8} psychic damage to the target.",
-				"When you reach 14th level, the extra damage increases to {@dice 2d8}."
+				"На 8-м уровне один раз в каждый свой ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительный {@dice 1d8} психического урона.",
+				"Достигнув 14-го уровня, дополнительный урон увеличивается до {@dice 2d8}."
 			]
 		},
 		{
-			"name": "Poker Face",
+			"name": "Непроницаемое лицо",
 			"source": "RKGamblersDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Gambler",
+			"subclassShortName": "Азартный игрок",
 			"subclassSource": "RKGamblersDomain",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Starting at 17th level, you have become adept at sheltering your thoughts from others. You gain resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes an amount of psychic damage equal to your cleric level + your Wisdom modifier.",
-				"Additionally, you gain the following benefits:",
+				"Начиная с 17-го уровня вы в совершенстве научились укрывать свои мысли от других. Вы получаете сопротивление психическому урону, и всякий раз, когда существо наносит вам психический урон, оно получает психический урон в количестве, равном вашему уровню жреца + ваш модификатор Мудрости.",
+				"Кроме того, вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You are immune to being charmed and frightened.",
-						"You can't be compelled to tell the truth by magic.",
-						"You make all Deception checks with advantage.",
-						"Your thoughts can't be read unless you allow it."
+						"Вы обладаете иммунитетом к очарованию и испугу.",
+						"Вас нельзя магически принудить говорить правду.",
+						"Вы совершаете все проверки Обмана с преимуществом.",
+						"Ваши мысли нельзя прочесть, если вы сами этого не позволите."
 					]
 				}
 			]

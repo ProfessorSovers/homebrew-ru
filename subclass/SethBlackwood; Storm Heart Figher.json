@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Storm Heart",
-			"shortName": "Storm Heart",
+			"name": "Штормовое сердце",
+			"shortName": "Штормовое сердце",
 			"source": "SethBlackwoodStormHeartFighter",
 			"className": "Fighter",
 			"classSource": "PHB",
@@ -31,106 +31,106 @@
 				"Chain Lightning"
 			],
 			"subclassFeatures": [
-				"Storm Heart|Fighter||Storm Heart|SethBlackwoodStormHeartFighter|3",
-				"Perfect Grounding|Fighter||Storm Heart|SethBlackwoodStormHeartFighter|7",
-				"Storm Born|Fighter||Storm Heart|SethBlackwoodStormHeartFighter|10",
-				"Ride the Lightning|Fighter||Storm Heart|SethBlackwoodStormHeartFighter|15",
-				"Lord of the Storms|Fighter||Storm Heart|SethBlackwoodStormHeartFighter|18"
+				"Штормовое сердце|Fighter||Штормовое сердце|SethBlackwoodStormHeartFighter|3",
+				"Идеальное заземление|Fighter||Штормовое сердце|SethBlackwoodStormHeartFighter|7",
+				"Рождённый бурей|Fighter||Штормовое сердце|SethBlackwoodStormHeartFighter|10",
+				"Оседлать молнию|Fighter||Штормовое сердце|SethBlackwoodStormHeartFighter|15",
+				"Владыка бурь|Fighter||Штормовое сердце|SethBlackwoodStormHeartFighter|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Storm Heart",
+			"name": "Штормовое сердце",
 			"source": "SethBlackwoodStormHeartFighter",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Heart",
+			"subclassShortName": "Штормовое сердце",
 			"subclassSource": "SethBlackwoodStormHeartFighter",
 			"level": 3,
 			"entries": [
-				"These fighters are a form of magic user called half-spark. They are people who are talented in one specific area or of magic: and their talent is in lightning. They benefit from a magical phenomenon that causes their body to be able to store a massive electric charge, and release it as easliy as they would a breath of air. This makes them very dangerous fighters, and even lovers; because if they are not disciplined enough all it takes in small flare of emotion, and the person standing closest to them may be struck by lightning.",
+				"Эти воины — разновидность магических пользователей, называемая полуискрой. Это люди, одарённые в одной конкретной области магии, и их дар — электричество. Они обладают магическим свойством, позволяющим их телу накапливать огромный электрический заряд и высвобождать его так же легко, как дыхание. Это делает их очень опасными воинами — и даже возлюбленными, ибо если им не хватает дисциплины, достаточно малейшей вспышки эмоций, и человек, стоящий ближе всех, может быть поражён молнией.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Storm Surges|Fighter||Storm Heart|SethBlackwoodStormHeartFighter|3"
+					"subclassFeature": "Штормовые всплески|Fighter||Штормовое сердце|SethBlackwoodStormHeartFighter|3"
 				}
 			]
 		},
 		{
-			"name": "Storm Surges",
+			"name": "Штормовые всплески",
 			"source": "SethBlackwoodStormHeartFighter",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Heart",
+			"subclassShortName": "Штормовое сердце",
 			"subclassSource": "SethBlackwoodStormHeartFighter",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd, when you choose this archetype, your talent with lightning manifests and gives you the means to accelerate and enhance your body beyond what is normally possible. You gain a number of storm surges equal to your Consitution modifier. At the start of your turn, you can expend a storm surge to gain one of the following benefits until the start of your next turn.",
+				"На 3-м уровне, когда вы выбираете этот архетип, ваш дар к электричеству проявляется и даёт вам средства ускорять и усиливать своё тело сверх обычных возможностей. Вы получаете число штормовых всплесков, равное вашему модификатору Телосложения. В начале своего хода вы можете потратить штормовой всплеск, чтобы получить одно из следующих преимуществ до начала вашего следующего хода.",
 				{
 					"type": "list",
 					"items": [
-						"Increase your speed by 15ft.",
-						"The next time you hit a creature with a weapon attack, they suffer additional lightning damage equal to {@dice 1d6} + half your fighter level (rounded up).",
-						"Gain advantage on Dexterity checks and saving throws.",
-						"Each creature that hits you with a melee attack suffers {@dice 1d8} lightning damage."
+						"Увеличить вашу скорость на 15 футов.",
+						"Когда вы в следующий раз попадёте по существу атакой оружием, оно получит дополнительный урон электричеством, равный {@dice 1d6} + половина вашего уровня воина (округлённая в большую сторону).",
+						"Получить преимущество на проверки Ловкости и спасброски Ловкости.",
+						"Каждое существо, которое попадает по вам атакой ближнего боя, получает {@dice 1d8} урона электричеством."
 					]
 				},
-				"You regain all expended storm surges when you finish a short or long rest."
+				"Вы восстанавливаете все потраченные штормовые всплески по завершении короткого или продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Perfect Grounding",
+			"name": "Идеальное заземление",
 			"source": "SethBlackwoodStormHeartFighter",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Heart",
+			"subclassShortName": "Штормовое сердце",
 			"subclassSource": "SethBlackwoodStormHeartFighter",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you look forward to getting hit by lighting. You gain resistance to lighting damage, and lightning damage you deal ignores resistance to lightning damage. Additionally, if you take 15 or more lightning damage you regain 2 storm surges.",
-				"Additionally, if a creature within 20 feet of you takes lighting damage, you may use your reaction to halve the lightning damage they (rounded up). You then suffer the same amount of lightning damage."
+				"Начиная с 7-го уровня вы ждёте, когда вас ударит молния. Вы получаете сопротивление урону электричеством, и наносимый вами урон электричеством игнорирует сопротивление урону электричеством. Кроме того, если вы получаете 15 или больше урона электричеством, вы восстанавливаете 2 штормовых всплеска.",
+				"Кроме того, если существо в пределах 20 футов от вас получает урон электричеством, вы можете использовать свою реакцию, чтобы уменьшить этот урон вдвое (округляя в большую сторону). После этого вы получаете такое же количество урона электричеством."
 			]
 		},
 		{
-			"name": "Storm Born",
+			"name": "Рождённый бурей",
 			"source": "SethBlackwoodStormHeartFighter",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Heart",
+			"subclassShortName": "Штормовое сердце",
 			"subclassSource": "SethBlackwoodStormHeartFighter",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"By 10th level, you have learned how to release your energy in a very precise manner, arcing it from one point to another. Once on your turn, when you hit a creature with a weapon attack, and you have expended a storm surge this turn, you may deal lightning damage to another creature within 20 feet of the target equal to half the damage you dealt.",
-				"At 15th level you may target two creatures with this feature instead of one."
+				"К 10-му уровню вы научились высвобождать свою энергию очень точно, направляя её дугой из одной точки в другую. Один раз в свой ход, когда вы попадаете по существу атакой оружием и в этот ход потратили штормовой всплеск, вы можете нанести другому существу в пределах 20 футов от цели урон электричеством, равный половине нанесённого вами урона.",
+				"На 15-м уровне вы можете выбрать целью этого умения двух существ вместо одного."
 			]
 		},
 		{
-			"name": "Ride the Lightning",
+			"name": "Оседлать молнию",
 			"source": "SethBlackwoodStormHeartFighter",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Heart",
+			"subclassShortName": "Штормовое сердце",
 			"subclassSource": "SethBlackwoodStormHeartFighter",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, you can use the power in your body in order to lift you off the ground. As an action, you may spend 2 storms surges to gain a magical flying speed equal to your movement speed for one hour."
+				"Начиная с 15-го уровня вы можете использовать силу внутри своего тела, чтобы подняться над землёй. Действием вы можете потратить 2 штормовых всплеска, чтобы получить магическую скорость полёта, равную вашей скорости перемещения, на один час."
 			]
 		},
 		{
-			"name": "Lord of the Storms",
+			"name": "Владыка бурь",
 			"source": "SethBlackwoodStormHeartFighter",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Heart",
+			"subclassShortName": "Штормовое сердце",
 			"subclassSource": "SethBlackwoodStormHeartFighter",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, when you use your action surge you can cast the {@spell chain lightning} spell using your Constitution as your spellcasting ability. Once you do so, you can't do so again until you finish a long rest."
+				"На 18-м уровне, когда вы используете свой «Всплеск действий», вы можете наложить заклинание {@spell chain lightning}, используя Телосложение как свою способность для накладывания заклинаний. Сделав это, вы не можете повторить это, пока не завершите продолжительный отдых."
 			]
 		}
 	]

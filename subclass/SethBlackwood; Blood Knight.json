@@ -27,167 +27,167 @@
 	},
 	"subclass": [
 		{
-			"name": "Blood Knight",
-			"shortName": "Blood Knight",
+			"name": "Кровавый рыцарь",
+			"shortName": "Кровавый рыцарь",
 			"source": "BloodKnight",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Blood Knight|Fighter|PHB|Blood Knight|BloodKnight|3",
-				"Sense Life|Fighter|PHB|Blood Knight|BloodKnight|7",
-				"Blood-Fueled Overdrive|Fighter|PHB|Blood Knight|BloodKnight|10",
-				"Hemomantic Precision|Fighter|PHB|Blood Knight|BloodKnight|15",
-				"Blood Tyrant|Fighter|PHB|Blood Knight|BloodKnight|18"
+				"Кровавый рыцарь|Fighter|PHB|Кровавый рыцарь|BloodKnight|3",
+				"Чувство жизни|Fighter|PHB|Кровавый рыцарь|BloodKnight|7",
+				"Кровавый форсаж|Fighter|PHB|Кровавый рыцарь|BloodKnight|10",
+				"Гемомантическая точность|Fighter|PHB|Кровавый рыцарь|BloodKnight|15",
+				"Кровавый тиран|Fighter|PHB|Кровавый рыцарь|BloodKnight|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Blood Knight",
+			"name": "Кровавый рыцарь",
 			"source": "BloodKnight",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Knight",
+			"subclassShortName": "Кровавый рыцарь",
 			"subclassSource": "BloodKnight",
 			"level": 3,
 			"entries": [
-				"The blood knight is the title given to an eldritch knight who chooses to delve into the taboo discipline of hemomancy, or the magic of controlling blood and life force. These warriors thrive in the heart of battle where the blood flows thickest, using it to enhance their offensive and defensive capabilities.",
+				"Кровавый рыцарь — титул, даваемый мистическому рыцарю, который решает углубиться в запретную дисциплину гемомантии, или магии управления кровью и жизненной силой. Эти воины процветают в самом сердце битвы, где кровь течёт гуще всего, используя её для усиления своих наступательных и оборонительных возможностей.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Hemomancy|Fighter|PHB|Blood Knight|BloodKnight|3"
+					"subclassFeature": "Боевая гемомантия|Fighter|PHB|Кровавый рыцарь|BloodKnight|3"
 				}
 			]
 		},
 		{
-			"name": "Combat Hemomancy",
+			"name": "Боевая гемомантия",
 			"source": "BloodKnight",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Knight",
+			"subclassShortName": "Кровавый рыцарь",
 			"subclassSource": "BloodKnight",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level when you choose this archetype, you gain access to a series of techniques that allow you to use the blood of your enemies to your advantage.",
-				"When you hit a creature with a weapon attack, you gain a special die called a blood die. This die is a {@dice d6}. Each subsequent attack you hit with gains you an additional blood die to a maximum equal to your proficiency modifier.",
-				"You can expend a number of blood die to perform a number of hemomantic abilities described below. Each time an ability asks you to expend your blood dice, you can choose how many you want to roll and gain a benefit based on what you rolled. You do not gain blood dice from attacks that are modified by the blood dice.",
+				"Начиная с 3-го уровня, когда вы выбираете этот архетип, вы получаете доступ к ряду техник, позволяющих использовать кровь врагов себе во благо.",
+				"Когда вы попадаете по существу атакой оружием, вы получаете особую кость, называемую костью крови. Это {@dice d6}. Каждая последующая успешная атака приносит вам ещё одну кость крови, до предела, равного вашему модификатору мастерства.",
+				"Вы можете потратить некоторое число костей крови, чтобы применить описанные ниже гемомантические способности. Каждый раз, когда способность требует потратить кости крови, вы выбираете, сколько из них бросить, и получаете преимущество в зависимости от результата. Вы не получаете кости крови от атак, изменённых костями крови.",
 				{
 					"type": "options",
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Combat Regeneration|BloodKnight"
+							"optionalfeature": "Боевая регенерация|BloodKnight"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Crimson Strike|BloodKnight"
+							"optionalfeature": "Багровый удар|BloodKnight"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Blood Shell|BloodKnight"
+							"optionalfeature": "Кровавый панцирь|BloodKnight"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Eldritch Clotting|BloodKnight"
+							"optionalfeature": "Жуткое свёртывание|BloodKnight"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Sense Life",
+			"name": "Чувство жизни",
 			"source": "BloodKnight",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Knight",
+			"subclassShortName": "Кровавый рыцарь",
 			"subclassSource": "BloodKnight",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you gain advantage on Wisdom ({@skill Perception}) checks to spot and track enemies that have blood in their veins.",
-				"In addition, your ability to sense blood can be so precise that you have advantage on Wisdom ({@skill Insight}) checks to tell if someone is lying to you."
+				"На 7-м уровне вы совершаете с преимуществом проверки Мудрости ({@skill Perception}) для обнаружения и выслеживания врагов, в чьих жилах течёт кровь.",
+				"Кроме того, ваша способность чувствовать кровь может быть настолько точной, что вы совершаете с преимуществом проверки Мудрости ({@skill Insight}), чтобы понять, лжёт ли вам кто-то."
 			]
 		},
 		{
-			"name": "Blood-Fueled Overdrive",
+			"name": "Кровавый форсаж",
 			"source": "BloodKnight",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Knight",
+			"subclassShortName": "Кровавый рыцарь",
 			"subclassSource": "BloodKnight",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, when you use your Indomitable feature, you can expend one blood die and add it to the roll."
+				"На 10-м уровне, когда вы используете своё умение «Упорный», вы можете потратить одну кость крови и добавить её к броску."
 			]
 		},
 		{
-			"name": "Hemomantic Precision",
+			"name": "Гемомантическая точность",
 			"source": "BloodKnight",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Knight",
+			"subclassShortName": "Кровавый рыцарь",
 			"subclassSource": "BloodKnight",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you have a very tight control over blood you spill. You can re-roll one blood die whenever you roll them for a hemomantic ability."
+				"На 15-м уровне вы очень точно контролируете пролитую кровь. Вы можете перебросить одну кость крови всякий раз, когда бросаете их для гемомантической способности."
 			]
 		},
 		{
-			"name": "Blood Tyrant",
+			"name": "Кровавый тиран",
 			"source": "BloodKnight",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Knight",
+			"subclassShortName": "Кровавый рыцарь",
 			"subclassSource": "BloodKnight",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, when you hit a creature with an attack and have the maximum amount of blood dice, you can expend them all to {@condition paralyzed|paralyze} the target until the start of your next turn.",
-				"A creature with legendary resistances can use one to resist the effects of this ability."
+				"На 18-м уровне, когда вы попадаете по существу атакой и у вас максимальное число костей крови, вы можете потратить их все, чтобы {@condition paralyzed|paralyze} цель до начала вашего следующего хода.",
+				"Существо с легендарными сопротивлениями может использовать одно из них, чтобы противостоять эффектам этой способности."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Blood Shell",
+			"name": "Кровавый панцирь",
 			"source": "BloodKnight",
 			"featureType": [
 				"BK:HA"
 			],
 			"entries": [
-				"When you are hit with an attack, you can use your reaction to expend blood dice and increase your AC by an amount that you roll against that attack."
+				"Когда по вам попадают атакой, вы можете использовать свою реакцию, чтобы потратить кости крови и увеличить свой Класс Доспеха на выпавшее значение против этой атаки."
 			]
 		},
 		{
-			"name": "Combat Regeneration",
+			"name": "Боевая регенерация",
 			"source": "BloodKnight",
 			"featureType": [
 				"BK:HA"
 			],
 			"entries": [
-				"At the start of your turn, you can expend your blood dice to gain temporary hit points equal to the amount you roll."
+				"В начале своего хода вы можете потратить свои кости крови, чтобы получить временные хиты в количестве, равном выпавшему значению."
 			]
 		},
 		{
-			"name": "Crimson Strike",
+			"name": "Багровый удар",
 			"source": "BloodKnight",
 			"featureType": [
 				"BK:HA"
 			],
 			"entries": [
-				"When you use your {@action Attack} action, you can choose to trade one of your attacks to be able to use your blood dice in place of your weapon. When you do so, you can make a melee weapon attack with solidified blood that has a reach of 15 feet, uses your normal attack modifier, and deals damage equal to the amount you roll with blood dice you chose to expend."
+				"Когда вы используете действие {@action Attack}, вы можете обменять одну из своих атак на возможность использовать кости крови вместо оружия. В этом случае вы можете совершить атаку оружием ближнего боя отвердевшей кровью с досягаемостью 15 футов, использующую ваш обычный модификатор атаки и наносящую урон, равный выпавшему значению на потраченных костях крови."
 			]
 		},
 		{
-			"name": "Eldritch Clotting",
+			"name": "Жуткое свёртывание",
 			"source": "BloodKnight",
 			"featureType": [
 				"BK:HA"
 			],
 			"entries": [
-				"As a bonus action, you can expend blood dice to throw blood onto a surface and have it stick in a 5x5 area. Any creature that starts its turn in that area must succeed on a Strength saving throw with a DC of 10 + the amount you roll on yoru blood dice (to a maximum of 20) or have their speed reduced to zero until the start of their next turn."
+				"Бонусным действием вы можете потратить кости крови, чтобы швырнуть кровь на поверхность и заставить её застыть на участке 5 на 5 футов. Любое существо, начинающее свой ход на этом участке, должно преуспеть в спасброске Силы со Сл 10 + выпавшее на ваших костях крови значение (до максимума 20), иначе его скорость снижается до нуля до начала его следующего хода."
 			]
 		}
 	]

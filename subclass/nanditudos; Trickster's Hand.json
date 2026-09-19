@@ -18,66 +18,66 @@
 	},
 	"subclass": [
 		{
-			"name": "Trickster's Hand",
-			"shortName": "Trickster's Hand",
+			"name": "Рука обманщика",
+			"shortName": "Рука обманщика",
 			"source": "NandisBookOfTrickery",
 			"className": "Sorcerer",
 			"classSource": "PHB",
 			"page": 1,
 			"subclassFeatures": [
-				"Lucky Day|Sorcerer||Trickster's Hand|NandisBookOfTrickery|1",
-				"Tricksters' Toolkit|Sorcerer||Trickster's Hand|NandisBookOfTrickery|1",
-				"Card Infusion|Sorcerer||Trickster's Hand|NandisBookOfTrickery|1",
-				"Trick Deck|Sorcerer||Trickster's Hand|NandisBookOfTrickery|1",
-				"Advanced Trickery|Sorcerer||Trickster's Hand|NandisBookOfTrickery|6",
-				"Quick Hands|Sorcerer||Trickster's Hand|NandisBookOfTrickery|14",
-				"Ultimate Trickery|Sorcerer||Trickster's Hand|NandisBookOfTrickery|18"
+				"Удачный день|Sorcerer||Рука обманщика|NandisBookOfTrickery|1",
+				"Набор обманщика|Sorcerer||Рука обманщика|NandisBookOfTrickery|1",
+				"Наполнение карт|Sorcerer||Рука обманщика|NandisBookOfTrickery|1",
+				"Колода фокусов|Sorcerer||Рука обманщика|NandisBookOfTrickery|1",
+				"Продвинутое обманство|Sorcerer||Рука обманщика|NandisBookOfTrickery|6",
+				"Быстрые руки|Sorcerer||Рука обманщика|NandisBookOfTrickery|14",
+				"Высшее обманство|Sorcerer||Рука обманщика|NandisBookOfTrickery|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Card Infusion",
+			"name": "Наполнение карт",
 			"source": "NandisBookOfTrickery",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Trickster's Hand",
+			"subclassShortName": "Рука обманщика",
 			"subclassSource": "NandisBookOfTrickery",
 			"level": 1,
 			"entries": [
-				"When casting a spell that creates projectiles (like {@spell magic missile}) or creates an environmental effect (like {@spell grease}) you can choose to infuse the projectile(s) into a cards.",
-				"When you cast it as a card you get the following benefits:",
+				"Когда вы накладываете заклинание, создающее снаряды (например, {@spell magic missile}), или создающее эффект местности (например, {@spell grease}), вы можете наполнить этой магией карты.",
+				"Накладывая его через карту, вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"This action does not requires verbal or somatic components (though the spell cannot be cast when Silenced, already created cards can be thrown).",
-						"Enemies cannot recognize the spell you cast unless they have {@sense Truesight}.",
-						"This cast counts as a {@bold ranged spell attack}. The range of the attack is the same as the spell's range. On impact the spell returns normal and all hit requirements must be concluded by the spells original behaviour.",
-						"Enemies hit the {@bold first time} have {@bold disadvantage} on saving throws against the spell. Entities with Int<7 cannot be affected by this, because they cannot distinguish any attack anyway.",
-						"Casting a spell this way while in stealth gives you advantage on the saving throw against being revealed."
+						"Это действие не требует вербальных или соматических компонентов (хотя заклинание нельзя наложить под эффектом немоты, уже созданные карты можно метать).",
+						"Враги не могут распознать накладываемое вами заклинание, если у них нет {@sense Truesight}.",
+						"Это накладывание считается {@bold дальнобойной атакой заклинанием}. Дальность атаки совпадает с дальностью заклинания. При попадании заклинание возвращается к обычному виду, и все требования попадания определяются исходным поведением заклинания.",
+						"Враги, получившие попадание {@bold в первый раз}, совершают спасброски против заклинания с {@bold помехой}. Существа с Инт<7 не могут быть затронуты этим, так как всё равно не различают атак.",
+						"Наложение заклинания таким образом в состоянии скрытности даёт вам преимущество на спасбросок против обнаружения."
 					]
 				},
-				"You can use this feature up to the {@bold number of times equal to your sorcerer level} per long rest."
+				"Вы можете использовать это умение до {@bold числа раз, равного вашему уровню чародея}, за продолжительный отдых."
 			]
 		},
 		{
-			"name": "Lucky Day",
+			"name": "Удачный день",
 			"source": "NandisBookOfTrickery",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Trickster's Hand",
+			"subclassShortName": "Рука обманщика",
 			"subclassSource": "NandisBookOfTrickery",
 			"level": 1,
 			"entries": [
-				"After a long rest, you toss a coin (roll {@dice d2}) to determine your fortune for the day.",
+				"После продолжительного отдыха вы подбрасываете монету (бросок {@dice d2}), чтобы определить свою удачу на день.",
 				{
 					"type": "table",
 					"caption": "",
 					"colLabels": [
 						"{@dice d2}",
-						"Effect"
+						"Эффект"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -86,56 +86,56 @@
 					"rows": [
 						[
 							1,
-							"the DM can impose disadvantage on one roll of their choice before your next long rest"
+							"Мастер может наложить помеху на один бросок на свой выбор до вашего следующего продолжительного отдыха"
 						],
 						[
 							2,
-							"you gain advantage on one roll of your choice"
+							"вы получаете преимущество на один бросок на ваш выбор"
 						]
 					]
 				},
-				"This feature cannot be manipulated or rerolled."
+				"Это умение нельзя изменить или перебросить."
 			]
 		},
 		{
-			"name": "Trick Deck",
+			"name": "Колода фокусов",
 			"source": "NandisBookOfTrickery",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Trickster's Hand",
+			"subclassShortName": "Рука обманщика",
 			"subclassSource": "NandisBookOfTrickery",
 			"level": 1,
 			"entries": [
-				"Whenever you create an infused card you can create {@bold one} of the following effects:",
+				"Каждый раз, создавая наполненную карту, вы можете выбрать {@bold один} из следующих эффектов:",
 				{
 					"type": "list",
 					"items": [
-						"{@bold Illusory Cards}: You create {@bold fake card} up to the number of your sorcerer level. You can throw these card the same way as the original spell. On impact you may create an illusion with rules as in {@spell minor illusion}. These have no effect other than visual distraction.",
-						"{@bold Withholding Spells}: You hold the cards up to {@bold one minute} and as a {@bold bonus action} throw up to a number of them equal to your {@bold DEX mod}. You cannot use this feature while an another one is active.",
-						"{@bold Bend Path}: You bend the cards path making it {@bold ignore half and three-quarter covers}.",
-						"{@bold Delayed Expansion}: You choose to not detonate the card immediately on impact and make it {@bold linger up to one minute}. You can use a {@bold bonus action} to detonate it. Enemies destroying the card detonate it automatically.",
-						"{@bold Metamagic Infusion}: You affect the spell with one {@classFeature Metamagic|Sorcerer||3} option you know."
+						"{@bold Иллюзорные карты}: Вы создаёте {@bold фальшивые карты} в количестве до вашего уровня чародея. Вы можете метать эти карты так же, как исходное заклинание. При попадании вы можете создать иллюзию по правилам заклинания {@spell minor illusion}. Они не дают никакого эффекта, кроме визуального отвлечения.",
+						"{@bold Отложенные заклинания}: Вы удерживаете карты до {@bold одной минуты} и {@bold бонусным действием} метаете до числа, равного вашему {@bold модификатору Лов}. Вы не можете использовать это умение, пока активно другое.",
+						"{@bold Искривление пути}: Вы искривляете путь карты, заставляя её {@bold игнорировать укрытие на половину и на три четверти}.",
+						"{@bold Отложенный взрыв}: Вы решаете не взрывать карту сразу при попадании и заставляете её {@bold задержаться до одной минуты}. Вы можете {@bold бонусным действием} взорвать её. Враги, уничтожающие карту, взрывают её автоматически.",
+						"{@bold Наполнение метамагией}: Вы воздействуете на заклинание одним известным вам вариантом {@classFeature Metamagic|Sorcerer||3}."
 					]
 				},
-				"You can use this feature up to the {@bold number of times equal to your sorcerer level} per long rest."
+				"Вы можете использовать это умение до {@bold числа раз, равного вашему уровню чародея}, за продолжительный отдых."
 			]
 		},
 		{
-			"name": "Tricksters' Toolkit",
+			"name": "Набор обманщика",
 			"source": "NandisBookOfTrickery",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Trickster's Hand",
+			"subclassShortName": "Рука обманщика",
 			"subclassSource": "NandisBookOfTrickery",
 			"level": 1,
 			"entries": [
-				"You learn the following spells:",
+				"Вы изучаете следующие заклинания:",
 				{
 					"type": "table",
 					"colLabels": [
-						"Sorcerer Level",
+						"Уровень чародея",
 						"Spells"
 					],
 					"colStyles": [
@@ -144,7 +144,7 @@
 					],
 					"rows": [
 						[
-							"Cantrips",
+							"Заговоры",
 							"{@spell minor illusion}"
 						],
 						[
@@ -157,11 +157,11 @@
 						],
 						[
 							"5",
-							"{@spell counterspell} or {@spell major image}"
+							"{@spell counterspell} или {@spell major image}"
 						],
 						[
 							"7",
-							"{@spell dimension door} or {@spell greater invisibility}"
+							"{@spell dimension door} или {@spell greater invisibility}"
 						],
 						[
 							"9",
@@ -172,58 +172,58 @@
 			]
 		},
 		{
-			"name": "Advanced Trickery",
+			"name": "Продвинутое обманство",
 			"source": "NandisBookOfTrickery",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Trickster's Hand",
+			"subclassShortName": "Рука обманщика",
 			"subclassSource": "NandisBookOfTrickery",
 			"level": 6,
 			"entries": [
-				"You can use up to 2 Trick Deck options per cast.",
-				"You gain the following Trick Deck option:",
+				"Вы можете использовать до 2 вариантов «Колоды фокусов» за одно накладывание.",
+				"Вы получаете следующий вариант «Колоды фокусов»:",
 				{
 					"type": "list",
 					"items": [
-						"{@bold Arcane Gambit}: As an action you can infuse spell with cast time of {@bold reaction} (such as {@spell shield} or {@spell counterspell}) into a card and hold it up to one minute. When you use this card as a reaction, you cast the spell with advantage on any required rolls."
+						"{@bold Магический гамбит}: Действием вы можете наполнить карту заклинанием со временем накладывания {@bold реакция} (например, {@spell shield} или {@spell counterspell}) и удерживать её до одной минуты. Когда вы используете эту карту как реакцию, вы накладываете заклинание с преимуществом на любые требуемые броски."
 					]
 				}
 			]
 		},
 		{
-			"name": "Quick Hands",
+			"name": "Быстрые руки",
 			"source": "NandisBookOfTrickery",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Trickster's Hand",
+			"subclassShortName": "Рука обманщика",
 			"subclassSource": "NandisBookOfTrickery",
 			"level": 14,
 			"entries": [
-				"You gain the following Trick Deck improvements:",
+				"Вы получаете следующие улучшения «Колоды фокусов»:",
 				{
 					"type": "list",
 					"items": [
-						"{@bold Bend Path}: The spell's range is increased by 30 feet, ignores full covers and doesn't impose disadvantage on short ranges.",
-						"{@bold Delayed Expansion}: By making a {@skill Sleight of Hand} check against opponents' Passive Perception ({@skill Perception}) can make them unaware of the Delayed Card. The card can also linger up to 30 minutes.",
-						"{@bold Metamagic Infusion}: You affect the spell with up to {@bold two} metamagic options."
+						"{@bold Искривление пути}: Дальность заклинания увеличивается на 30 футов, оно игнорирует полное укрытие и не налагает помеху на коротких дистанциях.",
+						"{@bold Отложенный взрыв}: Совершив проверку {@skill Sleight of Hand} против пассивной Внимательности противников ({@skill Perception}), вы можете сделать их не знающими об отложенной карте. Карта также может задерживаться до 30 минут.",
+						"{@bold Наполнение метамагией}: Вы воздействуете на заклинание {@bold двумя} вариантами метамагии."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ultimate Trickery",
+			"name": "Высшее обманство",
 			"source": "NandisBookOfTrickery",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Trickster's Hand",
+			"subclassShortName": "Рука обманщика",
 			"subclassSource": "NandisBookOfTrickery",
 			"level": 18,
 			"entries": [
-				"You can use up to 3 Trick Deck options per cast.",
-				"You choose a level 3 or lower spell that can be cast with {@bold Card Infusion} and make it your {@bold Signature Card}. A signature card can be cast without expanding a spell slot or consuming uses of Card Infusion."
+				"Вы можете использовать до 3 вариантов «Колоды фокусов» за одно накладывание.",
+				"Вы выбираете заклинание 3-го уровня или ниже, которое можно наложить через {@bold Наполнение карт}, и делаете его своей {@bold фирменной картой}. Фирменную карту можно наложить, не расходуя ячейку заклинаний и не тратя использования «Наполнения карт»."
 			]
 		}
 	]

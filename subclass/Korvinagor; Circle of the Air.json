@@ -4,7 +4,7 @@
 			{
 				"json": "CircleOfTheAir",
 				"abbreviation": "CotA",
-				"full": "Circle of the Air",
+				"full": "Круг воздуха",
 				"url": "https://homebrewery.naturalcrit.com/share/hO0mplOuypMz",
 				"version": "1.0",
 				"authors": [
@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of the Air",
-			"shortName": "Air",
+			"name": "Круг воздуха",
+			"shortName": "Воздух",
 			"source": "CircleOfTheAir",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -82,51 +82,51 @@
 				"Whirlwind|xge"
 			],
 			"subclassFeatures": [
-				"Circle of the Air|Druid||Air|CircleOfTheAir|2",
-				"Tailwind|Druid||Air|CircleOfTheAir|6",
-				"Bend the Breeze|Druid||Air|CircleOfTheAir|10",
-				"Embodiment of Air|Druid||Air|CircleOfTheAir|14"
+				"Круг воздуха|Druid||Воздух|CircleOfTheAir|2",
+				"Попутный ветер|Druid||Воздух|CircleOfTheAir|6",
+				"Согнуть бриз|Druid||Воздух|CircleOfTheAir|10",
+				"Воплощение воздуха|Druid||Воздух|CircleOfTheAir|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of the Air",
+			"name": "Круг воздуха",
 			"source": "CircleOfTheAir",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Air",
+			"subclassShortName": "Воздух",
 			"subclassSource": "CircleOfTheAir",
 			"level": 2,
 			"entries": [
-				"Flexible as the wind's currents, druids of the Circle of the Air manipulate their namesake with practised ease, serving as emissaries and stewards of the sky itself.",
+				"Гибкие, как воздушные течения, друиды Круга воздуха с отработанной лёгкостью управляют своей стихией, служа посланниками и хранителями самого неба.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|PHB|Air|CircleOfTheAir|2"
+					"subclassFeature": "Заклинания круга|Druid|PHB|Воздух|CircleOfTheAir|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gale Talisman|Druid|PHB|Air|CircleOfTheAir|2"
+					"subclassFeature": "Талисман бури|Druid|PHB|Воздух|CircleOfTheAir|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Заклинания круга",
 			"source": "CircleOfTheAir",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Air",
+			"subclassShortName": "Воздух",
 			"subclassSource": "CircleOfTheAir",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of the Air feature}",
-				"You are imbued with the air's magics. When you reach certain Druid levels, you gain access to the spells in the table below. They count as Druid spells for you, and you always have them prepared, but they don't count against the total number of spells you prepare each day.",
+				"{@i Умение Круга воздуха 2-го уровня}",
+				"Вы наполнены магией воздуха. Достигая определённых уровней друида, вы получаете доступ к заклинаниям из таблицы ниже. Они считаются для вас заклинаниями друида, и у вас они всегда подготовлены, но они не учитываются в общем числе заклинаний, которые вы готовите каждый день.",
 				{
 					"type": "table",
-					"caption": "Circle of the Air Spells",
+					"caption": "Заклинания Круга воздуха",
 					"colLabels": [
-						"Druid Level",
+						"Уровень друида",
 						"Spells"
 					],
 					"colStyles": [
@@ -135,23 +135,23 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell expeditious retreat}, {@spell feather fall}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell gust of wind}, {@spell levitate}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell fly}, {@spell wind wall}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell divination}, {@spell storm sphere|xge}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell control winds|xge}, {@spell steel wind strike|xge}"
 						]
 					]
@@ -159,23 +159,23 @@
 			]
 		},
 		{
-			"name": "Gale Talisman",
+			"name": "Талисман бури",
 			"source": "CircleOfTheAir",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Air",
+			"subclassShortName": "Воздух",
 			"subclassSource": "CircleOfTheAir",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of the Air feature}",
-				"You possess a talisman that strengthens your bond with the wind. It is a Tiny object and can serve as a spellcasting focus for your Druid spells. You determine its form by rolling on the table below or by choosing one.",
+				"{@i Умение Круга воздуха 2-го уровня}",
+				"У вас есть талисман, укрепляющий вашу связь с ветром. Это Крошечный предмет, и он может служить заклинательной фокусировкой для ваших заклинаний друида. Вы определяете его форму, бросив по таблице ниже или выбрав один из вариантов.",
 				{
 					"type": "table",
-					"caption": "Gale Talisman",
+					"caption": "Талисман бури",
 					"colLabels": [
 						"d6",
-						"Talisman Form"
+						"Форма талисмана"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -184,104 +184,104 @@
 					"rows": [
 						[
 							"1",
-							"A handheld fan engraved with breeze patterns"
+							"Ручной веер, украшенный узорами ветра"
 						],
 						[
 							"2",
-							"A necklace with an iridescent feather centrepiece"
+							"Ожерелье с переливающимся пером в центре"
 						],
 						[
 							"3",
-							"A global map of the wind's speed and direction"
+							"Карта мира со скоростью и направлением ветров"
 						],
 						[
 							"4",
-							"A wooden rod adorned with paper streamers"
+							"Деревянный жезл, украшенный бумажными лентами"
 						],
 						[
 							"5",
-							"A bracelet made of dandelion stems and puffballs"
+							"Браслет из стеблей одуванчиков и пушистых шариков"
 						],
 						[
 							"6",
-							"A translucent bottle filled with swirling clouds"
+							"Полупрозрачная бутыль, наполненная клубящимися облаками"
 						]
 					]
 				},
-				"While holding this talisman, you have these benefits:",
+				"Пока вы держите этот талисман, вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You know {@spell gust|xge}. It has a range of 60 feet, can push creatures and objects in any direction instead of away from you, and can affect creatures of any size. A willing creature can choose to fail the spell's save.",
-						"Whenever you push a target using {@spell gust|xge}, you can also make it inflict {@dice 1d8} bludgeoning or slashing damage. This damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
-						"You can cast a Circle Spell that you have access to without expending a spell slot. Once you do so, you can't do so again until you finish a long rest.",
-						"If you lose this talisman, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous talisman."
+						"Вы знаете {@spell gust|xge}. У него дальность 60 футов, он может толкать существ и предметы в любом направлении, а не только от вас, и может воздействовать на существ любого размера. Добровольное существо может решить провалить спасбросок заклинания.",
+						"Каждый раз, когда вы толкаете цель с помощью {@spell gust|xge}, вы также можете заставить её нанести {@dice 1d8} дробящего или рубящего урона. Этот урон увеличивается на 1d8 на 5-м уровне (2d8), 11-м уровне (3d8) и 17-м уровне (4d8).",
+						"Вы можете наложить заклинание круга, к которому у вас есть доступ, не расходуя ячейку заклинаний. Сделав это, вы не можете сделать так снова, пока не завершите продолжительный отдых.",
+						"Если вы потеряете этот талисман, вы можете провести 1-часовую церемонию, чтобы магически создать замену. Эту церемонию можно провести во время короткого или продолжительного отдыха, и она уничтожает предыдущий талисман."
 					]
 				}
 			]
 		},
 		{
-			"name": "Tailwind",
+			"name": "Попутный ветер",
 			"source": "CircleOfTheAir",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Air",
+			"subclassShortName": "Воздух",
 			"subclassSource": "CircleOfTheAir",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of the Air feature}",
-				"The winds bolster your magic's capabilities. When you cast a Circle Spell, you can expend a Wild Shape usage to maintain it without {@condition concentration}. The spell ends early if you recast or dismiss it (no action required).",
-				"Additionally, whenever a creature comes into contact with a {@spell wind wall} you create, you can force it to succeed on a Strength saving throw or be unable to pass through the wall until the start of its next turn."
+				"{@i Умение Круга воздуха 6-го уровня}",
+				"Ветры усиливают возможности вашей магии. Накладывая заклинание круга, вы можете потратить использование «Дикого облика», чтобы поддерживать его без {@condition concentration}. Заклинание заканчивается раньше, если вы наложите его снова или отмените (действие не требуется).",
+				"Кроме того, каждый раз, когда существо соприкасается с созданной вами {@spell wind wall}, вы можете заставить его преуспеть в спасброске Силы, иначе оно не сможет пройти сквозь стену до начала своего следующего хода."
 			]
 		},
 		{
-			"name": "Bend the Breeze",
+			"name": "Согнуть бриз",
 			"source": "CircleOfTheAir",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Air",
+			"subclassShortName": "Воздух",
 			"subclassSource": "CircleOfTheAir",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of the Air feature}",
-				"The air moves however you command it. When you cast {@spell control winds|xge}, you alter its effects in the following ways:",
+				"{@i Умение Круга воздуха 10-го уровня}",
+				"Воздух движется так, как вы прикажете. Накладывая {@spell control winds|xge}, вы изменяете его эффекты следующим образом:",
 				{
 					"type": "entries",
-					"name": "Gusts",
+					"name": "Порывы",
 					"entries": [
-						"When a creature starts its turn in this area, you can force it to make a Strength saving throw. On a failed save, you push it up to 15 feet in the wind's direction."
+						"Когда существо начинает свой ход в этой области, вы можете заставить его совершить спасбросок Силы. При провале вы толкаете его на расстояние до 15 футов в направлении ветра."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Downdraft",
+					"name": "Нисходящий поток",
 					"entries": [
-						"When a creature comes into contact with this area for the first time on a turn or ends its turn there, you can force it to succeed on a Strength saving throw or fall {@condition prone}."
+						"Когда существо впервые за ход соприкасается с этой областью или заканчивает там свой ход, вы можете заставить его преуспеть в спасброске Силы, иначе оно падает {@condition prone}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Updraft",
+					"name": "Восходящий поток",
 					"entries": [
-						"You can use your bonus action to grant any willing creatures of your choice within this area a magical flying speed of 30 feet until the end of your next turn."
+						"Вы можете бонусным действием дать любым добровольным существам на ваш выбор в этой области магическую скорость полёта 30 футов до конца вашего следующего хода."
 					]
 				}
 			]
 		},
 		{
-			"name": "Embodiment of Air",
+			"name": "Воплощение воздуха",
 			"source": "CircleOfTheAir",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Air",
+			"subclassShortName": "Воздух",
 			"subclassSource": "CircleOfTheAir",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of the Air feature}",
-				"Your connection to the sky and everything in its domain reaches its peak. You add {@spell investiture of wind|xge}, {@spell scatter|xge}, {@spell wind walk}, and {@spell whirlwind|xge} to your list of Circle Spells."
+				"{@i Умение Круга воздуха 14-го уровня}",
+				"Ваша связь с небом и всем в его владениях достигает пика. Вы добавляете {@spell investiture of wind|xge}, {@spell scatter|xge}, {@spell wind walk} и {@spell whirlwind|xge} в свой список заклинаний круга."
 			]
 		}
 	]

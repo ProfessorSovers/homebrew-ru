@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Magus",
-			"shortName": "Magus",
+			"name": "Магус",
+			"shortName": "Магус",
 			"source": "TheMagusEldritchKnightRevised",
 			"className": "Fighter",
 			"classSource": "PHB",
@@ -145,7 +145,7 @@
 				{
 					"subclasses": [
 						{
-							"name": "Magus",
+							"name": "Магус",
 							"source": "TheMagusEldritchKnightRevised"
 						}
 					],
@@ -237,10 +237,10 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"subclasses": [
 						{
-							"name": "Magus",
+							"name": "Магус",
 							"source": "TheMagusEldritchKnightRevised"
 						}
 					],
@@ -375,60 +375,60 @@
 				}
 			],
 			"subclassFeatures": [
-				"Magus|Fighter||Magus|TheMagusEldritchKnightRevised|3",
-				"Spell Combat|Fighter||Magus|TheMagusEldritchKnightRevised|7",
-				"Arcane Accuracy|Fighter||Magus|TheMagusEldritchKnightRevised|10",
-				"Arcane Charge|Fighter||Magus|TheMagusEldritchKnightRevised|15",
-				"Improved Spell Combat|Fighter||Magus|TheMagusEldritchKnightRevised|18"
+				"Магус|Fighter||Магус|TheMagusEldritchKnightRevised|3",
+				"Бой с заклинаниями|Fighter||Магус|TheMagusEldritchKnightRevised|7",
+				"Арканная точность|Fighter||Магус|TheMagusEldritchKnightRevised|10",
+				"Арканный заряд|Fighter||Магус|TheMagusEldritchKnightRevised|15",
+				"Улучшенный бой с заклинаниями|Fighter||Магус|TheMagusEldritchKnightRevised|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Magus",
+			"name": "Магус",
 			"source": "TheMagusEldritchKnightRevised",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Magus",
+			"subclassShortName": "Магус",
 			"subclassSource": "TheMagusEldritchKnightRevised",
 			"level": 3,
 			"entries": [
-				"The archetypal Magus combines the martial mastery common to all fighters with a careful study of magic. Magi use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic\u2014abjuration and evocation. Abjuration spells grant a Magus additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These magi learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.",
+				"Архетипический магус сочетает боевое мастерство, общее для всех воинов, с тщательным изучением магии. Магусы используют магические техники, схожие с теми, что практикуют волшебники. Они сосредотачивают свои исследования на двух из восьми школ магии — ограждении и воплощении. Заклинания ограждения обеспечивают магусу дополнительную защиту в бою, а заклинания воплощения наносят урон множеству врагов одновременно, увеличивая досягаемость воина в бою. Эти магусы изучают сравнительно небольшое число заклинаний, запоминая их вместо хранения в книге заклинаний.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Fighter||Magus|TheMagusEldritchKnightRevised|3"
+					"subclassFeature": "Сотворение заклинаний|Fighter||Магус|TheMagusEldritchKnightRevised|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Weapon Bond|Fighter||Magus|TheMagusEldritchKnightRevised|3"
+					"subclassFeature": "Связь с оружием|Fighter||Магус|TheMagusEldritchKnightRevised|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellstrike|Fighter||Magus|TheMagusEldritchKnightRevised|3"
+					"subclassFeature": "Удар заклинанием|Fighter||Магус|TheMagusEldritchKnightRevised|3"
 				}
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "TheMagusEldritchKnightRevised",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Magus",
+			"subclassShortName": "Магус",
 			"subclassSource": "TheMagusEldritchKnightRevised",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you reach 3rd level, you augment your martial prowess with the ability to cast spells.",
+				"Достигнув 3-го уровня, вы усиливаете своё боевое мастерство способностью творить заклинания.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Cantrips",
+							"name": "Заговоры",
 							"entries": [
-								"You learn three cantrips: {@spell booming blade|tce} or {@spell green-flame blade|tce}, as well as two other cantrips of your choice from the {@filter wizard spell list|spells|level=0|subclass=fighter: eldritch knight}. You learn an additional wizard cantrip of your choice at 10th level."
+								"Вы изучаете три заговора: {@spell booming blade|tce} или {@spell green-flame blade|tce}, а также два других заговора по вашему выбору из {@filter wizard spell list|spells|level=0|subclass=fighter: eldritch knight}. На 10-м уровне вы изучаете ещё один заговор волшебника по вашему выбору."
 							]
 						}
 					]
@@ -438,10 +438,10 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spell Slots",
+							"name": "Ячейки заклинаний",
 							"entries": [
-								"The Magus Spellcasting table shows how many spell slots you have to cast your {@filter wizard spells|spells|level=1;2;3;4|subclass=fighter: eldritch knight} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-								"For example, if you know the 1st-level spell {@spell shield} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell shield} using either slot."
+								"Таблица использования заклинаний магуса показывает, сколько ячеек заклинаний у вас есть для накладывания {@filter wizard spells|spells|level=1;2;3;4|subclass=fighter: eldritch knight} 1-го уровня и выше. Чтобы наложить одно из этих заклинаний, вы должны потратить ячейку заклинания соответствующего уровня или выше. Вы восстанавливаете все потраченные ячейки заклинаний после завершения продолжительного отдыха.",
+								"Например, если вы знаете заклинание {@spell shield} 1-го уровня и у вас есть доступные ячейка заклинания 1-го уровня и ячейка заклинания 2-го уровня, вы можете наложить {@spell shield}, используя любую из них."
 							]
 						}
 					]
@@ -451,12 +451,12 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spells Known of 1st-Level and Higher",
+							"name": "Известные заклинания 1-го уровня и выше",
 							"entries": [
-								"You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.",
-								"The Spells Known column of the Magus Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-								"The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
-								"Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
+								"Вы знаете три заклинания волшебника 1-го уровня на свой выбор, два из которых должны быть выбраны из заклинаний ограждения и воплощения из списка заклинаний волшебника.",
+								"Столбец «Знание заклинаний» таблицы «Использование заклинаний Магуса» показывает, когда вы изучаете дополнительные заклинания волшебника 1-го уровня или выше. Каждое из этих заклинаний должно быть заклинанием ограждения или воплощения на ваш выбор и иметь уровень, для которого у вас есть ячейки заклинаний. Например, достигнув 7-го уровня в этом классе, вы можете изучить одно новое заклинание 1-го или 2-го уровня.",
+								"Заклинания, которые вы изучаете на 8-м, 14-м и 20-м уровнях, могут быть из любой школы магии.",
+								"Когда вы получаете уровень в этом классе, вы можете заменить одно известное вам заклинание волшебника другим заклинанием на ваш выбор из списка заклинаний волшебника. Новое заклинание должно иметь уровень, для которого у вас есть ячейки заклинаний, и быть заклинанием ограждения или воплощения, если только вы не заменяете заклинание, полученное вами на 3-м, 8-м, 14-м или 20-м уровне, из любой школы магии."
 							]
 						}
 					]
@@ -466,19 +466,19 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spellcasting Ability",
+							"name": "Базовая характеристика для заклинаний",
 							"entries": [
-								"Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+								"Интеллект — ваша базовая характеристика для сотворения заклинаний волшебника, поскольку вы изучаете заклинания путём штудирования и заучивания. Вы используете Интеллект всякий раз, когда заклинание ссылается на вашу базовую характеристику для сотворения заклинаний. Кроме того, вы используете модификатор Интеллекта при установлении Сл спасброска для творимого вами заклинания волшебника и при совершении им броска атаки.",
 								{
 									"type": "abilityDc",
-									"name": "Spell",
+									"name": "Заклинание",
 									"attributes": [
 										"int"
 									]
 								},
 								{
 									"type": "abilityAttackMod",
-									"name": "Spell",
+									"name": "Заклинание",
 									"attributes": [
 										"int"
 									]
@@ -490,97 +490,97 @@
 			]
 		},
 		{
-			"name": "Spellstrike",
+			"name": "Удар заклинанием",
 			"source": "TheMagusEldritchKnightRevised",
 			"page": 2,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Magus",
+			"subclassShortName": "Магус",
 			"subclassSource": "TheMagusEldritchKnightRevised",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Also at 3rd level, you learn to channel your magic through your bonded weapon. When you cast {@spell booming blade|tce} or {@spell green-flame blade|tce} with your bonded weapon as a material component, the cantrip gains the following benefits for you:",
+				"Также на 3-м уровне вы учитесь проводить магию через связанное оружие. Когда вы сотворяете {@spell booming blade|tce} или {@spell green-flame blade|tce}, используя связанное оружие в качестве материального компонента, заговор получает для вас следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"Its range is equal to your bonded weapon's reach.",
-						"You can temporarily change the cantrip's damage type with a type that appears in another cantrip you know, which magically alters the cantrip's formula for this casting only."
+						"Его дистанция равна досягаемости вашего связанного оружия.",
+						"Вы можете временно изменить тип урона заговора на тип, который присутствует в другом известном вам заговоре, что магическим образом изменяет формулу заговора только для этого сотворения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Weapon Bond",
+			"name": "Связь с оружием",
 			"source": "TheMagusEldritchKnightRevised",
 			"page": 2,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Magus",
+			"subclassShortName": "Магус",
 			"subclassSource": "TheMagusEldritchKnightRevised",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. A shield is also a valid option, and is treated as a weapon for the sake of this feature. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.",
-				"Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are {@condition incapacitated}. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand. Additionally, the bonded weapon can be used as a spellcasting focus for your wizard spells, and you can perform somatic components of spells while wielding it.",
-				"You can have up to two bonded weapons, and can summon one or both at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two."
+				"На 3-м уровне вы изучаете ритуал, создающий магическую связь между вами и одним оружием. Щит также подходит для этого и считается оружием для целей этой особенности. Вы проводите ритуал в течение 1 часа; его можно выполнить во время короткого отдыха. Оружие должно находиться в пределах вашей досягаемости на протяжении всего ритуала, в конце которого вы касаетесь оружия и создаёте связь.",
+				"После того как вы связали оружие с собой, вас нельзя обезоружить этим оружием, если только вы не {@condition incapacitated}. Если оно находится на том же плане существования, вы можете призвать это оружие бонусным действием в свой ход, и оно мгновенно телепортируется вам в руку. Кроме того, связанное оружие можно использовать как заклинательную фокусировку для ваших заклинаний волшебника, а также вы можете выполнять соматические компоненты заклинаний, держа его в руках.",
+				"У вас может быть до двух связанных оружий, и вы можете призвать одно или оба одновременно своим бонусным действием. Если вы попытаетесь связать себя с третьим оружием, вы должны разорвать связь с одним из двух других."
 			]
 		},
 		{
-			"name": "Spell Combat",
+			"name": "Бой с заклинаниями",
 			"source": "TheMagusEldritchKnightRevised",
 			"page": 2,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Magus",
+			"subclassShortName": "Магус",
 			"subclassSource": "TheMagusEldritchKnightRevised",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn to intertwine your wizard spells with your weapon attacks. Whenever you take the {@action Attack} action on your turn, you can replace one of those attacks with a wizard cantrip you know, as though you were a 5th level caster.",
-				"As you gain levels in this class, you can replace additional attacks to increase a cantrip's strength. At 11th level you can replace 2 attacks to cast a cantrip as an 11th level caster, and at 20th level you can replace 3 attacks to cast as a 17th level caster."
+				"На 7-м уровне вы учитесь переплетать заклинания волшебника со своими атаками оружием. Когда вы совершаете действие {@action Attack} в свой ход, вы можете заменить одну из этих атак известным вам заговором волшебника, как если бы вы были заклинателем 5-го уровня.",
+				"По мере получения уровней в этом классе вы можете заменять дополнительные атаки, чтобы увеличивать силу заговора. На 11-м уровне вы можете заменить 2 атаки, чтобы наложить заговор как заклинатель 11-го уровня, а на 20-м уровне — заменить 3 атаки, чтобы наложить его как заклинатель 17-го уровня."
 			]
 		},
 		{
-			"name": "Arcane Accuracy",
+			"name": "Арканная точность",
 			"source": "TheMagusEldritchKnightRevised",
 			"page": 2,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Magus",
+			"subclassShortName": "Магус",
 			"subclassSource": "TheMagusEldritchKnightRevised",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, you learn to capture a sliver of magic energy whenever you cast a spell, and use it to guide your attacks. Whenever you cast a wizard spell of 1st level or higher, you gain a bonus to the first weapon attack roll on your next turn equal to the slot level expended."
+				"Начиная с 10-го уровня вы учитесь захватывать осколок магической энергии всякий раз, когда накладываете заклинание, и использовать его для направления своих атак. Всякий раз, когда вы накладываете заклинание волшебника 1-го уровня или выше, вы получаете бонус к первому броску атаки оружием в следующем ходу, равный уровню израсходованной ячейки."
 			]
 		},
 		{
-			"name": "Arcane Charge",
+			"name": "Арканный заряд",
 			"source": "TheMagusEldritchKnightRevised",
 			"page": 2,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Magus",
+			"subclassShortName": "Магус",
 			"subclassSource": "TheMagusEldritchKnightRevised",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, you learn to magically propel yourself whenever you access the weave. Whenever you cast a wizard spell of 1st level or higher on your turn, you can teleport up to 20 feet to an unoccupied space you can see, plus an additional 10 feet for each slot level above 1st. You can teleport before or after you cast the spell."
+				"Начиная с 15-го уровня вы учитесь магически перемещать себя всякий раз, когда получаете доступ к Плетению. Всякий раз, когда в свой ход вы накладываете заклинание волшебника 1-го уровня или выше, вы можете телепортироваться на расстояние до 20 футов в свободное пространство, которое вы видите, плюс ещё 10 футов за каждый уровень ячейки выше 1-го. Вы можете телепортироваться до или после наложения заклинания."
 			]
 		},
 		{
-			"name": "Improved Spell Combat",
+			"name": "Улучшенный бой с заклинаниями",
 			"source": "TheMagusEldritchKnightRevised",
 			"page": 2,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Magus",
+			"subclassShortName": "Магус",
 			"subclassSource": "TheMagusEldritchKnightRevised",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you learn to incorporate your more complex wizard spells into your fighting style. Whenever you take the {@action Attack} action on your turn, you can cast a wizard spell of 1st level or higher instead of a number of your attacks. For each slot level, you must forgo a single attack (1 attack for 1st level, 2 attacks for 2nd level, etc.). You can only cast one spell per turn in this way."
+				"На 18-м уровне вы учитесь включать более сложные заклинания волшебника в свой боевой стиль. Всякий раз, когда в свой ход вы совершаете действие {@action Attack}, вы можете наложить заклинание волшебника 1-го уровня или выше вместо некоторого количества своих атак. За каждый уровень ячейки вы должны отказаться от одной атаки (1 атака для 1-го уровня, 2 атаки для 2-го уровня и так далее). Таким образом вы можете наложить только одно заклинание за ход."
 			]
 		}
 	]

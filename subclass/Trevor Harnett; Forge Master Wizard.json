@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Path of the Forge Master",
-			"shortName": "Forge Master",
+			"name": "Путь мастера кузни",
+			"shortName": "Мастер кузни",
 			"source": "TrevorHarnettForgeMaster",
 			"className": "Wizard",
 			"classSource": "PHB",
@@ -40,40 +40,40 @@
 				"find familiar"
 			],
 			"subclassFeatures": [
-				"Forge Master|Wizard||Forge Master|TrevorHarnettForgeMaster|2",
-				"Demonic Undead|Wizard||Forge Master|TrevorHarnettForgeMaster|6",
-				"Bigger and Better|Wizard||Forge Master|TrevorHarnettForgeMaster|10",
-				"Master of the Damned|Wizard||Forge Master|TrevorHarnettForgeMaster|14"
+				"Мастер кузни|Wizard||Мастер кузни|TrevorHarnettForgeMaster|2",
+				"Демоническая нежить|Wizard||Мастер кузни|TrevorHarnettForgeMaster|6",
+				"Больше и лучше|Wizard||Мастер кузни|TrevorHarnettForgeMaster|10",
+				"Владыка проклятых|Wizard||Мастер кузни|TrevorHarnettForgeMaster|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Forge Master",
+			"name": "Мастер кузни",
 			"source": "TrevorHarnettForgeMaster",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Forge Master",
+			"subclassShortName": "Мастер кузни",
 			"subclassSource": "TrevorHarnettForgeMaster",
 			"level": 2,
 			"entries": [
-				"Forge Master wizards study the 9 hells and the abyss in order to manipulate and control the denizens of those blasted wastes. Forge Masters use demons as other people use tools; for both destruction and creation and they hold complete unwavering control over their summoned horde.",
+				"Волшебники-мастера кузни изучают девять преисподних и бездну, чтобы управлять обитателями этих проклятых пустошей и подчинять их. Мастера кузни используют демонов так, как другие люди используют инструменты — и для разрушения, и для созидания, — и обладают полной, непоколебимой властью над своей призванной ордой.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Wizard||Forge Master|TrevorHarnettForgeMaster|2"
+					"subclassFeature": "Бонусные владения|Wizard||Мастер кузни|TrevorHarnettForgeMaster|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fiendish Summons|Wizard||Forge Master|TrevorHarnettForgeMaster|2"
+					"subclassFeature": "Призыв исчадий|Wizard||Мастер кузни|TrevorHarnettForgeMaster|2"
 				}
 			]
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"name": "Бонусные владения",
 			"source": "TrevorHarnettForgeMaster",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Forge Master",
+			"subclassShortName": "Мастер кузни",
 			"subclassSource": "TrevorHarnettForgeMaster",
 			"level": 2,
 			"toolProficiencies": [
@@ -93,66 +93,66 @@
 			],
 			"header": 1,
 			"entries": [
-				"Beginning when you select this school at 2nd level you gain proficiency with either {@item Carpenter's Tools|PHB}, {@item Cobbler's Tools|PHB}, {@item Leatherworker's Tools|PHB}, {@item Mason's tools|PHB}, {@item Smith's Tools|PHB}, or {@item Woodcarver's Tools|PHB}. You can use this set of tools as an {@item arcane focus|PHB} for casting your wizard spells."
+				"Начиная с выбора этой школы на 2-м уровне вы получаете владение одним из наборов: {@item Carpenter's Tools|PHB}, {@item Cobbler's Tools|PHB}, {@item Leatherworker's Tools|PHB}, {@item Mason's tools|PHB}, {@item Smith's Tools|PHB} или {@item Woodcarver's Tools|PHB}. Вы можете использовать этот набор инструментов как {@item arcane focus|PHB} для накладывания своих заклинаний волшебника."
 			]
 		},
 		{
-			"name": "Fiendish Summons",
+			"name": "Призыв исчадий",
 			"source": "TrevorHarnettForgeMaster",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Forge Master",
+			"subclassShortName": "Мастер кузни",
 			"subclassSource": "TrevorHarnettForgeMaster",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level you add the {@spell find familiar} spell to your spell book if it is not already there. Your familiar can take the form of an {@creature Imp} or a {@creature Quasit}. "
+				"На 2-м уровне вы добавляете заклинание {@spell find familiar} в свою книгу заклинаний, если его там ещё нет. Ваш фамильяр может принимать форму {@creature Imp} или {@creature Quasit}."
 			]
 		},
 		{
-			"name": "Demonic Undead",
+			"name": "Демоническая нежить",
 			"source": "TrevorHarnettForgeMaster",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Forge Master",
+			"subclassShortName": "Мастер кузни",
 			"subclassSource": "TrevorHarnettForgeMaster",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level whenever you cast a spell to raise an undead creature you can instead summon a fiend whose challenge rating is no higher than 1/3 of your level rounded down. If a spell lets you summon more than one undead you can summon multiple fiends but the combined challenge rating of all of the summoned fiends must still be equal to or less than 1/3 of your level in this class. Any fiends summoned in this way can make a charisma saving throw at the beginning of its turn against your spell save DC. On a success the creature is no longer under your control and lasts for {@dice 1d4} rounds before disappearing."
+				"Начиная с 6-го уровня, когда вы накладываете заклинание для поднятия нежити, вы можете вместо этого призвать исчадие с показателем опасности не выше 1/3 вашего уровня, округлённой в меньшую сторону. Если заклинание позволяет вам поднять больше одной нежити, вы можете призвать несколько исчадий, но суммарный показатель опасности всех призванных исчадий всё равно должен быть равен или меньше 1/3 вашего уровня в этом классе. Любое призванное таким образом исчадие может в начале своего хода совершить спасбросок Харизмы против Сл спасброска от заклинаний. При успехе существо выходит из-под вашего контроля и существует ещё {@dice 1d4} раундов, прежде чем исчезнуть."
 			]
 		},
 		{
-			"name": "Bigger and Better",
+			"name": "Больше и лучше",
 			"source": "TrevorHarnettForgeMaster",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Forge Master",
+			"subclassShortName": "Мастер кузни",
 			"subclassSource": "TrevorHarnettForgeMaster",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level the fiends you summon are more powerful. You can now summon any fiend whose CR is equal to or lower than half your wizard level rounded down. In addition all fiends you summon have the following benefits while under your control:",
+				"Начиная с 10-го уровня призываемые вами исчадия становятся могущественнее. Теперь вы можете призывать любое исчадие с ПО, равным или меньшим половины вашего уровня волшебника, округлённой в меньшую сторону. Кроме того, все призванные вами исчадия получают следующие преимущества, пока находятся под вашим контролем:",
 				{
 					"type": "list",
 					"items": [
-						"The fiend spawns with a number of temporary hit points equal to your wizard level.",
-						"The fiend adds your intelligence modifier to all attack rolls and saving throws it makes."
+						"Исчадие появляется с запасом временных хитов, равным вашему уровню волшебника.",
+						"Исчадие добавляет ваш модификатор Интеллекта ко всем совершаемым им броскам атаки и спасброскам."
 					]
 				}
 			]
 		},
 		{
-			"name": "Master of the Damned",
+			"name": "Владыка проклятых",
 			"source": "TrevorHarnettForgeMaster",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Forge Master",
+			"subclassShortName": "Мастер кузни",
 			"subclassSource": "TrevorHarnettForgeMaster",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Once you reach 14th level your control over your fiends is unbreakable. You cannot lose {@status concentration} on a spell used to summon a fiend while you are conscious and fiends you summon can no longer break free of your control."
+				"Достигнув 14-го уровня, вы обретаете неразрывную власть над своими исчадиями. Вы не можете потерять {@status concentration} на заклинании, использованном для призыва исчадия, пока вы в сознании, и призванные вами исчадия больше не могут вырваться из-под вашего контроля."
 			]
 		}
 	]

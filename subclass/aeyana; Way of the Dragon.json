@@ -20,83 +20,83 @@
 	},
 	"subclass": [
 		{
-			"name": "Dragon",
-			"shortName": "Dragon",
+			"name": "Дракон",
+			"shortName": "Дракон",
 			"source": "WayOfTheDragon",
 			"className": "Monk",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Way of the Dragon|Monk||Dragon|WayOfTheDragon|3",
-				"Breath Weapon|Monk||Dragon|WayOfTheDragon|6",
-				"Frightening Presence|Monk||Dragon|WayOfTheDragon|11",
-				"Legendary Reaction|Monk||Dragon|WayOfTheDragon|17"
+				"Путь дракона|Monk||Дракон|WayOfTheDragon|3",
+				"Оружие дыхания|Monk||Дракон|WayOfTheDragon|6",
+				"Устрашающее присутствие|Monk||Дракон|WayOfTheDragon|11",
+				"Легендарная реакция|Monk||Дракон|WayOfTheDragon|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Way of the Dragon",
+			"name": "Путь дракона",
 			"source": "WayOfTheDragon",
 			"page": 76,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "WayOfTheDragon",
 			"level": 3,
 			"entries": [
-				"Monks of the Way of the Dragon study and idolize draconic beings. They fight like dragons.",
+				"Монахи Пути дракона изучают драконьих существ и поклоняются им. Они сражаются как драконы.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dragonheart|Monk||Dragon|WayOfTheDragon|3"
+					"subclassFeature": "Драконье сердце|Monk||Дракон|WayOfTheDragon|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dragon Style|Monk||Dragon|WayOfTheDragon|3"
+					"subclassFeature": "Драконий стиль|Monk||Дракон|WayOfTheDragon|3"
 				}
 			]
 		},
 		{
-			"name": "Dragon Style",
+			"name": "Драконий стиль",
 			"source": "WayOfTheDragon",
 			"page": 76,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "WayOfTheDragon",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you weave dragon-like motions into your martial arts. You gain the following benefits:",
+				"На 3-м уровне вы вплетаете драконьи движения в свои боевые искусства. Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"When you use Step of the Wind, you gain a flying speed equal to your walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.",
-						"When you use Patient Defense, parts of your skin become covered by a thin sheen of dragon-like scales. You gain temporary hit points equal to your Wisdom modifier that last until the start of your next turn.",
-						"When you use Flurry of Blows, you can change the damage type of your unarmed strikes to that of your dragonheart.",
-						"As a reaction to taking damage of the same type as your dragonheart, you can spend 1 ki to cast {@spell absorb elements} at its lowest level."
+						"Используя «Шаг ветра», вы получаете скорость полёта, равную вашей скорости ходьбы. Это преимущество работает только короткими рывками: вы падаете, если заканчиваете свой ход в воздухе и ничто иное не удерживает вас в воздухе.",
+						"Используя «Терпеливую оборону», части вашей кожи покрываются тонким слоем драконьей чешуи. Вы получаете временные хиты, равные вашему модификатору Мудрости, которые сохраняются до начала вашего следующего хода.",
+						"Используя «Шквал ударов», вы можете изменить тип урона своих безоружных ударов на тип вашего драконьего сердца.",
+						"Реакцией на получение урона того же типа, что и ваше драконье сердце, вы можете потратить 1 очко ки, чтобы наложить {@spell absorb elements} на его низшем уровне."
 					]
 				}
 			]
 		},
 		{
-			"name": "Dragonheart",
+			"name": "Драконье сердце",
 			"source": "WayOfTheDragon",
 			"page": 76,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "WayOfTheDragon",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You can speak, read, and write Draconic. Choose one type of dragon for your dragonheart. Your dragonheart is used by features you gain later.",
+				"Вы можете говорить, читать и писать на драконьем языке. Выберите один тип дракона для своего драконьего сердца. Ваше драконье сердце используется умениями, которые вы получите позже.",
 				{
 					"type": "table",
-					"caption": "Dragonheart",
+					"caption": "Драконье сердце",
 					"colLabels": [
-						"Dragon",
-						"Damage Type",
-						"Breath Weapon"
+						"Дракон",
+						"Тип урона",
+						"Оружие дыхания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -105,107 +105,107 @@
 					],
 					"rows": [
 						[
-							"Black",
+							"Чёрный",
 							"{@filter Acid|spells|damage type=acid}",
-							"5 by 30 ft. line (Dex. save)"
+							"Линия 5 на 30 футов (спасбросок Лов.)"
 						],
 						[
-							"Blue",
+							"Синий",
 							"{@filter Lightning|spells|damage type=lightning}",
-							"5 by 30 ft. line (Dex. save)"
+							"Линия 5 на 30 футов (спасбросок Лов.)"
 						],
 						[
-							"Brass",
+							"Латунный",
 							"{@filter Fire|spells|damage type=fire}",
-							"5 by 30 ft. line (Dex. save)"
+							"Линия 5 на 30 футов (спасбросок Лов.)"
 						],
 						[
-							"Bronze",
+							"Бронзовый",
 							"{@filter Lightning|spells|damage type=lightning}",
-							"5 by 30 ft. line (Dex. save)"
+							"Линия 5 на 30 футов (спасбросок Лов.)"
 						],
 						[
-							"Copper",
+							"Медный",
 							"{@filter Acid|spells|damage type=acid}",
-							"5 by 30 ft. line (Dex. save)"
+							"Линия 5 на 30 футов (спасбросок Лов.)"
 						],
 						[
-							"Gold",
+							"Золотой",
 							"{@filter Fire|spells|damage type=fire}",
-							"15 ft. cone (Dex. save)"
+							"Конус 15 футов (спасбросок Лов.)"
 						],
 						[
-							"Green",
+							"Зелёный",
 							"{@filter Poison|spells|damage type=poison}",
-							"15 ft. cone (Con. save)"
+							"Конус 15 футов (спасбросок Тел.)"
 						],
 						[
-							"Red",
+							"Красный",
 							"{@filter Fire|spells|damage type=fire}",
-							"15 ft. cone (Dex. save)"
+							"Конус 15 футов (спасбросок Лов.)"
 						],
 						[
-							"Silver",
+							"Серебряный",
 							"{@filter Cold|spells|damage type=cold}",
-							"15 ft. cone (Con. save)"
+							"Конус 15 футов (спасбросок Тел.)"
 						],
 						[
-							"White",
+							"Белый",
 							"{@filter Cold|spells|damage type=cold}",
-							"15 ft. cone (Con. save)"
+							"Конус 15 футов (спасбросок Тел.)"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Breath Weapon",
+			"name": "Оружие дыхания",
 			"source": "WayOfTheDragon",
 			"page": 76,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "WayOfTheDragon",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you learn to release a powerful breath attack. You can spend up to 3 ki points and use your action to exhale destructive energy. Your dragonheart determines the size, shape, and damage type of the exhalation.",
-				"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your dragonheart. A creature takes 2 Martial Arts dice of damage for each ki point spend on a failed save, and half as much damage on a successful one.",
-				"The maximum number of ki you can expend increase to 4 at 9th level, 5 at 13th level, and 6 at 17th level."
+				"На 6-м уровне вы учитесь выпускать мощную дыхательную атаку. Вы можете потратить до 3 очков ки и использовать своё действие, чтобы выдохнуть разрушительную энергию. Ваше драконье сердце определяет размер, форму и тип урона выдоха.",
+				"Используя оружие дыхания, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим сердцем. Существо получает урон в размере 2 костей боевых искусств за каждое потраченное очко ки при провале и половину этого урона при успехе.",
+				"Максимальное число очков ки, которое вы можете потратить, увеличивается до 4 на 9-м уровне, 5 на 13-м и 6 на 17-м."
 			]
 		},
 		{
-			"name": "Frightening Presence",
+			"name": "Устрашающее присутствие",
 			"source": "WayOfTheDragon",
 			"page": 76,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "WayOfTheDragon",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you gain the ability to mimic a dragon's terrifying roar. When you use Flurry of Blows, you can replace one attack with a draconic roar to force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this effect for the next 24 hours."
+				"На 11-м уровне вы обретаете способность подражать ужасающему рёву дракона. Используя «Шквал ударов», вы можете заменить одну атаку драконьим рёвом, чтобы заставить каждое выбранное вами существо, которое вы видите в пределах 30 футов от себя, совершить спасбросок Мудрости. При провале существо становится испуганным вами на 1 минуту. Испуганное существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа успешен или эффект для него заканчивается, это существо получает иммунитет к этому эффекту на следующие 24 часа."
 			]
 		},
 		{
-			"name": "Legendary Reaction",
+			"name": "Легендарная реакция",
 			"source": "WayOfTheDragon",
 			"page": 76,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "WayOfTheDragon",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"By 17th level you have taken upon the aspect of a true dragon. You move with nearly unmatched grace and speed. When a creature other than you ends it's turn you can use your reaction to do one of the following:",
+				"К 17-му уровню вы принимаете облик истинного дракона. Вы движетесь с почти недосягаемой грацией и скоростью. Когда существо, отличное от вас, заканчивает свой ход, вы можете использовать свою реакцию, чтобы сделать одно из следующего:",
 				{
 					"type": "list",
 					"items": [
-						"{@bold Detect.} You make a Wisdom (Perception) check.",
-						"{@bold Attack.} You spend 1 ki point to make a melee weapon attack.",
-						"{@bold Wing Attack.} While your dragon wings are out, you can spend 2 ki points perform a wing attack. All Large or smaller creatures within 10 ft. of you must succeed a Dexterity saving throw or take damage equal to your unarmed strike and be knocked prone. You can then move up to half your flying speed."
+						"{@bold Обнаружение.} Вы совершаете проверку Мудрости (Восприятие).",
+						"{@bold Атака.} Вы тратите 1 очко ки, чтобы совершить атаку оружием ближнего боя.",
+						"{@bold Атака крыльями.} Пока ваши драконьи крылья раскрыты, вы можете потратить 2 очка ки, чтобы совершить атаку крыльями. Все существа размера Большой или меньше в пределах 10 футов от вас должны преуспеть в спасброске Ловкости, иначе получают урон, равный вашему безоружному удару, и падают ничком. После этого вы можете переместиться на расстояние до половины вашей скорости полёта."
 					]
 				}
 			]

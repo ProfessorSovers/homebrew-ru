@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "College of Metronomes",
-			"shortName": "Metronomes",
+			"name": "Коллегия метрономов",
+			"shortName": "Метрономы",
 			"source": "CollegeOfMetronomes",
 			"className": "Bard",
 			"classSource": "PHB",
@@ -33,97 +33,97 @@
 				"Slow"
 			],
 			"subclassFeatures": [
-				"College of Metronomes|Bard||Metronomes|CollegeOfMetronomes|3",
-				"Da Capo al Fine|Bard||Metronomes|CollegeOfMetronomes|6",
-				"Largo/Presto|Bard||Metronomes|CollegeOfMetronomes|14"
+				"Коллегия метрономов|Bard||Метрономы|CollegeOfMetronomes|3",
+				"Да капо аль фине|Bard||Метрономы|CollegeOfMetronomes|6",
+				"Ларго/Престо|Bard||Метрономы|CollegeOfMetronomes|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "College of Metronomes",
+			"name": "Коллегия метрономов",
 			"source": "CollegeOfMetronomes",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Metronomes",
+			"subclassShortName": "Метрономы",
 			"subclassSource": "CollegeOfMetronomes",
 			"level": 3,
 			"entries": [
-				"Bards of the College of Metronomes often value technical mastery over impassioned performance. Experts in the theory and craft behind music, their songs assert harmony in the face of dissonance, able to orchestrate even the chaos of battle into a perfect cadence.",
+				"Барды Коллегии метрономов часто ценят техническое мастерство выше исполненного страсти выступления. Знатоки теории и ремесла музыки, они утверждают гармонию вопреки диссонансу и способны превратить даже хаос битвы в безупречную каденцию.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Adagio/Allegro|Bard|PHB|Metronomes|CollegeOfMetronomes|3"
+					"subclassFeature": "Адажио/Аллегро|Bard|PHB|Метрономы|CollegeOfMetronomes|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "A Piacere|Bard|PHB|Metronomes|CollegeOfMetronomes|3"
+					"subclassFeature": "А пьячере|Bard|PHB|Метрономы|CollegeOfMetronomes|3"
 				}
 			]
 		},
 		{
-			"name": "A Piacere",
+			"name": "А пьячере",
 			"source": "CollegeOfMetronomes",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Metronomes",
+			"subclassShortName": "Метрономы",
 			"subclassSource": "CollegeOfMetronomes",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level College of Metronomes feature}",
-				"You can use your bonus action to tie a creature of your choice within 30 feet of you to your music's rhythm, increasing its speed by 10 feet until your next turn ends.",
-				"Additionally, you can expend a use of your Bardic Inspiration as part of using this feature. When you do so, the affected creature also gains the effects of the {@spell kinetic jaunt|scc} spell for 1 minute."
+				"{@i умение Коллегии метрономов 3-го уровня}",
+				"Вы можете бонусным действием привязать выбранное существо в пределах 30 футов от вас к ритму своей музыки, увеличив его скорость на 10 футов до конца вашего следующего хода.",
+				"Кроме того, используя это умение, вы можете потратить одно использование вдохновения барда. В этом случае затронутое существо также получает эффекты заклинания {@spell kinetic jaunt|scc} на 1 минуту."
 			]
 		},
 		{
-			"name": "Adagio/Allegro",
+			"name": "Адажио/Аллегро",
 			"source": "CollegeOfMetronomes",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Metronomes",
+			"subclassShortName": "Метрономы",
 			"subclassSource": "CollegeOfMetronomes",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level College of Metronomes feature}",
-				"Whenever combat starts and you aren't {@quickref Surprise|PHB|3|0|surprised}, you can expend a use of your Bardic Inspiration to add or subtract your Charisma modifier from one creature's initiative roll (unwilling creatures can make a Wisdom saving throw against your spell save DC to avoid this)."
+				"{@i умение Коллегии метрономов 3-го уровня}",
+				"Когда начинается бой и вы не {@quickref Surprise|PHB|3|0|surprised}, вы можете потратить одно использование вдохновения барда, чтобы добавить или вычесть ваш модификатор Харизмы из броска инициативы одного существа (нежелающие существа могут совершить спасбросок Мудрости против Сл спасброска от заклинаний, чтобы этого избежать)."
 			]
 		},
 		{
-			"name": "Da Capo al Fine",
+			"name": "Да капо аль фине",
 			"source": "CollegeOfMetronomes",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Metronomes",
+			"subclassShortName": "Метрономы",
 			"subclassSource": "CollegeOfMetronomes",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level College of Metronomes feature}",
-				"Your music inspires perfectionist zeal, turning failure into success through sheer rote repetition. Each creature under the effect of your Countercharm can use its reaction to expend a Hit Die and reroll one ability check, saving throw, or attack roll. The creature makes this decision after seeing whether its roll succeeds or fails.",
-				"Additionally, as part of using your Countercharm feature, you can expend a spell slot or a use of your Bardic Inspiration to change its duration to 1 minute."
+				"{@i умение Коллегии метрономов 6-го уровня}",
+				"Ваша музыка внушает перфекционистское рвение, превращая неудачу в успех одним лишь механическим повторением. Каждое существо под действием вашего «Контрочарования» может использовать свою реакцию, потратив кость хитов, чтобы перебросить одну проверку характеристики, спасбросок или бросок атаки. Существо принимает это решение, увидев, успешен ли его бросок.",
+				"Кроме того, используя умение «Контрочарование», вы можете потратить ячейку заклинания или одно использование вдохновения барда, чтобы изменить его длительность на 1 минуту."
 			]
 		},
 		{
-			"name": "Largo/Presto",
+			"name": "Ларго/Престо",
 			"source": "CollegeOfMetronomes",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Metronomes",
+			"subclassShortName": "Метрономы",
 			"subclassSource": "CollegeOfMetronomes",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level College of Metronomes feature}",
-				"When you use your Countercharm feature, or as an action on subsequent turns while it is active, you can also cause it to perform one of the following effects, which lasts until the end of your next turn:",
+				"{@i умение Коллегии метрономов 14-го уровня}",
+				"Когда вы используете умение «Контрочарование» или действием в последующие ходы, пока оно активно, вы также можете заставить его произвести один из следующих эффектов, действующий до конца вашего следующего хода:",
 				{
 					"type": "list",
 					"items": [
-						"You and each friendly creature within its range gain the effects of the {@spell haste} spell (recipients do not experience lethargy once the effects end).",
-						"Each hostile creature within its range must succeed on a Wisdom saving throw against your spell save DC or be inflicted with the effects of the {@spell slow} spell."
+						"Вы и каждое дружественное существо в его области действия получаете эффекты заклинания {@spell haste} (получатели не испытывают вялости после окончания эффектов).",
+						"Каждое враждебное существо в его области действия должно преуспеть в спасброске Мудрости против Сл спасброска от заклинаний, иначе на него действуют эффекты заклинания {@spell slow}."
 					]
 				},
-				"You can use this feature a number of times equal to half your bard level, and you regain all expended uses when you finish a long rest."
+				"Вы можете использовать это умение число раз, равное половине вашего уровня барда, и восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		}
 	]

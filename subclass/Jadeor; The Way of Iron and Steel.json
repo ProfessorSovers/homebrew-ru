@@ -24,8 +24,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Way of Iron and Steel",
-			"shortName": "Magnet Monk",
+			"name": "Путь железа и стали",
+			"shortName": "Монах-магнит",
 			"source": "MagnetMonk",
 			"className": "Monk",
 			"classSource": "PHB",
@@ -42,182 +42,182 @@
 				}
 			],
 			"subclassFeatures": [
-				"Magnetic Affinity|Monk||Magnet Monk|MagnetMonk|3",
-				"Steelpush|Monk||Magnet Monk|MagnetMonk|3",
-				"Ironpull|Monk||Magnet Monk|MagnetMonk|6",
-				"Metallic Mastery|Monk||Magnet Monk|MagnetMonk|11",
-				"Magnetic Rebound|Monk||Magnet Monk|MagnetMonk|17"
+				"Магнитное сродство|Monk||Монах-магнит|MagnetMonk|3",
+				"Стальной толчок|Monk||Монах-магнит|MagnetMonk|3",
+				"Железное притяжение|Monk||Монах-магнит|MagnetMonk|6",
+				"Мастерство металла|Monk||Монах-магнит|MagnetMonk|11",
+				"Магнитный отскок|Monk||Монах-магнит|MagnetMonk|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Magnetic Affinity",
+			"name": "Магнитное сродство",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"At 3rd level, your magnetic abilities let you lift and move metallic objects. You know the {@spell mage hand} cantrip, the mage hand is invisible and you can only use it to lift metal objects or objects with metal in them."
+				"На 3-м уровне ваши магнитные способности позволяют вам поднимать и перемещать металлические предметы. Вы знаете заговор {@spell mage hand}; волшебная рука невидима, и вы можете использовать её только для подъёма металлических предметов или предметов, содержащих металл."
 			]
 		},
 		{
-			"name": "Steelpush",
+			"name": "Стальной толчок",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 3,
 			"header": 2,
 			"consumes": {
-				"name": "Ki",
+				"name": "Ки",
 				"amount": 1
 			},
 			"entries": [
-				"Also at 3rd level, you unlock magnetic abilities. As an action you may choose a metallic object within 10 feet of you that you can see and isn't being worn or carried by another creature, and push on it telekinetically. If the object weighs more than 1,5 times your weight, you are pushed up to 30 feet away from it. If it weighs less than half your weight it is pushed up to 30 feet away from you. If its weight is similar to your own, you are both pushed up to 15 feet from each other. You may do this as a bonus action by spending 1 ki point.",
-				"Furthermore, using this same ability, you can do the following:",
+				"Также на 3-м уровне вы открываете магнитные способности. Действием вы можете выбрать металлический предмет в пределах 10 футов от вас, который видите и который не носит и не несёт другое существо, и телекинетически толкнуть его. Если предмет весит больше, чем в 1,5 раза больше вас, вас отталкивает от него на расстояние до 30 футов. Если он весит меньше половины вашего веса, его отталкивает от вас на расстояние до 30 футов. Если его вес близок к вашему, вас обоих отталкивает друг от друга на расстояние до 15 футов. Вы можете сделать это бонусным действием, потратив 1 очко ки.",
+				"Кроме того, используя эту же способность, вы можете делать следующее:",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Steel Jump|Monk||Magnet Monk|MagnetMonk|3"
+					"subclassFeature": "Стальной прыжок|Monk||Монах-магнит|MagnetMonk|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Steel Strike|Monk||Magnet Monk|MagnetMonk|3"
+					"subclassFeature": "Стальной удар|Monk||Монах-магнит|MagnetMonk|3"
 				}
 			]
 		},
 		{
-			"name": "Steel Jump",
+			"name": "Стальной прыжок",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 3,
 			"header": 3,
 			"consumes": {
-				"name": "Ki",
+				"name": "Ки",
 				"amount": 1
 			},
 			"entries": [
-				"If the object is on the ground directly below you, you may use it to push up into the air as an action. You can levitate up to 30 feet in the air. You can remain hovering as a bonus action on each of your subsequent turns and choose to levitate up or down up to a maximum of 30 feet as part of this bonus action. If the object is moved, you fall back down to the ground. You can also use this action to increase your jump distance by 15 feet by running over the object as you jump. You may do this as a bonus action by spending 1 ki point."
+				"Если предмет лежит на земле прямо под вами, вы можете использовать его, чтобы действием оттолкнуться в воздух. Вы можете левитировать на высоту до 30 футов. Вы можете оставаться в воздухе бонусным действием в каждый из последующих ходов и в рамках этого бонусного действия левитировать вверх или вниз на расстояние до 30 футов. Если предмет переместить, вы падаете обратно на землю. Вы также можете использовать это действие, чтобы увеличить дальность прыжка на 15 футов, пробежав по предмету во время прыжка. Вы можете сделать это бонусным действием, потратив 1 очко ки."
 			]
 		},
 		{
-			"name": "Steel Strike",
+			"name": "Стальной удар",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 3,
 			"header": 4,
 			"entries": [
-				"If you are holding the metal object and it weighs 5 ounces or less, you may fire it as a projectile. The object counts as a ranged monk weapon that you are proficient with and a range of 45/60 feet, it deals piercing damage equal to your monk die and you use your Dexterity modifier for attack and damage rolls with it. Whenever you would make an unarmed strike during your turn, you may make a steel strike instead (including with Flurry of Blows)."
+				"Если вы держите металлический предмет и он весит 5 унций или меньше, вы можете выстрелить им как снарядом. Предмет считается дальнобойным оружием монаха, которым вы владеете, с дальностью 45/60 футов; он наносит колющий урон, равный вашей кости монаха, и вы используете свой модификатор Ловкости для бросков атаки и урона им. Каждый раз, когда вы могли бы совершить безоружный удар в свой ход, вы можете вместо этого совершить стальной удар (включая «Шквал ударов»)."
 			]
 		},
 		{
-			"name": "Disarming Pull",
+			"name": "Обезоруживающее притяжение",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Ki",
+				"name": "Ки",
 				"amount": 2
 			},
 			"entries": [
-				"As an action, you can use this ability to try and disarm a foe. If a creature you can see within 45 feet of you is holding a metallic object that weighs less than half your weight, you may attempt to disarm them. The creature makes a Strength (athletics) check against your Ki save DC, if they fail they lose their grip on their weapon and you may pull it up to 45 feet towards you, and catch it if you have a free hand. You may do this as a bonus action by spending 2 ki points."
+				"Действием вы можете использовать эту способность, чтобы попытаться обезоружить врага. Если существо, которое вы видите в пределах 45 футов от вас, держит металлический предмет, весящий меньше половины вашего веса, вы можете попытаться обезоружить его. Существо совершает проверку Силы (Атлетика) против Сл спасброска от вашего ки; при провале оно выпускает из рук своё оружие, и вы можете притянуть его к себе на расстояние до 45 футов и поймать, если у вас свободна рука. Вы можете сделать это бонусным действием, потратив 2 очка ки."
 			]
 		},
 		{
-			"name": "Ironpull",
+			"name": "Железное притяжение",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Ki",
+				"name": "Ки",
 				"amount": 1
 			},
 			"entries": [
-				"Starting at 6th level, you can use your magnetic abilities to pull things towards you. As an action, you may choose a metallic object within 30 feet of you that you can see and isn't being worn by a creature, and pull it towards you telekinetically.",
-				"If it weighs more than 1,5 times your weight, you are pulled up to 30 feet towards it. If it weighs less than half your weight, it is pulled up to 30 feet towards you. If its weight is similar to your own, you are both pulled up to 15 feet towards each other. You may use this to lift yourself into the air if the object is higher than you. You may do this as a bonus action by spending 1 ki point.",
-				"Furthermore, using this ability you can do the following:",
+				"Начиная с 6-го уровня вы можете использовать свои магнитные способности, чтобы притягивать предметы к себе. Действием вы можете выбрать металлический предмет в пределах 30 футов от вас, который видите и который не носит существо, и телекинетически притянуть его к себе.",
+				"Если он весит больше, чем в 1,5 раза больше вас, вас притягивает к нему на расстояние до 30 футов. Если он весит меньше половины вашего веса, его притягивает к вам на расстояние до 30 футов. Если его вес близок к вашему, вас обоих притягивает друг к другу на расстояние до 15 футов. Вы можете использовать это, чтобы поднять себя в воздух, если предмет выше вас. Вы можете сделать это бонусным действием, потратив 1 очко ки.",
+				"Кроме того, используя эту способность, вы можете делать следующее:",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Disarming Pull|Monk||Magnet Monk|MagnetMonk|6"
+					"subclassFeature": "Обезоруживающее притяжение|Monk||Монах-магнит|MagnetMonk|6"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Returning Strike|Monk||Magnet Monk|MagnetMonk|6"
+					"subclassFeature": "Возвратный удар|Monk||Монах-магнит|MagnetMonk|6"
 				}
 			]
 		},
 		{
-			"name": "Returning Strike",
+			"name": "Возвратный удар",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Ki",
+				"name": "Ки",
 				"amount": 1
 			},
 			"entries": [
-				"Whenever you use your Steel Strike feature to attack, you may spend 1 ki point to return the object you fired to your hand (no action required). If the attack hit, the creature takes additional damage equal to two times your monk die. You may not use this feature more than once each turn."
+				"Каждый раз, когда вы используете умение «Стальной удар» для атаки, вы можете потратить 1 очко ки, чтобы вернуть выпущенный предмет в руку (действие не требуется). Если атака попала, существо получает дополнительный урон, равный двум вашим костям монаха. Вы не можете использовать это умение чаще одного раза за ход."
 			]
 		},
 		{
-			"name": "Metallic Mastery",
+			"name": "Мастерство металла",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 11,
 			"header": 2,
 			"consumes": {
-				"name": "Ki",
+				"name": "Ки",
 				"amount": 2
 			},
 			"entries": [
-				"At 11th level, your magnetic abilities are truly formidable. As an action you may cast the {@spell telekinesis} spell without using a spell slot or material components, but may only use it to lift metallic objects or creatures wearing or containing metal when you do so. When you cast this spell this way, you do not need to concentrate on it. Once you have done this, you may not use this feature again until you've finished a long rest unless you spend 2 ki points to do so."
+				"На 11-м уровне ваши магнитные способности поистине грозны. Действием вы можете наложить заклинание {@spell telekinesis}, не используя ячейку заклинаний или материальные компоненты, но можете использовать его только для подъёма металлических предметов или существ, носящих или содержащих металл. Накладывая это заклинание таким образом, вам не нужно концентрироваться на нём. Сделав это, вы не можете использовать это умение снова, пока не завершите продолжительный отдых, если только не потратите 2 очка ки."
 			]
 		},
 		{
-			"name": "Magnetic Rebound",
+			"name": "Магнитный отскок",
 			"source": "MagnetMonk",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Magnet Monk",
+			"subclassShortName": "Монах-магнит",
 			"subclassSource": "MagnetMonk",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level, you can return all your projectiles to you. You are no longer restricted to using your returning strike once each turn. Additionally, the first time you would use this feature during your turn, you may do so without spending any ki points."
+				"На 17-м уровне вы можете вернуть к себе все свои снаряды. Вы больше не ограничены использованием «Возвратного удара» один раз за ход. Кроме того, в первый раз, когда вы используете это умение в свой ход, вы можете сделать это, не потратив очки ки."
 			]
 		}
 	]

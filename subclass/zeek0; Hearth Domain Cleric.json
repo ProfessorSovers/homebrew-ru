@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Hearth Domain",
-			"shortName": "Hearth",
+			"name": "Домен очага",
+			"shortName": "Очаг",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -41,73 +41,73 @@
 				"Produce Flame"
 			],
 			"subclassFeatures": [
-				"Hearth Domain|Cleric||Hearth|zeek0HearthCleric|1",
-				"Domain Spells|Cleric||Hearth|zeek0HearthCleric|1",
-				"Bonus Cantrip|Cleric||Hearth|zeek0HearthCleric|1",
-				"Ephemeral Ward|Cleric||Hearth|zeek0HearthCleric|1",
-				"Channel Divinity: Hearthflame|Cleric||Hearth|zeek0HearthCleric|2",
-				"Channel Divinity: Divine Shield|Cleric||Hearth|zeek0HearthCleric|6",
-				"Potent Spellcasting|Cleric||Hearth|zeek0HearthCleric|8",
-				"Blessed Strikes|Cleric||Hearth|zeek0HearthCleric|8",
-				"Hearthfire|Cleric||Hearth|zeek0HearthCleric|17"
+				"Домен очага|Cleric||Очаг|zeek0HearthCleric|1",
+				"Заклинания домена|Cleric||Очаг|zeek0HearthCleric|1",
+				"Дополнительный заговор|Cleric||Очаг|zeek0HearthCleric|1",
+				"Мимолётный оберег|Cleric||Очаг|zeek0HearthCleric|1",
+				"Божественный канал: Очаговое пламя|Cleric||Очаг|zeek0HearthCleric|2",
+				"Божественный канал: Божественный щит|Cleric||Очаг|zeek0HearthCleric|6",
+				"Могущественное колдовство|Cleric||Очаг|zeek0HearthCleric|8",
+				"Благословлённые удары|Cleric||Очаг|zeek0HearthCleric|8",
+				"Очаговый огонь|Cleric||Очаг|zeek0HearthCleric|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Hearth Domain",
+			"name": "Домен очага",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 1,
 			"entries": [
-				"In a home the hearth is the center of the household, holding the fire which is used for heat, food, and light. It is symbolic of the power to hold the wilds and darkness at bay and the family within. The gods of hearth are concerned with protection of family and the sanctity of home. These gods such as Hestia, Bes, Mishakal, Boldrei, Yondalla, and Hathor are seldom well-known in their pantheons. But while there are few stories about them, they hold a small shrine in most every household. Clerics are rarely called to conflict by gods of hearth, but when they are there is usually something greater at stake than soldiers, heroes, and kings.",
+				"В доме очаг — средоточие хозяйства, хранящий огонь, что даёт тепло, пищу и свет. Он символизирует силу, способную сдерживать дикие земли и тьму и хранить семью внутри. Боги очага заботятся о защите семьи и святости дома. Такие боги, как Гестия, Бес, Мишакаль, Болдрей, Йондалла и Хатхор, редко бывают широко известны в своих пантеонах. Но хотя о них мало сказаний, в большинстве домов им отведено небольшое святилище. Жрецов редко призывают к конфликту боги очага, но когда это случается, на кону обычно стоит нечто большее, чем солдаты, герои и цари.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Domain Spells|Cleric||Hearth|zeek0HearthCleric|1"
+					"subclassFeature": "Заклинания домена|Cleric||Очаг|zeek0HearthCleric|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrip|Cleric||Hearth|zeek0HearthCleric|1"
+					"subclassFeature": "Дополнительный заговор|Cleric||Очаг|zeek0HearthCleric|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ephemeral Ward|Cleric||Hearth|zeek0HearthCleric|1"
+					"subclassFeature": "Мимолётный оберег|Cleric||Очаг|zeek0HearthCleric|1"
 				}
 			]
 		},
 		{
-			"name": "Bonus Cantrip",
+			"name": "Дополнительный заговор",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this domain at 1st level, you gain the {@spell produce flame} cantrip if you don't already know it."
+				"Выбрав этот домен на 1-м уровне, вы получаете заговор {@spell produce flame}, если ещё не знаете его."
 			]
 		},
 		{
-			"name": "Domain Spells",
+			"name": "Заклинания домена",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"You gain domain spells at the cleric levels listed in the Hearth Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				"Вы получаете заклинания домена на указанных в таблице заклинаний домена очага уровнях жреца. О том, как работают заклинания домена, см. умение класса «Божественный домен».",
 				{
 					"type": "table",
-					"caption": "Hearth Domain Spells",
+					"caption": "Заклинания домена очага",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"Уровень жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -115,23 +115,23 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell protection from evil and good}, {@spell sanctuary}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell aid}, {@spell continual flame}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell glyph of warding}, {@spell leomund's tiny hut}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell fire shield}, {@spell wall of fire}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell dispel evil and good}, {@spell hallow}"
 						]
 					]
@@ -139,120 +139,120 @@
 			]
 		},
 		{
-			"name": "Ephemeral Ward",
+			"name": "Мимолётный оберег",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, boons you give to allies momentarily provide additional protection. When you cast a spell that affects one or more creatures, you can choose one creature affected by the spell. That creature gains resistance to one damage type of your choice until the beginning of your next turn."
+				"На 1-м уровне даруемые вами союзникам блага на миг дают дополнительную защиту. Когда вы сотворяете заклинание, влияющее на одно или несколько существ, вы можете выбрать одно затронутое заклинанием существо. Это существо получает сопротивление одному типу урона на ваш выбор до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Channel Divinity: Hearthflame",
+			"name": "Божественный канал: Очаговое пламя",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"At 2nd level you can use your Channel Divinity to summon a shred of hearthfire to protect you and allies.",
-				"As an action, you present your holy symbol and conjure a warm hearthflame to follow you. While the hearthflame is active it sheds bright light in a 30 foot radius and dim light for an additional 30 feet. You can freely move the hearthflame to any spot within 10 feet of you. The hearthflame endures for 1 hour, or until you use this feature again.",
-				"When a creature you can see within the light of the hearthflame fails a saving throw, you can use a reaction to intervene with the hearthflame's power. You immediately make a Wisdom saving throw, and you can choose to replace the result of the failed saving throw with the result of that roll. After, the radius of the hearthflame's dim and bright light is reduced by 10 feet each (for a total of 20 feet). After you intervene three times, the hearthflame is extinguished."
+				"На 2-м уровне вы можете использовать свой Божественный канал, чтобы призвать частицу очагового огня, защищающую вас и союзников.",
+				"Действием вы предъявляете свой святой символ и создаёте тёплое очаговое пламя, следующее за вами. Пока пламя активно, оно испускает яркий свет в радиусе 30 футов и тусклый свет ещё на 30 футов. Вы можете свободно перемещать пламя в любую точку в пределах 10 футов от вас. Пламя существует 1 час или пока вы не используете это умение снова.",
+				"Когда существо, которое вы видите в пределах света очагового пламени, проваливает спасбросок, вы можете реакцией вмешаться силой пламени. Вы немедленно совершаете спасбросок Мудрости и можете заменить результат проваленного спасброска результатом этого броска. После этого радиус яркого и тусклого света пламени уменьшается на 10 футов каждый (в сумме на 20 футов). После трёх вмешательств пламя гаснет."
 			]
 		},
 		{
-			"name": "Channel Divinity: Divine Shield",
+			"name": "Божественный канал: Божественный щит",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can use your Channel Divinity to protect yourself and others from harm. As a bonus action, you present your holy symbol and conjure a faintly glowing shield of force within 10 feet. The shield is a 10-by-l 0-feet flat surface and appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. The shield lasts for a number of rounds equal to your Wisdom modifier (minimum of 1).",
-				"Nothing can physically pass through the shield, and it provides cover to nearby creatures. It is immune to all damage. The shield also extends into the Ethereal Plane, blocking ethereal travel through the shield."
+				"Начиная с 6-го уровня вы можете использовать свой Божественный канал, чтобы защитить себя и других от вреда. Бонусным действием вы предъявляете свой святой символ и создаёте слабо светящийся силовой щит в пределах 10 футов. Щит — плоская поверхность размером 10 на 10 футов; он появляется в любой ориентации по вашему выбору — как горизонтальный или вертикальный барьер либо под углом. Щит существует число раундов, равное вашему модификатору Мудрости (минимум 1).",
+				"Ничто не может физически пройти сквозь щит, и он даёт укрытие находящимся рядом существам. Он обладает иммунитетом ко всему урону. Щит также простирается в Эфирный план, блокируя эфирное перемещение через него."
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"name": "Благословлённые удары",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@italic 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
-				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@dice 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@italic 8-го уровня жреца {@variantrule optional class features|tce|опциональное умение}, заменяющее умение «Могущественное колдовство»}",
+				"В бою вы благословлены божественной мощью. Когда существо получает урон от одного из ваших заговоров или атак оружием, вы можете также нанести этому существу {@dice 1d8} урона излучением. Нанеся этот урон, вы не можете использовать это умение снова до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Могущественное колдовство",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+				"Начиная с 8-го уровня вы прибавляете свой модификатор Мудрости к урону, который наносите любым заговором жреца."
 			]
 		},
 		{
-			"name": "Hearthfire",
+			"name": "Очаговый огонь",
 			"source": "zeek0HearthCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Hearth",
+			"subclassShortName": "Очаг",
 			"subclassSource": "zeek0HearthCleric",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level you can call upon the power of your deity to transform a campfire or similarly sized fire within 30 feet into a hearthfire as an action. The hearthfire is magical fire that cannot be extinguished and does not deal damage to objects. The hearthfire endures for 10 hours. You cannot use this feature again until you complete a long rest.",
-				"A number of creatures equal to your Wisdom modifier of your choice that complete a long rest within 30 feet of the fire are blessed and gain one of the following benefits of their choice. The blessing lasts for 24 hours, or until they gain another blessing from this feature:",
+				"На 17-м уровне вы можете воззвать к силе своего божества, чтобы действием превратить костёр или огонь схожего размера в пределах 30 футов в очаговый огонь. Очаговый огонь — магический огонь, который нельзя потушить и который не наносит урона объектам. Очаговый огонь существует 10 часов. Вы не можете использовать это умение снова, пока не завершите продолжительный отдых.",
+				"Число существ на ваш выбор, равное вашему модификатору Мудрости, завершивших продолжительный отдых в пределах 30 футов от огня, получают благословение и одно из следующих преимуществ на свой выбор. Благословение длится 24 часа или пока существо не получит другое благословение от этого умения:",
 				{
 					"type": "entries",
-					"name": "Emboldened",
+					"name": "Ободрённый",
 					"entries": [
-						"For the duration you are immune to being frightened, and when you hit with a weapon attack for the first time on your turn you deal an additional {@dice 1d8} fire damage."
+						"Пока длится эффект, вы обладаете иммунитетом к состоянию испуга, и когда вы впервые за свой ход попадаете атакой оружием, вы наносите дополнительно {@dice 1d8} урона огнём."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Enlightened",
+					"name": "Просветлённый",
 					"entries": [
-						"For the duration you are immune to the charmed condition. In addition, you gain three hearthfire lights. Whenever you make an Intelligence, Wisdom, or Charisma ability check or saving throw you can spend one hearthfire light to roll an additional {@dice d20}. You can choose to spend the hearthfire light after you roll the die, but before the outcome is determined. You choose which of the {@dice d20}s is used for the ability check or saving throw."
+						"Пока длится эффект, вы обладаете иммунитетом к состоянию очарования. Кроме того, вы получаете три огонька очага. Всякий раз, когда вы совершаете проверку характеристики или спасбросок Интеллекта, Мудрости или Харизмы, вы можете потратить один огонёк очага, чтобы дополнительно бросить {@dice d20}. Вы можете потратить огонёк очага после броска кости, но до определения результата. Вы выбираете, какой из {@dice d20} используется для проверки характеристики или спасброска."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Restored",
+					"name": "Восстановленный",
 					"entries": [
-						"You are restored, and all debilitating effects are removed. Your exhaustion level is reduced by one, and you regain all spent Hit Dice. All status conditions, poisons, and diseases are removed from you. Any reduction to your ability scores or maximum hit points is removed. Any curses are lifted, including your attunement to a cursed magic item. This ends any effects that would be ended by {@spell greater restoration}."
+						"Вы восстановлены, и все ослабляющие эффекты удалены. Ваш уровень истощения снижается на один, и вы восстанавливаете все потраченные Кости Хитов. Все состояния, яды и болезни удаляются с вас. Любое снижение ваших характеристик или максимума хитов устраняется. Любые проклятия снимаются, включая вашу настройку на проклятый магический предмет. Это оканчивает все эффекты, которые окончило бы {@spell greater restoration}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Shrouded",
+					"name": "Укрытый",
 					"entries": [
-						"You are obscured from the minds of other creatures for the duration. While you are shrouded creatures unconsciously avert their gazes as you pass by and avoid contact with you. You are not {@condition invisible}, but until you attack a creature, cast a spell on them, deal damage to them, force them to make a saving throw, directly interact with them or call attention to yourself, they cannot perceive you. Creatures can perceive you normally through alternate means (such as {@spell arcane eye}), {@sense truesight}, or if they are immune to the {@condition charmed} condition. While creatures are unaware of you, you have advantage on attack rolls against them and they have disadvantage on attack rolls against you."
+						"Пока длится эффект, вы скрыты от разума других существ. Пока вы укрыты, существа неосознанно отводят взгляды, когда вы проходите мимо, и избегают контакта с вами. Вы не {@condition invisible}, но пока вы не атакуете существо, не сотворяете на него заклинание, не наносите ему урон, не вынуждаете его совершить спасбросок, не взаимодействуете с ним напрямую и не привлекаете к себе внимания, они не могут вас воспринимать. Существа могут воспринимать вас обычным образом с помощью иных средств (например, {@spell arcane eye}), {@sense truesight} или если они обладают иммунитетом к состоянию {@condition charmed}. Пока существа не осознают вас, вы получаете преимущество на броски атаки по ним, а они — помеху на броски атаки по вам."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Warded",
+					"name": "Защищённый",
 					"entries": [
-						"You gain a number of temporary hit points equal to half your level + your Wisdom modifier for the duration. When this ward is damaged by a creature, that creature takes an amount of fire damage equal to the damage they dealt to the ward. The ward is restored to full capacity after each of your short rests."
+						"Пока длится эффект, вы получаете количество временных хитов, равное половине вашего уровня + ваш модификатор Мудрости. Когда существо наносит урон этому оберегу, оно получает урон огнём, равный урону, нанесённому оберегу. Оберег восстанавливается до полного объёма после каждого вашего короткого отдыха."
 					]
 				}
 			]

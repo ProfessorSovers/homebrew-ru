@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of the Butterfly",
-			"shortName": "Butterfly",
+			"name": "Круг бабочки",
+			"shortName": "Бабочка",
 			"source": "CircleOfTheButterfly",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -40,51 +40,51 @@
 				"Druidcraft"
 			],
 			"subclassFeatures": [
-				"Circle of the Butterfly|Druid||Butterfly|CircleOfTheButterfly|2",
-				"Lorenz Attractor|Druid||Butterfly|CircleOfTheButterfly|6",
-				"Exponential Divergence|Druid||Butterfly|CircleOfTheButterfly|10",
-				"Feedback Storm|Druid||Butterfly|CircleOfTheButterfly|14"
+				"Круг бабочки|Druid||Бабочка|CircleOfTheButterfly|2",
+				"Аттрактор Лоренца|Druid||Бабочка|CircleOfTheButterfly|6",
+				"Экспоненциальное расхождение|Druid||Бабочка|CircleOfTheButterfly|10",
+				"Шторм обратной связи|Druid||Бабочка|CircleOfTheButterfly|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of the Butterfly",
+			"name": "Круг бабочки",
 			"source": "CircleOfTheButterfly",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Butterfly",
+			"subclassShortName": "Бабочка",
 			"subclassSource": "CircleOfTheButterfly",
 			"level": 2,
 			"entries": [
-				"Druids of the Circle of the Butterfly are highly aware of the chaos inherent to nature: the smallest change to it can have massive, unpredictable consequences. They are capable of amplifying these properties to spectacular effect, altering the weather itself in a myriad of ways.",
+				"Друиды Круга бабочки прекрасно осознают хаос, присущий природе: малейшее изменение в ней может привести к огромным, непредсказуемым последствиям. Они способны усиливать эти свойства с потрясающим эффектом, изменяя саму погоду множеством способов.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wings of Disruption|Druid|PHB|Butterfly|CircleOfTheButterfly|2"
+					"subclassFeature": "Крылья возмущения|Druid|PHB|Бабочка|CircleOfTheButterfly|2"
 				}
 			]
 		},
 		{
-			"name": "Wings of Disruption",
+			"name": "Крылья возмущения",
 			"source": "CircleOfTheButterfly",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Butterfly",
+			"subclassShortName": "Бабочка",
 			"subclassSource": "CircleOfTheButterfly",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of the Butterfly feature}",
-				"You learn {@spell druidcraft} (or another druid cantrip of your choice if you already know the spell), and you can cast it without any somatic or verbal components.",
-				"When you cast {@spell druidcraft}, you can choose a point within 30 feet of you and cause the area in a 5-foot cube originating from that point to subtly change. Roll on the Weather Anomaly table to determine the effect produced. The effects of your Anomaly last for 1 minute, or until you use this feature again.",
-				"As a bonus action, you can move your Anomaly up to 30 feet, and increase its size by 5 feet, up to a 20-foot cube in size. The maximum size of your Anomaly increases when you reach certain levels in this class, increasing to a 30-foot cube at 5th level, a 40-foot cube at 11th level, and a 50-foot cube at 17th level.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest, unless you expend a spell slot to use it again. When you expend a spell slot of 2nd level or higher to use this feature, you can increase the size of the cube by 5 feet for each slot level above 1st.",
+				"{@i умение Круга бабочки 2-го уровня}",
+				"Вы изучаете {@spell druidcraft} (или другой заговор друида на ваш выбор, если уже знаете это заклинание) и можете сотворять его без соматических и словесных компонентов.",
+				"Когда вы сотворяете {@spell druidcraft}, вы можете выбрать точку в пределах 30 футов от себя и заставить область в кубе с ребром 5 футов, исходящем из этой точки, едва заметно измениться. Бросьте по таблице «Погодная аномалия», чтобы определить возникший эффект. Эффекты вашей Аномалии длятся 1 минуту или пока вы не используете это умение снова.",
+				"Бонусным действием вы можете переместить свою Аномалию на расстояние до 30 футов и увеличить её размер на 5 футов, вплоть до куба с ребром 20 футов. Максимальный размер вашей Аномалии увеличивается при достижении определённых уровней в этом классе: до куба с ребром 30 футов на 5-м уровне, 40 футов на 11-м уровне и 50 футов на 17-м уровне.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите короткий или продолжительный отдых, если только не потратите ячейку заклинаний, чтобы применить его вновь. Когда вы тратите ячейку заклинаний 2-го уровня или выше, чтобы использовать это умение, вы можете увеличить размер куба на 5 футов за каждый уровень ячейки выше 1-го.",
 				{
 					"type": "table",
-					"caption": "Weather Anomaly",
+					"caption": "Погодная аномалия",
 					"colLabels": [
 						"{@dice d4}",
-						"Effect"
+						"Эффект"
 					],
 					"colStyles": [
 						"col-1.5 text-center",
@@ -93,56 +93,56 @@
 					"rows": [
 						[
 							"1",
-							"Blistering heat assaults the area. Each creature that enters the cube for the first time on a turn or starts its turn there takes {@dice 1d4} fire damage. The damage increases to {@dice 1d6} when you reach 10th level in this class."
+							"Испепеляющий жар атакует область. Каждое существо, впервые за ход входящее в куб или начинающее там свой ход, получает {@dice 1d4} урона огнём. Урон увеличивается до {@dice 1d6}, когда вы достигаете 10-го уровня в этом классе."
 						],
 						[
 							"2",
-							"Terrible cold permeates the area. Each creature that enters the cube for the first time on a turn or starts its turn there takes {@dice 1d4} cold damage. The damage increases to {@dice 1d6} when you reach 10th level in this class."
+							"Ужасный холод пропитывает область. Каждое существо, впервые за ход входящее в куб или начинающее там свой ход, получает {@dice 1d4} урона холодом. Урон увеличивается до {@dice 1d6}, когда вы достигаете 10-го уровня в этом классе."
 						],
 						[
 							"3",
-							"A {@hazard strong wind} blows through the area, and you can turn the cube into {@quickref difficult terrain||3}."
+							"Через область проносится {@hazard strong wind}, и вы можете превратить куб в {@quickref труднопроходимая местность||3}."
 						],
 						[
 							"4",
-							"{@hazard heavy precipitation||Heavy rain} or {@hazard heavy precipitation||heavy snowfall} (your choice) blankets the area, and you can cause the cube to be {@quickref Vision and Light|PHB|2||heavily obscured}."
+							"{@hazard heavy precipitation||Сильный дождь} или {@hazard heavy precipitation||Сильный снегопад} (на ваш выбор) накрывает область, и вы можете сделать куб {@quickref Vision and Light|PHB|2||heavily obscured}."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Lorenz Attractor",
+			"name": "Аттрактор Лоренца",
 			"source": "CircleOfTheButterfly",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Butterfly",
+			"subclassShortName": "Бабочка",
 			"subclassSource": "CircleOfTheButterfly",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of the Butterfly feature}",
-				"As an action, you can expend a use of your Wild Shape feature to touch a willing creature and bring its surrounding air currents into an unstable equilibrium for 10 minutes. While in this state, the target has a flying speed of 20 feet, and is unaffected by the effects of your Anomaly, which harmlessly circulate around it."
+				"{@i умение Круга бабочки 6-го уровня}",
+				"Действием вы можете потратить использование своего умения «Дикий облик», чтобы прикоснуться к согласному существу и привести окружающие его воздушные потоки в неустойчивое равновесие на 10 минут. Пока цель находится в этом состоянии, она имеет скорость полёта 20 футов и не подвержена эффектам вашей Аномалии, которые безвредно циркулируют вокруг неё."
 			]
 		},
 		{
-			"name": "Exponential Divergence",
+			"name": "Экспоненциальное расхождение",
 			"source": "CircleOfTheButterfly",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Butterfly",
+			"subclassShortName": "Бабочка",
 			"subclassSource": "CircleOfTheButterfly",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of the Butterfly feature}",
-				"The small changes that you introduce into the environment have a broader range of potential consequences. When you create your Anomaly, you can cause it to produce an additional effect, which you determine by rolling on the Anomalous Surge table.",
+				"{@i умение Круга бабочки 10-го уровня}",
+				"Малые изменения, которые вы вносите в окружающую среду, имеют более широкий спектр потенциальных последствий. Создавая свою Аномалию, вы можете заставить её произвести дополнительный эффект, который определяете броском по таблице «Аномальный всплеск».",
 				{
 					"type": "table",
-					"caption": "Anomalous Surge",
+					"caption": "Аномальный всплеск",
 					"colLabels": [
 						"{@dice d4}",
-						"Effect"
+						"Эффект"
 					],
 					"colStyles": [
 						"col-1.5 text-center",
@@ -151,37 +151,37 @@
 					"rows": [
 						[
 							"1",
-							"Thunder sweeps the area. Immediately after moving your Anomaly, you can force each creature inside the cube to succeed on a Strength saving throw against your spell save DC or take {@dice 1d6} thunder damage and be pushed up to 10 feet away from the center of the cube (you choose how far)."
+							"Гром проносится по области. Сразу после перемещения вашей Аномалии вы можете заставить каждое существо внутри куба преуспеть в спасброске Силы против Сл спасброска от ваших заклинаний, иначе оно получает {@dice 1d6} урона звуком и отбрасывается на расстояние до 10 футов от центра куба (расстояние выбираете вы)."
 						],
 						[
 							"2",
-							"Lightning strikes the area. Immediately after moving your Anomaly, you can make a ranged spell attack that targets one creature inside the cube. On a hit, the attack deals lightning damage equal to {@dice 1d10} + your Wisdom modifier."
+							"Молния ударяет в область. Сразу после перемещения вашей Аномалии вы можете совершить дальнобойную атаку заклинанием по одному существу внутри куба. При попадании атака наносит урон электричеством, равный {@dice 1d10} + ваш модификатор Мудрости."
 						],
 						[
 							"3",
-							"Hail buffets the area. Each creature that enters the cube for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw against your spell save DC or take {@dice 1d6} bludgeoning damage and fall {@condition prone}."
+							"Град хлещет по области. Каждое существо, впервые за ход входящее в куб или начинающее там свой ход, должно преуспеть в спасброске Ловкости против Сл спасброска от ваших заклинаний, иначе получает {@dice 1d6} дробящего урона и падает {@condition prone}."
 						],
 						[
 							"4",
-							"Bright light envelops the area. This light is sunlight. Each creature that enters the cube for the first time on a turn or starts its turn there must make a Constitution saving throw against your spell save DC, taking {@dice 2d6} radiant damage on a failed save, or half as much damage on a successful one."
+							"Яркий свет окутывает область. Этот свет — солнечный. Каждое существо, впервые за ход входящее в куб или начинающее там свой ход, должно совершить спасбросок Телосложения против Сл спасброска от ваших заклинаний, получая {@dice 2d6} урона излучением при провале или половину при успехе."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Feedback Storm",
+			"name": "Шторм обратной связи",
 			"source": "CircleOfTheButterfly",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Butterfly",
+			"subclassShortName": "Бабочка",
 			"subclassSource": "CircleOfTheButterfly",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of the Butterfly feature}",
-				"When you move your Anomaly, you can trigger a cascade of transformations to its current state, which lets you roll on the Weather Anomaly and Anomalous Surge tables, and produce the effects rolled. These effects replace the current effects of your Anomaly.",
-				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+				"{@i умение Круга бабочки 14-го уровня}",
+				"Когда вы перемещаете свою Аномалию, вы можете запустить каскад превращений её текущего состояния, что позволяет вам бросить по таблицам «Погодная аномалия» и «Аномальный всплеск» и вызвать выпавшие эффекты. Эти эффекты заменяют текущие эффекты вашей Аномалии.",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		}
 	]

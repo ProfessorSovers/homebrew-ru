@@ -20,8 +20,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Blood Magic",
-			"shortName": "Blood Magic",
+			"name": "Магия крови",
+			"shortName": "Магия крови",
 			"source": "FFBloodSorc",
 			"className": "Sorcerer",
 			"classSource": "PHB",
@@ -39,53 +39,53 @@
 				"haemorrhage|AdvancedArcaneries"
 			],
 			"subclassFeatures": [
-				"Blood Magic|Sorcerer||Blood Magic|FFBloodSorc|1",
-				"Murderous Magic|Sorcerer||Blood Magic|FFBloodSorc|6",
-				"Stalwart Soul|Sorcerer||Blood Magic|FFBloodSorc|14",
-				"Theft of Life|Sorcerer||Blood Magic|FFBloodSorc|18"
+				"Магия крови|Sorcerer||Магия крови|FFBloodSorc|1",
+				"Убийственная магия|Sorcerer||Магия крови|FFBloodSorc|6",
+				"Стойкая душа|Sorcerer||Магия крови|FFBloodSorc|14",
+				"Кража жизни|Sorcerer||Магия крови|FFBloodSorc|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Blood Magic",
+			"name": "Магия крови",
 			"source": "FFBloodSorc",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Magic",
+			"subclassShortName": "Магия крови",
 			"subclassSource": "FFBloodSorc",
 			"level": 1,
 			"entries": [
-				"Your innate magic comes from your very own blood, which is infused with arcane energy. You might be distantly related to a powerful mage, perhaps you were the result of some esoteric experimentation, or you simply discovered the resonance within you by accident.",
-				"Regardless of how you came to be you have realised your very own life essence can be a catalyst for casting, which has granted you an increased well of magic to draw from, but all power demands sacrifice...",
+				"Ваша врождённая магия происходит из вашей собственной крови, насыщенной тайной энергией. Возможно, вы отдалённо связаны с могущественным магом, возможно, вы стали результатом некоего эзотерического эксперимента, или просто случайно обнаружили резонанс внутри себя.",
+				"Как бы вы ни появились на свет, вы осознали, что сама ваша жизненная сила может служить катализатором для накладывания заклинаний, что дало вам увеличенный запас магии, из которого можно черпать, но всякая сила требует жертвы...",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blood Magic|Sorcerer||Blood Magic|FFBloodSorc|1"
+					"subclassFeature": "Магия крови|Sorcerer||Магия крови|FFBloodSorc|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sanguine Sorcery|Sorcerer||Blood Magic|FFBloodSorc|1"
+					"subclassFeature": "Кровавое чародейство|Sorcerer||Магия крови|FFBloodSorc|1"
 				}
 			]
 		},
 		{
-			"name": "Blood Magic",
+			"name": "Магия крови",
 			"source": "FFBloodSorc",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Magic",
+			"subclassShortName": "Магия крови",
 			"subclassSource": "FFBloodSorc",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"You learn additional spells when you reach certain levels in this class, as shown on the Blood Magic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
-				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an {@filter evocation or a necromancy spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=V;N|level=1;2;3;4;5}.",
+				"Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице заклинаний магии крови. Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается при подсчёте числа известных вам заклинаний чародея.",
+				"Всякий раз, получая уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter evocation or a necromancy spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=V;N|level=1;2;3;4;5}.",
 				{
 					"type": "table",
-					"caption": "Blood Magic Spells",
+					"caption": "Заклинания магии крови",
 					"colLabels": [
-						"Sorcerer Level",
-						"Spells"
+						"Уровень чародея",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -93,84 +93,84 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell false life|phb}, {@spell inflict wounds},{@spell spare the dying|phb}"
 						],
 						[
-							"3rd",
-							"{@spell life leech|AdvancedArcaneries|life leech¹}, {@spell ray of enfeeblement|phb}"
+							"3-й",
+							"{@spell life leech|AdvancedArcaneries|похищение жизни¹}, {@spell ray of enfeeblement|phb}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell life transference|xge}, {@spell vampiric touch|phb}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell compulsion|phb}, {@spell death ward|phb}"
 						],
 						[
-							"9th",
-							"{@spell enervation|xge}, {@spell haemorrhage|AdvancedArcaneries|haemorrhage¹}"
+							"9-й",
+							"{@spell enervation|xge}, {@spell haemorrhage|AdvancedArcaneries|кровоизлияние¹}"
 						]
 					]
 				},
-				"¹Available in Advanced Arcaneries Vol.1 found in the Homebrew section on the Spells page!"
+				"¹Доступно в «Продвинутой арканологии», том 1, — ищите в разделе хоумбрю на странице заклинаний!"
 			]
 		},
 		{
-			"name": "Sanguine Sorcery",
+			"name": "Кровавое чародейство",
 			"source": "FFBloodSorc",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Magic",
+			"subclassShortName": "Магия крови",
 			"subclassSource": "FFBloodSorc",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level you can use your own vitality to fuel your spells; you are able to cast a Sorcerer spell you know of 1st level or higher at its lowest level without expending a spell slot by reducing your current and maximum hit points by a number of {@dice d6} equal to the level of the spell.",
-				"The reduction to your hit point maximum lasts until you finish a long rest. You die if this reduces your hit point maximum to 0.",
-				"If you use this feature to cast a spell of 7th level or higher you must finish a long rest before you can do so again."
+				"Начиная с 1-го уровня вы можете использовать собственную жизненную силу как топливо для своих заклинаний: вы можете наложить известное вам заклинание чародея 1-го уровня или выше на его низшем уровне, не тратя ячейку заклинания, уменьшив свои текущие и максимальные хиты на число {@dice d6}, равное уровню заклинания.",
+				"Уменьшение максимума ваших хитов длится, пока вы не завершите продолжительный отдых. Вы умираете, если это снижает максимум ваших хитов до 0.",
+				"Если вы используете это умение, чтобы наложить заклинание 7-го уровня или выше, вы должны завершить продолжительный отдых, прежде чем сможете сделать это снова."
 			]
 		},
 		{
-			"name": "Murderous Magic",
+			"name": "Убийственная магия",
 			"source": "FFBloodSorc",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Magic",
+			"subclassShortName": "Магия крови",
 			"subclassSource": "FFBloodSorc",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, when you reduce a creature that isn't a construct or undead to 0 hit points with a spell of 1st level or higher, you can use your reaction to harvest their life energy and regain {@dice 1d4} expended sorcery points. You can use this feature a number of times equal to your proficiency bonus; and regain all expended uses when you finish a long rest."
+				"На 6-м уровне, когда вы снижаете хиты существа, не являющегося конструктом или нежитью, до 0 заклинанием 1-го уровня или выше, вы можете использовать свою реакцию, чтобы собрать его жизненную энергию и восстановить {@dice 1d4} потраченных очков чародейства. Вы можете использовать это умение число раз, равное вашему бонусу мастерства, и восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Stalwart Soul",
+			"name": "Стойкая душа",
 			"source": "FFBloodSorc",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Magic",
+			"subclassShortName": "Магия крови",
 			"subclassSource": "FFBloodSorc",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Beginning at 14th level, you cling to life harder the more it escapes your veins. While you are not wearing armour or wielding a shield, you gain a bonus to your AC equal to your Constitution modifier (minimum of 0) when you are below your hit point maximum."
+				"Начиная с 14-го уровня вы тем крепче цепляетесь за жизнь, чем больше её утекает из ваших вен. Пока вы не носите броню и не используете щит, вы получаете бонус к Классу Доспеха, равный вашему модификатору Телосложения (минимум 0), когда у вас меньше максимального количества хитов."
 			]
 		},
 		{
-			"name": "Theft of Life",
+			"name": "Кража жизни",
 			"source": "FFBloodSorc",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Blood Magic",
+			"subclassShortName": "Магия крови",
 			"subclassSource": "FFBloodSorc",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level you learn how to revitalise yourself with the blood of others. As an action you can choose one creature you can see within 30 feet of you, they must make a Constitution saving throw against your spell save DC. This feature has no effect on constructs or undead.",
-				"On a failed save an arterial wound opens on the target, their blood flying from their body and into yours in a burst of gore; the target is {@condition stunned} until the end of your next turn, and its current and maximum hit points are reduced by an amount equal to your Sorcerer level, or if they have fewer than that many current hit points, are reduced to 0 instead. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
-				"Your current and maximum hit points are then increased by an amount equal to the reduction to the target, which lasts until you finish a long rest. You can use this feature a number of times equal to your Constitution modifier (minimum of 1) and you regain all expended uses when you finish a long rest."
+				"На 18-м уровне вы учитесь восстанавливать себя кровью других. Действием вы можете выбрать одно существо, которое видите в пределах 30 футов от вас; оно должно совершить спасбросок Телосложения против Сл спасброска от заклинаний. Это умение не действует на конструктов и нежить.",
+				"При провале на цели вскрывается артериальная рана, и её кровь вырывается из тела и вливается в ваше в кровавом всплеске; цель становится {@condition stunned} до конца вашего следующего хода, а её текущие и максимальные хиты уменьшаются на величину, равную вашему уровню чародея, или, если у неё меньше текущих хитов, снижаются до 0. Это уменьшение длится, пока цель не завершит продолжительный отдых. Цель умирает, если этот эффект снижает максимум её хитов до 0.",
+				"Ваши текущие и максимальные хиты затем увеличиваются на величину уменьшения хитов цели, и это длится, пока вы не завершите продолжительный отдых. Вы можете использовать это умение число раз, равное вашему модификатору Телосложения (минимум 1), и восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		}
 	]

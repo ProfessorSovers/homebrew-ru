@@ -22,99 +22,99 @@
 	},
 	"subclass": [
 		{
-			"name": "Path of Polarity",
-			"shortName": "Polarity",
+			"name": "Путь полярности",
+			"shortName": "Полярность",
 			"source": "PathOfPolarity",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Path of Polarity|Barbarian||Polarity|PathOfPolarity|3",
-				"Polarised Fury|Barbarian||Polarity|PathOfPolarity|6",
-				"Unerring Lodestone|Barbarian||Polarity|PathOfPolarity|10",
-				"Storm of Steel|Barbarian||Polarity|PathOfPolarity|14"
+				"Путь полярности|Barbarian||Полярность|PathOfPolarity|3",
+				"Поляризованная ярость|Barbarian||Полярность|PathOfPolarity|6",
+				"Неотвратимый магнит|Barbarian||Полярность|PathOfPolarity|10",
+				"Стальная буря|Barbarian||Полярность|PathOfPolarity|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Path of Polarity",
+			"name": "Путь полярности",
 			"source": "PathOfPolarity",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Polarity",
+			"subclassShortName": "Полярность",
 			"subclassSource": "PathOfPolarity",
 			"level": 3,
 			"entries": [
-				"Barbarians that walk the Path of Polarity instinctively channel the invisible raging forces deep within the molten core of every habitable planet: a powerful phenomenon that is capable of both drawing objects together and pulling them apart, known only as 'magnetism'.",
+				"Варвары, идущие Путём полярности, инстинктивно направляют незримые яростные силы, таящиеся глубоко в расплавленном ядре каждой обитаемой планеты: могущественное явление, способное как притягивать предметы друг к другу, так и отталкивать их, — известное лишь как «магнетизм».",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Charged Blows|Barbarian||Polarity|PathOfPolarity|3"
+					"subclassFeature": "Заряженные удары|Barbarian||Полярность|PathOfPolarity|3"
 				}
 			]
 		},
 		{
-			"name": "Charged Blows",
+			"name": "Заряженные удары",
 			"source": "PathOfPolarity",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Polarity",
+			"subclassShortName": "Полярность",
 			"subclassSource": "PathOfPolarity",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Path of Polarity feature}",
-				"While you are raging, if you hit a creature that isn't already affected by this feature, you can Charge it with a magnetic resonance that lasts until the end of your rage. A creature can be Charged in one of two ways, causing the following effects on it:",
+				"{@i умение Пути полярности 3-го уровня}",
+				"Пока вы в ярости, если вы попадаете по существу, на которое ещё не действует это умение, вы можете зарядить его магнитным резонансом, действующим до конца вашей ярости. Существо можно зарядить одним из двух способов, вызывая следующие эффекты на нём:",
 				{
 					"type": "list",
 					"items": [
 						{
 							"type": "entries",
-							"name": "Attraction",
+							"name": "Притяжение",
 							"entries": [
-								"You can add a {@dice d4} to any attack rolls made against the target creature. Additionally, the creature loses hit ponts equal to your Strength modifier and is pulled up to 10 feet towards you when this Charge ends."
+								"Вы можете добавлять {@dice d4} к любым броскам атаки по выбранному существу. Кроме того, существо теряет хиты в количестве, равном вашему модификатору силы, и, когда этот заряд заканчивается, его притягивает к вам на расстояние до 10 футов."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Repulsion",
+							"name": "Отталкивание",
 							"entries": [
-								"The creature must subtract a {@dice d4} from all of its attack rolls. Additionally, the creature loses hit points equal to your Strength modifier and is pushed up to 10 feet away from you when this Charge ends."
+								"Существо должно вычитать {@dice d4} из всех своих бросков атаки. Кроме того, существо теряет хиты в количестве, равном вашему модификатору силы, и, когда этот заряд заканчивается, его отталкивает от вас на расстояние до 10 футов."
 							]
 						}
 					]
 				},
-				"As a bonus action, you can end any Charge you have inflicted on any number of creatures that you can see.",
-				"You can maintain this effect on a number of creatures up to your proficiency bonus and cannot Charge further creatures past this limit."
+				"Бонусным действием вы можете окончить любой заряд, наложенный вами на любое число видимых вами существ.",
+				"Вы можете поддерживать этот эффект на числе существ, не превышающем ваш бонус мастерства, и не можете заряжать существ сверх этого предела."
 			]
 		},
 		{
-			"name": "Polarised Fury",
+			"name": "Поляризованная ярость",
 			"source": "PathOfPolarity",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Polarity",
+			"subclassShortName": "Полярность",
 			"subclassSource": "PathOfPolarity",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Path of Polarity feature}",
-				"You cause a magnetic aura to emanate from yourself or an ally that you can see while you rage. The aura extends 15 feet outwards in every direction, increasing to 30 feet once you reach 10th level in this class.",
-				"When a Charged creature enters this aura for the first time on a turn or starts its turn there, it must succeed on a Strength saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):",
+				"{@i умение Пути полярности 6-го уровня}",
+				"Пока вы в ярости, вы заставляете магнитную ауру исходить от вас или от союзника, которого видите. Аура распространяется на 15 футов во все стороны, увеличиваясь до 30 футов, когда вы достигаете 10-го уровня в этом классе.",
+				"Когда заряженное существо впервые за ход входит в эту ауру или начинает там свой ход, оно должно преуспеть в спасброске силы (Сл равна 8 + ваш модификатор Телосложения + ваш бонус мастерства), иначе испытывает один из следующих эффектов (на ваш выбор):",
 				{
 					"type": "list",
 					"items": [
 						{
 							"type": "entries",
-							"name": "Attraction",
+							"name": "Притяжение",
 							"entries": [
-								"The target is pulled next to the creature the aura surrounds and becomes unable to leave the creature's reach until the start of its next turn."
+								"Цель притягивает вплотную к существу, вокруг которого создана аура, и она не может покинуть пределы его досягаемости до начала своего следующего хода."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Repulsion",
+							"name": "Отталкивание",
 							"entries": [
-								"The target is pushed away from the aura's center in a direction of your choice until it is no longer within the aura. It also becomes unable to enter the aura until the start of its next turn."
+								"Цель отталкивает от центра ауры в выбранном вами направлении, пока она не окажется вне ауры. Она также не может войти в ауру до начала своего следующего хода."
 							]
 						}
 					]
@@ -122,50 +122,50 @@
 			]
 		},
 		{
-			"name": "Unerring Lodestone",
+			"name": "Неотвратимый магнит",
 			"source": "PathOfPolarity",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Polarity",
+			"subclassShortName": "Полярность",
 			"subclassSource": "PathOfPolarity",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Path of Polarity feature}",
-				"Your connection to the push and pull of the world enhances your senses, granting you these benefits:",
+				"{@i умение Пути полярности 10-го уровня}",
+				"Ваша связь с притяжением и отталкиванием мира обостряет ваши чувства, даруя вам следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You always know which way is north.",
-						"You can sense the location and shape of all metal objects within 60 feet of you.",
-						"You can see all Charged creatures within 60 feet of you regardless of their visibility."
+						"Вы всегда знаете, где находится север.",
+						"Вы чувствуете местоположение и форму всех металлических предметов в пределах 60 футов от вас.",
+						"Вы видите всех заряженных существ в пределах 60 футов от вас независимо от их видимости."
 					]
 				},
-				"These benefits can also be granted to any creatures of your choice within your magnetic aura."
+				"Эти преимущества можно также даровать любым выбранным вами существам внутри вашей магнитной ауры."
 			]
 		},
 		{
-			"name": "Storm of Steel",
+			"name": "Стальная буря",
 			"source": "PathOfPolarity",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Polarity",
+			"subclassShortName": "Полярность",
 			"subclassSource": "PathOfPolarity",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Path of Polarity feature}",
-				"You become capable of charging your very surroundings with the fury of magnetism, causing any objects most attuned to this force to move with a similar zeal.",
-				"When you enter your rage, you can cause metallic objects within your magnetic aura to come to life and move on command, using the same rules and restrictions as the {@spell animate objects} spell, with the following differences:",
+				"{@i умение Пути полярности 14-го уровня}",
+				"Вы обретаете способность заряжать само своё окружение яростью магнетизма, заставляя предметы, наиболее созвучные этой силе, двигаться с похожим рвением.",
+				"Входя в ярость, вы можете заставить металлические предметы внутри вашей магнитной ауры ожить и двигаться по команде, используя те же правила и ограничения, что и заклинание {@spell animate objects}, со следующими различиями:",
 				{
 					"type": "list",
 					"items": [
-						"Objects act on the turn of the creature surrounded by your magnetic aura without using your bonus action.",
-						"Objects that leave your magnetic aura automatically become inanimate again.",
-						"Any damage inflicted by these objects is magical."
+						"Предметы действуют в ход существа, окружённого вашей магнитной аурой, не требуя вашего бонусного действия.",
+						"Предметы, покидающие вашу магнитную ауру, автоматически снова становятся неживыми.",
+						"Любой урон, наносимый этими предметами, является магическим."
 					]
 				},
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"Использовав это умение, вы не можете применить его снова, пока не завершите короткий или продолжительный отдых."
 			]
 		}
 	]

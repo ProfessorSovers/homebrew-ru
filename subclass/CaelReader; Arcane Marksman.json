@@ -29,8 +29,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Arcane Marksman",
-			"shortName": "Arcane Marksman",
+			"name": "Магический стрелок",
+			"shortName": "Магический стрелок",
 			"source": "ArcMar",
 			"className": "Fighter",
 			"classSource": "PHB",
@@ -46,94 +46,94 @@
 				}
 			],
 			"subclassFeatures": [
-				"Arcane Marksman|Fighter|PHB|Arcane Marksman|ArcMar|3",
-				"Curving Shot|Fighter|PHB|Arcane Marksman|ArcMar|7",
-				"Additional Arcane Shot Option|Fighter|PHB|Arcane Marksman|ArcMar|7",
-				"Forceful Shot|Fighter|PHB|Arcane Marksman|ArcMar|10",
-				"Additional Arcane Shot Option|Fighter|PHB|Arcane Marksman|ArcMar|10",
-				"Ever-Ready Shot|Fighter|PHB|Arcane Marksman|ArcMar|15",
-				"Additional Arcane Shot Option|Fighter|PHB|Arcane Marksman|ArcMar|15",
-				"Additional Arcane Shot Option|Fighter|PHB|Arcane Marksman|ArcMar|18"
+				"Магический стрелок|Fighter|PHB|Магический стрелок|ArcMar|3",
+				"Странствующая стрела|Fighter|PHB|Магический стрелок|ArcMar|7",
+				"Дополнительный вариант магического выстрела|Fighter|PHB|Магический стрелок|ArcMar|7",
+				"Мощный выстрел|Fighter|PHB|Магический стрелок|ArcMar|10",
+				"Дополнительный вариант магического выстрела|Fighter|PHB|Магический стрелок|ArcMar|10",
+				"Выстрел всегда наготове|Fighter|PHB|Магический стрелок|ArcMar|15",
+				"Дополнительный вариант магического выстрела|Fighter|PHB|Магический стрелок|ArcMar|15",
+				"Дополнительный вариант магического выстрела|Fighter|PHB|Магический стрелок|ArcMar|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Arcane Marksman",
+			"name": "Магический стрелок",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 3,
 			"entries": [
-				"An Arcane Marksman studies a unique method of archery that weaves magic into attacks to produce supernatural effects. These techniques are the favorite of a variety of expert marksmen, including elite elven sentinels, dwarven gnoll hunters, and a number of well-known mercenaries. These fighters can turn a simple arrow, bolt or even sling bullet into a vessel for magic that harms and debilitates their enemies. Requiring both a mastery of ranged combat and an understanding of the arcane arts, Arcane Marksmen stand out as versatile and effective sharpshooters.",
+				"Магический стрелок изучает уникальный метод стрельбы из лука, вплетающий магию в атаки для создания сверхъестественных эффектов. Эти техники особенно любимы различными искусными стрелками, включая элитных эльфийских часовых, гномьих охотников на гноллов и некоторых хорошо известных наёмников. Эти воины могут превратить простую стрелу, болт или даже пулю для пращи в сосуд для магии, который наносит вред их врагам и ослабляет их. Требуя одновременно мастерства в дальнем бою и понимания магических искусств, Магические стрелки выделяются как универсальные и эффективные стрелки.",
 				{
 					"type": "inset",
-					"name": "Arcane Marksman vs Arcane Archer",
+					"name": "Магический стрелок и Магический лучник",
 					"entries": [
-						"This subclass is a replacement of the Arcane Archer presented in {@i Xanathar's Guide to Everything}, which dissatisfied me in a number of significant ways, including being bow-only and having highly limited usages of its core identifying feature. So, I designed this to fix my issues with the subclass, and polished up some other aspects along the way, as well as generalizing the flavor away from being elf-centric. Here's some of my thoughts on the changes I've made, which also serves as a changelog from the XGE version:",
+						"Эта академия войны заменяет Магического лучника, представленную в {@i Руководстве Ксанатара обо всём}, которая во многих важных аспектах меня не удовлетворяла, включая ограничение только луками и крайне ограниченное количество применений её ключевой отличительной особенности. Поэтому я разработал этот вариант, чтобы исправить недостатки академии войны, а по пути улучшил и некоторые другие её аспекты, а также обобщил тематику, чтобы она не была сосредоточена только на эльфах. Вот некоторые мои мысли о внесённых изменениях, которые также служат журналом изменений по сравнению с версией XGE:",
 						{
 							"type": "list",
 							"items": [
-								"Name switched to Arcane Marksman to distinguish from the regular XGE version and to make the archetype more clearly not restricted to bows.",
-								"I assume the elven lore connection is a Forgotten Realms thing. I've gone and made the archetype setting agnostic. This is also why they get just Arcana proficiency rather than nature/arcana.",
-								"Magic Arrow and Arcane Shot were combined into one feature, as they were not really that separate anyway. The bows-only restriction has been lifted (here and in subsequent features), as that was pretty much totally arbitrary. Now you can have arcane crossbowmen and slingers too.",
-								"Number of arcane shots per rest was increased to Intelligence Modifier, to promote investing in Int and also promote use of the Arcane Archer's iconic feature. This also means that the extra damage per shot needs to be lower than with 2/rest, so I've bumped them down to 1d6/2d6.",
-								"60ft on Curving Shot seemed kind of excessive, I think 30ft fits the flavor a bit better without significantly impacting the power level.",
-								"Ever-Ready Shot was buffed, since you now have more uses but each individual shot is weaker. Also added an ammo ribbon to it.",
-								"The original subclass was missing a 10th level feature (regardless of what the designers say on Twitter), so Forceful Shot was added. The feature is not directly useful to you (disadvantage on ranged vs prone), but adds anti-flying and teamwork utility.",
-								"All references to \"arrows\" were changed to \"shot\" to allow any ammunition to be used.",
-								"Piercing Shot's extra damage was flipped to Force (ironically, given its name) as it seems more fitting for an ethereal attack.",
-								"Seeking Shot's extra damage was flipped to Piercing, as Force damage seemed unfitting for a divination effect."
+								"Название изменено на «Магический стрелок», чтобы отличать его от обычной версии XGE и яснее показать, что архетип не ограничен луками.",
+								"Я предполагаю, что связь с эльфийскими преданиями относится к миру Forgotten Realms. Я сделал настройки архетипа независимыми от сеттинга. Поэтому вместо владения Природой и Магией вы получаете только владение Магией.",
+								"Магическая стрела и Магический выстрел были объединены в одну черту, поскольку на деле они не настолько различались. Ограничение только луками снято — здесь и в последующих чертах, — поскольку оно было практически полностью произвольным. Теперь вы можете играть магическими арбалетчиками и пращниками.",
+								"Число Магических выстрелов за отдых увеличено до модификатора Интеллекта, чтобы поощрить вложения в Интеллект и использование знаковой черты Магического лучника. Это также означает, что дополнительный урон за выстрел должен быть ниже, чем при 2 использованиях за отдых, поэтому я уменьшил его до 1d6/2d6.",
+								"Дальность 60 фт. для Странствующей стрелы казалась чрезмерной. Думаю, 30 фт. лучше соответствует концепции, не оказывая существенного влияния на уровень силы.",
+								"Выстрел всегда наготове был усилен, поскольку теперь у вас больше использований, но каждый отдельный выстрел слабее. В него также была добавлена возможность создавать Боеприпасы.",
+								"В исходной Академии войны отсутствовала черта 10-го уровня — независимо от того, что говорят разработчики в Twitter, — поэтому был добавлен Мощный выстрел. Эта черта не приносит вам прямой пользы — Помеха на дальние атаки против существ ничком, — но добавляет полезность против летающих существ и в командной игре.",
+								"Все упоминания «стрел» были заменены на «выстрелы», чтобы можно было использовать любые Боеприпасы.",
+								"Дополнительный урон Мощного выстрела был изменён на Силовой — иронично, учитывая его название, — поскольку так он лучше подходит для Эфирной атаки.",
+								"Дополнительный урон Ищущего выстрела был изменён на Колющий, поскольку Силовой урон казался неподходящим для эффекта Предсказания."
 							]
 						}
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Basic Arcana|Fighter|PHB|Arcane Marksman|ArcMar|3|ArcMar"
+					"subclassFeature": "Базовая магия|Fighter|PHB|Магический стрелок|ArcMar|3|ArcMar"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Shot|Fighter|PHB|Arcane Marksman|ArcMar|3|ArcMar"
+					"subclassFeature": "Магический выстрел|Fighter|PHB|Магический стрелок|ArcMar|3|ArcMar"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Shot Options|Fighter|PHB|Arcane Marksman|ArcMar|3|ArcMar"
+					"subclassFeature": "Варианты магического выстрела|Fighter|PHB|Магический стрелок|ArcMar|3|ArcMar"
 				}
 			]
 		},
 		{
-			"name": "Arcane Shot",
+			"name": "Магический выстрел",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain the ability to infuse your shots with magic. Whenever you fire a nonmagical piece of ammunition from a ranged weapon, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the shot immediately after it hits or misses its target.",
-				"Additionally, you learn two Arcane Shot options of your choice (see the \"Arcane Shot Options\" section). Once per turn when you fire a magical piece of ammunition from a ranged weapon as part of the {@action Attack} action, you can apply one of your Arcane Shot options to that shot. You decide to use the option when the attack hits a creature, unless the option doesn't involve an attack roll. You have a number of uses of this ability equal to your Intelligence modifier, and you regain all expended uses of it when you finish a short or long rest.",
-				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
+				"Когда на 3-м уровне вы выбираете этот Архетип, вы получаете способность наполнять свои выстрелы магией. Когда вы выпускаете немагический Боеприпас из дальнобойного оружия, вы можете сделать его магическим, чтобы преодолеть Сопротивление и Неуязвимость к немагическим атакам и урону. Магия исчезает из выстрела сразу после того, как он попадает в свою цель или промахивается.",
+				"Кроме того, вы изучаете 2 варианта Магического выстрела по своему выбору (см. раздел «Варианты Магического выстрела»). Один раз за ход, когда вы выпускаете магический Боеприпас из дальнобойного оружия в рамках {@action Attack}, вы можете применить к этому выстрелу один из вариантов Магического выстрела. Вы решаете использовать вариант, когда Атака попадает по существу, если только вариант не предполагает бросок атаки. Вы можете использовать эту Характеристику число раз, равное вашему Модификатору Интеллекта, и восстанавливаете все потраченные использования после завершения короткого или Продолжительного отдыха.",
+				"Вы получаете дополнительный вариант Магического выстрела по своему выбору, достигнув определённых уровней в этом классе: 7-го, 10-го, 15-го и 18-го. Каждый вариант также улучшается, когда вы становитесь воином 18-го уровня."
 			]
 		},
 		{
-			"name": "Arcane Shot Options",
+			"name": "Варианты магического выстрела",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.",
-				"If an option requires a saving throw, your Arcane Shot save DC equals {@b 8 + your proficiency bonus + your Intelligence modifier}.",
+				"Способность «Магический выстрел» позволяет вам выбирать для неё варианты на определённых уровнях. Варианты представлены здесь в алфавитном порядке. Все они являются магическими эффектами, и каждый связан с одной из школ магии.",
+				"Если вариант требует спасброска, КС спасброска вашего «Магического выстрела» равна {@b 8 + ваш бонус мастерства + ваш модификатор Интеллекта}.",
 				{
 					"type": "options",
 					"count": 2,
@@ -175,214 +175,214 @@
 			]
 		},
 		{
-			"name": "Basic Arcana",
+			"name": "Базовая магия",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, studying the techniques required to produce your arcane shots has taught you basic magic. You gain proficiency in {@skill Arcana}, and learn the {@spell prestidigitation} cantrip."
+				"На 3-м уровне изучение техник, необходимых для создания ваших магических выстрелов, обучает вас базовой магии. Вы получаете владение {@skill Arcana} и изучаете заговор {@spell prestidigitation}."
 			]
 		},
 		{
-			"name": "Additional Arcane Shot Option",
+			"name": "Дополнительный вариант магического выстрела",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn another Arcane Shot option of your choice."
+				"На 7-м уровне вы изучаете ещё один выбранный вами вариант магического выстрела."
 			]
 		},
 		{
-			"name": "Curving Shot",
+			"name": "Странствующая стрела",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn how to direct an errant shot toward a new target. When you make an attack roll with a magical piece of ammunition and miss, you can use a bonus action to reroll the attack roll against a different target within 30 feet of the original target."
+				"На 7-м уровне вы учитесь направлять случайный выстрел в новую цель. Если вы совершаете бросок атаки магическим боеприпасом и промахиваетесь, вы можете использовать бонусное действие, чтобы повторно бросить бросок атаки против другой цели в пределах 30 футов от исходной цели."
 			]
 		},
 		{
-			"name": "Additional Arcane Shot Option",
+			"name": "Дополнительный вариант магического выстрела",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you learn another Arcane Shot option of your choice."
+				"На 10-м уровне вы изучаете ещё один выбранный вами вариант магического выстрела."
 			]
 		},
 		{
-			"name": "Forceful Shot",
+			"name": "Мощный выстрел",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, when you hit a creature with an Arcane Shot, you can spend an additional use of Arcane Shot to knock the target {@condition prone}."
+				"Начиная с 10-го уровня, когда вы попадаете по существу магическим выстрелом, вы можете потратить дополнительное использование магического выстрела, чтобы цель получила состояние {@condition prone}."
 			]
 		},
 		{
-			"name": "Additional Arcane Shot Option",
+			"name": "Дополнительный вариант магического выстрела",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you learn another Arcane Shot option of your choice."
+				"На 15-м уровне вы изучаете ещё один выбранный вами вариант магического выстрела."
 			]
 		},
 		{
-			"name": "Ever-Ready Shot",
+			"name": "Выстрел всегда наготове",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, your marksmanship is always ready for a fight. When you roll initiative, you regain one use of Arcane Shot. If you have no uses remaining, you regain two uses of it instead.",
-				"Additionally, you can conjure 30 pieces of ammunition as a bonus action, which disappear after 1 minute. You choose the type of ammunition, which is magical, and appears in your quiver or equivalent container."
+				"Начиная с 15-го уровня ваша меткость всегда готова к бою. Когда вы совершаете бросок инициативы, вы восстанавливаете одно использование магического выстрела. Если у вас не осталось использований, вместо этого вы восстанавливаете два использования этой способности.",
+				"Кроме того, вы можете создать 30 боеприпасов бонусным действием, которые исчезают через 1 минуту. Вы выбираете тип боеприпасов, которые являются магическими и появляются в вашем колчане или другом подходящем контейнере."
 			]
 		},
 		{
-			"name": "Additional Arcane Shot Option",
+			"name": "Дополнительный вариант магического выстрела",
 			"source": "ArcMar",
 			"page": 1,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Arcane Marksman",
+			"subclassShortName": "Магический стрелок",
 			"subclassSource": "ArcMar",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you learn another Arcane Shot option of your choice."
+				"На 18-м уровне вы изучаете ещё один вариант магического выстрела по вашему выбору."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Banishing Shot",
+			"name": "Изгоняющий выстрел",
 			"source": "ArcMar",
 			"page": 1,
 			"featureType": [
 				"AM:ASO"
 			],
 			"entries": [
-				"You use abjuration magic to try to temporarily banish your target from this plane. If the shot hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-				"After you reach 18th level in this class, a target also takes {@dice 1d6} force damage when the shot hits it."
+				"Вы используете магию ограждения, чтобы попытаться временно изгнать вашу цель с этого плана. Если выстрел попадает в существо, цель также должна преуспеть в спасброске Харизмы, иначе будет изгнана. Изгнанная таким образом цель имеет Скорость 0 и является {@condition incapacitated}. В конце своего следующего хода цель вновь появляется в оставленном ею пространстве или в ближайшем свободном пространстве, если оно занято.",
+				"После достижения 18-го уровня в этом классе цель также получает {@dice 1d6} силового урона, когда выстрел попадает по ней."
 			]
 		},
 		{
-			"name": "Beguiling Shot",
+			"name": "Завораживающий выстрел",
 			"source": "ArcMar",
 			"page": 2,
 			"featureType": [
 				"AM:ASO"
 			],
 			"entries": [
-				"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the arrow takes an extra {@dice 1d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
-				"The psychic damage increases to {@dice 2d6} when you reach 18th level in this class."
+				"Ваша магия заклятия временно очаровывает цель этого выстрела. Выберите одного из ваших союзников в пределах 30 футов от цели. Существо, поражённое стрелой, получает дополнительный {@dice 1d6} психического урона и должно преуспеть в спасброске Мудрости, иначе становится {@condition charmed} выбранным союзником до начала вашего следующего хода. Этот эффект заканчивается досрочно, если выбранный союзник атакует {@condition charmed} цель, наносит ей урон или заставляет её совершить спасбросок.",
+				"Психический урон увеличивается до {@dice 2d6}, когда вы достигаете 18-го уровня в этом классе."
 			]
 		},
 		{
-			"name": "Bursting Shot",
+			"name": "Разрывной выстрел",
 			"source": "ArcMar",
 			"page": 2,
 			"featureType": [
 				"AM:ASO"
 			],
 			"entries": [
-				"You imbue your shot with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 10 feet of it take {@dice 1d6} force damage each.",
-				"The force damage increases to {@dice 2d6} when you reach 18th level in this class."
+				"Вы наполняете свой выстрел силовой энергией, полученной из школы воплощения. Энергия взрывается после вашей атаки. Сразу после попадания выстрела по существу цель и все остальные существа в пределах 10 футов от неё получают по {@dice 1d6} силового урона.",
+				"Силовой урон увеличивается до {@dice 2d6}, когда вы достигаете 18-го уровня в этом классе."
 			]
 		},
 		{
-			"name": "Enfeebling Shot",
+			"name": "Ослабляющий выстрел",
 			"source": "ArcMar",
 			"page": 2,
 			"featureType": [
 				"AM:ASO"
 			],
 			"entries": [
-				"You weave necromantic magic into your shot. The creature hit by the shot takes an extra {@dice 1d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
-				"The necrotic damage increases to {@dice 2d6} when you reach 18th level in this class."
+				"Вы вплетаете некромантическую магию в свой выстрел. Существо, поражённое выстрелом, получает дополнительный {@dice 1d6} некротического урона. Цель также должна преуспеть в спасброске Телосложения, иначе урон, наносимый её атаками оружием, уменьшается вдвое до начала вашего следующего хода.",
+				"Некротический урон увеличивается до {@dice 2d6}, когда вы достигаете 18-го уровня в этом классе."
 			]
 		},
 		{
-			"name": "Grasping Shot",
+			"name": "Хватающий выстрел",
 			"source": "ArcMar",
 			"page": 2,
 			"featureType": [
 				"AM:ASO"
 			],
 			"entries": [
-				"When this shot strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the shot takes an extra {@dice 1d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 1d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this arcane shot option again.",
-				"The poison and slashing damage both increase to {@dice 2d6} when you reach 18th level in this class."
+				"Когда этот выстрел поражает цель, магия вызова создаёт цепкие ядовитые заросли, опутывающие цель. Существо, поражённое выстрелом, получает дополнительный {@dice 1d6} ядовитого урона, его Скорость уменьшается на 10 футов, и оно получает {@dice 1d6} рубящего урона в первый раз за каждый ход, когда перемещается на 1 фут или больше без телепортации. Цель или любое существо, способное до неё дотянуться, может действием удалить заросли, преуспев в проверке Силы ({@skill Athletics}) против вашего DC спасброска магического выстрела. В противном случае заросли существуют 1 минуту или пока вы снова не используете этот вариант магического выстрела.",
+				"Ядовитый и рубящий урон увеличиваются до {@dice 2d6}, когда вы достигаете 18-го уровня в этом классе."
 			]
 		},
 		{
-			"name": "Piercing Shot",
+			"name": "Пронзающий выстрел",
 			"source": "ArcMar",
 			"page": 2,
 			"featureType": [
 				"AM:ASO"
 			],
 			"entries": [
-				"You use transmutation magic to give your shot an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the shot fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The shot passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the shot, plus an extra {@dice 1d6} force damage. On a successful save, a target takes half as much damage.",
-				"The force damage increases to {@dice 2d6} when you reach 18th level in this class."
+				"Вы используете магию преобразования, чтобы придать вашему выстрелу эфирное свойство. При использовании этого варианта вы не совершаете бросок атаки для этой атаки. Вместо этого выстрел летит вперёд по линии шириной 1 фут и длиной 30 футов, после чего исчезает. Выстрел безвредно проходит сквозь предметы, игнорируя укрытие. Каждое существо в этой линии должно совершить спасбросок Ловкости. При провале спасброска цель получает урон, как если бы в неё попал выстрел, плюс дополнительный силовой урон {@dice 1d6}. При успешном спасброске цель получает половину этого урона.",
+				"Силовой урон увеличивается до {@dice 2d6}, когда вы достигаете 18-го уровня в этом классе."
 			]
 		},
 		{
-			"name": "Seeking Shot",
+			"name": "Ищущий выстрел",
 			"source": "ArcMar",
 			"page": 2,
 			"featureType": [
 				"AM:ASO"
 			],
 			"entries": [
-				"Using divination magic, you grant your shot the ability to seek out your target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The shot flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the shot to travel to the target, the target must make a Dexterity saving throw. On a failed save, it takes damage as if it were hit by the shot, plus an extra {@dice 1d6} piercing damage, and you learn the target's current location. On a successful save, the target takes half as much damage, and you don't learn its location.",
-				"The piercing damage increases to {@dice 2d6} when you reach 18th level in this class."
+				"Используя магию предсказания, вы наделяете свой выстрел способностью разыскивать цель. При использовании этого варианта вы не совершаете бросок атаки для этой атаки. Вместо этого выберите одно существо, которого вы видели в течение последней минуты. Выстрел летит к этому существу, при необходимости огибая углы и игнорируя укрытие на три четверти и укрытие на половину. Если цель находится в пределах дистанции оружия и существует достаточно большой путь, по которому выстрел может достичь цели, цель должна совершить спасбросок Ловкости. При провале спасброска она получает урон, как если бы в неё попал выстрел, плюс дополнительный колющий урон {@dice 1d6}, а вы узнаёте текущее местоположение цели. При успешном спасброске цель получает половину этого урона, а вы не узнаёте её местоположение.",
+				"Колющий урон увеличивается до {@dice 2d6}, когда вы достигаете 18-го уровня в этом классе."
 			]
 		},
 		{
-			"name": "Shadow Shot",
+			"name": "Выстрел тени",
 			"source": "ArcMar",
 			"page": 2,
 			"featureType": [
 				"AM:ASO"
 			],
 			"entries": [
-				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 1d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
-				"The psychic damage increases to {@dice 2d6} when you reach 18th level in this class."
+				"Вы вплетаете магию иллюзии в свой выстрел, заставляя его скрывать зрение вашего врага тенями. Существо, в которое попал выстрел, получает дополнительный психический урон {@dice 1d6} и должно успешно совершить спасбросок Мудрости, иначе не сможет видеть ничего дальше 5 футов от себя до начала вашего следующего хода.",
+				"Психический урон увеличивается до {@dice 2d6}, когда вы достигаете 18-го уровня в этом классе."
 			]
 		}
 	]

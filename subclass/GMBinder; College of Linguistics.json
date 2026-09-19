@@ -27,14 +27,14 @@
 	},
 	"subclass": [
 		{
-			"name": "College of Linguistics",
-			"shortName": "Linguistics",
+			"name": "Коллегия языкознания",
+			"shortName": "Языкознание",
 			"source": "Linguistics",
 			"className": "Bard",
 			"classSource": "PHB",
 			"optionalfeatureProgression": [
 				{
-					"name": "Incantation",
+					"name": "Наговор",
 					"featureType": [
 						"INC"
 					],
@@ -46,35 +46,35 @@
 				}
 			],
 			"subclassFeatures": [
-				"College of Linguistics|Bard|PHB|Linguistics|Linguistics|3",
-				"Linguistic Twist|Bard|PHB|Linguistics|Linguistics|6",
-				"Wordsmith|Bard|PHB|Linguistics|Linguistics|14"
+				"Коллегия языкознания|Bard|PHB|Языкознание|Linguistics|3",
+				"Языковая уловка|Bard|PHB|Языкознание|Linguistics|6",
+				"Мастер слова|Bard|PHB|Языкознание|Linguistics|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "College of Linguistics",
+			"name": "Коллегия языкознания",
 			"source": "Linguistics",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Linguistics",
+			"subclassShortName": "Языкознание",
 			"subclassSource": "Linguistics",
 			"level": 3,
 			"entries": [
-				"Bards of the College of Linguistics strive to unravel the mysteries of languages. From studying the rhymes of foreign ballads to examining the structure of poetry and prose, these bards use their knowledge of many languages to piece together otherwise obscure connections and meanings. Often they can be found working as translators or editors, honing their skills and contributing to academia and the arts alike.",
+				"Барды Коллегии языкознания стремятся разгадать тайны языков. От изучения рифм чужеземных баллад до исследования устройства поэзии и прозы — эти барды используют свои знания множества языков, чтобы сложить воедино иначе недоступные связи и значения. Часто их можно встретить за работой переводчиками или редакторами: они оттачивают своё мастерство и вносят вклад и в науку, и в искусство.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Foreign Incantation|Bard|PHB|Linguistics|Linguistics|3"
+					"subclassFeature": "Иноземный наговор|Bard|PHB|Языкознание|Linguistics|3"
 				}
 			]
 		},
 		{
-			"name": "Foreign Incantation",
+			"name": "Иноземный наговор",
 			"source": "Linguistics",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Linguistics",
+			"subclassShortName": "Языкознание",
 			"subclassSource": "Linguistics",
 			"level": 3,
 			"languageProficiencies": [
@@ -83,16 +83,16 @@
 				}
 			],
 			"entries": [
-				"When you join the College of Linguistics at 3rd level, you learn three languages of your choice.",
-				"Additionally, you learn to use the properties of languages as you know to alter your incantations and inspiration. Choose 3 languages that you know. {@filter You learn the incantations associated with those languages|optionalfeatures|source=linguistics|feature type=t;inc|miscellaneous=}. When you inspire a creature or cast a spell that involve a verbal component, you can use one of the incantations."
+				"Присоединяясь к Коллегии языкознания на 3-м уровне, вы изучаете три языка на свой выбор.",
+				"Кроме того, вы учитесь использовать свойства известных вам языков, чтобы изменять свои наговоры и вдохновение. Выберите 3 известных вам языка. {@filter You learn the incantations associated with those languages|optionalfeatures|source=linguistics|feature type=t;inc|miscellaneous=}. Когда вы вдохновляете существо или накладываете заклинание с вербальным компонентом, вы можете использовать один из наговоров."
 			]
 		},
 		{
-			"name": "Linguistic Twist",
+			"name": "Языковая уловка",
 			"source": "Linguistics",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Linguistics",
+			"subclassShortName": "Языкознание",
 			"subclassSource": "Linguistics",
 			"level": 6,
 			"header": 2,
@@ -102,17 +102,17 @@
 				}
 			],
 			"entries": [
-				"At 6th level, you learn two more languages of your choice, and the {@filter foreign incantations|optionalfeatures|source=linguistics|feature type=t;inc|miscellaneous=} associated with those languages.",
-				"You can disguise a spell's verbal component as part of natural speech. A creature attempting to notice your spell's verbal component must make a Wisdom ({@skill Insight}) check against your spellcasting save DC. On a successful check, they notice that you are casting a spell.",
-				"Additionally, when you cast a spell that involves a limited number of words (such as {@spell command} or {@spell magic mouth}), you can double number of words you are limited to."
+				"На 6-м уровне вы изучаете ещё два языка на свой выбор и {@filter foreign incantations|optionalfeatures|source=linguistics|feature type=t;inc|miscellaneous=}, связанные с этими языками.",
+				"Вы можете замаскировать вербальный компонент заклинания под часть естественной речи. Существо, пытающееся заметить вербальный компонент вашего заклинания, должно совершить проверку Мудрости ({@skill Insight}) против Сл спасброска от ваших заклинаний. При успешной проверке оно замечает, что вы накладываете заклинание.",
+				"Кроме того, когда вы накладываете заклинание, ограниченное определённым числом слов (например, {@spell command} или {@spell magic mouth}), вы можете удвоить число доступных вам слов."
 			]
 		},
 		{
-			"name": "Wordsmith",
+			"name": "Мастер слова",
 			"source": "Linguistics",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Linguistics",
+			"subclassShortName": "Языкознание",
 			"subclassSource": "Linguistics",
 			"level": 14,
 			"header": 2,
@@ -122,288 +122,288 @@
 				}
 			],
 			"entries": [
-				"Starting at 14th level, your grasp of the fundamentals of linguistics is complete. You can cast {@spell tongues} and {@spell comprehend languages} at will, learn two more languages of your choice, and learn the {@filter foreign incantations|optionalfeatures|source=linguistics|feature type=t;inc|miscellaneous=} for all languages you know.",
-				"Additionally, when you complete a long rest, you can choose a number of creatures up to your Charisma modifier (minimum 1) to learn a secret language created by you. Until they complete their next long rest, each of those creatures can speak, read, and write using your secret language, which is unintelligible to all other creatures. This language can still be deciphered by the {@spell comprehend languages} spell."
+				"Начиная с 14-го уровня ваше владение основами языкознания становится полным. Вы можете накладывать {@spell tongues} и {@spell comprehend languages} по желанию, изучаете ещё два языка на свой выбор и изучаете {@filter foreign incantations|optionalfeatures|source=linguistics|feature type=t;inc|miscellaneous=} для всех известных вам языков.",
+				"Кроме того, завершая продолжительный отдых, вы можете выбрать количество существ до вашего модификатора Харизмы (минимум 1), которые изучат созданный вами тайный язык. Пока они не завершат свой следующий продолжительный отдых, каждое из этих существ может говорить, читать и писать на вашем тайном языке, непонятном всем остальным существам. Этот язык всё ещё можно расшифровать заклинанием {@spell comprehend languages}."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Abyssal",
+			"name": "Бездны",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you cast a spell that requires {@status concentration}, you gain resistance against cold, fire, and lightning damage while you are {@status concentration||concentrating} on the spell."
+						"Когда вы накладываете заклинание, требующее {@status concentration}, вы получаете сопротивление урону холодом, огнём и электричеством, пока {@status concentration||concentrating} на этом заклинании."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature, the target of your Bardic Inspiration gains resistance against cold, fire, and lightning while they have the Inspiration Die."
+						"Когда вы вдохновляете существо, цель вашего Вдохновения барда получает сопротивление урону холодом, огнём и электричеством, пока у неё есть кость вдохновения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Aquan",
+			"name": "Акван",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you cast a spell that requires {@status concentration}, you gain the ability to walk across liquid surfaces while you are {@status concentration||concentrating} on the spell."
+						"Когда вы накладываете заклинание, требующее {@status concentration}, вы получаете способность ходить по жидким поверхностям, пока {@status concentration||concentrating} на этом заклинании."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature, the target of your Bardic Inspiration gains the ability to walk across liquid surfaces while they have the Inspiration Die."
+						"Когда вы вдохновляете существо, цель вашего Вдохновения барда получает способность ходить по жидким поверхностям, пока у неё есть кость вдохновения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Auran",
+			"name": "Ауран",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you cast a spell that requires {@status concentration}, your movement speed increases by 5 feet for each level of spell slot used to cast the spell while you are {@status concentration||concentrating} on the spell."
+						"Когда вы накладываете заклинание, требующее {@status concentration}, ваша скорость перемещения увеличивается на 5 футов за каждый уровень ячейки, использованной для наложения заклинания, пока вы {@status concentration||concentrating} на нём."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature, the target of your Bardic Inspiration gains a 5 feet increase to movement speed while they have the Inspiration Die."
+						"Когда вы вдохновляете существо, цель вашего Вдохновения барда получает увеличение скорости перемещения на 5 футов, пока у неё есть кость вдохновения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Celestial",
+			"name": "Небесный",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you cast a spell that restores hit points to a creature other than you, you regain hit points equal to the spell's level + your Charisma modifier."
+						"Когда вы накладываете заклинание, восстанавливающее хиты существу, кроме вас, вы восстанавливаете хиты в количестве, равном уровню заклинания + ваш модификатор Харизмы."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature, you regain hit points equal to your Charisma modifier."
+						"Когда вы вдохновляете существо, вы восстанавливаете хиты в количестве, равном вашему модификатору Харизмы."
 					]
 				}
 			]
 		},
 		{
-			"name": "Deep Speech",
+			"name": "Глубинная Речь",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"If you fail the check to maintain {@status concentration} of a spell, each creature within 5 feet of you takes 1d6 psychic damage for each level of spell slot used to cast the spell."
+						"Если вы проваливаете проверку на поддержание {@status concentration} заклинания, каждое существо в пределах 5 футов от вас получает 1d6 психического урона за каждый уровень ячейки, использованной для наложения заклинания."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature, each creature within 5 feet of the target of your Bardic Inspiration takes 1d6 psychic damage when they use their Inspiration die."
+						"Когда вы вдохновляете существо, каждое существо в пределах 5 футов от цели вашего Вдохновения барда получает 1d6 психического урона, когда она использует свою кость вдохновения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Draconic",
+			"name": "Драконий",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you cast a spell that requires {@status concentration}, you gain a number of temporary hit points equal to the spell's level + your Charisma modifier, which last until you stop {@status concentration||concentrating} on the spell."
+						"Когда вы накладываете заклинание, требующее {@status concentration}, вы получаете временные хиты в количестве, равном уровню заклинания + ваш модификатор Харизмы, которые сохраняются, пока вы не прекратите {@status concentration||concentrating} на заклинании."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature, the target of your Bardic Inspiration gains temporary hit points equal to your Charisma modifier while they have the Inspiration Die."
+						"Когда вы вдохновляете существо, цель вашего Вдохновения барда получает временные хиты в количестве, равном вашему модификатору Харизмы, пока у неё есть кость вдохновения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ignan",
+			"name": "Игнан",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you cast a spell that requires {@status concentration}, you can shroud yourself with flames. While you maintain {@status concentration} on that spell, a creature that touches you or hits you with a melee attack while within 5 feet of you takes fire damage equal to the spell's level + your Charisma modifier."
+						"Когда вы накладываете заклинание, требующее {@status concentration}, вы можете окружить себя пламенем. Пока вы поддерживаете {@status concentration} на этом заклинании, существо, которое касается вас или попадает по вам рукопашной атакой, находясь в пределах 5 футов от вас, получает урон огнём, равный уровню заклинания + ваш модификатор Харизмы."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature, each creature within 5 feet of the target of your Bardic Inspiration takes 1d6 fire damage when they use their Inspiration die."
+						"Когда вы вдохновляете существо, каждое существо в пределах 5 футов от цели вашего Вдохновения барда получает 1d6 урона огнём, когда она использует свою кость вдохновения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Infernal",
+			"name": "Инфернальный",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you deals damage to a creature with a spell, you can infuse it with hellish energy. Choose one creature that took damage from the spell. Any healing the target receives until the start of your next turn is reduced by 1d4 for each level of spell slot used to cast the spell."
+						"Когда вы наносите существу урон заклинанием, вы можете наполнить его адской энергией. Выберите одно существо, получившее урон от заклинания. Любое исцеление, получаемое целью до начала вашего следующего хода, уменьшается на 1d4 за каждый уровень ячейки, использованной для наложения заклинания."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"You can attempt to inspire a hostile creature. That creature must make a Wisdom saving throw against your spellcasting save DC or have any healing it receives reduced by your Inspiration Die. The creature can repeat the saving throw at the start of its turn, ending the effect on a success."
+						"Вы можете попытаться вдохновить враждебное существо. Это существо должно совершить спасбросок Мудрости против Сл спасброска от ваших заклинаний, иначе любое получаемое им исцеление уменьшается на вашу кость вдохновения. Существо может повторять спасбросок в начале своего хода, оканчивая эффект при успехе."
 					]
 				}
 			]
 		},
 		{
-			"name": "Terran",
+			"name": "Терран",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you cast a spell that requires {@status concentration}, you can strengthen your connection to the ground. While you maintain {@status concentration} on that spell and are standing on earth or stone, you cannot be pushed or knocked prone."
+						"Когда вы накладываете заклинание, требующее {@status concentration}, вы можете укрепить свою связь с землёй. Пока вы поддерживаете {@status concentration} на этом заклинании и стоите на земле или камне, вас нельзя толкнуть или сбить с ног."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature, the target of your Bardic Inspiration cannot be pushed or knocked prone if they are standing on earth or stone while they have the Inspiration Die."
+						"Когда вы вдохновляете существо, цель вашего Вдохновения барда нельзя толкнуть или сбить с ног, если она стоит на земле или камне, пока у неё есть кость вдохновения."
 					]
 				}
 			]
 		},
 		{
-			"name": "Sylvan",
+			"name": "Сильван",
 			"source": "Linguistics",
 			"featureType": [
 				"INC"
 			],
 			"prerequisite": [
 				{
-					"other": "Must know the language"
+					"other": "Нужно знать этот язык"
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Spell",
+					"name": "Заклинание",
 					"entries": [
-						"When you cast a spell while within 60 feet of a plant, you can cast the spell as though you were in the plant's space, but you must use your own senses."
+						"Когда вы накладываете заклинание, находясь в пределах 60 футов от растения, вы можете наложить его так, как если бы находились в пространстве этого растения, но должны использовать собственные чувства."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Inspiration",
+					"name": "Вдохновение",
 					"entries": [
-						"When you inspire a creature within 60 feet of a plant, you can inspire as if you were in the plant's space, but you must use your own senses."
+						"Когда вы вдохновляете существо в пределах 60 футов от растения, вы можете вдохновлять так, как если бы находились в пространстве этого растения, но должны использовать собственные чувства."
 					]
 				}
 			]

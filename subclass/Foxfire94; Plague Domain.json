@@ -20,8 +20,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Plague Domain",
-			"shortName": "Plague",
+			"name": "Домен чумы",
+			"shortName": "Чума",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -65,33 +65,33 @@
 				"ray of lethargy|AdvancedArcaneries"
 			],
 			"subclassFeatures": [
-				"Plague Domain|Cleric||Plague|FFPlagueCleric|1",
-				"Channel Divinity: Inflict Disease|Cleric||Plague|FFPlagueCleric|2",
-				"Acolyte of Affliction|Cleric||Plague|FFPlagueCleric|6",
-				"Potent Spellcasting|Cleric||Plague|FFPlagueCleric|8",
-				"Blessed Strikes|Cleric||Plague|FFPlagueCleric|8",
-				"Priest of Plague|Cleric||Plague|FFPlagueCleric|17"
+				"Домен чумы|Cleric||Чума|FFPlagueCleric|1",
+				"Божественный канал: Нанесение болезни|Cleric||Чума|FFPlagueCleric|2",
+				"Прислужник страданий|Cleric||Чума|FFPlagueCleric|6",
+				"Могущественное колдовство|Cleric||Чума|FFPlagueCleric|8",
+				"Благословлённые удары|Cleric||Чума|FFPlagueCleric|8",
+				"Жрец чумы|Cleric||Чума|FFPlagueCleric|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Plague Domain",
+			"name": "Домен чумы",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Plague",
+			"subclassShortName": "Чума",
 			"subclassSource": "FFPlagueCleric",
 			"level": 1,
 			"entries": [
-				"Gods of Plague 'bless' the mortal world with their vaired and multitudinous creations, a collection of noxious diseases. Deities of the Plague domain include Abhoth, Moander, Nurghleth, Talona, The Horned Rat, and Yurtrus. Followers of these deities seek to spread their god's gifts with the world and can cause chaos amongst poopulated areas, leaving strife and suffering in their wake; while rare people may often turn to this path to gain a reprieve from their own afflictions through service to such deities.",
-				"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+				"Боги Чумы «благословляют» мир смертных своими разнообразными и многочисленными творениями — скоплением зловредных болезней. К божествам Чумного домена относятся Абхот, Моандер, Нурглет, Талона, Рогатая Крыса и Юртрус. Последователи этих божеств стремятся распространять дары своих богов по миру и могут сеять хаос среди населённых мест, оставляя после себя раздоры и страдания; однако редкие люди могут обратиться к этому пути, чтобы получить избавление от собственных недугов через служение таким божествам.",
+				"На каждом указанном уровне жреца добавляйте перечисленные заклинания к своим подготовленным заклинаниям. Они не учитываются в вашем лимите.",
 				{
 					"type": "table",
-					"caption": "Plague Domain Spells",
+					"caption": "Заклинания домена чумы",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"Уровень жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -99,188 +99,188 @@
 					],
 					"rows": [
 						[
-							"1st",
-							"{@spell bless with filth|AdvancedArcaneries3|bless with filth³}, {@spell ray of sickness}"
+							"1-й",
+							"{@spell bless with filth|AdvancedArcaneries3|благословение грязью³}, {@spell ray of sickness}"
 						],
 						[
-							"3rd",
-							"{@spell stream of corruption|AdvancedArcaneries2|stream of corruption²}, {@spell weapon virus|AdvancedArcaneries2|weapon virus²}"
+							"3-й",
+							"{@spell stream of corruption|AdvancedArcaneries2|поток порчи²}, {@spell weapon virus|AdvancedArcaneries2|вирус оружия²}"
 						],
 						[
-							"5th",
-							"{@spell miasma of pestilence|AdvancedArcaneries2|miasma of pestilence²}, {@spell wither|AdvancedArcaneries3|wither³}"
+							"5-й",
+							"{@spell miasma of pestilence|AdvancedArcaneries2|зловоние чумы²}, {@spell wither|AdvancedArcaneries3|увядание³}"
 						],
 						[
-							"7th",
-							"{@spell cloud of corruption|AdvancedArcaneries3|cloud of corruption³}, {@spell plague|AdvancedArcaneries3|plague³}"
+							"7-й",
+							"{@spell cloud of corruption|AdvancedArcaneries3|облако порчи³}, {@spell plague|AdvancedArcaneries3|чума³}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell contagion}, {@spell insect plague}"
 						]
 					]
 				},
-				"²Available in Advanced Arcaneries Vol.2 found in the Homebrew section on the Spells page!",
-				"³Available in Advanced Arcaneries Vol.3 found in the Homebrew section on the Spells page!",
+				"²Доступно в «Продвинутых арканериях», том 2, найденных в разделе хоумбрю на странице «Заклинания»!",
+				"³Доступно в «Продвинутых арканериях», том 3, найденных в разделе хоумбрю на странице «Заклинания»!",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrips|Cleric||Plague|FFPlagueCleric|1"
+					"subclassFeature": "Дополнительные заговоры|Cleric||Чума|FFPlagueCleric|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Contagious Contact|Cleric||Plague|FFPlagueCleric|1"
+					"subclassFeature": "Заразный контакт|Cleric||Чума|FFPlagueCleric|1"
 				}
 			]
 		},
 		{
-			"name": "Bonus Cantrips",
+			"name": "Дополнительные заговоры",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Plague",
+			"subclassShortName": "Чума",
 			"subclassSource": "FFPlagueCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this domain at 1st level, you gain the {@spell vector|FFPlagueCleric} and {@spell wrack|FFPlagueCleric} cantrips. These cantrips don't count against the number of cleric cantrips you know. For you, these cantrips count as cleric cantrips."
+				"Выбирая этот домен на 1-м уровне, вы получаете заговоры {@spell Вектор|FFPlagueCleric} и {@spell Мучение|FFPlagueCleric}. Эти заговоры не учитываются в числе известных вам заговоров жреца. Для вас эти заговоры считаются заговорами жреца."
 			]
 		},
 		{
-			"name": "Contagious Contact",
+			"name": "Заразный контакт",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Plague",
+			"subclassShortName": "Чума",
 			"subclassSource": "FFPlagueCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Also at 1st level, you are already considerably contagious. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Constitution saving throw. The creature takes {@damage 1d8} poison or necrotic damage (your choice) and is {@condition poisoned} until the end of your next turn on a failed saving throw, or half as much damage and isn't {@condition poisoned} on a successful one.",
-				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+				"Также на 1-м уровне вы уже становитесь весьма заразными. Когда существо в пределах 5 футов от вас, которое вы можете видеть, попадает по вам атакой, вы можете использовать свою реакцию, чтобы заставить это существо совершить спасбросок Телосложения. При провале спасброска существо получает {@damage 1d8} ядовитого или некротического урона (на ваш выбор) и становится {@condition poisoned} до конца вашего следующего хода, а при успехе получает половину этого урона и не становится {@condition poisoned}.",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Мудрости (минимум один раз). Вы восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Channel Divinity: Inflict Disease",
+			"name": "Божественный канал: Нанесение болезни",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Plague",
+			"subclassShortName": "Чума",
 			"subclassSource": "FFPlagueCleric",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"Starting at 2nd level, you can use your Channel Divinity to inflict devastating diseases.",
-				"As an action, you present your holy symbol, and one creature that is within 30 feet of you must make a Constitution saving throw. On a failed save, the target is {@condition poisoned} and suffers the effects of one of the following diseases (of your choice) for 1 minute.",
+				"Начиная со 2-го уровня, вы можете использовать свой Божественный канал, чтобы насылать опустошительные болезни.",
+				"Действием вы предъявляете свой Святой символ, и одно существо в пределах 30 футов от вас должно совершить спасбросок Телосложения. При провале спасброска цель становится {@condition poisoned} и на 1 минуту испытывает действие одной из следующих болезней (на ваш выбор).",
 				{
 					"type": "entries",
-					"name": "Blinding Sickness",
+					"name": "Слепящая болезнь",
 					"entries": [
-						"Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is {@condition blinded}."
+						"Боль овладевает разумом существа, а его глаза становятся молочно-белыми. Существо совершает с помехой проверки Мудрости и спасброски Мудрости, а также становится {@condition blinded}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Filth Fever",
+					"name": "Гнилостная лихорадка",
 					"entries": [
-						"A raging fever sweeps through the creature's body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength."
+						"Сильная лихорадка охватывает тело существа. Существо совершает с помехой проверки Силы, спасброски Силы и броски атаки, использующие Силу."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Flesh Rot (9th level required)",
+					"name": "Гниение плоти (требуется 9-й уровень)",
 					"entries": [
-						"The creature's flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage."
+						"Плоть существа разлагается. Существо совершает с помехой проверки Харизмы и получает уязвимость ко всему урону."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mindfire (9th level required)",
+					"name": "Огненный разум (требуется 9-й уровень)",
 					"entries": [
-						"The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the {@spell confusion} spell during combat."
+						"Разум существа становится лихорадочным. Существо совершает с помехой проверки Интеллекта и спасброски Интеллекта, а во время боя ведёт себя так, будто находится под действием заклинания {@spell confusion}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Seizure",
+					"name": "Припадок",
 					"entries": [
-						"The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity."
+						"Существо охватывает дрожь. Существо совершает с помехой проверки Ловкости, спасброски Ловкости и броски атаки, использующие Ловкость."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Slimy Doom (9th level required)",
+					"name": "Слизистая погибель (требуется 9-й уровень)",
 					"entries": [
-						"The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is {@condition stunned} until the end of its next turn."
+						"Существо начинает неудержимо истекать кровью. Существо совершает с помехой проверки Телосложения и спасброски Телосложения. Кроме того, всякий раз, когда существо получает урон, оно становится {@condition stunned} до конца своего следующего хода."
 					]
 				},
-				"At the end of each of the target's turns, it can repeat the Constitution saving throw. On a success, the {@condition poisoned} condition and the effects of the disease end."
+				"В конце каждого хода цели она может повторить спасбросок Телосложения. При успехе состояние {@condition poisoned} и действие болезни заканчиваются."
 			]
 		},
 		{
-			"name": "Acolyte of Affliction",
+			"name": "Прислужник страданий",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Plague",
+			"subclassShortName": "Чума",
 			"subclassSource": "FFPlagueCleric",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level your dabbling with disease grants you special abilities:",
+				"Начиная с 6-го уровня ваше знакомство с болезнями дарует вам особые способности:",
 				{
 					"type": "list",
 					"items": [
-						"You gain advantage on saving throws against poison, and resistance to poison damage.",
-						"Poison damage dealt by your cleric spells and subclass features ignores resistance to poison damage.",
-						"You are immune to the effects of diseases, but are still contagious."
+						"Вы совершаете с преимуществом спасброски против яда и получаете сопротивление ядовитому урону.",
+						"Ядовитый урон, причиняемый вашими заклинаниями жреца и особенностями Академии войны, игнорирует сопротивление ядовитому урону.",
+						"Вы невосприимчивы к действию болезней, но всё ещё заразны."
 					]
 				}
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"name": "Благословлённые удары",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Plague",
+			"subclassShortName": "Чума",
 			"subclassSource": "FFPlagueCleric",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
-				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} necrotic damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i священнослужитель 8-го уровня {@variantrule optional class features|tce|optional feature}, что заменяет умение «Мощное колдовство»}",
+				"Вы благословлены божественной мощью в бою. Когда существо получает урон от одного из ваших заговоров или атак оружием, вы также можете нанести этому существу {@damage 1d8} некротического урона. После того как вы нанесёте этот урон, вы не можете использовать эту особенность снова до начала своего следующего хода."
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Могущественное колдовство",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Plague",
+			"subclassShortName": "Чума",
 			"subclassSource": "FFPlagueCleric",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+				"Начиная с 8-го уровня вы добавляете модификатор Мудрости к урону, который наносите любым заговором жреца."
 			]
 		},
 		{
-			"name": "Priest of Plague",
+			"name": "Жрец чумы",
 			"source": "FFPlagueCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Plague",
+			"subclassShortName": "Чума",
 			"subclassSource": "FFPlagueCleric",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level, your accursed affinity with pestilence and plague becomes more powerful:",
+				"На 17-м уровне ваша проклятая связь с заразой и чумой становится сильнее:",
 				{
 					"type": "list",
 					"items": [
-						"You gain immunity to poison damage and the {@condition poisoned} condition.",
-						"Whenever you cast a spell of 1st level or higher that deals poison or necrotic damage or inflicts the {@condition poisoned} condition, you can choose a number of creatures equal to the spell's level within 15 feet of you to make a Constitution saving throw against your spell save DC. On a failed save they become {@condition poisoned} for 1 minute. At the end of each of the target's turns, it can repeat the Constitution saving throw. On a success, the {@condition poisoned} condition ends"
+						"Вы получаете неуязвимость к урону ядом и состоянию {@condition poisoned}.",
+						"Всякий раз, когда вы накладываете заклинание 1-го уровня или выше, которое наносит урон ядом или некротический урон либо накладывает состояние {@condition poisoned}, вы можете выбрать число существ, равное уровню заклинания, находящихся в пределах 15 фт. от вас, чтобы они совершили спасбросок Телосложения против вашей Сл спасброска от заклинаний. При провале они становятся {@condition poisoned} на 1 минуту. В конце каждого хода цели она может повторять спасбросок Телосложения. При успехе состояние {@condition poisoned} заканчивается"
 					]
 				}
 			]
@@ -288,7 +288,7 @@
 	],
 	"spell": [
 		{
-			"name": "Bless with Filth",
+			"name": "Благословение грязью",
 			"source": "FFPlagueCleric",
 			"level": 1,
 			"school": "T",
@@ -319,15 +319,15 @@
 				}
 			],
 			"entries": [
-				"You touch a nonmagical weapon, imbuing it with noxious poisons.",
-				"Until the spell ends, the weapon deals an extra {@damage 1d4} poison damage to any target hit by the weapon. If the weapon isn't magical, it becomes a magic weapon for the spell's duration."
+				"Вы касаетесь немагического оружия, наделяя его вредоносными ядами.",
+				"Пока заклинание не закончится, оружие наносит дополнительный урон ядом {@damage 1d4} любой цели, в которую попадает этим оружием. Если оружие не является магическим, на время действия заклинания оно становится магическим оружием."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by {@dice 1d4} for every two slot levels above 1st."
+						"Если вы накладываете это заклинание, используя ячейку заклинания 3-го уровня или выше, дополнительный урон увеличивается на {@dice 1d4} за каждые два уровня ячейки выше 1-го."
 					]
 				}
 			],
@@ -349,34 +349,34 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
-							"shortName": "Death",
+							"name": "Смерть",
+							"shortName": "Смерть",
 							"source": "DMG"
 						}
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Plague",
-							"shortName": "Plague",
+							"name": "Чума",
+							"shortName": "Чума",
 							"source": "FFPlagueCleric"
 						}
 					},
 					{
 						"class": {
-							"name": "Paladin",
+							"name": "Паладин",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Oathbreaker",
-							"shortName": "Oathbreaker",
+							"name": "Клятвопреступник",
+							"shortName": "Клятвопреступник",
 							"source": "DMG"
 						}
 					}
@@ -392,7 +392,7 @@
 			]
 		},
 		{
-			"name": "Cloud of Corruption",
+			"name": "Облако порчи",
 			"source": "FFPlagueCleric",
 			"level": 4,
 			"school": "N",
@@ -419,16 +419,16 @@
 				}
 			],
 			"entries": [
-				"{@i You release a stinking blast of diseased fury.}",
-				"Each creature within 15 feet of you must make a Constitution saving throw. A creature takes {@damage 3d6} poison damage and {@damage 4d6} necrotic damage and is {@condition poisoned} for 1 minute on a failed save, or half as much damage and isn't {@condition poisoned} on a successful one.",
-				"A {@condition poisoned} creature may repeat the saving throw at the end of each of its turns, ending the {@condition poisoned} condition on a success."
+				"{@i Вы выпускаете зловонный залп заражённой ярости.}",
+				"Каждое существо в пределах 15 фт. от вас должно совершить спасбросок Телосложения. При провале существо получает урон ядом {@damage 3d6} и некротический урон {@damage 4d6}, а также становится {@condition poisoned} на 1 минуту; при успехе оно получает вдвое меньше урона и не становится {@condition poisoned}.",
+				"Существо в состоянии {@condition poisoned} может повторить спасбросок в конце каждого своего хода, оканчивая состояние {@condition poisoned} при успехе."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the necrotic damage increases by {@dice 1d6} for each slot level above 4th."
+						"Если вы накладываете это заклинание, используя ячейку заклинания 5-го уровня или выше, некротический урон увеличивается на {@dice 1d6} за каждый уровень ячейки выше 4-го."
 					]
 				}
 			],
@@ -450,34 +450,34 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
-							"shortName": "Death",
+							"name": "Смерть",
+							"shortName": "Смерть",
 							"source": "DMG"
 						}
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Plague",
-							"shortName": "Plague",
+							"name": "Чума",
+							"shortName": "Чума",
 							"source": "FFPlagueCleric"
 						}
 					},
 					{
 						"class": {
-							"name": "Paladin",
+							"name": "Паладин",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Oathbreaker",
-							"shortName": "Oathbreaker",
+							"name": "Клятвопреступник",
+							"shortName": "Клятвопреступник",
 							"source": "DMG"
 						}
 					}
@@ -500,7 +500,7 @@
 			]
 		},
 		{
-			"name": "Plague",
+			"name": "Чума",
 			"source": "FFPlagueCleric",
 			"level": 4,
 			"school": "N",
@@ -528,14 +528,14 @@
 				}
 			],
 			"entries": [
-				"{@i You unleashes a vile disease that scours the battlefield in search of victims to infect.}",
-				"Choose one creature that you can see within range to make a Constitution saving throw. It takes {@damage 3d6} poison damage and {@damage 2d6} necrotic damage on a failed save, or half as much on a successful one.",
-				"Then, roll on the following table:",
+				"{@i Вы выпускаете отвратительную болезнь, которая прочёсывает поле боя в поисках жертв для заражения.}",
+				"Выберите одно существо, которое вы видите в пределах дистанции, чтобы оно совершило спасбросок Телосложения. При провале оно получает {@damage 3d6} ядовитого урона и {@damage 2d6} некротического урона, а при успехе — половину этого урона.",
+				"Затем бросьте по следующей таблице:",
 				{
 					"type": "table",
 					"colLabels": [
 						"{@dice d6}",
-						"Result"
+						"Результат"
 					],
 					"colStyles": [
 						"col-1 text-center no-wrap",
@@ -552,11 +552,11 @@
 							},
 							{
 								"type": "entries",
-								"name": "Backfire!",
+								"name": "Обратный удар!",
 								"entries": [
-									"The nearest creature to the current target that is friendly to you (including yourself) and within range becomes the new target of the spell and it must a Constitution saving throw as if it was the original target of the spell.",
-									"If there is more than one possible target, the DM chooses between the targets. If there are no valid targets within range, the spell ends.",
-									"Then, roll on this table again."
+									"Ближайшее к текущей цели существо, дружественное вам (включая вас самих) и находящееся в пределах дальности, становится новой целью заклинания, и оно должно совершить спасбросок Телосложения, как если бы было изначальной целью заклинания.",
+									"Если возможных целей несколько, Мастер выбирает между ними. Если в пределах дальности нет допустимых целей, заклинание заканчивается.",
+									"Затем бросьте по этой таблице снова."
 								]
 							}
 						],
@@ -570,9 +570,9 @@
 							},
 							{
 								"type": "entries",
-								"name": "Dissipate",
+								"name": "Рассеивание",
 								"entries": [
-									"The spell ends with no further effect."
+									"Заклинание заканчивается без дальнейших эффектов."
 								]
 							}
 						],
@@ -586,24 +586,24 @@
 							},
 							{
 								"type": "entries",
-								"name": "Spread!",
+								"name": "Распространение!",
 								"entries": [
-									"The nearest creature to the current target that is hostile to you and within range becomes the new target of the spell and it must a Constitution saving throw as if it was the original target of the spell.",
-									"If there is more than one possible target, you choose between the targets. If there are no valid targets within range, the spell ends.",
-									"Then, roll on this table again."
+									"Ближайшее к текущей цели существо, враждебное вам и находящееся в пределах дальности, становится новой целью заклинания, и оно должно совершить спасбросок Телосложения, как если бы было изначальной целью заклинания.",
+									"Если возможных целей несколько, вы выбираете между ними. Если в пределах дальности нет допустимых целей, заклинание заканчивается.",
+									"Затем бросьте по этой таблице снова."
 								]
 							}
 						]
 					]
 				},
-				"A creature can only be the target of this spell once each time it is cast."
+				"Существо может быть целью этого заклинания лишь один раз при каждом его сотворении."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the necrotic damage increases by {@dice 1d6} for each slot level above 4th."
+						"Если вы накладываете это заклинание, используя ячейку заклинания 5-го уровня или выше, некротический урон увеличивается на {@dice 1d6} за каждый уровень ячейки выше 4-го."
 					]
 				}
 			],
@@ -625,12 +625,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Plague",
-							"shortName": "Plague",
+							"name": "Чума",
+							"shortName": "Чума",
 							"source": "FFPlagueCleric"
 						}
 					}
@@ -654,7 +654,7 @@
 			]
 		},
 		{
-			"name": "Vector",
+			"name": "Вектор",
 			"source": "FFPlagueCleric",
 			"level": 0,
 			"school": "T",
@@ -682,8 +682,8 @@
 				}
 			],
 			"entries": [
-				"Choose one creature you can see within range, they must succeed a Constitution saving throw. On a failed save, the creature has disadvantage on saving throws against diseases for 1 minute.",
-				"This spell's duration increases when you reach certain levels: 10 minutes at 5th level, 1 hour at 11th level, and 8 hours at 17th level."
+				"Выберите одно существо, которое видите в пределах дальности; оно должно преуспеть в спасброске Телосложения. При провале существо получает помеху на спасброски против болезней на 1 минуту.",
+				"Длительность этого заклинания увеличивается, когда вы достигаете определённых уровней: 10 минут на 5-м уровне, 1 час на 11-м уровне и 8 часов на 17-м уровне."
 			],
 			"classes": {
 				"fromClassList": [
@@ -703,12 +703,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Plague",
-							"shortName": "Plague",
+							"name": "Чума",
+							"shortName": "Чума",
 							"source": "FFPlagueCleric"
 						}
 					}
@@ -726,7 +726,7 @@
 			]
 		},
 		{
-			"name": "Wither",
+			"name": "Увядание",
 			"source": "FFPlagueCleric",
 			"level": 3,
 			"school": "N",
@@ -758,16 +758,16 @@
 				}
 			],
 			"entries": [
-				"{@i With dark chanting you cast a spell of wasting, shrinking sickness and corrosion.}",
-				"Choose one target within range, they must make a Constitution saving throw. On a failed save, until the spell ends the target's Constitution score is reduced by 3 and their movement speed is halved. The target dies if this reduces its Constitution to 0. The decrease to the target's Constitution also decreases its maximum hit points, the amount it decreases by is also removed from its current hit points; this lasts until the spell ends.",
-				"At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+				"{@i Тёмным пением вы творите заклинание истощения, иссушающей болезни и разрушения.}",
+				"Выберите одну цель в пределах дальности; она должна совершить спасбросок Телосложения. При провале до окончания заклинания значение Телосложения цели снижается на 3, а скорость передвижения уменьшается вдвое. Цель умирает, если это снижает её Телосложение до 0. Уменьшение Телосложения также уменьшает её максимум хитов, и на столько же уменьшаются её текущие хиты; это длится до окончания заклинания.",
+				"В конце каждого хода цели она может совершить спасбросок Телосложения против заклинания. При успехе заклинание заканчивается."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+						"Когда вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, вы можете выбрать одно дополнительное существо за каждый уровень ячейки выше 3-го."
 					]
 				}
 			],
@@ -789,12 +789,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Plague",
-							"shortName": "Plague",
+							"name": "Чума",
+							"shortName": "Чума",
 							"source": "FFPlagueCleric"
 						}
 					}
@@ -812,7 +812,7 @@
 			]
 		},
 		{
-			"name": "Wrack",
+			"name": "Мучение",
 			"source": "FFPlagueCleric",
 			"level": 0,
 			"school": "N",
@@ -840,8 +840,8 @@
 				}
 			],
 			"entries": [
-				"One creature of your choice you can see within range experiences a jolt of searing pain and must make a Constitution saving throw. On a failed save the target takes {@damage 1d4} psychic damage and {@damage 1d4} necrotic damage.",
-				"This spell's psychic and necrotic damage increases by {@dice 1d4} each when you reach 5th level ({@damage 2d4} each), 11th level ({@damage 3d4} each), and 17th level ({@damage 4d4} each)."
+				"Одно выбранное вами существо, которое вы видите в пределах дистанции, ощущает вспышку жгучей боли и должно совершить спасбросок Телосложения. При провале спасброска цель получает {@damage 1d4} психического урона и {@damage 1d4} некротического урона.",
+				"Психический и некротический урон этого заклинания увеличивается на {@dice 1d4} каждый раз, когда вы достигаете 5-го уровня ({@damage 2d4} каждого вида), 11-го уровня ({@damage 3d4} каждого вида) и 17-го уровня ({@damage 4d4} каждого вида)."
 			],
 			"classes": {
 				"fromClassList": [
@@ -861,12 +861,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Plague",
-							"shortName": "Plague",
+							"name": "Чума",
+							"shortName": "Чума",
 							"source": "FFPlagueCleric"
 						}
 					}

@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Swordcaller Sorcery",
-			"shortName": "Swordcaller",
+			"name": "Зовущий мечи",
+			"shortName": "Зовущий мечи",
 			"source": "SwordcallerSorcery",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
@@ -70,52 +70,52 @@
 				"Mordenkainen's Sword|XPHB"
 			],
 			"subclassFeatures": [
-				"Swordcaller Sorcery|Sorcerer|XPHB|Swordcaller|SwordcallerSorcery|3",
-				"Lord of Blades|Sorcerer|XPHB|Swordcaller|SwordcallerSorcery|6",
-				"Sword Dance|Sorcerer|XPHB|Swordcaller|SwordcallerSorcery|14",
-				"Excalibur|Sorcerer|XPHB|Swordcaller|SwordcallerSorcery|18"
+				"Зовущий мечи|Sorcerer|XPHB|Зовущий мечи|SwordcallerSorcery|3",
+				"Владыка клинков|Sorcerer|XPHB|Зовущий мечи|SwordcallerSorcery|6",
+				"Танец мечей|Sorcerer|XPHB|Зовущий мечи|SwordcallerSorcery|14",
+				"Экскалибур|Sorcerer|XPHB|Зовущий мечи|SwordcallerSorcery|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Swordcaller Sorcery",
+			"name": "Зовущий мечи",
 			"source": "SwordcallerSorcery",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
-			"subclassShortName": "Swordcaller",
+			"subclassShortName": "Зовущий мечи",
 			"subclassSource": "SwordcallerSorcery",
 			"level": 3,
 			"entries": [
-				"{@i Unleash Storms of Steel}",
-				"Your magic stems from the weaponry of man, from swords to spears alike. Perhaps a forge god blessed one of your ancestors. Or maybe the soul of a legendary sword found itself reborn within you. Regardless of origin, you now hold dominion over these weapons of war, creating and manipulating them at will.",
+				"{@i Высвободите стальные бури}",
+				"Ваша магия происходит от оружия людей — от мечей и копий в равной мере. Быть может, бог-кузнец благословил одного из ваших предков. А может, душа легендарного меча возродилась в вас. Какова бы ни была причина, теперь вы властвуете над этим оружием войны, создавая его и управляя им по своей воле.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armory Spells|Sorcerer|XPHB|Swordcaller|SwordcallerSorcery|3"
+					"subclassFeature": "Заклинания арсенала|Sorcerer|XPHB|Зовущий мечи|SwordcallerSorcery|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sword Rain|Sorcerer|XPHB|Swordcaller|SwordcallerSorcery|3"
+					"subclassFeature": "Дождь мечей|Sorcerer|XPHB|Зовущий мечи|SwordcallerSorcery|3"
 				}
 			]
 		},
 		{
-			"name": "Armory Spells",
+			"name": "Заклинания арсенала",
 			"source": "SwordcallerSorcery",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
-			"subclassShortName": "Swordcaller",
+			"subclassShortName": "Зовущий мечи",
 			"subclassSource": "SwordcallerSorcery",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you reach a Sorcerer level specified in the Armory Spells table, you thereafter always have the listed spells prepared.",
+				"Достигнув уровня чародея, указанного в таблице заклинаний арсенала, вы всегда имеете подготовленными перечисленные заклинания.",
 				{
 					"type": "table",
-					"caption": "Armory Spells",
+					"caption": "Заклинания арсенала",
 					"colLabels": [
-						"Sorcerer Level",
-						"Spells"
+						"Уровень чародея",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -132,7 +132,7 @@
 						],
 						[
 							"7",
-							"{@spell Fabricate|XPHB}, {@spell Otiluke's Resilient Sphere|XPHB|Resilient Sphere}"
+							"{@spell Fabricate|XPHB}, {@spell Otiluke's Resilient Sphere|XPHB|Отилюков упругий шар}"
 						],
 						[
 							"9",
@@ -143,60 +143,60 @@
 			]
 		},
 		{
-			"name": "Sword Rain",
+			"name": "Дождь мечей",
 			"source": "SwordcallerSorcery",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
-			"subclassShortName": "Swordcaller",
+			"subclassShortName": "Зовущий мечи",
 			"subclassSource": "SwordcallerSorcery",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"While your Innate Sorcery feature is active, you can conjure spectral blades in a 5-foot Cube within 90 feet of yourself at the end of each of your turns. Each creature in the Cube must make a Dexterity saving throw against your spell save DC, taking {@dice 1d6} Force damage on a failed save or half as much damage on a successful one.",
-				"The damage increases by {@dice 1d6} when you reach Sorcerer levels 5 ({@dice 2d6}), 11 ({@dice 3d6}), and 17 ({@dice 4d6})."
+				"Пока активно ваше умение «Врождённое чародейство», вы можете в конце каждого своего хода создавать призрачные клинки в кубе с ребром 5 футов в пределах 90 футов от себя. Каждое существо в этом кубе должно совершить спасбросок Ловкости против Сл спасброска от заклинаний, получая {@dice 1d6} урона силовым полем при провале или половину этого урона при успехе.",
+				"Урон увеличивается на {@dice 1d6}, когда вы достигаете 5-го ({@dice 2d6}), 11-го ({@dice 3d6}) и 17-го ({@dice 4d6}) уровня чародея."
 			]
 		},
 		{
-			"name": "Lord of Blades",
+			"name": "Владыка клинков",
 			"source": "SwordcallerSorcery",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
-			"subclassShortName": "Swordcaller",
+			"subclassShortName": "Зовущий мечи",
 			"subclassSource": "SwordcallerSorcery",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Weapons instinctively revere you. You gain proficiency with {@item Smith's Tools|XPHB} and {@filter Martial weapons|items|type=martial weapon}.",
-				"In addition, when you are hit by a weapon attack roll, you can take a Reaction to cast {@spell Blade Ward|XPHB}, potentially causing the attack to miss. When you cast {@spell Blade Ward|XPHB} in this way, the spell ends at the start of your next turn and doesn't require Concentration."
+				"Оружие инстинктивно благоговеет перед вами. Вы получаете владение {@item Smith's Tools|XPHB} и {@filter Martial weapons|items|type=martial weapon}.",
+				"Кроме того, когда по вам попадают броском атаки оружием, вы можете реакцией наложить {@spell Blade Ward|XPHB}, потенциально заставив атаку промахнуться. Накладывая {@spell Blade Ward|XPHB} таким образом, заклинание заканчивается в начале вашего следующего хода и не требует концентрации."
 			]
 		},
 		{
-			"name": "Sword Dance",
+			"name": "Танец мечей",
 			"source": "SwordcallerSorcery",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
-			"subclassShortName": "Swordcaller",
+			"subclassShortName": "Зовущий мечи",
 			"subclassSource": "SwordcallerSorcery",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"As a Bonus Action, you can compel a {@filter Melee weapon|items|type=melee weapon} within 30 feet of yourself to serve you for 10 minutes. If the weapon is carried by a creature, the creature must succeed on a Strength saving throw against your spell save DC or drop it. Otherwise, the weapon is unaffected.",
-				"For the duration, the weapon hovers in place, and at the end of each of your turns, you can cause it to fly up to 30 feet and attack a target within 5 feet of itself, using your Charisma modifier for the attack and damage rolls.",
-				"Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending 5 Sorcery Points (no action required)."
+				"Бонусным действием вы можете принудить {@filter Melee weapon|items|type=melee weapon} в пределах 30 футов от себя служить вам в течение 10 минут. Если оружие держит существо, оно должно преуспеть в спасброске Силы против Сл спасброска от заклинаний, иначе выпустит его. В противном случае заклинание не оказывает эффекта.",
+				"Пока эффект длится, оружие висит на месте, и в конце каждого своего хода вы можете заставить его пролететь до 30 футов и атаковать цель в пределах 5 футов от себя, используя ваш модификатор Харизмы для бросков атаки и урона.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите {@variantrule Short Rest|XPHB|Short} или {@variantrule Long Rest|XPHB}. Вы также можете восстановить его использование, потратив 5 очков чародейства (действие не требуется)."
 			]
 		},
 		{
-			"name": "Excalibur",
+			"name": "Экскалибур",
 			"source": "SwordcallerSorcery",
 			"className": "Sorcerer",
 			"classSource": "XPHB",
-			"subclassShortName": "Swordcaller",
+			"subclassShortName": "Зовущий мечи",
 			"subclassSource": "SwordcallerSorcery",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"You always have the spell {@spell Mordenkainen's Sword|XPHB} prepared, and you can cast it without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
-				"Whenever you start casting the spell, you can modify it so that it doesn't require {@condition Concentration|XPHB}."
+				"У вас всегда подготовлено заклинание {@spell Mordenkainen's Sword|XPHB}, и вы можете накладывать его без материального компонента. Вы также можете наложить его один раз, не тратя ячейку заклинания, и восстанавливаете возможность накладывать его таким образом по завершении {@variantrule Long Rest|XPHB}.",
+				"Всякий раз, начиная накладывать это заклинание, вы можете видоизменить его так, чтобы оно не требовало {@condition Concentration|XPHB}."
 			]
 		}
 	]

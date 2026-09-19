@@ -4,7 +4,7 @@
 			{
 				"json": "CircleOfUpheaval",
 				"abbreviation": "CoU",
-				"full": "Circle of Upheaval",
+				"full": "Круг катаклизма",
 				"url": "https://homebrewery.naturalcrit.com/share/aTdeRvSBTBkN",
 				"version": "1.0",
 				"authors": [
@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of Upheaval",
-			"shortName": "Upheaval",
+			"name": "Круг катаклизма",
+			"shortName": "Катаклизм",
 			"source": "CircleOfUpheaval",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -76,53 +76,53 @@
 				"Earthquake"
 			],
 			"subclassFeatures": [
-				"Circle of Upheaval|Druid||Upheaval|CircleOfUpheaval|2",
-				"Tectonic Rift|Druid||Upheaval|CircleOfUpheaval|6",
-				"Shattering Bulwark|Druid||Upheaval|CircleOfUpheaval|10",
-				"World Shaking|Druid||Upheaval|CircleOfUpheaval|14"
+				"Круг катаклизма|Druid||Катаклизм|CircleOfUpheaval|2",
+				"Тектоническая расселина|Druid||Катаклизм|CircleOfUpheaval|6",
+				"Сокрушающий оплот|Druid||Катаклизм|CircleOfUpheaval|10",
+				"Сотрясение мира|Druid||Катаклизм|CircleOfUpheaval|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of Upheaval",
+			"name": "Круг катаклизма",
 			"source": "CircleOfUpheaval",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Upheaval",
+			"subclassShortName": "Катаклизм",
 			"subclassSource": "CircleOfUpheaval",
 			"level": 2,
 			"entries": [
-				"Druids of the Circle of Upheaval embody the element of earth, not as a steadfast protector, but as a destructive agent of change. Their abilities are similarly turbulent, capable of upending even the sturdiest of foundations.",
+				"Друиды Круга катаклизма воплощают стихию земли — не как стойкого защитника, а как разрушительную силу перемен. Их умения столь же неистовы: они способны сокрушить даже самые крепкие основания.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|PHB|Upheaval|CircleOfUpheaval|2"
+					"subclassFeature": "Заклинания круга|Druid|PHB|Катаклизм|CircleOfUpheaval|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Seismic Locus|Druid|PHB|Upheaval|CircleOfUpheaval|2"
+					"subclassFeature": "Сейсмический очаг|Druid|PHB|Катаклизм|CircleOfUpheaval|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Заклинания круга",
 			"source": "CircleOfUpheaval",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Upheaval",
+			"subclassShortName": "Катаклизм",
 			"subclassSource": "CircleOfUpheaval",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Upheaval feature}",
-				"Your ties to the tumultuous ground grants you access to certain spells. You learn {@spell mold earth|xge} (or another Druid cantrip of your choice if you already know the spell).",
-				"When you reach certain Druid levels, you gain access to the spells in the table below. They count as Druid spells for you, and you always have them prepared, but they don't count against the total number of spells you prepare each day.",
+				"{@i умение Круга катаклизма 2-го уровня}",
+				"Ваши связи с неспокойной землёй даруют вам доступ к определённым заклинаниям. Вы изучаете {@spell mold earth|xge} (или другой заговор друида на ваш выбор, если вы уже знаете это заклинание).",
+				"Когда вы достигаете определённых уровней друида, вы получаете доступ к заклинаниям из таблицы ниже. Для вас они считаются заклинаниями друида, и у вас они всегда подготовлены, но они не учитываются в общем числе заклинаний, которые вы готовите каждый день.",
 				{
 					"type": "table",
-					"caption": "Circle of Upheaval Spells",
+					"caption": "Заклинания Круга катаклизма",
 					"colLabels": [
-						"Druid Level",
-						"Spells"
+						"Уровень друида",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -130,27 +130,27 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell earth tremor|xge}, {@spell thunderwave}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell maximilian's earthen grasp|xge}, {@spell shatter}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell erupting earth|xge}, {@spell thunder step|xge}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell freedom of movement}, {@spell stone shape}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell destructive wave}, {@spell transmute rock|xge}"
 						],
 						[
-							"15th",
+							"15-й",
 							"{@spell earthquake}"
 						]
 					]
@@ -158,94 +158,94 @@
 			]
 		},
 		{
-			"name": "Seismic Locus",
+			"name": "Сейсмический очаг",
 			"source": "CircleOfUpheaval",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Upheaval",
+			"subclassShortName": "Катаклизм",
 			"subclassSource": "CircleOfUpheaval",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Upheaval feature}",
-				"As a bonus action, you can expend a use of your Wild Shape feature to become a locus of seismic energy.",
-				"This form lasts for 1 minute. It ends early if you dismiss it (no action required), are incapacitated, die, or use this feature again. While in this form, you gain the following benefits:",
+				"{@i умение Круга катаклизма 2-го уровня}",
+				"Бонусным действием вы можете потратить одно использование вашего умения «Дикий облик», чтобы стать средоточием сейсмической энергии.",
+				"Эта форма длится 1 минуту. Она заканчивается раньше, если вы её развеете (действие не требуется), станете недееспособным, умрёте или используете это умение снова. Пока вы находитесь в этой форме, вы получаете следующие преимущества:",
 				{
 					"type": "entries",
-					"name": "Terraform",
+					"name": "Формовка земли",
 					"entries": [
-						"When you enter your Seismic Locus, and as a bonus action on subsequent turns, you can turn a 5-foot cube of ground within 30 feet of you into {@quickref difficult terrain||3} for the duration of your form."
+						"Когда вы входите в свой Сейсмический очаг, а также бонусным действием в последующие ходы, вы можете превратить куб земли со стороной 5 футов в пределах 30 футов от вас в {@quickref труднопроходимая местность||3} на время действия вашей формы."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Aftershock",
+					"name": "Афтершок",
 					"entries": [
-						"Whenever a creature within 30 feet of you enters {@quickref difficult terrain||3} for the first time on a turn, starts its turn on {@quickref difficult terrain||3} or takes thunder damage, you can force it to succeed on a Dexterity saving throw against your spell save DC or fall {@condition prone}."
+						"Каждый раз, когда существо в пределах 30 футов от вас впервые за ход входит в {@quickref труднопроходимая местность||3}, начинает свой ход на {@quickref труднопроходимая местность||3} или получает звуковой урон, вы можете заставить его преуспеть в спасброске Ловкости против Сл ваших заклинаний, иначе оно падает {@condition prone}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Earthstrider",
+					"name": "Землеход",
 					"entries": [
-						"You are unaffected by any {@quickref difficult terrain||3} caused by the ground."
+						"На вас не действует {@quickref труднопроходимая местность||3}, вызванная землёй."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tremorsight",
+					"name": "Треморное зрение",
 					"entries": [
-						"You can see any creature within 30 feet of you regardless of its visibility while it's standing on {@quickref difficult terrain||3}."
+						"Вы можете видеть любое существо в пределах 30 футов от вас, независимо от его видимости, пока оно стоит на {@quickref труднопроходимая местность||3}."
 					]
 				}
 			]
 		},
 		{
-			"name": "Tectonic Rift",
+			"name": "Тектоническая расселина",
 			"source": "CircleOfUpheaval",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Upheaval",
+			"subclassShortName": "Катаклизм",
 			"subclassSource": "CircleOfUpheaval",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of Upheaval feature}",
-				"As an action, you can compel the earth to split, creating a fissure that extends out from an area of {@quickref difficult terrain||3} within 30 feet of you in a direction of your choice.",
-				"The fissure is {@dice 1d4 × 10} feet deep, up to 10 feet wide and up to 30 feet long. A creature standing in its area when it opens must succeed on a Dexterity saving throw against your spell save DC or fall in (a creature too large to fall in drops {@condition prone} instead). On a success, the creature moves with the fissure's edge as it opens.",
-				"Structures directly on top of the fissure when it opens take {@damage 4d12} bludgeoning damage.",
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest."
+				"{@i умение Круга катаклизма 6-го уровня}",
+				"Действием вы можете заставить землю расколоться, создав расселину, которая расходится из области {@quickref труднопроходимая местность||3} в пределах 30 футов от вас в выбранном вами направлении.",
+				"Расселина имеет глубину {@dice 1d4 × 10} футов, ширину до 10 футов и длину до 30 футов. Существо, стоящее в её области, когда она открывается, должно преуспеть в спасброске Ловкости против Сл ваших заклинаний, иначе оно падает внутрь (существо, слишком большое, чтобы упасть внутрь, вместо этого падает {@condition prone}). При успехе существо перемещается вместе с краем расселины по мере её раскрытия.",
+				"Строения, находящиеся прямо над расселиной в момент её раскрытия, получают {@damage 4d12} дробящего урона.",
+				"Вы можете использовать это умение число раз, равное вашему бонусу мастерства, и вы восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Shattering Bulwark",
+			"name": "Сокрушающий оплот",
 			"source": "CircleOfUpheaval",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Upheaval",
+			"subclassShortName": "Катаклизм",
 			"subclassSource": "CircleOfUpheaval",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of Upheaval feature}",
-				"Whenever a creature within 30 feet of you takes damage, you can use your reaction to encase it in volatile stone armor for 1 minute, granting it resistance to bludgeoning, piercing, and slashing damage for the duration. This effect ends early if you use this feature again.",
-				"If the encased creature is hit with a melee attack, the armor explodes out in retaliation, dealing thunder damage equal to your proficiency bonus to the attacker.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest, unless you expend a spell slot of 4th level or higher as part of using it."
+				"{@i умение Круга катаклизма 10-го уровня}",
+				"Каждый раз, когда существо в пределах 30 футов от вас получает урон, вы можете реакцией заключить его в нестабильную каменную броню на 1 минуту, даруя ему сопротивление дробящему, колющему и рубящему урону на это время. Эффект заканчивается раньше, если вы используете это умение снова.",
+				"Если заключённое существо поражено рукопашной атакой, броня взрывается в ответ, нанося атакующему звуковой урон, равный вашему бонусу мастерства.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите короткий или продолжительный отдых, если только не потратите ячейку заклинания 4-го уровня или выше в рамках его использования."
 			]
 		},
 		{
-			"name": "World Shaking",
+			"name": "Сотрясение мира",
 			"source": "CircleOfUpheaval",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Upheaval",
+			"subclassShortName": "Катаклизм",
 			"subclassSource": "CircleOfUpheaval",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of Upheaval feature}",
-				"When you Terraform the ground, you can also cause nearby {@quickref difficult terrain||3} to emit shockwaves. Each creature of your choice within 30 feet of you standing on {@quickref difficult terrain||3} takes {@damage 2d6} thunder damage.",
-				"The shockwaves can also damage objects of your choice within this area that aren't being worn or carried."
+				"{@i умение Круга катаклизма 14-го уровня}",
+				"Когда вы применяете Формовку земли, вы также можете заставить ближайшую {@quickref труднопроходимая местность||3} испускать ударные волны. Каждое существо на ваш выбор в пределах 30 футов от вас, стоящее на {@quickref труднопроходимая местность||3}, получает {@damage 2d6} звукового урона.",
+				"Ударные волны также могут повредить выбранные вами предметы в этой области, которые никто не носит и не несёт."
 			]
 		}
 	]

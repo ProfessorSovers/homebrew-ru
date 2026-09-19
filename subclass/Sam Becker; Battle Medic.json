@@ -23,125 +23,125 @@
 	},
 	"subclass": [
 		{
-			"name": "Battle Medic",
-			"shortName": "Battle Medic",
+			"name": "Полевой медик",
+			"shortName": "Полевой медик",
 			"source": "FFBattleMedic",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Battle Medic Martial Archetype|Fighter||Battle Medic|FFBattleMedic|3",
-				"Surgical Strike|Fighter||Battle Medic|FFBattleMedic|7",
-				"Nerve Block Buffer|Fighter||Battle Medic|FFBattleMedic|10",
-				"Don't Die On Me|Fighter||Battle Medic|FFBattleMedic|15",
-				"Miracle Worker|Fighter||Battle Medic|FFBattleMedic|18"
+				"Боевой архетип «Полевой медик»|Fighter||Полевой медик|FFBattleMedic|3",
+				"Хирургический удар|Fighter||Полевой медик|FFBattleMedic|7",
+				"Блокада нервов|Fighter||Полевой медик|FFBattleMedic|10",
+				"Не смей умирать|Fighter||Полевой медик|FFBattleMedic|15",
+				"Чудотворец|Fighter||Полевой медик|FFBattleMedic|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Battle Medic Martial Archetype",
+			"name": "Боевой архетип «Полевой медик»",
 			"source": "FFBattleMedic",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Medic",
+			"subclassShortName": "Полевой медик",
 			"subclassSource": "FFBattleMedic",
 			"level": 3,
 			"entries": [
-				"{@i {@b Designed by Sam Becker}}",
-				"\"I have been in situations where groups I have been assigned to don't have a source of magical healing, and some people take it upon themselves to do the dirty work of being the team medic for an outing. They are still capable warriors, as all adventurers should be. Their knowledge in medical practices have saved several lives. They've acted to patch up the wounded defenders of settlements and to care for the ones who barely return from the carnage of combat. At one point, I was miraculously brought back by one of these physicians. I thought I was gone, but perhaps fate has other plans for me. Even though they don't have any magical abilities to heal, I am grateful for those who persue this practice. I can be pretty brutal on their psyche, but they push through.\"",
-				"\u2014 Tyillah Valtyra",
+				"{@i {@b Дизайн: Сэм Бекер}}",
+				"\"Я бывал в ситуациях, когда у отрядов, к которым меня приписывали, не было источника магического исцеления, и некоторые брали на себя грязную работу — быть полевым лекарем в походе. Они при этом остаются умелыми воинами, как и подобает всем искателям приключений. Их познания в медицине спасли немало жизней. Они латали раненых защитников поселений и ухаживали за теми, кто едва возвращался из кровавой бойни. Однажды один из таких лекарей чудесным образом вернул меня к жизни. Я думал, что уже мёртв, но, видимо, у судьбы на меня другие планы. Хотя у них нет никаких магических способностей к исцелению, я благодарен тем, кто избирает это ремесло. Я бываю довольно жесток к их психике, но они держатся.\"",
+				"— Тийлла Валтира",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Medical Knowledge|Fighter||Battle Medic|FFBattleMedic|3"
+					"subclassFeature": "Медицинские знания|Fighter||Полевой медик|FFBattleMedic|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "First Aid|Fighter||Battle Medic|FFBattleMedic|3"
+					"subclassFeature": "Первая помощь|Fighter||Полевой медик|FFBattleMedic|3"
 				}
 			]
 		},
 		{
-			"name": "First Aid",
+			"name": "Первая помощь",
 			"source": "FFBattleMedic",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Medic",
+			"subclassShortName": "Полевой медик",
 			"subclassSource": "FFBattleMedic",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You have learned to give immediate first aid to those who need it. You have a pool of {@dice d8}s that you spend to fuel this healing. The number of dice in the pool is equal to your fighter level. As an action, you can heal one creature that you can see and touch, spending from the pool. The maximum number of dice you can spend at once equals your Wisdom modifier (minimum of one die).",
-				"Roll the dice you spend, add them together, and restore a number of hit points equal to the total.",
-				"If you have a healer's kit on your person when you use this feature, you can expend one use of it to add your Wisdom modifier (minimum of 1) to the number of hit points a creature restores.",
-				"Your pool regains all expended dice when you finish a long rest."
+				"Вы научились оказывать немедленную первую помощь тем, кто в ней нуждается. У вас есть запас {@dice d8}, который вы тратите, чтобы питать это исцеление. Число костей в запасе равно вашему уровню воина. Действием вы можете исцелить одно существо, которое видите и можете коснуться, потратив кости из запаса. Максимальное число костей, которое вы можете потратить за раз, равно вашему модификатору Мудрости (минимум одна кость).",
+				"Бросьте потраченные кости, сложите результаты и восстановите количество хитов, равное сумме.",
+				"Если при использовании этого умения у вас есть набор целителя, вы можете потратить одно его использование, чтобы добавить ваш модификатор Мудрости (минимум 1) к числу хитов, которые восстанавливает существо.",
+				"Ваш запас восстанавливает все потраченные кости по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Medical Knowledge",
+			"name": "Медицинские знания",
 			"source": "FFBattleMedic",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Medic",
+			"subclassShortName": "Полевой медик",
 			"subclassSource": "FFBattleMedic",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You have been trained in the medical field extensively. You gain proficiency in the {@skill Medicine} skill and with {@item herbalism kit|PHB|herbalism kits}."
+				"Вы прошли обширную подготовку в области медицины. Вы получаете владение навыком {@skill Medicine} и {@item herbalism kit|PHB|набором травника}."
 			]
 		},
 		{
-			"name": "Surgical Strike",
+			"name": "Хирургический удар",
 			"source": "FFBattleMedic",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Medic",
+			"subclassShortName": "Полевой медик",
 			"subclassSource": "FFBattleMedic",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level you have knowledge of vital points in a creature's body to strike. Once per turn, when you roll damage for a weapon attack and roll the highest number possible on at least one of the dice, you can roll one additional damage die and add the number rolled to the attack's damage roll.",
-				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and regain all expended uses when you finish a short or long rest."
+				"На 7-м уровне вы знаете жизненно важные точки в теле существа, по которым стоит бить. Один раз за ход, когда вы бросаете урон атаки оружием и хотя бы на одной кости выпадает максимально возможное число, вы можете бросить ещё одну кость урона и добавить выпавшее значение к броску урона атаки.",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования по завершении короткого или продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Nerve Block Buffer",
+			"name": "Блокада нервов",
 			"source": "FFBattleMedic",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Medic",
+			"subclassShortName": "Полевой медик",
 			"subclassSource": "FFBattleMedic",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"In the heat of the moment, you inject some numbing medicine to have someone feel less pain. Starting at 10th level when you use {@subclassFeature First Aid|Fighter||Battle Medic|FFBattleMedic|3}, you can give the creature you heal temporary hit points equal to the total amount of hit points restored. Once you use this feature, you can't use it again until you finish a short or long rest."
+				"В пылу боя вы вводите обезболивающее лекарство, чтобы кто-то чувствовал меньше боли. Начиная с 10-го уровня, когда вы используете {@subclassFeature Первая помощь|Fighter||Полевой медик|FFBattleMedic|3}, вы можете дать исцелённому существу временные хиты в количестве, равном общему восстановленному числу хитов. Использовав это умение, вы не можете применить его снова, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Don't Die On Me",
+			"name": "Не смей умирать",
 			"source": "FFBattleMedic",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Medic",
+			"subclassShortName": "Полевой медик",
 			"subclassSource": "FFBattleMedic",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level you are able to get a fallen ally back in relative fighting shape. When you use {@subclassFeature First Aid|Fighter||Battle Medic|FFBattleMedic|3} on a creature that is at 0 hit points, instead of rolling, you use the maximum number possible for each die you spend."
+				"Начиная с 15-го уровня вы способны вернуть павшего союзника в относительно боеспособное состояние. Когда вы используете {@subclassFeature Первая помощь|Fighter||Полевой медик|FFBattleMedic|3} на существе с 0 хитов, вы вместо броска используете максимально возможное число на каждой потраченной кости."
 			]
 		},
 		{
-			"name": "Miracle Worker",
+			"name": "Чудотворец",
 			"source": "FFBattleMedic",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Medic",
+			"subclassShortName": "Полевой медик",
 			"subclassSource": "FFBattleMedic",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"You try to bring someone back from the clutches of death. You can try to resuscitate a creature who has been dead for no more than 10 minutes with 1 minute of work. You must expend two uses of a {@item healer's kit|PHB} you have on your person and make a DC 20 Wisdom ({@skill Medicine}) check.",
-				"If the check is successful, the creature comes back to life with 1 hit point, but is {@condition unconscious} for {@dice 1d6} hours. When the creature wakes up, they gain 1 level of {@condition exhaustion}.",
-				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and regain all expended uses when you finish a long rest."
+				"Вы пытаетесь вырвать кого-то из хватки смерти. Вы можете попытаться вернуть к жизни существо, мёртвое не более 10 минут, потратив на это 1 минуту работы. Вы должны израсходовать два использования {@item healer's kit|PHB}, имеющегося у вас, и совершить проверку Мудрости ({@skill Medicine}) со Сл 20.",
+				"При успехе проверки существо возвращается к жизни с 1 хитом, но остаётся {@condition unconscious} в течение {@dice 1d6} часов. Когда существо просыпается, оно получает 1 уровень {@condition exhaustion}.",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		}
 	]

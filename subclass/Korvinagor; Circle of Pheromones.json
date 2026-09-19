@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of Pheromones",
-			"shortName": "Pheromones",
+			"name": "Круг феромонов",
+			"shortName": "Феромоны",
 			"source": "CircleOfPheromones",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -149,122 +149,122 @@
 				"Psychic Scream|XGE"
 			],
 			"subclassFeatures": [
-				"Circle of Pheromones|Druid||Pheromones|CircleOfPheromones|2",
-				"Beguiling Scents|Druid||Pheromones|CircleOfPheromones|6",
-				"Universal Allure|Druid||Pheromones|CircleOfPheromones|10",
-				"Lingering Fragrance|Druid||Pheromones|CircleOfPheromones|14"
+				"Круг феромонов|Druid||Феромоны|CircleOfPheromones|2",
+				"Обольстительные ароматы|Druid||Феромоны|CircleOfPheromones|6",
+				"Всеобщее обаяние|Druid||Феромоны|CircleOfPheromones|10",
+				"Стойкий аромат|Druid||Феромоны|CircleOfPheromones|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of Pheromones",
+			"name": "Круг феромонов",
 			"source": "CircleOfPheromones",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Pheromones",
+			"subclassShortName": "Феромоны",
 			"subclassSource": "CircleOfPheromones",
 			"level": 2,
 			"entries": [
-				"Druids of the Circle of Pheromones are captivating envoys of the natural world. Comfortable with navigating through royal courts and city politics alike, they enhance their diplomatic skills with a primal form of communication that predates speech: the language of fragrances.",
+				"Друиды Круга феромонов — обаятельные посланники мира природы. Чувствуя себя уверенно и при королевских дворах, и в городской политике, они усиливают свои дипломатические навыки первобытной формой общения, что предшествует речи: языком запахов.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Aroma Spells|Druid|PHB|Pheromones|CircleOfPheromones|2"
+					"subclassFeature": "Заклинания аромата|Druid|PHB|Феромоны|CircleOfPheromones|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enchanting Haze|Druid|PHB|Pheromones|CircleOfPheromones|2"
+					"subclassFeature": "Очаровывающая дымка|Druid|PHB|Феромоны|CircleOfPheromones|2"
 				}
 			]
 		},
 		{
-			"name": "Aroma Spells",
+			"name": "Заклинания аромата",
 			"source": "CircleOfPheromones",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Pheromones",
+			"subclassShortName": "Феромоны",
 			"subclassSource": "CircleOfPheromones",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Pheromones feature}",
-				"Your magic sways hearts and minds using the myriad scents of nature. You learn an {@filter enchantment cantrip|spells|level=0|school=E} of your choice, and choose an {@filter enchantment spell|spells|level=1;2;3;4;5;6;7;8;9|school=E} to gain access to. Whenever you reach an odd level in this class, you choose another enchantment spell to gain access to, and can change one of the spells granted by this feature.",
-				"Each spell must be of a level that you can prepare as a druid. They count as druid spells for you, and you always have them prepared, but they don't count against the total number of spells you prepare each day."
+				"{@i умение Круга феромонов 2-го уровня}",
+				"Ваша магия управляет сердцами и умами с помощью бесчисленных запахов природы. Вы изучаете один {@filter enchantment cantrip|spells|level=0|school=E} на свой выбор и выбираете {@filter enchantment spell|spells|level=1;2;3;4;5;6;7;8;9|school=E}, к которому получаете доступ. Всякий раз, когда вы достигаете нечётного уровня в этом классе, вы выбираете ещё одно заклинание очарования, к которому получаете доступ, и можете заменить одно из заклинаний, предоставленных этим умением.",
+				"Каждое заклинание должно быть того уровня, который вы можете подготовить как друид. Для вас они считаются заклинаниями друида, и у вас они всегда подготовлены, но они не учитываются в общем числе заклинаний, которые вы готовите каждый день."
 			]
 		},
 		{
-			"name": "Enchanting Haze",
+			"name": "Очаровывающая дымка",
 			"source": "CircleOfPheromones",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Pheromones",
+			"subclassShortName": "Феромоны",
 			"subclassSource": "CircleOfPheromones",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Pheromones feature}",
-				"As an action, you can expend a use of your Wild Shape feature to radiate invisible, undetectable pheromones in an aura with a 15-foot radius.",
-				"The aura lasts a number of hours equal to half your druid level. It ends early if you dismiss it (no action required), are {@condition incapacitated}, die, or use this feature again. While this aura is active, you gain the following benefits:",
+				"{@i умение Круга феромонов 2-го уровня}",
+				"Действием вы можете потратить одно использование вашего умения «Дикий облик», чтобы начать излучать невидимые, необнаружимые феромоны в ауре радиусом 15 футов.",
+				"Аура длится число часов, равное половине вашего уровня друида. Она заканчивается раньше, если вы её развеете (действие не требуется), станете {@condition incapacitated}, умрёте или используете это умение снова. Пока эта аура активна, вы получаете следующие преимущества:",
 				{
 					"type": "entries",
-					"name": "Fragrant Appeal",
+					"name": "Благоуханное обаяние",
 					"entries": [
-						"As a bonus action, you can force a creature within your Enchanting Haze to succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} by you until the start of your next turn."
+						"Бонусным действием вы можете заставить существо в пределах вашей Очаровывающей дымки преуспеть в спасброске Мудрости против Сл ваших заклинаний, иначе оно становится {@condition charmed} вами до начала вашего следующего хода."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Natural Diplomacy",
+					"name": "Природная дипломатия",
 					"entries": [
-						"You can use your Wisdom modifier in place of your Charisma modifier when making Charisma checks, and gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Intimidation}, {@skill Performance}, or {@skill Persuasion}."
+						"Вы можете использовать свой модификатор Мудрости вместо модификатора Харизмы при совершении проверок Харизмы и получаете владение одним из следующих навыков на свой выбор: {@skill Deception}, {@skill Intimidation}, {@skill Performance} или {@skill Persuasion}."
 					]
 				}
 			]
 		},
 		{
-			"name": "Beguiling Scents",
+			"name": "Обольстительные ароматы",
 			"source": "CircleOfPheromones",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Pheromones",
+			"subclassShortName": "Феромоны",
 			"subclassSource": "CircleOfPheromones",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of Pheromones feature}",
-				"Your fragrance confuses others using mimicry and misdirection. While your Enchanting Haze is active, you can cast {@spell disguise self} at will, without expending a spell slot. The spell ends early if your Enchanting Haze ends.",
-				"Additionally, immediately before an enemy creature you can see makes an attack roll or starts to cast a spell, you can use your reaction to apply olfactory camouflage on a creature of your choice within your Enchanting Haze. The chosen creature becomes {@condition invisible} until the end of its next turn or until it attacks or casts a spell.",
-				"Once you use this reaction, you can't use it again until you reactivate your Enchanting Haze."
+				"{@i умение Круга феромонов 6-го уровня}",
+				"Ваш аромат сбивает других с толку, используя подражание и введение в заблуждение. Пока ваша Очаровывающая дымка активна, вы можете сотворять {@spell disguise self} по желанию, не тратя ячейку заклинаний. Заклинание заканчивается раньше, если заканчивается ваша Очаровывающая дымка.",
+				"Кроме того, непосредственно перед тем, как враждебное существо, которое вы можете видеть, совершает бросок атаки или начинает сотворять заклинание, вы можете реакцией применить обонятельный камуфляж к существу на ваш выбор в пределах вашей Очаровывающей дымки. Выбранное существо становится {@condition invisible} до конца своего следующего хода или пока не совершит атаку или не сотворит заклинание.",
+				"Использовав эту реакцию, вы не можете применить её снова, пока не реактивируете свою Очаровывающую дымку."
 			]
 		},
 		{
-			"name": "Universal Allure",
+			"name": "Всеобщее обаяние",
 			"source": "CircleOfPheromones",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Pheromones",
+			"subclassShortName": "Феромоны",
 			"subclassSource": "CircleOfPheromones",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of Pheromones feature}",
-				"The pheromones that you radiate transcend words and boundaries, letting you speak telepathically to any creatures of your choice within your Enchanting Haze. Each creature understands you regardless of the language you speak, and can telepathically reply to you in a similar way if you allow the creature to do so.",
-				"When you cast {@spell disguise self}, or cast an {@filter enchantment spell|spells|school=E} that only affects or targets the creatures that you can speak telepathically to, you can ignore the spell's verbal and somatic components, as well as any material components that lack a cost and aren't consumed by it."
+				"{@i умение Круга феромонов 10-го уровня}",
+				"Феромоны, которые вы излучаете, превосходят слова и границы, позволяя вам телепатически говорить с любыми существами на ваш выбор в пределах вашей Очаровывающей дымки. Каждое существо понимает вас независимо от того, на каком языке вы говорите, и может телепатически ответить вам схожим образом, если вы позволите существу это сделать.",
+				"Когда вы сотворяете {@spell disguise self} или сотворяете {@filter enchantment spell|spells|school=E}, который действует только на существ, с которыми вы можете телепатически говорить, или нацеливается только на них, вы можете игнорировать словесные и жестовые компоненты заклинания, а также любые материальные компоненты, не имеющие стоимости и не расходуемые им."
 			]
 		},
 		{
-			"name": "Lingering Fragrance",
+			"name": "Стойкий аромат",
 			"source": "CircleOfPheromones",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Pheromones",
+			"subclassShortName": "Феромоны",
 			"subclassSource": "CircleOfPheromones",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of Pheromones feature}",
-				"Once the scent of your magic takes hold, it's easy to succumb to it further. Whenever a creature that is {@condition charmed} by you makes a saving throw against your enchantment spells or your Fragrant Appeal, it must roll a {@dice d4} and subtract the number rolled from the saving throw.",
-				"When you activate your Enchanting Haze, you can use your Fragrant Appeal on any number of creatures. Each affected creature is {@condition charmed} by you until the end of your Enchanting Haze. A creature can make another Wisdom saving throw against the effect each time it takes damage. On a success, the effect ends."
+				"{@i умение Круга феромонов 14-го уровня}",
+				"Как только аромат вашей магии укореняется, ему всё легче поддаться. Каждый раз, когда существо, {@condition charmed} вами, совершает спасбросок от ваших заклинаний очарования или вашего Благоуханного обаяния, оно должно бросить {@dice d4} и вычесть выпавшее число из спасброска.",
+				"Когда вы активируете свою Очаровывающую дымку, вы можете применить своё Благоуханное обаяние к любому числу существ. Каждое затронутое существо становится {@condition charmed} вами до конца вашей Очаровывающей дымки. Существо может совершать новый спасбросок Мудрости против этого эффекта каждый раз, когда получает урон. При успехе эффект заканчивается."
 			]
 		}
 	]

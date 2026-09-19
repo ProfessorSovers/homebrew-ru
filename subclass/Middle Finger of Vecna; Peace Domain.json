@@ -23,8 +23,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Peace Domain",
-			"shortName": "Peace",
+			"name": "Домен мира",
+			"shortName": "Мир",
 			"source": "mfovpeace",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -41,32 +41,32 @@
 				"dispel evil and good"
 			],
 			"subclassFeatures": [
-				"Peace Domain|Cleric|PHB|Peace|mfovpeace|1",
-				"Channel Divinity: Peacebond|Cleric|PHB|Peace|mfovpeace|2",
-				"Impede Aggressor|Cleric|PHB|Peace|mfovpeace|6",
-				"Divine Strike|Cleric|PHB|Peace|mfovpeace|8",
-				"Pacifism|Cleric|PHB|Peace|mfovpeace|17"
+				"Домен мира|Cleric|PHB|Мир|mfovpeace|1",
+				"Божественный канал: узы мира|Cleric|PHB|Мир|mfovpeace|2",
+				"Сдержать агрессора|Cleric|PHB|Мир|mfovpeace|6",
+				"Божественный удар|Cleric|PHB|Мир|mfovpeace|8",
+				"Пацифизм|Cleric|PHB|Мир|mfovpeace|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Peace Domain",
+			"name": "Домен мира",
 			"source": "mfovpeace",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Мир",
 			"subclassSource": "mfovpeace",
 			"level": 1,
 			"entries": [
-				"Clerics of peace venerate the ideal of harmony, and search for nonviolent solutions to worldly problems whenever possible. However, they are not strictly pacifists. If a situation proves too dire, or if all other options are exhausted, these clerics may use violence, especially if it protects someone in need. Gods of this domain - including Eldath, Rao, and Majere - are almost exclusively good, as are their clerics.",
+				"Жрецы мира почитают идеал согласия и всегда, когда возможно, ищут ненасильственные решения мирских проблем. Однако они не являются строгими пацифистами. Если положение слишком отчаянное или все прочие возможности исчерпаны, эти жрецы могут применить насилие — особенно если это защищает того, кто в нужде. Боги этого домена, включая Элдат, Рао и Маджере, почти исключительно добрые, как и их жрецы.",
 				{
 					"type": "table",
-					"caption": "Peace Domain Spells",
+					"caption": "Заклинания домена мира",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"Уровень жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -74,119 +74,119 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell charm person}, {@spell sanctuary}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell calm emotions}, {@spell hold person}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell protection from energy}, {@spell tongues}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell confusion}, {@spell freedom of movement}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell dominate person}, {@spell dispel evil and good}"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Censure Evil|Cleric|PHB|Peace|mfovpeace|1"
+					"subclassFeature": "Осуждать зло|Cleric|PHB|Мир|mfovpeace|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Pacifying Voice|Cleric|PHB|Peace|mfovpeace|1"
+					"subclassFeature": "Умиротворяющий голос|Cleric|PHB|Мир|mfovpeace|1"
 				}
 			]
 		},
 		{
-			"name": "Censure Evil",
+			"name": "Осуждать зло",
 			"source": "mfovpeace",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Мир",
 			"subclassSource": "mfovpeace",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you select this domain at 1st level, you can channel holy power from the divine planes to censure evil creatures. Your Turn Undead and Destroy Undead features also effect fey and fiends."
+				"Выбрав этот домен на 1-м уровне, вы можете направлять святую силу с божественных планов, чтобы осуждать злых существ. Ваши умения «Изгнание нежити» и «Уничтожение нежити» также действуют на фей и исчадий."
 			]
 		},
 		{
-			"name": "Pacifying Voice",
+			"name": "Умиротворяющий голос",
 			"source": "mfovpeace",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Мир",
 			"subclassSource": "mfovpeace",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you can magically speak in a booming voice, commanding attention and authority. You gain a bonus of half your proficiency bonus when you make a {@skill Persuasion} check to command other creatures. This benefit stacks with your proficiency bonus if you are already proficient in Persuasion."
+				"На 1-м уровне вы можете магически говорить гулким голосом, внушая внимание и властность. Вы получаете бонус, равный половине вашего бонуса мастерства, когда совершаете проверку {@skill Persuasion}, чтобы повелевать другими существами. Это преимущество складывается с вашим бонусом мастерства, если вы уже владеете Убеждением."
 			]
 		},
 		{
-			"name": "Channel Divinity: Peacebond",
+			"name": "Божественный канал: узы мира",
 			"source": "mfovpeace",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Мир",
 			"subclassSource": "mfovpeace",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"Starting at 2nd level, as an action, you can pacify nearby creatures. Each creature within 30 feet of you must make a Wisdom saving throw. On a failed save, the creature's weapons and ammunition become locked in their sheaths, quivers, or holsters for 1 minute. During this time, a creature may only free their weapon with a DC 18 Strength check."
+				"Начиная с 2-го уровня вы можете действием умиротворить существ поблизости. Каждое существо в пределах 30 футов от вас должно совершить спасбросок Мудрости. При провале оружие и боеприпасы существа запираются в ножнах, колчанах или кобурах на 1 минуту. В течение этого времени существо может освободить своё оружие только проверкой Силы со Сл 18."
 			]
 		},
 		{
-			"name": "Impede Aggressor",
+			"name": "Сдержать агрессора",
 			"source": "mfovpeace",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Мир",
 			"subclassSource": "mfovpeace",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, as a reaction when a creature that you can see attacks a creature that has not yet taken a turn in combat, you can cause that attack roll to be made at disadvantage."
+				"На 6-м уровне реакцией, когда существо, которое вы видите, атакует существо, ещё не совершившее ход в бою, вы можете заставить этот бросок атаки совершаться с помехой."
 			]
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Божественный удар",
 			"source": "mfovpeace",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Мир",
 			"subclassSource": "mfovpeace",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} radiant damage. When you reach 14th level, the extra radiant damage increases to {@damage 2d8}."
+				"На 8-м уровне вы обретаете способность наполнять свои удары оружием божественной энергией. Один раз в каждый свой ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести дополнительный излучающий урон {@damage 1d8}. Достигнув 14-го уровня, этот дополнительный излучающий урон увеличивается до {@damage 2d8}."
 			]
 		},
 		{
-			"name": "Pacifism",
+			"name": "Пацифизм",
 			"source": "mfovpeace",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Мир",
 			"subclassSource": "mfovpeace",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Beginning at 17th level, as an action you can create an aura of pure pacifism for up to 1 minute. Each creature within 15 feet of you makes attack rolls with disadvantage. On your turn, you must spend your action maintaining this effect, otherwise it ends. After using this feature, you must compete a long rest before using it again."
+				"Начиная с 17-го уровня вы можете действием создать ауру чистого пацифизма на срок до 1 минуты. Каждое существо в пределах 15 футов от вас совершает броски атаки с помехой. В свой ход вы должны тратить своё действие на поддержание этого эффекта, иначе он заканчивается. Использовав это умение, вы должны завершить продолжительный отдых, прежде чем применить его снова."
 			]
 		}
 	]

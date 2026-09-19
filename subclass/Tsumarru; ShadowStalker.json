@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Shadow Stalker Otherworldly Patron",
-			"shortName": "Stalker",
+			"name": "Теневой охотник, потусторонний покровитель",
+			"shortName": "Охотник",
 			"source": "ShadowStalker",
 			"className": "Warlock",
 			"classSource": "PHB",
@@ -40,63 +40,63 @@
 				"Raise Dead"
 			],
 			"subclassFeatures": [
-				"Shadow Stalker|Warlock||Stalker|ShadowStalker|1",
-				"Shadow Summon|Warlock||Stalker|ShadowStalker|6",
-				"Nights Respite|Warlock||Stalker|ShadowStalker|10",
-				"Nightmareish Repose|Warlock||Stalker|ShadowStalker|14"
+				"Теневой охотник|Warlock||Охотник|ShadowStalker|1",
+				"Теневой призыв|Warlock||Охотник|ShadowStalker|6",
+				"Ночная передышка|Warlock||Охотник|ShadowStalker|10",
+				"Кошмарный покой|Warlock||Охотник|ShadowStalker|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Shadow Stalker",
+			"name": "Теневой охотник",
 			"source": "ShadowStalker",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Stalker",
+			"subclassShortName": "Охотник",
 			"subclassSource": "ShadowStalker",
 			"level": 1,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Expanded Spell List|Warlock||Stalker|ShadowStalker|1"
+					"subclassFeature": "Расширенный список заклинаний|Warlock||Охотник|ShadowStalker|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dark Fears|Warlock||Stalker|ShadowStalker|1"
+					"subclassFeature": "Тёмные страхи|Warlock||Охотник|ShadowStalker|1"
 				}
 			]
 		},
 		{
-			"name": "Dark Fears",
+			"name": "Тёмные страхи",
 			"source": "ShadowStalker",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Stalker",
+			"subclassShortName": "Охотник",
 			"subclassSource": "ShadowStalker",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you gain a sinister, shadow like aura. You may make intimidation rolls as a free action, the creature must make a wisdom check against your Spell DC or be frightened for a minute.",
-				"This may not be affected by spells such as bless. They have disadvantage if you are in dim light or darkness."
+				"Начиная с 1-го уровня вы обретаете зловещую, подобную тени ауру. Вы можете совершать проверки Запугивания свободным действием: существо должно совершить проверку Мудрости против Сл ваших заклинаний, иначе станет испуганным на 1 минуту.",
+				"На это не влияют такие заклинания, как «Благословение». Они совершают проверку с помехой, если вы находитесь в тусклом свете или темноте."
 			]
 		},
 		{
-			"name": "Expanded Spell List",
+			"name": "Расширенный список заклинаний",
 			"source": "ShadowStalker",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Stalker",
+			"subclassShortName": "Охотник",
 			"subclassSource": "ShadowStalker",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"The Shadow Stalker lets you choose from an expanded spell list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				"Теневой охотник позволяет вам выбирать заклинания из расширенного списка, когда вы изучаете заклинание колдуна. Следующие заклинания добавляются к вашему списку заклинаний колдуна.",
 				{
 					"type": "table",
 					"colLabels": [
-						"Spell Level",
-						"Spell"
+						"Уровень заклинания",
+						"Заклинание"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -104,23 +104,23 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell False Life}, {@spell Inflict Wounds}"
 						],
 						[
-							"2nd",
+							"2-й",
 							"{@spell Blur}, {@spell Levitate}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell Speak with Dead}, {@spell Animate Dead}"
 						],
 						[
-							"4th",
+							"4-й",
 							"{@spell Death Ward}, {@spell Evard's Black Tentacles}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell Creation}, {@spell Raise Dead}"
 						]
 					]
@@ -128,47 +128,47 @@
 			]
 		},
 		{
-			"name": "Shadow Summon",
+			"name": "Теневой призыв",
 			"source": "ShadowStalker",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Stalker",
+			"subclassShortName": "Охотник",
 			"subclassSource": "ShadowStalker",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level you manipulate the space in ones shadows. Once per short rest, you may target a dead creature of equal or lower CR/Level and summon a shadow of it that uses the creatures stat block, this shadow obeys you while it is summoned and is banished after a minute.",
-				"You may spend an hour attuning to a creatures shadow by preforming a ritual on its corpse. For the next day you may summon that creature again without it's body's presence.",
-				"If you preform this ritual for 30 days consecutivley you can permenantly summon the shadow."
+				"Начиная с 6-го уровня вы управляете пространством в чьих-то тенях. Один раз за короткий отдых вы можете выбрать мёртвое существо с ПО или уровнем не выше вашего и призвать его тень, использующую блок статистики этого существа. Эта тень подчиняется вам, пока призвана, и изгоняется через минуту.",
+				"Вы можете потратить час, настраиваясь на тень существа, проведя ритуал над его трупом. В течение следующего дня вы можете призывать это существо снова без присутствия его тела.",
+				"Если вы проводите этот ритуал 30 дней подряд, вы можете призывать тень постоянно."
 			]
 		},
 		{
-			"name": "Nights Respite",
+			"name": "Ночная передышка",
 			"source": "ShadowStalker",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Stalker",
+			"subclassShortName": "Охотник",
 			"subclassSource": "ShadowStalker",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"When you are in darkness of any kind, a 10ft radius around you is treated as magical darkness. You and your allies can see in this darkness.",
-				"Once per short rest you may produce this 10 ft of magical darkeness at will."
+				"Когда вы находитесь в темноте любого рода, область радиусом 10 футов вокруг вас считается магической темнотой. Вы и ваши союзники можете видеть в этой темноте.",
+				"Один раз за короткий отдых вы можете по своему желанию создать эту магическую темноту радиусом 10 футов."
 			]
 		},
 		{
-			"name": "Nightmareish Repose",
+			"name": "Кошмарный покой",
 			"source": "ShadowStalker",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Stalker",
+			"subclassShortName": "Охотник",
 			"subclassSource": "ShadowStalker",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you gain the ability to manipulate the living or dead through the shadows. You may touch an {@condition unconsious}, {@condition incapacitated}, or dead creature, it becomes your Puppet.",
-				"The Puppet remains in the state it was in and does everything you tell it to, be it speak, take an action, or cast a spell as normal.",
-				"Only a remove curse, or wish spell can remove this effect and you may only have one Puppet at a time."
+				"На 14-м уровне вы обретаете способность управлять живыми или мёртвыми через тени. Вы можете коснуться {@condition unconsious}, {@condition incapacitated} или мёртвого существа — оно становится вашей марионеткой.",
+				"Марионетка остаётся в том состоянии, в котором была, и делает всё, что вы ей велите: говорит, совершает действие или накладывает заклинание как обычно.",
+				"Только заклинания «Снятие проклятия» или «Исполнение желаний» могут снять этот эффект, и у вас может быть только одна марионетка одновременно."
 			]
 		}
 	]

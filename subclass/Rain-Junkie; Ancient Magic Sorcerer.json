@@ -24,8 +24,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Ancient Magic Sorcerer",
-			"shortName": "Ancient Magic",
+			"name": "Чародей древней магии",
+			"shortName": "Древняя магия",
 			"source": "AncientSorc",
 			"className": "Sorcerer",
 			"classSource": "PHB",
@@ -39,32 +39,32 @@
 				"bones of the earth|xge"
 			],
 			"subclassFeatures": [
-				"Ancient Magic|Sorcerer||Ancient Magic|AncientSorc|1",
-				"Consult the Past|Sorcerer||Ancient Magic|AncientSorc|6",
-				"From the Dunes|Sorcerer||Ancient Magic|AncientSorc|6",
-				"Everlasting Empire|Sorcerer||Ancient Magic|AncientSorc|14",
-				"Obelisk of the Ancients|Sorcerer||Ancient Magic|AncientSorc|18"
+				"Древняя магия|Sorcerer||Древняя магия|AncientSorc|1",
+				"Обратиться к прошлому|Sorcerer||Древняя магия|AncientSorc|6",
+				"Из дюн|Sorcerer||Древняя магия|AncientSorc|6",
+				"Вечная империя|Sorcerer||Древняя магия|AncientSorc|14",
+				"Обелиск древних|Sorcerer||Древняя магия|AncientSorc|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Ancient Magic",
+			"name": "Древняя магия",
 			"source": "AncientSorc",
 			"page": 1,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Ancient Magic",
+			"subclassShortName": "Древняя магия",
 			"subclassSource": "AncientSorc",
 			"level": 1,
 			"entries": [
-				"Your heritage ties to fallen empires and great rulers whose legacy has been reduced to dust. Much like grains of sand, the chance of you holding this powerful magic is one in a million, but you can call upon your lost empire to aid you in the present.",
+				"Ваше наследие связано с павшими империями и великими правителями, чьё наследие обратилось в прах. Подобно песчинкам, шанс, что вы обладаете этой могущественной магией, — один на миллион, но вы можете взывать к своей утраченной империи, чтобы она помогла вам в настоящем.",
 				{
 					"type": "table",
-					"caption": "Ancient Origin Spells",
+					"caption": "Заклинания древнего происхождения",
 					"colLabels": [
-						"Sorcerer Level",
-						"Spell"
+						"Уровень чародея",
+						"Заклинание"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -72,155 +72,155 @@
 					],
 					"rows": [
 						[
-							"1st",
-							"{@spell sandstorm|AncientSorc}"
+							"1-й",
+							"{@spell Песчаная буря|AncientSorc}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell blindness/deafness}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell wall of sand|XGE}"
 						],
 						[
-							"7th",
-							"{@spell sand rush|AncientSorc}"
+							"7-й",
+							"{@spell Песчаный рывок|AncientSorc}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell danse macabre|XGE}"
 						],
 						[
-							"11th",
+							"11-й",
 							"{@spell bones of the earth|XGE}"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Variant Feature: Origin Spells|Sorcerer||Ancient Magic|AncientSorc|1"
+					"subclassFeature": "Вариант умения: заклинания происхождения|Sorcerer||Древняя магия|AncientSorc|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Desert Born|Sorcerer||Ancient Magic|AncientSorc|1"
+					"subclassFeature": "Рождённый в пустыне|Sorcerer||Древняя магия|AncientSorc|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancient Legion|Sorcerer||Ancient Magic|AncientSorc|1"
+					"subclassFeature": "Древний легион|Sorcerer||Древняя магия|AncientSorc|1"
 				}
 			]
 		},
 		{
-			"name": "Ancient Legion",
+			"name": "Древний легион",
 			"source": "AncientSorc",
 			"page": 1,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Ancient Magic",
+			"subclassShortName": "Древняя магия",
 			"subclassSource": "AncientSorc",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you can call upon the ancient remnants of your empire, calling forth a servant to aid you in battle as an action on your turn. This servant has the statistics of a {@creature skeleton|MM}, but it can only make its shortsword attack, and its hit points are equal to your Charisma modifier + your sorcerer level.",
-				"On each of your turns, you can use a bonus action to mentally command any skeleton under your control if it is within 60 feet of you (if you control multiple skeletons, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the skeleton will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the skeleton only defends itself against hostile creatures. Once given an order, the skeleton continues to follow it until its task is complete.",
-				"This skeleton lasts for 1 minute, or until its reduced to 0 hit points, at which point it turns to sand.",
-				"Once you summon a skeleton with this feature, you can't do so again until you finish a short or long rest."
+				"Начиная с 1-го уровня вы можете взывать к древним останкам своей империи, действием в свой ход вызывая слугу, который поможет вам в бою. Этот слуга имеет характеристики {@creature skeleton|MM}, но может совершать только атаку коротким мечом, а его хиты равны вашему модификатору Харизмы + ваш уровень чародея.",
+				"В каждый свой ход вы можете бонусным действием мысленно приказать любому скелету под вашим контролем, если он находится в пределах 60 футов от вас (если вы контролируете нескольких скелетов, вы можете приказать любому из них или всем сразу, отдав одинаковый приказ каждому). Вы решаете, какое действие скелет совершит и куда переместится в свой следующий ход, либо можете отдать общий приказ, например охранять определённую комнату или коридор. Если вы не отдаёте приказов, скелет только защищается от враждебных существ. Получив приказ, скелет следует ему, пока не выполнит задачу.",
+				"Этот скелет существует 1 минуту или пока его хиты не снизятся до 0, после чего он обращается в песок.",
+				"Призвав скелета этим умением, вы не можете сделать это снова, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Desert Born",
+			"name": "Рождённый в пустыне",
 			"source": "AncientSorc",
 			"page": 1,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Ancient Magic",
+			"subclassShortName": "Древняя магия",
 			"subclassSource": "AncientSorc",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, the desert's heat warms your skin. You have advantage on ability checks and saving throws to avoid exhaustion, and you're naturally adapted to hot climates, as described in {@book chapter 5|DMG|5} of the Dungeon Master's Guide."
+				"Начиная с 1-го уровня жар пустыни согревает вашу кожу. Вы получаете преимущество на проверки характеристик и спасброски против истощения и естественно приспособлены к жаркому климату, как описано в {@book chapter 5|DMG|5} «Книги Мастера»."
 			]
 		},
 		{
-			"name": "Variant Feature: Origin Spells",
+			"name": "Вариант умения: заклинания происхождения",
 			"source": "AncientSorc",
 			"page": 1,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Ancient Magic",
+			"subclassShortName": "Древняя магия",
 			"subclassSource": "AncientSorc",
 			"level": 1,
 			"header": 1,
 			"type": "inset",
 			"entries": [
-				"You gain spells at the sorcerer levels noted in the Ancient Origin Spells table. Once you gain an origin spell, you always know it, and it doesn't count against the number of spells you know.",
-				"If you have an origin spell that doesn't appear on the sorcerer spell list, the spell is nonetheless a sorcerer spell for you."
+				"Вы получаете заклинания на указанных в таблице заклинаний древнего происхождения уровнях чародея. Получив заклинание происхождения, вы всегда его знаете, и оно не учитывается в числе известных вам заклинаний.",
+				"Если у вас есть заклинание происхождения, которого нет в списке заклинаний чародея, оно всё равно считается для вас заклинанием чародея."
 			]
 		},
 		{
-			"name": "Consult the Past",
+			"name": "Обратиться к прошлому",
 			"source": "AncientSorc",
 			"page": 1,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Ancient Magic",
+			"subclassShortName": "Древняя магия",
 			"subclassSource": "AncientSorc",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your magic allows you to gleam information on things long forgotten. You can cast the {@spell augury} spell without expending a spell slot, and you regain the ability to do so when you finish a long rest. When you cast {@spell augury} in this way, you don't require material components to cast the spell."
+				"На 6-м уровне ваша магия позволяет вам выведать сведения о давно забытом. Вы можете сотворить заклинание {@spell augury}, не тратя ячейку заклинаний, и восстанавливаете эту способность по завершении продолжительного отдыха. Сотворяя {@spell augury} таким образом, вы не нуждаетесь в материальных компонентах для этого заклинания."
 			]
 		},
 		{
-			"name": "From the Dunes",
+			"name": "Из дюн",
 			"source": "AncientSorc",
 			"page": 1,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Ancient Magic",
+			"subclassShortName": "Древняя магия",
 			"subclassSource": "AncientSorc",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Also at 6th level, you empower your legion. You can add your Charisma modifier to the attack and damage rolls of any skeleton you summon with your subclass features.",
-				"Additionally, you can reach out to your ancestors in your time of need. When you use your Ancient Legion feature, you can spend 2 sorcery points, summoning a second {@creature skeleton|mm}. The second skeleton follows the same rules as a skeleton summoned by your Ancient Legion feature."
+				"Также на 6-м уровне вы усиливаете свой легион. Вы можете прибавлять свой модификатор Харизмы к броскам атаки и урона любого скелета, которого призываете умениями подкласса.",
+				"Кроме того, в трудный момент вы можете воззвать к своим предкам. Используя умение «Древний легион», вы можете потратить 2 очка чародейства, призывая второго {@creature skeleton|mm}. Второй скелет подчиняется тем же правилам, что и скелет, призванный умением «Древний легион»."
 			]
 		},
 		{
-			"name": "Everlasting Empire",
+			"name": "Вечная империя",
 			"source": "AncientSorc",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Ancient Magic",
+			"subclassShortName": "Древняя магия",
 			"subclassSource": "AncientSorc",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, when you're reduced to 0 hit points, you can spend 2 sorcery points to as a reaction to have 1 hit point instead, and then move up to half your speed without provoking attacks of opportunity, as your form shifts into a burst of sand."
+				"На 14-м уровне, когда ваши хиты снижаются до 0, вы можете реакцией потратить 2 очка чародейства, чтобы вместо этого сохранить 1 хит, а затем переместиться на расстояние до половины своей скорости, не провоцируя атак по возможности, пока ваша форма превращается во вспышку песка."
 			]
 		},
 		{
-			"name": "Obelisk of the Ancients",
+			"name": "Обелиск древних",
 			"source": "AncientSorc",
 			"page": 2,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Ancient Magic",
+			"subclassShortName": "Древняя магия",
 			"subclassSource": "AncientSorc",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you can summon an obelisk that draws forth the full power of your forgotten empire. As an action on your turn, you can cause a sandstone obelisk to rise out of the ground in an unnocupied space you can see within 30 feet of you. The obelisk is a stone column 5 feet wide and up to 30 feet high, and it lasts for 1 minute or until you dismiss it (no action required), at which point it turns to sand.",
-				"When you first summon the obelisk and at the start of each of your turns while it's summoned, you can summon a {@creature skeleton|MM} in an unoccupied space within 30 feet of the obelisk. The skeleton follows the same rules as a skeleton summoned by your Ancient Legion feature, but it lasts for as long as the obelisk lasts.",
-				"Once you summon this obelisk, you can't do so again until you finish a long rest."
+				"На 18-м уровне вы можете призвать обелиск, извлекающий всю мощь вашей забытой империи. Действием в свой ход вы можете заставить песчаниковый обелиск подняться из земли в свободном пространстве, которое видите, в пределах 30 футов от вас. Обелиск — каменная колонна шириной 5 футов и высотой до 30 футов; он существует 1 минуту или пока вы не рассеете его (действие не требуется), после чего обращается в песок.",
+				"Когда вы впервые призываете обелиск и в начале каждого своего хода, пока он призван, вы можете призвать {@creature skeleton|MM} в свободном пространстве в пределах 30 футов от обелиска. Скелет подчиняется тем же правилам, что и скелет, призванный умением «Древний легион», но существует столько же, сколько и обелиск.",
+				"Призвав этот обелиск, вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		}
 	],
 	"spell": [
 		{
-			"name": "Sand Rush",
+			"name": "Песчаный рывок",
 			"source": "AncientSorc",
 			"page": 2,
 			"level": 4,
@@ -247,13 +247,13 @@
 				}
 			],
 			"entries": [
-				"Shifting briefly into sand and wind, you rush forward, slashing through others in your path. You move a distance up to twice your walking speed in a straight line 5 feet wide, and you don't provoke opportunity attacks during this movement. Additionally, you're able to move through other creature's spaces, but can't end your movement there. Each creature whose space you move through must make a Dexterity saving throw, taking {@damage 8d4} slashing damage on a failed save, and half as much on a successful one."
+				"На миг превратившись в песок и ветер, вы устремляетесь вперёд, рассекая всех на своём пути. Вы перемещаетесь на расстояние до удвоенной скорости ходьбы по прямой шириной 5 футов и не провоцируете атаки по возможности во время этого перемещения. Кроме того, вы можете проходить через пространства других существ, но не можете заканчивать там своё перемещение. Каждое существо, через пространство которого вы проходите, должно совершить спасбросок Ловкости, получая {@damage 8d4} рубящего урона при провале и половину этого урона при успехе."
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 2d4} for each slot level above 4th."
+						"Когда вы сотворяете это заклинание, используя ячейку заклинаний 5-го уровня или выше, урон увеличивается на {@dice 2d4} за каждый уровень ячейки выше 4-го."
 					],
 					"type": "entries"
 				}
@@ -274,7 +274,7 @@
 			]
 		},
 		{
-			"name": "Sandstorm",
+			"name": "Песчаная буря",
 			"source": "AncientSorc",
 			"page": 2,
 			"level": 1,
@@ -307,14 +307,14 @@
 				}
 			],
 			"entries": [
-				"You create a 10-foot radius sphere of dust and sand at a point you can see within range. The sand and dust spread around corners, and the area is lightly obscured.",
-				"When a creature enters the spell's area for the first time on its turn or starts its turn there, that creature must make a Dexterity saving throw. The creature takes {@damage 2d4} slashing damage on a failed save, or half as much damage on a success."
+				"Вы создаёте сферу пыли и песка радиусом 10 футов в точке, которую видите в пределах дистанции. Песок и пыль распространяются за углы, и область является слабо заслонённой.",
+				"Когда существо впервые за свой ход входит в область заклинания или начинает там свой ход, оно должно совершить спасбросок Ловкости. При провале существо получает {@damage 2d4} рубящего урона, при успехе — половину этого урона."
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 1st level or higher, the damage increases by {@dice 2d4} for each slot level above 2nd."
+						"Когда вы сотворяете это заклинание, используя ячейку заклинаний 1-го уровня или выше, урон увеличивается на {@dice 2d4} за каждый уровень ячейки выше 2-го."
 					],
 					"type": "entries"
 				}

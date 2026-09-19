@@ -20,83 +20,83 @@
 	},
 	"subclass": [
 		{
-			"name": "Ninja",
-			"shortName": "Ninja",
+			"name": "Ниндзя",
+			"shortName": "Ниндзя",
 			"source": "WayofTheNinja",
 			"className": "Monk",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Way of The Ninja|Monk||Ninja|WayofTheNinja|3",
-				"Ninja Tools|Monk||Ninja|WayofTheNinja|6",
-				"Honed Stealth|Monk||Ninja|WayofTheNinja|11",
-				"Masterful Reaction|Monk||Ninja|WayofTheNinja|17"
+				"Путь ниндзя|Monk||Ниндзя|WayofTheNinja|3",
+				"Инструменты ниндзя|Monk||Ниндзя|WayofTheNinja|6",
+				"Отточенная скрытность|Monk||Ниндзя|WayofTheNinja|11",
+				"Мастерская реакция|Monk||Ниндзя|WayofTheNinja|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Way of The Ninja",
+			"name": "Путь ниндзя",
 			"source": "WayofTheNinja",
 			"page": 2,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Ninja",
+			"subclassShortName": "Ниндзя",
 			"subclassSource": "WayofTheNinja",
 			"level": 3,
 			"entries": [
-				"Monks of the Way of The Ninja study and idolize draconic beings. They fight like Ninjas.",
+				"Монахи Пути ниндзя изучают драконьих существ и поклоняются им. Они сражаются как ниндзя.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ninja Tools|Monk||Ninja|WayofTheNinja|3"
+					"subclassFeature": "Инструменты ниндзя|Monk||Ниндзя|WayofTheNinja|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ninja Style|Monk||Ninja|WayofTheNinja|3"
+					"subclassFeature": "Стиль ниндзя|Monk||Ниндзя|WayofTheNinja|3"
 				}
 			]
 		},
 		{
-			"name": "Ninja Style",
+			"name": "Стиль ниндзя",
 			"source": "WayofTheNinja",
 			"page": 2,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Ninja",
+			"subclassShortName": "Ниндзя",
 			"subclassSource": "WayofTheNinja",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you weave Ninja motions into your martial arts. You gain the following benefits:",
+				"На 3-м уровне вы вплетаете движения ниндзя в свои боевые искусства. Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"When you use Step of the Wind, you may use a Ninja tool.",
-						"When you use Patient Defense, the first time you are hit you may swap places with an object within 30 ft of you.",
-						"When you use Flurry of Blows, you may kick off the target and go up to 10 ft away from it.",
-						"As a reaction to taking damage you may use a Ninja tool."
+						"Используя «Шаг ветра», вы можете использовать инструмент ниндзя.",
+						"Используя «Терпеливую оборону», при первом попадании по вам вы можете поменяться местами с предметом в пределах 30 футов от вас.",
+						"Используя «Шквал ударов», вы можете оттолкнуться от цели и отлететь от неё на расстояние до 10 футов.",
+						"Реакцией на полученный урон вы можете использовать инструмент ниндзя."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ninja Tools",
+			"name": "Инструменты ниндзя",
 			"source": "WayofTheNinja",
 			"page": 2,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Ninja",
+			"subclassShortName": "Ниндзя",
 			"subclassSource": "WayofTheNinja",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You learn to make ninja tools to assist your martial arts, once per short rest you can make up to 3 ninja tools, you may save them for later.",
+				"Вы учитесь изготавливать инструменты ниндзя в помощь своим боевым искусствам. Один раз за короткий отдых вы можете изготовить до 3 инструментов ниндзя и оставить их на потом.",
 				{
 					"type": "table",
-					"caption": "Ninja Tools",
+					"caption": "Инструменты ниндзя",
 					"colLabels": [
-						"Ninja Tool",
-						"Description",
-						"Uses"
+						"Инструмент ниндзя",
+						"Описание",
+						"Использования"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -105,18 +105,18 @@
 					],
 					"rows": [
 						[
-							"Caltrops",
-							"Small sharp objects that litter the floor, causing pain and disability to those traversing them. Choose a 10 ft area within 15 ft. The chosen terrain is difficult terrain and any creature moving into and starting their turn in the caltrops takes {@dice d4} piercing damge.",
+							"Шипы",
+							"Мелкие острые предметы, разбросанные по полу и причиняющие боль и увечья тем, кто по ним идёт. Выберите область 10 футов в пределах 15 футов. Выбранная местность становится труднопроходимой, и любое существо, входящее в шипы и начинающее в них свой ход, получает {@dice d4} колющего урона.",
 							"1"
 						],
 						[
-							"Smoke Bomb",
-							"Creats a 20ft circle of smoke that persists for one round, it is non magical and causes the dark condition.",
+							"Дымовая шашка",
+							"Создаёт круг дыма радиусом 20 футов, сохраняющийся один раунд; он немагический и создаёт состояние темноты.",
 							"3"
 						],
 						[
-							"Kunai",
-							"light, throwable, 10/60ft, finesse, 1d6 slashing damage",
+							"Кунай",
+							"лёгкое, метательное, 10/60 футов, фехтовальное, 1d6 рубящего урона",
 							"2"
 						]
 					]
@@ -124,24 +124,24 @@
 			]
 		},
 		{
-			"name": "Ninja Tools",
+			"name": "Инструменты ниндзя",
 			"source": "WayofTheNinja",
 			"page": 2,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Ninja",
+			"subclassShortName": "Ниндзя",
 			"subclassSource": "WayofTheNinja",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You learn to make ninja tools to assist your martial arts, once per short rest you can now make up to 4 ninja tools, you may save them for later.",
+				"Вы учитесь изготавливать инструменты ниндзя в помощь своим боевым искусствам. Один раз за короткий отдых вы теперь можете изготовить до 4 инструментов ниндзя и оставить их на потом.",
 				{
 					"type": "table",
-					"caption": "Ninja Tools",
+					"caption": "Инструменты ниндзя",
 					"colLabels": [
-						"Ninja Tool",
-						"Description",
-						"Uses"
+						"Инструмент ниндзя",
+						"Описание",
+						"Использования"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -150,18 +150,18 @@
 					],
 					"rows": [
 						[
-							"Ninja Stars",
-							"Small sharp objects that are thrown, the target takes {@dice d4} piercing damage, target must make a DC 12 Con save or begin bleeding.",
+							"Сюрикены",
+							"Мелкие острые метательные предметы; цель получает {@dice d4} колющего урона и должна преуспеть в спасброске Телосложения со Сл 12, иначе у неё начинается кровотечение.",
 							"2"
 						],
 						[
-							"Kusari-Fundo",
-							"Small weights connected on each end of a chain, can be used to restrain a creature as a reaction, canceling their attack.",
+							"Кусари-фундо",
+							"Небольшие грузы, соединённые цепью; ими можно реакцией опутать существо, отменив его атаку.",
 							"1"
 						],
 						[
-							"Trip wires",
-							"when you move from one space to another up to 30ft, you may place a trip wire along the path you traveled. the first creature that walks through this area has to make a DC 14 dexterity saving throw or be knocked prone",
+							"Растяжки",
+							"Перемещаясь из одной точки в другую на расстояние до 30 футов, вы можете натянуть растяжку вдоль пройденного пути. Первое существо, проходящее через эту область, должно совершить спасбросок Ловкости со Сл 14, иначе падает ничком.",
 							"2"
 						]
 					]
@@ -169,37 +169,37 @@
 			]
 		},
 		{
-			"name": "Honed Stealth",
+			"name": "Отточенная скрытность",
 			"source": "WayofTheNinja",
 			"page": 2,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Ninja",
+			"subclassShortName": "Ниндзя",
 			"subclassSource": "WayofTheNinja",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you gain the ability to create a decoy of yourself and blink a short distance. Creatures must make a DC 16 + Dex perception check to know where you went."
+				"На 11-м уровне вы обретаете способность создавать своего двойника и мгновенно перемещаться на короткое расстояние. Существа должны преуспеть в проверке Восприятия со Сл 16 + модификатор Ловкости, чтобы понять, куда вы делись."
 			]
 		},
 		{
-			"name": "Masterful Reaction",
+			"name": "Мастерская реакция",
 			"source": "WayofTheNinja",
 			"page": 2,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Ninja",
+			"subclassShortName": "Ниндзя",
 			"subclassSource": "WayofTheNinja",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"By 17th level you have taken upon the aspect of a true Ninja. You move with nearly unmatched grace and speed. When a creature other than you ends it's turn you can use your reaction to do one of the following:",
+				"К 17-му уровню вы принимаете облик истинного ниндзя. Вы движетесь с почти недосягаемой грацией и скоростью. Когда существо, отличное от вас, заканчивает свой ход, вы можете использовать свою реакцию, чтобы сделать одно из следующего:",
 				{
 					"type": "list",
 					"items": [
-						"{@bold Deployment.} You spend 1 ki point to use 2 ninja tools.",
-						"{@bold Attack.} You spend 1 ki point to make a melee weapon attack.",
-						"{@bold Sneak Attack.} You spend 2 ki points to teleport beind a target and attack them, you have advantage unless the target has true sight. "
+						"{@bold Развёртывание.} Вы тратите 1 очко ки, чтобы использовать 2 инструмента ниндзя.",
+						"{@bold атака.} Вы тратите 1 очко ки, чтобы совершить атаку оружием ближнего боя.",
+						"{@bold Скрытая атака.} Вы тратите 2 очка ки, чтобы телепортироваться за спину цели и атаковать её; вы совершаете атаку с преимуществом, если только цель не обладает истинным зрением."
 					]
 				}
 			]

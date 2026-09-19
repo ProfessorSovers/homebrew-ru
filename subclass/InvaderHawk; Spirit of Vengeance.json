@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Spirit of Vengeance Otherworldly Patron",
-			"shortName": "Vengeance",
+			"name": "Дух мести, потусторонний покровитель",
+			"shortName": "Месть",
 			"source": "SoV",
 			"className": "Warlock",
 			"classSource": "PHB",
@@ -40,71 +40,71 @@
 				"immolation|xge"
 			],
 			"subclassFeatures": [
-				"Spirit of Vengeance|Warlock||Vengeance|SoV|1",
-				"Burning Vengeance|Warlock||Vengeance|SoV|6",
-				"Racing Spirit|Warlock||Vengeance|SoV|10",
-				"Penance Stare|Warlock||Vengeance|SoV|14"
+				"Дух мести|Warlock||Месть|SoV|1",
+				"Пылающая месть|Warlock||Месть|SoV|6",
+				"Гоночный дух|Warlock||Месть|SoV|10",
+				"Взгляд расплаты|Warlock||Месть|SoV|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Spirit of Vengeance",
+			"name": "Дух мести",
 			"source": "SoV",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Vengeance",
+			"subclassShortName": "Месть",
 			"subclassSource": "SoV",
 			"level": 1,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Expanded Spell List|Warlock||Vengeance|SoV|1"
+					"subclassFeature": "Расширенный список заклинаний|Warlock||Месть|SoV|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "First Level Cantrips|Warlock||Vengeance|SoV|1"
+					"subclassFeature": "Заговоры 1-го уровня|Warlock||Месть|SoV|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Brimstone Rider|Warlock||Vengeance|SoV|1"
+					"subclassFeature": "Всадник на сере|Warlock||Месть|SoV|1"
 				}
 			]
 		},
 		{
-			"name": "Brimstone Rider",
+			"name": "Всадник на сере",
 			"source": "SoV",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Vengeance",
+			"subclassShortName": "Месть",
 			"subclassSource": "SoV",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you have been bonded with a spirit of vengeance, and can transform into the flaming skeletal form of the Brimstone Rider as a bonus action.",
-				"When you transform, the flames from your body emit bright light in 15-foot radius and dim light for an additional 15 feet. While in this form, you can use a bonsu action to expand or reduce its radius of bright and dim light by up to 10 feet each, to a maximum of 30 feet each or minimum of 10 feet each.",
-				"While you are transformed, you can use your bonus action to summon the Hellfire Chain. The Hellfire Chain has the versatile property, deals {@dice 1d6} ({@dice 1d8}) magical slashing damage, and has a reach of 10 feet. You are proficient with the Hellfire Chain, and when using it, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. If you later gain the Pact of the Blade feature, the essence of your melee pact weapon is infused into the Hellfire Chain, granting it any invocations, bonuses to attack and damage, and magical abilities your pact weapon possesses. You cannot infuse your pact weapon's essence if you have it summoned. Any expanded charges are shared between the Hellfire Chain and your pact weapon.",
-				"The Hellfire Chain disappears when you summon it again, or when you dismiss it (no action required).",
-				"In addition, when you deal fire damage from warlock abilities and spells against evil aligned targets while transformed, you deal radiant damage instead.",
-				"You drop out of this form when you fall {@condition unconscious}, or at any time you choose (no action required)."
+				"Начиная с 1-го уровня вы связаны с духом мести и можете бонусным действием превращаться в пылающую скелетную форму Всадника на сере.",
+				"Превращаясь, вы испускаете пламя, дающее яркий свет в радиусе 15 футов и тусклый свет ещё на 15 футов. В этой форме вы можете бонусным действием расширить или уменьшить радиус яркого и тусклого света на величину до 10 футов каждое, вплоть до 30 футов или минимум до 10 футов для каждого.",
+				"Пока вы преображены, вы можете бонусным действием призвать Цепь адского огня. Цепь адского огня обладает свойством «универсальное», наносит {@dice 1d6} ({@dice 1d8}) магического рубящего урона и имеет досягаемость 10 футов. Вы владеете Цепью адского огня, и, используя её, можете применять свой модификатор Харизмы вместо Силы или Ловкости для бросков атаки и урона. Если позже вы получаете умение «Договор клинка», сущность вашего рукопашного оружия договора вливается в Цепь адского огня, даруя ей любые воззвания, бонусы к атаке и урону и магические способности, которыми обладает ваше оружие договора. Вы не можете вливать сущность своего оружия договора, если оно призвано. Любые расширенные заряды разделяются между Цепью адского огня и вашим оружием договора.",
+				"Цепь адского огня исчезает, когда вы призываете её снова или когда вы её отпускаете (действие не требуется).",
+				"Кроме того, нанося урон огнём способностями и заклинаниями колдуна по целям злого мировоззрения, пока вы преображены, вы наносите вместо этого излучающий урон.",
+				"Вы выходите из этой формы, когда теряете сознание ({@condition unconscious}) или в любой момент по своему выбору (действие не требуется)."
 			]
 		},
 		{
-			"name": "Expanded Spell List",
+			"name": "Расширенный список заклинаний",
 			"source": "SoV",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Vengeance",
+			"subclassShortName": "Месть",
 			"subclassSource": "SoV",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"The Spirit of Vengeance lets you choose from an expanded spell list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				"Дух мести позволяет вам выбирать заклинания из расширенного списка, когда вы изучаете заклинание колдуна. Следующие заклинания добавляются к вашему списку заклинаний колдуна.",
 				{
 					"type": "table",
 					"colLabels": [
-						"Spell Level",
-						"Spell"
+						"Уровень заклинания",
+						"Заклинание"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -112,23 +112,23 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell ensnaring strike}, {@spell searing smite}"
 						],
 						[
-							"2nd",
+							"2-й",
 							"{@spell branding smite}, {@spell find steed}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell fireball}, {@spell haste}"
 						],
 						[
-							"4th",
+							"4-й",
 							"{@spell find greater steed}, {@spell wall of fire}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell dispel evil and good}, {@spell immolation}"
 						]
 					]
@@ -136,59 +136,59 @@
 			]
 		},
 		{
-			"name": "First Level Cantrips",
+			"name": "Заговоры 1-го уровня",
 			"source": "SoV",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Vengeance",
+			"subclassShortName": "Месть",
 			"subclassSource": "SoV",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn the {@spell fire bolt} and {@spell control flames} cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
+				"На 1-м уровне вы изучаете заговоры {@spell fire bolt} и {@spell control flames}. Они считаются для вас заговорами колдуна, но не учитываются при подсчёте числа известных вам заговоров."
 			]
 		},
 		{
-			"name": "Burning Vengeance",
+			"name": "Пылающая месть",
 			"source": "SoV",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Vengeance",
+			"subclassShortName": "Месть",
 			"subclassSource": "SoV",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can pour hellfire into the weapons you wield while transformed. When you hit a creature with a weapon attack, you can cause the attack to deal an extra {@dice 1d8} fire damage to the target.",
-				"While transformed, you now have resistance to fire damage, and no longer need to breathe."
+				"Начиная с 6-го уровня вы можете вливать адский огонь в оружие, которое держите, пока преображены. Когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительный {@dice 1d8} урона огнём.",
+				"Пока вы преображены, вы получаете сопротивление урону огнём и больше не нуждаетесь в дыхании."
 			]
 		},
 		{
-			"name": "Racing Spirit",
+			"name": "Гоночный дух",
 			"source": "SoV",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Vengeance",
+			"subclassShortName": "Месть",
 			"subclassSource": "SoV",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you have mastered the Spirit of Vengeance's racing spirit, and you can push mounts and vehicles beyond their normal limit. When mounted and transformed, your mount's speed is increased by 10, its jump distance is doubled, its AC is increased by 2, it has resistance to fire damage, and you have advantage on checks to stay on your mount.",
-				"In addition, when you are driving/piloting a vehicle that you are proficient with, its speed is increased by 1/4."
+				"Начиная с 10-го уровня вы овладели гоночным духом духа мести и можете разгонять ездовых животных и транспорт за их обычные пределы. Пока вы едете верхом и преображены, скорость вашего скакуна увеличивается на 10, дистанция его прыжка удваивается, его Класс Доспеха увеличивается на 2, он получает сопротивление урону огнём, а вы совершаете с преимуществом проверки, чтобы удержаться на скакуне.",
+				"Кроме того, когда вы управляете транспортом, которым владеете, его скорость увеличивается на 1/4."
 			]
 		},
 		{
-			"name": "Penance Stare",
+			"name": "Взгляд расплаты",
 			"source": "SoV",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Vengeance",
+			"subclassShortName": "Месть",
 			"subclassSource": "SoV",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can make eye contact with a creature within 30 ft. and cause it to feel the pain of all of those it has hurt in its lifetime. Make a spell attack against your target, and on a hit, the target is {@condition stunned}. The target can make a Wisdom saving throw at the end of each of its turns and the effect ends on a successful saving throw. If target is evil takes {@dice 10d10} psychic damage, if the target is neutral it takes {@dice 5d10} psychic damage, and if the target is good it takes no damage. When a creature is killed by this ability, its body turns to ash.",
-				"This ability has no effect on beasts, creatures who are {@condition blinded}, or constructs.",
-				"On a successful use of this feature, you can't use it again until you finish a long rest."
+				"Начиная с 14-го уровня вы можете встретиться взглядом с существом в пределах 30 футов и заставить его почувствовать боль всех, кому оно причинило вред за свою жизнь. Совершите атаку заклинанием по цели; при попадании цель становится {@condition stunned}. Цель может совершать спасбросок Мудрости в конце каждого своего хода, и эффект заканчивается при успешном спасброске. Если цель злая, она получает {@dice 10d10} психического урона, если цель нейтральная — {@dice 5d10} психического урона, а если цель добрая, она не получает урона. Когда существо погибает от этой способности, его тело обращается в пепел.",
+				"Эта способность не действует на зверей, существ, которые {@condition blinded}, или конструктов.",
+				"При успешном использовании этого умения вы не можете применить его снова, пока не завершите продолжительный отдых."
 			]
 		}
 	]

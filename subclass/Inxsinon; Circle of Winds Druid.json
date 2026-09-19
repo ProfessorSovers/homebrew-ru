@@ -23,8 +23,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of Winds",
-			"shortName": "Winds",
+			"name": "Круг ветров",
+			"shortName": "Ветры",
 			"source": "InxsinonCircleOfWinds",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -41,53 +41,53 @@
 				"warding wind|xge"
 			],
 			"subclassFeatures": [
-				"Circle of Winds|Druid|phb|Winds|InxsinonCircleOfWinds|2",
-				"Glide|Druid|phb|Winds|InxsinonCircleOfWinds|6",
-				"Ride the Wind|Druid|phb|Winds|InxsinonCircleOfWinds|10",
-				"Wild Winds|Druid|phb|Winds|InxsinonCircleOfWinds|14"
+				"Круг ветров|Druid|phb|Ветры|InxsinonCircleOfWinds|2",
+				"Планирование|Druid|phb|Ветры|InxsinonCircleOfWinds|6",
+				"Оседлать ветер|Druid|phb|Ветры|InxsinonCircleOfWinds|10",
+				"Дикие ветры|Druid|phb|Ветры|InxsinonCircleOfWinds|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of Winds",
+			"name": "Круг ветров",
 			"source": "InxsinonCircleOfWinds",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Winds",
+			"subclassShortName": "Ветры",
 			"subclassSource": "InxsinonCircleOfWinds",
 			"level": 2,
 			"entries": [
-				"Druids of the Circle of Winds are free-spirited guardians of the skies. They are often travelers going wherever the wind takes them, not being tied down to a single location for too long.",
-				"When druids of this circle gather, they tend to do so openly in wide-skied fields or mountain summits looking over the clouds. They trade stories of their travels and fly together until they catch a new wind to follow.",
+				"Друиды Круга ветров — свободолюбивые стражи небес. Часто это путники, идущие туда, куда их несёт ветер, и не привязывающиеся надолго к одному месту.",
+				"Когда друиды этого круга собираются, они обычно делают это открыто в широких полях или на вершинах гор, глядя поверх облаков. Они обмениваются историями о своих странствиях и летают вместе, пока не поймают новый ветер, за которым стоит следовать.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|phb|Winds|InxsinonCircleOfWinds|2"
+					"subclassFeature": "Заклинания круга|Druid|phb|Ветры|InxsinonCircleOfWinds|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gale Force|Druid|phb|Winds|InxsinonCircleOfWinds|2"
+					"subclassFeature": "Сила шквала|Druid|phb|Ветры|InxsinonCircleOfWinds|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Заклинания круга",
 			"source": "InxsinonCircleOfWinds",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Winds",
+			"subclassShortName": "Ветры",
 			"subclassSource": "InxsinonCircleOfWinds",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"Your connection to the winds allows you to cast certain spells. At 2nd level, you learn the {@spell gust} cantrip and it has a range of 60 feet for you. At 3rd, 5th, 7th, and 9th level you gain access to circle spells.",
-				"Once you gain a circle spell, it is always prepared, it doesn't count against the number of spells you can prepare, and it is considered a druid spell for you.",
+				"Ваша связь с ветрами позволяет вам накладывать определённые заклинания. На 2-м уровне вы изучаете заговор {@spell gust}, и его дальность для вас составляет 60 футов. На 3-м, 5-м, 7-м и 9-м уровнях вы получаете доступ к заклинаниям круга.",
+				"Получив заклинание круга, вы всегда его готовы, оно не учитывается при подсчёте числа заклинаний, которые вы можете подготовить, и считается для вас заклинанием друида.",
 				{
 					"type": "table",
-					"caption": "Circle of Winds Spells",
+					"caption": "Заклинания круга ветров",
 					"colLabels": [
-						"Druid Level",
-						"Spells"
+						"Уровень друида",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -95,19 +95,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell gust of wind}, {@spell skywrite|xge}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell sleet storm}, {@spell wind wall}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell locate creature}, {@spell storm sphere|xge}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell control winds|xge}, {@spell steel wind strike|xge}"
 						]
 					]
@@ -115,58 +115,58 @@
 			]
 		},
 		{
-			"name": "Gale Force",
+			"name": "Сила шквала",
 			"source": "InxsinonCircleOfWinds",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Winds",
+			"subclassShortName": "Ветры",
 			"subclassSource": "InxsinonCircleOfWinds",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"Starting at 2nd level, when you cast a druid spells of 1st-level or higher on your turn, you can cast {@spell gust|xge} as a bonus action targeting one creature damaged or targeted by that spell.",
-				"You can also empower your magic with the full force of the winds. When one of your druid spells causes a creature to be moved, you can cause the spell to deal {@dice 1d8} force damage to that creature. You can deal this bonus damage a number of times equal to your druid level. You regain all uses of this feature when you finish a long rest."
+				"Начиная со 2-го уровня, когда вы в свой ход накладываете заклинание друида 1-го уровня или выше, вы можете бонусным действием наложить {@spell gust|xge}, выбрав целью одно существо, по которому это заклинание попало или которое было его целью.",
+				"Вы также можете усилить свою магию всей мощью ветров. Когда одно из ваших заклинаний друида заставляет существо переместиться, вы можете заставить заклинание нанести этому существу {@dice 1d8} урона силовым полем. Вы можете наносить этот дополнительный урон число раз, равное вашему уровню друида. Вы восстанавливаете все использования этого умения по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Glide",
+			"name": "Планирование",
 			"source": "InxsinonCircleOfWinds",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Winds",
+			"subclassShortName": "Ветры",
 			"subclassSource": "InxsinonCircleOfWinds",
 			"level": 6,
 			"header": 1,
 			"entries": [
-				"Beginning at 6th level, you glide through the air with ease. When you use your movement, you can hover 1 foot above the ground, ignoring nonmagical difficult terrain below you. When you fall and you are conscious, you take no falling damage and can land on your feet.",
-				"In addition, you can use your action to conjure a rush of wind beneath you to be lifted up to 20 feet straight up and gain a flying speed equal to your walking speed until the end of your turn."
+				"Начиная с 6-го уровня вы легко скользите по воздуху. Используя своё перемещение, вы можете парить в 1 футе над землёй, игнорируя немагическую труднопроходимую местность под собой. Когда вы падаете и находитесь в сознании, вы не получаете урон от падения и приземляетесь на ноги.",
+				"Кроме того, вы можете действием вызвать поток ветра под собой, чтобы подняться на 20 футов прямо вверх и получить скорость полёта, равную вашей скорости ходьбы, до конца вашего хода."
 			]
 		},
 		{
-			"name": "Ride the Wind",
+			"name": "Оседлать ветер",
 			"source": "InxsinonCircleOfWinds",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Winds",
+			"subclassShortName": "Ветры",
 			"subclassSource": "InxsinonCircleOfWinds",
 			"level": 10,
 			"header": 1,
 			"entries": [
-				"At 10th level, you can allow others to glide along the winds with you. At the start of your turn, you can give any number of creatures within 30 feet of you the benefit of your Glide feature until the end of their next turn.",
-				"You can use this ability a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+				"На 10-м уровне вы можете позволить другим скользить по ветрам вместе с вами. В начале своего хода вы можете дать любому числу существ в пределах 30 футов от вас преимущество вашего умения «Планирование» до конца их следующего хода.",
+				"Вы можете использовать эту способность число раз, равное вашему модификатору Мудрости (минимум один раз). Вы восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Wild Winds",
+			"name": "Дикие ветры",
 			"source": "InxsinonCircleOfWinds",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Winds",
+			"subclassShortName": "Ветры",
 			"subclassSource": "InxsinonCircleOfWinds",
 			"level": 14,
 			"header": 1,
 			"entries": [
-				"Starting at 14th level, you can cast {@spell warding wind} at will without expending a spell slot. In addition, when you transform into a beast with your Wild Shape feature, the beast gains a flying speed of 30 feet, unless it already has a higher flying speed."
+				"Начиная с 14-го уровня вы можете накладывать {@spell warding wind} по своему желанию, не тратя ячейку заклинания. Кроме того, когда вы превращаетесь в зверя с помощью своего умения «Дикий облик», этот зверь получает скорость полёта 30 футов, если только у него уже нет более высокой скорости полёта."
 			]
 		}
 	]

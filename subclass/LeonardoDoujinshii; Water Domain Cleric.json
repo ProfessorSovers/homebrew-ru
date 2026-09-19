@@ -23,8 +23,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Water Domain",
-			"shortName": "Water",
+			"name": "Домен воды",
+			"shortName": "Вода",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -67,33 +67,33 @@
 				"maelstrom|XGE"
 			],
 			"subclassFeatures": [
-				"Water Domain|Cleric||Water|LDWaterCleric|1",
-				"Channel Divinity: Tidal Rush|Cleric||Water|LDWaterCleric|2",
-				"Overflowing Spirit|Cleric||Water|LDWaterCleric|6",
-				"Potent Spellcasting|Cleric||Water|LDWaterCleric|8",
-				"Blessed Strikes|Cleric||Water|LDWaterCleric|8",
-				"Salvation's Rain|Cleric||Water|LDWaterCleric|17"
+				"Домен воды|Cleric||Вода|LDWaterCleric|1",
+				"Божественный канал: Приливный натиск|Cleric||Вода|LDWaterCleric|2",
+				"Переполняющий дух|Cleric||Вода|LDWaterCleric|6",
+				"Могущественное колдовство|Cleric||Вода|LDWaterCleric|8",
+				"Благословлённые удары|Cleric||Вода|LDWaterCleric|8",
+				"Дождь спасения|Cleric||Вода|LDWaterCleric|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Water Domain",
+			"name": "Домен воды",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Water",
+			"subclassShortName": "Вода",
 			"subclassSource": "LDWaterCleric",
 			"level": 1,
 			"entries": [
-				"Water is the element of change, ever shifting between serenity and fury. Those who follow the water domain learn to harness its boundless power in both its gentle and tempestuous forms. As healers, they draw upon water's life giving properties to nurture their allies, cleansing wounds, and soothing ailments. Yet like the crashing waves, they are also defenders, commanding torrents to shield their companions and wash away their foes.",
-				"At each indicated cleric level, add the listed spells to your spells prepared.",
+				"Вода — стихия перемен, вечно колеблющаяся между безмятежностью и яростью. Те, кто следует домену воды, учатся управлять её безграничной силой и в её мягких, и в её бурных формах. Как целители они черпают из живительных свойств воды, чтобы поддерживать союзников, очищая раны и успокаивая недуги. Но, подобно обрушивающимся волнам, они также защитники: они повелевают потоками, чтобы укрыть спутников и смыть врагов.",
+				"На каждом указанном уровне жреца добавьте перечисленные заклинания к своим подготовленным заклинаниям.",
 				{
 					"type": "table",
-					"caption": "Water Domain Spells",
+					"caption": "Заклинания домена воды",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"Уровень жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -101,161 +101,161 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell fog cloud}, {@spell shield}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell lesser restoration}, {@spell prayer of healing}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell tidal wave|XGE}, {@spell water breathing}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell aura of purity}, {@spell watery sphere|XGE}"
 						],
 						[
-							"9th",
-							"{@spell conjure elemental} (water only), {@spell maelstrom|XGE}"
+							"9-й",
+							"{@spell conjure elemental} (только для воды), {@spell maelstrom|XGE}"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Aquatic Acolyte|Cleric||Water|LDWaterCleric|1"
+					"subclassFeature": "Водный послушник|Cleric||Вода|LDWaterCleric|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Crashing Waves|Cleric||Water|LDWaterCleric|1"
+					"subclassFeature": "Бьющие волны|Cleric||Вода|LDWaterCleric|1"
 				}
 			]
 		},
 		{
-			"name": "Aquatic Acolyte",
+			"name": "Водный послушник",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Water",
+			"subclassShortName": "Вода",
 			"subclassSource": "LDWaterCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this domain at 1st level, you learn the {@spell shape water|XGE} and {@spell ray of frost} cantrips. For you, these cantrips count as cleric cantrips but don't count against the number of cleric cantrips you known.",
-				"You also gain proficiency in one of the following skills: {@skill Athletics}, {@skill Nature}, or {@skill Survival}."
+				"Выбирая этот домен на 1-м уровне, вы изучаете заговоры {@spell shape water|XGE} и {@spell ray of frost}. Для вас эти заговоры считаются заговорами жреца, но не учитываются в числе известных вам заговоров жреца.",
+				"Вы также получаете владение одним из следующих навыков: {@skill Athletics}, {@skill Nature} или {@skill Survival}."
 			]
 		},
 		{
-			"name": "Crashing Waves",
+			"name": "Бьющие волны",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Water",
+			"subclassShortName": "Вода",
 			"subclassSource": "LDWaterCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you can use a bonus action to call upon the ebb and flow of water to manipulate creatures on the battlefield. Choose one creature you can see within 30 feet of you. The target must succeed on a Strength saving throw against your spell save DC or be moved a number of feet equal to 5 × your proficiency bonus in a direction of your choice. A creature can choose to fail this saving throw.",
-				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once) and you regain all expended uses when you finish a long rest."
+				"Начиная с 1-го уровня вы можете бонусным действием взывать к приливам и отливам воды, чтобы управлять существами на поле боя. Выберите одно существо, которое видите в пределах 30 футов от вас. Цель должна преуспеть в спасброске Силы против Сл ваших заклинаний, иначе она перемещается на число футов, равное 5 × ваш бонус мастерства, в выбранном вами направлении. Существо может добровольно провалить этот спасбросок.",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Channel Divinity: Tidal Rush",
+			"name": "Божественный канал: Приливный натиск",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Water",
+			"subclassShortName": "Вода",
 			"subclassSource": "LDWaterCleric",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"Starting at 2nd level, you can use your Channel Divinity to guide your allies like the flow of water. As a bonus action, you can move a number of friendly creatures equal to your proficiency bonus within 30 feet of you up to a number of feet equal to 5 x your proficiency bonus without provoking opportunity attacks.",
-				"Additionally, for 1 minute after using this feature, the affected creatures have their movement speed increased by 10 feet and gain advantage on Dexterity saving throws."
+				"Начиная со 2-го уровня вы можете использовать свой Божественный канал, чтобы направлять союзников, как течение воды. Бонусным действием вы можете переместить число дружественных существ, равное вашему бонусу мастерства, в пределах 30 футов от вас на расстояние до 5 × ваш бонус мастерства футов, не провоцируя атаки по возможности.",
+				"Кроме того, в течение 1 минуты после использования этого умения у затронутых существ скорость перемещения увеличивается на 10 футов, и они совершают с преимуществом спасброски Ловкости."
 			]
 		},
 		{
-			"name": "Overflowing Spirit",
+			"name": "Переполняющий дух",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Water",
+			"subclassShortName": "Вода",
 			"subclassSource": "LDWaterCleric",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can use your action to assume a watery form. For 1 minute, you emanate a 30-foot radius of clear water centered on yourself. While in this form, you gain the following benefits:",
+				"Начиная с 6-го уровня вы можете действием принять водянистую форму. В течение 1 минуты вы излучаете исходящую от вас сферу чистой воды радиусом 30 футов. Находясь в этой форме, вы получаете следующие преимущества:",
 				{
 					"type": "entries",
-					"name": "Hydro Jet",
+					"name": "Гидрореактивная струя",
 					"entries": [
-						"As a bonus action, you can target one creature within the water's emanation. Make a ranged spell attack roll against the target. On a hit, the target takes {@damage 2d10} bludgeoning damage and must succeed on a Dexterity saving throw against your spell save DC or be knocked {@condition prone}."
+						"Бонусным действием вы можете выбрать целью одно существо в пределах распространения воды. Совершите бросок атаки заклинанием по цели. При попадании цель получает {@damage 2d10} дробящего урона и должна преуспеть в спасброске Ловкости против Сл ваших заклинаний, иначе её собьёт с ног {@condition prone}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Water Mirror",
+					"name": "Водное зеркало",
 					"entries": [
-						"When a creature within the emanation hits or misses you or another creature within 30 feet with a melee or ranged attack roll, you can use your reaction to mirror the attack. Make an ability check using your spellcasting ability. If your roll equals or exceeds the attacker's roll, the attack is reflected back at the attacker, who takes half of the attack's damage, if the attack includes any additional effects upon hitting, such as a saving throw, the attacker must make that saving throw as if they were the original target."
+						"Когда существо в пределах распространения попадает или промахивается броском рукопашной или дальнобойной атаки по вам или другому существу в пределах 30 футов, вы можете реакцией отразить атаку. Совершите проверку характеристики, используя вашу базовую характеристику заклинаний. Если ваш результат равен или превышает результат атакующего, атака отражается обратно в атакующего, который получает половину урона атаки; если атака включает какие-либо дополнительные эффекты при попадании, например спасбросок, атакующий должен совершить этот спасбросок, как если бы он был изначальной целью."
 					]
 				},
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Использовав это умение, вы не можете применить его снова до завершения продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"name": "Благословлённые удары",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Water",
+			"subclassShortName": "Вода",
 			"subclassSource": "LDWaterCleric",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
-				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} bludgeoning damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i умение жреца 8-го уровня {@variantrule optional class features|tce|optional feature}, которое заменяет умение «Могущественное колдовство»}",
+				"Вы благословлены божественной мощью в бою. Когда существо получает урон от одного из ваших заговоров или атак оружием, вы можете также нанести этому существу {@damage 1d8} дробящего урона. Нанеся этот урон, вы не можете использовать это умение снова до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Могущественное колдовство",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Water",
+			"subclassShortName": "Вода",
 			"subclassSource": "LDWaterCleric",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+				"Начиная с 8-го уровня вы добавляете свой модификатор Мудрости к урону, который наносите любым заговором жреца."
 			]
 		},
 		{
-			"name": "Salvation's Rain",
+			"name": "Дождь спасения",
 			"source": "LDWaterCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Water",
+			"subclassShortName": "Вода",
 			"subclassSource": "LDWaterCleric",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level, you can summon a holy rainstorm that heals your enemies. As an action, you conjure a 30-foot radius, 40-foot high cylinder of rain centered on yourself, which lasts for 1 minute. The rainstorm imposes the following effects:",
+				"На 17-м уровне вы можете призвать священный ливень, который исцеляет ваших союзников. Действием вы создаёте исходящий от вас цилиндр дождя радиусом 30 футов и высотой 40 футов, который существует 1 минуту. Ливень накладывает следующие эффекты:",
 				{
 					"type": "entries",
-					"name": "Cleansing Waters",
+					"name": "Очищающие воды",
 					"entries": [
-						"At the start of each of your turns, you and friendly ceatures who start their turn within the radius or enter it for the first time on their turn regain hit points equal to your Wisdom modifier (minimum of 1)."
+						"В начале каждого вашего хода вы и дружественные существа, которые начинают свой ход в пределах радиуса или впервые входят в него в свой ход, восстанавливают хиты, равные вашему модификатору Мудрости (минимум 1)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Torrential Hinderance",
+					"name": "Ливневые помехи",
 					"entries": [
-						"Hostile creatures with the rainstorm has disadvantage on Strength and Dexterity saving throws and treat the area as difficult terrain."
+						"Враждебные существа под ливнем совершают с помехой спасброски Силы и Ловкости и считают эту область труднопроходимой местностью."
 					]
 				},
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Использовав это умение, вы не можете применить его снова до завершения продолжительного отдыха."
 			]
 		}
 	]

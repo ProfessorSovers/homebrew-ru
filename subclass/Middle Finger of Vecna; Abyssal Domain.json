@@ -23,8 +23,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Abyssal Domain",
-			"shortName": "Abyssal",
+			"name": "Домен бездны",
+			"shortName": "Бездна",
 			"source": "mfovabyss",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -41,32 +41,32 @@
 				"planar binding"
 			],
 			"subclassFeatures": [
-				"Abyssal Domain|Cleric|PHB|Abyssal|mfovabyss|1",
-				"Channel Divinity: Dust to Dust|Cleric|PHB|Abyssal|mfovabyss|2",
-				"Channel Divinity: Binding of the Deep|Cleric|PHB|Abyssal|mfovabyss|6",
-				"Potent Spellcasting|Cleric|PHB|Abyssal|mfovabyss|8",
-				"Demonic Ascendancy|Cleric|PHB|Abyssal|mfovabyss|17"
+				"Домен бездны|Cleric|PHB|Бездна|mfovabyss|1",
+				"Божественный канал: прах к праху|Cleric|PHB|Бездна|mfovabyss|2",
+				"Божественный канал: оковы глубин|Cleric|PHB|Бездна|mfovabyss|6",
+				"Могущественное колдовство|Cleric|PHB|Бездна|mfovabyss|8",
+				"Демоническое превосходство|Cleric|PHB|Бездна|mfovabyss|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Abyssal Domain",
+			"name": "Домен бездны",
 			"source": "mfovabyss",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Abyssal",
+			"subclassShortName": "Бездна",
 			"subclassSource": "mfovabyss",
 			"level": 1,
 			"entries": [
-				"It is a common misconception that the members of demon-worshiping cults are all mindless slaves, crazed hedonists, or violent murderers. The truth is that many of them are perfectly sane, with dreams of enslaving demons for themselves, rather than the other way around. A select few are even strong enough to do so, rising through the ranks of their cult to become powerful priests and summoners, capable of calling upon armies of fiends and mortals alike to do their bidding.",
+				"Распространено ошибочное мнение, будто члены культов, поклоняющихся демонам, — сплошь безмозглые рабы, безумные гедонисты или жестокие убийцы. Правда в том, что многие из них совершенно вменяемы и мечтают поработить демонов для себя, а не наоборот. Некоторые избранные даже достаточно сильны для этого: они поднимаются по ступеням своего культа и становятся могущественными жрецами и призывателями, способными созвать армии исчадий и смертных, чтобы те исполняли их волю.",
 				{
 					"type": "table",
-					"caption": "Abyssal Domain Spells",
+					"caption": "Заклинания домена бездны",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"Уровень жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -74,121 +74,121 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell command}, {@spell inflict wounds}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell ray of enfeeblement}, {@spell scorching ray}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell lightning bolt}, {@spell summon lesser demons|xge}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell dominate beast}, {@spell summon greater demon|xge}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell enervation|xge}, {@spell planar binding}"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blood Sacrifice|Cleric|PHB|Abyssal|mfovabyss|1"
+					"subclassFeature": "Кровавая жертва|Cleric|PHB|Бездна|mfovabyss|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ruthless|Cleric|PHB|Abyssal|mfovabyss|1"
+					"subclassFeature": "Безжалостность|Cleric|PHB|Бездна|mfovabyss|1"
 				}
 			]
 		},
 		{
-			"name": "Blood Sacrifice",
+			"name": "Кровавая жертва",
 			"source": "mfovabyss",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Abyssal",
+			"subclassShortName": "Бездна",
 			"subclassSource": "mfovabyss",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this domain at 1st level, you can use dark magic to siphon power from dying creatures. Whenever you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Wisdom modifier. Furthermore, whenever you reduce a willing creature to 0 hit points, you gain temporary hit points equal to your cleric level plus twice your Wisdom modifier and have advantage on the first attack roll you make in the next minute. Creatures that you have summoned or dominated are always considered to be willing for the purposes of this ability."
+				"Выбрав этот домен на 1-м уровне, вы можете использовать тёмную магию, чтобы вытягивать силу из умирающих существ. Всякий раз, когда вы снижаете хиты враждебного существа до 0, вы получаете временные хиты, равные вашему модификатору Мудрости. Кроме того, всякий раз, когда вы снижаете хиты согласного существа до 0, вы получаете временные хиты, равные вашему уровню жреца плюс удвоенный модификатор Мудрости, и совершаете с преимуществом первый бросок атаки, который делаете в течение следующей минуты. Существа, которых вы призвали или подчинили, всегда считаются согласными для целей этой способности."
 			]
 		},
 		{
-			"name": "Ruthless",
+			"name": "Безжалостность",
 			"source": "mfovabyss",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Abyssal",
+			"subclassShortName": "Бездна",
 			"subclassSource": "mfovabyss",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Also at 1st level, the experience you have gained dealing with cunning fiends and treacherous cultists equips you well for future conflicts. Whenever you make a contested ability check against a creature, you can add twice your proficiency bonus to the roll."
+				"Также на 1-м уровне опыт, полученный в общении с коварными исчадиями и вероломными культистами, хорошо готовит вас к будущим конфликтам. Всякий раз, когда вы совершаете проверку характеристики в противоборстве с существом, вы можете добавить к броску удвоенный бонус мастерства."
 			]
 		},
 		{
-			"name": "Channel Divinity: Dust to Dust",
+			"name": "Божественный канал: прах к праху",
 			"source": "mfovabyss",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Abyssal",
+			"subclassShortName": "Бездна",
 			"subclassSource": "mfovabyss",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"Starting at 2nd level, you can use your Channel Divinity to augment your offensive spells, the better to unleash the infinite chaos of the Abyss on your foes.",
-				"When you cast a spell that deals damage to one or more creatures, you can use your Channel Divinity to add your Wisdom modifier to the damage. Any creature reduced to 0 hit points by this spell is disintegrated into a fine grey dust, along with anything it is wearing or carrying (except for magic items). The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell.",
-				"Any Large or smaller nonmagical object or a creation of magical force that would be hit by the spell is also disintegrated."
+				"Начиная с 2-го уровня вы можете использовать свой «Божественный канал», чтобы усилить свои наступательные заклинания и тем лучше обрушить на врагов бесконечный хаос Бездны.",
+				"Когда вы накладываете заклинание, наносящее урон одному или нескольким существам, вы можете использовать свой «Божественный канал», чтобы добавить к урону ваш модификатор Мудрости. Любое существо, чьи хиты этим заклинанием снижены до 0, распадается в мелкую серую пыль вместе со всем, что на нём надето и что оно несёт (кроме магических предметов). Существо можно вернуть к жизни только с помощью заклинания {@spell true resurrection} или {@spell wish}.",
+				"Любой немагический предмет размера Большой или меньше или создание магической силы, по которому попало это заклинание, также распадается в пыль."
 			]
 		},
 		{
-			"name": "Channel Divinity: Binding of the Deep",
+			"name": "Божественный канал: оковы глубин",
 			"source": "mfovabyss",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Abyssal",
+			"subclassShortName": "Бездна",
 			"subclassSource": "mfovabyss",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you can use your Channel Divinity to chain demons to your will. When you cast a spell that summons demons, you present your holy symbol and use your Channel Divinity to bind them. Any demons bound in this way cannot break free from your control, and are never hostile towards you or your allies. The binding ends when you die."
+				"На 6-м уровне вы можете использовать свой «Божественный канал», чтобы приковать демонов к своей воле. Когда вы накладываете заклинание, призывающее демонов, вы предъявляете свой священный символ и используете «Божественный канал», чтобы связать их. Любые демоны, связанные так, не могут вырваться из-под вашего контроля и никогда не враждебны к вам и вашим союзникам. Связывание заканчивается с вашей смертью."
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Могущественное колдовство",
 			"source": "mfovabyss",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Abyssal",
+			"subclassShortName": "Бездна",
 			"subclassSource": "mfovabyss",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+				"На 8-м уровне вы добавляете модификатор Мудрости к урону, который наносите любым заговором жреца."
 			]
 		},
 		{
-			"name": "Demonic Ascendancy",
+			"name": "Демоническое превосходство",
 			"source": "mfovabyss",
 			"page": 36,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Abyssal",
+			"subclassShortName": "Бездна",
 			"subclassSource": "mfovabyss",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"When you reach 17th level, you infuse your soul with demonic energy, gaining immense power. You have resistance to cold, fire and lightning damage, and gain telepathy with a range of 120 feet."
+				"Достигнув 17-го уровня, вы наполняете свою душу демонической энергией, обретая огромную мощь. Вы получаете сопротивление урону холодом, огнём и электричеством, а также телепатию с дальностью 120 футов."
 			]
 		}
 	]

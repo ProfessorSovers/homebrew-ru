@@ -20,60 +20,60 @@
 	},
 	"subclass": [
 		{
-			"name": "Fey Protector",
-			"shortName": "Fey Protector",
+			"name": "Защитник фей",
+			"shortName": "Защитник фей",
 			"source": "0rganicsFeyProtector",
 			"className": "Ranger",
 			"classSource": "PHB",
 			"page": 1,
 			"subclassFeatures": [
-				"Fey Protector|Ranger||Fey Protector|0rganicsFeyProtector|3",
-				"Sure-Footed|Ranger||Fey Protector|0rganicsFeyProtector|7",
-				"Fey Resistance|Ranger||Fey Protector|0rganicsFeyProtector|11",
-				"Natural Reflexes|Ranger||Fey Protector|0rganicsFeyProtector|15"
+				"Защитник фей|Ranger||Защитник фей|0rganicsFeyProtector|3",
+				"Твёрдая поступь|Ranger||Защитник фей|0rganicsFeyProtector|7",
+				"Сопротивление фей|Ranger||Защитник фей|0rganicsFeyProtector|11",
+				"Природные рефлексы|Ranger||Защитник фей|0rganicsFeyProtector|15"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Fey Protector",
+			"name": "Защитник фей",
 			"source": "0rganicsFeyProtector",
 			"page": 1,
 			"className": "Ranger",
 			"classSource": "PHB",
-			"subclassShortName": "Fey Protector",
+			"subclassShortName": "Защитник фей",
 			"subclassSource": "0rganicsFeyProtector",
 			"level": 3,
 			"entries": [
-				"A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Protector, a ranger sworn to protect nature across the mortal and the fey realms.",
+				"Вас окружает фейская аура — благодаря дару архифеи, сияющему плоду, съеденному с говорящего дерева, волшебному источнику, в котором вы купались, или иному благому знаку. Как бы вы ни обрели свою фейскую магию, теперь вы Защитник фей — следопыт, поклявшийся защищать природу как в мире смертных, так и в Стране Фей.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "One with Nature|Ranger||Fey Protector|0rganicsFeyProtector|3"
+					"subclassFeature": "Одно целое с природой|Ranger||Защитник фей|0rganicsFeyProtector|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fey Protector Magic|Ranger||Fey Protector|0rganicsFeyProtector|3"
+					"subclassFeature": "Магия защитника фей|Ranger||Защитник фей|0rganicsFeyProtector|3"
 				}
 			]
 		},
 		{
-			"name": "Fey Protector Magic",
+			"name": "Магия защитника фей",
 			"source": "0rganicsFeyProtector",
 			"page": 1,
 			"className": "Ranger",
 			"classSource": "PHB",
-			"subclassShortName": "Fey Protector",
+			"subclassShortName": "Защитник фей",
 			"subclassSource": "0rganicsFeyProtector",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You learn an additional spell when you reach certain levels in this class, as shown in the Fey Protector Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				"Достигая определённых уровней в этом классе, вы изучаете дополнительное заклинание, как показано в таблице «Заклинания защитника фей». Каждое из этих заклинаний считается для вас заклинанием следопыта, но не учитывается при подсчёте числа известных вам заклинаний следопыта.",
 				{
 					"type": "table",
-					"caption": "Fey Protector Spells",
+					"caption": "Заклинания защитника фей",
 					"colLabels": [
-						"Ranger Level",
-						"Spells"
+						"Уровень следопыта",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -81,23 +81,23 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell sanctuary}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell hold person}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell slow}"
 						],
 						[
-							"13th",
+							"13-й",
 							"{@spell aura of life}"
 						],
 						[
-							"17th",
+							"17-й",
 							"{@spell hold monster}"
 						]
 					]
@@ -105,32 +105,32 @@
 			]
 		},
 		{
-			"name": "One with Nature",
+			"name": "Одно целое с природой",
 			"source": "0rganicsFeyProtector",
 			"page": 1,
 			"className": "Ranger",
 			"classSource": "PHB",
-			"subclassShortName": "Fey Protector",
+			"subclassShortName": "Защитник фей",
 			"subclassSource": "0rganicsFeyProtector",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Fey Protector feature}",
-				"Your bond the feywild creates a connection to nature, granting you the following benefits:",
+				"{@i Умение защитника фей 3-го уровня}",
+				"Ваша связь со Страной Фей создаёт связь с природой, даруя вам следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell druidcraft} cantrip, which is a ranger spell for you.",
-						"You gain an additional favored terrain."
+						"Вы изучаете заговор {@spell druidcraft}, который для вас считается заклинанием следопыта.",
+						"Вы получаете дополнительную излюбленную местность."
 					]
 				},
-				"You also possess a preternatural blessing from a fey ally or a place of fey power. Choose your blessing from the Feywild Gifts table or determine it randomly.",
+				"Кроме того, вы обладаете сверхъестественным благословением фейского союзника или места силы фей. Выберите благословение из таблицы «Дары Страны Фей» или определите его случайно.",
 				{
 					"type": "table",
-					"caption": "Feywild Gifts",
+					"caption": "Дары Страны Фей",
 					"colLabels": [
 						"d6",
-						"Gift"
+						"Дар"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -139,115 +139,115 @@
 					"rows": [
 						[
 							"1",
-							"Illusory pixies flutter around you while you take a short or long rest."
+							"Иллюзорные пикси порхают вокруг вас, пока вы совершаете короткий или продолжительный отдых."
 						],
 						[
 							"2",
-							"Fresh grass and vines sprout from your hair each dawn."
+							"С каждым рассветом из ваших волос пробиваются свежая трава и лианы."
 						],
 						[
 							"3",
-							"You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice."
+							"От вас слабо пахнет корицей, лавандой, мускатным орехом или другой успокаивающей травой или специей."
 						],
 						[
 							"4",
-							"Your shadow stands at attention while no one is looking directly at it."
+							"Ваша тень стоит по стойке смирно, пока на неё никто не смотрит прямо."
 						],
 						[
 							"5",
-							"Horns or antlers sprout from your head."
+							"Из вашей головы пробиваются рога или оленьи рожки."
 						],
 						[
 							"6",
-							"Your hair changes color to match the local climate at each dawn."
+							"На каждом рассвете ваши волосы меняют цвет в соответствии с местным климатом."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Sure-Footed",
+			"name": "Твёрдая поступь",
 			"source": "0rganicsFeyProtector",
 			"page": 1,
 			"className": "Ranger",
 			"classSource": "PHB",
-			"subclassShortName": "Fey Protector",
+			"subclassShortName": "Защитник фей",
 			"subclassSource": "0rganicsFeyProtector",
 			"level": 7,
 			"entries": [
-				"At 7th level, your bond with the raw natural power of the feywild enhances your familiarity with natural terrain. You gain the following benefits:",
+				"На 7-м уровне ваша связь с дикой природной силой Страны Фей усиливает вашу близость с естественным ландшафтом. Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"While in your favored terrain, you gain the benefits listed in the Natural Explorer class feature after only 15 minutes of travel rather than an hour.",
-						"While traveling for 15 minutes or more in your favored terrain, you and your allies may move stealthily at a normal pace."
+						"Находясь в излюбленной местности, вы получаете преимущества, перечисленные в умении класса «Исследователь природы», уже после 15 минут путешествия, а не часа.",
+						"Путешествуя 15 минут или дольше по излюбленной местности, вы и ваши союзники можете двигаться скрытно с обычной скоростью."
 					]
 				}
 			]
 		},
 		{
-			"name": "Fey Resistance",
+			"name": "Сопротивление фей",
 			"source": "0rganicsFeyProtector",
 			"page": 1,
 			"className": "Ranger",
 			"classSource": "PHB",
-			"subclassShortName": "Fey Protector",
+			"subclassShortName": "Защитник фей",
 			"subclassSource": "0rganicsFeyProtector",
 			"level": 11,
 			"entries": [
-				"By 11th level, you have learned to stand strong in the face of adversity. You gain one of the following features of your choice.",
+				"К 11-му уровню вы научились стойко встречать невзгоды. Вы получаете одно из следующих умений на ваш выбор.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Ironwood Mind.",
-							"entry": "When you make a saving throw to maintain concentration on a spell, you may make a Wisdom saving throw instead of Constitution."
+							"name": "Разум железного дерева.",
+							"entry": "Когда вы совершаете спасбросок для поддержания концентрации на заклинании, вы можете совершить спасбросок Мудрости вместо Телосложения."
 						},
 						{
 							"type": "item",
-							"name": "Escape the Horde.",
-							"entry": "You may Disengage as a bonus action on your turn."
+							"name": "Спасение от орды.",
+							"entry": "В свой ход вы можете совершить Отход бонусным действием."
 						},
 						{
 							"type": "item",
-							"name": "Multiattack Defense.",
-							"entry": "When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+							"name": "Защита от мультиатаки.",
+							"entry": "Когда существо попадает по вам атакой, вы получаете бонус +4 к КД против всех последующих атак этого существа до конца текущего хода."
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Natural Reflexes",
+			"name": "Природные рефлексы",
 			"source": "0rganicsFeyProtector",
 			"page": 1,
 			"className": "Ranger",
 			"classSource": "PHB",
-			"subclassShortName": "Fey Protector",
+			"subclassShortName": "Защитник фей",
 			"subclassSource": "0rganicsFeyProtector",
 			"level": 15,
 			"entries": [
-				"At 15th level, you gain one of the following features of your choice.",
+				"На 15-м уровне вы получаете одно из следующих умений на ваш выбор.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Evasion.",
-							"entry": "ou can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+							"name": "Увёртливость.",
+							"entry": "Вы можете ловко уворачиваться от некоторых эффектов с областью действия, таких как огненное дыхание красного дракона или заклинание молнии. Когда вы попадаете под эффект, позволяющий совершить спасбросок Ловкости, чтобы получить лишь половину урона, вы вместо этого не получаете урона при успешном спасброске и получаете лишь половину урона при провале."
 						},
 						{
 							"type": "item",
-							"name": "Uncanny Dodge.",
-							"entry": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+							"name": "Невероятное уклонение.",
+							"entry": "Когда видимый вами атакующий попадает по вам атакой, вы можете реакцией уменьшить урон этой атаки по вам вдвое."
 						},
 						{
 							"type": "item",
-							"name": "Stand Against the Tide.",
-							"entry": "When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice."
+							"name": "Устоять против течения.",
+							"entry": "Когда враждебное существо промахивается по вам рукопашной атакой, вы можете реакцией заставить это существо повторить ту же атаку по другому существу (кроме самого себя) на ваш выбор."
 						}
 					]
 				}

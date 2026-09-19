@@ -27,14 +27,14 @@
 	},
 	"subclass": [
 		{
-			"name": "Trapper",
-			"shortName": "Trapper",
+			"name": "Зверолов",
+			"shortName": "Зверолов",
 			"source": "smithyrtrapper",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"optionalfeatureProgression": [
 				{
-					"name": "Trapper Style",
+					"name": "Стиль зверолова",
 					"featureType": [
 						"T:S"
 					],
@@ -44,74 +44,74 @@
 				}
 			],
 			"subclassFeatures": [
-				"Trapper|Rogue||Trapper|smithyrtrapper|3",
-				"Adaptable Movement|Rogue||Trapper|smithyrtrapper|9",
-				"Reappropriation|Rogue||Trapper|smithyrtrapper|13",
-				"Trigger Mechanism|Rogue||Trapper|smithyrtrapper|17"
+				"Зверолов|Rogue||Зверолов|smithyrtrapper|3",
+				"Приспособляемое передвижение|Rogue||Зверолов|smithyrtrapper|9",
+				"Присвоение|Rogue||Зверолов|smithyrtrapper|13",
+				"Спусковой механизм|Rogue||Зверолов|smithyrtrapper|17"
 			],
 			"foundryImg": "icons/environment/traps/trap-jaw-tan.webp"
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Trapper",
+			"name": "Зверолов",
 			"source": "smithyrtrapper",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Trapper",
+			"subclassShortName": "Зверолов",
 			"subclassSource": "smithyrtrapper",
 			"level": 3,
 			"entries": [
-				"A trapper is a specialist, often hailing from the outlands or wilderness. They prefer to do as little fighting as possible, instead using traps, tricks, and canniness to leave their foes as restricted as they see fit before they begin attacking. Battlefields that have been fought upon by trappers are left teeming with tied ropes, bear traps, and iron spikes.",
-				"The philosophy of a trapper is simple: let it move, watch it fall, and rend it brutally once it is on the ground.",
+				"Зверолов — специалист, часто родом из глуши или диких земель. Он предпочитает сражаться как можно меньше, используя вместо этого ловушки, уловки и хитрость, чтобы стеснить врагов по своему усмотрению, прежде чем перейти в нападение. Поля битв, где сражались звероловы, остаются усеянными связанными верёвками, медвежьими капканами и железными шипами.",
+				"Философия зверолова проста: дай ему двинуться, смотри, как оно падает, и жестоко разорви его, когда оно окажется на земле.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Trap Mastery|Rogue||Trapper|smithyrtrapper|3"
+					"subclassFeature": "Мастерство ловушек|Rogue||Зверолов|smithyrtrapper|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tripwire|Rogue||Trapper|smithyrtrapper|3"
+					"subclassFeature": "Растяжка|Rogue||Зверолов|smithyrtrapper|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Trapper Style|Rogue||Trapper|smithyrtrapper|3"
+					"subclassFeature": "Стиль зверолова|Rogue||Зверолов|smithyrtrapper|3"
 				}
 			]
 		},
 		{
-			"name": "Trap Mastery",
+			"name": "Мастерство ловушек",
 			"source": "smithyrtrapper",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Trapper",
+			"subclassShortName": "Зверолов",
 			"subclassSource": "smithyrtrapper",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, when you use {@item caltrops (bag of 20)|phb|caltrops}, {@item ball bearings (bag of 1,000)|phb|ball bearings}, or {@item hunting trap|phb|hunting traps}, you add your proficiency bonus to the item's saving throw DC. Some of your features refer to traps; caltrops, ball bearings, and hunting traps are considered traps for you. Traps you set gain several benefits:",
+				"Начиная с 3-го уровня, когда вы используете {@item caltrops (bag of 20)|phb|мешочек с шипами}, {@item ball bearings (bag of 1,000)|phb|мешочек с шариками} или {@item hunting trap|phb|охотничьи капканы}, вы добавляете свой бонус мастерства к Сл спасброска этого предмета. Некоторые ваши умения ссылаются на ловушки; шипы, металлические шарики и охотничьи капканы считаются для вас ловушками. Установленные вами ловушки получают несколько преимуществ:",
 				{
 					"type": "list",
 					"style": "list-hang",
 					"items": [
 						{
 							"type": "entries",
-							"name": "Crippling Takedown",
+							"name": "Калечащий захват",
 							"entries": [
-								"You don't need advantage on your attack roll to use your {@classFeature Sneak Attack|Rogue||1} if the target's movement is restricted by a trap. All the other rules for the Sneak Attack feature still apply to you."
+								"Вам не нужно преимущество на бросок атаки, чтобы применить свою {@classFeature Sneak Attack|Rogue||1}, если перемещение цели ограничено ловушкой. Все остальные правила умения «Скрытая атака» по-прежнему действуют для вас."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Hidden Arsenal",
+							"name": "Скрытый арсенал",
 							"entries": [
-								"A creature attempting to spot a trap you've set must succeed on a Wisdom ({@skill Perception}) check against the trap's saving throw DC."
+								"Существо, пытающееся заметить установленную вами ловушку, должно преуспеть в проверке Мудрости ({@skill Perception}) против Сл спасброска ловушки."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Ease of Use",
+							"name": "Удобство использования",
 							"entries": [
-								"Your allies automatically notice your traps, and automatically succeed on saving throws against your traps. You can use a bonus action to gather up a trap within 5 feet of you that you have set."
+								"Ваши союзники автоматически замечают ваши ловушки и автоматически преуспевают в спасбросках против них. Вы можете бонусным действием собрать установленную вами ловушку в пределах 5 футов от вас."
 							]
 						}
 					]
@@ -120,46 +120,46 @@
 			"foundryImg": "icons/environment/traps/trap-jaw-green.webp"
 		},
 		{
-			"name": "Trapper Style",
+			"name": "Стиль зверолова",
 			"source": "smithyrtrapper",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Trapper",
+			"subclassShortName": "Зверолов",
 			"subclassSource": "smithyrtrapper",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Beginning at 3rd level, you choose one of the following two Trapper Styles: {@optfeature Explosive Trigger|smithyrtrapper|Violent Trigger}, or {@optfeature Ambuscade|smithyrtrapper}. You can change your choice whenever you gain a level in this class.",
+				"Начиная с 3-го уровня вы выбираете один из двух следующих стилей зверолова: {@optfeature Взрывной взрыватель|smithyrtrapper|Взрывной взрыватель} или {@optfeature Засада|smithyrtrapper}. Вы можете изменить свой выбор каждый раз, когда получаете уровень в этом классе.",
 				{
 					"type": "entries",
-					"name": "Explosive Trigger",
+					"name": "Взрывной взрыватель",
 					"entries": [
-						"When you use your action to set a trap, you can lace it with an explosive. When you do this, the first creature that fails its saving throw against the trap takes fire damage equal to your {@classFeature Sneak Attack|Rogue||1}.",
-						"Explosives are highly volatile, and you can't have more than one trap laced with explosive at a time. You can remove explosive from a laced trap within 5 feet of you as part of your movement (no action required).",
-						"Once you reach 13th level, the explosion also {@condition blinded|phb|blinds} the target and reduces its movement to 0 until the end of its turn."
+						"Когда вы действием устанавливаете ловушку, вы можете снабдить её взрывчаткой. В этом случае первое существо, провалившее спасбросок против этой ловушки, получает урон огнём, равный вашей {@classFeature Sneak Attack|Rogue||1}.",
+						"Взрывчатка крайне нестабильна, и у вас не может быть более одной ловушки со взрывчаткой одновременно. Вы можете снять взрывчатку с ловушки в пределах 5 футов от вас в рамках своего перемещения (действие не требуется).",
+						"Достигнув 13-го уровня, взрыв также {@condition blinded|phb|ослепляет} цель и снижает её скорость до 0 до конца её хода."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Ambuscade",
+					"name": "Засада",
 					"entries": [
-						"You can turn battlefields into oppressive warzones for your foes. On the first round of combat, before any other creature has yet acted, you can immediately use your reaction move up to your speed and set up to two traps of your choice. You can set each trap at any point in your movement. Once you reach 13th level, you can set a third trap as part of the reaction."
+						"Вы можете превращать поля битвы в тяжёлые зоны боевых действий для своих врагов. В первом раунде боя, прежде чем любое другое существо успеет действовать, вы можете немедленно реакцией переместиться на расстояние до своей скорости и установить до двух ловушек на свой выбор. Вы можете устанавливать каждую ловушку в любой точке своего перемещения. Достигнув 13-го уровня, вы можете установить третью ловушку в рамках этой реакции."
 					]
 				}
 			],
 			"foundryImg": "icons/environment/traps/steel.webp"
 		},
 		{
-			"name": "Tripwire",
+			"name": "Растяжка",
 			"source": "smithyrtrapper",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Trapper",
+			"subclassShortName": "Зверолов",
 			"subclassSource": "smithyrtrapper",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you can set a unique trap called a tripwire. When you set a tripwire, you use your action to choose two points that you passed through with your movement on the current turn, and set a tripwire that stretches between them by using a wire, rope or chain of equal length. The tripwire does not pass through solid objects. The wire snares creatures as they cross over it: a hostile creature that leaves a space covered by the tripwire must succeed on a Dexterity saving throw against a DC of 8 + your proficiency bonus + your Dexterity modifier. On a failed save, the creature falls {@condition prone} upon leaving the space."
+				"На 3-м уровне вы можете установить особую ловушку под названием «растяжка». Устанавливая растяжку, вы действием выбираете две точки, через которые прошли своим перемещением в текущем ходу, и натягиваете между ними растяжку с помощью проволоки, верёвки или цепи равной длины. Растяжка не проходит сквозь твёрдые объекты. Проволока ловит существ, пересекающих её: враждебное существо, покидающее пространство, накрытое растяжкой, должно преуспеть в спасброске Ловкости против Сл 8 + ваш бонус мастерства + ваш модификатор Ловкости. При провале существо, покидая это пространство, падает {@condition prone}."
 			],
 			"foundrySystem": {
 				"activation": {
@@ -170,81 +170,81 @@
 			"foundryImg": "icons/sundries/survival/rope-wrapped-purple.webp"
 		},
 		{
-			"name": "Adaptable Movement",
+			"name": "Приспособляемое передвижение",
 			"source": "smithyrtrapper",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Trapper",
+			"subclassShortName": "Зверолов",
 			"subclassSource": "smithyrtrapper",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"At 9th level, your skill with creating treacherous terrain lets you pick your way through such areas with ease. You ignore all penalties associated with movement, as long as your movement is greater than 0.",
-				"Additionally, when you're {@condition prone}, you can stand up by spending 5 feet of movement, rather than half your speed."
+				"На 9-м уровне ваше умение создавать коварную местность позволяет вам с лёгкостью пробираться через такие области. Вы игнорируете все штрафы, связанные с перемещением, пока ваше перемещение больше 0.",
+				"Кроме того, находясь {@condition prone}, вы можете встать, потратив 5 футов перемещения вместо половины своей скорости."
 			],
 			"foundryImg": "icons/skills/movement/figure-running-gray.webp"
 		},
 		{
-			"name": "Reappropriation",
+			"name": "Присвоение",
 			"source": "smithyrtrapper",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Trapper",
+			"subclassShortName": "Зверолов",
 			"subclassSource": "smithyrtrapper",
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Beginning at 13th level, whenever you successfully disarm a trap, you gain the following benefits:",
+				"Начиная с 13-го уровня, каждый раз, когда вам удаётся обезвредить ловушку, вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You learn what the trap is designed to do when it triggers.",
-						"You gain advantage on checks you make to rearm the trap.",
-						"If you rearm the trap, you can set it with a short fuse. When you do this, at any time during the next minute, you can use your action to trigger the trap while it is within 5 feet of you. At the end of the 1 minute, the trap triggers."
+						"Вы узнаёте, что ловушка должна сделать при срабатывании.",
+						"Вы получаете преимущество на проверки, совершаемые для переустановки ловушки.",
+						"Если вы переустанавливаете ловушку, вы можете снабдить её коротким запалом. В этом случае в течение следующей минуты вы в любой момент можете действием сработать ловушку, пока она находится в пределах 5 футов от вас. По истечении 1 минуты ловушка срабатывает."
 					]
 				}
 			],
 			"foundryImg": "icons/tools/hand/awl-steel-tan.webp"
 		},
 		{
-			"name": "Trigger Mechanism",
+			"name": "Спусковой механизм",
 			"source": "smithyrtrapper",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Trapper",
+			"subclassShortName": "Зверолов",
 			"subclassSource": "smithyrtrapper",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Once you reach 17th level, your traps become uniquely mechanised with dangerous sprung restraints. These might take the form of foot-tangling ball bearings that burst and glue the foe to the ground, caltrops with thorny, extending spikes, or tripwires that lash out and constrict around foes.",
-				"As a reaction when you see a creature within 60 feet of you end its turn within 5 feet of a trap, you can use this feature to force the target to make a Strength saving throw against a DC of 8 + your proficiency bonus + your Dexterity modifier. On a failed save, the trap is destroyed, and the target becomes {@condition restrained}. A creature restrained in this way can use its action to make a Strength check against the same DC, ending the effect on a success.",
-				"Once a creature fails its saving throw against this feature, you can't use it again until you finish a short or long rest."
+				"Достигнув 17-го уровня, ваши ловушки становятся уникально механизированными, с опасными пружинными захватами. Они могут принимать вид металлических шариков, что путаются под ногами, лопаются и приклеивают врага к земле; шипов с колючими выдвижными остриями; или растяжек, которые хлещут и стягивают врагов.",
+				"Реакцией, когда вы видите, как существо в пределах 60 футов от вас завершает свой ход в пределах 5 футов от ловушки, вы можете использовать это умение, чтобы вынудить цель совершить спасбросок Силы против Сл 8 + ваш бонус мастерства + ваш модификатор Ловкости. При провале ловушка уничтожается, а цель становится {@condition restrained}. Существо, обездвиженное таким образом, может действием совершить проверку Силы против той же Сл, оканчивая эффект при успехе.",
+				"Как только существо проваливает спасбросок против этого умения, вы не можете использовать его снова, пока не завершите короткий или продолжительный отдых."
 			],
 			"foundryImg": "icons/commodities/tech/cog-gold.webp"
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Ambuscade",
+			"name": "Засада",
 			"source": "smithyrtrapper",
 			"featureType": [
 				"T:S"
 			],
 			"entries": [
-				"You can turn battlefields into oppressive warzones for your foes. On the first round of combat, before any other creature has yet acted, you can immediately use your reaction move up to your speed and set up to two traps of your choice. You can set each trap at any point in your movement. Once you reach 13th level, you can set a third trap as part of the reaction."
+				"Вы можете превращать поля битвы в тяжёлые зоны боевых действий для своих врагов. В первом раунде боя, прежде чем любое другое существо успеет действовать, вы можете немедленно реакцией переместиться на расстояние до своей скорости и установить до двух ловушек на свой выбор. Вы можете устанавливать каждую ловушку в любой точке своего перемещения. Достигнув 13-го уровня, вы можете установить третью ловушку в рамках этой реакции."
 			],
 			"foundryImg": "icons/skills/movement/arrow-upward-yellow.webp"
 		},
 		{
-			"name": "Explosive Trigger",
+			"name": "Взрывной взрыватель",
 			"source": "smithyrtrapper",
 			"featureType": [
 				"T:S"
 			],
 			"entries": [
-				"When you use your action to set a trap, you can lace it with an explosive. When you do this, the first creature that fails its saving throw against the trap takes fire damage equal to your {@classFeature Sneak Attack|Rogue||1}.",
-				"Explosives are highly volatile, and you can't have more than one trap laced with explosive at a time. You can remove explosive from a laced trap within 5 feet of you as part of your movement (no action required).",
-				"Once you reach 13th level, the explosion also {@condition blinded|phb|blinds} the target and reduces its movement to 0 until the end of its turn."
+				"Когда вы действием устанавливаете ловушку, вы можете снабдить её взрывчаткой. В этом случае первое существо, провалившее спасбросок против этой ловушки, получает урон огнём, равный вашей {@classFeature Sneak Attack|Rogue||1}.",
+				"Взрывчатка крайне нестабильна, и у вас не может быть более одной ловушки со взрывчаткой одновременно. Вы можете снять взрывчатку с ловушки в пределах 5 футов от вас в рамках своего перемещения (действие не требуется).",
+				"Достигнув 13-го уровня, взрыв также {@condition blinded|phb|ослепляет} цель и снижает её скорость до 0 до конца её хода."
 			],
 			"foundryImg": "icons/weapons/thrown/bomb-detonator.webp"
 		}

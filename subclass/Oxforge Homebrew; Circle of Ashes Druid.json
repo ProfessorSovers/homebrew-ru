@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of Ashes",
-			"shortName": "Ashes",
+			"name": "Круг пепла",
+			"shortName": "Пепел",
 			"source": "OxforgeHomebrewCircleOfAshes",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -38,56 +38,56 @@
 				"Immolation|xge"
 			],
 			"subclassFeatures": [
-				"Circle of Ashes|Druid||Ashes|OxforgeHomebrewCircleOfAshes|2",
-				"Vision of Flames|Druid||Ashes|OxforgeHomebrewCircleOfAshes|6",
-				"Ashen Fortitude|Druid||Ashes|OxforgeHomebrewCircleOfAshes|10",
-				"Aspect of the Phoenix|Druid||Ashes|OxforgeHomebrewCircleOfAshes|14"
+				"Круг пепла|Druid||Пепел|OxforgeHomebrewCircleOfAshes|2",
+				"Видение пламени|Druid||Пепел|OxforgeHomebrewCircleOfAshes|6",
+				"Пепельная стойкость|Druid||Пепел|OxforgeHomebrewCircleOfAshes|10",
+				"Облик феникса|Druid||Пепел|OxforgeHomebrewCircleOfAshes|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of Ashes",
+			"name": "Круг пепла",
 			"source": "OxforgeHomebrewCircleOfAshes",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Ashes",
+			"subclassShortName": "Пепел",
 			"subclassSource": "OxforgeHomebrewCircleOfAshes",
 			"level": 2,
 			"entries": [
-				"Druids of this circle believe that what's old and rotten must be burned down for something better to arise from its ashes. A member of this circle may have become a druid in a forest prone to wildfires or near the site of a mighty volcano.",
-				"Regardless of their origin, these druids know that many things in this world stagnate, cease to grow, or even corrupt and deteriorate. They see the value of fire as a force of creative destruction; a way to destroy the old to make way for something better. Some druids of this circle revere the phoenix as the symbol of the cycle of death, decay and regrowth. Others make a habit out of planting seeds on fallen foes so new life can bloom from their ashes.",
+				"Друиды этого круга верят, что всё старое и гнилое должно быть сожжено, чтобы из его пепла возникло что-то лучшее. Член этого круга мог стать друидом в лесу, подверженном лесным пожарам, или рядом с местом, где возвышается могучий вулкан.",
+				"Каково бы ни было их происхождение, эти друиды знают, что многое в этом мире застаивается, перестаёт расти или даже портится и разрушается. Они видят ценность огня как силы созидательного разрушения; способа уничтожить старое, чтобы освободить место для чего-то лучшего. Некоторые друиды этого круга почитают феникса как символ цикла смерти, распада и возрождения. Другие берут за привычку сажать семена на поверженных врагах, чтобы из их праха могла расцвести новая жизнь.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|PHB|Ashes|OxforgeHomebrewCircleOfAshes|2"
+					"subclassFeature": "Заклинания круга|Druid|PHB|Пепел|OxforgeHomebrewCircleOfAshes|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cycle of Ash|Druid|PHB|Ashes|OxforgeHomebrewCircleOfAshes|2"
+					"subclassFeature": "Цикл пепла|Druid|PHB|Пепел|OxforgeHomebrewCircleOfAshes|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cycle of Ash (Variant)|Druid|PHB|Ashes|OxforgeHomebrewCircleOfAshes|2"
+					"subclassFeature": "Цикл пепла (вариант)|Druid|PHB|Пепел|OxforgeHomebrewCircleOfAshes|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Заклинания круга",
 			"source": "OxforgeHomebrewCircleOfAshes",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Ashes",
+			"subclassShortName": "Пепел",
 			"subclassSource": "OxforgeHomebrewCircleOfAshes",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your attunement to fire infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to additional spells. These spells are always prepared, don't count against the number of spells you can prepare each day, and they are considered druid spells for you.",
+				"Ваша связь с огнём наполняет вас способностью сотворять определённые заклинания. На 3-м, 5-м, 7-м и 9-м уровне вы получаете доступ к дополнительным заклинаниям. Эти заклинания всегда подготовлены, не учитываются в числе заклинаний, которые вы можете готовить каждый день, и считаются для вас заклинаниями друида.",
 				{
 					"type": "table",
-					"caption": "Circle of Ashes Spells",
+					"caption": "Заклинания Круга пепла",
 					"colLabels": [
-						"Druid Level",
-						"Spells"
+						"Уровень друида",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -95,19 +95,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3-й",
 							"{@spell flaming sphere}, {@spell pyrotechnics|xge}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell fireball}, {@spell protection from energy}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell fire shield}, {@spell wall of fire}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell conjure elemental}, {@spell immolation|xge}"
 						]
 					]
@@ -115,80 +115,80 @@
 			]
 		},
 		{
-			"name": "Cycle of Ash",
+			"name": "Цикл пепла",
 			"source": "OxforgeHomebrewCircleOfAshes",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Ashes",
+			"subclassShortName": "Пепел",
 			"subclassSource": "OxforgeHomebrewCircleOfAshes",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When you choose this circle at 2nd level, you learn to accelerate the natural cycle of death, decay, and regrowth. When a creature within 60 feet of you that you can see takes fire damage, you can use your reaction to seed the ashes with life. It must succeed on a Dexterity saving throw against your spell save DC or become {@condition restrained} by magical plants which erupt from the wound, lasting until the end of your next turn.",
-				"If the target takes fire damage while {@condition restrained} this way, the plants combust, releasing the creature. The target and each creature within a 10 foot radius centered on the target must make a Dexterity saving throw against your spell save DC. A target takes {@dice 1d8} fire damage on a failed save, or half as much on a successful one.",
-				"This combustion's damage increases by {@dice 1d8} when you reach 6th level ({@dice 2d8}), 10th level ({@dice 3d8}) and 14th level ({@dice 4d8}).",
-				"You can use this feature a total number of times equal to your Wisdom modifier (minimum of once), and regain all expended uses when you finish a long rest."
+				"Выбирая этот круг на 2-м уровне, вы учитесь ускорять естественный цикл смерти, распада и возрождения. Когда существо в пределах 60 футов от вас, которое вы можете видеть, получает урон огнём, вы можете реакцией засеять его прах жизнью. Оно должно преуспеть в спасброске Ловкости против Сл ваших заклинаний, иначе становится {@condition restrained} магическими растениями, что прорываются из раны, — это длится до конца вашего следующего хода.",
+				"Если цель получает урон огнём, пока {@condition restrained} таким образом, растения воспламеняются, освобождая существо. Цель и каждое существо в радиусе 10 футов с центром на цели должны совершить спасбросок Ловкости против Сл ваших заклинаний. Цель получает {@dice 1d8} урона огнём при провале или половину этого урона при успехе.",
+				"Урон от этого воспламенения увеличивается на {@dice 1d8}, когда вы достигаете 6-го уровня ({@dice 2d8}), 10-го уровня ({@dice 3d8}) и 14-го уровня ({@dice 4d8}).",
+				"Вы можете использовать это умение суммарно число раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Cycle of Ash (Variant)",
+			"name": "Цикл пепла (вариант)",
 			"source": "OxforgeHomebrewCircleOfAshes",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Ashes",
+			"subclassShortName": "Пепел",
 			"subclassSource": "OxforgeHomebrewCircleOfAshes",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"header": 1,
 			"entries": [
-				"{@italic {@variantrule optional class features|tce|Optional feature}, which replaces the Cycle of Ash feature}",
-				"Starting at 2nd level, you learn to speed up the cycle of death, decay and regrowth. Whenever a creature dies within 60 feet of you, you can use your reaction to instantly grow a tree up to 10 foot high from its corpse, regardless of the underlying terrain. Alternatively, you can use a bonus action to grow a tree from a dead creature or a pile of at least half a gallon of ash.",
-				"When you deal fire damage to a tree created in this way, you can choose to have it combust. Creatures and objects within 10 feet of it must succeed on a Dexterity saving throw against your spell save DC or or take {@dice 2d8} fire damage.",
-				"The combustion's damage increases by {@dice 1d8} when you reach 6th level ({@dice 3d8}), 10th level ({@dice 4d8}) and 14th level ({@dice 5d8}).",
-				"You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses on a short or long rest."
+				"{@italic Дополнительное классовое умение {@variantrule optional class features|tce|Optional feature}, заменяющее умение «Цикл пепла»}",
+				"Начиная со 2-го уровня вы учитесь ускорять цикл смерти, распада и возрождения. Каждый раз, когда существо умирает в пределах 60 футов от вас, вы можете реакцией мгновенно вырастить из его трупа дерево высотой до 10 футов, независимо от почвы под ним. Или же вы можете бонусным действием вырастить дерево из мёртвого существа или кучи золы объёмом не менее половины галлона.",
+				"Когда вы наносите урон огнём дереву, созданному таким образом, вы можете заставить его воспламениться. Существа и предметы в пределах 10 футов от него должны преуспеть в спасброске Ловкости против Сл ваших заклинаний, иначе получают {@dice 2d8} урона огнём.",
+				"Урон от воспламенения увеличивается на {@dice 1d8}, когда вы достигаете 6-го уровня ({@dice 3d8}), 10-го уровня ({@dice 4d8}) и 14-го уровня ({@dice 5d8}).",
+				"Вы можете использовать это умение число раз, равное вашему модификатору Мудрости. Вы восстанавливаете все потраченные использования при завершении короткого или продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Vision of Flames",
+			"name": "Видение пламени",
 			"source": "OxforgeHomebrewCircleOfAshes",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Ashes",
+			"subclassShortName": "Пепел",
 			"subclassSource": "OxforgeHomebrewCircleOfAshes",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, your eyes burn with a radiance that cuts through anything that might impede your vision. You gain {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision} from another feature, its range increases by 30 feet. You can see normally through fog, gas, and smoke, including heavily obscured areas created by spells such as {@spell fog cloud}, but not magical darkness.",
-				"In addition, you gain the ability to tap into the history of burned things. When you come across a burned object, wound or corpse, you can use your action to touch it and learn approximately when it was burned and whether the fire was magical or not.",
-				"If you use this feature on a corpse, you can choose to relive the last 10 minutes of its conscious experience before death. This can only work if the creature's body was set ablaze before its moment of death, and after using this feature you can't do so again until you finish a short or long rest."
+				"Начиная с 6-го уровня ваши глаза горят сиянием, прорезающим всё, что могло бы помешать вашему зрению. Вы получаете {@sense darkvision} в радиусе 60 футов. Если у вас уже есть {@sense darkvision} от другого умения, его радиус увеличивается на 30 футов. Вы можете нормально видеть сквозь туман, газ и дым, включая сильно заслонённые области, созданные такими заклинаниями, как {@spell fog cloud}, но не сквозь магическую тьму.",
+				"Кроме того, вы получаете способность прикасаться к истории сожжённых вещей. Когда вы натыкаетесь на сожжённый предмет, рану или труп, вы можете действием коснуться его и узнать приблизительно, когда он был сожжён и был ли огонь магическим.",
+				"Если вы используете это умение на трупе, вы можете решить пережить последние 10 минут его сознательного опыта перед смертью. Это срабатывает, только если тело существа было объято пламенем до момента его смерти, и после использования этого умения вы не можете применить его снова, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Ashen Fortitude",
+			"name": "Пепельная стойкость",
 			"source": "OxforgeHomebrewCircleOfAshes",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Ashes",
+			"subclassShortName": "Пепел",
 			"subclassSource": "OxforgeHomebrewCircleOfAshes",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you become a master over wildfires. As an action, you can put out any nonmagical fires of your choice within 30 feet of you.",
-				"In addition, a layer of protective ash covers your skin, making you resistant to fire and lightning damage, and you can breathe normally in nonmagical smoke and ash."
+				"Начиная с 10-го уровня вы становитесь мастером над лесными пожарами. Действием вы можете погасить любые немагические пожары на ваш выбор в пределах 30 футов от вас.",
+				"Кроме того, слой защитного пепла покрывает вашу кожу, делая вас устойчивым к урону огнём и электричеством, и вы можете нормально дышать в немагическом дыму и пепле."
 			]
 		},
 		{
-			"name": "Aspect of the Phoenix",
+			"name": "Облик феникса",
 			"source": "OxforgeHomebrewCircleOfAshes",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Ashes",
+			"subclassShortName": "Пепел",
 			"subclassSource": "OxforgeHomebrewCircleOfAshes",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you learn to emulate the flight and rebirth of the phoenix. Whenever you cast a spell of 1st level or higher that deals fire damage, wings of fire erupt from your back. You gain a flying speed equal to your current speed until the end of your turn.",
-				"Additionally, when you die, your body erupts into flame and turns to ash. The ash is put under the effects of the {@spell gentle repose} spell and collected in a flame red egg of glass. Unless the ashes have been dispersed, you rise from your ashes after {@dice 1d4} days as if {@spell true resurrection} had been cast on you. At the moment of death, you choose whether the equipment you are carrying is left behind or disintegrated along with your body. In the latter case, you have all the equipment you had at the moment of death when you are reborn. Once you use this feature, you cannot do so again until 14 days have passed."
+				"Начиная с 14-го уровня вы учитесь повторять полёт и возрождение феникса. Каждый раз, когда вы сотворяете заклинание 1-го уровня или выше, наносящее урон огнём, из вашей спины вырываются крылья из пламени. Вы получаете скорость полёта, равную вашей текущей скорости, до конца вашего хода.",
+				"Кроме того, когда вы умираете, ваше тело вспыхивает пламенем и обращается в пепел. Пепел попадает под действие заклинания {@spell gentle repose} и собирается в огненно-красное стеклянное яйцо. Если пепел не был рассеян, вы восстаёте из своего пепла через {@dice 1d4} дня, как если бы на вас было сотворено {@spell true resurrection}. В момент смерти вы выбираете, останется ли снаряжение, которое вы несёте, на месте или распадётся вместе с вашим телом. В последнем случае при возрождении у вас есть всё снаряжение, что было у вас в момент смерти. Использовав это умение, вы не можете применить его снова, пока не пройдёт 14 дней."
 			]
 		}
 	]

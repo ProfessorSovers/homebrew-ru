@@ -23,8 +23,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Dragon Domain",
-			"shortName": "Dragon",
+			"name": "Домен дракона",
+			"shortName": "Дракон",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -41,74 +41,74 @@
 				"Reincarnate"
 			],
 			"subclassFeatures": [
-				"Dragon Domain|Cleric||Dragon|VampireBagelDragonCleric|1",
-				"Channel Divinity: Heart of the Dragon|Cleric||Dragon|VampireBagelDragonCleric|2",
-				"Channel Divinity: Winged Form|Cleric||Dragon|VampireBagelDragonCleric|6",
-				"Divine Strike|Cleric||Dragon|VampireBagelDragonCleric|8",
-				"Blessed Strikes|Cleric||Dragon|VampireBagelDragonCleric|8",
-				"Heart of the Dragon|Cleric||Dragon|VampireBagelDragonCleric|17"
+				"Домен дракона|Cleric||Дракон|VampireBagelDragonCleric|1",
+				"Божественный канал: Сердце дракона|Cleric||Дракон|VampireBagelDragonCleric|2",
+				"Божественный канал: Крылатая форма|Cleric||Дракон|VampireBagelDragonCleric|6",
+				"Божественный удар|Cleric||Дракон|VampireBagelDragonCleric|8",
+				"Благословлённые удары|Cleric||Дракон|VampireBagelDragonCleric|8",
+				"Сердце дракона|Cleric||Дракон|VampireBagelDragonCleric|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Dragon Domain",
+			"name": "Домен дракона",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 1,
 			"entries": [
-				"Mighty creatures of awesome size and primal magics, dragons have inspired awe in the common folk for eons \u2014 sometimes being worshipped like gods, other times worshipped as gods: Bahamut the platinum dragon, Tiamat the rainbow wrym and Sardior the flawless. These god like beings imbue a fraction of their power unto their most devout followers.",
+				"Могущественные создания невероятных размеров и первобытной магии, драконы на протяжении эонов внушали трепет простому люду — их то почитали как богов, то поклонялись им как богам: Бахамут, платиновый дракон, Тиамат, радужный вирм, и Сардиор Безупречный. Эти богоподобные существа вкладывают частицу своей силы в самых преданных последователей.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Domain Spells|Cleric||Dragon|VampireBagelDragonCleric|1"
+					"subclassFeature": "Заклинания домена|Cleric||Дракон|VampireBagelDragonCleric|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric||Dragon|VampireBagelDragonCleric|1"
+					"subclassFeature": "Бонусное владение|Cleric||Дракон|VampireBagelDragonCleric|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dragon's Eye|Cleric||Dragon|VampireBagelDragonCleric|1"
+					"subclassFeature": "Глаз дракона|Cleric||Дракон|VampireBagelDragonCleric|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Gift|Cleric||Dragon|VampireBagelDragonCleric|1"
+					"subclassFeature": "Драконий дар|Cleric||Дракон|VampireBagelDragonCleric|1"
 				}
 			]
 		},
 		{
-			"name": "Bonus Proficiency",
+			"name": "Бонусное владение",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with martial weapons and heavy armour."
+				"На 1-м уровне вы получаете владение воинским оружием и тяжёлыми доспехами."
 			]
 		},
 		{
-			"name": "Domain Spells",
+			"name": "Заклинания домена",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"You gain domain spells at the cleric levels listed in the Dragon Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				"Вы получаете заклинания домена на указанных уровнях жреца из таблицы «Заклинания домена дракона». О том, как работают заклинания домена, см. умение класса «Божественный домен».",
 				{
 					"type": "table",
-					"caption": "Dragon Domain Spells",
+					"caption": "Заклинания домена дракона",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"Уровень жреца",
+						"Заклинания"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -116,48 +116,48 @@
 					],
 					"rows": [
 						[
-							"1st",
+							"1-й",
 							"{@spell absorb elements|xge}, {@spell identify}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell alter self}, {@spell dragon's breath|xge}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell elemental weapon}, {@spell fear}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell Leomund's secret chest}, {@spell Mordenkainen's private sanctum}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell legend lore}, {@spell reincarnate}*"
 						]
 					]
 				},
-				"*The target is always reincarnated as a {@race Dragonborn|phb}."
+				"*Цель всегда перевоплощается как {@race Dragonborn|phb}."
 			]
 		},
 		{
-			"name": "Draconic Gift",
+			"name": "Драконий дар",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Choose a Dragon type from the Draconic Gift table. The damage type, breath weapon and colour associated with each dragon is used by features you gain later.",
+				"Выберите вид дракона из таблицы «Драконий дар». Тип урона, оружие дыхания и цвет, связанные с каждым драконом, используются умениями, которые вы получите позже.",
 				{
 					"type": "table",
-					"caption": "Draconic Gift",
+					"caption": "Драконий дар",
 					"colLabels": [
-						"Dragon",
-						"Damage Type",
-						"Breath Weapon"
+						"Дракон",
+						"Тип урона",
+						"Оружие дыхания"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -166,141 +166,141 @@
 					],
 					"rows": [
 						[
-							"Black",
-							"Acid",
-							"5 by 30 ft. line (Dex. save)"
+							"Чёрный",
+							"Кислота",
+							"линия 5 на 30 фт. (спасбросок Лов.)"
 						],
 						[
-							"Blue",
-							"Lightning",
-							"5 by 30 ft. line (Dex. save)"
+							"Синий",
+							"Электричество",
+							"линия 5 на 30 фт. (спасбросок Лов.)"
 						],
 						[
-							"Brass",
-							"Fire",
-							"5 by 30 ft. line (Dex. save)"
+							"Латунный",
+							"Огонь",
+							"линия 5 на 30 фт. (спасбросок Лов.)"
 						],
 						[
-							"Bronze",
-							"Lightning",
-							"5 by 30 ft. line (Dex. save)"
+							"Бронзовый",
+							"Электричество",
+							"линия 5 на 30 фт. (спасбросок Лов.)"
 						],
 						[
-							"Copper",
-							"Acid",
-							"5 by 30 ft. line (Dex. save)"
+							"Медный",
+							"Кислота",
+							"линия 5 на 30 фт. (спасбросок Лов.)"
 						],
 						[
-							"Gold",
-							"Fire",
-							"15 ft. cone (Dex. save)"
+							"Золотой",
+							"Огонь",
+							"конус 15 фт. (спасбросок Лов.)"
 						],
 						[
-							"Green",
-							"Poison",
-							"15 ft. cone (Con. save)"
+							"Зелёный",
+							"Яд",
+							"конус 15 фт. (спасбросок Тел.)"
 						],
 						[
-							"Red",
-							"Fire",
-							"15 ft. cone (Dex. save)"
+							"Красный",
+							"Огонь",
+							"конус 15 фт. (спасбросок Лов.)"
 						],
 						[
-							"Silver",
-							"Cold",
-							"15 ft. cone (Con. save)"
+							"Серебряный",
+							"Холод",
+							"конус 15 фт. (спасбросок Тел.)"
 						],
 						[
-							"White",
-							"Cold",
-							"15 ft. cone (Con. save)"
+							"Белый",
+							"Холод",
+							"конус 15 фт. (спасбросок Тел.)"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Dragon's Eye",
+			"name": "Глаз дракона",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Also at 1st level, the cunning sight of your god has been passed onto you, You gain proficiency in the {@skill Perception} skill.",
-				"Your proficiency bonus is doubled for any ability check that uses this skill."
+				"Также на 1-м уровне хитрый взгляд вашего бога перешёл к вам. Вы получаете владение навыком {@skill Perception}.",
+				"Ваш бонус мастерства удваивается для любой проверки характеристики, использующей этот навык."
 			]
 		},
 		{
-			"name": "Channel Divinity: Heart of the Dragon",
+			"name": "Божественный канал: Сердце дракона",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"At 2nd level, as an action, you can present your holy symbol and channel the draconic might of your gods into a destructive exhalation of energy. Your Draconic Gift determines the size, shape, and damage type of the exhalation.",
-				"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your Draconic Gift. A creature takes {@dice 3d8} + your cleric level damage on a failed save, and half as much damage on a successful one."
+				"На 2-м уровне действием вы можете предъявить свой священный символ и направить драконью мощь своих богов в разрушительный выдох энергии. Ваш Драконий дар определяет размер, форму и тип урона выдоха.",
+				"Когда вы используете своё оружие дыхания, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим Драконим даром. При провале существо получает {@dice 3d8} + ваш уровень жреца урона, а при успехе — половину этого урона."
 			]
 		},
 		{
-			"name": "Channel Divinity: Winged Form",
+			"name": "Божественный канал: Крылатая форма",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, as a bonus action you may present your holy symbol and gain the gift of flight. A pair of dragon wings sprout from your back, granting you a flying speed equal to your current speed, your wings last for 1 minute before receding into your body.",
-				"You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them."
+				"На 6-м уровне бонусным действием вы можете предъявить свой священный символ и получить дар полёта. Из вашей спины вырастает пара драконьих крыльев, даруя вам скорость полёта, равную вашей текущей скорости; крылья держатся 1 минуту, прежде чем втянуться обратно в тело.",
+				"Вы не можете проявить крылья, нося доспех, если только доспех не изготовлен так, чтобы их вмещать; одежда, не приспособленная для ваших крыльев, может быть уничтожена, когда вы их проявляете."
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"name": "Благословлённые удары",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@italic 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
-				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@dice 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@italic жрец 8-го уровня {@variantrule optional class features|tce|optional feature}, заменяющая умение «Божественный удар»}",
+				"Вы благословлены божественной мощью в бою. Когда существо получает урон от одного из ваших заговоров или атак оружием, вы также можете нанести ему {@dice 1d8} урона излучением. Нанеся этот урон, вы не можете использовать это умение снова до начала вашего следующего хода."
 			]
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Божественный удар",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@dice 1d8} damage type on the Draconic Gift table to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+				"На 8-м уровне вы получаете способность наполнять удары оружием божественной энергией. Один раз в каждый свой ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительный урон {@dice 1d8} того типа, что указан в таблице «Драконий дар». Когда вы достигаете 14-го уровня, дополнительный урон увеличивается до {@dice 2d8}."
 			]
 		},
 		{
-			"name": "Heart of the Dragon",
+			"name": "Сердце дракона",
 			"source": "VampireBagelDragonCleric",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Dragon",
+			"subclassShortName": "Дракон",
 			"subclassSource": "VampireBagelDragonCleric",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level, your gods have granted you a loyal draconic steed as a gift for your service. As an action, you can summon a dragon of your type, as per the {@spell find steed} spell. This dragon has the statistics of a {@creature wyvern}, except its Intelligence and Charisma are 12, it has immunity to your Draconic Gift type, and it lacks the Multiattack and Stinger actions.",
-				"Once you've summoned your dragon, you can't do so again until you finish a long rest."
+				"На 17-м уровне ваши боги даровали вам верного драконьего скакуна в награду за службу. Действием вы можете призвать дракона вашего типа, как описано в заклинании {@spell find steed}. У этого дракона характеристики {@creature wyvern}, за исключением того, что его Интеллект и Харизма равны 12, он обладает невосприимчивостью к типу урона из вашего Драконьего дара и лишён действий «Мультиатака» и «Жало».",
+				"Призвав своего дракона, вы не можете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		}
 	]

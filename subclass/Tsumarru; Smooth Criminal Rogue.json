@@ -22,8 +22,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Smooth Criminal",
-			"shortName": "Smooth",
+			"name": "Ловкий преступник",
+			"shortName": "Ловкий",
 			"source": "Smooth Criminal",
 			"className": "Rogue",
 			"classSource": "PHB",
@@ -107,7 +107,7 @@
 				{
 					"subclasses": [
 						{
-							"name": "Smooth Criminal",
+							"name": "Ловкий преступник",
 							"source": "Smooth Criminal"
 						}
 					],
@@ -199,10 +199,10 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"subclasses": [
 						{
-							"name": "Smooth Criminal",
+							"name": "Ловкий преступник",
 							"source": "Smooth Criminal"
 						}
 					],
@@ -337,77 +337,77 @@
 				}
 			],
 			"subclassFeatures": [
-				"Smooth Criminal|Rogue||Smooth|Smooth Criminal|3",
-				"Off the Wall|Rogue||Smooth|Smooth Criminal|9",
-				"Beat It|Rogue||Smooth|Smooth Criminal|13",
-				"Moon Walk|Rogue||Smooth|Smooth Criminal|17"
+				"Ловкий преступник|Rogue||Ловкий|Smooth Criminal|3",
+				"От стены|Rogue||Ловкий|Smooth Criminal|9",
+				"Уноси ноги|Rogue||Ловкий|Smooth Criminal|13",
+				"Лунная походка|Rogue||Ловкий|Smooth Criminal|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Smooth Criminal",
+			"name": "Ловкий преступник",
 			"source": "Smooth Criminal",
 			"page": 2,
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Smooth",
+			"subclassShortName": "Ловкий",
 			"subclassSource": "Smooth Criminal",
 			"level": 3,
 			"entries": [
-				"Some rogues enhance their fine-honed skills of stealth and agility with magic, learning the bard secrets of preformance. These rogues include burglars, pranksters, mischief-makers, and a significant number of adventurers.",
+				"Некоторые плуты оттачивают свои доведённые до совершенства навыки скрытности и ловкости с помощью магии, изучая бардовские секреты выступления. Среди таких плутов встречаются взломщики, шутники, озорники и немалое число авантюристов.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Rogue||Smooth|Smooth Criminal|3"
+					"subclassFeature": "Использование заклинаний|Rogue||Ловкий|Smooth Criminal|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Smooth Moves|Rogue||Smooth|Smooth Criminal|3"
+					"subclassFeature": "Ловкие движения|Rogue||Ловкий|Smooth Criminal|3"
 				}
 			]
 		},
 		{
-			"name": "Smooth Moves",
+			"name": "Ловкие движения",
 			"source": "Smooth Criminal",
 			"page": 2,
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Smooth",
+			"subclassShortName": "Ловкий",
 			"subclassSource": "Smooth Criminal",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd Level, when you use a cunning action you gain flight speed of 20 ft until the end of your turn, you may apply a dash actions bonus to this movement.",
+				"Начиная с 3-го уровня, когда вы используете хитрое действие, вы получаете скорость полёта 20 фт. до конца своего хода; вы можете применить бонус действия «Рывок» к этому перемещению.",
 				{
 					"type": "list",
 					"items": [
-						"If you end your turn in the air you gently glide down 15 ft per turn until you reach the ground",
-						"If you take damage while in the air you must make a Dex Saving throw DC 1/4(damage taken rounded up) + 10  in order to prevent yourself from falling",
-						"you may not concentrate while using smooth moves, nor can you make non-lethal attacks."
+						"Если вы заканчиваете ход в воздухе, вы плавно скользите вниз на 15 фт. за ход, пока не достигнете земли",
+						"Если вы получаете урон, находясь в воздухе, вы должны совершить спасбросок Лов. Сл 1/4 (полученный урон, округлённый вверх) + 10, чтобы не упасть",
+						"вы не можете концентрироваться, используя ловкие движения, и не можете совершать нелетальные атаки."
 					]
 				}
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Использование заклинаний",
 			"source": "Smooth Criminal",
 			"page": 2,
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Smooth",
+			"subclassShortName": "Ловкий",
 			"subclassSource": "Smooth Criminal",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you reach 3rd level, you gain the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter bard spell list|spells|class=bard}.",
+				"Когда вы достигаете 3-го уровня, вы получаете способность накладывать заклинания. Общие правила наложения заклинаний см. в {@book chapter 10|PHB|10}, а {@filter bard spell list|spells|class=bard} — в {@book chapter 11|PHB|11}.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Cantrips",
+							"name": "Заговоры",
 							"entries": [
-								"You learn three cantrips: {@spell minor illusion} and two other cantrips of your choice from the bard spell list. You learn another bard cantrip of your choice at 10th level."
+								"Вы изучаете три заговора: {@spell minor illusion} и два других заговора на ваш выбор из списка заклинаний барда. На 10-м уровне вы изучаете ещё один бардовский заговор на ваш выбор."
 							]
 						}
 					]
@@ -417,10 +417,10 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spell Slots",
+							"name": "Ячейки заклинаний",
 							"entries": [
-								"The Smooth Criminal Spellcasting table shows how many spell slots you have to cast your {@filter bard spells|spells|class=bard} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-								"For example, if you know the 1st-level spell {@spell charm person} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person} using either slot."
+								"Таблица использования заклинаний Ловкого преступника показывает, сколько у вас ячеек заклинаний для наложения ваших {@filter bard spells|spells|class=bard} 1-го уровня и выше. Чтобы наложить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете продолжительный отдых.",
+								"Например, если вы знаете заклинание 1-го уровня {@spell charm person} и у вас есть доступная ячейка заклинаний 1-го и 2-го уровня, вы можете наложить {@spell charm person}, используя любую из них."
 							]
 						}
 					]
@@ -430,11 +430,11 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spells Known of 1st-Level and Higher",
+							"name": "Известные заклинания 1-го уровня и выше",
 							"entries": [
-								"You know three 1st-level bard spells of your choice",
-								"The Spells Known column of the Smooth Criminal Spellcasting table shows when you learn more bard spells of 1st level or higher, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-								"Whenever you gain a level in this class, you can replace one of the bard spells you know with another spell of your choice from the bard spell list. The new spell must be of a level for which you have spell slots"
+								"Вы знаете три бардовских заклинания 1-го уровня на ваш выбор",
+								"Столбец «Известные заклинания» таблицы использования заклинаний Ловкого преступника показывает, когда вы изучаете новые бардовские заклинания 1-го уровня и выше, и они должны быть уровня, для которого у вас есть ячейки заклинаний. Например, когда вы достигаете 7-го уровня в этом классе, вы можете изучить одно новое заклинание 1-го или 2-го уровня.",
+								"Каждый раз, когда вы получаете уровень в этом классе, вы можете заменить одно из известных вам бардовских заклинаний другим заклинанием на ваш выбор из списка заклинаний барда. Новое заклинание должно быть уровня, для которого у вас есть ячейки заклинаний"
 							]
 						}
 					]
@@ -444,19 +444,19 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Spellcasting Ability",
+							"name": "Базовая характеристика для заклинаний",
 							"entries": [
-								"Charisma is your spellcasting ability for your bard spells, since you learn your spells through preformace and charisma. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.",
+								"Харизма — ваша базовая характеристика для заклинаний барда, поскольку вы изучаете заклинания через выступление и харизму. Вы используете харизму всякий раз, когда заклинание ссылается на вашу базовую характеристику для заклинаний. Кроме того, вы используете модификатор харизмы, устанавливая Сл спасброска для накладываемого бардовского заклинания и совершая им бросок атаки.",
 								{
 									"type": "abilityDc",
-									"name": "Spell",
+									"name": "Заклинание",
 									"attributes": [
 										"cha"
 									]
 								},
 								{
 									"type": "abilityAttackMod",
-									"name": "Spell",
+									"name": "Заклинание",
 									"attributes": [
 										"cha"
 									]
@@ -468,46 +468,46 @@
 			]
 		},
 		{
-			"name": "Off the Wall",
+			"name": "От стены",
 			"source": "Smooth Criminal",
 			"page": 2,
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Smooth",
+			"subclassShortName": "Ловкий",
 			"subclassSource": "Smooth Criminal",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"Starting at 9th level,While using smooth moves you have advantage on Dex based skill and ability checks and you may concentrate on spells while using smooth moves"
+				"Начиная с 9-го уровня, пока вы используете ловкие движения, вы получаете преимущество на проверки навыков и характеристик на основе ловкости и можете концентрироваться на заклинаниях, используя ловкие движения"
 			]
 		},
 		{
-			"name": "Beat It",
+			"name": "Уноси ноги",
 			"source": "Smooth Criminal",
 			"page": 2,
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Smooth",
+			"subclassShortName": "Ловкий",
 			"subclassSource": "Smooth Criminal",
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Once per turn when you use smooth moves, you may make a weapon attack with advantage at the nearest enemy; You may not apply sneak attack to this attack."
+				"Один раз за ход, когда вы используете ловкие движения, вы можете совершить атаку оружием с преимуществом по ближайшему врагу; вы не можете применить к этой атаке Скрытую атаку."
 			]
 		},
 		{
-			"name": "Moon Walk",
+			"name": "Лунная походка",
 			"source": "Smooth Criminal",
 			"page": 2,
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Smooth",
+			"subclassShortName": "Ловкий",
 			"subclassSource": "Smooth Criminal",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Once per long rest when you use smooth moves, you may grant 3 other creatures the benefits of smooth moves on their next turn.",
-				"Smooth Moves' movement becomes 40 ft and creatures have disadvantage on ranged attacks they make against you."
+				"Один раз за продолжительный отдых, когда вы используете ловкие движения, вы можете даровать 3 другим существам преимущества ловких движений на их следующий ход.",
+				"Перемещение от «ловких движений» становится 40 фт., и существа получают помеху на дальнобойные атаки, которые они совершают по вам."
 			]
 		}
 	]

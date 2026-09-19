@@ -23,8 +23,8 @@
 	},
 	"subclass": [
 		{
-			"name": "The Hero",
-			"shortName": "Hero",
+			"name": "Герой",
+			"shortName": "Герой",
 			"source": "WarlockHero",
 			"className": "Warlock",
 			"classSource": "PHB",
@@ -41,36 +41,36 @@
 				"Destructive Wave"
 			],
 			"subclassFeatures": [
-				"The Hero|Warlock||Hero|WarlockHero|1",
-				"Steely Negotiator|Warlock||Hero|WarlockHero|6",
-				"Duel of Destiny|Warlock||Hero|WarlockHero|10",
-				"Hour of Triumph|Warlock||Hero|WarlockHero|14"
+				"Герой|Warlock||Герой|WarlockHero|1",
+				"Непоколебимый переговорщик|Warlock||Герой|WarlockHero|6",
+				"Дуэль судьбы|Warlock||Герой|WarlockHero|10",
+				"Час триумфа|Warlock||Герой|WarlockHero|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "The Hero",
+			"name": "Герой",
 			"source": "WarlockHero",
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Hero",
+			"subclassShortName": "Герой",
 			"subclassSource": "WarlockHero",
 			"level": 1,
 			"entries": [
-				"You have made a pact with a hero of legend. Seeing in you the seeds of greatness, they grant you the power to overcome impossible odds and inspire others to victory. Potential patrons include Artoria Pendragon, Drizzt Do'Urden, Minsc, and Pike Trickfoot.",
+				"Вы заключили договор с героем легенд. Увидев в вас семена величия, он дарует вам силу преодолевать невозможные трудности и вдохновлять других на победу. Потенциальные покровители: Артория Пендрагон, Дриззт До'Урден, Минск и Пайк Трикфут.",
 				{
 					"type": "entries",
-					"name": "Expanded Spell List",
+					"name": "Расширенный список заклинаний",
 					"entries": [
-						"The Hero lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. When you cast {@spell Aid} or {@spell Death Ward} with a warlock spell slot (not Mystic Arcanum), the spell ends when you finish a short rest.",
+						"Герой позволяет вам выбирать из расширенного списка заклинаний, когда вы изучаете заклинание колдуна. Следующие заклинания добавляются в ваш список заклинаний колдуна. Когда вы сотворяете {@spell Aid} или {@spell Death Ward}, используя ячейку заклинаний колдуна (а не Таинственный арканум), заклинание оканчивается, когда вы завершаете короткий отдых.",
 						{
 							"type": "table",
-							"caption": "Hero Expanded Spells",
+							"caption": "Расширенные заклинания Героя",
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Уровень заклинания",
+								"Заклинания"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -78,23 +78,23 @@
 							],
 							"rows": [
 								[
-									"1st",
+									"1-й",
 									"{@spell Heroism}, {@spell Zephyr Strike|XGE}"
 								],
 								[
-									"2nd",
+									"2-й",
 									"{@spell Aid}, {@spell Branding Smite}"
 								],
 								[
-									"3rd",
+									"3-й",
 									"{@spell Blinding Smite}, {@spell Motivational Speech|AI}"
 								],
 								[
-									"4th",
+									"4-й",
 									"{@spell Death Ward}, {@spell Staggering Smite}"
 								],
 								[
-									"5th",
+									"5-й",
 									"{@spell Banishing Smite}, {@spell Destructive Wave}"
 								]
 							]
@@ -103,100 +103,100 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battle-Ready|Warlock||Hero|WarlockHero|1"
+					"subclassFeature": "Боевая готовность|Warlock||Герой|WarlockHero|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Moment of Greatness|Warlock||Hero|WarlockHero|1"
+					"subclassFeature": "Миг величия|Warlock||Герой|WarlockHero|1"
 				}
 			]
 		},
 		{
-			"name": "Battle-Ready",
+			"name": "Боевая готовность",
 			"source": "WarlockHero",
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Hero",
+			"subclassShortName": "Герой",
 			"subclassSource": "WarlockHero",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, your patron tutors you in the art of combat. You gain proficiency with medium armor, shields, and martial weapons.",
-				"The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the {@optfeature Pact of the Blade} feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type."
+				"На 1-м уровне ваш покровитель обучает вас искусству боя. Вы получаете владение средними доспехами, щитами и воинским оружием.",
+				"Влияние вашего покровителя также позволяет вам мистически направлять свою волю через определённое оружие. Каждый раз, когда вы завершаете продолжительный отдых, вы можете коснуться одного оружия, которым владеете и которое не имеет свойства двуручного. Когда вы атакуете этим оружием, для бросков атаки и урона вы можете использовать модификатор Харизмы вместо Силы или Ловкости. Этот эффект длится, пока вы не завершите продолжительный отдых. Если позже вы получите умение {@optfeature Pact of the Blade}, этот эффект распространяется на каждое оружие договора, которое вы создаёте с его помощью, независимо от типа оружия."
 			]
 		},
 		{
-			"name": "Moment of Greatness",
+			"name": "Миг величия",
 			"source": "WarlockHero",
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Hero",
+			"subclassShortName": "Герой",
 			"subclassSource": "WarlockHero",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you can call upon your patron for inspiration. As a bonus action, you gain the following benefits.",
+				"Начиная с 1-го уровня вы можете взывать к своему покровителю за вдохновением. Бонусным действием вы получаете следующие преимущества.",
 				{
 					"type": "list",
 					"items": [
-						"You have advantage on all attack rolls, ability checks, and saving throws until the beginning of your next turn.",
-						"You gain temporary hit points equal to your warlock level + your Charisma modifier for 1 hour."
+						"Вы получаете преимущество на все броски атаки, проверки характеристик и спасброски до начала вашего следующего хода.",
+						"Вы получаете временные хиты в количестве, равном вашему уровню колдуна + модификатор Харизмы, на 1 час."
 					]
 				},
-				"Once you use this feature, you must wait until you finish a short or long rest to use it again."
+				"Использовав это умение, вы должны дождаться завершения короткого или продолжительного отдыха, прежде чем сможете использовать его снова."
 			]
 		},
 		{
-			"name": "Steely Negotiator",
+			"name": "Непоколебимый переговорщик",
 			"source": "WarlockHero",
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Hero",
+			"subclassShortName": "Герой",
 			"subclassSource": "WarlockHero",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your patron teaches you that conflicts are not always won on the battlefield. You gain proficiency in {@skill Persuasion} or {@skill Insight} (your choice). If you are already proficient in both, then gain proficiency in any other skill available to warlocks.",
-				"You also know the spell {@spell Zone of Truth}. For you, it is a warlock spell and it doesn't count against the limit on the number of spells you know.",
-				"You can cast it once without expending a spell slot. You can't do so again until you finish a short or long rest."
+				"На 6-м уровне ваш покровитель учит вас, что конфликты не всегда выигрываются на поле боя. Вы получаете владение {@skill Persuasion} или {@skill Insight} (на ваш выбор). Если вы уже владеете обоими, получите владение любым другим навыком, доступным колдуну.",
+				"Вы также знаете заклинание {@spell Zone of Truth}. Для вас оно является заклинанием колдуна и не учитывается при подсчёте количества известных вам заклинаний.",
+				"Вы можете сотворить его один раз, не тратя ячейку заклинаний. Вы не можете сделать это снова, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Duel of Destiny",
+			"name": "Дуэль судьбы",
 			"source": "WarlockHero",
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Hero",
+			"subclassShortName": "Герой",
 			"subclassSource": "WarlockHero",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Although you prefer to fight alongside your friends, you know that you sometimes must face a mighty villain alone. Starting at 10th level, when you use your Moment of Greatness feature, choose one creature you can see or hear. For 1 minute, or until you are {@condition incapacitated}, roll a {@dice d6} when that creature hits you with an attack roll. On a 4 or higher, the attack instead misses you, regardless of its roll."
+				"Хотя вы предпочитаете сражаться вместе с друзьями, вы знаете, что иногда должны в одиночку противостоять могучему злодею. Начиная с 10-го уровня, когда вы используете умение Миг величия, выберите одно существо, которое вы можете видеть или слышать. В течение 1 минуты или пока вы не станете {@condition incapacitated}, бросайте {@dice d6}, когда это существо попадает по вам броском атаки. При результате 4 или выше атака вместо этого промахивается по вам, независимо от её броска."
 			]
 		},
 		{
-			"name": "Hour of Triumph",
+			"name": "Час триумфа",
 			"source": "WarlockHero",
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Hero",
+			"subclassShortName": "Герой",
 			"subclassSource": "WarlockHero",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Beginning at 14th level, you can truly invoke your patron and lead your companions to victory. When you use Moment of Greatness, you can choose any number of creatures within 60 feet of you that can see or hear you. They gain temporary hit points equal to your warlock level + your Charisma modifier for 1 hour and until the beginning of your next turn, they have advantage on attack rolls, ability checks, and saving throws.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Начиная с 14-го уровня вы можете по-настоящему призвать своего покровителя и привести спутников к победе. Когда вы используете Миг величия, вы можете выбрать любое число существ в пределах 60 футов от вас, которые могут вас видеть или слышать. Они получают временные хиты в количестве, равном вашему уровню колдуна + модификатор Харизмы, на 1 час, и до начала вашего следующего хода они получают преимущество на броски атаки, проверки характеристик и спасброски.",
+				"Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Bulwark",
+			"name": "Оплот",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -213,11 +213,11 @@
 				}
 			],
 			"entries": [
-				"As a bonus action or a reaction when you or an ally within this effect's area is attacked or forced to make a Dexterity or Constitution saving throw for half or no damage, you can project a bastion of power in a 10-foot radius around yourself. Until the end of your next turn, you and your allies in that area get a +2 bonus on such saving throws and to AC. You can't do so again until you finish a short or long rest."
+				"Бонусным действием или реакцией, когда по вам или союзнику в области этого эффекта совершается атака или его заставляют совершить спасбросок Ловкости или Телосложения, чтобы получить половинный урон или избежать его, вы можете создать вокруг себя бастион силы радиусом 10 футов. До конца вашего следующего хода вы и ваши союзники в этой области получают бонус +2 к таким спасброскам и к КД. Вы не можете сделать это снова, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Dawnbringer",
+			"name": "Несущий рассвет",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -234,11 +234,11 @@
 				}
 			],
 			"entries": [
-				"When you hit a creature with your pact weapon, the creature takes extra radiant damage equal to your Charisma modifier (minimum 1). You can't also benefit from {@optfeature Lifedrinker}."
+				"Когда вы попадаете по существу своим оружием договора, существо получает дополнительный урон излучением, равный вашему модификатору Харизмы (минимум 1). Вы также не можете получать пользу от {@optfeature Lifedrinker}."
 			]
 		},
 		{
-			"name": "Great Bulwark",
+			"name": "Великий оплот",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -254,11 +254,11 @@
 				}
 			],
 			"entries": [
-				"Bulwark's area increases to a 30-foot radius and the bonus to AC and saving throws becomes +4."
+				"Радиус Оплота увеличивается до 30 футов, а бонус к КД и спасброскам становится +4."
 			]
 		},
 		{
-			"name": "Hero's Legendary Steed",
+			"name": "Легендарный скакун героя",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -274,13 +274,13 @@
 				}
 			],
 			"entries": [
-				"You know the spell {@spell Find Greater Steed|XGE}. For you, it is a warlock spell and it doesn't count against the limit on the number of spells you know.",
-				"When you use your {@optfeature Hero's Steed|WarlockHero} invocation, you may instead cast {@spell Find Greater Steed|XGE} once without expending a spell slot. In addition to the extra hit points from the Hero's Steed invocation, the summoned creature's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage and it has a bonus on attack rolls and saving throws and to its AC equal to half your proficiency bonus.",
-				"When you cast {@spell Find Greater Steed|XGE}, you may summon a {@creature Drake|WarlockHero}."
+				"Вы знаете заклинание {@spell Find Greater Steed|XGE}. Для вас оно является заклинанием колдуна и не учитывается при подсчёте количества известных вам заклинаний.",
+				"Когда вы используете воззвание {@optfeature Скакун героя|WarlockHero}, вы можете вместо этого один раз сотворить {@spell Find Greater Steed|XGE}, не тратя ячейку заклинаний. В дополнение к дополнительным хитам от воззвания «Скакун героя», атаки вызванного существа считаются магическими для преодоления сопротивления и иммунитета к немагическим атакам и урону, и оно получает бонус к броскам атаки, спасброскам и к своему КД, равный половине вашего бонуса мастерства.",
+				"Когда вы сотворяете {@spell Find Greater Steed|XGE}, вы можете призвать {@creature Дрейк|WarlockHero}."
 			]
 		},
 		{
-			"name": "Hero's Steed",
+			"name": "Скакун героя",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -296,12 +296,12 @@
 				}
 			],
 			"entries": [
-				"You know the spell {@spell Find Steed}. For you, it is a warlock spell and it doesn't count against the limit on the number of spells you know. You can cast it once without expending a spell slot. You can't do so again until you finish a long rest.",
-				"The summoned creature has additional hit points equal to twice your warlock level."
+				"Вы знаете заклинание {@spell Find Steed}. Для вас оно является заклинанием колдуна и не учитывается при подсчёте количества известных вам заклинаний. Вы можете сотворить его один раз, не тратя ячейку заклинаний. Вы не можете сделать это снова, пока не завершите продолжительный отдых.",
+				"Вызванное существо получает дополнительные хиты в количестве, равном удвоенному уровню колдуна."
 			]
 		},
 		{
-			"name": "Heroic Guardian",
+			"name": "Героический защитник",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -321,11 +321,11 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell Armor of Agathys} or {@spell Heroism} (if you know them) as a reaction when you or your mount is hit by an attack or become {@condition frightened}. If you do so, you can't again until you finish a short or long rest."
+				"Реакцией, когда по вам или вашему скакуну попадает атака или вы становитесь {@condition frightened}, вы можете сотворить {@spell Armor of Agathys} или {@spell Heroism} (если вы их знаете). Если вы так поступите, то не сможете сделать это снова, пока не завершите короткий или продолжительный отдых."
 			]
 		},
 		{
-			"name": "Improved Pact Shield",
+			"name": "Улучшенный щит договора",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -336,25 +336,25 @@
 				}
 			],
 			"entries": [
-				"You can use any shield you summon with your Pact of the Shield feature as a spellcasting focus for your warlock spells.",
-				"In addition, the shield gains a +1 bonus to its AC, unless it is a magic shield that already has a bonus to its AC."
+				"Вы можете использовать любой щит, призванный вашим умением Договор щита, в качестве заклинательной фокусировки для ваших заклинаний колдуна.",
+				"Кроме того, щит получает бонус +1 к КД, если это не магический щит, уже имеющий бонус к КД."
 			]
 		},
 		{
-			"name": "Pact of the Shield",
+			"name": "Договор щита",
 			"source": "WarlockHero",
 			"featureType": [
 				"PB"
 			],
 			"entries": [
-				"You can use your action to create a pact shield in your empty hand. You can choose the exact form that it takes each time you create it. You are proficient with it while you wield it.",
-				"Your pact shield disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the shield (no action required), or if you die.",
-				"You can transform one magic shield into your pact shield by performing a special ritual while you hold the shield. You perform the ritual over the course of 1 hour, which can be done during a short rest.",
-				"You can then dismiss the shield, shunting it into an extradimensional space, and it appears whenever you create your pact shield thereafter. You can't affect an artifact or a sentient shield in this way. The shield ceases being your pact shield if you die, if you perform the 1-hour ritual on a different shield, or if you use a 1-hour ritual to break your bond to it. The shield appears at your feet if it is in the extradimensional space when the bond breaks."
+				"Действием вы можете создать щит договора в своей пустой руке. Каждый раз, создавая его, вы можете выбрать его точную форму. Вы владеете им, пока держите его.",
+				"Ваш щит договора исчезает, если он находится более чем в 5 футах от вас в течение 1 минуты или дольше. Он также исчезает, если вы снова используете это умение, если вы отпускаете щит (действие не требуется) или если вы умираете.",
+				"Вы можете превратить один магический щит в ваш щит договора, проведя особый ритуал, пока держите щит. Вы проводите ритуал в течение 1 часа, что можно сделать во время короткого отдыха.",
+				"Затем вы можете отпустить щит, переместив его в межпространственное пространство, и впоследствии он появляется всякий раз, когда вы создаёте свой щит договора. Вы не можете так поступить с артефактом или разумным щитом. Щит перестаёт быть вашим щитом договора, если вы умираете, если вы проводите 1-часовой ритуал с другим щитом или если вы используете 1-часовой ритуал, чтобы разорвать связь с ним. Щит появляется у ваших ног, если он находится в межпространственном пространстве в момент разрыва связи."
 			]
 		},
 		{
-			"name": "Shield Bash",
+			"name": "Удар щитом",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -371,14 +371,14 @@
 				}
 			],
 			"entries": [
-				"You can use your pact shield as a martial melee weapon. It deals 1 point of bludgeoning damage. It counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
-				"If you have the ability to add your Charisma modifier to a weapon's attack and damage, you may also do so with your pact shield.",
-				"If the shield has a magic bonus to its AC, it gets an equal bonus to its attack and damage rolls.",
-				"When you take the Attack action on your turn, you can perform a shield attack in addition to your normal attack."
+				"Вы можете использовать свой щит договора как воинское рукопашное оружие. Он наносит 1 единицу дробящего урона. Он считается магическим для преодоления сопротивления и иммунитета к немагическим атакам и урону.",
+				"Если у вас есть способность добавлять модификатор Харизмы к атаке и урону оружия, вы также можете делать это со своим щитом договора.",
+				"Если щит имеет магический бонус к КД, он получает равный бонус к броскам атаки и урона.",
+				"Когда вы совершаете в свой ход действие Атака, вы можете провести атаку щитом в дополнение к своей обычной атаке."
 			]
 		},
 		{
-			"name": "Shield Toss",
+			"name": "Метание щита",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -394,23 +394,23 @@
 				}
 			],
 			"entries": [
-				"As an action, you can hurl your pact shield like a boomerang. Make a ranged weapon attack against up to two targets you can see within 30 feet of you. If it hits, it deals {@dice 3d4} + the appropriate ability modifier bludgeoning damage. If you score a critical hit with this attack and the target is size Large or smaller, it must succeed on a Strength saving throw against your spell DC or be knocked {@condition prone}.",
-				"The shield returns to your grip after you throw it. At 11th level and 17th level, you can target an additional creature with this feature."
+				"Действием вы можете метнуть свой щит договора как бумеранг. Совершите дальнобойную атаку оружием по одной или двум целям, которых вы можете видеть в пределах 30 футов от вас. При попадании он наносит {@dice 3d4} + соответствующий модификатор характеристики дробящего урона. Если вы совершите этим ударом критическое попадание и цель имеет размер Большой или меньше, она должна преуспеть в спасброске Силы против Сл ваших заклинаний, иначе получает состояние {@condition prone}.",
+				"После броска щит возвращается к вам в руку. На 11-м и 17-м уровнях вы можете выбрать дополнительное существо этим умением."
 			]
 		},
 		{
-			"name": "Shining Servant",
+			"name": "Сияющий слуга",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"When you cast a warlock cantrip or a 1st level warlock spell (even one cast at a higher level), you can change the damage to radiant damage.",
-				"In addition, when you hit with an attack, you can deal extra radiant damage equal to your warlock level. If you do so, you can't again until you finish a long rest."
+				"Когда вы сотворяете заговор колдуна или заклинание колдуна 1-го уровня (даже сотворённое с использованием ячейки более высокого уровня), вы можете изменить его урон на урон излучением.",
+				"Кроме того, когда вы попадаете атакой, вы можете нанести дополнительный урон излучением, равный вашему уровню колдуна. Если вы так поступите, то не сможете сделать это снова, пока не завершите продолжительный отдых."
 			]
 		},
 		{
-			"name": "Superior Pact Shield",
+			"name": "Превосходный щит договора",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -427,12 +427,12 @@
 				}
 			],
 			"entries": [
-				"You can use any shield you summon with your Pact of the Shield feature as a spellcasting focus for your warlock spells.",
-				"In addition, your pact shield gains a +2 bonus to its AC, unless it is a magic shield that already has a bonus to its AC."
+				"Вы можете использовать любой щит, призванный вашим умением Договор щита, в качестве заклинательной фокусировки для ваших заклинаний колдуна.",
+				"Кроме того, ваш щит договора получает бонус +2 к КД, если это не магический щит, уже имеющий бонус к КД."
 			]
 		},
 		{
-			"name": "Ultimate Pact Shield",
+			"name": "Совершенный щит договора",
 			"source": "WarlockHero",
 			"featureType": [
 				"EI"
@@ -449,14 +449,14 @@
 				}
 			],
 			"entries": [
-				"You can use any shield you summon with your Pact of the Shield feature as a spellcasting focus for your warlock spells.",
-				"In addition, your pact shield gains a +3 bonus to its AC, unless it is a magic shield that already has a bonus to its AC."
+				"Вы можете использовать любой щит, призванный вашим умением Договор щита, в качестве заклинательной фокусировки для ваших заклинаний колдуна.",
+				"Кроме того, ваш щит договора получает бонус +3 к КД, если это не магический щит, уже имеющий бонус к КД."
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Drake",
+			"name": "Дрейк",
 			"shortName": true,
 			"source": "WarlockHero",
 			"size": [
@@ -505,7 +505,7 @@
 						"radiant",
 						"thunder"
 					],
-					"preNote": "Choose one:"
+					"preNote": "Выберите одно:"
 				}
 			],
 			"languages": [
@@ -515,27 +515,27 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Multitattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The drake makes two attacks: one with its bite and one with its claws."
+						"Дрейк совершает две атаки: одну укусом и одну когтями."
 					]
 				},
 				{
-					"name": "Breath {@recharge 5}",
+					"name": "Дыхание {@recharge 5}",
 					"entries": [
-						"The drake exhales energy in a line 30 feet long and 5 feet wide. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 18 ({@damage 5d6}) damage on a failed save, or half on a success. The damage is the same type that the drake has resistance to. If the damage type is cold, radiant, or thunder, the saving throw is Constitution instead."
+						"Дрейк выдыхает энергию линией длиной 30 футов и шириной 5 футов. Каждое существо в этой области должно совершить спасбросок Ловкости Сл {@dc 13}, получая 18 ({@damage 5d6}) урона при провале или половину этого урона при успехе. Урон относится к тому же типу, к которому у дрейка есть сопротивление. Если тип урона — холод, излучение или звук, вместо этого совершается спасбросок Телосложения."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 2d4 + 4}) рубящего урона."
 					]
 				}
 			],

@@ -22,54 +22,54 @@
 	},
 	"subclass": [
 		{
-			"name": "Community College",
-			"shortName": "Community College",
+			"name": "Муниципальный колледж",
+			"shortName": "Муниципальный колледж",
 			"source": "CCollege",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Budget Education|Wizard||Community College|CCollege|2",
-				"Minor Focus|Wizard||Community College|CCollege|2",
-				"Cram Study|Wizard||Community College|CCollege|6",
-				"Adjunct Lessons|Wizard||Community College|CCollege|10",
-				"Accelerated Graduation|Wizard||Community College|CCollege|14"
+				"Бюджетное образование|Wizard||Муниципальный колледж|CCollege|2",
+				"Дополнительная специализация|Wizard||Муниципальный колледж|CCollege|2",
+				"Зубрёжка|Wizard||Муниципальный колледж|CCollege|6",
+				"Уроки внештатника|Wizard||Муниципальный колледж|CCollege|10",
+				"Ускоренный выпуск|Wizard||Муниципальный колледж|CCollege|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Budget Education",
+			"name": "Бюджетное образование",
 			"source": "CCollege",
 			"page": 1,
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Community College",
+			"subclassShortName": "Муниципальный колледж",
 			"subclassSource": "CCollege",
 			"level": 2,
 			"entries": [
-				"Beginning when you select this school at 2nd level, the gold and time you must spend to copy any wizard spell of 3rd level or lower into your spellbook is halved."
+				"Начиная с того момента, как вы выбираете эту школу на 2-м уровне, количество золота и времени, которое вы тратите на переписывание любого заклинания волшебника 3-го уровня или ниже в свою книгу заклинаний, уменьшается вдвое."
 			]
 		},
 		{
-			"name": "Minor Focus",
+			"name": "Дополнительная специализация",
 			"source": "CCollege",
 			"page": 1,
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Community College",
+			"subclassShortName": "Муниципальный колледж",
 			"subclassSource": "CCollege",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Also when you choose this school at 2nd level, choose one class to minor in from among Bard, Barbarian, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, and Warlock.",
-				"If you choose {@filter Bard|spells|level=0;1|class=bard}, {@filter Cleric|spells|level=0;1|class=cleric}, {@filter Druid|spells|level=0;1|class=druid}, {@filter Sorcerer|spells|level=0;1|class=sorcerer}, or {@filter Warlock|spells|level=0;1|class=warlock}, you immediately learn two cantrips and one spell of first level or higher from the chosen class' spell list, which are considered wizard spells for you, and you can cast and copy spells from spell scrolls belonging to the chosen class as if they were wizard spells. Spells added by your Minor Focus can not be the target of your {@classFeature Spell Mastery|Wizard||18} feature at 18th level.",
-				"Otherwise, you gain one other feature depending on your chosen minor class as shown on the Minor Table below and, when you reach 5th level in this class, you can attack twice instead of once when you take the attack action on your turn:",
+				"Кроме того, выбирая эту школу на 2-м уровне, выберите один класс в качестве дополнительной специализации: бард, варвар, жрец, друид, воин, монах, паладин, следопыт, плут, чародей или колдун.",
+				"Если вы выбираете {@filter Bard|spells|level=0;1|class=bard}, {@filter Cleric|spells|level=0;1|class=cleric}, {@filter Druid|spells|level=0;1|class=druid}, {@filter Sorcerer|spells|level=0;1|class=sorcerer} или {@filter Warlock|spells|level=0;1|class=warlock}, вы немедленно изучаете два заговора и одно заклинание 1-го уровня или выше из списка заклинаний выбранного класса; они считаются для вас заклинаниями волшебника, и вы можете накладывать и переписывать заклинания из свитков заклинаний, принадлежащих выбранному классу, как если бы они были заклинаниями волшебника. Заклинания, добавленные вашей «Дополнительной специализацией», не могут быть целью вашего умения {@classFeature Spell Mastery|Wizard||18} на 18-м уровне.",
+				"В противном случае вы получаете ещё одно умение в зависимости от выбранного второстепенного класса, как показано в таблице специализаций ниже, а достигнув 5-го уровня в этом классе, вы можете атаковать дважды вместо одного раза, когда используете действие «атака» в свой ход:",
 				{
 					"type": "table",
-					"caption": "Minor Table",
+					"caption": "Таблица специализаций",
 					"colLabels": [
-						"Minor",
-						"2nd Level Feature"
+						"Специализация",
+						"Умение 2-го уровня"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -77,79 +77,79 @@
 					],
 					"rows": [
 						[
-							"Barbarian",
-							"Gain proficiency in light armor and with one martial weapon. As a bonus action, you gain advantage on the next attack roll you make during this turn, but attack rolls against you have advantage until your next turn."
+							"Варвар",
+							"Вы получаете владение лёгкими доспехами и одним воинским оружием. Бонусным действием вы получаете преимущество на следующий бросок атаки, совершённый вами в этом ходу, но броски атак по вам совершаются с преимуществом до вашего следующего хода."
 						],
 						[
-							"Fighter",
-							"Gain proficiency in light and medium armor, simple weapons, and in one martial weapon. You also gain one fighting style from the fighter's 1st-level {@classFeature Fightning Style|Fighter||1} feature."
+							"Воин",
+							"Вы получаете владение лёгкими и средними доспехами, простым оружием и одним воинским оружием. Вы также получаете один боевой стиль из умения воина {@classFeature Fightning Style|Fighter||1} 1-го уровня."
 						],
 						[
-							"Monk",
-							"Your movement speed increases by 10 ft. While unarmored and not carrying a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+							"Монах",
+							"Ваша скорость перемещения увеличивается на 10 фт. Пока вы не носите доспехов и не несёте щит, ваш КД равен 10 + ваш модификатор Ловкости + ваш модификатор Мудрости."
 						],
 						[
-							"Paladin",
-							"Gain proficiency in light and medium armor and in one martial weapon. When you hit an enemy with a melee weapon attack, you can expend one spell slot of any level to cause the attack to deal 1d6 additional force damage for each of the spell's levels."
+							"Паладин",
+							"Вы получаете владение лёгкими и средними доспехами и одним воинским оружием. Когда вы попадаете по врагу рукопашной атакой оружием, вы можете потратить одну ячейку заклинания любого уровня, чтобы атака нанесла 1d6 дополнительного урона силовым полем за каждый уровень заклинания."
 						],
 						[
-							"Ranger",
-							"Gain proficiency in Wisdom ({@skill Survival}) checks and with light armor and one martial weapon. You can cast find familiar as a ritual without expending material components."
+							"Следопыт",
+							"Вы получаете владение проверками Мудрости ({@skill Survival}), а также лёгкими доспехами и одним воинским оружием. Вы можете накладывать «Поиск фамильяра» как ритуал, не тратя материальные компоненты."
 						],
 						[
-							"Rogue",
-							"Gain proficiency in light armor and in Dexterity ({@skill Stealth}) checks. You can disengage or hide as a bonus action on each of your turns."
+							"Плут",
+							"Вы получаете владение лёгкими доспехами и проверками Ловкости ({@skill Stealth}). В каждый свой ход вы можете бонусным действием отойти или спрятаться."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Cram Study",
+			"name": "Зубрёжка",
 			"source": "CCollege",
 			"page": 1,
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Community College",
+			"subclassShortName": "Муниципальный колледж",
 			"subclassSource": "CCollege",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Community College Wizard feature}",
-				"By 6th level, you have become well-accustomed to accomplishing a week's worth of research in a single day's time. At the end of a short rest, you can replace up to one of your prepared spells with another spell you know.",
-				"Additionally, when you use your Arcane Recovery feature at the end of a short rest, the spell slots you regain can have a combined level that is equal to or less than half of your wizard level +2 (rounded down), to a maximum of 5th level."
+				"{@i умение волшебника муниципального колледжа 6-го уровня}",
+				"К 6-му уровню вы привыкли выполнять недельный объём исследований за один день. В конце короткого отдыха вы можете заменить до одного из своих подготовленных заклинаний другим заклинанием, которое знаете.",
+				"Кроме того, используя своё умение «Магическое восстановление» в конце короткого отдыха, вы можете восстановить ячейки заклинаний, суммарный уровень которых равен половине вашего уровня волшебника +2 (округлённой вниз) или меньше, но не выше 5-го уровня."
 			]
 		},
 		{
-			"name": "Adjunct Lessons",
+			"name": "Уроки внештатника",
 			"source": "CCollege",
 			"page": 1,
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Community College",
+			"subclassShortName": "Муниципальный колледж",
 			"subclassSource": "CCollege",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Community College Wizard feature}",
-				"At 10th level, you are an expert at learning from the experiences of others\u2014or just copying their notes. If you spend an hour studying the actions of another creature, you become proficient in two skills or tools that creature is proficient in. If that creature has at least one class level, you can instead choose to gain the minor focus corresponding to one of that creature's classes of your choice.",
-				"You can only gain the benefits of one Adjunct Lesson at a time, losing any proficencies, spells, or features from your oldest lesson as soon as you gain a new one. Similarly, if you do not observe a creature for at least 10 minutes before the end of each 24 hour period, you lose the benefits of its lesson."
+				"{@i умение волшебника муниципального колледжа 10-го уровня}",
+				"На 10-м уровне вы мастер учиться на чужом опыте — или просто списывать чужие конспекты. Если вы потратите час на изучение действий другого существа, вы получаете владение двумя навыками или инструментами, которыми владеет это существо. Если у этого существа есть хотя бы один уровень класса, вы можете вместо этого получить дополнительную специализацию, соответствующую одному из его классов на ваш выбор.",
+				"Вы можете получать преимущества только одного урока внештатника одновременно; как только вы получаете новый урок, вы теряете все владения, заклинания и умения от самого старого. Точно так же, если вы не наблюдаете за существом не менее 10 минут до конца каждых 24 часов, вы теряете преимущества его урока."
 			]
 		},
 		{
-			"name": "Accelerated Graduation",
+			"name": "Ускоренный выпуск",
 			"source": "CCollege",
 			"page": 1,
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassShortName": "Community College",
+			"subclassShortName": "Муниципальный колледж",
 			"subclassSource": "CCollege",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Community College Wizard feature}",
-				"At 14th level, you complete your introductory studies in wizarding, gaining a cursory knowledge of every field of arcane study. You gain the 2nd level arcane tradition features of two of the following colleges: {@subclassFeature Arcane Ward|Wizard||Abjuration||2||abjuration}, {@subclassFeature Minor Conjuration|Wizard||Conjuration||2||conjuration}, {@subclassFeature Portent|Wizard||Divination||2||divination}, {@subclassFeature Hypnotic Gaze|Wizard||Enchantment||2||enchantment}, {@subclassFeature Sculpt Spells|Wizard||Evocation||2||evocation}, {@subclassFeature Improved Minor Illusion|Wizard||Illusion||2||illusion}, {@subclassFeature Grim Harvest|Wizard||Necromancy||2||necromancy}, and {@subclassFeature Minor Alchemy|Wizard||Transmutation||2||transmutation}. When you finish a long rest, you can choose to replace the 2nd level features of one of these colleges with another college of your choice.",
-				"In addition, you receive an enchanted diploma in {@dice 1d10} days which grants you access and some degree of esteem in most libraries, scriptoriums, and universities."
+				"{@i умение волшебника муниципального колледжа 14-го уровня}",
+				"На 14-м уровне вы завершаете вводный курс волшебства, обретая поверхностное знание всех областей тайных наук. Вы получаете умения 2-го уровня двух из следующих традиций: {@subclassFeature Arcane Ward|Wizard||Abjuration||2||abjuration}, {@subclassFeature Minor Conjuration|Wizard||Conjuration||2||conjuration}, {@subclassFeature Portent|Wizard||Divination||2||divination}, {@subclassFeature Hypnotic Gaze|Wizard||Enchantment||2||enchantment}, {@subclassFeature Sculpt Spells|Wizard||Evocation||2||evocation}, {@subclassFeature Improved Minor Illusion|Wizard||Illusion||2||illusion}, {@subclassFeature Grim Harvest|Wizard||Necromancy||2||necromancy} и {@subclassFeature Minor Alchemy|Wizard||Transmutation||2||transmutation}. Завершая продолжительный отдых, вы можете заменить умения 2-го уровня одной из этих традиций умениями другой традиции на ваш выбор.",
+				"Кроме того, через {@dice 1d10} дней вы получаете зачарованный диплом, дающий вам доступ и определённое уважение в большинстве библиотек, скрипториев и университетов."
 			]
 		}
 	]

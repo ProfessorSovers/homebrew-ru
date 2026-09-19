@@ -20,8 +20,8 @@
 	},
 	"subclass": [
 		{
-			"name": "Sohei",
-			"shortName": "Sohei",
+			"name": "Сохэй",
+			"shortName": "Сохэй",
 			"source": "FFSohei",
 			"className": "Monk",
 			"classSource": "PHB",
@@ -89,7 +89,7 @@
 				{
 					"subclasses": [
 						{
-							"name": "Sohei",
+							"name": "Сохэй",
 							"source": "FFSohei"
 						}
 					],
@@ -160,10 +160,10 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Ячейки заклинаний по уровням заклинаний",
 					"subclasses": [
 						{
-							"name": "Sohei",
+							"name": "Сохэй",
 							"source": "FFSohei"
 						}
 					],
@@ -298,116 +298,116 @@
 				}
 			],
 			"subclassFeatures": [
-				"Way of the Sohei|Monk||Sohei|FFSohei|3",
-				"Defensive Strike|Monk||Sohei|FFSohei|6",
-				"Strength of Mind|Monk||Sohei|FFSohei|6",
-				"Extraordinary Resilience|Monk||Sohei|FFSohei|11",
-				"Unyielding Soul|Monk||Sohei|FFSohei|17"
+				"Путь сохэя|Monk||Сохэй|FFSohei|3",
+				"Защитный удар|Monk||Сохэй|FFSohei|6",
+				"Сила разума|Monk||Сохэй|FFSohei|6",
+				"Необычайная стойкость|Monk||Сохэй|FFSohei|11",
+				"Несломленная душа|Monk||Сохэй|FFSohei|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Way of the Sohei",
+			"name": "Путь сохэя",
 			"source": "FFSohei",
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Sohei",
+			"subclassShortName": "Сохэй",
 			"subclassSource": "FFSohei",
 			"level": 3,
 			"entries": [
-				"Sohei mix martial prowess with divine power that grants them access to spells, the ability to heighten their strength and speed in battle, and protection from mental and bodily harm. Very experienced sohei can shrug off physical damage and even ignore grievous wounds while using their spells in battle to grant protection, enhance attacks, and damage foes.",
+				"Сохэй сочетают боевое мастерство с божественной силой, дающей им доступ к заклинаниям, способность усиливать свою мощь и скорость в бою, а также защиту от душевного и телесного вреда. Очень опытные сохэй могут не замечать физического урона и даже игнорировать тяжёлые раны, используя свои заклинания в бою для защиты, усиления атак и нанесения урона врагам.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Monk||Sohei|FFSohei|3"
+					"subclassFeature": "Сотворение заклинаний|Monk||Сохэй|FFSohei|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ki Frenzy|Monk||Sohei|FFSohei|3"
+					"subclassFeature": "Ки-неистовство|Monk||Сохэй|FFSohei|3"
 				}
 			]
 		},
 		{
-			"name": "Ki Frenzy",
+			"name": "Ки-неистовство",
 			"source": "FFSohei",
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Sohei",
+			"subclassShortName": "Сохэй",
 			"subclassSource": "FFSohei",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you can focus your ki into a frenzy of berserk energy as a bonus action.",
-				"While in a ki frenzy, you gain the following benefits:",
+				"На 3-м уровне вы можете бонусным действием сосредоточить своё ки в неистовстве берсеркской энергии.",
+				"Пока вы в ки-неистовстве, вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
 						{
 							"entries": [
-								"You gain a bonus to your AC and damage rolls equal to your proficiency bonus."
+								"Вы получаете бонус к Классу Доспеха и броскам урона, равный вашему бонусу мастерства."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-								"Your speed increases by 10 feet."
+								"Ваша скорость увеличивается на 10 футов."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-								"When you use flurry of blows, you can choose to not expend a ki point, but instead take a -5 penalty to the attack rolls you make as part of that bonus action."
+								"Когда вы используете шквал ударов, вы можете не тратить очко ки, а вместо этого получить штраф −5 к броскам атаки, совершаемым в рамках этого бонусного действия."
 							],
 							"type": "entries"
 						}
 					]
 				},
-				"You are unable to cast spells or concentrate on them while in a ki frenzy. Your ki frenzy lasts for 1 minute. It ends early if you are knocked {@condition unconscious} or if you end it as a bonus action. You a can use this feature once. You gain an additional use at 11th level, and a third use at 17th level. You regain all expended uses when you finish a long rest."
+				"Пока вы в ки-неистовстве, вы не можете сотворять заклинания и концентрироваться на них. Ваше ки-неистовство длится 1 минуту. Оно заканчивается раньше, если вы становитесь {@condition unconscious} или если вы окончите его бонусным действием. Вы можете использовать это умение один раз. Вы получаете дополнительное использование на 11-м уровне и третье — на 17-м. Вы восстанавливаете все потраченные использования по завершении продолжительного отдыха."
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Сотворение заклинаний",
 			"source": "FFSohei",
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Sohei",
+			"subclassShortName": "Сохэй",
 			"subclassSource": "FFSohei",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this tradition at 3rd level, as a conduit for divine power, you can cast cleric spells by channeling your ki.",
+				"Выбрав эту традицию на 3-м уровне, вы как проводник божественной силы можете сотворять заклинания жреца, направляя своё ки.",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Заговоры",
 					"entries": [
-						"You learn two cantrips of your choice from the {@filter cleric spell list|spells|class=cleric}. You learn an additional cleric cantrip of your choice at 10th level."
+						"Вы изучаете два заговора на свой выбор из {@filter cleric spell list|spells|class=cleric}. На 10-м уровне вы изучаете дополнительный заговор жреца на свой выбор."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Preparing and Casting Spells",
+					"name": "Подготовка и сотворение заклинаний",
 					"entries": [
-						"The Sohei Spellcasting table shows how many spell slots you have to cast your {@filter cleric spells|spells|class=cleric}. To cast one of your cleric spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"You prepare the list of cleric spells that are available for you to cast, choosing from the {@filter cleric spell list|spells|class=cleric}. When you do so, choose a number of cleric spells equal to your Wisdom modifier + one third of your monk level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
-						"For example, if you are a 7th-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell cure wounds|PHB}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in practice and meditation: at least 1 minute per spell level for each spell on your list."
+						"Таблица использования заклинаний сохэя показывает, сколько у вас ячеек заклинаний для сотворения ваших {@filter cleric spells|spells|class=cleric}. Чтобы сотворить одно из ваших заклинаний жреца 1-го уровня или выше, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний по завершении продолжительного отдыха.",
+						"Вы подготавливаете список доступных вам для сотворения заклинаний жреца, выбирая из {@filter cleric spell list|spells|class=cleric}. При этом выберите число заклинаний жреца, равное вашему модификатору Мудрости + одна треть вашего уровня монаха, округляя в меньшую сторону (минимум одно заклинание). Заклинания должны быть уровня, для которого у вас есть ячейки заклинаний.",
+						"Например, если вы жрец 7-го уровня, у вас четыре ячейки 1-го уровня и две ячейки 2-го уровня. При Мудрости 14 ваш список подготовленных заклинаний может включать четыре заклинания 1-го или 2-го уровня в любой комбинации. Если вы подготовите заклинание 1-го уровня {@spell cure wounds|PHB}, вы можете сотворить его, используя ячейку 1-го или 2-го уровня. Сотворение заклинания не удаляет его из вашего списка подготовленных заклинаний.",
+						"Вы можете изменить свой список подготовленных заклинаний, когда завершаете продолжительный отдых. Подготовка нового списка заклинаний жреца требует времени, проведённого в практике и медитации: не менее 1 минуты на уровень заклинания для каждого заклинания в списке."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Базовая характеристика для заклинаний",
 					"entries": [
-						"Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.",
+						"Мудрость — ваша базовая характеристика для заклинаний жреца. Сила ваших заклинаний исходит из вашей преданности божеству. Вы используете Мудрость всякий раз, когда заклинание жреца ссылается на вашу базовую характеристику для заклинаний. Кроме того, вы используете модификатор Мудрости при определении Сл спасброска от вашего заклинания жреца и при совершении броска атаки им.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"wis"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"wis"
 							]
@@ -417,58 +417,58 @@
 			]
 		},
 		{
-			"name": "Defensive Strike",
+			"name": "Защитный удар",
 			"source": "FFSohei",
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Sohei",
+			"subclassShortName": "Сохэй",
 			"subclassSource": "FFSohei",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, When a creature misses you with a melee attack roll after you have taken the {@action Dodge} action on your previous turn, you gain advantage on attack rolls against that creature until the end of your next turn."
+				"Начиная с 6-го уровня, когда существо промахивается по вам броском рукопашной атаки после того, как вы совершили действие {@action Dodge} в свой предыдущий ход, вы получаете преимущество на броски атаки по этому существу до конца вашего следующего хода."
 			]
 		},
 		{
-			"name": "Strength of Mind",
+			"name": "Сила разума",
 			"source": "FFSohei",
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Sohei",
+			"subclassShortName": "Сохэй",
 			"subclassSource": "FFSohei",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Also at 6th level you are immune to magic that would put you to sleep and have advantage on saving throws against being {@condition stunned} by spells.",
-				"At 17th level you are immune to being {@condition stunned} by spells."
+				"Также на 6-м уровне вы обладаете иммунитетом к магии, которая усыпила бы вас, и получаете преимущество на спасброски против того, чтобы быть {@condition stunned} заклинаниями.",
+				"На 17-м уровне вы обладаете иммунитетом к тому, чтобы быть {@condition stunned} заклинаниями."
 			]
 		},
 		{
-			"name": "Extraordinary Resilience",
+			"name": "Необычайная стойкость",
 			"source": "FFSohei",
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Sohei",
+			"subclassShortName": "Сохэй",
 			"subclassSource": "FFSohei",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level your resilience lets you survive attacks that would break others; you reduce all damage you take by 2.",
-				"At 17th level the damage reduction increases to 4."
+				"На 11-м уровне ваша стойкость позволяет вам переживать атаки, которые сломили бы других; вы уменьшаете весь получаемый урон на 2.",
+				"На 17-м уровне уменьшение урона увеличивается до 4."
 			]
 		},
 		{
-			"name": "Unyielding Soul",
+			"name": "Несломленная душа",
 			"source": "FFSohei",
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Sohei",
+			"subclassShortName": "Сохэй",
 			"subclassSource": "FFSohei",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level you can channel your ki to remain fighting when by all rights you should be dead. When you are reduced to 0 hit points or when you start your turn with 0 hit points, you can spend 2 ki points to not fall {@condition unconscious} until the start of your next turn, however your movement speed is halved.",
-				"You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until you start your turn with no ki or choose not to spend ki points to remain conscious, and you die then only if you still have 0 hit points."
+				"На 17-м уровне вы можете направлять своё ки, чтобы продолжать сражаться, когда по всем правилам должны были бы погибнуть. Когда ваши хиты снижаются до 0 или когда вы начинаете свой ход с 0 хитов, вы можете потратить 2 очка ки, чтобы не стать {@condition unconscious} до начала вашего следующего хода, однако ваша скорость перемещения уменьшается вдвое.",
+				"Вы всё ещё должны совершать спасброски от смерти и страдаете обычными эффектами получения урона при 0 хитов. Однако если вы должны были бы погибнуть из-за провалов спасбросков от смерти, вы не погибаете, пока не начнёте свой ход без ки или не решите не тратить очки ки, чтобы оставаться в сознании; и тогда вы погибаете, только если у вас всё ещё 0 хитов."
 			]
 		}
 	]

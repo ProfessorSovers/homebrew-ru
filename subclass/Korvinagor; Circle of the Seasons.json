@@ -4,7 +4,7 @@
 			{
 				"json": "CircleOfTheSeasons",
 				"abbreviation": "CotS",
-				"full": "Circle of the Seasons",
+				"full": "Круг времён года",
 				"url": "https://homebrewery.naturalcrit.com/share/3r8qVJVhuIhB",
 				"version": "1.0",
 				"authors": [
@@ -22,14 +22,14 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of the Seasons",
-			"shortName": "Seasons",
+			"name": "Круг времён года",
+			"shortName": "Времена года",
 			"source": "CircleOfTheSeasons",
 			"className": "Druid",
 			"classSource": "PHB",
 			"additionalSpells": [
 				{
-					"name": "Summer",
+					"name": "Лето",
 					"known": {
 						"2": [
 							"fire bolt"
@@ -54,7 +54,7 @@
 					}
 				},
 				{
-					"name": "Autumn",
+					"name": "Осень",
 					"known": {
 						"2": [
 							"mind sliver|tce"
@@ -79,7 +79,7 @@
 					}
 				},
 				{
-					"name": "Winter",
+					"name": "Зима",
 					"known": {
 						"2": [
 							"ray of frost"
@@ -104,7 +104,7 @@
 					}
 				},
 				{
-					"name": "Spring",
+					"name": "Весна",
 					"known": {
 						"2": [
 							"minor illusion"
@@ -164,54 +164,54 @@
 				]
 			},
 			"subclassFeatures": [
-				"Circle of the Seasons|Druid||Seasons|CircleOfTheSeasons|2",
-				"Blessings of the Cycle|Druid||Seasons|CircleOfTheSeasons|6",
-				"Call Solstice, Call Equinox|Druid||Seasons|CircleOfTheSeasons|10",
-				"Hidden Star in Four Seasons|Druid||Seasons|CircleOfTheSeasons|14"
+				"Круг времён года|Druid||Времена года|CircleOfTheSeasons|2",
+				"Благословения цикла|Druid||Времена года|CircleOfTheSeasons|6",
+				"Призыв солнцестояния, призыв равноденствия|Druid||Времена года|CircleOfTheSeasons|10",
+				"Скрытая звезда в четырёх временах года|Druid||Времена года|CircleOfTheSeasons|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of the Seasons",
+			"name": "Круг времён года",
 			"source": "CircleOfTheSeasons",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Seasons",
+			"subclassShortName": "Времена года",
 			"subclassSource": "CircleOfTheSeasons",
 			"level": 2,
 			"entries": [
-				"From the intense passion of Summer, the withering decay of Autumn follows in its wake, soon met by the elusive respite of Winter, only for life to blossom back in Spring. And so the process repeats, over and over.",
-				"Druids of the Circle of the Seasons revere this constant cycle, calling upon the land's myriad phases to instil their magic with a similar changeability and adapt to any situation at hand.",
+				"Вслед за пылкой страстью лета идёт увядающий распад осени, вскоре сменяемый ускользающей передышкой зимы, лишь чтобы жизнь вновь расцвела весной. И так этот круговорот повторяется снова и снова.",
+				"Друиды Круга времён года почитают этот неизменный круговорот, взывая к бесчисленным фазам земли, чтобы наделить свою магию такой же переменчивостью и приспособиться к любой ситуации.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Call Summer, Autumn, Winter, Spring|Druid|PHB|Seasons|CircleOfTheSeasons|2"
+					"subclassFeature": "Призыв лета, осени, зимы, весны|Druid|PHB|Времена года|CircleOfTheSeasons|2"
 				}
 			]
 		},
 		{
-			"name": "Call Summer, Autumn, Winter, Spring",
+			"name": "Призыв лета, осени, зимы, весны",
 			"source": "CircleOfTheSeasons",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Seasons",
+			"subclassShortName": "Времена года",
 			"subclassSource": "CircleOfTheSeasons",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of the Seasons feature}",
-				"As an action, you can expend a use of your Wild Shape feature to Call the essence of one of the seasons through yourself, temporarily harnessing its power.",
-				"Calling a season grants you access to its respective spells on the Seasonal Spells table below, along with an additional druid cantrip of your choice. Wisdom is your spellcasting ability for these spells.",
-				"This transformation lasts for 8 hours. It ends early if you dismiss it (no action required), are {@condition incapacitated}, die, or use this feature again.",
+				"{@i умение Круга времён года 2-го уровня}",
+				"Действием вы можете потратить одно использование вашего умения «Дикий облик», чтобы провести через себя сущность одного из времён года, временно обуздав его силу.",
+				"Призыв времени года дарует вам доступ к его заклинаниям из таблицы Сезонных заклинаний ниже, а также дополнительный заговор друида на ваш выбор. Мудрость является вашей базовой характеристикой для этих заклинаний.",
+				"Это превращение длится 8 часов. Оно заканчивается раньше, если вы его развеете (действие не требуется), станете {@condition incapacitated}, умрёте или используете это умение снова.",
 				{
 					"type": "table",
-					"caption": "Seasonal Spells",
+					"caption": "Сезонные заклинания",
 					"colLabels": [
-						"Druid Level",
-						"Summer's Assault",
-						"Autumn's Decline",
-						"Winter's Protection",
-						"Spring's Resurgence"
+						"Уровень друида",
+						"Натиск лета",
+						"Увядание осени",
+						"Защита зимы",
+						"Возрождение весны"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -222,35 +222,35 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2-й",
 							"{@spell fire bolt}, {@spell magic missile}",
 							"{@spell bane}, {@spell mind sliver|tce}",
 							"{@spell ray of frost}, {@spell shield}",
 							"{@spell bless}, {@spell minor illusion}"
 						],
 						[
-							"3rd",
+							"3-й",
 							"{@spell scorching ray}",
 							"{@spell blindness/deafness}",
 							"{@spell invisibility}",
 							"{@spell aid}"
 						],
 						[
-							"5th",
+							"5-й",
 							"{@spell fireball}",
 							"{@spell slow}",
 							"{@spell fear}",
 							"{@spell thunder step|xge}"
 						],
 						[
-							"7th",
+							"7-й",
 							"{@spell sickening radiance|xge}",
 							"{@spell compulsion}",
 							"{@spell otiluke's resilient sphere}",
 							"{@spell death ward}"
 						],
 						[
-							"9th",
+							"9-й",
 							"{@spell dawn|xge}",
 							"{@spell synaptic static|xge}",
 							"{@spell wall of force}",
@@ -261,73 +261,73 @@
 			]
 		},
 		{
-			"name": "Blessings of the Cycle",
+			"name": "Благословения цикла",
 			"source": "CircleOfTheSeasons",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Seasons",
+			"subclassShortName": "Времена года",
 			"subclassSource": "CircleOfTheSeasons",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of the Seasons feature}",
-				"You take on an additional aspect of the season you Call, granting you a special boon while transformed by it:",
+				"{@i умение Круга времён года 6-го уровня}",
+				"Вы принимаете дополнительный аспект времени года, которое призвали, даруя вам особый дар, пока вы им преображены:",
 				{
 					"type": "entries",
-					"name": "Summer's Assault",
+					"name": "Натиск лета",
 					"entries": [
-						"Whenever you deal damage with one of your spells, you can add your proficiency bonus to its results."
+						"Каждый раз, когда вы наносите урон одним из ваших заклинаний, вы можете добавить ваш бонус мастерства к его результатам."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Autumn's Decline",
+					"name": "Увядание осени",
 					"entries": [
-						"Whenever a creature fails a saving throw against one of your spells, you can cause it to be {@condition charmed} by you until the end of its next turn."
+						"Каждый раз, когда существо проваливает спасбросок против одного из ваших заклинаний, вы можете сделать так, чтобы оно стало {@condition charmed} вами до конца своего следующего хода."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Winter's Protection",
+					"name": "Защита зимы",
 					"entries": [
-						"You gain proficiency in Constitution saving throws, or +2 to your Constitution saving throws if you are already proficient in it."
+						"Вы получаете владение спасбросками Телосложения или +2 к вашим спасброскам Телосложения, если уже владеете ими."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spring's Resurgence",
+					"name": "Возрождение весны",
 					"entries": [
-						"Whenever you cast a spell of 1st level or higher, you can cause a creature of your choice within 30 feet of you to gain temporary hit points equal to your proficiency bonus plus the spell's level. If it has 0 hit points, it also regains 1 hit point."
+						"Каждый раз, когда вы сотворяете заклинание 1-го уровня или выше, вы можете заставить существо на ваш выбор в пределах 30 футов от вас получить временные хиты, равные вашему бонусу мастерства плюс уровень заклинания. Если у него 0 хитов, оно также восстанавливает 1 хит."
 					]
 				}
 			]
 		},
 		{
-			"name": "Call Solstice, Call Equinox",
+			"name": "Призыв солнцестояния, призыв равноденствия",
 			"source": "CircleOfTheSeasons",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Seasons",
+			"subclassShortName": "Времена года",
 			"subclassSource": "CircleOfTheSeasons",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of the Seasons feature}",
-				"You can expend two uses of your Wild Shape feature to Call two seasons at once, tapping into the boundary where one transitions to the other to channel both of their strengths. The two seasons must be adjacent to each other - you can't Call Summer and Winter together, or Autumn and Spring."
+				"{@i умение Круга времён года 10-го уровня}",
+				"Вы можете потратить два использования вашего умения «Дикий облик», чтобы призвать два времени года сразу, обращаясь к границе, где одно переходит в другое, и направляя обе их силы. Эти два времени года должны быть соседними — вы не можете призвать лето и зиму вместе, а также осень и весну."
 			]
 		},
 		{
-			"name": "Hidden Star in Four Seasons",
+			"name": "Скрытая звезда в четырёх временах года",
 			"source": "CircleOfTheSeasons",
 			"className": "Druid",
 			"classSource": "PHB",
-			"subclassShortName": "Seasons",
+			"subclassShortName": "Времена года",
 			"subclassSource": "CircleOfTheSeasons",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of the Seasons feature}",
-				"Drawing upon the seasons becomes effortless to you, letting you Call them as a bonus action. Additionally, for every use of Wild Shape you expend per Call, you can cast a 3rd-level or lower spell from your available Seasonal Spells without expending a spell slot."
+				"{@i умение Круга времён года 14-го уровня}",
+				"Обращение к временам года становится для вас простым, позволяя призывать их бонусным действием. Кроме того, за каждое использование Дикого облика, потраченное на один Призыв, вы можете сотворить заклинание 3-го уровня или ниже из доступных вам Сезонных заклинаний, не тратя ячейку заклинаний."
 			]
 		}
 	]

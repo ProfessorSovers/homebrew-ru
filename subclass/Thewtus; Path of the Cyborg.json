@@ -21,166 +21,166 @@
 	},
 	"subclass": [
 		{
-			"name": "Path of the Cyborg",
-			"shortName": "Cyborg",
+			"name": "Путь киборга",
+			"shortName": "Киборг",
 			"source": "CyborgBarbarian",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"spellcastingAbility": "int",
 			"subclassFeatures": [
-				"Path of the Cyborg|Barbarian||Cyborg|CyborgBarbarian|3",
-				"Version 2.0|Barbarian||Cyborg|CyborgBarbarian|6",
-				"Version 3.0|Barbarian||Cyborg|CyborgBarbarian|10",
-				"Singularity|Barbarian||Cyborg|CyborgBarbarian|14"
+				"Путь киборга|Barbarian||Киборг|CyborgBarbarian|3",
+				"Версия 2.0|Barbarian||Киборг|CyborgBarbarian|6",
+				"Версия 3.0|Barbarian||Киборг|CyborgBarbarian|10",
+				"Сингулярность|Barbarian||Киборг|CyborgBarbarian|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Path of the Cyborg",
+			"name": "Путь киборга",
 			"source": "CyborgBarbarian",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Cyborg",
+			"subclassShortName": "Киборг",
 			"subclassSource": "CyborgBarbarian",
 			"level": 3,
 			"entries": [
-				"Some may find the limitations of the flesh suffocating, and wish to augment their physical might by tempering their bodies with metals to become more than a mere mortal. These are ones who walk the Path of the Cyborg, forgoing their original limbs for the power of cold iron and steel.",
-				"There are many ways a Barbarian can augment themselves, be it through a (possibly) experienced doctor/technician, via magical means, or by doing it by hand. Cyborgs cannot hide their body modifications, and may naturally intimidate others.",
+				"Некоторым ограничения плоти кажутся удушающими, и они желают усилить свою физическую мощь, закаляя тела металлами, чтобы стать больше, чем просто смертными. Это те, кто идёт Путём киборга, отказываясь от родных конечностей ради силы холодного железа и стали.",
+				"Есть много способов, которыми варвар может себя усовершенствовать: через (возможно) опытного врача-техника, магическими средствами или собственными руками. Киборги не могут скрыть модификации своего тела и могут сами по себе внушать страх окружающим.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Overdrive|Barbarian||Cyborg|CyborgBarbarian|3"
+					"subclassFeature": "Разгон|Barbarian||Киборг|CyborgBarbarian|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cybernetic Enhancements|Barbarian||Cyborg|CyborgBarbarian|3"
+					"subclassFeature": "Кибернетические улучшения|Barbarian||Киборг|CyborgBarbarian|3"
 				}
 			]
 		},
 		{
-			"name": "Cybernetic Enhancements",
+			"name": "Кибернетические улучшения",
 			"source": "CyborgBarbarian",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Cyborg",
+			"subclassShortName": "Киборг",
 			"subclassSource": "CyborgBarbarian",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You get 2 enhancemnets, I'll add more flavor text later",
+				"Вы получаете 2 улучшения; больше текста для атмосферы я добавлю позже",
 				{
 					"type": "entries",
-					"name": "Brain SSD",
+					"name": "Мозговой SSD",
 					"entries": [
-						"Grain proficiency in Intelligence saving throws, or another saving throw if you are already proficent."
+						"Получите владение спасбросками Интеллекта или другим спасброском, если вы уже владеете им."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Enhanced Eyes",
+					"name": "Улучшенные глаза",
 					"entries": [
-						"You gain darkvision of 60ft; As an action, you may use your eyes to see magic (as if using {@spell truesight}), infrared and heat, or X-Ray through solid objects up to 1 foot wide."
+						"Вы получаете тёмное зрение на 60 фт. Действием вы можете использовать свои глаза, чтобы видеть магию (как если бы использовали {@spell truesight}), инфракрасное и тепловое излучение или рентгеновское зрение сквозь твёрдые объекты толщиной до 1 фута."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "High-Pressure Grip",
+					"name": "Хватка высокого давления",
 					"entries": [
-						"You gain a +2 bonus on rolls to {@action grapple}.",
-						"  While Overdriving: The {@condition grappled} creature takes {@dice 1d6} force damage at the start of its turn."
+						"Вы получаете бонус +2 к броскам, чтобы {@action grapple}.",
+						"  Пока в Разгоне: существо под состоянием {@condition grappled} получает {@dice 1d6} силового урона в начале своего хода."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Magnetic Palms",
+					"name": "Магнитные ладони",
 					"entries": [
-						"You can attract small magnetic objects to your hands.",
-						"  While Overdriving: You can attract up to medium sized magnetic objects into your hands."
+						"Вы можете притягивать к рукам небольшие магнитные объекты.",
+						"  Пока в Разгоне: вы можете притягивать к рукам магнитные объекты размером вплоть до Среднего."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Reinforced Chestplate",
+					"name": "Усиленная нагрудная пластина",
 					"entries": [
-						"You gain a +1 bonus to AC.",
-						"  While Overdriving: Advantage versus being knocked {@condition prone} or forcefully moved."
+						"Вы получаете бонус +1 к КД.",
+						"  Пока в Разгоне: преимущество на сопротивление тому, чтобы вас сбили {@condition prone} или принудительно переместили."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Steel Arms",
+					"name": "Стальные руки",
 					"entries": [
-						"Your unarmed attacks deal {@dice 1d6} damage. You can lift up to 100lbs more than you could before, and have advantage on strength checks related to lifting or moving heavy objects",
-						"  While Overdriving: You can use the {@action Attack} action to throw a same-sized or smaller foe up to 15 feet away from you, dealing {@dice 2d6} force damage."
+						"Ваши безоружные атаки наносят {@dice 1d6} урона. Вы можете поднимать на 100 фунтов больше, чем раньше, и получаете преимущество на проверки силы, связанные с подъёмом или перемещением тяжёлых объектов",
+						"  Пока в Разгоне: вы можете использовать действие {@action Attack}, чтобы швырнуть противника того же размера или меньше на расстояние до 15 футов от себя, нанося {@dice 2d6} силового урона."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Overclock",
+					"name": "Предельный разгон",
 					"entries": [
-						"You may continue Overdriving when you have 0 Overdrive charges remaining.",
-						"  While Overclocking: You take {@dice 1d6} damage at the start of your turn and you can no longer be healed."
+						"Вы можете продолжать Разгон, когда у вас осталось 0 зарядов разгона.",
+						"  Пока действует предельный разгон: вы получаете {@dice 1d6} урона в начале своего хода, и вас больше нельзя лечить."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Weapon Assimilation",
+					"name": "Ассимиляция оружия",
 					"entries": [
-						"You replace one of your limbs with a one-handed weapon that you are proficient in. You always have access to this weapon and do not need to equip it. When you take the {@action Attack} action with this weapon, add {@dice 1d4} to your attack roll. You may swap this weapon with another one every level up",
-						"  While Overdriving: You may make an {@action Attack} using this weapon as a bonus action, provided you have not used this weapon as an attack."
+						"Вы заменяете одну из своих конечностей одноручным оружием, которым владеете. У вас всегда есть доступ к этому оружию, и его не нужно экипировать. Когда вы используете действие {@action Attack} этим оружием, добавьте {@dice 1d4} к своему броску атаки. Вы можете заменить это оружие на другое при каждом повышении уровня",
+						"  Пока в Разгоне: вы можете совершить {@action Attack} этим оружием бонусным действием, при условии, что не использовали это оружие для атаки."
 					]
 				}
 			]
 		},
 		{
-			"name": "Overdrive",
+			"name": "Разгон",
 			"source": "CyborgBarbarian",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Cyborg",
+			"subclassShortName": "Киборг",
 			"subclassSource": "CyborgBarbarian",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you forgo your ability to rage for overloading your technological enhancements with power. You gain the Overdrive ability - which functions like rage except:",
+				"Начиная с 3-го уровня вы отказываетесь от способности впадать в ярость, чтобы перегружать свои технологические улучшения энергией. Вы получаете способность «Разгон», которая работает как ярость, за исключением следующего:",
 				{
 					"type": "list",
 					"items": [
-						"Number of rages is replaced by Overdrive charges, each turn of being in Overdrive costs one charge at the beginning of your turn. It costs one charge to enter Overdrive.",
-						"# of charges = rages + intelligence modifier (if positive).",
-						"Your rage no longer ends if you have not attacked or taken damage, however it will end if a spell such as {@spell dispel magic} or an E.M.P/technology disabling attack is used on you."
+						"Число яростей заменяется зарядами разгона; каждый ход пребывания в Разгоне стоит один заряд в начале вашего хода. Вход в Разгон стоит один заряд.",
+						"Кол-во зарядов = ярости + модификатор Интеллекта (если положительный).",
+						"Ваша ярость больше не заканчивается, если вы не атаковали и не получали урон, однако она закончится, если на вас наложат заклинание вроде {@spell dispel magic} или применят ЭМИ либо отключающую технологии атаку."
 					]
 				}
 			]
 		},
 		{
-			"name": "Version 2.0",
+			"name": "Версия 2.0",
 			"source": "CyborgBarbarian",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Cyborg",
+			"subclassShortName": "Киборг",
 			"subclassSource": "CyborgBarbarian",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you gain access to more cybernetic upgrades.",
-				"You gain up to 2 additional cybernetic enhancements from this list or the previous list.",
+				"Начиная с 6-го уровня вы получаете доступ к новым кибернетическим улучшениям.",
+				"Вы получаете до 2 дополнительных кибернетических улучшений из этого списка или из предыдущего списка.",
 				{
 					"type": "entries",
-					"name": "Discharged Fingers",
+					"name": "Разрядные пальцы",
 					"entries": [
-						"You gain access to the {@spell shocking grasp} cantrip, which can be used while Overdriving.",
-						"  While Overdriving: You gain access to {@spell lightning lure|tce} and {@spell thunderclap|xge}, which can only be used during Overdrive.",
+						"Вы получаете доступ к заговору {@spell shocking grasp}, который можно использовать во время Разгона.",
+						"  Пока в Разгоне: вы получаете доступ к {@spell lightning lure|tce} и {@spell thunderclap|xge}, которые можно использовать только во время Разгона.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Заклинание",
 							"attributes": [
 								"int"
 							]
@@ -189,80 +189,80 @@
 				},
 				{
 					"type": "entries",
-					"name": "Overdrive Battery",
+					"name": "Батарея разгона",
 					"entries": [
-						"You gain +3 maximum Overdrive charges and you recover 3 charges after a short rest."
+						"Вы получаете +3 к максимуму зарядов разгона и восстанавливаете 3 заряда после короткого отдыха."
 					]
 				}
 			]
 		},
 		{
-			"name": "Version 3.0",
+			"name": "Версия 3.0",
 			"source": "CyborgBarbarian",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Cyborg",
+			"subclassShortName": "Киборг",
 			"subclassSource": "CyborgBarbarian",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you gain access to more... extreme cybernetic upgrades.",
-				"You gain up to 2 additional cybernetic enhancements from this list or any previous list.",
+				"Начиная с 10-го уровня вы получаете доступ к более... радикальным кибернетическим улучшениям.",
+				"Вы получаете до 2 дополнительных кибернетических улучшений из этого списка или любого из предыдущих списков.",
 				{
 					"type": "entries",
-					"name": "Advanced Exoskeleton",
+					"name": "Продвинутый экзоскелет",
 					"entries": [
-						"You gain proficiency in Heavy Armor and can benefit from Fast Movement while wearing it. You can also remove/don armor as an action."
+						"Вы получаете владение тяжёлыми доспехами и можете пользоваться Быстрым передвижением, нося их. Вы также можете снимать и надевать доспех действием."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Magnetism",
+					"name": "Магнетизм",
 					"entries": [
-						"[requires Magnetic Palms] You can split off the metal portions of your body from each other using magnetism. You can move any portion of your body (such as a hand) up to 10 feet away from your body."
+						"[требуется Магнитные ладони] Вы можете разделять металлические части своего тела друг от друга с помощью магнетизма. Вы можете перемещать любую часть своего тела (например, руку) на расстояние до 10 футов от себя."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Nanomachines",
+					"name": "Нанороботы",
 					"entries": [
-						"As a reaction before you get attacked, you can expend one Overdrive charge to gain a +5 AC to all attacks (including the triggering attack) until the start of your next turn. You also instantly begin Overdriving if you are not already."
+						"Реакцией до того, как по вам проведут атаку, вы можете потратить один заряд разгона, чтобы получить +5 КД против всех атак (включая спровоцировавшую атаку) до начала вашего следующего хода. Вы также мгновенно начинаете Разгон, если ещё не находитесь в нём."
 					]
 				}
 			]
 		},
 		{
-			"name": "Singularity",
+			"name": "Сингулярность",
 			"source": "CyborgBarbarian",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Cyborg",
+			"subclassShortName": "Киборг",
 			"subclassSource": "CyborgBarbarian",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you become the ultimate combination of technology and flesh.",
-				"You gain 1 cybernetic enhancement from this list or any previous list and 1 additional enhancement from a previous list.",
+				"Начиная с 14-го уровня вы становитесь высшим сочетанием технологии и плоти.",
+				"Вы получаете 1 кибернетическое улучшение из этого списка или любого из предыдущих списков и 1 дополнительное улучшение из предыдущего списка.",
 				{
 					"type": "entries",
-					"name": "Plastic Surgery",
+					"name": "Пластическая операция",
 					"entries": [
-						"You gain +1 to your Charisma score (can't go above 20) and gain proficiency in Charisma saving throws and one of the following skills: {@skill Deception}, {@skill Intimidation}, {@skill Performance}, {@skill Persuasion}."
+						"Вы получаете +1 к значению Харизмы (не может превышать 20) и владение спасбросками Харизмы, а также одним из следующих навыков: {@skill Deception}, {@skill Intimidation}, {@skill Performance}, {@skill Persuasion}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "30k Amp Hotwire",
+					"name": "Перемычка на 30 кА",
 					"entries": [
-						"[requires Discharged Fingers] You gain access to the {@spell lightning bolt} and {@spell thunder step|xge} spells at 3rd level at the cost of 2 Overdrive charges.",
-						"  While Overdriving: You may cast these spells and can upcast to 4th level at the cost of 3 Overdrive charges."
+						"[требуется Разрядные пальцы] Вы получаете доступ к заклинаниям {@spell lightning bolt} и {@spell thunder step|xge} 3-го уровня ценой 2 зарядов разгона.",
+						"  Пока в Разгоне: вы можете накладывать эти заклинания и усилить их до 4-го уровня ценой 3 зарядов разгона."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Supercomputer Brain",
+					"name": "Мозг-суперкомпьютер",
 					"entries": [
-						"You gain +4 to your Intelligence score, your maximum for this score is now 24."
+						"Вы получаете +4 к значению Интеллекта, максимум для этого значения теперь 24."
 					]
 				}
 			]

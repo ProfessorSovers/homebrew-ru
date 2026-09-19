@@ -44,41 +44,41 @@
 	},
 	"subclass": [
 		{
-			"name": "Way of the Elements",
-			"shortName": "Elements",
+			"name": "Путь элементов",
+			"shortName": "Элементы",
 			"source": "DZC:ANA:MsE",
 			"className": "Monk",
 			"classSource": "PHB",
 			"page": 1,
 			"subclassFeatures": [
-				"Way of the Elements|Monk||Elements|DZC:ANA:MsE|3",
-				"Primal Stances|Monk||Elements|DZC:ANA:MsE|6",
-				"Step Shift|Monk||Elements|DZC:ANA:MsE|11",
-				"Elemental Mastery|Monk||Elements|DZC:ANA:MsE|17"
+				"Путь элементов|Monk||Элементы|DZC:ANA:MsE|3",
+				"Первобытные стойки|Monk||Элементы|DZC:ANA:MsE|6",
+				"Сдвиг шага|Monk||Элементы|DZC:ANA:MsE|11",
+				"Стихийное мастерство|Monk||Элементы|DZC:ANA:MsE|17"
 			],
 			"foundryImg": "icons/magic/symbols/elements-air-earth-fire-water.webp"
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Elemental Arts",
+			"name": "Элементальные искусства",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Элементы",
 			"subclassSource": "DZC:ANA:MsE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Each element is contained within a field of study, known as {@filter Elemental Arts|optionalfeatures|feature type=DZC:EA}. Each elemental art has its own set of abilities, reflected as options within the features of this subclass. Whenever you gain a feature from this subclass you learn one of its options, each associated to an elemental art ({@filter air|optionalfeatures|feature type=DZC:EA:A}, {@filter earth|optionalfeatures|feature type=DZC:EA:E}, {@filter fire|optionalfeatures|feature type=DZC:EA:F}, and {@filter water|optionalfeatures|feature type=DZC:EA:W}).",
-				"Another property of these arts is that each has associated damage types, as shown in the Elemental Arts Damage table. Whenever a feature in this subclass refers to the damage of your elemental art, it refers to the ones in the table.",
+				"Каждая стихия содержится в области изучения, известной как {@filter Elemental Arts|optionalfeatures|feature type=DZC:EA}. Каждое элементальное искусство обладает собственным набором способностей, представленным вариантами в умениях этого подкласса. Каждый раз, когда вы получаете умение этого подкласса, вы изучаете один из его вариантов, каждый из которых связан с элементальным искусством ({@filter air|optionalfeatures|feature type=DZC:EA:A}, {@filter earth|optionalfeatures|feature type=DZC:EA:E}, {@filter fire|optionalfeatures|feature type=DZC:EA:F} и {@filter water|optionalfeatures|feature type=DZC:EA:W}).",
+				"Ещё одно свойство этих искусств — каждое связано с определёнными видами урона, как показано в таблице урона элементальных искусств. Когда в умении этого подкласса упоминается урон вашего элементального искусства, имеются в виду виды урона из этой таблицы.",
 				{
 					"type": "table",
-					"caption": "Elemental Arts Damage",
+					"caption": "Урон элементаля",
 					"colLabels": [
-						"Elemental Art",
-						"Maximum Ki Points for a Spell"
+						"Искусство элементаля",
+						"Максимум очков ци для заклинания"
 					],
 					"colStyles": [
 						"col-5 text-center",
@@ -86,20 +86,20 @@
 					],
 					"rows": [
 						[
-							"Air",
-							"Thunder"
+							"Воздух",
+							"Звуковой"
 						],
 						[
-							"Earth",
-							"Bludgeoning, Piercing, Slashing"
+							"Земля",
+							"Дробящий, колющий, рубящий"
 						],
 						[
-							"Fire",
-							"Fire"
+							"Огненный",
+							"Огненный"
 						],
 						[
-							"Water",
-							"Cold"
+							"Вода",
+							"Холодный"
 						]
 					]
 				}
@@ -107,40 +107,40 @@
 			"foundryImg": "icons/magic/nature/beam-hand-leaves-green.webp"
 		},
 		{
-			"name": "Elemental Manifestation",
+			"name": "Проявление элементаля",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Элементы",
 			"subclassSource": "DZC:ANA:MsE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Also at 3rd level, you learn to shape the elements' energy into different effects. Once on your turn, you can spend 1 ki point to replace an attack from the Attack action with an {@filter Elemental Manifestation|optionalfeature|feature type=DZC:EA:EM} option you know.",
+				"Также на 3-м уровне вы учитесь придавать энергии элементов различные формы. Один раз за ход вы можете потратить 1 очко ци, чтобы заменить одну атаку из действия Атака вариантом {@filter Elemental Manifestation|optionalfeature|feature type=DZC:EA:EM}, который вы знаете.",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Wind Blast|DZC:ANA:MsE",
-							"name": "Wind Blast (Air Art)"
+							"optionalfeature": "Ветряной взрыв|DZC:ANA:MsE",
+							"name": "Ветряной взрыв (искусство Воздуха)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Stone Boulder|DZC:ANA:MsE",
-							"name": "Stone Boulder (Earth Art)"
+							"optionalfeature": "Каменный валун|DZC:ANA:MsE",
+							"name": "Каменный валун (искусство Земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Flaming Blast|DZC:ANA:MsE",
-							"name": "Flaming Blast (Fire Art)"
+							"optionalfeature": "Пламенный взрыв|DZC:ANA:MsE",
+							"name": "Огненный взрыв (искусство Огненного)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Water Swirl|DZC:ANA:MsE",
-							"name": "Water Swirl (Water Art)"
+							"optionalfeature": "Водяной вихрь|DZC:ANA:MsE",
+							"name": "Водоворот (Искусство Воды)"
 						}
 					]
 				}
@@ -148,40 +148,40 @@
 			"foundryImg": "icons/magic/earth/projectile-stone-boulder-brown.webp"
 		},
 		{
-			"name": "Elemental Strike",
+			"name": "Стихийный удар",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Элементы",
 			"subclassSource": "DZC:ANA:MsE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this tradition at 3rd level, you learn to release elemental energy from your attacks. Once on your turn, when you hit a target with a weapon attack, you can spend 1 ki point to use an {@filter Elemental Strike|optionalfeature|feature type=DZC:EA:ES} option you know, dealing extra damage equal to one roll of your Martial Arts die, choosing from one of the damage types of its associated art. Each option has additional effect you can apply with it.",
+				"Начиная с момента, когда вы выбираете эту традицию на 3-м уровне, вы учитесь высвобождать элементальную энергию из своих атак. Один раз за ход, когда вы попадаете по цели атакой оружием, вы можете потратить 1 очко ци, чтобы использовать известный вам вариант {@filter Elemental Strike|optionalfeature|feature type=DZC:EA:ES}, нанося дополнительный урон, равный одному броску вашей кости Боевых искусств, выбрав один из видов урона, связанных с его искусством. Каждый вариант обладает дополнительным эффектом, который вы можете применить вместе с ним.",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Thunderous Strike|DZC:ANA:MsE",
-							"name": "Thunderous Strike (Air Art)"
+							"optionalfeature": "Громовой удар|DZC:ANA:MsE",
+							"name": "Громовой удар (Искусство Воздуха)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Rocky Strike|DZC:ANA:MsE",
-							"name": "Rocky Strike (Earth Art)"
+							"optionalfeature": "Каменный удар|DZC:ANA:MsE",
+							"name": "Каменный удар (Искусство Земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Igneous Strike|DZC:ANA:MsE",
-							"name": "Igneous Strike (Fire Art)"
+							"optionalfeature": "Магматический удар|DZC:ANA:MsE",
+							"name": "Огненный удар (Искусство Огня)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Gelid Strike|DZC:ANA:MsE",
-							"name": "Gelid Strike (Water Art)"
+							"optionalfeature": "Ледяной удар|DZC:ANA:MsE",
+							"name": "Ледяной удар (Искусство Воды)"
 						}
 					]
 				}
@@ -189,89 +189,89 @@
 			"foundryImg": "icons/magic/fire/flame-burning-fist-strike.webp"
 		},
 		{
-			"name": "Way of the Elements",
+			"name": "Путь элементов",
 			"source": "DZC:ANA:MsE",
 			"page": 1,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Элементы",
 			"subclassSource": "DZC:ANA:MsE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Monks of the Way of the Inner Strength are dedicated to cultivating the true potential of ki. They take on a path of diligent meditation and self discovery, searching for the mysteries that dwelve deep within them, rather than those of the universe around them.",
-				"More often than not, practicioners of this tradition isolate themselves for long periods of time, disconnecting their terrenal senses in order to heighten their spiritual eye. Only a few can endure this journey, and even less monks can achieve the state of true enlightenment.",
+				"Монахи Пути Внутренней силы посвящают себя раскрытию истинного потенциала ци. Они избирают путь усердной Медитации и самопознания, исследуя тайны, скрытые глубоко внутри них, а не тайны окружающей вселенной.",
+				"Чаще всего последователи этой традиции надолго изолируют себя, отключая земные чувства, чтобы обострить духовное око. Лишь немногие способны выдержать этот путь, и ещё меньше монахов могут достичь состояния истинного просветления.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elemental Arts|Monk||Elements|DZC:ANA:MsE|3"
+					"subclassFeature": "Элементальные искусства|Monk||Элементы|DZC:ANA:MsE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elemental Strike|Monk||Elements|DZC:ANA:MsE|3"
+					"subclassFeature": "Стихийный удар|Monk||Элементы|DZC:ANA:MsE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elemental Manifestation|Monk||Elements|DZC:ANA:MsE|3"
+					"subclassFeature": "Проявление элементаля|Monk||Элементы|DZC:ANA:MsE|3"
 				}
 			],
 			"foundryImg": "icons/magic/symbols/elements-air-earth-fire-water.webp"
 		},
 		{
-			"name": "Primal Stances",
+			"name": "Первобытные стойки",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Элементы",
 			"subclassSource": "DZC:ANA:MsE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you learn to infuse yourself with elemental energy. As a bonus action, you can spend 2 ki points to enter a {@filter Primal Stance|optionalfeature|feature type=DZC:EA:PS} option you know for 1 minute. For the duration, you gain the benefits of the chosen option. Your Primal Stance ends early if you are knocked unconscious, if you end it as a bonus action, or until you use this feature again.",
-				"Alternatively, you can learn an additional option from one of your previous features.",
+				"На 6-м уровне вы учитесь наполнять себя энергией стихий. Бонусным действием вы можете потратить 2 очка ци, чтобы войти в известную вам {@filter Primal Stance|optionalfeature|feature type=DZC:EA:PS} на 1 минуту. Пока действует стойка, вы получаете преимущества выбранного варианта. Ваша первобытная стойка заканчивается досрочно, если вы становитесь бессознательным, если вы заканчиваете её бонусным действием или пока вы снова не используете это умение.",
+				"Кроме того, вы можете изучить дополнительный вариант из одного из ваших предыдущих умений.",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Wind Stance|DZC:ANA:MsE",
-							"name": "Wind Stance (Air Art)"
+							"optionalfeature": "Стойка ветра|DZC:ANA:MsE",
+							"name": "Стойка ветра (Воздушное искусство)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Mountain Stance|DZC:ANA:MsE",
-							"name": "Mountain Stance (Earth Art)"
+							"optionalfeature": "Горная стойка|DZC:ANA:MsE",
+							"name": "Стойка горы (Искусство Земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Flame Stance|DZC:ANA:MsE",
-							"name": "Flame Stance (Fire Art)"
+							"optionalfeature": "Огненная стойка|DZC:ANA:MsE",
+							"name": "Стойка пламени (Огненное искусство)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "River Stance|DZC:ANA:MsE",
-							"name": "River Stance (Water Art)"
+							"optionalfeature": "Стойка реки|DZC:ANA:MsE",
+							"name": "Стойка реки (Искусство Воды)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Wind Blast|DZC:ANA:MsE",
-							"name": "Wind Blast (Air Art)"
+							"optionalfeature": "Ветряной взрыв|DZC:ANA:MsE",
+							"name": "Ветряной взрыв (искусство Воздуха)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Stone Boulder|DZC:ANA:MsE",
-							"name": "Stone Boulder (Earth Art)"
+							"optionalfeature": "Каменный валун|DZC:ANA:MsE",
+							"name": "Каменный валун (искусство Земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Flaming Blast|DZC:ANA:MsE",
-							"name": "Flaming Blast (Fire Art)"
+							"optionalfeature": "Пламенный взрыв|DZC:ANA:MsE",
+							"name": "Огненный взрыв (искусство Огненного)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Water Swirl|DZC:ANA:MsE",
-							"name": "Water Swirl (Water Art)"
+							"optionalfeature": "Водяной вихрь|DZC:ANA:MsE",
+							"name": "Водоворот (Искусство Воды)"
 						}
 					]
 				}
@@ -279,81 +279,81 @@
 			"foundryImg": "icons/magic/water/elemental-water.webp"
 		},
 		{
-			"name": "Step Shift",
+			"name": "Сдвиг шага",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Элементы",
 			"subclassSource": "DZC:ANA:MsE",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you learn how to move as one with the elements. Choose one of the {@filter Step Shift|optionalfeature|feature type=DZC:EA:SS}",
-				"Alternatively, you can learn an additional option from one of your previous features.",
+				"На 11-м уровне вы учитесь перемещаться как единое целое со стихиями. Выберите один из {@filter Step Shift|optionalfeature|feature type=DZC:EA:SS}",
+				"Кроме того, вы можете изучить дополнительный вариант из одного из ваших предыдущих умений.",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Aerial Lift|DZC:ANA:MsE",
-							"name": "Aerial Lift (Air Art)"
+							"optionalfeature": "Воздушный подъём|DZC:ANA:MsE",
+							"name": "Воздушный подъём (Воздушное искусство)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Rock Walk|DZC:ANA:MsE",
-							"name": "Rock Walk (Earth Art)"
+							"optionalfeature": "Каменный шаг|DZC:ANA:MsE",
+							"name": "Хождение по камню (искусство земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Jet Burst|DZC:ANA:MsE",
-							"name": "Jet Burst (Fire Art)"
+							"optionalfeature": "Струйный всплеск|DZC:ANA:MsE",
+							"name": "Струйный рывок (искусство огня)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Underwater Adaptations|DZC:ANA:MsE",
-							"name": "Underwater Adaptations (Water Art)"
+							"optionalfeature": "Подводные адаптации|DZC:ANA:MsE",
+							"name": "Адаптация к подводной жизни (искусство воды)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Wind Stance|DZC:ANA:MsE",
-							"name": "Wind Stance (Air Art)"
+							"optionalfeature": "Стойка ветра|DZC:ANA:MsE",
+							"name": "Стойка ветра (Воздушное искусство)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Mountain Stance|DZC:ANA:MsE",
-							"name": "Mountain Stance (Earth Art)"
+							"optionalfeature": "Горная стойка|DZC:ANA:MsE",
+							"name": "Стойка горы (Искусство Земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Flame Stance|DZC:ANA:MsE",
-							"name": "Flame Stance (Fire Art)"
+							"optionalfeature": "Огненная стойка|DZC:ANA:MsE",
+							"name": "Стойка пламени (Огненное искусство)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "River Stance|DZC:ANA:MsE",
-							"name": "River Stance (Water Art)"
+							"optionalfeature": "Стойка реки|DZC:ANA:MsE",
+							"name": "Стойка реки (Искусство Воды)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Wind Blast|DZC:ANA:MsE",
-							"name": "Wind Blast (Air Art)"
+							"optionalfeature": "Ветряной взрыв|DZC:ANA:MsE",
+							"name": "Ветряной взрыв (искусство Воздуха)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Stone Boulder|DZC:ANA:MsE",
-							"name": "Stone Boulder (Earth Art)"
+							"optionalfeature": "Каменный валун|DZC:ANA:MsE",
+							"name": "Каменный валун (искусство Земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Flaming Blast|DZC:ANA:MsE",
-							"name": "Flaming Blast (Fire Art)"
+							"optionalfeature": "Пламенный взрыв|DZC:ANA:MsE",
+							"name": "Огненный взрыв (искусство Огненного)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Water Swirl|DZC:ANA:MsE",
-							"name": "Water Swirl (Water Art)"
+							"optionalfeature": "Водяной вихрь|DZC:ANA:MsE",
+							"name": "Водоворот (Искусство Воды)"
 						}
 					]
 				}
@@ -361,73 +361,73 @@
 			"foundryImg": "icons/creatures/abilities/wings-birdlike-blue.webp"
 		},
 		{
-			"name": "Elemental Mastery",
+			"name": "Стихийное мастерство",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"className": "Monk",
 			"classSource": "PHB",
-			"subclassShortName": "Elements",
+			"subclassShortName": "Элементы",
 			"subclassSource": "DZC:ANA:MsE",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level, you have perfected the primal arts, learning to shape them in special ways. You gain the following benefits:",
+				"На 17-м уровне вы довели первозданные искусства до совершенства, научившись применять их особым образом. Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"Once on your turn, when you hit a target with a weapon attack, you can deal extra damage equal to one roll of your Martial Arts die, choosing from one of the damage types of an elemental art you know.",
-						"You gain resistance to one of the damage types of an elemental art you know. If you have four arts in a single element, you ignore resistance to that damage."
+						"Один раз в свой ход, когда вы попадаете по цели атакой оружия, вы можете нанести дополнительный урон, равный результату одного броска вашей кости боевых искусств, выбрав один из типов урона известного вам элементального искусства.",
+						"Вы получаете сопротивление к одному из типов урона, присущих известному вам элементальному искусству. Если у вас есть четыре искусства одного элемента, вы игнорируете сопротивление этому урону."
 					]
 				},
-				"You also gain one of the following {@filter Elemental Mastery|optionalfeatures|feature type=DZC:EA:EMa} options of your choice. You must know the amount of elemental arts shown in parenthesis in order to take it.",
+				"Вы также получаете один из следующих вариантов на выбор {@filter Elemental Mastery|optionalfeatures|feature type=DZC:EA:EMa}. Чтобы получить его, вы должны знать количество элементальных искусств, указанное в скобках.",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Air Master|DZC:ANA:MsE",
-							"name": "Air Master (Four Air Arts)"
+							"optionalfeature": "Повелитель воздуха|DZC:ANA:MsE",
+							"name": "Мастер воздуха (Четыре искусства воздуха)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Earth Master|DZC:ANA:MsE",
-							"name": "Earth Master (Four Earth Arts)"
+							"optionalfeature": "Повелитель земли|DZC:ANA:MsE",
+							"name": "Мастер земли (Четыре искусства земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Fire Master|DZC:ANA:MsE",
-							"name": "Fire Master (Four Fire Arts)"
+							"optionalfeature": "Повелитель огня|DZC:ANA:MsE",
+							"name": "Мастер огня (Четыре огненных искусства)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Water Master|DZC:ANA:MsE",
-							"name": "Water Master (Four Water Arts)"
+							"optionalfeature": "Повелитель воды|DZC:ANA:MsE",
+							"name": "Мастер воды (Четыре водных искусства)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Lightning Adept|DZC:ANA:MsE",
-							"name": "Lightning Adept (Two or more Air Arts)"
+							"optionalfeature": "Адепт молнии|DZC:ANA:MsE",
+							"name": "Электрический адепт (два или более искусства Воздуха)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Acid Adept|DZC:ANA:MsE",
-							"name": "Acid Adept (Two or more Earth Arts)"
+							"optionalfeature": "Кислотный адепт|DZC:ANA:MsE",
+							"name": "Кислотный адепт (два или более искусства Земли)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Light Adept|DZC:ANA:MsE",
-							"name": "Light Adept (Two or more Fire Arts)"
+							"optionalfeature": "Адепт сияния|DZC:ANA:MsE",
+							"name": "Светлый адепт (два или более искусства Огня)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Heal Adept|DZC:ANA:MsE",
-							"name": "Heal Adept (Two or more Water Arts)"
+							"optionalfeature": "Адепт исцеления|DZC:ANA:MsE",
+							"name": "Полное исцеление адепт (два или более искусства Воды)"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Nature's Vessel|DZC:ANA:MsE",
-							"name": "Nature's Vessel (One Art in each Elemental)"
+							"optionalfeature": "Сосуд природы|DZC:ANA:MsE",
+							"name": "Сосуд природы (Одно искусство каждого элемента)"
 						}
 					]
 				}
@@ -437,7 +437,7 @@
 	],
 	"optionalfeature": [
 		{
-			"name": "Acid Adept",
+			"name": "Кислотный адепт",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -457,12 +457,12 @@
 				"amount": 1
 			},
 			"entries": [
-				"You can spend 1 ki point when you take the Dodge action to protect yourself with acid. Until the start of your next turn, a creature that hits you with a melee weapon attack takes acid damage equal to 5 + your Wisdom modifier."
+				"Вы можете потратить 1 очко ци, когда совершаете действие Уклонения, чтобы защититься кислотой. До начала вашего следующего хода существо, которое попадает по вам атакой оружием ближнего боя, получает кислотный урон, равный 5 + ваш модификатор Мудрости."
 			],
 			"foundryImg": "icons/magic/acid/dissolve-drip-droplet-smoke.webp"
 		},
 		{
-			"name": "Aerial Lift",
+			"name": "Воздушный подъём",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -471,12 +471,12 @@
 				"DZC:EA:SS"
 			],
 			"entries": [
-				"Soft currents move you out of harms way. When you take the Disengage or Dodge action, until the start of your next turn you gain a bonus to your AC and Dexterity saving throws equal to half your Wisdom modifier (rounded up) against attacks and effects you can see. You don't benefit from this stance while your speed is 0."
+				"Мягкие потоки уносят вас из опасной зоны. Когда вы совершаете действие Отход или Уклонение, до начала вашего следующего хода вы получаете бонус к КД и спасброскам Ловкости, равный половине вашего модификатора Мудрости, округлённой вверх, против видимых вами атак и эффектов. Вы не получаете преимуществ от этой стойки, если ваша Скорость равна 0."
 			],
 			"foundryImg": "icons/magic/air/wind-tornado-funnel-gray.webp"
 		},
 		{
-			"name": "Air Master",
+			"name": "Повелитель воздуха",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -492,12 +492,12 @@
 				}
 			],
 			"entries": [
-				"Once on your turn, when you use your Thunderous Strike or Wind Blast, you can spend up to 3 additional ki points on it to increase its damage by one roll of your Martial Arts die per ki point spent."
+				"Один раз за ход, когда вы используете свой Громовой удар или Ветряной взрыв, вы можете потратить на него до 3 дополнительных очков ци, чтобы увеличить его урон на один бросок кости Боевых искусств за каждое потраченное очко ци."
 			],
 			"foundryImg": "icons/magic/air/wind-tornado-funnel-gray.webp"
 		},
 		{
-			"name": "Earth Master",
+			"name": "Повелитель земли",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -513,12 +513,12 @@
 				}
 			],
 			"entries": [
-				"Once on your turn, when you use your Rocky Strike or Stone Boulder, you can spend up to 3 additional ki points on it to increase its damage by one roll of your Martial Arts die per ki point spent."
+				"Один раз за ход, когда вы используете свой Каменный удар или Каменную глыбу, вы можете потратить на него до 3 дополнительных очков ци, чтобы увеличить его урон на один бросок кости Боевых искусств за каждое потраченное очко ци."
 			],
 			"foundryImg": "icons/magic/earth/projectile-boulder-dust.webp"
 		},
 		{
-			"name": "Fire Master",
+			"name": "Повелитель огня",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -534,12 +534,12 @@
 				}
 			],
 			"entries": [
-				"Once on your turn, when you use your Igneous Strike or Flaming Blast, you can spend up to 3 additional ki points on it to increase the damage by one roll of your Martial Arts die per ki point spent."
+				"Один раз за ход, когда вы используете свой Магматический удар или Огненный взрыв, вы можете потратить на него до 3 дополнительных очков ци, чтобы увеличить его урон на один бросок кости Боевых искусств за каждое потраченное очко ци."
 			],
 			"foundryImg": "icons/magic/fire/projectile-smoke-swirl-red.webp"
 		},
 		{
-			"name": "Flame Stance",
+			"name": "Огненная стойка",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -552,12 +552,12 @@
 				"amount": 2
 			},
 			"entries": [
-				"Your limbs become wreathed in flames. You gain a bonus to melee weapon attack rolls, grapple and shove checks equal to half your Wisdom modifier (rounded up). Creatures take fire damage equal to that bonus when you hit them with a melee weapon attack, or you successfully grapple or shove them."
+				"Ваши конечности охватывает пламя. Вы получаете бонус к броскам атаки оружием ближнего боя, а также к проверкам захвата и толчка, равный половине вашего модификатора Мудрости (округляя вверх). Когда вы попадаете по существу атакой оружием ближнего боя или успешно захватываете или толкаете его, оно получает Огненный урон, равный этому бонусу."
 			],
 			"foundryImg": "icons/magic/fire/projectile-smoke-swirl-red.webp"
 		},
 		{
-			"name": "Flaming Blast",
+			"name": "Пламенный взрыв",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -570,8 +570,8 @@
 				"amount": 1
 			},
 			"entries": [
-				"You shoot a fire projectile towards a point you choose that you can see within 30 feet from you. The projectile explodes when it reaches its destination or impacts against a solid surface. Each creature within 5 feet of the point where the projectile explodes must make a Dexterity saving throw, taking fire damage equal to two rolls of your Martial Arts die on a failed save.",
-				"The explosion damages objects in the area that aren't being worn or carried."
+				"Вы выпускаете огненный снаряд в выбранную вами точку, которую можете видеть, в пределах 30 футов от вас. Снаряд взрывается, достигнув места назначения или столкнувшись с твёрдой поверхностью. Каждое существо в пределах 5 футов от точки взрыва должно совершить спасбросок Ловкости, получая Огненный урон, равный двум броскам вашей Кости Боевых искусств, при провале спасброска.",
+				"Взрыв наносит урон предметам в этой области, которые никто не носит и не держит."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -589,7 +589,7 @@
 			"foundryImg": "icons/magic/fire/projectile-smoke-swirl-red.webp"
 		},
 		{
-			"name": "Gelid Strike",
+			"name": "Ледяной удар",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -602,7 +602,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"You cover your attacks with freezing water that hinders your enemy's movement. The target's speed is reduced by 15 feet until the start of your next turn."
+				"Вы покрываете свои атаки ледяной водой, которая затрудняет перемещение вашего врага. Скорость цели уменьшается на 15 футов до начала вашего следующего хода."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -619,7 +619,7 @@
 			"foundryImg": "icons/magic/water/projectile-ice-snowball.webp"
 		},
 		{
-			"name": "Heal Adept",
+			"name": "Адепт исцеления",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -639,12 +639,12 @@
 				"amount": 1
 			},
 			"entries": [
-				"Immediatly after you take the Help action on your turn, you can spend 1 ki point to heal a creature you can touch. That creature can spend up to a number of Hit Die equal to your Wisdom modifier to heal itself."
+				"Сразу после того, как вы совершите действие Помощь в свой ход, вы можете потратить 1 очко ци, чтобы исцелить существо, которого можете коснуться. Это существо может потратить для полного исцеления до количества Костей Хитов, равного вашему модификатору Мудрости."
 			],
 			"foundryImg": "icons/magic/life/heart-cross-blue.webp"
 		},
 		{
-			"name": "Igneous Strike",
+			"name": "Магматический удар",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -657,7 +657,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"A short lived blaze sparks from your attack, hot enough to burn through flesh. You add your Wisdom modifier to the extra damage of this strike."
+				"Кратковременная вспышка ифрита вылетает из вашей атаки, будучи достаточно горячей, чтобы прожечь плоть. Вы добавляете модификатор Мудрости к дополнительному урону этого удара."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -674,7 +674,7 @@
 			"foundryImg": "icons/magic/fire/projectile-smoke-swirl-red.webp"
 		},
 		{
-			"name": "Jet Burst",
+			"name": "Струйный всплеск",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -683,12 +683,12 @@
 				"DZC:EA:SS"
 			],
 			"entries": [
-				"Your fire can propel you to new heights. Once on your turn, you can move up to 30 feet in a straight line in any direction you choose. If you are grappled or restrained, you can instead forgo this movement to attempt to escape the effect or creature causing the condition, as long as it asks for a successful Strength check or saving throw to escape."
+				"Ваш огненный жар может вознести вас на новые высоты. Один раз за ход вы можете переместиться до 30 фт. по прямой линии в любом выбранном вами направлении. Если вы схвачены или опутаны, вы можете вместо этого отказаться от перемещения, чтобы попытаться вырваться из-под действия или из захвата существа, вызывающего это состояние, при условии, что для освобождения требуется успешная проверка Силы или спасбросок."
 			],
 			"foundryImg": "icons/magic/fire/projectile-smoke-swirl-red.webp"
 		},
 		{
-			"name": "Light Adept",
+			"name": "Адепт сияния",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -708,12 +708,12 @@
 				"amount": 1
 			},
 			"entries": [
-				"You can spend 1 ki point when you take the Attack action to engulf your arms in radiance. Until the end of your turn, your melee weapon attacks deal extra radiant damage equal to your Wisdom modifier."
+				"Вы можете потратить 1 очко ци, совершая действие Атака, чтобы окутать своё оружие сиянием. До конца вашего хода ваши атаки оружием ближнего боя наносят дополнительный урон излучением, равный вашему модификатору Мудрости."
 			],
 			"foundryImg": "icons/magic/light/beam-rays-orange-large.webp"
 		},
 		{
-			"name": "Lightning Adept",
+			"name": "Адепт молнии",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -733,12 +733,12 @@
 				"amount": 1
 			},
 			"entries": [
-				"You can spend 1 ki point when you take the Dash or Disengage action to charge yourself with electricity. Until the end of your turn, a creature takes lightning damage equal to 5 + your Wisdom modifier the first time you move within 5 feet from it."
+				"Вы можете потратить 1 очко ци, совершая действие Рывок или Отход, чтобы зарядить себя электричеством. До конца вашего хода существо получает электрический урон, равный 5 + ваш модификатор Мудрости, когда вы впервые перемещаетесь на расстояние до 5 фт. от него."
 			],
 			"foundryImg": "icons/magic/lightning/bolt-strike-sparks-blue.webp"
 		},
 		{
-			"name": "Mountain Stance",
+			"name": "Горная стойка",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -751,12 +751,12 @@
 				"amount": 2
 			},
 			"entries": [
-				"Your skin adopts the sturdiness of the rock. Bludgeoning, piercing and slashing damage that you take is reduced by an amount equal to twice your Wisdom modifier."
+				"Ваша кожа обретает прочность камня. Дробящий, колющий и рубящий урон, который вы получаете, уменьшается на величину, равную удвоенному модификатору Мудрости."
 			],
 			"foundryImg": "icons/magic/earth/projectile-boulder-dust.webp"
 		},
 		{
-			"name": "Nature's Vessel",
+			"name": "Сосуд природы",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -779,12 +779,12 @@
 				"amount": 3
 			},
 			"entries": [
-				"When you finish a long rest, you can replace one of the elemental arts that you know with another one from the same element. In addition, you can spend 3 ki points to enter your Primal Stance. When you do so, you gain the benefits of two different stance options that you know."
+				"Когда вы завершаете продолжительный отдых, вы можете заменить одно из известных вам элементальных искусств другим из того же элемента. Кроме того, вы можете потратить 3 очка ци, чтобы войти в свою Первобытную стойку. Сделав это, вы получаете преимущества двух разных вариантов стоек, которые вы знаете."
 			],
 			"foundryImg": "icons/magic/control/silhouette-hold-change-green.webp"
 		},
 		{
-			"name": "River Stance",
+			"name": "Стойка реки",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -797,12 +797,12 @@
 				"amount": 2
 			},
 			"entries": [
-				"Water tendrils sprout from your limbs. The range of your melee weapon attacks, grapples, and shoves increases by a number of feet equal to five times your Wisdom modifier. In addition, when you hit a creature with a melee weapon attack, the target's speed is reduced by 10 feet until the start of your next turn."
+				"Водяные щупальца вырастают из ваших конечностей. Дистанция ваших атак оружием ближнего боя, захватов и толчков увеличивается на количество футов, равное пятикратному модификатору Мудрости. Кроме того, когда вы попадаете по существу атакой оружием ближнего боя, скорость цели уменьшается на 10 фт. до начала вашего следующего хода."
 			],
 			"foundryImg": "icons/magic/water/projectile-ice-snowball.webp"
 		},
 		{
-			"name": "Rock Walk",
+			"name": "Каменный шаг",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -811,12 +811,12 @@
 				"DZC:EA:SS"
 			],
 			"entries": [
-				"With solid footing you can stride through any terrain. You ignore difficult terrain on solid surfaces. You also gain a climbing speed equal to your walking speed. If a vertical surface is made of soil or rock, you don't need your hands to climb."
+				"Благодаря устойчивой походке вы можете шагать по любой местности. Вы игнорируете труднопроходимую местность на твёрдых поверхностях. Также вы получаете скорость лазания, равную вашей скорости ходьбы. Если вертикальная поверхность состоит из почвы или камня, вам не нужны руки для лазания."
 			],
 			"foundryImg": "icons/magic/earth/projectile-boulder-dust.webp"
 		},
 		{
-			"name": "Rocky Strike",
+			"name": "Каменный удар",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -829,7 +829,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"A thick layer of stones forms around your attack, making it so heavy it temporarily disorientates your enemy. The target has disadvantage on the next attack roll it makes before the start of your next turn."
+				"Толстый слой камней образуется вокруг вашей атаки, делая её такой тяжёлой, что она временно дезориентирует вашего врага. Цель совершает с помехой следующий бросок атаки, который она совершит до начала вашего следующего хода."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -846,7 +846,7 @@
 			"foundryImg": "icons/magic/earth/projectile-boulder-dust.webp"
 		},
 		{
-			"name": "Stone Boulder",
+			"name": "Каменный валун",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -859,7 +859,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"You hurl a Medium rock against a creature you can see within 30 feet from you. The creature must succeed on a Strength saving throw or take bludgeoning damage equal to one roll of your Martial Arts die and be knocked prone."
+				"Вы метаете средний камень в существо, которое видите в пределах 30 футов от себя. Существо должно преуспеть в спасброске Силы, иначе оно получает дробящий урон, равный одному броску вашей кости боевых искусств, и падает ничком."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -877,7 +877,7 @@
 			"foundryImg": "icons/magic/earth/projectile-boulder-dust.webp"
 		},
 		{
-			"name": "Thunderous Strike",
+			"name": "Громовой удар",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -890,7 +890,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"A bubble of compressed air burst from your attack, sending your enemy flying away. If the target is a creature or an unsecured object that is no more than one size larger than you, then you can push it up to 10 feet away from you."
+				"Пузырь сжатого воздуха вырывается из вашей атаки, сбрасывая вашего врага прочь. Если целью является существо или незакреплённый предмет, размер которого не превышает ваш более чем на одну категорию, вы можете оттолкнуть его на расстояние до 10 футов от себя."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -907,7 +907,7 @@
 			"foundryImg": "icons/magic/air/wind-tornado-funnel-gray.webp"
 		},
 		{
-			"name": "Underwater Adaptations",
+			"name": "Подводные адаптации",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -916,12 +916,12 @@
 				"DZC:EA:SS"
 			],
 			"entries": [
-				"Your body becomes one with the ocean. You gain a swimming speed equal to your walking speed and you can breath normally underwater."
+				"Ваше тело становится единым с океаном. Вы получаете скорость плавания, равную вашей скорости ходьбы, и можете нормально дышать под водой."
 			],
 			"foundryImg": "icons/magic/water/projectile-ice-snowball.webp"
 		},
 		{
-			"name": "Water Master",
+			"name": "Повелитель воды",
 			"source": "DZC:ANA:MsE",
 			"page": 7,
 			"featureType": [
@@ -937,12 +937,12 @@
 				}
 			],
 			"entries": [
-				"Once on your turn, when you use your Gelid Strike or Water Swirl, you can spend up to 3 additional ki points on it to increase the damage by one roll of your Martial Arts die per ki point spent."
+				"Один раз за свой ход, когда вы используете свой Ледяной удар или Водяной вихрь, вы можете потратить до 3 дополнительных очков ци на него, чтобы увеличить урон на один бросок вашей кости боевых искусств за каждое потраченное очко ци."
 			],
 			"foundryImg": "icons/magic/water/projectile-ice-snowball.webp"
 		},
 		{
-			"name": "Water Swirl",
+			"name": "Водяной вихрь",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -955,7 +955,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"A pillar of swirling water appears in a point you can see within 30 feet from you. Each creature in a 10-foot-radius, 15-foot-high cylinder centered on a point within range must make a Strength saving throw. On a failed save, a creature takes cold damage equal to one roll of your Martial Arts die and is pushed 5 feet in any direction you choose."
+				"Столб крутящейся воды появляется в точке, которую вы видите в пределах 30 футов от себя. Каждое существо в цилиндре с радиусом 10 футов и высотой 15 футов, центрированном на точке в пределах дистанции, должно совершить спасбросок Силы. При провале существо получает холодный урон, равный одному броску вашей кости боевых искусств, и отталкивается на 5 футов в любом выбранном вами направлении."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -973,7 +973,7 @@
 			"foundryImg": "icons/magic/water/projectile-ice-snowball.webp"
 		},
 		{
-			"name": "Wind Blast",
+			"name": "Ветряной взрыв",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -986,8 +986,8 @@
 				"amount": 1
 			},
 			"entries": [
-				"A line of compressed air 30 feet long and 5 feet wide blasts from you in a direction you choose. Each creature in that area must succeed on a Constitution saving throw or take thunder damage equal to one roll of your Martial Arts die and be pushed up to 10 feet away from you in a direction following the line.",
-				"Unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the feature's effect."
+				"Линия сжатого воздуха длиной 30 футов и шириной 5 футов вырывается от вас в выбранном вами направлении. Каждое существо в этой области должно преуспеть в спасброске Телосложения, иначе оно получает звуковой урон, равный одному броску вашей кости боевых искусств, и отталкивается на расстояние до 10 футов от вас в направлении, следующем за линией.",
+				"Незакреплённые предметы, полностью находящиеся в зоне действия, автоматически отталкиваются на 10 футов от вас эффектом этой черты."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -1005,7 +1005,7 @@
 			"foundryImg": "icons/magic/air/wind-tornado-funnel-gray.webp"
 		},
 		{
-			"name": "Wind Stance",
+			"name": "Стойка ветра",
 			"source": "DZC:ANA:MsE",
 			"page": 6,
 			"featureType": [
@@ -1018,7 +1018,7 @@
 				"amount": 2
 			},
 			"entries": [
-				"Soft currents move you out of harms way. When you take the Disengage or Dodge action, until the start of your next turn you gain a bonus to your AC and Dexterity saving throws equal to half your Wisdom modifier (rounded up) against attacks and effects you can see. You don't benefit from this stance while your speed is 0."
+				"Мягкие потоки уносят вас из опасной зоны. Когда вы совершаете действие Отход или Уклонение, до начала вашего следующего хода вы получаете бонус к КД и спасброскам Ловкости, равный половине вашего модификатора Мудрости, округлённой вверх, против видимых вами атак и эффектов. Вы не получаете преимуществ от этой стойки, если ваша Скорость равна 0."
 			],
 			"foundryImg": "icons/magic/air/wind-tornado-funnel-gray.webp"
 		}
