@@ -19,7 +19,7 @@
 	},
 	"background": [
 		{
-			"name": "Knight of the Silver Thorn",
+			"name": "Рыцарь Серебряного Шипа",
 			"source": "Brewskii",
 			"page": 150,
 			"skillProficiencies": [
@@ -33,10 +33,10 @@
 					"_": [
 						{
 							"item": "emblem|phb",
-							"displayName": "emblem of the symbol of the Silver Thorn denoting your rank as a Knight"
+							"displayName": "эмблема знака Серебряного Шипа, обозначающая ваш ранг Рыцаря"
 						},
 						{
-							"special": "the tool you choose for this background's tool proficiency (artisan's tools)"
+							"special": "инструменты, которые вы выбираете для владения инструментами этого предыстории (Инструменты ремесленников)"
 						},
 						{
 							"item": "pouch|phb",
@@ -52,55 +52,55 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Skill Proficiencies",
+							"name": "Владение навыками",
 							"entry": "{@skill History}, {@skill Survival}"
 						},
 						{
 							"type": "item",
-							"name": "Tool Proficiencies",
-							"entry": "One type of artisan's tools"
+							"name": "Владение инструментами",
+							"entry": "Один вид Инструментов ремесленников"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
-							"entry": "Draconic"
+							"name": "Языки",
+							"entry": "Драконий"
 						},
 						{
 							"type": "item",
-							"name": "Equipment",
-							"entry": "An {@item emblem|phb} of the symbol of the Silver Thorn denoting your rank as a Knight, the tool you choose for this background's tool proficiency ({@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}), and a {@item pouch|phb} containing 15 gp"
+							"name": "Снаряжение",
+							"entry": "{@item emblem|phb} знака Серебряного Шипа, обозначающая ваш ранг Рыцаря, выбранные вами для владения инструментами этого предыстории {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, а также {@item pouch|phb}, содержащий 15 зм"
 						}
 					]
 				},
 				{
-					"name": "Overview:",
+					"name": "Обзор:",
 					"type": "entries",
 					"entries": [
-						"You are one of the Knights of the Silver Thorn, an arbiter of the covenant that binds the people of Gaea. You have been knighted by a Warden in front of the Bonsai on Tenrou island after years of training. You have likely been granted a degree of automonany allowing you to travel the land as you please. You have the title of 'Sir' or 'Lady'.",
-						"You can start with one of your two {@b Features}. If you later lose your squire, or gain a new one, your feature changes to the other."
+						"Вы — один из Рыцарей Серебряного Шипа, арбитр договора, связывающего народ Геи. Страж посвятил вас в рыцари перед Бонсай на острове Тэнроу после нескольких лет обучения. Вероятно, вам была дарована определённая степень самостоятельности, позволяющая путешествовать по землям по своему усмотрению. Вы носите титул «сэр» или «леди».",
+						"Вы можете начать с одной из двух своих {@b черт}. Если впоследствии вы потеряете своего оруженосца или получите нового, ваша черта изменится на другую."
 					]
 				},
 				{
-					"name": "Feature: Arbiter",
+					"name": "Черта: Арбитр",
 					"type": "entries",
 					"entries": [
-						"You receive shelter and succor from members of the Silver Thorn and those who are sympathetic to its aims. This help comes in the form of free shelter and meals, and healing when appropriate, as well as occasionally risky assistance, such as a band of local citizens rallying to aid a sorely pressed Knight, or those who support the Silver Thorn helping to smuggle a Knight out of town when he or she is being hunted unjustly.",
-						"If you register a squire with your Warden, you lose this feature and gain the {@b Squire} feature."
+						"Вы получаете укрытие и поддержку от членов Серебряного Шипа и тех, кто сочувствует его целям. Эта помощь включает бесплатное укрытие и обеды, а также исцеление при необходимости и иногда рискованную подмогу — например, когда отряд местных жителей объединяется, чтобы помочь Рыцарю, оказавшемуся в крайне затруднительном положении, или когда поддерживающие Серебряный Шип помогают Рыцарю тайно выбраться из города, если его несправедливо преследуют.",
+						"Если вы зарегистрируете оруженосца у своего Хранителя, вы потеряете эту особенность и получите особенность {@b Оруженосец}."
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Feature: Squire",
+					"name": "Особенность: оруженосец",
 					"type": "entries",
 					"entries": [
-						"You have taken on a squire. You are responsible for their training and wellbeing, they are an extention of you and your place within the Silver Thorn. Your squire has a full set of characterisitcs, use the tables for the {@background acolyte} background in the Player's Handbook as the basis for their traits and motivations, modifying the entries when appropriate to suit their identity as a Silver Thorn operative. For instance, consider the words \"faith\" and \"faction\" to be interchangeable. Your squire also has two flaws instead of one.",
-						"Your squire will fight for you in combat. You select your squire combat statistics from among the following choices: {@creature bandit}, {@creature guard}, {@creature noble} or {@creature tribal warrior}. Your squire's creature choice has the following changes, their alignment changes to any lawful alignment, their weapon changes to a {@item shortsword|phb}, they use a {@item shield|phb}, their armor changes to {@item hide armor|phb}. You control your squire in combat, but your DM might take control of your squire if they expereience fear, stress or wavering loyalty.",
-						"Your squire can be any playable race. Out of combat your squire is controlled by your DM as a loyal NPC.",
-						"Your squire evolves as you level up. Every time you level up, you can spend 8 hours of training to increase your squire's hit die by one. Your squire's proficiency bonus increases by 1 when yours does, and when your level Feature is an Ability Score Improvement your squire can increase one ability score of your choice by 2, or they can increase two ability scores of your choice by 1.",
-						"If your follower leaves your service or dies, you must inform your Warden and you lose this feature and gain the {@b Arbiter} feature.",
-						"If you gain a squire at a later level you can spend a week of training to increase their statistics to become what they would be if they were in your service from level one."
+						"Вы взяли оруженосца. Вы отвечаете за его обучение и благополучие; он является продолжением вас и вашего места в Серебряном Шипе. Ваш оруженосец обладает полным набором характеристик; используйте таблицы предыстории {@background acolyte} из «Справочника игрока» как основу для его черт и мотивов, изменяя результаты при необходимости, чтобы отразить его личность как агента Серебряного Шипа. Например, считайте слова «вера» и «фракция» взаимозаменяемыми. У вашего оруженосца также есть два недостатка вместо одного.",
+						"Ваш оруженосец будет сражаться за вас в бою. Вы выбираете боевые характеристики своего оруженосца из следующих вариантов: {@creature bandit}, {@creature guard}, {@creature noble} или {@creature tribal warrior}. Выбранное существо-оруженосец претерпевает следующие изменения: его мировоззрение изменяется на любое мировоззрение Порядка, его оружие изменяется на {@item shortsword|phb}, он использует {@item shield|phb}, а его доспех изменяется на {@item hide armor|phb}. Вы управляете своим оруженосцем в бою, но Мастер может взять управление им на себя, если тот испытывает ужас, стресс или колеблется в верности.",
+						"Ваш оруженосец может принадлежать к любой доступной для игры расе. Вне боя вашим оруженосцем управляет Мастер как верным НИПом.",
+						"Ваш оруженосец развивается вместе с повышением вашего уровня. Каждый раз, когда вы повышаете уровень, вы можете потратить 8 часов на обучение, чтобы увеличить Кость Хитов вашего оруженосца на одну. Бонус мастерства вашего оруженосца увеличивается на 1, когда увеличивается ваш бонус мастерства, а когда особенностью вашего уровня является Увеличение характеристик, ваш оруженосец может увеличить одну выбранную вами характеристику на 2 или две выбранные вами характеристики на 1.",
+						"Если ваш последователь покидает вашу службу или умирает, вы должны уведомить своего Хранителя, после чего потеряете эту особенность и получите особенность {@b Арбитр}.",
+						"Если вы получаете оруженосца на более высоком уровне, вы можете потратить неделю на обучение, чтобы повысить его характеристики до значений, которые были бы у него, если бы он состоял у вас на службе с 1-го уровня."
 					],
 					"data": {
 						"isFeature": true
@@ -108,10 +108,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Suggested Characteristics",
+					"name": "Рекомендуемые характеристики",
 					"entries": [
-						"Use the tables for the {@background acolyte} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Knight of the Silver Thorn. (For instance, consider the words \"faith\" and \"faction\" to be interchangeable.)",
-						"Your bond might be associated with other members of the Silver Thorn, or a location or an object that is important to them. The ideal you strive for is probably in keeping with the covanent or principles of the Silver Thorn, but might be more personal in nature."
+						"Используйте таблицы предыстории {@background acolyte} из «Справочника игрока» как основу для ваших черт и мотивов, изменяя результаты при необходимости, чтобы отразить вашу личность как Рыцаря Серебряного Шипа. (Например, считайте слова «вера» и «фракция» взаимозаменяемыми.)",
+						"Ваша привязанность может быть связана с другими членами Серебряного Шипа, местом или предметом, которые важны для них. Идеал, к которому вы стремитесь, вероятно, соответствует завету или принципам Серебряного Шипа, но может иметь более личный характер."
 					]
 				}
 			]
