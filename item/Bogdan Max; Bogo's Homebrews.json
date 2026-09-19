@@ -19,7 +19,7 @@
 	},
 	"spell": [
 		{
-			"name": "Power Word Valor",
+			"name": "Слово силы: доблесть",
 			"source": "BOGO",
 			"level": 2,
 			"school": "E",
@@ -45,16 +45,16 @@
 				}
 			],
 			"entries": [
-				"You utter a word of power that can be heard up to 30 feet away. Every sentient creature that can hear you must succeed on a Wisdom saving throw, on a failed save they feel compelled to fight you making it impossible for them to willingly move away from you and also gain disadvantage on attack rolls on targets other than you. Affected creatures can repeat the saving throw at the end of their turns",
-				"If at least one target fails the saving throw gain 10 temporary hit points.",
-				"Creatures immune to being {@condition charmed} are not affected by this spell."
+				"Вы произносите слово силы, которое можно услышать на расстоянии до 30 футов. Каждое разумное существо, которое вас слышит, должно преуспеть в спасброске Мудрости; при провале оно чувствует себя обязанным сражаться с вами, не может добровольно отойти от вас и получает помеху на броски атаки по целям, кроме вас. Затронутые существа могут повторять спасбросок в конце своих ходов.",
+				"Если хотя бы одна цель проваливает спасбросок, вы получаете 10 временных хитов.",
+				"Существа, невосприимчивые к состоянию {@condition charmed}, не подвержены действию этого заклинания."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На более высоких уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the extra hit points are increased by 5 for each slot level above 3rd."
+						"Когда вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, дополнительные хиты увеличиваются на 5 за каждый уровень ячейки выше 3-го."
 					]
 				}
 			],
@@ -72,13 +72,13 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Жрец",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War Domain",
+							"name": "Домен войны",
 							"source": "PHB",
-							"shortName": "War"
+							"shortName": "Война"
 						}
 					}
 				]
@@ -93,35 +93,35 @@
 	],
 	"item": [
 		{
-			"name": "Cloack of Distortion",
+			"name": "Плащ искажения",
 			"source": "BOGO",
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"This cloak has two pins that clasp in front of the wearers' shoulders so that it doesn't fall off and it would be more accurate to call it a cape if not for the fact that it has a hood. On the inside, this cloak is transparent but has a dark tint, on the outside, it looks as though the zero-dimension possessed it. ",
-				"This cloak has 3 charges and regains all charges after a long rest.",
-				"{@b Liberation.} While wearing this cloak, u can use a bonus action to expend one charge commanding the cloak to absorb your weight. Doing so makes you levitate 5 ft. of the ground. While levitating u have advantage on acrobatics checks and a movement speed of 35 ft. also you are under the effect of the feather fall spell until landing.",
-				"{@b Distortion.} While wearing this cloak, u can use an action to expand two charges. Doing so casts the Blur spell on you.",
+				"У этого плаща две застёжки, которые скрепляются перед плечами носителя, чтобы он не спадал, и его точнее было бы назвать накидкой, если бы не капюшон. Изнутри плащ прозрачен, но с тёмным оттенком, а снаружи он выглядит так, будто им завладело нулевое измерение. ",
+				"У этого плаща 3 заряда, и он восстанавливает все заряды после продолжительного отдыха.",
+				"{@b Освобождение.} Пока вы носите этот плащ, вы можете бонусным действием потратить один заряд, приказав плащу поглотить ваш вес. Это позволяет вам левитировать в 5 футах над землёй. Пока вы левитируете, у вас преимущество на проверки Акробатики и скорость перемещения 35 футов, а также на вас действует эффект заклинания «Падение пёрышком» до приземления.",
+				"{@b Искажение.} Пока вы носите этот плащ, вы можете действием потратить два заряда. Это накладывает на вас заклинание «Размытый образ».",
 				" ",
-				"The two abilities can not be used at the same time. "
+				"Эти две способности нельзя использовать одновременно. "
 			]
 		},
 		{
-			"name": "Cloack of Invisibility (Nerfed)",
+			"name": "Плащ невидимости (ослабленный)",
 			"source": "BOGO",
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"This cloak has 2 charges and regains all charges after a long rest.",
-				"As an action, you can expend one charge to cast the {@spell invisibility|PHB} spell on yourself. Casting the spell in this way ignores the concentration property."
+				"У этого плаща 2 заряда, и он восстанавливает все заряды после продолжительного отдыха.",
+				"действием вы можете потратить один заряд, чтобы наложить на себя заклинание {@spell invisibility|PHB}. Сотворение заклинания таким образом игнорирует свойство концентрации."
 			]
 		},
 		{
-			"name": "Evil Anihilation",
+			"name": "Злое истребление",
 			"source": "BOGO",
 			"baseItem": "longbow|PHB",
 			"type": "R",
@@ -137,13 +137,13 @@
 			"dmg1": "1d10",
 			"dmgType": "P",
 			"entries": [
-				"When you pull the string of the bow back u can choose to create a force arrow, an ice arrow, or a fire arrow that deals the respective type of damage.",
-				"This weapon has 3 charges and regains all charges after a long rest",
-				"{@b Starlight Burst.} As an action, u can expend one charge to shoot a magically created arrow made of stars at a certain location. After landing a 3x3 area around that square becomes covered in starlight. Every hostile creature in that zone takes {@dice 3d6 | 3d6} radiant damage and must succeed on a DC 15 Dexterity saving or be pushed back 15 ft. If a pushed enemy hits an obstacle it stops 5 ft. from it and must succeed on a DC 15 Dexterity saving or be knocked {@condition prone}."
+				"Натягивая тетиву лука, вы можете выбрать, создать стрелу силы, ледяную стрелу или огненную стрелу, наносящую соответствующий тип урона.",
+				"У этого оружия 3 заряда, и оно восстанавливает все заряды после продолжительного отдыха",
+				"{@b Вспышка звёздного света.} действием вы можете потратить один заряд, чтобы выпустить созданную магией стрелу из звёзд в определённую точку. После попадания область 3×3 вокруг этой клетки покрывается звёздным светом. Каждое враждебное существо в этой зоне получает {@dice 3d6 | 3d6} урона излучением и должно преуспеть в спасброске Ловкости со Сл 15, иначе его отбросит на 15 футов. Если отброшенный враг врезается в препятствие, он останавливается в 5 футах от него и должен преуспеть в спасброске Ловкости со Сл 15, иначе его собьёт с ног {@condition prone}."
 			]
 		},
 		{
-			"name": "Periapt of Wound Closure (Modified)",
+			"name": "Периапт закрытия ран (изменённый)",
 			"source": "BOGO",
 			"tier": "minor",
 			"rarity": "rare",
@@ -151,13 +151,13 @@
 			"wondrous": true,
 			"curse": true,
 			"entries": [
-				"{@b Life Saver.} When you are reduced to 0 hit points while wearing this pendant you stabilize at the start of your next turn.",
-				"{@b Health Restore.} Whenever you roll a Hit Die to regain hit points, you can choose to double the number of hit points it restores.",
-				"{@b Curse. } while attuned to this pendant you do not want to part with it and the only way to end the attunement is to be killed. Also, whenever one of the pendant's features is used a Chaos Burst happens (aka. a {@dice 1d10000 | d10000} is rolled). "
+				"{@b Спасатель жизни.} Когда ваши хиты опускаются до 0, пока вы носите этот медальон, вы стабилизируетесь в начале своего следующего хода.",
+				"{@b Восстановление здоровья.} Когда вы бросаете Кость хитов, чтобы восстановить хиты, вы можете удвоить число восстанавливаемых хитов.",
+				"{@b Проклятие. } пока вы настроены на этот медальон, вы не хотите с ним расставаться, и единственный способ прекратить настройку — погибнуть. Кроме того, всякий раз, когда используется одна из функций медальона, происходит всплеск хаоса (то есть бросок {@dice 1d10000 | d10000}). "
 			]
 		},
 		{
-			"name": "Star Chaser",
+			"name": "Ловец звёзд",
 			"source": "BOGO",
 			"baseItem": "pistol|DMG",
 			"type": "R",
@@ -174,14 +174,14 @@
 			"dmgType": "P",
 			"firearm": true,
 			"entries": [
-				"You have a +2 bonus to attack rolls with this weapon. When using a normal bullet to shoot you can choose to turn the damage from piercing to necrotic",
-				"This weapon has 3 charges and regains {@dice 1d4-1 | 1d4-1} expanded charges after a long rest",
-				"{@b Elemntal Burst.} If the pistol is fully loaded as an action u can expend one charge to deal {@dice 4d10 | 4d10} damage. This ability can only be used once per turn. Doing this empties your magazine and requires that u spend an action or bonus action to reload it. When shooting in this way choose one of the d10s. The number rolled on that die determines the attack's damage type, as shown in the table below.",
+				"Вы получаете бонус +2 к броскам атаки этим оружием. Стреляя обычной пулей, вы можете изменить тип урона с колющего на некротический.",
+				"У этого оружия 3 заряда, и оно восстанавливает {@dice 1d4-1 | 1d4-1} потраченных зарядов после продолжительного отдыха",
+				"{@b Всплеск стихий.} Если пистолет полностью заряжен, вы можете действием потратить один заряд, чтобы нанести {@dice 4d10 | 4d10} урона. Эту способность можно использовать только один раз за ход. Это опустошает магазин, и вам нужно потратить действие или бонусное действие, чтобы перезарядить оружие. Стреляя таким образом, выберите одну из костей d10. Выпавшее на ней число определяет тип урона атаки, как показано в таблице ниже.",
 				{
 					"type": "table",
 					"colLabels": [
 						"{@dice d10}",
-						"Damage Type"
+						"Тип урона"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -195,7 +195,7 @@
 									"exact": 1
 								}
 							},
-							"Acid"
+							"Кислота"
 						],
 						[
 							{
@@ -204,7 +204,7 @@
 									"exact": 2
 								}
 							},
-							"Cold"
+							"Холод"
 						],
 						[
 							{
@@ -213,7 +213,7 @@
 									"exact": 3
 								}
 							},
-							"Fire"
+							"Огонь"
 						],
 						[
 							{
@@ -222,7 +222,7 @@
 									"exact": 4
 								}
 							},
-							"Force"
+							"Сила"
 						],
 						[
 							{
@@ -231,7 +231,7 @@
 									"exact": 5
 								}
 							},
-							"Lighting"
+							"Электричество"
 						],
 						[
 							{
@@ -240,7 +240,7 @@
 									"exact": 6
 								}
 							},
-							"Necrotic"
+							"Некротический"
 						],
 						[
 							{
@@ -249,7 +249,7 @@
 									"exact": 7
 								}
 							},
-							"Psychic"
+							"Психический"
 						],
 						[
 							{
@@ -258,7 +258,7 @@
 									"exact": 8
 								}
 							},
-							"Radiant"
+							"Излучение"
 						],
 						[
 							{
@@ -267,7 +267,7 @@
 									"exact": 9
 								}
 							},
-							"Poison"
+							"Яд"
 						],
 						[
 							{
@@ -276,15 +276,15 @@
 									"exact": 10
 								}
 							},
-							"Thunder"
+							"Звук"
 						]
 					]
 				},
-				"Before using Elemental Burst roll a {@dice 1d20 | d20}, on a 1 this ability does not ativate and the pistol magicaly overloads making it unusable for this turn and the next one."
+				"Перед использованием «всплеска стихий» бросьте {@dice 1d20 | d20}: при выпадении 1 эта способность не активируется, а пистолет магически перегружается, что делает его непригодным на этот и следующий ход."
 			]
 		},
 		{
-			"name": "The Last Whisper",
+			"name": "Последний шёпот",
 			"source": "BOGO",
 			"baseItem": "shortbow|PHB",
 			"type": "R",
@@ -299,17 +299,17 @@
 			"dmg1": "2d8",
 			"dmgType": "P",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls with this weapon. When you pull the string of the bow back u can choose to create a lighting arrow or an ice arrow that deals the respective type of damage.",
-				"This weapon has 2 charges and regains all charges after a long rest.",
-				"As an action you can expand one charge to use one of the two magic bursts.",
-				"{@b Lightning Burst.} Shoot a magically overloaded arrow that deals {@dice 3d10 | 3d10} lighting damage to the first creature it hits and makes the creature vulnerable to lighting until the start of your next turn.",
-				"{@b Frost Burst.} Shoot a magically overloaded arrow that deals {@dice 1d10 | 1d10} cold damage to the first creature it hits the creature must also succeed on a DC 17 Consitution saving throw or be {@condition imoblizied} for the next 2 turns"
+				"Вы получаете бонус +1 к броскам атаки и урона этим оружием. Натягивая тетиву лука, вы можете выбрать, создать электрическую стрелу или ледяную стрелу, наносящую соответствующий тип урона.",
+				"У этого оружия 2 заряда, и оно восстанавливает все заряды после продолжительного отдыха.",
+				"действием вы можете потратить один заряд, чтобы использовать один из двух магических всплесков.",
+				"{@b Всплеск молнии.} Выстрелите магически перегруженной стрелой, которая наносит {@dice 3d10 | 3d10} урона электричеством первому существу, по которому попадёт, и делает это существо уязвимым к электричеству до начала вашего следующего хода.",
+				"{@b Всплеск мороза.} Выстрелите магически перегруженной стрелой, которая наносит {@dice 1d10 | 1d10} урона холодом первому существу, по которому попадёт; это существо также должно преуспеть в спасброске Телосложения со Сл 17, иначе станет {@condition imoblizied} на следующие 2 хода"
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Small Treant",
+			"name": "Малый трент",
 			"source": "BOGO",
 			"size": [
 				"S"
@@ -356,25 +356,25 @@
 				"unconscious"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Druidic",
-				"Elvish",
-				"Sylvan"
+				"Эльфийский",
+				"Сильванский"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The small treant has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Малый трент совершает броски атаки по существу с преимуществом, если хотя бы один из союзников кобольда находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Lash",
+					"name": "Хлест",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d10 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) дробящего урона."
 					]
 				}
 			],
