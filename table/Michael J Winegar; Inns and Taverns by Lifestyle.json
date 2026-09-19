@@ -24,8 +24,8 @@
 	},
 	"monster": [
 		{
-			"name": "Professional Bounty Hunter",
-			"shortName": "bounty hunter",
+			"name": "Профессиональный охотник за головами",
+			"shortName": "охотник за головами",
 			"source": "InnsTavernsLifestyle",
 			"page": 13,
 			"size": [
@@ -69,45 +69,45 @@
 			},
 			"passive": 13,
 			"languages": [
-				"any one language (usually Common)"
+				"one (обычно Общий)"
 			],
 			"cr": "3",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The bounty hunter makes two longsword attacks. If it has a mace drawn, it can also make a cudgel attack."
+						"Охотник за головами совершает две атаки длинным мечом. Если у него наготове булава, он может также совершить атаку дубинкой."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона, или 8 ({@damage 1d10 + 3}) рубящего урона при использовании двумя руками."
 					]
 				},
 				{
-					"name": "Cudgel",
+					"name": "Дубинка",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) дробящего урона."
 					]
 				},
 				{
-					"name": "Heavy Crossbow",
+					"name": "Тяжёлый арбалет",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 100/400 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Bola",
+					"name": "Бола",
 					"entries": [
-						"A bola is a cord with weights on each end thrown at the legs of a fleeing target.",
-						"{@atk rw} {@hit 4} to hit, range 30/50 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage. A Large or smaller creature hit must succeed in a {@dc 13} Dexterity saving throw or become {@condition grappled}. {@dc 12} Strength check to break. The bola has 4 hit points.",
-						"A bounty hunter may use a Bola during an attack of opportunity even if the target has used the {@action Disengage} action."
+						"Бола — это шнур с грузилами на концах, который метают в ноги убегающей цели.",
+						"{@atk rw} {@hit 4} к попаданию, дистанция 30/50 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона. Попавшее существо Большого размера или меньше должно преуспеть в спасброске Ловкости {@dc 13}, иначе станет {@condition grappled}. Проверка Силы {@dc 12}, чтобы освободиться. У болы 4 хита.",
+						"Охотник за головами может использовать болу при атаке по возможности, даже если цель уже совершила действие {@action Disengage}."
 					]
 				}
 			],
 			"token": {
-				"name": "Veteran",
+				"name": "Ветеран",
 				"source": "MM"
 			},
 			"attachedItems": [
@@ -146,7 +146,7 @@
 							{
 								"type": "entries",
 								"entries": [
-									"Professional Bounty Hunters are tough and dogged in their pursuit, but they're also experienced enough to know when a target is out of their league. They'll team up with other bounty hunters if they have to, but they'll also hire mercenaries or even work with enemies of the target."
+									"Профессиональные охотники за головами упорны и настойчивы в преследовании, но у них достаточно опыта, чтобы понять, когда цель им не по зубам. При необходимости они объединяются с другими охотниками за головами, но также нанимают наёмников и даже работают с врагами цели."
 								]
 							}
 						]
@@ -157,2058 +157,2058 @@
 	],
 	"table": [
 		{
-			"name": "Aristocratic Tavern Random Events and Adventure Hooks",
+			"name": "Случайные события и завязки приключений в аристократической таверне",
 			"source": "InnsTavernsLifestyle",
 			"page": 7,
 			"colLabels": [
 				"{@dice d20}",
-				"Event"
+				"Событие"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"While many nobles host events in their own palatial dwellings, sometimes a third party venue is preferred for social events. With a dedicated \"tavern,\" nobles always have a place to go to engage with their peers and traveling aristocrats need not rely on their relations. Such an establishment might be a dining hall attached to an opera stage or a similar arrangement with a ballroom or art gallery"
+				"Хотя многие дворяне устраивают приёмы в собственных дворцах, для светских мероприятий иногда предпочитают стороннее заведение. Имея собственную «таверну», дворяне всегда могут встретиться с равными себе, а путешествующим аристократам не приходится полагаться на родню. Подобное заведение может быть обеденным залом при оперной сцене или чем-то похожим при бальном зале либо художественной галерее."
 			],
 			"rows": [
 				[
 					"1",
-					"A high stakes card game is underway. Only those who own land to gamble are welcome."
+					"Идёт игра в карты на высокие ставки. Приглашаются только те, у кого есть земля для игры."
 				],
 				[
 					"2",
-					"Two young nobles shout at one another and then draw their swords."
+					"Двое молодых дворян кричат друг на друга, а затем обнажают мечи."
 				],
 				[
 					"3",
-					"A woman in a veil glides through the room and up the stairs. Someone whispers, \"The Queen.\""
+					"Женщина под вуалью скользит через зал и поднимается по лестнице. Кто-то шепчет: «Королева»."
 				],
 				[
 					"4",
-					"Several young nobles laugh at you for wearing a clothing style that is so last year."
+					"Несколько молодых дворян смеются над вами за одежду, вышедшую из моды ещё в прошлом году."
 				],
 				[
 					"5",
-					"The inn is hosting a party exclusively for local nobility and their guests."
+					"Таверна устраивает приём исключительно для местной знати и её гостей."
 				],
 				[
 					"6",
-					"Barely touched plates of food are constantly being thrown away. Outside, guards chase away hungry beggars."
+					"Едва тронутые тарелки с едой постоянно выбрасывают. Снаружи стража прогоняет голодных нищих."
 				],
 				[
 					"7",
-					"A hollow-eyed, embarrassed young noble drifts from table to table, asking for an outrageously large loan."
+					"Смущённый молодой дворянин с пустым взглядом бродит от стола к столу, прося возмутительно большой заём."
 				],
 				[
 					"8",
-					"The host looks at some members of your party and insists that servants should use the back entrance."
+					"Хозяин смотрит на некоторых членов вашего отряда и настаивает, чтобы прислуга пользовалась чёрным ходом."
 				],
 				[
 					"9",
-					"A highly respected leader of a church is passing through on a tour of the region. He wears lavish jewelry."
+					"Высокочтимый глава церкви проезжает через регион с визитом. На нём роскошные украшения."
 				],
 				[
 					"10",
-					"A brick wrapped in paper flies through one of the windows. The paper is a message promising revenge."
+					"Кирпич, завёрнутый в бумагу, влетает в одно из окон. В бумаге — записка с обещанием мести."
 				],
 				[
 					"11",
-					"A high-ranking noble wears a truly awful hat he is trying to make fashionable. He receives many compliments."
+					"Высокопоставленный дворянин носит по-настоящему ужасную шляпу и пытается сделать её модной. Ему делают множество комплиментов."
 				],
 				[
 					"12",
-					"One of the nobles invites the adventuring company to his private hunting lodge beside an untamed wilderness."
+					"Один из дворян приглашает отряд искателей приключений в свой охотничий домик на краю диких земель."
 				],
 				[
 					"13",
-					"A diplomat from a nearby country looks around, apparently not happy with what he sees."
+					"Дипломат из соседней страны оглядывается, явно недовольный увиденным."
 				],
 				[
 					"14",
-					"One of the nobles takes grave insult from something that you have done, said, or not done or not said."
+					"Один из дворян смертельно оскорблён тем, что вы сделали, сказали — или не сделали и не сказали."
 				],
 				[
 					"15",
-					"Hearing that you may travel soon, a noble offers payment for the escort of her son to a wizard's tower."
+					"Услышав, что вы скоро отправитесь в путь, дворянка предлагает оплату за сопровождение её сына в башню волшебника."
 				],
 				[
 					"16",
-					"A drunk noble begins angrily spilling secrets about other patrons that shock everyone present."
+					"Пьяный дворянин со злостью начинает выдавать чужие тайны, шокируя всех присутствующих."
 				],
 				[
 					"17",
-					"You meet an old general with very bad manners. He was ennobled after a recent war but no one talks to him"
+					"Вы знакомитесь со старым генералом с отвратительными манерами. Он получил дворянство после недавней войны, но с ним никто не разговаривает."
 				],
 				[
 					"18",
-					"The host doubts that you are on the guest list for tonight's private party. Do you have an invitation?"
+					"Хозяин сомневается, что вы в списке гостей сегодняшнего закрытого приёма. Есть ли у вас приглашение?"
 				],
 				[
 					"19",
-					"In celebration of their engagement, a couple pays for everyone's food and drink for the evening."
+					"В честь своей помолвки пара оплачивает всем еду и напитки на вечер."
 				],
 				[
 					"20",
-					"A prince has been abducted by a dragon and his parents will pay a fortune for his safe return."
+					"Принца похитил дракон, и его родители заплатят целое состояние за его безопасное возвращение."
 				]
 			]
 		},
 		{
-			"name": "Aristocratic Taverns (6 gp)",
+			"name": "Аристократические таверны (6 зм)",
 			"source": "InnsTavernsLifestyle",
 			"page": 7,
 			"colLabels": [
 				"{@dice d20}",
-				"Tavern Adjectives",
-				"Tavern Nouns",
-				"Patron Names",
-				"Surroundings"
+				"Прилагательные таверны",
+				"Существительные таверны",
+				"Имена посетителей",
+				"Окружение"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"While many nobles host events in their own palatial dwellings, sometimes a third party venue is preferred for social events. With a dedicated \"tavern,\" nobles always have a place to go to engage with their peers and traveling aristocrats need not rely on their relations. Such an establishment might be a dining hall attached to an opera stage or a similar arrangement with a ballroom or art gallery"
+				"Хотя многие дворяне устраивают приёмы в собственных дворцах, для светских мероприятий иногда предпочитают стороннее заведение. Имея собственную «таверну», дворяне всегда могут встретиться с равными себе, а путешествующим аристократам не приходится полагаться на родню. Подобное заведение может быть обеденным залом при оперной сцене или чем-то похожим при бальном зале либо художественной галерее."
 			],
 			"rows": [
 				[
 					"1",
-					"The Elegant",
-					"Harp",
-					"Lord Liverby",
-					"Banquet food"
+					"Элегантная",
+					"Арфа",
+					"Лорд Ливерби",
+					"Банкетные блюда"
 				],
 				[
 					"2",
-					"The Platinum",
-					"Crown",
-					"Lady Candlevin",
-					"Royal portraits"
+					"Платиновая",
+					"Корона",
+					"Леди Кэндлвин",
+					"Королевские портреты"
 				],
 				[
 					"3",
-					"The Royal",
-					"Ring",
-					"Princess Izbella",
-					"Gold chandeliers"
+					"Королевская",
+					"Кольцо",
+					"Принцесса Избелла",
+					"Золотые люстры"
 				],
 				[
 					"4",
-					"The Queen's",
-					"Arms",
-					"Duke Umlar",
-					"Fashionable hats"
+					"Королевы",
+					"Гербы",
+					"Герцог Умлар",
+					"Модные шляпы"
 				],
 				[
 					"5",
-					"The King's",
-					"Knight",
-					"Sir Arken",
-					"Waxed mustaches"
+					"Короля",
+					"Рыцарь",
+					"Сэр Аркен",
+					"Нафабренные усы"
 				],
 				[
 					"6",
-					"The Emperor's",
-					"Cavalier",
-					"Valdus of Mindor",
-					"Gilded Furniture"
+					"Императора",
+					"Кавалер",
+					"Вальдус из Миндора",
+					"Золочёная мебель"
 				],
 				[
 					"7",
-					"The Empresse's",
-					"Champion",
-					"Dame Brendar",
-					"Plesant music"
+					"Императрицы",
+					"Чемпион",
+					"Дама Брендар",
+					"Приятная музыка"
 				],
 				[
 					"8",
-					"The Duke's",
-					"Scepter",
-					"Lord Elrin",
-					"Silken hose"
+					"Герцога",
+					"Скипетр",
+					"Лорд Элрин",
+					"Шёлковые чулки"
 				],
 				[
 					"9",
-					"The Duchess's",
-					"Family",
-					"Countess Satrina",
-					"Jeweled slippers"
+					"Герцогини",
+					"Семья",
+					"Графиня Сатрина",
+					"Украшенные тапочки"
 				],
 				[
 					"10",
-					"The Princess's",
-					"Swan",
-					"Baron Vandermor",
-					"Marble floors"
+					"Принцессы",
+					"Лебедь",
+					"Барон Вандермор",
+					"Мраморные полы"
 				],
 				[
 					"11",
-					"The Prince's",
-					"Stag",
-					"Seigneur Fantus",
-					"Hunting trophies"
+					"Принца",
+					"Олень",
+					"Сеньор Фантус",
+					"Охотничьи трофеи"
 				],
 				[
 					"12",
-					"The Earl's",
-					"Cape",
-					"Viscountess Ellah",
-					"Fur coats"
+					"Графа",
+					"Плащ",
+					"Виконтесса Элла",
+					"Меховые шубы"
 				],
 				[
 					"13",
-					"The Countess's",
-					"Lion",
-					"Marquess Nym",
-					"Crystal goblets"
+					"Графини",
+					"Лев",
+					"Маркиз Ним",
+					"Хрустальные кубки"
 				],
 				[
 					"14",
-					"The Noble",
-					"Cup",
-					"Viceroy Allumnar",
-					"Circlets"
+					"Дворянин",
+					"Кубок",
+					"Вице-король Аллумнар",
+					"Венцы"
 				],
 				[
 					"15",
-					"The Purple",
-					"Peacock",
-					"Marchioness Loel",
-					"Signet rings"
+					"Пурпурный",
+					"Павлин",
+					"Маркиза Лоэль",
+					"Печатки-перстни"
 				],
 				[
 					"16",
-					"The Patron's",
-					"Eagle",
-					"Lady Havemor",
-					"Cushioned chairs"
+					"Посетителя",
+					"Орёл",
+					"Леди Хавемор",
+					"Мягкие кресла"
 				],
 				[
 					"17",
-					"The Majestic",
-					"Falcon",
-					"Lord Havless",
-					"House hanners"
+					"Величественный",
+					"Сокол",
+					"Лорд Хавлесс",
+					"Знамя дома"
 				],
 				[
 					"18",
-					"The Regal",
-					"Slipper",
-					"Shevala Mendin",
-					"Suit of armor"
+					"Царственный",
+					"Туфелька",
+					"Шеваль Мендин",
+					"Доспех"
 				],
 				[
 					"19",
-					"The Sovereign's",
-					"Steward",
-					"Raphel Belisaria",
-					"Trained servants"
+					"Государя",
+					"Управляющий",
+					"Рафель Белизария",
+					"Обученная прислуга"
 				],
 				[
 					"20",
-					"The Monarch's",
-					"Cousin",
-					"Enora Treska",
-					"Rare pets"
+					"Монарха",
+					"Кузен",
+					"Энора Треска",
+					"Редкие питомцы"
 				]
 			]
 		},
 		{
-			"name": "Comfortable Tavern Random Events and Adventure Hooks",
+			"name": "Случайные события и завязки приключений в уютной таверне",
 			"source": "InnsTavernsLifestyle",
 			"page": 5,
 			"colLabels": [
 				"{@dice d20}",
-				"Event"
+				"Событие"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"Guests here are always offered a clean, private room and two or three very good meals. The common room can be lively but doesn't tend to get raucous or violent. Soft beds and furniture in good repair are the norm. These are the taverns that most frequently house adventurers with a reputation for doing good. The owners might even have once been adventurers themselves."
+				"Гостям здесь всегда предлагают чистую отдельную комнату и два-три очень хороших обеда. Общий зал бывает оживлённым, но обычно не становится шумным или буйным. Мягкие постели и исправная мебель — норма. Именно в таких тавернах чаще всего останавливаются искатели приключений с репутацией добрых дел. Возможно, сами хозяева когда-то были искателями приключений."
 			],
 			"rows": [
 				[
 					"1",
-					"An out-of-town halfling makes a scene when he suddenly vanishes."
+					"Полурослик не из этих мест устраивает сцену, когда внезапно исчезает."
 				],
 				[
 					"2",
-					"A young wizard comes in and begins asking everyone if they have seen a spellbook that she misplaced last night."
+					"Входит молодая волшебница и начинает расспрашивать всех, не видел ли кто книгу заклинаний, которую она потеряла вчера вечером."
 				],
 				[
 					"3",
-					"Since stumbling out of the woods last week, a young elf spends her time silently staring out of the window."
+					"С тех пор как на прошлой неделе она выбралась из леса, молодая эльфийка молча смотрит в окно."
 				],
 				[
 					"4",
-					"You overhear a local telling a story of adventure that sounds awfully close to something you experienced."
+					"Вы слышите, как местный рассказывает историю приключения, пугающе похожую на то, что довелось пережить вам."
 				],
 				[
 					"5",
-					"The inn has a service for oiling, polishing, sharpening, and otherwise maintaining the equipment of guests."
+					"В таверне есть услуга по смазке, полировке, заточке и прочему уходу за снаряжением гостей."
 				],
 				[
 					"6",
-					"One of the locals brings out a stringed instrument and the crowd starts to clap. The floor is cleared for dancing."
+					"Один из местных достаёт струнный инструмент, и толпа начинает хлопать. Место освобождают для танцев."
 				],
 				[
 					"7",
-					"The inn has been serving adventurers for generations and several interesting mementos hang on the wall."
+					"Таверна обслуживает искателей приключений уже несколько поколений, и на стене висят любопытные сувениры."
 				],
 				[
 					"8",
-					"The innkeeper employs several burly footmen to ensure guests behave and don't get in fights."
+					"Хозяин таверны держит нескольких крепких лакеев, чтобы гости вели себя прилично и не дрались."
 				],
 				[
 					"9",
-					"A local adventuring legend has died of old age. There are many stories told and drinks in her honor tonight."
+					"Местная легенда приключений умерла от старости. Сегодня в её честь рассказывают много историй и пьют."
 				],
 				[
 					"10",
-					"Two thugs shoulder their way to the bar and have a tense, muttered conversation with the innkeeper."
+					"Двое бандитов проталкиваются к стойке и о чём-то напряжённо переговариваются с хозяином."
 				],
 				[
 					"11",
-					"A City Watch investigator has the doors closed until he has questioned everyone about a recent crime."
+					"Следователь городской стражи закрывает двери, пока не опросит всех о недавнем преступлении."
 				],
 				[
 					"12",
-					"One of the player characters receives an urgent message from someone with whom they have a Bond."
+					"Один из персонажей игроков получает срочное послание от того, с кем его связывают Узы."
 				],
 				[
 					"13",
-					"Due to a recent religious holiday, the inn is full of monks, priests, and clerics of different faiths."
+					"Из-за недавнего религиозного праздника таверна полна монахов, жрецов и служителей разных вер."
 				],
 				[
 					"14",
-					"A wounded warrior has returned from adventure, he hopes that some of his companions are still alive."
+					"Раненый воин вернулся из похода и надеется, что кто-то из его спутников ещё жив."
 				],
 				[
 					"15",
-					"There is a rumor that a villain you thought was dead has somehow survived and is seeking revenge."
+					"Ходит слух, что злодей, которого вы считали мёртвым, каким-то образом выжил и жаждет мести."
 				],
 				[
 					"16",
-					"An alchemist in the area is looking for brave souls willing to let him try a few 'mostly harmless' experiments."
+					"Местный алхимик ищет смельчаков, готовых позволить ему провести несколько «почти безобидных» экспериментов."
 				],
 				[
 					"17",
-					"An adventuring company with less experience than your own asks for advice for gaining riches and glory."
+					"Отряд искателей приключений с меньшим опытом, чем у вас, просит совета, как добыть богатство и славу."
 				],
 				[
 					"18",
-					"You see an uncomfortable foreigner who does not speak Common very well trying to ask a question."
+					"Вы видите неловкого чужеземца, плохо говорящего на Общем, который пытается задать вопрос."
 				],
 				[
 					"19",
-					"Someone calls for a toast to the heroes who fight against the darkness and stand up for good people everywhere."
+					"Кто-то предлагает тост за героев, что сражаются с тьмой и встают на защиту добрых людей повсюду."
 				],
 				[
 					"20",
-					"An adventuring treasure proudly displayed at the tavern and enjoyed by all has disappeared."
+					"Сокровище, гордо выставленное в таверне и радовавшее всех, исчезло."
 				]
 			]
 		},
 		{
-			"name": "Comfortable Taverns (2 gp)",
+			"name": "Уютные таверны (2 зм)",
 			"source": "InnsTavernsLifestyle",
 			"page": 5,
 			"colLabels": [
 				"{@dice d20}",
-				"Tavern Adjectives",
-				"Tavern Nouns",
-				"Patron Names",
-				"Surroundings"
+				"Прилагательные таверны",
+				"Существительные таверны",
+				"Имена посетителей",
+				"Окружение"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"Guests here are always offered a clean, private room and two or three very good meals. The common room can be lively but doesn't tend to get raucous or violent. Soft beds and furniture in good repair are the norm. These are the taverns that most frequently house adventurers with a reputation for doing good. The owners might even have once been adventurers themselves."
+				"Гостям здесь всегда предлагают чистую отдельную комнату и два-три очень хороших обеда. Общий зал бывает оживлённым, но обычно не становится шумным или буйным. Мягкие постели и исправная мебель — норма. Именно в таких тавернах чаще всего останавливаются искатели приключений с репутацией добрых дел. Возможно, сами хозяева когда-то были искателями приключений."
 			],
 			"rows": [
 				[
 					"1",
-					"The Winged",
-					"Pillow",
-					"Baldrick",
-					"Roaring fire"
+					"Крылатая",
+					"Подушка",
+					"Болдрик",
+					"Ревущий очаг"
 				],
 				[
 					"2",
-					"The Singing",
-					"Pony",
-					"Lydia",
-					"Bookshelf"
+					"Поющий",
+					"Пони",
+					"Лидия",
+					"Книжный шкаф"
 				],
 				[
 					"3",
-					"The Leaping",
-					"Cat",
-					"Chester",
-					"Stuffed bear"
+					"Прыгающий",
+					"Кот",
+					"Честер",
+					"Чучело медведя"
 				],
 				[
 					"4",
-					"The Marching",
-					"Unicorn",
-					"Anslo",
-					"Roasted meat"
+					"Марширующий",
+					"Единорог",
+					"Ансло",
+					"Жареное мясо"
 				],
 				[
 					"5",
-					"The Laughing",
-					"Griffon",
-					"Jerem",
-					"Polished tables"
+					"Смеющийся",
+					"Грифон",
+					"Джерем",
+					"Отполированные столы"
 				],
 				[
 					"6",
-					"The Red",
-					"Hawk",
-					"Theo",
-					"New clothing"
+					"Красный",
+					"Ястреб",
+					"Тео",
+					"Новая одежда"
 				],
 				[
 					"7",
-					"The Copper",
-					"Dragon",
-					"Lucy",
-					"Fiddle music"
+					"Медный",
+					"Дракон",
+					"Люси",
+					"Скрипичная музыка"
 				],
 				[
 					"8",
-					"The Ten",
-					"Centuar",
-					"Olin",
-					"Thick rugs"
+					"Десять",
+					"Кентавр",
+					"Олин",
+					"Толстые ковры"
 				],
 				[
 					"9",
-					"The Resting",
-					"Minotaur",
-					"Shara",
-					"Sleeping cat"
+					"Отдыхающий",
+					"Минотавр",
+					"Шара",
+					"Спящий кот"
 				],
 				[
 					"10",
-					"The Open",
-					"Fox",
-					"Helga",
-					"Baked goods"
+					"Открытый",
+					"Лис",
+					"Хельга",
+					"Выпечка"
 				],
 				[
 					"11",
-					"The Tall",
-					"Sword",
-					"Mai",
-					"Clean linen"
+					"Высокий",
+					"Меч",
+					"Май",
+					"Чистое бельё"
 				],
 				[
 					"12",
-					"The Tinkering",
-					"Spear",
-					"Betha",
-					"Bright lanterns"
+					"Мастерящий",
+					"Копьё",
+					"Бета",
+					"Яркие фонари"
 				],
 				[
 					"13",
-					"The New",
-					"House",
-					"Dav",
-					"Paintings"
+					"Новый",
+					"Дом",
+					"Дав",
+					"Картины"
 				],
 				[
 					"14",
-					"The Potter's",
-					"Soldier",
-					"Ellery",
-					"Inexpensive art"
+					"Гончара",
+					"Солдат",
+					"Эллери",
+					"Недорогое искусство"
 				],
 				[
 					"15",
-					"The Cozy",
-					"Bottle",
-					"Cade",
-					"Maps of the realm"
+					"Уютная",
+					"Бутылка",
+					"Кейд",
+					"Карты королевства"
 				],
 				[
 					"16",
-					"The Trusty",
-					"Orchard",
-					"Benble",
-					"Popular tales"
+					"Надёжный",
+					"Фруктовый сад",
+					"Бенбл",
+					"Популярные истории"
 				],
 				[
 					"17",
-					"The Sleeping",
-					"Drum",
-					"Thrain",
-					"Long benches"
+					"Спящий",
+					"Барабан",
+					"Трейн",
+					"Длинные скамьи"
 				],
 				[
 					"18",
-					"The Plentiful",
-					"Maiden",
-					"Torra",
-					"Metal tankards"
+					"Обильный",
+					"Дева",
+					"Торра",
+					"Металлические кружки"
 				],
 				[
 					"19",
-					"The City's",
-					"Sisters",
-					"Mable",
-					"Foreign travelers"
+					"Города",
+					"Сёстры",
+					"Мейбл",
+					"Иностранные путешественники"
 				],
 				[
 					"20",
-					"The Artisan's",
-					"Brothers",
-					"Teric",
-					"Shield on the wall"
+					"Ремесленника",
+					"Братья",
+					"Терик",
+					"Щит на стене"
 				]
 			]
 		},
 		{
-			"name": "Dockside Tavern Random Events and Adventure Hooks",
+			"name": "Случайные события и завязки приключений в портовой таверне",
 			"source": "InnsTavernsLifestyle",
 			"page": 9,
 			"colLabels": [
 				"{@dice d20}",
-				"Event"
+				"Событие"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"The docks of a big city can seem like another world. It's here that travelers, traders, sailors, and shipwrights all meet to do business with each other and the occasional pirate, smuggler, or spy. Dockside taverns take on little characteristics of places where the owners and the patrons have traveled. They are an excellent meeting place for those who spend their lives on land or sea. Like their patrons, Dockside taverns tend to be a little rough but worth getting to know."
+				"Доки большого города могут показаться другим миром. Именно здесь путешественники, торговцы, моряки и корабельщики собираются, чтобы вести дела друг с другом, а иногда — пираты, контрабандисты и шпионы. Портовые таверны впитывают черты мест, где побывали хозяева и посетители. Это отличное место встречи для тех, кто проводит жизнь на суше или в море. Как и их посетители, портовые таверны бывают грубоватыми, но с ними стоит познакомиться."
 			],
 			"rows": [
 				[
 					"1",
-					"A captain is headed down the coast and is taking on passengers for free of they work with the crew on the way."
+					"Капитан направляется вдоль побережья и берёт пассажиров бесплатно, если те будут помогать команде в пути."
 				],
 				[
 					"2",
-					"A one-eyed, hook-handed, peg-legged old sailor tells about the time he survived an encounter with a dire shark."
+					"Одноглазый, с крюком вместо руки и деревянной ногой старый моряк рассказывает о том, как выжил при встрече с ужасной акулой."
 				],
 				[
 					"3",
-					"Sailors tell the tale of a moving island full of monsters, treasure, and the power to heal any wound."
+					"Моряки рассказывают о движущемся острове, полном чудовищ, сокровищ и силы, исцеляющей любые раны."
 				],
 				[
 					"4",
-					"After missing for three years, a ship docks with a crew who all think they've only been gone three weeks."
+					"После трёхлетнего отсутствия в порт входит корабль, команда которого считает, что прошло всего три недели."
 				],
 				[
 					"5",
-					"A ship has been quarantined on suspicion of carrying an undead plague."
+					"Корабль помещён на карантин по подозрению в том, что на нём чума нежити."
 				],
 				[
 					"6",
-					"The dock master has been arrested for corruption and taking bribes. That's the third one this year."
+					"Начальника порта арестовали за коррупцию и взятки. Это уже третий в этом году."
 				],
 				[
 					"7",
-					"A patron casually mentions that there are ways to get anything in or out of the city."
+					"Кто-то из посетителей вскользь замечает, что есть способы провезти в город или из города что угодно."
 				],
 				[
 					"8",
-					"Small exotic pets brought in on a ship a few weeks ago have started turning into ravenous beasts overnight."
+					"Мелкие диковинные звери, привезённые на корабле несколько недель назад, начали за ночь превращаться в прожорливых чудовищ."
 				],
 				[
 					"9",
-					"After a crash in the harbor, crewmembers on two sinking ships are trapped below decks."
+					"После столкновения в гавани члены экипажей двух тонущих кораблей заперты под палубой."
 				],
 				[
 					"10",
-					"The Navigator's Guild will pay someone to map the small islands of a recently discovered archipelago."
+					"Гильдия навигаторов заплатит тому, кто составит карту малых островов недавно открытого архипелага."
 				],
 				[
 					"11",
-					"A mysterious sailor pays for his drink by tossing an ancient coin on the table. Whoever touches it feels angry."
+					"Загадочный моряк расплачивается за выпивку, бросая на стол древнюю монету. Кто её коснётся, чувствует ярость."
 				],
 				[
 					"12",
-					"One patron accuses another of being a pirate. A fight breaks out between the crews."
+					"Один посетитель обвиняет другого в пиратстве. Между командами вспыхивает драка."
 				],
 				[
 					"13",
-					"A woman says she needs your help to stowaway on a ship or she'll be caught and killed by her rich uncle."
+					"Женщина просит помочь ей тайно пробраться на корабль, иначе её поймает и убьёт богатый дядя."
 				],
 				[
 					"14",
-					"The tavern is made from the converted hull of an old sailing ship. Some say it is haunted."
+					"Таверна устроена в переделанном корпусе старого парусника. Говорят, там водятся призраки."
 				],
 				[
 					"15",
-					"In the dead of night the dock district is struck by raiding pirates who loot and pillage everything they can."
+					"Глубокой ночью на портовый квартал нападают пираты, грабя и разоряя всё, что могут."
 				],
 				[
 					"16",
-					"A fortune teller has nothing to say but doom and terror for anyone traveling on the sea this month."
+					"Гадалка не говорит ничего, кроме погибели и ужаса, всем, кто в этом месяце отправится в море."
 				],
 				[
 					"17",
-					"A crate of mysterious cargo fell into the sea a few days ago and now part of the harbor is frozen over in summer."
+					"Несколько дней назад ящик с загадочным грузом упал в море, и теперь часть гавани замёрзла посреди лета."
 				],
 				[
 					"18",
-					"The navy has returned laden with treasure after sacking a pirate town. Some say it will lead to a reprisal."
+					"Флот вернулся с сокровищами, разграбив пиратский городок. Некоторые говорят, что это приведёт к ответному удару."
 				],
 				[
 					"19",
-					"Recently, anyone who sleeps near the water is subject to terrible, maddening dreams of aberrations."
+					"В последнее время всякий, кто спит у воды, видит ужасные, сводящие с ума сны об аберрациях."
 				],
 				[
 					"20",
-					"A humanoid shark has been terrorizing the coast during each full moon since last winter."
+					"С прошлой зимы гуманоид-акула терроризирует побережье в каждое полнолуние."
 				]
 			]
 		},
 		{
-			"name": "Dockside Taverns (4 sp)",
+			"name": "Портовые таверны (4 см)",
 			"source": "InnsTavernsLifestyle",
 			"page": 9,
 			"colLabels": [
 				"{@dice d20}",
-				"Tavern Adjectives",
-				"Tavern Nouns",
-				"Patron Names",
-				"Surroundings"
+				"Прилагательные таверны",
+				"Существительные таверны",
+				"Имена посетителей",
+				"Окружение"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"The docks of a big city can seem like another world. It's here that travelers, traders, sailors, and shipwrights all meet to do business with each other and the occasional pirate, smuggler, or spy. Dockside taverns take on little characteristics of places where the owners and the patrons have traveled. They are an excellent meeting place for those who spend their lives on land or sea. Like their patrons, Dockside taverns tend to be a little rough but worth getting to know."
+				"Доки большого города могут показаться другим миром. Именно здесь путешественники, торговцы, моряки и корабельщики собираются, чтобы вести дела друг с другом, а иногда — пираты, контрабандисты и шпионы. Портовые таверны впитывают черты мест, где побывали хозяева и посетители. Это отличное место встречи для тех, кто проводит жизнь на суше или в море. Как и их посетители, портовые таверны бывают грубоватыми, но с ними стоит познакомиться."
 			],
 			"rows": [
 				[
 					"1",
-					"The Tropical",
-					"Mermaid",
-					"Gilly",
-					"Anchor tattoos"
+					"Тропическая",
+					"Русалка",
+					"Гилли",
+					"Татуировки с якорями"
 				],
 				[
 					"2",
-					"The Salty",
-					"Barnacle",
-					"Finn",
-					"Shark tattoos"
+					"Солёная",
+					"Морской жёлудь",
+					"Финн",
+					"Татуировки с акулами"
 				],
 				[
 					"3",
-					"The Stormy",
-					"Palm Tree",
-					"First Mate Willy",
-					"Kraken tattoos"
+					"Штормовая",
+					"Пальма",
+					"Первый помощник Вилли",
+					"Татуировки с кракенами"
 				],
 				[
 					"4",
-					"The Beached",
-					"Bay",
-					"Mack",
-					"A lot of tattoos"
+					"Выброшенная на берег",
+					"Бухта",
+					"Мак",
+					"Множество татуировок"
 				],
 				[
 					"5",
-					"The Navy",
-					"Codfish",
-					"Chummer",
-					"Sea turtle soup"
+					"Флот",
+					"Треска",
+					"Чаммер",
+					"Суп из морской черепахи"
 				],
 				[
 					"6",
-					"The Wavy",
-					"Shark",
-					"Squiddy",
-					"Fish stew"
+					"Волнистая",
+					"Акула",
+					"Спрутти",
+					"Уха"
 				],
 				[
 					"7",
-					"The Sandy",
-					"Whale",
-					"One-eyed Jem",
-					"Salty language"
+					"Песчаная",
+					"Кит",
+					"Одноглазый Джем",
+					"Солёные ругательства"
 				],
 				[
 					"8",
-					"The Jaunty",
-					"Dolphin",
-					"Red Lucille",
-					"Old maps"
+					"Бойкая",
+					"Дельфин",
+					"Рыжая Люсиль",
+					"Старые карты"
 				],
 				[
 					"9",
-					"The Crew's",
-					"Harbor",
-					"Captain Gwen",
-					"Exotic pets"
+					"Команды",
+					"Гавань",
+					"Капитан Гвен",
+					"Экзотические питомцы"
 				],
 				[
 					"10",
-					"The Crabby",
-					"Beach",
-					"Smitty",
-					"Bone charms"
+					"Ворчливая",
+					"Пляж",
+					"Смитти",
+					"Амулеты из костей"
 				],
 				[
 					"11",
-					"The Seaworthy",
-					"Pirate",
-					"Fancy Jack",
-					"Fish nets"
+					"Мореходная",
+					"Пират",
+					"Нарядный Джек",
+					"Рыболовные сети"
 				],
 				[
 					"12",
-					"The Brawling",
-					"Shanty",
-					"Cinbar",
-					"Driftwood"
+					"Драчливая",
+					"Частушка",
+					"Синбар",
+					"Коряга"
 				],
 				[
 					"13",
-					"The Drowned",
-					"Seagull",
-					"Limpet Jon",
-					"Seashells"
+					"Утонувшая",
+					"Чайка",
+					"Лимпит Джон",
+					"Ракушки"
 				],
 				[
 					"14",
-					"The Weathered",
-					"Parrot",
-					"Mistress Pinny",
-					"Oysters"
+					"Видавшая виды",
+					"Попугай",
+					"Госпожа Пинни",
+					"Устрицы"
 				],
 				[
 					"15",
-					"The Swaying",
-					"Pelican",
-					"Doctor Lanbar",
-					"Cutlasses"
+					"Качающаяся",
+					"Пеликан",
+					"Доктор Ланбар",
+					"Абордажные сабли"
 				],
 				[
 					"16",
-					"Explorere's",
-					"Turtle",
-					"Captain Ojimwe",
-					"Head scarves"
+					"Исследователя",
+					"Черепаха",
+					"Капитан Оджимве",
+					"Головные платки"
 				],
 				[
 					"17",
-					"Navigator's",
-					"Bunk",
-					"Boro Boro",
-					"Tricorn hats"
+					"Навигатора",
+					"Койка",
+					"Боро Боро",
+					"Треуголки"
 				],
 				[
 					"18",
-					"Captain's",
-					"Squid",
-					"Long Tom",
-					"Long coats"
+					"Капитана",
+					"Кальмар",
+					"Длинный Том",
+					"Длинные плащи"
 				],
 				[
 					"19",
-					"Sailor's",
-					"Hammock",
-					"Monkey Flannigan",
-					"Coils of rope"
+					"Моряка",
+					"Гамак",
+					"Манки Фланниган",
+					"Бухты каната"
 				],
 				[
 					"20",
-					"Skipper's",
-					"Trident",
-					"Shaw",
-					"Course laughter"
+					"Шкипера",
+					"Трезубец",
+					"Шоу",
+					"Грубый смех"
 				]
 			]
 		},
 		{
-			"name": "Modest Tavern Random Events and Adventure Hooks",
+			"name": "Случайные события и завязки приключений в скромной таверне",
 			"source": "InnsTavernsLifestyle",
 			"page": 4,
 			"colLabels": [
 				"{@dice d20}",
-				"Event"
+				"Событие"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"Unlike Poor flophouses, these are proper inns and taverns, even if they tend to be a bit rundown or minimal. There are rooms for rent upstairs or in the back but they are sometimes shared and any locks or security measures are not usually enough to stop anyone who is very determined. The food is adequate, but nothing special and the company can sometimes be a little rough."
+				"В отличие от дешёвых ночлежек, это настоящие таверны и постоялые дворы, пусть и несколько обветшалые или скудные. Наверху или в задних комнатах сдаются комнаты, но иногда их делят с другими, а замки и прочие меры предосторожности обычно не остановят того, кто очень настойчив. Еда сносная, но ничего особенного, а публика порой бывает грубоватой."
 			],
 			"rows": [
 				[
 					"1",
-					"You see a wanted poster and realize you saw the fugitive earlier that day."
+					"Вы видите объявление о розыске и понимаете, что видели беглеца ранее в тот же день."
 				],
 				[
 					"2",
-					"A shabbily-dressed dwarf tries to pay for his drinks with a small diamond. The barkeep says she can't take it."
+					"Неряшливо одетый дварф пытается расплатиться за выпивку маленьким алмазом. Барменша говорит, что не может его принять."
 				],
 				[
 					"3",
-					"Business is down because a murder took place here just two nights ago."
+					"Дела идут плохо: две ночи назад здесь произошло убийство."
 				],
 				[
 					"4",
-					"The locals don't go out or let anyone go out after midnight, for fear of the hungry spirit that haunts the area."
+					"Местные не выходят и никого не выпускают после полуночи — из страха перед голодным духом, что бродит в округе."
 				],
 				[
 					"5",
-					"There is a wedding party in the back room. The bride and groom wear tattered finery but they look happy."
+					"В задней комнате идёт свадьба. Жених и невеста в потрёпанных нарядах, но выглядят счастливыми."
 				],
 				[
 					"6",
-					"A merchant and his clerk walk into the common room. He says to the clerk, \"We'll tear this one down as well.\""
+					"Торговец и его писарь входят в общий зал. Торговец говорит писарю: «И этот мы тоже снесём»."
 				],
 				[
 					"7",
-					"There's a notice for salvage rights at an abandoned castle if you're brave enough to face its monstrous occupants."
+					"Есть объявление о правах на добычу в заброшенном замке — если у вас хватит смелости встретиться с его чудовищными обитателями."
 				],
 				[
 					"8",
-					"A farmer's wife is sick and he's trying to sell his only draft horse to afford medicine."
+					"У жены фермера болезнь, и он пытается продать свою единственную рабочую лошадь, чтобы оплатить лекарство."
 				],
 				[
 					"9",
-					"There is an artistic revival going on in town and the inn is filled with hopeful artists, painters, and sculptors."
+					"В городе возрождается искусство, и таверна полна подающих надежды художников, живописцев и скульпторов."
 				],
 				[
 					"10",
-					"Several patrons laugh when they look out the window. A large dog has chased a halfling up a tree."
+					"Несколько посетителей смеются, выглянув в окно. Большой пёс загнал полурослика на дерево."
 				],
 				[
 					"11",
-					"Someone loudly tells the barkeep that foreigners are ruining the area for locals. He eyes the adventurers."
+					"Кто-то громко говорит бармену, что чужаки разоряют округу для местных. Он косится на искателей приключений."
 				],
 				[
 					"12",
-					"A wandering bard sings a series of bawdy songs, causing parents to leave with their children."
+					"Бродячий бард поёт череду сальных песен, и родители уходят вместе с детьми."
 				],
 				[
 					"13",
-					"The common room has become a hotbed of revolutionary sentiment and angry speeches about equality."
+					"Общий зал превратился в рассадник революционных настроений и гневных речей о равенстве."
 				],
 				[
 					"14",
-					"There is a list of jobs posted on the wall but most of the locals can't read."
+					"На стене висит список работ, но большинство местных не умеют читать."
 				],
 				[
 					"15",
-					"Someone gets a few laughs by stuffing his shirt and pretending to be the mayor."
+					"Кто-то вызывает смех, набив рубаху и изображая мэра."
 				],
 				[
 					"16",
-					"An old soldier offers to show you his scars and tell a few hair-raising tales in exchange for a drink or three."
+					"Старый солдат предлагает показать шрамы и рассказать пару леденящих историй в обмен на одну-две выпивки."
 				],
 				[
 					"17",
-					"Everyone seems downhearted. They tell you that a local folk hero has been arrested and is set to hang."
+					"Все выглядят приунывшими. Вам говорят, что местного народного героя арестовали и готовят к казни через повешение."
 				],
 				[
 					"18",
-					"Late into the night, as if by unspoken agreement, fights break out all over the common room."
+					"Поздно ночью, словно по молчаливому уговору, по всему общему залу начинаются драки."
 				],
 				[
 					"19",
-					"A person, whom everyone assumed was a passed out drunk, turns out to be dead from a knife wound."
+					"Человек, которого все считали просто пьяным, оказался мёртв от ножевого ранения."
 				],
 				[
 					"20",
-					"A local noble is slumming it for the night. He pays liberally for drinks and then staggers into the street."
+					"Местный дворянин решил провести вечер в простонародном заведении. Он щедро платит за выпивку, а затем, шатаясь, выходит на улицу."
 				]
 			]
 		},
 		{
-			"name": "Modest Taverns (1 gp)",
+			"name": "Скромные таверны (1 зм)",
 			"source": "InnsTavernsLifestyle",
 			"page": 4,
 			"colLabels": [
 				"{@dice d20}",
-				"Tavern Adjectives",
-				"Tavern Nouns",
-				"Patron Names",
-				"Surroundings"
+				"Прилагательные таверны",
+				"Существительные таверны",
+				"Имена посетителей",
+				"Окружение"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"Unlike Poor flophouses, these are proper inns and taverns, even if they tend to be a bit rundown or minimal. There are rooms for rent upstairs or in the back but they are sometimes shared and any locks or security measures are not usually enough to stop anyone who is very determined. The food is adequate, but nothing special and the company can sometimes be a little rough."
+				"В отличие от дешёвых ночлежек, это настоящие таверны и постоялые дворы, пусть и несколько обветшалые или скудные. Наверху или в задних комнатах сдаются комнаты, но иногда их делят с другими, а замки и прочие меры предосторожности обычно не остановят того, кто очень настойчив. Еда сносная, но ничего особенного, а публика порой бывает грубоватой."
 			],
 			"rows": [
 				[
 					"1",
-					"The Two",
-					"Daisy",
-					"Jackup the Miller",
-					"Wooden utensils"
+					"Две",
+					"Маргаритка",
+					"Мельник Джекэп",
+					"Деревянная посуда"
 				],
 				[
 					"2",
-					"The Three",
-					"Apples",
-					"Pepper",
-					"A faded painting"
+					"Три",
+					"Яблоки",
+					"Перец",
+					"Выцветшая картина"
 				],
 				[
 					"3",
-					"The Happy",
-					"Horse",
-					"Daisy",
-					"Simple food"
+					"Счастливая",
+					"Лошадь",
+					"Маргаритка",
+					"Простая еда"
 				],
 				[
 					"4",
-					"The Dancing",
-					"Hound",
-					"Hansel",
-					"Frayed coats"
+					"Танцующая",
+					"Гончая",
+					"Ганзель",
+					"Потёртые плащи"
 				],
 				[
 					"5",
-					"The Wayward",
-					"Serpent",
-					"Miles",
-					"Shapeless hats"
+					"Своенравная",
+					"Змей",
+					"Майлз",
+					"Бесформенные шляпы"
 				],
 				[
 					"6",
-					"The Twon",
-					"Gargoyle",
-					"Shallice",
-					"Unshaven men"
+					"Городок",
+					"Горгулья",
+					"Шаллис",
+					"Небритые мужчины"
 				],
 				[
 					"7",
-					"The Good",
-					"Owlbear",
-					"Widow Farlie",
-					"Threadbare rugs"
+					"Добрая",
+					"Совиномедведь",
+					"Вдова Фарли",
+					"Потёртые ковры"
 				],
 				[
 					"8",
-					"The Howling",
-					"Troll",
-					"Durban",
-					"A cracked mirror"
+					"Воющая",
+					"Тролль",
+					"Дурбан",
+					"Треснувшее зеркало"
 				],
 				[
 					"9",
-					"The Wlaking",
-					"Bear",
-					"Barrie",
-					"Wool stockings"
+					"Идущий",
+					"Медведь",
+					"Барри",
+					"Шерстяные чулки"
 				],
 				[
 					"10",
-					"The Alderman's",
-					"Camel",
-					"Dane",
-					"Wrinkled apples"
+					"Старейшины",
+					"Верблюд",
+					"Дейн",
+					"Сморщенные яблоки"
 				],
 				[
 					"11",
-					"The Running",
-					"Ram",
-					"Selmie",
-					"Costume jewelry"
+					"Бегущий",
+					"Баран",
+					"Селми",
+					"Бижутерия"
 				],
 				[
 					"12",
-					"The Brass",
-					"Goat",
-					"Cal",
-					"Playing children"
+					"Латунный",
+					"Козёл",
+					"Кэл",
+					"Играющие дети"
 				],
 				[
 					"13",
-					"The Green",
-					"Biscuit",
-					"Nadine",
-					"Stringy chicken"
+					"Зелёная",
+					"Печенье",
+					"Надин",
+					"Жилистое куриное мясо"
 				],
 				[
 					"14",
-					"The Jovial",
-					"Butterfly",
-					"Blanche",
-					"A chipped axe"
+					"Весёлая",
+					"Бабочка",
+					"Бланш",
+					"Зазубренный топор"
 				],
 				[
 					"15",
-					"The Little",
-					"Pub",
-					"Hanry",
-					"Dice gambling"
+					"Маленькая",
+					"Пивная",
+					"Генри",
+					"Игра в кости"
 				],
 				[
 					"16",
-					"Nine",
-					"Mug",
-					"Albie",
-					"Fist fight"
+					"Девять",
+					"Кружка",
+					"Элби",
+					"Кулачный бой"
 				],
 				[
 					"17",
-					"Twin",
-					"Cellar",
-					"Neddie",
-					"Spilled drink"
+					"Близнец",
+					"Подвал",
+					"Недди",
+					"Пролитая выпивка"
 				],
 				[
 					"18",
-					"The Sleepy",
-					"Goblin",
-					"Rosemary",
-					"Coal brazier"
+					"Сонный",
+					"Гоблин",
+					"Розмари",
+					"Угольная жаровня"
 				],
 				[
 					"19",
-					"The Windy",
-					"Ogre",
-					"Abner",
-					"Water barrel"
+					"Ветреная",
+					"Огр",
+					"Абнер",
+					"Бочка с водой"
 				],
 				[
 					"20",
-					"Rooster's",
-					"Warg",
-					"Hartley",
-					"Musty smells"
+					"Петуха",
+					"Варг",
+					"Хартли",
+					"Затхлые запахи"
 				]
 			]
 		},
 		{
-			"name": "Poor Tavern Random Events and Adventure Hooks",
+			"name": "Случайные события и завязки приключений в дешёвой таверне",
 			"source": "InnsTavernsLifestyle",
 			"page": 3,
 			"colLabels": [
 				"{@dice d20}",
-				"Event"
+				"Событие"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"A Poor lifestyle gets you a flophouse with just a few overcrowded rooms or a taphouse where anyone staying the night simply sleeps in the common room. If you pay early in the day you might get the use of a threadbare blanket, otherwise the accommodations are little more than bad food, bad company, and floor space."
+				"Бедный образ жизни — это ночлежка с несколькими переполненными комнатами или пивнушка, где ночующие просто спят в общем зале. Если заплатить пораньше, возможно, выдадут потрёпанное одеяло; в остальном жильё — это немногим больше, чем плохая еда, плохая компания и место на полу."
 			],
 			"rows": [
 				[
 					"1",
-					"Local farmers are preparing an assault on a goblin camp because no one else will help."
+					"Местные фермеры готовят нападение на лагерь гоблинов, потому что больше никто не поможет."
 				],
 				[
 					"2",
-					"It's oddly quiet around the common room. People keep to themselves and wallow in their own sorrows."
+					"В общем зале на удивление тихо. Люди держатся особняком и утопают в собственных печалях."
 				],
 				[
 					"3",
-					"The only dish is a lumpy stew from a huge cauldron that looks like it's never met a brush."
+					"Единственное блюдо — комковатая похлёбка из огромного котла, который, похоже, никогда не видел щётки."
 				],
 				[
 					"4",
-					"The bartender is also a bonesetter, the closest thing this area has to a healer."
+					"Бармен заодно и костоправ — самый близкий к лекарю человек в этих краях."
 				],
 				[
 					"5",
-					"There is a terrible smell coming from a back room, but the innkeeper pretends not to notice anything."
+					"Из задней комнаты идёт страшный запах, но хозяин делает вид, что ничего не замечает."
 				],
 				[
 					"6",
-					"Water drips down from a crack in the ceiling. Is it even raining outside?"
+					"С потолка капает вода из трещины. На улице вообще идёт дождь?"
 				],
 				[
 					"7",
-					"An undertaker comes in and walks slowly through the room, measuring everyone with his eyes."
+					"Входит гробовщик и медленно идёт по залу, оценивая всех взглядом."
 				],
 				[
 					"8",
-					"A member of the City Watch hauls one of the patrons outside for a beating in the street."
+					"Служитель городской стражи вытаскивает одного из посетителей на улицу, чтобы избить."
 				],
 				[
 					"9",
-					"A girl selling wilted flowers tries to sell to the patrons before the barkeep chases her back out into the street."
+					"Девочка с увядшими цветами пытается продать их посетителям, пока бармен не выгоняет её обратно на улицу."
 				],
 				[
 					"10",
-					"More than once, someone tries to pickpocket you clumsily."
+					"Не раз и не два кто-то неуклюже пытается обчистить ваши карманы."
 				],
 				[
 					"11",
-					"The depressed innkeeper shares with you that this was once a thriving business, before the curse on his family."
+					"Угнетённый хозяин делится с вами, что когда-то дело процветало — до проклятия, наложенного на его семью."
 				],
 				[
 					"12",
-					"A few locals are playing dice for copper pieces."
+					"Несколько местных играют в кости на медяки."
 				],
 				[
 					"13",
-					"A bounty hunter comes in for a drink, trailing an elf with a gag and a chain leash."
+					"Заходит охотник за головами, ведя за собой эльфа с кляпом во рту и на цепи."
 				],
 				[
 					"14",
-					"The half-orc bouncer says he'll throw you out if you do that again. What exactly did you do?"
+					"Полуорк-вышибала говорит, что вышвырнет вас, если вы сделаете это снова. Что именно вы сделали?"
 				],
 				[
 					"15",
-					"The innkeeper looks nervously at a group of mercenaries shouting abuse at other patrons."
+					"Хозяин нервозно поглядывает на группу наёмников, осыпающих других посетителей бранью."
 				],
 				[
 					"16",
-					"A man looks you up and down and says you look tough enough to make some extra coin if you have the stomach."
+					"Мужчина оглядывает вас с ног до головы и говорит, что вы достаточно крепки, чтобы подзаработать — если у вас хватит духу."
 				],
 				[
 					"17",
-					"A halfling with little talent picks out some sort of tune on a battered looking instrument."
+					"Полурослик без особого таланта наигрывает какую-то мелодию на потрёпанном инструменте."
 				],
 				[
 					"18",
-					"A tough-looking mercenary at the bar loudly tells racist jokes, not caring who hears her."
+					"Крепкая на вид наёмница у стойки громко рассказывает расистские шутки, не заботясь, кто её слышит."
 				],
 				[
 					"19",
-					"Two children come in to tug at the clothes of a drunk who is passed out under a table. He doesn't respond."
+					"Двое детей заходят и теребят одежду пьяницы, уснувшего под столом. Он не отвечает."
 				],
 				[
 					"20",
-					"Someone dumps their drink over the head of a half-elf, muttering how it ain't natural for races to mix."
+					"Кто-то выливает выпивку на голову полуэльфу, бормоча, что смешение рас — дело противоестественное."
 				]
 			]
 		},
 		{
-			"name": "Poor Taverns (2 gp)",
+			"name": "Дешёвые таверны (2 зм)",
 			"source": "InnsTavernsLifestyle",
 			"page": 3,
 			"colLabels": [
 				"{@dice d20}",
-				"Tavern Adjectives",
-				"Tavern Nouns",
-				"Patron Names",
-				"Surroundings"
+				"Прилагательные таверны",
+				"Существительные таверны",
+				"Имена посетителей",
+				"Окружение"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"A Poor lifestyle gets you a flophouse with just a few overcrowded rooms or a taphouse where anyone staying the night simply sleeps in the common room. If you pay early in the day you might get the use of a threadbare blanket, otherwise the accommodations are little more than bad food, bad company, and floor space."
+				"Бедный образ жизни — это ночлежка с несколькими переполненными комнатами или пивнушка, где ночующие просто спят в общем зале. Если заплатить пораньше, возможно, выдадут потрёпанное одеяло; в остальном жильё — это немногим больше, чем плохая еда, плохая компания и место на полу."
 			],
 			"rows": [
 				[
 					"1",
-					"The Bricklayer's",
-					"Boot",
-					"Old Millie",
-					"Bare feet"
+					"Каменщика",
+					"Сапог",
+					"Старая Милли",
+					"Босые ноги"
 				],
 				[
 					"2",
-					"The Peasant's",
-					"Coat",
-					"Fran",
-					"Coughing"
+					"Крестьянина",
+					"Кафтан",
+					"Фрэн",
+					"Кашель"
 				],
 				[
 					"3",
-					"The Laden",
-					"Donkey",
-					"Wilmur",
-					"Snoring"
+					"Гружёный",
+					"Осёл",
+					"Вилмур",
+					"Храп"
 				],
 				[
 					"4",
-					"The Yellow",
-					"Mule",
-					"Jemmie",
-					"Cold fireplace"
+					"Жёлтая",
+					"Мул",
+					"Джемми",
+					"Холодный очаг"
 				],
 				[
 					"5",
-					"The Yeoman's",
-					"Mattress",
-					"Hal",
-					"Watery drinks"
+					"Йомена",
+					"Матрас",
+					"Хэл",
+					"Водянистые напитки"
 				],
 				[
 					"6",
-					"The Bilious",
-					"Room",
-					"Sharna",
-					"Sour body odor"
+					"Желчная",
+					"Комната",
+					"Шарна",
+					"Кислый запах тела"
 				],
 				[
 					"7",
-					"The Hungry",
-					"Plow",
-					"Delia",
-					"Unwashed potato"
+					"Голодный",
+					"Плуг",
+					"Джина",
+					"Немытый картофель"
 				],
 				[
 					"8",
-					"The Burnt",
-					"Field Mouse",
-					"Mosh",
-					"Barking dog"
+					"Обгоревший",
+					"Полевая мышь",
+					"Мош",
+					"Лающая собака"
 				],
 				[
 					"9",
-					"The Old",
-					"Shrub",
-					"Tem",
-					"Rope belts"
+					"Старый",
+					"Куст",
+					"Тем",
+					"Верёвочные пояса"
 				],
 				[
 					"10",
-					"The Widow's",
-					"Ox",
-					"Crippled Wil",
-					"Eviction Notice"
+					"Вдовы",
+					"Вол",
+					"Хромой Вил",
+					"Уведомление о выселении"
 				],
 				[
 					"11",
-					"The Farmer's",
-					"Cow",
-					"Old Wil",
-					"Broken Window"
+					"Фермера",
+					"Корова",
+					"Старый Вил",
+					"Разбитое окно"
 				],
 				[
 					"12",
-					"The Village",
-					"Mole",
-					"Big Wil",
-					"Scratching at fleas"
+					"Деревенская",
+					"Крот",
+					"Большой Вил",
+					"Чешется от блох"
 				],
 				[
 					"13",
-					"The Flat",
-					"Pig",
-					"Blind Vera",
-					"Creaking boards"
+					"Плоская",
+					"Свинья",
+					"Слепая Вера",
+					"Скрипучие половицы"
 				],
 				[
 					"14",
-					"The Lonely",
-					"Rabbit",
-					"Jed Barleyman",
-					"Sawdust"
+					"Одинокая",
+					"Кролик",
+					"Джед Барлимен",
+					"Опилки"
 				],
 				[
 					"15",
-					"The Faded",
-					"Vulture",
-					"Loyd",
-					"Crusty bread"
+					"Выцветшая",
+					"Гриф",
+					"Лойд",
+					"Чёрствый хлеб"
 				],
 				[
 					"16",
-					"The Laboring",
-					"Toad",
-					"Darnie",
-					"Crying baby"
+					"Трудящаяся",
+					"Жаба",
+					"Дарни",
+					"Плачущий младенец"
 				],
 				[
 					"17",
-					"The Sad",
-					"Taproom",
-					"Ingle",
-					"Dim candlelight"
+					"Печальная",
+					"Пивной зал",
+					"Ингл",
+					"Тусклый свет свечей"
 				],
 				[
 					"18",
-					"The Shepheard's",
-					"Dandelion",
-					"Bremmon",
-					"Multiple vermin"
+					"Пастуха",
+					"Одуванчик",
+					"Бреммон",
+					"Множество паразитов"
 				],
 				[
 					"19",
-					"The Thin",
-					"Flagon",
-					"Nimba",
-					"Wobbly chairs"
+					"Тонкий",
+					"Кружка",
+					"Нимба",
+					"Шаткие стулья"
 				],
 				[
 					"20",
-					"The Dusty",
-					"Barrel",
-					"Shep",
-					"Patched clothing"
+					"Пыльная",
+					"Бочка",
+					"Шеп",
+					"Латаная одежда"
 				]
 			]
 		},
 		{
-			"name": "Roadside Tavern Random Events and Adventure Hooks",
+			"name": "Случайные события и завязки приключений в придорожной таверне",
 			"source": "InnsTavernsLifestyle",
 			"page": 10,
 			"colLabels": [
 				"{@dice d20}",
-				"Event"
+				"Событие"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"Whether on well-trodden roads in civilized lands or in remote, half-forgotten places there exist taverns which cater specifically to travelers. These roadside establishments often provide a welcome respite from yet another night sleeping on the ground. They are often converted farmhouses with easy access to gardens, farmer's markets, and places to find wild game. Sometimes such a place will act like a community center or post office for the scattered inhabitants of the region."
+				"На хорошо проторённых дорогах цивилизованных земель и в глухих, полузабытых местах есть таверны, рассчитанные именно на путешественников. Эти придорожные заведения часто дарят желанную передышку от очередной ночи на голой земле. Нередко это перестроенные фермерские дома с огородами, рынками и местами для охоты поблизости. Иногда такое место служит общественным центром или почтой для разбросанных по округе жителей."
 			],
 			"rows": [
 				[
 					"1",
-					"A young man rushes in and slams the door saying there is a wild animal outside and the horses are panicking."
+					"Молодой человек врывается внутрь и захлопывает дверь, крича, что снаружи дикий зверь и лошади в панике."
 				],
 				[
 					"2",
-					"A half-elf pays for her room and goes upstairs. Later, an angry mob demands the witch be turned over for justice."
+					"Полуэльфийка оплачивает комнату и поднимается наверх. Позже разъярённая толпа требует выдать ведьму для расправы."
 				],
 				[
 					"3",
-					"You meet other travelers coming from the opposite direction on the road and they'd love to exchange news."
+					"В пути вы встречаете других путешественников, идущих вам навстречу, и они рады обменяться новостями."
 				],
 				[
 					"4",
-					"A long-legged ranger sits in a corner with his hood up. He smokes a pipe and watches you."
+					"Долговязый следопыт сидит в углу с опущенным капюшоном. Он курит трубку и наблюдает за вами."
 				],
 				[
 					"5",
-					"A large caravan has stopped here for the night and there isn't enough room. Someone is sleeping in the hay loft."
+					"Большой караван остановился здесь на ночь, и места не хватает. Кто-то спит на сеновале."
 				],
 				[
 					"6",
-					"The outside of this inn looks bright and new, but the inside is dusty, moldy, and falling apart."
+					"Снаружи таверна выглядит светлой и новой, но внутри пыльно, плесневело и всё разваливается."
 				],
 				[
 					"7",
-					"A fire breaks out at the inn. With concerted effort it can be put out before there is much damage."
+					"В таверне вспыхивает пожар. Общими усилиями его можно потушить прежде, чем ущерб станет большим."
 				],
 				[
 					"8",
-					"The proprietor asks where you are going and if you'll deliver a packet of mail for people from the region."
+					"Хозяин спрашивает, куда вы направляетесь, и не согласитесь ли вы доставить пакет писем для жителей округи."
 				],
 				[
 					"9",
-					"Strange, wild noises come from a locked shed a few dozen yards away from the inn proper."
+					"Из запертого сарая в нескольких десятках ярдов от таверны доносятся странные дикие звуки."
 				],
 				[
 					"10",
-					"Pipe music sometimes drifts from the nearby woods. The owner says that it is the fairies dancing."
+					"Из ближнего леса иногда доносится музыка свирели. Хозяин говорит, что это танцуют феи."
 				],
 				[
 					"11",
-					"The owner apologizes for the lack of variety at dinner. The latest delivery cart disappeared on the road."
+					"Хозяин извиняется за скромный ужин. Последняя повозка с припасами исчезла в пути."
 				],
 				[
 					"12",
-					"During the night, something huge snuffles outside your window. In the morning there are clawed tracks."
+					"Ночью что-то огромное сопит под вашим окном. Утром на земле остаются следы когтей."
 				],
 				[
 					"13",
-					"Heavy rain and thunderstorms last for {@dice 1d4} days, turning the road into a muddy mess."
+					"Сильный дождь и грозы идут {@dice 1d4} дня, превращая дорогу в грязное месиво."
 				],
 				[
 					"14",
-					"The inn has a tradition of telling ghost stories in the common room after dark. The scariest story wins a prize."
+					"В таверне есть традиция рассказывать в общем зале страшные истории после заката. Самая страшная получает приз."
 				],
 				[
 					"15",
-					"The owner's husband invites you and your companions on a hunting trip to replenish the stores"
+					"Муж хозяйки приглашает вас и ваших спутников на охоту, чтобы пополнить запасы."
 				],
 				[
 					"16",
-					"The innkeeper angrily turns away an ugly beggar at night. In the morning, all of the food in the inn has spoiled."
+					"Ночью хозяин сердито прогоняет уродливого нищего. Утром вся еда в таверне испортилась."
 				],
 				[
 					"17",
-					"A young woman eats alone. Her shoes, not made for walking, are nearly in shreds and her satchel seems empty."
+					"Молодая женщина ест в одиночестве. Её туфли, явно не для ходьбы, почти развалились, а сумка кажется пустой."
 				],
 				[
 					"18",
-					"The inn is graced with the presence of a very noble family for the evening."
+					"Вечером таверна удостоена присутствия весьма знатной семьи."
 				],
 				[
 					"19",
-					"Locals trickle in after dark. Soon they clear the room and break out the fiddle for a rousing dance."
+					"После наступления темноты местные подтягиваются по одному. Вскоре они освобождают зал и достают скрипку для зажигательного танца."
 				],
 				[
 					"20",
-					"A fussy little man walks in and begins taking measurements. He intends to open another inn across the road."
+					"Входит суетливый человечек и начинает делать замеры. Он собирается открыть ещё одну таверну через дорогу."
 				]
 			]
 		},
 		{
-			"name": "Roadside Taverns (1 gp)",
+			"name": "Придорожные таверны (1 зм)",
 			"source": "InnsTavernsLifestyle",
 			"page": 10,
 			"colLabels": [
 				"{@dice d20}",
-				"Tavern Adjectives",
-				"Tavern Nouns",
-				"Patron Names",
-				"Surroundings"
+				"Прилагательные таверны",
+				"Существительные таверны",
+				"Имена посетителей",
+				"Окружение"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"Whether on well-trodden roads in civilized lands or in remote, half-forgotten places there exist taverns which cater specifically to travelers. These roadside establishments often provide a welcome respite from yet another night sleeping on the ground. They are often converted farmhouses with easy access to gardens, farmer's markets, and places to find wild game. Sometimes such a place will act like a community center or post office for the scattered inhabitants of the region."
+				"На хорошо проторённых дорогах цивилизованных земель и в глухих, полузабытых местах есть таверны, рассчитанные именно на путешественников. Эти придорожные заведения часто дарят желанную передышку от очередной ночи на голой земле. Нередко это перестроенные фермерские дома с огородами, рынками и местами для охоты поблизости. Иногда такое место служит общественным центром или почтой для разбросанных по округе жителей."
 			],
 			"rows": [
 				[
 					"1",
-					"The Gray",
-					"Road",
-					"Farlin",
-					"Woods"
+					"Серая",
+					"Дорога",
+					"Фарлин",
+					"Леса"
 				],
 				[
 					"2",
-					"The Wandering",
-					"Rest",
-					"Hafim",
-					"Stream"
+					"Странника",
+					"Отдых",
+					"Хафим",
+					"Ручей"
 				],
 				[
 					"3",
-					"The Nesting",
-					"Lodge",
-					"Nerma",
-					"Waterwheel"
+					"Гнездящаяся",
+					"Приют",
+					"Нерма",
+					"Водяное колесо"
 				],
 				[
 					"4",
-					"The Heroic",
-					"Bridge",
-					"Braler",
-					"Bridge"
+					"Героическая",
+					"Мост",
+					"Бралер",
+					"Мост"
 				],
 				[
 					"5",
-					"The Welcome",
-					"Welcome",
-					"Svendal",
-					"Road"
+					"Приветливая",
+					"Приветствие",
+					"Свендал",
+					"Дорога"
 				],
 				[
 					"6",
-					"The Courageous",
-					"Warrior",
-					"Alif",
-					"Walking trails"
+					"Отважная",
+					"Воин",
+					"Алиф",
+					"Прогулочные тропы"
 				],
 				[
 					"7",
-					"The Painted",
-					"Crow",
-					"Desi",
-					"Stable"
+					"Раскрашенная",
+					"Ворона",
+					"Дези",
+					"Конюшня"
 				],
 				[
 					"8",
-					"The Harvest",
-					"Giant",
-					"Shey",
-					"General goods"
+					"Урожайная",
+					"Великан",
+					"Шей",
+					"Хозяйственные товары"
 				],
 				[
 					"9",
-					"The Autumn",
-					"Sundown",
-					"Frynn",
-					"Letter box"
+					"Осенняя",
+					"Закат",
+					"Фринн",
+					"Почтовый ящик"
 				],
 				[
 					"10",
-					"The Winter",
-					"Valley",
-					"Laurelie",
-					"Bearskin rug"
+					"Зимняя",
+					"Долина",
+					"Лорели",
+					"Ковёр из медвежьей шкуры"
 				],
 				[
 					"11",
-					"The Spring",
-					"Canyon",
-					"Zinnia",
-					"Vegetable garden"
+					"Весенняя",
+					"Каньон",
+					"Зинния",
+					"Огород"
 				],
 				[
 					"12",
-					"The Summer",
-					"Horizon",
-					"Doris",
-					"Apple trees"
+					"Летняя",
+					"Горизонт",
+					"Дорис",
+					"Яблони"
 				],
 				[
 					"13",
-					"The Moonlit",
-					"Wagon",
-					"Olo",
-					"Milk cow"
+					"Лунная",
+					"Повозка",
+					"Оло",
+					"Дойная корова"
 				],
 				[
 					"14",
-					"Swapper's",
-					"Farm",
-					"Ferdie",
-					"Chicken coop"
+					"Менялы",
+					"Ферма",
+					"Ферди",
+					"Курятник"
 				],
 				[
 					"15",
-					"Trader's",
-					"Hostel",
-					"Amara",
-					"Smokehouse"
+					"Торговца",
+					"Постоялый двор",
+					"Амара",
+					"Коптильня"
 				],
 				[
 					"16",
-					"Strider's",
-					"Cottage",
-					"Celia",
-					"Foreign travelers"
+					"Странника",
+					"Домик",
+					"Селия",
+					"Иностранные путешественники"
 				],
 				[
 					"17",
-					"Roamer's",
-					"Cabin",
-					"Grimler",
-					"Wind chimes"
+					"Скитальца",
+					"Хижина",
+					"Гримлер",
+					"Ветряные колокольчики"
 				],
 				[
 					"18",
-					"Caravan's",
-					"Pilgrim",
-					"Hagen",
-					"Rocking chairs"
+					"Каравана",
+					"Паломник",
+					"Хаген",
+					"Кресла-качалки"
 				],
 				[
 					"19",
-					"Wanderer's",
-					"Dungeoneer",
-					"Tilson",
-					"Potato cellar"
+					"Странника",
+					"Подземельщик",
+					"Тилсон",
+					"Картофельный погреб"
 				],
 				[
 					"20",
-					"Traveler's",
-					"Coachman",
-					"Shamar",
-					"Fresh air"
+					"Путешественника",
+					"Возница",
+					"Шамар",
+					"Свежий воздух"
 				]
 			]
 		},
 		{
-			"name": "Shady Tavern Random Events and Adventure Hooks",
+			"name": "Случайные события и завязки приключений в тёмной таверне",
 			"source": "InnsTavernsLifestyle",
 			"page": 8,
 			"colLabels": [
 				"{@dice d20}",
-				"Event"
+				"Событие"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"Whether it's a front for a hidden criminal enterprise or a legitimate business which caters to the villainous underworld, Shady taverns are a place for illegal deals, illicit news, and smuggled goods. The proprietor is sure to employ several thugs who are usually there for the protection of the establishment rather than the patrons. A place like this will have a bad reputation that is more truth than rumor."
+				"Будь то прикрытие для тайного преступного промысла или законное дело, обслуживающее преступный мир, тёмные таверны — место незаконных сделок, нелегальных новостей и контрабандных товаров. Хозяин наверняка держит нескольких головорезов, которые обычно охраняют заведение, а не посетителей. У такого места дурная слава, и она скорее правда, чем слух."
 			],
 			"rows": [
 				[
 					"1",
-					"The bartender warns you that several patrons here are sick of your face and you'd best leave."
+					"Бармен предупреждает вас, что нескольким посетителям надоело ваше лицо и лучше бы вам уйти."
 				],
 				[
 					"2",
-					"A raid by the City Watch. Everyone here is under arrest for conspiracy against the government."
+					"Облава городской стражи. Всех здесь арестовывают за заговор против властей."
 				],
 				[
 					"3",
-					"Two thugs carry a wriggling, man-sized sack out the back door."
+					"Двое головорезов выносят через чёрный ход извивающийся мешок размером с человека."
 				],
 				[
 					"4",
-					"Someone sits at your table and drops several cryptic phrases. When you don't respond correctly, she moves on."
+					"Кто-то садится за ваш стол и бросает несколько туманных фраз. Не получив верного отклика, она уходит."
 				],
 				[
 					"5",
-					"The tavern is set in an old warehouse with crates for tables and barrels for chairs."
+					"Таверна устроена в старом складе: столы — ящики, стулья — бочки."
 				],
 				[
 					"6",
-					"A dark figure's cloak opens just enough to reveal City Watch issued weapons and armor."
+					"Плащ тёмной фигуры распахивается ровно настолько, чтобы показать оружие и доспехи городской стражи."
 				],
 				[
 					"7",
-					"The twang of a crossbow. A scoundrel throws some money on the bar on his way out. \"Sorry about the mess.\""
+					"Звон арбалетной тетивы. Негодяй бросает деньги на стойку, направляясь к выходу. «Простите за беспорядок»."
 				],
 				[
 					"8",
-					"A girl leaves with a couple. She matches the description of a recently kidnapped heiress."
+					"Девушка уходит с парой. Она подходит под описание недавно похищенной наследницы."
 				],
 				[
 					"9",
-					"After the barkeep gasps and falls dead. A new barkeep announces the place is under new management."
+					"Бармен задыхается и падает замертво. Новый бармен объявляет, что заведение сменило хозяина."
 				],
 				[
 					"10",
-					"A woman tries to sell you a key that supposedly works on the back door of the governor's mansion."
+					"Женщина пытается продать вам ключ, который, по её словам, подходит к чёрному ходу особняка губернатора."
 				],
 				[
 					"11",
-					"You're fairly certain the gamblers in the corner are playing with loaded dice. This probably won't end well."
+					"Вы почти уверены, что игроки в углу играют краплёными костями. Добром это, скорее всего, не кончится."
 				],
 				[
 					"12",
-					"This tavern is the perfect place to find illegal food from a country under a trade embargo."
+					"Эта таверна — идеальное место, чтобы найти нелегальные продукты из страны под торговым эмбарго."
 				],
 				[
 					"13",
-					"A wizard in the back room will perform illegal or unscrupulous divinations in his crystal ball for a fee."
+					"Волшебник в задней комнате за плату проведёт незаконные или нечистоплотные гадания по своему хрустальному шару."
 				],
 				[
 					"14",
-					"With his refusal to take bribes, a new politician is making life hard for the underdogs of society."
+					"Отказываясь брать взятки, новый политик усложняет жизнь отбросам общества."
 				],
 				[
 					"15",
-					"There's a new Captain of the Watch who is teaching his men to stab first and ask questions later."
+					"Появился новый капитан стражи, который учит своих людей сначала бить, а потом задавать вопросы."
 				],
 				[
 					"16",
-					"The tension between gangs in this are threatens to turn into an all-out street war."
+					"Напряжение между бандами грозит перерасти в полномасштабную уличную войну."
 				],
 				[
 					"17",
-					"A ruthless crime lord rules this area with an iron fist, but the common people love and trust him."
+					"Безжалостный криминальный авторитет правит этой округой железной рукой, но простые люди его любят и доверяют ему."
 				],
 				[
 					"18",
-					"Thugs at the bar loudly share stories of the beatings they have given recently."
+					"Головорезы у стойки громко делятся историями недавних побоев."
 				],
 				[
 					"19",
-					"After you leave, you are certain you are being following through the streets by one or more of the other patrons."
+					"Выйдя на улицу, вы уверены, что по улицам вас преследуют один или несколько посетителей."
 				],
 				[
 					"20",
-					"A man being arrested screams, \"The knife made me do it!\" You spot a jeweled dagger underneath his table."
+					"Арестованный мужчина кричит: «Это нож заставил меня сделать это!» Под его столом вы замечаете украшенный самоцветами кинжал."
 				]
 			]
 		},
 		{
-			"name": "Shady Taverns (5 sp)",
+			"name": "Тёмные таверны (5 см)",
 			"source": "InnsTavernsLifestyle",
 			"page": 8,
 			"colLabels": [
 				"{@dice d20}",
-				"Tavern Adjectives",
-				"Tavern Nouns",
-				"Patron Names",
-				"Surroundings"
+				"Прилагательные таверны",
+				"Существительные таверны",
+				"Имена посетителей",
+				"Окружение"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"Whether it's a front for a hidden criminal enterprise or a legitimate business which caters to the villainous underworld, Shady taverns are a place for illegal deals, illicit news, and smuggled goods. The proprietor is sure to employ several thugs who are usually there for the protection of the establishment rather than the patrons. A place like this will have a bad reputation that is more truth than rumor."
+				"Будь то прикрытие для тайного преступного промысла или законное дело, обслуживающее преступный мир, тёмные таверны — место незаконных сделок, нелегальных новостей и контрабандных товаров. Хозяин наверняка держит нескольких головорезов, которые обычно охраняют заведение, а не посетителей. У такого места дурная слава, и она скорее правда, чем слух."
 			],
 			"rows": [
 				[
 					"1",
-					"The Killing",
-					"Knife",
-					"Garrick",
-					"Eye patch"
+					"Убийственный",
+					"Нож",
+					"Гаррик",
+					"Повязка на глаз"
 				],
 				[
 					"2",
-					"The Dark",
-					"Shade",
-					"Cadge",
-					"Bone Dice"
+					"Тёмная",
+					"Тень",
+					"Кэдж",
+					"Кости из кости"
 				],
 				[
 					"3",
-					"The Bloody",
-					"Knuckles",
-					"Crom",
-					"Barred windows"
+					"Кровавая",
+					"Кулаки",
+					"Кром",
+					"Зарешеченные окна"
 				],
 				[
 					"4",
-					"The Ragged",
-					"Pit",
-					"Slick Lem",
-					"Skull tattoo"
+					"Рваная",
+					"Яма",
+					"Скользкий Лем",
+					"Татуировка черепа"
 				],
 				[
 					"5",
-					"The Dying",
-					"Alley",
-					"Burk",
-					"Cobwebs"
+					"Умирающая",
+					"Переулок",
+					"Бёрк",
+					"Паутина"
 				],
 				[
 					"6",
-					"The Dead",
-					"Cloak",
-					"Arog the Mumbler",
-					"Rats"
+					"Мёртвого",
+					"Плащ",
+					"Арог Бормотун",
+					"Крысы"
 				],
 				[
 					"7",
-					"The Broken",
-					"Moon",
-					"Locke",
-					"Broken bottles"
+					"Сломанная",
+					"Луна",
+					"Локк",
+					"Разбитые бутылки"
 				],
 				[
 					"8",
-					"The Blind",
-					"Blade",
-					"Issa the Lizard",
-					"Graffiti"
+					"Слепой",
+					"Клинок",
+					"Исса Ящерица",
+					"Граффити"
 				],
 				[
 					"9",
-					"The Silent",
-					"Cudgel",
-					"Mal",
-					"Suspicious stains"
+					"Тихая",
+					"Дубина",
+					"Мал",
+					"Подозрительные пятна"
 				],
 				[
 					"10",
-					"The Cracked",
-					"Jack's",
-					"Jagged",
-					"Hidden weapons"
+					"Треснувшая",
+					"Джека",
+					"Зазубренный",
+					"Спрятанное оружие"
 				],
 				[
 					"11",
-					"The Lurking",
-					"Jill's",
-					"Kyler",
-					"Smoky air"
+					"Притаившаяся",
+					"Джилл",
+					"Кайлер",
+					"Дымный воздух"
 				],
 				[
 					"12",
-					"The Wicked",
-					"Lair",
-					"Bleeding Vark",
-					"Hooded figures"
+					"Злая",
+					"Логово",
+					"Кровоточащий Варк",
+					"Фигуры в капюшонах"
 				],
 				[
 					"13",
-					"The Whispering",
-					"Beggar",
-					"Seven Finger Kel",
-					"Back rooms"
+					"Шепчущий",
+					"Нищий",
+					"Семёпалый Кел",
+					"Задние комнаты"
 				],
 				[
 					"14",
-					"The Creeping",
-					"Pocket",
-					"Knuckler",
-					"Private booths"
+					"Ползучий",
+					"Карман",
+					"Накллер",
+					"Отдельные кабинеты"
 				],
 				[
 					"15",
-					"The Risky",
-					"Den",
-					"Blackjack Mara",
-					"Bodyguards"
+					"Рискованная",
+					"Притон",
+					"Блэкджек Мара",
+					"Телохранители"
 				],
 				[
 					"16",
-					"The Grimy",
-					"Kobold",
-					"Ullusk",
-					"Desperate glances"
+					"Грязная",
+					"Кобольд",
+					"Уллуск",
+					"Отчаянные взгляды"
 				],
 				[
 					"17",
-					"Boss's",
-					"Hand",
-					"The Fang",
-					"Code words"
+					"Босса",
+					"Рука",
+					"Клык",
+					"Кодовые слова"
 				],
 				[
 					"18",
-					"Gambler's",
-					"Dice",
-					"Bloodletter",
-					"Cruel laughter"
+					"Игрока",
+					"Кости",
+					"Кровопуск",
+					"Жестокий смех"
 				],
 				[
 					"19",
-					"Rogue's",
-					"Fence",
-					"Brynlyn",
-					"Gamblers"
+					"Плута",
+					"Скупщик",
+					"Бринлин",
+					"Игроки"
 				],
 				[
 					"20",
-					"Scoundrel's",
-					"Secret",
-					"Kam the Fence",
-					"Disguises"
+					"Прохвоста",
+					"Секрет",
+					"Кам Скупщик",
+					"Маскировка"
 				]
 			]
 		},
 		{
-			"name": "Wealthy Tavern Random Events and Adventure Hooks",
+			"name": "Случайные события и завязки приключений в богатой таверне",
 			"source": "InnsTavernsLifestyle",
 			"page": 6,
 			"colLabels": [
 				"{@dice d20}",
-				"Event"
+				"Событие"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"These taverns cater specifically to those who have money and want to prove it, especially affluent individuals who lack the hereditary title to make them proper aristocrats. Guards and servants are plentiful and there is usually a guest vault on the premises. Wealthy taverns are havens of luxury away from anyone ragged or dirty because such persons are turned away at the door. While usually found in large cities, a Wealthy establishment could also be a country lodge or beachfront resort. "
+				"Эти таверны рассчитаны именно на тех, у кого есть деньги и желание это показать, особенно на состоятельных людей, которым не хватает наследного титула, чтобы считаться настоящими аристократами. Стражников и слуг здесь в избытке, а в помещении обычно есть гостевое хранилище. Богатые таверны — оазисы роскоши, куда не пускают оборванных и грязных: таких разворачивают уже у двери. Такие заведения обычно встречаются в больших городах, но богатая таверна может быть и загородным домом, и курортом на берегу моря."
 			],
 			"rows": [
 				[
 					"1",
-					"A merchant laughs nervously and says she needs to hire a bodyguard... immediately."
+					"Торговка нервно смеётся и говорит, что ей нужно нанять телохранителя... немедленно."
 				],
 				[
 					"2",
-					"A patron comes to the adventurer's with a business investment opportunity. Two words: Mobile haberdashery."
+					"К искателям приключений приходит посетитель с предложением вложиться в дело. Два слова: передвижная галантерея."
 				],
 				[
 					"3",
-					"The opening of a new gallery has brought a number of famous artists into town for the week."
+					"Открытие новой галереи привело в город на неделю нескольких известных художников."
 				],
 				[
 					"4",
-					"There is a protest taking place outside. Working class people are threatening to strike for more wages."
+					"Снаружи проходит протест. Рабочие грозят забастовкой с требованием повышения платы."
 				],
 				[
 					"5",
-					"A merchant proposes to blaze a shorter trade route through a dangerous area. It will need to be scouted."
+					"Торговец предлагает проложить более короткий торговый путь через опасные земли. Его придётся разведать."
 				],
 				[
 					"6",
-					"On a nearby table, a contract is being signed by a wealthy merchant and a scared-looking young person."
+					"За соседним столом богатый торговец подписывает договор с испуганной молодой особой."
 				],
 				[
 					"7",
-					"One of the guards is convinced that you are a fraud and she whispers that she has her eyes on you."
+					"Один из стражников уверен, что вы мошенник, и шепчет, что следит за вами."
 				],
 				[
 					"8",
-					"A dwarf caravan has come to town and they are looking for trade goods to take back under the mountain."
+					"В город прибыл дварфийский караван, и они ищут товары, чтобы увезти их под гору."
 				],
 				[
 					"9",
-					"You meet a very short human who is extremely sensitive about his height. All of his servants are halflings."
+					"Вы знакомитесь с очень низкорослым человеком, крайне болезненно относящимся к своему росту. Вся его прислуга — полурослики."
 				],
 				[
 					"10",
-					"While sampling delicacies from foreign lands, everyone pretends to like the food so others think them cultured."
+					"Дегустируя заморские деликатесы, все делают вид, что им нравится еда, чтобы выглядеть искушёнными."
 				],
 				[
 					"11",
-					"A wealthy couple announces that they are starting a welfare program but no one seems much interested."
+					"Богатая пара объявляет о запуске программы помощи нуждающимся, но никто, похоже, не проявляет интереса."
 				],
 				[
 					"12",
-					"A cleric is quickly escorted out after he stands on a table and starts a sermon on the evils of greed."
+					"Служителя быстро выводят под руки после того, как он встал на стол и начал проповедь о пороках жадности."
 				],
 				[
 					"13",
-					"Having just come into her fortune, a trusting heiress is already attracting the wrong sort of friends."
+					"Только что получив наследство, доверчивая наследница уже привлекает не ту компанию."
 				],
 				[
 					"14",
-					"There is an uproar when a respected merchants coins turn out to be counterfeit. He claims innocence."
+					"Поднимается шум: монеты уважаемого торговца оказываются подделкой. Он заявляет о своей невиновности."
 				],
 				[
 					"15",
-					"A certain merchant is enjoying a monopoly now that gangs have run all her rivals out of town."
+					"Некий торговец наслаждается монополией после того, как банды выжили из города всех её конкурентов."
 				],
 				[
 					"16",
-					"A landowner has improved the lives of his tenants so much that he is facing bankruptcy and asking for loans."
+					"Землевладелец настолько улучшил жизнь своих арендаторов, что оказался на грани разорения и просит займы."
 				],
 				[
 					"17",
-					"A famed adventurer who gained his fortune by slaying dragons has gone missing. Look for him, or his treasure?"
+					"Известный искатель приключений, сколотивший состояние на драконах, пропал. Искать его — или его сокровища?"
 				],
 				[
 					"18",
-					"During dinner, a clerk runs in to shout that a large bank has failed causing major financial panic in the area."
+					"Во время ужина вбегает писарь с криком, что крупный банк обанкротился, вызвав серьёзную финансовую панику в округе."
 				],
 				[
 					"19",
-					"You overhear several groups talking about a party of young heirs and heiresses who have gone missing."
+					"Вы слышите, как несколько компаний обсуждают пропажу группы молодых наследников и наследниц."
 				],
 				[
 					"20",
-					"When the lights suddenly go out, a lot of jewelry and the acrobats providing entertainment turn up missing."
+					"Когда свет внезапно гаснет, исчезают множество украшений и акробаты, развлекавшие гостей."
 				]
 			]
 		},
 		{
-			"name": "Wealthy Taverns (3 gp)",
+			"name": "Богатые таверны (3 зм)",
 			"source": "InnsTavernsLifestyle",
 			"page": 6,
 			"colLabels": [
 				"{@dice d20}",
-				"Tavern Adjectives",
-				"Tavern Nouns",
-				"Patron Names",
-				"Surroundings"
+				"Прилагательные таверны",
+				"Существительные таверны",
+				"Имена посетителей",
+				"Окружение"
 			],
 			"colStyles": [
 				"col-1 text-center"
 			],
 			"intro": [
-				"These taverns cater specifically to those who have money and want to prove it, especially affluent individuals who lack the hereditary title to make them proper aristocrats. Guards and servants are plentiful and there is usually a guest vault on the premises. Wealthy taverns are havens of luxury away from anyone ragged or dirty because such persons are turned away at the door. While usually found in large cities, a Wealthy establishment could also be a country lodge or beachfront resort. "
+				"Эти таверны рассчитаны именно на тех, у кого есть деньги и желание это показать, особенно на состоятельных людей, которым не хватает наследного титула, чтобы считаться настоящими аристократами. Стражников и слуг здесь в избытке, а в помещении обычно есть гостевое хранилище. Богатые таверны — оазисы роскоши, куда не пускают оборванных и грязных: таких разворачивают уже у двери. Такие заведения обычно встречаются в больших городах, но богатая таверна может быть и загородным домом, и курортом на берегу моря."
 			],
 			"rows": [
 				[
 					"1",
-					"The Fine",
-					"Coin",
-					"Angoria",
-					"Full course meals"
+					"Изысканная",
+					"Монета",
+					"Ангория",
+					"Полные обеды"
 				],
 				[
 					"2",
-					"The Silken",
-					"Merchant",
-					"Roland",
-					"Fine art"
+					"Шёлковый",
+					"Торговец",
+					"Роланд",
+					"Изящное искусство"
 				],
 				[
 					"3",
-					"The Luxurioius",
-					"Purse",
-					"Percival",
-					"Silver candlesticks"
+					"Роскошный",
+					"Кошель",
+					"Персиваль",
+					"Серебряные канделябры"
 				],
 				[
 					"4",
-					"The Velvent",
-					"Rose",
-					"Quentin",
-					"Oiled beards"
+					"Бархатная",
+					"Роза",
+					"Квентин",
+					"Умасленные бороды"
 				],
 				[
 					"5",
-					"The Burgundy",
-					"Pheonix",
-					"Elora",
-					"Harp music"
+					"Бургундская",
+					"Феникс",
+					"Элора",
+					"Музыка арфы"
 				],
 				[
 					"6",
-					"The Veiled",
-					"Tiger",
-					"Lucinda",
-					"Lap dogs"
+					"Под вуалью",
+					"Тигр",
+					"Люсинда",
+					"Комнатные собачки"
 				],
 				[
 					"7",
-					"The Rich",
-					"Club",
-					"Geraldine",
-					"Fancy cheeses"
+					"Богатый",
+					"Клуб",
+					"Джеральдина",
+					"Изысканные сыры"
 				],
 				[
 					"8",
-					"The Lovely",
-					"Resort",
-					"Priscilla",
-					"Mechanical clock"
+					"Прекрасная",
+					"Курорт",
+					"Присцилла",
+					"Механические часы"
 				],
 				[
 					"9",
-					"The Blue",
-					"Goblet",
-					"Giles",
-					"Fresh fruit"
+					"Синий",
+					"Кубок",
+					"Джайлз",
+					"Свежие фрукты"
 				],
 				[
 					"10",
-					"The Maroon",
-					"Banquet",
-					"Seymore",
-					"Card games"
+					"Тёмно-бордовый",
+					"Пир",
+					"Сеймур",
+					"Карточные игры"
 				],
 				[
 					"11",
-					"The Five",
-					"Hippogriff",
-					"Sterling",
-					"Lavish deserts"
+					"Пять",
+					"Гиппогриф",
+					"Стерлинг",
+					"Роскошные десерты"
 				],
 				[
 					"12",
-					"The Scarlet",
-					"Gem",
-					"Ranulph",
-					"Art in glass cases"
+					"Алая",
+					"Самоцвет",
+					"Ранульф",
+					"Искусство в стеклянных витринах"
 				],
 				[
 					"13",
-					"The Shining",
-					"Dragonne",
-					"Ingram",
-					"Rings with gems"
+					"Сияющий",
+					"Драконн",
+					"Ингрэм",
+					"Перстни с самоцветами"
 				],
 				[
 					"14",
-					"The Ivory",
-					"Lady",
-					"Xora",
-					"Business meetings"
+					"Костяная",
+					"Леди",
+					"Зора",
+					"Деловые встречи"
 				],
 				[
 					"15",
-					"The Azure",
-					"Emerald",
-					"Kormo",
-					"Table cloths"
+					"Лазурная",
+					"Изумруд",
+					"Кормо",
+					"Скатерти"
 				],
 				[
 					"16",
-					"The Artisan's",
-					"Ruby",
-					"Sandon",
-					"House musicians"
+					"Ремесленника",
+					"Рубин",
+					"Сандон",
+					"Домашние музыканты"
 				],
 				[
 					"17",
-					"The Chancellor's",
-					"Hotel",
-					"Quintus",
-					"Trade route map"
+					"Канцлера",
+					"Отель",
+					"Квинт",
+					"Карта торговых путей"
 				],
 				[
 					"18",
-					"The Mayor's",
-					"Boar",
-					"Lenmar",
-					"Writing desk"
+					"Мэра",
+					"Кабан",
+					"Ленмар",
+					"Письменный стол"
 				],
 				[
 					"19",
-					"The Governor's",
-					"Meetinghouse",
-					"Zalos",
-					"Silver utensils"
+					"Губернатора",
+					"Дом собраний",
+					"Залос",
+					"Серебряная посуда"
 				],
 				[
 					"20",
-					"The Merchant's",
-					"Caravan",
-					"Viralyn",
-					"Forced laughter"
+					"Торговца",
+					"Караван",
+					"Виралин",
+					"Вымученный смех"
 				]
 			]
 		}
