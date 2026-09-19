@@ -97,7 +97,7 @@
 	},
 	"spell": [
 		{
-			"name": "Blight",
+			"name": "Усыхание",
 			"source": "BlightRevised",
 			"level": 1,
 			"school": "N",
@@ -124,15 +124,15 @@
 				}
 			],
 			"entries": [
-				"Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. On a failed save, the target takes {@damage 2d8} necrotic damage and any damage it deals before the end of your next turn is reduced by {@damage 1d4}. On a successful save, the creature takes half as much damage and its damage isn't reduced. This spell has no effect on undead or constructs.",
-				"If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it. If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies."
+				"Некротическая энергия омывает выбранное вами существо, которое вы видите в пределах дистанции, вытягивая из него влагу и жизненные силы. Цель должна совершить спасбросок Телосложения. При провале цель получает {@damage 2d8} некротического урона, и весь урон, который она наносит до конца вашего следующего хода, уменьшается на {@damage 1d4}. При успехе существо получает половину этого урона, и его урон не уменьшается. Это заклинание не действует на нежить и конструктов.",
+				"Если вы выбрали целью растение-существо или магическое растение, оно совершает спасбросок с помехой, и заклинание наносит ему максимальный урон. Если вы выбрали целью немагическое растение, не являющееся существом, например дерево или куст, оно не совершает спасбросок, а просто увядает и погибает."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На больших уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d8|1-9|2d8} for each slot level above 1st, and the damage it reduces increases by {@scaledamage 1d4|1,3,5,7,9|1d4} for every two slot levels above 1st."
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, урон увеличивается на {@scaledamage 2d8|1-9|2d8} за каждый уровень ячейки выше 1-го, а уменьшаемый им урон увеличивается на {@scaledamage 1d4|1,3,5,7,9|1d4} за каждые два уровня ячейки выше 1-го."
 					]
 				}
 			],
@@ -184,7 +184,7 @@
 			]
 		},
 		{
-			"name": "Celerity",
+			"name": "Стремительность",
 			"source": "Celerity",
 			"level": 2,
 			"school": "T",
@@ -205,7 +205,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a falcon feather"
+					"text": "перо сокола"
 				}
 			},
 			"duration": [
@@ -218,14 +218,14 @@
 				}
 			],
 			"entries": [
-				"You grant a burst of swiftness to a creature of your choice that you can see within range. The target gains an additional action during its next turn, and its speed increases by 10 feet for the spell's duration. That action can't be used to take the {@action Attack} (except to {@action Shove} or {@action Grapple}), {@action Cast a Spell}, or {@action Ready} action."
+				"Вы даруете всплеск стремительности выбранному вами существу, которое видите в пределах дистанции. Цель получает дополнительное действие в свой следующий ход, и её скорость увеличивается на 10 футов, пока длится заклинание. Это действие нельзя использовать для совершения действий {@action Attack} (кроме {@action Shove} или {@action Grapple}), {@action Cast a Spell} или {@action Ready}."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На больших уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, вы можете выбрать целью одно дополнительное существо за каждый уровень ячейки выше 2-го."
 					]
 				}
 			],
@@ -261,7 +261,7 @@
 			]
 		},
 		{
-			"name": "Chromatic Orb",
+			"name": "Цветной шарик",
 			"source": "ChromaticOrbRevised",
 			"level": 1,
 			"school": "V",
@@ -282,7 +282,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a diamond worth at least 50 gp",
+					"text": "алмаз стоимостью не менее 50 зм",
 					"cost": 5000
 				}
 			},
@@ -292,20 +292,20 @@
 				}
 			],
 			"entries": [
-				"You hurl a 4-inch diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create.",
-				"A creature targeted by this spell must make a Dexterity saving throw. It takes {@damage 2d10} damage of the type you chose on a failed save, or half as much damage on a successful one."
+				"Вы швыряете в существо, которое видите в пределах дистанции, сферу энергии диаметром 4 дюйма. Вы выбираете тип создаваемого шарика: кислота, холод, огонь, электричество, яд или звук.",
+				"Существо, выбранное целью этого заклинания, должно совершить спасбросок Ловкости. При провале оно получает {@damage 2d10} урона выбранного типа, при успехе — половину этого урона."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На больших уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d10|1-9|1d10} for each slot level above 1st, and it causes an additional effect on a failed save depending on the type of orb created.",
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, урон увеличивается на {@scaledamage 2d10|1-9|1d10} за каждый уровень ячейки выше 1-го, и при провале спасброска возникает дополнительный эффект в зависимости от типа созданного шарика.",
 						{
 							"type": "table",
 							"colLabels": [
-								"Type",
-								"Effect on a Failed Save"
+								"Тип",
+								"Эффект при провале спасброска"
 							],
 							"colStyles": [
 								"col-2",
@@ -313,28 +313,28 @@
 							],
 							"rows": [
 								[
-									"Acid",
-									"The creature's AC is reduced by 2 until the start of your next turn."
+									"Кислота",
+									"КД существа уменьшается на 2 до начала вашего следующего хода."
 								],
 								[
-									"Cold",
-									"The creature's speed is halved until the start of your next turn."
+									"Холод",
+									"Скорость существа уменьшается вдвое до начала вашего следующего хода."
 								],
 								[
-									"Fire",
-									"You double the amount of damage dice rolled and keep the highest half."
+									"Огонь",
+									"Вы удваиваете количество брошенных костей урона и оставляете наибольшую половину."
 								],
 								[
-									"Lightning",
-									"The creature can't take reactions until the end of your next turn."
+									"Электричество",
+									"Существо не может совершать реакции до конца вашего следующего хода."
 								],
 								[
-									"Poison",
-									"The creature is {@condition poisoned} until the start of your next turn."
+									"Яд",
+									"Существо {@condition poisoned} до начала вашего следующего хода."
 								],
 								[
-									"Thunder",
-									"You can push the creature up to 10 feet away from you."
+									"Звук",
+									"Вы можете оттолкнуть существо от себя на расстояние до 10 футов."
 								]
 							]
 						}
@@ -377,7 +377,7 @@
 			]
 		},
 		{
-			"name": "Earthbind",
+			"name": "Узы земли",
 			"source": "EarthbindRevised",
 			"level": 2,
 			"school": "T",
@@ -408,15 +408,15 @@
 				}
 			],
 			"entries": [
-				"Choose one creature you can see within range. Yellow strips of magical energy loop around the creature, reducing its flying speed by 10 feet. At the start of each of its turns, the target must make a Strength saving throw. On a failed save, the creature's flying speed (if any) is reduced to 0 feet until the start of its next turn, and it safely descends up to 60 feet if it is airborne, stopping if it reaches the ground.",
-				"On each of your turns after you cast this spell, you can use your action to change the target of this spell to another creature you can see within range."
+				"Выберите одно существо, которое видите в пределах дистанции. Вокруг существа обвиваются жёлтые полосы магической энергии, уменьшая его скорость полёта на 10 футов. В начале каждого своего хода цель должна совершать спасбросок силы. При провале скорость полёта существа (если она есть) уменьшается до 0 футов до начала его следующего хода, и оно безопасно опускается на расстояние до 60 футов, если находится в воздухе, останавливаясь при достижении земли.",
+				"В каждый свой ход после сотворения этого заклинания вы можете действием изменить его цель на другое существо, которое видите в пределах дистанции."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На больших уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, вы можете выбрать целью одно дополнительное существо за каждый уровень ячейки выше 2-го."
 					]
 				}
 			],
@@ -451,7 +451,7 @@
 			]
 		},
 		{
-			"name": "Hypnotic Pattern",
+			"name": "Гипнотический узор",
 			"source": "HypnoticPatternRevised",
 			"level": 3,
 			"school": "I",
@@ -470,7 +470,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a glowing stick of incense or a crystal vial filled with phosphorescent material"
+				"m": "тлеющая палочка благовоний или хрустальный флакон, наполненный фосфоресцирующим веществом"
 			},
 			"duration": [
 				{
@@ -483,9 +483,9 @@
 				}
 			],
 			"entries": [
-				"You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range for the duration. Each creature that enters the spell's area for the first time on a turn or starts its turn there must make a Wisdom saving throw if it can see the pattern.",
-				"On a failed save, the creature becomes {@condition charmed} until the start of its next turn. While {@condition charmed} by this spell, the creature is {@condition incapacitated} and has a speed of 0.",
-				"This effect ends early for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor. If ended in either of these ways, the creature cannot be charmed by this spell again until the end of its next turn."
+				"Пока длится заклинание, вы создаёте извивающийся узор из цветов, который вьётся в воздухе внутри куба с ребром 30 футов в пределах дистанции. Каждое существо, которое впервые за ход входит в область заклинания или начинает там свой ход, должно совершить спасбросок Мудрости, если оно видит узор.",
+				"При провале существо становится {@condition charmed} до начала его следующего хода. Пока существо {@condition charmed} этим заклинанием, оно {@condition incapacitated}, и его скорость равна 0.",
+				"Этот эффект досрочно заканчивается для попавшего под него существа, если оно получает любой урон или если кто-то действием встряхнёт существо, выводя его из ступора. Если эффект закончился любым из этих способов, существо не может быть зачаровано этим заклинанием снова до конца своего следующего хода."
 			],
 			"classes": {
 				"fromClassList": [
@@ -519,7 +519,7 @@
 			]
 		},
 		{
-			"name": "Seismic Steps",
+			"name": "Сейсмические шаги",
 			"source": "SeismicSteps",
 			"level": 1,
 			"school": "V",
@@ -551,16 +551,16 @@
 				}
 			],
 			"entries": [
-				"You send pulses of seismic energy into the ground within range, turning it into {@quickref difficult terrain||3} for creatures other than you for the spell's duration as it shakes and becomes unsteady underfoot.",
-				"When you cast this spell, the affected ground violently churns. Each creature other than you standing in this area must succeed on a Dexterity saving throw or fall {@condition prone}.",
-				"On each of your turns until the spell ends, you can use your action to cause the ground to churn in this way again. You can also cause the ground to churn as a reaction before a creature makes an attack roll within range or enters the spell's area."
+				"Вы посылаете в землю в пределах дистанции импульсы сейсмической энергии, превращая её на время действия заклинания в {@quickref труднопроходимая местность||3} для всех существ, кроме вас: она дрожит и становится неустойчивой под ногами.",
+				"Когда вы сотворяете это заклинание, затронутая земля яростно вздымается. Каждое существо, кроме вас, стоящее в этой области, должно преуспеть в спасброске Ловкости, иначе упадёт {@condition prone}.",
+				"В каждый свой ход, пока заклинание не закончится, вы можете действием заставить землю вздыматься снова. Вы также можете заставить землю вздыматься реакцией до того, как существо совершит бросок атаки в пределах дистанции или войдёт в область заклинания."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На больших уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, you can use your bonus action to cause the ground to churn instead of your action. Using a spell slot of 3rd level or higher grants a duration that doesn't require {@status concentration}."
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, вы можете заставлять землю вздыматься бонусным действием вместо действия. Использование ячейки 3-го уровня или выше даёт длительность, не требующую {@status concentration}."
 					]
 				}
 			],
@@ -595,7 +595,7 @@
 			]
 		},
 		{
-			"name": "Shrubdive",
+			"name": "Кустарниковый нырок",
 			"source": "Shrubdive",
 			"level": 1,
 			"school": "C",
@@ -603,7 +603,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take immediately before taking damage from a fall"
+					"condition": "которую вы совершаете непосредственно перед получением урона от падения"
 				}
 			],
 			"range": {
@@ -615,7 +615,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "a ball of cotton"
+				"m": "шарик ваты"
 			},
 			"duration": [
 				{
@@ -627,15 +627,15 @@
 				}
 			],
 			"entries": [
-				"Cushioning foliage sprouts across the ground underneath you within range. A creature that ends its fall in that area can subtract 100 feet from the fall when calculating falling damage, including against the triggering fall, and takes only half damage from the fall.",
-				"The foliage lasts for the duration. You can end the spell early by using an action to dismiss it."
+				"Под вами в пределах дистанции прорастает смягчающая листва. Существо, завершающее падение в этой области, может вычесть 100 футов из высоты падения при расчёте урона от падения, в том числе для вызвавшего заклинание падения, и получает от падения только половину урона.",
+				"Листва существует, пока длится заклинание. Вы можете окончить заклинание досрочно, действием развеяв его."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На больших уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the range of the spell increases by 10 feet for each slot level above 1st."
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, дистанция заклинания увеличивается на 10 футов за каждый уровень ячейки выше 1-го."
 					]
 				}
 			],

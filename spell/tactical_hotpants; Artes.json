@@ -46,7 +46,7 @@
 	},
 	"feat": [
 		{
-			"name": "Double Artes",
+			"name": "Двойные искусства",
 			"source": "ArtesExtra",
 			"page": 1,
 			"prerequisite": [
@@ -67,18 +67,18 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits:",
+				"Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"You can use two {@filter artes|spells|school=AR|subschool=!Grand} during your turn instead of one, but you cannot use the same arte twice and they need to be used on different attacks. The second arte does not scale, it is always casted as if you were level 1."
+						"Вы можете использовать два {@filter artes|spells|school=AR|subschool=!Grand} в свой ход вместо одного, но не можете использовать одно и то же искусство дважды, и они должны применяться к разным атакам. Второе искусство не усиливается — оно всегда используется так, как если бы вы были 1-го уровня."
 					]
 				}
 			],
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow.webp"
 		},
 		{
-			"name": "Martial Scholar",
+			"name": "Военный эрудит",
 			"source": "Artes",
 			"page": 12,
 			"prerequisite": [
@@ -98,19 +98,19 @@
 				}
 			],
 			"entries": [
-				"Your breadth of knowledge of martial techniques allows you to adapt your style against any foe.",
-				"You gain the following benefits:",
+				"Широта ваших познаний в боевых приёмах позволяет вам приспосабливать свой стиль под любого противника.",
+				"Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"As a bonus action, you can learn any one {@filter arte|spells|school=AR|subschool=!Grand}. Once you do this, you know the arte until you finish a long rest. You can only know one arte at a time in this way."
+						"Бонусным действием вы можете выучить одно {@filter arte|spells|school=AR|subschool=!Grand}. Сделав это, вы знаете это искусство до завершения продолжительного отдыха. Таким образом вы можете знать только одно искусство одновременно."
 					]
 				}
 			],
 			"foundryImg": "icons/sundries/books/book-symbol-axe-brown.webp"
 		},
 		{
-			"name": "Swift Artes",
+			"name": "Быстрые искусства",
 			"source": "Artes",
 			"page": 12,
 			"prerequisite": [
@@ -130,11 +130,11 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits:",
+				"Вы получаете следующие преимущества:",
 				{
 					"type": "list",
 					"items": [
-						"When a hostile creature provokes an opportunity attack from you, you can use your reaction to to use an {@filter arte|spells|school=AR|subschool=!Grand} rather than making an opportunity attack."
+						"Когда враждебное существо провоцирует вашу провоцированную атаку, вы можете реакцией использовать {@filter arte|spells|school=AR|subschool=!Grand} вместо провоцированной атаки."
 					]
 				}
 			],
@@ -143,7 +143,7 @@
 	],
 	"spell": [
 		{
-			"name": "Berserker's Brand",
+			"name": "Клеймо берсерка",
 			"source": "Artes",
 			"page": 3,
 			"level": 0,
@@ -163,7 +163,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -176,12 +176,12 @@
 				}
 			],
 			"entries": [
-				"You channel a curse into your weapon that fills the target's mind with fury directed exclusively at you. Make a melee weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and has disadvantage on attack rolls against targets other than you until the start of your next turn.",
-				"Starting at 5th level, this arte's weapon attack deals an additional {@damage 1d6} psychic damage. This arte's psychic damage increases by {@dice 1d6} at 11th level ({@damage 2d6}) and again at 17th level ({@damage 3d6})."
+				"Вы направляете проклятие в своё оружие, наполняя разум цели яростью, обращённой исключительно на вас. Совершите рукопашную атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием и получает помеху на броски атаки по целям, кроме вас, до начала вашего следующего хода.",
+				"Начиная с 5-го уровня атака оружием этого искусства наносит дополнительно {@damage 1d6} психического урона. Психический урон этого искусства увеличивается на {@dice 1d6} на 11-м уровне ({@damage 2d6}) и снова на 17-м ({@damage 3d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "psychic damage",
+					"label": "психический урон",
 					"scaling": {
 						"5": "1d6",
 						"11": "2d6",
@@ -218,7 +218,7 @@
 			"foundryImg": "icons/magic/death/skull-weapon-staff-glow-pink.webp"
 		},
 		{
-			"name": "Binding Blade",
+			"name": "Сковывающий клинок",
 			"source": "Artes",
 			"page": 3,
 			"level": 0,
@@ -238,7 +238,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -251,12 +251,12 @@
 				}
 			],
 			"entries": [
-				"Your attack summons spectral chains that coil around your target's body and hold them in place. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and if the target is Large or smaller, it's movement range becomes limited. Until the end of the target's next turn, if it moves more than 15 feet from its space when this arte was used, it takes {@damage 1d6} force damage and is unable to move further.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Ваша атака вызывает призрачные цепи, которые обвиваются вокруг тела цели и удерживают её на месте. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, и если цель размера Большой или меньше, её возможность перемещения ограничивается. До конца следующего хода цели, если она отходит более чем на 15 футов от пространства, в котором находилась при использовании этого искусства, она получает {@damage 1d6} силового урона и не может двигаться дальше.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "force damage",
+					"label": "урона силовым полем",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -288,7 +288,7 @@
 			"foundryImg": "icons/magic/control/debuff-energy-hold-green.webp"
 		},
 		{
-			"name": "Blade Ward",
+			"name": "Оберег от оружия",
 			"source": "Artes",
 			"page": 2,
 			"level": 0,
@@ -319,7 +319,7 @@
 				}
 			],
 			"entries": [
-				"You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+				"Вы протягиваете руку и чертите в воздухе защитную сигилу. До конца вашего следующего хода вы получаете сопротивление дробящему, колющему и рубящему урону, наносимому атаками оружием."
 			],
 			"damageResist": [
 				"bludgeoning",
@@ -334,7 +334,7 @@
 			"foundryImg": "icons/skills/melee/sword-damaged-broken-blue.webp"
 		},
 		{
-			"name": "Booming Blade",
+			"name": "Громовой клинок",
 			"source": "Artes",
 			"page": 2,
 			"level": 0,
@@ -355,7 +355,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -368,12 +368,12 @@
 				}
 			],
 			"entries": [
-				"You brandish the weapon used in the arte's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes {@damage 1d8} thunder damage, and the spell ends.",
-				"This arte's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} thunder damage to the target on a hit, and the damage the target takes for moving increases to {@damage 2d8}. Both damage rolls increase by 1d8 at 11th level ({@damage 2d8} and {@damage 3d8}) and again at 17th level ({@damage 3d8} and {@damage 4d8})."
+				"Вы потрясаете оружием, использованным для сотворения искусства, и совершаете им рукопашную атаку по одному существу в пределах 5 футов от вас. При попадании цель испытывает обычные эффекты атаки оружием, а затем покрывается громовой энергией до начала вашего следующего хода. Если до этого цель добровольно переместится на 5 футов или больше, она получает {@damage 1d8} урона звуком, и заклинание заканчивается.",
+				"Урон этого искусства увеличивается при достижении определённых уровней. На 5-м уровне рукопашная атака при попадании наносит цели дополнительно {@damage 1d8} урона звуком, а урон, получаемый целью за перемещение, увеличивается до {@damage 2d8}. Оба броска урона увеличиваются на 1d8 на 11-м уровне ({@damage 2d8} и {@damage 3d8}) и снова на 17-м ({@damage 3d8} и {@damage 4d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "thunder damage on moving",
+					"label": "урон звуком при перемещении",
 					"scaling": {
 						"1": "1d8",
 						"5": "2d8",
@@ -382,7 +382,7 @@
 					}
 				},
 				{
-					"label": "thunder damage on hit",
+					"label": "урон звуком при попадании",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -420,7 +420,7 @@
 			"foundryImg": "icons/skills/melee/strike-sword-slashing-red.webp"
 		},
 		{
-			"name": "Boreal Gale",
+			"name": "Северный шквал",
 			"source": "Artes",
 			"page": 3,
 			"level": 0,
@@ -441,7 +441,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -450,12 +450,12 @@
 				}
 			],
 			"entries": [
-				"You swing your weapon and call down a wave of lethal frost on your foes. All creatures and objects in a 15-foot cube originating from you must succeed on a Constitution saving throw against your Artes save DC or take {@damage 1d6} cold damage.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы взмахиваете оружием и обрушиваете на врагов волну смертельного мороза. Все существа и предметы в 15-футовом кубе, исходящем от вас, должны преуспеть в спасброске Телосложения против Сл ваших искусств, иначе получают {@damage 1d6} урона холодом.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "cold damage",
+					"label": "урон холодом",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -487,7 +487,7 @@
 			"foundryImg": "icons/magic/air/air-wave-gust-blue.webp"
 		},
 		{
-			"name": "Cinder Surge",
+			"name": "Всплеск углей",
 			"source": "Artes",
 			"page": 4,
 			"level": 0,
@@ -507,7 +507,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -516,12 +516,12 @@
 				}
 			],
 			"entries": [
-				"Your weapon scatters seething, sparking motes of flame on impact, burning your target and anything near it. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon's normal effects and the target and all creatures and objects except you within 5 feet of the target take {@damage 1d4} fire damage.",
-				"This arte's damage increases by {@dice 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
+				"При ударе ваше оружие разбрасывает кипящие, искрящие пылинки пламени, обжигая цель и всё вокруг неё. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты оружия, а цель и все существа и предметы, кроме вас, в пределах 5 футов от неё получают {@damage 1d4} урона огнём.",
+				"Урон этого искусства увеличивается на {@dice 1d4}, когда вы достигаете 5-го уровня ({@damage 2d4}), 11-го уровня ({@damage 3d4}) и 17-го уровня ({@damage 4d4})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "fire damage",
+					"label": "урон огнём",
 					"scaling": {
 						"1": "1d4",
 						"5": "2d4",
@@ -554,7 +554,7 @@
 			"foundryImg": "icons/skills/melee/strike-hammer-destructive-orange.webp"
 		},
 		{
-			"name": "Clean Sweep",
+			"name": "Смывающая волна",
 			"source": "Artes",
 			"page": 4,
 			"level": 0,
@@ -575,7 +575,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -584,13 +584,13 @@
 				}
 			],
 			"entries": [
-				"You conjure a surge of water around you that crashes into your foes and forces them back. All creatures and objects within 5 feet of you, other than you, must succeed on a Strength saving throw or take {@damage 1d6} bludgeoning damage and be pushed 5 feet away from you. Each space within 5 feet of you is doused with 1 gallon of water that evaporates at the end of your turn.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6}).",
-				"At 11th level, the distance targets are pushed increases from 5 feet to 10 feet."
+				"Вы создаёте вокруг себя прилив воды, который обрушивается на врагов и отбрасывает их назад. Все существа и предметы в пределах 5 футов от вас, кроме вас, должны преуспеть в спасброске силы, иначе получают {@damage 1d6} дробящего урона и отталкиваются на 5 футов от вас. Каждое пространство в пределах 5 футов от вас заливается 1 галлоном воды, которая испаряется в конце вашего хода.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6}).",
+				"На 11-м уровне расстояние, на которое отталкиваются цели, увеличивается с 5 до 10 футов."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "bludgeoning damage",
+					"label": "дробящего урона",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -627,7 +627,7 @@
 			"foundryImg": "icons/magic/water/vortex-water-whirlpool.webp"
 		},
 		{
-			"name": "Cocytean Gavel",
+			"name": "Молот Коцита",
 			"source": "Artes",
 			"page": 15,
 			"level": 0,
@@ -650,7 +650,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -664,13 +664,13 @@
 				}
 			],
 			"entries": [
-				"The next time you hit a creature with a weapon attack during this grand arte's duration, hellishly cold winds surround your foe, encasing them in ice, and the attack deals an additional {@damage 5d8} cold damage to the target. Additionally, if the target is a creature of large size or smaller, it must make a Constitution saving throw or be {@condition restrained} for 1 minute.",
-				"A creature {@condition restrained} by this grand arte can use its action to make a Strength check against your artes save DC. If it succeeds, it is no longer {@condition restrained}. Additionally, if the {@condition restrained} creature takes any amount of fire damage, it is no longer {@condition restrained}.",
-				"This grand arte's damage increases by {@dice 1d8} when you reach 9th level ({@damage 6d8}), and again at 13th ({@damage 7d8}) and 17th ({@damage 8d8})."
+				"В следующий раз, когда вы попадёте по существу атакой оружием в течение действия этого великого искусства, вашего врага окружают адски холодные ветры, заковывая его в лёд, а атака наносит цели дополнительно {@damage 5d8} урона холодом. Кроме того, если цель — существо размера Большой или меньше, оно должно совершить спасбросок Телосложения, иначе становится {@condition restrained} на 1 минуту.",
+				"Существо, ставшее {@condition restrained} от этого великого искусства, может действием совершить проверку силы против Сл ваших искусств. При успехе оно больше не {@condition restrained}. Кроме того, если {@condition restrained} существо получает любой урон огнём, оно больше не {@condition restrained}.",
+				"Урон этого великого искусства увеличивается на {@dice 1d8}, когда вы достигаете 9-го уровня ({@damage 6d8}), и снова на 13-м ({@damage 7d8}) и 17-м ({@damage 8d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "cold damage",
+					"label": "урон холодом",
 					"scaling": {
 						"5": "5d8",
 						"9": "6d8",
@@ -716,7 +716,7 @@
 			"foundryImg": "icons/magic/water/barrier-ice-water-cube.webp"
 		},
 		{
-			"name": "Cometary Collision",
+			"name": "Столкновение с кометой",
 			"source": "Artes",
 			"page": 15,
 			"level": 0,
@@ -739,7 +739,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -753,13 +753,13 @@
 				}
 			],
 			"entries": [
-				"Your weapon thrums menacingly with accumulated potential. The next time you hit a creature of Large size or smaller with a melee weapon attack during this grand arte's duration, your foe is launched away as a deadly projectile. The attack deals an additional {@damage 4d6} thunder damage, and if your target is a creature of large size or smaller, it must succeed on a Strength saving throw or be pushed 30 feet away from you and knocked {@condition prone}.",
-				"Any creatures or objects in the target's path take {@damage 4d6} bludgeoning damage, or half on a successful Dexterity saving throw. If the damage exceeds an {@object Generic Object|DMG|object's hit points} and would destroy it (or destroy a section of it, if the target collides with a wall or similarly large object), the target continues through the object's space.",
-				"This grand arte's initial and secondary damage both increase by {@dice 1d6} when you reach 9th level ({@damage 5d6}), and again at 13th ({@damage 6d6}) and 17th ({@damage 7d6})."
+				"Ваше оружие угрожающе гудит накопленным потенциалом. В следующий раз, когда вы попадёте по существу размера Большой или меньше рукопашной атакой оружием в течение действия этого великого искусства, ваш враг отбрасывается как смертоносный снаряд. атака наносит дополнительно {@damage 4d6} урона звуком, и если ваша цель — существо размера Большой или меньше, оно должно преуспеть в спасброске силы, иначе отталкивается на 30 футов от вас и становится {@condition prone}.",
+				"Любые существа и предметы на пути цели получают {@damage 4d6} дробящего урона, или половину при успешном спасброске Ловкости. Если урон превышает {@object Generic Object|DMG|хиты предмета} и должен уничтожить его (или уничтожить часть его, если цель сталкивается со стеной или аналогично большим предметом), цель продолжает движение через пространство предмета.",
+				"Начальный и вторичный урон этого великого искусства оба увеличиваются на {@dice 1d6}, когда вы достигаете 9-го уровня ({@damage 5d6}), и снова на 13-м ({@damage 6d6}) и 17-м ({@damage 7d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "thunder damage",
+					"label": "урона звуком",
 					"scaling": {
 						"5": "4d6",
 						"9": "5d6",
@@ -768,7 +768,7 @@
 					}
 				},
 				{
-					"label": "bludgeoning damage",
+					"label": "дробящего урона",
 					"scaling": {
 						"5": "4d6",
 						"9": "5d6",
@@ -816,7 +816,7 @@
 			"foundryImg": "icons/magic/sonic/explosion-impact-shock-wave.webp"
 		},
 		{
-			"name": "Conqueror's Glare",
+			"name": "Взор завоевателя",
 			"source": "Artes",
 			"page": 4,
 			"level": 0,
@@ -847,12 +847,12 @@
 				}
 			],
 			"entries": [
-				"You focus your fury into an intimidating stare, assaulting a single enemy with only your battle aura. One creature you can see within range must succeed on a Wisdom saving throw against your artes save DC or take {@damage 1d6} psychic damage and be unable to willingly move toward you until the end of your next turn.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы направляете свою ярость в устрашающий взгляд, атакуя одного врага одной лишь своей боевой аурой. Одно существо, которое вы видите в пределах дальности, должно преуспеть в спасброске Мудрости против Сл ваших искусств, иначе получает {@damage 1d6} психического урона и не может добровольно двигаться к вам до конца вашего следующего хода.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "psychic damage",
+					"label": "психический урон",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -886,7 +886,7 @@
 			"foundryImg": "icons/magic/unholy/silhouette-evil-horned-giant.webp"
 		},
 		{
-			"name": "Converging Echoes",
+			"name": "Сходящиеся эхо",
 			"source": "Artes",
 			"page": 15,
 			"level": 0,
@@ -909,7 +909,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -918,12 +918,12 @@
 				}
 			],
 			"entries": [
-				"You call upon temporal shades of yourself from unrealized timelines to attack your foe, overwhelming their defenses with unavoidable simultaneous attacks from multiple directions. As part of using this grand arte, you make a weapon attack against one creature within range. On a hit, the target suffers the weapon's normal effects. Whether you hit or miss, the target takes {@damage 4d10} damage of your weapon's type and is {@condition stunned} until the end of your next turn. On a successful Constitution saving throw, the target takes half damage and is not {@condition stunned}.",
-				"This grand arte's damage increases by {@dice 1d10} when you reach 9th level ({@damage 5d10}), and again at 13th ({@damage 6d10}) and 17th ({@damage 7d10})."
+				"Вы взываете к временным отражениям себя из неосуществлённых временных линий, чтобы атаковать врага, подавляя его защиту неизбежными одновременными атаками со многих направлений. В рамках использования этого великого искусства вы совершаете атаку оружием по одному существу в пределах дальности. При попадании цель испытывает обычные эффекты оружия. Попадёте вы или промахнётесь, цель получает {@damage 4d10} урона типа вашего оружия и становится {@condition stunned} до конца вашего следующего хода. При успешном спасброске Телосложения цель получает половину урона и не становится {@condition stunned}.",
+				"Урон этого великого искусства увеличивается на {@dice 1d10}, когда вы достигаете 9-го уровня ({@damage 5d10}), и снова на 13-м ({@damage 6d10}) и 17-м ({@damage 7d10})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "weapon damage",
+					"label": "урон оружием",
 					"scaling": {
 						"5": "4d10",
 						"9": "5d10",
@@ -964,7 +964,7 @@
 			"foundryImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp"
 		},
 		{
-			"name": "Corroding Coating",
+			"name": "Разъедающее покрытие",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -984,7 +984,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -997,13 +997,13 @@
 				}
 			],
 			"entries": [
-				"A viscous green slime form itself around your weapon. Chose a target within your weapon's normal range, it must make a dexterity saving throw against your arte save DC or make contact with your weapon. While the slime soften the blow, the acid splashes onto the creature dealing {@damage 1d8} acid damage and softening its armor, lowering its AC by 1 until the beginning of your next turn as the acid loses its potency. The target's AC cannot drop lower than 10 + its dexterity modifier.",
-				"This arte's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8}).",
-				"At 11th level, the AC drop by 2 instead of 1."
+				"Густая зелёная слизь обволакивает ваше оружие. Выберите цель в пределах обычной дальности вашего оружия: она должна совершить спасбросок Ловкости против Сл вашего искусства, иначе соприкоснётся с вашим оружием. Хотя слизь смягчает удар, кислота брызгает на существо, нанося {@damage 1d8} урона кислотой и размягчая его доспех, снижая его КД на 1 до начала вашего следующего хода, пока кислота не потеряет силу. КД цели не может опуститься ниже 10 + её модификатор Ловкости.",
+				"Урон этого искусства увеличивается на {@dice 1d8}, когда вы достигаете 5-го уровня ({@damage 2d8}), 11-го уровня ({@damage 3d8}) и 17-го уровня ({@damage 4d8}).",
+				"На 11-м уровне КД снижается на 2 вместо 1."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "acid damage",
+					"label": "урон кислотой",
 					"scaling": {
 						"1": "1d8",
 						"5": "2d8",
@@ -1037,7 +1037,7 @@
 			"foundryImg": "icons/skills/melee/blade-tip-damaged-acid-green.webp"
 		},
 		{
-			"name": "Cyclone Surge",
+			"name": "Всплеск циклона",
 			"source": "Artes",
 			"page": 4,
 			"level": 0,
@@ -1057,7 +1057,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -1070,13 +1070,13 @@
 				}
 			],
 			"entries": [
-				"You imbue your weapon with elemental wind, delivering an attack that slams your foe with a vicious gale. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and if the target is Large or smaller, it is pushed 5 feet away from you.",
-				"This arte's damage increases when you reach certain levels. At 5th level, the weapon attack deals an extra {@damage 1d8} bludgeoning damage to the target on a hit. This arte's bludgeoning damage increases by {@damage 1d8} at 11th level ({@damage 2d8}) and 17th level ({@damage 3d8}).",
-				"At 11th level, the distance the target is pushed increases from 5 feet to 10 feet."
+				"Вы пропитываете оружие стихийным ветром, нанося удар, который обрушивает на врага свирепый шквал. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, и если цель размера Большой или меньше, она отталкивается на 5 футов от вас.",
+				"Урон этого искусства увеличивается при достижении определённых уровней. На 5-м уровне атака оружием наносит цели при попадании дополнительно {@damage 1d8} дробящего урона. Дробящий урон этого искусства увеличивается на {@damage 1d8} на 11-м уровне ({@damage 2d8}) и 17-м уровне ({@damage 3d8}).",
+				"На 11-м уровне расстояние, на которое отталкивается цель, увеличивается с 5 до 10 футов."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "bludgeoning damage",
+					"label": "дробящего урона",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -1113,7 +1113,7 @@
 			"foundryImg": "icons/magic/air/wind-tornado-spiral-blue-gray.webp"
 		},
 		{
-			"name": "Divine Battlecry",
+			"name": "Божественный боевой клич",
 			"source": "Artes",
 			"page": 16,
 			"level": 0,
@@ -1147,13 +1147,13 @@
 				}
 			],
 			"entries": [
-				"You channel all your might into a supernatural shout that heartens your allies and leaves your foes rattled and disoriented. Each creature of your choice in a 20-foot sphere originating from you must succeed on a Constitution saving throw. On a failed save, the creature takes {@damage 3d6} thunder damage and is demoralized for 1 minute. When a demoralized creature makes an attack roll or saving throw, it must roll a {@dice d4} and subtract the number rolled from the attack roll or saving throw. On a successful save, the creature takes half as much damage and is not demoralized. Creatures immune to the {@condition frightened} condition cannot be demoralized.",
-				"All allies of your choice within the 20-foot sphere gain temporary hit points equal to your character level and cannot be {@condition frightened}. If an ally is {@condition frightened}, that condition is removed for the duration. This grand arte is audible out to 300 feet.",
-				"This grand arte's damage increases by {@dice 1d6} when you reach 9th level ({@damage 4d6}), and again at 13th ({@damage 5d6}) and 17th ({@damage 6d6})."
+				"Вы направляете всю свою мощь в сверхъестественный крик, который ободряет союзников и оставляет врагов потрясёнными и дезориентированными. Каждое выбранное вами существо в 20-футовой сфере, исходящей от вас, должно преуспеть в спасброске Телосложения. При провале существо получает {@damage 3d6} урона звуком и становится деморализованным на 1 минуту. Когда деморализованное существо совершает бросок атаки или спасбросок, оно должно бросить {@dice d4} и вычесть выпавшее число из броска атаки или спасброска. При успехе существо получает половину этого урона и не становится деморализованным. Существа, невосприимчивые к состоянию {@condition frightened}, не могут быть деморализованы.",
+				"Все выбранные вами союзники в пределах 20-футовой сферы получают временные хиты, равные вашему уровню персонажа, и не могут быть {@condition frightened}. Если союзник {@condition frightened}, это состояние снимается на время действия. Это великое искусство слышно на расстоянии до 300 футов.",
+				"Урон этого великого искусства увеличивается на {@dice 1d6}, когда вы достигаете 9-го уровня ({@damage 4d6}), и снова на 13-м ({@damage 5d6}) и 17-м ({@damage 6d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "thunder damage",
+					"label": "урона звуком",
 					"scaling": {
 						"5": "3d6",
 						"9": "4d6",
@@ -1193,7 +1193,7 @@
 			"foundryImg": "icons/magic/sonic/scream-wail-shout-teal.webp"
 		},
 		{
-			"name": "Falling Star",
+			"name": "Падающая звезда",
 			"source": "Artes",
 			"page": 16,
 			"level": 0,
@@ -1223,13 +1223,13 @@
 				}
 			],
 			"entries": [
-				"You infuse your body with cosmic flame and launch yourself at your foes, releasing the energy in a fiery conflagration where you land. Choose an unoccupied space within range. You jump in a straight line to that space without consuming your movement and without provoking opportunity attacks, provided you have clear line of effect to it. All creatures except you in a 20 foot sphere originating from where you land must make a Dexterity saving throw against your artes save DC. A creature takes {@damage 3d8} fire damage and {@damage 3d8} thunder damage on a failed save, or half as much damage on a successful save.",
-				"This grand arte damages objects in the area and ignites flammable objects that aren't being worn or carried. This grand arte is audible out to 300 feet.",
-				"This grand arte's fire damage increases by {@dice 1d8} when you reach 9th level ({@damage 4d8}), and again at 13th ({@damage 5d8}) and 17th ({@damage 6d8})."
+				"Вы наполняете своё тело космическим пламенем и бросаетесь на врагов, высвобождая энергию огненным пожаром в месте приземления. Выберите незанятое пространство в пределах дальности. Вы прыгаете по прямой в это пространство, не расходуя перемещение и не провоцируя провоцированные атаки, при условии, что у вас есть чистая линия эффекта до него. Все существа, кроме вас, в 20-футовой сфере, исходящей от места приземления, должны совершить спасбросок Ловкости против Сл ваших искусств. При провале существо получает {@damage 3d8} урона огнём и {@damage 3d8} урона звуком, или половину этого урона при успехе.",
+				"Это великое искусство повреждает предметы в области и поджигает горючие предметы, которые никто не несёт и не носит. Это великое искусство слышно на расстоянии до 300 футов.",
+				"Урон огнём этого великого искусства увеличивается на {@dice 1d8}, когда вы достигаете 9-го уровня ({@damage 4d8}), и снова на 13-м ({@damage 5d8}) и 17-м ({@damage 6d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "fire damage",
+					"label": "урон огнём",
 					"scaling": {
 						"5": "3d8",
 						"9": "4d8",
@@ -1278,7 +1278,7 @@
 			"foundryImg": "icons/magic/fire/projectile-wave-arrow.webp"
 		},
 		{
-			"name": "Field of Blades",
+			"name": "Поле клинков",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -1299,7 +1299,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -1312,12 +1312,12 @@
 				}
 			],
 			"entries": [
-				"You plunge your weapon into a solid surface, such as the ground or a wall, within 5 feet of you for a second. The weapon can magically penetrate any material but doesn't physically affect or damage it. As your weapon enter the surface, several blades and spikes rise out of the stabbed zone. They fill a 5-foot cube area for the next minute or until you use this arte again, after which it returns to its original state. Any creature in the field of blades when you use this arte must succeed on a Dexterity saving throw or take {@damage 1d8} piercing damage. A creature must also make the saving throw when it moves into the space for the first time on a turn or ends its turn there.",
-				"This arte's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+				"Вы вонзаете оружие в твёрдую поверхность, например в землю или стену, в пределах 5 футов от себя на секунду. Оружие может магически проникнуть в любой материал, но не воздействует на него физически и не повреждает его. Когда оружие входит в поверхность, из пронзённой зоны поднимаются клинки и шипы. Они заполняют область 5-футового куба на следующую минуту или до тех пор, пока вы не используете это искусство снова, после чего всё возвращается в исходное состояние. Любое существо в поле клинков при использовании этого искусства должно преуспеть в спасброске Ловкости, иначе получает {@damage 1d8} колющего урона. Существо также должно совершить спасбросок, когда впервые за ход входит в это пространство или оканчивает в нём свой ход.",
+				"Урон этого искусства увеличивается на {@dice 1d8}, когда вы достигаете 5-го уровня ({@damage 2d8}), 11-го уровня ({@damage 3d8}) и 17-го уровня ({@damage 4d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "piercing damage",
+					"label": "колющего урона",
 					"scaling": {
 						"1": "1d8",
 						"5": "2d8",
@@ -1352,7 +1352,7 @@
 			"foundryImg": "icons/skills/melee/blade-tips-triple-bent-white.webp"
 		},
 		{
-			"name": "Flames of Punishment",
+			"name": "Пламя кары",
 			"source": "Artes",
 			"page": 5,
 			"level": 0,
@@ -1373,7 +1373,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -1386,12 +1386,12 @@
 				}
 			],
 			"entries": [
-				"Flames fly from your weapon and surround your foe, floating menacingly around them, ready to strike if they dare to attack your allies. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and becomes surrounded by flickering flames until the start of your next turn. If the target deals damage to a creature other than you before then, the target takes damage equal to your arte ability modifier, and the arte ends.",
-				"This arte's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} fire damage to the target on a hit, and the damage the target takes for attacking increases to {@damage 1d8} + your arte ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and again at 17th level ({@damage 3d8} and {@damage 3d8})."
+				"От вашего оружия отлетает пламя и окружает врага, угрожающе паря вокруг него, готовое ударить, если он осмелится атаковать ваших союзников. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием и оказывается окружена мерцающим пламенем до начала вашего следующего хода. Если до этого цель нанесёт урон существу, кроме вас, она получает урон, равный модификатору характеристики вашего искусства, и искусство заканчивается.",
+				"Урон этого искусства увеличивается при достижении определённых уровней. На 5-м уровне рукопашная атака наносит цели при попадании дополнительно {@damage 1d8} урона огнём, а урон, получаемый целью за атаку, увеличивается до {@damage 1d8} + модификатор характеристики вашего искусства. Оба броска урона увеличиваются на {@damage 1d8} на 11-м уровне ({@damage 2d8} и {@damage 2d8}) и снова на 17-м ({@damage 3d8} и {@damage 3d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "fire damage on attacking another target",
+					"label": "урон огнём при атаке другой цели",
 					"scaling": {
 						"1": "{{spellcasting_mod}}",
 						"5": "1d8 + {{spellcasting_mod}}",
@@ -1400,7 +1400,7 @@
 					}
 				},
 				{
-					"label": "fire damage on hit",
+					"label": "урон огнём при попадании",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -1439,7 +1439,7 @@
 			"foundryImg": "icons/magic/fire/flame-burning-chain.webp"
 		},
 		{
-			"name": "Frigid Blade",
+			"name": "Ледяной клинок",
 			"source": "Artes",
 			"page": 5,
 			"level": 0,
@@ -1459,7 +1459,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -1472,13 +1472,13 @@
 				}
 			],
 			"entries": [
-				"A layer of frost forms on your weapon and spreads onto your target when you strike, hindering their movement. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and its speed is reduced by 10 feet until the start of your next turn.",
-				"Starting at 5th level, this arte's weapon attack deals an additional {@damage 1d8} cold damage. This arte's cold damage increases by {@dice 1d8} at 11th level ({@damage 2d8}) and again at 17th level ({@damage 3d8}).",
-				"At 11th level, the target's speed is reduced by 20 feet instead of 10."
+				"На вашем оружии образуется слой изморози, который переходит на цель при ударе, затрудняя её перемещение. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, и её скорость снижается на 10 футов до начала вашего следующего хода.",
+				"Начиная с 5-го уровня атака оружием этого искусства наносит дополнительно {@damage 1d8} урона холодом. Урон холодом этого искусства увеличивается на {@dice 1d8} на 11-м уровне ({@damage 2d8}) и снова на 17-м ({@damage 3d8}).",
+				"На 11-м уровне скорость цели снижается на 20 футов вместо 10."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "cold damage",
+					"label": "урон холодом",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -1515,7 +1515,7 @@
 			"foundryImg": "icons/magic/water/strike-weapon-blade-ice-blue.webp"
 		},
 		{
-			"name": "Gravity Pull",
+			"name": "Гравитационное притяжение",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -1536,7 +1536,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -1545,12 +1545,12 @@
 				}
 			],
 			"entries": [
-				"You charge your weapon with raw energy and unleash it above you in a pulse of black energy, causing the air surrounding it to be drawn to you. All creatures and objects within 10 feet from you but at least 5 feet away from you must succeed on a Strength saving throw or take {@damage 1d4} bludgeoning damage and be pulled 5 feet toward you.",
-				"This arte's damage increases by {@dice 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
+				"Вы заряжаете оружие чистой энергией и высвобождаете её над собой импульсом чёрной энергии, заставляя окружающий воздух стремиться к вам. Все существа и предметы в пределах 10 футов от вас, но не ближе 5 футов, должны преуспеть в спасброске силы, иначе получают {@damage 1d4} дробящего урона и притягиваются на 5 футов к вам.",
+				"Урон этого искусства увеличивается на {@dice 1d4}, когда вы достигаете 5-го уровня ({@damage 2d4}), 11-го уровня ({@damage 3d4}) и 17-го уровня ({@damage 4d4})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "bludgeoning damage",
+					"label": "дробящего урона",
 					"scaling": {
 						"1": "1d4",
 						"5": "2d4",
@@ -1587,7 +1587,7 @@
 			"foundryImg": "icons/magic/unholy/orb-beam-pink.webp"
 		},
 		{
-			"name": "Green-Flame Blade",
+			"name": "Клинок зелёного пламени",
 			"source": "Artes",
 			"page": 2,
 			"level": 0,
@@ -1607,7 +1607,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -1616,12 +1616,12 @@
 				}
 			],
 			"entries": [
-				"You brandish the weapon used in the arte's casting and make a melee attack with it against one creature. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your arte ability modifier.",
-				"This arte's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} fire damage to the target on a hit, and the fire damage to the second creature increases to {@damage 1d8} + your arte ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and 17th level ({@damage 3d8} and {@damage 3d8})."
+				"Вы потрясаете оружием, использованным для сотворения искусства, и совершаете им рукопашную атаку по одному существу. При попадании цель испытывает обычные эффекты атаки оружием, и вы можете заставить зелёный огонь перескочить с цели на другое выбранное вами существо, которое видите в пределах 5 футов от неё. Второе существо получает урон огнём, равный модификатору характеристики вашего искусства.",
+				"Урон этого искусства увеличивается при достижении определённых уровней. На 5-м уровне рукопашная атака наносит цели при попадании дополнительно {@damage 1d8} урона огнём, а урон огнём по второму существу увеличивается до {@damage 1d8} + модификатор характеристики вашего искусства. Оба броска урона увеличиваются на {@damage 1d8} на 11-м уровне ({@damage 2d8} и {@damage 2d8}) и 17-м уровне ({@damage 3d8} и {@damage 3d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "fire damage to secondary creature",
+					"label": "урон огнём по второму существу",
 					"scaling": {
 						"1": "{{spellcasting_mod}}",
 						"5": "1d8 + {{spellcasting_mod}}",
@@ -1630,7 +1630,7 @@
 					}
 				},
 				{
-					"label": "fire damage on hit",
+					"label": "урон огнём при попадании",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -1671,7 +1671,7 @@
 			"foundryImg": "icons/weapons/swords/greatsword-evil-green.webp"
 		},
 		{
-			"name": "Illusionary Phantom",
+			"name": "Иллюзорный фантом",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -1691,7 +1691,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -1704,12 +1704,12 @@
 				}
 			],
 			"entries": [
-				"You focus magic into your weapon to create a reflection of yourself next to you. The reflection is an illusion that will follow and copy your movements until the beginning of your next turn or you are attacked. The next creature that attacks you must make an intelligence saving throw against your arte save DC or else the attack will hit the reflection instead of you, causing it to deals {@damage 1d6} psychic damage to the attacker as it shatter.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы направляете магию в своё оружие, создавая рядом с собой собственное отражение. Отражение — иллюзия, которая следует за вами и повторяет ваши движения до начала вашего следующего хода или до тех пор, пока по вам не атакуют. Следующее существо, атакующее вас, должно совершить спасбросок Интеллекта против Сл вашего искусства, иначе атака попадёт в отражение вместо вас, и оно, разлетаясь, нанесёт атакующему {@damage 1d6} психического урона.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "psychic damage",
+					"label": "психический урон",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -1739,7 +1739,7 @@
 			"foundryImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp"
 		},
 		{
-			"name": "Knight's Litany",
+			"name": "Литания рыцаря",
 			"source": "Artes",
 			"page": 6,
 			"level": 0,
@@ -1760,7 +1760,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -1773,12 +1773,12 @@
 				}
 			],
 			"entries": [
-				"You speak a prayer that infuses your weapon and your body with sacred light that bolsters your resistances. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and if the target is a worthy foe, you gain a {@dice d4} that lasts for 1 minute. You can roll the die and add the number rolled to an ability check or saving throw. Once the die is rolled, it is lost. You can only have one die from this arte at a time.",
-				"Starting at 5th level, this arte's weapon attack deals an additional {@damage 1d6} radiant damage. This arte's radiant damage increases by {@dice 1d6} at 11th level ({@damage 2d6}) and again at 17th level ({@damage 3d6})."
+				"Вы произносите молитву, которая наполняет ваше оружие и тело святым светом, укрепляя ваши сопротивления. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, и если цель — достойный противник, вы получаете {@dice d4}, действующий 1 минуту. Вы можете бросить эту кость и добавить выпавшее число к проверке характеристики или спасброску. После броска кость теряется. Одновременно у вас может быть только одна кость от этого искусства.",
+				"Начиная с 5-го уровня атака оружием этого искусства наносит дополнительно {@damage 1d6} урона излучением. Урон излучением этого искусства увеличивается на {@dice 1d6} на 11-м уровне ({@damage 2d6}) и снова на 17-м ({@damage 3d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "radiant damage",
+					"label": "урон излучением",
 					"scaling": {
 						"5": "1d6",
 						"11": "2d6",
@@ -1815,7 +1815,7 @@
 			"foundryImg": "icons/skills/melee/sword-winged-holy-orange.webp"
 		},
 		{
-			"name": "Life Siphoning Strike",
+			"name": "Удар вытягивания жизни",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -1835,7 +1835,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -1848,12 +1848,12 @@
 				}
 			],
 			"entries": [
-				"Your weapon begins to emit a sinister red aura. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and if the creature is small or larger and is neither a construct or undead, you regain a number of hit points equal to your arte ability modifier (minimum 1) if it dies before the beginning of your next turn. While under this effect, the creature's wound emit the same aura as the weapon.",
-				"This arte's damage and healing increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d4} necrotic damage to the target on a hit, and the healing increases to {@damage 1d4} + your arte ability modifier. Both rolls increase by {@damage 1d4} at 11th level ({@damage 2d4} and {@dice 2d4}) and 17th level ({@damage 3d4} and {@dice 3d4})."
+				"Ваше оружие начинает испускать зловещую красную ауру. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, и если существо размера Маленький или больше и не является конструктом или нежитью, вы восстанавливаете количество хитов, равное модификатору характеристики вашего искусства (минимум 1), если оно умирает до начала вашего следующего хода. Пока действует этот эффект, раны существа испускают ту же ауру, что и оружие.",
+				"Урон и лечение этого искусства увеличиваются при достижении определённых уровней. На 5-м уровне рукопашная атака наносит цели при попадании дополнительно {@damage 1d4} некротического урона, а лечение увеличивается до {@damage 1d4} + модификатор характеристики вашего искусства. Оба броска увеличиваются на {@damage 1d4} на 11-м уровне ({@damage 2d4} и {@dice 2d4}) и 17-м уровне ({@damage 3d4} и {@dice 3d4})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "hit points",
+					"label": "хиты",
 					"scaling": {
 						"1": "{{spellcasting_mod}}",
 						"5": "1d4 + {{spellcasting_mod}}",
@@ -1862,7 +1862,7 @@
 					}
 				},
 				{
-					"label": "necrotic damage",
+					"label": "некротический урон",
 					"scaling": {
 						"5": "1d4",
 						"11": "2d4",
@@ -1898,7 +1898,7 @@
 			"foundryImg": "icons/skills/melee/strike-axe-red.webp"
 		},
 		{
-			"name": "Lightning Blitz",
+			"name": "Молниеносный наскок",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -1918,7 +1918,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -1931,13 +1931,13 @@
 				}
 			],
 			"entries": [
-				"You sheath your weapon charged with lightning and ready yourself for a swift counter attack. When a creature you can see in your weapon's range moves or makes an attack, you can use your reaction to instantly unsheathe your weapon and make a melee weapon attack. On a hit, the target suffers the weapon's normal effects and takes an additional {@damage 1d10} lightning damage.",
-				"You cannot make weapon attacks on your turn while this arte is active.",
-				"This arte's damage increases by {@dice 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
+				"Вы вкладываете оружие, заряженное молнией, в ножны и готовитесь к стремительной контратаке. Когда существо, которое вы видите в пределах дальности вашего оружия, перемещается или совершает атаку, вы можете реакцией мгновенно выхватить оружие и совершить рукопашную атаку оружием. При попадании цель испытывает обычные эффекты оружия и получает дополнительно {@damage 1d10} урона электричеством.",
+				"Пока это искусство активно, вы не можете совершать атаки оружием в свой ход.",
+				"Урон этого искусства увеличивается на {@dice 1d10}, когда вы достигаете 5-го уровня ({@damage 2d10}), 11-го уровня ({@damage 3d10}) и 17-го уровня ({@damage 4d10})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "lightning damage",
+					"label": "урон электричеством",
 					"scaling": {
 						"1": "1d10",
 						"5": "1d10",
@@ -1961,7 +1961,7 @@
 			"foundryImg": "icons/magic/lightning/bolt-beam-strike-blue.webp"
 		},
 		{
-			"name": "Lightning Lure",
+			"name": "Притяжение молний",
 			"source": "Artes",
 			"page": 2,
 			"level": 0,
@@ -1988,11 +1988,11 @@
 				}
 			],
 			"entries": [
-				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take {@damage 1d8} lightning damage if it is within 5 feet of you.",
-				"This arte's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+				"Вы создаёте хлыст из энергии молнии, который бьёт по одному выбранному вами существу, которое вы видите в пределах 15 футов от вас. Цель должна преуспеть в спасброске силы, иначе её притягивает по прямой до 10 футов к вам, и затем она получает {@damage 1d8} урона электричеством, если находится в пределах 5 футов от вас.",
+				"Урон этого искусства увеличивается на {@dice 1d8}, когда вы достигаете 5-го уровня ({@damage 2d8}), 11-го уровня ({@damage 3d8}) и 17-го уровня ({@damage 4d8})."
 			],
 			"scalingLevelDice": {
-				"label": "lightning damage",
+				"label": "урон электричеством",
 				"scaling": {
 					"1": "1d8",
 					"5": "2d8",
@@ -2029,7 +2029,7 @@
 			"foundryImg": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
 		},
 		{
-			"name": "Maelstrom Blade",
+			"name": "Клинок водоворота",
 			"source": "Artes",
 			"page": 17,
 			"level": 0,
@@ -2053,7 +2053,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -2066,12 +2066,12 @@
 				}
 			],
 			"entries": [
-				"Elemental energies surge forth as a devastating wave and linger on your weapon. You choose cold, fire, or lightning, and all creatures of your choice within 20 feet of you must succeed on a Dexterity saving throw against your Artes save DC or take {@damage 3d6} damage of that type, or half on a successful save. For 1 minute, one weapon you are holding deals an additional {@damage 1d6} damage of that type on a hit. This effect ends if you drop that weapon.",
-				"This grand arte's initial damage increases by {@dice 1d6} when you reach 9th level ({@damage 4d6}), and again at 13th ({@damage 5d6}) and 17th ({@damage 6d6})."
+				"Стихийные энергии вырываются сокрушительной волной и задерживаются на вашем оружии. Вы выбираете холод, огонь или электричество: все выбранные вами существа в пределах 20 футов от вас должны преуспеть в спасброске Ловкости против Сл ваших искусств, иначе получают {@damage 3d6} урона этого типа, или половину при успехе. В течение 1 минуты одно оружие, которое вы держите, наносит дополнительно {@damage 1d6} урона этого типа при попадании. Этот эффект заканчивается, если вы выпускаете это оружие из рук.",
+				"Начальный урон этого великого искусства увеличивается на {@dice 1d6}, когда вы достигаете 9-го уровня ({@damage 4d6}), и снова на 13-м ({@damage 5d6}) и 17-м ({@damage 6d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "cold damage",
+					"label": "урон холодом",
 					"scaling": {
 						"5": "3d6",
 						"9": "4d6",
@@ -2080,7 +2080,7 @@
 					}
 				},
 				{
-					"label": "fire damage",
+					"label": "урон огнём",
 					"scaling": {
 						"5": "3d6",
 						"9": "4d6",
@@ -2089,7 +2089,7 @@
 					}
 				},
 				{
-					"label": "lightning damage",
+					"label": "урон электричеством",
 					"scaling": {
 						"5": "3d6",
 						"9": "4d6",
@@ -2147,7 +2147,7 @@
 			"foundryImg": "icons/skills/melee/sword-stuck-glowing-pink.webp"
 		},
 		{
-			"name": "Magmatic Blast",
+			"name": "Магматический взрыв",
 			"source": "Artes",
 			"page": 17,
 			"level": 0,
@@ -2171,7 +2171,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -2180,13 +2180,13 @@
 				}
 			],
 			"entries": [
-				"You channel fiery energy into your weapon and strike the ground, spreading that energy out where it explosively erupts and launches your foes skyward. Each creature and object in a line 60 feet long, 5 feet wide, and 15 feet high must succeed on a Dexterity saving throw. On a failed save, the creature takes {@damage 4d8} fire damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and is not knocked {@condition prone}.",
-				"This grand arte damages objects in the area and ignites flammable objects that aren't being worn or carried.",
-				"This grand arte's damage increases by {@dice 1d8} when you reach 9th level ({@damage 5d8}), and again at 13th ({@damage 6d8}) and 17th ({@damage 7d8})."
+				"Вы направляете огненную энергию в своё оружие и бьёте по земле, распространяя эту энергию, которая взрывается и подбрасывает врагов в воздух. Каждое существо и предмет в линии длиной 60 футов, шириной 5 футов и высотой 15 футов должны преуспеть в спасброске Ловкости. При провале существо получает {@damage 4d8} урона огнём и становится {@condition prone}. При успехе существо получает половину этого урона и не становится {@condition prone}.",
+				"Это великое искусство повреждает предметы в области и поджигает горючие предметы, которые никто не несёт и не носит.",
+				"Урон этого великого искусства увеличивается на {@dice 1d8}, когда вы достигаете 9-го уровня ({@damage 5d8}), и снова на 13-м ({@damage 6d8}) и 17-м ({@damage 7d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "fire damage",
+					"label": "урон огнём",
 					"scaling": {
 						"5": "4d8",
 						"9": "5d8",
@@ -2228,7 +2228,7 @@
 			"foundryImg": "icons/magic/earth/explosion-lava-stone-orange.webp"
 		},
 		{
-			"name": "Maledictor's Smite",
+			"name": "Кара злоречивого",
 			"source": "Artes",
 			"page": 6,
 			"level": 0,
@@ -2249,7 +2249,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -2262,12 +2262,12 @@
 				}
 			],
 			"entries": [
-				"You speak a condemnation that ignites your weapon in black flame, which inflicts a curse that weakens your foe's resistances. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and the next time it rolls a saving throw before the end of your next turn, it must roll a {@dice d4} and subtract the number rolled from that saving throw.",
-				"Starting at 5th level, this arte's weapon attack deals an additional {@damage 1d6} necrotic damage. This arte's necrotic damage increases by {@dice 1d6} at 11th level ({@damage 2d6}) and again at 17th level ({@damage 3d6})."
+				"Вы произносите проклятие, которое зажигает ваше оружие чёрным пламенем, насылающим проклятие, ослабляющее сопротивления врага. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, и в следующий раз, когда она совершает спасбросок до конца вашего следующего хода, она должна бросить {@dice d4} и вычесть выпавшее число из этого спасброска.",
+				"Начиная с 5-го уровня атака оружием этого искусства наносит дополнительно {@damage 1d6} некротического урона. Некротический урон этого искусства увеличивается на {@dice 1d6} на 11-м уровне ({@damage 2d6}) и снова на 17-м ({@damage 3d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "necrotic damage",
+					"label": "некротический урон",
 					"scaling": {
 						"5": "1d6",
 						"11": "2d6",
@@ -2304,7 +2304,7 @@
 			"foundryImg": "icons/magic/death/weapon-sword-skull-purple.webp"
 		},
 		{
-			"name": "Mantle of Mist",
+			"name": "Мантия тумана",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -2324,7 +2324,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -2337,12 +2337,12 @@
 				}
 			],
 			"entries": [
-				"You whirl your weapon around yourself as it grows cold enough to turn the air around you into a thick mist that follows you. The space that you occupy become heavily obscured. The cloud dissipates at the beginning of your next turn or after you make an attack or are attacked. While the mist is present, your next attack deal an extra {@damage 1d6} cold damage.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы вращаете оружием вокруг себя, и оно становится настолько холодным, что превращает воздух вокруг вас в густой туман, следующий за вами. Занимаемое вами пространство становится сильно заслонённым. Облако рассеивается в начале вашего следующего хода или после того, как вы совершите атаку или по вам атакуют. Пока туман присутствует, ваша следующая атака наносит дополнительно {@damage 1d6} урона холодом.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "cold damage",
+					"label": "урон холодом",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -2370,7 +2370,7 @@
 			"foundryImg": "icons/magic/air/wind-vortex-swirl-blue-purple.webp"
 		},
 		{
-			"name": "Parting Blaze",
+			"name": "Прощальное пламя",
 			"source": "Artes",
 			"page": 6,
 			"level": 0,
@@ -2390,7 +2390,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -2399,13 +2399,13 @@
 				}
 			],
 			"entries": [
-				"A billowing flame erupts from your weapon, obscuring your position from your foe. Make a melee weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects, and you can move up to 15 feet without consuming movement and without provoking an opportunity attack from your target.",
-				"Starting at 5th level, this arte's weapon attack deals an additional {@damage 1d8} fire damage. This arte's fire damage increases by {@dice 1d8} at 11th level ({@damage 2d8}) and again at 17th level ({@damage 3d8}).",
-				"At 11th level, you can teleport up to 15 feet instead of moving."
+				"Из вашего оружия вырывается клубящееся пламя, скрывающее вашу позицию от врага. Совершите рукопашную атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, и вы можете переместиться на расстояние до 15 футов, не расходуя перемещение и не провоцируя провоцированную атаку от вашей цели.",
+				"Начиная с 5-го уровня атака оружием этого искусства наносит дополнительно {@damage 1d8} урона огнём. Урон огнём этого искусства увеличивается на {@dice 1d8} на 11-м уровне ({@damage 2d8}) и снова на 17-м ({@damage 3d8}).",
+				"На 11-м уровне вы можете телепортироваться на расстояние до 15 футов вместо перемещения."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "fire damage",
+					"label": "урон огнём",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -2445,7 +2445,7 @@
 			"foundryImg": "icons/magic/fire/explosion-embers-evade-silhouette.webp"
 		},
 		{
-			"name": "Razor Gale",
+			"name": "Бритвенный шквал",
 			"source": "Artes",
 			"page": 7,
 			"level": 0,
@@ -2466,7 +2466,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -2475,12 +2475,12 @@
 				}
 			],
 			"entries": [
-				"You channel immense power into your weapon and then swing it, unleashing a focused burst of force. Make a ranged arte attack against one creature or object you can see within range. On a hit, the target takes {@damage 1d10} force damage.",
-				"This arte's damage increases by {@dice 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
+				"Вы направляете огромную мощь в своё оружие, а затем взмахиваете им, высвобождая сосредоточенный всплеск силы. Совершите дальнобойную атаку искусством по одному существу или предмету, которые вы видите в пределах дальности. При попадании цель получает {@damage 1d10} силового урона.",
+				"Урон этого искусства увеличивается на {@dice 1d10}, когда вы достигаете 5-го уровня ({@damage 2d10}), 11-го уровня ({@damage 3d10}) и 17-го уровня ({@damage 4d10})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "force damage",
+					"label": "урона силовым полем",
 					"scaling": {
 						"1": "1d10",
 						"5": "2d10",
@@ -2516,7 +2516,7 @@
 			"foundryImg": "icons/skills/melee/strike-polearm-glowing-white.webp"
 		},
 		{
-			"name": "Ricochet Shield",
+			"name": "Рикошетящий щит",
 			"source": "Artes",
 			"page": 17,
 			"level": 0,
@@ -2540,7 +2540,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a shield"
+					"text": "щит"
 				}
 			},
 			"duration": [
@@ -2549,13 +2549,13 @@
 				}
 			],
 			"entries": [
-				"You infuse your shield with your ki and throw it, transforming it into an extension of your will that seeks out your enemies. Choose one target within range. You can then choose up to three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object, and can be targeted only once.",
-				"A target must succeed on a Dexterity saving throw. The target takes {@damage 3d6} bludgeoning damage plus your Artes ability modifier on a failed save, or half as much damage on a successful one. Your shield then returns to your hand.",
-				"This arte's damage increases by {@dice 1d6} and the number of secondary targets increases by 1 when you reach 9th level ({@damage 4d6} and 4), and again at 13th ({@damage 5d6} and 5) and 17th ({@damage 6d6} and 6)."
+				"Вы наполняете щит своей ки и бросаете его, превращая в продолжение своей воли, которое разыскивает врагов. Выберите одну цель в пределах дальности. Затем вы можете выбрать до трёх других целей, каждая из которых должна находиться в пределах 30 футов от первой цели. Целью может быть существо или предмет, и каждая может быть выбрана только один раз.",
+				"Цель должна преуспеть в спасброске Ловкости. При провале цель получает {@damage 3d6} дробящего урона плюс модификатор характеристики ваших искусств, или половину этого урона при успехе. После этого ваш щит возвращается вам в руку.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, а число второстепенных целей — на 1, когда вы достигаете 9-го уровня ({@damage 4d6} и 4), и снова на 13-м ({@damage 5d6} и 5) и 17-м ({@damage 6d6} и 6)."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "bludgeoning damage",
+					"label": "дробящего урона",
 					"scaling": {
 						"5": "3d6 + {{spellcasting_mod}}",
 						"9": "4d6 + {{spellcasting_mod}}",
@@ -2601,7 +2601,7 @@
 			"foundryImg": "icons/magic/light/beam-impact-deflect-teal.webp"
 		},
 		{
-			"name": "Ride the Lightning",
+			"name": "Оседлать молнию",
 			"source": "Artes",
 			"page": 18,
 			"level": 0,
@@ -2631,12 +2631,12 @@
 				}
 			],
 			"entries": [
-				"You transform into living lightning and charge unhindered through your foes. You move up to 60 feet without consuming movement, you do not provoke opportunity attacks while moving in this way, and you can pass through creatures, but you cannot end your movement in a creature's space. Any creature of your choice whose space you pass through or move within 5 feet of takes {@damage 3d8} lightning damage, or half on a successful Dexterity saving throw. A creature can only be affected by this grand arte once per turn.",
-				"This grand arte's damage increases by {@dice 1d8} when you reach 9th level ({@damage 4d8}), and again at 13th ({@damage 5d8}) and 17th ({@damage 6d8})."
+				"Вы превращаетесь в живую молнию и несётесь, не встречая препятствий, сквозь врагов. Вы перемещаетесь на расстояние до 60 футов, не расходуя перемещение, не провоцируете провоцированные атаки при таком перемещении и можете проходить сквозь существ, но не можете окончить перемещение в пространстве существа. Любое выбранное вами существо, через пространство которого вы проходите или рядом с чьим пространством оказываетесь в пределах 5 футов, получает {@damage 3d8} урона электричеством, или половину при успешном спасброске Ловкости. Существо может быть затронуто этим великим искусством только один раз за ход.",
+				"Урон этого великого искусства увеличивается на {@dice 1d8}, когда вы достигаете 9-го уровня ({@damage 4d8}), и снова на 13-м ({@damage 5d8}) и 17-м ({@damage 6d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "lightning damage",
+					"label": "урон электричеством",
 					"scaling": {
 						"5": "3d8",
 						"9": "4d8",
@@ -2678,7 +2678,7 @@
 			"foundryImg": "icons/magic/movement/trail-streak-zigzag-teal.webp"
 		},
 		{
-			"name": "Round Trip",
+			"name": "Возврат",
 			"source": "Artes",
 			"page": 18,
 			"level": 0,
@@ -2702,7 +2702,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -2716,13 +2716,13 @@
 				}
 			],
 			"entries": [
-				"You imbue a weapon with your will and throw it, turning it into a deadly whirling trap for anyone foolish enough to draw near. Your weapon flies to an unoccupied space within range. For the duration, any creature that ends its turn within 10 feet of the weapon must make a Dexterity saving throw. The creature takes {@damage 2d10} damage of your weapon's type on a failed save, or half as much damage on a successful save.",
-				"As a bonus action, you can move your weapon up to 30 feet. If you move the weapon into a creature's space, that creature must make the saving throw against the weapon's damage, and the weapon stops moving this turn. When this grand arte ends, the weapon returns to your hand. If you don't have a free hand to catch it, it lands at your feet instead.",
-				"This grand arte's damage increases by {@dice 1d10} when you reach 9th level ({@damage 3d10}), and again at 13th ({@damage 4d10}) and 17th ({@damage 5d10})."
+				"Вы наполняете оружие своей волей и бросаете его, превращая в смертоносную кружащуюся ловушку для любого глупца, что осмелится подойти. Ваше оружие летит в незанятое пространство в пределах дальности. На время действия любое существо, оканчивающее свой ход в пределах 10 футов от оружия, должно совершить спасбросок Ловкости. При провале существо получает {@damage 2d10} урона типа вашего оружия, или половину этого урона при успехе.",
+				"Бонусным действием вы можете переместить оружие на расстояние до 30 футов. Если вы перемещаете оружие в пространство существа, это существо должно совершить спасбросок против урона оружия, а оружие в этом ходу перестаёт двигаться. Когда это великое искусство заканчивается, оружие возвращается вам в руку. Если у вас нет свободной руки, чтобы его поймать, оно падает вам под ноги.",
+				"Урон этого великого искусства увеличивается на {@dice 1d10}, когда вы достигаете 9-го уровня ({@damage 3d10}), и снова на 13-м ({@damage 4d10}) и 17-м ({@damage 5d10})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "weapon damage",
+					"label": "урон оружием",
 					"scaling": {
 						"5": "2d10",
 						"9": "3d10",
@@ -2761,7 +2761,7 @@
 			"foundryImg": "icons/magic/movement/pinwheel-turning-blue.webp"
 		},
 		{
-			"name": "Ruinous Rime",
+			"name": "Губительная изморозь",
 			"source": "Artes",
 			"page": 6,
 			"level": 0,
@@ -2781,7 +2781,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -2794,12 +2794,12 @@
 				}
 			],
 			"entries": [
-				"Swirling cold envelopes your weapon, spreading a numbing chill to your target when you strike. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and the next time it makes an attack before the end of your next turn, it must roll a {@dice d4} and subtract the number rolled from that attack roll.",
-				"Starting at 5th level, this arte's weapon attack deals an additional {@damage 1d8} cold damage. This arte's cold damage increases by {@dice 1d8} at 11th level ({@damage 2d8}) and again at 17th level ({@damage 3d8})."
+				"Кружащийся холод охватывает ваше оружие, распространяя онемящий мороз на цель при ударе. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, и в следующий раз, когда она совершает атаку до конца вашего следующего хода, она должна бросить {@dice d4} и вычесть выпавшее число из этого броска атаки.",
+				"Начиная с 5-го уровня атака оружием этого искусства наносит дополнительно {@damage 1d8} урона холодом. Урон холодом этого искусства увеличивается на {@dice 1d8} на 11-м уровне ({@damage 2d8}) и снова на 17-м ({@damage 3d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "cold damage",
+					"label": "урон холодом",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -2836,7 +2836,7 @@
 			"foundryImg": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp"
 		},
 		{
-			"name": "Sea of Swords",
+			"name": "Море мечей",
 			"source": "Artes",
 			"page": 19,
 			"level": 0,
@@ -2860,7 +2860,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -2869,12 +2869,12 @@
 				}
 			],
 			"entries": [
-				"With a swing of your weapon, you manifest spectral swords that spin and slice and stab in all directions, from all directions, until there is no space that is not a sword. Each creature in a 30-foot cube originating from you must succeed on a Dexterity saving throw or take {@damage 5d6} force damage, or half on a successful save.",
-				"This grand arte's damage increases by {@dice 1d6} when you reach 9th level ({@damage 6d6}), and again at 13th ({@damage 7d6}) and 17th ({@damage 8d6})."
+				"Взмахом оружия вы создаёте призрачные мечи, которые кружатся, режут и колют во всех направлениях и со всех направлений, пока не остаётся ни одного пространства, где нет меча. Каждое существо в 30-футовом кубе, исходящем от вас, должно преуспеть в спасброске Ловкости, иначе получает {@damage 5d6} силового урона, или половину при успехе.",
+				"Урон этого великого искусства увеличивается на {@dice 1d6}, когда вы достигаете 9-го уровня ({@damage 6d6}), и снова на 13-м ({@damage 7d6}) и 17-м ({@damage 8d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "force damage",
+					"label": "урона силовым полем",
 					"scaling": {
 						"5": "5d6",
 						"9": "6d6",
@@ -2912,7 +2912,7 @@
 			"foundryImg": "icons/magic/holy/projectiles-blades-salvo-yellow.webp"
 		},
 		{
-			"name": "Second Surge",
+			"name": "Второй всплеск",
 			"source": "Artes",
 			"page": 7,
 			"level": 0,
@@ -2932,7 +2932,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -2945,12 +2945,12 @@
 				}
 			],
 			"entries": [
-				"Your attack infuses your target with deadly crackling energy that discharges when your ally follows up. You brandish the weapon used in the arte's casting and make a weapon attack with it against one creature or object. On a hit, the target suffers the weapon attack's normal effects and becomes suffused with lightning. The next time the target is hit with a weapon attack by any creature except you before the start of your next turn, it takes lightning damage equal to your arte ability modifier, and the arte ends.",
-				"This arte's damage increases when you reach certain levels. At 5th level, the initial weapon attack deals an extra {@damage 1d8} lightning damage to the target on a hit, and the lightning damage on the second hit increases to {@damage 1d8} + your arte ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and 17th level ({@damage 3d8} and {@damage 3d8})."
+				"Ваша атака наполняет цель смертоносной потрескивающей энергией, которая разряжается, когда союзник наносит завершающий удар. Вы потрясаете оружием, использованным для сотворения искусства, и совершаете им атаку оружием по одному существу или предмету. При попадании цель испытывает обычные эффекты атаки оружием и пропитывается молниями. В следующий раз, когда цель получает попадание атакой оружием от любого существа, кроме вас, до начала вашего следующего хода, она получает урон электричеством, равный модификатору характеристики вашего искусства, и искусство заканчивается.",
+				"Урон этого искусства увеличивается при достижении определённых уровней. На 5-м уровне изначальная атака оружием наносит цели при попадании дополнительно {@damage 1d8} урона электричеством, а урон электричеством при втором попадании увеличивается до {@damage 1d8} + модификатор характеристики вашего искусства. Оба броска урона увеличиваются на {@damage 1d8} на 11-м уровне ({@damage 2d8} и {@damage 2d8}) и 17-м уровне ({@damage 3d8} и {@damage 3d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "lightning damage from third creature",
+					"label": "урон электричеством от третьего существа",
 					"scaling": {
 						"1": "{{spellcasting_mod}}",
 						"5": "1d8 + {{spellcasting_mod}}",
@@ -2959,7 +2959,7 @@
 					}
 				},
 				{
-					"label": "lightning damage on hit",
+					"label": "урон электричеством при попадании",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -2999,7 +2999,7 @@
 			"foundryImg": "icons/weapons/swords/sword-flanged-lightning.webp"
 		},
 		{
-			"name": "Sentry's Levin",
+			"name": "Молния стража",
 			"source": "Artes",
 			"page": 7,
 			"level": 0,
@@ -3019,7 +3019,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -3028,12 +3028,12 @@
 				}
 			],
 			"entries": [
-				"You infuse your weapon with lightning that jolts and staggers your foe. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon's normal effects and it can't take reactions until the start of its next turn.",
-				"Starting at 5th level, this arte's weapon attack deals an additional {@damage 1d10} lightning damage. This arte's lightning damage increases by {@dice 1d10} at 11th level ({@damage 2d10}) and again at 17th level ({@damage 3d10})."
+				"Вы наполняете оружие молнией, которая бьёт и ошеломляет врага. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты оружия и не может совершать реакции до начала своего следующего хода.",
+				"Начиная с 5-го уровня атака оружием этого искусства наносит дополнительно {@damage 1d10} урона электричеством. Урон электричеством этого искусства увеличивается на {@dice 1d10} на 11-м уровне ({@damage 2d10}) и снова на 17-м ({@damage 3d10})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "lightning damage",
+					"label": "урон электричеством",
 					"scaling": {
 						"5": "1d10",
 						"11": "2d10",
@@ -3072,7 +3072,7 @@
 			"foundryImg": "icons/weapons/polearms/spear-flared-silver-pink.webp"
 		},
 		{
-			"name": "Shield Barrier",
+			"name": "Барьер щита",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -3093,7 +3093,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a shield"
+					"text": "щит"
 				}
 			},
 			"duration": [
@@ -3106,14 +3106,14 @@
 				}
 			],
 			"entries": [
-				"You channel magic through your shield, projecting a defensive barrier around you. The barrier is a 5-foot sphere centered on you and moves with you until the beginning of your next turn. The barrier protect the creatures inside the sphere by reducing the next damage roll they would take by {@dice 1d4} + your arte ability modifier, after which the barrier fade.",
-				"If your shield is magic, add its bonus to AC to this arte's damage reduction roll.",
-				"This arte's damage reduction increases by {@dice 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4}).",
-				"At 11th level, the barrier can affect two damage rolls before fading."
+				"Вы направляете магию через свой щит, проецируя вокруг себя защитный барьер. Барьер — это 5-футовая сфера с центром на вас, которая движется вместе с вами до начала вашего следующего хода. Барьер защищает существ внутри сферы, уменьшая следующий бросок урона, который они получат, на {@dice 1d4} + модификатор характеристики вашего искусства, после чего барьер исчезает.",
+				"Если ваш щит магический, добавьте его бонус к КД к броску уменьшения урона этого искусства.",
+				"Уменьшение урона этого искусства увеличивается на {@dice 1d4}, когда вы достигаете 5-го уровня ({@damage 2d4}), 11-го уровня ({@damage 3d4}) и 17-го уровня ({@damage 4d4}).",
+				"На 11-м уровне барьер может уменьшить два броска урона, прежде чем исчезнет."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "damage reduction",
+					"label": "уменьшение урона",
 					"scaling": {
 						"1": "1d4 + {{spellcasting_mod}}",
 						"5": "2d4 + {{spellcasting_mod}}",
@@ -3149,7 +3149,7 @@
 			"foundryImg": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp"
 		},
 		{
-			"name": "Shield Pitch",
+			"name": "Метание щита",
 			"source": "Artes",
 			"page": 8,
 			"level": 0,
@@ -3170,7 +3170,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a shield"
+					"text": "щит"
 				}
 			},
 			"duration": [
@@ -3179,13 +3179,13 @@
 				}
 			],
 			"entries": [
-				"You focus power into your shield to hurl it at your foe and draw it back to you afterward through will alone. Make a ranged arte attack with your shield against one creature or object within range. On a hit, the target takes {@damage 1d6} bludgeoning damage + your arte ability modifier.",
-				"Whether you hit or miss, your shield returns to you at the end of your turn. If your shield is magic, add its bonus to AC to this arte's attack and damage roll.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы сосредотачиваете силу в своём щите, чтобы швырнуть его во врага и одной лишь волей вернуть обратно. Совершите дальнобойную атаку искусством своим щитом по одному существу или предмету в пределах дальности. При попадании цель получает {@damage 1d6} дробящего урона + модификатор характеристики вашего искусства.",
+				"Попадёте вы или промахнётесь, ваш щит возвращается к вам в конце вашего хода. Если ваш щит магический, добавьте его бонус к КД к броску атаки и урона этого искусства.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "bludgeoning damage",
+					"label": "дробящего урона",
 					"scaling": {
 						"1": "1d6 + {{spellcasting_mod}}",
 						"5": "2d6 + {{spellcasting_mod}}",
@@ -3229,7 +3229,7 @@
 			"foundryImg": "icons/skills/melee/shield-block-gray-yellow.webp"
 		},
 		{
-			"name": "Shield Slam",
+			"name": "Удар щитом",
 			"source": "Artes",
 			"page": 8,
 			"level": 0,
@@ -3250,7 +3250,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a shield"
+					"text": "щит"
 				}
 			},
 			"duration": [
@@ -3259,13 +3259,13 @@
 				}
 			],
 			"entries": [
-				"You focus power into your shield and deliver a decisive attack with it that leaves you in the perfect position to respond to a counterattack. Make a melee weapon attack with your shield against one creature within range. On a hit, your attack deals {@damage 1d6} bludgeoning damage + your arte ability modifier and the target has disadvantage on its next attack roll against you until the end of its next turn.",
-				"If your shield is magic, add its bonus to AC to this arte's attack and damage roll.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы сосредотачиваете силу в своём щите и наносите им решительный удар, оставляя себя в идеальном положении для ответа на контратаку. Совершите рукопашную атаку оружием своим щитом по одному существу в пределах дальности. При попадании ваша атака наносит {@damage 1d6} дробящего урона + модификатор характеристики вашего искусства, а цель получает помеху на свой следующий бросок атаки по вам до конца своего следующего хода.",
+				"Если ваш щит магический, добавьте его бонус к КД к броску атаки и урона этого искусства.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "bludgeoning damage",
+					"label": "дробящего урона",
 					"scaling": {
 						"1": "1d6 + {{spellcasting_mod}}",
 						"5": "2d6 + {{spellcasting_mod}}",
@@ -3308,7 +3308,7 @@
 			"foundryImg": "icons/skills/melee/shield-block-bash-yellow.webp"
 		},
 		{
-			"name": "Shockwave",
+			"name": "Ударная волна",
 			"source": "Artes",
 			"page": 8,
 			"level": 0,
@@ -3329,7 +3329,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -3338,12 +3338,12 @@
 				}
 			],
 			"entries": [
-				"You channel immense power into your melee weapon to create a devastating wave of force when you swing it. Each creature in a 15-foot cone must succeed on a Dexterity saving throw against your Artes save DC or take {@damage 1d8} thunder damage.",
-				"This arte's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+				"Вы направляете огромную мощь в своё рукопашное оружие, чтобы при взмахе создать сокрушительную волну силы. Каждое существо в 15-футовом конусе должно преуспеть в спасброске Ловкости против Сл ваших искусств, иначе получает {@damage 1d8} урона звуком.",
+				"Урон этого искусства увеличивается на {@dice 1d8}, когда вы достигаете 5-го уровня ({@damage 2d8}), 11-го уровня ({@damage 3d8}) и 17-го уровня ({@damage 4d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "thunder damage",
+					"label": "урона звуком",
 					"scaling": {
 						"1": "1d8",
 						"5": "2d8",
@@ -3374,7 +3374,7 @@
 			"foundryImg": "icons/magic/sonic/projectile-shock-wave-blue.webp"
 		},
 		{
-			"name": "Shrapnel Shot",
+			"name": "Шрапнельный выстрел",
 			"source": "Artes",
 			"page": 9,
 			"level": 0,
@@ -3394,7 +3394,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "ammunition or a thrown weapon, which the art consumes"
+					"text": "боеприпасы или метательное оружие, которые искусство поглощает"
 				}
 			},
 			"duration": [
@@ -3403,12 +3403,12 @@
 				}
 			],
 			"entries": [
-				"You charge your ammunition or thrown weapon with power beyond its physical capacity, causing it to explode and send fragments flying at creatures near your target. Make a ranged weapon attack against one creature or object within range. On a hit, the target suffers the weapon attack's normal effects, and the target and each creature or object within 5 feet of it takes {@damage 1d6} piercing damage. The ammunition or thrown weapon is then destroyed.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы заряжаете свои боеприпасы или метательное оружие мощью, превышающей их физические возможности, заставляя их взорваться и разбросать осколки в существ рядом с вашей целью. Совершите дальнобойную атаку оружием по одному существу или предмету в пределах дальности. При попадании цель испытывает обычные эффекты атаки оружием, а цель и каждое существо или предмет в пределах 5 футов от неё получают {@damage 1d6} колющего урона. После этого боеприпас или метательное оружие уничтожается.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "piercing damage",
+					"label": "колющего урона",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -3441,7 +3441,7 @@
 			"foundryImg": "icons/magic/fire/projectile-needles-salvo-red.webp"
 		},
 		{
-			"name": "Sonic Burst",
+			"name": "Звуковой взрыв",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -3462,7 +3462,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -3475,12 +3475,12 @@
 				}
 			],
 			"entries": [
-				"You concentrate air into your weapon and unleash it at a creature, the impact knock the wind out of the target and inflict tinnitus. Choose a creature you can see within range, it must make a constitution saving throw against your arte save DC or takes {@damage 1d4} thunder damage, is {@condition deafened} and cannot cast a spell requiring a verbal component until the beginning of your next turn.",
-				"This arte's damage increases by {@dice 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
+				"Вы сгущаете воздух в своём оружии и выпускаете его в существо; удар выбивает из цели дух и вызывает звон в ушах. Выберите существо, которое видите в пределах дальности: оно должно совершить спасбросок Телосложения против Сл вашего искусства, иначе получает {@damage 1d4} урона звуком, становится {@condition deafened} и не может творить заклинания, требующие вербального компонента, до начала вашего следующего хода.",
+				"Урон этого искусства увеличивается на {@dice 1d4}, когда вы достигаете 5-го уровня ({@damage 2d4}), 11-го уровня ({@damage 3d4}) и 17-го уровня ({@damage 4d4})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "thunder damage",
+					"label": "урона звуком",
 					"scaling": {
 						"1": "1d4",
 						"5": "2d4",
@@ -3516,7 +3516,7 @@
 			"foundryImg": "icons/skills/ranged/projectile-spiral-gray.webp"
 		},
 		{
-			"name": "Spectral Phalanx",
+			"name": "Призрачная фаланга",
 			"source": "Artes",
 			"page": 19,
 			"level": 0,
@@ -3540,7 +3540,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -3554,13 +3554,13 @@
 				}
 			],
 			"entries": [
-				"You create spectral copies of a weapon you hold that whirl around you and attack in tandem with you. When a hostile creature enters the area for the first time on a turn or starts its turn there, it takes {@damage 2d6} force damage.",
-				"The first time you hit with a melee weapon attack on your turn while this grand arte is active, you deal an additional {@damage 2d6} force damage to your target.",
-				"This grand arte's damage increases by {@dice 1d6} when you reach 9th level ({@damage 3d6}), and again at 13th ({@damage 4d6}) and 17th ({@damage 5d6})."
+				"Вы создаёте призрачные копии оружия, которое держите; они кружатся вокруг вас и атакуют вместе с вами. Когда враждебное существо впервые за ход входит в область или начинает в ней свой ход, оно получает {@damage 2d6} силового урона.",
+				"Когда вы впервые попадаете рукопашной атакой оружием в свой ход, пока это великое искусство активно, вы наносите цели дополнительно {@damage 2d6} силового урона.",
+				"Урон этого великого искусства увеличивается на {@dice 1d6}, когда вы достигаете 9-го уровня ({@damage 3d6}), и снова на 13-м ({@damage 4d6}) и 17-м ({@damage 5d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "force damage",
+					"label": "урона силовым полем",
 					"scaling": {
 						"5": "2d6",
 						"9": "3d6",
@@ -3616,7 +3616,7 @@
 			"foundryImg": "icons/magic/light/swords-light-glowing-white.webp"
 		},
 		{
-			"name": "Spirit Tether",
+			"name": "Привязь духа",
 			"source": "Artes",
 			"page": 9,
 			"level": 0,
@@ -3637,7 +3637,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -3646,12 +3646,12 @@
 				}
 			],
 			"entries": [
-				"You conjure a chain of magical force between you and a foe and use it to pull yourself toward them, using the momentum to strike harder. Select one creature within 15 feet that you can see. You are pulled to the nearest unoccupied space within 5 feet of your target, and this movement does not provoke opportunity attacks. You may then make a melee weapon attack against your target with the weapon used as this arte's material component.",
-				"Starting at 5th level, this arte's melee weapon attack deals an additional {@damage 1d6} damage of your weapon's type. This arte's additional damage increases by {@dice 1d6} at 11th level ({@damage 2d6}) and 17th level ({@damage 3d6}).",
-				"At 11th level, you instead teleport to any unoccupied space within 5 feet of your target."
+				"Вы создаёте между собой и врагом цепь магической силы и используете её, чтобы подтянуться к нему, обращая разгон в более сильный удар. Выберите одно существо в пределах 15 футов, которое вы видите. Вас подтягивает в ближайшее незанятое пространство в пределах 5 футов от цели, и это перемещение не провоцирует провоцированные атаки. Затем вы можете совершить рукопашную атаку оружием по цели оружием, использованным как материальный компонент этого искусства.",
+				"Начиная с 5-го уровня рукопашная атака оружием этого искусства наносит дополнительно {@damage 1d6} урона типа вашего оружия. Дополнительный урон этого искусства увеличивается на {@dice 1d6} на 11-м уровне ({@damage 2d6}) и 17-м уровне ({@damage 3d6}).",
+				"На 11-м уровне вы вместо этого телепортируетесь в любое незанятое пространство в пределах 5 футов от цели."
 			],
 			"scalingLevelDice": {
-				"label": "weapon damage",
+				"label": "урон оружием",
 				"scaling": {
 					"5": "1d6",
 					"11": "2d6",
@@ -3687,7 +3687,7 @@
 			"foundryImg": "icons/skills/melee/strike-chain-whip-blue.webp"
 		},
 		{
-			"name": "Static Discharge",
+			"name": "Разряд статики",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -3708,7 +3708,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -3721,12 +3721,12 @@
 				}
 			],
 			"entries": [
-				"Lightning begins to crackle around your weapon. Point at a creature within 15 feet of you with your weapon, the lightning jump from your weapon to the creature. The target must succeed on a Constitution saving throw against your arte save DC or takes {@damage 1d6} lightning damage and loses the dexterity modifier bonus to their AC until they takes damage or the beginning of your next turn.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вокруг вашего оружия начинают потрескивать молнии. Укажите оружием на существо в пределах 15 футов от вас: молния перескакивает с вашего оружия на существо. Цель должна преуспеть в спасброске Телосложения против Сл вашего искусства, иначе получает {@damage 1d6} урона электричеством и теряет бонус модификатора Ловкости к своему КД, пока не получит урон или до начала вашего следующего хода.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "lightning damage",
+					"label": "урон электричеством",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -3763,7 +3763,7 @@
 			"foundryImg": "icons/magic/lightning/bolt-strike-blue-white.webp"
 		},
 		{
-			"name": "Storm Dance",
+			"name": "Танец бури",
 			"source": "Artes",
 			"page": 9,
 			"level": 0,
@@ -3784,7 +3784,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -3793,12 +3793,12 @@
 				}
 			],
 			"entries": [
-				"You close the distance to your foe and deliver a lightning-powered strike. Select one creature or object within range. You can move up to 15 feet toward your target without consuming your movement, but you must end your movement within your weapon's reach of your target. You may then make a melee weapon attack against your target.",
-				"Starting at 5th level, this arte's melee weapon attack deals an additional {@damage 1d8} lightning damage. This arte's lightning damage increases by {@dice 1d8} at 11th level ({@damage 2d8}) and 17th level ({@damage 3d8}).",
-				"At 11th level, you can teleport up to 15 feet instead of moving."
+				"Вы сокращаете расстояние до врага и наносите удар, заряженный молнией. Выберите одно существо или предмет в пределах дальности. Вы можете переместиться на расстояние до 15 футов к цели, не расходуя перемещение, но должны окончить перемещение в пределах досягаемости вашего оружия от цели. Затем вы можете совершить рукопашную атаку оружием по цели.",
+				"Начиная с 5-го уровня рукопашная атака оружием этого искусства наносит дополнительно {@damage 1d8} урона электричеством. Урон электричеством этого искусства увеличивается на {@dice 1d8} на 11-м уровне ({@damage 2d8}) и 17-м уровне ({@damage 3d8}).",
+				"На 11-м уровне вы можете телепортироваться на расстояние до 15 футов вместо перемещения."
 			],
 			"scalingLevelDice": {
-				"label": "lightning damage",
+				"label": "урон электричеством",
 				"scaling": {
 					"5": "1d8",
 					"11": "2d8",
@@ -3837,7 +3837,7 @@
 			"foundryImg": "icons/magic/movement/trail-streak-impact-blue.webp"
 		},
 		{
-			"name": "Sword as Shield",
+			"name": "Меч как щит",
 			"source": "Artes",
 			"page": 10,
 			"level": 0,
@@ -3857,7 +3857,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -3870,12 +3870,12 @@
 				}
 			],
 			"entries": [
-				"As you strike, your weapon leaves behind a trail of short-lived spectral copies that move on their own to block attacks. Make a melee weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects and you deal an additional {@damage 1d4} damage of the weapon's type, and you gain temporary hit points equal to the additional damage + your arte ability modifier (minimum 1). These temporary hit points last until the end of your next turn.",
-				"This arte's damage increases by {@dice 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
+				"При ударе ваше оружие оставляет за собой шлейф недолговечных призрачных копий, которые самостоятельно движутся, блокируя атаки. Совершите рукопашную атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием, вы наносите дополнительно {@damage 1d4} урона типа оружия и получаете временные хиты, равные дополнительному урону + модификатор характеристики вашего искусства (минимум 1). Эти временные хиты существуют до конца вашего следующего хода.",
+				"Урон этого искусства увеличивается на {@dice 1d4}, когда вы достигаете 5-го уровня ({@damage 2d4}), 11-го уровня ({@damage 3d4}) и 17-го уровня ({@damage 4d4})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "bonus hit points",
+					"label": "бонусные хиты",
 					"scaling": {
 						"1": "1d4 + {{spellcasting_mod}}",
 						"5": "2d4 + {{spellcasting_mod}}",
@@ -3884,7 +3884,7 @@
 					}
 				},
 				{
-					"label": "weapon damage",
+					"label": "урон оружием",
 					"scaling": {
 						"1": "1d4",
 						"5": "2d4",
@@ -3921,7 +3921,7 @@
 			"foundryImg": "icons/skills/melee/swords-triple-orange.webp"
 		},
 		{
-			"name": "Sword Burst",
+			"name": "Взрыв мечей",
 			"source": "Artes",
 			"page": 2,
 			"level": 0,
@@ -3948,11 +3948,11 @@
 				}
 			],
 			"entries": [
-				"You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take {@damage 1d6} force damage.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы создаёте мгновенный круг призрачных клинков, проносящийся вокруг вас. Все другие существа в пределах 5 футов от вас должны преуспеть в спасброске Ловкости, иначе получают {@damage 1d6} силового урона.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
-				"label": "force damage",
+				"label": "урона силовым полем",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -3986,7 +3986,7 @@
 			"foundryImg": "icons/skills/ranged/daggers-thrown-salvo-teal.webp"
 		},
 		{
-			"name": "Tailwind",
+			"name": "Попутный ветер",
 			"source": "Artes",
 			"page": 10,
 			"level": 0,
@@ -4006,7 +4006,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -4015,12 +4015,12 @@
 				}
 			],
 			"entries": [
-				"You summon wind to aid your movement, allowing you to either slip away from a threatening foe or smoothly step past their guard. You can move up to 5 feet without consuming your movement and without provoking opportunity attacks as part of using this arte, and can choose to do so either before or after you attack. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon attack's normal effects.",
-				"Starting at 5th level, your weapon becomes surrounded by deadly winds that lash your foe. This arte's weapon attack deals an additional {@damage 1d6} slashing damage. This arte's slashing damage increases by {@dice 1d6} at 11th level ({@damage 2d6}) and 17th level ({@damage 3d6})."
+				"Вы вызываете ветер в помощь своему перемещению, позволяя либо ускользнуть от угрожающего врага, либо плавно проскользнуть мимо его защиты. В рамках использования этого искусства вы можете переместиться на расстояние до 5 футов, не расходуя перемещение и не провоцируя провоцированные атаки, и можете сделать это до или после атаки. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты атаки оружием.",
+				"Начиная с 5-го уровня ваше оружие окружают смертоносные ветры, хлещущие врага. атака оружием этого искусства наносит дополнительно {@damage 1d6} рубящего урона. Рубящий урон этого искусства увеличивается на {@dice 1d6} на 11-м уровне ({@damage 2d6}) и 17-м уровне ({@damage 3d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "slashing damage",
+					"label": "рубящий урон",
 					"scaling": {
 						"5": "1d6",
 						"11": "2d6",
@@ -4056,7 +4056,7 @@
 			"foundryImg": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp"
 		},
 		{
-			"name": "Thorn Whip",
+			"name": "Терновый хлыст",
 			"source": "Artes",
 			"page": 3,
 			"level": 0,
@@ -4084,11 +4084,11 @@
 				}
 			],
 			"entries": [
-				"You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee arte attack against the target. If the attack hits, the creature takes {@damage 1d6} piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы создаёте длинный, похожий на лозу хлыст, покрытый шипами, который по вашему приказу бьёт по существу в пределах дальности. Совершите рукопашную атаку искусством по цели. Если атака попадает, существо получает {@damage 1d6} колющего урона, и если существо размера Большой или меньше, вы притягиваете его на расстояние до 10 футов ближе к себе.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
-				"label": "piercing damage",
+				"label": "колющего урона",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -4122,7 +4122,7 @@
 			"foundryImg": "icons/magic/nature/vines-thorned-glow-green.webp"
 		},
 		{
-			"name": "Thunderclap",
+			"name": "Раскат грома",
 			"source": "Artes",
 			"page": 3,
 			"level": 0,
@@ -4149,11 +4149,11 @@
 				}
 			],
 			"entries": [
-				"You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must make a Constitution saving throw or take {@damage 1d6} thunder damage.",
-				"The arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы создаёте всплеск громового звука, слышный на расстоянии до 100 футов. Каждое существо в пределах дальности, кроме вас, должно совершить спасбросок Телосложения, иначе получает {@damage 1d6} урона звуком.",
+				"Урон искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
-				"label": "thunder damage",
+				"label": "урона звуком",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -4187,7 +4187,7 @@
 			"foundryImg": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp"
 		},
 		{
-			"name": "True Strike",
+			"name": "Истинный удар",
 			"source": "Artes",
 			"page": 3,
 			"level": 0,
@@ -4218,13 +4218,13 @@
 				}
 			],
 			"entries": [
-				"You extend your hand and point a finger at a target in range. Your arte grants you a brief insight into the target's defenses. Until the end of your next turn, you gain advantage on your next weapon attack roll against the target. On a hit, the target suffers the weapon attack's normal effects and takes an additional {@damage 1d8} damage of your weapon's type.",
-				"Additionally, your next weapon attack ignores the disadvantage from attacking a heavily obscured target.",
-				"This arte's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+				"Вы протягиваете руку и указываете пальцем на цель в пределах дальности. Ваше искусство даёт вам краткое озарение о защите цели. До конца вашего следующего хода вы получаете преимущество на свой следующий бросок атаки оружием по цели. При попадании цель испытывает обычные эффекты атаки оружием и получает дополнительно {@damage 1d8} урона типа вашего оружия.",
+				"Кроме того, ваша следующая атака оружием игнорирует помеху от атаки по сильно заслонённой цели.",
+				"Урон этого искусства увеличивается на {@dice 1d8}, когда вы достигаете 5-го уровня ({@damage 2d8}), 11-го уровня ({@damage 3d8}) и 17-го уровня ({@damage 4d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "weapon damage",
+					"label": "урон оружием",
 					"scaling": {
 						"1": "1d8",
 						"5": "2d8",
@@ -4251,7 +4251,7 @@
 			"foundryImg": "icons/skills/ranged/target-bullseye-archer-orange.webp"
 		},
 		{
-			"name": "Tundral Slam",
+			"name": "Удар тундры",
 			"source": "Artes",
 			"page": 10,
 			"level": 0,
@@ -4278,11 +4278,11 @@
 				}
 			],
 			"entries": [
-				"You stomp and spread a blast of cold that covers the ground in uneven patches of black ice. All creatures and objects on the ground within 5 feet of you, other than you, must succeed on a Constitution saving throw or take {@damage 1d6} cold damage. Each space within 5 feet of you becomes difficult terrain for all creatures except you until the start of your next turn.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы топаете и распространяете вспышку холода, покрывающую землю неровными участками чёрного льда. Все существа и предметы на земле в пределах 5 футов от вас, кроме вас, должны преуспеть в спасброске Телосложения, иначе получают {@damage 1d6} урона холодом. Каждое пространство в пределах 5 футов от вас становится труднопроходимой местностью для всех существ, кроме вас, до начала вашего следующего хода.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
-				"label": "cold damage",
+				"label": "урон холодом",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -4318,7 +4318,7 @@
 			"foundryImg": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp"
 		},
 		{
-			"name": "Venomous Sting",
+			"name": "Ядовитое жало",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -4338,7 +4338,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -4351,12 +4351,12 @@
 				}
 			],
 			"entries": [
-				"A dark green hue from your grip appear to slither toward the end of your weapon as you prepare to strike. Make a weapon attack as part of using this arte. On a hit, the target suffers the weapon's normal effects and the target takes poison damage equal to your arte ability modifier at the end of its next turn.",
-				"This arte's damage increases when you reach certain levels. At 5th level, the poison damage increases to {@damage 1d8} + your arte ability modifier, and the target takes an additional {@damage 1d8} poison damage at the end of its second turn after being affected by this arte. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and again at 17th level ({@damage 3d8} and {@damage 3d8})."
+				"От того места, где вы держите оружие, к его концу словно бы стелется тёмно-зелёный оттенок, пока вы готовитесь к удару. Совершите атаку оружием в рамках использования этого искусства. При попадании цель испытывает обычные эффекты оружия и получает урон ядом, равный модификатору характеристики вашего искусства, в конце своего следующего хода.",
+				"Урон этого искусства увеличивается при достижении определённых уровней. На 5-м уровне урон ядом увеличивается до {@damage 1d8} + модификатор характеристики вашего искусства, а цель получает дополнительно {@damage 1d8} урона ядом в конце своего второго хода после того, как на неё подействовало это искусство. Оба броска урона увеличиваются на {@damage 1d8} на 11-м уровне ({@damage 2d8} и {@damage 2d8}) и снова на 17-м уровне ({@damage 3d8} и {@damage 3d8})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "first poison damage",
+					"label": "первый урон ядом",
 					"scaling": {
 						"1": "{{spellcasting_mod}}",
 						"5": "1d8 + {{spellcasting_mod}}",
@@ -4365,7 +4365,7 @@
 					}
 				},
 				{
-					"label": "second poison damage",
+					"label": "второй урон ядом",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -4404,7 +4404,7 @@
 			"foundryImg": "icons/skills/melee/blade-tip-energy-green.webp"
 		},
 		{
-			"name": "Void Fang",
+			"name": "Клык пустоты",
 			"source": "Artes",
 			"page": 11,
 			"level": 0,
@@ -4424,7 +4424,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -4433,12 +4433,12 @@
 				}
 			],
 			"entries": [
-				"Your strike forcibly teleports your foe, swapping places with you. You brandish the weapon used in the arte's casting and make an attack with it against one creature or object of Large size or smaller. On a hit, the target suffers the weapon attack's normal effects and you and the target teleport and swap locations.",
-				"Starting at 5th level, this arte's weapon attack deals an additional {@damage 1d6} necrotic damage as the forced teleport painfully wrenches and rends their body. This arte's necrotic damage increases by {@dice 1d6} at 11th level ({@damage 2d6}) and 17th level ({@damage 3d6})."
+				"Ваш удар насильно телепортирует врага, меняя его местами с вами. Вы потрясаете оружием, использованным для сотворения искусства, и совершаете им атаку по одному существу или предмету размера Большой или меньше. При попадании цель испытывает обычные эффекты атаки оружием, и вы с целью телепортируетесь и меняетесь местами.",
+				"Начиная с 5-го уровня атака оружием этого искусства наносит дополнительно {@damage 1d6} некротического урона, так как насильственная телепортация болезненно выкручивает и разрывает тело. Некротический урон этого искусства увеличивается на {@dice 1d6} на 11-м уровне ({@damage 2d6}) и 17-м уровне ({@damage 3d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "necrotic damage",
+					"label": "некротический урон",
 					"scaling": {
 						"5": "1d6",
 						"11": "2d6",
@@ -4476,7 +4476,7 @@
 			"foundryImg": "icons/magic/unholy/projectiles-binary-pink.webp"
 		},
 		{
-			"name": "Waning Crescent",
+			"name": "Убывающий полумесяц",
 			"source": "Artes",
 			"page": 3,
 			"level": 0,
@@ -4497,7 +4497,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -4506,12 +4506,12 @@
 				}
 			],
 			"entries": [
-				"You swing your weapon and create an arc of destructive ki that freely passes through enemies. All creatures and objects in a line 20 feet long and 5 feet wide must succeed on a Dexterity saving throw or take {@damage 1d10} force damage.",
-				"This arte's damage increases by {@dice 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
+				"Вы взмахиваете оружием и создаёте дугу разрушительной ки, свободно проходящую сквозь врагов. Все существа и предметы в линии длиной 20 футов и шириной 5 футов должны преуспеть в спасброске Ловкости, иначе получают {@damage 1d10} силового урона.",
+				"Урон этого искусства увеличивается на {@dice 1d10}, когда вы достигаете 5-го уровня ({@damage 2d10}), 11-го уровня ({@damage 3d10}) и 17-го уровня ({@damage 4d10})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "force damage",
+					"label": "урона силовым полем",
 					"scaling": {
 						"1": "1d10",
 						"5": "2d10",
@@ -4543,7 +4543,7 @@
 			"foundryImg": "icons/magic/air/air-wave-gust-smoke-yellow.webp"
 		},
 		{
-			"name": "War God's Wrath",
+			"name": "Гнев бога войны",
 			"source": "Artes",
 			"page": 19,
 			"level": 0,
@@ -4567,7 +4567,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -4576,21 +4576,21 @@
 				}
 			],
 			"entries": [
-				"You channel all your fury into your weapon and swing it, devastating a wide area with rending shockwaves and whirling phantom copies of your weapon. All creatures and objects in a 60-foot cone take {@damage 4d6} damage of your weapon's type, or half on a successful Dexterity saving throw.",
-				"This grand arte has additional effects depending on the damage type of your weapon.",
+				"Вы направляете всю свою ярость в оружие и взмахиваете им, опустошая широкую область рвущими ударными волнами и кружащимися призрачными копиями вашего оружия. Все существа и предметы в 60-футовом конусе получают {@damage 4d6} урона типа вашего оружия, или половину при успешном спасброске Ловкости.",
+				"Это великое искусство имеет дополнительные эффекты в зависимости от типа урона вашего оружия.",
 				{
 					"type": "list",
 					"items": [
-						"{@i Bludgeoning:} Any creature that fails its saving throw is also pushed up to 15 feet away from you from the incredible force of the attack.",
-						"{@i Piercing:} The speed of any creature that fails its saving throw is reduced to 0 until the end of your next turn as it is pinned in place by spectral weapons.",
-						"{@i Slashing:} Any creature that fails its saving throw is also overwhelmed with pain and has disadvantage on attack rolls until the end of your next turn."
+						"{@i Дробящий:} любое существо, провалившее спасбросок, также отталкивается на расстояние до 15 футов от вас от невероятной силы удара.",
+						"{@i Колющий:} скорость любого существа, провалившего спасбросок, становится 0 до конца вашего следующего хода, так как его пригвождают к месту призрачные оружия.",
+						"{@i Рубящий:} любое существо, провалившее спасбросок, также переполняется болью и получает помеху на броски атаки до конца вашего следующего хода."
 					]
 				},
-				"This grand arte's damage increases by {@dice 1d6} when you reach 9th level ({@damage 5d6}), and again at 13th ({@damage 6d6}) and 17th ({@damage 7d6})."
+				"Урон этого великого искусства увеличивается на {@dice 1d6}, когда вы достигаете 9-го уровня ({@damage 5d6}), и снова на 13-м ({@damage 6d6}) и 17-м ({@damage 7d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "weapon damage",
+					"label": "урон оружием",
 					"scaling": {
 						"5": "4d6",
 						"9": "5d6",
@@ -4627,7 +4627,7 @@
 			"foundryImg": "icons/skills/melee/strike-weapons-orange.webp"
 		},
 		{
-			"name": "Warp Strike",
+			"name": "Варп-удар",
 			"source": "Artes",
 			"page": 20,
 			"level": 0,
@@ -4651,7 +4651,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon"
+					"text": "рукопашное оружие"
 				}
 			},
 			"duration": [
@@ -4660,12 +4660,12 @@
 				}
 			],
 			"entries": [
-				"Your weapon becomes both a focus of and a beacon for your ki, and you throw it unerringly at your foe. One creature or object within 120 feet of you takes {@damage 4d10} damage of your weapon's type, or half on a successful Dexterity saving throw. You then either teleport to the weapon's location or teleport the weapon back to your hand.",
-				"This grand arte's damage increases by {@dice 1d10} when you reach 9th level ({@damage 5d10}), and again at 13th ({@damage 6d10}) and 17th ({@damage 7d10})."
+				"Ваше оружие становится и средоточием, и маяком вашей ки, и вы безошибочно швыряете его во врага. Одно существо или предмет в пределах 120 футов от вас получает {@damage 4d10} урона типа вашего оружия, или половину при успешном спасброске Ловкости. Затем вы либо телепортируетесь к оружию, либо телепортируете оружие обратно в свою руку.",
+				"Урон этого великого искусства увеличивается на {@dice 1d10}, когда вы достигаете 9-го уровня ({@damage 5d10}), и снова на 13-м ({@damage 6d10}) и 17-м ({@damage 7d10})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "weapon damage",
+					"label": "урон оружием",
 					"scaling": {
 						"5": "4d10",
 						"9": "5d10",
@@ -4705,7 +4705,7 @@
 			"foundryImg": "icons/magic/light/beam-layered-teal.webp"
 		},
 		{
-			"name": "Waterfall Crash",
+			"name": "Обрушение водопада",
 			"source": "ArtesExtra",
 			"page": 1,
 			"level": 0,
@@ -4726,7 +4726,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a weapon"
+					"text": "оружие"
 				}
 			},
 			"duration": [
@@ -4735,12 +4735,12 @@
 				}
 			],
 			"entries": [
-				"You perform an overhead swing with your weapon while channeling water through it. As your weapon goes down the water flows in an arc toward a creature you can see within in range and the target must make a strength saving throw against your arte save DC or be knocked {@condition prone} and take {@damage 1d6} bludgeoning damage.",
-				"This arte's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Вы совершаете удар сверху, направляя через оружие воду. Когда ваше оружие опускается, вода течёт дугой к существу, которое вы видите в пределах дальности, и цель должна совершить спасбросок силы против Сл вашего искусства, иначе становится {@condition prone} и получает {@damage 1d6} дробящего урона.",
+				"Урон этого искусства увеличивается на {@dice 1d6}, когда вы достигаете 5-го уровня ({@damage 2d6}), 11-го уровня ({@damage 3d6}) и 17-го уровня ({@damage 4d6})."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "bludgeoning damage",
+					"label": "дробящего урона",
 					"scaling": {
 						"1": "1d6",
 						"5": "2d6",
@@ -4781,29 +4781,29 @@
 	],
 	"variantrule": [
 		{
-			"name": "Artes",
+			"name": "Искусства",
 			"source": "Artes",
 			"page": 1,
 			"ruleType": "O",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Overview",
+					"name": "Обзор",
 					"entries": [
-						"{@filter Artes|spells|school=AR|subschool=!Grand} (also called martial cantrips) are an addition meant to boost the power and variety of martial characters. They were specifically designed for classes that do not already have access to cantrips, and are meant to emulate cantrips in function and damage."
+						"{@filter Artes|spells|school=AR|subschool=!Grand} (также называемые боевыми заговорами) — дополнение, призванное усилить мощь и разнообразие боевых персонажей. Они разработаны специально для классов, у которых ещё нет доступа к заговорам, и призваны повторять заговоры по функции и урону."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Classes",
+					"name": "Классы",
 					"entries": [
-						"The following classes know 2, 3, or 4 artes starting at 1st level, and learn a new one at 4th level and 10th level. When a character who knows artes gains a level, they can replace one arte they know with another.",
-						"Optionally, if the DM wishes to provide more flexibility, a character who knows artes can replace one arte they know with another when they finish a long rest.",
+						"Следующие классы знают 2, 3 или 4 искусства начиная с 1-го уровня и изучают новое на 4-м и 10-м уровне. Когда персонаж, знающий искусства, получает уровень, он может заменить одно известное ему искусство другим.",
+						"По желанию, если Мастер хочет дать больше гибкости, персонаж, знающий искусства, может заменить одно известное ему искусство другим по завершении продолжительного отдыха.",
 						{
 							"type": "table",
 							"colLabels": [
-								"Class",
-								"Number of Artes at 1st Level"
+								"Класс",
+								"Число искусств на 1-м уровне"
 							],
 							"colStyles": [
 								"col-6",
@@ -4811,15 +4811,15 @@
 							],
 							"rows": [
 								[
-									"Artificer, Paladin, Ranger",
+									"Изобретатель, Паладин, Следопыт",
 									"2"
 								],
 								[
-									"Barbarian, monk, rogue",
+									"Варвар, монах, плут",
 									"3"
 								],
 								[
-									"Fighter",
+									"Воин",
 									"4"
 								]
 							]
@@ -4828,105 +4828,105 @@
 				},
 				{
 					"type": "entries",
-					"name": "Casting Time",
+					"name": "Время сотворения",
 					"entries": [
-						"An {@filter arte|spells|school=AR|subschool=!Grand} that has '1 attack' listed as its casting time can be used as part of Extra Attack or similar features that grant additional attacks (such as the War domain cleric's {@subclassFeature War Priest|Cleric||War||1} feature, or the warlock's {@optfeature Thirsting Blade} invocation), sacrificing one attack to use it as part of the attack action. You can use only one arte on your turn. For purposes of casting multiple spells in a single turn, using an arte counts as casting a cantrip."
+						"{@filter arte|spells|school=AR|subschool=!Grand}, у которого в качестве времени сотворения указано «1 атака», можно использовать в рамках Дополнительной атаки или аналогичных умений, дающих дополнительные атаки (например, умения {@subclassFeature War Priest|Cleric||War||1} жреца домена Войны или воззвания колдуна {@optfeature Thirsting Blade}), пожертвовав одной атакой, чтобы использовать его в рамках действия атака. В свой ход вы можете использовать только одно искусство. Для целей сотворения нескольких заклинаний за один ход использование искусства считается сотворением заговора."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Arte Ability Modifier",
+					"name": "Модификатор характеристики искусства",
 					"entries": [
-						"An {@filter arte's|spells|school=AR|subschool=!Grand} ability modifier is Strength or Dexterity (whichever is higher). This sets the saving throw DC and determines what you roll when an arte calls for an arte attack roll. If an arte requires a weapon as a material component, the ability score used is the one used when attacking with that weapon normally. Cantrips that are on the list of artes count as artes and are subject to these rules. Your Artes save DC is listed below.",
-						"{@b Artes save DC} = 8 + your proficiency bonus + your Strength or Dexterity modifier",
-						"At your DM's discretion, you can use a different ability score to set your Artes save DC and Arte attack rolls if it would be more appropriate for your character concept (such as a monk who focuses on Wisdom instead of Dexterity, or an eldritch knight who emphasizes Intelligence over Strength)."
+						"Модификатор характеристики {@filter arte's|spells|school=AR|subschool=!Grand} — это Сила или Ловкость (что выше). Он задаёт Сл спасброска и определяет, что вы бросаете, когда искусство требует броска атаки искусством. Если искусство требует оружие как материальный компонент, используется характеристика, применяемая при обычной атаке этим оружием. Заговоры, входящие в список искусств, считаются искусствами и подчиняются этим правилам. Сл ваших искусств указана ниже.",
+						"{@b Сл искусств} = 8 + ваш бонус мастерства + ваш модификатор силы или Ловкости",
+						"На усмотрение Мастера вы можете использовать другую характеристику для определения Сл ваших искусств и бросков атаки искусством, если это лучше подходит к концепции персонажа (например, монах, опирающийся на Мудрость вместо Ловкости, или мистический рыцарь, делающий упор на Интеллект вместо силы)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Components",
+					"name": "Компоненты",
 					"entries": [
-						"The material components of {@spell Booming Blade|TCE} and {@spell Green-Flame Blade|TCE} are replaced with 'a melee weapon' and no longer require a coin value. For purposes of satisfying an arte's material component requirement, a character with the Monk's {@classFeature Martial Arts|Monk||1} class feature, the {@feat Tavern Brawler} feat, the {@optfeature Unarmed Fighting|tce} fighting style, or a similar way to fight without weapons counts as armed with a weapon even while unarmed.",
-						"At the DM's discretion, if the game is meant to have a high-flying wuxia flavour, consider removing the weapon requirements and allowing all artes to be used while unarmed.",
-						"If an arte has a somatic component, then it can be performed with a held weapon rather than an empty hand. This means that artes can be performed while holding a two-handed weapon or while holding a weapon and a shield."
+						"Материальные компоненты {@spell Booming Blade|TCE} и {@spell Green-Flame Blade|TCE} заменяются на «рукопашное оружие» и больше не требуют указания стоимости монетами. Для целей выполнения требования материального компонента искусства персонаж с классовым умением монаха {@classFeature Martial Arts|Monk||1}, чертой {@feat Tavern Brawler}, боевым стилем {@optfeature Unarmed Fighting|tce} или аналогичным способом сражаться без оружия считается вооружённым оружием, даже будучи безоружным.",
+						"На усмотрение Мастера, если игра должна иметь виртуозный уся-оттенок, рассмотрите возможность убрать требования к оружию и разрешить использовать все искусства без оружия.",
+						"Если у искусства есть соматический компонент, его можно исполнить удерживаемым оружием, а не пустой рукой. Это означает, что искусства можно исполнять, держа двуручное оружие или держа оружие и щит."
 					]
 				},
 				{
 					"type": "list",
-					"name": "Artes List",
+					"name": "Список искусств",
 					"items": [
-						"{@spell Berserker's Brand|Artes}",
-						"{@spell Binding Blade|Artes}",
-						"{@spell Blade Ward|Artes}*PHB",
-						"{@spell Booming Blade|Artes}*TCE",
-						"{@spell Boreal Gale|Artes}",
-						"{@spell Cinder Surge|Artes}",
-						"{@spell Clean Sweep|Artes}",
-						"{@spell Conqueror's Glare|Artes}",
-						"{@spell Cyclone Surge|Artes}",
-						"{@spell Frigid Blade|Artes}",
-						"{@spell Flames of Punishment|Artes}",
-						"{@spell Green-Flame Blade|Artes}*TCE",
-						"{@spell Knight's Litany|Artes}",
-						"{@spell Lightning Lure|Artes}*TCE",
-						"{@spell Maledictor's Smite|Artes}",
-						"{@spell Parting Blaze|Artes}",
-						"{@spell Razor Gale|Artes}",
-						"{@spell Ruinous Rime|Artes}",
-						"{@spell Second Surge|Artes}",
-						"{@spell Sentry's Levin|Artes}",
-						"{@spell Shield Pitch|Artes}",
-						"{@spell Shield Slam|Artes}",
-						"{@spell Shockwave|Artes}",
-						"{@spell Shrapnel Shot|Artes}",
-						"{@spell Spirit Tether|Artes}",
-						"{@spell Storm Dance|Artes}",
-						"{@spell Sword As Shield|Artes}",
-						"{@spell Sword Burst|Artes}*TCE",
-						"{@spell Tailwind|Artes}",
-						"{@spell Thorn Whip|Artes}*PHB",
-						"{@spell Thunderclap|Artes}*PoTA",
-						"{@spell True Strike|Artes}*PHB",
-						"{@spell Tundral Slam|Artes}",
-						"{@spell Void Fang|Artes}",
-						"{@spell Waning Crescent|Artes}"
+						"{@spell Клеймо берсерка|Artes}",
+						"{@spell Сковывающий клинок|Artes}",
+						"{@spell Оберег от оружия|Artes}*PHB",
+						"{@spell Громовой клинок|Artes}*TCE",
+						"{@spell Северный шквал|Artes}",
+						"{@spell Всплеск углей|Artes}",
+						"{@spell Смывающая волна|Artes}",
+						"{@spell Взор завоевателя|Artes}",
+						"{@spell Всплеск циклона|Artes}",
+						"{@spell Ледяной клинок|Artes}",
+						"{@spell Пламя кары|Artes}",
+						"{@spell Клинок зелёного пламени|Artes}*TCE",
+						"{@spell Литания рыцаря|Artes}",
+						"{@spell Притяжение молний|Artes}*TCE",
+						"{@spell Кара злоречивого|Artes}",
+						"{@spell Прощальное пламя|Artes}",
+						"{@spell Бритвенный шквал|Artes}",
+						"{@spell Губительная изморозь|Artes}",
+						"{@spell Второй всплеск|Artes}",
+						"{@spell Молния стража|Artes}",
+						"{@spell Метание щита|Artes}",
+						"{@spell Удар щитом|Artes}",
+						"{@spell Ударная волна|Artes}",
+						"{@spell Шрапнельный выстрел|Artes}",
+						"{@spell Привязь духа|Artes}",
+						"{@spell Танец бури|Artes}",
+						"{@spell Меч как щит|Artes}",
+						"{@spell Взрыв мечей|Artes}*TCE",
+						"{@spell Попутный ветер|Artes}",
+						"{@spell Терновый хлыст|Artes}*PHB",
+						"{@spell Раскат грома|Artes}*PoTA",
+						"{@spell Истинный удар|Artes}*PHB",
+						"{@spell Удар тундры|Artes}",
+						"{@spell Клык пустоты|Artes}",
+						"{@spell Убывающий полумесяц|Artes}"
 					]
 				},
 				{
 					"type": "entries",
 					"entries": [
-						"* Artes marked with an asterisk are originally cantrips and now have a casting time of 1 attack.",
-						"PHB denotes a cantrip found in the Player's Handbook.",
-						"PoTA denotes a cantrip found in Princes of the Apocalypse.",
-						"TCE denotes a cantrip found in Tasha's Cauldron of Everything."
+						"* Искусства, отмеченные звёздочкой, изначально были заговорами, а теперь имеют время сотворения «1 атака».",
+						"PHB обозначает заговор из «Книги игрока».",
+						"PoTA обозначает заговор из «Принцев апокалипсиса».",
+						"TCE обозначает заговор из «Котла Таши со всякой всячиной»."
 					]
 				}
 			]
 		},
 		{
-			"name": "Grand Artes",
+			"name": "Великие искусства",
 			"source": "Artes",
 			"page": 14,
 			"ruleType": "O",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Overview",
+					"name": "Обзор",
 					"entries": [
-						"{@filter Grand artes|spells|school=AR|subschool=Grand} Grand artes are an optional progression of {@filter artes|spells|school=AR|subschool=!Grand}. They are stronger than artes but have a limited number of uses between rests. Many classes already have multiple resources to track, so these rules may not be a good fit for every game. If you consider a given martial class or subclass underpowered or lacking in variety and want to give it a boost beyond what artes provide, consider allowing a character of that class to use grand artes."
+						"{@filter Grand artes|spells|school=AR|subschool=Grand} Великие искусства — необязательная ветвь развития {@filter artes|spells|school=AR|subschool=!Grand}. Они сильнее искусств, но имеют ограниченное число применений между отдыхами. У многих классов уже есть несколько отслеживаемых ресурсов, поэтому эти правила могут подойти не каждой игре. Если вы считаете какой-либо боевой класс или подкласс недостаточно сильным или лишённым разнообразия и хотите усилить его сверх того, что дают искусства, рассмотрите возможность разрешить персонажу этого класса использовать великие искусства."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Progression",
+					"name": "Развитие",
 					"entries": [
-						"All classes that learn artes also learn one {@filter grand arte|spells|school=AR|subschool=Grand} at 5th level, which can be used once and cannot be used again until you finish a short or long rest. You learn a second grand arte and two total uses between rests at 9th level, and a third grand arte and three total uses at 13th level.",
+						"Все классы, изучающие искусства, также изучают одно {@filter grand arte|spells|school=AR|subschool=Grand} на 5-м уровне, которое можно использовать один раз и нельзя использовать снова, пока вы не завершите короткий или продолжительный отдых. На 9-м уровне вы изучаете второе великое искусство и получаете два применения между отдыхами, а на 13-м — третье великое искусство и три применения.",
 						{
 							"type": "table",
 							"colLabels": [
-								"Character Level",
-								"Grand Artes Known",
-								"Uses per Short Rest"
+								"Уровень персонажа",
+								"Известно великих искусств",
+								"Применений за короткий отдых"
 							],
 							"colStyles": [
 								"col-4 text-center",
@@ -4951,28 +4951,28 @@
 								]
 							]
 						},
-						"When a character who knows a grand arte gains a level, they can they can replace one grand arte they know with another. Optionally, if the DM wishes to provide more flexibility, a character who knows grand artes can replace one grand arte they know with another when they finish a long rest.",
-						"Grand artes also increase in damage with character level, gaining an additional die of damage at 9th, 13th, and 17th level. This is included in each grand arte's description."
+						"Когда персонаж, знающий великое искусство, получает уровень, он может заменить одно известное ему великое искусство другим. По желанию, если Мастер хочет дать больше гибкости, персонаж, знающий великие искусства, может заменить одно известное ему великое искусство другим по завершении продолжительного отдыха.",
+						"Великие искусства также увеличивают урон с уровнем персонажа, получая дополнительную кость урона на 9-м, 13-м и 17-м уровне. Это указано в описании каждого великого искусства."
 					]
 				},
 				{
 					"type": "list",
-					"name": "Artes List",
+					"name": "Список искусств",
 					"items": [
-						"{@spell Cocytean Gavel|Artes}",
-						"{@spell Cometary Collision|Artes}",
-						"{@spell Converging Echoes|Artes}",
-						"{@spell Divine Battlecry|Artes}",
-						"{@spell Falling Star|Artes}",
-						"{@spell Maelstrom Blade|Artes}",
-						"{@spell Magmatic Blast|Artes}",
-						"{@spell Ricochet Shield|Artes}",
-						"{@spell Ride the Lightning|Artes}",
-						"{@spell Round Trip|Artes}",
-						"{@spell Sea of Swords|Artes}",
-						"{@spell Spectral Phalanx|Artes}",
-						"{@spell War God's Wrath|Artes}",
-						"{@spell Warp Strike|Artes}"
+						"{@spell Молот Коцита|Artes}",
+						"{@spell Столкновение с кометой|Artes}",
+						"{@spell Сходящиеся эхо|Artes}",
+						"{@spell Божественный боевой клич|Artes}",
+						"{@spell Падающая звезда|Artes}",
+						"{@spell Клинок водоворота|Artes}",
+						"{@spell Магматический взрыв|Artes}",
+						"{@spell Рикошетящий щит|Artes}",
+						"{@spell Оседлать молнию|Artes}",
+						"{@spell Возврат|Artes}",
+						"{@spell Море мечей|Artes}",
+						"{@spell Призрачная фаланга|Artes}",
+						"{@spell Гнев бога войны|Artes}",
+						"{@spell Варп-удар|Artes}"
 					]
 				}
 			]
@@ -4980,23 +4980,23 @@
 	],
 	"book": [
 		{
-			"name": "Martial Cantrip / Artes",
+			"name": "Боевой заговор / искусство",
 			"id": "Artes",
 			"source": "Artes",
 			"group": "homebrew",
 			"published": "2021-09-28",
 			"contents": [
 				{
-					"name": "Artes"
+					"name": "Искусства"
 				},
 				{
-					"name": "Customization"
+					"name": "Настройка"
 				},
 				{
-					"name": "FAQ"
+					"name": "Частые вопросы"
 				},
 				{
-					"name": "Grand Artes"
+					"name": "Великие искусства"
 				}
 			]
 		}
@@ -5008,29 +5008,29 @@
 			"data": [
 				{
 					"type": "section",
-					"name": "Artes",
+					"name": "Искусства",
 					"page": 1,
 					"entries": [
 						{
 							"type": "entries",
 							"page": 1,
-							"name": "Overview",
+							"name": "Обзор",
 							"entries": [
-								"{@filter Artes|spells|school=AR|subschool=!Grand} (also called martial cantrips) are an addition meant to boost the power and variety of martial characters. They were specifically designed for classes that do not already have access to cantrips, and are meant to emulate cantrips in function and damage."
+								"{@filter Artes|spells|school=AR|subschool=!Grand} (также называемые боевыми заговорами) — дополнение, призванное усилить мощь и разнообразие боевых персонажей. Они разработаны специально для классов, у которых ещё нет доступа к заговорам, и призваны повторять заговоры по функции и урону."
 							]
 						},
 						{
 							"type": "entries",
 							"page": 1,
-							"name": "Classes",
+							"name": "Классы",
 							"entries": [
-								"The following classes know 2, 3, or 4 artes starting at 1st level, and learn a new one at 4th level and 10th level. When a character who knows artes gains a level, they can replace one arte they know with another.",
-								"Optionally, if the DM wishes to provide more flexibility, a character who knows artes can replace one arte they know with another when they finish a long rest.",
+								"Следующие классы знают 2, 3 или 4 искусства начиная с 1-го уровня и изучают новое на 4-м и 10-м уровне. Когда персонаж, знающий искусства, получает уровень, он может заменить одно известное ему искусство другим.",
+								"По желанию, если Мастер хочет дать больше гибкости, персонаж, знающий искусства, может заменить одно известное ему искусство другим по завершении продолжительного отдыха.",
 								{
 									"type": "table",
 									"colLabels": [
-										"Class",
-										"Number of Artes at 1st Level"
+										"Класс",
+										"Число искусств на 1-м уровне"
 									],
 									"colStyles": [
 										"col-6",
@@ -5038,15 +5038,15 @@
 									],
 									"rows": [
 										[
-											"Artificer, Paladin, Ranger",
+											"Изобретатель, Паладин, Следопыт",
 											"2"
 										],
 										[
-											"Barbarian, monk, rogue",
+											"Варвар, монах, плут",
 											"3"
 										],
 										[
-											"Fighter",
+											"Воин",
 											"4"
 										]
 									]
@@ -5056,80 +5056,80 @@
 						{
 							"type": "entries",
 							"page": 1,
-							"name": "Casting Time",
+							"name": "Время сотворения",
 							"entries": [
-								"An {@filter arte|spells|school=AR|subschool=!Grand} that has '1 attack' listed as its casting time can be used as part of Extra Attack or similar features that grant additional attacks (such as the War domain cleric's {@subclassFeature War Priest|Cleric||War||1} feature, or the warlock's {@optfeature Thirsting Blade} invocation), sacrificing one attack to use it as part of the attack action. You can use only one arte on your turn. For purposes of casting multiple spells in a single turn, using an arte counts as casting a cantrip."
+								"{@filter arte|spells|school=AR|subschool=!Grand}, у которого в качестве времени сотворения указано «1 атака», можно использовать в рамках Дополнительной атаки или аналогичных умений, дающих дополнительные атаки (например, умения {@subclassFeature War Priest|Cleric||War||1} жреца домена Войны или воззвания колдуна {@optfeature Thirsting Blade}), пожертвовав одной атакой, чтобы использовать его в рамках действия атака. В свой ход вы можете использовать только одно искусство. Для целей сотворения нескольких заклинаний за один ход использование искусства считается сотворением заговора."
 							]
 						},
 						{
 							"type": "entries",
 							"page": 1,
-							"name": "Arte Ability Modifier",
+							"name": "Модификатор характеристики искусства",
 							"entries": [
-								"An {@filter arte's|spells|school=AR|subschool=!Grand} ability modifier is Strength or Dexterity (whichever is higher). This sets the saving throw DC and determines what you roll when an arte calls for an arte attack roll. If an arte requires a weapon as a material component, the ability score used is the one used when attacking with that weapon normally. Cantrips that are on the list of artes count as artes and are subject to these rules. Your Artes save DC is listed below.",
-								"{@b Artes save DC} = 8 + your proficiency bonus + your Strength or Dexterity modifier",
-								"At your DM's discretion, you can use a different ability score to set your Artes save DC and Arte attack rolls if it would be more appropriate for your character concept (such as a monk who focuses on Wisdom instead of Dexterity, or an eldritch knight who emphasizes Intelligence over Strength)."
+								"Модификатор характеристики {@filter arte's|spells|school=AR|subschool=!Grand} — это Сила или Ловкость (что выше). Он задаёт Сл спасброска и определяет, что вы бросаете, когда искусство требует броска атаки искусством. Если искусство требует оружие как материальный компонент, используется характеристика, применяемая при обычной атаке этим оружием. Заговоры, входящие в список искусств, считаются искусствами и подчиняются этим правилам. Сл ваших искусств указана ниже.",
+								"{@b Сл искусств} = 8 + ваш бонус мастерства + ваш модификатор силы или Ловкости",
+								"На усмотрение Мастера вы можете использовать другую характеристику для определения Сл ваших искусств и бросков атаки искусством, если это лучше подходит к концепции персонажа (например, монах, опирающийся на Мудрость вместо Ловкости, или мистический рыцарь, делающий упор на Интеллект вместо силы)."
 							]
 						},
 						{
 							"type": "entries",
 							"page": 2,
-							"name": "Components",
+							"name": "Компоненты",
 							"entries": [
-								"The material components of {@spell Booming Blade|TCE} and {@spell Green-Flame Blade|TCE} are replaced with 'a melee weapon' and no longer require a coin value. For purposes of satisfying an arte's material component requirement, a character with the Monk's {@classFeature Martial Arts|Monk||1} class feature, the {@feat Tavern Brawler} feat, the {@optfeature Unarmed Fighting|tce} fighting style, or a similar way to fight without weapons counts as armed with a weapon even while unarmed.",
-								"At the DM's discretion, if the game is meant to have a high-flying wuxia flavour, consider removing the weapon requirements and allowing all artes to be used while unarmed.",
-								"If an arte has a somatic component, then it can be performed with a held weapon rather than an empty hand. This means that artes can be performed while holding a two-handed weapon or while holding a weapon and a shield."
+								"Материальные компоненты {@spell Booming Blade|TCE} и {@spell Green-Flame Blade|TCE} заменяются на «рукопашное оружие» и больше не требуют указания стоимости монетами. Для целей выполнения требования материального компонента искусства персонаж с классовым умением монаха {@classFeature Martial Arts|Monk||1}, чертой {@feat Tavern Brawler}, боевым стилем {@optfeature Unarmed Fighting|tce} или аналогичным способом сражаться без оружия считается вооружённым оружием, даже будучи безоружным.",
+								"На усмотрение Мастера, если игра должна иметь виртуозный уся-оттенок, рассмотрите возможность убрать требования к оружию и разрешить использовать все искусства без оружия.",
+								"Если у искусства есть соматический компонент, его можно исполнить удерживаемым оружием, а не пустой рукой. Это означает, что искусства можно исполнять, держа двуручное оружие или держа оружие и щит."
 							]
 						},
 						{
 							"type": "list",
 							"page": 2,
-							"name": "Artes List",
+							"name": "Список искусств",
 							"items": [
-								"{@spell Berserker's Brand|Artes}",
-								"{@spell Binding Blade|Artes}",
-								"{@spell Blade Ward|Artes}*PHB",
-								"{@spell Booming Blade|Artes}*TCE",
-								"{@spell Boreal Gale|Artes}",
-								"{@spell Cinder Surge|Artes}",
-								"{@spell Clean Sweep|Artes}",
-								"{@spell Conqueror's Glare|Artes}",
-								"{@spell Cyclone Surge|Artes}",
-								"{@spell Frigid Blade|Artes}",
-								"{@spell Flames of Punishment|Artes}",
-								"{@spell Green-Flame Blade|Artes}*TCE",
-								"{@spell Knight's Litany|Artes}",
-								"{@spell Lightning Lure|Artes}*TCE",
-								"{@spell Maledictor's Smite|Artes}",
-								"{@spell Parting Blaze|Artes}",
-								"{@spell Razor Gale|Artes}",
-								"{@spell Ruinous Rime|Artes}",
-								"{@spell Second Surge|Artes}",
-								"{@spell Sentry's Levin|Artes}",
-								"{@spell Shield Pitch|Artes}",
-								"{@spell Shield Slam|Artes}",
-								"{@spell Shockwave|Artes}",
-								"{@spell Shrapnel Shot|Artes}",
-								"{@spell Spirit Tether|Artes}",
-								"{@spell Storm Dance|Artes}",
-								"{@spell Sword As Shield|Artes}",
-								"{@spell Sword Burst|Artes}*TCE",
-								"{@spell Tailwind|Artes}",
-								"{@spell Thorn Whip|Artes}*PHB",
-								"{@spell Thunderclap|Artes}*PoTA",
-								"{@spell True Strike|Artes}*PHB",
-								"{@spell Tundral Slam|Artes}",
-								"{@spell Void Fang|Artes}",
-								"{@spell Waning Crescent|Artes}"
+								"{@spell Клеймо берсерка|Artes}",
+								"{@spell Сковывающий клинок|Artes}",
+								"{@spell Оберег от оружия|Artes}*PHB",
+								"{@spell Громовой клинок|Artes}*TCE",
+								"{@spell Северный шквал|Artes}",
+								"{@spell Всплеск углей|Artes}",
+								"{@spell Смывающая волна|Artes}",
+								"{@spell Взор завоевателя|Artes}",
+								"{@spell Всплеск циклона|Artes}",
+								"{@spell Ледяной клинок|Artes}",
+								"{@spell Пламя кары|Artes}",
+								"{@spell Клинок зелёного пламени|Artes}*TCE",
+								"{@spell Литания рыцаря|Artes}",
+								"{@spell Притяжение молний|Artes}*TCE",
+								"{@spell Кара злоречивого|Artes}",
+								"{@spell Прощальное пламя|Artes}",
+								"{@spell Бритвенный шквал|Artes}",
+								"{@spell Губительная изморозь|Artes}",
+								"{@spell Второй всплеск|Artes}",
+								"{@spell Молния стража|Artes}",
+								"{@spell Метание щита|Artes}",
+								"{@spell Удар щитом|Artes}",
+								"{@spell Ударная волна|Artes}",
+								"{@spell Шрапнельный выстрел|Artes}",
+								"{@spell Привязь духа|Artes}",
+								"{@spell Танец бури|Artes}",
+								"{@spell Меч как щит|Artes}",
+								"{@spell Взрыв мечей|Artes}*TCE",
+								"{@spell Попутный ветер|Artes}",
+								"{@spell Терновый хлыст|Artes}*PHB",
+								"{@spell Раскат грома|Artes}*PoTA",
+								"{@spell Истинный удар|Artes}*PHB",
+								"{@spell Удар тундры|Artes}",
+								"{@spell Клык пустоты|Artes}",
+								"{@spell Убывающий полумесяц|Artes}"
 							]
 						},
 						{
 							"type": "entries",
 							"entries": [
-								"* Artes marked with an asterisk are originally cantrips and now have a casting time of 1 attack.",
-								"PHB denotes a cantrip found in the Player's Handbook.",
-								"PoTA denotes a cantrip found in Princes of the Apocalypse.",
-								"TCE denotes a cantrip found in Tasha's Cauldron of Everything."
+								"* Искусства, отмеченные звёздочкой, изначально были заговорами, а теперь имеют время сотворения «1 атака».",
+								"PHB обозначает заговор из «Книги игрока».",
+								"PoTA обозначает заговор из «Принцев апокалипсиса».",
+								"TCE обозначает заговор из «Котла Таши со всякой всячиной»."
 							]
 						}
 					]
@@ -5137,38 +5137,38 @@
 				{
 					"type": "section",
 					"page": 11,
-					"name": "Customization",
+					"name": "Настройка",
 					"entries": [
 						{
 							"type": "entries",
 							"page": 11,
-							"name": "Multiclassing",
+							"name": "Мультиклассирование",
 							"entries": [
-								"When multiclassing, learning new {@filter artes|spells|school=AR|subschool=!Grand} are treated the same as learning cantrips when taking levels in classes that cast spells. Like cantrips, artes increase in power at higher levels based on your character level, not your level in a particular class.",
-								"Similarly, each class listed in the Classes section above learns new cantrips at their 4th and 10th class levels. Treat each of these classes as if they had an Artes Known column on their class tables, just like the Cantrips Known columns on many spellcasting class tables. If you have 1 level in fighter and 1 level in rogue, for example, you would know a total of 7 artes, and would learn a new one when you reach 4th level in either class."
+								"При мультиклассировании изучение новых {@filter artes|spells|school=AR|subschool=!Grand} рассматривается так же, как изучение заговоров при получении уровней в классах, творящих заклинания. Как и заговоры, искусства усиливаются на более высоких уровнях в зависимости от уровня персонажа, а не от уровня в конкретном классе.",
+								"Аналогично, каждый класс, перечисленный в разделе «Классы» выше, изучает новые заговоры на 4-м и 10-м уровне класса. Рассматривайте каждый из этих классов так, будто в его классовой таблице есть столбец «Известно искусств», как столбцы «Известно заговоров» во многих таблицах классов, творящих заклинания. Например, если у вас 1 уровень воина и 1 уровень плута, вы знали бы в общей сложности 7 искусств и изучили бы новое, достигнув 4-го уровня в любом из этих классов."
 							]
 						},
 						{
 							"type": "entries",
 							"page": 12,
-							"name": "Adaptation",
+							"name": "Адаптация",
 							"entries": [
-								"If some {@filter artes|spells|school=AR|subschool=!Grand} don't quite fit your campaign or if a PC wants to use them but none of them feel appropriate, then it's easy to adapt them by changing their names and damage type. Because cold, fire, and lightning are among the most-resisted damage types in the Monster Manual, they should generally be given the highest damage dice. The exception is if an arte already deals weapon damage, in which case it should have a low damage die, such as d4 or d6. It's rare for monsters to resist force, necrotic, psychic, or radiant damage, so they should have medium to low damage dice.",
-								"Artes are also relatively flavour-neutral and I encourage anyone implementing them to add their own flavour or change an arte's name. For example, if a barbarian character learned {@spell Parting Blaze|Artes}, the arte's fire damage could be described as a beastly claw made of flame that follows their weapon when they strike.",
-								"You can add extra flavour not just by renaming artes, but also by grouping them by style, damage type, or function. For example, perhaps movement-centric artes (like {@spell Storm Dance|Artes} and {@spell Parting Blaze|Artes}) were created by an elite infantry unit, or all lightning-based artes (such as {@spell Lightning Lure|Artes}, {@spell Second Surge|Artes}, and {@spell Storm Dance|Artes}) were developed by an order of warrior-priests who worship a storm deity, or all defensive artes ({@spell Blade Ward|Artes}, {@spell Booming Blade|Artes}, {@spell Flames of Punishment|Artes}, and {@spell Sword as Shield|Artes}, for example) belong to the signature style of a certain kingdom's royal guards."
+								"Если какие-то {@filter artes|spells|school=AR|subschool=!Grand} не совсем подходят вашей кампании или если персонаж хочет их использовать, но ни одно не кажется уместным, их легко адаптировать, изменив названия и тип урона. Поскольку холод, огонь и электричество — одни из наиболее часто отражаемых типов урона в Бестиарии, им, как правило, следует давать самые высокие кости урона. Исключение — если искусство уже наносит урон оружием: тогда у него должна быть низкая кость урона, например d4 или d6. Монстры редко имеют сопротивление силовому, некротическому, психическому урону или урону излучением, поэтому им следует давать средние или низкие кости урона.",
+								"Искусства также относительно нейтральны по антуражу, и я призываю всех, кто их вводит, добавлять собственный антураж или менять названия искусств. Например, если персонаж-варвар выучил {@spell Прощальное пламя|Artes}, урон огнём этого искусства можно описать как звериный коготь из пламени, следующий за его оружием при ударе.",
+								"Добавлять антураж можно не только переименованием искусств, но и объединением их по стилю, типу урона или функции. Например, возможно, искусства, связанные с перемещением (такие как {@spell Танец бури|Artes} и {@spell Прощальное пламя|Artes}), создало элитное пехотное подразделение, или все искусства на основе электричества (например, {@spell Притяжение молний|Artes}, {@spell Второй всплеск|Artes} и {@spell Танец бури|Artes}) разработал орден воинов-жрецов, поклоняющихся божеству бури, или все защитные искусства ({@spell Оберег от оружия|Artes}, {@spell Громовой клинок|Artes}, {@spell Пламя кары|Artes} и {@spell Меч как щит|Artes}, например) принадлежат фирменному стилю королевской гвардии некоего королевства."
 							]
 						},
 						{
 							"type": "entries",
 							"page": 12,
-							"name": "Feats",
+							"name": "Черты",
 							"entries": [
-								"The following feats can be an option for your players if you include artes in your campaign.",
+								"Следующие черты могут быть вариантом для ваших игроков, если вы включаете искусства в свою кампанию.",
 								{
 									"type": "list",
 									"items": [
-										"{@feat Martial Scholar|Artes}",
-										"{@feat Swift Artes|Artes}"
+										"{@feat Военный эрудит|Artes}",
+										"{@feat Быстрые искусства|Artes}"
 									]
 								}
 							]
@@ -5178,48 +5178,48 @@
 				{
 					"type": "section",
 					"page": 13,
-					"name": "FAQ",
+					"name": "Частые вопросы",
 					"entries": [
-						"Q: Who is this for?",
-						"A: Mechanically, martial cantrips / artes are for DMs who want to give the players of martial characters more options in battle aside from just using regular attacks over and over again.",
-						"Q: What about the weeaboo fightan magic flavour?",
-						"A: Flavour-wise, it's for people who want to give martials more spice than 'normal guy with weapon and armour' -- that flavour could come from the heroes of real-world mythology (such as Cadmus, Bhishma, Beowulf, Roland, Cu Roi, Arash, Bedivere, Diomedes, and others), by video games and Japanese animation, by Chinese wuxia fiction, and many other sources of inspiration.",
-						"Q: I am a boring person who can't get it up unless my wizard elf game with monsters and magic takes place in a perfect recreation of historical Europe. Will you make mundane, non-magical versions of these special just for me, specifically?",
-						"A: No. If you want mundane non-magical versions of these martial cantrips, then make them yourself. Changing the damage types, flavour, and names of the existing artes to fit your tastes should be easy for you, since people like you have a lot of experience sucking the fun out of things.",
-						"Q: Are these considered magic, and therefore subject to rules regarding antimagic?",
-						"A: Only if it suits your game. The default assumption is that they operate on the same logic (being a type of magic) as other martial cantrips, such as {@spell Booming Blade|TCE}, {@spell Green-Flame Blade|TCE}, and {@spell Sword Burst|TCE}. If explaining these as ki instead of magic makes more sense for your setting, then do that instead.",
-						"Q: Isn't this overpowered?",
-						"A: Not only is it not overpowered, it's barely regular powered. Cantrip damage does increase overall damage output, but not by a significant amount, and none of these effects are especially gamebreaking. Their effects were modeled after existing cantrips, which are balanced around repeated use in consecutive rounds.",
-						"Q: but muh game balance",
-						"A: D&D 5e is already a grossly unbalanced game that heavily favours casters. At the levels that casters are opening rifts to other planes of existence, calling down lightning, transforming into elementals, creating undead, petrifying their foes, and controlling minds, a martial is attacking a third time, dealing one more die of damage on sneak attacks or smites, or getting access to spells that full casters had eight levels ago.",
-						"I promise letting martials use cantrips and cantrip-equivalents as part of their attack actions isn't going to break your game, it's just going to let the players of martial characters have more fun in battle."
+						"В: Для кого это?",
+						"О: С точки зрения механики боевые заговоры / искусства — для Мастеров, которые хотят дать игрокам за боевых персонажей больше возможностей в бою, помимо повторяющихся обычных атак.",
+						"В: А как насчёт эстетики «анимешной боевой магии»?",
+						"О: С точки зрения антуража — для тех, кто хочет дать боевым персонажам больше колорита, чем «обычный парень с оружием и доспехом». Этот колорит может прийти от героев реальной мифологии (таких как Cadmus, Bhishma, Beowulf, Roland, Cu Roi, Arash, Bedivere, Diomedes и другие), из видеоигр и японской анимации, из китайской литературы уся и множества других источников вдохновения.",
+						"В: Я скучный человек, и у меня ничего не встаёт, если моя игра про волшебников и эльфов с монстрами и магией не происходит в идеально воссозданной исторической Европе. Вы сделаете обычные, немагические версии всего этого специально для меня?",
+						"О: Нет. Если вам нужны обычные немагические версии этих боевых заговоров — сделайте их сами. Изменить типы урона, антураж и названия существующих искусств под свои вкусы должно быть для вас легко, ведь у таких людей, как вы, большой опыт в высасывании веселья из всего.",
+						"В: Считаются ли они магией и, следовательно, подчиняются ли они правилам против магии?",
+						"О: Только если это подходит вашей игре. По умолчанию предполагается, что они работают по той же логике (будучи разновидностью магии), что и другие боевые заговоры, например {@spell Booming Blade|TCE}, {@spell Green-Flame Blade|TCE} и {@spell Sword Burst|TCE}. Если объяснять их как ки, а не магию, лучше подходит вашему миру — делайте так.",
+						"В: Разве это не слишком сильно?",
+						"О: Это не только не слишком сильно, это едва ли вообще «сильно». Урон заговоров действительно увеличивает общую эффективность урона, но незначительно, и ни один из этих эффектов не ломает игру. Их эффекты смоделированы по существующим заговорам, сбалансированным с расчётом на повторное использование несколько раундов подряд.",
+						"В: но мой баланс игры!",
+						"О: D&D 5e и без того чудовищно разбалансированная игра с огромным перевесом в пользу заклинателей. На тех уровнях, когда заклинатели открывают разрывы в другие планы существования, обрушивают молнии, превращаются в элементалей, создают нежить, обращают врагов в камень и управляют разумами, боевой персонаж атакует в третий раз, наносит на одну кость урона больше при скрытой атаке или каре либо получает доступ к заклинаниям, которые полные заклинатели имели восемь уровней назад.",
+						"Обещаю: если дать боевым персонажам использовать заговоры и их аналоги в рамках действия атака, игра не сломается — это лишь позволит игрокам за боевых персонажей получать больше удовольствия от боёв."
 					]
 				},
 				{
 					"type": "section",
 					"page": 14,
-					"name": "Grand Artes",
+					"name": "Великие искусства",
 					"entries": [
 						{
 							"type": "entries",
 							"page": 14,
-							"name": "Overview",
+							"name": "Обзор",
 							"entries": [
-								"{@filter Grand artes|spells|school=AR|subschool=Grand} Grand artes are an optional progression of {@filter artes|spells|school=AR|subschool=!Grand}. They are stronger than artes but have a limited number of uses between rests. Many classes already have multiple resources to track, so these rules may not be a good fit for every game. If you consider a given martial class or subclass underpowered or lacking in variety and want to give it a boost beyond what artes provide, consider allowing a character of that class to use grand artes."
+								"{@filter Grand artes|spells|school=AR|subschool=Grand} Великие искусства — необязательная ветвь развития {@filter artes|spells|school=AR|subschool=!Grand}. Они сильнее искусств, но имеют ограниченное число применений между отдыхами. У многих классов уже есть несколько отслеживаемых ресурсов, поэтому эти правила могут подойти не каждой игре. Если вы считаете какой-либо боевой класс или подкласс недостаточно сильным или лишённым разнообразия и хотите усилить его сверх того, что дают искусства, рассмотрите возможность разрешить персонажу этого класса использовать великие искусства."
 							]
 						},
 						{
 							"type": "entries",
 							"page": 14,
-							"name": "Progression",
+							"name": "Развитие",
 							"entries": [
-								"All classes that learn artes also learn one {@filter grand arte|spells|school=AR|subschool=Grand} at 5th level, which can be used once and cannot be used again until you finish a short or long rest. You learn a second grand arte and two total uses between rests at 9th level, and a third grand arte and three total uses at 13th level.",
+								"Все классы, изучающие искусства, также изучают одно {@filter grand arte|spells|school=AR|subschool=Grand} на 5-м уровне, которое можно использовать один раз и нельзя использовать снова, пока вы не завершите короткий или продолжительный отдых. На 9-м уровне вы изучаете второе великое искусство и получаете два применения между отдыхами, а на 13-м — третье великое искусство и три применения.",
 								{
 									"type": "table",
 									"colLabels": [
-										"Character Level",
-										"Grand Artes Known",
-										"Uses per Short Rest"
+										"Уровень персонажа",
+										"Известно великих искусств",
+										"Применений за короткий отдых"
 									],
 									"colStyles": [
 										"col-4 text-center",
@@ -5244,29 +5244,29 @@
 										]
 									]
 								},
-								"When a character who knows a grand arte gains a level, they can they can replace one grand arte they know with another. Optionally, if the DM wishes to provide more flexibility, a character who knows grand artes can replace one grand arte they know with another when they finish a long rest.",
-								"Grand artes also increase in damage with character level, gaining an additional die of damage at 9th, 13th, and 17th level. This is included in each grand arte's description."
+								"Когда персонаж, знающий великое искусство, получает уровень, он может заменить одно известное ему великое искусство другим. По желанию, если Мастер хочет дать больше гибкости, персонаж, знающий великие искусства, может заменить одно известное ему великое искусство другим по завершении продолжительного отдыха.",
+								"Великие искусства также увеличивают урон с уровнем персонажа, получая дополнительную кость урона на 9-м, 13-м и 17-м уровне. Это указано в описании каждого великого искусства."
 							]
 						},
 						{
 							"type": "list",
 							"page": 14,
-							"name": "Artes List",
+							"name": "Список искусств",
 							"items": [
-								"{@spell Cocytean Gavel|Artes}",
-								"{@spell Cometary Collision|Artes}",
-								"{@spell Converging Echoes|Artes}",
-								"{@spell Divine Battlecry|Artes}",
-								"{@spell Falling Star|Artes}",
-								"{@spell Maelstrom Blade|Artes}",
-								"{@spell Magmatic Blast|Artes}",
-								"{@spell Ricochet Shield|Artes}",
-								"{@spell Ride the Lightning|Artes}",
-								"{@spell Round Trip|Artes}",
-								"{@spell Sea of Swords|Artes}",
-								"{@spell Spectral Phalanx|Artes}",
-								"{@spell War God's Wrath|Artes}",
-								"{@spell Warp Strike|Artes}"
+								"{@spell Молот Коцита|Artes}",
+								"{@spell Столкновение с кометой|Artes}",
+								"{@spell Сходящиеся эхо|Artes}",
+								"{@spell Божественный боевой клич|Artes}",
+								"{@spell Падающая звезда|Artes}",
+								"{@spell Клинок водоворота|Artes}",
+								"{@spell Магматический взрыв|Artes}",
+								"{@spell Рикошетящий щит|Artes}",
+								"{@spell Оседлать молнию|Artes}",
+								"{@spell Возврат|Artes}",
+								"{@spell Море мечей|Artes}",
+								"{@spell Призрачная фаланга|Artes}",
+								"{@spell Гнев бога войны|Artes}",
+								"{@spell Варп-удар|Artes}"
 							]
 						}
 					]

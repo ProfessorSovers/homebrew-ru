@@ -22,7 +22,7 @@
 	},
 	"spell": [
 		{
-			"name": "Fantasy Seal",
+			"name": "Печать фантазии",
 			"source": "TouhouSpells",
 			"level": 8,
 			"school": "V",
@@ -41,7 +41,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a ying-yang orb"
+				"m": "сфера инь-ян"
 			},
 			"duration": [
 				{
@@ -54,8 +54,8 @@
 				}
 			],
 			"entries": [
-				"Eight brilliant multicolored spheres of light surround you for the duration of this spell. You may use your bonus action to release up to two spheres, sending them to strike a point or points you choose within 90 feet of you. Once a sphere reaches its targeted point, it explodes with radiant energy. Each creature in a 15-foot radius centered on that point must make a Dexterity saving throw, taking {@damage 6d8} radiant damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one explosion is affected only once.",
-				"While you have five or more spheres remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet, and you are considered as having half-cover from all nonmagical ranged attacks. If you have one to four spheres remaining, they shed dim light in a 30-foot radius."
+				"Восемь ярких разноцветных сфер света окружают вас, пока длится заклинание. Вы можете бонусным действием выпустить до двух сфер, отправив их поразить одну или несколько точек, выбранных вами в пределах 90 футов от вас. Достигнув выбранной точки, сфера взрывается лучистой энергией. Каждое существо в радиусе 15 футов с центром в этой точке должно совершить спасбросок Ловкости, получая {@damage 6d8} урона излучением при провале или половину этого урона при успехе. Существо, находящееся в области более одного взрыва, подвергается эффекту только один раз.",
+				"Пока у вас остаётся пять или более сфер, они испускают яркий свет в радиусе 30 футов и тусклый свет ещё 30 футов, и вы считаетесь имеющим укрытие наполовину от всех немагических дальнобойных атак. Если у вас осталось от одной до четырёх сфер, они испускают тусклый свет в радиусе 30 футов."
 			],
 			"classes": {
 				"fromClassList": [
@@ -85,7 +85,7 @@
 			]
 		},
 		{
-			"name": "Killing Doll",
+			"name": "Убивающая кукла",
 			"source": "TouhouSpells",
 			"level": 6,
 			"school": "C",
@@ -105,7 +105,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a silvered dagger worth at least 100 gp"
+				"m": "посеребрённый кинжал стоимостью не менее 100 зм"
 			},
 			"duration": [
 				{
@@ -113,17 +113,17 @@
 				}
 			],
 			"entries": [
-				"Brandishing the dagger used for this casting, you conjure forth hundreds of knives and launch them all towards a creature within range. The trajectory of the knives forms a 5-foot-line that extends out from you to the target. ",
-				"Each creature in the line excluding you and the targeted creature must make a Dexterity saving throw, taking {@damage 10d4} piercing or slashing damage (your choice) on a failed save,  or half as much damage on a successful one. ",
-				"Additionally, the target creature must make a Dexterity saving throw, taking {@damage 20d4} piercing or slashing damage  (your choice) on a failed save, or half as much on a  successful one.",
-				"Any knives created by this spell disappear after the  spell is cast."
+				"Потрясая кинжалом, использованным для сотворения, вы создаёте сотни ножей и запускаете их все в существо в пределах дистанции. Траектория ножей образует линию шириной 5 футов, протянувшуюся от вас к цели.",
+				"Каждое существо в линии, кроме вас и выбранной цели, должно совершить спасбросок Ловкости, получая {@damage 10d4} колющего или рубящего урона (на ваш выбор) при провале или половину этого урона при успехе.",
+				"Кроме того, выбранная цель должна совершить спасбросок Ловкости, получая {@damage 20d4} колющего или рубящего урона (на ваш выбор) при провале или половину этого урона при успехе.",
+				"Все ножи, созданные этим заклинанием, исчезают после его сотворения."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На больших уровнях",
 					"entries": [
-						"When you cast this spell using  a spell slot of 7th level or higher, the damage taken  by the target creature and creatures in the line  increases by {@dice 4d4} and {@dice 2d4} respectively for each  spell slot above 6th."
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 7-го уровня или выше, урон, получаемый выбранной целью и существами в линии, увеличивается на {@dice 4d4} и {@dice 2d4} соответственно за каждый уровень ячейки выше 6-го."
 					]
 				}
 			],
@@ -162,7 +162,7 @@
 			]
 		},
 		{
-			"name": "Master Spark",
+			"name": "Мастер-искра",
 			"source": "TouhouSpells",
 			"level": 8,
 			"school": "V",
@@ -182,7 +182,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a miniature furnace worth at least 500 gp"
+				"m": "миниатюрная печь стоимостью не менее 500 зм"
 			},
 			"duration": [
 				{
@@ -195,9 +195,9 @@
 				}
 			],
 			"entries": [
-				"A massive beam of energy forming a line 120 feet long and 20 feet wide shoots out from you for the duration of the spell. Each creature caught in the area of the line when the spell was cast must make a Constitution saving throw. On a failed save, a creature takes {@damage 8d8} force damage and is {@condition blinded} until the start of your next turn. On a successful save, it takes half as much damage and aren't {@condition blinded}. A creature also makes this save when it moves into the beam for the first time on a turn or starts its turn there.",
-				"The beam of energy moves with you and stays in the same place in relation to you, and you can use your action to change the orientation of the beam for the duration of the spell. If you do not change the orientation of the beam and do not move, you can also use your action to increase the damage of the spell by {@dice 2d8}. This bonus damage stacks until you move or change the orientation of the beam, at which point the damage reverts to its original amount.",
-				"The beam dispels any darkness created by a spell of 8th level or lower in its space."
+				"Из вас вырывается массивный луч энергии, образующий линию длиной 120 футов и шириной 20 футов, пока длится заклинание. Каждое существо, застигнутое в области линии в момент сотворения заклинания, должно совершить спасбросок Телосложения. При провале существо получает {@damage 8d8} урона силовым полем и становится {@condition blinded} до начала вашего следующего хода. При успехе оно получает половину этого урона и не становится {@condition blinded}. Существо также совершает этот спасбросок, когда впервые за ход входит в луч или начинает в нём свой ход.",
+				"Луч энергии движется вместе с вами и сохраняет неизменное положение относительно вас; вы можете действием изменить ориентацию луча, пока длится заклинание. Если вы не меняете ориентацию луча и не перемещаетесь, вы также можете действием увеличить урон заклинания на {@dice 2d8}. Этот дополнительный урон накапливается, пока вы не переместитесь или не измените ориентацию луча — в этот момент урон возвращается к исходному значению.",
+				"Луч развеивает любую тьму, созданную заклинанием 8-го уровня или ниже, в своём пространстве."
 			],
 			"classes": {
 				"fromClassList": [
@@ -235,7 +235,7 @@
 			]
 		},
 		{
-			"name": "Peerless Wind",
+			"name": "Несравненный ветер",
 			"source": "TouhouSpells",
 			"level": 6,
 			"school": "T",
@@ -266,8 +266,8 @@
 				}
 			],
 			"entries": [
-				"You empower yourself with blistering speed. All of your speeds increase by 120 feet for the duration of this spell. Additionally, you can take the dash action as a bonus action on your turn, and opportunity attacks have disadvantage against you. However, while you have this speed increase, you can move no less than 30 feet in a straight line before you can willingly come to a stop or change direction, and changing direction costs 15 feet of movement.",
-				"If you take the dash action while this spell is active, your movement this turn causes a deadly shockwave of air. Each creature within 10 feet of the trajectory of your movement must make a Strength saving throw. On a failed save, a creature takes {@damage 5d6} bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. A creature can be affected by this no more than once on your turn."
+				"Вы наполняете себя стремительной скоростью. Все ваши скорости увеличиваются на 120 футов, пока длится это заклинание. Кроме того, вы можете совершать действие Рывок бонусным действием в свой ход, а атаки по возможности совершаются по вам с помехой. Однако, пока действует это увеличение скорости, вы не можете переместиться меньше чем на 30 футов по прямой, прежде чем добровольно остановитесь или измените направление, а смена направления стоит 15 футов перемещения.",
+				"Если вы совершаете действие Рывок, пока заклинание активно, ваше перемещение в этом ходу вызывает смертоносную ударную волну воздуха. Каждое существо в пределах 10 футов от траектории вашего движения должно совершить спасбросок Силы. При провале существо получает {@damage 5d6} дробящего урона и падает {@condition prone}. При успехе существо получает половину этого урона и не падает {@condition prone}. Существо может подвергнуться этому эффекту не более одного раза за ваш ход."
 			],
 			"classes": {
 				"fromClassList": [
@@ -289,7 +289,7 @@
 			]
 		},
 		{
-			"name": "Perfect Freeze",
+			"name": "Идеальная заморозка",
 			"source": "TouhouSpells",
 			"level": 5,
 			"school": "V",
@@ -308,7 +308,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a shard of ice"
+				"m": "осколок льда"
 			},
 			"duration": [
 				{
@@ -316,16 +316,16 @@
 				}
 			],
 			"entries": [
-				"You strike the ground in front of you, causing the ground in a 20-foot square originating from you to suddenly freeze. Each creature in the square must make a Dexterity saving throw. A creature takes {@damage 8d6} cold damage on a failed save, or half as much damage on a successful one. A Large or smaller creature that fails the saving throw is also {@condition restrained} for 1 minute.",
-				"A {@condition restrained} creature can use its action to make a Strength check against your Spell Save DC. On a success, it breaks free from the ice.",
-				"The spell's area is also turned into difficult terrain until the end of your next turn."
+				"Вы ударяете по земле перед собой, и земля в квадрате с ребром 20 футов, исходящем от вас, внезапно замерзает. Каждое существо в квадрате должно совершить спасбросок Ловкости. При провале существо получает {@damage 8d6} урона холодом, при успехе — половину этого урона. Существо Большого или меньшего размера, провалившее спасбросок, также становится {@condition restrained} на 1 минуту.",
+				"Существо, {@condition restrained}, может действием совершить проверку Силы против Сл ваших заклинаний. При успехе оно освобождается изо льда.",
+				"Область заклинания также становится труднопроходимой местностью до конца вашего следующего хода."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "На больших уровнях",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 2d6} for each slot level above 5th."
+						"Если вы сотворяете это заклинание, используя ячейку заклинания 6-го уровня или выше, урон увеличивается на {@dice 2d6} за каждый уровень ячейки выше 5-го."
 					]
 				}
 			],
@@ -359,7 +359,7 @@
 			]
 		},
 		{
-			"name": "Present World Slash",
+			"name": "Разрез нынешнего мира",
 			"source": "TouhouSpells",
 			"level": 5,
 			"school": "V",
@@ -378,7 +378,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a martial melee slashing weapon"
+				"m": "воинское рукопашное рубящее оружие"
 			},
 			"duration": [
 				{
@@ -386,8 +386,8 @@
 				}
 			],
 			"entries": [
-				"You empower a weapon you are holding and unleash a devastating, magically charged attack. As part of the action used to cast this spell, you must make an melee weapon attack with your weapon. This attack is magical and ignores any magical increases to the target's AC.",
-				"Whether the attack hits or misses, it causes a huge slash of energy to emit from the weapon in a 15-foot-radius semicircle originating from you. Each creature in that area must make a Dexterity saving throw, taking {@damage 6d10} force damage on a failed save, or half as much damage on a successful one. The target has disadvantage on this save if the initial attack hit it."
+				"Вы наполняете силой оружие, которое держите, и обрушиваете опустошительную, заряженную магией атаку. В рамках действия, используемого для сотворения этого заклинания, вы должны совершить рукопашную атаку этим оружием. Эта атака магическая и игнорирует любые магические увеличения КД цели.",
+				"Попадёт атака или промахнётся, из оружия вырывается огромный разрез энергии в виде полукруга радиусом 15 футов, исходящего от вас. Каждое существо в этой области должно совершить спасбросок Ловкости, получая {@damage 6d10} урона силовым полем при провале или половину этого урона при успехе. Цель совершает этот спасбросок с помехой, если первоначальная атака попала по ней."
 			],
 			"classes": {
 				"fromClassList": [
@@ -413,7 +413,7 @@
 			]
 		},
 		{
-			"name": "Return Inanimateness",
+			"name": "Возвращение неодушевлённости",
 			"source": "TouhouSpells",
 			"level": 5,
 			"school": "T",
@@ -440,9 +440,9 @@
 				}
 			],
 			"entries": [
-				"You cause a nonmagical object or creature to magically explode. If you target a creature, it must make a Constitution saving throw, taking {@damage 8d10} fire damage on a failed save, or half as much damage on a successful one. Constructs have disadvantage on the save. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it automatically takes maximum damage from the spell.",
-				"The explosion forms a 15-foot-radius sphere centered on the target. Each creature in this area excluding the original target must make a Dexterity saving throw. A creature takes {@damage 4d10} fire damage on a failed save, or half as much damage on a successful one. The spell damages objects in the area and ignites flammable objects that aren't being worn or carried.",
-				"If the target is reduced to 0 hit points by this spell, it is turned to ash."
+				"Вы заставляете немагический предмет или существо магически взорваться. Если вы выбрали целью существо, оно должно совершить спасбросок Телосложения, получая {@damage 8d10} урона огнём при провале или половину этого урона при успехе. Конструкты совершают спасбросок с помехой. Если вы выбрали целью предмет, он должен полностью помещаться в куб с ребром 10 футов, и он автоматически получает от заклинания максимальный урон.",
+				"Взрыв образует сферу радиусом 15 футов с центром на цели. Каждое существо в этой области, кроме исходной цели, должно совершить спасбросок Ловкости. При провале существо получает {@damage 4d10} урона огнём, при успехе — половину этого урона. Заклинание повреждает предметы в области и поджигает горючие предметы, которые никто не несёт и не носит.",
+				"Если хиты цели опускаются до 0 из-за этого заклинания, она обращается в пепел."
 			],
 			"classes": {
 				"fromClassList": [
@@ -476,7 +476,7 @@
 			]
 		},
 		{
-			"name": "Royal Flare",
+			"name": "Королевская вспышка",
 			"source": "TouhouSpells",
 			"level": 7,
 			"school": "V",
@@ -507,9 +507,9 @@
 				}
 			],
 			"entries": [
-				"A brilliant light erupts from your palm. The light sheds bright light out to 60 feet and dim light for an additional 60 feet. When you cast this spell, each creature of your choice within ",
-				"60 feet of you must make a Constitution saving throw or be {@condition blinded} until the start of your next turn.",
-				"For the duration of the spell, you can use your action to emit four scintillating beams of radiant energy from your palm and sweep them across the ground. For each beam, choose two points on the ground within 60 feet of you that are no further than 30 feet apart. Each creature in a 5-foot-wide line between the two points must make a Dexterity saving throw, taking {@damage 5d8} radiant damage on a failed save, or half as much damage on a successful one. A creature in the space of more than one beam is affected only once."
+				"Из вашей ладони вырывается ослепительный свет. Свет испускает яркое освещение в радиусе до 60 футов и тусклый свет ещё 60 футов. Когда вы сотворяете это заклинание, каждое выбранное вами существо в пределах",
+				"60 футов от вас должно совершить спасбросок Телосложения, иначе станет {@condition blinded} до начала вашего следующего хода.",
+				"Пока длится заклинание, вы можете действием испускать из ладони четыре мерцающих луча лучистой энергии и проводить ими по земле. Для каждого луча выберите две точки на земле в пределах 60 футов от вас, расстояние между которыми не превышает 30 футов. Каждое существо в линии шириной 5 футов между этими точками должно совершить спасбросок Ловкости, получая {@damage 5d8} урона излучением при провале или половину этого урона при успехе. Существо, находящееся в пространстве более одного луча, подвергается эффекту только один раз."
 			],
 			"classes": {
 				"fromClassList": [
@@ -545,7 +545,7 @@
 			]
 		},
 		{
-			"name": "Subconscient Aura",
+			"name": "Аура подсознания",
 			"source": "TouhouSpells",
 			"level": 7,
 			"school": "E",
@@ -577,10 +577,10 @@
 				}
 			],
 			"entries": [
-				"An aura of mental chaos with a 30-foot radius surrounds you for the duration of this spell. When you cast this spell, you can choose any number of creatures you can see to be unaffected by it. Each creature affected by the spell in the aura must make an Intelligence saving throw. Any creature with an Intelligence score of 2 or less is unaffected. A creature takes {@damage 4d10} psychic damage on a failed save, or half as much on a successful one. A creature also makes this saving throw when it enters the aura for the first time on a turn or starts its turn there.",
-				"In addition, when you cast this spell, choose one of the following effects. When a creature fails a saving throw against this spell, it is also subject to the chosen effect. If a creature succeeds on a saving throw against this spell, it is exempt from the additional effect of the aura for the rest of the spell's duration.",
-				"{@b Id Release.}The aura amplifies the {@condition unconscious} instincts of those within it, making rational thoughts borderline impossible. The creature is {@condition charmed} by you until the start of its next turn. While {@condition charmed} in this way, it has disadvantage on Intelligence, Wisdom and Charisma saving throws. This disadvantage does not apply to the saving throw made against this spell.",
-				"{@b Super-Ego Repression.} The aura inflames the conscience and incapacitates the mind, rendering the creature almost catatonic with paranoia. The creature is {@condition frightened} of you until the start of its next turn. While {@condition frightened} in this way, it is {@condition incapacitated} and its speed is reduced to 0."
+				"Пока длится заклинание, вас окружает аура психического хаоса радиусом 30 футов. Когда вы сотворяете это заклинание, вы можете выбрать любое количество видимых вами существ, на которых оно не будет действовать. Каждое попавшее под заклинание существо в ауре должно совершить спасбросок Интеллекта. Существа со значением Интеллекта 2 или ниже не подвержены эффекту. При провале существо получает {@damage 4d10} психического урона, при успехе — половину этого урона. Существо также совершает этот спасбросок, когда впервые за ход входит в ауру или начинает в ней свой ход.",
+				"Кроме того, сотворяя это заклинание, выберите один из следующих эффектов. Когда существо проваливает спасбросок против этого заклинания, оно также подвергается выбранному эффекту. Если существо преуспевает в спасброске против этого заклинания, оно освобождается от дополнительного эффекта ауры до конца длительности заклинания.",
+				"{@b Высвобождение Ид.} Аура усиливает {@condition unconscious} инстинкты находящихся в ней существ, делая рациональные мысли почти невозможными. Существо становится {@condition charmed} вами до начала своего следующего хода. Пока оно {@condition charmed} таким образом, оно совершает спасброски Интеллекта, Мудрости и Харизмы с помехой. Эта помеха не применяется к спасброску против этого заклинания.",
+				"{@b Подавление Сверх-Я.} Аура разжигает совесть и парализует разум, доводя существо почти до кататонии от паранойи. Существо становится {@condition frightened} вами до начала своего следующего хода. Пока оно {@condition frightened} таким образом, оно {@condition incapacitated}, и его скорость уменьшается до 0."
 			],
 			"classes": {
 				"fromClassList": [
@@ -620,7 +620,7 @@
 	],
 	"roll20Spell": [
 		{
-			"name": "Fantasy Seal",
+			"name": "Печать фантазии",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Dexterity",
@@ -630,7 +630,7 @@
 			}
 		},
 		{
-			"name": "Killing Doll",
+			"name": "Убивающая кукла",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Dexterity",
@@ -646,7 +646,7 @@
 			}
 		},
 		{
-			"name": "Master Spark",
+			"name": "Мастер-искра",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Constitution",
@@ -656,7 +656,7 @@
 			}
 		},
 		{
-			"name": "Peerless Wind",
+			"name": "Несравненный ветер",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Strength",
@@ -666,7 +666,7 @@
 			}
 		},
 		{
-			"name": "Perfect Freeze",
+			"name": "Идеальная заморозка",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Dexterity",
@@ -678,7 +678,7 @@
 			}
 		},
 		{
-			"name": "Present World Slash",
+			"name": "Разрез нынешнего мира",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Dexterity",
@@ -688,7 +688,7 @@
 			}
 		},
 		{
-			"name": "Return Inanimateness",
+			"name": "Возвращение неодушевлённости",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Constitution",
@@ -700,7 +700,7 @@
 			}
 		},
 		{
-			"name": "Royal Flare",
+			"name": "Королевская вспышка",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Dexterity",
@@ -710,7 +710,7 @@
 			}
 		},
 		{
-			"name": "Subconscient Aura",
+			"name": "Аура подсознания",
 			"source": "TouhouSpells",
 			"data": {
 				"Save": "Intelligence",
