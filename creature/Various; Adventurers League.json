@@ -20,7 +20,7 @@
 	},
 	"monster": [
 		{
-			"name": "Abyssal Giant Lizard",
+			"name": "Гигантский абиссальный ящер",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 40,
@@ -77,22 +77,22 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Abyssal or Draconic but can't speak"
+				"Understands бездонный or драконий но не может говорить"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Rampage",
+					"name": "Буйство",
 					"entries": [
-						"When it reduces a creature to 0 hit points with a melee attack on its turn, the abyssal giant lizard can take a bonus action to make a bite attack against a different creature in reach."
+						"Когда он в свой ход опускает рукопашной атакой хиты существа до 0, гигантский абиссальный ящер может бонусным действием совершить атаку укусом по другому существу в пределах досягаемости."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage, plus 5 ({@damage 2d4}) poison damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 10 фт., одна цель. {@h}8 ({@damage 1d10 + 3}) колющего урона, плюс 5 ({@damage 2d4}) урона ядом."
 					]
 				}
 			],
@@ -118,7 +118,7 @@
 			]
 		},
 		{
-			"name": "Alchemist",
+			"name": "Алхимик",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 43,
@@ -152,34 +152,34 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Poisoned Dagger (3/Day)",
+					"name": "Отравленный кинжал (3/день)",
 					"entries": [
-						"As a bonus action, the alchemist can add {@dice 1d10} poison damage to its next damage roll with a dagger."
+						"Бонусным действием алхимик может добавить {@dice 1d10} урона ядом к своему следующему броску урона кинжалом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The alchemist makes two attacks with its dagger."
+						"Алхимик совершает две атаки кинжалом."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit +5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"{@atk mw,rw} {@hit +5} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Caustic Spray {@recharge 5}",
+					"name": "Едкая струя {@recharge 5}",
 					"entries": [
-						"The alchemist mixes chemicals to cause a 15-foot cone of acid to shoot forth. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 22 ({@damage 4d10}) acid damage on a failed save, or half as much damage on a successful one."
+						"Алхимик смешивает химикаты, исторгая 15-футовый конус кислоты. Все существа в этой области должны совершить спасбросок Ловкости {@dc 13}, получая 22 ({@damage 4d10}) урона кислотой при провале, или половину этого урона при успехе."
 					]
 				}
 			],
@@ -210,7 +210,7 @@
 			]
 		},
 		{
-			"name": "Algaepygmy",
+			"name": "Водорослевый пигмей",
 			"source": "ALBrew",
 			"sourceSub": "DDIA-XGE Underworld Speculation",
 			"page": 14,
@@ -261,29 +261,29 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"The algaepygmy can breathe both air and water."
+						"Водорослевый пигмей может дышать и воздухом, и под водой."
 					]
 				},
 				{
-					"name": "Plant Camouflage",
+					"name": "Растительная маскировка",
 					"entries": [
-						"The algaepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
+						"Водорослевый пигмей совершает с преимуществом проверки Ловкости (Скрытность) в местности с густой маскирующей растительностью."
 					]
 				},
 				{
-					"name": "Regeneration",
+					"name": "Регенерация",
 					"entries": [
-						"The algaepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the algaepygmy's next turn. The algaepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate."
+						"Водорослевый пигмей восстанавливает 3 хита в начале своего хода. Если он получает урон холодом, огнём или некротической энергией, эта особенность не действует в начале его следующего хода. Водорослевый пигмей умирает, только если начинает ход с 0 хитов и не регенерирует."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) рубящего урона."
 					]
 				}
 			],
@@ -303,7 +303,7 @@
 			]
 		},
 		{
-			"name": "Allosaurus Zombie",
+			"name": "Зомби-аллозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 10,
@@ -348,35 +348,35 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Cling",
+					"name": "Цепляние",
 					"entries": [
-						"If the allosaurus zombie hits a creature with a claw attack, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the allosaurus zombie can make one bite attack against it as a bonus action."
+						"Если зомби-аллозавр попадает по существу атакой когтями, эта цель должна преуспеть в спасброске Силы {@dc 13}, иначе будет сбита с ног {@condition prone}. Если цель {@condition prone}, зомби-аллозавр может бонусным действием совершить по ней одну атаку укусом."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				},
 				{
-					"name": "Undying Hunger (1/Turn)",
+					"name": "Неутолимый голод (1/ход)",
 					"entries": [
-						"If the allosaurus zombie hits a creature with a claw attack, the allosaurus zombie gains 5 temporary hit points."
+						"Если зомби-аллозавр попадает по существу атакой когтями, он получает 5 временных хитов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}15 ({@damage 2d10 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) рубящего урона."
 					]
 				}
 			],
@@ -402,7 +402,7 @@
 			]
 		},
 		{
-			"name": "Archelon",
+			"name": "Архелон",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 3,
@@ -442,17 +442,17 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The archelon can hold its breath for 6 hours."
+						"Архелон может задерживать дыхание на 6 часов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d8 + 3}) колющего урона."
 					]
 				}
 			],
@@ -468,7 +468,7 @@
 			]
 		},
 		{
-			"name": "Archelon Zombie",
+			"name": "Зомби-архелон",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 10,
@@ -514,23 +514,23 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				},
 				{
-					"name": "Undying Hunger (1/Turn)",
+					"name": "Неутолимый голод (1/ход)",
 					"entries": [
-						"If the archelon zombie hits a creature with a bite attack, the archelon zombie gains 5 temporary hit points."
+						"Если зомби-архелон попадает по существу атакой укусом, он получает 5 временных хитов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d8 + 3}) колющего урона."
 					]
 				}
 			],
@@ -549,7 +549,7 @@
 			]
 		},
 		{
-			"name": "Brachiosaurus",
+			"name": "Брахиозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 3,
@@ -588,15 +588,15 @@
 			"cr": "6",
 			"action": [
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 20 ft., one target. {@h}34 ({@damage 5d10 + 7}) bludgeoning damage, and the target must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit +10} к попаданию, досягаемость 20 фт., одна цель. {@h}34 ({@damage 5d10 + 7}) дробящего урона, и цель должна преуспеть в спасброске Силы {@dc 15}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 20 ft., one target. {@h}40 ({@damage 6d10 + 7}) bludgeoning damage."
+						"{@atk mw} {@hit +10} к попаданию, досягаемость 20 фт., одна цель. {@h}40 ({@damage 6d10 + 7}) дробящего урона."
 					]
 				}
 			],
@@ -616,7 +616,7 @@
 			]
 		},
 		{
-			"name": "Brachiosaurus Zombie",
+			"name": "Зомби-брахиозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 11,
@@ -664,29 +664,29 @@
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 20 ft., one target. {@h}34 ({@damage 5d10 + 7}) bludgeoning damage, and the target must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit +10} к попаданию, досягаемость 20 фт., одна цель. {@h}34 ({@damage 5d10 + 7}) дробящего урона, и цель должна преуспеть в спасброске Силы {@dc 15}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 20 ft., one target. {@h}40 ({@damage 6d10 + 7}) bludgeoning damage."
+						"{@atk mw} {@hit +10} к попаданию, досягаемость 20 фт., одна цель. {@h}40 ({@damage 6d10 + 7}) дробящего урона."
 					]
 				},
 				{
-					"name": "Poison Breath {@recharge 5}",
+					"name": "Ядовитое дыхание {@recharge 5}",
 					"entries": [
-						"The brachiosaurus zombie exhales poison gas in a 30-foot cone. Each creature in that area must make a {@dc 15} Constitution saving throw, taking 45 ({@damage 10d8}) poison damage on a failed save, or half as much damage on a successful one."
+						"Зомби-брахиозавр выдыхает ядовитый газ 30-футовым конусом. Все существа в этой области должны совершить спасбросок Телосложения {@dc 15}, получая 45 ({@damage 10d8}) урона ядом при провале, или половину этого урона при успехе."
 					]
 				}
 			],
@@ -718,7 +718,7 @@
 			]
 		},
 		{
-			"name": "Brontosaurus Zombie",
+			"name": "Зомби-бронтозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 11,
@@ -766,23 +766,23 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit +8} to hit, reach 20 ft., one target. {@h}27 ({@damage 5d8 + 5}) bludgeoning damage, and the target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit +8} к попаданию, досягаемость 20 фт., одна цель. {@h}27 ({@damage 5d8 + 5}) дробящего урона, и цель должна преуспеть в спасброске Силы {@dc 14}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 20 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit +10} к попаданию, досягаемость 20 фт., одна цель. {@h}32 ({@damage 6d8 + 5}) дробящего урона."
 					]
 				}
 			],
@@ -808,7 +808,7 @@
 			]
 		},
 		{
-			"name": "Chameleon Lizardfolk Snoop",
+			"name": "Хамелеон-ящеролюд-соглядатай",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 37,
@@ -848,49 +848,49 @@
 			},
 			"passive": 10,
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Camouflage",
+					"name": "Маскировка",
 					"entries": [
-						"The chameleon lizardfolk snoop can use a bonus action to gain advantage on the next Stealth check it makes on that turn."
+						"Хамелеон-ящеролюд-соглядатай может бонусным действием получить преимущество на следующую проверку Скрытности, совершаемую в этом ходу."
 					]
 				},
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The chameleon lizardfolk snoop can hold its breath for 15 minutes."
+						"Хамелеон-ящеролюд-соглядатай может задерживать дыхание на 15 минут."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) slashing damage."
+						"{@atk mw} {@hit +2} к попаданию, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d6}) рубящего урона."
 					]
 				},
 				{
-					"name": "Short Sword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. If the chameleon lizardfolk snoop has advantage on the attack roll, the attack deals an extra 3 ({@damage 1d6}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона. Если хамелеон-ящеролюд-соглядатай совершает бросок атаки с преимуществом, атака причиняет дополнительный 3 ({@damage 1d6}) колющего урона."
 					]
 				},
 				{
-					"name": "Sling",
+					"name": "Праща",
 					"entries": [
-						"{@atk rw} {@hit +4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage. If the chameleon lizardfolk snoop has advantage on the attack roll, the attack deals an extra 3 ({@damage 1d6}) bludgeoning damage."
+						"{@atk rw} {@hit +4} к попаданию, дистанция 30/120 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона. Если хамелеон-ящеролюд-соглядатай совершает бросок атаки с преимуществом, атака причиняет дополнительный 3 ({@damage 1d6}) дробящего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Sudden Blur",
+					"name": "Внезапное размытие",
 					"entries": [
-						"When the chameleon lizardfolk snoop is targeted by a ranged attack, it can use its reaction to change color. That ranged attack is made at disadvantage."
+						"Когда по хамелеону-ящеролюду-соглядатаю нацеливается дальнобойная атака, он может реакцией изменить цвет. Эта дальнобойная атака совершается с помехой."
 					]
 				}
 			],
@@ -917,7 +917,7 @@
 			]
 		},
 		{
-			"name": "Chameleon Lizardfolk Spy",
+			"name": "Хамелеон-ящеролюд-шпион",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 38,
@@ -957,61 +957,61 @@
 			},
 			"passive": 10,
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Distracting Tail",
+					"name": "Отвлекающий хвост",
 					"entries": [
-						"The chameleon lizardfolk spy can use a bonus action to distract one adjacent enemy with its tail. The next melee attack against that enemy on that turn is made with advantage."
+						"Хамелеон-ящеролюд-шпион может бонусным действием отвлечь хвостом одного находящегося рядом врага. Следующая рукопашная атака по этому врагу в этом ходу совершается с преимуществом."
 					]
 				},
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The chameleon lizardfolk spy can hold its breath for 15 minutes."
+						"Хамелеон-ящеролюд-шпион может задерживать дыхание на 15 минут."
 					]
 				},
 				{
-					"name": "Uncanny Camouflage",
+					"name": "Невероятная маскировка",
 					"entries": [
-						"The chameleon lizardfolk spy has advantage on Stealth checks."
+						"Хамелеон-ящеролюд-шпион совершает с преимуществом проверки Скрытности."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The chameleon lizardfolk spy makes two melee attacks with its short sword or two ranged attacks with its sling."
+						"Хамелеон-ящеролюд-шпион совершает две рукопашные атаки коротким мечом или две дальнобойные атаки пращой."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) slashing damage."
+						"{@atk mw} {@hit +2} к попаданию, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d6}) рубящего урона."
 					]
 				},
 				{
-					"name": "Short Sword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. If the chameleon lizardfolk spy has advantage on the attack roll, the attack deals an extra 7 ({@damage 2d6}) piercing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона. Если хамелеон-ящеролюд-шпион совершает бросок атаки с преимуществом, атака причиняет дополнительный 7 ({@damage 2d6}) колющего урона."
 					]
 				},
 				{
-					"name": "Sling",
+					"name": "Праща",
 					"entries": [
-						"{@atk rw} {@hit +6} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d4 + 4}) bludgeoning damage. If the chameleon lizardfolk spy has advantage on the attack roll, the attack deals an extra 7 ({@damage 2d6}) bludgeoning damage."
+						"{@atk rw} {@hit +6} к попаданию, дистанция 30/120 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) дробящего урона. Если хамелеон-ящеролюд-шпион совершает бросок атаки с преимуществом, атака причиняет дополнительный 7 ({@damage 2d6}) дробящего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Expert Dodger",
+					"name": "Искусный уклоняющийся",
 					"entries": [
-						"When the chameleon lizardfolk spy is targeted by a ranged attack, it can use its reaction to change color. All ranged attacks made against the chameleon lizardfolk spy until the start of its next turn are made at disadvantage."
+						"Когда по хамелеону-ящеролюду-шпиону нацеливается дальнобойная атака, он может реакцией изменить цвет. Все дальнобойные атаки по хамелеону-ящеролюду-шпиону до начала его следующего хода совершаются с помехой."
 					]
 				}
 			],
@@ -1041,7 +1041,7 @@
 			]
 		},
 		{
-			"name": "Deinonychus Zombie",
+			"name": "Зомби-дейноних",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 12,
@@ -1086,41 +1086,41 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Pounce",
+					"name": "Наскок",
 					"entries": [
-						"If the deinonychus zombie moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the deinonychus zombie can make one bite attack against it as a bonus action."
+						"Если зомби-дейноних переместится как минимум на 20 футов по прямой к существу, а затем в том же ходу попадёт по нему атакой когтями, эта цель должна преуспеть в спасброске Силы {@dc 12}, иначе будет сбита с ног {@condition prone}. Если цель {@condition prone}, зомби-дейноних может бонусным действием совершить по ней одну атаку укусом."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				},
 				{
-					"name": "Undying Hunger (1/Turn)",
+					"name": "Неутолимый голод (1/ход)",
 					"entries": [
-						"If the deinonychus zombie hits a creature with a claw attack, the deinonychus zombie gains 5 temporary hit points."
+						"Если зомби-дейноних попадает по существу атакой когтями, он получает 5 временных хитов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The deinonychus zombie makes two attacks: one with its bite and one with its claws."
+						"Зомби-дейноних совершает две атаки: одну укусом и одну когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
 					]
 				}
 			],
@@ -1150,7 +1150,7 @@
 			]
 		},
 		{
-			"name": "Dilophosaurus",
+			"name": "Дилофозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 3,
@@ -1189,15 +1189,15 @@
 			"cr": "1",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Venomous Spit",
+					"name": "Ядовитый плевок",
 					"entries": [
-						"{@atk rw} {@hit +4} to hit, range 10/20 ft., one target. {@h}The target must succeed on a {@dc 12} Constitution saving throw or become {@condition blinded} for 1 minute. A {@condition blinded} creature must repeat the saving throw at the end of its next turn, becoming {@condition paralyzed} for as long as it remains {@condition blinded} on a failure or ending the {@condition blinded} condition on a success. A {@condition blinded} and {@condition paralyzed} creature can repeat the saving throw at the end of its turn, ending both conditions on a success. Creatures immune to the {@condition poisoned} condition are immune to this effect."
+						"{@atk rw} {@hit +4} к попаданию, дистанция 10/20 фт., одна цель. {@h}Цель должна преуспеть в спасброске Телосложения {@dc 12}, иначе станет {@condition blinded} на 1 минуту. Существо {@condition blinded} должно повторить спасбросок в конце своего следующего хода, становясь {@condition paralyzed}, пока остаётся {@condition blinded}, при провале, или оканчивая состояние {@condition blinded} при успехе. Существо {@condition blinded} и {@condition paralyzed} может повторять спасбросок в конце своего хода, оканчивая оба состояния при успехе. Существа, невосприимчивые к состоянию {@condition poisoned}, невосприимчивы к этому эффекту."
 					]
 				}
 			],
@@ -1217,7 +1217,7 @@
 			]
 		},
 		{
-			"name": "Dilophosaurus Zombie",
+			"name": "Зомби-дилофозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 12,
@@ -1262,23 +1262,23 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+						"{@atk mw} {@hit +3} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Necrotic Spit",
+					"name": "Некротический плевок",
 					"entries": [
-						"{@atk rw} {@hit +2} to hit, range 10/20 ft., one target. {@h}10 ({@damage 3d6}) necrotic damage and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition blinded} for 1 minute. A {@condition blinded} creature can repeat the saving throw at the end of its turn, ending the condition on a success."
+						"{@atk rw} {@hit +2} к попаданию, дистанция 10/20 фт., одна цель. {@h}10 ({@damage 3d6}) некротического урона, и цель должна преуспеть в спасброске Телосложения {@dc 12}, иначе станет {@condition blinded} на 1 минуту. Существо {@condition blinded} может повторять спасбросок в конце своего хода, оканчивая состояние при успехе."
 					]
 				}
 			],
@@ -1305,7 +1305,7 @@
 			]
 		},
 		{
-			"name": "Dimetrodon Zombie",
+			"name": "Зомби-диметродон",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 12,
@@ -1351,17 +1351,17 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 2d6 + 2}) колющего урона."
 					]
 				}
 			],
@@ -1380,7 +1380,7 @@
 			]
 		},
 		{
-			"name": "Gecko Lizardfolk Infiltrator",
+			"name": "Геккон-ящеролюд-лазутчик",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 38,
@@ -1427,55 +1427,55 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The gecko lizardfolk infiltrator can hold its breath for 15 minutes."
+						"Геккон-ящеролюд-лазутчик может задерживать дыхание на 15 минут."
 					]
 				},
 				{
-					"name": "Quick Escape",
+					"name": "Быстрый уход",
 					"entries": [
-						"The gecko lizardfolk infiltrator can take the Disengage or Hide action as a bonus action in each of its turns."
+						"Геккон-ящеролюд-лазутчик может в каждом своём ходу бонусным действием совершать действие Отход или Засада."
 					]
 				},
 				{
-					"name": "Toe Pads",
+					"name": "Пальцевые подушечки",
 					"entries": [
-						"The gecko lizardfolk infiltrator can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Геккон-ящеролюд-лазутчик может лазать по сложным поверхностям, включая потолки, без совершения проверок характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The gecko lizardfolk infiltrator makes two attacks with its daggers."
+						"Геккон-ящеролюд-лазутчик совершает две атаки своими кинжалами."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) slashing damage."
+						"{@atk mw} {@hit +1} к попаданию, досягаемость 5 фт., одна цель. {@h}2 ({@damage 1d6 - 1}) рубящего урона."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk m,r} {@hit +5} to hit, reach 5 ft. or ranged 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"{@atk m,r} {@hit +5} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Lightning Retort",
+					"name": "Молниеносная отповедь",
 					"entries": [
-						"The gecko lizardfolk infiltrator can make a dagger attack against an adjacent enemy who hits it with a melee attack. If this dagger attack hits, it does an additional 3 ({@damage 1d6}) piercing damage."
+						"Геккон-ящеролюд-лазутчик может совершить атаку кинжалом по находящемуся рядом врагу, который попал по нему рукопашной атакой. Если эта атака кинжалом попадает, она причиняет дополнительный 3 ({@damage 1d6}) колющего урона."
 					]
 				}
 			],
@@ -1503,7 +1503,7 @@
 			]
 		},
 		{
-			"name": "Gecko Lizardfolk Scout",
+			"name": "Геккон-ящеролюд-разведчик",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 38,
@@ -1549,41 +1549,41 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The gecko lizardfolk scout can hold its breath for 15 minutes."
+						"Геккон-ящеролюд-разведчик может задерживать дыхание на 15 минут."
 					]
 				},
 				{
-					"name": "Quick Escape",
+					"name": "Быстрый уход",
 					"entries": [
-						"The gecko lizardfolk scout can take the Disengage action as a bonus action in each of its turns."
+						"Геккон-ящеролюд-разведчик может в каждом своём ходу бонусным действием совершать действие Отход."
 					]
 				},
 				{
-					"name": "Toe Pads",
+					"name": "Пальцевые подушечки",
 					"entries": [
-						"The gecko lizardfolk scout can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Геккон-ящеролюд-разведчик может лазать по сложным поверхностям, включая потолки, без совершения проверок характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) slashing damage."
+						"{@atk mw} {@hit +1} к попаданию, досягаемость 5 фт., одна цель. {@h}2 ({@damage 1d6 - 1}) рубящего урона."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk m,r} {@hit +4} to hit, reach 5 ft. or ranged 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk m,r} {@hit +4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				}
 			],
@@ -1608,7 +1608,7 @@
 			]
 		},
 		{
-			"name": "Giant Clam",
+			"name": "Гигантский моллюск",
 			"source": "ALBrew",
 			"sourceSub": "DDIA-XGE Underworld Speculation",
 			"page": 15,
@@ -1656,29 +1656,29 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Adhesive (Inside Only)",
+					"name": "Клейкость (только внутри)",
 					"entries": [
-						"The giant clam adheres to anything that touches it. A Large or smaller creature adhered to the giant clam is also {@condition grappled} by it (escape {@dc 13}). Ability checks made to escape this grapple have disadvantage."
+						"Гигантский моллюск прилипает ко всему, что его касается. Существо Большого или меньшего размера, прилипшее к гигантскому моллюску, также становится {@condition grappled} им (высвобождение {@dc 13}). Проверки характеристик для освобождения от этого захвата совершаются с помехой."
 					]
 				},
 				{
-					"name": "Grappler",
+					"name": "Захватчик",
 					"entries": [
-						"The giant clam has advantage on attack rolls against any creature {@condition grappled} by it."
+						"Гигантский моллюск совершает с преимуществом броски атаки по любому существу {@condition grappled} им."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Pseudopod",
+					"name": "Ложноножка",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. The target is subjected to its Adhesive trait."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) дробящего урона. На цель распространяется его свойство Клейкость."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 4 ({@damage 1d8}) acid damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) дробящего урона плюс 4 ({@damage 1d8}) урона кислотой."
 					]
 				}
 			],
@@ -1698,7 +1698,7 @@
 			]
 		},
 		{
-			"name": "Giant Spitting Lizard",
+			"name": "Гигантский плюющийся ящер",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 41,
@@ -1738,23 +1738,23 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage, plus 5 ({@damage 2d4}) poison damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 13}). Until the grapple ends, the giant spitting lizard can only bite the {@condition grappled} creature and has advantage on attack rolls to do so."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) дробящего урона, плюс 5 ({@damage 2d4}) урона ядом. Если цель — существо Большого или меньшего размера, оно {@condition grappled} (высвобождение {@dc 13}). Пока этот захват не окончен, гигантский плюющийся ящер может кусать только существо {@condition grappled} и совершает с преимуществом броски атаки против него."
 					]
 				},
 				{
-					"name": "Poison Spit",
+					"name": "Ядовитый плевок",
 					"entries": [
-						"{@atk rw} {@hit +5} to hit, range 30 ft., two adjacent targets. {@h}13 ({@damage 3d6 + 3}) poison damage. The giant spitting lizard cannot make this attack if it has a creature {@condition grappled}."
+						"{@atk rw} {@hit +5} к попаданию, дистанция 30 фт., две соседние цели. {@h}13 ({@damage 3d6 + 3}) урона ядом. Гигантский плюющийся ящер не может совершать эту атаку, если у него есть существо {@condition grappled}."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 10 ft., one target. This attack is triggered when a creature attempts to move adjacent to the giant spitting lizard. {@h}The target is pushed 10 feet and knocked {@condition prone}, ending that creature's movement."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 10 фт., одна цель. Эта атака срабатывает, когда существо пытается переместиться рядом с гигантским плюющимся ящером. {@h}Цель отталкивается на 10 футов и сбивается с ног {@condition prone}, оканчивая перемещение этого существа."
 					]
 				}
 			],
@@ -1777,7 +1777,7 @@
 			]
 		},
 		{
-			"name": "Giganotosaurus",
+			"name": "Гиганотозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 4,
@@ -1816,43 +1816,43 @@
 			"cr": "10",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The giganotosaurus can make two attacks: one with its bite and one with its tail. It can use Swallow instead of its bite."
+						"Гиганотозавр может совершить две атаки: одну укусом и одну хвостом. Он может использовать Проглатывание вместо укуса."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +12} to hit, reach 15 ft., one target. {@h}34 ({@damage 4d12 + 8}) piercing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the giganotosaurus can't bite another target."
+						"{@atk mw} {@hit +12} к попаданию, досягаемость 15 фт., одна цель. {@h}34 ({@damage 4d12 + 8}) колющего урона. Если цель — существо Большого или меньшего размера, оно {@condition grappled} (высвобождение {@dc 18}). Пока этот захват не окончен, цель {@condition restrained}, и гиганотозавр не может кусать другую цель."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +12} to hit, reach 20 ft., one target. {@h}26 ({@damage 4d8 + 8}) bludgeoning damage."
+						"{@atk mw} {@hit +12} к попаданию, досягаемость 20 фт., одна цель. {@h}26 ({@damage 4d8 + 8}) дробящего урона."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The giganotosaurus makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends.",
-						"While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the giganotosaurus, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the giganotosaurus' turns.",
-						"If the giganotosaurus takes 30 damage or more on a single turn from a creature inside it, the giganotosaurus must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the giganotosaurus. If the giganotosaurus dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
+						"Гиганотозавр совершает одну атаку укусом по существу Большого или меньшего размера, которое он держит в захвате. Если атака попадает, цель получает урон укуса, цель проглатывается, а захват оканчивается.",
+						"Пока существо проглочено, оно {@condition blinded} и {@condition restrained}, обладает полным укрытием от атак и прочих эффектов снаружи гиганотозавра, и получает 21 ({@damage 6d6}) урона кислотой в начале каждого хода гиганотозавра.",
+						"Если гиганотозавр получает 30 урона или больше за один ход от существа внутри него, гиганотозавр должен преуспеть в спасброске Телосложения {@dc 15} в конце этого хода, иначе извергнет всех проглоченных существ, которые падают {@condition prone} ничком в пространстве в пределах 10 футов от гиганотозавра. Если гиганотозавр умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 30 футов перемещения, выходя {@condition prone} ничком."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Momentum",
+					"name": "Импульс",
 					"entries": [
-						"The giganotosaurus moves its speed. Tail Sweep. (2 Actions) The giganotosaurus sweeps its tail in a 20-foot cone. Each creature in the cone must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+						"Гиганотозавр перемещается на свою скорость. Взмах хвостом. (2 действия) Гиганотозавр проводит хвостом по 20-футовому конусу. Все существа в конусе должны преуспеть в спасброске Силы {@dc 17}, иначе будут сбиты с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Roar (3 Actions)",
+					"name": "Рёв (3 действия)",
 					"entries": [
-						"Creatures within 20 feet of the giganotosaurus that can hear it must succeed on a {@dc 17} Wisdom saving throw or be {@condition frightened} of the giganotosaurus until the end of its next turn."
+						"Существа в пределах 20 футов от гиганотозавра, которые могут его слышать, должны преуспеть в спасброске Мудрости {@dc 17}, иначе станут {@condition frightened} гиганотозавром до конца его следующего хода."
 					]
 				}
 			],
@@ -1885,7 +1885,7 @@
 			]
 		},
 		{
-			"name": "Giganotosaurus Zombie",
+			"name": "Зомби-гиганотозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 13,
@@ -1930,63 +1930,63 @@
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Disgorge Zombie",
+					"name": "Извержение зомби",
 					"entries": [
-						"As a bonus action, the giganotosaurus zombie can disgorge a normal {@creature zombie}, which appears in an unoccupied space within 15 feet of it. The disgorged zombie acts on its own initative count. After a zombie is disgorged, roll a {@dice d6}. On a roll of 1, the giganotosaurus zombie runs out of zombies to disgorge and loses this trait. On a roll of 6, the next zombie the giganotosaurus zombie disgorges is an {@creature ogre zombie}. If the giganotosaurus zombie still has this trait when it dies, {@dice 1d4} normal {@creature zombie}s erupt from its corpse at the start of its next turn. These zombies act on their own initative counts."
+						"Бонусным действием зомби-гиганотозавр может извергнуть обычного {@creature zombie}, который появляется в свободном пространстве в пределах 15 футов от него. Извергнутый зомби действует в свою собственную инициативу. После извержения зомби бросьте {@dice d6}. При результате 1 у зомби-гиганотозавра заканчиваются зомби для извержения, и он теряет это свойство. При результате 6 следующий зомби, которого извергнет зомби-гиганотозавр, является {@creature ogre zombie}. Если зомби-гиганотозавр всё ещё обладает этим свойством, когда умирает, {@dice 1d4} обычных {@creature zombie} вырываются из его трупа в начале его следующего хода. Эти зомби действуют в свои собственные инициативы."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The giganotosaurus zombie can make two attacks: one with its bite and one with its tail. It can use Swallow instead of its bite."
+						"Зомби-гиганотозавр может совершить две атаки: одну укусом и одну хвостом. Он может использовать Проглатывание вместо укуса."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +12} to hit, reach 15 ft., one target. {@h}34 ({@damage 4d12 + 8}) piercing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the giganotosaurus zombie can't bite another target."
+						"{@atk mw} {@hit +12} к попаданию, досягаемость 15 фт., одна цель. {@h}34 ({@damage 4d12 + 8}) колющего урона. Если цель — существо Большого или меньшего размера, оно {@condition grappled} (высвобождение {@dc 18}). Пока этот захват не окончен, цель {@condition restrained}, и зомби-гиганотозавр не может кусать другую цель."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +12} to hit, reach 20 ft., one target. {@h}26 ({@damage 4d8 + 8}) bludgeoning damage."
+						"{@atk mw} {@hit +12} к попаданию, досягаемость 20 фт., одна цель. {@h}26 ({@damage 4d8 + 8}) дробящего урона."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The giganotosaurus zombie makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends.",
-						"While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the giganotosaurus zombie, and it takes 18 ({@damage 4d6}) poison damage at the start of each of the giganotosaurus zombie's turns. A creature that dies while swallowed becomes a {@creature zombie} the giganotosaurus zombie can disgorge at the start of the giganotosaurus zombie's next turn.",
-						"If the giganotosaurus zombie takes 30 damage or more on a single turn from a creature inside it, the giganotosaurus zombie must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the giganotosaurus zombie. If the giganotosaurus zombie dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
+						"Зомби-гиганотозавр совершает одну атаку укусом по существу Большого или меньшего размера, которое он держит в захвате. Если атака попадает, цель получает урон укуса, цель проглатывается, а захват оканчивается.",
+						"Пока существо проглочено, оно {@condition blinded} и {@condition restrained}, обладает полным укрытием от атак и прочих эффектов снаружи зомби-гиганотозавра, и получает 18 ({@damage 4d6}) урона ядом в начале каждого хода зомби-гиганотозавра. Существо, которое умирает проглоченным, становится {@creature zombie}, которого зомби-гиганотозавр может извергнуть в начале своего следующего хода.",
+						"Если зомби-гиганотозавр получает 30 урона или больше за один ход от существа внутри него, зомби-гиганотозавр должен преуспеть в спасброске Телосложения {@dc 15} в конце этого хода, иначе извергнет всех проглоченных существ, которые падают {@condition prone} ничком в пространстве в пределах 10 футов от зомби-гиганотозавра. Если зомби-гиганотозавр умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 30 футов перемещения, выходя {@condition prone} ничком."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Disgorge Zombie",
+					"name": "Извержение зомби",
 					"entries": [
-						"The giganotosaurus zombie disgorges a zombie."
+						"Зомби-гиганотозавр извергает зомби."
 					]
 				},
 				{
-					"name": "Tail Sweep",
+					"name": "Взмах хвостом",
 					"entries": [
-						"(2 Actions) The giganotosaurus zombie sweeps its tail in a 20-foot cone. Each creature in the cone must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+						"(2 действия) Зомби-гиганотозавр проводит хвостом по 20-футовому конусу. Все существа в конусе должны преуспеть в спасброске Силы {@dc 17}, иначе будут сбиты с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Roar (3 Actions)",
+					"name": "Рёв (3 действия)",
 					"entries": [
-						"Creatures within 20 feet of the giganotosaurus zombie that can hear it must succeed on a {@dc 17} Wisdom saving throw or be {@condition frightened} of the giganotosaurus zombie until the end of its next turn."
+						"Существа в пределах 20 футов от зомби-гиганотозавра, которые могут его слышать, должны преуспеть в спасброске Мудрости {@dc 17}, иначе станут {@condition frightened} зомби-гиганотозавром до конца его следующего хода."
 					]
 				}
 			],
@@ -2025,7 +2025,7 @@
 			]
 		},
 		{
-			"name": "Gila Lizardfolk Brute",
+			"name": "Гила-ящеролюд-громила",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 39,
@@ -2078,22 +2078,22 @@
 				"poisoned"
 			],
 			"languages": [
-				"Draconic"
+				"Драконий"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The gila lizardfolk brute can hold its breath for 15 minutes."
+						"Гила-ящеролюд-громила может задерживать дыхание на 15 минут."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage, and the target must make a {@dc 11} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save. If the poison reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) рубящего урона, и цель должна совершить спасбросок Телосложения {@dc 11}, получая 7 ({@damage 2d6}) урона ядом при провале. Если яд опускает хиты цели до 0, цель становится стабильной, но {@condition poisoned} на 1 час, даже после восстановления хитов."
 					]
 				}
 			],
@@ -2119,7 +2119,7 @@
 			]
 		},
 		{
-			"name": "Gila Lizardfolk Savage",
+			"name": "Гила-ящеролюд-дикарь",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 39,
@@ -2172,40 +2172,40 @@
 				"poisoned"
 			],
 			"languages": [
-				"Draconic"
+				"Драконий"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Bloodlust",
+					"name": "Жажда крови",
 					"entries": [
-						"The gila lizardfolk savage can use a bonus action to take the Dash action on its turn. If at the end of the Dash action the gila lizardfolk savage is adjacent to an enemy, it can take a bite attack at disadvantage."
+						"Гила-ящеролюд-дикарь может бонусным действием совершить в свой ход действие Рывок. Если в конце действия Рывок гила-ящеролюд-дикарь находится рядом с врагом, он может совершить атаку укусом с помехой."
 					]
 				},
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The gila lizardfolk savage can hold its breath for 15 minutes."
+						"Гила-ящеролюд-дикарь может задерживать дыхание на 15 минут."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The gila lizardfolk savage makes two melee attacks: one with its bite and one with its claws."
+						"Гила-ящеролюд-дикарь совершает две рукопашные атаки: одну укусом и одну когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage, and the target must make a {@dc 12} Constitution saving throw, taking 14 ({@damage 4d6}) poison damage on a failed save. If the poison reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) рубящего урона, и цель должна совершить спасбросок Телосложения {@dc 12}, получая 14 ({@damage 4d6}) урона ядом при провале. Если яд опускает хиты цели до 0, цель становится стабильной, но {@condition poisoned} на 1 час, даже после восстановления хитов."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
 					]
 				}
 			],
@@ -2234,7 +2234,7 @@
 			]
 		},
 		{
-			"name": "Hadrosaurus Zombie",
+			"name": "Зомби-гадрозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 14,
@@ -2279,17 +2279,17 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d10 + 2}) дробящего урона."
 					]
 				}
 			],
@@ -2308,7 +2308,7 @@
 			]
 		},
 		{
-			"name": "Huge Chuul",
+			"name": "Огромный чуул",
 			"source": "ALBrew",
 			"sourceSub": "CCC-SFBAY-01-01 Plots in Motion",
 			"page": 21,
@@ -2361,40 +2361,40 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Deep Speech but can't speak"
+				"Understands глубинная речь но не может говорить"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"The chuul can breathe air and water."
+						"Чуул может дышать и воздухом, и под водой."
 					]
 				},
 				{
-					"name": "Sense Magic",
+					"name": "Чувство магии",
 					"entries": [
-						"The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical."
+						"Чуул по желанию ощущает магию в пределах 120 футов от себя. В остальном эта особенность работает как заклинание обнаружение магии, но сама не является магической."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The chuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once."
+						"Чуул совершает две атаки клешнями. Если чуул держит существо в захвате, он также может один раз использовать щупальца."
 					]
 				},
 				{
-					"name": "Pincer",
+					"name": "Клешня",
 					"entries": [
-						"{@atk mw} {@hit +8} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage. The target is {@condition grappled} (escape {@dc 15}) if it is a huge or smaller creature and the chuul doesn't have two other creatures {@condition grappled}."
+						"{@atk mw} {@hit +8} к попаданию, досягаемость 10 фт., одна цель. {@h}18 ({@damage 3d8 + 5}) дробящего урона. Цель становится {@condition grappled} (высвобождение {@dc 15}), если она Огромного или меньшего размера и у чуула нет двух других существ {@condition grappled}."
 					]
 				},
 				{
-					"name": "Tentacles",
+					"name": "Щупальца",
 					"entries": [
-						"One creature {@condition grappled} by the chuul must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Одно существо {@condition grappled} чуулом должно преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition poisoned} на 1 минуту. Пока этот яд действует, цель {@condition paralyzed}. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе."
 					]
 				}
 			],
@@ -2430,7 +2430,7 @@
 			]
 		},
 		{
-			"name": "Ilsadun, Mutated Dwarf",
+			"name": "Илсадун, мутировавшая дварф",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 42,
@@ -2486,35 +2486,35 @@
 				"charmed"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Dwarf"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Drink Blood",
+					"name": "Высасывание крови",
 					"entries": [
-						"If Ilsadun hits the same creature with two greatclub attacks on the same turn, she can use a bonus action to have the eel tentacles on her face drain the target's blood. This reduces the maximum hits points of the creature by 4. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"Если Илсадун попадает по одному и тому же существу двумя атаками палицей в одном ходу, она может бонусным действием заставить угревые щупальца на её лице высосать кровь цели. Это уменьшает максимум хитов существа на 4. Это уменьшение длится, пока цель не завершит продолжительный отдых. Цель умирает, если этот эффект уменьшает её максимум хитов до 0."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Ilsadun makes two greatclub attacks."
+						"Илсадун совершает две атаки палицей."
 					]
 				},
 				{
-					"name": "Greatclub",
+					"name": "Палица",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) дробящего урона."
 					]
 				},
 				{
-					"name": "Frantic Surge (1/Day)",
+					"name": "Неистовый прилив (1/день)",
 					"entries": [
-						"Ilsadun makes two greatclub attacks against each adjacent creature. Until the start of her next turn, all melee attacks against Ilsadun are made with advantage."
+						"Илсадун совершает две атаки палицей по каждому находящемуся рядом существу. До начала её следующего хода все рукопашные атаки по Илсадун совершаются с преимуществом."
 					]
 				}
 			],
@@ -2540,7 +2540,7 @@
 			]
 		},
 		{
-			"name": "Kes'thak the Lizard King",
+			"name": "Кес'так, Король ящеров",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 34,
@@ -2595,62 +2595,62 @@
 			],
 			"passive": 14,
 			"languages": [
-				"Abyssal",
-				"Common",
-				"Draconic"
+				"Бездонный",
+				"Общий",
+				"Драконий"
 			],
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Demonic Head",
+					"name": "Демоническая голова",
 					"entries": [
-						"Kes'thak has advantage on Wisdom (Perception) checks and cannot be {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"Кес'так совершает с преимуществом проверки Мудрости (Восприятие) и не может быть {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned} или {@condition unconscious}."
 					]
 				},
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"Kes'thak can hold his breath for 15 minutes."
+						"Кес'так может задерживать дыхание на 15 минут."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If Kes'thak fails a saving throw, he can choose to succeed instead."
+						"Если Кес'так проваливает спасбросок, он может вместо этого сделать этот спасбросок успешным."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Kes'thak makes three attacks: one with his claws and two with his bite."
+						"Кес'так совершает три атаки: одну когтями и две укусом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+						"{@atk mw} {@hit +7} к попаданию, досягаемость 5 фт., одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit +7} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+						"{@atk mw} {@hit +7} к попаданию, досягаемость 10 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
 					]
 				},
 				{
-					"name": "Demonic Shout {@recharge}",
+					"name": "Демонический вопль {@recharge}",
 					"entries": [
-						"Kes'thak unleashes a terrible shout. Each creature within 10 feet of Kes'thak must make a {@dc 14} Constitution saving throw, taking 45 ({@damage 10d8}) force damage on a failed saving throw, or half as much damage on a successful one."
+						"Кес'так издаёт ужасающий вопль. Все существа в пределах 10 футов от Кес'така должны совершить спасбросок Телосложения {@dc 14}, получая 45 ({@damage 10d8}) силового урона при провале спасброска, или половину этого урона при успехе."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Demonic Claw",
+					"name": "Демонический коготь",
 					"entries": [
-						"When an adjacent creature targets Kes'thak with a melee attack, he can use a reaction to make his claws attack against that creature."
+						"Когда находящееся рядом существо нацеливается на Кес'така рукопашной атакой, он может реакцией совершить по этому существу атаку когтями."
 					]
 				}
 			],
@@ -2686,7 +2686,7 @@
 			]
 		},
 		{
-			"name": "Komodo Lizardfolk Champion",
+			"name": "Комодо-ящеролюд-чемпион",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 40,
@@ -2732,47 +2732,47 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The komodo lizardfolk champion can hold its breath for 15 minutes."
+						"Комодо-ящеролюд-чемпион может задерживать дыхание на 15 минут."
 					]
 				},
 				{
-					"name": "Keen Senses",
+					"name": "Обострённые чувства",
 					"entries": [
-						"When the komodo lizardfolk champion can rely on its sense of smell or taste, it has advantage on Perception checks."
+						"Когда комодо-ящеролюд-чемпион может полагаться на своё обоняние или вкус, он совершает с преимуществом проверки Восприятия."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The komodo lizardfolk champion makes three melee attacks: one with its bite and two with its spear."
+						"Комодо-ящеролюд-чемпион совершает три рукопашные атаки: одну укусом и две копьём."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 4}) slashing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 4}) рубящего урона."
 					]
 				},
 				{
-					"name": "Spear",
+					"name": "Копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit +6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 4}) piercing damage."
+						"{@atk mw,rw} {@hit +6} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}6 ({@damage 1d6 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Deliberate Bite",
+					"name": "Обдуманный укус",
 					"entries": [
-						"The komodo lizardfolk champion makes one bite attack. This attack is made with advantage, and on a hit the target takes an additional 9 ({@damage 2d8}) bludgeoning damage and is {@condition restrained} until the start of its next turn."
+						"Комодо-ящеролюд-чемпион совершает одну атаку укусом. Эта атака совершается с преимуществом, и при попадании цель получает дополнительный 9 ({@damage 2d8}) дробящего урона и становится {@condition restrained} до начала своего следующего хода."
 					]
 				}
 			],
@@ -2807,7 +2807,7 @@
 			]
 		},
 		{
-			"name": "Komodo Lizardfolk Sentry",
+			"name": "Комодо-ящеролюд-часовой",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 39,
@@ -2852,41 +2852,41 @@
 			},
 			"passive": 13,
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The komodo lizardfolk sentry can hold its breath for 15 minutes."
+						"Комодо-ящеролюд-часовой может задерживать дыхание на 15 минут."
 					]
 				},
 				{
-					"name": "Keen Senses",
+					"name": "Обострённые чувства",
 					"entries": [
-						"When the komodo lizardfolk sentry can rely on its sense of smell or taste, it has advantage on Perception checks."
+						"Когда комодо-ящеролюд-часовой может полагаться на своё обоняние или вкус, он совершает с преимуществом проверки Восприятия."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The komodo lizardfolk sentry makes two melee attacks: one with its bite and one with its spear."
+						"Комодо-ящеролюд-часовой совершает две рукопашные атаки: одну укусом и одну копьём."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Spear",
+					"name": "Копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit +5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk mw,rw} {@hit +5} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				}
 			],
@@ -2917,7 +2917,7 @@
 			]
 		},
 		{
-			"name": "Krenshar",
+			"name": "Креншар",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 33,
@@ -2954,27 +2954,27 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The krenshar makes two attacks: one with its bite and one with its claws."
+						"Креншар совершает две атаки: одну укусом и одну когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d6 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Frightening Roar",
+					"name": "Пугающий рёв",
 					"entries": [
-						"Creatures other than krenshar within 60 feet of a krenshar when it roars must succeed on a {@dc 11} Charisma saving throw or fall {@condition prone} and become {@condition frightened} for 1 minute. Creatures cannot stand from {@condition prone} while {@condition frightened} by the krenshar. At the end of their turns, affected creatures can attempt another {@dc 11} Charisma saving throw to end the {@condition frightened} condition. When a creature makes the saving throw or the effect ends, the creature is immune to all krenshars' Frightening Roar for the next 24 hours."
+						"Существа, кроме креншаров, в пределах 60 футов от креншара, когда он рычит, должны преуспеть в спасброске Харизмы {@dc 11}, иначе упадут {@condition prone} и станут {@condition frightened} на 1 минуту. Существа не могут встать из положения {@condition prone}, пока {@condition frightened} креншаром. В конце своих ходов затронутые существа могут совершить ещё один спасбросок Харизмы {@dc 11}, чтобы окончить состояние {@condition frightened}. Когда существо совершает спасбросок или эффект оканчивается, это существо получает иммунитет к Пугающему рёву всех креншаров на следующие 24 часа."
 					]
 				}
 			],
@@ -3000,7 +3000,7 @@
 			]
 		},
 		{
-			"name": "Monkey Stone Golem",
+			"name": "Обезьяний каменный голем",
 			"source": "ALBrew",
 			"sourceSub": "Encounters in the Jungles of Chult",
 			"page": 18,
@@ -3061,15 +3061,15 @@
 			"cr": "4",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The golem makes two slam attacks."
+						"Голем совершает два Размашистых удара."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Размашистый удар",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target, {@h}12 ({@damage 2d8 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель, {@h}12 ({@damage 2d8 + 3}) дробящего урона."
 					]
 				}
 			],
@@ -3088,7 +3088,7 @@
 			]
 		},
 		{
-			"name": "Mosasaurus",
+			"name": "Мозазавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 5,
@@ -3131,25 +3131,25 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Water Breathing",
+					"name": "Подводное дыхание",
 					"entries": [
-						"The mosasaurus can breathe only underwater."
+						"Мозазавр может дышать только под водой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 10 ft., one target. {@h}33 ({@damage 4d12 + 7}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the mosasaurus can't bite another target."
+						"{@atk mw} {@hit +10} к попаданию, досягаемость 10 фт., одна цель. {@h}33 ({@damage 4d12 + 7}) колющего урона. Если цель — существо, оно {@condition grappled} (высвобождение {@dc 17}). Пока этот захват не окончен, цель {@condition restrained}, и мозазавр не может кусать другую цель."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The mosasaurus makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends.",
-						"While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the mosasaurus, and it takes 17 ({@damage 5d6}) acid damage at the start of each of the mosasaurus' turns.",
-						"If the mosasaurus takes 25 damage or more on a single turn from a creature inside it, the mosasaurus must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the mosasaurus. If the mosasaurus dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
+						"Мозазавр совершает одну атаку укусом по существу Среднего или меньшего размера, которое он держит в захвате. Если атака попадает, цель получает урон укуса, цель проглатывается, а захват оканчивается.",
+						"Пока существо проглочено, оно {@condition blinded} и {@condition restrained}, обладает полным укрытием от атак и прочих эффектов снаружи мозазавра, и получает 17 ({@damage 5d6}) урона кислотой в начале каждого хода мозазавра.",
+						"Если мозазавр получает 25 урона или больше за один ход от существа внутри него, мозазавр должен преуспеть в спасброске Телосложения {@dc 15} в конце этого хода, иначе извергнет всех проглоченных существ, которые падают {@condition prone} ничком в пространстве в пределах 10 футов от мозазавра. Если мозазавр умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 30 футов перемещения, выходя {@condition prone} ничком."
 					]
 				}
 			],
@@ -3181,7 +3181,7 @@
 			]
 		},
 		{
-			"name": "Mosasaurus Zombie",
+			"name": "Зомби-мозазавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 14,
@@ -3227,31 +3227,31 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 10 ft., one target. {@h}33 ({@damage 4d12 + 7}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the mosasaurus zombie can't bite another target."
+						"{@atk mw} {@hit +10} к попаданию, досягаемость 10 фт., одна цель. {@h}33 ({@damage 4d12 + 7}) колющего урона. Если цель — существо, оно {@condition grappled} (высвобождение {@dc 17}). Пока этот захват не окончен, цель {@condition restrained}, и зомби-мозазавр не может кусать другую цель."
 					]
 				},
 				{
-					"name": "Necrotic Belch {@recharge}",
+					"name": "Некротическая отрыжка {@recharge}",
 					"entries": [
-						"The mosasaurus zombie belches necrotic energy in a 30-foot cone. Creatures in the area must make a {@dc 15} Constitution saving throw, taking 22 ({@damage 4d10}) necrotic damage and becoming {@condition blinded} for 1 minute on a failure, or taking only half damage on a success."
+						"Зомби-мозазавр изрыгает некротическую энергию 30-футовым конусом. Существа в этой области должны совершить спасбросок Телосложения {@dc 15}; при провале они получают 22 ({@damage 4d10}) некротического урона и становятся {@condition blinded} на 1 минуту, а при успехе получают лишь половину урона."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The mosasaurus zombie makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends.",
-						"While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the mosasaurus zombie, and it takes 17 ({@damage 5d6}) necrotic damage at the start of each of the mosasaurus zombie's turns.",
-						"If the mosasaurus zombie takes 25 damage or more on a single turn from a creature inside it, the mosasaurus zombie must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the mosasaurus zombie. If the mosasaurus zombie dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
+						"Зомби-мозазавр совершает одну атаку укусом по существу Среднего или меньшего размера, которое он держит в захвате. Если атака попадает, цель получает урон укуса, цель проглатывается, а захват оканчивается.",
+						"Пока существо проглочено, оно {@condition blinded} и {@condition restrained}, обладает полным укрытием от атак и прочих эффектов снаружи зомби-мозазавра, и получает 17 ({@damage 5d6}) некротического урона в начале каждого хода зомби-мозазавра.",
+						"Если зомби-мозазавр получает 25 урона или больше за один ход от существа внутри него, зомби-мозазавр должен преуспеть в спасброске Телосложения {@dc 15} в конце этого хода, иначе извергнет всех проглоченных существ, которые падают {@condition prone} ничком в пространстве в пределах 10 футов от зомби-мозазавра. Если зомби-мозазавр умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 30 футов перемещения, выходя {@condition prone} ничком."
 					]
 				}
 			],
@@ -3284,7 +3284,7 @@
 			]
 		},
 		{
-			"name": "Mutated Crocodile",
+			"name": "Мутировавший крокодил",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 41,
@@ -3334,23 +3334,23 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Drink Blood",
+					"name": "Высасывание крови",
 					"entries": [
-						"If a mutated crocodile has a living creature {@condition grappled}, it can use a bonus action to have the eel tentacles on its face drain the {@condition grappled} creature's blood. This reduces the maximum hits points of the creature by 3. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"Если мутировавший крокодил держит живое существо {@condition grappled}, он может бонусным действием заставить угревые щупальца на его лице высосать кровь существа {@condition grappled}. Это уменьшает максимум хитов существа на 3. Это уменьшение длится, пока цель не завершит продолжительный отдых. Цель умирает, если этот эффект уменьшает её максимум хитов до 0."
 					]
 				},
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The crocodile can hold its breath for 15 minutes."
+						"Крокодил может задерживать дыхание на 15 минут."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one creature. {@h}11 ({@damage 2d8 + 2}) piercing damage, and the target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}, and the crocodile can't bite another target."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одно существо. {@h}11 ({@damage 2d8 + 2}) колющего урона, и цель {@condition grappled} (высвобождение {@dc 13}). Пока этот захват не окончен, цель {@condition restrained}, и крокодил не может кусать другую цель."
 					]
 				}
 			],
@@ -3373,7 +3373,7 @@
 			]
 		},
 		{
-			"name": "Mutated Giant Vultures",
+			"name": "Мутировавшие гигантские грифы",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 42,
@@ -3419,46 +3419,46 @@
 				"charmed"
 			],
 			"languages": [
-				"understands Common but can't speak it"
+				"Understands Общий но не может говорить it"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Drink Blood",
+					"name": "Высасывание крови",
 					"entries": [
-						"If a mutated giant vulture hits a creature with a beak attack, it can use a bonus action to have the eel tentacles on its face drain the target's blood. This reduces the maximum hits points of the creature by 2. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"Если мутировавший гигантский гриф попадает по существу атакой клювом, он может бонусным действием заставить угревые щупальца на его лице высосать кровь цели. Это уменьшает максимум хитов существа на 2. Это уменьшение длится, пока цель не завершит продолжительный отдых. Цель умирает, если этот эффект уменьшает её максимум хитов до 0."
 					]
 				},
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Острый слух и нюх",
 					"entries": [
-						"The mutated giant vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
+						"Мутировавший гигантский гриф совершает с преимуществом проверки Мудрости (Восприятие), полагающиеся на зрение или нюх."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The mutated giant vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Мутировавший гигантский гриф совершает с преимуществом броски атаки по существу, если как минимум один союзник грифа находится в пределах 5 футов от этого существа, и этот союзник не {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The vulture makes two attacks: one with its beak and one with its talons."
+						"Гриф совершает две атаки: одну клювом и одну когтями."
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Клюв",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 2d4 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Talons",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 2d6 + 2}) рубящего урона."
 					]
 				}
 			],
@@ -3486,7 +3486,7 @@
 			]
 		},
 		{
-			"name": "Mutated Hunting Dogs",
+			"name": "Мутировавшие охотничьи собаки",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 41,
@@ -3538,29 +3538,29 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Drink Blood",
+					"name": "Высасывание крови",
 					"entries": [
-						"If a mutated hunting dog hits a creature with a bite attack while it has advantage on that attack, it can use a bonus action to have the eel tentacles on its face drain the target's blood. This reduces the maximum hits points of the creature by 1. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"Если мутировавшая охотничья собака попадает по существу атакой укусом, имея преимущество на эту атаку, она может бонусным действием заставить угревые щупальца на её лице высосать кровь цели. Это уменьшает максимум хитов существа на 1. Это уменьшение длится, пока цель не завершит продолжительный отдых. Цель умирает, если этот эффект уменьшает её максимум хитов до 0."
 					]
 				},
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Острый слух и нюх",
 					"entries": [
-						"The mutated hunting dog has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+						"Мутировавшая охотничья собака совершает с преимуществом проверки Мудрости (Восприятие), полагающиеся на слух или нюх."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The mutated hunting dog has advantage on an attack roll against a creature if at least one of the dog's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Мутировавшая охотничья собака совершает с преимуществом броски атаки по существу, если как минимум один союзник собаки находится в пределах 5 футов от этого существа, и этот союзник не {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 2d6 + 2}) колющего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 12}, иначе будет сбита с ног {@condition prone}."
 					]
 				}
 			],
@@ -3586,7 +3586,7 @@
 			]
 		},
 		{
-			"name": "Nemicolopterus",
+			"name": "Немиколоптер",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 5,
@@ -3622,17 +3622,17 @@
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Jungle Camouflage",
+					"name": "Маскировка в джунглях",
 					"entries": [
-						"The nemicolopterus has advantage on Dexterity (Stealth) checks made to hide in jungle and forest terrain."
+						"Немиколоптер совершает с преимуществом проверки Ловкости (Скрытность), совершаемые для того, чтобы спрятаться в джунглях и лесах."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}1 колющего урона."
 					]
 				}
 			],
@@ -3645,7 +3645,7 @@
 			]
 		},
 		{
-			"name": "Nemicolopterus Zombie",
+			"name": "Зомби-немиколоптер",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 15,
@@ -3686,17 +3686,17 @@
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+						"{@atk mw} {@hit +2} к попаданию, досягаемость 5 фт., одна цель. {@h}1 колющего урона."
 					]
 				}
 			],
@@ -3715,7 +3715,7 @@
 			]
 		},
 		{
-			"name": "Oak Wilden Clubber",
+			"name": "Дубовый дикарь-дубинщик",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 35,
@@ -3756,36 +3756,36 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Common",
+				"Общий",
 				"Elven",
-				"Sylvan"
+				"Сильванский"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Brute",
+					"name": "Громила",
 					"entries": [
-						"A melee weapon deals one extra die of damage when the oak wilden clubber hits with it (included in the attacks)."
+						"Рукопашное оружие причиняет одну дополнительную кость урона, когда дубовый дикарь-дубинщик попадает им (уже включено в атаки)."
 					]
 				},
 				{
-					"name": "Nature's Fortification",
+					"name": "Укрепление природы",
 					"entries": [
-						"When an adjacent ally is reduced to 0 hit points, the oak wilden clubber gains 5 temporary hit points. This ability refreshes after a short or long rest."
+						"Когда находящийся рядом союзник опускается до 0 хитов, дубовый дикарь-дубинщик получает 5 временных хитов. Эта способность восстанавливается после короткого или продолжительного отдыха."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Greatclub",
+					"name": "Палица",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d8 + 3}) дробящего урона."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Метательное копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit +5} to hit, reach 5 ft. or range 30/120, one target. {@h}10 ({@damage 2d6 + 3}) piercing damage in melee or 6 ({@damage 1d6 + 3}) piercing damage at range."
+						"{@atk mw,rw} {@hit +5} к попаданию, досягаемость 5 фт. или дистанция 30/120, одна цель. {@h}10 ({@damage 2d6 + 3}) колющего урона в рукопашной или 6 ({@damage 1d6 + 3}) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -3816,7 +3816,7 @@
 			]
 		},
 		{
-			"name": "Oak Wilden Punisher",
+			"name": "Дубовый дикарь-каратель",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 35,
@@ -3857,48 +3857,48 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Common",
+				"Общий",
 				"Elven",
-				"Sylvan"
+				"Сильванский"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Brute",
+					"name": "Громила",
 					"entries": [
-						"A melee weapon deals one extra die of damage when the oak wilden punisher hits with it (included in the attacks)."
+						"Рукопашное оружие причиняет одну дополнительную кость урона, когда дубовый дикарь-каратель попадает им (уже включено в атаки)."
 					]
 				},
 				{
-					"name": "Nature's Fortification",
+					"name": "Укрепление природы",
 					"entries": [
-						"When an adjacent ally is reduced to 0 hit points, the oak wilden punisher gains 10 temporary hit points. This ability refreshes after a short or long rest."
+						"Когда находящийся рядом союзник опускается до 0 хитов, дубовый дикарь-каратель получает 10 временных хитов. Эта способность восстанавливается после короткого или продолжительного отдыха."
 					]
 				},
 				{
-					"name": "Oak's Resolve",
+					"name": "Решимость дуба",
 					"entries": [
-						"The oak wilden punisher has advantage on Wisdom, Intelligence, and Charisma saving throws."
+						"Дубовый дикарь-каратель совершает с преимуществом спасброски Мудрости, Интеллекта и Харизмы."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The oak wilden punisher makes two melee attacks."
+						"Дубовый дикарь-каратель совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Greatclub",
+					"name": "Палица",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}13 ({@damage 2d8 + 4}) дробящего урона."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Метательное копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit +6} to hit, reach 5 ft. or range 30/120, one target. {@h}11 ({@damage 2d6 + 4}) piercing damage in melee or 7 ({@damage 1d6 + 4}) piercing damage at range."
+						"{@atk mw,rw} {@hit +6} к попаданию, досягаемость 5 фт. или дистанция 30/120, одна цель. {@h}11 ({@damage 2d6 + 4}) колющего урона в рукопашной или 7 ({@damage 1d6 + 4}) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -3932,7 +3932,7 @@
 			]
 		},
 		{
-			"name": "Pachycephalosaurus",
+			"name": "Пахицефалозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 6,
@@ -3968,17 +3968,17 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Charge",
+					"name": "Атака в броске",
 					"entries": [
-						"If the pachycephalosaurus moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@damage 2d4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+						"Если пахицефалозавр переместится как минимум на 20 футов по прямой к цели, а затем в том же ходу попадёт по ней атакой тарана, цель получает дополнительный 5 ({@damage 2d4}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 14}, иначе будет сбита с ног {@condition prone}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Ram",
+					"name": "Таран",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) дробящего урона."
 					]
 				}
 			],
@@ -4000,7 +4000,7 @@
 			]
 		},
 		{
-			"name": "Pachycephalosaurus Zombie",
+			"name": "Зомби-пахицефалозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 16,
@@ -4045,23 +4045,23 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Shattered Skull Charge",
+					"name": "Атака в броске раздробленным черепом",
 					"entries": [
-						"If the pachycephalosaurus zombie moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@damage 2d4}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or it is {@condition poisoned} until the end of the pachycephalosaurus zombie's next turn."
+						"Если зомби-пахицефалозавр переместится как минимум на 20 футов по прямой к цели, а затем в том же ходу попадёт по ней атакой тарана, цель получает дополнительный 5 ({@damage 2d4}) колющего урона. Если цель — существо, она должна преуспеть в спасброске Телосложения {@dc 13}, иначе станет {@condition poisoned} до конца следующего хода зомби-пахицефалозавра."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Ram",
+					"name": "Таран",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) дробящего урона."
 					]
 				}
 			],
@@ -4087,7 +4087,7 @@
 			]
 		},
 		{
-			"name": "Pine Wilden Ranger",
+			"name": "Сосновый дикарь-следопыт",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 36,
@@ -4129,50 +4129,50 @@
 			],
 			"passive": 15,
 			"languages": [
-				"Common",
+				"Общий",
 				"Elven",
-				"Sylvan"
+				"Сильванский"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Nature's Fortification",
+					"name": "Укрепление природы",
 					"entries": [
-						"When an adjacent ally is reduced to 0 hit points, the pine wilden ranger gains 10 temporary hit points. This ability refreshes after a short or long rest."
+						"Когда находящийся рядом союзник опускается до 0 хитов, сосновый дикарь-следопыт получает 10 временных хитов. Эта способность восстанавливается после короткого или продолжительного отдыха."
 					]
 				},
 				{
-					"name": "Wrathful Mark",
+					"name": "Гневная метка",
 					"entries": [
-						"As a bonus action, a pine wilden ranger can chose one enemy as its mark. Once per turn, the pine wilden ranger does an extra 3 ({@dice 1d6}) damage to their marked enemy when they hit with a melee or ranged weapon attack."
+						"Бонусным действием сосновый дикарь-следопыт может выбрать одного врага своей меткой. Один раз в ход сосновый дикарь-следопыт причиняет дополнительный 3 ({@dice 1d6}) урона отмеченному врагу, когда попадает по нему рукопашной атакой оружием или дальнобойной атакой оружием."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The pine wilden ranger makes two attacks, either with its rapier or its daggers."
+						"Сосновый дикарь-следопыт совершает две атаки — либо рапирой, либо кинжалами."
 					]
 				},
 				{
-					"name": "Rapier",
+					"name": "Рапира",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit +6} to hit, reach 5 ft. or 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+						"{@atk mw,rw} {@hit +6} к попаданию, досягаемость 5 фт. или 20/60 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Wrathful Needles",
+					"name": "Гневные иглы",
 					"entries": [
-						"When an adjacent enemy hits an ally of the pine wilden ranger with a melee attack, the ranger can use a reaction to deal 5 ({@dice 2d4}) points of piercing damage unless the enemy succeeds on a {@dc 12} Dexterity saving throw."
+						"Когда находящийся рядом враг попадает по союзнику соснового дикаря-следопыта рукопашной атакой, следопыт может реакцией причинить 5 ({@dice 2d4}) колющего урона, если враг не преуспеет в спасброске Ловкости {@dc 12}."
 					]
 				}
 			],
@@ -4205,7 +4205,7 @@
 			]
 		},
 		{
-			"name": "Pine Wilden Warrior",
+			"name": "Сосновый дикарь-воин",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 36,
@@ -4246,38 +4246,38 @@
 			],
 			"passive": 14,
 			"languages": [
-				"Common",
+				"Общий",
 				"Elven",
-				"Sylvan"
+				"Сильванский"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Nature's Fortification",
+					"name": "Укрепление природы",
 					"entries": [
-						"When an adjacent ally is reduced to 0 hit points, the pine wilden warrior gains 5 temporary hit points. This ability refreshes after a short or long rest."
+						"Когда находящийся рядом союзник опускается до 0 хитов, сосновый дикарь-воин получает 5 временных хитов. Эта способность восстанавливается после короткого или продолжительного отдыха."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Rapier",
+					"name": "Рапира",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit +5} to hit, reach 5 ft. or 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"{@atk mw,rw} {@hit +5} к попаданию, досягаемость 5 фт. или 20/60 фт., одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Wrathful Needles",
+					"name": "Гневные иглы",
 					"entries": [
-						"When an adjacent enemy hits an ally of the pine wilden warrior with a melee attack, the warrior can use a reaction to deal 3 ({@dice 1d6}) points of piercing damage unless the enemy succeeds on a {@dc 11} Dexterity saving throw."
+						"Когда находящийся рядом враг попадает по союзнику соснового дикаря-воина рукопашной атакой, воин может реакцией причинить 3 ({@dice 1d6}) колющего урона, если враг не преуспеет в спасброске Ловкости {@dc 11}."
 					]
 				}
 			],
@@ -4307,7 +4307,7 @@
 			]
 		},
 		{
-			"name": "Plesiosaurus Zombie",
+			"name": "Зомби-плезиозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 16,
@@ -4353,23 +4353,23 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				},
 				{
-					"name": "Undying Hunger (1/Turn)",
+					"name": "Неутолимый голод (1/ход)",
 					"entries": [
-						"If the plesiosaurus zombie hits a creature with a bite attack, the plesiosaurus zombie gains 5 temporary hit points."
+						"Если зомби-плезиозавр попадает по существу атакой укусом, он получает 5 временных хитов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 10 ft., one target. {@h}14 ({@damage 3d6 + 4}) piercing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 10 фт., одна цель. {@h}14 ({@damage 3d6 + 4}) колющего урона."
 					]
 				}
 			],
@@ -4389,7 +4389,7 @@
 			]
 		},
 		{
-			"name": "Pteranodon Zombie",
+			"name": "Зомби-птеранодон",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 17,
@@ -4435,29 +4435,29 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Terrestrial Leap",
+					"name": "Наземный прыжок",
 					"entries": [
-						"If the pteranodon zombie moves at least 10 feet toward a target and then hits with a bite attack on the same turn, the attack deals an extra 10 ({@dice 3d6}) damage to the target."
+						"Если зомби-птеранодон переместится как минимум на 10 футов к цели, а затем в том же ходу попадёт атакой укусом, атака причиняет цели дополнительный 10 ({@dice 3d6}) урона."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				},
 				{
-					"name": "Undying Hunger (1/Turn)",
+					"name": "Неутолимый голод (1/ход)",
 					"entries": [
-						"If the pteranodon zombie hits a creature with a bite attack, the pteranodon zombie gains 5 temporary hit points."
+						"Если зомби-птеранодон попадает по существу атакой укусом, он получает 5 временных хитов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) piercing damage."
+						"{@atk mw} {@hit +3} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 2d4 + 1}) колющего урона."
 					]
 				}
 			],
@@ -4476,7 +4476,7 @@
 			]
 		},
 		{
-			"name": "Qamala, Lizardfolk Priestess",
+			"name": "Камала, ящеролюд-жрица",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 43,
@@ -4522,16 +4522,16 @@
 			},
 			"passive": 15,
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "2",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Qamala is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 13}, +5 to hit with spell attacks). She has the following cleric spells prepared:"
+						"Камала является заклинателем 5-го уровня. Её базовой характеристикой является Мудрость (Сл спасброска от заклинания {@dc 13}, +5 к попаданию атаками заклинаниями). У неё подготовлены следующие заклинания жреца:"
 					],
 					"spells": {
 						"0": {
@@ -4569,25 +4569,25 @@
 			],
 			"trait": [
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"Qamala can hold her breath for 15 minutes."
+						"Камала может задерживать дыхание на 15 минут."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Divine Guidance",
+					"name": "Божественное руководство",
 					"entries": [
-						"Qamala can use her reaction each round to guide the weapon attacks of her allies. When an ally is about to attack, Qamala spends a level 1 spell slot to grant that ally an extra 5 ({@dice 2d4}) damage of the type done. If she expends a spell slot of level 2 or higher, the extra damage increases by {@dice 1d4} for each level about 1st."
+						"Камала может в каждом раунде использовать свою реакцию, чтобы направлять атаки оружием своих союзников. Когда союзник собирается атаковать, Камала тратит ячейку заклинания 1-го уровня, чтобы дать этому союзнику дополнительные 5 ({@dice 2d4}) урона того же типа, что наносит союзник. Если она тратит ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d4} за каждый уровень выше 1-го."
 					]
 				}
 			],
@@ -4619,7 +4619,7 @@
 			]
 		},
 		{
-			"name": "Quetzalcoatlus Zombie",
+			"name": "Зомби-кетцалькоатль",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 17,
@@ -4664,35 +4664,35 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Standing Leap",
+					"name": "Прыжок с места",
 					"entries": [
-						"The quetzalcoatlus zombie's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+						"Прыжок в длину зомби-кетцалькоатля составляет до 30 футов, а прыжок в высоту — до 15 футов, как с разбегом, так и без него."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				},
 				{
-					"name": "Undying Hunger (1/Turn)",
+					"name": "Неутолимый голод (1/ход)",
 					"entries": [
-						"If the quetzalcoatlus zombie hits a creature with a bite attack, the quetzalcoatlus zombie gains 5 temporary hit points."
+						"Если зомби-кетцалькоатль попадает по существу атакой укусом, он получает 5 временных хитов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 10 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 10 фт., одна цель. {@h}12 ({@damage 3d6 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Deadly Leap",
+					"name": "Смертельный прыжок",
 					"entries": [
-						". If the quetzalcoatlus zombie jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a {@dc 12} Strength or Dexterity saving throw (target's choice) or be knocked {@condition prone} and take 12 ({@damage 3d6 + 2}) bludgeoning damage plus 12 ({@damage 3d6 + 2}) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked {@condition prone}, and is pushed 5 feet out of the quetzalcoatlus zombie's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls {@condition prone} in the quetzalcoatlus zombie's space."
+						". Если зомби-кетцалькоатль в рамках своего перемещения прыгает как минимум на 15 футов, он затем может использовать это действие, чтобы приземлиться на ноги в пространстве, занятом одним или несколькими другими существами. Каждое из этих существ должно преуспеть в спасброске Силы или Ловкости {@dc 12} (на выбор цели), иначе будет сбито с ног {@condition prone} и получит 12 ({@damage 3d6 + 2}) дробящего урона плюс 12 ({@damage 3d6 + 2}) рубящего урона. При успешном спасброске существо получает только половину урона, не {@condition prone}, и отталкивается на 5 футов из пространства зомби-кетцалькоатля в свободное пространство на свой выбор. Если в пределах досягаемости нет свободного пространства, существо вместо этого падает {@condition prone} ничком в пространстве зомби-кетцалькоатля."
 					]
 				}
 			],
@@ -4717,7 +4717,7 @@
 			]
 		},
 		{
-			"name": "Sarcosuchus",
+			"name": "Саркозух",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 7,
@@ -4758,30 +4758,30 @@
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The sarcosuchus can hold its breath for 1",
-						"hour."
+						"Саркозух может задерживать дыхание на 1",
+						"час."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The sarcosuchus can make two attacks: one with its bite and one with its tail."
+						"Саркозух может совершить две атаки: одну укусом и одну хвостом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +9} to hit, reach 10 ft., one target. {@h}28 ({@damage 4d10 + 6}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the sarcosuchus can't bite another target."
+						"{@atk mw} {@hit +9} к попаданию, досягаемость 10 фт., одна цель. {@h}28 ({@damage 4d10 + 6}) колющего урона. Если цель — существо, оно {@condition grappled} (высвобождение {@dc 16}). Пока этот захват не окончен, цель {@condition restrained}, и саркозух не может кусать другую цель."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +9} to hit, reach 15 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit +9} к попаданию, досягаемость 15 фт., одна цель. {@h}19 ({@damage 3d8 + 6}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 17}, иначе будет сбита с ног {@condition prone}."
 					]
 				}
 			],
@@ -4810,7 +4810,7 @@
 			]
 		},
 		{
-			"name": "Sarcosuchus Zombie",
+			"name": "Зомби-саркозух",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 18,
@@ -4856,36 +4856,36 @@
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				},
 				{
-					"name": "Water Poisoner",
+					"name": "Отравление воды",
 					"entries": [
-						"Water within 20 feet of the sarcosuchus zombie is tainted with toxins. A creature that enters or starts its turn in that water must succeed on a {@dc 15} Constitution saving throw or it is {@condition poisoned} until the start of its next turn."
+						"Вода в пределах 20 футов от зомби-саркозуха отравлена токсинами. Существо, которое входит в эту воду или начинает в ней свой ход, должно преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition poisoned} до начала своего следующего хода."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The sarcosuchus zombie can make two attacks: one with its bite and one with its tail."
+						"Зомби-саркозух может совершить две атаки: одну укусом и одну хвостом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +9} to hit, reach 10 ft., one target. {@h}28 ({@damage 4d10 + 6}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the sarcosuchus zombie can't bite another target."
+						"{@atk mw} {@hit +9} к попаданию, досягаемость 10 фт., одна цель. {@h}28 ({@damage 4d10 + 6}) колющего урона. Если цель — существо, оно {@condition grappled} (высвобождение {@dc 16}). Пока этот захват не окончен, цель {@condition restrained}, и зомби-саркозух не может кусать другую цель."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +9} to hit, reach 15 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage.",
-						"If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit +9} к попаданию, досягаемость 15 фт., одна цель. {@h}19 ({@damage 3d8 + 6}) дробящего урона.",
+						"Если цель — существо, она должна преуспеть в спасброске Силы {@dc 17}, иначе будет сбита с ног {@condition prone}."
 					]
 				}
 			],
@@ -4918,7 +4918,7 @@
 			]
 		},
 		{
-			"name": "Stegosaurus Zombie",
+			"name": "Зомби-стегозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 18,
@@ -4963,17 +4963,17 @@
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +7} to hit, reach 10 ft., one target. {@h}26 ({@damage 6d6 + 5}) piercing damage."
+						"{@atk mw} {@hit +7} к попаданию, досягаемость 10 фт., одна цель. {@h}26 ({@damage 6d6 + 5}) колющего урона."
 					]
 				}
 			],
@@ -4993,7 +4993,7 @@
 			]
 		},
 		{
-			"name": "Swarm Of Nemicolopterus",
+			"name": "Рой немиколоптеров",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 6,
@@ -5047,23 +5047,23 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Jungle Camouflage",
+					"name": "Маскировка в джунглях",
 					"entries": [
-						"The swarm has advantage on Dexterity (Stealth) checks made to hide in jungle and forest terrain."
+						"Рой совершает с преимуществом проверки Ловкости (Скрытность), совершаемые для того, чтобы спрятаться в джунглях и лесах."
 					]
 				},
 				{
-					"name": "Swarm",
+					"name": "Рой",
 					"entries": [
-						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny nemicolopterus. The swarm can't regain hit points or gain temporary hit points."
+						"Рой может занимать пространство другого существа, и наоборот, и он может перемещаться через любое отверстие, достаточно большое для Крошечного немиколоптера. Рой не может восстанавливать хиты или получать временные хиты."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 2d6}) колющего урона, или 3 ({@damage 1d6}) колющего урона, если у роя осталось не больше половины хитов."
 					]
 				}
 			],
@@ -5076,7 +5076,7 @@
 			]
 		},
 		{
-			"name": "Swarm Of Nemicolopterus Zombies",
+			"name": "Рой зомби-немиколоптеров",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 15,
@@ -5133,29 +5133,29 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Swarm",
+					"name": "Рой",
 					"entries": [
-						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny nemicolopterus zombie. The swarm can't regain hit points or gain temporary hit points."
+						"Рой может занимать пространство другого существа, и наоборот, и он может перемещаться через любое отверстие, достаточно большое для Крошечного зомби-немиколоптера. Рой не может восстанавливать хиты или получать временные хиты."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the swarm to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the swarm drops to 1 hit point instead."
+						"Если урон уменьшает хиты роя до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты роя опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit +2} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 2d6}) колющего урона, или 3 ({@damage 1d6}) колющего урона, если у роя осталось не больше половины хитов."
 					]
 				},
 				{
-					"name": "Necrotic Droppings {@recharge}",
+					"name": "Некротические испражнения {@recharge}",
 					"entries": [
-						"One creature the swarm is directly above must succeed on a {@dc 10} Dexterity saving throw or take 10 ({@damage 3d6}) necrotic damage."
+						"Одно существо, находящееся прямо под роем, должно преуспеть в спасброске Ловкости {@dc 10}, иначе получит 10 ({@damage 3d6}) некротического урона."
 					]
 				}
 			],
@@ -5178,7 +5178,7 @@
 			]
 		},
 		{
-			"name": "Sylgar",
+			"name": "Силгар",
 			"source": "ALBrew",
 			"sourceSub": "DDIA-XGE Underworld Speculation",
 			"page": 16,
@@ -5221,23 +5221,23 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Blood Frenzy",
+					"name": "Кровавое бешенство",
 					"entries": [
-						"Sylgar has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+						"Силгар совершает с преимуществом броски рукопашных атак по любому существу, у которого осталось неполное количество хитов."
 					]
 				},
 				{
-					"name": "Water Breathing",
+					"name": "Подводное дыхание",
 					"entries": [
-						"Sylgar can breathe only underwater."
+						"Силгар может дышать только под водой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +9} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage."
+						"{@atk mw} {@hit +9} к попаданию, досягаемость 5 фт., одна цель. {@h}22 ({@damage 3d10 + 6}) колющего урона."
 					]
 				}
 			],
@@ -5256,7 +5256,7 @@
 			]
 		},
 		{
-			"name": "Therizinosaurus",
+			"name": "Теризинозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 7,
@@ -5292,15 +5292,15 @@
 			"cr": "5",
 			"action": [
 				{
-					"name": "Mutltiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The therizinosaurus makes two claw attacks."
+						"Теризинозавр совершает две атаки когтями."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 4}) slashing damage."
+						"{@atk mw} {@hit +7} к попаданию, досягаемость 5 фт., одна цель. {@h}17 ({@damage 3d8 + 4}) рубящего урона."
 					]
 				}
 			],
@@ -5313,7 +5313,7 @@
 			]
 		},
 		{
-			"name": "Therizinosaurus Zombie",
+			"name": "Зомби-теризинозавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 19,
@@ -5358,23 +5358,23 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Mutltiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The therizinosaurus zombie makes two claw attacks."
+						"Зомби-теризинозавр совершает две атаки когтями."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 4}) slashing damage. If the target is a creature, it must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit +7} к попаданию, досягаемость 5 фт., одна цель. {@h}17 ({@damage 3d8 + 4}) рубящего урона. Если цель — существо, она должна преуспеть в спасброске Телосложения {@dc 14}, иначе станет {@condition paralyzed} на 1 минуту. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе."
 					]
 				}
 			],
@@ -5399,7 +5399,7 @@
 			]
 		},
 		{
-			"name": "Titanosaurus",
+			"name": "Титанизавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 8,
@@ -5438,35 +5438,35 @@
 			"cr": "7",
 			"action": [
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit +13} to hit, reach 20 ft., one target. {@h}40 ({@damage 6d10 + 7}) bludgeoning damage, and the target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit +13} к попаданию, досягаемость 20 фт., одна цель. {@h}40 ({@damage 6d10 + 7}) дробящего урона, и цель должна преуспеть в спасброске Силы {@dc 16}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +13} to hit, reach 20 ft., one target. {@h}45 ({@damage 7d10 + 7}) bludgeoning damage."
+						"{@atk mw} {@hit +13} к попаданию, досягаемость 20 фт., одна цель. {@h}45 ({@damage 7d10 + 7}) дробящего урона."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Momentum",
+					"name": "Импульс",
 					"entries": [
-						"The titanosaurus moves half its speed without provoking opportunity attacks."
+						"Титанизавр перемещается на половину своей скорости, не провоцируя атак по возможности."
 					]
 				},
 				{
-					"name": "Tough Defense",
+					"name": "Прочная защита",
 					"entries": [
-						"(2 Actions) The titanosaurus picks one of the following damage types and is resistant to that type of damage until the start of its next turn: bludgeoning, piercing, or slashing."
+						"(2 действия) Титанизавр выбирает один из следующих типов урона и получает сопротивление этому типу урона до начала своего следующего хода: дробящий, колющий или рубящий."
 					]
 				},
 				{
-					"name": "Tail Thunder",
+					"name": "Хвостовой гром",
 					"entries": [
-						"(3 Actions) The titanosaurus makes a tail attack with disadvantage against each creature in a 20-foot cone."
+						"(3 действия) Титанизавр совершает атаку хвостом с помехой по каждому существу в 20-футовом конусе."
 					]
 				}
 			],
@@ -5487,7 +5487,7 @@
 			]
 		},
 		{
-			"name": "Titanosaurus Zombie",
+			"name": "Зомби-титанизавр",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 19,
@@ -5535,43 +5535,43 @@
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit +13} to hit, reach 20 ft., one target. {@h}40 ({@damage 6d10 + 7}) bludgeoning damage, and the target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit +13} к попаданию, досягаемость 20 фт., одна цель. {@h}40 ({@damage 6d10 + 7}) дробящего урона, и цель должна преуспеть в спасброске Силы {@dc 16}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit +13} to hit, reach 20 ft., one target. {@h}45 ({@damage 7d10 + 7}) bludgeoning damage."
+						"{@atk mw} {@hit +13} к попаданию, досягаемость 20 фт., одна цель. {@h}45 ({@damage 7d10 + 7}) дробящего урона."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Flesh Drop",
+					"name": "Капля плоти",
 					"entries": [
-						"The titanosaurus zombie chooses one Medium or smaller creature within 10 feet of it that it can see. That creature must succeed on a {@dc 10} Dexterity saving throw or be {@condition restrained} in a mote of the titanosaurus zombie's flesh that has separated from its body. The creature can repeat the saving throw at the end of its turn, ending the effect on a success."
+						"Зомби-титанизавр выбирает одно существо Среднего или меньшего размера в пределах 10 футов от себя, которое он видит. Это существо должно преуспеть в спасброске Ловкости {@dc 10}, иначе станет {@condition restrained} в куске плоти зомби-титанизавра, отделившемся от его тела. Существо может повторять спасбросок в конце своего хода, оканчивая эффект при успехе."
 					]
 				},
 				{
-					"name": "Poison Gas",
+					"name": "Ядовитый газ",
 					"entries": [
-						"(2 Actions) The titanosaurus zombie breathes gas in a 30-foot cone. Creatures in the area must succeed on a {@dc 16} Constitution saving throw or become {@condition poisoned} for 1 minute. Creatures {@condition poisoned} this way can repeat the saving throw at the end of their turns, ending the effect on a success."
+						"(2 действия) Зомби-титанизавр выдыхает газ 30-футовым конусом. Существа в этой области должны преуспеть в спасброске Телосложения {@dc 16}, иначе станут {@condition poisoned} на 1 минуту. Существа, {@condition poisoned} таким образом, могут повторять спасбросок в конце своих ходов, оканчивая эффект при успехе."
 					]
 				},
 				{
-					"name": "Tail Thunder",
+					"name": "Хвостовой гром",
 					"entries": [
-						"(3 Actions) The titanosaurus makes a tail attack with disadvantage against each creature in a 20-foot cone."
+						"(3 действия) Титанизавр совершает атаку хвостом с помехой по каждому существу в 20-футовом конусе."
 					]
 				}
 			],
@@ -5602,7 +5602,7 @@
 			]
 		},
 		{
-			"name": "Triceratops Zombie",
+			"name": "Зомби-трицератопс",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 20,
@@ -5647,29 +5647,29 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Trampling Charge",
+					"name": "Растаптывающий рывок",
 					"entries": [
-						"If the triceratops zombie moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the triceratops zombie can make one stop attack against it as a bonus action."
+						"Если зомби-трицератопс переместится как минимум на 20 футов по прямой к существу, а затем в том же ходу попадёт по нему атакой бодания, эта цель должна преуспеть в спасброске Силы {@dc 13}, иначе будет сбита с ног {@condition prone}. Если цель {@condition prone}, зомби-трицератопс может бонусным действием совершить по ней одну атаку растаптыванием."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Gore",
+					"name": "Бодание",
 					"entries": [
-						"{@atk mw} {@hit +9} to hit, reach 5 ft., one target. {@h}24 ({@damage 4d8 + 6}) piercing damage."
+						"{@atk mw} {@hit +9} к попаданию, досягаемость 5 фт., одна цель. {@h}24 ({@damage 4d8 + 6}) колющего урона."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit +9} to hit, reach 5 ft., one {@condition prone} creature. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit +9} к попаданию, досягаемость 5 фт., одно существо {@condition prone}. {@h}22 ({@damage 3d10 + 6}) дробящего урона."
 					]
 				}
 			],
@@ -5695,7 +5695,7 @@
 			]
 		},
 		{
-			"name": "Troodon",
+			"name": "Троодон",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 8,
@@ -5735,23 +5735,23 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Improved Critical",
+					"name": "Улучшенный критический удар",
 					"entries": [
-						"The troodon scores a critical hit with its bite on a roll of 19 or 20."
+						"Троодон совершает критическое попадание укусом при результате 19 или 20."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The troodon has advantage on an attack roll against a creature if at least one of the troodon's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Троодон совершает с преимуществом броски атаки по существу, если как минимум один союзник троодона находится в пределах 5 футов от этого существа, и этот союзник не {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
 					]
 				}
 			],
@@ -5767,7 +5767,7 @@
 			]
 		},
 		{
-			"name": "Troodon Zombie",
+			"name": "Зомби-троодон",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 20,
@@ -5812,29 +5812,29 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Improved Critical",
+					"name": "Улучшенный критический удар",
 					"entries": [
-						"The troodon zombie scores a critical hit with its bite on a roll of 19 or 20."
+						"Зомби-троодон совершает критическое попадание укусом при результате 19 или 20."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The troodon zombie has advantage on an attack roll against a creature if at least one of the troodon zombie's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Зомби-троодон совершает с преимуществом броски атаки по существу, если как минимум один союзник зомби-троодона находится в пределах 5 футов от этого существа, и этот союзник не {@condition incapacitated}."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage and the target must succeed on a {@dc 11} Constitution saving throw or become {@condition poisoned} until the end of the troodon zombie's next turn."
+						"{@atk mw} {@hit +3} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d10 + 1}) колющего урона, и цель должна преуспеть в спасброске Телосложения {@dc 11}, иначе станет {@condition poisoned} до конца следующего хода зомби-троодона."
 					]
 				}
 			],
@@ -5860,7 +5860,7 @@
 			]
 		},
 		{
-			"name": "Velociraptor Zombie",
+			"name": "Зомби-велоцираптор",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 21,
@@ -5905,41 +5905,41 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The velociraptor zombie has advantage on an attack roll against a creature if at least one of the velociraptor zombie's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Зомби-велоцираптор совершает с преимуществом броски атаки по существу, если как минимум один союзник зомби-велоцираптора находится в пределах 5 футов от этого существа, и этот союзник не {@condition incapacitated}."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				},
 				{
-					"name": "Undying Hunger (1/Turn)",
+					"name": "Неутолимый голод (1/ход)",
 					"entries": [
-						"If the velociraptor zombie hits a creature with a bite attack, the velociraptor zombie gains 5 temporary hit points."
+						"Если зомби-велоцираптор попадает по существу атакой укусом, он получает 5 временных хитов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The velociraptor zombie makes two attacks: one with its bite and one with its claws."
+						"Зомби-велоцираптор совершает две атаки: одну укусом и одну когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) рубящего урона."
 					]
 				}
 			],
@@ -5963,7 +5963,7 @@
 			]
 		},
 		{
-			"name": "Willow Wilden Sentinel",
+			"name": "Ивовый дикарь-стражник",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 37,
@@ -6011,17 +6011,17 @@
 			],
 			"passive": 16,
 			"languages": [
-				"Common",
+				"Общий",
 				"Elven",
-				"Sylvan"
+				"Сильванский"
 			],
 			"cr": "4",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The willow wilden sentinel is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, +6 to hit with spell attacks). The sentinel has the following spells prepared:"
+						"Ивовый дикарь-стражник является заклинателем 8-го уровня. Его базовой характеристикой является Мудрость (Сл спасброска от заклинания {@dc 14}, +6 к попаданию атаками заклинаниями). У него подготовлены следующие заклинания:"
 					],
 					"spells": {
 						"0": {
@@ -6069,29 +6069,29 @@
 			],
 			"trait": [
 				{
-					"name": "Nature's Fortification",
+					"name": "Укрепление природы",
 					"entries": [
-						"When an adjacent ally is reduced to 0 hit points, the willow wilden sentinel gains 15 temporary hit points. This ability refreshes after a short or long rest."
+						"Когда находящийся рядом союзник опускается до 0 хитов, ивовый дикарь-стражник получает 15 временных хитов. Эта способность восстанавливается после короткого или продолжительного отдыха."
 					]
 				},
 				{
-					"name": "Nature's Watchfulness",
+					"name": "Бдительность природы",
 					"entries": [
-						"A willow wilden sentinel cannot be surprised and gains advantage on its initiative rolls."
+						"Ивового дикаря-стражника нельзя застать врасплох, и он получает преимущество на броски инициативы."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Club",
+					"name": "Дубина",
 					"entries": [
-						"{@atk mw} {@hit +1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
+						"{@atk mw} {@hit +1} к попаданию, досягаемость 5 фт., одна цель. {@h}2 ({@damage 1d6 - 1}) дробящего урона."
 					]
 				},
 				{
-					"name": "Shillelagh",
+					"name": "Дубинка",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) дробящего урона."
 					]
 				}
 			],
@@ -6129,7 +6129,7 @@
 			]
 		},
 		{
-			"name": "Willow Wilden Watcher",
+			"name": "Ивовый дикарь-наблюдатель",
 			"source": "ALBrew",
 			"sourceSub": "Return of the Lizard King",
 			"page": 36,
@@ -6170,17 +6170,17 @@
 			],
 			"passive": 15,
 			"languages": [
-				"Common",
+				"Общий",
 				"Elven",
-				"Sylvan"
+				"Сильванский"
 			],
 			"cr": "1/4",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The willow wilden watcher is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The watcher has the following spells prepared:"
+						"Ивовый дикарь-наблюдатель является заклинателем 1-го уровня. Его базовой характеристикой является Мудрость (Сл спасброска от заклинания {@dc 13}, {@hit 5} к попаданию атаками заклинаниями). У него подготовлены следующие заклинания:"
 					],
 					"spells": {
 						"0": {
@@ -6204,23 +6204,23 @@
 			],
 			"trait": [
 				{
-					"name": "Nature's Fortification",
+					"name": "Укрепление природы",
 					"entries": [
-						"When an adjacent ally is reduced to 0 hit points, the willow wilden watcher gains 3 temporary hit points. This ability refreshes after a short or long rest."
+						"Когда находящийся рядом союзник опускается до 0 хитов, ивовый дикарь-наблюдатель получает 3 временных хита. Эта способность восстанавливается после короткого или продолжительного отдыха."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Club",
+					"name": "Дубина",
 					"entries": [
-						"{@atk mw} {@hit +1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
+						"{@atk mw} {@hit +1} к попаданию, досягаемость 5 фт., одна цель. {@h}2 ({@damage 1d6 - 1}) дробящего урона."
 					]
 				},
 				{
-					"name": "Shillelagh",
+					"name": "Дубинка",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) дробящего урона."
 					]
 				}
 			],
@@ -6250,7 +6250,7 @@
 			]
 		},
 		{
-			"name": "Yuan-Ti Broodling",
+			"name": "Юань-ти-детёныш",
 			"source": "ALBrew",
 			"sourceSub": "DDAL-07-01 A City on the Edge",
 			"page": 49,
@@ -6288,36 +6288,36 @@
 			],
 			"passive": 11,
 			"languages": [
-				"Common",
-				"Abyssal",
-				"Draconic"
+				"Общий",
+				"Бездонный",
+				"Драконий"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Keen Smell",
+					"name": "Тонкий нюх",
 					"entries": [
-						"The broodling has advantage on Wisdom (Perception) checks that rely on smell."
+						"Детёныш совершает с преимуществом проверки Мудрости (Восприятие), полагающиеся на обоняние."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The broodling makes two attacks, one with its bite and one with its claws."
+						"Детёныш совершает две атаки: одну укусом и одну когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+						"{@atk mw} {@hit +3} к попаданию, досягаемость 5 фт., одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) slashing damage."
+						"{@atk mw} {@hit +3} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 2d4 + 1}) рубящего урона."
 					]
 				}
 			],
@@ -6345,7 +6345,7 @@
 			]
 		},
 		{
-			"name": "Zealoraptor",
+			"name": "Зелораптор",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 9,
@@ -6385,35 +6385,35 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Pounce",
+					"name": "Наскок",
 					"entries": [
-						"If the zealoraptor moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the zealoraptor can make one bite attack against it as a bonus action."
+						"Если зелораптор переместится как минимум на 20 футов по прямой к существу, а затем в том же ходу попадёт по нему атакой когтями, эта цель должна преуспеть в спасброске Силы {@dc 13}, иначе будет сбита с ног {@condition prone}. Если цель {@condition prone}, зелораптор может бонусным действием совершить по ней одну атаку укусом."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The zealoraptor has advantage on an attack roll against a creature if at least one of the zealoraptor's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Зелораптор совершает с преимуществом броски атаки по существу, если как минимум один союзник зелораптора находится в пределах 5 футов от этого существа, и этот союзник не {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The zealoraptor makes one bite and one claw attack."
+						"Зелораптор совершает одну атаку укусом и одну атаку когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 1d10 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. Hit. 9 ({@damage 1d10 + 4}) slashing damage."
+						"{@atk mw} {@hit +6} к попаданию, досягаемость 5 фт., одна цель. Попадание. 9 ({@damage 1d10 + 4}) рубящего урона."
 					]
 				}
 			],
@@ -6437,7 +6437,7 @@
 			]
 		},
 		{
-			"name": "Zealoraptor Zombie",
+			"name": "Зомби-зелораптор",
 			"source": "ALBrew",
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 21,
@@ -6482,35 +6482,35 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Pounce",
+					"name": "Наскок",
 					"entries": [
-						"If the zealoraptor zombie moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the zealoraptor zombie can make one bite attack against it as a bonus action."
+						"Если зомби-зелораптор переместится как минимум на 20 футов по прямой к существу, а затем в том же ходу попадёт по нему атакой когтями, эта цель должна преуспеть в спасброске Силы {@dc 13}, иначе будет сбита с ног {@condition prone}. Если цель {@condition prone}, зомби-зелораптор может бонусным действием совершить по ней одну атаку укусом."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The zealoraptor makes two attacks: one with its bite and one with its claws."
+						"Зелораптор совершает две атаки: одну укусом и одну когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d10 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. Hit. 8 ({@damage 1d10 + 3}) slashing damage and the creature must succeed on a {@dc 12} Constitution saving throw or contract sewer plague (see the \"Sewer Plague\" sidebar or \"Diseases\" in chapter 8, \"Running the Game\" of the Dungeon Master's Guide)."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 фт., одна цель. Попадание. 8 ({@damage 1d10 + 3}) рубящего урона, и существо должно преуспеть в спасброске Телосложения {@dc 12}, иначе заболеет канализационной чумой (см. врезку «Канализационная чума» или «Болезни» в главе 8 «Проведение игры» Руководства Мастера)."
 					]
 				}
 			],

@@ -31,7 +31,7 @@
 	},
 	"monster": [
 		{
-			"name": "Honkrasque",
+			"name": "Хонкраск",
 			"alias": [
 				"The Feathered Aponkalypse",
 				"The Beak of Havonk"
@@ -106,110 +106,110 @@
 			"cr": "30",
 			"trait": [
 				{
-					"name": "Fowlish Aura",
+					"name": "Гусиная аура",
 					"entries": [
-						"The honkrasque's chaotic behavior affects the mind of all other creatures within 50 feet of it that can see or hear the honkrasque. At the beginning of the honkrasque's turn, all targets within range make a {@dc 23} Wisdom saving throw, suffering one of the following random effects on a failure. Roll a {@dice d6} (if you roll the same effect twice in a row, roll again):",
+						"Хаотичное поведение хонкраска воздействует на разум всех остальных существ в пределах 50 футов от него, которые могут видеть или слышать хонкраска. В начале хода хонкраска все цели в пределах дистанции совершают {@dc 23} спасбросок Мудрости, при провале получая один из следующих случайных эффектов. Бросьте {@dice d6} (если один и тот же эффект выпал два раза подряд, бросьте ещё раз):",
 						{
 							"type": "list",
 							"style": "list-decimal",
 							"items": [
-								"Each creature becomes {@condition frightened} of all goose creatures until the beginning of the honkrasque's next turn.",
-								"Each creature uses its reaction to make a melee attack with advantage against a random creature within reach.",
-								"Each creature uses its reaction to move at its speed in a random direction while shaking its arms like they were wings.",
-								"Each creature can express only through honking until the beginning of the honkrasque's next turn (therefore can't cast spells with verbal components or use magic items that require an activation word).",
-								"Each creature imprints on the honkrasque and is {@condition charmed} by it until the beginning of the honkrasque's next turn. Additionally, the target feels a sudden protective instinct towards another creature. If the target arrives within 5 feet of its closest creature until the end of the target's next turn, it gains inspiration.",
-								"Each creature with a nose starts to sneeze uncontrollably while tickled by imaginary feathers. The target can only move at half speed and subtracts the result of a {@dice d6} to ability checks and attack rolls until the beginning of the honkrasque's next turn."
+								"Каждое существо становится {@condition frightened} перед всеми гусиными существами до начала следующего хода хонкраска.",
+								"Каждое существо использует свою реакцию, чтобы совершить атаку в ближнем бою с преимуществом против случайного существа в пределах досягаемости.",
+								"Каждое существо использует свою реакцию, чтобы переместиться со своей скоростью в случайном направлении, размахивая руками, словно крыльями.",
+								"Каждое существо может выражать свои мысли только гоготанием до начала следующего хода хонкраска и поэтому не может накладывать заклинания с вербальными компонентами или использовать магические предметы, требующие для активации кодового слова.",
+								"Каждое существо запечатлевается на хонкраске и становится {@condition charmed} им до начала следующего хода хонкраска. Кроме того, цель ощущает внезапный защитный инстинкт по отношению к другому существу. Если цель прибудет в пределах 5 футов от ближайшего к ней существа до конца своего следующего хода, она получает вдохновение.",
+								"Каждое существо с носом начинает бесконтрольно чихать, пока его щекочут воображаемые перья. Цель может перемещаться только с половиной скорости и вычитает результат {@dice d6} из проверок характеристик и бросков атаки до начала следующего хода хонкраска."
 							]
 						}
 					]
 				},
 				{
-					"name": "Hold Breath",
+					"name": "Задержка дыхания",
 					"entries": [
-						"The honkrasque can hold its breath for 1 hour."
+						"Хонкраск может задерживать дыхание на 1 час."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If the honkrasque fails a saving throw, it can choose to succeed instead."
+						"Если хонкраск проваливает спасбросок, он может вместо этого считать его успешным."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The honkrasque has advantage on saving throws against spells and other magical effects."
+						"Хонкраск совершает спасброски от заклинаний и других магических эффектов с преимуществом."
 					]
 				},
 				{
-					"name": "Siege Monster",
+					"name": "Осадное чудовище",
 					"entries": [
-						"The honkrasque deals double damage to objects and structures."
+						"Хонкраск наносит двойной урон предметам и сооружениям."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The honkrasque makes four attacks: one with its barbed beak, two with its claws, and one with its tail, It can use its Swallow instead of its barbed beak. Alternatively, the honkrasque can make up to five quill throw attacks, each against a different target."
+						"Хонкраск совершает четыре атаки: одну своим клювом с шипами, две когтями и одну хвостом. Он может использовать своё «Поглощение» вместо клюва с шипами. В качестве альтернативы хонкраск может совершить до пяти атак броском иглы, каждую по другой цели."
 					]
 				},
 				{
-					"name": "Barbed Beak",
+					"name": "Клюв с шипами",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target {@h}41 ({@damage 5d12 + 9}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}), until this {@action grapple} ends, the target is {@condition restrained}, and the honkrasque can't beak another target."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 15 фт., одна цель {@h}41 ({@damage 5d12 + 9}) колющего урона. Если цель — существо, оно {@condition grappled} (высвобождение {@dc 19}); пока это {@action grapple} не закончится, цель {@condition restrained}, а хонкраск не может атаковать клювом другую цель."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}27 ({@damage 4d8 + 9}) slashing damage."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 5 футов, одна цель. {@h}27 ({@damage 4d8 + 9}) рубящего урона."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft, one target. {@h}23 ({@damage 4d6 + 9}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 19} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 20 фт., одна цель. {@h}23 ({@damage 4d6 + 9}) дробящего урона. Если цель — существо, оно должно преуспеть в спасброске Силы {@dc 19}, иначе будет сбито с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Quill Throw",
+					"name": "Метание пера",
 					"entries": [
-						"{@atk rw} {@hit 18} to hit, range 120/480 ft., one target. {@h}22 ({@damage 2d12 + 9}) piercing damage. On a critical hit, the target is impaled to a surface within 5 feet of it and the target's speed becomes O until it teleports away or the quill is removed with a {@dc 19} Wisdom ({@skill Medicine}) or Strength check as an action."
+						"{@atk rw} {@hit 18} к попаданию, дистанция 120/480 фт., одна цель. {@h}22 ({@damage 2d12 + 9}) колющего урона. При критическом попадании цель пригвождается к поверхности в пределах 5 футов от неё, а её скорость становится равна 0, пока она не телепортируется или перо не будет извлечено действием с помощью проверки Мудрости ({@skill Medicine}) или Силы {@dc 19}."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The honkrasque makes one beak attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the barbed beak's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the honkrasque and it takes 56 ({@damage 16d6}) acid damage at the Start of each of the honkrasque's turns.",
-						"If the honkrasque takes 60 damage or more on a single turn from a creature inside it, the honkrasque must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed Creatures, which fall {@condition prone} in a space within 10 feet of the honkrasque. If the honkrasque dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
+						"Хонкраск совершает одну атаку клювом против существа Большого размера или меньше, которого он схватил. Если атака попадает, цель получает урон клюва с зазубринами, цель проглатывается, а захват заканчивается. Пока существо проглочено, оно {@condition blinded} и {@condition restrained}, получает полное укрытие от атак и прочих эффектов снаружи хонкраска и получает 56 ({@damage 16d6}) кислотного урона в начале каждого хода хонкраска.",
+						"Если хонкраск получает 60 урона или более за один ход от существа внутри него, в конце этого хода хонкраск должен преуспеть в {@dc 20} спасброске Телосложения, иначе изрыгнуть всех проглоченных существ, которые падают {@condition prone} в пространстве в пределах 10 футов от хонкраска. Если хонкраск умирает, проглоченное существо больше не является {@condition restrained} им и может выбраться из трупа, потратив 30 футов перемещения и выходя {@condition prone}."
 					]
 				},
 				{
-					"name": "Booming Honk {@recharge 5}",
+					"name": "Громкий гудок {@recharge 5}",
 					"entries": [
-						"The honkrasque roars with a supersonic honk. Everything in a 120-foot cone makes a {@dc 27} Constitution saving throw. A target takes 65 ({@damage 10d12}) thunder damage on a failure, or half as much damage on a success. On a failure by 5 or more, a target also becomes {@condition stunned} until the end of its next turn and is pushed 60 feet away from the honkrasque. Unattended Objects are also pushed away in this way. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 26} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"Хонкраск издаёт сверхзвуковой гудок. Все существа в конусе длиной 120 футов совершают {@dc 27} спасбросок Телосложения. При провале цель получает 65 ({@damage 10d12}) звукового урона, а при успехе — половину этого урона. При провале на 5 или больше цель также становится {@condition stunned} до конца своего следующего хода и отталкивается на 60 футов от хонкраска. Незакреплённые предметы также отталкиваются таким образом. Если отброшенная цель врезается в твёрдую поверхность, Цель получает 3 ({@damage 1d6}) дробящего урона за каждые 10 футов, на которые она была отброшена. Если цель отброшена в другое существо, это существо должно преуспеть в {@dc 26} спасброске Ловкости, иначе получит такой же урон и будет сбито {@condition prone}."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The honkrasque makes one claw attack, quill throw attack or tail attack."
+						"Хонкраск совершает одну атаку когтями, метательную атаку иглами или атаку хвостом."
 					]
 				},
 				{
-					"name": "Gliding",
+					"name": "Скольжение",
 					"entries": [
-						"The honkrasque jumps up to 60 feet long and 40 feet high."
+						"Хонкраск прыгает на расстояние до 60 футов и на высоту до 40 футов."
 					]
 				},
 				{
-					"name": "Hunger of the Goose (Costs 2 Actions)",
+					"name": "Голод гуся (стоит 2 действия)",
 					"entries": [
-						"The honkrasque makes one barbed beak attack or uses its Swallow."
+						"Хонкраск совершает одну атаку клювом с шипами или использует своё Поглощение."
 					]
 				}
 			],
@@ -264,21 +264,21 @@
 	],
 	"monsterFluff": [
 		{
-			"name": "Honkrasque",
+			"name": "Хонкраск",
 			"source": "Honkrasque",
 			"entries": [
-				"Of all of the horrifying and dreaded children of goosekind, the honkrasque is the most feared, destructive and unpredictable one. Also known as the feathered aponkalypse and the beak of havonk, the honkrasque is able to bring down entire kingdoms that are on its path, motivated only by its insatiable hunger.",
-				"Even if slightly less physically threatening than its landborn cousin (the legendary {@creature tarrasque}) the feathered aponkalypse is able to level down entire cities with its supersonic honk, and can throw quills as dangerous as ballista bolts.",
-				"Another more subtle (but threatening nonetheless) danger posed by the honkrasque is the effect that its presence has on the minds of the surrounding creatures: the mere sight of the feathered aponkalypse is enough to bend the will of the observer to the most chaotic goosish behaviors such as honking without purpose or physically attacking the closest creature.",
+				"Из всех ужасных и внушающих страх детей гусиного рода Хонкраск — самый страшный, разрушительный и непредсказуемый. Также известный как пернатый апонкаллипсис и клюв Хавонка, Хонкраск способен сокрушить целые королевства, оказавшиеся на его пути, движимый лишь своим ненасытным голодом.",
+				"Хотя пернатый апонкаллипсис немного менее опасен физически, чем его сухопутный сородич (легендарный {@creature tarrasque}), он способен сравнять с землёй целые города своим сверхзвуковым гоготом и может бросать перья, столь же опасные, как болты баллист.",
+				"Другая, более тонкая (но от этого не менее опасная) угроза, которую представляет Хонкраск, — воздействие его присутствия на разум окружающих существ: одного взгляда на пернатый апонкаллипсис достаточно, чтобы подчинить волю наблюдателя самым хаотичным гусиным повадкам, таким как бесцельное гоготание или физическое нападение на ближайшее существо.",
 				{
 					"type": "entries",
-					"name": "Firstborn of Goosekind",
+					"name": "Первенец гусиного рода",
 					"page": 2,
 					"entries": [
-						"The honkrasque was the first and favored creation of the Ur-goose, the Primordial of Havonk. As everything that the Ur-goose has ever done, it is half mockery and half a tool for its agenda: a joke on the most powerful creature of the Prime Material, but also a means to bring down any civilization that has become too proud of its advancements or too dangerous for the natural world."
+						"Хонкраск был первым и любимым творением Пра-гуся, Первичного Хавонка. Как и всё, что когда-либо делал Пра-гусь, это наполовину насмешка, а наполовину инструмент для достижения его целей: шутка над самым могущественным существом Первичного материального плана, но также средство сокрушить любую цивилизацию, которая стала слишком гордиться своими достижениями или слишком опасной для природы."
 					]
 				},
-				"For more information about the {@creature Ur-goose|Honkonomicon} and its other, monstrous children, see the {@loader Honkonomicon|collection/Echidna Design; Honkonomicon.json}."
+				"Дополнительную информацию о {@creature Ur-goose|Honkonomicon} и других чудовищных детях этого существа см. в {@loader Honkonomicon|collection/Echidna Design; Honkonomicon.json}."
 			],
 			"images": [
 				{
@@ -294,7 +294,7 @@
 	],
 	"book": [
 		{
-			"name": "Honkrasque: Lost Pages of the Honkonomicon",
+			"name": "Хонкраск: утраченные страницы Хонкономикона",
 			"id": "Honkrasque",
 			"source": "Honkrasque",
 			"group": "homebrew",
@@ -306,10 +306,10 @@
 			"author": "Paolo Davolio",
 			"contents": [
 				{
-					"name": "Cover Page & Credits"
+					"name": "Обложка и авторы"
 				},
 				{
-					"name": "Honkrasque, The Feathered Aponkalypse"
+					"name": "Хонкраск, пернатый апонкалипсис"
 				}
 			]
 		}
@@ -321,7 +321,7 @@
 			"data": [
 				{
 					"type": "section",
-					"name": "Cover Page & Credits",
+					"name": "Обложка и авторы",
 					"page": "Cover",
 					"entries": [
 						{
@@ -330,14 +330,14 @@
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Honkrasque/00002.webp"
 							},
-							"title": "Honkrasque Cover",
+							"title": "Обложка Хонкраска",
 							"credit": "Federico Zanetti"
 						},
 						{
 							"type": "quote",
 							"style": "quote-pull",
 							"entries": [
-								"Lost Pages of the Honkonomicon"
+								"Утраченные страницы Хонкономикона"
 							],
 							"skipMarks": true,
 							"skipItalics": true
@@ -347,7 +347,7 @@
 						},
 						{
 							"type": "section",
-							"name": "Credits",
+							"name": "Авторы",
 							"page": 1,
 							"entries": [
 								{
@@ -358,64 +358,64 @@
 									"items": [
 										{
 											"type": "item",
-											"name": "Writer:",
+											"name": "Автор:",
 											"entries": [
-												"Paolo Davolio (Echidna Design)"
+												"Паоло Даволио (Echidna Design)"
 											]
 										},
 										{
 											"type": "item",
-											"name": "Honkrasque Illustrator:",
+											"name": "Иллюстратор Хонкраска:",
 											"entries": [
-												"Federico Zanetti (Follow the Fool)"
+												"Federico Zanetti (Follow The Fool)"
 											]
 										},
 										{
 											"type": "item",
-											"name": "Art Director:",
+											"name": "Арт-директор:",
 											"entries": [
-												"Paolo Davolio"
+												"Паоло Даволио"
 											]
 										},
 										{
 											"type": "item",
-											"name": "Layout:",
+											"name": "Вёрстка:",
 											"entries": [
-												"Paolo Davolio"
+												"Паоло Даволио"
 											]
 										},
 										{
 											"type": "item",
-											"name": "Additional Layout Assets:",
+											"name": "Дополнительные материалы вёрстки:",
 											"entries": [
-												"Jared Ondricek, {@link pikisuperstar|https://www.freepik.com/author/pikisuperstar} on Freepik"
+												"Jared Ondricek, {@link pikisuperstar|https://www.freepik.com/author/pikisuperstar} на Freepik"
 											]
 										},
 										{
 											"type": "item",
-											"name": "Editor:",
+											"name": "Редактор:",
 											"entries": [
-												"Daniela Matos"
+												"Даниэла Матос"
 											]
 										},
 										{
 											"type": "item",
-											"name": "Playtesters:",
+											"name": "Тестировщики:",
 											"entries": [
-												"Berus Mekhet, Cristiano Rossi, Queen Emeraldas"
+												"Берус Мекхет, Кристиано Росси, Королева Эмеральдас"
 											]
 										},
 										{
 											"type": "item",
-											"name": "Special Thanks to:",
+											"name": "Особая благодарность:",
 											"entries": [
-												"Matteo Cavicchioli, The Eren Chronicles, Alberto Ferrari, Simone Malvezzi, Andrea Margini, Alessandro Pergctti, George Sfendourakis, Marco Zanichelli"
+												"Matteo Cavicchioli, Хроники Эрена, Alberto Ferrari, Simone Malvezzi, Andrea Margini, Alessandro Pergctti, George Sfendourakis, Marco Zanichelli"
 											]
 										},
-										"{@i Created with GM binder}",
+										"{@i Создано с помощью} GM Binder",
 										{
 											"type": "entries",
-											"name": "PDF Version",
+											"name": "PDF-версия",
 											"page": 2,
 											"entries": [
 												{
@@ -423,18 +423,18 @@
 													"name": "v.1.0 25/03/2023:",
 													"page": 2,
 													"entries": [
-														"first release."
+														"первый выпуск."
 													]
 												}
 											]
 										},
 										{
 											"type": "entries",
-											"name": "On the Cover and Art",
+											"name": "На обложке и в иллюстрациях",
 											"page": 1,
 											"entries": [
-												"An ill-advised knight suddenly changes its mind about fighting the honkrasque.",
-												"{@note Disclaimer. Echidna Design and Follow the Fool will not assume any responsibility related to approaching the honkrasoue for anv purpose, including petting it, picking one of its quills or checking if it laid any eggs. The fact that the honkrasque can convince you that you can fly doesn't mean that you actually should. Behave respectfully to any creature that suddenly makes you feel like it belongs to your flock\u2014the feeling will not last, besides how you currently feel about it. so act accordingly If you don't, it will just be more awkward afterwards.}"
+												"Неразумный рыцарь внезапно передумывает сражаться с хонкраском.",
+												"{@note Отказ от ответственности. Эхидна Дизайн и Следуй за Дураком не несут никакой ответственности, связанной с приближением к хонкрасуэ с какой-либо целью, включая попытки погладить его, выдернуть одну из его игл или проверить, отложило ли оно яйца. Тот факт, что хонкраскуэ может убедить вас в том, что вы можете совершать Полёт, не означает, что вам действительно следует это делать. Ведите себя уважительно с любым существом, которое внезапно заставляет вас почувствовать, будто оно принадлежит вашей стае — это чувство не продлится долго, помимо того, как вы сейчас к нему относитесь. поэтому действуйте соответственно Если вы этого не сделаете, впоследствии всё будет лишь более неловко.}"
 											]
 										}
 									]
@@ -445,14 +445,14 @@
 				},
 				{
 					"type": "section",
-					"name": "Honkrasque, The Feathered Aponkalypse",
+					"name": "Хонкраск, пернатый апонкалипсис",
 					"page": 2,
 					"entries": [
 						{
 							"type": "statblock",
 							"prop": "monsterFluff",
 							"source": "Honkrasque",
-							"name": "Honkrasque",
+							"name": "Хонкраск",
 							"page": 2,
 							"data": {
 								"renderCompact": {
@@ -464,7 +464,7 @@
 							"type": "statblock",
 							"tag": "creature",
 							"source": "Honkrasque",
-							"name": "Honkrasque",
+							"name": "Хонкраск",
 							"page": 3,
 							"style": "inset"
 						},

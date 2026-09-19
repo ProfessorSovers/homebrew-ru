@@ -22,7 +22,7 @@
 	},
 	"monster": [
 		{
-			"name": "The Flurry",
+			"name": "Шквал",
 			"shortName": true,
 			"source": "TheFlurry",
 			"page": "https://kaiju-z.tumblr.com/post/185457534596/seon-adventures-episode-15-dicks-and-danger",
@@ -76,53 +76,53 @@
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Ambush",
+					"name": "Засада",
 					"entries": [
-						"While the Flurry remains motionless, it is indistinguishable from a tangle of roots or vines. Until it moves the Flurry has a +10 to stealth. The Flurry has advantage on any creatures that have not yet acted."
+						"Пока Шквал остаётся неподвижным, он неотличим от сплетения корней или лиан. Пока он не двинется, Шквал получает +10 к скрытности. Шквал совершает с преимуществом атаки по любым существам, ещё не действовавшим."
 					]
 				},
 				{
-					"name": "Tentacle Swarm",
+					"name": "Рой щупалец",
 					"entries": [
-						"The Flurry can use its entire turn to make a tentacle attack against any number of creatures within 10 feet of it with a separate attack roll for each target. In addition the Flurry gets a tentacle attack as an attack of opportunity on any creature attempting to withdraw from melee."
+						"Шквал может использовать весь свой ход, чтобы совершить атаку щупальцем по любому количеству существ в пределах 10 футов от себя, совершая отдельный бросок атаки для каждой цели. Кроме того, Шквал получает атаку щупальцем как возможность атаки по любому существу, пытающемуся выйти из рукопашного боя."
 					]
 				},
 				{
-					"name": "Life Drain",
+					"name": "Вытягивание жизни",
 					"entries": [
-						"The Flurry regains Hit Points equal to the amount of Necrotic damage sustained by a {@condition grappled} creature."
+						"Шквал восстанавливает хиты в размере количества некротического урона, полученного {@condition grappled} существом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The Flurry makes three attacks (if it has not used its turn to Tentacle Swarm."
+						"Шквал совершает три атаки (если он не использовал свой ход на «Рой щупалец»)."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Tentacle",
+					"name": "Щупальце",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is medium or smaller in size, it is {@condition grappled} (escape {@dc 15}), {@condition restrained}, and takes 6 ({@damage 1d10}) necrotic damage until the grapple ends."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) дробящего урона. Если цель Среднего размера или меньше, она {@condition grappled} (освобождение {@dc 15}), {@condition restrained} и получает 6 ({@damage 1d10}) некротического урона, пока захват не окончится."
 					]
 				},
 				{
-					"name": "Tentacle Slam",
+					"name": "Удар щупальцем",
 					"entries": [
-						"The Flurry slams creatures {@condition grappled} by it into each other or a solid surface. Each creature must succeed on a dc 14 constitution saving throw or take 11 ({@damage 2d6 + 4}) bludgeoning damage and be {@condition stunned} until the end of the Flurry's next turn. On a successful save, the target takes half the bludgeoning damage and isn't {@condition stunned}."
+						"Шквал швыряет {@condition grappled} им существ друг в друга или в твёрдую поверхность. Каждое существо должно преуспеть в спасброске Телосложения Сл 14, иначе получит 11 ({@damage 2d6 + 4}) дробящего урона и станет {@condition stunned} до конца следующего хода Шквала. При успешном спасброске цель получает половину дробящего урона и не становится {@condition stunned}."
 					]
 				},
 				{
-					"name": "Throw",
+					"name": "Бросок",
 					"entries": [
-						"The Flurry throws a creature it currently has {@condition restrained} up to 15 ft in any direction. Target takes 7 ({@damage 1d6 + 4}) bludgeoning damage and must make a dc 13 dexterity saving throw or be knocked {@condition prone}."
+						"Шквал швыряет существо, которое он в настоящее время удерживает {@condition restrained}, на расстояние до 15 футов в любом направлении. Цель получает 7 ({@damage 1d6 + 4}) дробящего урона и должна совершить спасбросок Ловкости Сл 13, иначе упадёт {@condition prone}."
 					]
 				}
 			],
@@ -158,8 +158,8 @@
 			],
 			"fluff": {
 				"entries": [
-					"The Flurry, as it is referred to in the common tongue, is a large terrifying swarm of tentacles and ferocity found primarily in dense forests and jungles of the Known World. Flurry can lie dormant for months waiting for prey to walk near their hide. While motionless the Flurry is indistinguishable from the surrounding vines or roots of its environment using a limited chameleon like ability to change their color to blend in. The Flurry can also burrow into the ground and wait for unsuspecting prey to walk over their trap. Once the Flurry detects movement it bursts from its hide with lightening like quickness, ambushing its prey with a nightmarish whirlwind of multiple tentacle attacks.",
-					"These tentacles wrap around the target before the target even has a chance to react, causing panic and confusion. As targets try to flee, the Flurry hones in on their vibrations and takes chase. Once a target is grappled the Flurry begins draining its life force or slamming any creature trying to resist into unconsciousness. Targets can attempt to hide from the Flurry by remaining motionless (effectively making it \"Blinded\") but the tentacles will continue whipping around at everything within 10 feet as it tries to locate the intruder."
+					"Шквал, как его называют на всеобщем языке, — это большое ужасающее скопище щупалец и свирепости, встречающееся в основном в густых лесах и джунглях Известного Мира. Шквал может лежать в спячке месяцами, поджидая, пока добыча пройдёт рядом с его укрытием. Будучи неподвижным, Шквал неотличим от окружающих лиан или корней, используя ограниченную способность, подобную хамелеону, менять свой цвет, чтобы сливаться с окружением. Шквал также может зарываться в землю и поджидать, пока ничего не подозревающая добыча наступит на его ловушку. Как только Шквал обнаруживает движение, он вырывается из укрытия со стремительностью молнии, устраивая засаду на свою добычу кошмарным вихрем множества атак щупальцами.",
+					"Эти щупальца обвивают цель прежде, чем у неё появится шанс среагировать, вызывая панику и замешательство. Когда цели пытаются убежать, Шквал улавливает их вибрации и пускается в погоню. Как только цель схвачена, Шквал начинает вытягивать её жизненную силу или забивать до бессознательного состояния любое сопротивляющееся существо. Цели могут попытаться спрятаться от Шквала, оставаясь неподвижными (фактически становясь «Ослеплёнными»), но щупальца продолжат хлестать по всему в пределах 10 футов, пока он пытается найти нарушителя."
 				],
 				"images": [
 					{

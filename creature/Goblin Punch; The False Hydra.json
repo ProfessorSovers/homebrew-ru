@@ -23,7 +23,7 @@
 	},
 	"monster": [
 		{
-			"name": "Elder False Hydra",
+			"name": "Древняя ложная гидра",
 			"source": "TheFalseHydra",
 			"size": [
 				"G"
@@ -81,86 +81,86 @@
 				}
 			],
 			"languages": [
-				"understands languages known by its victims",
-				"but can't speak.",
-				"telepathy 5 miles"
+				"понимает языки, известные его жертвам",
+				"Но не может говорить.",
+				"Телепатия 5 miles"
 			],
 			"cr": "22",
 			"trait": [
 				{
-					"name": "Ambusher",
+					"name": "Из засады",
 					"entries": [
-						"The elder false hydra has advantage on attack rolls against any creature it has surprised."
+						"Древняя ложная гидра совершает с преимуществом броски атаки по любому существу, застигнутому ею врасплох."
 					]
 				},
 				{
-					"name": "Surprise Attack",
+					"name": "Внезапная атака",
 					"entries": [
-						"If the elder false hydra surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 16 ({@damage 3d10}) damage from the attack."
+						"Если древняя ложная гидра застаёт существо врасплох и попадает по нему атакой в первом раунде боя, цель получает дополнительно 16 ({@damage 3d10}) урона от этой атаки."
 					]
 				},
 				{
-					"name": "Multiple Heads",
+					"name": "Множество голов",
 					"entries": [
-						"The elder false hydra has 10 heads. While it has more than one head, the elder false hydra has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}. Whenever the elder false hydra takes 40 or more damage in a single turn, one of its heads dies. If all its heads die, the elder false hydra dies. At the end of its turn, it grows a head for each of its head that died since its last turn, unless it has regrown 20 heads. The elder false hydra regains 10 hit point for each head regrown this way."
+						"У древней ложной гидры 10 голов. Пока у неё больше одной головы, древняя ложная гидра совершает с преимуществом спасброски от состояний {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned} и {@condition unconscious}. Каждый раз, когда древняя ложная гидра получает 40 или больше урона за один ход, одна из её голов умирает. Если все её головы умирают, древняя ложная гидра умирает. В конце своего хода она отращивает по одной голове за каждую голову, погибшую с её прошлого хода, если только она не отрастила уже 20 голов. За каждую отращённую таким образом голову древняя ложная гидра восстанавливает 10 хитов."
 					]
 				},
 				{
-					"name": "Reactive Heads (Hydra)",
+					"name": "Реактивные головы (гидра)",
 					"entries": [
-						"For each head the elder false hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+						"За каждую голову сверх одной древняя ложная гидра получает дополнительную реакцию, которую можно использовать только для провоцированных атак."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If the elder false hydra fails a saving throw, it can choose to succeed instead."
+						"Если древняя ложная гидра проваливает спасбросок, она может вместо этого решить, что он успешен."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The elder false hydra can make as many bite attacks as it has heads, any number of which can be replaced with a swallow attack. Any one head can begin or continue using the Sightless Song ability."
+						"Древняя ложная гидра может совершить столько атак укусом, сколько у неё голов; любое их число может быть заменено атакой проглатыванием. Одна любая голова может начать или продолжить использовать умение «Песнь слепца»."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 25 ft., one target. Hit 18 ({@damage 2d10 + 7}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 23}) and the head that made the attack can't bite another target."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 25 футов, одна цель. Попадание 18 ({@damage 2d10 + 7}) колющего урона. Если цель — существо, она становится {@condition grappled} (высвобождение {@dc 23}), и голова, совершившая атаку, не может укусить другую цель."
 					]
 				},
 				{
-					"name": "Song of Domination",
+					"name": "Песнь подчинения",
 					"entries": [
-						"The elder false hydra emits a horrible, nightmarish howl to all creatures within 5 miles. Any humanoid that can hear this song is incapable of noticing the elder false hydra while it hears it. Humanoids under the effect of the song do not realize they can hear the song. The elder false hydra can continue to sing the song for as long as it wants, but must stop singing if it makes a bite attack. Creatures that are subjected to a Song of Domination or Sightless Song for 1 month or more must succeed on a {@dc 21} Wisdom saving throw or {@condition charmed} by the elder false hydra. If they succeed on the save, they are immune to the Song of Domination for an hour, when they must make the save again if they are still within range of the song. Creatures {@condition charmed} by this ability are under the effects of a Dominate Person spell, but the creature can only make another save to break the spell if it goes an hour without hearing the song, and the elder false hydra does not need to use its action to take full control of the creature, and does not need to use its reaction to make the creature use its reaction."
+						"Древняя ложная гидра испускает ужасный, кошмарный вой, обращённый ко всем существам в пределах 5 миль. Любое гуманоидное существо, слышащее эту песнь, не способно замечать древнюю ложную гидру, пока слышит её. Гуманоиды под действием песни не осознают, что слышат её. Древняя ложная гидра может продолжать петь песнь сколько угодно, но должна прекратить пение, если совершает атаку укусом. Существа, подвергшиеся действию «Песни подчинения» или «Песни слепца» в течение 1 месяца и более, должны преуспеть в спасброске Мудрости {@dc 21}, иначе становятся {@condition charmed} древней ложной гидрой. При успешном спасброске они невосприимчивы к «Песни подчинения» в течение часа, после чего должны совершить спасбросок снова, если всё ещё находятся в пределах действия песни. Существа, {@condition charmed} этим умением, находятся под действием заклинания «Подчинение личности», но существо может совершить повторный спасбросок для прекращения заклинания только если проведёт час, не слыша песнь; при этом древней ложной гидре не нужно тратить своё действие, чтобы полностью контролировать существо, и не нужно тратить свою реакцию, чтобы заставить существо использовать его реакцию."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The elder false hydra makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the elder false hydra, and it takes 14 ({@damage 4d6}) acid damage at the start of each of the elder false hydra's turns. IF the elder false hydra takes 40 damage or more on a single turn from a creature inside it, the elder false hydra must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the elder false hydra. If the elder false hydra dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 15 feet of movement, exiting {@condition prone}. The false hydra can have a maximum of 2 large, 8 medium, 16 small, or 32 tiny creatures swallowed at any given time."
+						"Древняя ложная гидра совершает одну атаку укусом по существу Большого размера или меньше, которое она схватила. Если атака попадает, это существо получает урон от укуса и проглатывается, а захват оканчивается. Пока существо проглочено, оно {@condition blinded} и {@condition restrained}, имеет полное укрытие от атак и других эффектов снаружи древней ложной гидры и получает 14 ({@damage 4d6}) урона кислотой в начале каждого хода древней ложной гидры. Если древняя ложная гидра за один ход получает 40 или больше урона от находящегося внутри неё существа, она должна преуспеть в спасброске Телосложения {@dc 15} в конце этого хода, иначе отрыгнёт всех проглоченных существ, которые падают {@condition prone} в пространстве в пределах 10 футов от древней ложной гидры. Если древняя ложная гидра умирает, проглоченное существо больше не {@condition restrained} ею и может выбраться из трупа, потратив 15 футов перемещения и выйдя {@condition prone}. Ложная гидра может одновременно держать проглоченными не более 2 существ Большого, 8 существ Среднего, 16 существ Малого или 32 существ Крошечного размера."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Advance",
+					"name": "Наступление",
 					"entries": [
-						"The false hydra moves up to 30 feet towards a hostile creature."
+						"Ложная гидра перемещается на расстояние до 30 футов в сторону враждебного существа."
 					]
 				},
 				{
-					"name": "Detect",
+					"name": "Обнаружение",
 					"entries": [
-						"The false hydra makes a Wisdom (perception) check."
+						"Ложная гидра совершает проверку Мудрости (Внимательность)."
 					]
 				},
 				{
-					"name": "Devour (costs 2 actions)",
+					"name": "Пожирание (стоит 2 действия)",
 					"entries": [
-						"The elder false hydra makes a bite attack against a creature within range or that it has {@condition grappled}, then swallows it if the attack hits."
+						"Древняя ложная гидра совершает атаку укусом по существу в пределах досягаемости или по существу, которое она {@condition grappled}, а затем проглатывает его, если атака попадает."
 					]
 				}
 			],
@@ -168,15 +168,15 @@
 				"urban"
 			],
 			"traitTags": [
-				"Ambusher",
+				"Из засады",
 				"Legendary Resistances"
 			],
 			"senseTags": [
 				"D"
 			],
 			"actionTags": [
-				"Multiattack",
-				"Swallow"
+				"Мультиатака",
+				"Проглатывание"
 			],
 			"languageTags": [
 				"CS",
@@ -207,49 +207,49 @@
 							{
 								"type": "entries",
 								"entries": [
-									"No one truly knows when or how the false hydra came to be. It is an abomination, seen by few, and survived by fewer. Some say that is similar to a plant, that it grows from the ground like a sprout with no seed, that it germinates on lies and dishonesty. Others say that it is almost like a vicious fungus, a mindless life form that knows nothing beyond devouring and surviving. Some say they are the last vestiges of a curse from a fallen goddess, who sent them as punishment to the mortals who so conveniently turn their backs on inconvenient truths. In truth, scholars have no better idea. The few who believe in and attempt to study this creature have found little information about it, only aware of three things for certain: the false hydra sings, the false hydra grows, and the false hydra eats.",
+									"Никто достоверно не знает, когда и как появилась ложная гидра. Это мерзость, которую видели немногие, а выжили после встречи с ней ещё меньше. Некоторые говорят, что она подобна растению, что она вырастает из земли, как росток без семени, что она прорастает на лжи и обмане. Другие говорят, что она почти как злобный грибок, безмозглая форма жизни, не знающая ничего, кроме пожирания и выживания. Третьи утверждают, что это последний отголосок проклятия падшей богини, которая наслала их в наказание смертным, столь удобно отворачивающимся от неудобных истин. На самом деле у учёных нет идей получше. Немногие, кто верит в это существо и пытается его изучать, нашли о нём мало сведений и уверены лишь в трёх вещах: ложная гидра поёт, ложная гидра растёт, и ложная гидра ест.",
 									{
-										"name": "Infiltration",
+										"name": "Проникновение",
 										"type": "entries",
 										"entries": [
-											"The false hydra begins its life cycle as a head, with roughly the same proportions as an average humanoid's. This head, however, is pale, and hairless, with wet, eyeless sockets and a large mouth filled with broad, flat teeth. It finds itself buried deep beneath the earth near a settlement, and it grows. As it grows, it develops a fleshy, flabby torso, which serves as a \"root\". It is from this root that all further heads grow. The first head slowly pushes its way up through the dirt, breaking through the soil in the basement, beneath the stairs. Or beneath the brush around the house. Or through a broken cobblestone in the street. And then, when it has reached the surface, it sings."
+											"Ложная гидра начинает свой жизненный цикл с головы, примерно тех же пропорций, что и у обычного гуманоида. Эта голова, однако, бледна и безволоса, с влажными безглазыми глазницами и большим ртом, полным широких плоских зубов. Она оказывается погребённой глубоко под землёй близ поселения и растёт. По мере роста у неё развивается мясистое дряблое туловище, служащее «корнем». Именно из этого корня вырастают все последующие головы. Первая голова медленно пробивается сквозь землю, прорываясь сквозь почву в подвале, под лестницей. Или под кустарником вокруг дома. Или сквозь разбитый булыжник на улице. И вот, достигнув поверхности, она поёт."
 										]
 									},
 									{
-										"name": "Sightless Song",
+										"name": "Песнь слепца",
 										"type": "entries",
 										"entries": [
-											"While the false hydra sings, it is ignored. It is not invisible: it simply sits in our blind spot, its song creating gaps in our memory while it watches its prey go about its day, waiting until a safe moment to strike. The false hydra must bide its time to find the right moment, as when it eats, it cannot sing. When it isn't singing, it can be seen."
+											"Пока ложная гидра поёт, её не замечают. Она не невидима: она просто сидит в нашем слепом пятне, а её песнь создаёт провалы в нашей памяти, пока она наблюдает, как её добыча проживает свой день, выжидая безопасного момента для удара. Ложной гидре приходится выжидать, чтобы найти подходящий момент, ведь когда она ест, она не может петь. Когда она не поёт, её можно увидеть."
 										]
 									},
 									{
-										"name": "Growth",
+										"name": "Рост",
 										"type": "entries",
 										"entries": [
-											"The false hydra eats flesh, of course, and its favorite prey is humanoids. In the beginning of its life, while it only has one head, though, eating presents a challenge. To eat, it must stop singing. Thus, the first stage of a false hydra infestation is often the longest, as it waits for a lone victim to drag away into a basement, sewer, or small cave it has excavated for this purpose.",
-											"In any normal circumstances, the victims of the false hydra would have family, or friends who would notice their absence, but the false hydra's song massages their mind, smoothing the wrinkles in their thoughts. The false hydra's victims become a part of the creature, and thus the creature's song erases all memories of him. Their absence will not be noticed. They are forgotten. And as more and more join the false hydra, the more it grows, the more it's neck stretches, and the more its influence grows."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Mental Discord",
-										"entries": [
-											"The false hydra's song soothes the minds of their victims, coaxing out the memories of their prey in the same way it hides the false hydra, but it is not a perfect defense. Parents will ask why they have boy's clothes but only one daughter. A shopkeep will forget why there are two names above the store's door.",
-											"Farmhands will wonder why someone hasn't harvested their section of field. Churches will find themselves without a pastor.",
-											"More often than not, these gaps will close on their own. The parents will remember they took care of their neighbor's child when they went out of town. The shopkeep will remember the last winter took their partner. The farmhands will remember they recently expanded the field, and forgot to assign someone to harvest it. The churchgoers will remember their pastor's faith was needed in the big city to the north.",
-											"But still, some small, confused part of their mind will recognize the wrongness of it. That part of their mind is locked away, ignored, deemed the dark part of their mind that lurks in everyone, a part that good folk know is nothing more than wrongful temptation.",
-											"This strains the mind. At first, it feels like paranoia, like they are being watched (and they are being watched) but they will never be able to see who by, until it's too late. As time passes, more symptoms develop. Reminiscing becomes stressful and unpleasant, and thus is avoided. Memories become distorted and confusing, and faces blur together and identities become distorted.",
-											"Mortal brains were not meant to take this weight. Mental disorders develop like a mold. Nervous ticks, psychotic breaks, and hallucinations abound."
+											"Ложная гидра, разумеется, питается плотью, и её излюбленная добыча — гуманоиды. Однако в начале своей жизни, пока у неё всего одна голова, еда представляет сложность. Чтобы поесть, она должна прекратить петь. Поэтому первая стадия заражения ложной гидрой обычно самая долгая: она ждёт одинокую жертву, чтобы утащить её в подвал, канализацию или небольшую пещеру, которую выкопала для этой цели.",
+											"При обычных обстоятельствах у жертв ложной гидры были бы родные или друзья, которые заметили бы их исчезновение, но песнь ложной гидры массирует их разум, разглаживая складки в мыслях. Жертвы ложной гидры становятся частью существа, и потому песнь существа стирает все воспоминания о них. Их отсутствие не заметят. Их забудут. И чем больше существ присоединяется к ложной гидре, тем больше она растёт, тем сильнее вытягивается её шея и тем шире становится её влияние."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Proliferation",
+										"name": "Разлад в разуме",
 										"entries": [
-											"The older the false hydra gets, the more heads it grows. The more heads it has, the more careless it becomes, as it can afford to have one head stop singing to eat. As the number of heads grows, so to do the number of missing townsfolk, the number of inconsistent memories floating around the survivors.",
-											"The more mature the false hydra, the more necks stretch up above the rooftops. Thick, pale tree trunks topped with bulging, bony heads with unhinging jaws filled with daggerlike teeth.",
-											"When the false hydra is fully grown - usually once it is approaching ten heads - the next stage of its life cycle begins. The false hydra ensures there is at least one survivor for each head it has grown. Then, it begins to sing a new song. This new song dominates the weak-minded and psychotic, while still subjecting others to the mind-numbing forgetfulness of the first song.",
-											"Each survivor is given a head, which continues to sing, and they all go their separate ways. Each victim is sent to a nearby town. Along the way, the singing continues. Any who pass them on the road are only temporarily taken under the false hydra's song, just long enough to forget they saw the lone traveler. When the carriers arrive in a new town, they find a spot to bury themselves and their head. When they do, the larva uses the carrier as it's first victim until it has grown enough to resurface. Then, the cycle begins anew, in a new town."
+											"Песнь ложной гидры успокаивает разум её жертв, выманивая воспоминания о добыче так же, как она скрывает саму ложную гидру, но это не безупречная защита. Родители будут спрашивать, почему у них есть мальчишеская одежда, а дочь только одна. Лавочник забудет, почему над дверью его лавки два имени.",
+											"Батраки будут гадать, почему никто не убрал их участок поля. Церкви останутся без пастора.",
+											"Чаще всего эти провалы закрываются сами собой. Родители вспомнят, что присматривали за ребёнком соседей, пока те уезжали из города. Лавочник вспомнит, что прошлая зима забрала его напарника. Батраки вспомнят, что недавно расширили поле и забыли назначить кого-то на уборку. Прихожане вспомнят, что вера их пастора понадобилась в большом городе на севере.",
+											"Но всё же какая-то малая, сбитая с толку часть их разума распознаёт неправильность этого. Эту часть разума запирают, игнорируют, считают тёмным уголком разума, что таится в каждом, — частью, о которой добрые люди знают, что она не более чем недолжное искушение.",
+											"Это изматывает разум. Поначалу это ощущается как паранойя, будто за ними наблюдают (и за ними действительно наблюдают), но они так и не смогут увидеть, кто именно, — пока не станет слишком поздно. Со временем появляются новые симптомы. Воспоминания становятся тягостными и неприятными, и потому их избегают. Память искажается и путается, лица сливаются, а личности размываются.",
+											"Смертный разум не предназначен выносить такую тяжесть. Психические расстройства разрастаются, как плесень. В изобилии появляются нервные тики, психотические срывы и галлюцинации."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Размножение",
+										"entries": [
+											"Чем старше становится ложная гидра, тем больше голов она отращивает. Чем больше у неё голов, тем беспечнее она становится, ведь может позволить одной голове прекратить пение, чтобы поесть. По мере роста числа голов растёт и число пропавших горожан, и число противоречивых воспоминаний, витающих среди выживших.",
+											"Чем зрелее ложная гидра, тем больше шей вытягивается над крышами. Толстые бледные стволы, увенчанные раздутыми костлявыми головами с разинутыми челюстями, полными кинжальных зубов.",
+											"Когда ложная гидра полностью вырастает — обычно при приближении к десяти головам — начинается следующая стадия её жизненного цикла. Ложная гидра следит, чтобы на каждую отращённую голову остался хотя бы один выживший. Затем она начинает петь новую песнь. Эта новая песнь подчиняет слабовольных и безумных, продолжая при этом погружать остальных в оглупляющую забывчивость первой песни.",
+											"Каждому выжившему дают голову, которая продолжает петь, и все они расходятся в разные стороны. Каждую жертву отправляют в соседний город. По пути пение не прекращается. Все, кто встречает их на дороге, лишь временно попадают под песнь ложной гидры — ровно настолько, чтобы забыть, что видели одинокого путника. Когда носители прибывают в новый город, они находят место, чтобы закопать себя и свою голову. Сделав это, личинка использует носителя как свою первую жертву, пока не вырастет достаточно, чтобы выйти на поверхность. Затем цикл начинается заново, в новом городе."
 										]
 									}
 								]
@@ -258,45 +258,45 @@
 					},
 					{
 						"type": "entries",
-						"name": "False Hydra Growth Stages",
+						"name": "Стадии роста ложной гидры",
 						"entries": [
 							{
 								"type": "entries",
 								"entries": [
 									"",
 									{
-										"name": "False Hydra Larva",
+										"name": "Личинка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The first stage of the false hydra life cycle is simply a head. This pale, vaguely human head has little to no mobility on it's own, instead relying on the broken mind of its host to carry it to a new town to begin its growth. It is capable of maintaining a hum, which serves to continue the domination of it's host, as well as disguising itself from any who might encounter it on the road. Instead of seeing a shaken, broken person carrying a nightmarish, decapitated head, they would perhaps see a haggard old beggar, moving from one town to the next, carrying their only possesions in their arms. The larva's song is weak, and easily broken, and intense scrutiny of the traveler will often reveal the true nature of what is happening."
+											"Первая стадия жизненного цикла ложной гидры — это просто голова. Эта бледная, отдалённо человеческая голова почти не способна двигаться сама и полагается на сломленный разум своего носителя, несущего её в новый город, чтобы начать рост. Она способна издавать гудение, которое продолжает подчинение носителя и одновременно маскирует её от всех, кто может встретить её в пути. Вместо потрясённого, сломленного человека, несущего кошмарную отрубленную голову, они, возможно, увидят измождённого старого нищего, переходящего из города в город со всем своим скарбом в руках. Песнь личинки слаба и легко разрушается, и пристальное наблюдение за путником часто раскрывает истинную суть происходящего."
 										]
 									},
 									{
-										"name": "False Hydra Pupa",
+										"name": "Куколка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The second stage of the false hydra is the pupal stage. This stage begins after the creature has been carried to a new town, buried, and feasted on the host that brought it. This stage has only one head, and is the longest stage in the cycle as they must wait for the best moment to be able to capture their prey so that the lack of their song does not give them away to the townsfolk. When the false hydra has devoured enough townsfolk to grow more heads, it enters the next stage."
+											"Вторая стадия ложной гидры — стадия куколки. Она начинается после того, как существо принесли в новый город, закопали, и оно пожирает носителя, что принёс его. На этой стадии у неё всего одна голова, и это самая долгая стадия цикла: ей приходится ждать лучшего момента, чтобы суметь захватить добычу так, чтобы отсутствие песни не выдало её горожанам. Когда ложная гидра пожирает достаточно горожан, чтобы отрастить новые головы, она переходит в следующую стадию."
 										]
 									},
 									{
-										"name": "Young False Hydra",
+										"name": "Молодая ложная гидра",
 										"type": "entries",
 										"entries": [
-											"The third stage of the false hydra has developed multiple heads, usually two to four, and is beginning to be less cautious when it eats, as it can often have one head continue its song while the other devours the victim. It is still young, however, and tends to keep stores of flesh in its subterranean body so that it might regrow heads in case of emergency."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "False Hydra",
-										"entries": [
-											"The fourth stage of the false hydra is when it becomes a true menace to adventurers, having grown enough heads (anywhere from five to eight) and stored enough beneath the ground to be able to grow back its heads a number of times. The false hydra's head have grown into thick, almost tree-trunk like appendages that can survey the settlement from above the rooftops. At this stage, it is merely waiting to further thin down the numbers in the town before advancing to its final stage."
+											"Третья стадия ложной гидры развила множество голов, обычно от двух до четырёх, и начинает есть менее осторожно, так как часто может позволить одной голове продолжать песнь, пока другая пожирает жертву. Однако она ещё молода и обычно хранит запасы плоти в своём подземном теле, чтобы при необходимости отрастить головы."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Elder False Hydra",
+										"name": "Ложная гидра",
 										"entries": [
-											"The fifth and final stage of the false hydra has grown nine or more heads, and begun singing the Song of Domination. At this point, the few surviving townsfolk are under it's control and making preparations to scatter the heads to other towns. The elder false hydra is nearly omnipotent in its town, as the collected memories of its victims have given it knowledge of most threats it could face, especially if it has eaten adventurers or other worldly people."
+											"Четвёртая стадия ложной гидры — это когда она становится настоящей угрозой для искателей приключений, отрастив достаточно голов (от пяти до восьми) и накопив достаточно под землёй, чтобы отращивать головы заново несколько раз. Головы ложной гидры выросли в толстые, почти как стволы деревьев отростки, способные обозревать поселение поверх крыш. На этой стадии она лишь ждёт, чтобы ещё сильнее проредить население города, прежде чем перейти к своей финальной стадии."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Древняя ложная гидра",
+										"entries": [
+											"Пятая и финальная стадия ложной гидры отрастила девять или более голов и начала петь «Песнь подчинения». В этот момент немногие выжившие горожане находятся под её контролем и готовятся разнести головы по другим городам. Древняя ложная гидра почти всесильна в своём городе, так как собранные воспоминания её жертв дали ей знание о большинстве угроз, с которыми она может столкнуться, особенно если она съела искателей приключений или других искушённых людей."
 										]
 									}
 								]
@@ -305,16 +305,16 @@
 					},
 					{
 						"type": "inset",
-						"name": "PCs and the Sightless Song",
+						"name": "Персонажи и Песнь слепца",
 						"entries": [
-							"Due to the nature of the false hydra as a creature, it's rather hard to give the song a DC as a baseline to ignore it's effects. Thus, any creature who hears the song is under it's effect, but at the DM's discretion they can make an Intelligence saving throw to break the effect on themselves if they find something horrifying or strange enough to make them question reality. Consider the examples given in the {@b Mental Discord} section for things that might make players question their reality, or examples given in the original Goblin Punch article ({@link link at the bottom of the document|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Additionally, due to how the life cycle of the false hydra works, remember that only an elder false hydra can actually sing the song of domination, but any false hydra's song will continue the effect on someone under it's control, essentially transferring control to that false hydra. This will really only be used if a hydra grows big enough to have to spread to another town, as the false hydra's head will continue to sing to keep its host moving."
+							"В силу природы ложной гидры как существа довольно трудно задать песни Сл в качестве базового порога, чтобы игнорировать её эффекты. Так что любое существо, слышащее песнь, попадает под её действие, но на усмотрение Мастера оно может совершить спасбросок Интеллекта, чтобы сбросить эффект с себя, если найдёт что-то настолько ужасное или странное, что усомнится в реальности. В качестве примеров того, что может заставить игроков усомниться в реальности, рассмотрите примеры в разделе {@b Разлад в разуме} или примеры из оригинальной статьи Goblin Punch ({@link ссылка внизу документа|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Кроме того, учитывая, как работает жизненный цикл ложной гидры, помните, что лишь древняя ложная гидра может действительно петь «Песнь подчинения», но песнь любой ложной гидры продолжит эффект на того, кто под её контролем, по сути передавая контроль этой ложной гидре. Это по-настоящему понадобится лишь если гидра вырастет настолько, что ей придётся распространиться в другой город, так как голова ложной гидры продолжит петь, чтобы её носитель двигался дальше."
 						]
 					}
 				]
 			}
 		},
 		{
-			"name": "False Hydra",
+			"name": "Ложная гидра",
 			"source": "TheFalseHydra",
 			"size": [
 				"H"
@@ -372,86 +372,86 @@
 				}
 			],
 			"languages": [
-				"understands languages known by its victims",
-				"but can't speak.",
-				"telepathy 5 miles"
+				"понимает языки, известные его жертвам",
+				"Но не может говорить.",
+				"Телепатия 5 miles"
 			],
 			"cr": "15",
 			"trait": [
 				{
-					"name": "Ambusher",
+					"name": "Из засады",
 					"entries": [
-						"The false hydra has advantage on attack rolls against any creature it has surprised."
+						"Ложная гидра совершает с преимуществом броски атаки по любому существу, застигнутому ею врасплох."
 					]
 				},
 				{
-					"name": "Surprise Attack",
+					"name": "Внезапная атака",
 					"entries": [
-						"If the false hydra surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 11 ({@damage 2d10}) damage from the attack."
+						"Если ложная гидра застаёт существо врасплох и попадает по нему атакой в первом раунде боя, цель получает дополнительно 11 ({@damage 2d10}) урона от этой атаки."
 					]
 				},
 				{
-					"name": "Multiple Heads",
+					"name": "Множество голов",
 					"entries": [
-						"The false hydra has 7 heads. While it has more than one head, the false hydra has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}. Whenever the false hydra takes 30 or more damage in a single turn, one of its heads dies. If all its heads die, the false hydra dies. At the end of its turn, it grows a head for each of its heads that died since its last turn, unless it has regrown 14 heads. The false hydra regains 10 hit points for each head regrown in this way."
+						"У ложной гидры 7 голов. Пока у неё больше одной головы, ложная гидра совершает с преимуществом спасброски от состояний {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned} и {@condition unconscious}. Каждый раз, когда ложная гидра получает 30 или больше урона за один ход, одна из её голов умирает. Если все её головы умирают, ложная гидра умирает. В конце своего хода она отращивает по одной голове за каждую голову, погибшую с её прошлого хода, если только она не отрастила уже 14 голов. За каждую отращённую таким образом голову ложная гидра восстанавливает 10 хитов."
 					]
 				},
 				{
-					"name": "Reactive Heads (Hydra)",
+					"name": "Реактивные головы (гидра)",
 					"entries": [
-						"For each head the false hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+						"За каждую голову сверх одной ложная гидра получает дополнительную реакцию, которую можно использовать только для провоцированных атак."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If the false hydra fails a saving throw, it can choose to succeed instead."
+						"Если ложная гидра проваливает спасбросок, она может вместо этого решить, что он успешен."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The false hydra can make as many bite attacks as it has heads. Any one head can begin or continue using the Sightless Song ability."
+						"Ложная гидра может совершить столько атак укусом, сколько у неё голов. Одна любая голова может начать или продолжить использовать умение «Песнь слепца»."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 20 ft., one target. Hit 10 ({@damage 1d10 + 5}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}) and the head that made the attack can't bite another target."
+						"{@atk mw} {@hit 10} к попаданию, досягаемость 20 футов, одна цель. Попадание 10 ({@damage 1d10 + 5}) колющего урона. Если цель — существо, она становится {@condition grappled} (высвобождение {@dc 19}), и голова, совершившая атаку, не может укусить другую цель."
 					]
 				},
 				{
-					"name": "Sightless Song",
+					"name": "Песнь слепца",
 					"entries": [
-						"The false hydra emits a horrible, nightmarish howl to all creatures within 5 miles. Any humanoid that can hear this song is incapable of noticing the false hydra while it hears it. Humanoids under the effect of the song do not realize they can hear the song. The false hydra can continue to sing the song for as long as it wants, but must stop singing if it makes a Bite attack."
+						"Ложная гидра испускает ужасный, кошмарный вой, обращённый ко всем существам в пределах 5 миль. Любое гуманоидное существо, слышащее эту песнь, не способно замечать ложную гидру, пока слышит её. Гуманоиды под действием песни не осознают, что слышат её. Ложная гидра может продолжать петь песнь сколько угодно, но должна прекратить пение, если совершает атаку укусом."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The false hydra makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the false hydra, and it takes 7 ({@damage 2d6}) acid damage at the start of each of the false hydra's turns. If the false hydra takes 30 damage or more on a single turn from a creature inside it, the false hydra must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the false hydra. If the false hydra dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 15 feet of movement, exiting {@condition prone}. The false hydra can have a maximum of 2 medium, 4 small, or 16 tiny creatures swallowed at any given time."
+						"Ложная гидра совершает одну атаку укусом по существу Среднего размера или меньше, которое она схватила. Если атака попадает, это существо получает урон от укуса и проглатывается, а захват оканчивается. Пока существо проглочено, оно {@condition blinded} и {@condition restrained}, имеет полное укрытие от атак и других эффектов снаружи ложной гидры и получает 7 ({@damage 2d6}) урона кислотой в начале каждого хода ложной гидры. Если ложная гидра за один ход получает 30 или больше урона от находящегося внутри неё существа, она должна преуспеть в спасброске Телосложения {@dc 15} в конце этого хода, иначе отрыгнёт всех проглоченных существ, которые падают {@condition prone} в пространстве в пределах 10 футов от ложной гидры. Если ложная гидра умирает, проглоченное существо больше не {@condition restrained} ею и может выбраться из трупа, потратив 15 футов перемещения и выйдя {@condition prone}. Ложная гидра может одновременно держать проглоченными не более 2 существ Среднего, 4 существ Малого или 16 существ Крошечного размера."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Advance",
+					"name": "Наступление",
 					"entries": [
-						"The false hydra moves up to 30 feet towards a hostile creature."
+						"Ложная гидра перемещается на расстояние до 30 футов в сторону враждебного существа."
 					]
 				},
 				{
-					"name": "Detect",
+					"name": "Обнаружение",
 					"entries": [
-						"The false hydra makes a Wisdom (perception) check."
+						"Ложная гидра совершает проверку Мудрости (Внимательность)."
 					]
 				},
 				{
-					"name": "Swallow (costs 2 actions)",
+					"name": "Проглатывание (стоит 2 действия)",
 					"entries": [
-						"The false hydra makes a swallow attack against a creature it has {@condition grappled}."
+						"Ложная гидра совершает атаку проглатыванием по существу, которое она {@condition grappled}."
 					]
 				}
 			],
@@ -459,15 +459,15 @@
 				"urban"
 			],
 			"traitTags": [
-				"Ambusher",
+				"Из засады",
 				"Legendary Resistances"
 			],
 			"senseTags": [
 				"D"
 			],
 			"actionTags": [
-				"Multiattack",
-				"Swallow"
+				"Мультиатака",
+				"Проглатывание"
 			],
 			"languageTags": [
 				"CS",
@@ -497,49 +497,49 @@
 							{
 								"type": "entries",
 								"entries": [
-									"No one truly knows when or how the false hydra came to be. It is an abomination, seen by few, and survived by fewer. Some say that is similar to a plant, that it grows from the ground like a sprout with no seed, that it germinates on lies and dishonesty. Others say that it is almost like a vicious fungus, a mindless life form that knows nothing beyond devouring and surviving. Some say they are the last vestiges of a curse from a fallen goddess, who sent them as punishment to the mortals who so conveniently turn their backs on inconvenient truths. In truth, scholars have no better idea. The few who believe in and attempt to study this creature have found little information about it, only aware of three things for certain: the false hydra sings, the false hydra grows, and the false hydra eats.",
+									"Никто достоверно не знает, когда и как появилась ложная гидра. Это мерзость, которую видели немногие, а выжили после встречи с ней ещё меньше. Некоторые говорят, что она подобна растению, что она вырастает из земли, как росток без семени, что она прорастает на лжи и обмане. Другие говорят, что она почти как злобный грибок, безмозглая форма жизни, не знающая ничего, кроме пожирания и выживания. Третьи утверждают, что это последний отголосок проклятия падшей богини, которая наслала их в наказание смертным, столь удобно отворачивающимся от неудобных истин. На самом деле у учёных нет идей получше. Немногие, кто верит в это существо и пытается его изучать, нашли о нём мало сведений и уверены лишь в трёх вещах: ложная гидра поёт, ложная гидра растёт, и ложная гидра ест.",
 									{
-										"name": "Infiltration",
+										"name": "Проникновение",
 										"type": "entries",
 										"entries": [
-											"The false hydra begins its life cycle as a head, with roughly the same proportions as an average humanoid's. This head, however, is pale, and hairless, with wet, eyeless sockets and a large mouth filled with broad, flat teeth. It finds itself buried deep beneath the earth near a settlement, and it grows. As it grows, it develops a fleshy, flabby torso, which serves as a \"root\". It is from this root that all further heads grow. The first head slowly pushes its way up through the dirt, breaking through the soil in the basement, beneath the stairs. Or beneath the brush around the house. Or through a broken cobblestone in the street. And then, when it has reached the surface, it sings."
+											"Ложная гидра начинает свой жизненный цикл с головы, примерно тех же пропорций, что и у обычного гуманоида. Эта голова, однако, бледна и безволоса, с влажными безглазыми глазницами и большим ртом, полным широких плоских зубов. Она оказывается погребённой глубоко под землёй близ поселения и растёт. По мере роста у неё развивается мясистое дряблое туловище, служащее «корнем». Именно из этого корня вырастают все последующие головы. Первая голова медленно пробивается сквозь землю, прорываясь сквозь почву в подвале, под лестницей. Или под кустарником вокруг дома. Или сквозь разбитый булыжник на улице. И вот, достигнув поверхности, она поёт."
 										]
 									},
 									{
-										"name": "Sightless Song",
+										"name": "Песнь слепца",
 										"type": "entries",
 										"entries": [
-											"While the false hydra sings, it is ignored. It is not invisible: it simply sits in our blind spot, its song creating gaps in our memory while it watches its prey go about its day, waiting until a safe moment to strike. The false hydra must bide its time to find the right moment, as when it eats, it cannot sing. When it isn't singing, it can be seen."
+											"Пока ложная гидра поёт, её не замечают. Она не невидима: она просто сидит в нашем слепом пятне, а её песнь создаёт провалы в нашей памяти, пока она наблюдает, как её добыча проживает свой день, выжидая безопасного момента для удара. Ложной гидре приходится выжидать, чтобы найти подходящий момент, ведь когда она ест, она не может петь. Когда она не поёт, её можно увидеть."
 										]
 									},
 									{
-										"name": "Growth",
+										"name": "Рост",
 										"type": "entries",
 										"entries": [
-											"The false hydra eats flesh, of course, and its favorite prey is humanoids. In the beginning of its life, while it only has one head, though, eating presents a challenge. To eat, it must stop singing. Thus, the first stage of a false hydra infestation is often the longest, as it waits for a lone victim to drag away into a basement, sewer, or small cave it has excavated for this purpose.",
-											"In any normal circumstances, the victims of the false hydra would have family, or friends who would notice their absence, but the false hydra's song massages their mind, smoothing the wrinkles in their thoughts. The false hydra's victims become a part of the creature, and thus the creature's song erases all memories of him. Their absence will not be noticed. They are forgotten. And as more and more join the false hydra, the more it grows, the more it's neck stretches, and the more its influence grows."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Mental Discord",
-										"entries": [
-											"The false hydra's song soothes the minds of their victims, coaxing out the memories of their prey in the same way it hides the false hydra, but it is not a perfect defense. Parents will ask why they have boy's clothes but only one daughter. A shopkeep will forget why there are two names above the store's door.",
-											"Farmhands will wonder why someone hasn't harvested their section of field. Churches will find themselves without a pastor.",
-											"More often than not, these gaps will close on their own. The parents will remember they took care of their neighbor's child when they went out of town. The shopkeep will remember the last winter took their partner. The farmhands will remember they recently expanded the field, and forgot to assign someone to harvest it. The churchgoers will remember their pastor's faith was needed in the big city to the north.",
-											"But still, some small, confused part of their mind will recognize the wrongness of it. That part of their mind is locked away, ignored, deemed the dark part of their mind that lurks in everyone, a part that good folk know is nothing more than wrongful temptation.",
-											"This strains the mind. At first, it feels like paranoia, like they are being watched (and they are being watched) but they will never be able to see who by, until it's too late. As time passes, more symptoms develop. Reminiscing becomes stressful and unpleasant, and thus is avoided. Memories become distorted and confusing, and faces blur together and identities become distorted.",
-											"Mortal brains were not meant to take this weight. Mental disorders develop like a mold. Nervous ticks, psychotic breaks, and hallucinations abound."
+											"Ложная гидра, разумеется, питается плотью, и её излюбленная добыча — гуманоиды. Однако в начале своей жизни, пока у неё всего одна голова, еда представляет сложность. Чтобы поесть, она должна прекратить петь. Поэтому первая стадия заражения ложной гидрой обычно самая долгая: она ждёт одинокую жертву, чтобы утащить её в подвал, канализацию или небольшую пещеру, которую выкопала для этой цели.",
+											"При обычных обстоятельствах у жертв ложной гидры были бы родные или друзья, которые заметили бы их исчезновение, но песнь ложной гидры массирует их разум, разглаживая складки в мыслях. Жертвы ложной гидры становятся частью существа, и потому песнь существа стирает все воспоминания о них. Их отсутствие не заметят. Их забудут. И чем больше существ присоединяется к ложной гидре, тем больше она растёт, тем сильнее вытягивается её шея и тем шире становится её влияние."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Proliferation",
+										"name": "Разлад в разуме",
 										"entries": [
-											"The older the false hydra gets, the more heads it grows. The more heads it has, the more careless it becomes, as it can afford to have one head stop singing to eat. As the number of heads grows, so to do the number of missing townsfolk, the number of inconsistent memories floating around the survivors.",
-											"The more mature the false hydra, the more necks stretch up above the rooftops. Thick, pale tree trunks topped with bulging, bony heads with unhinging jaws filled with daggerlike teeth.",
-											"When the false hydra is fully grown - usually once it is approaching ten heads - the next stage of its life cycle begins. The false hydra ensures there is at least one survivor for each head it has grown. Then, it begins to sing a new song. This new song dominates the weak-minded and psychotic, while still subjecting others to the mind-numbing forgetfulness of the first song.",
-											"Each survivor is given a head, which continues to sing, and they all go their separate ways. Each victim is sent to a nearby town. Along the way, the singing continues. Any who pass them on the road are only temporarily taken under the false hydra's song, just long enough to forget they saw the lone traveler. When the carriers arrive in a new town, they find a spot to bury themselves and their head. When they do, the larva uses the carrier as it's first victim until it has grown enough to resurface. Then, the cycle begins anew, in a new town."
+											"Песнь ложной гидры успокаивает разум её жертв, выманивая воспоминания о добыче так же, как она скрывает саму ложную гидру, но это не безупречная защита. Родители будут спрашивать, почему у них есть мальчишеская одежда, а дочь только одна. Лавочник забудет, почему над дверью его лавки два имени.",
+											"Батраки будут гадать, почему никто не убрал их участок поля. Церкви останутся без пастора.",
+											"Чаще всего эти провалы закрываются сами собой. Родители вспомнят, что присматривали за ребёнком соседей, пока те уезжали из города. Лавочник вспомнит, что прошлая зима забрала его напарника. Батраки вспомнят, что недавно расширили поле и забыли назначить кого-то на уборку. Прихожане вспомнят, что вера их пастора понадобилась в большом городе на севере.",
+											"Но всё же какая-то малая, сбитая с толку часть их разума распознаёт неправильность этого. Эту часть разума запирают, игнорируют, считают тёмным уголком разума, что таится в каждом, — частью, о которой добрые люди знают, что она не более чем недолжное искушение.",
+											"Это изматывает разум. Поначалу это ощущается как паранойя, будто за ними наблюдают (и за ними действительно наблюдают), но они так и не смогут увидеть, кто именно, — пока не станет слишком поздно. Со временем появляются новые симптомы. Воспоминания становятся тягостными и неприятными, и потому их избегают. Память искажается и путается, лица сливаются, а личности размываются.",
+											"Смертный разум не предназначен выносить такую тяжесть. Психические расстройства разрастаются, как плесень. В изобилии появляются нервные тики, психотические срывы и галлюцинации."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Размножение",
+										"entries": [
+											"Чем старше становится ложная гидра, тем больше голов она отращивает. Чем больше у неё голов, тем беспечнее она становится, ведь может позволить одной голове прекратить пение, чтобы поесть. По мере роста числа голов растёт и число пропавших горожан, и число противоречивых воспоминаний, витающих среди выживших.",
+											"Чем зрелее ложная гидра, тем больше шей вытягивается над крышами. Толстые бледные стволы, увенчанные раздутыми костлявыми головами с разинутыми челюстями, полными кинжальных зубов.",
+											"Когда ложная гидра полностью вырастает — обычно при приближении к десяти головам — начинается следующая стадия её жизненного цикла. Ложная гидра следит, чтобы на каждую отращённую голову остался хотя бы один выживший. Затем она начинает петь новую песнь. Эта новая песнь подчиняет слабовольных и безумных, продолжая при этом погружать остальных в оглупляющую забывчивость первой песни.",
+											"Каждому выжившему дают голову, которая продолжает петь, и все они расходятся в разные стороны. Каждую жертву отправляют в соседний город. По пути пение не прекращается. Все, кто встречает их на дороге, лишь временно попадают под песнь ложной гидры — ровно настолько, чтобы забыть, что видели одинокого путника. Когда носители прибывают в новый город, они находят место, чтобы закопать себя и свою голову. Сделав это, личинка использует носителя как свою первую жертву, пока не вырастет достаточно, чтобы выйти на поверхность. Затем цикл начинается заново, в новом городе."
 										]
 									}
 								]
@@ -548,45 +548,45 @@
 					},
 					{
 						"type": "entries",
-						"name": "False Hydra Growth Stages",
+						"name": "Стадии роста ложной гидры",
 						"entries": [
 							{
 								"type": "entries",
 								"entries": [
 									"",
 									{
-										"name": "False Hydra Larva",
+										"name": "Личинка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The first stage of the false hydra life cycle is simply a head. This pale, vaguely human head has little to no mobility on it's own, instead relying on the broken mind of its host to carry it to a new town to begin its growth. It is capable of maintaining a hum, which serves to continue the domination of it's host, as well as disguising itself from any who might encounter it on the road. Instead of seeing a shaken, broken person carrying a nightmarish, decapitated head, they would perhaps see a haggard old beggar, moving from one town to the next, carrying their only possesions in their arms. The larva's song is weak, and easily broken, and intense scrutiny of the traveler will often reveal the true nature of what is happening."
+											"Первая стадия жизненного цикла ложной гидры — это просто голова. Эта бледная, отдалённо человеческая голова почти не способна двигаться сама и полагается на сломленный разум своего носителя, несущего её в новый город, чтобы начать рост. Она способна издавать гудение, которое продолжает подчинение носителя и одновременно маскирует её от всех, кто может встретить её в пути. Вместо потрясённого, сломленного человека, несущего кошмарную отрубленную голову, они, возможно, увидят измождённого старого нищего, переходящего из города в город со всем своим скарбом в руках. Песнь личинки слаба и легко разрушается, и пристальное наблюдение за путником часто раскрывает истинную суть происходящего."
 										]
 									},
 									{
-										"name": "False Hydra Pupa",
+										"name": "Куколка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The second stage of the false hydra is the pupal stage. This stage begins after the creature has been carried to a new town, buried, and feasted on the host that brought it. This stage has only one head, and is the longest stage in the cycle as they must wait for the best moment to be able to capture their prey so that the lack of their song does not give them away to the townsfolk. When the false hydra has devoured enough townsfolk to grow more heads, it enters the next stage."
+											"Вторая стадия ложной гидры — стадия куколки. Она начинается после того, как существо принесли в новый город, закопали, и оно пожирает носителя, что принёс его. На этой стадии у неё всего одна голова, и это самая долгая стадия цикла: ей приходится ждать лучшего момента, чтобы суметь захватить добычу так, чтобы отсутствие песни не выдало её горожанам. Когда ложная гидра пожирает достаточно горожан, чтобы отрастить новые головы, она переходит в следующую стадию."
 										]
 									},
 									{
-										"name": "Young False Hydra",
+										"name": "Молодая ложная гидра",
 										"type": "entries",
 										"entries": [
-											"The third stage of the false hydra has developed multiple heads, usually two to four, and is beginning to be less cautious when it eats, as it can often have one head continue its song while the other devours the victim. It is still young, however, and tends to keep stores of flesh in its subterranean body so that it might regrow heads in case of emergency."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "False Hydra",
-										"entries": [
-											"The fourth stage of the false hydra is when it becomes a true menace to adventurers, having grown enough heads (anywhere from five to eight) and stored enough beneath the ground to be able to grow back its heads a number of times. The false hydra's head have grown into thick, almost tree-trunk like appendages that can survey the settlement from above the rooftops. At this stage, it is merely waiting to further thin down the numbers in the town before advancing to its final stage."
+											"Третья стадия ложной гидры развила множество голов, обычно от двух до четырёх, и начинает есть менее осторожно, так как часто может позволить одной голове продолжать песнь, пока другая пожирает жертву. Однако она ещё молода и обычно хранит запасы плоти в своём подземном теле, чтобы при необходимости отрастить головы."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Elder False Hydra",
+										"name": "Ложная гидра",
 										"entries": [
-											"The fifth and final stage of the false hydra has grown nine or more heads, and begun singing the Song of Domination. At this point, the few surviving townsfolk are under it's control and making preparations to scatter the heads to other towns. The elder false hydra is nearly omnipotent in its town, as the collected memories of its victims have given it knowledge of most threats it could face, especially if it has eaten adventurers or other worldly people."
+											"Четвёртая стадия ложной гидры — это когда она становится настоящей угрозой для искателей приключений, отрастив достаточно голов (от пяти до восьми) и накопив достаточно под землёй, чтобы отращивать головы заново несколько раз. Головы ложной гидры выросли в толстые, почти как стволы деревьев отростки, способные обозревать поселение поверх крыш. На этой стадии она лишь ждёт, чтобы ещё сильнее проредить население города, прежде чем перейти к своей финальной стадии."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Древняя ложная гидра",
+										"entries": [
+											"Пятая и финальная стадия ложной гидры отрастила девять или более голов и начала петь «Песнь подчинения». В этот момент немногие выжившие горожане находятся под её контролем и готовятся разнести головы по другим городам. Древняя ложная гидра почти всесильна в своём городе, так как собранные воспоминания её жертв дали ей знание о большинстве угроз, с которыми она может столкнуться, особенно если она съела искателей приключений или других искушённых людей."
 										]
 									}
 								]
@@ -595,16 +595,16 @@
 					},
 					{
 						"type": "inset",
-						"name": "PCs and the Sightless Song",
+						"name": "Персонажи и Песнь слепца",
 						"entries": [
-							"Due to the nature of the false hydra as a creature, it's rather hard to give the song a DC as a baseline to ignore it's effects. Thus, any creature who hears the song is under it's effect, but at the DM's discretion they can make an Intelligence saving throw to break the effect on themselves if they find something horrifying or strange enough to make them question reality. Consider the examples given in the {@b Mental Discord} section for things that might make players question their reality, or examples given in the original Goblin Punch article ({@link link at the bottom of the document|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Additionally, due to how the life cycle of the false hydra works, remember that only an elder false hydra can actually sing the song of domination, but any false hydra's song will continue the effect on someone under it's control, essentially transferring control to that false hydra. This will really only be used if a hydra grows big enough to have to spread to another town, as the false hydra's head will continue to sing to keep its host moving."
+							"В силу природы ложной гидры как существа довольно трудно задать песни Сл в качестве базового порога, чтобы игнорировать её эффекты. Так что любое существо, слышащее песнь, попадает под её действие, но на усмотрение Мастера оно может совершить спасбросок Интеллекта, чтобы сбросить эффект с себя, если найдёт что-то настолько ужасное или странное, что усомнится в реальности. В качестве примеров того, что может заставить игроков усомниться в реальности, рассмотрите примеры в разделе {@b Разлад в разуме} или примеры из оригинальной статьи Goblin Punch ({@link ссылка внизу документа|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Кроме того, учитывая, как работает жизненный цикл ложной гидры, помните, что лишь древняя ложная гидра может действительно петь «Песнь подчинения», но песнь любой ложной гидры продолжит эффект на того, кто под её контролем, по сути передавая контроль этой ложной гидре. Это по-настоящему понадобится лишь если гидра вырастет настолько, что ей придётся распространиться в другой город, так как голова ложной гидры продолжит петь, чтобы её носитель двигался дальше."
 						]
 					}
 				]
 			}
 		},
 		{
-			"name": "False Hydra Larva",
+			"name": "Личинка ложной гидры",
 			"source": "TheFalseHydra",
 			"size": [
 				"T"
@@ -640,29 +640,29 @@
 			],
 			"passive": 13,
 			"languages": [
-				"understands languages known by its victims",
-				"but can't speak"
+				"понимает языки, известные его жертвам",
+				"Но не может говорить"
 			],
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Limited telepathy",
+					"name": "Ограниченная телепатия",
 					"entries": [
-						"The false hydra larva can magically communicate simple ideas, emotions, commands, and images telepathically with any creature within 100 feet of it that can understand a language and has been subjected to a {@i song of domination}."
+						"Личинка ложной гидры может магически передавать простые идеи, эмоции, приказы и образы телепатически любому существу в пределах 100 футов от неё, которое понимает какой-либо язык и было подвергнуто {@i песни подчинения}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. Hit 6 ({@damage 1d10 + 1}) piercing damage"
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. Попадание 6 ({@damage 1d10 + 1}) колющего урона"
 					]
 				},
 				{
-					"name": "Sightless Song",
+					"name": "Песнь слепца",
 					"entries": [
-						"The false hydra larva emits a horrible, nightmarish howl to all creatures within 500 feet. Any humanoid that can hear this song and has not been subjected to a {@i song of domination} is incapable of noticing the false hydra larva while it can hear the song. If they have, they remain under the effects of the {@i song of domination} for as long as they can hear any sort of song from a false hydra. Not hearing a false hydra's song for more than 10 minutes in one day allows the victim to make a {@dc 12} Intelligence saving throw to break the effect of the song on themselves. Humanoids under the effect of the song do not realize they can hear the song. The false hydra larva can continue to sing the song for as long as it wants, but must stop singing if it makes a Bite attack."
+						"Личинка ложной гидры испускает ужасный, кошмарный вой, обращённый ко всем существам в пределах 500 футов. Любое гуманоидное существо, слышащее эту песнь и не подвергавшееся {@i песни подчинения}, не способно замечать личинку ложной гидры, пока слышит песнь. Если же подвергалось, оно остаётся под действием {@i песни подчинения}, пока слышит любую песнь ложной гидры. Если жертва не слышит песнь ложной гидры более 10 минут за день, она может совершить спасбросок Интеллекта {@dc 12}, чтобы сбросить эффект песни с себя. Гуманоиды под действием песни не осознают, что слышат её. Личинка ложной гидры может продолжать петь песнь сколько угодно, но должна прекратить пение, если совершает атаку укусом."
 					]
 				}
 			],
@@ -692,49 +692,49 @@
 							{
 								"type": "entries",
 								"entries": [
-									"No one truly knows when or how the false hydra came to be. It is an abomination, seen by few, and survived by fewer. Some say that is similar to a plant, that it grows from the ground like a sprout with no seed, that it germinates on lies and dishonesty. Others say that it is almost like a vicious fungus, a mindless life form that knows nothing beyond devouring and surviving. Some say they are the last vestiges of a curse from a fallen goddess, who sent them as punishment to the mortals who so conveniently turn their backs on inconvenient truths. In truth, scholars have no better idea. The few who believe in and attempt to study this creature have found little information about it, only aware of three things for certain: the false hydra sings, the false hydra grows, and the false hydra eats.",
+									"Никто достоверно не знает, когда и как появилась ложная гидра. Это мерзость, которую видели немногие, а выжили после встречи с ней ещё меньше. Некоторые говорят, что она подобна растению, что она вырастает из земли, как росток без семени, что она прорастает на лжи и обмане. Другие говорят, что она почти как злобный грибок, безмозглая форма жизни, не знающая ничего, кроме пожирания и выживания. Третьи утверждают, что это последний отголосок проклятия падшей богини, которая наслала их в наказание смертным, столь удобно отворачивающимся от неудобных истин. На самом деле у учёных нет идей получше. Немногие, кто верит в это существо и пытается его изучать, нашли о нём мало сведений и уверены лишь в трёх вещах: ложная гидра поёт, ложная гидра растёт, и ложная гидра ест.",
 									{
-										"name": "Infiltration",
+										"name": "Проникновение",
 										"type": "entries",
 										"entries": [
-											"The false hydra begins its life cycle as a head, with roughly the same proportions as an average humanoid's. This head, however, is pale, and hairless, with wet, eyeless sockets and a large mouth filled with broad, flat teeth. It finds itself buried deep beneath the earth near a settlement, and it grows. As it grows, it develops a fleshy, flabby torso, which serves as a \"root\". It is from this root that all further heads grow. The first head slowly pushes its way up through the dirt, breaking through the soil in the basement, beneath the stairs. Or beneath the brush around the house. Or through a broken cobblestone in the street. And then, when it has reached the surface, it sings."
+											"Ложная гидра начинает свой жизненный цикл с головы, примерно тех же пропорций, что и у обычного гуманоида. Эта голова, однако, бледна и безволоса, с влажными безглазыми глазницами и большим ртом, полным широких плоских зубов. Она оказывается погребённой глубоко под землёй близ поселения и растёт. По мере роста у неё развивается мясистое дряблое туловище, служащее «корнем». Именно из этого корня вырастают все последующие головы. Первая голова медленно пробивается сквозь землю, прорываясь сквозь почву в подвале, под лестницей. Или под кустарником вокруг дома. Или сквозь разбитый булыжник на улице. И вот, достигнув поверхности, она поёт."
 										]
 									},
 									{
-										"name": "Sightless Song",
+										"name": "Песнь слепца",
 										"type": "entries",
 										"entries": [
-											"While the false hydra sings, it is ignored. It is not invisible: it simply sits in our blind spot, its song creating gaps in our memory while it watches its prey go about its day, waiting until a safe moment to strike. The false hydra must bide its time to find the right moment, as when it eats, it cannot sing. When it isn't singing, it can be seen."
+											"Пока ложная гидра поёт, её не замечают. Она не невидима: она просто сидит в нашем слепом пятне, а её песнь создаёт провалы в нашей памяти, пока она наблюдает, как её добыча проживает свой день, выжидая безопасного момента для удара. Ложной гидре приходится выжидать, чтобы найти подходящий момент, ведь когда она ест, она не может петь. Когда она не поёт, её можно увидеть."
 										]
 									},
 									{
-										"name": "Growth",
+										"name": "Рост",
 										"type": "entries",
 										"entries": [
-											"The false hydra eats flesh, of course, and its favorite prey is humanoids. In the beginning of its life, while it only has one head, though, eating presents a challenge. To eat, it must stop singing. Thus, the first stage of a false hydra infestation is often the longest, as it waits for a lone victim to drag away into a basement, sewer, or small cave it has excavated for this purpose.",
-											"In any normal circumstances, the victims of the false hydra would have family, or friends who would notice their absence, but the false hydra's song massages their mind, smoothing the wrinkles in their thoughts. The false hydra's victims become a part of the creature, and thus the creature's song erases all memories of him. Their absence will not be noticed. They are forgotten. And as more and more join the false hydra, the more it grows, the more it's neck stretches, and the more its influence grows."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Mental Discord",
-										"entries": [
-											"The false hydra's song soothes the minds of their victims, coaxing out the memories of their prey in the same way it hides the false hydra, but it is not a perfect defense. Parents will ask why they have boy's clothes but only one daughter. A shopkeep will forget why there are two names above the store's door.",
-											"Farmhands will wonder why someone hasn't harvested their section of field. Churches will find themselves without a pastor.",
-											"More often than not, these gaps will close on their own. The parents will remember they took care of their neighbor's child when they went out of town. The shopkeep will remember the last winter took their partner. The farmhands will remember they recently expanded the field, and forgot to assign someone to harvest it. The churchgoers will remember their pastor's faith was needed in the big city to the north.",
-											"But still, some small, confused part of their mind will recognize the wrongness of it. That part of their mind is locked away, ignored, deemed the dark part of their mind that lurks in everyone, a part that good folk know is nothing more than wrongful temptation.",
-											"This strains the mind. At first, it feels like paranoia, like they are being watched (and they are being watched) but they will never be able to see who by, until it's too late. As time passes, more symptoms develop. Reminiscing becomes stressful and unpleasant, and thus is avoided. Memories become distorted and confusing, and faces blur together and identities become distorted.",
-											"Mortal brains were not meant to take this weight. Mental disorders develop like a mold. Nervous ticks, psychotic breaks, and hallucinations abound."
+											"Ложная гидра, разумеется, питается плотью, и её излюбленная добыча — гуманоиды. Однако в начале своей жизни, пока у неё всего одна голова, еда представляет сложность. Чтобы поесть, она должна прекратить петь. Поэтому первая стадия заражения ложной гидрой обычно самая долгая: она ждёт одинокую жертву, чтобы утащить её в подвал, канализацию или небольшую пещеру, которую выкопала для этой цели.",
+											"При обычных обстоятельствах у жертв ложной гидры были бы родные или друзья, которые заметили бы их исчезновение, но песнь ложной гидры массирует их разум, разглаживая складки в мыслях. Жертвы ложной гидры становятся частью существа, и потому песнь существа стирает все воспоминания о них. Их отсутствие не заметят. Их забудут. И чем больше существ присоединяется к ложной гидре, тем больше она растёт, тем сильнее вытягивается её шея и тем шире становится её влияние."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Proliferation",
+										"name": "Разлад в разуме",
 										"entries": [
-											"The older the false hydra gets, the more heads it grows. The more heads it has, the more careless it becomes, as it can afford to have one head stop singing to eat. As the number of heads grows, so to do the number of missing townsfolk, the number of inconsistent memories floating around the survivors.",
-											"The more mature the false hydra, the more necks stretch up above the rooftops. Thick, pale tree trunks topped with bulging, bony heads with unhinging jaws filled with daggerlike teeth.",
-											"When the false hydra is fully grown - usually once it is approaching ten heads - the next stage of its life cycle begins. The false hydra ensures there is at least one survivor for each head it has grown. Then, it begins to sing a new song. This new song dominates the weak-minded and psychotic, while still subjecting others to the mind-numbing forgetfulness of the first song.",
-											"Each survivor is given a head, which continues to sing, and they all go their separate ways. Each victim is sent to a nearby town. Along the way, the singing continues. Any who pass them on the road are only temporarily taken under the false hydra's song, just long enough to forget they saw the lone traveler. When the carriers arrive in a new town, they find a spot to bury themselves and their head. When they do, the larva uses the carrier as it's first victim until it has grown enough to resurface. Then, the cycle begins anew, in a new town."
+											"Песнь ложной гидры успокаивает разум её жертв, выманивая воспоминания о добыче так же, как она скрывает саму ложную гидру, но это не безупречная защита. Родители будут спрашивать, почему у них есть мальчишеская одежда, а дочь только одна. Лавочник забудет, почему над дверью его лавки два имени.",
+											"Батраки будут гадать, почему никто не убрал их участок поля. Церкви останутся без пастора.",
+											"Чаще всего эти провалы закрываются сами собой. Родители вспомнят, что присматривали за ребёнком соседей, пока те уезжали из города. Лавочник вспомнит, что прошлая зима забрала его напарника. Батраки вспомнят, что недавно расширили поле и забыли назначить кого-то на уборку. Прихожане вспомнят, что вера их пастора понадобилась в большом городе на севере.",
+											"Но всё же какая-то малая, сбитая с толку часть их разума распознаёт неправильность этого. Эту часть разума запирают, игнорируют, считают тёмным уголком разума, что таится в каждом, — частью, о которой добрые люди знают, что она не более чем недолжное искушение.",
+											"Это изматывает разум. Поначалу это ощущается как паранойя, будто за ними наблюдают (и за ними действительно наблюдают), но они так и не смогут увидеть, кто именно, — пока не станет слишком поздно. Со временем появляются новые симптомы. Воспоминания становятся тягостными и неприятными, и потому их избегают. Память искажается и путается, лица сливаются, а личности размываются.",
+											"Смертный разум не предназначен выносить такую тяжесть. Психические расстройства разрастаются, как плесень. В изобилии появляются нервные тики, психотические срывы и галлюцинации."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Размножение",
+										"entries": [
+											"Чем старше становится ложная гидра, тем больше голов она отращивает. Чем больше у неё голов, тем беспечнее она становится, ведь может позволить одной голове прекратить пение, чтобы поесть. По мере роста числа голов растёт и число пропавших горожан, и число противоречивых воспоминаний, витающих среди выживших.",
+											"Чем зрелее ложная гидра, тем больше шей вытягивается над крышами. Толстые бледные стволы, увенчанные раздутыми костлявыми головами с разинутыми челюстями, полными кинжальных зубов.",
+											"Когда ложная гидра полностью вырастает — обычно при приближении к десяти головам — начинается следующая стадия её жизненного цикла. Ложная гидра следит, чтобы на каждую отращённую голову остался хотя бы один выживший. Затем она начинает петь новую песнь. Эта новая песнь подчиняет слабовольных и безумных, продолжая при этом погружать остальных в оглупляющую забывчивость первой песни.",
+											"Каждому выжившему дают голову, которая продолжает петь, и все они расходятся в разные стороны. Каждую жертву отправляют в соседний город. По пути пение не прекращается. Все, кто встречает их на дороге, лишь временно попадают под песнь ложной гидры — ровно настолько, чтобы забыть, что видели одинокого путника. Когда носители прибывают в новый город, они находят место, чтобы закопать себя и свою голову. Сделав это, личинка использует носителя как свою первую жертву, пока не вырастет достаточно, чтобы выйти на поверхность. Затем цикл начинается заново, в новом городе."
 										]
 									}
 								]
@@ -743,45 +743,45 @@
 					},
 					{
 						"type": "entries",
-						"name": "False Hydra Growth Stages",
+						"name": "Стадии роста ложной гидры",
 						"entries": [
 							{
 								"type": "entries",
 								"entries": [
 									"",
 									{
-										"name": "False Hydra Larva",
+										"name": "Личинка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The first stage of the false hydra life cycle is simply a head. This pale, vaguely human head has little to no mobility on it's own, instead relying on the broken mind of its host to carry it to a new town to begin its growth. It is capable of maintaining a hum, which serves to continue the domination of it's host, as well as disguising itself from any who might encounter it on the road. Instead of seeing a shaken, broken person carrying a nightmarish, decapitated head, they would perhaps see a haggard old beggar, moving from one town to the next, carrying their only possesions in their arms. The larva's song is weak, and easily broken, and intense scrutiny of the traveler will often reveal the true nature of what is happening."
+											"Первая стадия жизненного цикла ложной гидры — это просто голова. Эта бледная, отдалённо человеческая голова почти не способна двигаться сама и полагается на сломленный разум своего носителя, несущего её в новый город, чтобы начать рост. Она способна издавать гудение, которое продолжает подчинение носителя и одновременно маскирует её от всех, кто может встретить её в пути. Вместо потрясённого, сломленного человека, несущего кошмарную отрубленную голову, они, возможно, увидят измождённого старого нищего, переходящего из города в город со всем своим скарбом в руках. Песнь личинки слаба и легко разрушается, и пристальное наблюдение за путником часто раскрывает истинную суть происходящего."
 										]
 									},
 									{
-										"name": "False Hydra Pupa",
+										"name": "Куколка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The second stage of the false hydra is the pupal stage. This stage begins after the creature has been carried to a new town, buried, and feasted on the host that brought it. This stage has only one head, and is the longest stage in the cycle as they must wait for the best moment to be able to capture their prey so that the lack of their song does not give them away to the townsfolk. When the false hydra has devoured enough townsfolk to grow more heads, it enters the next stage."
+											"Вторая стадия ложной гидры — стадия куколки. Она начинается после того, как существо принесли в новый город, закопали, и оно пожирает носителя, что принёс его. На этой стадии у неё всего одна голова, и это самая долгая стадия цикла: ей приходится ждать лучшего момента, чтобы суметь захватить добычу так, чтобы отсутствие песни не выдало её горожанам. Когда ложная гидра пожирает достаточно горожан, чтобы отрастить новые головы, она переходит в следующую стадию."
 										]
 									},
 									{
-										"name": "Young False Hydra",
+										"name": "Молодая ложная гидра",
 										"type": "entries",
 										"entries": [
-											"The third stage of the false hydra has developed multiple heads, usually two to four, and is beginning to be less cautious when it eats, as it can often have one head continue its song while the other devours the victim. It is still young, however, and tends to keep stores of flesh in its subterranean body so that it might regrow heads in case of emergency."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "False Hydra",
-										"entries": [
-											"The fourth stage of the false hydra is when it becomes a true menace to adventurers, having grown enough heads (anywhere from five to eight) and stored enough beneath the ground to be able to grow back its heads a number of times. The false hydra's head have grown into thick, almost tree-trunk like appendages that can survey the settlement from above the rooftops. At this stage, it is merely waiting to further thin down the numbers in the town before advancing to its final stage."
+											"Третья стадия ложной гидры развила множество голов, обычно от двух до четырёх, и начинает есть менее осторожно, так как часто может позволить одной голове продолжать песнь, пока другая пожирает жертву. Однако она ещё молода и обычно хранит запасы плоти в своём подземном теле, чтобы при необходимости отрастить головы."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Elder False Hydra",
+										"name": "Ложная гидра",
 										"entries": [
-											"The fifth and final stage of the false hydra has grown nine or more heads, and begun singing the Song of Domination. At this point, the few surviving townsfolk are under it's control and making preparations to scatter the heads to other towns. The elder false hydra is nearly omnipotent in its town, as the collected memories of its victims have given it knowledge of most threats it could face, especially if it has eaten adventurers or other worldly people."
+											"Четвёртая стадия ложной гидры — это когда она становится настоящей угрозой для искателей приключений, отрастив достаточно голов (от пяти до восьми) и накопив достаточно под землёй, чтобы отращивать головы заново несколько раз. Головы ложной гидры выросли в толстые, почти как стволы деревьев отростки, способные обозревать поселение поверх крыш. На этой стадии она лишь ждёт, чтобы ещё сильнее проредить население города, прежде чем перейти к своей финальной стадии."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Древняя ложная гидра",
+										"entries": [
+											"Пятая и финальная стадия ложной гидры отрастила девять или более голов и начала петь «Песнь подчинения». В этот момент немногие выжившие горожане находятся под её контролем и готовятся разнести головы по другим городам. Древняя ложная гидра почти всесильна в своём городе, так как собранные воспоминания её жертв дали ей знание о большинстве угроз, с которыми она может столкнуться, особенно если она съела искателей приключений или других искушённых людей."
 										]
 									}
 								]
@@ -790,16 +790,16 @@
 					},
 					{
 						"type": "inset",
-						"name": "PCs and the Sightless Song",
+						"name": "Персонажи и Песнь слепца",
 						"entries": [
-							"Due to the nature of the false hydra as a creature, it's rather hard to give the song a DC as a baseline to ignore it's effects. Thus, any creature who hears the song is under it's effect, but at the DM's discretion they can make an Intelligence saving throw to break the effect on themselves if they find something horrifying or strange enough to make them question reality. Consider the examples given in the {@b Mental Discord} section for things that might make players question their reality, or examples given in the original Goblin Punch article ({@link link at the bottom of the document|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Additionally, due to how the life cycle of the false hydra works, remember that only an elder false hydra can actually sing the song of domination, but any false hydra's song will continue the effect on someone under it's control, essentially transferring control to that false hydra. This will really only be used if a hydra grows big enough to have to spread to another town, as the false hydra's head will continue to sing to keep its host moving."
+							"В силу природы ложной гидры как существа довольно трудно задать песни Сл в качестве базового порога, чтобы игнорировать её эффекты. Так что любое существо, слышащее песнь, попадает под её действие, но на усмотрение Мастера оно может совершить спасбросок Интеллекта, чтобы сбросить эффект с себя, если найдёт что-то настолько ужасное или странное, что усомнится в реальности. В качестве примеров того, что может заставить игроков усомниться в реальности, рассмотрите примеры в разделе {@b Разлад в разуме} или примеры из оригинальной статьи Goblin Punch ({@link ссылка внизу документа|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Кроме того, учитывая, как работает жизненный цикл ложной гидры, помните, что лишь древняя ложная гидра может действительно петь «Песнь подчинения», но песнь любой ложной гидры продолжит эффект на того, кто под её контролем, по сути передавая контроль этой ложной гидре. Это по-настоящему понадобится лишь если гидра вырастет настолько, что ей придётся распространиться в другой город, так как голова ложной гидры продолжит петь, чтобы её носитель двигался дальше."
 						]
 					}
 				]
 			}
 		},
 		{
-			"name": "False Hydra Pupa",
+			"name": "Куколка ложной гидры",
 			"source": "TheFalseHydra",
 			"size": [
 				"M"
@@ -850,35 +850,35 @@
 				}
 			],
 			"languages": [
-				"understands languages known by its victims",
-				"but can't speak."
+				"понимает языки, известные его жертвам",
+				"Но не может говорить."
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Ambusher",
+					"name": "Из засады",
 					"entries": [
-						"In the first round of a combat, the false hydra pupa has advantage on attack rolls against any creature it has surprised."
+						"В первом раунде боя куколка ложной гидры совершает с преимуществом броски атаки по любому существу, застигнутому ею врасплох."
 					]
 				},
 				{
-					"name": "Surprise Attack",
+					"name": "Внезапная атака",
 					"entries": [
-						"If the false hydra pupa surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 11 ({@damage 2d10}) damage from the attack."
+						"Если куколка ложной гидры застаёт существо врасплох и попадает по нему атакой в первом раунде боя, цель получает дополнительно 11 ({@damage 2d10}) урона от этой атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10ft., one target. Hit 7 ({@damage 1d10 + 2}) piercing damage"
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. Попадание 7 ({@damage 1d10 + 2}) колющего урона"
 					]
 				},
 				{
-					"name": "Sightless Song",
+					"name": "Песнь слепца",
 					"entries": [
-						"The false hydra pupa emits a horrible, nightmarish howl to all creatures within 1 mile. Any humanoid that can hear this song is incapable of noticing the false hydra pupa while it hears it. Humanoids under the effect of the song do not realize they can hear the song. The false hydra pupa can continue to sing the song for as long as it wants, but must stop singing if it makes a Bite attack."
+						"Куколка ложной гидры испускает ужасный, кошмарный вой, обращённый ко всем существам в пределах 1 мили. Любое гуманоидное существо, слышащее эту песнь, не способно замечать куколку ложной гидры, пока слышит её. Гуманоиды под действием песни не осознают, что слышат её. Куколка ложной гидры может продолжать петь песнь сколько угодно, но должна прекратить пение, если совершает атаку укусом."
 					]
 				}
 			],
@@ -886,7 +886,7 @@
 				"urban"
 			],
 			"traitTags": [
-				"Ambusher"
+				"Из засады"
 			],
 			"senseTags": [
 				"D"
@@ -908,49 +908,49 @@
 							{
 								"type": "entries",
 								"entries": [
-									"No one truly knows when or how the false hydra came to be. It is an abomination, seen by few, and survived by fewer. Some say that is similar to a plant, that it grows from the ground like a sprout with no seed, that it germinates on lies and dishonesty. Others say that it is almost like a vicious fungus, a mindless life form that knows nothing beyond devouring and surviving. Some say they are the last vestiges of a curse from a fallen goddess, who sent them as punishment to the mortals who so conveniently turn their backs on inconvenient truths. In truth, scholars have no better idea. The few who believe in and attempt to study this creature have found little information about it, only aware of three things for certain: the false hydra sings, the false hydra grows, and the false hydra eats.",
+									"Никто достоверно не знает, когда и как появилась ложная гидра. Это мерзость, которую видели немногие, а выжили после встречи с ней ещё меньше. Некоторые говорят, что она подобна растению, что она вырастает из земли, как росток без семени, что она прорастает на лжи и обмане. Другие говорят, что она почти как злобный грибок, безмозглая форма жизни, не знающая ничего, кроме пожирания и выживания. Третьи утверждают, что это последний отголосок проклятия падшей богини, которая наслала их в наказание смертным, столь удобно отворачивающимся от неудобных истин. На самом деле у учёных нет идей получше. Немногие, кто верит в это существо и пытается его изучать, нашли о нём мало сведений и уверены лишь в трёх вещах: ложная гидра поёт, ложная гидра растёт, и ложная гидра ест.",
 									{
-										"name": "Infiltration",
+										"name": "Проникновение",
 										"type": "entries",
 										"entries": [
-											"The false hydra begins its life cycle as a head, with roughly the same proportions as an average humanoid's. This head, however, is pale, and hairless, with wet, eyeless sockets and a large mouth filled with broad, flat teeth. It finds itself buried deep beneath the earth near a settlement, and it grows. As it grows, it develops a fleshy, flabby torso, which serves as a \"root\". It is from this root that all further heads grow. The first head slowly pushes its way up through the dirt, breaking through the soil in the basement, beneath the stairs. Or beneath the brush around the house. Or through a broken cobblestone in the street. And then, when it has reached the surface, it sings."
+											"Ложная гидра начинает свой жизненный цикл с головы, примерно тех же пропорций, что и у обычного гуманоида. Эта голова, однако, бледна и безволоса, с влажными безглазыми глазницами и большим ртом, полным широких плоских зубов. Она оказывается погребённой глубоко под землёй близ поселения и растёт. По мере роста у неё развивается мясистое дряблое туловище, служащее «корнем». Именно из этого корня вырастают все последующие головы. Первая голова медленно пробивается сквозь землю, прорываясь сквозь почву в подвале, под лестницей. Или под кустарником вокруг дома. Или сквозь разбитый булыжник на улице. И вот, достигнув поверхности, она поёт."
 										]
 									},
 									{
-										"name": "Sightless Song",
+										"name": "Песнь слепца",
 										"type": "entries",
 										"entries": [
-											"While the false hydra sings, it is ignored. It is not invisible: it simply sits in our blind spot, its song creating gaps in our memory while it watches its prey go about its day, waiting until a safe moment to strike. The false hydra must bide its time to find the right moment, as when it eats, it cannot sing. When it isn't singing, it can be seen."
+											"Пока ложная гидра поёт, её не замечают. Она не невидима: она просто сидит в нашем слепом пятне, а её песнь создаёт провалы в нашей памяти, пока она наблюдает, как её добыча проживает свой день, выжидая безопасного момента для удара. Ложной гидре приходится выжидать, чтобы найти подходящий момент, ведь когда она ест, она не может петь. Когда она не поёт, её можно увидеть."
 										]
 									},
 									{
-										"name": "Growth",
+										"name": "Рост",
 										"type": "entries",
 										"entries": [
-											"The false hydra eats flesh, of course, and its favorite prey is humanoids. In the beginning of its life, while it only has one head, though, eating presents a challenge. To eat, it must stop singing. Thus, the first stage of a false hydra infestation is often the longest, as it waits for a lone victim to drag away into a basement, sewer, or small cave it has excavated for this purpose.",
-											"In any normal circumstances, the victims of the false hydra would have family, or friends who would notice their absence, but the false hydra's song massages their mind, smoothing the wrinkles in their thoughts. The false hydra's victims become a part of the creature, and thus the creature's song erases all memories of him. Their absence will not be noticed. They are forgotten. And as more and more join the false hydra, the more it grows, the more it's neck stretches, and the more its influence grows."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Mental Discord",
-										"entries": [
-											"The false hydra's song soothes the minds of their victims, coaxing out the memories of their prey in the same way it hides the false hydra, but it is not a perfect defense. Parents will ask why they have boy's clothes but only one daughter. A shopkeep will forget why there are two names above the store's door.",
-											"Farmhands will wonder why someone hasn't harvested their section of field. Churches will find themselves without a pastor.",
-											"More often than not, these gaps will close on their own. The parents will remember they took care of their neighbor's child when they went out of town. The shopkeep will remember the last winter took their partner. The farmhands will remember they recently expanded the field, and forgot to assign someone to harvest it. The churchgoers will remember their pastor's faith was needed in the big city to the north.",
-											"But still, some small, confused part of their mind will recognize the wrongness of it. That part of their mind is locked away, ignored, deemed the dark part of their mind that lurks in everyone, a part that good folk know is nothing more than wrongful temptation.",
-											"This strains the mind. At first, it feels like paranoia, like they are being watched (and they are being watched) but they will never be able to see who by, until it's too late. As time passes, more symptoms develop. Reminiscing becomes stressful and unpleasant, and thus is avoided. Memories become distorted and confusing, and faces blur together and identities become distorted.",
-											"Mortal brains were not meant to take this weight. Mental disorders develop like a mold. Nervous ticks, psychotic breaks, and hallucinations abound."
+											"Ложная гидра, разумеется, питается плотью, и её излюбленная добыча — гуманоиды. Однако в начале своей жизни, пока у неё всего одна голова, еда представляет сложность. Чтобы поесть, она должна прекратить петь. Поэтому первая стадия заражения ложной гидрой обычно самая долгая: она ждёт одинокую жертву, чтобы утащить её в подвал, канализацию или небольшую пещеру, которую выкопала для этой цели.",
+											"При обычных обстоятельствах у жертв ложной гидры были бы родные или друзья, которые заметили бы их исчезновение, но песнь ложной гидры массирует их разум, разглаживая складки в мыслях. Жертвы ложной гидры становятся частью существа, и потому песнь существа стирает все воспоминания о них. Их отсутствие не заметят. Их забудут. И чем больше существ присоединяется к ложной гидре, тем больше она растёт, тем сильнее вытягивается её шея и тем шире становится её влияние."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Proliferation",
+										"name": "Разлад в разуме",
 										"entries": [
-											"The older the false hydra gets, the more heads it grows. The more heads it has, the more careless it becomes, as it can afford to have one head stop singing to eat. As the number of heads grows, so to do the number of missing townsfolk, the number of inconsistent memories floating around the survivors.",
-											"The more mature the false hydra, the more necks stretch up above the rooftops. Thick, pale tree trunks topped with bulging, bony heads with unhinging jaws filled with daggerlike teeth.",
-											"When the false hydra is fully grown - usually once it is approaching ten heads - the next stage of its life cycle begins. The false hydra ensures there is at least one survivor for each head it has grown. Then, it begins to sing a new song. This new song dominates the weak-minded and psychotic, while still subjecting others to the mind-numbing forgetfulness of the first song.",
-											"Each survivor is given a head, which continues to sing, and they all go their separate ways. Each victim is sent to a nearby town. Along the way, the singing continues. Any who pass them on the road are only temporarily taken under the false hydra's song, just long enough to forget they saw the lone traveler. When the carriers arrive in a new town, they find a spot to bury themselves and their head. When they do, the larva uses the carrier as it's first victim until it has grown enough to resurface. Then, the cycle begins anew, in a new town."
+											"Песнь ложной гидры успокаивает разум её жертв, выманивая воспоминания о добыче так же, как она скрывает саму ложную гидру, но это не безупречная защита. Родители будут спрашивать, почему у них есть мальчишеская одежда, а дочь только одна. Лавочник забудет, почему над дверью его лавки два имени.",
+											"Батраки будут гадать, почему никто не убрал их участок поля. Церкви останутся без пастора.",
+											"Чаще всего эти провалы закрываются сами собой. Родители вспомнят, что присматривали за ребёнком соседей, пока те уезжали из города. Лавочник вспомнит, что прошлая зима забрала его напарника. Батраки вспомнят, что недавно расширили поле и забыли назначить кого-то на уборку. Прихожане вспомнят, что вера их пастора понадобилась в большом городе на севере.",
+											"Но всё же какая-то малая, сбитая с толку часть их разума распознаёт неправильность этого. Эту часть разума запирают, игнорируют, считают тёмным уголком разума, что таится в каждом, — частью, о которой добрые люди знают, что она не более чем недолжное искушение.",
+											"Это изматывает разум. Поначалу это ощущается как паранойя, будто за ними наблюдают (и за ними действительно наблюдают), но они так и не смогут увидеть, кто именно, — пока не станет слишком поздно. Со временем появляются новые симптомы. Воспоминания становятся тягостными и неприятными, и потому их избегают. Память искажается и путается, лица сливаются, а личности размываются.",
+											"Смертный разум не предназначен выносить такую тяжесть. Психические расстройства разрастаются, как плесень. В изобилии появляются нервные тики, психотические срывы и галлюцинации."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Размножение",
+										"entries": [
+											"Чем старше становится ложная гидра, тем больше голов она отращивает. Чем больше у неё голов, тем беспечнее она становится, ведь может позволить одной голове прекратить пение, чтобы поесть. По мере роста числа голов растёт и число пропавших горожан, и число противоречивых воспоминаний, витающих среди выживших.",
+											"Чем зрелее ложная гидра, тем больше шей вытягивается над крышами. Толстые бледные стволы, увенчанные раздутыми костлявыми головами с разинутыми челюстями, полными кинжальных зубов.",
+											"Когда ложная гидра полностью вырастает — обычно при приближении к десяти головам — начинается следующая стадия её жизненного цикла. Ложная гидра следит, чтобы на каждую отращённую голову остался хотя бы один выживший. Затем она начинает петь новую песнь. Эта новая песнь подчиняет слабовольных и безумных, продолжая при этом погружать остальных в оглупляющую забывчивость первой песни.",
+											"Каждому выжившему дают голову, которая продолжает петь, и все они расходятся в разные стороны. Каждую жертву отправляют в соседний город. По пути пение не прекращается. Все, кто встречает их на дороге, лишь временно попадают под песнь ложной гидры — ровно настолько, чтобы забыть, что видели одинокого путника. Когда носители прибывают в новый город, они находят место, чтобы закопать себя и свою голову. Сделав это, личинка использует носителя как свою первую жертву, пока не вырастет достаточно, чтобы выйти на поверхность. Затем цикл начинается заново, в новом городе."
 										]
 									}
 								]
@@ -959,45 +959,45 @@
 					},
 					{
 						"type": "entries",
-						"name": "False Hydra Growth Stages",
+						"name": "Стадии роста ложной гидры",
 						"entries": [
 							{
 								"type": "entries",
 								"entries": [
 									"",
 									{
-										"name": "False Hydra Larva",
+										"name": "Личинка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The first stage of the false hydra life cycle is simply a head. This pale, vaguely human head has little to no mobility on it's own, instead relying on the broken mind of its host to carry it to a new town to begin its growth. It is capable of maintaining a hum, which serves to continue the domination of it's host, as well as disguising itself from any who might encounter it on the road. Instead of seeing a shaken, broken person carrying a nightmarish, decapitated head, they would perhaps see a haggard old beggar, moving from one town to the next, carrying their only possesions in their arms. The larva's song is weak, and easily broken, and intense scrutiny of the traveler will often reveal the true nature of what is happening."
+											"Первая стадия жизненного цикла ложной гидры — это просто голова. Эта бледная, отдалённо человеческая голова почти не способна двигаться сама и полагается на сломленный разум своего носителя, несущего её в новый город, чтобы начать рост. Она способна издавать гудение, которое продолжает подчинение носителя и одновременно маскирует её от всех, кто может встретить её в пути. Вместо потрясённого, сломленного человека, несущего кошмарную отрубленную голову, они, возможно, увидят измождённого старого нищего, переходящего из города в город со всем своим скарбом в руках. Песнь личинки слаба и легко разрушается, и пристальное наблюдение за путником часто раскрывает истинную суть происходящего."
 										]
 									},
 									{
-										"name": "False Hydra Pupa",
+										"name": "Куколка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The second stage of the false hydra is the pupal stage. This stage begins after the creature has been carried to a new town, buried, and feasted on the host that brought it. This stage has only one head, and is the longest stage in the cycle as they must wait for the best moment to be able to capture their prey so that the lack of their song does not give them away to the townsfolk. When the false hydra has devoured enough townsfolk to grow more heads, it enters the next stage."
+											"Вторая стадия ложной гидры — стадия куколки. Она начинается после того, как существо принесли в новый город, закопали, и оно пожирает носителя, что принёс его. На этой стадии у неё всего одна голова, и это самая долгая стадия цикла: ей приходится ждать лучшего момента, чтобы суметь захватить добычу так, чтобы отсутствие песни не выдало её горожанам. Когда ложная гидра пожирает достаточно горожан, чтобы отрастить новые головы, она переходит в следующую стадию."
 										]
 									},
 									{
-										"name": "Young False Hydra",
+										"name": "Молодая ложная гидра",
 										"type": "entries",
 										"entries": [
-											"The third stage of the false hydra has developed multiple heads, usually two to four, and is beginning to be less cautious when it eats, as it can often have one head continue its song while the other devours the victim. It is still young, however, and tends to keep stores of flesh in its subterranean body so that it might regrow heads in case of emergency."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "False Hydra",
-										"entries": [
-											"The fourth stage of the false hydra is when it becomes a true menace to adventurers, having grown enough heads (anywhere from five to eight) and stored enough beneath the ground to be able to grow back its heads a number of times. The false hydra's head have grown into thick, almost tree-trunk like appendages that can survey the settlement from above the rooftops. At this stage, it is merely waiting to further thin down the numbers in the town before advancing to its final stage."
+											"Третья стадия ложной гидры развила множество голов, обычно от двух до четырёх, и начинает есть менее осторожно, так как часто может позволить одной голове продолжать песнь, пока другая пожирает жертву. Однако она ещё молода и обычно хранит запасы плоти в своём подземном теле, чтобы при необходимости отрастить головы."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Elder False Hydra",
+										"name": "Ложная гидра",
 										"entries": [
-											"The fifth and final stage of the false hydra has grown nine or more heads, and begun singing the Song of Domination. At this point, the few surviving townsfolk are under it's control and making preparations to scatter the heads to other towns. The elder false hydra is nearly omnipotent in its town, as the collected memories of its victims have given it knowledge of most threats it could face, especially if it has eaten adventurers or other worldly people."
+											"Четвёртая стадия ложной гидры — это когда она становится настоящей угрозой для искателей приключений, отрастив достаточно голов (от пяти до восьми) и накопив достаточно под землёй, чтобы отращивать головы заново несколько раз. Головы ложной гидры выросли в толстые, почти как стволы деревьев отростки, способные обозревать поселение поверх крыш. На этой стадии она лишь ждёт, чтобы ещё сильнее проредить население города, прежде чем перейти к своей финальной стадии."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Древняя ложная гидра",
+										"entries": [
+											"Пятая и финальная стадия ложной гидры отрастила девять или более голов и начала петь «Песнь подчинения». В этот момент немногие выжившие горожане находятся под её контролем и готовятся разнести головы по другим городам. Древняя ложная гидра почти всесильна в своём городе, так как собранные воспоминания её жертв дали ей знание о большинстве угроз, с которыми она может столкнуться, особенно если она съела искателей приключений или других искушённых людей."
 										]
 									}
 								]
@@ -1006,16 +1006,16 @@
 					},
 					{
 						"type": "inset",
-						"name": "PCs and the Sightless Song",
+						"name": "Персонажи и Песнь слепца",
 						"entries": [
-							"Due to the nature of the false hydra as a creature, it's rather hard to give the song a DC as a baseline to ignore it's effects. Thus, any creature who hears the song is under it's effect, but at the DM's discretion they can make an Intelligence saving throw to break the effect on themselves if they find something horrifying or strange enough to make them question reality. Consider the examples given in the {@b Mental Discord} section for things that might make players question their reality, or examples given in the original Goblin Punch article ({@link link at the bottom of the document|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Additionally, due to how the life cycle of the false hydra works, remember that only an elder false hydra can actually sing the song of domination, but any false hydra's song will continue the effect on someone under it's control, essentially transferring control to that false hydra. This will really only be used if a hydra grows big enough to have to spread to another town, as the false hydra's head will continue to sing to keep its host moving."
+							"В силу природы ложной гидры как существа довольно трудно задать песни Сл в качестве базового порога, чтобы игнорировать её эффекты. Так что любое существо, слышащее песнь, попадает под её действие, но на усмотрение Мастера оно может совершить спасбросок Интеллекта, чтобы сбросить эффект с себя, если найдёт что-то настолько ужасное или странное, что усомнится в реальности. В качестве примеров того, что может заставить игроков усомниться в реальности, рассмотрите примеры в разделе {@b Разлад в разуме} или примеры из оригинальной статьи Goblin Punch ({@link ссылка внизу документа|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Кроме того, учитывая, как работает жизненный цикл ложной гидры, помните, что лишь древняя ложная гидра может действительно петь «Песнь подчинения», но песнь любой ложной гидры продолжит эффект на того, кто под её контролем, по сути передавая контроль этой ложной гидре. Это по-настоящему понадобится лишь если гидра вырастет настолько, что ей придётся распространиться в другой город, так как голова ложной гидры продолжит петь, чтобы её носитель двигался дальше."
 						]
 					}
 				]
 			}
 		},
 		{
-			"name": "Young False Hydra",
+			"name": "Молодая ложная гидра",
 			"source": "TheFalseHydra",
 			"size": [
 				"L"
@@ -1067,53 +1067,53 @@
 				}
 			],
 			"languages": [
-				"understands languages known by its victims",
-				"but can't speak."
+				"понимает языки, известные его жертвам",
+				"Но не может говорить."
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Ambusher",
+					"name": "Из засады",
 					"entries": [
-						"The young false hydra has advantage on attack rolls against any creature it has surprised."
+						"Молодая ложная гидра совершает с преимуществом броски атаки по любому существу, застигнутому ею врасплох."
 					]
 				},
 				{
-					"name": "Surprise Attack",
+					"name": "Внезапная атака",
 					"entries": [
-						"If the young false hydra surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 11 ({@damage 2d10}) damage from the attack."
+						"Если молодая ложная гидра застаёт существо врасплох и попадает по нему атакой в первом раунде боя, цель получает дополнительно 11 ({@damage 2d10}) урона от этой атаки."
 					]
 				},
 				{
-					"name": "Multiple Heads",
+					"name": "Множество голов",
 					"entries": [
-						"The young false hydra has four heads. While it has more than one head, the young false hydra has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}. Whenever the young false hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the young false hydra dies. At the end of its turn, it grows a head for each of its heads that died since its last turn, unless it has regrown 8 heads. The young false hydra regains 10 hit points for each head regrown in this way."
+						"У молодой ложной гидры четыре головы. Пока у неё больше одной головы, молодая ложная гидра совершает с преимуществом спасброски от состояний {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned} и {@condition unconscious}. Каждый раз, когда молодая ложная гидра получает 25 или больше урона за один ход, одна из её голов умирает. Если все её головы умирают, молодая ложная гидра умирает. В конце своего хода она отращивает по одной голове за каждую голову, погибшую с её прошлого хода, если только она не отрастила уже 8 голов. За каждую отращённую таким образом голову молодая ложная гидра восстанавливает 10 хитов."
 					]
 				},
 				{
-					"name": "Reactive Heads (Hydra)",
+					"name": "Реактивные головы (гидра)",
 					"entries": [
-						"For each head the young false hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+						"За каждую голову сверх одной молодая ложная гидра получает дополнительную реакцию, которую можно использовать только для провоцированных атак."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The young false hydra can make as many bite attacks as it has heads. Any one head can begin or continue using the Sightless Song ability."
+						"Молодая ложная гидра может совершить столько атак укусом, сколько у неё голов. Одна любая голова может начать или продолжить использовать умение «Песнь слепца»."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 15 ft., one target. Hit 9 ({@damage 1d10 + 4}) piercing damage"
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 15 футов, одна цель. Попадание 9 ({@damage 1d10 + 4}) колющего урона"
 					]
 				},
 				{
-					"name": "Sightless Song",
+					"name": "Песнь слепца",
 					"entries": [
-						"The young false hydra emits a horrible, nightmarish howl to all creatures within 1 mile. Any humanoid that can hear this song is incapable of noticing the young false hydra while it hears it. Humanoids under the effect of the song do not realize they can hear the song. The young false hydra can continue to sing the song for as long as it wants, but must stop singing if it makes a Bite attack."
+						"Молодая ложная гидра испускает ужасный, кошмарный вой, обращённый ко всем существам в пределах 1 мили. Любое гуманоидное существо, слышащее эту песнь, не способно замечать молодую ложную гидру, пока слышит её. Гуманоиды под действием песни не осознают, что слышат её. Молодая ложная гидра может продолжать петь песнь сколько угодно, но должна прекратить пение, если совершает атаку укусом."
 					]
 				}
 			],
@@ -1121,13 +1121,13 @@
 				"urban"
 			],
 			"traitTags": [
-				"Ambusher"
+				"Из засады"
 			],
 			"senseTags": [
 				"D"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"languageTags": [
 				"CS"
@@ -1147,49 +1147,49 @@
 							{
 								"type": "entries",
 								"entries": [
-									"No one truly knows when or how the false hydra came to be. It is an abomination, seen by few, and survived by fewer. Some say that is similar to a plant, that it grows from the ground like a sprout with no seed, that it germinates on lies and dishonesty. Others say that it is almost like a vicious fungus, a mindless life form that knows nothing beyond devouring and surviving. Some say they are the last vestiges of a curse from a fallen goddess, who sent them as punishment to the mortals who so conveniently turn their backs on inconvenient truths. In truth, scholars have no better idea. The few who believe in and attempt to study this creature have found little information about it, only aware of three things for certain: the false hydra sings, the false hydra grows, and the false hydra eats.",
+									"Никто достоверно не знает, когда и как появилась ложная гидра. Это мерзость, которую видели немногие, а выжили после встречи с ней ещё меньше. Некоторые говорят, что она подобна растению, что она вырастает из земли, как росток без семени, что она прорастает на лжи и обмане. Другие говорят, что она почти как злобный грибок, безмозглая форма жизни, не знающая ничего, кроме пожирания и выживания. Третьи утверждают, что это последний отголосок проклятия падшей богини, которая наслала их в наказание смертным, столь удобно отворачивающимся от неудобных истин. На самом деле у учёных нет идей получше. Немногие, кто верит в это существо и пытается его изучать, нашли о нём мало сведений и уверены лишь в трёх вещах: ложная гидра поёт, ложная гидра растёт, и ложная гидра ест.",
 									{
-										"name": "Infiltration",
+										"name": "Проникновение",
 										"type": "entries",
 										"entries": [
-											"The false hydra begins its life cycle as a head, with roughly the same proportions as an average humanoid's. This head, however, is pale, and hairless, with wet, eyeless sockets and a large mouth filled with broad, flat teeth. It finds itself buried deep beneath the earth near a settlement, and it grows. As it grows, it develops a fleshy, flabby torso, which serves as a \"root\". It is from this root that all further heads grow. The first head slowly pushes its way up through the dirt, breaking through the soil in the basement, beneath the stairs. Or beneath the brush around the house. Or through a broken cobblestone in the street. And then, when it has reached the surface, it sings."
+											"Ложная гидра начинает свой жизненный цикл с головы, примерно тех же пропорций, что и у обычного гуманоида. Эта голова, однако, бледна и безволоса, с влажными безглазыми глазницами и большим ртом, полным широких плоских зубов. Она оказывается погребённой глубоко под землёй близ поселения и растёт. По мере роста у неё развивается мясистое дряблое туловище, служащее «корнем». Именно из этого корня вырастают все последующие головы. Первая голова медленно пробивается сквозь землю, прорываясь сквозь почву в подвале, под лестницей. Или под кустарником вокруг дома. Или сквозь разбитый булыжник на улице. И вот, достигнув поверхности, она поёт."
 										]
 									},
 									{
-										"name": "Sightless Song",
+										"name": "Песнь слепца",
 										"type": "entries",
 										"entries": [
-											"While the false hydra sings, it is ignored. It is not invisible: it simply sits in our blind spot, its song creating gaps in our memory while it watches its prey go about its day, waiting until a safe moment to strike. The false hydra must bide its time to find the right moment, as when it eats, it cannot sing. When it isn't singing, it can be seen."
+											"Пока ложная гидра поёт, её не замечают. Она не невидима: она просто сидит в нашем слепом пятне, а её песнь создаёт провалы в нашей памяти, пока она наблюдает, как её добыча проживает свой день, выжидая безопасного момента для удара. Ложной гидре приходится выжидать, чтобы найти подходящий момент, ведь когда она ест, она не может петь. Когда она не поёт, её можно увидеть."
 										]
 									},
 									{
-										"name": "Growth",
+										"name": "Рост",
 										"type": "entries",
 										"entries": [
-											"The false hydra eats flesh, of course, and its favorite prey is humanoids. In the beginning of its life, while it only has one head, though, eating presents a challenge. To eat, it must stop singing. Thus, the first stage of a false hydra infestation is often the longest, as it waits for a lone victim to drag away into a basement, sewer, or small cave it has excavated for this purpose.",
-											"In any normal circumstances, the victims of the false hydra would have family, or friends who would notice their absence, but the false hydra's song massages their mind, smoothing the wrinkles in their thoughts. The false hydra's victims become a part of the creature, and thus the creature's song erases all memories of him. Their absence will not be noticed. They are forgotten. And as more and more join the false hydra, the more it grows, the more it's neck stretches, and the more its influence grows."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Mental Discord",
-										"entries": [
-											"The false hydra's song soothes the minds of their victims, coaxing out the memories of their prey in the same way it hides the false hydra, but it is not a perfect defense. Parents will ask why they have boy's clothes but only one daughter. A shopkeep will forget why there are two names above the store's door.",
-											"Farmhands will wonder why someone hasn't harvested their section of field. Churches will find themselves without a pastor.",
-											"More often than not, these gaps will close on their own. The parents will remember they took care of their neighbor's child when they went out of town. The shopkeep will remember the last winter took their partner. The farmhands will remember they recently expanded the field, and forgot to assign someone to harvest it. The churchgoers will remember their pastor's faith was needed in the big city to the north.",
-											"But still, some small, confused part of their mind will recognize the wrongness of it. That part of their mind is locked away, ignored, deemed the dark part of their mind that lurks in everyone, a part that good folk know is nothing more than wrongful temptation.",
-											"This strains the mind. At first, it feels like paranoia, like they are being watched (and they are being watched) but they will never be able to see who by, until it's too late. As time passes, more symptoms develop. Reminiscing becomes stressful and unpleasant, and thus is avoided. Memories become distorted and confusing, and faces blur together and identities become distorted.",
-											"Mortal brains were not meant to take this weight. Mental disorders develop like a mold. Nervous ticks, psychotic breaks, and hallucinations abound."
+											"Ложная гидра, разумеется, питается плотью, и её излюбленная добыча — гуманоиды. Однако в начале своей жизни, пока у неё всего одна голова, еда представляет сложность. Чтобы поесть, она должна прекратить петь. Поэтому первая стадия заражения ложной гидрой обычно самая долгая: она ждёт одинокую жертву, чтобы утащить её в подвал, канализацию или небольшую пещеру, которую выкопала для этой цели.",
+											"При обычных обстоятельствах у жертв ложной гидры были бы родные или друзья, которые заметили бы их исчезновение, но песнь ложной гидры массирует их разум, разглаживая складки в мыслях. Жертвы ложной гидры становятся частью существа, и потому песнь существа стирает все воспоминания о них. Их отсутствие не заметят. Их забудут. И чем больше существ присоединяется к ложной гидре, тем больше она растёт, тем сильнее вытягивается её шея и тем шире становится её влияние."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Proliferation",
+										"name": "Разлад в разуме",
 										"entries": [
-											"The older the false hydra gets, the more heads it grows. The more heads it has, the more careless it becomes, as it can afford to have one head stop singing to eat. As the number of heads grows, so to do the number of missing townsfolk, the number of inconsistent memories floating around the survivors.",
-											"The more mature the false hydra, the more necks stretch up above the rooftops. Thick, pale tree trunks topped with bulging, bony heads with unhinging jaws filled with daggerlike teeth.",
-											"When the false hydra is fully grown - usually once it is approaching ten heads - the next stage of its life cycle begins. The false hydra ensures there is at least one survivor for each head it has grown. Then, it begins to sing a new song. This new song dominates the weak-minded and psychotic, while still subjecting others to the mind-numbing forgetfulness of the first song.",
-											"Each survivor is given a head, which continues to sing, and they all go their separate ways. Each victim is sent to a nearby town. Along the way, the singing continues. Any who pass them on the road are only temporarily taken under the false hydra's song, just long enough to forget they saw the lone traveler. When the carriers arrive in a new town, they find a spot to bury themselves and their head. When they do, the larva uses the carrier as it's first victim until it has grown enough to resurface. Then, the cycle begins anew, in a new town."
+											"Песнь ложной гидры успокаивает разум её жертв, выманивая воспоминания о добыче так же, как она скрывает саму ложную гидру, но это не безупречная защита. Родители будут спрашивать, почему у них есть мальчишеская одежда, а дочь только одна. Лавочник забудет, почему над дверью его лавки два имени.",
+											"Батраки будут гадать, почему никто не убрал их участок поля. Церкви останутся без пастора.",
+											"Чаще всего эти провалы закрываются сами собой. Родители вспомнят, что присматривали за ребёнком соседей, пока те уезжали из города. Лавочник вспомнит, что прошлая зима забрала его напарника. Батраки вспомнят, что недавно расширили поле и забыли назначить кого-то на уборку. Прихожане вспомнят, что вера их пастора понадобилась в большом городе на севере.",
+											"Но всё же какая-то малая, сбитая с толку часть их разума распознаёт неправильность этого. Эту часть разума запирают, игнорируют, считают тёмным уголком разума, что таится в каждом, — частью, о которой добрые люди знают, что она не более чем недолжное искушение.",
+											"Это изматывает разум. Поначалу это ощущается как паранойя, будто за ними наблюдают (и за ними действительно наблюдают), но они так и не смогут увидеть, кто именно, — пока не станет слишком поздно. Со временем появляются новые симптомы. Воспоминания становятся тягостными и неприятными, и потому их избегают. Память искажается и путается, лица сливаются, а личности размываются.",
+											"Смертный разум не предназначен выносить такую тяжесть. Психические расстройства разрастаются, как плесень. В изобилии появляются нервные тики, психотические срывы и галлюцинации."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Размножение",
+										"entries": [
+											"Чем старше становится ложная гидра, тем больше голов она отращивает. Чем больше у неё голов, тем беспечнее она становится, ведь может позволить одной голове прекратить пение, чтобы поесть. По мере роста числа голов растёт и число пропавших горожан, и число противоречивых воспоминаний, витающих среди выживших.",
+											"Чем зрелее ложная гидра, тем больше шей вытягивается над крышами. Толстые бледные стволы, увенчанные раздутыми костлявыми головами с разинутыми челюстями, полными кинжальных зубов.",
+											"Когда ложная гидра полностью вырастает — обычно при приближении к десяти головам — начинается следующая стадия её жизненного цикла. Ложная гидра следит, чтобы на каждую отращённую голову остался хотя бы один выживший. Затем она начинает петь новую песнь. Эта новая песнь подчиняет слабовольных и безумных, продолжая при этом погружать остальных в оглупляющую забывчивость первой песни.",
+											"Каждому выжившему дают голову, которая продолжает петь, и все они расходятся в разные стороны. Каждую жертву отправляют в соседний город. По пути пение не прекращается. Все, кто встречает их на дороге, лишь временно попадают под песнь ложной гидры — ровно настолько, чтобы забыть, что видели одинокого путника. Когда носители прибывают в новый город, они находят место, чтобы закопать себя и свою голову. Сделав это, личинка использует носителя как свою первую жертву, пока не вырастет достаточно, чтобы выйти на поверхность. Затем цикл начинается заново, в новом городе."
 										]
 									}
 								]
@@ -1198,45 +1198,45 @@
 					},
 					{
 						"type": "entries",
-						"name": "False Hydra Growth Stages",
+						"name": "Стадии роста ложной гидры",
 						"entries": [
 							{
 								"type": "entries",
 								"entries": [
 									"",
 									{
-										"name": "False Hydra Larva",
+										"name": "Личинка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The first stage of the false hydra life cycle is simply a head. This pale, vaguely human head has little to no mobility on it's own, instead relying on the broken mind of its host to carry it to a new town to begin its growth. It is capable of maintaining a hum, which serves to continue the domination of it's host, as well as disguising itself from any who might encounter it on the road. Instead of seeing a shaken, broken person carrying a nightmarish, decapitated head, they would perhaps see a haggard old beggar, moving from one town to the next, carrying their only possesions in their arms. The larva's song is weak, and easily broken, and intense scrutiny of the traveler will often reveal the true nature of what is happening."
+											"Первая стадия жизненного цикла ложной гидры — это просто голова. Эта бледная, отдалённо человеческая голова почти не способна двигаться сама и полагается на сломленный разум своего носителя, несущего её в новый город, чтобы начать рост. Она способна издавать гудение, которое продолжает подчинение носителя и одновременно маскирует её от всех, кто может встретить её в пути. Вместо потрясённого, сломленного человека, несущего кошмарную отрубленную голову, они, возможно, увидят измождённого старого нищего, переходящего из города в город со всем своим скарбом в руках. Песнь личинки слаба и легко разрушается, и пристальное наблюдение за путником часто раскрывает истинную суть происходящего."
 										]
 									},
 									{
-										"name": "False Hydra Pupa",
+										"name": "Куколка ложной гидры",
 										"type": "entries",
 										"entries": [
-											"The second stage of the false hydra is the pupal stage. This stage begins after the creature has been carried to a new town, buried, and feasted on the host that brought it. This stage has only one head, and is the longest stage in the cycle as they must wait for the best moment to be able to capture their prey so that the lack of their song does not give them away to the townsfolk. When the false hydra has devoured enough townsfolk to grow more heads, it enters the next stage."
+											"Вторая стадия ложной гидры — стадия куколки. Она начинается после того, как существо принесли в новый город, закопали, и оно пожирает носителя, что принёс его. На этой стадии у неё всего одна голова, и это самая долгая стадия цикла: ей приходится ждать лучшего момента, чтобы суметь захватить добычу так, чтобы отсутствие песни не выдало её горожанам. Когда ложная гидра пожирает достаточно горожан, чтобы отрастить новые головы, она переходит в следующую стадию."
 										]
 									},
 									{
-										"name": "Young False Hydra",
+										"name": "Молодая ложная гидра",
 										"type": "entries",
 										"entries": [
-											"The third stage of the false hydra has developed multiple heads, usually two to four, and is beginning to be less cautious when it eats, as it can often have one head continue its song while the other devours the victim. It is still young, however, and tends to keep stores of flesh in its subterranean body so that it might regrow heads in case of emergency."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "False Hydra",
-										"entries": [
-											"The fourth stage of the false hydra is when it becomes a true menace to adventurers, having grown enough heads (anywhere from five to eight) and stored enough beneath the ground to be able to grow back its heads a number of times. The false hydra's head have grown into thick, almost tree-trunk like appendages that can survey the settlement from above the rooftops. At this stage, it is merely waiting to further thin down the numbers in the town before advancing to its final stage."
+											"Третья стадия ложной гидры развила множество голов, обычно от двух до четырёх, и начинает есть менее осторожно, так как часто может позволить одной голове продолжать песнь, пока другая пожирает жертву. Однако она ещё молода и обычно хранит запасы плоти в своём подземном теле, чтобы при необходимости отрастить головы."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Elder False Hydra",
+										"name": "Ложная гидра",
 										"entries": [
-											"The fifth and final stage of the false hydra has grown nine or more heads, and begun singing the Song of Domination. At this point, the few surviving townsfolk are under it's control and making preparations to scatter the heads to other towns. The elder false hydra is nearly omnipotent in its town, as the collected memories of its victims have given it knowledge of most threats it could face, especially if it has eaten adventurers or other worldly people."
+											"Четвёртая стадия ложной гидры — это когда она становится настоящей угрозой для искателей приключений, отрастив достаточно голов (от пяти до восьми) и накопив достаточно под землёй, чтобы отращивать головы заново несколько раз. Головы ложной гидры выросли в толстые, почти как стволы деревьев отростки, способные обозревать поселение поверх крыш. На этой стадии она лишь ждёт, чтобы ещё сильнее проредить население города, прежде чем перейти к своей финальной стадии."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Древняя ложная гидра",
+										"entries": [
+											"Пятая и финальная стадия ложной гидры отрастила девять или более голов и начала петь «Песнь подчинения». В этот момент немногие выжившие горожане находятся под её контролем и готовятся разнести головы по другим городам. Древняя ложная гидра почти всесильна в своём городе, так как собранные воспоминания её жертв дали ей знание о большинстве угроз, с которыми она может столкнуться, особенно если она съела искателей приключений или других искушённых людей."
 										]
 									}
 								]
@@ -1245,9 +1245,9 @@
 					},
 					{
 						"type": "inset",
-						"name": "PCs and the Sightless Song",
+						"name": "Персонажи и Песнь слепца",
 						"entries": [
-							"Due to the nature of the false hydra as a creature, it's rather hard to give the song a DC as a baseline to ignore it's effects. Thus, any creature who hears the song is under it's effect, but at the DM's discretion they can make an Intelligence saving throw to break the effect on themselves if they find something horrifying or strange enough to make them question reality. Consider the examples given in the {@b Mental Discord} section for things that might make players question their reality, or examples given in the original Goblin Punch article ({@link link at the bottom of the document|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Additionally, due to how the life cycle of the false hydra works, remember that only an elder false hydra can actually sing the song of domination, but any false hydra's song will continue the effect on someone under it's control, essentially transferring control to that false hydra. This will really only be used if a hydra grows big enough to have to spread to another town, as the false hydra's head will continue to sing to keep its host moving."
+							"В силу природы ложной гидры как существа довольно трудно задать песни Сл в качестве базового порога, чтобы игнорировать её эффекты. Так что любое существо, слышащее песнь, попадает под её действие, но на усмотрение Мастера оно может совершить спасбросок Интеллекта, чтобы сбросить эффект с себя, если найдёт что-то настолько ужасное или странное, что усомнится в реальности. В качестве примеров того, что может заставить игроков усомниться в реальности, рассмотрите примеры в разделе {@b Разлад в разуме} или примеры из оригинальной статьи Goblin Punch ({@link ссылка внизу документа|https://homebrewery.naturalcrit.com/share/H1-2xqarKX}). Кроме того, учитывая, как работает жизненный цикл ложной гидры, помните, что лишь древняя ложная гидра может действительно петь «Песнь подчинения», но песнь любой ложной гидры продолжит эффект на того, кто под её контролем, по сути передавая контроль этой ложной гидре. Это по-настоящему понадобится лишь если гидра вырастет настолько, что ей придётся распространиться в другой город, так как голова ложной гидры продолжит петь, чтобы её носитель двигался дальше."
 						]
 					}
 				]

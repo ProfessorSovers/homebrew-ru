@@ -22,7 +22,7 @@
 	},
 	"monster": [
 		{
-			"name": "Ankheg Drone",
+			"name": "Анхег-трутень",
 			"source": "AnC",
 			"size": [
 				"L"
@@ -65,15 +65,15 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage plus 3 ({@damage 1d6}) acid damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the ankheg can bite only the {@condition grappled} creature and has advantage on attack rolls to do so."
+						"{@atk mw} {@hit 5} для попадания, досягаемость 5 фт., одна цель. {@h}10 ({@damage 2d6 + 3}) рубящего урона плюс 3 ({@damage 1d6}) кислотного урона. Если цель — существо Большого размера или меньше, оно становится {@condition grappled} (вырваться {@dc 13}). Пока этот захват не окончен, анхег может кусать только {@condition grappled} существо и совершает броски атаки для этого с преимуществом."
 					]
 				},
 				{
-					"name": "Acid Spray {@recharge}",
+					"name": "Кислотная струя {@recharge}",
 					"entries": [
-						"The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature {@condition grappled}. Each creature in that line must make a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) acid damage on a failed save, or half as much damage on a successful one."
+						"Анхег выплёвывает кислоту линией длиной 30 футов и шириной 5 футов, если только он не удерживает Схваченное существо {@condition grappled}. Каждое существо в этой линии должно совершить спасбросок Ловкости {@dc 13}, получая 10 ({@damage 3d6}) Кислотного урона при провале или половину этого урона при успехе."
 					]
 				}
 			],
@@ -96,7 +96,7 @@
 			]
 		},
 		{
-			"name": "Ankheg Hive Queen",
+			"name": "Королева улья анхегов",
 			"source": "AnC",
 			"size": [
 				"G"
@@ -163,73 +163,73 @@
 				"frightened"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"telepathy 120 ft."
 			],
 			"cr": "16",
 			"trait": [
 				{
-					"name": "Spider Climb",
+					"name": "Паучье лазанье",
 					"entries": [
-						"The ankheg can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Анхег может взбираться по труднопроходимым поверхностям, в том числе вверх ногами по потолкам, не совершая проверку характеристики."
 					]
 				},
 				{
-					"name": "Tunneler",
+					"name": "Туннельщик",
 					"entries": [
-						"The ankheg can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+						"Анхег может прокапываться сквозь твёрдую скалу со своей половинной Скоростью рытья, оставляя после себя туннель диаметром 10 футов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The ankheg makes three attacks: one with its bite and two with its claws."
+						"Анхег совершает три атаки: одну укусом и две когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}34 ({@damage 4d12 + 8}) piercing damage plus 7 ({@damage 2d6}) acid damage. If the target is a creature, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the ankheg can't bite another target."
+						"{@atk mw} {@hit 13} к попаданию, досягаемость 10 фт., одна цель. {@h}34 ({@damage 4d12 + 8}) Колющего урона плюс 7 ({@damage 2d6}) Кислотного урона. Если цель — существо, оно становится {@condition grappled} (высвобождение {@dc 18}). Пока этот Захват не окончится, цель становится {@condition restrained}, а анхег не может укусить другую цель."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}22 ({@damage 4d6 + 8}) slashing damage, and the target must succeed on a {@dc 21} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 13} к попаданию, досягаемость 10 фт., одна цель. {@h}22 ({@damage 4d6 + 8}) Рубящего урона, и цель должна преуспеть в Спасброске Силы {@dc 21}, иначе будет сбита {@condition prone}."
 					]
 				},
 				{
-					"name": "Acid Spit {@recharge}",
+					"name": "Кислотный плевок {@recharge}",
 					"entries": [
-						"The ankheg spits acid in a 90-foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 35 ({@damage 10d6}) acid damage on a failed save, or half as much damage on a successful one."
+						"Анхег выплёвывает кислоту конусом длиной 90 футов. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 18}, получая 35 ({@damage 10d6}) Кислотного урона при провале или половину этого урона при успехе."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Each creature of the ankheg's choice that is within 120 feet of the ankheg and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the ankheg's Frightful Presence for the next 24 hours."
+						"Каждое выбранное Анхегом существо, находящееся в пределах 120 футов от Анхега и осознающее его присутствие, должно преуспеть в {@dc 18} спасброске Мудрости, иначе станет {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая действующий на себя эффект при успехе. Если существо преуспело в спасброске или действующий на него эффект закончился, оно получает иммунитет к Ужасающему присутствию Анхега на следующие 24 часа."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The ankheg moves up to its speed."
+						"Анхег перемещается на расстояние вплоть до своей скорости."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"The ankheg uses its Frightful Presence."
+						"Анхег использует своё Устрашающее присутствие."
 					]
 				},
 				{
-					"name": "Command Ankheg (Costs 2 Actions)",
+					"name": "Приказ Анхегу (стоит 2 действия)",
 					"entries": [
-						"The queen targets one ankheg it can see within 60 feet of it. If the ankheg can see and hear the queen, the ankheg can make one weapon attack as a reaction and gains advantage on the attack roll. Alternatively, the ankheg can use its reaction to move up to its speed."
+						"Королева выбирает одного видимого ей Анхега в пределах 60 футов от себя. Если Анхег видит и слышит королеву, он может совершить одну атаку оружием в качестве реакции и получает преимущество на бросок атаки. В качестве альтернативы Анхег может использовать свою реакцию, чтобы переместиться на расстояние вплоть до своей скорости."
 					]
 				}
 			],
@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"name": "Ankheg Worker",
+			"name": "Рабочий Анхег",
 			"source": "AnC",
 			"size": [
 				"M"
@@ -315,17 +315,17 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The ankheg has advantage on an attack roll against a creature if at least one of the ankheg's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Анхег получает преимущество на бросок атаки против существа, если хотя бы один из его союзников находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage plus 2 ({@damage 1d4}) acid damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) рубящего урона плюс 2 ({@damage 1d4}) кислотного урона."
 					]
 				}
 			],
@@ -345,7 +345,7 @@
 			]
 		},
 		{
-			"name": "Crusher Ankheg",
+			"name": "Анхег-крушитель",
 			"source": "AnC",
 			"size": [
 				"H"
@@ -387,23 +387,23 @@
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Tunneler",
+					"name": "Туннельщик",
 					"entries": [
-						"The ankheg can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+						"Анхег может прокапываться сквозь твёрдую скалу со своей половинной Скоростью рытья, оставляя после себя туннель диаметром 10 футов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage plus 7 ({@damage 2d6}) acid damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the ankheg can't bite another target."
+						"{@atk mw} {@hit 10} для попадания, досягаемость 10 фт., одна цель. {@h}26 ({@damage 3d12 + 7}) колющего урона плюс 7 ({@damage 2d6}) кислотного урона. Если цель — существо Огромного размера или меньше, оно становится {@condition grappled} (высвобождение {@dc 17}). Пока этот захват не окончится, цель является {@condition restrained}, а Анхег не может укусить другую цель."
 					]
 				},
 				{
-					"name": "Acid Spit {@recharge}",
+					"name": "Кислотный плевок {@recharge}",
 					"entries": [
-						"The ankheg spits acid in a line that is 60 feet long and 5 feet wide, provided that it has no creature {@condition grappled}. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 21 ({@damage 6d6}) acid damage on a failed save, or half as much damage on a successful one."
+						"Анхег извергает кислоту в линию длиной 60 футов и шириной 5 футов, если на нём нет существа {@condition grappled}. Каждое существо в этой линии должно совершить спасбросок Ловкости {@dc 18}, получая 21 ({@damage 6d6}) Кислотного урона при провале или половину этого урона при успехе."
 					]
 				}
 			],
@@ -431,7 +431,7 @@
 			]
 		},
 		{
-			"name": "Hellcrusher Ankheg",
+			"name": "Анхег — адский крушитель",
 			"source": "AnC",
 			"size": [
 				"H"
@@ -491,47 +491,47 @@
 				"fire"
 			],
 			"languages": [
-				"Common",
-				"Infernal"
+				"Общий",
+				"Инфернальный"
 			],
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Fire Aura",
+					"name": "Огненная аура",
 					"entries": [
-						"At the start of each of the ankheg's turns, each creature within 5 feet of it takes 4 ({@damage 1d8}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the ankheg or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) fire damage."
+						"В начале каждого хода анхега каждое существо в пределах 5 футов от него получает 4 ({@damage 1d8}) Огненного урона, а горючие предметы в ауре, которые никто не носит и не держит, воспламеняются. Существо, касающееся анхега или попавшее по нему атакой ближнего боя, находясь в пределах 5 футов от него, получает 4 ({@damage 1d8}) Огненного урона."
 					]
 				},
 				{
-					"name": "Tunneler",
+					"name": "Туннельщик",
 					"entries": [
-						"The ankheg can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+						"Анхег может прокапываться сквозь твёрдую скалу со своей половинной Скоростью рытья, оставляя после себя туннель диаметром 10 футов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The ankheg makes two attacks: one with its bite and one with its claw."
+						"Анхег совершает две атаки: одну укусом и одну когтем."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage plus 7 ({@damage 2d6}) acid damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the ankheg can't bite another target."
+						"{@atk mw} {@hit 10} для попадания, досягаемость 10 фт., одна цель. {@h}26 ({@damage 3d12 + 7}) колющего урона плюс 7 ({@damage 2d6}) кислотного урона. Если цель — существо Огромного размера или меньше, оно становится {@condition grappled} (высвобождение {@dc 17}). Пока этот захват не окончится, цель является {@condition restrained}, а Анхег не может укусить другую цель."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d6 + 7}) slashing damage plus 7 ({@damage 2d6}) fire damage."
+						"{@atk mw} {@hit 11} для попадания, досягаемость 5 фт., одна цель. {@h}17 ({@damage 3d6 + 7}) рубящего урона плюс 7 ({@damage 2d6}) Огненного урона."
 					]
 				},
 				{
-					"name": "Acid Spit {@recharge}",
+					"name": "Кислотный плевок {@recharge}",
 					"entries": [
-						"The ankheg spits fiery acid in a 60-foot cone. Each creature in that area must make a {@dc 19} Dexterity saving throw, taking 14 ({@damage 4d6}) acid damage plus 14 ({@damage 4d6}) fire damage on a failed save, or half as much damage on a successful one."
+						"Анхег извергает огненную кислоту конусом длиной 60 футов. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 19}, получая 14 ({@damage 4d6}) Кислотного урона плюс 14 ({@damage 4d6}) Огненного урона при провале или половину этого урона при успехе."
 					]
 				}
 			],
@@ -569,7 +569,7 @@
 			]
 		},
 		{
-			"name": "Runic Ankheg",
+			"name": "Рунический анхег",
 			"source": "AnC",
 			"size": [
 				"L"
@@ -612,10 +612,10 @@
 			"cr": "5",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The ankheg's innate spellcasting ability is Wisdom (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
+						"Базовая характеристика для заклинаний анхега — Мудрость (Сл спасброска от заклинаний {@dc 14}). Он может использовать следующие заклинания врождённым образом, не нуждаясь в материальных компонентах:"
 					],
 					"will": [
 						"{@spell absorb elements|XGE}",
@@ -634,47 +634,47 @@
 			],
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The ankheg has advantage on saving throws against spells and other magical effects."
+						"Анхег совершает спасброски против заклинаний и прочих магических эффектов с преимуществом."
 					]
 				},
 				{
-					"name": "Magic Weapons",
+					"name": "Магическое оружие",
 					"entries": [
-						"The ankheg's weapon attacks are magical."
+						"Атаки оружием анхега являются магическими."
 					]
 				},
 				{
-					"name": "Runic Augmentation",
+					"name": "Руническое усиление",
 					"entries": [
-						"When the ankheg deals acid damage, it can change the damage type to cold, fire, force, lightning, or thunder."
+						"Когда анхег наносит кислотный урон, он может изменить тип урона на холодный, огненный, силовой, электрический или звуковой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The ankheg makes two melee or ranged attacks."
+						"Анхег совершает две атаки ближнего боя или дальнобойные атаки."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage plus 3 ({@damage 1d6}) acid damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the ankheg can bite only the {@condition grappled} creature and has advantage on attack rolls to do so."
+						"{@atk mw} {@hit 6} для попадания, досягаемость 5 фт., одна цель. {@h}10 ({@damage 2d6 + 3}) рубящего урона плюс 3 ({@damage 1d6}) кислотного урона. Если цель — существо Большого размера или меньше, оно {@condition grappled} (высвобождение {@dc 13}). Пока этот захват не окончится, анхег может кусать только {@condition grappled} существо и совершает с преимуществом броски атаки, чтобы сделать это."
 					]
 				},
 				{
-					"name": "Acid Bolt",
+					"name": "Кислотный болт",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 80/320 ft., one target. {@h}10 ({@damage 2d6 + 3}) acid damage."
+						"{@atk rs} {@hit 6} к попаданию, дистанция 80/320 футов, одна цель. {@h}10 ({@damage 2d6 + 3}) кислотой."
 					]
 				},
 				{
-					"name": "Acid Spray {@recharge}",
+					"name": "Кислотная струя {@recharge}",
 					"entries": [
-						"The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature {@condition grappled}. Each creature in that line must make a {@dc 14} Dexterity saving throw, taking 17 ({@damage 5d6}) acid damage on a failed save, or half as much damage on a successful one."
+						"Анхег выплёвывает кислоту линией длиной 30 футов и шириной 5 футов, если только у него нет {@condition grappled} существа. Каждое существо в этой линии должно совершить {@dc 14} спасбросок Ловкости, получая 17 ({@damage 5d6}) кислотного урона при провале или половину этого урона при успехе."
 					]
 				}
 			],

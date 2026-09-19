@@ -24,8 +24,8 @@
 	},
 	"monster": [
 		{
-			"name": "Barbarian",
-			"shortName": "Barbarian",
+			"name": "Варвар",
+			"shortName": "Варвар",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -61,28 +61,28 @@
 			"cha": 8,
 			"passive": 10,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Axefaire",
+					"name": "Искусство секиры",
 					"entries": [
-						"The barbarian gains a +1 bonus to attack rolls with axes and hammers (included in the attack). Whenever the barbarian has advantage on a melee attack roll it makes with an axe or hammer and hits, it can knock the target {@condition prone} if the lower of the {@dice d20} rolls would also have hit. When the barbarian has disadvantage on a melee attack roll it makes with an axe or hammer, the target takes 2 bludgeoning damage if the barbarian misses but the higher {@dice d20} roll would have hit. When the barbarian takes the Help action to aid an ally's melee attack, in addition to the ally gaining advantage on the roll, the ally also gains a +2 bonus to its attack roll if the target is using a shield. "
+						"Варвар получает бонус +1 к броскам атаки секирами и молотами (уже включён в атаку). Когда варвар имеет преимущество на бросок рукопашной атаки секирой или молотом и попадает, он может сбить цель {@condition prone}, если меньший из бросков {@dice d20} тоже попал бы. Когда варвар имеет помеху на бросок рукопашной атаки секирой или молотом, цель получает 2 дробящего урона, если варвар промахивается, но больший бросок {@dice d20} попал бы. Когда варвар совершает действие «Помощь», чтобы помочь рукопашной атаке союзника, помимо получения союзником преимущества на бросок, союзник также получает бонус +2 к броску атаки, если цель использует щит."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Battleaxe (One-Handed)",
+					"name": "Секира (одной рукой)",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Battleaxe (Two-Handed)",
+					"name": "Секира (двумя руками)",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage."
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
 					]
 				}
 			],
@@ -105,8 +105,8 @@
 			"fluff": {
 				"entries": [
 					"{@link Barbarian (dandwiki)|https://www.dandwiki.com/wiki/Barbarian_(5e_Creature)}",
-					"{@b Design Note:} If you are using the {@link damage Reduction (5e Variant Rule)|https://www.dandwiki.com/wiki/Damage_Reduction_(5e_Variant_Rule)} the barbarian instead has an AC of 11, and a damage reduction value of 1.",
-					"Also known as brigands, barbarians are men who rely on pure strength and savagery in combat. Barbarians tend to make their homes in mountainous regions that organized armies have difficulty invading. Barbarians commonly make up thief groups, but it is common for them to hire themselves to others for money."
+					"{@b Заметка дизайнера:} Если вы используете {@link damage Reduction (5e Variant Rule)|https://www.dandwiki.com/wiki/Damage_Reduction_(5e_Variant_Rule)}, у варвара вместо этого КД 11 и значение снижения урона 1.",
+					"Известные также как разбойники, варвары — это люди, полагающиеся в бою на чистую силу и дикость. Варвары обычно селятся в горных областях, которые организованным армиям трудно захватить. Варвары часто составляют разбойничьи группы, но нередко нанимаются к другим за деньги."
 				],
 				"images": [
 					{
@@ -120,8 +120,8 @@
 			}
 		},
 		{
-			"name": "Blade Juggler",
-			"shortName": "Blade Juggler",
+			"name": "Жонглёр клинками",
+			"shortName": "Жонглёр клинками",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -162,34 +162,34 @@
 			},
 			"passive": 11,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Blur of Blades",
+					"name": "Вихрь клинков",
 					"entries": [
-						"Until the blade juggler is hit or attacks, any incoming attack has disadvantage. the blade juggler may use an action to gain the benefit once more."
+						"Пока по жонглёру клинками не попали или пока он не атаковал, все входящие атаки по нему совершаются с помехой. Жонглёр клинками может действием вновь получить это преимущество."
 					]
 				},
 				{
-					"name": "Spectacle: Retrieve blades",
+					"name": "Зрелище: возврат клинков",
 					"entries": [
-						"If the blade juggler has dealt damage to a creature this turn they may use this as a bonus action. The blade juggler may move up to 10 ft. and retrieve any number of daggers that are no longer within their possession."
+						"Если в этот ход жонглёр клинками нанёс урон существу, он может использовать это бонусным действием. Жонглёр клинками может переместиться до 10 фт. и вернуть любое количество кинжалов, которые больше не находятся у него."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The Blade Juggler attacks once for each Dagger in their possession"
+						"Жонглёр клинками атакует один раз за каждый кинжал, который у него есть."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 15/30 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage in melee, or 6 ({@damage 1d4 + 4}) piercing damage at range."
+						"{@atk mw,rw} {@hit 6} к попаданию, досягаемость 5 фт. или дистанция 15/30 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона в рукопашной, или 6 ({@damage 1d4 + 4}) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -228,8 +228,8 @@
 			}
 		},
 		{
-			"name": "Bodyguard",
-			"shortName": "Bodyguard",
+			"name": "Телохранитель",
+			"shortName": "Телохранитель",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -277,42 +277,42 @@
 			},
 			"passive": 14,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Sentinel",
+					"name": "Часовой",
 					"entries": [
-						"Creatures provoke opportunity attacks when leaving the bodyguards range even if they disengaged. When the bodyguard hits a creature with an opportunity attack the creatures speed becomes zero for the rest of the turn. "
+						"Существа вызывают атаки по возможности, покидая зону досягаемости телохранителя, даже если они совершили Отход. Когда телохранитель попадает по существу атакой по возможности, скорость этого существа становится равной 0 до конца хода."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The bodyguard makes three longsword attacks."
+						"Телохранитель совершает три атаки длинным мечом."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона, или 8 ({@damage 1d10 + 3}) рубящего урона при использовании двумя руками."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Counterstrike",
+					"name": "Контратака",
 					"entries": [
-						"When a creature within 5 ft. of the bodyguard makes an attack against a creature other than the bodyguard, the bodyguard can make an attack against that creature."
+						"Когда существо в пределах 5 фт. от телохранителя атакует существо, отличное от телохранителя, телохранитель может совершить атаку по этому существу."
 					]
 				},
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"In response to being hit by a melee attack the bodyguard can add 3 AC to its armor class. To do so it must be wearing a melee weapon and see the attacker. "
+						"В ответ на попадание рукопашной атакой телохранитель может добавить 3 КД к своему классу доспеха. Для этого он должен держать рукопашное оружие и видеть атакующего."
 					]
 				}
 			],
@@ -350,8 +350,8 @@
 			}
 		},
 		{
-			"name": "Brawler of Tavern (Dwarf)",
-			"shortName": "Tavern Brawler (Dwarf)",
+			"name": "Трактирный буян (дварф)",
+			"shortName": "Трактирный буян (дварф)",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -390,36 +390,36 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Common",
-				"Dwarvish"
+				"Общий",
+				"Дварфийский"
 			],
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Improvised Weapons",
+					"name": "Импровизированное оружие",
 					"entries": [
-						"The brawler may pick up an improvised weapon from the environment, such as a broken bottle or a table leg. It can use its Unarmed Strike action with the weapon, but the damage rype may change [a broken bottle does piercing damage instead of bludgeoning)."
+						"Буян может подобрать импровизированное оружие из окружения, например разбитую бутылку или ножку стола. Он может использовать своё действие «Удар без оружия» с этим оружием, но тип урона может измениться (разбитая бутылка наносит колющий урон вместо дробящего)."
 					]
 				},
 				{
-					"name": "Wrestler",
+					"name": "Борец",
 					"entries": [
-						"The brawler has advantage on Athletics checks to shove a creature and can drag or carry a {@condition grappled} creature with it at full speed as long as the creature's size is Medium or smaller."
+						"Буян имеет преимущество на проверки Атлетики, чтобы толкнуть существо, и может волочить или нести {@condition grappled} существо с собой на полной скорости, пока размер существа не превышает Средний."
 					]
 				},
 				{
-					"name": "Dwarven Resilience",
+					"name": "Дварфийская стойкость",
 					"entries": [
-						"The brawler has advantage on saving throw against poison , and has resistance against poison damage"
+						"Буян имеет преимущество на спасброски от яда и сопротивление урону ядом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Unarmed Strike",
+					"name": "Удар без оружия",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage.",
-						"If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the brawler can strike only the {@condition grappled} creature and has advantage on attack rolls to do so."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
+						"Если цель — существо Большого размера или меньше, оно становится {@condition grappled} (освобождение {@dc 12}). Пока этот захват не окончен, буян может атаковать только {@condition grappled} существо и имеет преимущество на броски атаки по нему."
 					]
 				}
 			],
@@ -443,7 +443,7 @@
 			"fluff": {
 				"entries": [
 					"{@link Tavern Brawler (Sailor)|https://www.reddit.com/r/dndnext/comments/4j1fqv/monsters_tavern_brawler_and_the_rat_king/}",
-					"{@b Is always itching for a fight.} It has all the tools needed to pull off a movie-worthy bar brawl: it can move a grappled target at full speed across the top of a bar counter (knocking over drinks along the way) and is an expert at shoving poor fools through tables or into walls. They're equally adept at fighting with their fists or breaking off a chair leg and swinging it like a club! This Tavern Brawler is a dwarf, but it can easily be any race with minor modifications."
+					"{@b Всегда рвётся в драку.} У него есть всё, чтобы устроить драку в баре, достойную кино: он может перемещать схваченную цель на полной скорости по стойке бара (по пути опрокидывая напитки) и виртуозно швыряет бедолаг через столы или в стены. Он одинаково хорошо дерётся кулаками или, отломав ножку стула, размахивает ею как дубиной! Этот Трактирный буян — дварф, но при небольших изменениях им может быть любая раса."
 				],
 				"images": [
 					{
@@ -457,8 +457,8 @@
 			}
 		},
 		{
-			"name": "Brawler of Tavern (Human)",
-			"shortName": "Tavern Brawler",
+			"name": "Трактирный буян (человек)",
+			"shortName": "Трактирный буян",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -493,29 +493,29 @@
 			"cha": 9,
 			"passive": 10,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Improvised Weapons",
+					"name": "Импровизированное оружие",
 					"entries": [
-						"The brawler may pick up an improvised weapon from the environment, such as a broken bottle or a table leg. It can use its Unarmed Strike action with the weapon, but the damage type may change [a broken bottle does piercing damage instead of bludgeoning)."
+						"Буян может подобрать импровизированное оружие из окружения, например разбитую бутылку или ножку стола. Он может использовать своё действие «Удар без оружия» с этим оружием, но тип урона может измениться (разбитая бутылка наносит колющий урон вместо дробящего)."
 					]
 				},
 				{
-					"name": "Wrestler",
+					"name": "Борец",
 					"entries": [
-						"The brawler has advantage on Athletics checks to shove a creature and can drag or carry a {@condition grappled} creature with it at full speed as long as the creature's size is Medium or smaller."
+						"Буян имеет преимущество на проверки Атлетики, чтобы толкнуть существо, и может волочить или нести {@condition grappled} существо с собой на полной скорости, пока размер существа не превышает Средний."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Unarmed Strike",
+					"name": "Удар без оружия",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage.",
-						"If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the brawler can strike only the {@condition grappled} creature and has advantage on attack rolls to do so."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
+						"Если цель — существо Большого размера или меньше, оно становится {@condition grappled} (освобождение {@dc 12}). Пока этот захват не окончен, буян может атаковать только {@condition grappled} существо и имеет преимущество на броски атаки по нему."
 					]
 				}
 			],
@@ -535,7 +535,7 @@
 			"fluff": {
 				"entries": [
 					"{@link Tavern Brawler (Sailor)|https://www.reddit.com/r/dndnext/comments/4j1fqv/monsters_tavern_brawler_and_the_rat_king/}",
-					"Is always itching for a fight. It has all the tools needed to pull off a movie-worthy bar brawl: it can move a grappled target at full speed across the top of a bar counter (knocking over drinks along the way) and is an expert at shoving poor fools through tables or into walls. They're equally adept at fighting with their fists or breaking off a chair leg and swinging it like a club! This Tavern Brawler is a dwarf, but it can easily be any race with minor modifications."
+					"Всегда рвётся в драку. У него есть всё, чтобы устроить драку в баре, достойную кино: он может перемещать схваченную цель на полной скорости по стойке бара (по пути опрокидывая напитки) и виртуозно швыряет бедолаг через столы или в стены. Он одинаково хорошо дерётся кулаками или, отломав ножку стула, размахивает ею как дубиной! Этот Трактирный буян — дварф, но при небольших изменениях им может быть любая раса."
 				],
 				"images": [
 					{
@@ -549,8 +549,8 @@
 			}
 		},
 		{
-			"name": "City Guard",
-			"shortName": "City Guard",
+			"name": "Городской стражник",
+			"shortName": "Городской стражник",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -591,29 +591,29 @@
 			},
 			"passive": 10,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Martial Advantage",
+					"name": "Воинское превосходство",
 					"entries": [
-						"Once per turn, the guard can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the guard that isn't {@condition incapacitated}."
+						"Один раз в ход стражник может нанести дополнительно 7 ({@damage 2d6}) урона существу, по которому попал атакой оружием, если это существо находится в пределах 5 футов от союзника стражника, не являющегося {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Pike",
+					"name": "Пика",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Light Crossbow",
+					"name": "Лёгкий арбалет",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, reach 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage.",
-						"{@b Ammunition:} You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way."
+						"{@atk rw} {@hit 4} к попаданию, досягаемость 100/400 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона.",
+						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для дальнобойной атаки, только если у вас есть боеприпасы, чтобы выстрелить из него. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Достать боеприпас из колчана, сумки или другого контейнера — часть атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на обыскивание поля боя. Если вы используете оружие со свойством «боеприпасы» для рукопашной атаки, вы рассматриваете это оружие как импровизированное (см. «Импровизированное оружие» ниже в разделе). Пращу нужно зарядить, чтобы нанести ею урон таким образом."
 					]
 				}
 			],
@@ -651,8 +651,8 @@
 			}
 		},
 		{
-			"name": "City Guard Commander",
-			"shortName": "City Guard Commander",
+			"name": "Командир городской стражи",
+			"shortName": "Командир городской стражи",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -698,60 +698,60 @@
 			},
 			"passive": 12,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Martial Advantage",
+					"name": "Воинское превосходство",
 					"entries": [
-						"Once per turn, the martial commander can deal an extra 10 (3d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the martial commander that isn't {@condition incapacitated}."
+						"Один раз в ход военный командир может нанести дополнительно 10 (3d6) урона существу, по которому попал атакой оружием, если это существо находится в пределах 5 футов от союзника военного командира, не являющегося {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The commander makes three melee or two ranged attacks"
+						"Командир совершает три рукопашные или две дальнобойные атаки."
 					]
 				},
 				{
-					"name": "Longsword (One-Handed)",
+					"name": "Длинный меч (одной рукой)",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longsword (Two-Handed)",
+					"name": "Длинный меч (двумя руками)",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Метательное копьё",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Javelin (Thrown)",
+					"name": "Метательное копьё (бросок)",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, reach 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk rw} {@hit 6} к попаданию, досягаемость 30/120 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Leadership (Recharges after a Short or Long rest)",
+					"name": "Командование (перезаряжается после короткого или продолжительного отдыха)",
 					"entries": [
-						"For 1 minute, the commander can utter a special command or warning whenever a non hostile creature that it can see within 30 feet of it makes an attack roll or saving throw. The creature can add a d4 to its roll provided it can hear and understand the commander. A creature can benefit from only one Leadership. die at a time. This effect ends if the commander is {@condition incapacitated}."
+						"В течение 1 минуты командир может отдавать особый приказ или предупреждение всякий раз, когда не враждебное существо, которое он видит в пределах 30 футов от него, совершает бросок атаки или спасбросок. Существо может добавить d4 к своему броску, если оно способно слышать и понимать командира. Существо может получать пользу только от одной кости «Командования» за раз. Этот эффект оканчивается, если командир {@condition incapacitated}."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"The commander adds +2 AC against a melee attack that would normally hit it. To do so, the commander must see the attacker and be wielding a melee weapon."
+						"Командир добавляет +2 КД против рукопашной атаки, которая обычно попала бы по нему. Для этого командир должен видеть атакующего и владеть рукопашным оружием."
 					]
 				}
 			],
@@ -794,8 +794,8 @@
 			}
 		},
 		{
-			"name": "City Guard Watch Captain",
-			"shortName": "City Guard Watch Captain",
+			"name": "Капитан городской стражи",
+			"shortName": "Капитан городской стражи",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -836,59 +836,59 @@
 			},
 			"passive": 12,
 			"languages": [
-				"Any One Language (Usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Tactical Insight",
+					"name": "Тактическое чутьё",
 					"entries": [
-						"The city watch captain has advantage on initiative rolls. City watch soldiers under the captain's command take their turns on the same initiative count as the captain."
+						"Капитан городской стражи имеет преимущество на броски инициативы. Солдаты городской стражи под командованием капитана действуют в том же порядке инициативы, что и капитан."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The city watch captain makes two rapier attacks and one dagger attack. The captain can substitute a disarming attack for one rapier attack."
+						"Капитан городской стражи совершает две атаки рапирой и одну атаку кинжалом. Капитан может заменить одну атаку рапирой обезоруживающей атакой."
 					]
 				},
 				{
-					"name": "Rapier",
+					"name": "Рапира",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Dagger (Thrown)",
+					"name": "Кинжал (бросок)",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, reach 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"{@atk rw} {@hit 5} к попаданию, досягаемость 20/60 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Light Crossbow",
+					"name": "Лёгкий арбалет",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, reach 80/320 ft., one target. {@h}5 ({@damage 1d8 + 3}) piercing damage.",
-						"{@b Ammunition:} You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way."
+						"{@atk rw} {@hit 5} к попаданию, досягаемость 80/320 футов, одна цель. {@h}5 ({@damage 1d8 + 3}) колющего урона.",
+						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для дальнобойной атаки, только если у вас есть боеприпасы, чтобы выстрелить из него. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Достать боеприпас из колчана, сумки или другого контейнера — часть атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на обыскивание поля боя. Если вы используете оружие со свойством «боеприпасы» для рукопашной атаки, вы рассматриваете это оружие как импровизированное (см. «Импровизированное оружие» ниже в разделе). Пращу нужно зарядить, чтобы нанести ею урон таким образом."
 					]
 				},
 				{
-					"name": "Disarming Attack",
+					"name": "Разоружающая атака",
 					"entries": [
-						"{@atk mw} +5 to hit, reach 5 ft., one target. Hit: the target must make a successful DC 13 Strength saving throw or drop one item it's holding of the city watch captain's choice. The item lands up to 10 feet from the target, in a spot selected by the captain."
+						"{@atk mw} +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: цель должна преуспеть в спасброске Силы Сл 13, иначе выронит один удерживаемый предмет на выбор капитана городской стражи. Предмет падает на расстоянии до 10 футов от цели в место, выбранное капитаном."
 					]
 				},
 				{
-					"name": "Orders to Attack (1/Day)",
+					"name": "Приказ атаковать (1/день)",
 					"entries": [
-						"Each creature of the city watch captain's choice that is within 30 feet of it and can hear it makes one melee or ranged weapon attack as a reaction. This person could easily have been on the other side of the law, but he likes the way he looks in the city watch uniform-and the way city residents look at him when he walks down the street leading a patrol. With a long mustache and a jaunty cap, there's no denying that he cuts a rakishly handsome figure. While a trained investigator, the city watch captain is not afraid to draw his blade to end a threat to his city."
+						"Каждое существо на выбор капитана городской стражи в пределах 30 футов от него, способное его слышать, совершает одну рукопашную или дальнобойную атаку оружием в качестве реакции. Этот человек легко мог бы оказаться по другую сторону закона, но ему нравится, как он выглядит в форме городской стражи — и как на него смотрят горожане, когда он идёт по улице во главе патруля. С длинными усами и лихо заломленным колпаком он, без сомнения, выглядит щеголевато и статно. Будучи опытным следователем, капитан городской стражи не боится обнажить клинок, чтобы положить конец угрозе своему городу."
 					]
 				}
 			],
@@ -931,8 +931,8 @@
 			}
 		},
 		{
-			"name": "Cultist",
-			"shortName": "Cultist",
+			"name": "Культист",
+			"shortName": "Культист",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -976,22 +976,22 @@
 			},
 			"passive": 11,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Multiple Weapons",
+					"name": "Разное оружие",
 					"entries": [
-						"Cultists are well known to use various different types of weapons to suit their needs. A cultist may replace their shortsword with any ranged or melee weapon they may have procured, though they do not count as being proficient in it."
+						"Культисты известны тем, что используют различные виды оружия под свои нужды. Культист может заменить свой короткий меч на любое дальнобойное или рукопашное оружие, которое сумел раздобыть, но при этом не считается владеющим им."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) рубящего урона."
 					]
 				}
 			],
@@ -1012,8 +1012,8 @@
 			"fluff": {
 				"entries": [
 					"{@link Cultist|https://valldoesdnd.tumblr.com/image/148703473015}",
-					"The common cultist is nothing for a wise adventurer to become concerned with. They are not brave, nor are they tough. They are, however, very devout towards the god they believe to worship, which can make them problematic in large numbers.",
-					"Dangerous rituals, hidden sects and background dealings are all evidence of cultist activity in an area. Smart adventurers would do well to stamp out this kind of activity, before fanatical fools begin to become to numerous and confident, or worse accidentally (or deliberately) unleashing far more horrifying and ancient terrors upon an unsuspecting world."
+					"Обычный культист — не повод для беспокойства умудрённого искателя приключений. Они не храбры и не выносливы. Однако они очень преданы божеству, которому, как полагают, поклоняются, и это может сделать их проблемой в большом количестве.",
+					"Опасные ритуалы, тайные секты и закулисные делишки — всё это свидетельства активности культистов в округе. Умным искателям приключений стоит искоренить такую деятельность, пока фанатичные глупцы не стали слишком многочисленными и самоуверенными или, что хуже, случайно (или намеренно) не выпустили на ничего не подозревающий мир куда более ужасные и древние ужасы."
 				],
 				"images": [
 					{
@@ -1027,8 +1027,8 @@
 			}
 		},
 		{
-			"name": "Darkblade Agent",
-			"shortName": "Darkblade Agent",
+			"name": "Агент Тёмного Клинка",
+			"shortName": "Агент Тёмного Клинка",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1070,34 +1070,34 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Surveil 2th Level",
+					"name": "Наблюдение, 2-й уровень",
 					"entries": [
-						"Once per day the Darkblade Agent is able to activate Surveil. By doing so it can see any living organism in a 20ft. radius. if it focuses on a creature it can see or succeeds a {@dc 15} wisdom check to focus on a creature it knows. It is able to see any physical and magical tails it has left behind, such as footsteps or energy left by cast spells. This lasts for 2 minutes. When questioned, this creature will talk back instead of answering."
+						"Один раз в день Агент Тёмного Клинка может активировать Наблюдение. При этом он видит любой живой организм в радиусе 20 футов. Если он сосредотачивается на существе, которое видит, или преуспевает в проверке Мудрости {@dc 15}, чтобы сосредоточиться на известном ему существе. Он способен видеть любые физические и магические следы, оставленные им, — например, отпечатки шагов или энергию от сотворённых заклинаний. Это длится 2 минуты. При допросе это существо будет огрызаться вместо ответов."
 					]
 				},
 				{
-					"name": "Servelled skill",
+					"name": "Навык наблюдения",
 					"entries": [
-						"While the Darkblade agent is using its Surveil ability the darkblade agent deals an extra {@damage 1d8} necrotic damage, this damage lowers the maximum hit points of the creature hit. Additionally whenever the darkblade agent successfully hits a creature it regains one round of surveil."
+						"Пока Агент Тёмного Клинка использует свою способность Наблюдение, он наносит дополнительно {@damage 1d8} некротического урона; этот урон уменьшает максимум хитов поражённого существа. Кроме того, каждый раз, когда Агент Тёмного Клинка успешно попадает по существу, он восстанавливает один раунд наблюдения."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The darkblade agent makes two attacks with its daggers or two with its throwing daggers"
+						"Агент Тёмного Клинка совершает две атаки кинжалами или две атаки метательными кинжалами."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/60 ft., one target. {@h}5 ({@damage 1d4}) piercing damage in melee, or 5 ({@damage 1d4}) piercing damage at range."
+						"{@atk mw,rw} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 30/60 фт., одна цель. {@h}5 ({@damage 1d4}) колющего урона в рукопашной, или 5 ({@damage 1d4}) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -1125,7 +1125,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"{@link Darkblade Agents|https://www.reddit.com/r/Pauper/comments/9fixlr/grn_darkblade_agent/} are the most common type of field agents of the Dimir. While they can kill it is not their primary objective. They do recon and basic spy work. So if they are not identified they will most likely flee the scene instead of starting an open fight."
+					"{@link Darkblade Agents|https://www.reddit.com/r/Pauper/comments/9fixlr/grn_darkblade_agent/} — самый распространённый тип полевых агентов Димиров. Хотя они умеют убивать, это не их главная цель. Они ведут разведку и выполняют базовую шпионскую работу. Поэтому, если их не раскрыли, они скорее всего сбегут с места событий, а не начнут открытый бой."
 				],
 				"images": [
 					{
@@ -1139,8 +1139,8 @@
 			}
 		},
 		{
-			"name": "Elite Arrester",
-			"shortName": "Elite Arrester",
+			"name": "Элитный задержатель",
+			"shortName": "Элитный задержатель",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1183,29 +1183,29 @@
 			},
 			"passive": 12,
 			"languages": [
-				"Common",
+				"Общий",
 				"And any other two language"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Nonleathal Fighter",
+					"name": "Несмертельный боец",
 					"entries": [
-						"When the Elite Arrester is attacking non lethally the attack deals an extra die of damage. "
+						"Когда Элитный задержатель атакует несмертельно, атака наносит дополнительную кость урона."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The Elite Arrester attacks twice with its warhammer."
+						"Элитный задержатель совершает две атаки боевым молотом."
 					]
 				},
 				{
-					"name": "Warhammer",
+					"name": "Боевой молот",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) bludgeoning damage, or 10 ({@damage 1d12 + 4}) bludgeoning damage if used with both hands."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d12 + 4}) дробящего урона, или 10 ({@damage 1d12 + 4}) дробящего урона при использовании двумя руками."
 					]
 				}
 			],
@@ -1245,8 +1245,8 @@
 			}
 		},
 		{
-			"name": "Guard Captain",
-			"shortName": "Guard Captain",
+			"name": "Капитан стражи",
+			"shortName": "Капитан стражи",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1292,40 +1292,40 @@
 			},
 			"passive": 13,
 			"languages": [
-				"Any One Language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The captain makes two melee attacks"
+						"Капитан совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Longsword (One-Handed)",
+					"name": "Длинный меч (одной рукой)",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longsword (Two-Handed)",
+					"name": "Длинный меч (двумя руками)",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage."
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "ShortBow",
+					"name": "Короткий лук",
 					"entries": [
-						"{@atk rw} {@hit 2} to hit, reach 80/320 ft., one target. {@h}5 ({@damage 1d6}) piercing damage.",
-						"{@b Ammunition:} You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
-						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way."
+						"{@atk rw} {@hit 2} к попаданию, досягаемость 80/320 футов, одна цель. {@h}5 ({@damage 1d6}) колющего урона.",
+						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
+						"Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
 					]
 				},
 				{
-					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"name": "Лидерство (восстанавливается после короткого или продолжительного отдыха)",
 					"entries": [
-						"For 1 minute, the captain can utter a special command or warning whenever a non hostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the captain. A creature can benefit from only one Leadership die at a time. This effect ends if the captain is {@condition incapacitated}. (An {@condition incapacitated} creature can't take actions or reactions.)"
+						"В течение 1 минуты капитан может отдавать особый приказ или предупреждение всякий раз, когда не враждебное существо, которое он видит в пределах 30 футов от него, совершает бросок атаки или спасбросок. Существо может добавить {@dice d4} к своему броску, если оно способно слышать и понимать капитана. Существо может получать пользу только от одной кости «Командования» за раз. Этот эффект оканчивается, если капитан {@condition incapacitated}. (Существо со состоянием {@condition incapacitated} не может совершать действия или реакции.)"
 					]
 				}
 			],
@@ -1353,7 +1353,7 @@
 			"fluff": {
 				"entries": [
 					"{@link Guard captains (dandwiki)|https://www.dandwiki.com/wiki/Guard_Captain_(5e_Creature)}",
-					"Guard captains are particularly influential guards, being effectively one step higher in their chain of command. One may have authority over anywhere from two to twenty lower-ranking guards. When keeping watch over a large area with a sizeable unit, the captain intends towards a central position from which commands can be issued most effectively. If a captain swears fealty to a kingdom or other large organization, it is likely subservient to knights, generals, or high-ranking nobles."
+					"Капитаны стражи — особенно влиятельные стражники, фактически на одну ступень выше в своей командной цепи. Один капитан может иметь власть над двумя-двадцатью стражниками более низкого ранга. Охраняя большую территорию внушительным отрядом, капитан стремится занять центральную позицию, откуда приказы можно отдавать наиболее эффективно. Если капитан приносит присягу королевству или другой крупной организации, он, вероятно, подчиняется рыцарям, генералам или высокородным дворянам."
 				],
 				"images": [
 					{
@@ -1367,8 +1367,8 @@
 			}
 		},
 		{
-			"name": "Guard Elite Simple",
-			"shortName": "Guard Elite Simple",
+			"name": "Элитный стражник, простой",
+			"shortName": "Элитный стражник, простой",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1411,26 +1411,26 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Any One Language (Usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Spear (One-Handed)",
+					"name": "Копьё (одной рукой)",
 					"entries": [
-						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+						"{@atk mw} {@hit 1} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Spear (Thrown)",
+					"name": "Копьё (метательное)",
 					"entries": [
-						"{@atk rw} {@hit 1} to hit, reach 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+						"{@atk rw} {@hit 1} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Spear (Two-Handed)",
+					"name": "Копьё (двумя руками)",
 					"entries": [
-						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+						"{@atk mw} {@hit 1} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
 					]
 				}
 			],
@@ -1453,7 +1453,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"SImple Guard Elite"
+					"Простой элитный стражник"
 				],
 				"images": [
 					{
@@ -1467,8 +1467,8 @@
 			}
 		},
 		{
-			"name": "Guard Simple",
-			"shortName": "Guard Simple",
+			"name": "Стражник, простой",
+			"shortName": "Стражник, простой",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1509,20 +1509,20 @@
 			},
 			"passive": 12,
 			"languages": [
-				"Any One Language (Usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Spear",
+					"name": "Копьё",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d6}) колющего урона."
 					]
 				}
 			],
@@ -1543,7 +1543,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Simple Guard"
+					"Простой стражник"
 				],
 				"images": [
 					{
@@ -1557,8 +1557,8 @@
 			}
 		},
 		{
-			"name": "Guard with Bow Simple",
-			"shortName": "Guard with Bow Simple",
+			"name": "Стражник с луком, простой",
+			"shortName": "Стражник с луком, простой",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1599,22 +1599,22 @@
 			},
 			"passive": 12,
 			"languages": [
-				"Any One Language (Usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Spear",
+					"name": "Копьё",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "ShortBow",
+					"name": "Короткий лук",
 					"entries": [
-						"{@atk rw} {@hit 2} to hit, reach 80/320 ft., one target. {@h}4 ({@damage 1d6+1}) piercing damage.",
-						"{@b Ammunition:} You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
-						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way."
+						"{@atk rw} {@hit 2} к попаданию, досягаемость 80/320 футов, одна цель. {@h}4 ({@damage 1d6+1}) колющего урона.",
+						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
+						"Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
 					]
 				}
 			],
@@ -1637,7 +1637,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Guard with Bow"
+					"Стражник с луком"
 				],
 				"images": [
 					{
@@ -1651,8 +1651,8 @@
 			}
 		},
 		{
-			"name": "Handmaiden or Prostitute or Hooker or Courtesan",
-			"shortName": "Handmaiden or Prostitute or Hooker or Courtesan",
+			"name": "Служанка, или проститутка, или куртизанка",
+			"shortName": "Служанка, или проститутка, или куртизанка",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1692,14 +1692,14 @@
 			},
 			"passive": 13,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "1/2",
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 2}) рубящего урона."
 					]
 				}
 			],
@@ -1733,8 +1733,8 @@
 			}
 		},
 		{
-			"name": "High Priest of the sun",
-			"shortName": "High Priest of the sun",
+			"name": "Верховный жрец солнца",
+			"shortName": "Верховный жрец солнца",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1784,16 +1784,16 @@
 				"blinded"
 			],
 			"languages": [
-				"Common",
-				"Ignan"
+				"Общий",
+				"Игнан"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The high priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It knows the following sorcerer spells:"
+						"Верховный жрец — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Харизма (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию атаками заклинаниями). Он знает следующие заклинания чародея:"
 					],
 					"spells": {
 						"0": {
@@ -1847,47 +1847,47 @@
 			],
 			"trait": [
 				{
-					"name": "Sun's Radiance",
+					"name": "Сияние солнца",
 					"entries": [
-						"You learn the {@spell produce flame} cantrip, and it does not count towards your amount of cleric cantrips known. Additionally, whenever you deal fire or radiant damage, you may choose to change it from one or the other."
+						"Вы изучаете заговор {@spell produce flame}, и он не учитывается в вашем количестве известных заговоров жреца. Кроме того, всякий раз, когда вы наносите урон огнём или излучением, вы можете изменить его с одного на другое."
 					]
 				},
 				{
-					"name": "Divine Strike",
+					"name": "Божественный удар",
 					"entries": [
-						"You gain the ability to infuse your weapon strikes with burning flames. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} fire damage to the target."
+						"Вы получаете способность наполнять свои удары оружием пылающим пламенем. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительно {@damage 1d8} урона огнём."
 					]
 				},
 				{
-					"name": "Shroud of the Desert",
+					"name": "Покров пустыни",
 					"entries": [
-						"You gain resistance to fire-type or radiant-type damage, and can change the resistance as a 1-minute ritual in prayer. Additionally, you are immune to being {@condition blinded}."
+						"Вы получаете сопротивление урону огнём или урону излучением и можете менять это сопротивление 1-минутным ритуалом в молитве. Кроме того, вы не можете быть {@condition blinded}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Scimitar",
+					"name": "Скимитар",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) рубящего урона."
 					]
 				},
 				{
-					"name": "Solar Strike",
+					"name": "Солнечный удар",
 					"entries": [
-						"As an action, you can call upon the might of the sun, to strike a point within 30 feet of you. Creatures within 5 feet of that point must make a Dexterity saving throw, taking {@damage 1d10} + your cleric level fire damage and being {@condition blinded} for 1 minute on a failed saving throw, or half on a success without being {@condition blinded}. The target may repeat the saving throw at the end of each of their turns, ending the effect on a success."
+						"Действием вы можете воззвать к мощи солнца, чтобы ударить в точку в пределах 30 футов от вас. Существа в пределах 5 футов от этой точки должны совершить спасбросок Ловкости, получая {@damage 1d10} + ваш уровень жреца урона огнём и становясь {@condition blinded} на 1 минуту при провале спасброска, или половину при успехе, не становясь {@condition blinded}. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
 					]
 				},
 				{
-					"name": "Praise the Sun!",
+					"name": "Восславь солнце!",
 					"entries": [
-						"As an action, you may assume the pose of praising the sun, shouting 'Praise the Sun!'. For 1 minute, a number of allied creatures equal to your Wisdom modifier (min 1) within 60 feet of you deal {@dice 1d8} fire or radiant (their choice) damage for one melee attack on a turn, and gain temporary hit points equal to your Cleric level."
+						"Действием вы можете принять позу восхваления солнца, воскликнув «Восславь солнце!». В течение 1 минуты количество союзных существ, равное вашему модификатору Мудрости (минимум 1), в пределах 60 футов от вас наносят {@dice 1d8} урона огнём или излучением (на их выбор) за одну рукопашную атаку в ход и получают временные хиты, равные вашему уровню жреца."
 					]
 				}
 			],
@@ -1926,7 +1926,7 @@
 			"hasToken": true,
 			"fluff": {
 				"entries": [
-					"Based on the {@link Cleric of Sun Domain|https://blackbandos-homebrew.fandom.com/wiki/Solar_Domain_(5e_Cleric_Archetype) }"
+					"На основе {@link Cleric of Sun Domain|https://blackbandos-homebrew.fandom.com/wiki/Solar_Domain_(5e_Cleric_Archetype) }"
 				],
 				"images": [
 					{
@@ -1940,8 +1940,8 @@
 			}
 		},
 		{
-			"name": "Janissary",
-			"shortName": "Janissary",
+			"name": "Янычар",
+			"shortName": "Янычар",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -1984,54 +1984,54 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any three languages"
+				"любые три языка"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Blade Mastery",
+					"name": "Мастерство клинка",
 					"entries": [
-						"When janissary hits with its scimitar, it rolls one additional damage die and adds it to the damage of the attack (included in the attack)"
+						"Когда янычар попадает своим скимитаром, он бросает одну дополнительную кость урона и добавляет её к урону атаки (уже включено в атаку)."
 					]
 				},
 				{
-					"name": "Blade Ward",
+					"name": "Защита клинком",
 					"entries": [
-						"The janissary gains the same benefits from its scimitar as it would from a shield"
+						"Янычар получает от своего скимитара те же преимущества, что и от щита."
 					]
 				},
 				{
-					"name": "Dervish",
+					"name": "Дервиш",
 					"entries": [
-						"During the janissary's turn, if it makes a melee attack against a creature, that creature cannot make opportunity attacks against it until the end of the janissary's turn."
+						"В течение хода янычара, если он совершает рукопашную атаку по существу, это существо не может совершать по нему атаки по возможности до конца хода янычара."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The janissary makes three attacks, one with its clawed gauntlet and two with its scimitar."
+						"Янычар совершает три атаки: одну когтистой рукавицей и две скимитаром."
 					]
 				},
 				{
-					"name": "Scimitar",
+					"name": "Скимитар",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
 					]
 				},
 				{
-					"name": "Clawed Gauntlet",
+					"name": "Когтистая рукавица",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. If the target is a creature other than an undead or a construct, it must succeed ona {@dc 15} Constitution saving throw or lose 2 ({@dice 1d4}) hit points at the end of each of its turns until it or a creature within 5 feet of it uses its action to staunch the wound. The wound also closes if the target receives magical healing. Each time the janissary hits the wounded target with a weapon attack, the damage dealt by the wound increases by 2 ({@dice 1d4})."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона. Если цель — существо, не являющееся нежитью или конструктом, она должна преуспеть в спасброске Телосложения {@dc 15}, иначе теряет 2 ({@dice 1d4}) хита в конце каждого своего хода, пока она или существо в пределах 5 футов от неё не потратит действие, чтобы остановить кровотечение. Рана также закрывается, если цель получает магическое лечение. Каждый раз, когда янычар попадает по раненой цели атакой оружием, урон от раны увеличивается на 2 ({@dice 1d4})."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Deflection Attack",
+					"name": "Отражение атаки",
 					"entries": [
-						"When a hostile creature misses the janissary with a melee weapon attack, the janissary can cause that attack to hit one creature of its choice, other than the attacker, that it can see within 5 feet of it."
+						"Когда враждебное существо промахивается по янычару рукопашной атакой оружием, янычар может заставить эту атаку попасть по одному существу на свой выбор, отличному от атакующего, которое он видит в пределах 5 футов от себя."
 					]
 				}
 			],
@@ -2059,9 +2059,9 @@
 			"fluff": {
 				"entries": [
 					"{@link Janissary|https://www.reddit.com/r/monsteraday/comments/ab1er1/janissary/?utm_medium=android_app&utm_source=share}",
-					"\"Come dancing with the devil? Best be leading it.\" . ",
-					"- Janissary Ekrem",
-					"Janissaries are of the utmost elite soldiers. To them, their blades are an extension of their body, whirling them effortlessly, redirecting attacks that would normally hit them onto others. The saying \"a great defense is a good offense\" applies to all warriors, but for a Janissary, this means nothing to them, as their blades act as shields effortlessly deflecting attacks. They utilize their clawed gauntlets to fester deep wounds in opponents, causing opponents to either focus on the wounds to which they succumb to or the battle against whirling devil they fight. This combination of enthusiasm and skill has led many to be slain by their dancing blades"
+					"«Танцевать с дьяволом? Лучше вести.»",
+					"— Янычар Экрем",
+					"Янычары — элитнейшие из солдат. Для них клинки — продолжение тела: они крутят ими без усилий, перенаправляя атаки, которые обычно попали бы по ним, на других. Поговорка «лучшая защита — хорошее нападение» применима ко всем воинам, но для янычара она не значит ничего, ведь его клинки, словно щиты, без усилий отражают атаки. Своими когтистыми рукавицами они наносят глубокие раны противникам, заставляя тех либо сосредоточиться на ранах, от которых они погибнут, либо на битве с кружащимся дьяволом. Это сочетание энтузиазма и мастерства привело к тому, что многие были сражены их танцующими клинками."
 				],
 				"images": [
 					{
@@ -2075,8 +2075,8 @@
 			}
 		},
 		{
-			"name": "Ninja",
-			"shortName": "Ninja",
+			"name": "Ниндзя",
+			"shortName": "Ниндзя",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -2118,60 +2118,60 @@
 			},
 			"passive": 13,
 			"languages": [
-				"Any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Evasion",
+					"name": "Уклонение",
 					"entries": [
-						"If the ninja is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the ninja instead takes no damage if it succeeds on the saving throw, and only half damage if it fail."
+						"Если ниндзя подвергается эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить только половину урона, при успехе ниндзя вместо этого не получает урона, а при провале получает только половину урона."
 					]
 				},
 				{
-					"name": "Shadow Stealth",
+					"name": "Теневая скрытность",
 					"entries": [
-						"While in dim light or darkness, the ninja can take the Hide action as a bonus action."
+						"Находясь в тусклом свете или темноте, ниндзя может совершить действие «Скрыться» бонусным действием."
 					]
 				},
 				{
-					"name": "Unarmored defense",
+					"name": "Защита без доспехов",
 					"entries": [
-						"While the ninja is wearing no armor and wielding no shield, its AC includes its wisdom modifier."
+						"Пока ниндзя не носит доспехов и не использует щит, его КД включает модификатор Мудрости."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The ninja makes two weapon attacks. "
+						"Ниндзя совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Shortswords",
+					"name": "Короткие мечи",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, plus 7 ({@damage 2d6}) poison damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом."
 					]
 				},
 				{
-					"name": "Dart",
+					"name": "Дротик",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage, plus 7 ({@damage 2d6}) poison damage."
+						"{@atk rw} {@hit 7} к попаданию, дистанция 20/60 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом."
 					]
 				},
 				{
-					"name": "Smoke Bomb (1/Day)",
+					"name": "Дымовая бомба (1/день)",
 					"entries": [
-						"The ninja throws a smoke bomb at a point up 60 ft.. The area within a 5 ft. radius of the impact immediately becomes heavily obscured. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in one round. Otherwise, that smoke dissipates after 1 minute."
+						"Ниндзя бросает дымовую бомбу в точку на расстоянии до 60 фт. Область в радиусе 5 фт. от места удара немедленно становится сильно заслонённой. Умеренный ветер (не менее 10 миль в час) рассеивает дым за 4 раунда; сильный ветер (20 и более миль в час) рассеивает его за один раунд. В противном случае дым рассеивается через 1 минуту."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Deflect Missile",
+					"name": "Отражение снаряда",
 					"entries": [
-						"In response to being hit by a ranged weapon, the ninja deflects the missile. The damage it takes from the attack is reduced by {@dice 1d10 + 4}. If the damage is reduced to 0, the ninja catenes the missile if it is small enough to hold in one hand end the ninja has a free hand."
+						"В ответ на попадание дальнобойным оружием ниндзя отражает снаряд. Получаемый им от атаки урон уменьшается на {@dice 1d10 + 4}. Если урон уменьшен до 0, ниндзя ловит снаряд, если он достаточно мал, чтобы уместиться в одной руке, и у ниндзя есть свободная рука."
 					]
 				}
 			],
@@ -2213,8 +2213,8 @@
 			}
 		},
 		{
-			"name": "Pirate Captain",
-			"shortName": "Pirate Captain",
+			"name": "Капитан пиратов",
+			"shortName": "Капитан пиратов",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -2264,52 +2264,52 @@
 			},
 			"passive": 9,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Lightfooted",
+					"name": "Лёгкая поступь",
 					"entries": [
-						"The captain can take the Dash or Disengage action as a bonus action on each of its turns."
+						"Капитан может совершать действие «Рывок» или «Отход» бонусным действием в каждый свой ход."
 					]
 				},
 				{
-					"name": "Sea Legs",
+					"name": "Морские ноги",
 					"entries": [
-						"The captain has advantage on Strength and Dexterity checks made while standing on a waterborne vehicle (as described on page 157 of the Players Handbook)."
+						"Капитан имеет преимущество на проверки Силы и Ловкости, совершаемые стоя на плавучем средстве (как описано на странице 157 Книги игрока)."
 					]
 				},
 				{
-					"name": "Sneak Attack (1/Tum)",
+					"name": "Скрытая атака (1/ход)",
 					"entries": [
-						"The captain deals an extra 14 ({@damage 6d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the captain that isn't {@condition incapacitated} and the captain doesn't have disadvantage on the attack roll."
+						"Капитан наносит дополнительно 14 ({@damage 6d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника капитана, не являющегося {@condition incapacitated}, и капитан не имеет помехи на бросок атаки."
 					]
 				},
 				{
-					"name": "Suave Defense",
+					"name": "Отточенная защита",
 					"entries": [
-						"The captain deals an extra 14 ({@damage 6d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the captain that isn't {@condition incapacitated} and the captain doesn't have disadvantage on the attack roll."
+						"Капитан наносит дополнительно 14 ({@damage 6d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника капитана, не являющегося {@condition incapacitated}, и капитан не имеет помехи на бросок атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The captain makes three attacks: one with its whip and two with its rapier."
+						"Капитан совершает три атаки: одну хлыстом и две рапирой."
 					]
 				},
 				{
-					"name": "Rapier",
+					"name": "Рапира",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Whip",
+					"name": "Хлыст",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage. If the target a Medium or smaller creature, it must make a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) рубящего урона. Если цель — существо Среднего размера или меньше, она должна совершить спасбросок Силы {@dc 15}, иначе будет сбита {@condition prone}."
 					]
 				}
 			],
@@ -2362,8 +2362,8 @@
 			}
 		},
 		{
-			"name": "Priest of the sun",
-			"shortName": "Priest of the sun",
+			"name": "Жрец солнца",
+			"shortName": "Жрец солнца",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -2413,16 +2413,16 @@
 				"blinded"
 			],
 			"languages": [
-				"Common",
-				"Terran"
+				"Общий",
+				"Терран"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It knows the following sorcerer spells:"
+						"Жрец — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Харизма (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию атаками заклинаниями). Он знает следующие заклинания чародея:"
 					],
 					"spells": {
 						"0": {
@@ -2476,61 +2476,61 @@
 			],
 			"trait": [
 				{
-					"name": "Heavy armored",
+					"name": "Тяжёлый доспех",
 					"entries": [
-						"You gain proficiency with heavy armor."
+						"Вы получаете владение тяжёлыми доспехами."
 					]
 				},
 				{
-					"name": "Sun's Radiance",
+					"name": "Сияние солнца",
 					"entries": [
-						"You learn the {@spell produce flame} cantrip, and it does not count towards your amount of cleric cantrips known. Additionally, whenever you deal fire or radiant damage, you may choose to change it from one or the other."
+						"Вы изучаете заговор {@spell produce flame}, и он не учитывается в вашем количестве известных заговоров жреца. Кроме того, всякий раз, когда вы наносите урон огнём или излучением, вы можете изменить его с одного на другое."
 					]
 				},
 				{
-					"name": "Divine Strike",
+					"name": "Божественный удар",
 					"entries": [
-						"You gain the ability to infuse your weapon strikes with burning flames. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} fire damage to the target."
+						"Вы получаете способность наполнять свои удары оружием пылающим пламенем. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительно {@damage 1d8} урона огнём."
 					]
 				},
 				{
-					"name": "Shroud of the Desert",
+					"name": "Покров пустыни",
 					"entries": [
-						"You gain resistance to fire-type or radiant-type damage, and can change the resistance as a 1-minute ritual in prayer. Additionally, you are immune to being {@condition blinded}."
+						"Вы получаете сопротивление урону огнём или урону излучением и можете менять это сопротивление 1-минутным ритуалом в молитве. Кроме того, вы не можете быть {@condition blinded}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The priest makes two melee attacks."
+						"Жрец совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Glaive",
+					"name": "Глефа",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Solar Strike",
+					"name": "Солнечный удар",
 					"entries": [
-						"As an action, you can call upon the might of the sun, to strike a point within 30 feet of you. Creatures within 5 feet of that point must make a Dexterity saving throw, taking {@damage 1d10} + your cleric level fire damage and being {@condition blinded} for 1 minute on a failed saving throw, or half on a success without being {@condition blinded}. The target may repeat the saving throw at the end of each of their turns, ending the effect on a success."
+						"Действием вы можете воззвать к мощи солнца, чтобы ударить в точку в пределах 30 футов от вас. Существа в пределах 5 футов от этой точки должны совершить спасбросок Ловкости, получая {@damage 1d10} + ваш уровень жреца урона огнём и становясь {@condition blinded} на 1 минуту при провале спасброска, или половину при успехе, не становясь {@condition blinded}. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
 					]
 				},
 				{
-					"name": "Praise the Sun!",
+					"name": "Восславь солнце!",
 					"entries": [
-						"As an action, you may assume the pose of praising the sun, shouting 'Praise the Sun!'. For 1 minute, a number of allied creatures equal to your Wisdom modifier (min 1) within 60 feet of you deal {@dice 1d8} fire or radiant (their choice) damage for one melee attack on a turn, and gain temporary hit points equal to your Cleric level."
+						"Действием вы можете принять позу восхваления солнца, воскликнув «Восславь солнце!». В течение 1 минуты количество союзных существ, равное вашему модификатору Мудрости (минимум 1), в пределах 60 футов от вас наносят {@dice 1d8} урона огнём или излучением (на их выбор) за одну рукопашную атаку в ход и получают временные хиты, равные вашему уровню жреца."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Unyielding",
+					"name": "Непреклонность",
 					"entries": [
-						"When the priest is subjected to an effect that would move it, knock it {@condition prone}, or both, it can use its reaction to be neither moved nor knocked {@condition prone}."
+						"Когда жрец подвергается эффекту, который переместил бы его, сбил бы его {@condition prone} или и то и другое, он может использовать свою реакцию, чтобы не быть ни перемещённым, ни сбитым {@condition prone}."
 					]
 				}
 			],
@@ -2573,7 +2573,7 @@
 			"hasToken": true,
 			"fluff": {
 				"entries": [
-					"Based on the {@link Cleric of Sun Domain|https://blackbandos-homebrew.fandom.com/wiki/Solar_Domain_(5e_Cleric_Archetype) }"
+					"На основе {@link Cleric of Sun Domain|https://blackbandos-homebrew.fandom.com/wiki/Solar_Domain_(5e_Cleric_Archetype) }"
 				],
 				"images": [
 					{
@@ -2587,8 +2587,8 @@
 			}
 		},
 		{
-			"name": "Shyvana - the half-dragon",
-			"shortName": "Shyvana - the half-dragon",
+			"name": "Шивана — полудракон",
+			"shortName": "Шивана — полудракон",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -2651,61 +2651,61 @@
 				"fire"
 			],
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Burnout",
+					"name": "Выгорание",
 					"entries": [
-						"As a bonus action on her turn, Shyvana can emit blazing fire in a 10 ft.radius that lasts until the start of her next turn. A creature that starts its turn within this radius must succeed on a {@dc 14} Dexterity saving throw or take 7 ({@damage 2d6}) fire damage.",
-						"While Shyvana is in dragon form, a target takes an extra 3 ({@damage 1d6}) fire damage on a failed save."
+						"Бонусным действием в свой ход Шивана может испускать пылающее пламя в радиусе 10 фт., которое длится до начала её следующего хода. Существо, начинающее свой ход в этом радиусе, должно преуспеть в спасброске Ловкости {@dc 14}, иначе получит 7 ({@damage 2d6}) урона огнём.",
+						"Пока Шивана находится в форме дракона, цель при провале спасброска получает дополнительно 3 ({@damage 1d6}) урона огнём."
 					]
 				},
 				{
-					"name": "Dragon Slayer",
+					"name": "Убийца драконов",
 					"entries": [
-						"Shyvana has advantage on weapon attack rolls against dragons. When Shyvana hits a dragon with a weapon attack, the weapon deals one extra die of its damage."
+						"Шивана имеет преимущество на броски атак оружием против драконов. Когда Шивана попадает по дракону атакой оружием, оружие наносит одну дополнительную кость своего урона."
 					]
 				},
 				{
-					"name": "Fury of the Dragon",
+					"name": "Ярость дракона",
 					"entries": [
-						"Whenever Shyvana takes 20 or more fire damage in a single turn, she immediately regains any expended use of her Change Shape action."
+						"Всякий раз, когда Шивана получает 20 или более урона огнём за один ход, она немедленно восстанавливает израсходованное использование своего действия «Смена облика»."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Shyvana attacks twice with her claws. She can substitute bite for one of these attacks if available."
+						"Шивана атакует дважды когтями. Она может заменить одну из этих атак укусом, если он доступен."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage, plus 3 ({@damage 1d6}) fire damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 2d4 + 4}) рубящего урона, плюс 3 ({@damage 1d6}) урона огнём."
 					]
 				},
 				{
-					"name": "Bite (Dragon Form Only)",
+					"name": "Укус (только в форме дракона)",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage, plus 3 ({@damage 1d6}) fire damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона, плюс 3 ({@damage 1d6}) урона огнём."
 					]
 				},
 				{
-					"name": "Fire Breath {@recharge}",
+					"name": "Огненное дыхание {@recharge}",
 					"entries": [
-						"Shyvana unleashes fire in 30-foot line that is 5 feet wide. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one.",
-						"While Shyvana is in dragon form, the area becomes a 30-foot cone and a target takes an extra 14 ({@damage 4d6}) fire damage."
+						"Шивана выпускает огонь в линию длиной 30 футов и шириной 5 футов. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 14}, получая 28 ({@damage 8d6}) урона огнём при провале или половину этого урона при успехе.",
+						"Пока Шивана находится в форме дракона, область становится конусом длиной 30 футов, а цель получает дополнительно 14 ({@damage 4d6}) урона огнём."
 					]
 				},
 				{
-					"name": "Change Shape (1/Day)",
+					"name": "Смена облика (1/день)",
 					"entries": [
-						"Shyvana magically polymorphs into a Large dragon, and can remain in this form for up to 1 hour. Her statistics, other than her size, remain the same in this form. Any equipment she is wearing or carrying isn't transformed. Shyvana reverts to her true form if she dies or falls {@condition unconscious}. She can revert to her true form using a bonus action on her turn."
+						"Шивана магически превращается в Большого дракона и может оставаться в этой форме до 1 часа. Её характеристики, кроме размера, в этой форме остаются прежними. Любое снаряжение, которое на ней надето или которое она несёт, не превращается. Шивана возвращается к своему истинному облику, если умирает или теряет сознание ({@condition unconscious}). Она может вернуться к истинному облику бонусным действием в свой ход."
 					]
 				}
 			],
@@ -2752,8 +2752,8 @@
 			}
 		},
 		{
-			"name": "Sivir, the Battle Mistress",
-			"shortName": "Sivir, the battle mistress",
+			"name": "Сивир, боевая госпожа",
+			"shortName": "Сивир, боевая госпожа",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -2801,72 +2801,72 @@
 			},
 			"passive": 15,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Special Equipment",
+					"name": "Особое снаряжение",
 					"entries": [
-						"Sivir wields the crossblade Chalicar, a magic weapon that grants a+1 bonus to attack and damage rolls (already included in her statistics). After she makes an attack using this weapon, it returns to her hand."
+						"Сивир владеет скрещённым клинком Чаликар — магическим оружием, дающим бонус +1 к броскам атаки и урона (уже включено в её характеристики). После того как она совершает атаку этим оружием, оно возвращается ей в руку."
 					]
 				},
 				{
-					"name": "Desert Born",
+					"name": "Дитя пустыни",
 					"entries": [
-						"Sivir is naturally adapted to hot climates, and automatically succeeds on any saving throw against effects of extreme heat."
+						"Сивир естественно приспособлена к жаркому климату и автоматически преуспевает в любых спасбросках против эффектов экстремальной жары."
 					]
 				},
 				{
-					"name": "Fleet of Foot",
+					"name": "Быстрота ног",
 					"entries": [
-						"Sivir can use a bonus action on her turn to take the Dash action."
+						"Сивир может бонусным действием в свой ход совершить действие «Рывок»."
 					]
 				},
 				{
-					"name": "Rise of the Ascended (1/Day)",
+					"name": "Восход Вознесённых (1/день)",
 					"entries": [
-						"When Sivir dies, she regains half of her total hit points in 1 minute unless her body is destroyed or she is native to a different plane than the one she is currently on."
+						"Когда Сивир умирает, она восстанавливает половину своих общих хитов через 1 минуту, если её тело не уничтожено и она не является уроженцем иного плана, чем тот, на котором находится."
 					]
 				},
 				{
-					"name": "Tomb Raider",
+					"name": "Расхитительница гробниц",
 					"entries": [
-						"Sivir has advantage on ability checks to determine the monetary value of nonmagical objects more than a century old. In addition, Sivir has advantage on Dexterity saving throws against harmful effects that she can see while in ancient ruins. To gain this benefit, she can't be {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
+						"Сивир имеет преимущество на проверки характеристик для определения денежной стоимости немагических предметов возрастом более столетия. Кроме того, Сивир имеет преимущество на спасброски Ловкости против вредных эффектов, которые она видит, находясь в древних руинах. Чтобы получить это преимущество, она не может быть {@condition blinded}, {@condition deafened} или {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Sivir makes two chalicar attacks."
+						"Сивир совершает две атаки Чаликаром."
 					]
 				},
 				{
-					"name": "Chalicar",
+					"name": "Чаликар",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}11 ({@damage 2d6 + 5}) slashing damage, and a hostile creature within 10 feet of the target must succeed on a {@dc 15} Dexterity saving throw or take 7 ({@damage 2d6}) slashing damage. Each time a target fails its saving throw this way, Sivir can choose a new target within 10 feet of the previous one (maximum of 6 times), but can't choose the same target more than once."
+						"{@atk rw} {@hit 8} к попаданию, дистанция 30/90 фт., одна цель. {@h}11 ({@damage 2d6 + 5}) рубящего урона, и враждебное существо в пределах 10 футов от цели должно преуспеть в спасброске Ловкости {@dc 15}, иначе получит 7 ({@damage 2d6}) рубящего урона. Каждый раз, когда цель проваливает такой спасбросок, Сивир может выбрать новую цель в пределах 10 футов от предыдущей (максимум 6 раз), но не может выбрать одну и ту же цель более одного раза."
 					]
 				},
 				{
-					"name": "Deadly Hurl",
+					"name": "Смертельный бросок",
 					"entries": [
-						"Sivir hurls her crossblade in a line 30 feet long and 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 14 ({@damage 4d6}) slashing damage on a failed save, or half as much damage on a successful one."
+						"Сивир швыряет свой клинок по линии длиной 30 футов и шириной 5 футов. Каждое существо на линии должно совершить спасбросок Ловкости {@dc 15}, получая 14 ({@damage 4d6}) рубящего урона при провале или половину этого урона при успехе."
 					]
 				},
 				{
-					"name": "Dauntless Charge (1/Day)",
+					"name": "Бесстрашный натиск (1/день)",
 					"entries": [
-						"Sivir and each creature of her choice that is within 30 feet of her and can hear her has its speed doubled until the start of Sivir's next turn. Sivir can then make one attack as a bonus action."
+						"Сивир и каждое существо на её выбор в пределах 30 футов от неё, способное её слышать, удваивают свою скорость до начала следующего хода Сивир. Затем Сивир может совершить одну атаку бонусным действием."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Spell Shield",
+					"name": "Щит от заклинаний",
 					"entries": [
-						"Sivir can add a {@dice 1d10} to a saving throw she makes against a harmful spell or other magical effect."
+						"Сивир может добавить {@dice 1d10} к спасброску, который совершает против вредного заклинания или иного магического эффекта."
 					]
 				}
 			],
@@ -2902,8 +2902,8 @@
 			}
 		},
 		{
-			"name": "Sun Knight",
-			"shortName": "Sun Knight",
+			"name": "Солнечный рыцарь",
+			"shortName": "Солнечный рыцарь",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -2956,15 +2956,15 @@
 				"radiant"
 			],
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "10",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The sun knight is a 9th-level spellcaster. Its spellcasting ability's Wisdom (spell save {@dc 16}, +8 to hit with spell attacks). The sun knight has the following spells prepared:"
+						"Солнечный рыцарь — заклинатель 9-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 16}, +8 к попаданию атаками заклинаниями). Солнечный рыцарь подготовил следующие заклинания:"
 					],
 					"spells": {
 						"0": {
@@ -3022,29 +3022,29 @@
 			],
 			"trait": [
 				{
-					"name": "Illumination (1/Day)",
+					"name": "Озарение (1/день)",
 					"entries": [
-						"The sun knight can use a bonus action to shed bright light in a 30 ft. radius and dim light for an additional 30 ft. .This light lasts for 1 minute and is sunlight."
+						"Солнечный рыцарь может бонусным действием излучать яркий свет в радиусе 30 фт. и тусклый свет ещё на 30 фт. Этот свет длится 1 минуту и является солнечным светом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The sun knight makes three attacks with its radiant longsword."
+						"Солнечный рыцарь совершает три атаки сияющим длинным мечом."
 					]
 				},
 				{
-					"name": "Radiant Longsword",
+					"name": "Сияющий длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 13 ({@damage 3d8}) radiant damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона, плюс 13 ({@damage 3d8}) урона излучением."
 					]
 				},
 				{
-					"name": "Turn Unholy",
+					"name": "Изгнание нечестивых",
 					"entries": [
-						"Each fiend or undead that can see or hear the sun knight within 30 feet of t must make a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the svi ng throw at the end of each of its tums, encing the effect on itself on a success. If a creature's saving throw is successful or the effect cnds for it the creature is immune to the knight's Turn Unholy for the next 24 hours. The knight can use this action once per short rest."
+						"Каждое исчадие или нежить, способные видеть или слышать солнечного рыцаря в пределах 30 футов от него, должны преуспеть в спасброске Мудрости {@dc 16}, иначе станут {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа успешен или эффект на нём окончился, существо получает иммунитет к «Изгнанию нечестивых» этого рыцаря на следующие 24 часа. Рыцарь может использовать это действие один раз за короткий отдых."
 					]
 				}
 			],
@@ -3080,8 +3080,8 @@
 			"fluff": {
 				"entries": [
 					"{@link Sun Knight|https://www.pinterest.it/pin/747316131913640012/}",
-					"Touched with a divine grace by their deity, sun knights are pillars that the righteous lean upon to combat the veil, They are bound by duty to end the existence of evil and corrupt creatures that turk in the shadows,",
-					"Beacon of Hope. Sun knights are able to channel the brightness of the sun itself through their holy symbols, illuminating the darkest corners of the world so they can purge the wicked from the realm. This searing light burns away the impurities that hide in the darkness, bringing the warmth of the sun's glow to the creatures that shy away from its brilliance. "
+					"Наделённые божественной благодатью своего божества, солнечные рыцари — столпы, на которые опираются праведные в борьбе с завесой. Они связаны долгом положить конец существованию злых и порочных существ, таящихся в тенях.",
+					"Маяк надежды. Солнечные рыцари способны пропускать яркость самого солнца через свои святые символы, озаряя самые тёмные уголки мира, чтобы изгнать зло из пределов. Этот жгучий свет выжигает скверну, что прячется во тьме, принося тепло солнечного сияния существам, что избегают его блеска."
 				],
 				"images": [
 					{
@@ -3095,8 +3095,8 @@
 			}
 		},
 		{
-			"name": "The Bastion",
-			"shortName": "The Bastion",
+			"name": "Бастион",
+			"shortName": "Бастион",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -3137,54 +3137,54 @@
 			},
 			"passive": 12,
 			"languages": [
-				"Any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Brute",
+					"name": "Громила",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when the the bastion hits with it."
+						"Рукопашное оружие наносит одну дополнительную кость своего урона, когда Бастион попадает им."
 					]
 				},
 				{
-					"name": "Shelter",
+					"name": "Укрытие",
 					"entries": [
-						"Allies within 5 feet of the bastion gain a +2 bonus to their AC, if the Bastion is not {@condition prone} or {@condition incapacitated}."
+						"Союзники в пределах 5 футов от Бастиона получают бонус +2 к своему КД, если Бастион не {@condition prone} и не {@condition incapacitated}."
 					]
 				},
 				{
-					"name": "Shield Charge",
+					"name": "Натиск со щитом",
 					"entries": [
-						"If the bastion moves at least 10 feet straight toward a target and then hits it with its flail on the same tum, the target takes an extra 13 ({@dice 3d8}) bludgeoning damage. if the target is a Creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+						"Если Бастион перемещается как минимум на 10 футов по прямой к цели, а затем попадает по ней цепом в тот же ход, цель получает дополнительно 13 ({@dice 3d8}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 15}, иначе будет сбита {@condition prone}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The bastion makes two weapon attacks."
+						"Бастион совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Flail",
+					"name": "Цеп",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) дробящего урона."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Метательное копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage in melee, or 11 ({@damage 2d6 + 4}) piercing damage at range."
+						"{@atk mw,rw} {@hit 7} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) колющего урона в рукопашной, или 11 ({@damage 2d6 + 4}) колющего урона на расстоянии."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Block",
+					"name": "Блок",
 					"entries": [
-						"The bastion adds +3 AC against an attack that would normally hit it. To do so, the bastion must see the attacker and be wielding a shield."
+						"Бастион добавляет +3 КД против атаки, которая обычно попала бы по нему. Для этого Бастион должен видеть атакующего и использовать щит."
 					]
 				}
 			],
@@ -3234,8 +3234,8 @@
 			}
 		},
 		{
-			"name": "Thief",
-			"shortName": "Thief",
+			"name": "Вор",
+			"shortName": "Вор",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -3276,40 +3276,40 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Tools",
+					"name": "Инструменты",
 					"entries": [
-						"Thieves' Tools +6"
+						"Воровские инструменты +6"
 					]
 				},
 				{
-					"name": "Cunning Action",
+					"name": "Хитрое действие",
 					"entries": [
-						"On each of its turns, the thief can use a bonus action to take the dash, disengage, or hide action. "
+						"В каждый свой ход вор может использовать бонусное действие, чтобы совершить действие «Рывок», «Отход» или «Скрыться»."
 					]
 				},
 				{
-					"name": "Sneak Attack (1/Turn)",
+					"name": "Скрытая атака (1/ход)",
 					"entries": [
-						"The thief deals an extra 3 ({@damage 1d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the thief that isn't {@condition incapacitated} and the thief doesn't have disadvantage on the attack roll."
+						"Вор наносит дополнительно 3 ({@damage 1d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 фт. от союзника вора, не являющегося {@condition incapacitated}, и вор не имеет помехи на бросок атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Dagger (Thrown)",
+					"name": "Кинжал (бросок)",
 					"entries": [
-						"{@atk rw} {@hit 2} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk rw} {@hit 2} к попаданию, дистанция 20/60 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				}
 			],
@@ -3349,8 +3349,8 @@
 			}
 		},
 		{
-			"name": "Witch Human",
-			"shortName": "Witch Human",
+			"name": "Ведьма-человек",
+			"shortName": "Ведьма-человек",
 			"source": "COMHumanoid",
 			"size": [
 				"M"
@@ -3387,38 +3387,38 @@
 			"cha": 14,
 			"passive": 11,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "3",
 			"action": [
 				{
-					"name": "Quarterstaff",
+					"name": "Боевой посох",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6 + 1}) bludgeoning damage, or 5 ({@damage 1d8 + 1}) bludgeoning damage if used with both hands."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d6 + 1}) дробящего урона, или 5 ({@damage 1d8 + 1}) дробящего урона при использовании двумя руками."
 					]
 				},
 				{
-					"name": "Shocking Grasp",
+					"name": "Электрошок",
 					"entries": [
-						"The witch doctor chooses one creature in its reach.The target must succeed on a {@dc 14} Dexterity saving throw. Otherwise, the target takes 4 ({@damage 1d8}) lightning damage, and it cannot take reactions until its next tum. ee i, A"
+						"Знахарь выбирает одно существо в пределах своей досягаемости. Цель должна преуспеть в спасброске Ловкости {@dc 14}. В противном случае цель получает 4 ({@damage 1d8}) урона электричеством и не может совершать реакции до своего следующего хода."
 					]
 				},
 				{
-					"name": "Ray of Enfeeblement (2/day)",
+					"name": "Луч слабости (2/день)",
 					"entries": [
-						"The witch doctor chooses a creature within 50 feet. The target must make a {@dc 14} Dexterity save. On a failed save the target take 14 ({@damage 4d6}) necrotic damage, and, if the target's hit point maximum is 25 or less, the target's melee attacks deal only half damage, and the target has disadvantage on Strength and Dexterity checks and saving throws. This effect lasts for 1 minute."
+						"Знахарь выбирает существо в пределах 50 футов. Цель должна совершить спасбросок Ловкости {@dc 14}. При провале спасброска цель получает 14 ({@damage 4d6}) некротического урона, и, если максимум хитов цели равен 25 или меньше, рукопашные атаки цели наносят только половину урона, а цель имеет помеху на проверки и спасброски Силы и Ловкости. Этот эффект длится 1 минуту."
 					]
 				},
 				{
-					"name": "Light",
+					"name": "Свет",
 					"entries": [
-						"The witch doctor touches an object, causing it to shed bright light in a 20 ft. radius sphere and dim light within 40 ft. of the sphere. The light lasts for 1 hour or until the witch doctor uses this action again."
+						"Знахарь касается предмета, заставляя его излучать яркий свет в сфере радиусом 20 фт. и тусклый свет в пределах 40 фт. от сферы. Свет длится 1 час или пока знахарь не использует это действие снова."
 					]
 				},
 				{
-					"name": "Damage Resistance (1/day)",
+					"name": "Сопротивление урону (1/день)",
 					"entries": [
-						"The witch doctor touches a willing creature other than itself and chooses a damage type: acid, bludgeoning, cold, fire, lightning, piercing, necrotic, slashing, or thunder. The touched creature gains resistance against that damage type for 1 hour."
+						"Знахарь касается согласного существа, кроме себя, и выбирает тип урона: кислотой, дробящий, холодом, огнём, электричеством, колющий, некротический, рубящий или звуком. Коснувшееся существо получает сопротивление этому типу урона на 1 час."
 					]
 				}
 			],

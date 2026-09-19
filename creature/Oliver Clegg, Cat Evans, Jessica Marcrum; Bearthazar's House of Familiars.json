@@ -26,7 +26,7 @@
 	},
 	"monster": [
 		{
-			"name": "Binkers",
+			"name": "Бинкерс",
 			"source": "Bearthazars",
 			"page": 17,
 			"size": [
@@ -65,27 +65,27 @@
 			},
 			"passive": 11,
 			"languages": [
-				"reads all languages but can't speak"
+				"Reads все языки но не может говорить"
 			],
 			"trait": [
 				{
-					"name": "Lethargy",
+					"name": "Вялость",
 					"entries": [
-						"Binkers suffers a {@dice 1d20-5|-5} penalty when rolling initiative."
+						"Бинкерс получает {@dice 1d20-5|-5} штраф при броске инициативы."
 					]
 				},
 				{
-					"name": "Pickpocketing",
+					"name": "Карманная кража",
 					"entries": [
-						"Binkers can use 2 actions to pickpocket anyone within 10 ft of her, using {@skill Sleight of Hand}. If the targeted creature is engaged in combat, Binkers rolls with advantage."
+						"Бинкерс может потратить 2 действия, чтобы обокрасть любого, кто находится в пределах 10 фт. от неё, используя {@skill Sleight of Hand}. Если целевое существо находится в стычке, Бинкерс совершает бросок с преимуществом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Hug",
+					"name": "Объятие",
 					"entries": [
-						"The target is {@condition grappled} (escape {@dc 9}). Until this grapple ends, the creature moves at half-speed and is {@condition restrained}. Binkers can only Hug one creature at a time."
+						"Цель получает состояние {@condition grappled} (для высвобождения требуется {@dc 9}). Пока этот захват не окончится, существо перемещается с половиной скорости и получает состояние {@condition restrained}. Бинкерс может одновременно обнимать только одно существо."
 					]
 				}
 			],
@@ -100,7 +100,7 @@
 			]
 		},
 		{
-			"name": "Bookwyrm",
+			"name": "Книжный змей",
 			"source": "Bearthazars",
 			"page": 19,
 			"size": [
@@ -134,10 +134,10 @@
 			"cr": "1/8",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"A bookwyrm's innate spellcasting ability is Wisdom (spell save {@dc 10}). It can innately cast the following spells, requiring no components:"
+						"Врождённой базовой характеристикой для заклинаний книжного змея является Мудрость (Сл спасброска от заклинаний {@dc 10}). Он может врождённо накладывать следующие заклинания, не требующие компонентов:"
 					],
 					"will": [
 						"{@spell illusory script}"
@@ -147,23 +147,23 @@
 			],
 			"trait": [
 				{
-					"name": "Word Walker",
+					"name": "Странник слов",
 					"entries": [
-						"The bookwyrm can expend 5 feet of movement to vanish into an adjacent book or scroll. Whilst in the book of scroll, an ink image of the bookwyrm appears on the surface. The snake can expend another 5 feet of movement to appear within 5 feet of the paper. If the paper is damaged, the bookwyrm is destroyed."
+						"Книжный змей может потратить 5 футов перемещения, чтобы исчезнуть внутри соседней книги или свитка. Пока он находится в книге или свитке, на поверхности появляется чернильное изображение книжного змея. Змея может потратить ещё 5 футов перемещения, чтобы появиться в пределах 5 футов от бумаги. Если бумага повреждена, книжный змей уничтожается."
 					]
 				},
 				{
-					"name": "Fragile",
+					"name": "Хрупкий",
 					"entries": [
-						"If the bookwyrm gets wet, it is destroyed and must be resummoned."
+						"Если книжный змей намокнет, он уничтожается, и его необходимо призвать заново."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h} {@damage 1} piercing damage, and the target must make a {@dc 10} Constitution saving throw, taking 5 ({@damage 2d4}) poison damage on a failed save, or half as much damage on a successful one."
+						"{@atk mw} {@hit 5} для попадания, досягаемость 5 фт., одна цель. {@h} {@damage 1} колющего урона, и цель должна совершить спасбросок Телосложения {@dc 10}, получая 5 ({@damage 2d4}) ядовитого урона при провале спасброска или половину этого урона при успехе."
 					]
 				}
 			],
@@ -186,7 +186,7 @@
 			]
 		},
 		{
-			"name": "Byzantine Snail",
+			"name": "Византийская улитка",
 			"source": "Bearthazars",
 			"page": 15,
 			"size": [
@@ -224,13 +224,13 @@
 			},
 			"passive": 11,
 			"languages": [
-				"reads all languages but can't speak"
+				"Reads все языки но не может говорить"
 			],
 			"trait": [
 				{
-					"name": "Riddle Me This",
+					"name": "Загадай мне это",
 					"entries": [
-						"If left for a minute on a puzzle, lock or clue, the snail can grant {@action Help} on any attempt made to solve it. In such a case, the creature making the check adds an extra {@dice 1d4} to the result."
+						"Если оставить улитку на минуту над головоломкой, замком или подсказкой, она может предоставить {@action Help} при любой попытке решить её. В таком случае существо, совершающее проверку, добавляет к результату дополнительный {@dice 1d4}."
 					]
 				}
 			],
@@ -241,7 +241,7 @@
 			]
 		},
 		{
-			"name": "Emotion Absorber",
+			"name": "Поглотитель эмоций",
 			"source": "Bearthazars",
 			"page": 16,
 			"size": [
@@ -274,14 +274,14 @@
 			},
 			"passive": 13,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"trait": [
 				{
-					"name": "Emotional Support",
+					"name": "Эмоциональная поддержка",
 					"entries": [
-						"When a creature within 5 feet of the emotion absorber fails a Wisdom saving throw, it may use its reaction to have the affected creature succeed instead. The emotion absorber cannot use this ability again until it completes a long rest.",
-						"Where applicable, the emotion absorber takes on the emotional state that would have been conferred by the failed saving throw (e.g. {@condition frightened}, confused, etc.) until it completes a long rest."
+						"Когда существо в пределах 5 футов от поглотителя эмоций проваливает спасбросок Мудрости, поглотитель может реакцией сделать так, чтобы вместо этого затронутое существо преуспело. Поглотитель эмоций не может повторно использовать эту характеристику, пока не завершит продолжительный отдых.",
+						"Если применимо, поглотитель эмоций принимает эмоциональное состояние, которое вызвал бы проваленный спасбросок (например, {@condition frightened}, сбитое с толку и т. д.), пока не завершит продолжительный отдых."
 					]
 				}
 			],
@@ -291,7 +291,7 @@
 			]
 		},
 		{
-			"name": "Fowlbear",
+			"name": "Куромедведь",
 			"source": "Bearthazars",
 			"page": 13,
 			"size": [
@@ -322,29 +322,29 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Rage",
+					"name": "Ярость",
 					"entries": [
-						"When it loses hit points due to an enemy melee attack, the Fowlbear enters a rage that lasts for 1 minute. Whilst enraged, it cannot be reduced below 1 hit point and has advantage on attack rolls."
+						"Когда он теряет хиты из-за вражеской атаки ближнего боя, Куромедведь впадает в ярость, длящуюся 1 минуту. Пока он в ярости, его нельзя уменьшить ниже 1 хита, и он совершает броски атаки с преимуществом."
 					]
 				},
 				{
-					"name": "Don't Lose Your Head",
+					"name": "Не теряйте голову",
 					"entries": [
-						"If the fowlbear takes 5 or more slashing damage, it loses its head, becoming {@condition blinded} and silenced until the head is re-attached or it is resummoned. Needless to say, a fowlbear only has one head to lose."
+						"Если фаулбэр получает 5 или более рубящего урона, он теряет голову, становясь {@condition blinded} и лишаясь возможности издавать звуки, пока голову не приладят обратно или его не призовут снова. Излишне говорить, что у фаулбэра только одна голова, которую можно потерять."
 					]
 				},
 				{
-					"name": "Sunrise Screamer",
+					"name": "Крикун на рассвете",
 					"entries": [
-						"At dawn, if the Fowlbear can see the sky, it screeches loudly enough to awaken or alert every creature within 100 feet of it."
+						"На рассвете, если Фаулбэр видит небо, он пронзительно кричит, достаточно громко, чтобы пробудить разум или сделать бдительным каждое существо в пределах 100 футов от него."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Beak",
+					"name": "Клюв",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
 					]
 				}
 			],
@@ -357,7 +357,7 @@
 			]
 		},
 		{
-			"name": "Happy Heckpup",
+			"name": "Счастливый хекпап",
 			"source": "Bearthazars",
 			"page": 10,
 			"size": [
@@ -397,22 +397,22 @@
 				"fire"
 			],
 			"languages": [
-				"understands infernal but can't speak it"
+				"Understands инфернальный но не может говорить it"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Fiery Bark (3/day)",
+					"name": "Огненный лай (3/день)",
 					"entries": [
-						"The Happy Heckpup barks fire in a 15-foot cone. Each creature in that area must make a {@dc 12} Dexterity saving throw, taking 4 ({@dice 1d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
+						"Счастливый хекпап изрыгает огонь в виде конуса длиной 15 футов. Каждое существо в этой области должно совершить {@dc 12} спасбросок Ловкости, получая 4 ({@dice 1d6}) огненного урона при провале или половину этого урона при успехе. Огонь поджигает любые воспламеняемые предметы в области, которые никто не носит и не держит."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 3}) piercing damage and {@damage 1} fire damage."
+						"{@atk mw} {@hit 5} для попадания, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d4 + 3}) колющего урона и {@damage 1} огненного урона."
 					]
 				}
 			],
@@ -434,7 +434,7 @@
 			]
 		},
 		{
-			"name": "Hummingsquirrel",
+			"name": "Жужжащая белка",
 			"source": "Bearthazars",
 			"page": 22,
 			"size": [
@@ -471,23 +471,23 @@
 			"passive": 10,
 			"trait": [
 				{
-					"name": "Hummer",
+					"name": "Жужжун",
 					"entries": [
-						"The hummingsquirrel emits a low humming whenever it is airborne from the flutter of its wings."
+						"Жужжащая белка издаёт тихое жужжание всякий раз, когда находится в воздухе, порхая крыльями."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Eviscerate",
+					"name": "Выпотрошить",
 					"entries": [
-						"The hummingsquirrel makes three bite attacks."
+						"Жужжащая белка совершает три атаки укусом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d4 + 7}) piercing damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 1d4 + 7}) колющего урона."
 					]
 				}
 			],
@@ -503,7 +503,7 @@
 			]
 		},
 		{
-			"name": "Infernal Duck",
+			"name": "Инфернальная утка",
 			"source": "Bearthazars",
 			"page": 23,
 			"size": [
@@ -554,13 +554,13 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands infernal, cannot speak"
+				"Understands инфернальный, cannot speak"
 			],
 			"trait": [
 				{
-					"name": "Soulsight",
+					"name": "Видение душ",
 					"entries": [
-						"The Infernal Duck knows when it encounters a creature without a soul."
+						"Инфернальная утка знает, когда встречает существо без души."
 					]
 				}
 			],
@@ -571,7 +571,7 @@
 			]
 		},
 		{
-			"name": "Mr Tums",
+			"name": "Мистер Тамс",
 			"source": "Bearthazars",
 			"page": 14,
 			"size": [
@@ -606,10 +606,10 @@
 			"cr": "0",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Mr Tum's innate spellcasting ability is Wisdom (spell save {@dc 11}). He can innately cast the following spells, requiring no components:"
+						"Базовая характеристика для заклинаний Мистера Тамса — Мудрость (Сл спасброска от заклинаний {@dc 11}). Он может накладывать следующие заклинания врождённым образом, не требуя компонентов:"
 					],
 					"will": [
 						"{@spell catnap|xge}",
@@ -632,35 +632,35 @@
 			],
 			"trait": [
 				{
-					"name": "Keen Smell",
+					"name": "Острый нюх",
 					"entries": [
-						"The cat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"Кошка совершает с преимуществом проверки Мудрости ({@skill Perception}), основанные на обонянии."
 					]
 				},
 				{
-					"name": "Catatonic",
+					"name": "Кататония",
 					"entries": [
-						"Mr Tums can cast spells whilst asleep and retains a vague awareness of his surroundings. If touched while sleeping, he can cast any of the spells from his Innate Spellcasting feature as a reaction on the perpetrator(s)."
+						"Мистер Тамс может накладывать заклинания во сне и сохраняет смутное осознание происходящего вокруг. Если коснуться его во время сна, он может наложить любое заклинание из своей особенности «Использование заклинаний» в качестве реакции на виновника или виновников."
 					]
 				},
 				{
-					"name": "*Golden Slumbers",
+					"name": "*Золотой сон",
 					"entries": [
-						"If Mr Tums is allowed to sleep for a full 23 uninterrupted hours, he will cast {@spell dream} on a creature of his caretaker's choice. If no creature is chosen, he communicates with his caretaker using {@spell dream} instead."
+						"Если Мистеру Тамсу позволить спать полные 23 часа без перерыва, он наложит {@spell dream} на существо по выбору своего смотрителя. Если существо не выбрано, вместо этого он общается со своим смотрителем с помощью {@spell dream}."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"Mr Tums has advantage on saving throws against spells and other magical effects."
+						"У мистера Тамса есть преимущество на спасброски против заклинаний и других магических эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h} {@damage 1} slashing damage."
+						"{@atk mw} {@hit 0} для попадания, досягаемость 5 фт., одна цель. {@h} {@damage 1} рубящего урона."
 					]
 				}
 			],
@@ -684,7 +684,7 @@
 			]
 		},
 		{
-			"name": "Mus Vacanti",
+			"name": "Мус Ваканти",
 			"source": "Bearthazars",
 			"page": 11,
 			"size": [
@@ -716,27 +716,27 @@
 			],
 			"passive": 10,
 			"languages": [
-				"understands all languages, but can't speak"
+				"Understands все языки, но не может говорить"
 			],
 			"trait": [
 				{
-					"name": "Keen Hearing",
+					"name": "Острый слух",
 					"entries": [
-						"The rat has advantage on Wisdom ({@skill Perception}) checks that rely on sound."
+						"У крысы есть преимущество на проверки Мудрости ({@skill Perception}), основанные на звуке."
 					]
 				},
 				{
-					"name": "Shrill",
+					"name": "Пронзительный",
 					"entries": [
-						"Ginger dislikes most people, and as a result responds negatively to their intrusion into 'her' territory. Ginger functions as per the {@spell alarm} spell, but only provides an audible alarm in the form of offended shrieking."
+						"Джинджер не любит большинство людей и поэтому отрицательно реагирует на их вторжение на «её» территорию. Джинджер действует как заклинание {@spell alarm}, но обеспечивает только звуковой сигнал тревоги в форме возмущённого визга."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h} {@damage 1} piercing damage."
+						"{@atk mw} {@hit 0} для попадания, досягаемость 5 фт., одна цель. {@h} {@damage 1} колющего урона."
 					]
 				}
 			],
@@ -759,7 +759,7 @@
 			]
 		},
 		{
-			"name": "Pet Rock",
+			"name": "Камень-питомец",
 			"source": "Bearthazars",
 			"page": 20,
 			"size": [
@@ -792,16 +792,16 @@
 			"cha": 0,
 			"action": [
 				{
-					"name": "None",
+					"name": "Нет",
 					"entries": [
-						"It is a rock."
+						"Это камень."
 					]
 				}
 			],
 			"familiar": true
 		},
 		{
-			"name": "Pugataurian",
+			"name": "Пугатарианец",
 			"source": "Bearthazars",
 			"page": 25,
 			"size": [
@@ -816,7 +816,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item leather armor|phb|leather armour}"
+						"{@item leather armor|phb|кожаный доспех}"
 					]
 				}
 			],
@@ -838,27 +838,27 @@
 			},
 			"passive": 11,
 			"languages": [
-				"understands common but can't speak"
+				"Understands Общий но не может говорить"
 			],
 			"trait": [
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Острый слух и нюх",
 					"entries": [
-						"The pugataurian has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+						"У пугатарианца есть преимущество на проверки Мудрости ({@skill Perception}), основанные на слухе или обонянии."
 					]
 				},
 				{
-					"name": "Charge",
+					"name": "Заряды",
 					"entries": [
-						"If the pugataurian moves at least 30 feet straight toward a target and then hits it with a mace attack on the same turn, the target takes an extra 10 ({@damage 3d6}) piercing damage."
+						"Если пугаутарианец перемещается как минимум на 30 футов прямо к цели, а затем в тот же ход попадает по ней атакой булавой, цель получает дополнительный урон 10 ({@damage 3d6}) колющего типа."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Mace",
+					"name": "Булава",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
 					]
 				}
 			],
@@ -880,7 +880,7 @@
 			]
 		},
 		{
-			"name": "Shuteye Moth",
+			"name": "Мотылёк Усыпления",
 			"source": "Bearthazars",
 			"page": 18,
 			"size": [
@@ -917,10 +917,10 @@
 			"passive": 10,
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"A shuteye moth's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no components:"
+						"Базовая характеристика для заклинаний мотылька усыпления — Харизма (Сл спасброска от заклинаний {@dc 13}). Он может использовать следующие заклинания без компонентов:"
 					],
 					"daily": {
 						"1e": [
@@ -932,9 +932,9 @@
 			],
 			"trait": [
 				{
-					"name": "Solmnolent Wingbeats (3/day)",
+					"name": "Солмнолентные взмахи крыльев (3/день)",
 					"entries": [
-						"The shuteye moth can use an action to secrete a fine powder that functions as a {@spell sleep} spell, affecting {@dice 2d8} hit points of creatures. This version of the spell affects creature immune to magical sleep, such as elves, but fails to affect creatures immune to the {@condition Poisoned} condition."
+						"Мотылёк усыпления может действием выделить мелкий порошок, действующий как заклинание {@spell sleep} и воздействующий на {@dice 2d8} хитов существ. Эта версия заклинания воздействует на существ, невосприимчивых к магическому усыплению, например эльфов, но не воздействует на существ, невосприимчивых к состоянию {@condition Poisoned}."
 					]
 				}
 			],
@@ -950,7 +950,7 @@
 			]
 		},
 		{
-			"name": "T. Micropod",
+			"name": "Т. Микропод",
 			"source": "Bearthazars",
 			"page": 24,
 			"size": [
@@ -989,35 +989,35 @@
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Keen Smell",
+					"name": "Острый нюх",
 					"entries": [
-						"The rat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"Крыса совершает с преимуществом проверки Мудрости ({@skill Perception}), основанные на обонянии."
 					]
 				},
 				{
-					"name": "Indefatigable",
+					"name": "Неутомимый",
 					"entries": [
-						"The hamster can hold its breath indefinitely, and is not harmed by exposure to vacuums or the phlogiston."
+						"Хомяк может бесконечно задерживать дыхание и не получает вреда от воздействия вакуума или флогистона."
 					]
 				},
 				{
-					"name": "Moonwalking",
+					"name": "Лунная походка",
 					"entries": [
-						"The hamster has a hover speed equal to its walking speed."
+						"У хомяка есть скорость парения, равная его скорости ходьбы."
 					]
 				},
 				{
-					"name": "King of the Rodents",
+					"name": "Король грызунов",
 					"entries": [
-						"Rats, mice and other small vermin are {@condition frightened} of the tyrannohamsterus micropod whilst they are within 30 feet of it."
+						"Крысы, мыши и другие маленькие беспозвоночные находятся в состоянии {@condition frightened} перед тираннозомикроподусом, пока находятся в пределах 30 фт. от него."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h} {@damage 1} piercing damage."
+						"{@atk mw} {@hit 0} для попадания, досягаемость 5 фт., одна цель. {@h} {@damage 1} колющего урона."
 					]
 				}
 			],
@@ -1036,7 +1036,7 @@
 			]
 		},
 		{
-			"name": "Toad in the Hole",
+			"name": "Жаба в норе",
 			"source": "Bearthazars",
 			"page": 21,
 			"size": [
@@ -1067,7 +1067,7 @@
 			"skill": {
 				"perception": "+1",
 				"stealth": "+3",
-				"special": "{@item cook's utensils|phb|cookery utensils}"
+				"special": "{@item cook's utensils|phb|поварская утварь}"
 			},
 			"senses": [
 				"darkvision 30 ft."
@@ -1076,10 +1076,10 @@
 			"cr": "0",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"A toad in the hole's innate spellcasting ability is Wisdom (spell save {@dc 9}). It can innately cast the following spells, requiring no components:"
+						"Базовая характеристика для заклинаний жабы в норе — Мудрость (Сл спасброска от заклинаний {@dc 9}). Она может накладывать следующие заклинания без использования компонентов:"
 					],
 					"will": [
 						"{@spell jump}"
@@ -1095,21 +1095,21 @@
 			],
 			"trait": [
 				{
-					"name": "Toadhole",
+					"name": "Жабья нора",
 					"entries": [
-						"As an action, the Toad in the Hole creates a tiny extradimensional hole in an adjacent surface. The space can hold as many as eight Tiny or smaller creatures, and the entrance is {@condition invisible} to onlookers. Attacks and spells can't cross through the entrance into or out of the extradimensional space, but those inside can see out of it through a window centred on the entrance. This effect lasts up to 1 hour, Anything inside the extradimensional space drops out when the effect ends."
+						"Действием Жаба в норе создаёт миниатюрную межпространственную дыру в соседней поверхности. Пространство может вместить до восьми миниатюрных или меньших существ, а вход для наблюдателей {@condition invisible}. Атаки и заклинания не могут проходить через вход внутрь межпространственного пространства или наружу из него, но находящиеся внутри могут видеть наружу через окно, расположенное по центру входа. Этот эффект длится до 1 часа. Всё находящееся внутри межпространственного пространства выпадает из него, когда эффект заканчивается."
 					]
 				},
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"The frog can breathe air and water."
+						"Лягушка может дышать воздухом и водой."
 					]
 				},
 				{
-					"name": "Standing Leap",
+					"name": "Прыжок с места",
 					"entries": [
-						"The frog's long jump is up to 10 feet and its high jump is up to 5 feet, with or without a running start."
+						"Прыжок в длину лягушки достигает 10 фт., а Прыжок в высоту — 5 фт., с разбегом или без него."
 					]
 				}
 			],
@@ -1125,7 +1125,7 @@
 			]
 		},
 		{
-			"name": "Volatile Pigeon",
+			"name": "Неустойчивый голубь",
 			"source": "Bearthazars",
 			"page": 11,
 			"size": [
@@ -1158,28 +1158,28 @@
 			},
 			"passive": 13,
 			"languages": [
-				"understands Common but can't speak"
+				"Understands Общий но не может говорить"
 			],
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Handle With Care",
+					"name": "Обращаться осторожно",
 					"entries": [
-						"If the volatile pigeon becomes {@condition charmed} or {@condition frightened}, it explodes, dealing {@damage 1} fire damage to each creature within 5 feet and setting flammable objects alight."
+						"Если нестабильный голубь становится {@condition charmed} или {@condition frightened}, он взрывается, нанося {@damage 1} Огненный урон каждому существу в пределах 5 футов от него и поджигая легковоспламеняющиеся предметы."
 					]
 				},
 				{
-					"name": "Wary",
+					"name": "Настороженный",
 					"entries": [
-						"A volatile pigeon is {@condition frightened} of dogs, cats and lawyers it can see within 5 feet of it."
+						"Нестабильный голубь {@condition frightened} собак, кошек и адвокатов, которых он видит в пределах 5 футов от себя."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Beak",
+					"name": "Клюв",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h} {@damage 1} piercing damage."
+						"{@atk mw} {@hit 4} для попадания, досягаемость 5 фт., одна цель. {@h} {@damage 1} колющего урона."
 					]
 				}
 			],

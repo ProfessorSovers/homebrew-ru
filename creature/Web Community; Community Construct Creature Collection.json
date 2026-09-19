@@ -24,8 +24,8 @@
 	},
 	"monster": [
 		{
-			"name": "Animated Trap",
-			"shortName": "Animated Trap",
+			"name": "Оживленная ловушка",
+			"shortName": "Оживленная ловушка",
 			"source": "COMConstruct",
 			"size": [
 				"S"
@@ -89,61 +89,61 @@
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Antimagic Susceptibility",
+					"name": "Уязвимость к Преграде магии",
 					"entries": [
-						"The trap is {@condition incapacitated} while in the area of an antimagic field. If targeted by dispel magic, the trap must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition unconscious} for 1 minute."
+						"Ловушка {@condition incapacitated} в области Преграды магии. Если на ловушку направлено Рассеивание магии, она должна преуспеть в спасброске Телосложения против Сл спасброска от заклинаний заклинателя или стать {@condition unconscious} на 1 минуту."
 					]
 				},
 				{
-					"name": "Assassinate",
+					"name": "Ликвидация",
 					"entries": [
-						"During its first turn, the trap has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the trap scores against a surprised creature is a critical hit."
+						"Во время своего первого хода ловушка получает преимущество на броски атаки против любого существа, которое ещё не совершало ход. Любое попадание ловушки по застигнутому врасплох существу является критическим попаданием."
 					]
 				},
 				{
-					"name": "False Appearance",
+					"name": "Ложная внешность",
 					"entries": [
-						"While the trap remans motionless, it is indistinguishable from an ordinary object."
+						"Пока ловушка неподвижна, её невозможно отличить от обычного предмета."
 					]
 				},
 				{
-					"name": "Immutable Form",
+					"name": "Неизменная форма",
 					"entries": [
-						"The trap is immune to any spell or effect that would alter its form"
+						"Ловушка невосприимчива к любому заклинанию или эффекту, изменяющему её форму"
 					]
 				},
 				{
-					"name": "Sneak Attack (1/Turn)",
+					"name": "Скрытая атака (1/ход)",
 					"entries": [
-						"The trap deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the trap that isn't {@condition incapacitated} and the trap doesn't have disadvantage on the attack roll."
+						"Ловушка наносит дополнительные 7 ({@damage 2d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки или когда цель находится в пределах 5 футов от союзника ловушки, который не является {@condition incapacitated}, а ловушка не имеет помехи на бросок атаки."
 					]
 				},
 				{
-					"name": "Thieves' Tools Susceptibility",
+					"name": "Уязвимость к Воровским инструментам",
 					"entries": [
-						"If targeted by thieves' tools, The trap makes a Constitution saving throw contested by the opposing creature's thieves' tools check. If the trap wins it can make a bite attack as a reaction against the opposing creature. If the trap loses it is {@condition stunned} until the end of its next turn.",
-						"Additionally if the trap loses by 5 or more the opposing creature realises the true nature of the trap."
+						"Если на ловушку воздействуют Воровскими инструментами, ловушка совершает спасбросок Телосложения, которому противостоит проверка Воровских инструментов существа-противника. Если ловушка побеждает, она может совершить атаку укусом в качестве реакции против существа-противника. Если ловушка проигрывает, она становится {@condition stunned} до конца своего следующего хода.",
+						"Кроме того, если ловушка проигрывает с разницей 5 или более, существо-противник понимает истинную природу ловушки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The trap makes three attacks."
+						"Ловушка совершает три атаки."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage. ",
-						"The target is {@condition grappled} (escape DC16)"
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d8 + 5}) колющего урона.",
+						"Цель {@condition grappled} (Сл 16 для высвобождения)"
 					]
 				},
 				{
-					"name": "Crush",
+					"name": "Раздавливание",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature {@condition grappled} by the trap. {@h}7 ({@damage 2d10 + 5}) piercing damage."
+						"{@atk mw} {@hit 8} для попадания, досягаемость 5 фт., одно существо, {@condition grappled} ловушкой. {@h}7 ({@damage 2d10 + 5}) колющего урона."
 					]
 				}
 			],
@@ -172,7 +172,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"\"It's a Trap!\" - Admiral Ackbar.Deceptive Doublebluff. Animated traps are a masterstroke of object animation, people tend to treat them with caution up until they are disarmed; Once \"disarmed\" an animated trap can catch opponents truely off guard.Used by spellcasters who do not want to be disturbed and have a sick sense of humour; The animated trap is used for self defense and psychological warfare.Tricky Traps. Animated traps left to their own devices will attempt to follow whatever orders they were left last which is usually some combination of: Hide, Ambush and Attack.Animated traps hide themselves after successfully killing, moving away from the bodies as not to indicate their location.Constructed Nature. The trap doesn't require air, food, drink, or sleep.Monster a Day A194 by 1d6AdventurersTome of Madness Vol1, p21"
+					"«Это ловушка!» — Адмирал Акбар.Обманный двойной блеф. Оживленные ловушки — мастерский прием оживления предметов, люди склонны обращаться с ними осторожно, пока их не обезвредят; будучи «обезвреженной», оживленная ловушка может застать противников совершенно врасплох.Ловушками пользуются заклинатели, которые не хотят, чтобы их беспокоили, и обладают нездоровым чувством юмора; оживленная ловушка используется для самозащиты и психологической войны.Хитрые ловушки. Предоставленные самим себе оживленные ловушки пытаются выполнять последние отданные им приказы, обычно представляющие собой некое сочетание следующих действий: Засада, Засада и Атака.Оживленные ловушки устраивают засаду после успешного убийства, удаляясь от тел, чтобы не выдавать свое местоположение.Сконструированная природа. Ловушке не требуются воздух, пища, питье или Усыпление.Монстр в день A194 от 1d6Искатели приключенийТом безумия 1, стр. 21"
 				],
 				"images": [
 					{
@@ -186,8 +186,8 @@
 			}
 		},
 		{
-			"name": "Mortimer's Armor",
-			"shortName": "Mortimer's Armor",
+			"name": "Доспехи Мортимера",
+			"shortName": "Доспехи Мортимера",
 			"source": "COMConstruct",
 			"size": [
 				"M"
@@ -238,52 +238,52 @@
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Antimagic Susceptibility",
+					"name": "Уязвимость к Преграде магии",
 					"entries": [
-						"The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+						"Доспех становится Недееспособным, находясь в области Преграды магии. Если на него направлено Рассеивание магии, доспех должен успешно совершить спасбросок Телосложения против Сл спасброска от заклинаний заклинателя или стать Бессознательным на 1 минуту."
 					]
 				},
 				{
-					"name": "False Appearance",
+					"name": "Ложная внешность",
 					"entries": [
-						"While the armor remains motionless, it is indistinguishable from a normal suit of armor."
+						"Пока доспехи остаются неподвижными, их невозможно отличить от обычного комплекта доспехов."
 					]
 				},
 				{
-					"name": "Damage Transfer",
+					"name": "Перенос урона",
 					"entries": [
-						"While it is engulfing a creature, the Mortimer's Armor takes only half the damage dealt to it, and the creature engulfed by the Mortimer's Armor takes the other half."
+						"Пока оно поглощает существо, Доспех Мортимера получает только половину нанесённого ему урона, а существо, поглощённое Доспехом Мортимера, получает другую половину."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The armor makes two melee attacks."
+						"Доспех совершает две атаки ближнего боя."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Удар",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) дробящего урона."
 					]
 				},
 				{
-					"name": "Doff {@recharge 5}",
+					"name": "Снять {@recharge 5}",
 					"entries": [
-						"The armor falls to pieces, readying the Don action. While in this state, it cannot perform regular Slam attacks."
+						"Доспех разваливается на части, подготавливая действие «Надеть». В таком состоянии он не может совершать обычные атаки «Удар»."
 					]
 				},
 				{
-					"name": "Don",
+					"name": "Надеть",
 					"entries": [
-						"The armor moves up to its speed. While doing so, it can enter Medium or smaller humanoids' spaces. Whenever the armor enters a humanoid's space, the humanoid must make a {@dc 15} Dexterity saving throw.",
-						"On a successful save, the humanoid can choose to jump 5 feet back or to the side of the armor. A creature that chooses not to jump suffers the consequences of a failed saving throw.",
-						"On a failed save, the armor enters the humanoid's space, and the humanoid takes 20 (606) bludgeoning damage and is",
-						"engulfed. The engulfed creature can breathe, is {@condition restrained}, and is affected by damage transference. When the armor moves, the engulfed humanoid moves with it.",
-						"An enguited humanoid can try to escape by taking an action to make a {@dc 15} Strength check. On a success, the humanoid escapes and enters a space of its choice within 5 feet of the armor.",
-						"Either way, the armor regains its form as a result of this action."
+						"Броня перемещается на расстояние вплоть до своей скорости. При этом она может входить в пространства гуманоидов Среднего размера или меньше. Всякий раз, когда броня входит в пространство гуманоида, гуманоид должен совершить спасбросок Ловкости {@dc 15}.",
+						"При успешном спасброске гуманоид может решить отпрыгнуть на 5 футов назад или в сторону от брони. Существо, решившее не прыгать, страдает от последствий проваленного спасброска.",
+						"При провале спасброска броня входит в пространство гуманоида, и гуманоид получает 20 (606) дробящего урона и",
+						"оказывается поглощённым. Поглощённое существо может дышать, находится в состоянии {@condition restrained} и подвергается переносу урона. Когда броня перемещается, поглощённый гуманоид перемещается вместе с ней.",
+						"Поглощённый гуманоид может попытаться сбежать, совершив действие для выполнения проверки Силы {@dc 15}. При успехе гуманоид выбирается и входит в выбранное им пространство в пределах 5 футов от брони.",
+						"В любом случае в результате этого действия броня восстанавливает свою форму."
 					]
 				}
 			],

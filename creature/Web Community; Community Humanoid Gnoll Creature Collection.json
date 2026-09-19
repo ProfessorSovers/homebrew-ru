@@ -24,8 +24,8 @@
 	},
 	"monster": [
 		{
-			"name": "Fiendish Hyena",
-			"shortName": "Fiendish Hyena",
+			"name": "Демоническая гиена",
+			"shortName": "Демоническая гиена",
 			"source": "COMGnoll",
 			"size": [
 				"L"
@@ -77,17 +77,17 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Rampage",
+					"name": "Неистовство",
 					"entries": [
-						"When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack."
+						"Когда гиена уменьшает хиты существа до 0 атакой ближнего боя в свой ход, гиена может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона."
 					]
 				}
 			],
@@ -120,8 +120,8 @@
 			}
 		},
 		{
-			"name": "Gnoll Deathknight",
-			"shortName": "Gnoll Deathknight",
+			"name": "Гнолл — рыцарь смерти",
+			"shortName": "Гнолл — рыцарь смерти",
 			"source": "COMGnoll",
 			"size": [
 				"M"
@@ -170,40 +170,40 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Gnoll"
+				"Гноллий"
 			],
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Rampage",
+					"name": "Неистовство",
 					"entries": [
-						"When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+						"Если гнолл в свой ход опускает рукопашной атакой хиты существа до 0, он может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
 					]
 				},
 				{
-					"name": "Aura of malice",
+					"name": "Аура злобы",
 					"entries": [
-						"All enemies within 10 feet of the gnoll have disadvantage on saving throws."
+						"Все враги в пределах 10 футов от гнолла совершают спасброски с помехой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The gnoll makes three attacks: one with its bite and two with its greatsword."
+						"Гнолл совершает три атаки: одну укусом и две двуручным мечом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must succeed on a {@dc 14} Constitution saving throw or take 14 ({@damage 4d6}) necrotic damage."
+						"{@atk mw} {@hit 7} для попадания, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона, и цель должна преуспеть в спасброске Телосложения со Сл {@dc 14}, иначе получает 14 ({@damage 4d6}) некротического урона."
 					]
 				},
 				{
-					"name": "Greatsword",
+					"name": "Двуручный меч",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
 					]
 				}
 			],
@@ -251,8 +251,8 @@
 			}
 		},
 		{
-			"name": "Gnoll Deathmage",
-			"shortName": "Gnoll Deathmage",
+			"name": "Гнолл — некромант",
+			"shortName": "Гнолл — некромант",
 			"source": "COMGnoll",
 			"size": [
 				"M"
@@ -292,15 +292,15 @@
 			],
 			"passive": 14,
 			"languages": [
-				"Gnoll"
+				"Гноллий"
 			],
 			"cr": "7",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The gnoll is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save {@dc 14}, +6 to hit with spell attacks). The gnoll has the following spells prepared:"
+						"Гнолл является заклинателем 10-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска {@dc 14}, бонус +6 к попаданию атаками заклинаниями). Гнолл подготовил следующие заклинания:"
 					],
 					"spells": {
 						"0": {
@@ -354,15 +354,15 @@
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage, plus 7 ({@damage 2d6}) poison damage."
+						"{@atk mw} {@hit 3} для попадания, досягаемость 5 фт., одна цель. {@h}2 ({@damage 1d4}) колющего урона плюс 7 ({@damage 2d6}) ядовитого урона."
 					]
 				},
 				{
-					"name": "Conjure Fiends (1/Day)",
+					"name": "Призыв демонов (1/день)",
 					"entries": [
-						"The gnoll magically summons {@dice 1d4} fiendish hyenas. The summoned fiends appear in unoccupied spaces within 60 feet of their summoner and act as allies of their summoner. They remain for 10 minutes, until they or their summoner dies, or until their summoner dismisses them as an action."
+						"Гнолл магическим образом призывает {@dice 1d4} демонических гиен. Призванные демоны появляются в свободных пространствах в пределах 60 футов от призывателя и действуют как его союзники. Они остаются на 10 минут, пока они или их призыватель не погибнут либо пока призыватель не отпустит их действием."
 					]
 				}
 			],
@@ -413,8 +413,8 @@
 			}
 		},
 		{
-			"name": "Gnoll Deathpledge",
-			"shortName": "Gnoll Deathpledge",
+			"name": "Гнолл — клятвопреступник",
+			"shortName": "Гнолл — клятвопреступник",
 			"source": "COMGnoll",
 			"size": [
 				"M"
@@ -460,52 +460,52 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Gnoll"
+				"Гноллий"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Brute",
+					"name": "Громила",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when the gnoll hits with it (included in its attacks)."
+						"Оружие ближнего боя наносит одну дополнительную кость своего урона, когда Гнолл попадает им (включено в его атаки)."
 					]
 				},
 				{
-					"name": "Fateful Aura",
+					"name": "Аура судьбы",
 					"entries": [
-						"Any creature within 15 feet of the gnoll has disadvantage on death saving throws."
+						"Любое существо в пределах 15 футов от Гнолла совершает с помехой спасброски от смерти."
 					]
 				},
 				{
-					"name": "Rampage",
+					"name": "Неистовство",
 					"entries": [
-						"When the gnoll reduces a creature to 0 hit points with a melee attack on its tum, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+						"Когда Гнолл уменьшает хиты существа до 0 атакой ближнего боя в свой ход, Гнолл может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
 					]
 				},
 				{
-					"name": "Warmonger",
+					"name": "Военачальник",
 					"entries": [
-						"Any creature within 5 feet of this gnoll that's hostile to it has disadvantage on attack rolls against targets other than this gnoll or another Creature with this or a similar trait. An enemy is immune to this effect if it can't see or hear this gnoll or if it can't be {@condition frightened}."
+						"Любое существо в пределах 5 футов от этого Гнолла, враждебное ему, совершает с помехой броски атаки против целей, отличных от этого Гнолла или другого существа с этой или сходной особенностью. Враг невосприимчив к этому эффекту, если не может видеть или слышать этого Гнолла или не может быть {@condition frightened}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The gnoll makes two attacks with its battleaxe."
+						"Гнолл совершает две атаки своим боевым топором."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 2d4 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Battleaxe",
+					"name": "Топор, боевой",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) damage if used with both hands."
+						"{@atk mw} {@hit 5} для попадания, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d8 + 3}) рубящего урона или 14 ({@damage 2d10 + 3}) урона, если используется двумя руками."
 					]
 				}
 			],
@@ -537,9 +537,9 @@
 			"fluff": {
 				"entries": [
 					"{@link Gnoll Deatpldege|https://www.reddit.com/r/monsteraday/comments/7p8x6n/az_day_11_gnoll_deathpledge/}",
-					"Gnolls that are especially eager to prove themselves to Yeenoghu and their pack take an oath of slaughter, pledging",
-					"to cause a worthy amount of bloodshed in the name of their lord Each gnoll death pledge (sometimes simply called a \"slayer\" is then endowed with an unholy aura and attacks that sunder bone and flesh. Whether a gnoll fulfills its pledge of not determines whether it rises in status or is reviled and punished by the pack.",
-					"This mobility in the pack's hierarchy can cause swift changes to the pecking order, even at the top. For if a pack lord fail to delivery enough butchery to please Yeenoghu the most successful deathpledge step forward as a challenger. No matter the outcome, the lord of slaugther is pleased."
+					"Гноллы, особенно стремящиеся доказать свою состоятельность Йеногу и своей стае, дают клятву резни, обещая",
+					"пролить достойное количество крови во имя своего господина. Каждый Гнолл, давший клятву смерти (иногда его просто называют «убийцей»), получает ауру скверны и атаки, которые ломают кости и разрывают плоть. От того, выполнит ли Гнолл свою клятву, зависит, повысит ли он свой статус или будет презираем и наказан стаей.",
+					"Такая Подвижность в иерархии прайда может привести к стремительным изменениям в порядке иерархии, даже на самом верху. Ведь если Глава прайда не обеспечит достаточно резни, чтобы угодить Йеногу, самый успешный клятвопреступник выступит в качестве претендента. Каков бы ни был исход, владыка резни доволен."
 				],
 				"images": [
 					{
@@ -553,8 +553,8 @@
 			}
 		},
 		{
-			"name": "Gnoll Flind",
-			"shortName": "Gnoll Flind",
+			"name": "Гнолл Флинд",
+			"shortName": "Гнолл Флинд",
 			"source": "COMGnoll",
 			"size": [
 				"M"
@@ -603,48 +603,48 @@
 			],
 			"passive": 15,
 			"languages": [
-				"Gnoll",
-				"Abyssal"
+				"Гноллий",
+				"Бездонный"
 			],
 			"cr": "9",
 			"trait": [
 				{
-					"name": "Aura of Blood Thirst",
+					"name": "Аура кровожадности",
 					"entries": [
-						"If the flind isn't {@condition incapacitated}, any creature with the Rampage trait can maybe a bute attack as a bonus action while within 10 feet of the find."
+						"Если Флинд не {@condition incapacitated}, любое существо с особенностью «Буйство» может совершить атаку укусом в качестве Бонусного действия, находясь в пределах 10 футов от Флинда."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The flind makes three attacks: one with each of its different flail attacks or three with its longbow."
+						"Флинд совершает три Атаки: по одной каждой из своих разных атак цепом или три атаки своим Луком, длинным."
 					]
 				},
 				{
-					"name": "Flail of Madness",
+					"name": "Цеп безумия",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, and the target must make a {@dc 16} Wisdom saving throw. On a failed save,",
-						"the creature must make a melee attack against a random target within its reach on its next turn. If has no targets within is reach even after moving, it loses its action on that turn."
+						"{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона, и цель должна совершить спасбросок Мудрости {@dc 16}. При провале спасброска,",
+						"существо должно совершить Атаку в ближнем бою против случайной цели в пределах своей Досягаемости в свой следующий ход. Если после перемещения в пределах его Досягаемости нет Целей, оно теряет действие в этом ходу."
 					]
 				},
 				{
-					"name": "Flail of Pain",
+					"name": "Цеп боли",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, plus 22 ({@damage 4d10}) psychic damage."
+						"{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона плюс 22 ({@damage 4d10}) психического урона."
 					]
 				},
 				{
-					"name": "Flail of Paralysis",
+					"name": "Цеп паралича",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, and the target must succeed on a {@dc 16} Constitution saving throw or be {@condition paralyzed} until the end of its next turn,"
+						"{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона, и цель должна преуспеть в спасброске Телосложения {@dc 16}, иначе станет {@condition paralyzed} до конца своего следующего хода,"
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Лук, длинный",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}4 ({@damage 1d8}) колющего урона."
 					]
 				}
 			],
@@ -683,10 +683,10 @@
 			"fluff": {
 				"entries": [
 					"{@link Flind|https://kotaku.com/an-early-look-at-d-d-s-newest-monster-bible-1788410991?utm_campaign=Socialflow_Kotaku_Twitter&utm_source=Kotaku_Twitter&utm_medium=Socialflow}",
-					"A gnoll war band might include one or more of the special kinds of gnolls described in this section.",
-					"A flind is an exceptionally strong and vicious gnoll that commands and directs the war band it is a part of it wields is a flail imbued with powerful magic by Yeenoghu himself.",
-					"A war band can have only one flind, and that creature sets a war band's path Because of its special connection to Yeenoghu, a flind uses god-given omens and demonic insight to guide the gnolls toward weak prey ripe for slaughter.",
-					"Unlike other humanoid leaders that might: sine behind their minions, a find teads the charge in battle. rein those struck by it."
+					"Военный отряд гноллов может включать одного или нескольких гноллов особых видов, описанных в этом разделе.",
+					"Флинд — исключительно сильный и свирепый гнолл, который командует военным отрядом и руководит им; он владеет цепом, наделённым могущественной магией самим Йеногу.",
+					"В банде может быть только один флинд, и именно это существо определяет путь банды. Благодаря особой связи с Йеногу, флинд использует данные богами знамения и демоническую проницательность, чтобы вести гноллов к слабой добыче, созревшей для бойни.",
+					"В отличие от других лидеров гуманоидов, которые могут прятаться за своими прислужниками, флинд возглавляет атаку в бою и подчиняет себе тех, кого поражает."
 				],
 				"images": [
 					{
@@ -700,8 +700,8 @@
 			}
 		},
 		{
-			"name": "Gnoll Huntmaster",
-			"shortName": "Gnoll Huntmaster",
+			"name": "Повелитель охоты гноллов",
+			"shortName": "Повелитель охоты гноллов",
 			"source": "COMGnoll",
 			"size": [
 				"M"
@@ -747,54 +747,54 @@
 			],
 			"passive": 13,
 			"languages": [
-				"Gnoll"
+				"Гноллий"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Rampage",
+					"name": "Неистовство",
 					"entries": [
-						"When the grel reduces a creature to 0 hit points with a melee attack on its tum, the gnoll can take a bonus action to move up to half its speed and make a bite attack"
+						"Когда гнолл в свой ход сокращает хиты существа до 0 атакой в ближнем бою, гнолл может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The gnoll makes two attacks, either with its peer or longbow, and uses its Reckless Barrage it it can."
+						"Гнолл совершает две атаки — либо копьём, либо длинным луком — и использует свой Безрассудный залп, если может."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Spear",
+					"name": "Копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage in melee, or 5 ({@damage 1d6 + 2}) piercing damage at range, or 6 ({@damage 1d8 + 2}) piercing damage if used with both hands."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона в ближнем бою или 5 ({@damage 1d6 + 2}) колющего урона на расстоянии либо 6 ({@damage 1d8 + 2}) колющего урона, если используется двумя руками."
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Лук, длинный",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target's speed is reduced by 10 feet until the end of its next tum."
+						"{@atk rw} {@hit 5} для попадания, дистанция 150/600 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона, и скорость цели уменьшается на 10 футов до конца её следующего хода."
 					]
 				},
 				{
-					"name": "Reckless Barrage {@recharge 5}",
+					"name": "Безрассудный натиск {@recharge 5}",
 					"entries": [
-						"Up to three allied creatures that are within 120 feet of this gnoll can use their reaction to each make one ranged weapon attack with disadvantage if they can hear this gnoll and have the Rampage trait."
+						"До трёх союзных существ в пределах 120 футов от этого гнолла могут использовать свои реакции, чтобы каждое совершить одну дальнюю атаку оружием с помехой, если они слышат этого гнолла и обладают особенностью «Ярость»."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Kill steal",
+					"name": "Кража убийства",
 					"entries": [
-						"if the gnoll sees a conscious creature that takes damage and that 10 hit points or fewer, then it can use its reaction to make a ranged attack against that creature."
+						"Если гнолл видит находящееся в сознании существо, которое получает урон и имеет 10 или меньше хитов, он может использовать свою реакцию, чтобы совершить дальнюю атаку против этого существа."
 					]
 				}
 			],
@@ -828,12 +828,12 @@
 			"fluff": {
 				"entries": [
 					"{@link Gnoll Headmaster|https://www.reddit.com/r/monsteraday/comments/7odgnm/az_day_10_gnoll_huntmaster/}",
-					"Leader of the Pack",
-					"Some assume that leadership of gnoll war hands is gained by sacrificing victims on an altar or unholy space. However, champions of slaughter don't gain stature by dispatching helpleas victims tied to an altar. ",
-					"Methodical preparation and somber violence would shame the Lord of Savagery. Proper sacrifices are made during the brutal, blood-soaked orgies that the ignorant simply call \"gnoll raids\".",
-					"A Dog in the Hunt. ",
-					"The huntmaster is second only to the pack lord It leads the hunters and scouts and is responsible for finding the pack's next target. Since this is the essential desire of the pack and ensures its survival, it's not uncommon for the moat clever and killed if not the strongest and most martially adept gnoll in the entire war band to fill this role. All huntmasters are skilled with their bow picking off wounded prey, and rarely entering melee. As a result, these cunning gnolls usually live twice as lang as most pack lords.",
-					"Before departing on an expedition, the huntmaster will consult with a fang of Yeenoghu or whichever shaman is in charge of interpreting the omen. That way if an undefended village or caravan is not found, the huntmaster can deflect blame, which could bring death, and point its finger at that gave it advice."
+					"Вожак стаи",
+					"Некоторые считают, что лидерство среди гнолльих военных отрядов достигается принесением жертв на алтаре или в нечестивом месте. Однако чемпионы резни не приобретают статус, убивая беспомощных жертв, привязанных к алтарю.",
+					"Методичная подготовка и мрачное насилие опозорили бы Владыку Дикости. Надлежащие жертвоприношения совершаются во время жестоких, залитых кровью оргий, которые невежественные просто называют «набегами гноллов».",
+					"Пёс на охоте.",
+					"Повелитель охоты уступает лишь Главе прайда. Он ведёт охотников и разведчиков и отвечает за поиск следующей цели прайда. Поскольку это главное желание прайда и оно обеспечивает его Выживание, не редкость, когда эту роль исполняет самый умный и Одарённый, если не самый сильный и искусный в бою Гнолл во всём военном отряде. Все повелители охоты искусны в стрельбе из лука, поражая раненую добычу и редко вступая в Ближний бой. В результате эти хитрые Гноллы обычно живут вдвое дольше большинства Глав прайда.",
+					"Перед отправлением в экспедицию повелитель охоты советуется с клыком Йеногу или Шаманом, который отвечает за толкование предзнаменований. Так, если не удастся найти беззащитную деревню или караван, повелитель охоты сможет отвести от себя вину, которая может привести к Смерти, и указать пальцем на того, кто дал ему этот совет."
 				],
 				"images": [
 					{
@@ -847,8 +847,8 @@
 			}
 		},
 		{
-			"name": "Gnoll Mangeheart (Yeenoghu Shaman)",
-			"shortName": "Gnoll Mangeheart",
+			"name": "Гнолл Мангехарт (Шаман Йеногу)",
+			"shortName": "Гнолл Мангехарт",
 			"source": "COMGnoll",
 			"size": [
 				"M"
@@ -891,15 +891,15 @@
 			],
 			"passive": 12,
 			"languages": [
-				"Gnoll"
+				"Гноллий"
 			],
 			"cr": "2",
 			"spellcasting": [
 				{
-					"name": "Spellcasting (Gnoll form only)",
+					"name": "Использование заклинаний (только форма Гнолла)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The gnoll is a 5th level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, +4 to hit with spell attacks). The gnoll has the following druid spells prepared:"
+						"Гнолл — заклинатель 5-го Уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 12}, +4 к попаданию атаками заклинаниями). Гнолл подготовил следующие заклинания Друида:"
 					],
 					"spells": {
 						"0": {
@@ -937,43 +937,43 @@
 			],
 			"trait": [
 				{
-					"name": "Crippled",
+					"name": "Искалеченный",
 					"entries": [
-						"An injury permanently reduced the gnoll'speed by 5 whether it is in gnoll or hyena form."
+						"Ранение навсегда уменьшает скорость Гнолла на 5, независимо от того, находится ли он в форме Гнолла или Гиены."
 					]
 				},
 				{
-					"name": "Rampage",
+					"name": "Неистовство",
 					"entries": [
-						"When the gnoll reduces a creature to 0 hit points with a melee attack on its tum, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+						"Когда Гнолл уменьшает хиты существа до 0 атакой ближнего боя в свой ход, Гнолл может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}2 ({@damage 1d4}) колющего урона."
 					]
 				},
 				{
-					"name": "Quarterstaff (Gnoll form only)",
+					"name": "Боевой посох (только форма Гнолла)",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d8}) bludgeoning damage if used with both hands."
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d6}) дробящего урона или 4 ({@damage 1d8}) дробящего урона, если оружие используется двумя руками."
 					]
 				},
 				{
-					"name": "Change Shape (Recharges after a Short or Long Rest)",
+					"name": "Изменение облика (восстанавливается после короткого или Продолжительного отдыха)",
 					"entries": [
-						"The gnoll magically polymorphs into a {@creature hyena|MM}, remaining in that form for up to 3 hours. It can revert to its true form as a bonus action. Its statistics, other than its speed, are the same in each form. Any equipment it is wearing or carrying is absorbed by the new form. It reverts to its true form if it dies."
+						"Гнолл магическим образом превращается в {@creature hyena|MM}, оставаясь в этой форме до 3 часов. Он может вернуться в истинную форму бонусным действием. Его характеристики, за исключением скорости, одинаковы в каждой форме. Любое надетое или переносимое им снаряжение поглощается новой формой. Если он умирает, то возвращается в истинную форму."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Cursed Wound",
+					"name": "Проклятая рана",
 					"entries": [
-						"When an ally hits a creature with a melee attack, the gnoll curses the wound, provided that the creature is visible to the gnoll and within 60 feet. The target is cursed until the end of its next turn. While cursed in this way, its speed is halved, and it has disadvantage on attack rolls."
+						"Когда союзник попадает по существу атакой в ближнем бою, гнолл проклинает рану, при условии, что существо видно гноллу и находится в пределах 60 футов. Цель проклята до конца своего следующего хода. Пока оно проклято таким образом, его скорость уменьшается вдвое, и оно совершает броски атаки с помехой."
 					]
 				}
 			],
@@ -1016,8 +1016,8 @@
 			"fluff": {
 				"entries": [
 					"{@link Gnoll Mangeheart (Yeenoghu Shaman)|https://www.reddit.com/r/monsteraday/comments/7queni/az_day_13_gnoll_mangeheart_yeenoghu_shaman/}",
-					"No gnoll chooses to became a gnoll mangeheart, often just referred to as shaman. Instead Yeenaghu chooses mangehearts from the wounded and maimed. Promising gnolls are mended just enough that they aren't ripped apart by their pack mates. Then Yee noghu gifts them with the ability to take the farm of a hyena so that they're able to keep up with the war band and serve as furtive spics. They are almost always accompanied by one or more hyenas, which are their only companions and assist with scouting.",
-					"Regardless, gone are their days of wanton butchery, hewing victims in two with mighty axes. Instead, mangehearts must be content with conducting rituals that invest warriors with the Slaughter Lord' power, raise up rotawalkers and witherlings, and weaken foes that others will cut down. If gnolls were any other creature, they might look upan mangehearts with pity. Instead they ace a weakling that's one wrong step away fram becoming a meal."
+					"Ни один гнолл не выбирает становиться гноллом-сердцеедом, которого часто просто называют шаманом. Вместо этого Йеногу выбирает сердцеедов среди раненых и искалеченных. Перспективных гноллов исцеляют ровно настолько, чтобы их не разорвали на части сородичи по стае. Затем Йеногу дарует им способность принимать форму гиены, чтобы они могли поспевать за военным отрядом и служить скрытными разведчиками. Их почти всегда сопровождают одна или несколько гиен, которые являются их единственными спутниками и помогают вести разведку.",
+					"В любом случае дни их бессмысленной резни, когда они разрубали жертв надвое могучими топорами, закончились. Теперь Мангехарты вынуждены довольствоваться проведением ритуалов, наделяющих воинов силой Владыки Бойни, поднимающих гнилоступов и иссохликов и ослабляющих врагов, которых затем добивают другие. Если бы Гноллы были любым другим существом, они, возможно, смотрели бы на Мангехартов с жалостью. Вместо этого они сталкиваются со слабаком, которому достаточно одного неверного шага, чтобы превратиться в обед."
 				],
 				"images": [
 					{
@@ -1031,8 +1031,8 @@
 			}
 		},
 		{
-			"name": "Gnoll Marir Goreclash",
-			"shortName": "Gnoll Marir Goreclash",
+			"name": "Гнолл Марир Гореклэш",
+			"shortName": "Гнолл Марир Гореклэш",
 			"source": "COMGnoll",
 			"size": [
 				"M"
@@ -1084,37 +1084,37 @@
 			],
 			"passive": 14,
 			"languages": [
-				"Gnoll",
-				"Orc",
-				"Sylvan",
-				"Primordial"
+				"Гноллий",
+				"Орочий",
+				"Сильванский",
+				"Первобытный"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Rampage",
+					"name": "Неистовство",
 					"entries": [
-						"When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+						"Если гнолл в свой ход опускает рукопашной атакой хиты существа до 0, он может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Battleaxe",
+					"name": "Топор, боевой",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Лук, длинный",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
 					]
 				}
 			],

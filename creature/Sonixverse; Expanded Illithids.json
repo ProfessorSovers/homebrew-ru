@@ -22,7 +22,7 @@
 	},
 	"monster": [
 		{
-			"name": "Brain Golem",
+			"name": "Мозговой голем",
 			"source": "ExpandedIllithids",
 			"page": 8,
 			"size": [
@@ -76,87 +76,87 @@
 				"blinded"
 			],
 			"languages": [
-				"understands Deep Speech but can't speak",
-				"telepathy 120ft."
+				"Understands глубинная речь но не может говорить",
+				"Телепатия 120ft."
 			],
 			"cr": "10",
 			"pbNote": "+4",
 			"trait": [
 				{
-					"name": "Creature Sense",
+					"name": "Чувство существ",
 					"entries": [
-						"The brain golem can sense the presence and location of any creature within 300ft. of it if that creature at least has an Intelligence of 3 or higher, regardless of barriers, unless the creature is protected by a {@spell Mind Blank} spell. It can also determine the Intelligence score of a creature it detects."
+						"Мозговой голем чувствует присутствие и местоположение любого существа в пределах 300 футов от себя, если у этого существа Интеллект не ниже 3, независимо от преград, если только существо не защищено заклинанием {@spell Mind Blank}. Он также может определить показатель Интеллекта обнаруженного существа."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The brain golem has advantage on saving throws against spells and other magical effects."
+						"Мозговой голем совершает с преимуществом спасброски от заклинаний и других магических эффектов."
 					]
 				},
 				{
-					"name": "Mind Breaker",
+					"name": "Сокрушитель разума",
 					"entries": [
-						"Creatures have disadvantage on saving throws to maintain concentration when it takes damage from the brain golem."
+						"Существа совершают с помехой спасброски на поддержание концентрации, когда получают урон от мозгового голема."
 					]
 				},
 				{
-					"name": "Mind Eater",
+					"name": "Пожиратель разума",
 					"entries": [
-						"When the brain golem takes psychic damage, it takes no damage and regains a number of hitpoints equal to the psychic damage dealt."
+						"Когда мозговой голем получает урон психической энергией, он не получает урона и восстанавливает количество хитов, равное причинённому урону психической энергией."
 					]
 				},
 				{
-					"name": "Psionic Overload",
+					"name": "Псионическая перегрузка",
 					"entries": [
-						"Whenever the brain golem takes damage, all creatures within 5ft. of the brain golem takes 9({@dice 2d8}) psychic damage"
+						"Каждый раз, когда мозговой голем получает урон, все существа в пределах 5 футов от него получают 9({@dice 2d8}) урона психической энергией"
 					]
 				},
 				{
-					"name": "Spider Climb",
+					"name": "Паучье лазанье",
 					"entries": [
-						"The brain golem can climb difficult surfaces without needing to make an ability check."
+						"Мозговой голем может лазать по сложным поверхностям, не нуждаясь в проверках характеристик."
 					]
 				},
 				{
-					"name": "Telepathic Hub",
+					"name": "Телепатический узел",
 					"entries": [
-						"The brain golem can use its telepathy to initiate and maintain telepathic conversations with up to 10 creatures at a time. The brain golem can let those creature's telepathically hear each other while connected in this way."
+						"Мозговой голем может использовать свою телепатию, чтобы вступать и поддерживать телепатические беседы одновременно с 10 существами. Пока они связаны таким образом, мозговой голем может давать этим существам телепатически слышать друг друга."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The brain golem can make two attacks with its Psionic Slam"
+						"Мозговой голем может совершить две атаки псионическим ударом"
 					]
 				},
 				{
-					"name": "Psionic Slam",
+					"name": "Псионический удар",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, 5ft., one target. {@h}14({@dice 2d8 + 5}) bludgeoning damage +9({@dice 2d8}) psychic damage."
+						"{@atk mw} {@hit 9} к попаданию, 5 футов, одна цель. {@h}14({@dice 2d8 + 5}) дробящего урона +9({@dice 2d8}) урона психической энергией."
 					]
 				},
 				{
-					"name": "Psionic Explosion{@recharge 5}",
+					"name": "Псионический взрыв{@recharge 5}",
 					"entries": [
-						"Creatures in a 30ft. radius around the brain golem must succeed a {@dc 15} Wisdom saving throw. On a failed saving throw, the target takes 36({@dice 8d8}) psychic damage and is {@condition stunned} for one minute. On a successful saving throw, the target takes half damage and is otherwise unaffected.",
-						"Stunned creatures can repeat its saving throw at the end of each of its turns, ending the effect on a success."
+						"Существа в радиусе 30 футов вокруг мозгового голема должны преуспеть в спасброске Мудрости {@dc 15}. При провале цель получает 36({@dice 8d8}) урона психической энергией и становится {@condition stunned} на одну минуту. При успехе цель получает половину урона и иных эффектов не претерпевает.",
+						"Оглушённые существа могут повторять свой спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
 					]
 				},
 				{
-					"name": "Merge",
+					"name": "Слияние",
 					"entries": [
-						"The brain golem can sacrifice its life force to merge its body back into the elder brain. Upon using this feature, the brain golem is reduced to 0 hitpoints and immediately destroyed granting 60 hitpoints to the elder brain."
+						"Мозговой голем может пожертвовать своей жизненной силой, чтобы вновь слить своё тело со старшим мозгом. Использовав эту особенность, мозговой голем теряет все хиты и немедленно уничтожается, даруя старшему мозгу 60 хитов."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Absorb Brain",
+					"name": "Поглощение мозга",
 					"entries": [
-						"The brain golem can remove the brain from a creature that it has killed and absorb its brain into its form. The brain golem regains 30 hitpoints and the brain golem gains the target's surface emotions and thoughts."
+						"Мозговой голем может извлечь мозг из убитого им существа и впитать его мозг в своё тело. Мозговой голем восстанавливает 30 хитов и узнаёт поверхностные эмоции и мысли цели."
 					]
 				}
 			],
@@ -189,12 +189,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"Brain golems are the largest variant of intellect devourers. These titans can stand up to nearly 12 feet tall and resemble writhing masses of gray matter and brain tissue. These golems can be crafted in a variety of ways. The most common method is through the collection and fusion of numerous brains or acquiring the brain of a large enough creature. Others are directly spawned by the elder brain itself as a self-defense mechanism or to aid the illithid colony in a rather daunting task. Due to their incredible psionic power, brain golems are able to serve as a minor telepathic hub which can prove to be quite useful for illithids far away from the elder brain itself."
+					"Мозговые големы — крупнейшая разновидность пожирателей разума. Эти титаны достигают почти 12 футов в высоту и напоминают извивающиеся массы серого вещества и мозговой ткани. Таких големов можно создавать разными способами. Самый распространённый — собрать и сплавить множество мозгов или добыть мозг достаточно крупного существа. Других напрямую порождает сам старший мозг как механизм самозащиты или чтобы помочь колонии иллитидов в весьма трудной задаче. Благодаря невероятной псионической силе мозговые големы способны служить небольшим телепатическим узлом, что оказывается весьма полезным для иллитидов, находящихся далеко от старшего мозга."
 				]
 			}
 		},
 		{
-			"name": "Intellect Devourer",
+			"name": "Пожиратель разума",
 			"source": "ExpandedIllithids",
 			"page": 5,
 			"size": [
@@ -249,54 +249,54 @@
 				"blinded"
 			],
 			"languages": [
-				"understands Deep Speech but can't speak",
-				"telepathy 120ft."
+				"Understands глубинная речь но не может говорить",
+				"Телепатия 120ft."
 			],
 			"cr": "3",
 			"pbNote": "+2",
 			"trait": [
 				{
-					"name": "Creature Sense",
+					"name": "Чувство существ",
 					"entries": [
-						"The intellect devourer can sense the presence and location of any creature within 300ft. of it if that creature at least has an Intelligence of 3 or higher, regardless of barriers, unless the creature is protected by a {@spell Mind Blank} spell. It can also determine the Intelligence score of a creature it detects."
+						"Пожиратель разума чувствует присутствие и местоположение любого существа в пределах 300 футов от себя, если у этого существа Интеллект не ниже 3, независимо от преград, если только существо не защищено заклинанием {@spell Mind Blank}. Он также может определить показатель Интеллекта обнаруженного существа."
 					]
 				},
 				{
-					"name": "Mind Eater",
+					"name": "Пожиратель разума",
 					"entries": [
-						"When the intellect devourer takes psychic damage, it takes no damage and regains a number of hitpoints equal to the psychic damage dealt."
+						"Когда пожиратель разума получает урон психической энергией, он не получает урона и восстанавливает количество хитов, равное причинённому урону психической энергией."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The intellect devourer has advantage on saving throws against spells and other magical effects."
+						"Пожиратель разума совершает с преимуществом спасброски от заклинаний и других магических эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The intellect devourer can make two attack with its claws"
+						"Пожиратель разума может совершить две атаки когтями"
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, 5ft., one target. {@h}8({@dice 1d6 + 3}) slashing damage"
+						"{@atk mw} {@hit 5} к попаданию, 5 футов, одна цель. {@h}8({@dice 1d6 + 3}) рубящего урона"
 					]
 				},
 				{
-					"name": "Drain Intellect",
+					"name": "Вытягивание разума",
 					"entries": [
-						"One creature within 30ft. of the intellect devourer with a Intelligence score of at least 3 must succeed a {@dc 13} Intelligence saving throw. On a failed saving throw, the target takes 18({@dice 4d8}) psychic damage and the intellect devourer regains a number of hitpoints equal to the psychic damage and the intellect devourer discerns the target's surface emotions and thoughts. The target's Intelligence score is also reduced by 4({@dice 1d8}). If this reduction reduces a creature's Intelligence to 0, it is {@condition incapacitated} until it regains at least 1 Intelligence. This reduction can be removed using Greater Restoration."
+						"Одно существо в пределах 30 футов от пожирателя разума с показателем Интеллекта не ниже 3 должно преуспеть в спасброске Интеллекта {@dc 13}. При провале цель получает 18({@dice 4d8}) урона психической энергией, пожиратель разума восстанавливает количество хитов, равное урону психической энергией, и узнаёт поверхностные эмоции и мысли цели. Показатель Интеллекта цели также снижается на 4({@dice 1d8}). Если это снижение уменьшает Интеллект существа до 0, оно {@condition incapacitated}, пока не вернёт хотя бы 1 Интеллект. Это снижение можно снять с помощью великого восстановления."
 					]
 				},
 				{
-					"name": "Body Snatch",
+					"name": "Похищение тела",
 					"entries": [
-						"The intellect devourer chooses one {@condition incapacitated} creature within 5 feet of it and engages it in a contest of Intelligence. The intellect devourer overpowers the creature's mental defenses if it beats the target on a contested Intelligence check. The intellect devourer magically consumes the creature's brain and teleports into its skull, taking full control of the target's body. While inside the creature's skull, the intellect devourer has total cover against attacks and other effects outside of the host. The intellect devourer retains its Intelligence, Wisdom, and Charisma scores, as well as its comprehension of language, its telepathy, and its traits. Otherwise, it inherits the target's statistics, memories and knowledge, including spells and languages. If the host body drops to 0 hit points, the intellect devourer must leave the host. It can also be magically forced from the host's body by means of a {@spell protection from evil and good} spell being cast on the host. If the host's devoured brain is restored (only possibly with a {@spell wish} spell), the intellect devourer is forced out of the host. The intellect devourer can choose to leave the host at any time by spending 5 feet of its movement and then teleporting to an unoccupied space within 15 feet of the target. Unless its brain is restored within 1 round, the body dies."
+						"Пожиратель разума выбирает одно существо в состоянии {@condition incapacitated} в пределах 5 футов от себя и вступает с ним в состязание Интеллекта. Пожиратель разума одолевает умственную защиту существа, если побеждает цель в состязательной проверке Интеллекта. Пожиратель разума магически пожирает мозг существа и телепортируется в его череп, полностью беря тело цели под контроль. Находясь в черепе существа, пожиратель разума обладает полным укрытием от атак и других эффектов извне носителя. Пожиратель разума сохраняет свои показатели Интеллекта, Мудрости и Харизмы, а также понимание языка, телепатию и свои особенности. В остальном он наследует характеристики цели, её воспоминания и знания, включая заклинания и языки. Если тело носителя теряет все хиты, пожиратель разума должен покинуть носителя. Его также можно магически изгнать из тела носителя с помощью заклинания {@spell protection from evil and good}, сотворённого на носителя. Если пожранный мозг носителя восстановлен (возможно только заклинанием {@spell wish}), пожиратель разума изгоняется из носителя. Пожиратель разума может по желанию покинуть носителя в любой момент, потратив 5 футов перемещения и затем телепортировавшись в свободное пространство в пределах 15 футов от цели. Если мозг не восстановлен в течение 1 раунда, тело умирает."
 					]
 				}
 			],
@@ -326,7 +326,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Intellect devours are tiny monstrosities than resemble a brain with a set of four tendril-like claws. These abominations are the result of mind flayer experiments that are able to animate the living brain of a creature. Intellect devourers have the unique ability devour the minds of their victim and then implant itself with their body, taking full control of them. Because of this, many mind flayers keep a small pack of intellect devourers at their disposal to lure more victims to the mind flayer's domain or as scouts to explore the surface world."
+					"Пожиратели разума — крошечные чудовища, напоминающие мозг с четырьмя щупальцевидными когтями. Эти мерзости — результат экспериментов пожирателей разума, способных одушевить живой мозг существа. Пожиратели разума обладают уникальной способностью пожирать разум своей жертвы, а затем внедряться в её тело, полностью беря его под контроль. Поэтому многие иллитиды держат при себе небольшую стаю пожирателей разума, чтобы заманивать новых жертв во владения иллитида или использовать их как разведчиков для исследования поверхностного мира."
 				],
 				"images": [
 					{
@@ -340,7 +340,7 @@
 			}
 		},
 		{
-			"name": "Intellect Extractor",
+			"name": "Извлекатель разума",
 			"source": "ExpandedIllithids",
 			"page": 7,
 			"size": [
@@ -395,73 +395,73 @@
 				"blinded"
 			],
 			"languages": [
-				"understands Deep Speech but can't speak",
-				"telepathy 120ft."
+				"Understands глубинная речь но не может говорить",
+				"Телепатия 120ft."
 			],
 			"cr": "5",
 			"pbNote": "+3",
 			"trait": [
 				{
-					"name": "Mind Eater",
+					"name": "Пожиратель разума",
 					"entries": [
-						"When the intellect extractor takes psychic damage, it takes no damage and regains a number of hitpoints equal to the psychic damage dealt."
+						"Когда извлекатель разума получает урон психической энергией, он не получает урона и восстанавливает количество хитов, равное причинённому урону психической энергией."
 					]
 				},
 				{
-					"name": "Creature Sense",
+					"name": "Чувство существ",
 					"entries": [
-						"The intellect extractor can sense the presence and location of any creature within 300ft. of it if that creature at least has an Intelligence of 3 or higher, regardless of barriers, unless the creature is protected by a {@spell Mind Blank} spell. It can also determine the Intelligence score of a creature it detects."
+						"Извлекатель разума чувствует присутствие и местоположение любого существа в пределах 300 футов от себя, если у этого существа Интеллект не ниже 3, независимо от преград, если только существо не защищено заклинанием {@spell Mind Blank}. Он также может определить показатель Интеллекта обнаруженного существа."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The intellect extractor has advantage on saving throws against spells and other magical effects."
+						"Извлекатель разума совершает с преимуществом спасброски от заклинаний и других магических эффектов."
 					]
 				},
 				{
-					"name": "Spider Climb",
+					"name": "Паучье лазанье",
 					"entries": [
-						"The intellect extractor can climb difficult surfaces without needing to make an ability check."
+						"Извлекатель разума может лазать по сложным поверхностям, не нуждаясь в проверках характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The intellect extractor can use its Extract Mind and make two attacks with its claws."
+						"Извлекатель разума может использовать своё Извлечение разума и совершить две атаки когтями."
 					]
 				},
 				{
-					"name": "Extract Mind",
+					"name": "Извлечение разума",
 					"entries": [
-						"One creature within 30ft of the Intellect Extractor must succeed a {@dc 14} Intelligence saving throw. On a failed saving throw, the target takes 18({@dice 4d8}) psychic damage and the Intellect extractor regains a number of hitpoints equal to the psychic damage and the intellect extractor discerns the target's surface emotions and thoughts. The target's Intelligence score is also reduced by 4({@dice 1d8}). If this reduction reduces a creature's Intelligence to 0, it is {@condition incapacitated} until it regains at least 1 Intelligence. This reduction can be removed using Greater Restoration."
+						"Одно существо в пределах 30 футов от извлекателя разума должно преуспеть в спасброске Интеллекта {@dc 14}. При провале цель получает 18({@dice 4d8}) урона психической энергией, извлекатель разума восстанавливает количество хитов, равное урону психической энергией, и узнаёт поверхностные эмоции и мысли цели. Показатель Интеллекта цели также снижается на 4({@dice 1d8}). Если это снижение уменьшает Интеллект существа до 0, оно {@condition incapacitated}, пока не вернёт хотя бы 1 Интеллект. Это снижение можно снять с помощью великого восстановления."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, 5ft., one target. {@h}13({@dice 4d4 + 3}) piercing damage."
+						"{@atk mw} {@hit 6} к попаданию, 5 футов, одна цель. {@h}13({@dice 4d4 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Extract Brain",
+					"name": "Извлечение мозга",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, 5ft., one {@condition incapacitated} creature {@condition grappled} by the intellect extractor. {@h}The target takes 30({@dice 12d4}) piercing damage. If this damage reduces a target to 0 hitpoints, that creature is killed as the intellect extractor removes the targets brain."
+						"{@atk mw} {@hit 6} к попаданию, 5 футов, одно существо в состоянии {@condition incapacitated}, {@condition grappled} извлекателем разума. {@h}Цель получает 30({@dice 12d4}) колющего урона. Если этот урон снижает хиты цели до 0, это существо погибает: извлекатель разума извлекает мозг цели."
 					]
 				},
 				{
-					"name": "Psionic Lance {@recharge 5}",
+					"name": "Псионическое копьё {@recharge 5}",
 					"entries": [
-						"Creatures in a 30ft. long and 5ft. wide line must succeed a {@dc 14} Wisdom saving throw. On a failed saving throw, the target takes 27 ({@damage 6d8}) psychic damage and is {@condition stunned} for 1 minute. Stunned creatures can repeat its saving throw at the end of each of its turns until the end of its next turn.",
-						"RACTIONS"
+						"Существа на линии длиной 30 футов и шириной 5 футов должны преуспеть в спасброске Мудрости {@dc 14}. При провале цель получает 27 ({@damage 6d8}) урона психической энергией и становится {@condition stunned} на 1 минуту. Оглушённые существа могут повторять свой спасбросок в конце каждого своего хода до конца следующего хода.",
+						"РЕАКЦИИ"
 					]
 				},
 				{
-					"name": "Psionic Jolt",
+					"name": "Псионический разряд",
 					"entries": [
-						"When a creature within 30ft. of the intellect extractor damages it, it can force the attacker to make a {@dc 14} Wisdom saving throw or become {@condition stunned} until the end of its next turn."
+						"Когда существо в пределах 30 футов от извлекателя разума наносит ему урон, он может заставить атакующего совершить спасбросок Мудрости {@dc 14}, иначе тот станет {@condition stunned} до конца своего следующего хода."
 					]
 				}
 			],
@@ -500,7 +500,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Intellect possessors are been variant of intellect devourers that patrol illithid colonies in swarms. Unlike their terrestrial relative, the purpose of the intellect possessor is to incapacitate intruders to leave them vulnerable for the mind flayer to extract their brain. The primary tactic these creatures use latch onto their victim's heads using their slimy tentacles and then begin slowly draining their opponent's mind. Once attached, it is extremely hard and dangerous to remove these pests as they can merge with their victim's nervous system to share any pain it receives with its host. Because of their abilities, intellect possessors are ideal sentinels as their swarms can leave the borders of an illithid colonies littered with comatose creatures whose minds have been siphoned. Mind flayers have also been known to deploy these creatures in large swarms right before an invasion to incapacitate as many opponents as possible."
+					"Вселяющиеся разумы — разновидность пожирателей разума, патрулирующих колонии иллитидов роями. В отличие от своего наземного родича, вселяющийся разум предназначен для того, чтобы лишить вторгшихся дееспособности и оставить их уязвимыми для иллитида, извлекающего их мозг. Основная тактика этих существ — вцепиться в голову жертвы склизкими щупальцами и начать медленно вытягивать разум противника. Вцепившись, этих паразитов крайне трудно и опасно снимать, так как они могут сливаться с нервной системой жертвы, деля с носителем любую получаемую боль. Благодаря своим способностям вселяющиеся разумы — идеальные стражи: их рои могут оставить границы колоний иллитидов усеянными коматозными существами, чьи разумы были выкачаны. Известно также, что иллитиды развёртывают этих существ большими роями прямо перед вторжением, чтобы вывести из строя как можно больше противников."
 				],
 				"images": [
 					{
@@ -514,7 +514,7 @@
 			}
 		},
 		{
-			"name": "Intellect Possessor",
+			"name": "Вселяющийся разум",
 			"source": "ExpandedIllithids",
 			"page": 6,
 			"size": [
@@ -569,54 +569,54 @@
 				"blinded"
 			],
 			"languages": [
-				"understands Deep Speech but can't speak",
-				"telepathy 120ft."
+				"Understands глубинная речь но не может говорить",
+				"Телепатия 120ft."
 			],
 			"cr": "3",
 			"pbNote": "+2",
 			"trait": [
 				{
-					"name": "Creature Sense",
+					"name": "Чувство существ",
 					"entries": [
-						"The intellect possessor can sense the presence and location of any creature within 300ft. of it if that creature at least has an Intelligence of 3 or higher, regardless of barriers, unless the creature is protected by a {@spell Mind Blank} spell. It can also determine the Intelligence score of a creature it detects."
+						"Вселяющийся разум чувствует присутствие и местоположение любого существа в пределах 300 футов от себя, если у этого существа Интеллект не ниже 3, независимо от преград, если только существо не защищено заклинанием {@spell Mind Blank}. Он также может определить показатель Интеллекта обнаруженного существа."
 					]
 				},
 				{
-					"name": "Damage Transfer",
+					"name": "Перенос урона",
 					"entries": [
-						"While grappling a creature, the intellect possessor takes only half the damage dealt to it (rounded down) and that creature takes the other half."
+						"Пока вселяющийся разум схватил существо, он получает лишь половину наносимого ему урона (округлённую в меньшую сторону), а это существо получает другую половину."
 					]
 				},
 				{
-					"name": "Flyby",
+					"name": "Облёт",
 					"entries": [
-						"The intellect possessor can fly outside a creature's reach without provoking attacks of opportunity."
+						"Вселяющийся разум может летать за пределами досягаемости существа, не провоцируя атак по возможности."
 					]
 				},
 				{
-					"name": "Mind Eater",
+					"name": "Пожиратель разума",
 					"entries": [
-						"When the intellect possessor takes psychic damage, it takes no damage and regains a number of hitpoints equal to the psychic damage dealt."
+						"Когда вселяющийся разум получает урон психической энергией, он не получает урона и восстанавливает количество хитов, равное причинённому урону психической энергией."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The intellect possessor has advantage on saving throws against spells and other magical effects."
+						"Вселяющийся разум совершает с преимуществом спасброски от заклинаний и других магических эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Tentacles",
+					"name": "Щупальца",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, 5ft., one target. {@h}8({@dice 2d4 + 3}) bludgeoning damage and a Medium or smaller target is {@condition grappled} (escape {@dc 11}). Until the grapple ends,the target is considered {@condition blinded} and takes 9({@dice 2d8}) psychic damage at the start of each of its turns. The intellect possessor cannot grapple two creatures at a time."
+						"{@atk mw} {@hit 5} к попаданию, 5 футов, одна цель. {@h}8({@dice 2d4 + 3}) дробящего урона, и цель Среднего размера или меньше становится {@condition grappled} (высвобождение {@dc 11}). Пока захват не окончен, цель считается {@condition blinded} и получает 9({@dice 2d8}) урона психической энергией в начале каждого своего хода. Вселяющийся разум не может схватить двух существ одновременно."
 					]
 				},
 				{
-					"name": "Drain Intellect",
+					"name": "Вытягивание разума",
 					"entries": [
-						"One creature {@condition grappled} by intellect possessor must succeed a {@dc 13} Intelligence saving throw. On a failed saving throw, the target takes 18({@dice 4d8}) psychic damage and the Intellect possessor regains a number of hitpoints equal to the psychic damage and the intellect possessor discerns the target's surface emotions and thoughts. The target's Intelligence score is also reduced by 4({@dice 1d8}). If this reduction reduces a creature's Intelligence to 0, it is {@condition incapacitated} until it regains at least 1 Intelligence. This reduction can be removed using Greater Restoration."
+						"Одно существо, {@condition grappled} вселяющимся разумом, должно преуспеть в спасброске Интеллекта {@dc 13}. При провале цель получает 18({@dice 4d8}) урона психической энергией, вселяющийся разум восстанавливает количество хитов, равное урону психической энергией, и узнаёт поверхностные эмоции и мысли цели. Показатель Интеллекта цели также снижается на 4({@dice 1d8}). Если это снижение уменьшает Интеллект существа до 0, оно {@condition incapacitated}, пока не вернёт хотя бы 1 Интеллект. Это снижение можно снять с помощью великого восстановления."
 					]
 				}
 			],
@@ -651,7 +651,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Intellect extractors are heavily armored variants of an intellect devourer that is encased in a psionic-controlled suit of armor. These spider-like constructs mainly serve as soldiers or guards for illithid colonies, especially if the colony does not have many enthralled creatures at their disposal. Thanks to their mechanized armor, intellect extractors possess powerful claws that allow them to quickly extract the brains of an incapacitated creature. In fact, it is not uncommon to see groups of intellect extractors ferrying a collection of recently retrieved brains back to masters."
+					"Извлекатели разума — тяжелобронированные разновидности пожирателя разума, заключённые в управляемый псионикой доспех. Эти паукообразные конструкты служат в основном солдатами или стражами колоний иллитидов, особенно если в распоряжении колонии мало порабощённых существ. Благодаря механизированному доспеху извлекатели разума обладают мощными когтями, позволяющими им быстро извлекать мозг недееспособного существа. Более того, нередко можно увидеть группы извлекателей разума, несущих своим хозяевам целую партию недавно добытых мозгов."
 				],
 				"images": [
 					{
@@ -665,7 +665,7 @@
 			}
 		},
 		{
-			"name": "Neomite",
+			"name": "Неомит",
 			"source": "ExpandedIllithids",
 			"page": 9,
 			"size": [
@@ -710,10 +710,10 @@
 			"pbNote": "+2",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The neomite's innate spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 5} to hit with spell attacks). It can innately cast the following spells requiring no components:"
+						"Базовой характеристикой неомита для врождённого колдовства является Мудрость (Сл спасброска от заклинаний {@dc 15}, {@hit 5} к попаданию атаками заклинаниями). Он может по желанию колдовать следующие заклинания, не требуя компонентов:"
 					],
 					"will": [
 						"{@spell detect thoughts}"
@@ -723,47 +723,47 @@
 			],
 			"trait": [
 				{
-					"name": "Creature Sense",
+					"name": "Чувство существ",
 					"entries": [
-						"The neomite is aware of the presence of creatures within 1 mile of it that have an Intelligence score or 3 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a Mind Blank, a {@spell Nondetection} spell, or similar magic can't be perceived in this manner. It can also determine the Intelligence score of a creature it detects."
+						"Неомит знает о присутствии существ в пределах 1 мили от себя, имеющих показатель Интеллекта 3 или выше. Он знает расстояние и направление до каждого существа, а также показатель Интеллекта каждого существа, но не может почувствовать о нём ничего другого. Существо, защищённое заклинанием Mind Blank, {@spell Nondetection} или подобной магией, не может быть воспринято таким образом. Он также может определить показатель Интеллекта обнаруженного существа."
 					]
 				},
 				{
-					"name": "Hunger for Intellect",
+					"name": "Голод разума",
 					"entries": [
-						"When the neomite makes the attack action against a creature with an Intelligence score higher than the neomite, it can make an additional bite attack as part of its action."
+						"Когда неомит совершает действие Атака по существу с показателем Интеллекта выше, чем у неомита, он может совершить дополнительную атаку укусом в рамках этого действия."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The neomite has advantage on saving throws against spells and other magical effects."
+						"Неомит совершает с преимуществом спасброски от заклинаний и других магических эффектов."
 					]
 				},
 				{
-					"name": "Mind Eater",
+					"name": "Пожиратель разума",
 					"entries": [
-						"When the neomite takes psychic damage, it takes no damage and regains a number of hitpoints equal to the psychic damage dealt."
+						"Когда неомит получает урон психической энергией, он не получает урона и восстанавливает количество хитов, равное причинённому урону психической энергией."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The neomite has advantage on an attack roll against a creature if at least one of the neomite's allies is within 5 ft. of the creature and the ally isn't Incapacitated."
+						"Неомит совершает с преимуществом бросок атаки по существу, если хотя бы один союзник неомита находится в пределах 5 футов от этого существа и этот союзник не является недееспособным."
 					]
 				},
 				{
-					"name": "Spider Climb",
+					"name": "Паучье лазанье",
 					"entries": [
-						"The neomite can climb difficult surfaces without needing to make an ability check."
+						"Неомит может лазать по сложным поверхностям, не нуждаясь в проверках характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, 5ft., one target. {@h}8({@dice 1d10 + 3}) piercing damage + 5({@dice 2d4}) acid damage. If this attack reduces a creature to 0 hitpoints, it is immediately killed as the neomite devours the brain and regains 10 hitpoints."
+						"{@atk mw} {@hit 5} к попаданию, 5 футов, одна цель. {@h}8({@dice 1d10 + 3}) колющего урона + 5({@dice 2d4}) урона кислотой. Если эта атака снижает хиты существа до 0, оно немедленно погибает: неомит пожирает его мозг и восстанавливает 10 хитов."
 					]
 				}
 			],
@@ -784,7 +784,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Neomites are the result in a divergence in the reproductive cycle of a mind flayer tadpole, typically if an elder brain is killed. As they are no longer utilized as food or implanted into a donor brain, these tadpoles are able to grow to the size of small dogs. Despite their small size, they are extremely ravenous and feral creatures driven by their hunger for the minds of living creatures. Neomites prowl the tunnels of the Underdark in search for sentient prey and are especially attracted to the psionic hubs generated by an illithid colony. Due to their mutations, they are able to absorb all forms of psychic attack using it instead to heal their wounds. These creatures produce a unique corrosive acid that is able to quickly dissolve the brain and nervous system of their prey making it extremely easy for them to devour their prey's brain in a single bite."
+					"Неомиты — результат отклонения в цикле размножения личинки иллитида, обычно если старший мозг убит. Поскольку их больше не используют как пищу или не вживляют в мозг-донор, эти личинки способны вырасти до размеров небольшой собаки. Несмотря на малые размеры, это крайне прожорливые и дикие существа, движимые голодом по разумам живых существ. Неомиты рыскают по туннелям Подземья в поисках разумной добычи и особенно привлекаются псионическими узлами, создаваемыми колонией иллитидов. Благодаря своим мутациям они способны поглощать любые формы психических атак, используя их вместо этого для заживления ран. Эти существа вырабатывают уникальную разъедающую кислоту, способную быстро растворять мозг и нервную систему добычи, что делает для них крайне лёгким пожирание мозга жертвы одним укусом."
 				],
 				"images": [
 					{
@@ -798,7 +798,7 @@
 			}
 		},
 		{
-			"name": "Neomorph",
+			"name": "Неоморф",
 			"source": "ExpandedIllithids",
 			"page": 10,
 			"size": [
@@ -847,10 +847,10 @@
 			"pbNote": "+3",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The neomorph's innate spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 5} to hit with spell attacks). It can innately cast the following spells requiring no components:"
+						"Базовой характеристикой неоморфа для врождённого колдовства является Мудрость (Сл спасброска от заклинаний {@dc 15}, {@hit 5} к попаданию атаками заклинаниями). Он может по желанию колдовать следующие заклинания, не требуя компонентов:"
 					],
 					"will": [
 						"{@spell detect thoughts}",
@@ -867,55 +867,55 @@
 			],
 			"trait": [
 				{
-					"name": "Creature Sense",
+					"name": "Чувство существ",
 					"entries": [
-						"The neomorph is aware of the presence of creatures within 1 mile of it that have an Intelligence score or 3 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a Mind Blank, a {@spell Nondetection} spell, or similar magic can't be perceived in this manner.",
-						"Hunger for Intellect When the neomorph makes the attack action against a creature with an Intelligence score higher than the neomorph, it can deal a critical hit on a 18-20.",
-						"Magic Resistance The neomorph has advantage on saving throws against spells and other magical effects.",
-						"Mind Eater When the neomorph takes psychic damage, it takes no damage and regains a number of hitpoints equal to the psychic damage dealt.",
-						"Spider Climb The neomorph can climb difficult surfaces without needing to make an ability check."
+						"Неоморф знает о присутствии существ в пределах 1 мили от себя, имеющих показатель Интеллекта 3 или выше. Он знает расстояние и направление до каждого существа, а также показатель Интеллекта каждого существа, но не может почувствовать о нём ничего другого. Существо, защищённое заклинанием Mind Blank, {@spell Nondetection} или подобной магией, не может быть воспринято таким образом.",
+						"Голод разума. Когда неоморф совершает действие Атака по существу с показателем Интеллекта выше, чем у неоморфа, он может нанести критическое попадание при выпадении 18–20.",
+						"Сопротивление магии. Неоморф совершает с преимуществом спасброски от заклинаний и других магических эффектов.",
+						"Пожиратель разума. Когда неоморф получает урон психической энергией, он не получает урона и восстанавливает количество хитов, равное причинённому урону психической энергией.",
+						"Паучье лазанье. Неоморф может лазать по сложным поверхностям, не нуждаясь в проверках характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The neomorph can make a bite and two claw attacks."
+						"Неоморф может совершить атаку укусом и две атаки когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, 5ft., one target. {@h}14({@dice 2d10 + 3}) piercing damage + 5({@dice 2d4}) acid damage. If this damage reduces a target to 0 hitpoints, that creature is killed as the neomorph devours the brain and regains 20 hitpoints."
+						"{@atk mw} {@hit 6} к попаданию, 5 футов, одна цель. {@h}14({@dice 2d10 + 3}) колющего урона + 5({@dice 2d4}) урона кислотой. Если этот урон снижает хиты цели до 0, это существо погибает: неоморф пожирает его мозг и восстанавливает 20 хитов."
 					]
 				},
 				{
-					"name": "Tentacles",
+					"name": "Щупальца",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, 5ft., one target. {@h}7({@dice 1d8 + 3}) slashing damage +9({@dice 2d8}) psychic damage."
+						"{@atk mw} {@hit 6} к попаданию, 5 футов, одна цель. {@h}7({@dice 1d8 + 3}) рубящего урона +9({@dice 2d8}) урона психической энергией."
 					]
 				},
 				{
-					"name": "Acid Spit",
+					"name": "Плевок кислотой",
 					"entries": [
-						"Creatures in a 10ft. radius around a spot that it can see within 60ft. of the neomorph must succeed a {@dc 13} Dexterity saving throw. On a failed saving throw, the target takes 15 ({@damage 6d4}) acid damage and are coated in acid. On a successful saving throw, creatures only take half as much on a successful saving throw. Creatures coated in acid takes 9({@dice 2d8}) psychic at the start of each of its turns for one minute. Coated creatures must use its action to remove this acid from their form."
+						"Существа в радиусе 10 футов вокруг точки, которую неоморф видит в пределах 60 футов от себя, должны преуспеть в спасброске Ловкости {@dc 13}. При провале цель получает 15 ({@damage 6d4}) урона кислотой и покрывается кислотой. При успехе существа получают лишь половину этого урона. Существа, покрытые кислотой, получают 9({@dice 2d8}) урона психической энергией в начале каждого своего хода в течение одной минуты. Покрытые существа должны действием удалить эту кислоту со своего тела."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Aggressive",
+					"name": "Агрессивный",
 					"entries": [
-						"The neomorph can use its bonus action to move up to its movement speed towards a hostile creature it can see within range."
+						"Неоморф может бонусным действием переместиться на расстояние вплоть до своей скорости перемещения к враждебному существу, которое он видит в пределах досягаемости."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Psionic Revitalization",
+					"name": "Псионическое восстановление",
 					"entries": [
-						"Immediately when the neomorph's Mind Eater trait triggers, the neomorph can move up to twice its movement speed without provoking opportunity attacks and can make one bite attack against a target of its choice"
+						"Сразу же, когда срабатывает особенность неоморфа «Пожиратель разума», неоморф может переместиться на расстояние вплоть до удвоенной скорости перемещения, не провоцируя атак по возможности, и совершить одну атаку укусом по цели на свой выбор"
 					]
 				}
 			],
@@ -948,7 +948,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Neomorphs are a much larger and more evolved variant of the {@creature neomite|EI}. These creatures loosely resemble the form of an illithid. However, their mouth tendrils have evolved into a flower-like maw lined with teeth that allows them to latch onto their prey's face with ease. They also have the ability to spit orbs of neurotoxic acid that slowly eats away at one's nervous system from simple contact to their skin."
+					"Неоморфы — куда более крупная и развитая разновидность {@creature Неомит|EI}. Эти существа отдалённо напоминают облик иллитида. Однако их ротовые щупальца развились в цветкоподобную пасть, усеянную зубами, что позволяет им с лёгкостью вцепляться в лицо жертвы. Они также способны выплёвывать шары нейротоксичной кислоты, которая медленно разъедает нервную систему от простого контакта с кожей."
 				],
 				"images": [
 					{

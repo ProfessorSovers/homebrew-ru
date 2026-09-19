@@ -22,7 +22,7 @@
 	},
 	"monster": [
 		{
-			"name": "Bone Horror",
+			"name": "Костяной ужас",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 132,
 			"size": [
@@ -81,60 +81,60 @@
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Collapse",
+					"name": "Обрушение",
 					"entries": [
-						"The bone horror can use a bonus action to collapse into a pile of bones, becoming indistinguishable from a mundane bone pile. Doing so ends any {@condition grappled} or {@condition restrained} conditions affecting it, or that the bone horror has imposed on another creature. It can still be detected by a detect evil and good spell, or similar magic. While in this state, the bone horror's speed is 0 and it cannot benefit from any bonuses to its speed. It can't take any actions or reactions, other than reassembling itself.",
-						"As an action, a collapsed bone horror can reassemble itself. If it does, it can use a bonus action to make a single weapon attack on the same turn. The bone horror cannot reassemble itself on the same turn it collapsed, or vice versa."
+						"Костяной ужас может использовать бонусное действие, чтобы рассыпаться в груду костей, став неотличимым от обыкновенной груды костей. Это прекращает любые состояния {@condition grappled} или {@condition restrained}, воздействующие на него или наложенные костяным ужасом на другое существо. Его всё ещё можно обнаружить с помощью заклинания «Обнаружение зла и добра» или подобной магии. Пока он находится в этом состоянии, его скорость равна 0, и он не может получать преимущества от каких-либо бонусов к скорости. Он не может совершать действия или реакции, кроме как собрать себя заново.",
+						"Костяной ужас, рассыпавшийся в груду костей, может действием собрать себя заново. Если он это делает, в тот же ход он может бонусным действием совершить одну атаку оружием. Костяной ужас не может собрать себя заново в тот же ход, в котором рассыпался, и наоборот."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The bone horror makes three weapon attacks; it can't use the same attack twice with the same action. However, if it attacks once with its claws, it can make a second claws attack as a bonus action."
+						"Костяной ужас совершает три атаки оружием; он не может использовать одну и ту же атаку дважды за одно действие. Однако если он один раз атакует когтями, он может совершить вторую атаку когтями бонусным действием."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) piercing damage damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained} and the bone horror can't bite another target."
+						"{@atk mw} {@hit 11} для попадания, досягаемость 10 фт., одна цель. {@h}18 ({@damage 2d10 + 7}) колющего урона урона, и цель становится {@condition grappled} (высвобождение {@dc 17}). Пока этот захват не закончится, цель находится в состоянии {@condition restrained}, а костяной ужас не может укусить другую цель."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d10 + 7}) slashing damage."
+						"{@atk mw} {@hit 11} к попаданию, досягаемость 10 футов, одна цель. {@h}12 ({@damage 1d10 + 7}) рубящего урона."
 					]
 				},
 				{
-					"name": "Gore",
+					"name": "Рога",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}25 ({@damage 4d8 + 7}) piercing damage."
+						"{@atk mw} {@hit 11} к попаданию, досягаемость 10 футов, одна цель. {@h}25 ({@damage 4d8 + 7}) колющего урона."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Удар",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one {@condition prone} creature. {@h}23 ({@damage 3d10 + 7}) bludgeoning damage and the target must succeed on a {@dc 19} Strength saving throw, or be knocked {@condition prone}."
+						"{@atk mw} {@hit 11} для попадания, досягаемость 10 фт., одно существо в состоянии {@condition prone}. {@h}23 ({@damage 3d10 + 7}) дробящего урона, и цель должна преуспеть в спасброске Силы {@dc 19}, иначе будет сбита с ног в состояние {@condition prone}."
 					]
 				},
 				{
-					"name": "Lash",
+					"name": "Удар хлыстом",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 20 ft., one {@condition prone} creature. {@h}24 ({@damage 5d6 + 7}) slashing damage."
+						"{@atk mw} {@hit 11} для попадания, досягаемость 20 фт., одно {@condition prone} существо. {@h}24 ({@damage 5d6 + 7}) рубящего урона."
 					]
 				},
 				{
-					"name": "Shard Volley",
+					"name": "Залп осколков",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 40/80 ft., one target. {@h}15 ({@damage 3d10 - 1}) piercing damage."
+						"{@atk rw} {@hit 3} к попаданию, дистанция 40/80 футов, одна цель. {@h}15 ({@damage 3d10 - 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Shard Explosion",
+					"name": "Взрыв осколков",
 					"entries": [
-						"The bone horror makes a single Shard Volley attack against each creature withing 15 feet."
+						"Костяной ужас совершает одну атаку «Залп осколков» против каждого существа в пределах 15 футов."
 					]
 				}
 			],
@@ -183,7 +183,7 @@
 			}
 		},
 		{
-			"name": "Skelephant",
+			"name": "Скелефант",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 131,
 			"size": [
@@ -233,36 +233,36 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the skelephant is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока скелефант лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				},
 				{
-					"name": "Rib Carrier",
+					"name": "Переносчик рёбер",
 					"entries": [
-						"A Medium or smaller ally of the skelephant, that is also a skeleton, can use 10 feet of its movement to enter the skelephant's space and crawl into its ribcage. The skelephant can carry up to 8 Medium or smaller skeletons in its ribcage. A skeleton can leave the skelephant's ribcage by using 5 feet of movement. When it does, it exits {@condition prone} in an unoccupied space within 5 feet of the skelephant.",
-						"Creatures in the skelephant's ribcage have half cover against attacks from outside the skelephant. Attacks that would have advantage when targeting the skelephant, also have advantage when targeting any creature in the skelephant's ribcage."
+						"Союзник ске́лефанта Среднего размера или меньше, который также является скелетом, может потратить 10 футов своего перемещения, чтобы войти в пространство ске́лефанта и забраться в его грудную клетку. Ске́лефант может переносить в своей грудной клетке до 8 скелетов Среднего размера или меньше. Скелет может покинуть грудную клетку ске́лефанта, потратив 5 футов перемещения. При этом он выходит в состоянии {@condition prone} в незанятое пространство в пределах 5 футов от ске́лефанта.",
+						"Существа в грудной клетке скелефанта получают укрытие на половину от атак снаружи скелефанта. Атаки, которые совершались бы с преимуществом при выборе целью скелефанта, также совершаются с преимуществом при выборе целью любого существа в грудной клетке скелефанта."
 					]
 				},
 				{
-					"name": "Trampling Charge",
+					"name": "Растаптывающий рывок",
 					"entries": [
-						"If the skelephant moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the skeletphant can make one stomp attack against it as a bonus action."
+						"Если скелефант перемещается как минимум на 20 футов по прямой к существу, а затем попадает в него атакой рогом на том же ходу, эта цель должна преуспеть в спасброске {@dc 12} Силы или быть сбита {@condition prone}. Если цель {@condition prone}, скелефант может совершить одну атаку топотом по ней бонусным действием."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Gore",
+					"name": "Рога",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft. one target. {@h}19 ({@damage 3d8 + 6}) piercing damage."
+						"{@atk mw} {@hit 9} попасть, досягаемость 5 фт., одна цель. {@h}19 ({@damage 3d8 + 6}) колющего урона."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Топот",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft. one {@condition prone} creature. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit 9} попасть, досягаемость 5 фт., одно существо {@condition prone}. {@h}22 ({@damage 3d10 + 6}) дробящего урона."
 					]
 				}
 			],
@@ -303,7 +303,7 @@
 			}
 		},
 		{
-			"name": "Skeletal Dog",
+			"name": "Скелетная собака",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 130,
 			"size": [
@@ -349,17 +349,17 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the skeletal dog is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока скелетная собака лежит неподвижно, её невозможно отличить от обыкновенного скелетного трупа. Её всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				}
 			],
@@ -393,7 +393,7 @@
 			}
 		},
 		{
-			"name": "Skeletal Dragon",
+			"name": "Скелетный дракон",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 129,
 			"size": [
@@ -451,79 +451,79 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Draconic and Common",
-				"but can't speak"
+				"Understands драконий and Общий",
+				"Но не может говорить"
 			],
 			"cr": "17",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the skeletal dragon is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока скелетный дракон лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				},
 				{
-					"name": "Legendary Durability (3/Day)",
+					"name": "Легендарная стойкость (3/день)",
 					"entries": [
-						"If the skeletal dragon fails a savingthrow, it can choose to reroll the saving throw."
+						"Если скелетный дракон проваливает спасбросок, он может перебросить его."
 					]
 				},
 				{
-					"name": "Poor Flyer",
+					"name": "Плохой летун",
 					"entries": [
-						"The dragon's skeletal wings can't hold it aloft for long. If it starts its turn flying, it must end its turn on the ground or fall {@condition prone}."
+						"Скелетные крылья дракона не могут долго удерживать его в воздухе. Если он начинает свой ход в полёте, то должен закончить ход на земле или упасть {@condition prone}."
 					]
 				},
 				{
-					"name": "Residual Element",
+					"name": "Остаточный элемент",
 					"entries": [
-						"The skeletal dragon has a faded connection to the elemental energy it possessed during life. The damage type of the skeleton's breath weapon is acid, cold, fire, lightning, or poison, depending on the damage type it had in life. Additionally, the dragon has resistance to damage of the same type."
+						"Скелетный дракон имеет угасшую связь с элементальной энергией, которой обладал при жизни. Тип урона дыхательного оружия скелета — кислотный, холодный, огненный, электрический или ядовитый, в зависимости от типа урона, которым он обладал при жизни. Кроме того, дракон обладает сопротивлением урону того же типа."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The skeletal dragon makes two attacks with its claws, and one attack with its bite."
+						"Скелетный дракон совершает две атаки когтями и одну атаку укусом."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+						"{@atk mw} {@hit 12} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d6 + 6}) рубящего урона."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage."
+						"{@atk mw} {@hit 12} к попаданию, досягаемость 10 футов, одна цель. {@h}17 ({@damage 2d10 + 6}) колющего урона."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit 12} к попаданию, досягаемость 15 футов, одна цель. {@h}15 ({@damage 2d8 + 6}) дробящего урона."
 					]
 				},
 				{
-					"name": "Residual Breath {@recharge 5}",
+					"name": "Остаточное дыхание {@recharge 5}",
 					"entries": [
-						"The skeletal dragon exhales a faded version of its breath weapon energy in a 40 foot cone. Creatures in that area must make a {@dc 19} Constitution saving throw, taking 42 ({@damage 12d6}) damage on a failed save, or half as much damage on a successful one."
+						"Скелетный дракон выдыхает угасшую версию энергии своего дыхательного оружия в виде конуса длиной 40 футов. Существа в этой области должны совершить спасбросок Телосложения {@dc 19}, получая 42 ({@damage 12d6}) урона при провале или половину этого урона при успехе."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"The skeletal dragon makes a tail attack."
+						"Скелетный дракон совершает атаку хвостом."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The skeletal dragon beats its wings. Each creature within 15 feet of the skeletal dragon must succeed on a {@dc 20} Dexterity saving throw, or take 13 ({@damage 2d6 + 6}) bludgeoning damage and be knocked {@condition prone}. The skeletal dragon can then fly up to half its flying speed."
+						"Скелетный дракон взмахивает крыльями. Каждое существо в пределах 15 футов от скелетного дракона должно преуспеть в спасброске Ловкости {@dc 20}, иначе получает 13 ({@damage 2d6 + 6}) дробящего урона и оказывается сбитым с ног {@condition prone}. Затем скелетный дракон может пролететь расстояние, не превышающее половину его скорости полёта."
 					]
 				}
 			],
@@ -577,7 +577,7 @@
 			}
 		},
 		{
-			"name": "Skeletal Riding Horse",
+			"name": "Скелетная ездовая лошадь",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 130,
 			"size": [
@@ -621,22 +621,22 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the skeletal riding horse is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока скелетная ездовая лошадь лежит неподвижно, её невозможно отличить от обыкновенного скелетного трупа. Её всё ещё можно обнаружить заклинанием обнаружение зла и добра или подобной магией."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Hooves",
+					"name": "Копыта",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 2d4 + 3}) колющего урона."
 					]
 				}
 			],
@@ -674,7 +674,7 @@
 			}
 		},
 		{
-			"name": "Skeletal Wartitan",
+			"name": "Скелетный военный титан",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 133,
 			"size": [
@@ -733,88 +733,88 @@
 			"cr": "20",
 			"trait": [
 				{
-					"name": "Collapse",
+					"name": "Обрушение",
 					"entries": [
-						"The wartitan can use a bonus action to collapse into a pile of bones, becoming indistinguishable from a mundane bone pile. Doing so ends any {@condition grappled} or {@condition restrained} conditions affecting it, or that the wartitan has imposed on another creature. It can still be detected by a detect evil and good spell, or similar magic. While in this state, the wartitan's speed is 0 and it cannot benefit from any bonuses to its speed. It can't take any actions or reactions, other than reassembling itself.",
-						"As an action, a collapsed wartitan can reassemble itself. If it does, it can use a bonus action to make a single weapon attack on the same turn. The wartitan",
-						"cannot reassemble itself on the same turn it collapsed, or vice versa."
+						"Вартитан может использовать бонусное действие, чтобы рассыпаться в груду костей, став неотличимым от обыкновенной груды костей. Это прекращает любые состояния {@condition grappled} или {@condition restrained}, воздействующие на него, а также состояния, наложенные вартитаном на другое существо. Его всё ещё можно обнаружить с помощью заклинания «Обнаружение зла и добра» или подобной магии. В этом состоянии скорость вартитана равна 0, и он не может получать преимущества от каких-либо бонусов к своей скорости. Он не может совершать действия или реакции, кроме как собрать себя заново.",
+						"Действием рассыпавшийся вартитан может собрать себя заново. Если он это делает, он может использовать бонусное действие, чтобы совершить одну атаку оружием в тот же ход. Вартитан",
+						"не может собрать себя заново в тот же ход, в котором рассыпался, и наоборот."
 					]
 				},
 				{
-					"name": "Bone Weaponry",
+					"name": "Костяное оружие",
 					"entries": [
-						"As a bonus action, the wartitan can form its limbs into a weapon of its choice that are sized for itself. This can be a single two-handed weapon, two one-handed weapons, or a one-handed weapon and shield. The below weapons are examples. Keep in mind that huge weapons have three times the damage dice of Medium sized weapons of the same type.",
-						"Whenever the wartitan makes a ranged attack with its bone weaponry, its current and maximum hit points are reduced by 7 ({@dice 2d6}). The wartitan can use its Strength in place of its Dexterity modifier for attack and damage rolls with ranged bone weaponry."
+						"Бонусным действием вартитан может сформировать из своих конечностей выбранное им оружие, подходящее ему по размеру. Это может быть одно двуручное оружие, два одноручных оружия либо одноручное оружие и щит. Оружие ниже приведено в качестве примера. Учтите, что у оружия размера Огромный в три раза больше костей урона, чем у оружия того же типа размера Средний.",
+						"Каждый раз, когда вартитан совершает дальнюю атаку своим костяным оружием, его текущие и максимальные хиты уменьшаются на 7 ({@dice 2d6}). Вартитан может использовать свою Силу вместо модификатора Ловкости для бросков атаки и урона дальним костяным оружием."
 					]
 				},
 				{
-					"name": "Legendary Resistance (2/Day)",
+					"name": "Легендарное сопротивление (2/день)",
 					"entries": [
-						"If the skeletal wartitan fails a saving throw, it can choose to succeed instead."
+						"Если костяной вартитан проваливает спасбросок, он может вместо этого решить, что преуспел."
 					]
 				},
 				{
-					"name": "Siege Monster",
+					"name": "Осадное чудовище",
 					"entries": [
-						"The skeletal wartitan deals double damage to objects and structures."
+						"Скелетный вар-титан наносит двойной урон предметам и сооружениям."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The wartitan makes three attacks with its bone weaponry. If it is wielding a pair of one-handed bone weapons, it makes three attacks with one weapon and one additional attack with the other weapon."
+						"Вар-титан совершает три атаки своим костяным оружием. Если он держит пару одноручного костяного оружия, он совершает три атаки одним оружием и одну дополнительную атаку другим оружием."
 					]
 				},
 				{
-					"name": "Unarmed Strike",
+					"name": "Удар без оружия",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 3d4 + 8}) bludgeoning damage."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 10 футов, одна цель. {@h}15 ({@damage 3d4 + 8}) дробящего урона."
 					]
 				},
 				{
-					"name": "Bone Pike",
+					"name": "Костяная пика",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}24 ({@damage 3d10 + 8}) piercing damage."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 15 футов, одна цель. {@h}24 ({@damage 3d10 + 8}) колющего урона."
 					]
 				},
 				{
-					"name": "Bone Longsword",
+					"name": "Костяной длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d8 + 8}) slashing damage, or 24 ({@damage 3d10 + 8}) slashing damage if used with both hands."
+						"{@atk mw} {@hit 14} для попадания, досягаемость 10 фт., одна цель. {@h}21 ({@damage 3d8 + 8}) рубящего урона или 24 ({@damage 3d10 + 8}) рубящего урона, если оружие используется обеими руками."
 					]
 				},
 				{
-					"name": "Bone Maul",
+					"name": "Костяная булава",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}29 ({@damage 6d6 + 8}) bludgeoning damage."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 10 футов, одна цель. {@h}29 ({@damage 6d6 + 8}) дробящего урона."
 					]
 				},
 				{
-					"name": "Bone Longbow",
+					"name": "Костяной длинный лук",
 					"entries": [
-						"{@atk rw} {@hit 10} to hit, range 150/600 ft., one target. {@h}17 ({@damage 3d8 + 4}) piercing damage."
+						"{@atk rw} {@hit 10} к попаданию, дистанция 150/600 футов, одна цель. {@h}17 ({@damage 3d8 + 4}) колющего урона."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Surge",
+					"name": "Рывок",
 					"entries": [
-						"The wartitan becomes a roiling mass of bones. It moves up to half its speed and, during this movement, can pass through the spaces of other creatures."
+						"Вар-титан превращается в бурлящую массу костей. Он перемещается на расстояние до половины своей скорости и во время этого перемещения может проходить через пространства других существ."
 					]
 				},
 				{
-					"name": "Kick",
+					"name": "Пинок",
 					"entries": [
-						"The wartitan makes one unarmed strike."
+						"Вар-титан совершает один безоружный удар."
 					]
 				},
 				{
-					"name": "Change Weapon",
+					"name": "Сменить оружие",
 					"entries": [
-						"The wartitan reforms its bone weaponry as per its Bone Weaponry ability."
+						"Вартитан переформировывает своё костяное вооружение согласно своей способности «Костяное вооружение»."
 					]
 				}
 			],
@@ -861,7 +861,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Archer",
+			"name": "Скелет-лучник",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 125,
 			"size": [
@@ -905,28 +905,28 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the archer is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока лучник неподвижно лежит, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить с помощью заклинания «Обнаружение зла и добра» или подобной магии."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Лук, длинный",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
 					]
 				}
 			],
@@ -971,7 +971,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Hill Giant",
+			"name": "Скелет-холмовой великан",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 127,
 			"size": [
@@ -1019,35 +1019,35 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Giant",
-				"but can't speak"
+				"Understands великаний",
+				"Но не может говорить"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the skeletal hill giant is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока скелетный холмовой великан неподвижно лежит, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить с помощью заклинания «Обнаружение зла и добра» или подобной магии."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The skeletal hill giant makes two greatclub attacks."
+						"Скелетный холмовой великан совершает две атаки палицей."
 					]
 				},
 				{
-					"name": "Greatclub",
+					"name": "Палица",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}18 ({@damage 3d8 + 5}) дробящего урона."
 					]
 				},
 				{
-					"name": "Rock",
+					"name": "Камень",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 60/180 ft., one target. {@h}16 ({@damage 3d10}) bludgeoning damage."
+						"{@atk rw} {@hit 3} к попаданию, дистанция 60/180 футов, одна цель. {@h}16 ({@damage 3d10}) дробящего урона."
 					]
 				}
 			],
@@ -1093,7 +1093,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Infantry",
+			"name": "Скелетная пехота",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 122,
 			"size": [
@@ -1142,30 +1142,30 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the infantry is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока пехота лежит неподвижно, её невозможно отличить от обыкновенного скелетного трупа. Её всё ещё можно обнаружить с помощью заклинания «Обнаружение зла и добра» или подобной магии."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Pike",
+					"name": "Пика",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 10 футов, одна цель. {@h}6 ({@damage 1d10 + 1}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Brace Pike",
+					"name": "Выставление щита: пика",
 					"entries": [
-						"When a creature enters its reach, the infantry can make a pike attack against it."
+						"Когда существо входит в пределы его досягаемости, пехотинец может совершить против него атаку пикой."
 					]
 				}
 			],
@@ -1208,7 +1208,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Marksman",
+			"name": "Искусный стрелок-скелет",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 125,
 			"size": [
@@ -1257,34 +1257,34 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the marksman is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока искусный стрелок лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The marksman makes two dagger or longbow attacks."
+						"Искусный стрелок совершает две атаки кинжалом или длинным луком."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Лук, длинный",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 120/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{@atk rw} {@hit 5} к попаданию, дистанция 120/600 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона."
 					]
 				}
 			],
@@ -1333,7 +1333,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Minotaur Warlord",
+			"name": "Скелет-минотавр-воевода",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 127,
 			"size": [
@@ -1390,61 +1390,61 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Abyssal",
-				"but can't speak"
+				"Understands бездонный",
+				"Но не может говорить"
 			],
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the skeletal minotaur is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока скелет-минотавр лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				},
 				{
-					"name": "Charge",
+					"name": "Заряды",
 					"entries": [
-						"If the skeletal minotaur moves at least 10 feet straight toward a target, and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw, or be pushed up to 10 feet away and knocked {@condition prone}."
+						"Если скелет-минотавр переместится хотя бы на 10 футов по прямой к цели, а затем попадёт по ней атакой рогами в том же ходу, цель получает дополнительный урон 9 ({@damage 2d8}) колющего типа. Если цель — существо, оно должно преуспеть в спасброске Силы со Сл {@dc 15}, иначе будет отброшено на расстояние до 10 футов и сбито с ног {@condition prone}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The skeletal minotaur makes one greataxe attack and one gore attack. It can make a hoof attack in place of its greataxe attack."
+						"Скелет-минотавр совершает одну атаку топором, двуручным, и одну атаку рогами. Вместо атаки топором, двуручным, он может совершить атаку копытом."
 					]
 				},
 				{
-					"name": "Greataxe",
+					"name": "Топор, двуручный",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d12 + 5}) slashing damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}18 ({@damage 2d12 + 5}) рубящего урона."
 					]
 				},
 				{
-					"name": "Gore",
+					"name": "Рога",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d8 + 5}) колющего урона."
 					]
 				},
 				{
-					"name": "Hoof",
+					"name": "Копыто",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, or {@h}16 ({@damage 2d10 + 5}) bludgeoning damage, if the target is {@condition prone}."
+						"{@atk mw} {@hit 9} для попадания, досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона или {@h}16 ({@damage 2d10 + 5}) дробящего урона, если цель находится в состоянии {@condition prone}."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Kick",
+					"name": "Пинок",
 					"entries": [
-						"The skeletal minotaur makes a hoof attack."
+						"Скелет-минотавр совершает атаку копытом."
 					]
 				},
 				{
-					"name": "Charge (Costs 2 Actions)",
+					"name": "Заряды (требует 2 действия)",
 					"entries": [
-						"The skeletal minotaur moves up to its speed in a straight line toward a creature, and makes a gore attack against that creature."
+						"Скелет-минотавр перемещается по прямой линии к существу на расстояние вплоть до своей скорости и совершает против этого существа атаку рогами."
 					]
 				}
 			],
@@ -1500,7 +1500,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Minotaur Warrior",
+			"name": "Скелет-минотавр-боец",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 127,
 			"size": [
@@ -1549,41 +1549,41 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Abyssal",
-				"but can't speak"
+				"Understands бездонный",
+				"Но не может говорить"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the skeletal minotaur is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока скелет-минотавр лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				},
 				{
-					"name": "Charge",
+					"name": "Заряды",
 					"entries": [
-						"If the skeletal minotaur moves at least 10 feet straight toward a target, and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw, or be pushed up to 10 feet away and knocked {@condition prone}."
+						"Если скелет-минотавр переместится как минимум на 10 футов по прямой к цели, а затем попадёт по ней атакой рогами в том же ходу, цель получает дополнительный урон 9 ({@damage 2d8}) колющего типа. Если цель — существо, оно должно преуспеть в спасброске Силы со Сл {@dc 14}, иначе будет оттолкнуто на расстояние вплоть до 10 футов и сбито с ног {@condition prone}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The skeletal minotaur makes one greataxe attack and one gore attack."
+						"Скелет-минотавр совершает одну атаку топором, двуручным и одну атаку рогами."
 					]
 				},
 				{
-					"name": "Greataxe",
+					"name": "Топор, двуручный",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) slashing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}17 ({@damage 2d12 + 4}) рубящего урона."
 					]
 				},
 				{
-					"name": "Gore",
+					"name": "Рога",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона."
 					]
 				}
 			],
@@ -1638,7 +1638,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Pikemaster",
+			"name": "Скелет-пикинер",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 124,
 			"size": [
@@ -1695,62 +1695,62 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the pikemaster is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока пикинер лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				},
 				{
-					"name": "Legendary Durability (3/Day)",
+					"name": "Легендарная стойкость (3/день)",
 					"entries": [
-						"If the skeleton pikemaster fails a saving throw, it can choose to reroll the saving throw."
+						"Если скелет-пикинер проваливает спасбросок, он может перебросить спасбросок."
 					]
 				},
 				{
-					"name": "Osseous Phalanx",
+					"name": "Костяная фаланга",
 					"entries": [
-						"As a bonus action, the pikemaster can push its pike through the ribcage of another willing skeleton. The impaled skeleton takes no damage, but is considered {@condition grappled} by the pikemaster until either skeleton ends the condition on its turn as part of its movement. Until this grapple ends, as long as the impaled skeleton is not destroyed, the pikemaster has three-quarters cover."
+						"Бонусным действием пикинер может протолкнуть свою пику через грудную клетку другого добровольного скелета. Пронзённый скелет не получает урона, но считается {@condition grappled} пикинером, пока любой из скелетов не завершит это состояние в свой ход частью своего перемещения. Пока этот захват не окончится, если пронзённый скелет не уничтожен, пикинер получает укрытие на три четверти."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The pikemaster makes two weapon attacks."
+						"Пикинер совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Pike",
+					"name": "Пика",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 10 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Brace Pike",
+					"name": "Выставление щита: пика",
 					"entries": [
-						"When a creature enters its reach, the pikemaster can make a pike attack against it."
+						"Когда существо входит в его досягаемость, пикинер может совершить против него атаку пикой."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The pikemaster makes a pike attack."
+						"Пикинер совершает атаку пикой."
 					]
 				},
 				{
-					"name": "Impaling Vault (Costs 2 Actions)",
+					"name": "Пронзающее хранилище (стоит 2 действия)",
 					"entries": [
-						"The pikemaster makes a pike attack against a target within its reach. It then moves to an unoccupied space it can see within 10 feet of the target, without provoking opportunity attacks, and can make a pike attack against another target within its reach. The pikemaster can't use this action while grappling another creature."
+						"Мастер пики совершает атаку пикой по цели в пределах своей досягаемости. Затем он перемещается в свободное пространство, которое может видеть, в пределах 10 футов от цели, не провоцируя атаки по возможности, и может совершить атаку пикой по другой цели в пределах своей досягаемости. Мастер пики не может использовать это действие, пока борется с другим существом."
 					]
 				}
 			],
@@ -1796,7 +1796,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Pikeneer",
+			"name": "Скелет-пикенер",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 123,
 			"size": [
@@ -1845,36 +1845,36 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the pikeneer is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока пикенер лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The pikeneer makes two weapon attacks."
+						"Пикенер совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Pike",
+					"name": "Пика",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Brace Pike",
+					"name": "Выставление щита: пика",
 					"entries": [
-						"When a creature enters its reach, the infantry can make a pike attack against it."
+						"Когда существо входит в пределы его досягаемости, пехотинец может совершить против него атаку пикой."
 					]
 				}
 			],
@@ -1920,7 +1920,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Sharpshooter",
+			"name": "Скелет — меткий стрелок",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 125,
 			"size": [
@@ -1977,52 +1977,52 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the sharpshooter is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока меткий стрелок лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				},
 				{
-					"name": "Osseous Sniper",
+					"name": "Костяной снайпер",
 					"entries": [
-						"Other skeletal creatures (animated or otherwise) never provide cover against the sharpshooter's ranged attacks."
+						"Другие скелетные существа, оживлённые или нет, никогда не предоставляют укрытие от дальнобойных атак меткого стрелка."
 					]
 				},
 				{
-					"name": "Legendary Durability (3/Day)",
+					"name": "Легендарная стойкость (3/день)",
 					"entries": [
-						"If the skeleton sharpshooter fails a saving throw, it can choose to reroll the saving throw.."
+						"Если скелет — меткий стрелок проваливает спасбросок.."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The sharpshooter makes two dagger or longbow attacks."
+						"Меткий стрелок совершает две атаки кинжалом или длинным луком."
 					]
 				},
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The sharpshooter makes two weapon attacks."
+						"Меткий стрелок совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Лук, длинный",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{@atk rw} {@hit 6} к попаданию, дистанция 120/600 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона."
 					]
 				}
 			],
@@ -2071,7 +2071,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Soldier",
+			"name": "Скелет-солдат",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 121,
 			"size": [
@@ -2121,28 +2121,28 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the soldier is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока солдат лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The soldier makes two weapon attacks"
+						"Солдат совершает две атаки оружием"
 					]
 				},
 				{
-					"name": "Scimitar",
+					"name": "Сабля",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) рубящего урона."
 					]
 				}
 			],
@@ -2187,7 +2187,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Veteran",
+			"name": "Скелет-ветеран",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 122,
 			"size": [
@@ -2245,62 +2245,62 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the warrior is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока боец лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				},
 				{
-					"name": "Legendary Durability (3/Day).",
+					"name": "Легендарная стойкость (3/день).",
 					"entries": [
-						"If the veteran fails a saving throw, it can choose to reroll the saving throw."
+						"Если ветеран проваливает спасбросок, он может перебросить его."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The veteran makes two scimitar attacks and uses its Shield Bash."
+						"Ветеран совершает две атаки саблей и использует свой «Удар щитом»."
 					]
 				},
 				{
-					"name": "Scimitar",
+					"name": "Сабля",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Shield Bash",
+					"name": "Удар щитом",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage and the target must succeed on a {@dc 12} Strength saving throw, or be knocked {@condition prone}."
+						"{@atk mw} {@hit 4} для попадания, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d4 + 1}) дробящего урона, и цель должна преуспеть в спасброске Силы с {@dc 12}, иначе будет сбита {@condition prone}."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Osseous Counter",
+					"name": "Костный ответный удар",
 					"entries": [
-						"When the veteran is hit by a melee weapon attack, it can attempt to catch the weapon in between its bones. The attacker must succeed on a {@dc 14} Dexterity saving throw, or its weapon becomes stuck. While the weapon is stuck, the creature wielding it is {@condition grappled} by the veteran. The creature can end the grapple by dropping the weapon. A creature can use its action to attempt to retrieve a weapon stuck this way by succeeding on a {@dc 14} Strength check. If the veteran willingly offers the weapon, or is {@condition incapacitated}, no check is necessary to retrieve the weapon."
+						"Когда в ветерана попадает атака оружием ближнего боя, он может попытаться поймать оружие между своими костями. Атакующий должен преуспеть в спасброске Ловкости {@dc 14}, иначе его оружие застревает. Пока оружие застряло, существо, владеющее им, является {@condition grappled} ветераном. Существо может окончить захват, бросив оружие. Существо может действием попытаться извлечь застрявшее таким образом оружие, преуспев в проверке Силы {@dc 14}. Если ветеран добровольно отдаёт оружие или является {@condition incapacitated}, для извлечения оружия проверка не требуется."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The veteran makes a scimitar attack."
+						"Ветеран совершает атаку саблей."
 					]
 				},
 				{
-					"name": "Whirling Leap (Costs 2 Actions)",
+					"name": "Вихревой прыжок (стоит 2 действия)",
 					"entries": [
-						"The veteran moves up to 30 feet in a straight line without provoking opportunity attacks and ignoring nonmagical difficult terrain. During this movement, it can make a single scimitar attack against each enemy that enters its reach. The veteran can't use this action while grappling another creature."
+						"Ветеран перемещается по прямой на расстояние до 30 футов, не провоцируя атаки по возможности и игнорируя немагическую труднопроходимую местность. Во время этого перемещения он может совершить одну атаку саблей против каждого врага, который входит в его досягаемость. Ветеран не может использовать это действие, пока совершает захват другого существа."
 					]
 				}
 			],
@@ -2353,7 +2353,7 @@
 			}
 		},
 		{
-			"name": "Skeleton Warrior",
+			"name": "Скелет-боец",
 			"source": "UltimateBestiaryTheDreadedAccursed",
 			"page": 121,
 			"size": [
@@ -2403,22 +2403,22 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Skeletal Appearance",
+					"name": "Скелетный облик",
 					"entries": [
-						"While the warrior is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+						"Пока боец лежит неподвижно, его невозможно отличить от обыкновенного скелетного трупа. Его всё ещё можно обнаружить заклинанием «Обнаружение зла и добра» или подобной магией."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Scimitar",
+					"name": "Сабля",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) рубящего урона."
 					]
 				}
 			],

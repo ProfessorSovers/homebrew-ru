@@ -23,7 +23,7 @@
 	},
 	"monster": [
 		{
-			"name": "Ahuizotl",
+			"name": "Ауисотль",
 			"isNamedCreature": true,
 			"source": "mlpplaneshiftbestiary",
 			"size": [
@@ -60,40 +60,40 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Common",
+				"Общий",
 				"Carnivoran"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"Ahuizotl can breathe air and water."
+						"Ауисотль может дышать воздухом и водой."
 					]
 				},
 				{
-					"name": "Grasping Tail",
+					"name": "Хватающий хвост",
 					"entries": [
-						"Ahuizotl has expertise in Athletics, and can grapple up to three creatures at once."
+						"Ауисотль владеет Атлетикой и может удерживать в захвате до трёх существ одновременно."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Grapple",
+					"name": "Захват",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h} 6 ({@damage 1d4 + 4}) bludgeoning damage and the target is {@condition grappled}. If damage from this attack reduces a target to 0 HP, that target is {@condition unconscious} and stabilized."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 10 футов, одна цель. {@h} 6 ({@damage 1d4 + 4}) дробящего урона, и цель {@condition grappled}. Если урон от этой атаки уменьшает цель до 0 хитов, эта цель {@condition unconscious} и стабилизирована."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Ahuizotl",
+				"name": "Ауисотль",
 				"source": "mlpplaneshiftbestiary"
 			},
 			"traitTags": [
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"name": "Bufogren",
+			"name": "Буфогрен",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -165,64 +165,64 @@
 			],
 			"languages": [
 				"Bufogren",
-				"understands Common but can't speak"
+				"Understands Общий но не может говорить"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Stench (Hezrou)",
+					"name": "Зловоние (хезроу)",
 					"entries": [
-						"Any creature that starts its turn within 10 feet of the bufogren must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to any bufogren's stench for 24 hours."
+						"Любое существо, начинающее свой ход в пределах 10 футов от буфогрена, должно преуспеть в спасброске Телосложения {@dc 13}, иначе {@condition poisoned} до начала своего следующего хода. При успешном спасброске существо невосприимчиво к зловонию любого буфогрена в течение 24 часов."
 					]
 				},
 				{
-					"name": "Keen Hearing",
+					"name": "Острый слух",
 					"entries": [
-						"The bufogren has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+						"Буфогрен совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на слух."
 					]
 				},
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"The bufogren can breathe air and water."
+						"Буфогрен может дышать воздухом и водой."
 					]
 				},
 				{
-					"name": "Standing Leap",
+					"name": "Прыжок с места",
 					"entries": [
-						"The bufogren's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+						"Длина прыжка буфогрена с разбега составляет до 20 футов, а высота прыжка вверх — до 10 футов, с разбегом или без."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Mutliattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The bufogren makes 3 attacks, one of which can be a tongue lash attack."
+						"Буфогрен совершает 3 атаки, одна из которых может быть атакой языком."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 2d6 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Tongue Lash",
+					"name": "Удар языком",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 20 ft., one target. {@h}7 ({@damage 2d4 + 2}) bludgeoning damage.  A hit target is automatically {@condition grappled} by the bufogren. The bufogren cannot use this attack if it has a creature {@condition grappled} by its tongue."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 20 футов, одна цель. {@h}7 ({@damage 2d4 + 2}) дробящего урона. Цель, по которой попали, автоматически {@condition grappled} буфогреном. Буфогрен не может использовать эту атаку, если у него есть существо, {@condition grappled} его языком."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The bufogren makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the bufogren, and it takes 9 ({@damage 2d8}) acid damage at the start of each of the bufogren's turns. The bufogren can have only one creature swallowed at a time. If the bufogren dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 5 feet of movement, exiting {@condition prone}."
+						"Буфогрен совершает одну атаку укусом по цели Среднего размера или меньше, которую он удерживает в захвате. При попадании цель также проглатывается, и захват оканчивается. Пока цель проглочена, она {@condition blinded} и {@condition restrained}, имеет полное укрытие от атак и других эффектов снаружи буфогрена и получает 9 ({@damage 2d8}) урона кислотой в начале каждого хода буфогрена. Буфогрен может держать проглоченным только одно существо за раз. Если буфогрен умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 5 футов перемещения, выходя {@condition prone}."
 					]
 				},
 				{
-					"name": "Poison Breath",
+					"name": "Ядовитое дыхание",
 					"entries": [
-						"The bufogren exhales poison gas in a 60 foot cone. All creatures within the area other than another bufogren must make a constitution saving throw ({@dc 15}). On a failure, they take 14 ({@damage 4d6}) poison damage and become {@condition poisoned}."
+						"Буфогрен выдыхает ядовитый газ 60-футовым конусом. Все существа в этой области, кроме другого буфогрена, должны совершить спасбросок Телосложения ({@dc 15}). При провале они получают 14 ({@damage 4d6}) урона ядом и становятся {@condition poisoned}."
 					]
 				}
 			],
@@ -269,12 +269,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"Frog-like creatures that dwell deep in the swamps of equestria, and are usually not interested in combat. They can often be bargained with for information, but enduring their stench makes this alone a challenge. That said, a Bufogren who was tricked or scammed makes for a dangerous enemy."
+					"Похожие на лягушек существа, обитающие в глубине болот Эквестрии, обычно не заинтересованы в бою. С ними часто можно договориться ради информации, но вынести их зловоние — уже само по себе испытание. Тем не менее буфогрен, которого обманули или облапошили, становится опасным врагом."
 				]
 			}
 		},
 		{
-			"name": "Bug Bear",
+			"name": "Медвежук",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -325,37 +325,37 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Multi-Armed Abomination",
+					"name": "Многорукое отродье",
 					"entries": [
-						"The Bug Bear can make 2 reactions and object interactions per turn."
+						"Медвежук может совершать 2 реакции и взаимодействия с предметами за ход."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The Bug Bear makes three attacks, two claw attacks and one Sting attack."
+						"Медвежук совершает три атаки: две атаки когтями и одну атаку жалом."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage and the target must make a DC18 Dexterity (Acrobatics) or Strength (Athletics) ability check, or be {@condition grappled}. The Bug Bear can only grapple 2 creatures at a time."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d8 + 5}) рубящего урона, и цель должна совершить проверку Ловкости (Акробатика) или Силы (Атлетика) УС 18, иначе будет {@condition grappled}. Медвежук может удерживать в захвате только 2 существа за раз."
 					]
 				},
 				{
-					"name": "Sting",
+					"name": "Жало",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage and the target must make a DC15 Constitution saving throw or take 22 ({@damage 5d8}) Poison damage, half on a success. This attack has advantage on a creature the Bug Bear has {@condition grappled}."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 1d10 + 5}) колющего урона, и цель должна совершить спасбросок Телосложения УС 15, иначе получит 22 ({@damage 5d8}) урона ядом, половину при успехе. Эта атака имеет преимущество против существа, которое медвежук {@condition grappled}."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Honed Reflexes",
+					"name": "Отточенные рефлексы",
 					"entries": [
-						"The bugbear can make a Claw attack in response to being hit with an attack."
+						"Медвежук может совершить атаку когтями в ответ на попадание по нему."
 					]
 				}
 			],
@@ -381,13 +381,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Hybrid half bear, half wasp creatures, Bug Bears are full of malice and can use their multiple arms to dominate close quarters combat."
+					"Гибридные создания — наполовину медведи, наполовину осы, — медвежуки полны злобы и используют свои многочисленные руки, чтобы доминировать в ближнем бою."
 				]
 			}
 		},
 		{
-			"name": "Changeling Assassin",
-			"shortName": "changeling",
+			"name": "Перевёртыш-убийца",
+			"shortName": "перевёртыш",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"M"
@@ -455,18 +455,18 @@
 				"frightened"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Ponish",
 				"Thieves' cant",
-				"Undercommon"
+				"Подземный"
 			],
 			"cr": "8",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The changeling is an innate spellcaster, using Charisma (Spell Save {@dc 13}, Spell Attack Modifier +5) for the following spells."
+						"Перевёртыш — врождённый заклинатель, использующий Харизму (УС спасброска от заклинаний {@dc 13}, модификатор атаки заклинанием +5) для следующих заклинаний."
 					],
 					"daily": {
 						"3": [
@@ -478,55 +478,55 @@
 			],
 			"trait": [
 				{
-					"name": "Assassinate",
+					"name": "Убийство",
 					"entries": [
-						"During its first turn, the changeling has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the changeling scores against a {@quickref Surprise|PHB|3|0|surprised} creature is a critical hit."
+						"В свой первый ход перевёртыш совершает с преимуществом броски атаки по любому существу, которое ещё не совершало ход. Любое попадание перевёртыша по {@quickref Surprise|PHB|3|0|surprised} существу является критическим попаданием."
 					]
 				},
 				{
-					"name": "Evasion",
+					"name": "Уклонение",
 					"entries": [
-						"If the changeling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the changeling instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+						"Если перевёртыш подвергается эффекту, позволяющему ему совершить спасбросок Ловкости, чтобы получить только половину урона, перевёртыш вместо этого не получает урона при успешном спасброске и получает только половину урона при провале."
 					]
 				},
 				{
-					"name": "Shapechanger",
+					"name": "Оборотень",
 					"entries": [
-						"The changeling can use its action to polymorph into a Small or Medium equinoid it has seen, or back into its true form. Its statistics, other than its speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+						"Перевёртыш может действием превратиться в Маленького или Среднего эквиноида, которого видел, или обратно в свою истинную форму. Его характеристики, помимо скорости, одинаковы в каждой форме. Любое снаряжение, которое он носит или несёт, не преображается. Он возвращается в истинную форму, если умирает."
 					]
 				},
 				{
-					"name": "Sneak Attack",
+					"name": "Скрытая атака",
 					"entries": [
-						"Once per turn, the changeling deals an extra 14 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the changeling that isn't {@condition incapacitated} and the changeling doesn't have disadvantage on the attack roll."
+						"Один раз за ход перевёртыш наносит дополнительно 14 ({@dice 4d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника перевёртыша, который не {@condition incapacitated}, и перевёртыш не имеет помехи на бросок атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The changeling makes two attacks."
+						"Перевёртыш совершает две атаки."
 					]
 				},
 				{
-					"name": "Hoofblade",
+					"name": "Клинок на копыте",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage and the target must make a DC15 Constitution saving throw, taking 17 ({@damage 5d6}) poison damage and becoming {@condition poisoned} on a fail, and taking half the poison damage on a success."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) рубящего урона, и цель должна совершить спасбросок Телосложения УС 15, получая 17 ({@damage 5d6}) урона ядом и становясь {@condition poisoned} при провале, и получая половину урона ядом при успехе."
 					]
 				},
 				{
-					"name": "Hoofbow",
+					"name": "Копытный лук",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 30/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage and the target must make a DC17 Constitution saving throw, taking 28 ({@damage 8d6}) poison damage on a fail."
+						"{@atk rw} {@hit 6} к попаданию, дальность 30/60 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона, и цель должна совершить спасбросок Телосложения УС 17, получая 28 ({@damage 8d6}) урона ядом при провале."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Cunning Action",
+					"name": "Хитрое действие",
 					"entries": [
-						"As a bonus action, the changeling may attempt to Hide, Disengage, or Dodge."
+						"Бонусным действием перевёртыш может попытаться Затаиться, Высвободиться или Уклониться."
 					]
 				}
 			],
@@ -566,8 +566,8 @@
 			]
 		},
 		{
-			"name": "Changeling Drone",
-			"shortName": "changeling",
+			"name": "Перевёртыш-трутень",
+			"shortName": "перевёртыш",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"M"
@@ -616,15 +616,15 @@
 			"passive": 9,
 			"languages": [
 				"Ponish",
-				"Undercommon"
+				"Подземный"
 			],
 			"cr": "1/2",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The changeling is an innate spellcaster, using Charisma (Spell Save {@dc 11}, Spell Attack Modifier +3) for the following spells."
+						"Перевёртыш — врождённый заклинатель, использующий Харизму (УС спасброска от заклинаний {@dc 11}, модификатор атаки заклинанием +3) для следующих заклинаний."
 					],
 					"daily": {
 						"3": [
@@ -636,23 +636,23 @@
 			],
 			"trait": [
 				{
-					"name": "Shapechanger",
+					"name": "Оборотень",
 					"entries": [
-						"The changeling can use its action to polymorph into a Small or Medium equinoid it has seen, or back into its true form. Its statistics, other than its size and speeds, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+						"Перевёртыш может действием превратиться в Маленького или Среднего эквиноида, которого видел, или обратно в свою истинную форму. Его характеристики, помимо размера и скоростей, одинаковы в каждой форме. Любое снаряжение, которое он носит или несёт, не преображается. Он возвращается в истинную форму, если умирает."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The changeling makes two attacks, or casts {@spell emotion drain|mlpplaneshift} and then makes one attack."
+						"Перевёртыш совершает две атаки или сотворяет {@spell emotion drain|mlpplaneshift}, а затем совершает одну атаку."
 					]
 				},
 				{
-					"name": "Hoof Claws",
+					"name": "Когти на копытах",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4+2}) slashing damage."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4+2}) рубящего урона."
 					]
 				}
 			],
@@ -686,7 +686,7 @@
 			]
 		},
 		{
-			"name": "Cragodile",
+			"name": "Крагодил",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"H"
@@ -735,29 +735,29 @@
 			"cr": "9",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"The cragodile can breathe air and water."
+						"Крагодил может дышать воздухом и водой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The cragodile makes two attacks."
+						"Крагодил совершает две атаки."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 4}) piercing damage, and if the target is a Medium or smaller creature, it is {@condition grappled} (escape DC19)."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}17 ({@damage 3d8 + 4}) колющего урона, и если цель — существо Среднего размера или меньше, оно {@condition grappled} (высвобождение УС 19)."
 					]
 				},
 				{
-					"name": "Tail Slam",
+					"name": "Удар хвостом",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}30 ({@damage 4d12 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 10 футов, одна цель. {@h}30 ({@damage 4d12 + 4}) дробящего урона."
 					]
 				}
 			],
@@ -789,13 +789,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Cragodiles are massive aquatic reptiles that hide in rivers and wetlands as if they're small rocky islands, before ambushing their prey at the water's edge."
+					"Крагодилы — массивные водные рептилии, которые прячутся в реках и болотах, как будто это маленькие скалистые островки, а затем устраивают засаду на добычу у кромки воды."
 				]
 			}
 		},
 		{
-			"name": "Diamond Dog Gunner",
-			"shortName": "diamond dog",
+			"name": "Алмазный пёс-стрелок",
+			"shortName": "алмазный пёс",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"M"
@@ -835,52 +835,52 @@
 			"passive": 11,
 			"languages": [
 				"Canine",
-				"Common"
+				"Общий"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Rampage",
+					"name": "Буйство",
 					"entries": [
-						"When the diamond dog reduces a creature to 0 hit points with a melee attack on its turn, the diamond dog can take a bonus action to move up to half its speed and make a bite attack."
+						"Когда алмазный пёс уменьшает существо до 0 хитов рукопашной атакой в свой ход, он может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
 					]
 				},
 				{
-					"name": "Delver",
+					"name": "Копатель",
 					"entries": [
-						"The diamond dog has advantage on Wisdom (Perception) checks while underground."
+						"Алмазный пёс совершает с преимуществом проверки Мудрости (Внимательность), находясь под землёй."
 					]
 				},
 				{
-					"name": "Firearms Knowledge",
+					"name": "Знание огнестрельного оружия",
 					"entries": [
-						"The diamond dog ignores the loading property of its musket."
+						"Алмазный пёс игнорирует свойство перезарядки своего мушкета."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The diamond dog makes two attacks one of which can be a bite."
+						"Алмазный пёс совершает две атаки, одна из которых может быть укусом."
 					]
 				},
 				{
-					"name": "Musket",
+					"name": "Мушкет",
 					"entries": [
-						"{@atk rw} {@hit +4} to hit, range 40/120 ft., one target. {@h}8 ({@damage 1d12+2}) piercing damage."
+						"{@atk rw} {@hit +4} к попаданию, дальность 40/120 футов, одна цель. {@h}8 ({@damage 1d12+2}) колющего урона."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Frag Grenade {@recharge 5}",
+					"name": "Осколочная граната {@recharge 5}",
 					"entries": [
-						"The diamond dog throws a grenade up to 60 feet, and the grenade explodes in a 20-foot-radius sphere. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 17 ({@damage 5d6}) piercing damage on a failed save, or half as much damage on a successful one."
+						"Алмазный пёс бросает гранату на расстояние до 60 футов, и граната взрывается в сфере радиусом 20 футов. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 15}, получая 17 ({@damage 5d6}) колющего урона при провале, или половину при успехе."
 					]
 				}
 			],
@@ -917,13 +917,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Diamond dogs are canine miners and slavers. Lazy and cruel, they tend to kidnap ponies to work in their mines. They're not stupid, having used elemental earth magic to both increase their mining efficiency and invent a form of gunpowder. But the laziness of their culture has invited stagnation."
+					"Алмазные псы — псовые шахтёры и работорговцы. Ленивые и жестокие, они склонны похищать пони, чтобы те работали в их шахтах. Они не глупы: использовали стихийную магию земли, чтобы и повысить эффективность добычи, и изобрести разновидность пороха. Но леность их культуры привела к застою."
 				]
 			}
 		},
 		{
-			"name": "Diamond Dog Miner",
-			"shortName": "diamond dog",
+			"name": "Алмазный пёс-шахтёр",
+			"shortName": "алмазный пёс",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"M"
@@ -963,46 +963,46 @@
 			"passive": 10,
 			"languages": [
 				"Canine",
-				"Common"
+				"Общий"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Rampage",
+					"name": "Буйство",
 					"entries": [
-						"When the diamond dog reduces a creature to 0 hit points with a melee attack on its turn, the diamond dog can take a bonus action to move up to half its speed and make a bite attack."
+						"Когда алмазный пёс уменьшает существо до 0 хитов рукопашной атакой в свой ход, он может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
 					]
 				},
 				{
-					"name": "Delver",
+					"name": "Копатель",
 					"entries": [
-						"The diamond dog has advantage on Wisdom (Perception) checks while underground."
+						"Алмазный пёс совершает с преимуществом проверки Мудрости (Внимательность), находясь под землёй."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The diamond dog makes two attacks one of which can be a bite."
+						"Алмазный пёс совершает две атаки, одна из которых может быть укусом."
 					]
 				},
 				{
-					"name": "Pickaxe",
+					"name": "Кирка",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage. This attack deals double damage to objects."
+						"{@atk mw} {@hit +4} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона. Эта атака наносит двойной урон объектам."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Mining Explosive {@recharge 5}",
+					"name": "Шахтёрская взрывчатка {@recharge 5}",
 					"entries": [
-						"The diamond dog sets a mining explosive. At the start of his next turn, the dynamite explodes in a 20 foot radius sphere. Each creature in the area must make a DC13 dexterity saving throw, taking 11 ({@damage 3d6}) thunder damage on a failed save, or half as much damage on a successful one. Unattended objects in the area take double damage from the explosion."
+						"Алмазный пёс устанавливает шахтёрскую взрывчатку. В начале его следующего хода динамит взрывается в сфере радиусом 20 футов. Каждое существо в этой области должно совершить спасбросок Ловкости УС 13, получая 11 ({@damage 3d6}) урона звуком при провале, или половину при успехе. Ничейные предметы в этой области получают двойной урон от взрыва."
 					]
 				}
 			],
@@ -1032,13 +1032,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Diamond dogs are canine miners and slavers. Lazy and cruel, they tend to kidnap ponies to work in their mines. They're not stupid, having used elemental earth magic to both increase their mining efficiency and invent a form of gunpowder. But the laziness of their culture has invited stagnation."
+					"Алмазные псы — псовые шахтёры и работорговцы. Ленивые и жестокие, они склонны похищать пони, чтобы те работали в их шахтах. Они не глупы: использовали стихийную магию земли, чтобы и повысить эффективность добычи, и изобрести разновидность пороха. Но леность их культуры привела к застою."
 				]
 			}
 		},
 		{
-			"name": "Dragonlord Torch",
-			"shortName": "Dragonlord",
+			"name": "Владыка драконов Торч",
+			"shortName": "Владыка драконов",
 			"source": "mlpplaneshiftbestiary",
 			"page": 7,
 			"size": [
@@ -1100,90 +1100,90 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "27",
 			"trait": [
 				{
-					"name": "Draconic Awakening (Recharges after a Short or Long Rest)",
+					"name": "Драконье пробуждение (восстанавливается после короткого или продолжительного отдыха)",
 					"entries": [
-						"If the dragonlord would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the dragonlord can now use the options in the \"Mythic Actions\" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the dragonlord after its Chromatic Awakening activates."
+						"Если владыка драконов должен быть уменьшен до 0 хитов, его текущее число хитов вместо этого сбрасывается до 425 хитов, его «Оружие дыхания» перезаряжается, и он восстанавливает все потраченные использования «Легендарного сопротивления». Кроме того, владыка драконов теперь может использовать опции из раздела «Мифические действия» в течение 1 часа. Наградите группу дополнительными 105 000 опыта (всего 210 000 опыта) за победу над владыкой драконов после активации его «Хроматического пробуждения»."
 					]
 				},
 				{
-					"name": "Legendary Resistance (4/Day)",
+					"name": "Легендарное сопротивление (4/день)",
 					"entries": [
-						"If the dragonlord fails a saving throw, it can choose to succeed instead."
+						"Если владыка драконов проваливает спасбросок, он может вместо этого выбрать успех."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The dragonlord makes one Bite attack and two Claw attacks."
+						"Владыка драконов совершает одну атаку укусом и две атаки когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 13 ({@damage 2d12}) force damage."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 15 футов, одна цель. {@h}21 ({@damage 2d10 + 10}) колющего урона плюс 13 ({@damage 2d12}) урона силовым полем."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and is {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} this way at a time."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 10 футов, одна цель. {@h}19 ({@damage 2d8 + 10}) рубящего урона. Если цель — существо Огромного размера или меньше, оно {@condition grappled} (высвобождение {@dc 20}) и {@condition restrained}, пока этот захват не окончен. Великий дракон может держать только одно существо {@condition grappled} таким образом за раз."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 20 футов, одна цель. {@h}19 ({@damage 2d8 + 10}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 26}, иначе будет сбита {@condition prone}."
 					]
 				},
 				{
-					"name": "Breath Weapon {@recharge 5}",
+					"name": "Оружие дыхания {@recharge 5}",
 					"entries": [
-						"The dragonlord exhales a blast of energy in a 300-foot cone. Each creature in that area must make a {@dc 26} Dexterity saving throw. On a failed save, the creature takes 40 ({@damage 6d12}) lightning damage and 40 ({@damage 6d12}) fire damage. On a successful save, the creature takes half as much damage."
+						"Владыка драконов выдыхает поток энергии 300-футовым конусом. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 26}. При провале существо получает 40 ({@damage 6d12}) урона электричеством и 40 ({@damage 6d12}) урона огнём. При успехе существо получает половину урона."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Атака",
 					"entries": [
-						"The dragonlord makes one Claw or Tail attack."
+						"Владыка драконов совершает одну атаку когтями или хвостом."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The dragonlord beats its wings. Each creature within 30 feet of it must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The dragonlord can then fly up to half its flying speed."
+						"Владыка драконов бьёт крыльями. Каждое существо в пределах 30 футов от него должно преуспеть в спасброске Ловкости {@dc 26}, иначе получит 17 ({@damage 2d6 + 10}) дробящего урона и будет сбито {@condition prone}. Затем владыка драконов может пролететь до половины своей скорости полёта."
 					]
 				},
 				{
-					"name": "Furious Bite (Costs 3 Actions)",
+					"name": "Яростный укус (стоит 3 действия)",
 					"entries": [
-						"The dragonlord makes one Bite attack with advantage. If the attack hits a creature, the target must succeed on a {@dc 26} Wisdom saving throw or become {@condition frightened} of the dragonlord until the end of its next turn."
+						"Владыка драконов совершает одну атаку укусом с преимуществом. Если атака попадает по существу, цель должна преуспеть в спасброске Мудрости {@dc 26}, иначе станет {@condition frightened} от владыки драконов до конца своего следующего хода."
 					]
 				}
 			],
 			"mythicHeader": [
-				"If the dragonlord's Draconic Awakening trait has activated in the last hour, it can use the options below as legendary actions."
+				"Если особенность «Драконье пробуждение» владыки драконов активировалась за последний час, он может использовать приведённые ниже опции как легендарные действия."
 			],
 			"mythic": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"The dragonlord makes one Bite attack."
+						"Владыка драконов совершает одну атаку укусом."
 					]
 				},
 				{
-					"name": "Draconic Flare (Costs 2 Actions)",
+					"name": "Драконья вспышка (стоит 2 действия)",
 					"entries": [
-						"The dragonlord flares with elemental energy. Each creature in a 60-foot-radius sphere centered on the dragonlord must succeed on a {@dc 26} Dexterity saving throw or take 13 ({@damage 3d8}) lightning damage and 13 ({@damage 3d8}) fire damage."
+						"Владыка драконов вспыхивает стихийной энергией. Каждое существо в сфере радиусом 60 футов с центром на владыке драконов должно преуспеть в спасброске Ловкости {@dc 26}, иначе получит 13 ({@damage 3d8}) урона электричеством и 13 ({@damage 3d8}) урона огнём."
 					]
 				}
 			],
@@ -1231,8 +1231,8 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Dread Maulwurf",
-			"shortName": "maulwurf",
+			"name": "Ужасный маульвурф",
+			"shortName": "маульвурф",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"H"
@@ -1295,35 +1295,35 @@
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Keen Smell",
+					"name": "Тонкий нюх",
 					"entries": [
-						"The maulwurf has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"Маульвурф совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на запах."
 					]
 				},
 				{
-					"name": "Physical Magic Resistance",
+					"name": "Физическое сопротивление магии",
 					"entries": [
-						"The maulwurf's thick hide gives it advantage on strength, dexterity and constitution saving throws against spells and other magical effects."
+						"Толстая шкура маульвурфа даёт ему преимущество на спасброски Силы, Ловкости и Телосложения от заклинаний и других магических эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The maulwurf makes two claw attacks and one bite."
+						"Маульвурф совершает две атаки когтями и один укус."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d10 + 4}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}20 ({@damage 3d10 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) slashing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 3d6 + 4}) рубящего урона."
 					]
 				}
 			],
@@ -1352,12 +1352,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"Maulwurfs are burrowing creatures that resemble a cross between a star-nosed mole and a bear. They are extremely resistant to magical attacks."
+					"Маульвурфы — роющие существа, похожие на помесь звездоносого крота и медведя. Они чрезвычайно устойчивы к магическим атакам."
 				]
 			}
 		},
 		{
-			"name": "Grogar, Father of Monsters",
+			"name": "Грогар, Отец чудовищ",
 			"isNamedCreature": true,
 			"source": "mlpplaneshiftbestiary",
 			"size": [
@@ -1433,10 +1433,10 @@
 			"cr": "23",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Grogar casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 19}):"
+						"Грогар сотворяет одно из следующих заклинаний, не требуя материальных компонентов и используя Харизму как базовую характеристику заклинаний (УС спасброска от заклинаний {@dc 19}):"
 					],
 					"daily": {
 						"1e": [
@@ -1455,62 +1455,62 @@
 			],
 			"trait": [
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If Grogar fails a saving throw, he can choose to succeed instead."
+						"Если Грогар проваливает спасбросок, он может вместо этого выбрать успех."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"Grogar has advantage on saving throws against spells and other magical effects."
+						"Грогар совершает с преимуществом спасброски от заклинаний и других магических эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Grogar makes three Gore or Hornblast attacks. He also uses Frightful Presence."
+						"Грогар совершает три атаки боданием или «Рёвом рога». Он также использует «Ужасающее присутствие»."
 					]
 				},
 				{
-					"name": "Gore",
+					"name": "Бодание",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d6 + 10}) piercing damage. If Grogar moved at least 10 feet straight toward the target immediately before the hit, the target takes an extra 16 ({@damage 3d10}) piercing damage. If the target is a creature, it must succeed on a {@dc 25} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+						"{@atk mw} {@hit 17} к попаданию, досягаемость 10 футов, одна цель. {@h}17 ({@damage 2d6 + 10}) колющего урона. Если Грогар переместился как минимум на 10 футов по прямой к цели непосредственно перед попаданием, цель получает дополнительно 16 ({@damage 3d10}) колющего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 25}, иначе будет отброшена на расстояние до 10 футов и сбита {@condition prone}."
 					]
 				},
 				{
-					"name": "Hornblast",
+					"name": "Рёв рога",
 					"entries": [
-						"{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}25 ({@damage 4d10 + 4}) force damage."
+						"{@atk rs} {@hit 9} к попаданию, дистанция 120 футов, одна цель. {@h}25 ({@damage 4d10 + 4}) силового урона."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Each creature of Grogar's choice within 120 feet of him and aware of him must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Grogar is within line of sight of the creature.",
-						"If a creature succeeds on any of these saves or the effect ends on it, the creature is immune to Grogar's Frightful Presence for the next 24 hours."
+						"Каждое существо по выбору Грогара в пределах 120 футов от него, осознающее его, должно преуспеть в спасброске Мудрости {@dc 18}, иначе станет {@condition frightened} на 1 минуту. Существо {@condition frightened} может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Эти последующие спасброски совершаются с помехой, если Грогар находится в пределах линии обзора существа.",
+						"Если существо преуспевает в любом из этих спасбросков или эффект на нём оканчивается, существо становится невосприимчивым к «Ужасающему присутствию» Грогара на следующие 24 часа."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Hornblast Attack",
+					"name": "Атака «Рёвом рога»",
 					"entries": [
-						"Grogar makes one Hornblast attack."
+						"Грогар совершает одну атаку «Рёвом рога»."
 					]
 				},
 				{
-					"name": "Charge (Costs 2 Actions)",
+					"name": "Атака в броске (стоит 2 действия)",
 					"entries": [
-						"Grogar moves up to his speed without provoking {@action opportunity attack||opportunity attacks}, then makes a Gore attack."
+						"Грогар перемещается на расстояние вплоть до своей скорости, не провоцируя {@action opportunity attack||атаки по возможности}, затем совершает атаку боданием."
 					]
 				},
 				{
-					"name": "Summon Monster (Costs 3 Actions)",
+					"name": "Призыв монстра (стоит 3 действия)",
 					"entries": [
-						"Grogar summons a simulacrum of a creature of CR6 or lower. This simulacrum has 1 hit point, and if it would take half damage from a spell or ability after succeeding a saving throw, it takes none instead. The simulacra fades after 24 hours."
+						"Грогар призывает симулякр существа с ПО 6 или ниже. У этого симулякра 1 хит, и если он должен получить половину урона от заклинания или способности после успешного спасброска, он вместо этого не получает урона. Симулякр исчезает через 24 часа."
 					]
 				}
 			],
@@ -1561,13 +1561,13 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"Often called the Father of Monsters, Grogar ruled the lands that would become Equestria long before the tribal unification. He was defeated by a unicornian heroine, but supposedly the various monsters that live in Equestria trace their roots to this tyrant's rule."
+					"Часто называемый Отцом чудовищ, Грогар правил землями, которые позже станут Эквестрией, задолго до объединения племён. Его победила героиня-единорог, но, по преданию, различные монстры, живущие в Эквестрии, обязаны своим происхождением правлению этого тирана."
 				]
 			}
 		},
 		{
-			"name": "King Sombra, Shadow Knight",
-			"shortName": "Sombra",
+			"name": "Король Сомбра, Рыцарь тени",
+			"shortName": "Сомбра",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"M"
@@ -1626,19 +1626,19 @@
 				"poisoned"
 			],
 			"languages": [
-				"Abyssal",
-				"Common",
-				"Infernal",
+				"Бездонный",
+				"Общий",
+				"Инфернальный",
 				"Old Ponish",
 				"Ponish"
 			],
 			"cr": "17",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sombra is a 19th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It has the following paladin spells prepared:"
+						"Сомбра — заклинатель 19-го уровня. Его базовой характеристикой для заклинаний является Харизма (УС спасброска от заклинаний {@dc 18}, {@hit 10} к попаданию атаками заклинаниями). У него подготовлены следующие заклинания паладина:"
 					],
 					"spells": {
 						"0": {
@@ -1693,71 +1693,71 @@
 			],
 			"trait": [
 				{
-					"name": "Unholy Aura",
+					"name": "Нечестивая аура",
 					"entries": [
-						"Unless he is {@condition incapacitated}, Sombra and undead or fiend creatures of his choice within 60 feet can add +4 to saving throws and ability checks. (These are already added to his saving throws above)"
+						"Если он не {@condition incapacitated}, Сомбра и нежить или исчадия по его выбору в пределах 60 футов могут добавлять +4 к спасброскам и проверкам характеристик. (Они уже включены в его спасброски выше.)"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Sombra makes three Unholy Avenger attacks."
+						"Сомбра совершает три атаки «Нечестивым мстителем»."
 					]
 				},
 				{
-					"name": "Unholy Avenger",
+					"name": "Нечестивый мститель",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 8}) slashing damage plus 18 ({@damage 4d8}) necrotic damage."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 1d10 + 8}) рубящего урона плюс 18 ({@damage 4d8}) некротического урона."
 					]
 				},
 				{
-					"name": "Hellfire Orb (1/Day)",
+					"name": "Сфера адского пламени (1/день)",
 					"entries": [
-						"Sombra launches a magical ball of fire from his armor that explodes at a point he can see within 120 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 18} Dexterity saving throw. The sphere spreads around corners. A creature takes 35 ({@damage 10d6}) fire damage and 35 ({@damage 10d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+						"Сомбра запускает магический огненный шар из своей брони, который взрывается в точке, которую он видит в пределах 120 футов от себя. Каждое существо в сфере радиусом 20 футов с центром в этой точке должно совершить спасбросок Ловкости {@dc 18}. Сфера огибает углы. Существо получает 35 ({@damage 10d6}) урона огнём и 35 ({@damage 10d6}) некротического урона при провале, или половину при успехе."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"Sombra adds 6 to his AC against weapon attacks until the end of turn."
+						"Сомбра добавляет 6 к своему КД против атак оружием до конца хода."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"If using the Regicide variant, Sombra can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The sombra regains spent legendary actions at the start of its turn."
+				"Если используется вариант «Цареубийство», Сомбра может совершить 3 легендарных действия, выбирая из вариантов, приведённых ниже. Использовать можно только одно легендарное действие за раз и только в конце хода другого существа. Сомбра восстанавливает потраченные легендарные действия в начале своего хода."
 			],
 			"legendary": [
 				{
-					"name": "Reactive Armor",
+					"name": "Реактивная броня",
 					"entries": [
-						"Can only be used if Sombra took damage on the turn before this is used. Sombra's Armor sends out a magical shockwave to a creature that dealt damage to him. The creature must make a {@dc 16} Dex save or take 11 ({@dice 2d10}) necrotic and 11 ({@damage 2d10}) lightning damage, and half that on a success. Sombra gains hit points equal to the necrotic damage dealt."
+						"Можно использовать только если Сомбра получил урон в ход перед этим. Броня Сомбры испускает магическую ударную волну в существо, нанёсшее ему урон. Существо должно совершить спасбросок Ловкости {@dc 16}, иначе получит 11 ({@dice 2d10}) некротического и 11 ({@damage 2d10}) урона электричеством, или половину при успехе. Сомбра восстанавливает хиты в размере нанесённого некротического урона."
 					]
 				},
 				{
-					"name": "Shadow Step Boots",
+					"name": "Сапоги теневого шага",
 					"entries": [
-						"Sombra teleports to a location within 30 feet and makes an Unholy Avenger Attack."
+						"Сомбра телепортируется в место в пределах 30 футов и совершает атаку «Нечестивым мстителем»."
 					]
 				},
 				{
-					"name": "Spell Absorb (costs 3 actions)",
+					"name": "Поглощение заклинаний (стоит 3 действия)",
 					"entries": [
-						"Sombra casts Dispel Magic on himself or something he is carrying or wielding at 3rd level. If the magic is successfully dispelled, Sombra regains a use of the Hellfire Orb."
+						"Сомбра сотворяет «Рассеивание магии» на себе или на чём-то, что несёт или держит, на 3-м уровне. Если магия успешно рассеяна, Сомбра восстанавливает использование «Сферы адского пламени»."
 					]
 				}
 			],
 			"variant": [
 				{
-					"name": "King Sombra, the Regicide",
+					"name": "Король Сомбра, Цареубийца",
 					"entries": [
-						"In my campaign, Sombra was also an accomplished artificer, and his magical items gave him the following abilities.",
-						"Unholy Avenger: His Unholy Avenger sword does an extra 33 ({@damage 6d10}) necrotic damage to Alicorns.",
-						"Magic Armor. Sombra's warded armor made of Tartarean metal gives him advantage on saving throws against spells and other magical effects, and increases his AC by 1. If needed it can be donned or doffed as an action.",
-						"Access to Legendary Actions"
+						"В моей кампании Сомбра был также искусным артефактором, и его магические предметы давали ему следующие способности.",
+						"Нечестивый мститель: его меч «Нечестивый мститель» наносит дополнительно 33 ({@damage 6d10}) некротического урона аликорнам.",
+						"Магическая броня. Защищённая броня Сомбры из тартарийского металла даёт ему преимущество на спасброски от заклинаний и других магических эффектов и увеличивает его КД на 1. При необходимости её можно надеть или снять действием.",
+						"Доступ к легендарным действиям"
 					],
 					"type": "variant"
 				}
@@ -1818,13 +1818,13 @@
 			"hasFluffImages": true,
 			"fluff": {
 				"entries": [
-					"Shadow King of the Crystal Empire. Once a Paladin of the Alicorn who ruled the empire, for reasons unknown to Equestria, he rebelled and killed his alicorn Empress. After attacking his southern neighbor, The Alicorn Diarchs, Princesses Luna and Celestia put him down. But what is dead cannot die."
+					"Король теней Кристальной империи. Когда-то паладин аликорна, правившего империей, по причинам, неизвестным Эквестрии, он восстал и убил свою императрицу-аликорна. Напав на южного соседа, диархов-аликорнов, принцессы Луна и Селестия одолели его. Но то, что мертво, умереть не может."
 				]
 			}
 		},
 		{
-			"name": "Lord Tirek (Base Form)",
-			"shortName": "Tirek",
+			"name": "Лорд Тирек (базовая форма)",
+			"shortName": "Тирек",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -1864,42 +1864,42 @@
 			],
 			"languages": [
 				"Cloven",
-				"Common"
+				"Общий"
 			],
 			"cr": "5",
 			"pbNote": "+4",
 			"trait": [
 				{
-					"name": "Magic Absorption",
+					"name": "Поглощение магии",
 					"entries": [
-						"Tirek is immune to force damage, and succeeds on all saving throws from spells. When Tirek succeeds on a saving throw from a spell he regains HP equal to that spell's level."
+						"Тирек невосприимчив к урону силовым полем и преуспевает во всех спасбросках от заклинаний. Когда Тирек преуспевает в спасброске от заклинания, он восстанавливает хиты в размере уровня этого заклинания."
 					]
 				},
 				{
-					"name": "Building Power",
+					"name": "Накопление силы",
 					"entries": [
-						"Whenever Tirek consumes a spell of 3rd level or greater via his Consume Magic ability, he builds a power level.",
-						"At Power level 1, his Strength increases to 21. At level 2, he can use his Horn Beam attack. At level 3, all of his stats become 21 and he becomes Huge sized. At level 4+, he needs a new stat block."
+						"Всякий раз, когда Тирек поглощает заклинание 3-го уровня или выше своей способностью «Поглощение магии», он накапливает уровень силы.",
+						"На уровне силы 1 его Сила повышается до 21. На уровне 2 он может использовать свою атаку «Роговым лучом». На уровне 3 все его характеристики становятся 21, и он становится Огромного размера. На уровне 4+ ему нужен новый блок характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Consume Magic",
+					"name": "Поглощение магии",
 					"entries": [
-						"A creature within 5 ft. of Tirek must make a Charisma saving throw, {@dc 17}. On a Failure, they lose their highest level spell slot. Tirek regains HP equal to the level of the spell slot lost. If the spell slot was at least level 3, Tirek builds a power level. (See Building Power above)"
+						"Существо в пределах 5 футов от Тирека должно совершить спасбросок Харизмы {@dc 17}. При провале оно теряет свою ячейку заклинаний наивысшего уровня. Тирек восстанавливает хиты в размере уровня потерянной ячейки заклинаний. Если ячейка была как минимум 3-го уровня, Тирек накапливает уровень силы. (См. «Накопление силы» выше.)"
 					]
 				},
 				{
-					"name": "Punch",
+					"name": "Удар кулаком",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) дробящего урона."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 1}) bludgeoning damage. Tirek can only use this against {@condition prone} creatures, or creatures two or more sizes smaller than him. "
+						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 2d8 + 1}) дробящего урона. Тирек может использовать это только против существ {@condition prone} или существ, которые на два размера или более меньше него. "
 					]
 				}
 			],
@@ -1917,13 +1917,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"A centaur from a far off land who learned the ability to steal magic. He will not rest until all magic is his. This is his \"base\" form, and if he's able to get past Power level 4, he can become a society ending threat."
+					"Кентавр из далёких земель, обучившийся способности красть магию. Он не успокоится, пока вся магия не станет его. Это его «базовая» форма, и если он сможет превзойти уровень силы 4, он может стать угрозой, способной уничтожить общество."
 				]
 			}
 		},
 		{
-			"name": "Lord Tirek (Power Level 1)",
-			"shortName": "Tirek",
+			"name": "Лорд Тирек (уровень силы 1)",
+			"shortName": "Тирек",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -1963,42 +1963,42 @@
 			],
 			"languages": [
 				"Cloven",
-				"Common"
+				"Общий"
 			],
 			"cr": "7",
 			"pbNote": "+4",
 			"trait": [
 				{
-					"name": "Magic Absorption",
+					"name": "Поглощение магии",
 					"entries": [
-						"Tirek is immune to force damage, and succeeds on all saving throws from spells. When Tirek succeeds on a saving throw from a spell he regains HP equal to that spell's level."
+						"Тирек невосприимчив к урону силовым полем и преуспевает во всех спасбросках от заклинаний. Когда Тирек преуспевает в спасброске от заклинания, он восстанавливает хиты в размере уровня этого заклинания."
 					]
 				},
 				{
-					"name": "Building Power",
+					"name": "Накопление силы",
 					"entries": [
-						"Whenever Tirek consumes a spell of 3rd level or greater via his Consume Magic ability, he builds a power level.",
-						"At Power level 1, his Strength increases to 21. At level 2, he can use his Horn Beam attack. At level 3, all of his stats become 21 and he becomes Huge sized. At level 4+, he needs a new stat block."
+						"Всякий раз, когда Тирек поглощает заклинание 3-го уровня или выше своей способностью «Поглощение магии», он накапливает уровень силы.",
+						"На уровне силы 1 его Сила повышается до 21. На уровне 2 он может использовать свою атаку «Роговым лучом». На уровне 3 все его характеристики становятся 21, и он становится Огромного размера. На уровне 4+ ему нужен новый блок характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Consume Magic",
+					"name": "Поглощение магии",
 					"entries": [
-						"A creature within 5 ft. of Tirek must make a Charisma saving throw, {@dc 17}. On a Failure, they lose their highest level spell slot. Tirek regains HP equal to the level of the spell slot lost. If the spell slot was at least level 3, Tirek builds a power level. (See Building Power above)"
+						"Существо в пределах 5 футов от Тирека должно совершить спасбросок Харизмы {@dc 17}. При провале оно теряет свою ячейку заклинаний наивысшего уровня. Тирек восстанавливает хиты в размере уровня потерянной ячейки заклинаний. Если ячейка была как минимум 3-го уровня, Тирек накапливает уровень силы. (См. «Накопление силы» выше.)"
 					]
 				},
 				{
-					"name": "Punch",
+					"name": "Удар кулаком",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d6 + 5}) дробящего урона."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. Tirek can only use this against {@condition prone} creatures, or creatures two or more sizes smaller than him. "
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d8 + 5}) дробящего урона. Тирек может использовать это только против существ {@condition prone} или существ, которые на два размера или более меньше него. "
 					]
 				}
 			],
@@ -2016,13 +2016,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"A centaur from a far off land who learned the ability to steal magic. He will not rest until all magic is his. This is his \"base\" form, and if he's able to get past Power level 4, he can become a society ending threat."
+					"Кентавр из далёких земель, обучившийся способности красть магию. Он не успокоится, пока вся магия не станет его. Это его «базовая» форма, и если он сможет превзойти уровень силы 4, он может стать угрозой, способной уничтожить общество."
 				]
 			}
 		},
 		{
-			"name": "Lord Tirek (Power Level 2)",
-			"shortName": "Tirek",
+			"name": "Лорд Тирек (уровень силы 2)",
+			"shortName": "Тирек",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -2062,48 +2062,48 @@
 			],
 			"languages": [
 				"Cloven",
-				"Common"
+				"Общий"
 			],
 			"cr": "8",
 			"pbNote": "+4",
 			"trait": [
 				{
-					"name": "Magic Absorption",
+					"name": "Поглощение магии",
 					"entries": [
-						"Tirek is immune to force damage, and succeeds on all saving throws from spells. When Tirek succeeds on a saving throw from a spell he regains HP equal to that spell's level."
+						"Тирек невосприимчив к урону силовым полем и преуспевает во всех спасбросках от заклинаний. Когда Тирек преуспевает в спасброске от заклинания, он восстанавливает хиты в размере уровня этого заклинания."
 					]
 				},
 				{
-					"name": "Building Power",
+					"name": "Накопление силы",
 					"entries": [
-						"Whenever Tirek consumes a spell of 3rd level or greater via his Consume Magic ability, he builds a power level.",
-						"At Power level 1, his Strength increases to 21. At level 2, he can use his Horn Beam attack. At level 3, all of his stats become 21 and he becomes Huge sized. At level 4+, he needs a new stat block."
+						"Всякий раз, когда Тирек поглощает заклинание 3-го уровня или выше своей способностью «Поглощение магии», он накапливает уровень силы.",
+						"На уровне силы 1 его Сила повышается до 21. На уровне 2 он может использовать свою атаку «Роговым лучом». На уровне 3 все его характеристики становятся 21, и он становится Огромного размера. На уровне 4+ ему нужен новый блок характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Consume Magic",
+					"name": "Поглощение магии",
 					"entries": [
-						"A creature within 5 ft. of Tirek must make a Charisma saving throw, {@dc 17}. On a Failure, they lose their highest level spell slot. Tirek regains HP equal to the level of the spell slot lost. If the spell slot was at least level 3, Tirek builds a power level. (See Building Power above)"
+						"Существо в пределах 5 футов от Тирека должно совершить спасбросок Харизмы {@dc 17}. При провале оно теряет свою ячейку заклинаний наивысшего уровня. Тирек восстанавливает хиты в размере уровня потерянной ячейки заклинаний. Если ячейка была как минимум 3-го уровня, Тирек накапливает уровень силы. (См. «Накопление силы» выше.)"
 					]
 				},
 				{
-					"name": "Punch",
+					"name": "Удар кулаком",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d6 + 5}) дробящего урона."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. Tirek can only use this against {@condition prone} creatures, or creatures two or more sizes smaller than him. "
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d8 + 5}) дробящего урона. Тирек может использовать это только против существ {@condition prone} или существ, которые на два размера или более меньше него. "
 					]
 				},
 				{
-					"name": "Horn Beam",
+					"name": "Роговой луч",
 					"entries": [
-						"{@atk rs} {@hit 8} to hit, range 60 ft., one target. {@h}9 ({@damage 1d10 + 4}) force damage."
+						"{@atk rs} {@hit 8} к попаданию, дистанция 60 футов, одна цель. {@h}9 ({@damage 1d10 + 4}) силового урона."
 					]
 				}
 			],
@@ -2123,13 +2123,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"A centaur from a far off land who learned the ability to steal magic. He will not rest until all magic is his. This is his \"base\" form, and if he's able to get past Power level 4, he can become a society ending threat."
+					"Кентавр из далёких земель, обучившийся способности красть магию. Он не успокоится, пока вся магия не станет его. Это его «базовая» форма, и если он сможет превзойти уровень силы 4, он может стать угрозой, способной уничтожить общество."
 				]
 			}
 		},
 		{
-			"name": "Lord Tirek (Power Level 3)",
-			"shortName": "Tirek",
+			"name": "Лорд Тирек (уровень силы 3)",
+			"shortName": "Тирек",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"H"
@@ -2169,54 +2169,54 @@
 			],
 			"languages": [
 				"Cloven",
-				"Common"
+				"Общий"
 			],
 			"cr": "10",
 			"pbNote": "+4",
 			"trait": [
 				{
-					"name": "Magic Absorption",
+					"name": "Поглощение магии",
 					"entries": [
-						"Tirek is immune to force damage, and succeeds on all saving throws from spells. When Tirek succeeds on a saving throw from a spell he regains HP equal to that spell's level."
+						"Тирек невосприимчив к урону силовым полем и преуспевает во всех спасбросках от заклинаний. Когда Тирек преуспевает в спасброске от заклинания, он восстанавливает хиты в размере уровня этого заклинания."
 					]
 				},
 				{
-					"name": "Building Power",
+					"name": "Накопление силы",
 					"entries": [
-						"Whenever Tirek consumes a spell of 3rd level or greater via his Consume Magic ability, he builds a power level.",
-						"At Power level 1, his Strength increases to 21. At level 2, he can use his Horn Beam attack. At level 3, all of his stats become 21 and he becomes Huge sized. At level 4+, he needs a new stat block."
+						"Всякий раз, когда Тирек поглощает заклинание 3-го уровня или выше своей способностью «Поглощение магии», он накапливает уровень силы.",
+						"На уровне силы 1 его Сила повышается до 21. На уровне 2 он может использовать свою атаку «Роговым лучом». На уровне 3 все его характеристики становятся 21, и он становится Огромного размера. На уровне 4+ ему нужен новый блок характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Tirek makes 2 attacks, either Punches or Horn Beams."
+						"Тирек совершает 2 атаки: либо удары кулаком, либо «Роговые лучи»."
 					]
 				},
 				{
-					"name": "Consume Magic",
+					"name": "Поглощение магии",
 					"entries": [
-						"A creature within 5 ft. of Tirek must make a Charisma saving throw, {@dc 17}. On a Failure, they lose their highest level spell slot. Tirek regains HP equal to the level of the spell slot lost. If the spell slot was at least level 3, Tirek builds a power level. (See Building Power above)"
+						"Существо в пределах 5 футов от Тирека должно совершить спасбросок Харизмы {@dc 17}. При провале оно теряет свою ячейку заклинаний наивысшего уровня. Тирек восстанавливает хиты в размере уровня потерянной ячейки заклинаний. Если ячейка была как минимум 3-го уровня, Тирек накапливает уровень силы. (См. «Накопление силы» выше.)"
 					]
 				},
 				{
-					"name": "Punch",
+					"name": "Удар кулаком",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d6 + 5}) дробящего урона."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. Tirek can only use this against {@condition prone} creatures, or creatures two or more sizes smaller than him. "
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d8 + 5}) дробящего урона. Тирек может использовать это только против существ {@condition prone} или существ, которые на два размера или более меньше него. "
 					]
 				},
 				{
-					"name": "Horn Beam",
+					"name": "Роговой луч",
 					"entries": [
-						"{@atk rs} {@hit 8} to hit, range 60 ft., one target. {@h}9 ({@damage 1d10 + 4}) force damage."
+						"{@atk rs} {@hit 8} к попаданию, дистанция 60 футов, одна цель. {@h}9 ({@damage 1d10 + 4}) силового урона."
 					]
 				}
 			],
@@ -2239,13 +2239,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"A centaur from a far off land who learned the ability to steal magic. He will not rest until all magic is his. This is his \"base\" form, and if he's able to get past Power level 4, he can become a society ending threat."
+					"Кентавр из далёких земель, обучившийся способности красть магию. Он не успокоится, пока вся магия не станет его. Это его «базовая» форма, и если он сможет превзойти уровень силы 4, он может стать угрозой, способной уничтожить общество."
 				]
 			}
 		},
 		{
-			"name": "Princess Celestia",
-			"shortName": "Celestia",
+			"name": "Принцесса Селестия",
+			"shortName": "Селестия",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "mlpplaneshiftbestiary",
@@ -2325,17 +2325,17 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Ponish",
 				"telepathy 120 ft."
 			],
 			"cr": "21",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Celestia's spellcasting ability is Charisma (spell save {@dc 25}). She can innately cast the following spells, without need for material components."
+						"Базовой характеристикой заклинаний Селестии является Харизма (УС спасброска от заклинаний {@dc 25}). Она может врождённо сотворять следующие заклинания, не нуждаясь в материальных компонентах."
 					],
 					"will": [
 						"{@spell daylight}",
@@ -2359,67 +2359,67 @@
 			],
 			"trait": [
 				{
-					"name": "Warrior of Sunlight",
+					"name": "Воин солнечного света",
 					"entries": [
-						"Celestia's weapon attacks are magical. When Celestia hits with any weapon or spell attack, she deals an extra {@dice 6d8} radiant damage."
+						"Атаки оружием Селестии магические. Когда Селестия попадает любым оружием или атакой заклинанием, она наносит дополнительно {@dice 6d8} урона излучением."
 					]
 				},
 				{
-					"name": "Divine Awareness",
+					"name": "Божественная осведомлённость",
 					"entries": [
-						"Celestia knows if she hears a lie."
+						"Селестия знает, когда слышит ложь."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Celestia makes two Longsword or Lightning Spear attacks."
+						"Селестия совершает две атаки длинным мечом или копьём молний."
 					]
 				},
 				{
-					"name": "Flying Sword",
+					"name": "Летающий меч",
 					"entries": [
-						"Celestia releases her longsword to hover magically in an unoccupied space within 5 feet of it. If Celestia can see the sword, Celestia can mentally command it as a bonus action to fly up to 50 feet and either make one attack against a target or return to Celestia's hands. If the hovering sword is targeted by any effect, Celestia is considered to be holding it. The hovering sword falls if Celestia dies."
+						"Селестия выпускает свой длинный меч, чтобы он магически парил в незанятом пространстве в пределах 5 футов от неё. Если Селестия видит меч, она может мысленно приказать ему бонусным действием пролететь до 50 футов и либо совершить одну атаку по цели, либо вернуться в руки Селестии. Если по парящему мечу нацелен любой эффект, считается, что Селестия держит его. Парящий меч падает, если Селестия умирает."
 					]
 				},
 				{
-					"name": "Healing Touch (4/day)",
+					"name": "Исцеляющее касание (4/день)",
 					"entries": [
-						"Celestia touches another creature. The target magically regains 40 ({@dice 8d8 + 4}) hitpoints and is freed from any curse, disease, poison, blindness or deafness."
+						"Селестия касается другого существа. Цель магически восстанавливает 40 ({@dice 8d8 + 4}) хитов и освобождается от любых проклятий, болезней, яда, слепоты или глухоты."
 					]
 				},
 				{
-					"name": "Lightning Spear",
+					"name": "Копьё молний",
 					"entries": [
-						"{@atk rs} {@hit 17} to hit, range 120/120 ft., one target. {@h}15 ({@damage 1d10 + 10}) lightning damage, plus 27 ({@damage 6d8}) radiant damage."
+						"{@atk rs} {@hit 17} к попаданию, дальность 120/120 футов, одна цель. {@h}15 ({@damage 1d10 + 10}) урона электричеством, плюс 27 ({@damage 6d8}) урона излучением."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit +15} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d8 + 8}) slashing damage, plus 27 ({@damage 6d8}) radiant damage."
+						"{@atk mw} {@hit +15} к попаданию, досягаемость 5 футов, одна цель. {@h}17 ({@damage 2d8 + 8}) рубящего урона, плюс 27 ({@damage 6d8}) урона излучением."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Teleport",
+					"name": "Телепортация",
 					"entries": [
-						"Celestia magically teleports along with any equipment she is wearing or carrying, up to 120 feet in any direction."
+						"Селестия магически телепортируется вместе с любым снаряжением, которое носит или несёт, на расстояние до 120 футов в любом направлении."
 					]
 				},
 				{
-					"name": "Searing Burst",
+					"name": "Обжигающий взрыв",
 					"entries": [
-						"Celestia emits magical, divine energy. Each creature of her choice in a 10 foot radius must make a {@dc 23} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage plus 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one."
+						"Селестия испускает магическую божественную энергию. Каждое существо по её выбору в радиусе 10 футов должно совершить спасбросок Ловкости {@dc 23}, получая 14 ({@damage 4d6}) урона огнём плюс 14 ({@damage 4d6}) урона излучением при провале, или половину при успехе."
 					]
 				},
 				{
-					"name": "Blinding Gaze",
+					"name": "Ослепляющий взгляд",
 					"entries": [
-						"Celestia targets one creature she can see within 30 ft. of her. If the target can see her, the target must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} until magic such as the Lesser Restoration spell removes the blindness."
+						"Селестия выбирает целью одно существо, которое видит в пределах 30 футов от себя. Если цель видит её, она должна преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition blinded} до тех пор, пока магия, такая как заклинание «Малое восстановление», не снимет слепоту."
 					]
 				}
 			],
@@ -2467,8 +2467,8 @@
 			]
 		},
 		{
-			"name": "Princess Luna",
-			"shortName": "Luna",
+			"name": "Принцесса Луна",
+			"shortName": "Луна",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "mlpplaneshiftbestiary",
@@ -2548,17 +2548,17 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Ponish",
 				"telepathy 120 ft."
 			],
 			"cr": "21",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Luna's spellcasting ability is Charisma (spell save {@dc 21}). She can innately cast the following spells, without need for material components."
+						"Базовой характеристикой заклинаний Луны является Харизма (УС спасброска от заклинаний {@dc 21}). Она может врождённо сотворять следующие заклинания, не нуждаясь в материальных компонентах."
 					],
 					"will": [
 						"{@spell darkness}",
@@ -2581,70 +2581,70 @@
 			],
 			"trait": [
 				{
-					"name": "Warrior of Moonlight",
+					"name": "Воин лунного света",
 					"entries": [
-						"Luna's weapon attacks are magical. When Luna hits with any weapon or spell attack, she deals an extra {@dice 6d8} radiant damage."
+						"Атаки оружием Луны магические. Когда Луна попадает любым оружием или атакой заклинанием, она наносит дополнительно {@dice 6d8} урона излучением."
 					]
 				},
 				{
-					"name": "Divine Awareness",
+					"name": "Божественная осведомлённость",
 					"entries": [
-						"Luna knows if she hears a lie."
+						"Луна знает, когда слышит ложь."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Luna makes two Glaive or Moonbow attacks."
+						"Луна совершает две атаки глефой или лунным луком."
 					]
 				},
 				{
-					"name": "Moonbow",
+					"name": "Лунный лук",
 					"entries": [
-						"{@atk rw} {@hit +16} to hit, range 150/600 ft., one target. {@h}18 ({@damage 2d8 + 9}) piercing damage plus 27 ({@damage 6d8}) radiant damage. If the target is a creature that has 100 hit points or fewer, it must succeed on a {@dc 23} saving throw or die."
+						"{@atk rw} {@hit +16} к попаданию, дальность 150/600 футов, одна цель. {@h}18 ({@damage 2d8 + 9}) колющего урона плюс 27 ({@damage 6d8}) урона излучением. Если цель — существо со 100 хитами или меньше, она должна преуспеть в спасброске {@dc 23}, иначе умрёт."
 					]
 				},
 				{
-					"name": "Crescent Moon Glaive",
+					"name": "Глефа-полумесяц",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}20 ({@damage 2d10 + 9}) slashing damage, plus 27 ({@damage 6d8}) radiant damage."
+						"{@atk mw} {@hit 16} к попаданию, досягаемость 10 футов, одна цель. {@h}20 ({@damage 2d10 + 9}) рубящего урона, плюс 27 ({@damage 6d8}) урона излучением."
 					]
 				},
 				{
-					"name": "Healing Touch (4/day)",
+					"name": "Исцеляющее касание (4/день)",
 					"entries": [
-						"Luna touches another creature. The target magically regains 40 ({@dice 8d8 + 4}) hitpoints and is freed from any curse, disease, poison, blindness or deafness."
+						"Луна касается другого существа. Цель магически восстанавливает 40 ({@dice 8d8 + 4}) хитов и освобождается от любых проклятий, болезней, яда, слепоты или глухоты."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Teleport",
+					"name": "Телепортация",
 					"entries": [
-						"Luna magically teleports along with any equipment she is wearing or carrying, up to 120 feet in any direction."
+						"Луна магически телепортируется вместе с любым снаряжением, которое носит или несёт, на расстояние до 120 футов в любом направлении."
 					]
 				},
 				{
-					"name": "Freezing Burst",
+					"name": "Морозный взрыв",
 					"entries": [
-						"Luna emits magical, divine energy. Each creature of her choice in a 10 foot radius must make a {@dc 23} Dexterity saving throw, taking 14 ({@damage 4d6}) cold damage plus 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one."
+						"Луна испускает магическую божественную энергию. Каждое существо по её выбору в радиусе 10 футов должно совершить спасбросок Ловкости {@dc 23}, получая 14 ({@damage 4d6}) урона холодом плюс 14 ({@damage 4d6}) урона излучением при провале, или половину при успехе."
 					]
 				},
 				{
-					"name": "Blinding Gaze",
+					"name": "Ослепляющий взгляд",
 					"entries": [
-						"Luna targets one creature she can see within 30 ft. of her. If the target can see her, the target must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} until magic such as the Lesser Restoration spell removes the blindness."
+						"Луна выбирает целью одно существо, которое видит в пределах 30 футов от себя. Если цель видит её, она должна преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition blinded} до тех пор, пока магия, такая как заклинание «Малое восстановление», не снимет слепоту."
 					]
 				}
 			],
 			"variant": [
 				{
-					"name": "Nightmare",
+					"name": "Кошмар",
 					"entries": [
-						"To transform Princess Luna into the Nightmare, Change her alignment to Lawful Evil, change the radiant damage she deals to necrotic, she gains Legendary Resistance and replace her healing touch with the following:",
-						"Voice of Fear (1/Day). The Nightmare utters a dreadful word of power. Each creature that can hear her must succeed on a {@dc 21} Wisdom saving throw or become {@condition frightened} of her for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to his Fearful Voice for 24 hours."
+						"Чтобы превратить принцессу Луну в Кошмар, измените её мировоззрение на законно-злое, измените наносимый ею урон излучением на некротический, она получает «Легендарное сопротивление», и замените её исцеляющее касание следующим:",
+						"Голос страха (1/день). Кошмар произносит ужасное слово силы. Каждое существо, которое может её слышать, должно преуспеть в спасброске Мудрости {@dc 21}, иначе станет {@condition frightened} от неё на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Существо, преуспевшее в спасброске против этого эффекта, невосприимчиво к его «Страшному голосу» в течение 24 часов."
 					],
 					"type": "variant"
 				}
@@ -2695,7 +2695,7 @@
 			]
 		},
 		{
-			"name": "Puckwudgie",
+			"name": "Паквуджи",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"S"
@@ -2739,31 +2739,31 @@
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Back Facing Spines",
+					"name": "Спинные шипы",
 					"entries": [
-						"The puckwudgie's spines face backwards, giving it an edge in defense, but hindering its offense. It's poison quill attacks are always made at Disadvantage. "
+						"Шипы паквуджи направлены назад, что даёт ему преимущество в защите, но мешает нападению. Его атаки ядовитым пером всегда совершаются с помехой. "
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Poison Quill",
+					"name": "Ядовитое перо",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 5/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, plus 7 ({@damage 2d6}) poison damage."
+						"{@atk rw} {@hit 3} к попаданию, дальность 5/60 футов, одна цель. {@h}3 ({@damage 1d4 + 1}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d8 - 1}) piercing damage."
+						"{@atk mw} {@hit 1} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d8 - 1}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Back Facing Spines",
+					"name": "Спинные шипы",
 					"entries": [
-						"Whenever the puckwudgie is attacked in melee it can use a reaction to turn itself and have the attacker hit the spines, dealing 3 ({@damage 1d4 + 1}) piercing damage and 7 ({@damage 2d6}) poison damage."
+						"Всякий раз, когда паквуджи атакован в рукопашной, он может реакцией развернуться так, чтобы атакующий наткнулся на шипы, нанося 3 ({@damage 1d4 + 1}) колющего урона и 7 ({@damage 2d6}) урона ядом."
 					]
 				}
 			],
@@ -2783,13 +2783,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Diminutive spined creatures, puckwudgies are extremely aggressive, but usually only pose a threat to the unprepared. There are stories of puckwudgies learning magic, or tricking ponies to steal food and shiny objects, but the common puckwudgie appears far too dim to pull anything like that off."
+					"Крошечные шипастые создания, паквуджи чрезвычайно агрессивны, но обычно представляют угрозу лишь для неподготовленных. Есть истории о паквуджи, обучающихся магии или обманывающих пони, чтобы украсть еду и блестящие вещи, но обычный паквуджи выглядит слишком тупым, чтобы провернуть что-то подобное."
 				]
 			}
 		},
 		{
-			"name": "Queen Chrysalis",
-			"shortName": "Chrysalis",
+			"name": "Королева Кризалис",
+			"shortName": "Кризалис",
 			"isNamedCreature": true,
 			"source": "mlpplaneshiftbestiary",
 			"page": 11,
@@ -2878,10 +2878,10 @@
 			"cr": "24",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Chrysalis casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
+						"Кризалис сотворяет одно из следующих заклинаний, не требуя материальных компонентов и используя Харизму как базовую характеристику заклинаний (УС спасброска от заклинаний {@dc 23}):"
 					],
 					"will": [
 						"{@spell charm person}",
@@ -2905,76 +2905,76 @@
 			],
 			"trait": [
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If Chrysalis fails a saving throw, she can choose to succeed instead."
+						"Если Кризалис проваливает спасбросок, она может вместо этого выбрать успех."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"Chrysalis has advantage on saving throws against spells and other magical effects."
+						"Кризалис совершает с преимуществом спасброски от заклинаний и других магических эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Chrysalis makes two Wave of Sorrow attacks. She can replace one attack with a use of Spellcasting."
+						"Кризалис совершает две атаки «Волной скорби». Она может заменить одну атаку использованием «Использования заклинаний»."
 					]
 				},
 				{
-					"name": "Wave of Sorrow (Rapier)",
+					"name": "Волна скорби (рапира)",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) force damage plus 14 ({@damage 4d6}) acid damage."
+						"{@atk mw} {@hit 13} к попаданию, досягаемость 10 футов, одна цель. {@h}15 ({@damage 2d8 + 6}) урона силовым полем плюс 14 ({@damage 4d6}) урона кислотой."
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Телепортация",
 					"entries": [
-						"Chrysalis teleports, along with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space she can see."
+						"Кризалис телепортируется вместе с любым снаряжением, которое носит или несёт, на расстояние до 120 футов в незанятое пространство, которое видит."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Change Shape",
+					"name": "Смена облика",
 					"entries": [
-						"Chrysalis transforms into a form that resembles a Medium Equinoid or back into her true form. Aside from her size, her statistics are the same in each form. Any equipment she is wearing or carrying isn't transformed."
+						"Кризалис превращается в форму, напоминающую Среднего эквиноида, или обратно в свою истинную форму. Помимо размера, её характеристики в каждой форме одинаковы. Любое снаряжение, которое она носит или несёт, не преображается."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Negate Spell {@recharge 5}",
+					"name": "Отмена заклинания {@recharge 5}",
 					"entries": [
-						"Chrysalis tries to interrupt a spell she sees a creature casting within 60 feet of him. If the spell is 3rd level or lower, the spell fails and has no effect. If the spell is 4th level or higher, Chrysalis makes a Charisma check against a DC of 10 + the spell's level. On a success, the spell fails and has no effect."
+						"Кризалис пытается прервать заклинание, которое, как она видит, сотворяет существо в пределах 60 футов от неё. Если заклинание 3-го уровня или ниже, оно проваливается и не имеет эффекта. Если заклинание 4-го уровня или выше, Кризалис совершает проверку Харизмы против УС 10 + уровень заклинания. При успехе заклинание проваливается и не имеет эффекта."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "You Belong to Me!",
+					"name": "Ты принадлежишь мне!",
 					"entries": [
-						"Chrysalis casts {@spell dominate person} or {@spell dominate monster} without using a spell slot."
+						"Кризалис сотворяет {@spell dominate person} или {@spell dominate monster}, не тратя ячейку заклинаний."
 					]
 				},
 				{
-					"name": "Sting!",
+					"name": "Жало!",
 					"entries": [
-						"Chrysalis makes one Wave of Sorrow attack."
+						"Кризалис совершает одну атаку «Волной скорби»."
 					]
 				},
 				{
-					"name": "Dance, My Puppet!",
+					"name": "Танцуй, моя марионетка!",
 					"entries": [
-						"One creature {@condition charmed} by Chrysalis that Chrysalis can see must use its reaction to move up to its speed as Chrysalis directs."
+						"Одно существо, {@condition charmed} Кризалис, которое Кризалис видит, должно использовать свою реакцию, чтобы переместиться на расстояние вплоть до своей скорости по указанию Кризалис."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Chrysalis",
+				"name": "Кризалис",
 				"source": "mlpplaneshiftbestiary"
 			},
 			"traitTags": [
@@ -3017,12 +3017,12 @@
 			"hasFluffImages": true,
 			"fluff": {
 				"entries": [
-					"The most feared of the Changeling Queens, utterly ruthless and pragmatic. She will do anything to rule over all changelings, and steal love from all other races."
+					"Самая устрашающая из королев перевёртышей, совершенно безжалостная и прагматичная. Она сделает что угодно, чтобы править всеми перевёртышами и красть любовь у всех остальных рас."
 				]
 			}
 		},
 		{
-			"name": "Sea Serpent",
+			"name": "Морской змей",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -3066,47 +3066,47 @@
 				"fire"
 			],
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"The sea serpent can breathe air and water."
+						"Морской змей может дышать воздухом и водой."
 					]
 				},
 				{
-					"name": "Siege Monster",
+					"name": "Осадное чудовище",
 					"entries": [
-						"The sea serpent deals double damage to objects and structures."
+						"Морской змей наносит двойной урон объектам и строениям."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The sea serpent makes two attacks."
+						"Морской змей совершает две атаки."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}18 ({@damage 4d6 + 4}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}18 ({@damage 4d6 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Tail Slam",
+					"name": "Удар хвостом",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 10 футов, одна цель. {@h}15 ({@damage 2d10 + 4}) колющего урона."
 					]
 				},
 				{
-					"name": "Breath Weapon",
+					"name": "Оружие дыхания",
 					"entries": [
-						"The sea serpent exhales a 30 ft. line of water. Creatures in the area must make a Strength saving throw (DC16). On a failure they take 14 ({@damage 4d6}) bludgeoning damage and are knocked {@condition prone}. On a success, they take half the bludgeoning damage."
+						"Морской змей выдыхает 30-футовую линию воды. Существа в этой области должны совершить спасбросок Силы (УС 16). При провале они получают 14 ({@damage 4d6}) дробящего урона и сбиваются {@condition prone}. При успехе они получают половину дробящего урона."
 					]
 				}
 			],
@@ -3140,7 +3140,7 @@
 			]
 		},
 		{
-			"name": "Siren",
+			"name": "Сирена",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -3192,16 +3192,16 @@
 				"lightning"
 			],
 			"languages": [
-				"Aquan",
-				"Common"
+				"Акван",
+				"Общий"
 			],
 			"cr": "11",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The siren's innate spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+						"Базовой характеристикой врождённых заклинаний сирены является Харизма (УС спасброска от заклинаний {@dc 20}, {@hit 12} к попаданию атаками заклинаниями). Она может врождённо сотворять следующие заклинания, не требуя материальных компонентов:"
 					],
 					"will": [
 						"{@spell charm person}",
@@ -3230,43 +3230,43 @@
 			],
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"The siren can breathe air and water."
+						"Сирена может дышать воздухом и водой."
 					]
 				},
 				{
-					"name": "Elemental Demise",
+					"name": "Стихийная гибель",
 					"entries": [
-						"If the siren dies, its body disintegrates into a burst of water and foam, leaving behind only equipment the siren was wearing or carrying."
+						"Если сирена погибает, её тело распадается на всплеск воды и пены, оставляя лишь снаряжение, которое сирена носила или несла."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The siren makes three bite attacks."
+						"Сирена совершает три атаки укусом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw,rw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage and 9 ({@damage 2d8}) cold damage."
+						"{@atk mw,rw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}15 ({@damage 2d8 + 6}) колющего урона и 9 ({@damage 2d8}) урона холодом."
 					]
 				},
 				{
-					"name": "Water Jet",
+					"name": "Струя воды",
 					"entries": [
-						"The siren magically shoots water from its mouth in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw. On a failure, a target takes 21 ({@damage 6d6}) bludgeoning damage and, if it is Huge or smaller, is pushed up to 20 feet away from the marid and knocked {@condition prone}. On a success, a target takes half the bludgeoning damage, but is neither pushed nor knocked {@condition prone}."
+						"Сирена магически выстреливает водой изо рта в 60-футовую линию шириной 5 футов. Каждое существо в этой линии должно совершить спасбросок Ловкости {@dc 16}. При провале цель получает 21 ({@damage 6d6}) дробящего урона и, если она Огромного размера или меньше, отталкивается на расстояние до 20 футов от марида и сбивается {@condition prone}. При успехе цель получает половину дробящего урона, но не отталкивается и не сбивается {@condition prone}."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Liquid Magic {@recharge 5}",
+					"name": "Жидкая магия {@recharge 5}",
 					"entries": [
-						"The Siren uses its Spellcasting ability."
+						"Сирена использует свою способность «Использование заклинаний»."
 					]
 				}
 			],
@@ -3322,12 +3322,12 @@
 			"hasFluffImages": true,
 			"fluff": {
 				"entries": [
-					"Sirens are from a different plane of existence than Equestria, and came here to use their powers of song based enchantment magic to control ponies to do their bidding. They feed on positive emotions, leaving behind only negativity. It is said that Starswirl and the Pillars banished a trio of evil Sirens"
+					"Сирены происходят с иного плана существования, чем Эквестрия, и прибыли сюда, чтобы использовать свои силы магии очарования, основанной на песне, для управления пони. Они питаются положительными эмоциями, оставляя после себя лишь негатив. Говорят, Старсвирл и Столпы изгнали троих злых сирен"
 				]
 			}
 		},
 		{
-			"name": "Slingtail",
+			"name": "Слингтейл",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -3380,34 +3380,34 @@
 				}
 			],
 			"languages": [
-				"understands Draconic but can't speak"
+				"Understands драконий но не может говорить"
 			],
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Inherit Accuracy",
+					"name": "Унаследованная точность",
 					"entries": [
-						"The slingtail's ranged attacks ignore cover. Being in melee range of an enemy doesn't give the slingtail disadvantage on its ranged attacks."
+						"Дальнобойные атаки слингтейла игнорируют укрытие. Нахождение в пределах рукопашной дистанции от врага не даёт слингтейлу помеху на его дальнобойные атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The slingtail makes 3 attacks, one of which can be a boulder throw."
+						"Слингтейл совершает 3 атаки, одна из которых может быть броском валуна."
 					]
 				},
 				{
-					"name": "Boulder Throw",
+					"name": "Бросок валуна",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 90/300 ft., one target. {@h}15 ({@damage 2d10 + 4}) damage. A flying creature hit by this attack must make a Strength saving throw {@dc 13} or be knocked {@condition prone}."
+						"{@atk rw} {@hit 7} к попаданию, дальность 90/300 футов, одна цель. {@h}15 ({@damage 2d10 + 4}) урона. Летающее существо, поражённое этой атакой, должно совершить спасбросок Силы {@dc 13}, иначе будет сбито {@condition prone}."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, plus 9 ({@damage 2d8}) damage against {@condition prone} targets."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) дробящего урона, плюс 9 ({@damage 2d8}) урона против целей {@condition prone}."
 					]
 				}
 			],
@@ -3436,8 +3436,8 @@
 			]
 		},
 		{
-			"name": "Swarm of Parasprites",
-			"shortName": "swarm",
+			"name": "Рой параспрайтов",
+			"shortName": "рой",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -3492,29 +3492,29 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Swarm",
+					"name": "Рой",
 					"entries": [
-						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points except through Consume."
+						"Рой может занимать пространство другого существа, и наоборот, и рой может перемещаться через любое отверстие, достаточно крупное для Крошечного насекомого. Рой не может восстанавливать хиты или получать временные хиты иначе как через «Поглощение»."
 					]
 				},
 				{
-					"name": "Musical Weakness",
+					"name": "Слабость к музыке",
 					"entries": [
-						"Parasprites are attracted to and {@condition charmed} by music. They have disadvantage on all saving throws against Bard spells. In addition, anyone may attempt a Charisma check using a musical instrument contested by the Swarm's Intelligence. On a failure, the swarm is {@condition charmed} by the performer."
+						"Параспрайты привлекаются музыкой и {@condition charmed} ею. Они совершают с помехой все спасброски от заклинаний барда. Кроме того, любой может попытаться совершить проверку Харизмы с использованием музыкального инструмента против Интеллекта роя. При провале рой {@condition charmed} исполнителем."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 4d4 + 2}) piercing damage if the swarm has more than half of its HP remaining. 7 ({@damage 2d4 + 2}) damage otherwise."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 4d4 + 2}) колющего урона, если у роя осталось больше половины хитов. Иначе 7 ({@damage 2d4 + 2}) урона."
 					]
 				},
 				{
-					"name": "Consume",
+					"name": "Поглощение",
 					"entries": [
-						"The swarm consumes any crops or food inside its space. If its at full HP, this creates another identical swarm of parasprites. If it is at more than half HP, this heals it for 18 ({@dice 4d8}) HP. If it is at less than half HP, this heals it for 9 ({@dice 2d8}) HP."
+						"Рой поглощает любые посевы или еду в своём пространстве. Если у него полные хиты, это создаёт ещё один идентичный рой параспрайтов. Если у него больше половины хитов, это исцеляет его на 18 ({@dice 4d8}) хитов. Если у него меньше половины хитов, это исцеляет его на 9 ({@dice 2d8}) хитов."
 					]
 				}
 			],
@@ -3534,13 +3534,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Tiny round insectoids, Parasprites seem cute and harmless. They exploit this and their relatively cute appearance compared to most other insects, to gain access to pony settlements. Once a parasprite infestation has taken hold in a pony farming town its very difficult to remove, as they reproduce asexually and rapidly. Luckily, they are very sensitive to song, and bard spells tend to work very well in charming parasprites."
+					"Крошечные округлые насекомые, параспрайты кажутся милыми и безобидными. Они пользуются этим и своей относительно милой внешностью по сравнению с большинством других насекомых, чтобы проникать в поселения пони. Как только заражение параспрайтами укоренится в пони-фермерском городке, избавиться от него очень трудно, поскольку они размножаются бесполым путём и стремительно. К счастью, они очень чувствительны к песне, и заклинания барда обычно отлично работают для очарования параспрайтов."
 				]
 			}
 		},
 		{
-			"name": "Tatzlewurm",
-			"shortName": "wurm",
+			"name": "Татцльвурм",
+			"shortName": "вурм",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"H"
@@ -3589,35 +3589,35 @@
 			"cr": "12",
 			"trait": [
 				{
-					"name": "Tunneler",
+					"name": "Землерой",
 					"entries": [
-						"The wurm can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+						"Вурм может прокладывать ход сквозь твёрдую породу на половине своей скорости копания и оставляет за собой туннель диаметром 10 футов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The wurm makes three tentacle attacks."
+						"Вурм совершает три атаки щупальцами."
 					]
 				},
 				{
-					"name": "Tentacles",
+					"name": "Щупальца",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage, plus 9 ({@damage 2d8}) poison damage. A hit creature is {@condition grappled} automatically by the wurm."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 15 футов, одна цель. {@h}18 ({@damage 2d8 + 9}) дробящего урона, плюс 9 ({@damage 2d8}) урона ядом. Существо, по которому попали, автоматически {@condition grappled} вурмом."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"All Large or smaller creatures {@condition grappled} by the wurm must succeed on a {@dc 19} Strength saving throw or be swallowed. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the tatzlwurm, and it takes 35 ({@damage 10d6}) acid damage at the start of each of the tatzlwurm's turns. If the tatzlwurm takes 30 damage or more on a single turn from a creature inside it, the tatzlwurm must succeed on a {@dc 19} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the tatzlwurm. If the tatzlwurm dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition prone}."
+						"Все существа Большого размера или меньше, {@condition grappled} вурмом, должны преуспеть в спасброске Силы {@dc 19}, иначе будут проглочены. Проглоченное существо {@condition blinded} и {@condition restrained}, имеет полное укрытие от атак и других эффектов снаружи татцльвурма и получает 35 ({@damage 10d6}) урона кислотой в начале каждого хода татцльвурма. Если татцльвурм получает 30 урона или больше за один ход от существа внутри себя, он должен преуспеть в спасброске Телосложения {@dc 19} в конце этого хода, иначе отрыгнёт всех проглоченных существ, которые падают {@condition prone} в пространстве в пределах 10 футов от татцльвурма. Если татцльвурм умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 10 футов перемещения, выходя {@condition prone}."
 					]
 				},
 				{
-					"name": "Acid Breath {@recharge 5}",
+					"name": "Кислотное дыхание {@recharge 5}",
 					"entries": [
-						"The wurm exhales acid in a 60-foot cone. Each creature in that area must make a {@dc 19} Dexterity saving throw, taking 35 ({@damage 10d6}) acid damage on a failed save, or half as much damage on a successful one."
+						"Вурм выдыхает кислоту 60-футовым конусом. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 19}, получая 35 ({@damage 10d6}) урона кислотой при провале, или половину при успехе."
 					]
 				}
 			],
@@ -3659,13 +3659,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Subterranean snake-like creatures, Tatzlwurms have several tentacles in their mouths they use for grabbing prey. Tatzlwurms are known to carry diseases that while mild for the wurms, are devastating to other beings."
+					"Подземные змеевидные существа, татцльвурмы имеют в пасти несколько щупалец, которыми хватают добычу. Известно, что татцльвурмы переносят болезни, которые для вурмов легки, но для других существ губительны."
 				]
 			}
 		},
 		{
-			"name": "Timber Wolf Pack Alpha",
-			"shortName": "Alpha",
+			"name": "Альфа стаи древесных волков",
+			"shortName": "Альфа",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -3714,52 +3714,52 @@
 				"fire"
 			],
 			"languages": [
-				"understands Sylvan but can't speak"
+				"Understands сильванский но не может говорить"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The alpha has advantage on an attack roll against a creature if at least one of the alpha's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Альфа совершает с преимуществом бросок атаки по существу, если хотя бы один из союзников альфы находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}."
 					]
 				},
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Острый слух и нюх",
 					"entries": [
-						"The alpha has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+						"Альфа совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на слух или запах."
 					]
 				},
 				{
-					"name": "Regeneration",
+					"name": "Регенерация",
 					"entries": [
-						"The alpha regains 10 hit points at the start of its turn if it has at least 1 hit point. If the alpha takes fire damage this trait doesn't function at the start of the alpha's next turn."
+						"Альфа восстанавливает 10 хитов в начале своего хода, если у него есть хотя бы 1 хит. Если альфа получает урон огнём, эта особенность не действует в начале следующего хода альфы."
 					]
 				},
 				{
-					"name": "Sneak Attack",
+					"name": "Скрытая атака",
 					"entries": [
-						"Once per turn, the alpha deals an extra 14 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the alpha that isn't {@condition incapacitated} and the alpha doesn't have disadvantage on the attack roll."
+						"Один раз за ход альфа наносит дополнительно 14 ({@dice 4d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника альфы, который не {@condition incapacitated}, и альфа не имеет помехи на бросок атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The alpha makes two bite attacks."
+						"Альфа совершает две атаки укусом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) piercing damage.  If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}"
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}15 ({@damage 3d6 + 5}) колющего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 15}, иначе будет сбита {@condition prone}"
 					]
 				},
 				{
-					"name": "Absorb",
+					"name": "Поглощение",
 					"entries": [
-						"The alpha can absorb another timber wolf to gain 10 HP, or the timber wolf's remaining HP, which ever is greater. This also gives the alpha resistance to fire damage for the rest of it's turn."
+						"Альфа может поглотить другого древесного волка, чтобы получить 10 хитов или оставшиеся хиты древесного волка, в зависимости от того, что больше. Это также даёт альфе сопротивление урону огнём до конца его хода."
 					]
 				}
 			],
@@ -3793,12 +3793,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"Carnivorous plants in canine form, Timber Wolves stalk the deep forests of Equestria, preying on anypony they can catch. Organized into highly effective packs by their Alphas, outnumbered ponies have trouble dealing with these menaces. However, Timber Wolves fear fire. Even a simple torch will keep them at bay. Woodswise pony rangers will always keep a torch at hoof's reach for these ever present threats."
+					"Плотоядные растения в собачьем облике, древесные волки рыщут по глухим лесам Эквестрии, охотясь на любого пони, которого смогут поймать. Организованные в крайне эффективные стаи своими альфами, пони в меньшинстве с трудом справляются с этими угрозами. Однако древесные волки боятся огня. Даже простой факел удержит их на расстоянии. Опытные следопыты-пони, знающие лес, всегда держат факел под копытом из-за этих вездесущих угроз."
 				]
 			}
 		},
 		{
-			"name": "Timberwolf",
+			"name": "Древесный волк",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"M"
@@ -3847,29 +3847,29 @@
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The timberwolf has advantage on an attack roll against a creature if at least one of the timberwolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Древесный волк совершает с преимуществом бросок атаки по существу, если хотя бы один из союзников древесного волка находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}."
 					]
 				},
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Острый слух и нюх",
 					"entries": [
-						"The timberwolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+						"Древесный волк совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на слух или запах."
 					]
 				},
 				{
-					"name": "Sneak Attack",
+					"name": "Скрытая атака",
 					"entries": [
-						"The timberwolf deals an extra 7 ({@dice 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the timberwolf that isn't {@condition incapacitated} and the timberwolf doesn't have disadvantage on the attack roll."
+						"Древесный волк наносит дополнительно 7 ({@dice 2d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника древесного волка, который не {@condition incapacitated}, и древесный волк не имеет помехи на бросок атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d4 + 2}) колющего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 11}, иначе будет сбита {@condition prone}."
 					]
 				}
 			],
@@ -3895,13 +3895,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Carnivorous plants in canine form, Timber Wolves stalk the deep forests of Equestria, preying on anypony they can catch. Organized into highly effective packs by their Alphas, outnumbered ponies have trouble dealing with these menaces. However, Timber Wolves fear fire. Even a simple torch will keep them at bay. Woodswise pony rangers will always keep a torch at hoof's reach for these ever present threats."
+					"Плотоядные растения в собачьем облике, древесные волки рыщут по глухим лесам Эквестрии, охотясь на любого пони, которого смогут поймать. Организованные в крайне эффективные стаи своими альфами, пони в меньшинстве с трудом справляются с этими угрозами. Однако древесные волки боятся огня. Даже простой факел удержит их на расстоянии. Опытные следопыты-пони, знающие лес, всегда держат факел под копытом из-за этих вездесущих угроз."
 				]
 			}
 		},
 		{
-			"name": "Ursa Minor",
-			"shortName": "Ursa",
+			"name": "Малая Медведица",
+			"shortName": "Урса",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -3965,29 +3965,29 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Incorporeal Movement",
+					"name": "Бестелесное перемещение",
 					"entries": [
-						"The ursa can move through other creatures as if they were {@quickref difficult terrain||3}."
+						"Урса может перемещаться сквозь других существ, как если бы они были {@quickref труднопроходимая местность||3}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The ursa makes two claw attacks and one bite attack."
+						"Урса совершает две атаки когтями и одну атаку укусом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d12 + 5}) force damage."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}18 ({@damage 2d12 + 5}) силового урона."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) force damage."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d8 + 5}) силового урона."
 					]
 				}
 			],
@@ -4013,12 +4013,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"The Ursa Minor is a rarely encountered incorporeal bear like creature that has deep connections to the stars. There are rumors of even larger Ursa Majors, beings of immense stature that rise to the heavens they resemble, but sightings of such a monster have never been substantiated."
+					"Малая Медведица — редко встречающееся бестелесное существо, похожее на медведя, имеющее глубокую связь со звёздами. Ходят слухи о ещё более крупных Больших Медведицах — существах огромного роста, поднимающихся к небесам, на которые они похожи, но наблюдения такого монстра никогда не подтверждались."
 				]
 			}
 		},
 		{
-			"name": "Werebat",
+			"name": "Мышеоборотень",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"M"
@@ -4081,67 +4081,67 @@
 				}
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Ponish (can't speak in bat form)"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Shapechanger",
+					"name": "Оборотень",
 					"entries": [
-						"The werebat can use its action to polymorph into a bat-equinoid hybrid or into a bat, or back into its true form, which is equinoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+						"Мышеоборотень может действием превратиться в гибрид мыши и эквиноида или в мышь, либо обратно в свою истинную форму — эквиноида. Его характеристики, помимо КД, одинаковы в каждой форме. Любое снаряжение, которое он носит или несёт, не преображается. Он возвращается в истинную форму, если умирает."
 					]
 				},
 				{
-					"name": "Keen Hearing",
+					"name": "Острый слух",
 					"entries": [
-						"The werebat has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+						"Мышеоборотень совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на слух."
 					]
 				},
 				{
-					"name": "Echolocation",
+					"name": "Эхолокация",
 					"entries": [
-						"The werebat can't use its blindsight while {@condition deafened}."
+						"Мышеоборотень не может использовать слепое зрение, пока {@condition deafened}."
 					]
 				},
 				{
-					"name": "Sneak Attack",
+					"name": "Скрытая атака",
 					"entries": [
-						"Once per turn, the werebat deals an extra 18 ({@dice 6d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the werebat that isn't {@condition incapacitated} and the werebat doesn't have disadvantage on the attack roll."
+						"Один раз за ход мышеоборотень наносит дополнительно 18 ({@dice 6d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника мышеоборотня, который не {@condition incapacitated}, и мышеоборотень не имеет помехи на бросок атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The werebat makes two attacks, one of which can be a bite."
+						"Мышеоборотень совершает две атаки, одна из которых может быть укусом."
 					]
 				},
 				{
-					"name": "Bite (hyrid or bat form only)",
+					"name": "Укус (только гибридная форма или форма мыши)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage.  If the target is a equinoid, it must succeed on a {@dc 11} Constitution saving throw or be cursed with werebat lycanthropy."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона. Если цель — эквиноид, она должна преуспеть в спасброске Телосложения {@dc 11}, иначе будет проклята ликантропией мышеоборотня."
 					]
 				},
 				{
-					"name": "Hoof Crossbow (equinoid form only)",
+					"name": "Копытный арбалет (только форма эквиноида)",
 					"entries": [
-						"{@atk rw} {@hit +5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk rw} {@hit +5} к попаданию, дальность 30/120 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Hoof Blade (hybrid or equinoid form only)",
+					"name": "Клинок на копыте (только гибридная форма или форма эквиноида)",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit +5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) рубящего урона."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Cunning Stealth",
+					"name": "Хитрое скрывание",
 					"entries": [
-						"The werebat can attempt to Hide or Disengage as a bonus action."
+						"Мышеоборотень может попытаться Затаиться или Высвободиться бонусным действием."
 					]
 				}
 			],
@@ -4182,12 +4182,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"A werebat is a form of Equestrian lycanthrope. Often called Vampire Fruit Bats, the condition does cause a pony to take on a hybrid bat form, but has nothing to do with the common flying mammal nor the undead. Other forms of lycanthropy occur in Equus as well."
+					"Мышеоборотень — форма эквестрийского ликантропа. Часто называемый вампировой фруктовой мышью, этот недуг действительно заставляет пони принимать гибридную форму мыши, но не имеет ничего общего с обычным летающим зверем и с нежитью. Другие формы ликантропии встречаются в Эквусе тоже."
 				]
 			}
 		},
 		{
-			"name": "Windigo",
+			"name": "Виндиго",
 			"source": "mlpplaneshiftbestiary",
 			"size": [
 				"L"
@@ -4262,47 +4262,47 @@
 				"unconscious"
 			],
 			"languages": [
-				"Aquan",
-				"Auran"
+				"Акван",
+				"Ауран"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Chilling Presence",
+					"name": "Морозящее присутствие",
 					"entries": [
-						"At the start of each of the windigo's turns, each creature within 15 feet of it must succeed on a {@dc 17} Constitution saving throw or take 7 {@damage 2d6} cold damage. For each minute a creature spends within 15 feet of the windigo, it must succeed on a {@dc 17} Constitution saving throw or suffer one level of {@condition exhaustion} from cold exposure. Unprotected, non-magical flames within 15 feet of the windigo are extinguished. Any spells of 3rd level or lower that provide resistance to cold damage and that are within 15 feet of the windigo immediately end. Water freezes if it remains within 15 feet of the windigo for at least 1 minute."
+						"В начале каждого хода виндиго каждое существо в пределах 15 футов от него должно преуспеть в спасброске Телосложения {@dc 17}, иначе получит 7 {@damage 2d6} урона холодом. За каждую минуту, проведённую существом в пределах 15 футов от виндиго, оно должно преуспеть в спасброске Телосложения {@dc 17}, иначе получит один уровень {@condition exhaustion} от холода. Незащищённое немагическое пламя в пределах 15 футов от виндиго гаснет. Любые заклинания 3-го уровня или ниже, дающие сопротивление урону холодом и находящиеся в пределах 15 футов от виндиго, немедленно оканчиваются. Вода замерзает, если остаётся в пределах 15 футов от виндиго не менее 1 минуты."
 					]
 				},
 				{
-					"name": "Elemental Nature",
+					"name": "Элементальная природа",
 					"entries": [
-						"The windigo doesn't require air, food, drink, or sleep."
+						"Виндиго не нуждается в воздухе, еде, питье или сне."
 					]
 				},
 				{
-					"name": "Rejuvination",
+					"name": "Восстановление",
 					"entries": [
-						"If the windigo is destroyed, it regains all its Hit Points in 24 hours unless the ritual of Hearth's Warming is performed over the remains."
+						"Если виндиго уничтожен, он восстанавливает все свои хиты через 24 часа, если над останками не проведён ритуал «Согревания очага»."
 					]
 				},
 				{
-					"name": "Snowsight",
+					"name": "Снежное зрение",
 					"entries": [
-						"The windigo can see through areas obscured by snowfall, sleet, rain, and other wintry precipitation without penalty."
+						"Виндиго может видеть сквозь области, заслонённые снегопадом, мокрым снегом, дождём и другими зимними осадками, без штрафов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The windigo makes two icy hooves attacks."
+						"Виндиго совершает две атаки ледяными копытами."
 					]
 				},
 				{
-					"name": "Icy Hooves",
+					"name": "Ледяные копыта",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage, plus 9 ({@damage 2d8}) cold damage. If the target is a Medium or smaller creature, it is knocked {@condition prone}."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) дробящего урона, плюс 9 ({@damage 2d8}) урона холодом. Если цель — существо Среднего размера или меньше, она сбивается {@condition prone}."
 					]
 				}
 			],
@@ -4336,40 +4336,40 @@
 			],
 			"fluff": {
 				"entries": [
-					"In small numbers these elemental spirits of winter are dangerous, but they are remembered for the vast multitudes they roamed around in the early decades of Equestrian history. In numbers their power increases, and they feed on strife and conflict. The founding myth of Equestria centers on a group of ponies from different tribes who banded together and discovered the Hearth's Warming ritual that finally was able to destroy Windigos permanently."
+					"В малых количествах эти стихийные духи зимы опасны, но их запомнили по огромным множествам, в которых они рыскали в первые десятилетия эквестрийской истории. В больших количествах их сила растёт, и они питаются раздором и конфликтами. Основополагающий миф Эквестрии сосредоточен на группе пони из разных племён, объединившихся и открывших ритуал «Согревания очага», который наконец смог уничтожить виндиго навсегда."
 				]
 			}
 		}
 	],
 	"legendaryGroup": [
 		{
-			"name": "Ahuizotl",
+			"name": "Ауисотль",
 			"source": "mlpplaneshiftbestiary",
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), Ahuizotl can take one of the following lair actions; he can't take the same lair action two rounds in a row:",
+				"При счёте инициативы 20 (при равенстве инициатив проигрывая), Ауисотль может совершить одно из следующих действий логова; он не может совершить одно и то же действие логова два раунда подряд:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
-							"name": "Summon Guardians",
+							"name": "Призыв стражей",
 							"type": "item",
 							"entries": [
-								"Ahuizotl summons 3 panthers from hidden areas of the temple."
+								"Ауисотль призывает 3 пантер из скрытых мест храма."
 							]
 						},
 						{
-							"name": "Obscure Traps",
+							"name": "Скрытые ловушки",
 							"type": "item",
 							"entries": [
-								"Creatures of Ahuizotl's choice within the lair have disadvantage on all checks and saving throws to find, detect or avoid traps until another lair action is used."
+								"Существа по выбору Ауисотля в логове совершают с помехой все проверки и спасброски, чтобы найти, обнаружить или избежать ловушек, пока не использовано другое действие в логове."
 							]
 						},
 						{
-							"name": "Escape!",
+							"name": "Побег!",
 							"type": "item",
 							"entries": [
-								"Ahuizotl teleports to the exit of the lair."
+								"Ауисотль телепортируется к выходу из логова."
 							]
 						}
 					]
@@ -4377,27 +4377,27 @@
 			]
 		},
 		{
-			"name": "Chrysalis",
+			"name": "Кризалис",
 			"source": "mlpplaneshiftbestiary",
 			"page": 148,
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), Chrysalis can take one of the following lair actions; he can't take the same lair action two rounds in a row:",
+				"При счёте инициативы 20 (при равенстве инициатив проигрывая), Кризалис может совершить одно из следующих действий логова; она не может совершить одно и то же действие логова два раунда подряд:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
-							"name": "Command",
+							"name": "Приказ",
 							"type": "item",
 							"entries": [
-								"Chrysalis casts the command spell on every creature of her choice in the lair. She needn't see each one, but she must be aware that an individual is in the lair to target that creature. She issues the same command to all the targets."
+								"Кризалис сотворяет заклинание «Приказ» на каждое существо по своему выбору в логове. Ей не нужно видеть каждого, но она должна знать, что существо находится в логове, чтобы выбрать его целью. Она отдаёт одну и ту же команду всем целям."
 							]
 						},
 						{
-							"name": "Conjure Mirrors",
+							"name": "Вызов зеркал",
 							"type": "item",
 							"entries": [
-								"Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity ({@skill Stealth}) checks made to hide."
+								"Гладкие поверхности в логове становятся такими же отражающими, как отполированное зеркало. Пока не использовано другое действие в логове, существа в логове совершают с помехой проверки Ловкости ({@skill Stealth}), совершаемые, чтобы спрятаться."
 							]
 						}
 					]
@@ -4407,31 +4407,31 @@
 	],
 	"variantrule": [
 		{
-			"name": "Hearth's Warming",
+			"name": "Согревание очага",
 			"source": "mlpplaneshiftbestiary",
 			"page": 20,
 			"ruleType": "C",
 			"entries": [
-				"The ritual of hearthswarming is an ancient Harmony rite to defeat windigos. It consists of singing about the joys of harmony and friendship. Performing the ritual correctly is much easier with more ponies present.",
-				"Performing the ritual requires a group performance check at {@dc 30}. The Difficulty class is reduced by one for each equinoid singing in the performance."
+				"Ритуал согревания очага — древний обряд Гармонии для победы над виндиго. Он состоит в пении о радостях гармонии и дружбы. Провести ритуал правильно гораздо легче, когда присутствует больше пони.",
+				"Для проведения ритуала требуется групповая проверка исполнения {@dc 30}. УС снижается на один за каждого эквиноида, поющего в этом исполнении."
 			]
 		},
 		{
-			"name": "Notes on the Equinoid Creature Type",
+			"name": "Заметки о типе существ «эквиноид»",
 			"source": "mlpplaneshiftbestiary",
 			"page": 9,
 			"ruleType": "C",
 			"entries": [
-				"Equinoids are treated the same as Humanoids for most practical purposes. If a spell or ability says that it can target humanoids, then it can also target equinoids, and vice versa. That does not mean that they are strictly speaking the same type though. Humanoids are not Equinoids."
+				"Эквиноиды для большинства практических целей рассматриваются так же, как гуманоиды. Если заклинание или способность говорит, что может выбрать целью гуманоидов, то она может выбрать целью и эквиноидов, и наоборот. Это не значит, что они, строго говоря, одного типа. Гуманоиды — не эквиноиды."
 			]
 		},
 		{
-			"name": "Werebat Player Characters",
+			"name": "Мышеоборотни как игровые персонажи",
 			"source": "mlpplaneshiftbestiary",
 			"page": 20,
 			"ruleType": "O",
 			"entries": [
-				"A character that becomes a werebat gains a Dexterity of 17 if his or her score isn't already higher, blindsight (echolocation) with a range of 120 feet, a flying speed of 40 while in hybrid or bat form, and a +2 bonus to AC while in bat or hybrid form (from natural armour). Attack and damage rolls for the natural weapons are based on the character's Dexterity."
+				"Персонаж, становящийся мышеоборотнем, получает Ловкость 17, если его значение ещё не выше, слепое зрение (эхолокация) с радиусом 120 футов, скорость полёта 40 в гибридной форме или форме мыши и бонус +2 к КД в форме мыши или гибридной форме (от природной брони). Броски атаки и урона для природного оружия основаны на Ловкости персонажа."
 			]
 		}
 	]

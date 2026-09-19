@@ -24,8 +24,8 @@
 	},
 	"monster": [
 		{
-			"name": "Grimdancer",
-			"shortName": "Grimdancer",
+			"name": "Гримдансер",
+			"shortName": "Гримдансер",
 			"source": "COMMonstrosity",
 			"size": [
 				"L"
@@ -75,65 +75,65 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Ambusher",
+					"name": "Устроитель засады",
 					"entries": [
-						"The grimdancer has advantage on attack rolls against any creature it has surprised."
+						"Гримдансер совершает с преимуществом броски атаки по любому существу, застигнутому им врасплох."
 					]
 				},
 				{
-					"name": "Spider Climb",
+					"name": "Паучье лазанье",
 					"entries": [
-						"The grimdancer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Гримдансер может лазать по сложным поверхностям, в том числе вверх ногами по потолкам, не совершая проверку характеристики."
 					]
 				},
 				{
-					"name": "Sunlight Sensitivity",
+					"name": "Светочувствительность",
 					"entries": [
-						"While in sunlight, the grimdancer has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+						"На солнечном свету гримдансер совершает с помехой броски атаки, а также проверки Мудрости (Внимательность), полагающиеся на зрение."
 					]
 				},
 				{
-					"name": "Web Sense",
+					"name": "Чувство паутины",
 					"entries": [
-						"While in contact with a web, the grimdancer knows the exact location of any other creature in contact with the same web."
+						"Находясь в контакте с паутиной, гримдансер знает точное местоположение любого другого существа, находящегося в контакте с той же паутиной."
 					]
 				},
 				{
-					"name": "Web Walker",
+					"name": "Хождение по паутине",
 					"entries": [
-						"The grimdancer ignores movement restrictions caused by webbing."
+						"Гримдансер игнорирует ограничения перемещения, вызванные паутиной."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The grimdancer makes three attacks, two with its Slash and one with its Bite."
+						"Гримдансер совершает три атаки: две «Разрезом» и одну «Укусом»."
 					]
 				},
 				{
-					"name": "Leaping Strike (Once per short or long rest)",
+					"name": "Прыжковый удар (один раз за короткий или продолжительный отдых)",
 					"entries": [
-						"After falling under half its maximum HP, The grimdancer can leap towards up to 3 creatures within 60ft of it. It makes two Slash attack against each target. It leaps back and forth between each target, not triggering attacks of opportunity."
+						"Опустившись ниже половины максимума хитов, Гримдансер может прыгнуть к вплоть до 3 существам в пределах 60 футов от себя. Он совершает по две атаки «Разрез» против каждой цели. Он прыгает туда-сюда между каждой целью, не провоцируя возможности атаки."
 					]
 				},
 				{
-					"name": "Web {@recharge 5}",
+					"name": "Паутина {@recharge 5}",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30/60 ft., one target. {@h}5 ({@damage 1}) piercing damage. The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 14} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 10; vulnerability to fire damage; immunity to biudgeoning, poison, and psychic damage)."
+						"{@atk rw} {@hit 5} к попаданию, дистанция 30/60 фт., одна цель. {@h}5 ({@damage 1}) колющего урона. Цель {@condition restrained} паутиной. Действием {@condition restrained} цель может совершить проверку Силы {@dc 14}, разрывая паутину при успехе. Паутину также можно атаковать и уничтожить (КД 10; хиты 10; уязвимость к урону огнём; иммунитет к дробящему, яду и психическому урону)."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage and the target must make a {@dc 14} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save and be paralysed until the end of the grimdancer's next turn, or half as much damage on a successful one and not be paralysed. After succeeding on this saving throw a creature is immune to the paralysis effect from the grimdancer for 24h."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона, и цель должна совершить спасбросок Телосложения {@dc 14}, получая 9 ({@damage 2d8}) урона ядом при провале и становясь парализованной до конца следующего хода гримдансера, или половину этого урона при успехе без паралича. После успеха в этом спасброске существо невосприимчиво к эффекту паралича от гримдансера в течение 24 часов."
 					]
 				},
 				{
-					"name": "Slash",
+					"name": "Разрез",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage, plus 6 ({@damage 1d12}) necrotic damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона плюс 6 ({@damage 1d12}) некротического урона."
 					]
 				}
 			],
@@ -174,12 +174,12 @@
 			"fluff": {
 				"entries": [
 					"{@link Grimdancer|https://www.reddit.com/r/DnDHomebrew/comments/igbuuj/grimdancer_instill_fear_in_the_heart_of_your/?utm_medium=android_app&utm_source=share}",
-					"GRIMDANCER ",
-					"Most monsters are more frightening when they skitter unseen in the dark. Most.",
-					"AMBUSHERS",
-					"Grimdancers are creatures that lurk deep inside cave systems, feasting on any creature that dare venture in their territory.The lay webs which they use to sense their prey, before jumping on them, the kill is swift. It is said that elder grimdancers can even merge with shadows and vanish.",
-					"POISONED TREASURE",
-					"The legs of a Grimdancer are sharp blades, coated with a unique poison that corrodes the skin at a touch. Their fangs contain a potent paralysing poison. Despite their formidable strength, adventurers still venture to challenge them. Indeed the blade on their legs can be forged into unique and powerful weapons. This holds truer for Elder Grimdancer."
+					"ГРИМДАНСЕР ",
+					"Большинство монстров страшнее, когда они незамеченными снуют в темноте. Большинство.",
+					"ЗАСАДНИКИ",
+					"Гримдансеры — существа, которые скрываются глубоко в пещерных системах, поедая любое существо, осмелившееся забрести на их территорию. Они плетут сети, которыми чувствуют свою добычу, после чего прыгают на неё; убийство бывает стремительным. Говорят, что старшие гримдансеры могут даже сливаться с тенями и исчезать.",
+					"ОТРАВЛЕННОЕ СОКРОВИЩЕ",
+					"Ноги Гримдансера — острые клинки, покрытые уникальным ядом, который разъедает кожу при касании. Его клыки содержат мощный парализующий яд. Несмотря на свою грозную силу, искатели приключений всё же отваживаются бросить им вызов. Действительно, клинок на его ногах можно выковать в уникальное и мощное оружие. Это тем более верно для старшего Гримдансера."
 				],
 				"images": [
 					{

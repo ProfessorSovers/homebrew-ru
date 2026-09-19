@@ -24,8 +24,8 @@
 	},
 	"monster": [
 		{
-			"name": "Amateur Bounty Hunter",
-			"shortName": "Amateur Bounty Hunter",
+			"name": "Начинающий охотник за головами",
+			"shortName": "Начинающий охотник за головами",
 			"source": "WANTEDSCORES",
 			"size": [
 				"M"
@@ -69,36 +69,36 @@
 			},
 			"passive": 10,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"Amateur bounty hunters have advantage on an attack roll against a creature if at least one ally of the bounty hunter is within 5 feet of the creature and the ally isn't {@condition incapacitated}"
+						"Начинающие охотники за головами совершают с преимуществом бросок атаки по существу, если хотя бы один союзник охотника находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The thug makes two melee attacks."
+						"Головорез совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Truncheon",
+					"name": "Дубинка",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) дробящего урона."
 					]
 				},
 				{
-					"name": "Heavy Crossbow",
+					"name": "Тяжёлый арбалет",
 					"entries": [
-						"{@atk rw} {@hit 2} to hit, range 100/400 ft., one target. {@h}5 ({@damage 1d10}) piercing damage.",
-						"{@b Ammunition:} You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
-						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way."
+						"{@atk rw} {@hit 2} к попаданию, дистанция 100/400 футов, одна цель. {@h}5 ({@damage 1d10}) колющего урона.",
+						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
+						"Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
 					]
 				}
 			],
@@ -127,7 +127,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Amateur Bounty Hunter "
+					"Начинающий охотник за головами "
 				],
 				"images": [
 					{
@@ -141,8 +141,8 @@
 			}
 		},
 		{
-			"name": "Bounty Hunter Mage",
-			"shortName": "Bounty Hunter Mage",
+			"name": "Маг-охотник за головами",
+			"shortName": "Маг-охотник за головами",
 			"source": "WANTEDSCORES",
 			"size": [
 				"M"
@@ -185,15 +185,15 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any four languages"
+				"любые четыре языка"
 			],
 			"cr": "6",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, +6 to hit with spell attacks). The mage has the following wizard spells prepared:"
+						"Маг — заклинатель 9-го уровня. Его способность к сотворению заклинаний — Интеллект (Сл спасброска заклинаний {@dc 14}, +6 к попаданию атаками заклинаний). У мага подготовлены следующие заклинания волшебника:"
 					],
 					"spells": {
 						"0": {
@@ -250,15 +250,15 @@
 			],
 			"action": [
 				{
-					"name": "Staff (One-Handed)",
+					"name": "Посох (одной рукой)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) дробящего урона."
 					]
 				},
 				{
-					"name": "Staff (Two-Handed)",
+					"name": "Посох (двумя руками)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 2}) дробящего урона."
 					]
 				}
 			],
@@ -287,7 +287,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Bounty Hunter Mage"
+					"Маг-охотник за головами"
 				],
 				"images": [
 					{
@@ -301,8 +301,8 @@
 			}
 		},
 		{
-			"name": "Captain of the Watch",
-			"shortName": "Captain of the Watch",
+			"name": "Капитан стражи",
+			"shortName": "Капитан стражи",
 			"source": "WANTEDSCORES",
 			"size": [
 				"M"
@@ -343,49 +343,49 @@
 			},
 			"passive": 10,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Brave",
+					"name": "Храбрый",
 					"entries": [
-						"The Captain has advantage on saving throws against being {@condition frightened}."
+						"Капитан совершает с преимуществом спасброски против того, чтобы стать {@condition frightened}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The Captain makes two melee attacks."
+						"Капитан совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Longsword (One-Handed)",
+					"name": "Длинный меч (одной рукой)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longsword (Two-Handed)",
+					"name": "Длинный меч (двумя руками)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"name": "Лидерство (восстанавливается после короткого или продолжительного отдыха)",
 					"entries": [
-						"For 1 minute, the Captain can utter a special command or warning whenever a non hostile creature that it can see within 30 feet of it makes an attack roll or a saving throw.",
-						"The creature can add {@dice 1d4} to its roll provided it can hear and understand the Captain. A creature can benefit from only one Leadership die at a time. This effect ends if the Captain is {@condition incapacitated}."
+						"В течение 1 минуты Капитан может произносить особую команду или предупреждение всякий раз, когда не враждебное существо, которое он может видеть в пределах 30 футов от себя, совершает бросок атаки или спасбросок.",
+						"Существо может добавить {@dice 1d4} к своему броску при условии, что оно может слышать и понимать Капитана. Существо может получить выгоду только от одной кости Лидерства одновременно. Этот эффект оканчивается, если Капитан {@condition incapacitated}."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"The Captain adds 2 to its AC against one melee attack that would hit it. To do so, the Captain must see the attacker and be wielding a melee weapon."
+						"Капитан добавляет 2 к своему КД против одной рукопашной атаки, которая бы по нему попала. Для этого Капитан должен видеть атакующего и держать рукопашное оружие."
 					]
 				}
 			],
@@ -410,7 +410,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Captain of the Watch "
+					"Капитан стражи "
 				],
 				"images": [
 					{
@@ -424,8 +424,8 @@
 			}
 		},
 		{
-			"name": "Professional Bounty Hunter",
-			"shortName": "Professional Bounty Hunter",
+			"name": "Профессиональный охотник за головами",
+			"shortName": "Профессиональный охотник за головами",
 			"source": "WANTEDSCORES",
 			"size": [
 				"M"
@@ -468,47 +468,47 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "3",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The bounty hunter makes two longsword attacks. If it has a shortsword drawn, it can also make a cudgel attack."
+						"Охотник за головами совершает две атаки длинным мечом. Если у него наготове короткий меч, он также может совершить атаку дубинкой."
 					]
 				},
 				{
-					"name": "Longsword (One-Handed)",
+					"name": "Длинный меч (одной рукой)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longsword (Two-Handed)",
+					"name": "Длинный меч (двумя руками)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Cudgel",
+					"name": "Дубинка",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) дробящего урона."
 					]
 				},
 				{
-					"name": "Heavy Crossbow",
+					"name": "Тяжёлый арбалет",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage. ",
-						"{@b Ammunition:} You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
-						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 100/400 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона.",
+						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
+						"Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
 					]
 				},
 				{
-					"name": "Bola",
+					"name": "Бола",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/50 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage. ",
-						"A bola is a cord with weights on each end thrown at the legs of a fleeing target. A large or smaller creature hit must succeed in a {@dc 13} Dexterity saving throw or become {@condition grappled}. {@dc 12} Strength check to break. The bola has 4 hit points. A bounty hunter may use a Bola during an attack of opportunity even if the target has used the Withdraw action."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 30/50 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
+						"Бола — это шнур с грузилами на концах, который метают в ноги убегающей цели. Крупное или меньшее существо, по которому попадают, должно преуспеть в спасброске Ловкости {@dc 13}, иначе станет {@condition grappled}. Проверка Силы {@dc 12}, чтобы разорвать. У болы 4 хита. Охотник за головами может использовать болу во время возможности атаки, даже если цель использовала действие Отход."
 					]
 				}
 			],
@@ -543,7 +543,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Professional Bounty Hunter"
+					"Профессиональный охотник за головами"
 				],
 				"images": [
 					{
@@ -557,8 +557,8 @@
 			}
 		},
 		{
-			"name": "Town Watch/Guard/Soldier",
-			"shortName": "Town Watch/Guard/Soldier",
+			"name": "Городская стража/стражник/солдат",
+			"shortName": "Городская стража/стражник/солдат",
 			"source": "WANTEDSCORES",
 			"size": [
 				"M"
@@ -599,26 +599,26 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Spear (One-Handed)",
+					"name": "Копьё (одной рукой)",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Spear (Thrown)",
+					"name": "Копьё (метательное)",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+						"{@atk rw} {@hit 3} к попаданию, дистанция 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Spear (Two-Handed)",
+					"name": "Копьё (двумя руками)",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
 					]
 				}
 			],
@@ -641,7 +641,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Town Watch/Guard/Soldier "
+					"Городская стража/стражник/солдат "
 				],
 				"images": [
 					{
@@ -655,8 +655,8 @@
 			}
 		},
 		{
-			"name": "Tracker",
-			"shortName": "Tracker",
+			"name": "Ищейка",
+			"shortName": "Ищейка",
 			"source": "WANTEDSCORES",
 			"size": [
 				"M"
@@ -699,34 +699,34 @@
 			},
 			"passive": 15,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Keen Hearing and Sight",
+					"name": "Острые зрение и слух",
 					"entries": [
-						"The tracker has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+						"Ищейка совершает с преимуществом проверки Мудрости (Внимательность), полагающиеся на слух или зрение."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The scout makes two melee attacks or two ranged attacks."
+						"Разведчик совершает две рукопашные атаки или две дальнобойные атаки."
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Длинный лук",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
 					]
 				}
 			],
@@ -756,7 +756,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Tracker "
+					"Ищейка "
 				],
 				"images": [
 					{
@@ -770,8 +770,8 @@
 			}
 		},
 		{
-			"name": "Watch Detective",
-			"shortName": "Watch Detective",
+			"name": "Стражник-детектив",
+			"shortName": "Стражник-детектив",
 			"source": "WANTEDSCORES",
 			"size": [
 				"M"
@@ -812,34 +812,34 @@
 			},
 			"passive": 16,
 			"languages": [
-				"any two language"
+				"любые два языка"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Cunning Action",
+					"name": "Хитрое действие",
 					"entries": [
-						"The detective uses a bonus action to Dash, Disengage, or Hide."
+						"Детектив использует бонусное действие для Рывка, Отхода или Засады."
 					]
 				},
 				{
-					"name": "Sneak Attack (1/Turn)",
+					"name": "Скрытая атака (1/ход)",
 					"entries": [
-						"The detective deals an extra 7 ({@damage 2d6}) damage when it hits a target and has advantage on the attack roll, or when the target is within 5 feet of an ally that isn't {@condition incapacitated} and the detective doesn't have disadvantage on the attack roll"
+						"Детектив наносит дополнительные 7 ({@damage 2d6}) урона, когда он попадает по цели и совершает бросок атаки с преимуществом, или когда цель находится в пределах 5 футов от союзника, который не {@condition incapacitated}, и у детектива нет помехи на бросок атаки"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The spy makes two melee attacks."
+						"Шпион совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				}
 			],
@@ -865,7 +865,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Watch Detective "
+					"Стражник-детектив "
 				],
 				"images": [
 					{

@@ -22,7 +22,7 @@
 	},
 	"monster": [
 		{
-			"name": "Ash Titan",
+			"name": "Пепельный титан",
 			"source": "DI",
 			"page": 7,
 			"size": [
@@ -97,113 +97,113 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
-				"Infernal"
+				"Общий",
+				"Инфернальный"
 			],
 			"cr": "27",
 			"trait": [
 				{
-					"name": "Heated Body",
+					"name": "Раскалённое тело",
 					"entries": [
-						"A creature that touches the ash titan or hits it with a melee attack while within 5 feet of it takes 14 ({@damage 4d6}) fire damage."
+						"Существо, касающееся пепельного титана или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 14 ({@damage 4d6}) урона огнём."
 					]
 				},
 				{
-					"name": "Draconic Might",
+					"name": "Мощь дракона",
 					"entries": [
-						"The ash titan can push any Huge or smaller creature it deals bludgeoning, piercing, or slashing damage to up to 10 feet away from it. This is halved to 5 feet if the target makes a save against the damage and succeeds."
+						"Пепельный титан может оттолкнуть любое существо размера Огромный или меньше, которому наносит дробящий, колющий или рубящий урон, на расстояние до 10 футов от себя. Это уменьшается до 5 футов, если цель успешно совершает спасбросок против урона."
 					]
 				},
 				{
-					"name": "Unbreakable",
+					"name": "Несокрушимый",
 					"entries": [
-						"If the ash titan is {@condition grappled}, {@condition incapacitated}, or {@condition restrained} at the start of its turn, any effect causing these conditions immediately end on the ash titan."
+						"Если пепельный титан {@condition grappled}, {@condition incapacitated} или {@condition restrained} в начале своего хода, любой эффект, вызывающий эти состояния, немедленно оканчивается на нём."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The ash titan can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Alternatively, the ash titan can make two attacks with its Lava Blast."
+						"Пепельный титан может использовать своё Ужасающее присутствие. Затем он совершает три атаки: одну укусом и две когтями. Или пепельный титан может совершить две атаки Лавовым взрывом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 14 ({@damage 4d6}) fire damage."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 15 фт., одна цель. {@h}21 ({@damage 2d10 + 10}) колющего урона плюс 14 ({@damage 4d6}) урона огнём."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d6 + 10}) slashing damage."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 10 футов, одна цель. {@h}17 ({@damage 2d6 + 10}) рубящего урона."
 					]
 				},
 				{
-					"name": "Lava Blast",
+					"name": "Лавовый взрыв",
 					"entries": [
-						"{@atk rw} {@hit 17} to hit, range 80/320 ft., one target. {@h}27 ({@damage 4d8 + 9}) fire damage."
+						"{@atk rw} {@hit 17} к попаданию, дистанция 80/320 футов, одна цель. {@h}27 ({@damage 4d8 + 9}) огнём."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"The ash titan sweeps its tail in a 20-foot cone. Each creature in the cone takes 19 ({@damage 2d8 + 10}) bludgeoning damage ({@dc 25} Dexterity save for half)."
+						"Пепельный титан хлещет хвостом в конусе 20 футов. Каждое существо в конусе получает 19 ({@damage 2d8 + 10}) дробящего урона (спасбросок Ловкости {@dc 25} для половины урона)."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Each creature of the ash titan's choice that is within 120 feet of the ash titan and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the ash titan's Frightful Presence for the next 24 hours."
+						"Каждое существо на выбор пепельного титана в пределах 120 футов от него, знающее о нём, должно преуспеть в спасброске Мудрости {@dc 19}, иначе станет {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа успешен или эффект на нём окончился, существо получает иммунитет к Ужасающему присутствию пепельного титана на следующие 24 часа."
 					]
 				},
 				{
-					"name": "Fire Breath {@recharge 5}",
+					"name": "Огненное дыхание {@recharge 5}",
 					"entries": [
-						"The ash titan exhales fire in a 120-foot cone. Each creature in that area takes 91 ({@damage 26d6}) fire damage ({@dc 21} Dexterity save for half).",
-						"Any surface struck by this Fire Breath is scorched with magical fire for 1 minute. A target that ends its turn in the fire's space takes 14 ({@damage 4d6}) fire damage ({@dc 21} Dexterity save for half)."
+						"Пепельный титан выдыхает огонь конусом 120 футов. Каждое существо в этой области получает 91 ({@damage 26d6}) урона огнём (спасбросок Ловкости {@dc 21} для половины урона).",
+						"Любая поверхность, поражённая этим Огненным дыханием, обжигается магическим огнём на 1 минуту. Цель, оканчивающая ход в пространстве огня, получает 14 ({@damage 4d6}) урона огнём (спасбросок Ловкости {@dc 21} для половины урона)."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Retaliate",
+					"name": "Возмездие",
 					"entries": [
-						"When the ash titan is hit by a melee attack, it can use its Tail action on an area that includes the attacker."
+						"Когда пепельный титан получает попадание рукопашной атакой, он может использовать своё действие «Хвост» по области, включающей атакующего."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Detect",
+					"name": "Обнаружение",
 					"entries": [
-						"The ash titan makes a Wisdom (Perception) check."
+						"Пепельный титан совершает проверку Мудрости (Восприятие)."
 					]
 				},
 				{
-					"name": "Grapple",
+					"name": "Захват",
 					"entries": [
-						"The ash titan attempts to grapple one creature within 10 feet of it."
+						"Пепельный титан пытается схватить одно существо в пределах 10 футов от него."
 					]
 				},
 				{
-					"name": "Tail (Costs 2 Actions)",
+					"name": "Хвост (стоит 2 действия)",
 					"entries": [
-						"The ash titan uses its Tail action."
+						"Пепельный титан использует своё действие «Хвост»."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The ash titan beats its wings. Each creature within 10 feet of the ash titan takes 15 ({@damage 2d6 + 10}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage ({@dc 25} Dexterity save for half). On a failed save, a target is also knocked {@condition prone}. The ash titan can then fly up to half its flying speed."
+						"Пепельный титан бьёт крыльями. Каждое существо в пределах 10 футов от пепельного титана получает 15 ({@damage 2d6 + 10}) дробящего урона плюс 7 ({@damage 2d6}) урона огнём (спасбросок Ловкости {@dc 25} для половины урона). При провале спасброска цель также сбивается с ног {@condition prone}. Затем пепельный титан может пролететь до половины своей скорости полёта."
 					]
 				},
 				{
-					"name": "Lava Storm (Costs 3 Actions)",
+					"name": "Лавовый шторм (стоит 3 действия)",
 					"entries": [
-						"The ash titan creates a storm made up of magma and flame. The area of the storm consists of up to ten 10-foot cubes, which the ash titan can arrange as it wishes as long as each cube is within 200 feet of it. Each target that is in a cube takes 14 ({@damage 4d6}) fire damage ({@dc 24} Dexterity save for half). A target in the area of more than one cube is affected only once.",
-						"The fire damages objects in the area and ignites flammable objects that aren't being worn or carried. Additionally, any surface that is damaged by these cubes becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand."
+						"Пепельный титан создаёт шторм из магмы и пламени. Область шторма состоит из вплоть до десяти кубов со стороной 10 футов, которые пепельный титан может расположить как пожелает, если каждый куб находится в пределах 200 футов от него. Каждая цель в кубе получает 14 ({@damage 4d6}) урона огнём (спасбросок Ловкости {@dc 24} для половины урона). Цель в области более чем одного куба затрагивается только один раз.",
+						"Огонь повреждает предметы в области и воспламеняет горючие предметы, которые никто не носит и не несёт. Кроме того, любая поверхность, повреждённая этими кубами, становится труднопроходимой местностью, пока её не расчистят. Каждая часть области размером 5 на 5 футов требует не менее 1 минуты, чтобы расчистить её вручную."
 					]
 				}
 			],
@@ -251,8 +251,8 @@
 			}
 		},
 		{
-			"name": "Aspect of Molag Bal",
-			"shortName": "aspect",
+			"name": "Аспект Молага Бала",
+			"shortName": "аспект",
 			"source": "DI",
 			"page": 8,
 			"size": [
@@ -333,10 +333,10 @@
 			"cr": "29",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The aspect's innate spellcasting ability is Charisma (spell save {@dc 24}, {@hit 16} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+						"Врождённая способность к заклинаниям аспекта — Харизма (Сл спасброска {@dc 24}, {@hit 16} к попаданию атаками заклинаний). Он может врождённо творить следующие заклинания, не требуя материальных компонентов:"
 					],
 					"will": [
 						"{@spell soul cage|XGE}",
@@ -349,7 +349,7 @@
 						],
 						"2e": [
 							"{@spell dominate monster}**",
-							"{@spell illusory dragon|XGE} (appearing as a {@creature daedric titan|DI})",
+							"{@spell illusory dragon|XGE} (appearing as a {@creature Даэдрический титан|DI})",
 							"{@spell maddening darkness|XGE}"
 						],
 						"1e": [
@@ -367,87 +367,87 @@
 			],
 			"trait": [
 				{
-					"name": "Discorporation",
+					"name": "Развоплощение",
 					"entries": [
-						"When the aspect drops to 0 hit points or dies, its body is destroyed but its essence travels back to his domain in Coldharbour."
+						"Когда хиты аспекта опускаются до 0 или он умирает, его тело уничтожается, но его сущность возвращается в его владения в Колдхарборе."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Any creature that starts its turn within 30 feet of the aspect must make a {@dc 24} Wisdom saving throw. On a failed save, the creature becomes {@condition frightened} of the aspect for 1 minute or until the creature is more than 60 feet away from it. On a successful save, the creature becomes immune to the aspect's Frightful Presence for 24 hours."
+						"Любое существо, начинающее свой ход в пределах 30 футов от аспекта, должно совершить спасбросок Мудрости {@dc 24}. При провале существо становится {@condition frightened} аспекта на 1 минуту или пока не окажется более чем в 60 футах от него. При успехе существо получает иммунитет к Ужасающему присутствию аспекта на 24 часа."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If the aspect fails a saving throw, it can choose to succeed instead."
+						"Если аспект проваливает спасбросок, он может вместо этого сделать спасбросок успешным."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The aspect has advantage on saving throws against spells and other magical effects."
+						"Аспект совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
 					]
 				},
 				{
-					"name": "Cold Fire",
+					"name": "Холодное пламя",
 					"entries": [
-						"Whenever the aspect deals cold fire damage, the damage dice are evenly split between necrotic damage and fire damage."
+						"Всякий раз, когда аспект наносит урон холодным пламенем, кости урона поровну делятся между уроном некротической энергией и уроном огнём."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The aspect makes two melee attacks."
+						"Аспект совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Mace of Molag Bal (+3 Mace)",
+					"name": "Булава Молага Бала (булава +3)",
 					"entries": [
-						"{@atk mw} {@hit 21} to hit, reach 10 ft., one target. {@h}26 ({@damage 4d6 + 12}) bludgeoning damage plus 10 ({@damage 3d6}) necrotic damage, and the target has disadvantage on all saving throws until the end of the aspect's next turn."
+						"{@atk mw} {@hit 21} к попаданию, досягаемость 10 фт., одна цель. {@h}26 ({@damage 4d6 + 12}) дробящего урона плюс 10 ({@damage 3d6}) урона некротической энергией, и цель совершает с помехой все спасброски до конца следующего хода аспекта."
 					]
 				},
 				{
-					"name": "Cold Fire Blast {@recharge 5}",
+					"name": "Взрыв холодного пламени {@recharge 5}",
 					"entries": [
-						"The aspect unleashes cold fire in a 60-foot cone. Each creature within 20 feet of that point takes 42 ({@dice 12d6}) cold fire damage ({@dc 26} Constitution save for half). A target is also pushed up to 20 feet away from the aspect on a failed save, or half as far on a successful one."
+						"Аспект испускает холодное пламя конусом 60 футов. Каждое существо в пределах 20 футов от этой точки получает 42 ({@dice 12d6}) урона холодным пламенем (спасбросок Телосложения {@dc 26} для половины урона). При провале спасброска цель также отталкивается на расстояние до 20 футов от аспекта, или наполовину меньше при успехе."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Teleport",
+					"name": "Телепортация",
 					"entries": [
-						"The aspect magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see. "
+						"Аспект магически телепортируется вместе с любым снаряжением, которое носит или несёт, на расстояние до 120 футов в свободное пространство, которое видит."
 					]
 				},
 				{
-					"name": "Command Daedra",
+					"name": "Командование даэдра",
 					"entries": [
-						"Each daedra of the aspect's choice that can see or hear the aspect can use its reaction to move up to its speed."
+						"Каждый даэдра на выбор аспекта, способный видеть или слышать аспекта, может использовать свою реакцию, чтобы переместиться на расстояние вплоть до своей скорости."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Baleful Teleport",
+					"name": "Зловещая телепортация",
 					"entries": [
-						"The aspect uses its Teleport bonus action. Each creature within 10 feet of the space the aspect teleports to takes 22 ({@dice 4d10}) cold fire damage ({@dc 24} Constitution save for half) and is pushed up to 10 feet away from it."
+						"Аспект использует своё бонусное действие Телепортация. Каждое существо в пределах 10 футов от пространства, в которое телепортируется аспект, получает 22 ({@dice 4d10}) урона холодным пламенем (спасбросок Телосложения {@dc 24} для половины урона) и отталкивается на расстояние до 10 футов от него."
 					]
 				},
 				{
-					"name": "Submit",
+					"name": "Подчинение",
 					"entries": [
-						"The aspect targets one creature it can communicate with via telepathy and forces it to move up to its speed in a manner of its choosing (no reaction required). Alternatively, it can force the creature to make a {@dc 24} Charisma saving throw; on a failed save, the target falls {@condition prone} and can't stand up until the end of the target's next turn."
+						"Аспект выбирает одно существо, с которым может общаться телепатически, и принуждает его переместиться на расстояние вплоть до своей скорости выбранным им способом (реакция не требуется). Кроме того, он может принудить существо совершить спасбросок Харизмы {@dc 24}; при провале цель падает {@condition prone} и не может встать до конца своего следующего хода."
 					]
 				},
 				{
-					"name": "Cast a Spell (Costs 2 Actions)",
+					"name": "Сотворить заклинание (стоит 2 действия)",
 					"entries": [
-						"The aspect casts one innate spell that takes 1 action to cast, or it uses an action granted by the {@spell telekinesis} spell."
+						"Аспект творит одно врождённое заклинание, требующее 1 действие для сотворения, или использует действие, предоставленное заклинанием {@spell telekinesis}."
 					]
 				}
 			],
@@ -521,7 +521,7 @@
 			}
 		},
 		{
-			"name": "Clannfear",
+			"name": "Кланнфир",
 			"source": "DI",
 			"page": 1,
 			"size": [
@@ -572,41 +572,41 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Blood Frenzy",
+					"name": "Кровавое бешенство",
 					"entries": [
-						"The clannfear has advantage on melee attack rolls against any creature that is bloodied."
+						"Кланнфир совершает с преимуществом броски рукопашных атак по любому существу, находящемуся в состоянии «окровавлен»."
 					]
 				},
 				{
-					"name": "Aggressive Leap",
+					"name": "Агрессивный прыжок",
 					"entries": [
-						"As a bonus action, the clannfear can jump up to its speed toward a hostile creature that it can see. If it attacks that creature on the same turn and hits, that creature is also knocked {@condition prone}."
+						"Бонусным действием кланнфир может прыгнуть на расстояние вплоть до своей скорости к враждебному существу, которое видит. Если он атакует это существо в том же ходу и попадает, это существо также сбивается с ног {@condition prone}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The clannfear makes two attacks: one with its claw and one with its tail."
+						"Кланнфир совершает две атаки: одну когтем и одну хвостом."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d6 + 4}) рубящего урона."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) рубящего урона."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}15 ({@damage 2d10 + 4}) колющего урона."
 					]
 				}
 			],
@@ -636,7 +636,7 @@
 			}
 		},
 		{
-			"name": "Daedric Titan",
+			"name": "Даэдрический титан",
 			"source": "DI",
 			"page": 6,
 			"size": [
@@ -711,99 +711,99 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
-				"Infernal"
+				"Общий",
+				"Инфернальный"
 			],
 			"cr": "17",
 			"trait": [
 				{
-					"name": "Unbreakable (3/Day)",
+					"name": "Несокрушимый (3/день)",
 					"entries": [
-						"If the daedric titan is {@condition grappled}, {@condition incapacitated}, or {@condition restrained} at the start of its turn, any effect causing these conditions immediately end on the daedric titan."
+						"Если даэдрический титан {@condition grappled}, {@condition incapacitated} или {@condition restrained} в начале своего хода, любой эффект, вызывающий эти состояния, немедленно оканчивается на нём."
 					]
 				},
 				{
-					"name": "Draconic Imitation",
+					"name": "Драконье подражание",
 					"entries": [
-						"The draconic titan can push any Huge or smaller creature it deals bludgeoning, piercing, or slashing damage to up to 5 feet away from it. This doesn't occur if the target makes a save against the damage and succeeds."
+						"Драконий титан может оттолкнуть любое существо размера Огромный или меньше, которому наносит дробящий, колющий или рубящий урон, на расстояние до 5 футов от себя. Это не происходит, если цель успешно совершает спасбросок против урона."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The daedric titan can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+						"Даэдрический титан может использовать своё Ужасающее присутствие. Затем он совершает три атаки: одну укусом и две когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 10 фт., одна цель. {@h}19 ({@damage 2d10 + 8}) колющего урона плюс 7 ({@damage 2d6}) урона огнём."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 10 футов, одна цель. {@h}15 ({@damage 2d6 + 8}) рубящего урона."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"The daedric titan sweeps its tail in a 15-foot cone. Each creature in the cone takes 17 ({@damage 2d8 + 8}) bludgeoning damage ({@dc 22} Dexterity save for half)."
+						"Даэдрический титан хлещет хвостом в конусе 15 футов. Каждое существо в конусе получает 17 ({@damage 2d8 + 8}) дробящего урона (спасбросок Ловкости {@dc 22} для половины урона)."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Each creature of the daedric titan's choice that is within 120 feet of the daedric titan and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the daedric titan's Frightful Presence for the next 24 hours."
+						"Каждое существо на выбор даэдрического титана в пределах 120 футов от него, знающее о нём, должно преуспеть в спасброске Мудрости {@dc 19}, иначе станет {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа успешен или эффект на нём окончился, существо получает иммунитет к Ужасающему присутствию даэдрического титана на следующие 24 часа."
 					]
 				},
 				{
-					"name": "Fire Breath {@recharge 5}",
+					"name": "Огненное дыхание {@recharge 5}",
 					"entries": [
-						"The daedric titan exhales cold fire in a 60-foot cone. Each creature in that area takes 63 ({@damage 18d6}) fire damage ({@dc 21} Dexterity save for half)."
+						"Даэдрический титан выдыхает холодное пламя конусом 60 футов. Каждое существо в этой области получает 63 ({@damage 18d6}) урона огнём (спасбросок Ловкости {@dc 21} для половины урона)."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Retaliate",
+					"name": "Возмездие",
 					"entries": [
-						"When the daedric titan is hit by a melee attack, it can use its Tail action on an area that includes the attacker."
+						"Когда даэдрический титан получает попадание рукопашной атакой, он может использовать своё действие «Хвост» по области, включающей атакующего."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Detect",
+					"name": "Обнаружение",
 					"entries": [
-						"The daedric titan makes a Wisdom (Perception) check."
+						"Даэдрический титан совершает проверку Мудрости (Восприятие)."
 					]
 				},
 				{
-					"name": "Grapple",
+					"name": "Захват",
 					"entries": [
-						"The daedric titan attempts to grapple one creature within 10 feet of it."
+						"Даэдрический титан пытается схватить одно существо в пределах 10 футов от него."
 					]
 				},
 				{
-					"name": "Soul Flame",
+					"name": "Пламя души",
 					"entries": [
-						"The daedric titan exhales a ball of cold fire at a target within 60 feet of it. The target takes 9 ({@damage 2d8}) fire damage plus 9 ({@damage 2d8}) necrotic damage ({@dc 19} Constitution save for half). If the target is a creature and it fails its saving throw by 5 or more, it is also {@condition poisoned} until the end of the daedric titan's next turn."
+						"Даэдрический титан выдыхает шар холодного пламени в цель в пределах 60 футов от него. Цель получает 9 ({@damage 2d8}) урона огнём плюс 9 ({@damage 2d8}) урона некротической энергией (спасбросок Телосложения {@dc 19} для половины урона). Если цель — существо и она проваливает спасбросок на 5 или больше, она также становится {@condition poisoned} до конца следующего хода даэдрического титана."
 					]
 				},
 				{
-					"name": "Tail (Costs 2 Actions)",
+					"name": "Хвост (стоит 2 действия)",
 					"entries": [
-						"The daedric titan uses its Tail action."
+						"Даэдрический титан использует своё действие «Хвост»."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The daedric titan beats its wings. Each creature within 10 feet of the daedric titan takes 15 ({@damage 2d6 + 8}) bludgeoning damage ({@dc 22} Dexterity save for half). On a failed save, a target is also knocked {@condition prone}. The daedric titan can then fly up to half its flying speed."
+						"Даэдрический титан бьёт крыльями. Каждое существо в пределах 10 футов от даэдрического титана получает 15 ({@damage 2d6 + 8}) дробящего урона (спасбросок Ловкости {@dc 22} для половины урона). При провале спасброска цель также сбивается с ног {@condition prone}. Затем даэдрический титан может пролететь до половины своей скорости полёта."
 					]
 				}
 			],
@@ -852,8 +852,8 @@
 			}
 		},
 		{
-			"name": "Dremora Lord",
-			"shortName": "dremora",
+			"name": "Лорд дремора",
+			"shortName": "дремора",
 			"source": "DI",
 			"page": 3,
 			"size": [
@@ -926,67 +926,67 @@
 				"poisoned"
 			],
 			"languages": [
-				"Abyssal",
-				"Common"
+				"Бездонный",
+				"Общий"
 			],
 			"cr": "15",
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The dremora has advantage on saving throws against spells and other magical effects."
+						"Дремора совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
 					]
 				},
 				{
-					"name": "Deadly Critical",
+					"name": "Смертельное критическое попадание",
 					"entries": [
-						"The dremora scores a critical hit on a roll of 19 or 20. On a critical hit, the dremora rolls the damage dice three times, instead of twice, and each ally of the target that can see the dremora must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} of the dremora until the end of the dremora's next turn."
+						"Дремора совершает критическое попадание при результате 19 или 20. При критическом попадании дремора бросает кости урона три раза вместо двух, и каждый союзник цели, способный видеть дремору, должен преуспеть в спасброске Мудрости {@dc 15}, иначе станет {@condition frightened} дремора до конца следующего хода дремора."
 					]
 				},
 				{
-					"name": "Slaughter (1/Turn)",
+					"name": "Резня (1/ход)",
 					"entries": [
-						"If the dremora makes a weapon attack with advantage on the attack roll and hits a creature with it, the target takes an additional 7 ({@damage 2d8}) psychic damage. If the target is {@condition frightened} or {@condition incapacitated}, the attack also becomes a critical hit."
+						"Если дремора совершает атаку оружием с преимуществом на бросок атаки и попадает по существу, цель получает дополнительно 7 ({@damage 2d8}) урона психической энергией. Если цель {@condition frightened} или {@condition incapacitated}, атака также становится критическим попаданием."
 					]
 				},
 				{
-					"name": "Alert",
+					"name": "Бдительный",
 					"entries": [
-						"The dremora has advantage on initiative rolls and Wisdom ({@skill Perception}) checks."
+						"Дремора совершает с преимуществом броски инициативы и проверки Мудрости ({@skill Perception})."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The dremora makes two weapon attacks."
+						"Дремора совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Greatsword",
+					"name": "Двуручный меч",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}21 ({@damage 4d6 + 7}) slashing damage plus 18 ({@damage 4d8}) fire damage."
+						"{@atk mw} {@hit 12} к попаданию, досягаемость 10 фт., одна цель. {@h}21 ({@damage 4d6 + 7}) рубящего урона плюс 18 ({@damage 4d8}) урона огнём."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"The dremora adds 5 to its AC against one melee attack that would hit it. To do so, the dremora must see the attacker and be wielding a melee weapon."
+						"Дремора добавляет 5 к своему КД против одной рукопашной атаки, которая должна была бы попасть по нему. Для этого дремора должен видеть атакующего и владеть рукопашным оружием."
 					]
 				},
 				{
-					"name": "Feast on Weakness",
+					"name": "Пир слабостью",
 					"entries": [
-						"When a hostile creature within 20 feet of the dremora fails a saving throw, the dremora regains 10 hit points."
+						"Когда враждебное существо в пределах 20 футов от дремора проваливает спасбросок, дремора восстанавливает 10 хитов."
 					]
 				},
 				{
-					"name": "Protective Retaliation",
+					"name": "Защитное возмездие",
 					"entries": [
-						"When a creature within 5 feet of the dremora makes an attack against one of the dremora's allies, the dremora can make a melee weapon attack against the attacking creature."
+						"Когда существо в пределах 5 футов от дремора совершает атаку по одному из союзников дремора, дремора может совершить рукопашную атаку оружием по атакующему существу."
 					]
 				}
 			],
@@ -1036,7 +1036,7 @@
 			}
 		},
 		{
-			"name": "Flame Atronach",
+			"name": "Огненный атронах",
 			"source": "DI",
 			"page": 2,
 			"size": [
@@ -1099,64 +1099,64 @@
 				"unconscious"
 			],
 			"languages": [
-				"Ignan"
+				"Игнан"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Death Burst",
+					"name": "Предсмертный взрыв",
 					"entries": [
-						"When the atronach dies, it explodes in a burst of fire. Each creature within 10 feet of it takes 7 ({@damage 2d6}) fire damage ({@dc 13} Dexterity save for half)."
+						"Когда атронах умирает, он взрывается вспышкой огня. Каждое существо в пределах 10 футов от него получает 7 ({@damage 2d6}) урона огнём (спасбросок Ловкости {@dc 13} для половины урона)."
 					]
 				},
 				{
-					"name": "Fire Form",
+					"name": "Огненная форма",
 					"entries": [
-						"A creature that touches the atronach or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) fire damage."
+						"Существо, касающееся атронаха или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 5 ({@damage 1d10}) урона огнём."
 					]
 				},
 				{
-					"name": "Ignite",
+					"name": "Воспламенение",
 					"entries": [
-						"When the atronach deals fire damage to a creature or flammable object, the target ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+						"Когда атронах наносит урон огнём существу или горючему предмету, цель воспламеняется. Пока существо не потратит действие, чтобы сбить огонь, цель получает 5 ({@damage 1d10}) урона огнём в начале каждого своего хода."
 					]
 				},
 				{
-					"name": "Illumination",
+					"name": "Освещение",
 					"entries": [
-						"The atronach sheds bright light in a 30-foot radius and dim light for an additional 30 feet."
+						"Атронах испускает яркий свет в радиусе 30 футов и тусклый свет ещё на 30 футов."
 					]
 				},
 				{
-					"name": "Water Susceptibility",
+					"name": "Уязвимость к воде",
 					"entries": [
-						"For every 5 feet the atronach moves in water, or for every gallon of water splashed on it, it takes 1 cold damage."
+						"За каждые 5 футов, которые атронах перемещается в воде, или за каждый галлон воды, выплеснутый на него, он получает 1 урон холодом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The atronach makes two attacks."
+						"Атронах совершает две атаки."
 					]
 				},
 				{
-					"name": "Touch",
+					"name": "Касание",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) fire damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 2d6 + 3}) огнём."
 					]
 				},
 				{
-					"name": "Fire Blast",
+					"name": "Огненный взрыв",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}11 ({@damage 2d10}) fire damage."
+						"{@atk rs} {@hit 5} к попаданию, дистанция 120 футов, одна цель. {@h}11 ({@damage 2d10}) огнём."
 					]
 				},
 				{
-					"name": "Repelling Flames",
+					"name": "Отталкивающее пламя",
 					"entries": [
-						"Each creature in a 15-foot cone takes 7 ({@damage 2d6}) fire damage ({@dc 13} Dexterity save for half). A creature is pushed up to 10 feet away from the atronach on a failed save, or 5 feet away on a successful one."
+						"Каждое существо в конусе 15 футов получает 7 ({@damage 2d6}) урона огнём (спасбросок Ловкости {@dc 13} для половины урона). При провале спасброска существо отталкивается на расстояние до 10 футов от атронаха, или на 5 футов при успехе."
 					]
 				}
 			],
@@ -1197,7 +1197,7 @@
 			}
 		},
 		{
-			"name": "Frost Atronach",
+			"name": "Морозный атронах",
 			"source": "DI",
 			"page": 2,
 			"size": [
@@ -1265,64 +1265,64 @@
 				"unconscious"
 			],
 			"languages": [
-				"Aquan"
+				"Акван"
 			],
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Chilled Body",
+					"name": "Леденящее тело",
 					"entries": [
-						"A creature that touches the atronach or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) cold damage."
+						"Существо, касающееся атронаха или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 10 ({@damage 3d6}) урона холодом."
 					]
 				},
 				{
-					"name": "Death Burst",
+					"name": "Предсмертный взрыв",
 					"entries": [
-						"When the atronach dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it takes 9 ({@damage 2d8}) slashing damage ({@dc 17} Dexterity save for half)."
+						"Когда атронах умирает, он взрывается вспышкой острых льдинок. Каждое существо в пределах 5 футов от него получает 9 ({@damage 2d8}) рубящего урона (спасбросок Ловкости {@dc 17} для половины урона)."
 					]
 				},
 				{
-					"name": "Frost Aura",
+					"name": "Морозная аура",
 					"entries": [
-						"The ground in a 10-foot radius around the atronach is icy and is difficult terrain for creatures other than it. The radius moves with the atronach."
+						"Земля в радиусе 10 футов вокруг атронаха покрыта льдом и является труднопроходимой местностью для существ, кроме него. Радиус перемещается вместе с атронахом."
 					]
 				},
 				{
-					"name": "Ice Walk",
+					"name": "Хождение по льду",
 					"entries": [
-						"The atronach can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment."
+						"Атронах может перемещаться по ледяным поверхностям и взбираться по ним, не совершая проверку характеристики. Кроме того, труднопроходимая местность из льда или снега не стоит ему дополнительного перемещения."
 					]
 				},
 				{
-					"name": "Siege Monster",
+					"name": "Осадное чудовище",
 					"entries": [
-						"The atronach deals double damage to objects and structures."
+						"Атронах наносит удвоенный урон предметам и строениям."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The atronach makes two attacks: one with its jab and one with its uppercut. Alternatively, the atronach makes three attacks against three different targets."
+						"Атронах совершает две атаки: одну тычком и одну апперкотом. Или атронах совершает три атаки по трём разным целям."
 					]
 				},
 				{
-					"name": "Jab",
+					"name": "Тычок",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 7 ({@damage 2d6}) cold damage, and the target's speed is halved until the end of the atronach's next turn."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 10 фт., одна цель. {@h}14 ({@damage 2d8 + 5}) дробящего урона плюс 7 ({@damage 2d6}) урона холодом, и скорость цели уменьшается вдвое до конца следующего хода атронаха."
 					]
 				},
 				{
-					"name": "Uppercut",
+					"name": "Апперкот",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) bludgeoning damage plus 7 ({@damage 2d6}) cold damage, and the target is pushed up to 5 feet away from the atronach if it is Large or smaller."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 фт., одна цель. {@h}16 ({@damage 2d10 + 5}) дробящего урона плюс 7 ({@damage 2d6}) урона холодом, и цель отталкивается на расстояние до 5 футов от атронаха, если она размера Большой или меньше."
 					]
 				},
 				{
-					"name": "Ground Slam {@recharge 5}",
+					"name": "Удар по земле {@recharge 5}",
 					"entries": [
-						"The atronach slams its arm into the ground, releasing an explosion of jagged ice. Each creature within 10 feet of the atronach must succeed on a {@dc 17} Constitution saving throw, taking 9 ({@damage 2d8}) piercing damage plus 9 ({@damage 2d8}) cold damage on a failed save, or half as much damage on a successful one."
+						"Атронах обрушивает руку на землю, высвобождая взрыв острых льдинок. Каждое существо в пределах 10 футов от атронаха должно преуспеть в спасброске Телосложения {@dc 17}, получая 9 ({@damage 2d8}) колющего урона плюс 9 ({@damage 2d8}) урона холодом при провале, или половину этого урона при успехе."
 					]
 				}
 			],
@@ -1366,7 +1366,7 @@
 			}
 		},
 		{
-			"name": "Lurker",
+			"name": "Скрытень",
 			"source": "DI",
 			"page": 4,
 			"size": [
@@ -1433,67 +1433,67 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Deep Speech but can't speak",
+				"Understands глубинная речь но не может говорить",
 				"telepathy 120 ft."
 			],
 			"cr": "16",
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The lurker has advantage on saving throws against spells and other magical effects."
+						"Скрытень совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
 					]
 				},
 				{
-					"name": "Regeneration",
+					"name": "Регенерация",
 					"entries": [
-						"The lurker regains 10 hit points at the start of its turn. If the lurker takes radiant damage, this trait doesn't function at the start of the lurker's next turn. The lurker dies only if it starts its turn with 0 hit points and doesn't regenerate."
+						"Скрытень восстанавливает 10 хитов в начале своего хода. Если скрытень получает урон излучением, эта черта не действует в начале следующего хода скрытня. Скрытень умирает, только если начинает ход с 0 хитов и не регенерирует."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The lurker makes two slam attacks."
+						"Скрытень совершает две атаки размашистым ударом."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Размашистый удар",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+						"{@atk mw} {@hit 13} к попаданию, досягаемость 10 футов, одна цель. {@h}17 ({@damage 2d8 + 8}) дробящего урона."
 					]
 				},
 				{
-					"name": "Acid Spit",
+					"name": "Плевок кислотой",
 					"entries": [
-						"The lurker spits a ball of acid at a target it can see within 60 feet of it. The target must make a {@dc 19} Constitution saving throw. On a failed save, the target takes 22 ({@damage 9d4}) acid damage immediately and 12 ({@damage 5d4}) acid damage at the end of its next turn. On a successful save, the target is splashed with acid for half as much of the initial damage and no damage at the end of its next turn."
+						"Скрытень плюёт шаром кислоты в цель, которую видит в пределах 60 футов от него. Цель должна совершить спасбросок Телосложения {@dc 19}. При провале цель немедленно получает 22 ({@damage 9d4}) урона кислотой и 12 ({@damage 5d4}) урона кислотой в конце своего следующего хода. При успехе цель обрызгана кислотой на половину изначального урона и не получает урона в конце своего следующего хода."
 					]
 				},
 				{
-					"name": "Stomp {@recharge 5}",
+					"name": "Растаптывание {@recharge 5}",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d6 + 8}) bludgeoning damage. A mass of tentacles fills a 15-foot-radius, 10-foot-high cylinder centered on the target. Each creature in the cylinder that isn't a lurker or {@creature seeker|DI} takes 10 ({@damage 3d6}) bludgeoning damage plus 10 ({@damage 3d6}) acid damage ({@dc 19} Dexterity saving throw for half). On a failed save, a target is also {@condition restrained} {@condition restrained}. The tentacles disappear at the end of the lurker's next turn, at which time any {@condition restrained} targets are released."
+						"{@atk mw} {@hit 13} к попаданию, досягаемость 5 фт., одна цель. {@h}22 ({@damage 4d6 + 8}) дробящего урона. Масса щупалец заполняет цилиндр радиусом 15 футов и высотой 10 футов с центром на цели. Каждое существо в цилиндре, не являющееся скрытнем или {@creature Искатель|DI}, получает 10 ({@damage 3d6}) дробящего урона плюс 10 ({@damage 3d6}) урона кислотой (спасбросок Ловкости {@dc 19} для половины урона). При провале спасброска цель также {@condition restrained} {@condition restrained}. Щупальца исчезают в конце следующего хода скрытня, и тогда все {@condition restrained} цели освобождаются."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The lurker moves up to half its speed."
+						"Скрытень перемещается на расстояние вплоть до половины своей скорости."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Размашистый удар",
 					"entries": [
-						"The lurker makes one slam attack."
+						"Скрытень совершает одну атаку размашистым ударом."
 					]
 				},
 				{
-					"name": "Acid Spit (Costs 2 Actions)",
+					"name": "Плевок кислотой (стоит 2 действия)",
 					"entries": [
-						"The lurker uses Acid Spit."
+						"Скрытень использует Плевок кислотой."
 					]
 				}
 			],
@@ -1541,7 +1541,7 @@
 			}
 		},
 		{
-			"name": "Miraak",
+			"name": "Мирак",
 			"isNamedCreature": true,
 			"source": "DI",
 			"page": 5,
@@ -1641,10 +1641,10 @@
 			"cr": "25",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting (Psionics)",
+					"name": "Врождённое колдовство (псионика)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Miraak is a 20th-level spellcaster. Miraak's innate spellcasting ability is Intelligence (spell save {@dc 25}, {@hit 17} to hit with spell attacks). Miraak can innately cast the following spells, requiring no components:"
+						"Мирак — заклинатель 20-го уровня. Врождённая способность к заклинаниям Мирака — Интеллект (Сл спасброска {@dc 25}, {@hit 17} к попаданию атаками заклинаний). Мирак может врождённо творить следующие заклинания, не требуя компонентов:"
 					],
 					"will": [
 						"{@spell detect thoughts}",
@@ -1676,97 +1676,97 @@
 			],
 			"trait": [
 				{
-					"name": "Avoidance",
+					"name": "Избегание",
 					"entries": [
-						"If Miraak is subjected to an effect that allows him to make a saving throw to only take half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+						"Если Мирак подвергается эффекту, позволяющему ему совершить спасбросок, чтобы получить только половину урона, он вместо этого не получает урона при успехе и только половину урона при провале."
 					]
 				},
 				{
-					"name": "Dragon Aspect (Mythic Trait; 1/Rest).",
+					"name": "Драконий облик (мифическая черта; 1/отдых).",
 					"entries": [
-						"If Miraak would be reduced to 0 hit points, he can use a shout to reset his current hit point total to 350 instead. He then gains a +3 bonus to AC and a flying speed equal to his walking speed for 1 hour. During this time, the size and range/distance of his shouts are doubled in all dimensions."
+						"Если хиты Мирака должны уменьшиться до 0, он может использовать крик, чтобы сбросить свои текущие хиты до 350. Затем он получает бонус +3 к КД и скорость полёта, равную его скорости ходьбы, на 1 час. В течение этого времени размер и дальность/расстояние его криков удваиваются во всех измерениях."
 					]
 				},
 				{
-					"name": "Freedom of Movement",
+					"name": "Свобода перемещения",
 					"entries": [
-						"Miraak ignores difficult terrain, and magical effects can't reduce his speed or cause him to be {@condition restrained}. He can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"Мирак игнорирует труднопроходимую местность, и магические эффекты не могут уменьшить его скорость или сделать его {@condition restrained}. Он может потратить 5 футов перемещения, чтобы высвободиться из немагических пут или состояния {@condition grappled}."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If Miraak fails a saving throw, he can choose to succeed instead."
+						"Если Мирак проваливает спасбросок, он может вместо этого сделать спасбросок успешным."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"Miraak has advantage on saving throws against spells and other magical effects."
+						"Мирак совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Miraak casts or uses his at-will {@spell telekinesis} and makes two weapon attacks."
+						"Мирак творит или использует своё неограниченное {@spell telekinesis} и совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Tentacle Sword",
+					"name": "Меч-щупальце",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage plus 14 ({@damage 4d6}) acid damage plus 14 ({@damage 4d6}) force damage, and the target has disadvantage on all saving throws until the end of Miraak's next turn."
+						"{@atk mw} {@hit 14} к попаданию, досягаемость 15 фт., одна цель. {@h}10 ({@damage 1d8 + 6}) рубящего урона плюс 14 ({@damage 4d6}) урона кислотой плюс 14 ({@damage 4d6}) урона силовым полем, и цель совершает с помехой все спасброски до конца следующего хода Мирака."
 					]
 				},
 				{
-					"name": "Bend Will {@recharge 5}",
+					"name": "Подчинение воли {@recharge 5}",
 					"entries": [
-						"Miraak uses a shout to bend the will of one creature he can see within 60 feet of him, as the {@spell dominate monster} spell (save {@dc 25}, no concentration required), until the end of his next turn. If the target is a dragon, the effect lasts for 1 hour, and if the dragon fails the initial save by 5 or more, the effect becomes permanent, and it can't make saves to break the effect."
+						"Мирак использует крик, чтобы подчинить волю одного существа, которое видит в пределах 60 футов от него, как заклинание {@spell dominate monster} (спасбросок {@dc 25}, концентрация не требуется), до конца его следующего хода. Если цель — дракон, эффект длится 1 час, и если дракон проваливает изначальный спасбросок на 5 или больше, эффект становится постоянным, и он не может совершать спасброски, чтобы его разорвать."
 					]
 				},
 				{
-					"name": "Fire Breath {@recharge 5}",
+					"name": "Огненное дыхание {@recharge 5}",
 					"entries": [
-						"Miraak uses a shout to exhale fire in a 60-foot cone. Each creature in the area takes 35 ({@damage 10d6}) fire damage ({@dc 25} Dexterity save for half."
+						"Мирак использует крик, чтобы выдохнуть огонь конусом 60 футов. Каждое существо в области получает 35 ({@damage 10d6}) урона огнём ({@dc 25} спасбросок Ловкости для половины урона."
 					]
 				},
 				{
-					"name": "Cyclone {@recharge 5}",
+					"name": "Циклон {@recharge 5}",
 					"entries": [
-						"Miraak uses a shout to creates a whirling cyclone that sows chaos among his enemies. The cyclone is a 5-foot-radius, 30-foot-high cylinder that originates from Miraak and moves 60 feet in a straight line. Each creature that comes in contact with the cyclone is hurled 35 ({@dice 2d6 × 5}) feet away from it in a random direction and takes 22 ({@damage 5d8}) bludgeoning damage ({@dc 25} Dexterity save for half)."
+						"Мирак использует крик, чтобы создать вращающийся циклон, сеющий хаос среди его врагов. Циклон — это цилиндр радиусом 5 футов и высотой 30 футов, который исходит от Мирака и перемещается на 60 футов по прямой. Каждое существо, вступающее в контакт с циклоном, отбрасывается на 35 ({@dice 2d6 × 5}) футов от него в случайном направлении и получает 22 ({@damage 5d8}) дробящего урона ({@dc 25} спасбросок Ловкости для половины урона)."
 					]
 				},
 				{
-					"name": "Frost Breath {@recharge 5}",
+					"name": "Дыхание мороза {@recharge 5}",
 					"entries": [
-						"Miraak uses a shout to exhale an icy blast in a 60-foot cone. Each creature in the area takes 27 ({@damage 5d10}) cold damage ({@dc 25} Constitution save for half). On a failed save, a creature's speed is also halved until the end of its next turn."
+						"Мирак использует крик, чтобы выдохнуть ледяной порыв конусом 60 футов. Каждое существо в области получает 27 ({@damage 5d10}) урона холодом ({@dc 25} спасбросок Телосложения для половины урона). При провале спасброска скорость существа также уменьшается вдвое до конца его следующего хода."
 					]
 				},
 				{
-					"name": "Unrelenting Force {@recharge 5}",
+					"name": "Неумолимая сила {@recharge 5}",
 					"entries": [
-						"Miraak uses a shout to create a blast of energy that travels along a line 10 feet wide and 60 feet long. Each creature and object in the line takes 21 ({@damage 6d6}) force damage ({@dc 25} Strength save for half). On a failed save, a target is also knocked {@condition prone} and is pushed 20 feet away from Miraak."
+						"Мирак использует крик, чтобы создать взрыв энергии, движущийся по линии шириной 10 футов и длиной 60 футов. Каждое существо и предмет в линии получает 21 ({@damage 6d6}) урона силовым полем ({@dc 25} спасбросок Силы для половины урона). При провале спасброска цель также сбивается с ног {@condition prone} и отталкивается на 20 футов от Мирака."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Whirlwind Sprint",
+					"name": "Вихревой рывок",
 					"entries": [
-						"Miraak uses a shout to move up to 60 feet in a straight line without provoking opportunity attacks."
+						"Мирак использует крик, чтобы переместиться на расстояние до 60 футов по прямой, не провоцируя атак по возможности."
 					]
 				},
 				{
-					"name": "Tentacle Sword",
+					"name": "Меч-щупальце",
 					"entries": [
-						"Miraak makes one attack using his tentacle sword."
+						"Мирак совершает одну атаку своим мечом-щупальцем."
 					]
 				},
 				{
-					"name": "Use a Shout (Costs 2 Actions)",
+					"name": "Использовать крик (стоит 2 действия)",
 					"entries": [
-						"Miraak uses one of his shouts."
+						"Мирак использует один из своих криков."
 					]
 				}
 			],
@@ -1834,7 +1834,7 @@
 			}
 		},
 		{
-			"name": "Seeker",
+			"name": "Искатель",
 			"source": "DI",
 			"page": 4,
 			"size": [
@@ -1903,10 +1903,10 @@
 			"cr": "8",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting (Psionics)",
+					"name": "Врождённое колдовство (псионика)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The seeker's innate spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no components:"
+						"Врождённая способность к заклинаниям искателя — Интеллект (Сл спасброска {@dc 15}). Он может врождённо творить следующие заклинания, не требуя компонентов:"
 					],
 					"will": [
 						"{@spell command}",
@@ -1925,29 +1925,29 @@
 			],
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The seeker has advantage on saving throws against spells and other magical effects."
+						"Искатель совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
 					]
 				},
 				{
-					"name": "Summon Clone (1/Day)",
+					"name": "Призыв клона (1/день)",
 					"entries": [
-						"If the seeker has half its hit points or fewer, it can use a bonus action to summon a weaker version of itself at a point within 15 feet of it. This clone lacks the Innate Spellcasting and Summon Clone traits, and only has 33 ({@dice 6d8 + 6}) hit points. The clone acts on the same initiative as its summoner, and follows its summoner's orders to the best of its ability. The clone dies if its summoner dies, if it is reduced to 0 hit points, or if it is ever more than 30 feet away from its summoner. Otherwise, the clone disappears after 1 minute."
+						"Если у искателя половина хитов или меньше, он может бонусным действием призвать более слабую версию себя в точке в пределах 15 футов от него. Этот клон лишён черт Врождённое колдовство и Призыв клона и имеет всего 33 ({@dice 6d8 + 6}) хита. Клон действует в ту же инициативу, что и его призыватель, и выполняет приказы своего призывателя по мере своих сил. Клон умирает, если умирает его призыватель, если его хиты уменьшаются до 0 или если он оказывается более чем в 30 футах от своего призывателя. В остальном клон исчезает через 1 минуту."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Seeker Drain",
+					"name": "Вытягивание искателя",
 					"entries": [
-						"{@atk rs} automatic hit, range 120 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage. The target must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} until the end of its next turn."
+						"{@atk rs} автоматическое попадание, дистанция 120 фт., одна цель. {@h}15 ({@damage 2d10 + 4}) урона силовым полем. Цель должна преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition poisoned} до конца своего следующего хода."
 					]
 				},
 				{
-					"name": "Knowledge Drain {@recharge 5}",
+					"name": "Вытягивание знаний {@recharge 5}",
 					"entries": [
-						"The seeker unleashes a blast of psychic energy in a 60-foot cone. Each creature in that area takes 22 ({@damage 4d8 + 4}) psychic damage ({@dc 15} Intelligence save for half). On a failed save, the seeker also magically learns one fact or secret about the target."
+						"Искатель испускает взрыв психической энергии конусом 60 футов. Каждое существо в этой области получает 22 ({@damage 4d8 + 4}) урона психической энергией ({@dc 15} спасбросок Интеллекта для половины урона). При провале спасброска искатель также магически узнаёт один факт или секрет о цели."
 					]
 				}
 			],
@@ -1998,7 +1998,7 @@
 			}
 		},
 		{
-			"name": "Storm Atronach",
+			"name": "Грозовой атронах",
 			"source": "DI",
 			"page": 2,
 			"size": [
@@ -2071,46 +2071,46 @@
 				"unconscious"
 			],
 			"languages": [
-				"understands primordial but can't speak"
+				"Understands первобытный но не может говорить"
 			],
 			"cr": "13",
 			"trait": [
 				{
-					"name": "Death Burst",
+					"name": "Предсмертный взрыв",
 					"entries": [
-						"When the atronach dies, it explodes in a burst of lightning. Each creature within 10 feet of it takes 10 ({@damage 3d6}) lightning damage ({@dc 18} Dexterity save for half)."
+						"Когда атронах умирает, он взрывается вспышкой молний. Каждое существо в пределах 10 футов от него получает 10 ({@damage 3d6}) урона электричеством (спасбросок Ловкости {@dc 18} для половины урона)."
 					]
 				},
 				{
-					"name": "Lightning Form",
+					"name": "Форма молнии",
 					"entries": [
-						"A creature that touches the atronach, hits it with a melee attack while within 5 feet of it, or starts its turn within 10 feet of the atronach takes 13 ({@damage 3d8}) lightning damage."
+						"Существо, касающееся атронаха, попадающее по нему рукопашной атакой в пределах 5 футов от него или начинающее свой ход в пределах 10 футов от атронаха, получает 13 ({@damage 3d8}) урона электричеством."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The atronach makes two touch attacks."
+						"Атронах совершает две атаки касанием."
 					]
 				},
 				{
-					"name": "Touch",
+					"name": "Касание",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) lightning damage."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 2d6 + 3}) электричеством."
 					]
 				},
 				{
-					"name": "Arc Lightning",
+					"name": "Дуговая молния",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 80/320 ft., one target. {@h}21 ({@damage 4d8 + 3}) lightning damage. Each creature in a 5 foot wide line between the target and the atronach (excluding the atronach and the target) also takes 13 ({@damage 3d8}) lightning damage ({@dc 18} Dexterity save for half)."
+						"{@atk rw} {@hit 8} к попаданию, дистанция 80/320 фт., одна цель. {@h}21 ({@damage 4d8 + 3}) урона электричеством. Каждое существо в линии шириной 5 футов между целью и атронахом (не считая атронаха и цели) также получает 13 ({@damage 3d8}) урона электричеством (спасбросок Ловкости {@dc 18} для половины урона)."
 					]
 				},
 				{
-					"name": "Lightning Storm {@recharge 5}",
+					"name": "Грозовая буря {@recharge 5}",
 					"entries": [
-						"The atronach unleashes a lightning storm in a 90-foot cone. Each creature in the area takes 36 ({@damage 8d8}) lightning damage ({@dc 18} Dexterity save for half)."
+						"Атронах высвобождает грозовую бурю конусом 90 футов. Каждое существо в области получает 36 ({@damage 8d8}) урона электричеством (спасбросок Ловкости {@dc 18} для половины урона)."
 					]
 				}
 			],

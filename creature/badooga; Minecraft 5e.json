@@ -22,7 +22,7 @@
 	},
 	"monster": [
 		{
-			"name": "Blaze",
+			"name": "Всполох",
 			"source": "MC",
 			"page": 1,
 			"size": [
@@ -79,58 +79,58 @@
 				"poisoned"
 			],
 			"languages": [
-				"Ignan"
+				"Игнан"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Heated Body",
+					"name": "Раскалённое тело",
 					"entries": [
-						"A creature that touches the blaze or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) fire damage."
+						"Существо, касающееся всполоха или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 5 ({@damage 1d10}) урона огнём."
 					]
 				},
 				{
-					"name": "Ignition",
+					"name": "Воспламенение",
 					"entries": [
-						"If the blaze deals fire damage to a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+						"Если всполох наносит урон огнём существу или горючему предмету, цель воспламеняется. Пока существо не потратит действие, чтобы сбить огонь, цель получает 5 ({@damage 1d10}) урона огнём в начале каждого своего хода."
 					]
 				},
 				{
-					"name": "Illumination",
+					"name": "Освещение",
 					"entries": [
-						"The blaze sheds bright light in a 30-foot radius and dim light for an additional 30 feet."
+						"Всполох испускает яркий свет в радиусе 30 футов и тусклый свет ещё на 30 футов."
 					]
 				},
 				{
-					"name": "Water Susceptibility",
+					"name": "Уязвимость к воде",
 					"entries": [
-						"For every 5 feet the blaze moves in water, or for every gallon of water splashed on it, it takes 1 cold damage."
+						"За каждые 5 футов, которые всполох перемещается в воде, или за каждый галлон воды, выплеснутый на него, он получает 1 урон холодом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The blaze makes two weapon attacks."
+						"Всполох совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Touch",
+					"name": "Касание",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) fire damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) огнём."
 					]
 				},
 				{
-					"name": "Fire Blast",
+					"name": "Огненный взрыв",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) fire damage."
+						"{@atk rw} {@hit 6} к попаданию, дистанция 80/320 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) огнём."
 					]
 				},
 				{
-					"name": "Ball of Fire {@recharge 5}",
+					"name": "Шар огня {@recharge 5}",
 					"entries": [
-						"The blaze sends a small ball of fire streaking toward a point it can see within 120 feet of it. Once the ball reaches its destination or impacts against a solid surface, it explodes. Each creature within 5 feet of the point where the ball explodes takes 9 ({@damage 2d8}) fire damage ({@dc 14} Dexterity save for half)."
+						"Всполох посылает небольшой огненный шар к точке, которую видит в пределах 120 футов от него. Как только шар достигает места назначения или ударяется о твёрдую поверхность, он взрывается. Каждое существо в пределах 5 футов от точки взрыва шара получает 9 ({@damage 2d8}) урона огнём (спасбросок Ловкости {@dc 14} для половины урона)."
 					]
 				}
 			],
@@ -168,7 +168,7 @@
 			}
 		},
 		{
-			"name": "Creeper",
+			"name": "Крипер",
 			"source": "MC",
 			"page": 1,
 			"size": [
@@ -208,29 +208,29 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Freedom of Movement",
+					"name": "Свобода перемещения",
 					"entries": [
-						"The creeper ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"Крипер игнорирует труднопроходимую местность, и магические эффекты не могут уменьшить его скорость или сделать его {@condition restrained}. Он может потратить 5 футов перемещения, чтобы высвободиться из немагических пут или состояния {@condition grappled}."
 					]
 				},
 				{
-					"name": "Grass Camouflage",
+					"name": "Травяная маскировка",
 					"entries": [
-						"The creeper has advantage on Dexterity ({@skill Stealth}) checks made to hide in grassy terrain."
+						"Крипер совершает с преимуществом проверки Ловкости ({@skill Stealth}), чтобы спрятаться в травянистой местности."
 					]
 				},
 				{
-					"name": "Supercharge",
+					"name": "Сверхзаряд",
 					"entries": [
-						"When the creeper takes lightning damage, it becomes supercharged, amplifying its explosive power. The creeper's Explode action deals double damage, and its radius increases to 30 feet."
+						"Когда крипер получает урон электричеством, он становится сверхзаряженным, усиливая свою взрывную мощь. Действие «Взрыв» крипера наносит удвоенный урон, и его радиус увеличивается до 30 футов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Explode",
+					"name": "Взрыв",
 					"entries": [
-						"The creeper reduces itself to 0 hit points and explodes. Each creature within 15 feet of the creeper takes 22 ({@damage 4d10}) bludgeoning damage ({@dc 13} Dexterity save for half)."
+						"Крипер уменьшает свои хиты до 0 и взрывается. Каждое существо в пределах 15 футов от крипера получает 22 ({@damage 4d10}) дробящего урона (спасбросок Ловкости {@dc 13} для половины урона)."
 					]
 				}
 			],
@@ -256,8 +256,8 @@
 			}
 		},
 		{
-			"name": "Ender Dragon",
-			"shortName": "dragon",
+			"name": "Дракон Края",
+			"shortName": "дракон",
 			"source": "MC",
 			"page": 7,
 			"size": [
@@ -332,16 +332,16 @@
 				"petrified"
 			],
 			"languages": [
-				"understands all but doesn't speak",
-				"telepathy 1 mile"
+				"понимает all",
+				"Телепатия 1 mile"
 			],
 			"cr": "26",
 			"spellcasting": [
 				{
-					"name": "Innate Psionics",
+					"name": "Врождённая психоника",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dragon's spellcasting ability is Intelligence (spell save {@dc 26}). She can cast the following spells using psionics, requiring no components:"
+						"Базовая характеристика заклинаний дракона — Интеллект (Сл спасброска {@dc 26}). Она может творить следующие заклинания, используя псионику, не требуя компонентов:"
 					],
 					"will": [
 						"{@spell locate creature}",
@@ -368,84 +368,84 @@
 			],
 			"trait": [
 				{
-					"name": "Tunneler",
+					"name": "Копатель",
 					"entries": [
-						"The dragon can burrow through any nonmagical material and leaves a 15-foot-diameter tunnel in her wake. She can also move through creatures and magical objects as if they were difficult terrain, but she takes 5 ({@damage 1d10}) necrotic damage if she ends her turn inside of an object."
+						"Дракон может прорываться сквозь любой немагический материал, оставляя за собой туннель диаметром 15 футов. Она также может перемещаться сквозь существ и магические предметы, как если бы они были труднопроходимой местностью, но получает 5 ({@damage 1d10}) урона некротической энергией, если оканчивает ход внутри предмета."
 					]
 				},
 				{
-					"name": "Psychic Barrier",
+					"name": "Психический барьер",
 					"entries": [
-						"At the start of each of her turns, the dragon gains 10 temporary hit points and can end one condition on herself, provided the dragon has at least 1 hit point."
+						"В начале каждого своего хода дракон получает 10 временных хитов и может окончить одно состояние на себе, при условии, что у дракона есть хотя бы 1 хит."
 					]
 				},
 				{
-					"name": "Legendary Reaction",
+					"name": "Легендарная реакция",
 					"entries": [
-						"The dragon can spend one legendary action to take a reaction, even when she has already used her normal reaction."
+						"Дракон может потратить одно легендарное действие, чтобы совершить реакцию, даже если уже использовал свою обычную реакцию."
 					]
 				},
 				{
-					"name": "Draconic Might",
+					"name": "Мощь дракона",
 					"entries": [
-						"The dragon's weapon attacks are magical and deal quadruple damage to objects and structures. When she hits a target with a melee attack, if the attack roll meets or exceeds the target's passive Strength ({@skill Athletics}) score, the dragon can push it up to 10 feet away, or 20 feet away if her mythic trait is active."
+						"Атаки оружием дракона являются магическими и наносят учетверённый урон предметам и строениям. Когда она попадает по цели рукопашной атакой, если результат броска атаки равен или превышает пассивное значение Силы ({@skill Athletics}) цели, дракон может оттолкнуть её на расстояние до 10 футов, или до 20 футов, если её мифическая черта активна."
 					]
 				},
 				{
-					"name": "Shockwave (Mythic Trait; Once Per Rest)",
+					"name": "Ударная волна (мифическая черта; один раз за отдых)",
 					"entries": [
-						"If the dragon would be reduced to 0 hit points, she instead resets to maximum hit points, and she can end any spells of her choice on herself. She then releases a huge roar that disrupts gravity in a 1 mile radius, causing an {@spell earthquake} spell (spell save {@dc 26}) to ravage the area for 1 minute (no concentration required)."
+						"Если хиты дракона должны уменьшиться до 0, вместо этого они сбрасываются до максимума, и она может окончить любые заклинания на свой выбор на себе. Затем она испускает огромный рёв, который нарушает гравитацию в радиусе 1 мили, заставляя заклинание {@spell earthquake} (спасбросок {@dc 26}) опустошать область в течение 1 минуты (концентрация не требуется)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The dragon makes three attacks: one with her bite and two with her claws."
+						"Дракон совершает три атаки: одну укусом и две когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h} 20 ({@damage 2d10 + 9}) piercing damage plus 16 ({@damage 3d10}) force damage."
+						"{@atk mw} {@hit 17} к попаданию, досягаемость 15 фт., одна цель. {@h} 20 ({@damage 2d10 + 9}) колющего урона плюс 16 ({@damage 3d10}) урона силовым полем."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d8 + 9}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 19}) and is {@condition restrained} until this grapple ends. The dragon can have only one creature {@condition grappled} in this way at a time."
+						"{@atk mw} {@hit 17} к попаданию, досягаемость 10 фт., одна цель. {@h}18 ({@damage 2d8 + 9}) рубящего урона. Если цель — существо размера Огромный или меньше, оно становится {@condition grappled} (высвобождение {@dc 19}) и {@condition restrained}, пока это состояние не окончится. Дракон может одновременно держать таким образом только одно существо {@condition grappled}."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h} 22 ({@damage 2d12 + 9}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 25} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 17} к попаданию, досягаемость 20 фт., одна цель. {@h} 22 ({@damage 2d12 + 9}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 25}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Breath Weapon {@recharge 5}",
+					"name": "Дыхательное оружие {@recharge 5}",
 					"entries": [
-						"The dragon exhales psychic energy in a 300-foot cone. Each creature and object in that area takes 77 ({@damage 11d12}) damage ({@dc 25} saving throw for half; see below), with the damage type, save type, and determined by the option she chooses below.",
-						"The dragon can't use the same option twice in a row.",
+						"Дракон выдыхает психическую энергию конусом 300 футов. Каждое существо и предмет в этой области получает 77 ({@damage 11d12}) урона ({@dc 25} спасбросок для половины урона; см. ниже), при этом тип урона, тип спасброска и эффект определяются выбранным ниже вариантом.",
+						"Дракон не может использовать один и тот же вариант дважды подряд.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Blinding Breath",
-									"entry": "The breath does radiant damage, and the save type is Constitution. On a failed save, a creature is also {@condition blinded} until the end of its next turn."
+									"name": "Ослепляющее дыхание",
+									"entry": "Дыхание наносит урон излучением, тип спасброска — Телосложение. При провале спасброска существо также становится {@condition blinded} до конца своего следующего хода."
 								},
 								{
 									"type": "item",
-									"name": "Disorienting Breath",
-									"entry": "The breath does psychic damage, and the save type is Intelligence. The area is then infused with psychic dissonance for 1 minute; creatures other than the dragon that end their turn in the area must subtract a {@dice d6} from each of their attack rolls, ability checks, and saving throws until the end of their next turn."
+									"name": "Дезориентирующее дыхание",
+									"entry": "Дыхание наносит урон психической энергией, тип спасброска — Интеллект. Затем область наполняется психическим диссонансом на 1 минуту; существа, кроме дракона, оканчивающие ход в этой области, должны вычесть {@dice d6} из каждого своего броска атаки, проверки характеристики и спасброска до конца своего следующего хода."
 								},
 								{
 									"type": "item",
-									"name": "Gravity Breath",
-									"entry": "The breath does force damage, and the save type is Strength. Until the end of the dragon's next turn, the entire area is affected by a {@spell reverse gravity} spell, except that the dragon can orient gravity in any direction."
+									"name": "Гравитационное дыхание",
+									"entry": "Дыхание наносит урон силовым полем, тип спасброска — Сила. До конца следующего хода дракона вся область подвержена действию заклинания {@spell reverse gravity}, за исключением того, что дракон может ориентировать гравитацию в любом направлении."
 								}
 							]
 						}
@@ -454,72 +454,72 @@
 			],
 			"bonus": [
 				{
-					"name": "Psychic Step",
+					"name": "Психический шаг",
 					"entries": [
-						"The dragon uses psionics to teleport to an unoccupied space it can see within 30 feet of her."
+						"Дракон использует псионику, чтобы телепортироваться в свободное пространство, которое видит в пределах 30 футов от неё."
 					]
 				},
 				{
-					"name": "Telekinetic Slide",
+					"name": "Телекинетическое скольжение",
 					"entries": [
-						"The dragon uses psionics to telekinetically one creature of her choice up to 30 feet in a horizontal direction of her choice ({@dc 26} Strength save for half distance)."
+						"Дракон использует псионику, чтобы телекинетически переместить одно существо на свой выбор на расстояние до 30 футов в горизонтальном направлении на свой выбор (спасбросок Силы {@dc 26} для половины расстояния)."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Psychic Barrier",
+					"name": "Психический барьер",
 					"entries": [
-						"The dragon halves the damage it takes from a ranged attack. To do so, the dragon must see the attacker."
+						"Дракон уменьшает вдвое урон, получаемый от дальнобойной атаки. Для этого дракон должен видеть атакующего."
 					]
 				},
 				{
-					"name": "Telekinetic Backlash",
+					"name": "Телекинетическая отдача",
 					"entries": [
-						"In response to taking damage from a melee attack, the dragon can push the attacker up to 30 feet away from her ({@dc 26} Strength save for half distance)."
+						"В ответ на получение урона от рукопашной атаки дракон может оттолкнуть атакующего на расстояние до 30 футов от себя (спасбросок Силы {@dc 26} для половины расстояния)."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Wild Talent",
+					"name": "Дикий талант",
 					"entries": [
-						"The dragon uses Psychic Step or Telekinetic Slide."
+						"Дракон использует Психический шаг или Телекинетическое скольжение."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"The dragon makes a tail attack."
+						"Дракон совершает атаку хвостом."
 					]
 				},
 				{
-					"name": "Innate Psionics (Costs 2 Actions)",
+					"name": "Врождённая псионика (стоит 2 действия)",
 					"entries": [
-						"The dragon uses her Innate Psionics."
+						"Дракон использует свою Врождённую псионику."
 					]
 				}
 			],
 			"mythicHeader": [
-				"If the dragon's mythic trait has been activated within the last hour, she can use the options below as legendary actions."
+				"Если мифическое свойство Дракона Края было активировано в течение последнего часа, он может использовать варианты ниже как легендарные действия."
 			],
 			"mythic": [
 				{
-					"name": "Potent Psionics",
+					"name": "Мощная псионика",
 					"entries": [
-						"The dragon uses Psychic Step or Telekinetic Slide, and the distance teleported or moved by them is doubled."
+						"Дракон использует Психический шаг или Телекинетическое скольжение, и расстояние телепортации или перемещения удваивается."
 					]
 				},
 				{
-					"name": "Psionic Mastery",
+					"name": "Псионическое мастерство",
 					"entries": [
-						"The dragon regains one use of one of her spells."
+						"Дракон восстанавливает одно применение одного из своих заклинаний."
 					]
 				},
 				{
-					"name": "Tail Sweep",
+					"name": "Взмах хвостом",
 					"entries": [
-						"The dragon makes a tail attack against each creature of her choice within 20 feet of her."
+						"Дракон совершает атаку хвостом по каждому существу на свой выбор в пределах 20 футов от него."
 					]
 				}
 			],
@@ -583,7 +583,7 @@
 			}
 		},
 		{
-			"name": "Enderman",
+			"name": "Эндермен",
 			"source": "MC",
 			"page": 2,
 			"size": [
@@ -648,46 +648,46 @@
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Jump Scare",
+					"name": "Прыжок-испуг",
 					"entries": [
-						"If the enderman uses its Teleport on its turn, it has advantage on the next melee attack made before the end of the turn."
+						"Если эндермен использует своё Телепортирование в свой ход, он получает преимущество на следующую рукопашную атаку, совершённую до конца хода."
 					]
 				},
 				{
-					"name": "Water Susceptibility",
+					"name": "Уязвимость к воде",
 					"entries": [
-						"For every 5 feet the enderman moves in water, or for every gallon of water splashed on it, it takes 1 cold damage."
+						"За каждые 5 футов, которые эндермен перемещается в воде, или за каждый галлон воды, выплеснутый на него, он получает 1 урон холодом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The enderman makes two slam attacks."
+						"Эндермен совершает две атаки ударом."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Размашистый удар",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) bludgeoning damage plus 14 ({@damage 4d6}) force damage.",
-						"The enderman can choose to {@condition grappled|phb|grapple} the target instead of dealing damage. While {@condition grappled}, the target is also {@condition restrained} (escape {@dc 13}). The enderman can only grapple one target at a time."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d10 + 3}) дробящего урона плюс 14 ({@damage 4d6}) урона силовым полем.",
+						"Эндермен может вместо нанесения урона выбрать {@condition grappled|phb|схват} цели. Пока цель {@condition grappled}, она также {@condition restrained} (высвобождение {@dc 13}). Эндермен может держать в захвате только одну цель одновременно."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Teleport {@recharge 4}",
+					"name": "Телепортация {@recharge 4}",
 					"entries": [
-						"The enderman magically teleports, along with any objects and equipment it is wearing and carrying, to any other location within 400 feet of it. The enderman needn't see the location in order to teleport to it, but if it would arrive in a place already occupied by an object or a creature, the enderman takes 14 ({@damage 4d6}) force damage and fails to teleport."
+						"Эндермен магически телепортируется вместе с любыми предметами и снаряжением, которое носит и несёт, в любое другое место в пределах 400 футов от него. Эндермену не обязательно видеть это место, чтобы телепортироваться туда, но если он окажется в месте, уже занятом предметом или существом, эндермен получает 14 ({@damage 4d6}) урона силовым полем и телепортация не удаётся."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Warp Away",
+					"name": "Прыжок в сторону",
 					"entries": [
-						"In response to being hit by an attack, the enderman can use its Teleport if it is available. When it does, the triggering attack misses it."
+						"В ответ на попадание атакой эндермен может использовать свою Телепортацию, если она доступна. При этом вызвавшая срабатывание атака промахивается по нему."
 					]
 				}
 			],
@@ -724,7 +724,7 @@
 			}
 		},
 		{
-			"name": "Ghast",
+			"name": "Гаст",
 			"source": "MC",
 			"page": 2,
 			"size": [
@@ -782,51 +782,51 @@
 				"charmed"
 			],
 			"languages": [
-				"understands Deep Speech but only makes screaming and screeching noises"
+				"Understands глубинная речь but only makes screaming and screeching noises"
 			],
 			"cr": "9",
 			"trait": [
 				{
-					"name": "Share Pain",
+					"name": "Разделённая боль",
 					"entries": [
-						"If the ghast takes psychic damage, each creature within 120 feet of the ghast takes that damage as well. In addition, creatures within 30 feet of the ghast have disadvantage on all Intelligence, Wisdom, and Charisma saving throws."
+						"Если гаст получает урон психической энергией, каждое существо в пределах 120 футов от гаста получает этот урон тоже. Кроме того, существа в пределах 30 футов от гаста совершают с помехой все спасброски Интеллекта, Мудрости и Харизмы."
 					]
 				},
 				{
-					"name": "Inscrutable Thoughts",
+					"name": "Непостижимые мысли",
 					"entries": [
-						"The ghast's thoughts and location can't be discerned by magic. Furthermore, any creature that attempts to communicate with the ghast telepathically must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} until the end of the ghast's next turn."
+						"Мысли и местоположение гаста нельзя распознать магией. Кроме того, любое существо, пытающееся общаться с гастом телепатически, должно преуспеть в спасброске Мудрости {@dc 18}, иначе станет {@condition frightened} до конца следующего хода гаста."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Fire Blast",
+					"name": "Огненный взрыв",
 					"entries": [
-						"The ghast sends a ball of fire streaking toward a point within 120 feet of it. Once the ball reaches its destination or impacts against a solid surface, the ball explodes. Each creature within 10 feet of the point where the ball explodes takes 14 ({@damage 4d6}) fire damage ({@dc 18} Dexterity save for half)."
+						"Гаст посылает огненный шар к точке в пределах 120 футов от него. Как только шар достигает места назначения или ударяется о твёрдую поверхность, он взрывается. Каждое существо в пределах 10 футов от точки взрыва шара получает 14 ({@damage 4d6}) урона огнём (спасбросок Ловкости {@dc 18} для половины урона)."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"The ghast can take 3 legendary actions each round, choosing from the options below."
+				"Гаст может совершить 3 легендарных действия в раунд, выбирая из вариантов ниже."
 			],
 			"legendary": [
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The ghast flies up to half its speed."
+						"Гаст пролетает до половины своей скорости."
 					]
 				},
 				{
-					"name": "Invoke Dread",
+					"name": "Вызов ужаса",
 					"entries": [
-						"The ghast shrieks within the mind of one creature it can see within 60 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or be {@condition frightened} until the end of the ghast's next turn."
+						"Гаст взывает в сознании одного существа, которое видит в пределах 60 футов от него. Цель должна преуспеть в спасброске Мудрости {@dc 18}, иначе станет {@condition frightened} до конца следующего хода гаста."
 					]
 				},
 				{
-					"name": "Wail (Costs 2 Actions)",
+					"name": "Вопль (стоит 2 действия)",
 					"entries": [
-						"The ghast lets out a terrible wail. Each creature within 120 feet of the ghast that can hear the wail takes 22 ({@damage 4d10}) psychic damage ({@dc 18} Charisma saving throw for half)."
+						"Гаст издаёт ужасный вопль. Каждое существо в пределах 120 футов от гаста, способное слышать вопль, получает 22 ({@damage 4d10}) урона психической энергией (спасбросок Харизмы {@dc 18} для половины урона)."
 					]
 				}
 			],
@@ -863,7 +863,7 @@
 			}
 		},
 		{
-			"name": "Pillager",
+			"name": "Разоритель",
 			"source": "MC",
 			"page": 3,
 			"size": [
@@ -908,48 +908,48 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The pillager has advantage on an attack roll against a creature if at least one of the pillager's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Разоритель совершает с преимуществом бросок атаки по существу, если хотя бы один из союзников разорителя находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The pillager makes two melee attacks."
+						"Разоритель совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Hand Crossbow",
+					"name": "Ручной арбалет",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 30/120 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Aggressive",
+					"name": "Агрессивный",
 					"entries": [
-						"The pillager moves up to its speed toward a hostile creature that it can see."
+						"Разоритель перемещается на расстояние вплоть до своей скорости к враждебному существу, которое видит."
 					]
 				},
 				{
-					"name": "Destroy",
+					"name": "Разрушение",
 					"entries": [
-						"The pillager makes a weapon attack against an object or structure."
+						"Разоритель совершает атаку оружием по предмету или строению."
 					]
 				}
 			],
@@ -990,7 +990,7 @@
 			}
 		},
 		{
-			"name": "Raid Captain",
+			"name": "Капитан налёта",
 			"isNamedCreature": true,
 			"source": "MC",
 			"page": 3,
@@ -1014,7 +1014,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|PHB|half plate}"
+						"{@item half plate armor|PHB|полулаты}"
 					]
 				}
 			],
@@ -1040,40 +1040,40 @@
 			},
 			"passive": 13,
 			"languages": [
-				"any one language (usually Common)"
+				"One (обычно Общий)"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The raid captain has advantage on an attack roll against a creature if at least one of the raid captain's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Капитан налёта совершает с преимуществом бросок атаки по существу, если хотя бы один из союзников капитана налёта находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}."
 					]
 				},
 				{
-					"name": "Raid Leader",
+					"name": "Предводитель налёта",
 					"entries": [
-						"The raid captain and allies within 30 feet of it have advantage on saving throws against being {@condition charmed}, {@condition frightened}, {@condition grappled}, or {@condition restrained} while the raid captain isn't {@condition incapacitated}."
+						"Капитан налёта и союзники в пределах 30 футов от него совершают с преимуществом спасброски от того, чтобы стать {@condition charmed}, {@condition frightened}, {@condition grappled} или {@condition restrained}, пока капитан налёта не {@condition incapacitated}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The raid captain makes three melee attacks."
+						"Капитан налёта совершает три рукопашные атаки."
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Heavy Crossbow",
+					"name": "Тяжёлый арбалет",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+						"{@atk rw} {@hit 5} к попаданию, дистанция 100/400 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) колющего урона."
 					]
 				}
 			],
@@ -1082,21 +1082,21 @@
 			],
 			"bonus": [
 				{
-					"name": "Aggressive",
+					"name": "Агрессивный",
 					"entries": [
-						"The raid captain moves up its speed toward a hostile creature that it can see."
+						"Капитан налёта перемещается на расстояние вплоть до своей скорости к враждебному существу, которое видит."
 					]
 				},
 				{
-					"name": "Leadership",
+					"name": "Лидерство",
 					"entries": [
-						"The raid captain utters a special command to one creature it can see within 30 feet of it. If the creature can hear it, it can add a {@dice d6} to one attack roll or saving throw it makes before the start of the raid captain's next turn."
+						"Капитан налёта произносит особую команду одному существу, которое видит в пределах 30 футов от него. Если существо может её слышать, оно может добавить {@dice d6} к одному броску атаки или спасброску, совершаемому до начала следующего хода капитана налёта."
 					]
 				},
 				{
-					"name": "Destroy",
+					"name": "Разрушение",
 					"entries": [
-						"The raid captain makes a weapon attack against an object or structure."
+						"Капитан налёта совершает атаку оружием по предмету или строению."
 					]
 				}
 			],
@@ -1136,7 +1136,7 @@
 			}
 		},
 		{
-			"name": "Ravager",
+			"name": "Опустошитель",
 			"source": "MC",
 			"page": 4,
 			"size": [
@@ -1171,37 +1171,37 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Siege Monster",
+					"name": "Осадное чудовище",
 					"entries": [
-						"The ravager deals double damage to objects and structures."
+						"Опустошитель наносит удвоенный урон предметам и строениям."
 					]
 				},
 				{
-					"name": "Trampling Charge",
+					"name": "Растаптывающий рывок",
 					"entries": [
-						"If the ravager moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or take an additional 9 ({@damage 2d8}) piercing damage and be knocked {@condition prone}. If the target is {@condition prone}, the ravager can make one stomp attack against it as a bonus action."
+						"Если опустошитель перемещается как минимум на 20 футов по прямой к существу, а затем в том же ходу попадает по нему атакой бодания, эта цель должна преуспеть в спасброске Силы {@dc 13}, иначе получит дополнительно 9 ({@damage 2d8}) колющего урона и будет сбита с ног {@condition prone}. Если цель {@condition prone}, опустошитель может бонусным действием совершить по ней одну атаку растаптыванием."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Gore",
+					"name": "Бодание",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) piercing damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}20 ({@damage 4d6 + 6}) колющего урона."
 					]
 				},
 				{
-					"name": "Stomp",
+					"name": "Растаптывание",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one {@condition prone} creature. {@h}24 ({@damage 4d8 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 фт., одно {@condition prone} существо. {@h}24 ({@damage 4d8 + 6}) дробящего урона."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Destroy",
+					"name": "Разрушение",
 					"entries": [
-						"The ravager makes a melee attack against an object or structure."
+						"Опустошитель совершает рукопашную атаку по предмету или строению."
 					]
 				}
 			],
@@ -1234,7 +1234,7 @@
 			}
 		},
 		{
-			"name": "Warden",
+			"name": "Страж",
 			"source": "MC",
 			"size": [
 				"L"
@@ -1310,104 +1310,104 @@
 				"unconscious"
 			],
 			"languages": [
-				"understands Common and Deep Speech but doesn't speak"
+				"Understands Общий and глубинная речь but doesn't speak"
 			],
 			"cr": "20",
 			"trait": [
 				{
-					"name": "Unyielding Essence",
+					"name": "Непреклонная сущность",
 					"entries": [
-						"The warden is immune to any spell or effect that would alter its form, as well as those that would read its thoughts or magically influence its thoughts or behavior. Creatures that attempt to communicate telepathically with the warden or magically influence its actions or mind instead take 14 ({@damage 4d6}) psychic damage."
+						"Страж обладает иммунитетом к любому заклинанию или эффекту, который изменил бы его форму, а также к тем, которые читали бы его мысли или магически влияли на его мысли или поведение. Существа, пытающиеся общаться со стражем телепатически или магически влиять на его действия или разум, вместо этого получают 14 ({@damage 4d6}) урона психической энергией."
 					]
 				},
 				{
-					"name": "Keen Senses",
+					"name": "Острые чувства",
 					"entries": [
-						"The warden has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell. Furthermore, the warden can hear telepathic communications within 60 feet of it as if they were spoken aloud."
+						"Страж совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на слух или обоняние. Кроме того, страж слышит телепатические сообщения в пределах 60 футов от него так, как если бы они были произнесены вслух."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The warden has advantage on saving throws against spells and other magical effects."
+						"Страж совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
 					]
 				},
 				{
-					"name": "Avoidance",
+					"name": "Избегание",
 					"entries": [
-						"If the warden is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+						"Если страж подвергается эффекту, позволяющему совершить спасбросок, чтобы получить только половину урона, он вместо этого не получает урона при успехе и только половину урона при провале."
 					]
 				},
 				{
-					"name": "Freedom of Movement",
+					"name": "Свобода перемещения",
 					"entries": [
-						"The warden ignores {@quickref difficult terrain||3}, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"Страж игнорирует {@quickref труднопроходимая местность||3} и магические эффекты не могут уменьшить его скорость или сделать его {@condition restrained}. Он может потратить 5 футов перемещения, чтобы высвободиться из немагических пут или состояния {@condition grappled}."
 					]
 				},
 				{
-					"name": "Relentless",
+					"name": "Неумолимый",
 					"entries": [
-						"If the warden takes 30 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+						"Если страж получает 30 урона или меньше, который уменьшил бы его хиты до 0, вместо этого его хиты опускаются до 1."
 					]
 				},
 				{
-					"name": "Destroyer",
+					"name": "Разрушитель",
 					"entries": [
-						"The warden deals quadruple damage to objects and structures."
+						"Страж наносит учетверённый урон предметам и строениям."
 					]
 				},
 				{
-					"name": "Shambler",
+					"name": "Шатающийся",
 					"entries": [
-						"When it doesn't detect any creatures nearby, the warden's speed is halved."
+						"Когда он не обнаруживает поблизости никаких существ, скорость стража уменьшается вдвое."
 					]
 				},
 				{
-					"name": "Burrower",
+					"name": "Копатель",
 					"entries": [
-						"The warden can burrow through dirt, solid stone, and sculk without disturbing the material."
+						"Страж может прорываться сквозь землю, твёрдый камень и скалк, не нарушая материал."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The warden makes two melee attacks."
+						"Страж совершает две рукопашные атаки."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Размашистый удар",
 					"entries": [
-						"{@atk mw} automatic hit, reach 5 ft., one target. {@h} 30 magical bludgeoning damage. The warden can forgo this damage to instead {@condition grappled|phb|grapple} the target (escape {@dc 20})."
+						"{@atk mw} автоматическое попадание, досягаемость 5 фт., одна цель. {@h} 30 магического дробящего урона. Страж может отказаться от этого урона, чтобы вместо этого {@condition grappled|phb|схват} цель (высвобождение {@dc 20})."
 					]
 				},
 				{
-					"name": "Sonic Boom {@recharge 5}",
+					"name": "Звуковой удар {@recharge 5}",
 					"entries": [
-						"The warden unleashes a sonic boom in a line that is 5 feet wide and 60 feet long. Each creature and object in the area takes  ({@dc 20} Constitution save for half). On a failed save, a creature is also pushed up to 20 feet away from the warden, knocked {@condition prone}, and {@condition deafened} until the end of the warden's next turn."
+						"Страж испускает звуковой удар линией шириной 5 футов и длиной 60 футов. Каждое существо и предмет в области получает ({@dc 20} спасбросок Телосложения для половины урона). При провале спасброска существо также отталкивается на расстояние до 20 футов от стража, сбивается с ног {@condition prone} и становится {@condition deafened} до конца следующего хода стража."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Destroy",
+					"name": "Разрушение",
 					"entries": [
-						"The warden makes a slam attack against an object or structure."
+						"Страж совершает атаку размашистым ударом по предмету или строению."
 					]
 				},
 				{
-					"name": "Sniff",
+					"name": "Нюх",
 					"entries": [
-						"The warden makes a Wisdom ({@skill Perception}) check using its sense of smell."
+						"Страж совершает проверку Мудрости ({@skill Perception}), используя своё обоняние."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Immovable",
+					"name": "Неподвижный",
 					"entries": [
-						"When the warden is subjected to an effect that would move it, knock it {@condition prone}, or both, the warden is neither moved nor knocked {@condition prone}."
+						"Когда страж подвергается эффекту, который переместил бы его, сбил бы его с ног {@condition prone} или и то и другое, страж ни перемещается, ни сбивается с ног {@condition prone}."
 					]
 				}
 			],
@@ -1445,7 +1445,7 @@
 			}
 		},
 		{
-			"name": "Wither",
+			"name": "Иссушитель",
 			"source": "MC",
 			"page": 5,
 			"size": [
@@ -1515,103 +1515,103 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Deep Speech",
 				"telepathy 120 ft."
 			],
 			"cr": "16",
 			"trait": [
 				{
-					"name": "Destructive Burrow",
+					"name": "Разрушительное копание",
 					"entries": [
-						"The wither can burrow through any nonmagical material or structure and leaves a 10-foot-diameter tunnel in its wake."
+						"Иссушитель может прорываться сквозь любой немагический материал или строение, оставляя за собой туннель диаметром 10 футов."
 					]
 				},
 				{
-					"name": "Freedom of Movement",
+					"name": "Свобода перемещения",
 					"entries": [
-						"The wither ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"Иссушитель игнорирует труднопроходимую местность, и магические эффекты не могут уменьшить его скорость или сделать его {@condition restrained}. Он может потратить 5 футов перемещения, чтобы высвободиться из немагических пут или состояния {@condition grappled}."
 					]
 				},
 				{
-					"name": "Three Heads",
+					"name": "Три головы",
 					"entries": [
-						"The wither has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition deafened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"Иссушитель совершает с преимуществом проверки Мудрости ({@skill Perception}) и спасброски от того, чтобы стать {@condition blinded}, {@condition deafened}, {@condition stunned} или упасть {@condition unconscious}."
 					]
 				},
 				{
-					"name": "Wither",
+					"name": "Иссушитель",
 					"entries": [
-						"When a creature fails its saving throw against a wither skull, it becomes {@condition poisoned}. At the end of each of its turns, the {@condition poisoned} target can make a {@dc 20} Constitution saving throw. It takes 7 ({@damage 2d6}) necrotic damage on a failed save, and the effect ends on a successful one. While {@condition poisoned} by this effect, a creature can't regain hit points."
+						"Когда существо проваливает свой спасбросок против черепа иссушителя, оно становится {@condition poisoned}. В конце каждого своего хода {@condition poisoned} цель может совершить спасбросок Телосложения {@dc 20}. При провале она получает 7 ({@damage 2d6}) урона некротической энергией, а при успехе эффект оканчивается. Будучи {@condition poisoned} этим эффектом, существо не может восстанавливать хиты."
 					]
 				},
 				{
-					"name": "Withering Heights (Mythic Trait; 1/Rest)",
+					"name": "Иссушающие высоты (мифическая черта; 1/отдых)",
 					"entries": [
-						"If the wither would be reduced to 0 hit points, its current hit point total is reset to 225 instead. It then unleashes a large explosion, dealing 28 ({@damage 8d6}) bludgeoning damage to each creature within 20 feet of it ({@dc 19} Dexterity save for half) and pushing them up to 20 feet away from it in a straight line. The wither then loses access to its flying speed for 1 hour, but its other speeds are doubled during that time."
+						"Если хиты иссушителя должны уменьшиться до 0, вместо этого его текущие хиты сбрасываются до 225. Затем он испускает большой взрыв, нанося 28 ({@damage 8d6}) дробящего урона каждому существу в пределах 20 футов от него (спасбросок Ловкости {@dc 19} для половины урона) и отталкивая их на расстояние до 20 футов от него по прямой. После этого иссушитель теряет доступ к своей скорости полёта на 1 час, но все остальные его скорости в это время удваиваются."
 					]
 				},
 				{
-					"name": "Aura of Unlife",
+					"name": "Аура нежития",
 					"entries": [
-						"The wither emits an aura of negative energy out to a radius of 30 feet. Non-undead creatures in the area can't regain hit points and have disadvantage on death saving throws."
+						"Иссушитель испускает ауру негативной энергии радиусом 30 футов. Существа, не являющиеся нежитью, в этой области не могут восстанавливать хиты и совершают с помехой спасброски от смерти."
 					]
 				},
 				{
-					"name": "Siege Monster",
+					"name": "Осадное чудовище",
 					"entries": [
-						"The wither deals double damage to objects and structures."
+						"Иссушитель наносит удвоенный урон предметам и строениям."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Shriek",
+					"name": "Визг",
 					"entries": [
-						"Each non-undead creature within 120 feet of the wither that can hear the wither's shriek must succeed on a {@dc 19} Constitution saving throw or be {@condition frightened} until the end of the wither's next turn."
+						"Каждое существо, не являющееся нежитью, в пределах 120 футов от иссушителя, способное слышать его визг, должно преуспеть в спасброске Телосложения {@dc 19}, иначе станет {@condition frightened} до конца следующего хода иссушителя."
 					]
 				},
 				{
-					"name": "Summon Spawn",
+					"name": "Призыв отродья",
 					"entries": [
-						"A {@creature wither skeleton|MC} emerges from a point on the ground within 30 feet of the wither. This wither skeleton acts on the same turn as the wither and follow its orders to the best of its ability. The wither can only have four wither skeletons summoned a time."
+						"Из точки на земле в пределах 30 футов от иссушителя появляется {@creature Скелет-иссушитель|MC}. Этот скелет-иссушитель действует в тот же ход, что и иссушитель, и выполняет его приказы по мере своих сил. Иссушитель может одновременно иметь призванными только четыре скелета-иссушителя."
 					]
 				},
 				{
-					"name": "Explosive Charge {@recharge 5}",
+					"name": "Взрывной рывок {@recharge 5}",
 					"entries": [
-						"The wither moves up to its speed in a straight line, passing through the space of any creature in the area without provoking opportunity attacks. Each creature within 10 feet of any space it moves through takes 14 ({@damage 4d6}) bludgeoning damage ({@dc 21} Strength save for half). On a failed save, a creature is also knocked {@condition prone}."
+						"Иссушитель перемещается на расстояние вплоть до своей скорости по прямой, проходя сквозь пространство любого существа в этой области, не провоцируя атак по возможности. Каждое существо в пределах 10 футов от любого пространства, через которое он проходит, получает 14 ({@damage 4d6}) дробящего урона (спасбросок Силы {@dc 21} для половины урона). При провале спасброска существо также сбивается с ног {@condition prone}."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Feed on Weakness",
+					"name": "Питание слабостью",
 					"entries": [
-						"When a non-undead creature within 30 feet of the wither fails a saving throw or is reduced to 0 hit points, the wither can choose to either regain 20 hit points or gain advantage on its next saving throw."
+						"Когда существо, не являющееся нежитью, в пределах 30 футов от иссушителя проваливает спасбросок или его хиты уменьшаются до 0, иссушитель может выбрать: восстановить 20 хитов или получить преимущество на свой следующий спасбросок."
 					]
 				},
 				{
-					"name": "Undead Army",
+					"name": "Армия нежити",
 					"entries": [
-						"When a humanoid within 30 feet of the wither dies, it can use Summon Spawn to raise its corpse as a {@creature wither skeleton|MC}. This undead does not count towards the maximum of four wither skeletons listed in that ability."
+						"Когда гуманоид в пределах 30 футов от иссушителя умирает, он может использовать Призыв отродья, чтобы поднять его труп как {@creature Скелет-иссушитель|MC}. Эта нежить не учитывается в максимуме четырёх скелетов-иссушителей, указанном в этой способности."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"The wither can take 3 legendary actions each round, choosing from the options below."
+				"Иссушитель может совершить 3 легендарных действия в раунд, выбирая из вариантов ниже."
 			],
 			"legendary": [
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The wither moves up to half its speed."
+						"Иссушитель перемещается на расстояние вплоть до половины своей скорости."
 					]
 				},
 				{
-					"name": "Wither Skull",
+					"name": "Череп иссушителя",
 					"entries": [
-						"The wither sends a wither skull streaking toward a point within 120 feet of it. Once the skull reaches its destination or impacts against a solid surface, the skull explodes. Each creature and object within 15 feet of the point where the skull explodes takes 14 ({@damage 4d6}) necrotic damage ({@dc 20} Constitution save for half)."
+						"Иссушитель посылает череп иссушителя к точке в пределах 120 футов от него. Как только череп достигает места назначения или ударяется о твёрдую поверхность, он взрывается. Каждое существо и предмет в пределах 15 футов от точки взрыва черепа получает 14 ({@damage 4d6}) урона некротической энергией (спасбросок Телосложения {@dc 20} для половины урона)."
 					]
 				}
 			],
@@ -1652,7 +1652,7 @@
 			}
 		},
 		{
-			"name": "Wither Skeleton",
+			"name": "Скелет-иссушитель",
 			"source": "MC",
 			"page": 6,
 			"size": [
@@ -1700,28 +1700,28 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands all languages it spoke in life but can't speak"
+				"Понимает все языки, которые знал при жизни, но не может говорить"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Wither",
+					"name": "Иссушитель",
 					"entries": [
-						"When the wither skeleton hits a target with a melee attack, it must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned}. At the end of each of its turns, the {@condition poisoned} target repeats the saving throw. It takes 7 ({@damage 2d6}) necrotic damage on a failed save, and the effect ends on a successful one. While {@condition poisoned} by this effect, a creature can't regain hit points."
+						"Когда скелет-иссушитель попадает по цели рукопашной атакой, он должен преуспеть в спасброске Телосложения {@dc 13}, иначе станет {@condition poisoned}. В конце каждого своего хода {@condition poisoned} цель повторяет спасбросок. При провале она получает 7 ({@damage 2d6}) урона некротической энергией, а при успехе эффект оканчивается. Будучи {@condition poisoned} этим эффектом, существо не может восстанавливать хиты."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage plus 7 ({@damage 2d6}) necrotic damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона плюс 7 ({@damage 2d6}) урона некротической энергией."
 					]
 				},
 				{
-					"name": "Shortbow",
+					"name": "Короткий лук",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h} 5 ({@damage 1d6 + 2}) piercing damage plus 7 ({@damage 2d6}) necrotic damage."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 80/320 фт., одна цель. {@h} 5 ({@damage 1d6 + 2}) колющего урона плюс 7 ({@damage 2d6}) урона некротической энергией."
 					]
 				}
 			],
@@ -1766,7 +1766,7 @@
 			}
 		},
 		{
-			"name": "Zombie Pigman",
+			"name": "Зомби-свиночеловек",
 			"source": "MC",
 			"page": 6,
 			"size": [
@@ -1809,36 +1809,36 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Common but can't speak"
+				"Understands Общий но не может говорить"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The zombie has advantage on an attack roll against a creature if at least one of the zombie's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Зомби совершает с преимуществом бросок атаки по существу, если хотя бы один из союзников зомби находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}."
 					]
 				},
 				{
-					"name": "Undead Fortitude",
+					"name": "Стойкость нежити",
 					"entries": [
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"Если зомби получает урон, уменьшающий хиты до 0, он совершает спасбросок Телосложения Сл 5 + полученный урон, если только это не был урон излучением или урон от критического попадания. При успехе хиты зомби опускаются всего лишь до 1."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 1}) slashing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 2d8 + 1}) рубящего урона."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Mob Behavior",
+					"name": "Поведение толпы",
 					"entries": [
-						"The zombie can attempt to {@action grapple} or {@action shove} a creature if at least one of the zombie's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Зомби может попытаться {@action grapple} или {@action shove} существо, если хотя бы один из союзников зомби находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}."
 					]
 				}
 			],

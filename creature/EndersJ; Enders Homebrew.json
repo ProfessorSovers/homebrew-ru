@@ -24,7 +24,7 @@
 	},
 	"monster": [
 		{
-			"name": "Ethrain - The Tower, XVII",
+			"name": "Этрейн — Башня, XVII",
 			"size": [
 				"M"
 			],
@@ -58,72 +58,72 @@
 			},
 			"trait": [
 				{
-					"name": "Absolute Void",
+					"name": "Абсолютная пустота",
 					"entries": [
-						"Ethrain is surrounded by a 5 foot aura of perfect stillness. Creatures within this aura are subjected to the effects of the silence spell and cannot breathe. Creatures that start or end their turn within this space take {@damage 1d10} force damage.",
-						"Ranged attacks are made with disadvantage by any source that attacks Ethrain from outside his aura."
+						"Этрейн окружён аурой идеальной неподвижности радиусом 5 футов. Существа внутри этой ауры подвергаются эффектам заклинания Тишина и не могут дышать. Существа, начинающие или заканчивающие свой ход в этой области, получают {@damage 1d10} силового урона.",
+						"Дальнобойные атаки по Этрейну из источника, находящегося за пределами его ауры, совершаются с помехой."
 					]
 				},
 				{
-					"name": "Void Zones",
+					"name": "Зоны пустоты",
 					"entries": [
-						"Ethrain can coalesce unstable variations of his own aura in the form of Void Zones. Void Zones are 10ft radius spheres that apply the following effects.",
-						"Applies the effects of the Silence spell within its radius.",
-						"Creatures besides Ethrain that start or end their turn within its radius take {@damage 3d6} Force Damage.",
-						"Projectiles that pass through a void zone are nullified."
+						"Этрейн может сгущать нестабильные вариации своей ауры в форме зон пустоты. Зоны пустоты представляют собой сферы радиусом 10 футов, имеющие следующие эффекты.",
+						"В пределах её радиуса действуют эффекты заклинания Тишина.",
+						"Существа, кроме Этрейна, начинающие или заканчивающие свой ход в пределах её радиуса, получают {@damage 3d6} силового урона.",
+						"Снаряды, проходящие через зону пустоты, уничтожаются."
 					]
 				},
 				{
-					"name": "Countdown to Collapse",
+					"name": "Обратный отсчёт до коллапса",
 					"entries": [
-						"Whenever Ethrain starts his turn, or takes damage  - he gains 1 stack of \"Inevitable Collapse\". He can gain up to two stacks of Inevitable Collapse at most on a single turn.",
-						"When Ethrain ends his turn and has 17 or more stacks of Inevitable Collapse; Eye of Collapse triggers before the end of his turn."
+						"Когда Этрейн начинает свой ход или получает урон, он получает 1 складывание «Неизбежности коллапса». За один ход он может получить не более двух складываний Неизбежности коллапса.",
+						"Когда Этрейн заканчивает свой ход и имеет 17 или более накоплений Неизбежности краха, Око краха срабатывает до окончания его хода."
 					]
 				},
 				{
-					"name": "When One is Ready (5/Day)",
+					"name": "Когда одно готово (5/день)",
 					"entries": [
-						"If Ethrain fails a saving throw, he succeeds instead; and suffers no effects from the originating source of the saving throw; stilling it within entropic forces.",
-						"If Ethrain fails a saving throw and has no uses remaining of this feature; he is subjected to every effect that he had delayed simultaneously."
+						"Если Этрейн проваливает спасбросок, вместо этого он преуспевает в нём и не подвергается никаким эффектам источника этого спасброска, подавляя их энтропийными силами.",
+						"Если Этрейн проваливает спасбросок и у него не осталось использований этой особенности, он одновременно подвергается каждому эффекту, который он отложил."
 					]
 				},
 				{
-					"name": "Voidwalker",
+					"name": "Путник пустоты",
 					"entries": [
-						"Ethrain can treat any space within a void zone as space within 5 feet of him."
+						"Этрейн может считать любое пространство в зоне пустоты пространством в пределах 5 футов от себя."
 					]
 				},
 				{
-					"name": "Stillsense",
+					"name": "Чувство покоя",
 					"entries": [
-						"Ethrain can treat any creature within a void zone, or within 5 feet of himself as if he could see them."
+						"Этрейн может считать любое существо в зоне пустоты или в пределах 5 футов от себя видимым для себя."
 					]
 				}
 			],
-			"shortName": "Ethrain",
+			"shortName": "Этрейн",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Ethrain makes two attacks with Entropic Crush and one attack with Unstilled Chaos."
+						"Этрейн совершает две атаки Энтропийным сокрушением и одну атаку Неподавленным хаосом."
 					]
 				},
 				{
-					"name": "Entropic Crush",
+					"name": "Энтропийное сокрушение",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 2d8 + 11}) force damage. On a hit, the target must succeed on a {@dc 17} Strength saving throw or be pushed up to 15 feet in a direction of Ethrain's choice. If a creature succeeds on this saving throw, they are immune to it until the end of their next turn."
+						"{@atk mw} {@hit 12} к попаданию, досягаемость 5 фт., одна цель. {@h}20 ({@damage 2d8 + 11}) силового урона. При попадании цель должна преуспеть в {@dc 17} спасброске Силы или быть оттолкнутой на расстояние до 15 футов в направлении по выбору Этрейна. Если существо преуспевает в этом спасброске, оно становится невосприимчивым к этому эффекту до конца своего следующего хода."
 					]
 				},
 				{
-					"name": "Unstilled Chaos",
+					"name": "Нестабильный Хаос",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 150 ft., one target. The creature must make a {@dc 17} Dexterity saving throw or take {@h}42 ({@damage 5d12 + 11}) thunder damage, half as much on a success.. On a hit or miss, a void zone is created underneath the targeted creature."
+						"{@atk mw} {@hit 12} для попадания, досягаемость 150 фт., одна цель. Существо должно совершить спасбросок Ловкости {@dc 17}, иначе получит {@h}42 ({@damage 5d12 + 11}) звукового урона, или половину этого урона при успехе.. При попадании или промахе под целью создаётся зона Пустоты."
 					]
 				},
 				{
-					"name": "Eye of Collapse",
+					"name": "Око коллапса",
 					"entries": [
-						"Ethrain unbinds the stillness that freezes the storm, allowing the raging hurricane to wreak catastrophe around him. All creatures outside of any Void Zone, or not within 5 feet of Ethrain must make a {@dc 21} Constitution saving throw, taking {@damage 10d12} Thunder damage on a failed save, or half as much on a success; and all active Void Zones are destroyed."
+						"Этрейн развязывает неподвижность, сковывающую бурю, позволяя бушующему урагану сеять вокруг него катастрофу. Все существа вне любой зоны Пустоты или находящиеся не более чем в 5 футах от Этрейна должны совершить спасбросок Телосложения {@dc 21}, получая {@damage 10d12} звукового урона при провале или половину этого урона при успехе; все активные зоны Пустоты уничтожаются."
 					]
 				}
 			],
@@ -136,39 +136,39 @@
 			],
 			"bonus": [
 				{
-					"name": "Anchor Step",
+					"name": "Якорный шаг",
 					"entries": [
-						"Ethrain targets two creatures that are within a void zone or within 5 feet of Ethrain, forcing them to make a {@dc 17} Charisma saving throw. On a failure - Ethrain can teleport the creature to a space of his choice that is within 5 feet of him, or within a void zone."
+						"Этрейн выбирает целью двух существ, находящихся в зоне пустоты или в пределах 5 футов от Этрейна, вынуждая их совершить {@dc 17} спасбросок Харизмы. При провале — Этрейн может телепортировать существо в выбранное им свободное пространство в пределах 5 футов от себя или в зоне пустоты."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "An Obstacle Made Manifest",
+					"name": "Проявленное препятствие",
 					"entries": [
-						"When Ethrain is targeted by a ranged attack or sees a projectile mid-flight; he can use a reaction to manifest a void zone anywhere between it and the originating source of the projectile or attack."
+						"Когда Этрейн становится целью дальней атаки или видит летящий снаряд, он может использовать реакции, чтобы создать зону пустоты в любом месте между ним и источником снаряда или атаки."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Refuge from the Chaos 1/Round",
+					"name": "Пристанище от Хаоса 1/Раунд",
 					"entries": [
-						"Two creatures targeted by Ethrain will become marked and subject to an environmental effect at the end of their next turns. If a creature ends their turn while marked in this way not within a void zone; flip a coin to determine the effect.",
-						"Heads - They are struck by a bolt of unstilled lightning, and must make a {@dc 17} Constitution Saving Throw or take {@damage 4d10} Lightning damage and be Slowed.",
-						"Tails. - They are struck by unstilled flying debris, and must make a {@dc 17} Dexterity Saving Throw or take {@damage 4d10} Bludgeoning damage and be pushed 30 feet in a random direction."
+						"Два существа, выбранные Этрейном целью, будут отмечены и подвергнуты воздействию окружающей среды в конце своих следующих ходов. Если существо заканчивает свой ход, будучи отмеченным таким образом и не находясь в зоне пустоты, подбросьте монетку, чтобы определить эффект.",
+						"Орёл — по ним ударяет неутихающий электрический болт, и они должны совершить {@dc 17} спасбросок Телосложения, иначе получат {@damage 4d10} электрического урона и будут замедлены.",
+						"Решка. — по ним ударяют неутихающие летящие обломки, и они должны совершить {@dc 17} спасбросок Ловкости, иначе получат {@damage 4d10} дробящего урона и будут оттолкнуты на 30 футов в случайном направлении."
 					]
 				},
 				{
-					"name": "Climb the Tower 1/Round",
+					"name": "Лазание на башню 1/раунд",
 					"entries": [
-						"Ethrain targets a creature within a void zone or within 5 feet of himself with unstilled pressure. The creature must make a {@dc 17} Strength saving throw. On a failure, they take {@damage 3d6} force damage and are pulled 40 feet downwards into the ground, creating a pit of equal height; and width equal to the size of the creature."
+						"Этрейн выбирает целью существо в пустотной зоне или в пределах 5 футов от себя и обрушивает на него неутихающее давление. Существо должно совершить {@dc 17} спасбросок Силы. При провале оно получает {@damage 3d6} силового урона и проваливается на 40 футов вниз, в землю, создавая яму высотой, равной глубине падения, и шириной, равной размеру существа."
 					]
 				},
 				{
-					"name": "Do Not Rush 1/Round",
+					"name": "Не спешить 1/раунд",
 					"entries": [
-						"A creature of Ethrains choice must make a {@dc 17} Wisdom Saving throw. On a failure, the creature is stilled until the end of their next turn. Any movement or actions taken while stilled instead resolve at the end of Ethrain's next turn. If their action or spell would target a creature; it will instead miss or produce no effect if that creature is no longer in the same place they were when they took the action."
+						"Выбранное Этрейном существо должно совершить {@dc 17} спасбросок Мудрости. При провале существо замирает до конца своего следующего хода. Любое перемещение или действия, совершённые в состоянии оцепенения, вместо этого завершаются в конце следующего хода Этрейна. Если действием или заклинанием целью существа должно быть другое существо, оно вместо этого промахивается или не производит никакого эффекта, если это существо больше не находится там же, где было в момент совершения действия."
 					]
 				}
 			],

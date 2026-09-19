@@ -24,8 +24,8 @@
 	},
 	"monster": [
 		{
-			"name": "Geyadrone Dihada",
-			"shortName": "Geyadrone Dihada",
+			"name": "Гейадрон Дихада",
+			"shortName": "Гейадрон Дихада",
 			"source": "COMAberrationLegendary",
 			"size": [
 				"M"
@@ -83,20 +83,20 @@
 				"frightened"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Deep Speech",
-				"Elvish",
-				"Primordial",
-				"Sylvan",
+				"Эльфийский",
+				"Первобытный",
+				"Сильванский",
 				"telepathy 120 ft."
 			],
 			"cr": "19",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Geyadrone is a 20th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 21}, +13 to hit with spell attacks). Geyadrone has the following sorcerer spells prepared:"
+						"Гейадрон — заклинатель 20-го уровня. Её базовая характеристика для заклинаний — Харизма (Сл спасброска от заклинаний {@dc 21}, +13 к попаданию атаками заклинаниями). Гейадрон подготовила следующие заклинания чародея:"
 					],
 					"spells": {
 						"0": {
@@ -181,34 +181,34 @@
 			],
 			"trait": [
 				{
-					"name": "Aura of Dementia",
+					"name": "Аура деменции",
 					"entries": [
-						"Any creature that starts its turn within 30 feet of Geyadrone must succeed on a {@dc 21} Wisdom saving throw or gain 1 dementia counter (see sidebar)."
+						"Любое существо, которое начинает свой ход в пределах 30 футов от Гейадрон, должно успешно пройти {@dc 21} спасбросок Мудрости, иначе получает 1 жетон деменции (см. боковую врезку)."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If Geyadrone fails a saving throw, it can choose to succeed instead."
+						"Если Гейадрон проваливает спасбросок, она может вместо этого решить, что преуспела в нём."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"Geyadrone has advantage on saving throws against spells and other magical effects."
+						"Гейадрон получает преимущество на спасброски против заклинаний и других магических эффектов."
 					]
 				},
 				{
-					"name": "Metamagic (1/turn)",
+					"name": "Метамагия (1/ход)",
 					"entries": [
-						"When the sorcerer casts a spell of 1st level or higher, it can apply one of the following metamagic options to that spell.",
+						"Когда Чародей накладывает заклинание 1-го Уровня или выше, он может применить к этому заклинанию один из следующих вариантов метамагии.",
 						{
 							"type": "list",
 							"items": [
-								"{@b Empowered Spell.} When Geyadrone rolls damage for a spell, she can reroll up to 7 damage dice of her choice. She must use the new rolls.",
-								"{@b Heightened Spell.} One creature affected by the spell (Geyadrone's choice) has disadvantage on the first saving throw it must make against the spell's effects.",
-								"{@b Seeking Spell.} If Geyadrone makes an attack roll for a spell and misses, She can reroll the {@dice d20}, and must use the new roll.",
-								"{@b Twinned Spell.} If the spell targets only one creature and doesn't have a range of self, Geyadrone can target a second creature in range with the same spell."
+								"{@b Усиленные заклинания.} Когда Гейадрон совершает бросок урона для заклинания, она может перебросить до 7 выбранных костей урона. Она должна использовать новые результаты.",
+								"{@b Усиленное заклинание.} Одно существо, на которое действует заклинание (по выбору Гейадрон), получает помеху на первый спасбросок, который оно должно совершить против эффектов заклинания.",
+								"{@b Ищущее заклинание.} Если Гейадрон совершает Бросок атаки для заклинания и промахивается, она может перебросить {@dice d20}, но должна использовать новый результат.",
+								"{@b Парное заклинание.} Если заклинание нацелено только на одно существо и не имеет Дистанции «на себя», Гейадрон может выбрать второе существо в пределах Дистанции и нацелить на него то же заклинание."
 							]
 						}
 					]
@@ -216,69 +216,69 @@
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Geyadrone makes four arcane blast or two tentacle lash attacks."
+						"Гейадрон совершает четыре атаки аркейн-взрывом или две атаки щупальцевой плетью."
 					]
 				},
 				{
-					"name": "Arcane Blast",
+					"name": "Магический взрыв",
 					"entries": [
-						"{@atk rs} {@hit 13} to hit, range 120 ft., one target. {@h}18 ({@damage 2d10 + 7}) force damage."
+						"{@atk rs} {@hit 13} к попаданию, дистанция 120 футов, одна цель. {@h}18 ({@damage 2d10 + 7}) силового урона."
 					]
 				},
 				{
-					"name": "Tentacle Lash",
+					"name": "Удар щупальцем",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage, plus 13 ({@damage 3d8}) psychic damage."
+						"{@atk mw} {@hit 10} для попадания, Досягаемость 15 фт., одна цель. {@h}15 ({@damage 2d10 + 4}) дробящего урона плюс 13 ({@damage 3d8}) психического урона."
 					]
 				},
 				{
-					"name": "Corrupt Consciousness {@recharge}",
+					"name": "Искажённое сознание {@recharge}",
 					"entries": [
-						"Geyadrone targets a creature within 30 feet of her that has at least one dementia counter that she can see. The creature must succeed a Wisdom saving throw ({@dc 21}) or become {@condition charmed} by Geyadrone. While {@condition charmed}, Geyadrone can use her bonus action to take command of the creature for their next turn.",
-						"On their turn, Geyadrone uses her psionic power to overwhelm the creature's system, pushing them beyond their normal physical limit; represented as though the creature is under the effect of the haste spell. ",
-						"A creature can attempt to regain control of their mind with a successful Wisdom saving throw ({@dc 21}) at the end of their turn."
+						"Гейадрон выбирает видимое ей существо в пределах 30 футов от себя, у которого есть хотя бы одна отметка деменции. Существо должно преуспеть в спасброске Мудрости ({@dc 21}), иначе становится {@condition charmed} Гейадрон. Пока оно {@condition charmed}, Гейадрон может бонусным действием взять существо под свой Приказ на его следующий ход.",
+						"В свой ход Гейадрон использует свою псионическую силу, чтобы подавить систему существа, заставляя его превысить свой обычный физический предел; считается, что на существо действует заклинание «Ускорение».",
+						"Существо может попытаться вновь обрести контроль над своим разумом, успешно совершив спасбросок Мудрости ({@dc 21}) в конце своего хода."
 					]
 				},
 				{
-					"name": "Warping Implosion {@recharge 5}",
+					"name": "Искажающий взрыв {@recharge 5}",
 					"entries": [
-						"Geyadrone can unleash her aberrant power as a space-warping anomaly. As an action, she can teleport to an unoccupied space she can see within 120 feet of her. Immediately after she disappears, each creature within 30 feet of the space she left must make a Strength saving throw. On a failed save, a creature takes {@damage 3d10} force damage and is pulled straight toward the space she left, ending in an unoccupied space as close to her former space as possible. On a successful save, the creature takes half as much damage and isn't pulled."
+						"Гейадрон может высвободить свою аномальную силу в виде искажающей пространство аномалии. Действием она может телепортироваться в свободное пространство, которое видит, в пределах 120 футов от себя. Сразу после её исчезновения каждое существо в пределах 30 футов от пространства, которое она покинула, должно совершить спасбросок Силы. При провале существо получает {@damage 3d10} силового урона и притягивается прямо к оставленному ею пространству, заканчивая перемещение в свободном пространстве, максимально близком к её прежнему пространству. При успехе существо получает половину этого урона и не притягивается."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Dihada's Guile",
+					"name": "Хитрость Дихады",
 					"entries": [
-						"As a bonus action, Geyadrone can expend one",
-						"spell slot to regain 4 ({@dice 1d8}) hit points per level of spell slot",
-						"extended."
+						"Бонусным действием Гейадрон может потратить одну",
+						"ячейку заклинания, чтобы восстановить 4 ({@dice 1d8}) хита за каждый уровень ячейки заклинания",
+						"продолжительного."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"Geyadrone can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Geyadrone regains spent legendary actions at the start of her turn."
+				"Гейадрон может совершить 3 легендарных действия, выбирая из вариантов ниже. Одновременно можно использовать только один вариант легендарного действия и только в конце хода другого существа. Гейадрон восстанавливает потраченные легендарные действия в начале своего хода."
 			],
 			"legendaryActions": 3,
 			"legendary": [
 				{
-					"name": "Arcane Blast",
+					"name": "Магический взрыв",
 					"entries": [
-						"Geyadrone makes an Arcane Blast attack."
+						"Гейадрон совершает атаку «Аркейн-взрыв»."
 					]
 				},
 				{
-					"name": "Teleportation Surprise (Costs 2 Actions)",
+					"name": "Телепортационная внезапность (стоит 2 действия)",
 					"entries": [
-						"Geyadrone teleports to an unoccupied space she can see within 30 feet of her and can make a Tentacle Lash attack."
+						"Гейадрон телепортируется в свободное пространство, которое видит, в пределах 30 футов от себя, и может совершить атаку «Удар щупальцами»."
 					]
 				},
 				{
-					"name": "Psychic Lash (Costs 3 Actions)",
+					"name": "Психический хлыст (стоит 3 действия)",
 					"entries": [
-						"Geyadrone targets a creature she can see within 30 feet of her and psychically lashes at that creature's mind. The target must succeed on a {@dc 21} Wisdom saving throw or take 36 ({@damage 8d8}) psychic damage and be {@condition stunned} until the start of its next turn."
+						"Гейадрон нацеливается на существо, которое видит, в пределах 30 футов от себя, и психически атакует разум этого существа. Цель должна преуспеть в спасброске Мудрости со Сл {@dc 21}, иначе получит 36 ({@damage 8d8}) психического урона и станет {@condition stunned} до начала своего следующего хода."
 					]
 				}
 			],
@@ -348,69 +348,69 @@
 			],
 			"fluff": {
 				"entries": [
-					"{@link Geyadrone Dihada|https://www.reddit.com/r/dndmonsters/comments/q92i02/geyadrone_dihada_a_truly_horrifying_sorcerer/} and {@link Geyadrone PDF|https://drive.google.com/file/d/1YkV9nQq-8D6FIAKMespfPCvY8YHOtCE4/view}",
-					"{@i Your argument as to why I should spare you lacked substance. Now, so do you.}",
-					"{@i Geyadrone Dihada}",
-					"Geyadrone Dihada is an ancient, otherworldly entity with an insatiable and unquenchable thirst for power. She relishes in subjugating the powerful for her own nefarious schemes, as well as corrupting those that contain potential that she may mold and corrupt so that they may serve her schemes.",
-					"Her schemes are convoluted and it is often impossible for anyone but her to realize the full depth of her depravity. In the case of Dakkon, the master blacksmith, she commissioned him to forge the Black Blade, a legendary soul-drinking sword under the promise that god-like power would be bestowed upon him. Dakkon toiled each day for 10 years only to be double-crossed and have his soul imprisoned within the blade by Geyadrone upon the sword's completion. For years Dakkon wandered the planes, wondering why she would betray him for seemingly no purpose other than to make him hate her.",
-					"After many years she would use another mortal to wield the Black Blade and summon Dakkon. When Dakkon attacked, Geyadrone summoned two elder dragons to fight in her stead. When Dakkon emerged Victorious, Geyadrone absorbed the elder dragon's life force and soul to empower herself.",
-					"{@b Using Geyadrone in your Campaign}",
-					"Geyadrone can easily accept the role of a master manipulator in your world. She may approach your adventurers much like Dakkon, promising unlimited power for completion of a quest only to be betrayed by her once they complete the task.",
-					"Imagine a weakened Geyadrone approaching the party to retrieve an artifact that can be used to unlock a portal to another plane, just so that the denizens of the plane can attack your world. Your adventurers can fight to keep the interlopers at bay only to later find that the slaughter brought on by this war only succeeds in empowering Geyadrone so that she can return in her true form and attack the party herself.",
-					"{@b Roleplaying Geyadrone}",
-					"Geyadrone believes that she is destined for power and dominance over those she believes are inferior to her (Which is everyone). She will use anyone if it grants her even a modicum of of an advantage on a situation. She would just as soon set two nations at war than to help strengthen relations between two other nations if it means that she can exploit the political landscape to gain something that she desires.",
-					"{@i Personality Traits.} I always keep my word, Except when breaking it grants me a greater advantage.",
-					"{@i Ideals.} When setting a snare, success depends not on the quality of the trap, but the quality of the bait.",
-					"{@i Bonds.} You can't even fathom the depths of your own insignificance.",
-					"{@i Flaws.} Only someone that can compete with my level of genius can understand my true intentions. Luckily, no one comes close.",
-					"{@b Geyadrone's Lair}",
-					"The Unholy Citadel is Geyadrone's fortress of bone that traverses the land on spider-like legs. Geyadrone's lair is as maddening as she is.",
+					"{@link Geyadrone Dihada|https://www.reddit.com/r/dndmonsters/comments/q92i02/geyadrone_dihada_a_truly_horrifying_sorcerer/} и {@link Geyadrone PDF|https://drive.google.com/file/d/1YkV9nQq-8D6FIAKMespfPCvY8YHOtCE4/view}",
+					"{@i Ваши доводы о том, почему я должна вас пощадить, были лишены содержания. Теперь его лишены и вы.}",
+					"{@i Гейадрон Дихада}",
+					"Гейадрон Дихада — древняя потусторонняя сущность с ненасытной и неутолимой жаждой власти. Она наслаждается покорением могущественных существ ради собственных злодейских замыслов, а также развращением тех, кто обладает потенциалом, который она может направить и извратить, чтобы они служили её замыслам.",
+					"Её замыслы запутанны, и зачастую никому, кроме неё, невозможно осознать всю глубину её порочности. В случае с Дакконом, искуснейшим кузнецом, она поручила ему выковать Чёрный Клинок — легендарный меч, пьющий души, — пообещав, что тот обретёт божественную силу. Даккон трудился каждый день в течение 10 лет, лишь для того чтобы после завершения работы над мечом Гиадрон предала его и заточила его душу внутри клинка. Годами Даккон странствовал по планам, гадая, зачем она предала его, по всей видимости, без иной цели, кроме как заставить его возненавидеть её.",
+					"Спустя много лет она использовала другого Смертного, чтобы тот владел Чёрным Клинком и призвал Даккона. Когда Даккон напал, Гея́дрон призвала двух древних драконов, чтобы те сражались вместо неё. Когда Даккон вышел победителем, Гея́дрон поглотила жизненную Силу и душу древнего дракона, чтобы усилить себя.",
+					"{@b Использование Гиадрон в вашей кампании}",
+					"Гиадрон легко может исполнить роль искусной манипуляторши в вашем мире. Она может обратиться к вашим искателям приключений примерно так же, как к Даккону, пообещав безграничную силу за выполнение задания, а затем предать их, как только они выполнят его.",
+					"Представьте себе ослабленную Гейдрону, приближающуюся к Отряду, чтобы забрать Артефакт, который можно использовать для открытия портала на другой план, лишь бы обитатели этого плана смогли атаковать ваш мир. Ваши искатели приключений могут сражаться, чтобы сдержать незваных гостей, но позже обнаружить, что резня, вызванная этой войной, лишь укрепила Гейдрону, позволив ей вернуться в своём истинном облике и самой атаковать Отряд.",
+					"{@b Ролевая игра за Гейдрону}",
+					"Гейдрона верит, что ей суждено обрести власть и господство над теми, кого она считает ниже себя (то есть над всеми). Она использует кого угодно, если это даёт ей хотя бы малейшее преимущество в ситуации. Она скорее развяжет войну между двумя государствами, чем поможет укрепить отношения между двумя другими государствами, если это позволит ей использовать политическую обстановку, чтобы получить желаемое.",
+					"{@i Черты характера.} Я всегда держу слово, кроме случаев, когда его нарушение даёт мне Высшее преимущество.",
+					"{@i Идеалы.} Устанавливая Силок, помните: успех зависит не от качества Ловушки, а от качества приманки.",
+					"{@i Привязанности.} Вы даже не способны постичь глубины собственного ничтожества.",
+					"{@i Слабости.} Только тот, кто способен соперничать с моим гениальным Уровнем, может понять мои истинные намерения. К счастью, никто и близко к этому не подошёл.",
+					"{@b Логово Гейдроны}",
+					"Безбожная цитадель — костяная крепость Гейдроны, странствующая по земле на паукообразных ногах. Логово Гейдроны столь же сводит с ума, как и она сама.",
 					{
-						"name": "Dementia Counters",
+						"name": "Счётчики деменции",
 						"type": "inset",
 						"entries": [
-							"Being close to Geyadrone Dihada is a dangerous experience.",
-							"Her ability to bend and break the will of her opponents permeates the very air around her. To be in Geyadrone's vicinity is to be barraged with a constant and indefatigable psychic onslaught. Only the strongest of wills can defend themselves from the dirge of psychic noise, and even this weakens over time.",
-							"Creatures that fall prey to her Aura of Dementia will gain a Dementia Counter. Each Dementia Counter befuddles the mind, lowering their will making it easier for Geyadrone to impart hers on the creature, and provoking them into an uncontrollable frenzy. Each corruption counter on a creature imparts the follows effects:",
+							"Находиться рядом с Гейадрон Дихадой — опасный опыт.",
+							"Её способность сгибать и ломать волю противников пронизывает сам воздух вокруг неё. Находиться вблизи Гейадрон — значит подвергаться постоянному и неослабевающему психическому натиску. Только самые сильные воли могут защитить себя от погребального звона психического шума, и даже они со временем ослабевают.",
+							"Существа, ставшие жертвами её Ауры слабоумия, получают жетон слабоумия. Каждый жетон слабоумия затуманивает разум, ослабляя их волю и облегчая Гейадрон навязывание своей воли существу, а также провоцируя его на неконтролируемое бешенство. Каждый жетон порчи на существе предоставляет следующие эффекты:",
 							{
 								"type": "list",
 								"items": [
-									"{@b Frenzied Mind.} Each melee attack the creature makes gains a +2 bonus to attack and damage rolls per counter.",
-									"{@b Reckless Attacks.} Attacks made by the creature are made at advantage, but attack rolls against the creature also have advantage.",
-									"{@b Befuddled Mind.} The creature takes a cumulative -2 penalty on all Wisdom, Intelligence or Charisma saving throws per dementia counter.",
-									"{@b Psychic Feedback.} Creatures take an additional 5 (1d10) psychic damage from spells or attack rolls made by Geyadrone that hit.",
-									"{@b Psionic Protection.} Geyadrone uses the creatures mind to lessen damage she takes from them. She gains resistance to all damage taken from creatures that have a corruption counter on them."
+									"{@b Бешеный разум.} Каждая совершаемая существом атака в ближнем бою получает бонус +2 к броскам атаки и урона за каждый жетон.",
+									"{@b Безрассудные атаки.} Атаки, совершаемые существом, совершаются с преимуществом, но броски атаки против существа также совершаются с преимуществом.",
+									"{@b Затуманенный разум.} Существо получает совокупный штраф −2 ко всем спасброскам Мудрости, Интеллекта или Харизмы за каждый жетон слабоумия.",
+									"{@b Психическая обратная связь.} Существа получают дополнительные 5 (1d10) единиц психического урона от заклинаний или бросков атаки, совершённых Гея́дроном, которые попадают.",
+									"{@b Псионическая защита.} Гейадрон использует разум существ, чтобы уменьшить получаемый от них урон. Она получает сопротивление всему урону, получаемому от существ, на которых есть жетон порчи."
 								]
 							},
-							"A creature with a dementia counter can attempt to remove a dementia counter with a successful Wisdom saving throw (DC21). A dementia counter may also be removed by the lesser restoration, remove curse, dispel evil and good, or other similar magic (DM Discretion)."
+							"Существо со счётчиком деменции может попытаться снять счётчик деменции успешным спасброском Мудрости (Сл 21). Счётчик деменции также можно снять с помощью заклинаний «Малое восстановление», «Снятие проклятия», «Рассеивание зла и добра» или другой подобной магии (по усмотрению Мастера)."
 						]
 					},
 					{
-						"name": "Credits",
+						"name": "Авторы",
 						"entries": [
-							"{@b Art Credits}",
-							"Front Cover Art: Ekaterina Burmak (artstation.com/katemaxpaint)",
-							"Layout and Design created by DeathIVIonkey Homebrew using the following stock images and photoshop manipulation:",
-							"DeathIVIonkey Logo:",
+							"{@b Авторство иллюстраций}",
+							"Обложка: Ekaterina Burmak",
+							"Вёрстка и дизайн созданы DeathIVIonkey Homebrew с использованием следующих стоковых изображений и обработки в Photoshop:",
+							"Логотип DeathIVIonkey:",
 							{
 								"type": "list",
 								"items": [
-									"Dark Monkey by Beatus Vir (deviantart.com/beatus-vir/art/dark-monkey-151824394)"
+									"Dark Monkey — Beatus Vir"
 								]
 							},
-							"Page Background:",
+							"Фон страницы:",
 							{
 								"type": "list",
 								"items": [
-									"Handwriting by Sister Maria Crocifissa della"
+									"Почерк сестры Марии Крокифиссы делла"
 								]
 							},
-							"Concezione, 11 Aug 1676.",
+							"Кончеционе, 11 августа 1676 года.",
 							{
 								"type": "list",
 								"items": [
-									"Film texture by lostandtaken.com",
-									"Page Border: Designed by rawpixel.com / Freepik"
+									"Текстура плёнки — Lostandtaken",
+									"Рамка страницы: создана Rawpixel / Freepik"
 								]
 							}
 						],
@@ -434,12 +434,12 @@
 			"name": "COMAberrationLegendaryLairActionsGeyadroneDihada",
 			"source": "COMAberrationLegendary",
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), Geyadrone can take a lair action to cause one of the following effects:",
+				"При счёте инициативы 20 (при равенстве инициатив проигрывая), Гейадрон Дихада может совершить действие логова, чтобы вызвать один из следующих эффектов; Гейадрон Дихада не может использовать один и тот же эффект два раунда подряд:",
 				{
 					"type": "list",
 					"items": [
-						"The lair is a swirling miasma of illusions and shadows, causing creatures to second guess their instincts. Each creature within 60 ft of Geyadrone must succeed a DC 15 Wisdom saving throw or suffer the effects of the spell confusion.",
-						"Geyadrone summons a mind-warping vision of the far realm to erupt from a point she can see within 120 feet of her. Each creature within 20 feet of that point must succeed a DC 15 Wisdom saving through or gain a Dementia Counter."
+						"Логово представляет собой клубящуюся миазму иллюзий и теней, заставляющую существ сомневаться в своих инстинктах. Каждое существо в пределах 60 фт. от Гейадрон должно преуспеть в спасброске Мудрости Сл 15, иначе подвергнется эффектам заклинания «Смятение».",
+						"Гея́дрон вызывает искажающее разум видение Дальнего предела, которое извергается из пункта, который она может видеть в пределах 120 футов от неё. Каждое существо в пределах 20 футов от этого пункта должно преуспеть в спасброске Мудрости Сл 15, иначе получает жетон деменции."
 					]
 				}
 			]

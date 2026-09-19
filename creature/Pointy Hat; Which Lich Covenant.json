@@ -21,7 +21,7 @@
 	},
 	"monster": [
 		{
-			"name": "Covenant",
+			"name": "Завет",
 			"source": "PointyHatWhichLich",
 			"page": 0,
 			"size": [
@@ -92,10 +92,10 @@
 			],
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Apotheosis casts one of the following spells, using Charisma as its spellcasting ability (spell save {@dc 19}, {@hit 11} to hit with spell attacks):"
+						"Апофеоз сотворяет одно из следующих заклинаний, используя Харизму в качестве своей способности к сотворению заклинаний (Сл спасброска заклинаний {@dc 19}, {@hit 11} к попаданию атаками заклинаний):"
 					],
 					"will": [
 						"{@spell Mage Hand}",
@@ -118,10 +118,10 @@
 					"displayAs": "action"
 				},
 				{
-					"name": "Compelled Covenant",
+					"name": "Принуждённый Завет",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Covenant casts {@spell Dominate Person|PHB}, using the same spellcasting ability as Spellcasting. This ability bypasses Immunity to the Charmed condition."
+						"Завет сотворяет {@spell Dominate Person|PHB}, используя ту же способность к сотворению заклинаний, что и «Использование заклинаний». Эта способность обходит иммунитет к состоянию «очарованный»."
 					],
 					"legendary": {
 						"1": [
@@ -137,58 +137,58 @@
 			],
 			"trait": [
 				{
-					"name": "Legendary Resistance (4/Day)",
+					"name": "Легендарное сопротивление (4/день)",
 					"entries": [
-						"If the Covenant fails a saving throw, it can choose to succeed instead."
+						"Если Завет проваливает спасбросок, он может вместо этого выбрать успех."
 					]
 				},
 				{
-					"name": "Covenant Resurrection",
+					"name": "Воскрешение Завета",
 					"entries": [
-						"If destroyed, the Covenant reforms in {@dice 1d4} days if any creature it has made a pact with is still alive and their contract untouched, reviving with all its Hit Points. The new body appears in an unoccupied space beside its oldest contract."
+						"Если уничтожить, Завет восстанавливается через {@dice 1d4} дня, если любое существо, с которым он заключил договор, ещё живо, а его контракт не тронут, воскресая со всеми своими хитами. Новое тело появляется в незанятом пространстве рядом с его самым старым контрактом."
 					]
 				},
 				{
-					"name": "Pact Mage",
+					"name": "Маг договора",
 					"entries": [
-						"At the beginning of each of its turns, the Covenant chooses one of the following pacts.",
-						"Pact of the Blade: The Covenant gains the use of its Hexblade action.",
-						"Pact of the Chain: The Covenant summons a creature that has made a pact with it. The summoned creature appears in an unoccupied space within 30 feet of the Covenant and takes its action immediately after the Covenant's turn. The creature adds the Covenant's Charisma modifier (+5) to all of its weapon and spell attacks and damage rolls.",
-						"Pact of the Tome: The Covenant regains one expended use of its Spellcasting ability. Alternatively, it may use its action to cast two spells rather than one."
+						"В начале каждого своего хода Завет выбирает один из следующих договоров.",
+						"Договор клинка: Завет получает возможность использовать своё действие «Клинок-заклинатель».",
+						"Договор цепи: Завет призывает существо, заключившее с ним договор. Призванное существо появляется в незанятом пространстве в пределах 30 футов от Завета и совершает своё действие сразу после хода Завета. Существо добавляет модификатор Харизмы Завета (+5) ко всем своим атакам оружием и заклинаниями и броскам урона.",
+						"Договор книги: Завет восстанавливает одно потраченное использование своей способности «Использование заклинаний». Или он может использовать своё действие, чтобы сотворить два заклинания вместо одного."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The Covenant makes three Eldritch Blast attacks. If its Pact of the Blade is active, it can replace any of these attacks with a Hexblade attack."
+						"Завет совершает три атаки «Мистический заряд». Если его «Договор клинка» активен, он может заменить любую из этих атак атакой «Клинок-заклинатель»."
 					]
 				},
 				{
-					"name": "Eldritch Blast",
+					"name": "Мистический заряд",
 					"entries": [
-						"{@atkr r} {@hit 11}, range 120 ft. {@h}31 ({@damage 4d12 + 5}) Force damage, and the Covenant chooses one of the following effects: push the target 10 feet away from itself; pull the target 10 feet towards itself; double its Charisma modifier for the damage dealt."
+						"{@atkr r} {@hit 11}, дистанция 120 фт. {@h}31 ({@damage 4d12 + 5}) урона силовым полем, и Завет выбирает один из следующих эффектов: оттолкнуть цель на 10 футов от себя; притянуть цель на 10 футов к себе; удвоить свой модификатор Харизмы для нанесённого урона."
 					]
 				},
 				{
-					"name": "Hexblade (Pact of the Blade Only)",
+					"name": "Клинок-заклинатель (только с Договором клинка)",
 					"entries": [
-						"{@atkr m} {@hit 11}, reach 5 ft. {@h}10 ({@damage 1d10 + 5}) Slashing damage + 31 ({@damage 4d12 + 5}) Force damage."
+						"{@atkr m} {@hit 11}, досягаемость 5 фт. {@h}10 ({@damage 1d10 + 5}) рубящего урона + 31 ({@damage 4d12 + 5}) урона силовым полем."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Change Pact",
+					"name": "Смена договора",
 					"entries": [
-						"The Covenant chooses one of the options from its Pact Mage trait. It gains the benefits of the chosen option until the start of its next turn. The Covenant can't take this action again until the start of its next turn."
+						"Завет выбирает один из вариантов своего умения «Маг договора». Он получает преимущества выбранного варианта до начала своего следующего хода. Завет не может снова совершить это действие до начала своего следующего хода."
 					]
 				},
 				{
-					"name": "Misty Step",
+					"name": "Туманный шаг",
 					"entries": [
-						"The Covenant teleports up to 30 feet to an unoccupied space it can see."
+						"Завет телепортируется на расстояние до 30 футов в незанятое пространство, которое он может видеть."
 					]
 				}
 			],

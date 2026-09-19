@@ -23,7 +23,7 @@
 	},
 	"monster": [
 		{
-			"name": "Bane Bogy",
+			"name": "Губительный боги",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -38,7 +38,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|PHB|leather}"
+						"{@item leather armor|PHB|кожаный доспех}"
 					]
 				}
 			],
@@ -62,15 +62,15 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Sylvan"
+				"Сильванский"
 			],
 			"cr": "1",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The bogy's innate spellcasting ability is Intelligence (spells save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components."
+						"Базовая характеристика боги для врождённых заклинаний — Интеллект (спасбросок от заклинаний {@dc 12}, {@hit 4} к попаданию атаками заклинаниями). Оно может врождённо накладывать следующие заклинания, не требуя материальных компонентов."
 					],
 					"will": [
 						"{@spell druidcraft}",
@@ -91,42 +91,42 @@
 			],
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The bogy has advantage on saving throws against spells and other magical effects."
+						"У боги преимущество на спасброски от заклинаний и других магических эффектов."
 					]
 				},
 				{
-					"name": "Bogy Circle",
+					"name": "Круг боги",
 					"entries": [
-						"A group of exactly seven bane bogies form a circle, which can cast certain spells or turn regular berries into foulberries."
+						"Группа ровно из семи губительных боги образует круг, который может накладывать определённые заклинания или превращать обычные ягоды в злотворные ягоды."
 					]
 				},
 				{
-					"name": "Circle Spellcasting (Circle Only)",
+					"name": "Круговое колдовство (только в круге)",
 					"entries": [
-						"While all seven members of the circle are within 30 feet of each other, they can cast the following spells once per day as a group: {@spell bestow curse}, {@spell locate object}, {@spell polymorph}, {@spell remove curse}, {@spell stone shape}.",
-						"The bogies use their Innate Spellcasting trait to cast these spells, with the following modifications: casting the spells requires material components and the bogies can't use a spellcasting focus to replace them. The spells have a casting time of 10 minutes and the duration of the spells is changed to 24 hours, unless it is instantaneous. The bogies can't perform other actions while casting."
+						"Пока все семь членов круга находятся в пределах 30 футов друг от друга, они могут раз в день совместно накладывать следующие заклинания: {@spell bestow curse}, {@spell locate object}, {@spell polymorph}, {@spell remove curse}, {@spell stone shape}.",
+						"Боги используют для наложения этих заклинаний свою черту «Врождённое колдовство» со следующими изменениями: наложение заклинаний требует материальных компонентов, и боги не могут заменить их фокусировкой. Время наложения заклинаний — 10 минут, а их длительность изменена на 24 часа, если только заклинание не мгновенное. При наложении боги не могут совершать другие действия."
 					]
 				},
 				{
-					"name": "Foulberries (Circle Only)",
+					"name": "Злотворные ягоды (только в круге)",
 					"entries": [
-						"A circle can perform a ritual to create foulberries, which resemble goodberries, but have a different effect. If a humanoid consumes a foulberry, it must succeed on a {@dc 12} Wisdom saving throw or be consumed with an insatiable hunger to eat more. It must spend its action eating foulberries, if any are available. If none are available, it will spend its action eating anything close by, even dirt. At the start of each of its turns, it may repeat the saving throw, ending the effect on itself on a success. Foulberries can also be used to create utburds from humanoid newborns."
+						"Круг может провести ритуал создания злотворных ягод, которые похожи на добрые ягоды, но действуют иначе. Если гуманоид съедает злотворную ягоду, он должен преуспеть в спасброске Мудрости {@dc 12}, иначе его охватывает ненасытный голод — есть ещё. Он должен тратить своё действие на поедание злотворных ягод, если те доступны. Если их нет, он потратит действие на поедание чего угодно поблизости, даже грязи. В начале каждого своего хода он может повторить спасбросок, при успехе снимая эффект с себя. Злотворные ягоды также можно использовать для создания утбурдов из новорождённых гуманоидов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"{@atk mw,rw} {@hit 5} к попаданию, досягаемость 5 футов или дистанция 20/60 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Sling",
+					"name": "Праща",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+						"{@atk rw} {@hit 5} к попаданию, дистанция 30/120 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) дробящего урона."
 					]
 				}
 			],
@@ -172,14 +172,14 @@
 			],
 			"fluff": {
 				"entries": [
-					"Bane bogies are fey that live in the swamps near human settlements. They are at a constant low intensity war with the big people around their home for reasons only their fey minds can fully understand. They harass the villages and other settlements with the ultimate plan of either forcing them to leave or destroying their homes altogether. They resemble sprites or pixies but have wings that look like the wings of a crow mixed with a moth. They are also much larger than their cousins.",
-					"{@bold Foul Rituals.} Bane bogies can cast powerful spells when a circle of them gathers in a place of power. The best known of these is the ritual to create an utburd, a morbid and horrifying beast formed out of a newborn baby. They can also cast other spells, but only when there are exactly seven bane bogies casting the spells.",
-					"{@bold Thieves and Tormentors.} Bane bogies get their name from the persistent harassment they inflict upon the villages near their home. They steal things, break things and even kill livestock if they get the chance. Because of this, nearby villagers often send raiding parties to destroy the nests of bane bogies, which are usually located in old trees. Such forays often end badly, as the bogies know the swamps better than the backs of their hands and often create traps around their homes to ward of anyone trying to attack them. Also, whenever they are threatened, they will certainly use their biggest weapon: the {@creature utburd|TTT} (see this booklet)."
+					"Губительные боги — это фейри, обитающие в болотах близ человеческих поселений. Они ведут постоянную войну низкой интенсивности с большим народом вокруг своего дома по причинам, которые до конца понятны лишь их фейским умам. Они досаждают деревням и другим поселениям с конечной целью либо вынудить их уйти, либо вовсе уничтожить их жилища. Они похожи на спрайтов или пикси, но их крылья выглядят как крылья вороны, смешанные с крыльями мотылька. Они также намного крупнее своих сородичей.",
+					"{@bold Скверные ритуалы.} Губительные боги могут накладывать могущественные заклинания, когда их круг собирается в месте силы. Наиболее известен среди них ритуал создания утбурда — мрачного и ужасающего зверя, сформированного из новорождённого младенца. Они могут накладывать и другие заклинания, но только когда заклинания накладывают ровно семь губительных боги.",
+					"{@bold Воры и мучители.} Губительные боги получили своё имя за упорные притеснения, которые они причиняют деревням близ своего дома. Они крадут вещи, ломают вещи и даже убивают скот, если представится случай. Из-за этого окрестные селяне часто отправляют набеги, чтобы уничтожить гнёзда губительных боги, обычно расположенные на старых деревьях. Такие вылазки нередко заканчиваются плохо, ведь боги знают болота как свои пять пальцев и часто устраивают ловушки вокруг своих жилищ, чтобы отпугнуть любого, кто попытается напасть. Кроме того, при угрозе они непременно используют своё главное оружие: {@creature utburd|TTT} (см. этот буклет)."
 				]
 			}
 		},
 		{
-			"name": "Bezzan Warrior",
+			"name": "Воин-беззан",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -223,28 +223,28 @@
 			"passive": 12,
 			"languages": [
 				"Bezzan",
-				"Common"
+				"Общий"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Protective Droning",
+					"name": "Защитное гудение",
 					"entries": [
-						"The bezzan emits a droning sound that makes it hard to focus. Every creature that is not a bezzan and is within 5 feet of three or more bezzans has a disadvantage on attack rolls."
+						"Беззан издаёт гудящий звук, мешающий сосредоточиться. Каждое существо, не являющееся беззаном и находящееся в пределах 5 футов от трёх или более беззанов, совершает броски атаки с помехой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage and the target must succeed in a {@dc 11} Constitution saving throw or be {@condition poisoned} until the end of its next turn."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона, и цель должна преуспеть в спасброске Телосложения {@dc 11}, иначе становится {@condition poisoned} до конца своего следующего хода."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Метательное копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 футов или дистанция 30/120 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				}
 			],
@@ -275,15 +275,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Bezzans are humanoid wasps that originate from the warm southern wetlands but have spread north, especially into the sewers of large cities. Bezzans construct large, sprawling nests suspended on trees and sewer ceilings. They hunt small game and forage plants to use in construction of their nests.",
-					"{@bold Nest Builders and Weapon Crafters.} Bezzans use their saliva combined with the digested and regurgitated pulp of plant matter to create their nests. This material, once dry, is extremely resilient and can be made into light- weight armor and even weapons. Although the material can be sharpened, bezzans prefer metal weapons when they are able to trade them in exchange for their own creations. Although some humans scoff the rugged and often quite ugly equipment bezzans craft, many do find the light weight of the equipment very useful. Bezzans living in sewers are often found trading with the people living above. Since others are not usually keen on buying their crafts, bezzans will often sell foraged goods that they don't need but know humans are willing to pay for. ",
-					"{@bold Hierarchical Society of Females.} A bezzan nest is similar to a wasp's nest in construction and social structure. There are one or more queens, which produce all the bezzans living in the nest. The other bezzans are either male drones that form a harem for the queens, or infertile female workers. The workers have different duties at different stages of their life. They begin their life as larval caretakers, after which they work in nest construction and maintenance, equipment crafting, food foraging, hunting and finally warrior duty. At each stage the bezzan grows larger and stronger and its armor grows thicker.",
-					"{@bold Bezzan Warrior.} The oldest, largest and strongest bezzans are warriors. They form troops that patrol the surroundings of the nest and often go hunting with foraging workers. Warriors are often hostile on sight if there are no pre-existing relations between the bezzan and the intruders or if the strangers come unaccompanied by bezzans. They are not usually interested in negotiating and prefer to leave that to the workers."
+					"Беззаны — это гуманоидные осы, родом из тёплых южных болот, но распространившиеся на север, особенно в канализацию больших городов. Беззаны строят крупные, разветвлённые гнёзда, подвешенные на деревьях и потолках канализации. Они охотятся на мелкую дичь и собирают растения для строительства своих гнёзд.",
+					"{@bold Строители гнёзд и оружейники.} Беззаны используют свою слюну в сочетании с переваренной и отрыгнутой растительной массой для создания своих гнёзд. Этот материал, высохнув, становится чрезвычайно прочным и может быть превращён в лёгкие доспехи и даже оружие. Хотя материал можно заострить, беззаны предпочитают металлическое оружие, когда могут выменять его на свои изделия. Хотя некоторые люди и насмехаются над грубым и часто довольно уродливым снаряжением беззанов, многие находят лёгкость этого снаряжения весьма полезной. Беззанов, живущих в канализации, часто можно застать за торговлей с людьми, живущими наверху. Поскольку другие обычно не горят желанием покупать их поделки, беззаны часто продают собранные товары, которые им не нужны, но за которые, как они знают, люди готовы платить. ",
+					"{@bold Иерархическое общество самок.} Гнездо беззанов схоже с осиным гнездом по строению и общественной структуре. Есть одна или несколько королев, производящих всех беззанов, живущих в гнезде. Остальные беззаны — либо самцы-трутни, образующие гарем для королев, либо бесплодные рабочие самки. У рабочих разные обязанности на разных этапах их жизни. Они начинают свою жизнь с ухода за личинками, после чего занимаются строительством и поддержанием гнезда, изготовлением снаряжения, сбором пищи, охотой и, наконец, воинской службой. На каждом этапе беззан становится крупнее и сильнее, а его панцирь толще.",
+					"{@bold Воин-беззан.} Самые старые, крупные и сильные беззаны — это воины. Они образуют отряды, патрулирующие окрестности гнезда, и часто ходят на охоту вместе с рабочими-собирателями. Воины обычно враждебны с первого взгляда, если между беззанами и чужаками не было прежде установленных отношений или если чужаки пришли без сопровождения беззанов. Они обычно не заинтересованы в переговорах и предпочитают оставлять это рабочим."
 				]
 			}
 		},
 		{
-			"name": "Bezzan Wasp Herder",
+			"name": "Пастух ос-беззан",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -327,15 +327,15 @@
 			"passive": 12,
 			"languages": [
 				"Bezzan",
-				"Common"
+				"Общий"
 			],
 			"cr": "1/4",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The bezzan is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}). The bezzan has the following druid spells prepared:"
+						"Беззан — заклинатель 1-го уровня. Его базовая характеристика для заклинаний — Мудрость (спасбросок от заклинаний {@dc 12}). Беззан подготовил следующие заклинания друида:"
 					],
 					"spells": {
 						"0": {
@@ -358,29 +358,29 @@
 			],
 			"trait": [
 				{
-					"name": "Protective Droning",
+					"name": "Защитное гудение",
 					"entries": [
-						"The bezzan emits a droning sound that makes it hard to focus. Every creature that is not a bezzan and is within 5 feet of three or more bezzans has a disadvantage on attack rolls."
+						"Беззан издаёт гудящий звук, мешающий сосредоточиться. Каждое существо, не являющееся беззаном и находящееся в пределах 5 футов от трёх или более беззанов, совершает броски атаки с помехой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Dart",
+					"name": "Дротик",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk rw} {@hit 5} к попаданию, дистанция 20/60 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Release Wasps (1 /Day)",
+					"name": "Выпуск ос (1/день)",
 					"entries": [
-						"The bezzan releases wasps from a nest it is carrying to a space within 5 feet of it. A swarm of insects (wasps) with 11 hit points appears and rolls initiative. It is friendly to bezzans and disperses when the bezzan that released it dies."
+						"Беззан выпускает ос из гнезда, которое несёт, в пространство в пределах 5 футов от себя. Появляется роя насекомых (ос) с 11 хитами и бросает инициативу. Он дружелюбен к беззанам и рассеивается, когда беззан, выпустивший его, умирает."
 					]
 				}
 			],
@@ -414,15 +414,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Bezzans are humanoid wasps that originate from the warm southern wetlands but have spread north, especially into the sewers of large cities. Bezzans construct large, sprawling nests suspended on trees and sewer ceilings. They hunt small game and forage plants to use in construction of their nests.",
-					"{@bold Nest Builders and Weapon Crafters.} Bezzans use their saliva combined with the digested and regurgitated pulp of plant matter to create their nests. This material, once dry, is extremely resilient and can be made into light- weight armor and even weapons. Although the material can be sharpened, bezzans prefer metal weapons when they are able to trade them in exchange for their own creations. Although some humans scoff the rugged and often quite ugly equipment bezzans craft, many do find the light weight of the equipment very useful. Bezzans living in sewers are often found trading with the people living above. Since others are not usually keen on buying their crafts, bezzans will often sell foraged goods that they don't need but know humans are willing to pay for. ",
-					"{@bold Hierarchical Society of Females.} A bezzan nest is similar to a wasp's nest in construction and social structure. There are one or more queens, which produce all the bezzans living in the nest. The other bezzans are either male drones that form a harem for the queens, or infertile female workers. The workers have different duties at different stages of their life. They begin their life as larval caretakers, after which they work in nest construction and maintenance, equipment crafting, food foraging, hunting and finally warrior duty. At each stage the bezzan grows larger and stronger and its armor grows thicker.",
-					"{@bold Bezzan Wasp Herder.} Some bezzans like to go their own way. They stray from the normal duty cycle of the bezzan and build a small nest in the outskirts of the bezzan's domain. They begin studying the nature around them and especially focus on their smaller insect cousins. These bezzan are known as wasp herders. They live on the outskirts of the nest and provide valuable semi-religious services to the nest, which is why they are tolerated by the others. Bezzan wasp herders feel that their tiny relatives are more in tune with nature than the bezzans themselves, so they seek guidance from them. They perform auguries with these insects, studying their flight patterns and behavior. Over time, they start to learn how to guide them and are eventually capable of controlling them using their voices and other signals."
+					"Беззаны — это гуманоидные осы, родом из тёплых южных болот, но распространившиеся на север, особенно в канализацию больших городов. Беззаны строят крупные, разветвлённые гнёзда, подвешенные на деревьях и потолках канализации. Они охотятся на мелкую дичь и собирают растения для строительства своих гнёзд.",
+					"{@bold Строители гнёзд и оружейники.} Беззаны используют свою слюну в сочетании с переваренной и отрыгнутой растительной массой для создания своих гнёзд. Этот материал, высохнув, становится чрезвычайно прочным и может быть превращён в лёгкие доспехи и даже оружие. Хотя материал можно заострить, беззаны предпочитают металлическое оружие, когда могут выменять его на свои изделия. Хотя некоторые люди и насмехаются над грубым и часто довольно уродливым снаряжением беззанов, многие находят лёгкость этого снаряжения весьма полезной. Беззанов, живущих в канализации, часто можно застать за торговлей с людьми, живущими наверху. Поскольку другие обычно не горят желанием покупать их поделки, беззаны часто продают собранные товары, которые им не нужны, но за которые, как они знают, люди готовы платить. ",
+					"{@bold Иерархическое общество самок.} Гнездо беззанов схоже с осиным гнездом по строению и общественной структуре. Есть одна или несколько королев, производящих всех беззанов, живущих в гнезде. Остальные беззаны — либо самцы-трутни, образующие гарем для королев, либо бесплодные рабочие самки. У рабочих разные обязанности на разных этапах их жизни. Они начинают свою жизнь с ухода за личинками, после чего занимаются строительством и поддержанием гнезда, изготовлением снаряжения, сбором пищи, охотой и, наконец, воинской службой. На каждом этапе беззан становится крупнее и сильнее, а его панцирь толще.",
+					"{@bold Пастух ос-беззан.} Некоторые беззаны любят идти своим путём. Они отклоняются от обычного цикла обязанностей беззана и строят небольшое гнездо на окраинах владений беззанов. Они начинают изучать природу вокруг себя и особенно сосредотачиваются на своих меньших сородичах-насекомых. Этих беззанов называют пастухами ос. Они живут на окраинах гнезда и оказывают гнезду ценные полурелигиозные услуги, поэтому остальные их терпят. Пастухи ос-беззан полагают, что их крошечные сородичи более созвучны природе, чем сами беззаны, и потому ищут у них наставления. Они совершают авгурии с этими насекомыми, изучая их полётные пути и поведение. Со временем они начинают учиться направлять их и в конце концов оказываются способны управлять ими с помощью голоса и других сигналов."
 				]
 			}
 		},
 		{
-			"name": "Bezzan Worker",
+			"name": "Рабочий-беззан",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -466,28 +466,28 @@
 			"passive": 12,
 			"languages": [
 				"Bezzan",
-				"Common"
+				"Общий"
 			],
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Protective Droning",
+					"name": "Защитное гудение",
 					"entries": [
-						"The bezzan emits a droning sound that makes it hard to focus. Every creature that is not a bezzan and is within 5 feet of three or more bezzans has a disadvantage on attack rolls."
+						"Беззан издаёт гудящий звук, мешающий сосредоточиться. Каждое существо, не являющееся беззаном и находящееся в пределах 5 футов от трёх или более беззанов, совершает броски атаки с помехой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d4 + 1}) колющего урона."
 					]
 				},
 				{
-					"name": "Dart",
+					"name": "Дротик",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+						"{@atk rw} {@hit 3} к попаданию, дистанция 20/60 футов, одна цель. {@h}3 ({@damage 1d4 + 1}) колющего урона."
 					]
 				}
 			],
@@ -511,15 +511,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Bezzans are humanoid wasps that originate from the warm southern wetlands but have spread north, especially into the sewers of large cities. Bezzans construct large, sprawling nests suspended on trees and sewer ceilings. They hunt small game and forage plants to use in construction of their nests.",
-					"{@bold Nest Builders and Weapon Crafters.} Bezzans use their saliva combined with the digested and regurgitated pulp of plant matter to create their nests. This material, once dry, is extremely resilient and can be made into light- weight armor and even weapons. Although the material can be sharpened, bezzans prefer metal weapons when they are able to trade them in exchange for their own creations. Although some humans scoff the rugged and often quite ugly equipment bezzans craft, many do find the light weight of the equipment very useful. Bezzans living in sewers are often found trading with the people living above. Since others are not usually keen on buying their crafts, bezzans will often sell foraged goods that they don't need but know humans are willing to pay for. ",
-					"{@bold Hierarchical Society of Females.} A bezzan nest is similar to a wasp's nest in construction and social structure. There are one or more queens, which produce all the bezzans living in the nest. The other bezzans are either male drones that form a harem for the queens, or infertile female workers. The workers have different duties at different stages of their life. They begin their life as larval caretakers, after which they work in nest construction and maintenance, equipment crafting, food foraging, hunting and finally warrior duty. At each stage the bezzan grows larger and stronger and its armor grows thicker.",
-					"{@bold Bezzan Worker.} Most members of the nest are workers. They are not equipped to fight but will do so when the nest is threatened. Workers are usually the ones other humanoids will come across. They forage in groups and are sometimes willing to trade with outsiders. In combat situations, workers usually support warriors and try to fight together as a group, using their wings to create a low, droning sound that confuses their opponents."
+					"Беззаны — это гуманоидные осы, родом из тёплых южных болот, но распространившиеся на север, особенно в канализацию больших городов. Беззаны строят крупные, разветвлённые гнёзда, подвешенные на деревьях и потолках канализации. Они охотятся на мелкую дичь и собирают растения для строительства своих гнёзд.",
+					"{@bold Строители гнёзд и оружейники.} Беззаны используют свою слюну в сочетании с переваренной и отрыгнутой растительной массой для создания своих гнёзд. Этот материал, высохнув, становится чрезвычайно прочным и может быть превращён в лёгкие доспехи и даже оружие. Хотя материал можно заострить, беззаны предпочитают металлическое оружие, когда могут выменять его на свои изделия. Хотя некоторые люди и насмехаются над грубым и часто довольно уродливым снаряжением беззанов, многие находят лёгкость этого снаряжения весьма полезной. Беззанов, живущих в канализации, часто можно застать за торговлей с людьми, живущими наверху. Поскольку другие обычно не горят желанием покупать их поделки, беззаны часто продают собранные товары, которые им не нужны, но за которые, как они знают, люди готовы платить. ",
+					"{@bold Иерархическое общество самок.} Гнездо беззанов схоже с осиным гнездом по строению и общественной структуре. Есть одна или несколько королев, производящих всех беззанов, живущих в гнезде. Остальные беззаны — либо самцы-трутни, образующие гарем для королев, либо бесплодные рабочие самки. У рабочих разные обязанности на разных этапах их жизни. Они начинают свою жизнь с ухода за личинками, после чего занимаются строительством и поддержанием гнезда, изготовлением снаряжения, сбором пищи, охотой и, наконец, воинской службой. На каждом этапе беззан становится крупнее и сильнее, а его панцирь толще.",
+					"{@bold Рабочий-беззан.} Большинство членов гнезда — рабочие. Они не приспособлены к бою, но будут сражаться, когда гнезду угрожают. Именно рабочих чаще всего встречают другие гуманоиды. Они собирают пищу группами и иногда готовы торговать с чужаками. В боевых ситуациях рабочие обычно поддерживают воинов и стараются сражаться вместе как группа, используя свои крылья для создания низкого гудящего звука, сбивающего противников с толку."
 				]
 			}
 		},
 		{
-			"name": "Big Gorgemaw",
+			"name": "Большой горгемор",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -559,9 +559,9 @@
 			"cr": "1",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., {@h}9 ({@damage 2d6 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, {@h}9 ({@damage 2d6 + 2}) колющего урона."
 					]
 				}
 			],
@@ -577,15 +577,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Gorgemaws are relatively harmless monsters that live in the swamps. They resemble big, blubbery slugs that eat carrion and other small animals. They move fast, eat voraciously and hunt by sneaking up on their prey. When food is scarce, they may attack creatures bigger than them, but usually they skulk in the shadows, waiting for bigger creatures to go away. But occasionally and for unknown reasons, gorgemaws start behaving in horrifying ways. ",
-					"{@bold Endless Hunger.} From time to time a single gorgemaw starts to eat even more hungrily than usual. It starts to eat constantly, devouring everything it can catch, and begin to grow. Within days it's bigger than a horse, within a fortnight the size of an elephant and continues to grow even after that. At this point, the swamp will be completely void of other animal life. Creatures that can escape have done so and the gorgemaw moves beyond the swamp\u2013and usually into humanoid settlements. ",
-					"{@bold Massive Threat.} A gargantuan gorgemaw can eat entire villages. It eats the livestock, the villagers and everything it can digest. It continues to eat, until it finds a location that fits its needs and ends its rampage, then it disappears, usually into a cave near a river, and begins to lay eggs. It lays thousands of eggs in one go and then dies. The newborn gorgemaws eat their mother and leave the nest to populate the surrounding countryside. ",
-					"{@bold Cyclical Menaces.} Scholars are not sure why these horrifying rampages come about. Some believe that the cycles are based on the availability of food and others believe that some other factor triggers the process, but nobody knows for sure. Heroes who hear about a gorgemaw growing nearby would be wise to move fast, because while a gorgemaw threat disappears on its own, the devastation it will leave behind will be horrendous."
+					"Горгеморы — относительно безобидные монстры, обитающие в болотах. Они похожи на больших жирных слизней, питающихся падалью и другими мелкими животными. Они быстро двигаются, жадно едят и охотятся, подкрадываясь к своей добыче. Когда пищи мало, они могут напасть на существ крупнее себя, но обычно прячутся в тени, ожидая, пока более крупные существа уйдут. Но иногда и по неизвестным причинам горгеморы начинают вести себя ужасающим образом. ",
+					"{@bold Бесконечный голод.} Время от времени отдельный горгемор начинает есть ещё более жадно, чем обычно. Он начинает есть постоянно, пожирая всё, что поймает, и начинает расти. За считаные дни он становится больше лошади, за две недели — размером со слона и продолжает расти даже после этого. К этому моменту болото будет полностью лишено иной животной жизни. Существа, способные спастись, уже спаслись, и горгемор выходит за пределы болота — и обычно направляется в поселения гуманоидов. ",
+					"{@bold Огромная угроза.} Исполинский горгемор может съесть целые деревни. Он ест скот, селян и всё, что способен переварить. Он продолжает есть, пока не найдёт место, отвечающее его потребностям, и не прекратит буйство, после чего исчезает, обычно в пещере у реки, и начинает откладывать яйца. Он откладывает тысячи яиц за раз, а затем умирает. Новорождённые горгеморы съедают свою мать и покидают гнездо, чтобы заселить окрестные земли. ",
+					"{@bold Циклические угрозы.} Учёные не уверены, почему возникают эти ужасающие буйства. Одни считают, что циклы основаны на доступности пищи, другие полагают, что процесс запускает какой-то иной фактор, но наверняка никто не знает. Героям, услышавшим о растущем поблизости горгеморе, было бы разумно поспешить, ведь хотя угроза горгемора и исчезает сама собой, опустошение, которое он оставит после себя, будет ужасающим."
 				]
 			}
 		},
 		{
-			"name": "Bogmangler",
+			"name": "Болотный терзатель",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -636,59 +636,59 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Ambusher",
+					"name": "В засаде",
 					"entries": [
-						"In the first round of combat, the bogmangler has advantage on attack rolls against any creature it has surprised."
+						"В первом раунде боя болотный терзатель совершает с преимуществом броски атаки по любому существу, застигнутому им врасплох."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The bogmangler makes two attacks with its vine whip."
+						"Болотный терзатель совершает две атаки своим хлыстом-лианой."
 					]
 				},
 				{
-					"name": "Vine Whip",
+					"name": "Хлыст-лиана",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 15 ft., one target. {@h}7 ({@damage 2d4 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 15 футов, одна цель. {@h}7 ({@damage 2d4 + 2}) дробящего урона."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage plus 4 ({@damage 1d8}) poison damage. The target must succeed in a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 2d6 + 2}) колющего урона плюс 4 ({@damage 1d8}) урона ядом. Цель должна преуспеть в спасброске Телосложения {@dc 13}, иначе становится {@condition poisoned} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, при успехе снимая эффект с себя."
 					]
 				},
 				{
-					"name": "Pounce",
+					"name": "Прыжок",
 					"entries": [
-						"If the bogmangler is underwater, it pounces on its enemy using a network of vines to propel itself. It jumps up to 30 feet in a straight line and makes a bite attack against a target within reach."
+						"Если болотный терзатель находится под водой, он прыгает на врага, разгоняя себя сетью лиан. Он прыгает на расстояние до 30 футов по прямой и совершает атаку укусом по цели в пределах досягаемости."
 					]
 				},
 				{
-					"name": "Entangling Plants {@recharge 5}",
+					"name": "Опутывающие растения {@recharge 5}",
 					"entries": [
-						"Grasping roots and vines sprout in a 30-foot-radius sphere centered on the bogmangler, withering away after 1 minute. For the duration, that area is difficult terrain for creatures other than bogmanglers and plant creatures. In addition, each creature of the bogmangler's choice in that area when the plants appear must succeed on a {@dc 12} Strength saving throw or become {@condition restrained}. A creature can use its action to make a DC12 Strength check, freeing itself or another entangled creature within reach on a success."
+						"Хватающие корни и лианы вырастают в сфере радиусом 30 футов с центром на болотном терзателе, увядая через 1 минуту. В течение этого времени эта область — труднопроходимая местность для существ, кроме болотных терзателей и существ-растений. Кроме того, каждое выбранное болотным терзателем существо в этой области в момент появления растений должно преуспеть в спасброске Силы {@dc 12}, иначе становится {@condition restrained}. Существо может действием совершить проверку Силы Сл 12, при успехе освобождая себя или другое опутанное существо в пределах досягаемости."
 					]
 				}
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/MMM-SS/6V2YvRH.png",
 			"traitTags": [
-				"Ambusher"
+				"В засаде"
 			],
 			"senseTags": [
 				"D",
 				"T"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"languageTags": [
 				"C"
@@ -714,14 +714,14 @@
 			],
 			"fluff": {
 				"entries": [
-					"Sometimes a half-rotten corpse hidden in a bog or a swamp near magical places of power can transform into a bogmangler. These ravenous undead resemble ghouls that have fused with the roots and plants of the bog. The vines coil around their skeleton like muscles, their teeth are thick thorns and it is impossible to tell where the bogmangler ends and the flora around it begin. They can control the vines and roots around them and even use them to catch prey that is trying to escape it. A bogmangler makes the bog its hunting ground and pulls more victims into the depths of the swamp, and these victims in turn may slowly transform into more bogmanglers. ",
-					"{@bold Endless hunger.} Like many undead, bogmanglers have an insatiable hunger for mortal flesh. Eating does nothing, however, as there is no stomach to hold the flesh it gorges down its hungry maw. Bogmanglers are stuck in an eternal cycle of feeding and hunger which only ends when the monster is finally killed.",
-					"{@bold Patient hunters.} Bogmanglers are ambush hunters: they prefer to catch their prey alone, if possible, but may attack against several creatures if its hunger has grown strong enough. They seldom work together with other undead, but it isn't unheard of to have several bogmanglers preying on a particularly abundant hunting spot. A bogmangler usually stays underwater when preying for its victims and uses the vines growing from its body to sense the presence of its potential victims."
+					"Иногда полуразложившийся труп, скрытый в трясине или болоте близ магических мест силы, может превратиться в болотного терзателя. Эта ненасытная нежить похожа на упырей, сросшихся с корнями и растениями болота. Лианы обвивают их скелет, как мышцы, их зубы — толстые шипы, и невозможно определить, где заканчивается болотный терзатель и начинается окружающая его флора. Они могут управлять лианами и корнями вокруг себя и даже использовать их, чтобы ловить добычу, пытающуюся от них убежать. Болотный терзатель делает трясину своим охотничьим угодьем и затягивает всё больше жертв в глубины болота, а эти жертвы, в свою очередь, могут медленно превращаться в новых болотных терзателей. ",
+					"{@bold Бесконечный голод.} Как и многие представители нежити, болотные терзатели испытывают ненасытный голод по смертной плоти. Однако еда ничего не даёт, ведь у них нет желудка, чтобы удержать плоть, которую они запихивают в свою голодную пасть. Болотные терзатели застряли в вечном цикле кормления и голода, который оканчивается лишь когда монстра наконец убивают.",
+					"{@bold Терпеливые охотники.} Болотные терзатели — охотники из засады: они предпочитают ловить добычу поодиночке, если это возможно, но могут напасть и на несколько существ, если их голод стал достаточно силён. Они редко действуют заодно с другой нежитью, но такое случается: несколько болотных терзателей охотятся на особенно изобильном месте охоты. Болотный терзатель обычно остаётся под водой, подкарауливая жертв, и использует растущие из его тела лианы, чтобы ощущать присутствие потенциальных жертв."
 				]
 			}
 		},
 		{
-			"name": "Dire Pangolin",
+			"name": "Ужасный панголин",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -778,28 +778,28 @@
 			"cr": "4",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The pangolin makes three attacks: one with its tongue lash and two with its claws."
+						"Панголин совершает три атаки: одну языком-хлыстом и две когтями."
 					]
 				},
 				{
-					"name": "Tongue Lash",
+					"name": "Удар языком",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 20 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the target is Large or smaller, the pangolin pulls the target up to 20 feet closer to it."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 20 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) дробящего урона. Если цель Большого размера или меньше, панголин притягивает её на расстояние до 20 футов ближе к себе."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Noxious Cloud (1/Day)",
+					"name": "Ядовитое облако (1/день)",
 					"entries": [
-						"The pangolin emits a 20-foot-radius sphere of yellow, nauseating gas centered on itself. The cloud spreads around corners and lingers in the air for 1 minute. A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round.",
-						"Each creature that is completely within the cloud at the start of its turn must make a {@dc 13} Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw."
+						"Панголин испускает сферу радиусом 20 футов с центром на себе, наполненную жёлтым тошнотворным газом. Облако распространяется за углы и держится в воздухе 1 минуту. Умеренный ветер (не менее 10 миль в час) рассеивает облако через 4 раунда. Сильный ветер (не менее 20 миль в час) рассеивает его через 1 раунд.",
+						"Каждое существо, полностью находящееся в облаке в начале своего хода, должно совершить спасбросок Телосложения {@dc 13} против яда. При провале существо тратит своё действие в этот ход на рвотные спазмы и тошноту. Существа, которым не нужно дышать или обладающие невосприимчивостью к яду, автоматически преуспевают в этом спасброске."
 					]
 				}
 			],
@@ -808,7 +808,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"damageTags": [
 				"B",
@@ -824,14 +824,14 @@
 			],
 			"fluff": {
 				"entries": [
-					"Only ants fear a regular pangolin, but any creature smaller than an ogre should at least be wary of the hungry dire pangolin that hunts the swamps. These creatures are gigantic when compared to their less dangerous cousins, and they are often referred to simply as maneaters. ",
-					"{@bold Ambush Predators.} Dire pangolins are slow moving but have ways of getting their prey closer to themselves if the need arises. They dig and cover themselves in mud, leaves and other camouflage and wait for their prey to come close enough. Once this happens, the pangolin uses its sticky tongue to pull the victim closer and uses its claws to rip the unsuspecting prey into pieces. ",
-					"{@bold Masters of Self-Defense.} The scales of a dire pangolin are extremely hard to penetrate, especially with slashing weapons. It can also use its chemical glands to emit noxious, foul-smelling chemicals against those that threaten it."
+					"Лишь муравьи боятся обычного панголина, но любое существо меньше огра должно по меньшей мере остерегаться голодного ужасного панголина, охотящегося в болотах. Эти существа исполинских размеров по сравнению со своими менее опасными сородичами, и их часто называют попросту людоедами. ",
+					"{@bold Хищники из засады.} Ужасные панголины медлительны, но умеют приближать к себе добычу, если возникает нужда. Они копают землю и покрывают себя грязью, листьями и другой маскировкой и ждут, пока добыча подойдёт достаточно близко. Когда это происходит, панголин притягивает жертву липким языком и разрывает ничего не подозревающую добычу на куски когтями. ",
+					"{@bold Мастера самообороны.} Чешуя ужасного панголина чрезвычайно трудно пробиваема, особенно рубящим оружием. Он также может использовать свои химические железы, чтобы испускать ядовитые, зловонные вещества против тех, кто ему угрожает."
 				]
 			}
 		},
 		{
-			"name": "Elder Maladrix",
+			"name": "Древний маладрикс",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -894,82 +894,82 @@
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Aura of Silence",
+					"name": "Аура тишины",
 					"entries": [
-						"No sound can pass through or be created within 15 feet of the maladrix if the maladrix is not in sunlight. Any creature or object entirely inside the radius is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there."
+						"Никакой звук не может пройти сквозь пространство в пределах 15 футов от маладрикса или быть создан там, если маладрикс не находится под солнечным светом. Любое существо или предмет, полностью находящиеся внутри радиуса, невосприимчивы к урону звуком, а существа {@condition deafened}, пока находятся внутри него целиком. Наложение заклинания, включающего словесный компонент, там невозможно."
 					]
 				},
 				{
-					"name": "Soul Harvest",
+					"name": "Жатва душ",
 					"entries": [
-						"A creature that dies from the maladrix's attacks can't be revived with spells of 7th level or lower unless the maladrix is dead and its heart is destroyed."
+						"Существо, погибшее от атак маладрикса, нельзя вернуть к жизни заклинаниями 7-го уровня или ниже, если маладрикс не мёртв и его сердце не уничтожено."
 					]
 				},
 				{
-					"name": "Spiderclimb",
+					"name": "Паучье лазание",
 					"entries": [
-						"The maladrix can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Маладрикс может лазать по трудным поверхностям, включая передвижение вниз головой по потолкам, не совершая проверок характеристик."
 					]
 				},
 				{
-					"name": "Sunlight Sensitivity",
+					"name": "Светочувствительность",
 					"entries": [
-						"While in sunlight, the maladrix has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+						"Находясь под солнечным светом, маладрикс совершает с помехой броски атаки, а также проверки Мудрости (Внимательность), основанные на зрении."
 					]
 				},
 				{
-					"name": "Whispers of Madness",
+					"name": "Шёпот безумия",
 					"entries": [
-						"Any creature that starts its turn within 5 feet of the maladrix must make a {@dc 15} Wisdom saving throw. On a failure, the creature can't take reactions until the start of its next turn and rolls a {@dice d10} to determine what it does during its turn.",
-						"On a 1 to 3, the creature feels horrifying anxiety and is {@condition frightened} until the end of its turn.",
-						"On a 4 to 6, the creature succumbs to a fugue state and is {@condition incapacitated} until the end its turn.",
-						"On a 7 to 8, the creature is overwhelmed with dread; it can't take any action or bonus action and uses all its movement to move away from the maladrix.",
-						"On a 9 to 10, the creature feels uncontrollable rage and makes a melee attack against a random ally within its reach or makes a melee attack against itself if it can't make such an attack."
+						"Любое существо, начинающее свой ход в пределах 5 футов от маладрикса, должно совершить спасбросок Мудрости {@dc 15}. При провале существо не может совершать реакции до начала своего следующего хода и бросает {@dice d10}, чтобы определить, что оно делает в свой ход.",
+						"При результате 1–3 существо испытывает ужасающую тревогу и становится {@condition frightened} до конца своего хода.",
+						"При результате 4–6 существо впадает в состояние фуги и становится {@condition incapacitated} до конца своего хода.",
+						"При результате 7–8 существо охватывает ужас; оно не может совершать действия или бонусные действия и использует всё своё перемещение, чтобы уйти от маладрикса.",
+						"При результате 9–10 существо охватывает неконтролируемая ярость, и оно совершает рукопашную атаку по случайному союзнику в пределах своей досягаемости или рукопашную атаку по себе, если такой атаки совершить не может."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The maladrix makes three attacks with its claws."
+						"Маладрикс совершает три атаки когтями."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Necrotic Bite",
+					"name": "Некротический укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage plus 13 ({@damage 2d12}) necrotic damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 2d6 + 2}) колющего урона плюс 13 ({@damage 2d12}) урона некротической энергией."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Claw Slash",
+					"name": "Удар когтями",
 					"entries": [
-						"The maladrix makes a claw attack."
+						"Маладрикс совершает атаку когтями."
 					]
 				},
 				{
-					"name": "Detect",
+					"name": "Обнаружение",
 					"entries": [
-						"The maladrix makes a Wisdom (Perception) check."
+						"Маладрикс совершает проверку Мудрости (Внимательность)."
 					]
 				},
 				{
-					"name": "Jump",
+					"name": "Прыжок",
 					"entries": [
-						"The maladrix jumps up to its speed to an unoccupied space without provoking opportunity attacks."
+						"Маладрикс прыгает на расстояние до своей скорости в свободное пространство, не провоцируя атаки по возможности."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Elder Maladrix",
+				"name": "Древний маладрикс",
 				"source": "MMM-SS"
 			},
 			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/MMM-SS/3uQfuUU.png",
@@ -980,7 +980,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"damageTags": [
 				"N",
@@ -999,17 +999,17 @@
 			],
 			"fluff": {
 				"entries": [
-					"No-one knows how a maladrix is born. Some say that a city that is sinful will spawn one in the hidden corners of the city. Others speculate that it is a spirit that has infested a collection of filth and bones to find a form to inhabit. Nevertheless, it is a scourge that will torment a city in many terrible ways, if left unchecked. ",
-					"{@bold Revolting and Ghastly.} Maladrixes have the upper bodies of ghasts and an insectoid lower body with six legs. Their bones extrude from their flesh in disgusting ways and they smell like a combination of dead flesh and sewer waste. ",
-					"{@bold Horrors in the Sewers.} Maladrixes are usually found in the sewers of large cities, but sometimes they can be found in swamps or underground caves. Most prefer to be near their prey, which is why they prefer cities over the wilderness\u2013even if cities are more dangerous hunting grounds for them. ",
-					"{@bold Telepathic Mind Breakers.} Maladrixes are telepathic, but they don't speak any languages. Instead, they communicate by images and emotions. They project an aura of telepathic, incoherent whispering near them, which twists the minds of their victims, creating waking nightmares and pitting them against each other. They hunt at night and kill their prey in horrible and sadistic ways before feasting on their souls and leaving the bodies out in the open to spread fear. ",
-					"{@bold Harvesters of Souls.} When a maladrix kills a creature, it consumes the victim's soul. Reviving a creature that has lost its soul this way is not possible, although the soul remains intact for a few days hidden in the maladrix's heart, which is a calcified, bonelike structure in the chest of the monster. Breaking the heart releases all the souls that have not yet been consumed. ",
-					"{@bold Dreadful Silencers.} Maladrixes seem to make no sound when they move, but the reality is even more disturbing. Maladrixes deafen all sound around them, making them impossible to detect by sound."
+					"Никто не знает, как рождается маладрикс. Одни говорят, что грешный город породит одного в своих скрытых уголках. Другие предполагают, что это дух, вселившийся в скопление грязи и костей, чтобы найти себе форму для обитания. Как бы то ни было, это бич, который будет терзать город многими страшными способами, если его не остановить. ",
+					"{@bold Отвратительные и жуткие.} У маладриксов верхняя часть тела — как у вурдалаков, а нижняя — насекомоподобная, с шестью ногами. Их кости отвратительно выступают из плоти, и они пахнут смесью мёртвой плоти и канализационных отходов. ",
+					"{@bold Ужасы в канализации.} Маладриксов обычно находят в канализации больших городов, но иногда их можно встретить в болотах или подземных пещерах. Большинство предпочитает быть рядом с добычей, поэтому они предпочитают города дикой природе — даже если города для них более опасные охотничьи угодья. ",
+					"{@bold Телепатические ломатели разума.} Маладриксы телепатичны, но ни на каких языках не говорят. Вместо этого они общаются образами и эмоциями. Они проецируют вокруг себя ауру телепатического бессвязного шёпота, которая искажает разум их жертв, порождая кошмары наяву и стравливая их друг с другом. Они охотятся по ночам и убивают добычу ужасными и садистскими способами, прежде чем насытиться их душами и оставить тела на виду, чтобы сеять страх. ",
+					"{@bold Жнецы душ.} Когда маладрикс убивает существо, он поглощает душу жертвы. Вернуть к жизни существо, потерявшее душу таким образом, невозможно, хотя душа остаётся невредимой несколько дней, спрятанная в сердце маладрикса — обызвествлённой, похожей на кость структуре в груди монстра. Разбитие сердца освобождает все ещё не поглощённые души. ",
+					"{@bold Ужасающие глушители.} Кажется, что маладриксы не издают никаких звуков при движении, но реальность ещё более тревожна. Маладриксы заглушают всё звуки вокруг себя, делая невозможным их обнаружение по звуку."
 				]
 			}
 		},
 		{
-			"name": "Gargantuan Gorgemaw",
+			"name": "Исполинский горгемор",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1052,22 +1052,22 @@
 			"cr": "6",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The goremaw makes two bite attacks. It can use Swallow in place of one of these attacks."
+						"Горгемор совершает две атаки укусом. Он может использовать «Проглатывание» вместо одной из этих атак."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., {@h}17 ({@dice 2d12} + 4) piercing damage and the target is {@condition grappled} (escape {@dc 15})."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, {@h}17 ({@dice 2d12} + 4) колющего урона, и цель становится {@condition grappled} (высвобождение {@dc 15})."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The gorgemaw makes one bite attack against a Huge or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the gorgemaw, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the gorgemaw's turns.",
-						"If the gorgemaw takes 38 damage or more on a single turn from a creature inside it, the gorgemaw must succeed on a {@dc 16} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 5 feet of the gorgemaw. If the gorgemaw dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 15 feet of movement, exiting {@condition prone}."
+						"Горгемор совершает одну атаку укусом по схваченной цели Огромного размера или меньше. Если атака попадает, цель проглатывается, а захват оканчивается. Проглоченная цель {@condition blinded} и {@condition restrained}, имеет полное укрытие от атак и других эффектов снаружи горгемора и получает 10 ({@damage 3d6}) урона кислотой в начале каждого хода горгемора.",
+						"Если горгемор за один ход получает 38 или больше урона от находящегося внутри него существа, он должен преуспеть в спасброске Телосложения {@dc 16} в конце этого хода, иначе отрыгнёт всех проглоченных существ, которые падают {@condition prone} в пространстве в пределах 5 футов от горгемора. Если горгемор умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 15 футов перемещения и выйдя {@condition prone}."
 					]
 				}
 			],
@@ -1076,8 +1076,8 @@
 				"D"
 			],
 			"actionTags": [
-				"Multiattack",
-				"Swallow"
+				"Мультиатака",
+				"Проглатывание"
 			],
 			"damageTags": [
 				"A"
@@ -1095,15 +1095,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Gorgemaws are relatively harmless monsters that live in the swamps. They resemble big, blubbery slugs that eat carrion and other small animals. They move fast, eat voraciously and hunt by sneaking up on their prey. When food is scarce, they may attack creatures bigger than them, but usually they skulk in the shadows, waiting for bigger creatures to go away. But occasionally and for unknown reasons, gorgemaws start behaving in horrifying ways. ",
-					"{@bold Endless Hunger.} From time to time a single gorgemaw starts to eat even more hungrily than usual. It starts to eat constantly, devouring everything it can catch, and begin to grow. Within days it's bigger than a horse, within a fortnight the size of an elephant and continues to grow even after that. At this point, the swamp will be completely void of other animal life. Creatures that can escape have done so and the gorgemaw moves beyond the swamp\u2013and usually into humanoid settlements. ",
-					"{@bold Massive Threat.} A gargantuan gorgemaw can eat entire villages. It eats the livestock, the villagers and everything it can digest. It continues to eat, until it finds a location that fits its needs and ends its rampage, then it disappears, usually into a cave near a river, and begins to lay eggs. It lays thousands of eggs in one go and then dies. The newborn gorgemaws eat their mother and leave the nest to populate the surrounding countryside. ",
-					"{@bold Cyclical Menaces.} Scholars are not sure why these horrifying rampages come about. Some believe that the cycles are based on the availability of food and others believe that some other factor triggers the process, but nobody knows for sure. Heroes who hear about a gorgemaw growing nearby would be wise to move fast, because while a gorgemaw threat disappears on its own, the devastation it will leave behind will be horrendous."
+					"Горгеморы — относительно безобидные монстры, обитающие в болотах. Они похожи на больших жирных слизней, питающихся падалью и другими мелкими животными. Они быстро двигаются, жадно едят и охотятся, подкрадываясь к своей добыче. Когда пищи мало, они могут напасть на существ крупнее себя, но обычно прячутся в тени, ожидая, пока более крупные существа уйдут. Но иногда и по неизвестным причинам горгеморы начинают вести себя ужасающим образом. ",
+					"{@bold Бесконечный голод.} Время от времени отдельный горгемор начинает есть ещё более жадно, чем обычно. Он начинает есть постоянно, пожирая всё, что поймает, и начинает расти. За считаные дни он становится больше лошади, за две недели — размером со слона и продолжает расти даже после этого. К этому моменту болото будет полностью лишено иной животной жизни. Существа, способные спастись, уже спаслись, и горгемор выходит за пределы болота — и обычно направляется в поселения гуманоидов. ",
+					"{@bold Огромная угроза.} Исполинский горгемор может съесть целые деревни. Он ест скот, селян и всё, что способен переварить. Он продолжает есть, пока не найдёт место, отвечающее его потребностям, и не прекратит буйство, после чего исчезает, обычно в пещере у реки, и начинает откладывать яйца. Он откладывает тысячи яиц за раз, а затем умирает. Новорождённые горгеморы съедают свою мать и покидают гнездо, чтобы заселить окрестные земли. ",
+					"{@bold Циклические угрозы.} Учёные не уверены, почему возникают эти ужасающие буйства. Одни считают, что циклы основаны на доступности пищи, другие полагают, что процесс запускает какой-то иной фактор, но наверняка никто не знает. Героям, услышавшим о растущем поблизости горгеморе, было бы разумно поспешить, ведь хотя угроза горгемора и исчезает сама собой, опустошение, которое он оставит после себя, будет ужасающим."
 				]
 			}
 		},
 		{
-			"name": "Golden Hart",
+			"name": "Золотой олень",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1135,17 +1135,17 @@
 			],
 			"passive": 14,
 			"languages": [
-				"understands Celestial",
-				"Elvish",
-				"and Sylvan but can't speak"
+				"Understands небесный",
+				"Эльфийский",
+				"And сильванский но не может говорить"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The hart's innate spellcasting ability is Intelligence (spell save {@dc 15}). The hart can innately cast the following spells, requiring no components:"
+						"Базовая характеристика оленя для врождённых заклинаний — Интеллект (спасбросок от заклинаний {@dc 15}). Олень может врождённо накладывать следующие заклинания, не требуя компонентов:"
 					],
 					"will": [
 						"{@spell fog cloud}",
@@ -1163,43 +1163,43 @@
 			],
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The hart has advantage on saving throws against spells and other magical effects."
+						"У оленя преимущество на спасброски от заклинаний и других магических эффектов."
 					]
 				},
 				{
-					"name": "Charge",
+					"name": "Натиск",
 					"entries": [
-						"If the hart moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@damage 2d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"Если олень перемещается не менее 20 футов по прямой к цели и затем попадает по ней атакой тараном в тот же ход, цель получает дополнительно 7 ({@damage 2d6}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 13}, иначе сбивается {@condition prone}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Ram",
+					"name": "Таран",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 9 ({@damage 2d8}) radiant damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) дробящего урона плюс 9 ({@damage 2d8}) урона излучением."
 					]
 				},
 				{
-					"name": "Hooves",
+					"name": "Копыта",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one {@condition prone} creature. {@h}19 ({@damage 3d10 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одно существо {@condition prone}. {@h}19 ({@damage 3d10 + 3}) дробящего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Misty Escape",
+					"name": "Туманное исчезновение",
 					"entries": [
-						"The hart surrounds itself with silvery mist and adds {@dice 1d6} to its AC against one attack that would hit it. After the attack hits or misses, the hart teleports up to 40 feet to an unoccupied space that it can see."
+						"Олень окружает себя серебристым туманом и добавляет {@dice 1d6} к своему КД против одной атаки, которая должна по нему попасть. После того как атака попадает или промахивается, олень телепортируется на расстояние до 40 футов в свободное пространство, которое видит."
 					]
 				}
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/MMM-SS/nBWhYBr.png",
 			"traitTags": [
-				"Charge",
+				"Натиск",
 				"Magic Resistance"
 			],
 			"senseTags": [
@@ -1235,15 +1235,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Golden harts are elusive and extremely intelligent mythical creatures that dedicate their existence to maintaining balance in the swamps and wetlands they call home. They resemble deer but have four horns and twin tails. Otherwise golden harts are rather inconspicuous in their appearance, at least when compared to most celestials. ",
-					"{@bold Hearts of Gold.} Some folk tales tell their hide is golden in color, but this is not the case. The name of these beasts is a misnomer: golden harts are named after their heart, which made from pure gold. Very few hunters have the skills required to kill a golden hart and even fewer hunters wish to do so. Killing a golden hart is considered bad luck and any fortune derived from selling the heart is said to be cursed. Some powerful magical spells require the heart as a spell component. ",
-					"{@bold Guides and Arbiters.} Golden harts observe their habitat with great interest, taking note of any suspicious activities and creatures that enter the swamp with ill intent. Dangerous monsters are a natural part of the swamp and the hart will protect them like it protects every other creature in the swamp, but creatures that would seek to corrupt or otherwise harm the swamp itself will find the hart gathering all the help it can get to destroy them or throw them out. If adventurers are seeking out some creature in the swamp that the hart wants removed from the swamp, they will find it observing and aiding them in their endeavors, overtly or covertly. ",
-					"{@bold Beasts in the Mist.} Those who would hunt these magnificent beasts will find their job difficult: golden harts can manipulate the fog around them to evade those who would harm it. Many hunters leave offerings to the golden harts when they hunt in swamps a hart is known to inhabit as a way of asking permission to hunt there."
+					"Золотые олени — неуловимые и чрезвычайно разумные мифические существа, посвятившие своё существование поддержанию равновесия в болотах и заболоченных землях, которые они называют домом. Они похожи на оленей, но имеют четыре рога и раздвоенный хвост. В остальном золотые олени довольно непримечательны на вид, по крайней мере по сравнению с большинством небожителей. ",
+					"{@bold Золотые сердца.} В некоторых народных сказках говорится, что их шкура золотого цвета, но это не так. Название этих зверей вводит в заблуждение: золотые олени названы в честь своего сердца, сделанного из чистого золота. Очень немногие охотники обладают навыками, нужными чтобы убить золотого оленя, и ещё меньше охотников хотят этого. Убийство золотого оленя считается дурной приметой, а любое состояние, вырученное с продажи сердца, считается проклятым. Некоторые могущественные магические заклинания требуют сердце в качестве компонента. ",
+					"{@bold Проводники и арбитры.} Золотые олени с большим интересом наблюдают за своей средой обитания, отмечая любую подозрительную деятельность и существ, входящих в болото со злыми намерениями. Опасные монстры — естественная часть болота, и олень защищает их так же, как защищает любое другое существо в болоте, но существа, стремящиеся осквернить или иным образом навредить самому болоту, обнаружат, что олень собирает всю возможную помощь, чтобы уничтожить их или изгнать. Если искатели приключений разыскивают в болоте какое-то существо, которое олень хочет оттуда убрать, они обнаружат, что он наблюдает за ними и помогает в их начинаниях — явно или тайно. ",
+					"{@bold Звери в тумане.} Те, кто захочет охотиться на этих великолепных зверей, найдут свою задачу трудной: золотые олени могут управлять туманом вокруг себя, чтобы ускользать от тех, кто желает им вреда. Многие охотники оставляют подношения золотым оленям, когда охотятся в болотах, где, как известно, обитает олень, в знак просьбы о разрешении охотиться там."
 				]
 			}
 		},
 		{
-			"name": "Gorgemaw",
+			"name": "Горгемор",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1283,9 +1283,9 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., {@h}6 ({@damage 2d4 + 1}) piercing damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, {@h}6 ({@damage 2d4 + 1}) колющего урона."
 					]
 				}
 			],
@@ -1301,15 +1301,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Gorgemaws are relatively harmless monsters that live in the swamps. They resemble big, blubbery slugs that eat carrion and other small animals. They move fast, eat voraciously and hunt by sneaking up on their prey. When food is scarce, they may attack creatures bigger than them, but usually they skulk in the shadows, waiting for bigger creatures to go away. But occasionally and for unknown reasons, gorgemaws start behaving in horrifying ways. ",
-					"{@bold Endless Hunger.} From time to time a single gorgemaw starts to eat even more hungrily than usual. It starts to eat constantly, devouring everything it can catch, and begin to grow. Within days it's bigger than a horse, within a fortnight the size of an elephant and continues to grow even after that. At this point, the swamp will be completely void of other animal life. Creatures that can escape have done so and the gorgemaw moves beyond the swamp\u2013and usually into humanoid settlements. ",
-					"{@bold Massive Threat.} A gargantuan gorgemaw can eat entire villages. It eats the livestock, the villagers and everything it can digest. It continues to eat, until it finds a location that fits its needs and ends its rampage, then it disappears, usually into a cave near a river, and begins to lay eggs. It lays thousands of eggs in one go and then dies. The newborn gorgemaws eat their mother and leave the nest to populate the surrounding countryside. ",
-					"{@bold Cyclical Menaces.} Scholars are not sure why these horrifying rampages come about. Some believe that the cycles are based on the availability of food and others believe that some other factor triggers the process, but nobody knows for sure. Heroes who hear about a gorgemaw growing nearby would be wise to move fast, because while a gorgemaw threat disappears on its own, the devastation it will leave behind will be horrendous."
+					"Горгеморы — относительно безобидные монстры, обитающие в болотах. Они похожи на больших жирных слизней, питающихся падалью и другими мелкими животными. Они быстро двигаются, жадно едят и охотятся, подкрадываясь к своей добыче. Когда пищи мало, они могут напасть на существ крупнее себя, но обычно прячутся в тени, ожидая, пока более крупные существа уйдут. Но иногда и по неизвестным причинам горгеморы начинают вести себя ужасающим образом. ",
+					"{@bold Бесконечный голод.} Время от времени отдельный горгемор начинает есть ещё более жадно, чем обычно. Он начинает есть постоянно, пожирая всё, что поймает, и начинает расти. За считаные дни он становится больше лошади, за две недели — размером со слона и продолжает расти даже после этого. К этому моменту болото будет полностью лишено иной животной жизни. Существа, способные спастись, уже спаслись, и горгемор выходит за пределы болота — и обычно направляется в поселения гуманоидов. ",
+					"{@bold Огромная угроза.} Исполинский горгемор может съесть целые деревни. Он ест скот, селян и всё, что способен переварить. Он продолжает есть, пока не найдёт место, отвечающее его потребностям, и не прекратит буйство, после чего исчезает, обычно в пещере у реки, и начинает откладывать яйца. Он откладывает тысячи яиц за раз, а затем умирает. Новорождённые горгеморы съедают свою мать и покидают гнездо, чтобы заселить окрестные земли. ",
+					"{@bold Циклические угрозы.} Учёные не уверены, почему возникают эти ужасающие буйства. Одни считают, что циклы основаны на доступности пищи, другие полагают, что процесс запускает какой-то иной фактор, но наверняка никто не знает. Героям, услышавшим о растущем поблизости горгеморе, было бы разумно поспешить, ведь хотя угроза горгемора и исчезает сама собой, опустошение, которое он оставит после себя, будет ужасающим."
 				]
 			}
 		},
 		{
-			"name": "Hodgepoker",
+			"name": "Ходжпокер",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1346,35 +1346,35 @@
 			],
 			"passive": 9,
 			"languages": [
-				"Common",
-				"Goblin"
+				"Общий",
+				"Гоблинский"
 			],
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Sure-Footed",
+					"name": "Твёрдая поступь",
 					"entries": [
-						"The hodgepoker has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+						"У ходжпокера преимущество на спасброски Силы и Ловкости, совершаемые против эффектов, которые сбили бы его {@condition prone}."
 					]
 				},
 				{
-					"name": "Rolling Tumble",
+					"name": "Кувырок",
 					"entries": [
-						"Opportunity attacks against the hodgepoker have disadvantage."
+						"Атаки по возможности по ходжпокеру совершаются с помехой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Club",
+					"name": "Дубина",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d4 + 1}) дробящего урона."
 					]
 				},
 				{
-					"name": "Dart",
+					"name": "Дротик",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+						"{@atk rw} {@hit 3} к попаданию, дистанция 20/60 футов, одна цель. {@h}3 ({@damage 1d4 + 1}) колющего урона."
 					]
 				}
 			],
@@ -1402,15 +1402,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Goblinoids come in many different shapes and sizes, and one of the most unusual among them are the hodgepokers. These short creatures walk with a deep hunch, which makes them look like they are as wide as they are tall. They have large heads, big mouths and their heads are covered in hard carapace which grows hornlike growths asymmetrically around their head. ",
-					"{@bold Swamp Dwellers and Raiders.} Hodgepokers don't build, craft or grow. They steal. Hodgepokers find a lair of another creature, kill it or force it to leave and conduct raids from there to humanoid settlements around their lairs. They prefer to live in the wetlands, because it provides cover for them and helps them hide from the inevitable reprisals they will get from their constant raiding. ",
-					"{@bold Shrewd and Resourceful.} Hodgepokers aren't terribly smart but have a knack of finding useful and clever uses for items they find and utilizing their surroundings to their advantage. They know how to create distractions and ambushes and prefer to attack with overwhelming numbers in a location of their choosing. They are not for plans, but instead prefer to come up with a strategy as the situation develops. ",
-					"{@bold Anarchistic and Chaotic.} Hodgepokers are chaotic by nature. In additions to stealing, hodgepokers destroy and damage property with glee. They burn crops, smash windows and destroy anything that they don't find useful. They also don't care for hierarchy or structure in their groups. Leaders in hodgepoker groups are temporary raid bosses and often a raid is not even lead by anyone: a group steals what it finds, destroys whatever it likes and leaves when the situation gets too risky for them."
+					"Гоблиноиды бывают самых разных форм и размеров, и одни из самых необычных среди них — ходжпокеры. Эти невысокие существа ходят с сильно сгорбленной спиной, из-за чего кажутся столь же широкими, сколь и высокими. У них большие головы, большие рты, а головы покрыты твёрдым панцирем, на котором асимметрично растут рогоподобные наросты. ",
+					"{@bold Обитатели болот и налётчики.} Ходжпокеры не строят, не мастерят и не выращивают. Они крадут. Ходжпокеры находят логово другого существа, убивают его или вынуждают уйти и совершают оттуда набеги на поселения гуманоидов вокруг своих логов. Они предпочитают жить в заболоченных землях, потому что это даёт им укрытие и помогает прятаться от неизбежных ответных ударов за их постоянные набеги. ",
+					"{@bold Сообразительные и находчивые.} Ходжпокеры не слишком умны, но обладают чутьём на полезное и хитрое применение найденных предметов и на использование окружения в свою пользу. Они умеют создавать отвлечения и устраивать засады и предпочитают нападать подавляющим числом в выбранном ими месте. Они не любители планов, а вместо этого предпочитают придумывать стратегию по мере развития ситуации. ",
+					"{@bold Анархичные и хаотичные.} Ходжпокеры хаотичны по своей природе. Помимо воровства, ходжпокеры с упоением разрушают и повреждают имущество. Они сжигают урожай, бьют окна и уничтожают всё, что не находят полезным. Они также не заботятся об иерархии или структуре в своих группах. Лидеры групп ходжпокеров — временные главари набега, и часто набег даже никем не возглавляется: группа крадёт то, что найдёт, разрушает то, что ей нравится, и уходит, когда ситуация становится для них слишком рискованной."
 				]
 			}
 		},
 		{
-			"name": "Hodgepoker Crackerjack",
+			"name": "Ходжпокер-щёлк",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1430,7 +1430,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item hide armor|PHB|hide}"
+						"{@item hide armor|PHB|шкурный доспех}"
 					]
 				}
 			],
@@ -1452,41 +1452,41 @@
 			],
 			"passive": 9,
 			"languages": [
-				"Common",
-				"Goblin"
+				"Общий",
+				"Гоблинский"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Sure-Footed",
+					"name": "Твёрдая поступь",
 					"entries": [
-						"The hodgepoker has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+						"У ходжпокера преимущество на спасброски Силы и Ловкости, совершаемые против эффектов, которые сбили бы его {@condition prone}."
 					]
 				},
 				{
-					"name": "Rolling Tumble",
+					"name": "Кувырок",
 					"entries": [
-						"Opportunity attacks against the hodgepoker have disadvantage."
+						"Атаки по возможности по ходжпокеру совершаются с помехой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Flail",
+					"name": "Цеп",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) дробящего урона."
 					]
 				},
 				{
-					"name": "Hurl Mollusk (1/Day)",
+					"name": "Метание моллюска (1/день)",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage. The thrown skull mollusk (see below) attempts to grapple the target using its tentacles. If it is unsuccessful, it appears in an unoccupied space within 5 feet of the target. It is hostile to the target."
+						"{@atk rw} {@hit 3} к попаданию, дистанция 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) дробящего урона. Брошенный черепной моллюск (см. ниже) пытается схватить цель своими щупальцами. Если это не удаётся, он появляется в свободном пространстве в пределах 5 футов от цели. Он враждебен к цели."
 					]
 				},
 				{
-					"name": "Toss Mud",
+					"name": "Бросок грязи",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 20/60 ft., one target. {@h}The target is {@condition blinded}. The target can use its action to remove the mud and end the effect."
+						"{@atk rw} {@hit 3} к попаданию, дистанция 20/60 футов, одна цель. {@h}Цель становится {@condition blinded}. Цель может действием снять грязь и окончить эффект."
 					]
 				}
 			],
@@ -1514,16 +1514,16 @@
 			],
 			"fluff": {
 				"entries": [
-					"Goblinoids come in many different shapes and sizes, and one of the most unusual among them are the hodgepokers. These short creatures walk with a deep hunch, which makes them look like they are as wide as they are tall. They have large heads, big mouths and their heads are covered in hard carapace which grows hornlike growths asymmetrically around their head. ",
-					"{@bold Swamp Dwellers and Raiders.} Hodgepokers don't build, craft or grow. They steal. Hodgepokers find a lair of another creature, kill it or force it to leave and conduct raids from there to humanoid settlements around their lairs. They prefer to live in the wetlands, because it provides cover for them and helps them hide from the inevitable reprisals they will get from their constant raiding. ",
-					"{@bold Shrewd and Resourceful.} Hodgepokers aren't terribly smart but have a knack of finding useful and clever uses for items they find and utilizing their surroundings to their advantage. They know how to create distractions and ambushes and prefer to attack with overwhelming numbers in a location of their choosing. They are not for plans, but instead prefer to come up with a strategy as the situation develops. ",
-					"{@bold Anarchistic and Chaotic.} Hodgepokers are chaotic by nature. In additions to stealing, hodgepokers destroy and damage property with glee. They burn crops, smash windows and destroy anything that they don't find useful. They also don't care for hierarchy or structure in their groups. Leaders in hodgepoker groups are temporary raid bosses and often a raid is not even lead by anyone: a group steals what it finds, destroys whatever it likes and leaves when the situation gets too risky for them.",
-					"{@bold Crackerjacker.} Especially crafty hodgepokers are called crackerjacks. Although hodgepoker groups are anarchistic in nature, crackerjacks tend to end up calling the shots in raids because they are the most quick-witted and clever. A single raiding party can have several crackerjacks, which may end up dividing the raiders into smaller groups, each following one crackerjack's bright idea. One of the most common tricks crackerjacks like to use is using {@creature skull mollusk|MMM-SS|skullmollusks} (see this booklet) as improvised projectiles."
+					"Гоблиноиды бывают самых разных форм и размеров, и одни из самых необычных среди них — ходжпокеры. Эти невысокие существа ходят с сильно сгорбленной спиной, из-за чего кажутся столь же широкими, сколь и высокими. У них большие головы, большие рты, а головы покрыты твёрдым панцирем, на котором асимметрично растут рогоподобные наросты. ",
+					"{@bold Обитатели болот и налётчики.} Ходжпокеры не строят, не мастерят и не выращивают. Они крадут. Ходжпокеры находят логово другого существа, убивают его или вынуждают уйти и совершают оттуда набеги на поселения гуманоидов вокруг своих логов. Они предпочитают жить в заболоченных землях, потому что это даёт им укрытие и помогает прятаться от неизбежных ответных ударов за их постоянные набеги. ",
+					"{@bold Сообразительные и находчивые.} Ходжпокеры не слишком умны, но обладают чутьём на полезное и хитрое применение найденных предметов и на использование окружения в свою пользу. Они умеют создавать отвлечения и устраивать засады и предпочитают нападать подавляющим числом в выбранном ими месте. Они не любители планов, а вместо этого предпочитают придумывать стратегию по мере развития ситуации. ",
+					"{@bold Анархичные и хаотичные.} Ходжпокеры хаотичны по своей природе. Помимо воровства, ходжпокеры с упоением разрушают и повреждают имущество. Они сжигают урожай, бьют окна и уничтожают всё, что не находят полезным. Они также не заботятся об иерархии или структуре в своих группах. Лидеры групп ходжпокеров — временные главари набега, и часто набег даже никем не возглавляется: группа крадёт то, что найдёт, разрушает то, что ей нравится, и уходит, когда ситуация становится для них слишком рискованной.",
+					"{@bold Щёлкач.} Особенно ловких ходжпокеров называют щёлкачами. Хотя группы ходжпокеров по своей природе анархичны, щёлкачи обычно становятся заводилами в набегах, поскольку они самые сообразительные и хитрые. В одном отряде налётчиков может быть несколько щёлкачей, из-за чего налётчики могут разделиться на меньшие группы, каждая из которых следует блестящей идее своего щёлкача. Один из самых распространённых трюков щёлкачей — использовать {@creature Черепной моллюск|MMM-SS|черепные моллюски} (см. этот буклет) как импровизированные снаряды."
 				]
 			}
 		},
 		{
-			"name": "Huge Gorgemaw",
+			"name": "Огромный горгемор",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1566,22 +1566,22 @@
 			"cr": "4",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The gorgemaw makes two bite attacks."
+						"Горгемор совершает две атаки укусом."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., {@h}15 ({@dice 2d10} + 4) piercing damage and the target is {@condition grappled} (escape {@dc 14})."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, {@h}15 ({@dice 2d10} + 4) колющего урона, и цель становится {@condition grappled} (высвобождение {@dc 14})."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The gorgemaw makes one bite attack against a Large or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the gorgemaw, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the gorgemaw's turns.",
-						"If the gorgemaw takes 23 damage or more on a single turn from a creature inside it, the gorgemaw must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 5 feet of the gorgemaw. If the gorgemaw dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 10 feet of movement, exiting {@condition prone}."
+						"Горгемор совершает одну атаку укусом по схваченной цели Большого размера или меньше. Если атака попадает, цель проглатывается, а захват оканчивается. Проглоченная цель {@condition blinded} и {@condition restrained}, имеет полное укрытие от атак и других эффектов снаружи горгемора и получает 10 ({@damage 3d6}) урона кислотой в начале каждого хода горгемора.",
+						"Если горгемор за один ход получает 23 или больше урона от находящегося внутри него существа, он должен преуспеть в спасброске Телосложения {@dc 15} в конце этого хода, иначе отрыгнёт всех проглоченных существ, которые падают {@condition prone} в пространстве в пределах 5 футов от горгемора. Если горгемор умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 10 футов перемещения и выйдя {@condition prone}."
 					]
 				}
 			],
@@ -1590,8 +1590,8 @@
 				"D"
 			],
 			"actionTags": [
-				"Multiattack",
-				"Swallow"
+				"Мультиатака",
+				"Проглатывание"
 			],
 			"damageTags": [
 				"A"
@@ -1609,15 +1609,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Gorgemaws are relatively harmless monsters that live in the swamps. They resemble big, blubbery slugs that eat carrion and other small animals. They move fast, eat voraciously and hunt by sneaking up on their prey. When food is scarce, they may attack creatures bigger than them, but usually they skulk in the shadows, waiting for bigger creatures to go away. But occasionally and for unknown reasons, gorgemaws start behaving in horrifying ways. ",
-					"{@bold Endless Hunger.} From time to time a single gorgemaw starts to eat even more hungrily than usual. It starts to eat constantly, devouring everything it can catch, and begin to grow. Within days it's bigger than a horse, within a fortnight the size of an elephant and continues to grow even after that. At this point, the swamp will be completely void of other animal life. Creatures that can escape have done so and the gorgemaw moves beyond the swamp\u2013and usually into humanoid settlements. ",
-					"{@bold Massive Threat.} A gargantuan gorgemaw can eat entire villages. It eats the livestock, the villagers and everything it can digest. It continues to eat, until it finds a location that fits its needs and ends its rampage, then it disappears, usually into a cave near a river, and begins to lay eggs. It lays thousands of eggs in one go and then dies. The newborn gorgemaws eat their mother and leave the nest to populate the surrounding countryside. ",
-					"{@bold Cyclical Menaces.} Scholars are not sure why these horrifying rampages come about. Some believe that the cycles are based on the availability of food and others believe that some other factor triggers the process, but nobody knows for sure. Heroes who hear about a gorgemaw growing nearby would be wise to move fast, because while a gorgemaw threat disappears on its own, the devastation it will leave behind will be horrendous."
+					"Горгеморы — относительно безобидные монстры, обитающие в болотах. Они похожи на больших жирных слизней, питающихся падалью и другими мелкими животными. Они быстро двигаются, жадно едят и охотятся, подкрадываясь к своей добыче. Когда пищи мало, они могут напасть на существ крупнее себя, но обычно прячутся в тени, ожидая, пока более крупные существа уйдут. Но иногда и по неизвестным причинам горгеморы начинают вести себя ужасающим образом. ",
+					"{@bold Бесконечный голод.} Время от времени отдельный горгемор начинает есть ещё более жадно, чем обычно. Он начинает есть постоянно, пожирая всё, что поймает, и начинает расти. За считаные дни он становится больше лошади, за две недели — размером со слона и продолжает расти даже после этого. К этому моменту болото будет полностью лишено иной животной жизни. Существа, способные спастись, уже спаслись, и горгемор выходит за пределы болота — и обычно направляется в поселения гуманоидов. ",
+					"{@bold Огромная угроза.} Исполинский горгемор может съесть целые деревни. Он ест скот, селян и всё, что способен переварить. Он продолжает есть, пока не найдёт место, отвечающее его потребностям, и не прекратит буйство, после чего исчезает, обычно в пещере у реки, и начинает откладывать яйца. Он откладывает тысячи яиц за раз, а затем умирает. Новорождённые горгеморы съедают свою мать и покидают гнездо, чтобы заселить окрестные земли. ",
+					"{@bold Циклические угрозы.} Учёные не уверены, почему возникают эти ужасающие буйства. Одни считают, что циклы основаны на доступности пищи, другие полагают, что процесс запускает какой-то иной фактор, но наверняка никто не знает. Героям, услышавшим о растущем поблизости горгеморе, было бы разумно поспешить, ведь хотя угроза горгемора и исчезает сама собой, опустошение, которое он оставит после себя, будет ужасающим."
 				]
 			}
 		},
 		{
-			"name": "Large Gorgemaw",
+			"name": "Крупный горгемор",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1657,16 +1657,16 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., {@h}12 ({@damage 2d8 + 3}) piercing damage and the target is {@condition grappled} (escape {@dc 13})."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, {@h}12 ({@damage 2d8 + 3}) колющего урона, и цель становится {@condition grappled} (высвобождение {@dc 13})."
 					]
 				},
 				{
-					"name": "Swallow",
+					"name": "Проглатывание",
 					"entries": [
-						"The gorgemaw makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the gorgemaw, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the gorgemaw's turns. The gorgemaw can have only one target swallowed at a time.",
-						"If the gorgemaw dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+						"Горгемор совершает одну атаку укусом по схваченной цели Среднего размера или меньше. Если атака попадает, цель проглатывается, а захват оканчивается. Проглоченная цель {@condition blinded} и {@condition restrained}, имеет полное укрытие от атак и других эффектов снаружи горгемора и получает 10 ({@damage 3d6}) урона кислотой в начале каждого хода горгемора. Горгемор может одновременно держать проглоченной только одну цель.",
+						"Если горгемор умирает, проглоченное существо больше не {@condition restrained} им и может выбраться из трупа, потратив 5 футов перемещения и выйдя {@condition prone}."
 					]
 				}
 			],
@@ -1675,7 +1675,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Swallow"
+				"Проглатывание"
 			],
 			"damageTags": [
 				"A",
@@ -1691,15 +1691,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Gorgemaws are relatively harmless monsters that live in the swamps. They resemble big, blubbery slugs that eat carrion and other small animals. They move fast, eat voraciously and hunt by sneaking up on their prey. When food is scarce, they may attack creatures bigger than them, but usually they skulk in the shadows, waiting for bigger creatures to go away. But occasionally and for unknown reasons, gorgemaws start behaving in horrifying ways. ",
-					"{@bold Endless Hunger.} From time to time a single gorgemaw starts to eat even more hungrily than usual. It starts to eat constantly, devouring everything it can catch, and begin to grow. Within days it's bigger than a horse, within a fortnight the size of an elephant and continues to grow even after that. At this point, the swamp will be completely void of other animal life. Creatures that can escape have done so and the gorgemaw moves beyond the swamp\u2013and usually into humanoid settlements. ",
-					"{@bold Massive Threat.} A gargantuan gorgemaw can eat entire villages. It eats the livestock, the villagers and everything it can digest. It continues to eat, until it finds a location that fits its needs and ends its rampage, then it disappears, usually into a cave near a river, and begins to lay eggs. It lays thousands of eggs in one go and then dies. The newborn gorgemaws eat their mother and leave the nest to populate the surrounding countryside. ",
-					"{@bold Cyclical Menaces.} Scholars are not sure why these horrifying rampages come about. Some believe that the cycles are based on the availability of food and others believe that some other factor triggers the process, but nobody knows for sure. Heroes who hear about a gorgemaw growing nearby would be wise to move fast, because while a gorgemaw threat disappears on its own, the devastation it will leave behind will be horrendous."
+					"Горгеморы — относительно безобидные монстры, обитающие в болотах. Они похожи на больших жирных слизней, питающихся падалью и другими мелкими животными. Они быстро двигаются, жадно едят и охотятся, подкрадываясь к своей добыче. Когда пищи мало, они могут напасть на существ крупнее себя, но обычно прячутся в тени, ожидая, пока более крупные существа уйдут. Но иногда и по неизвестным причинам горгеморы начинают вести себя ужасающим образом. ",
+					"{@bold Бесконечный голод.} Время от времени отдельный горгемор начинает есть ещё более жадно, чем обычно. Он начинает есть постоянно, пожирая всё, что поймает, и начинает расти. За считаные дни он становится больше лошади, за две недели — размером со слона и продолжает расти даже после этого. К этому моменту болото будет полностью лишено иной животной жизни. Существа, способные спастись, уже спаслись, и горгемор выходит за пределы болота — и обычно направляется в поселения гуманоидов. ",
+					"{@bold Огромная угроза.} Исполинский горгемор может съесть целые деревни. Он ест скот, селян и всё, что способен переварить. Он продолжает есть, пока не найдёт место, отвечающее его потребностям, и не прекратит буйство, после чего исчезает, обычно в пещере у реки, и начинает откладывать яйца. Он откладывает тысячи яиц за раз, а затем умирает. Новорождённые горгеморы съедают свою мать и покидают гнездо, чтобы заселить окрестные земли. ",
+					"{@bold Циклические угрозы.} Учёные не уверены, почему возникают эти ужасающие буйства. Одни считают, что циклы основаны на доступности пищи, другие полагают, что процесс запускает какой-то иной фактор, но наверняка никто не знает. Героям, услышавшим о растущем поблизости горгеморе, было бы разумно поспешить, ведь хотя угроза горгемора и исчезает сама собой, опустошение, которое он оставит после себя, будет ужасающим."
 				]
 			}
 		},
 		{
-			"name": "Maladrix",
+			"name": "Маладрикс",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1762,77 +1762,77 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Aura of Silence",
+					"name": "Аура тишины",
 					"entries": [
-						"No sound can pass through or be created within 15 feet of the maladrix if the maladrix is not in sunlight. Any creature or object entirely inside the radius is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there."
+						"Никакой звук не может пройти сквозь пространство в пределах 15 футов от маладрикса или быть создан там, если маладрикс не находится под солнечным светом. Любое существо или предмет, полностью находящиеся внутри радиуса, невосприимчивы к урону звуком, а существа {@condition deafened}, пока находятся внутри него целиком. Наложение заклинания, включающего словесный компонент, там невозможно."
 					]
 				},
 				{
-					"name": "Soul Harvest",
+					"name": "Жатва душ",
 					"entries": [
-						"A creature that dies from the maladrix's attacks can't be revived with spells of 7th level or lower unless the maladrix is dead and its heart is destroyed."
+						"Существо, погибшее от атак маладрикса, нельзя вернуть к жизни заклинаниями 7-го уровня или ниже, если маладрикс не мёртв и его сердце не уничтожено."
 					]
 				},
 				{
-					"name": "Spiderclimb",
+					"name": "Паучье лазание",
 					"entries": [
-						"The maladrix can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Маладрикс может лазать по трудным поверхностям, включая передвижение вниз головой по потолкам, не совершая проверок характеристик."
 					]
 				},
 				{
-					"name": "Sunlight Sensitivity",
+					"name": "Светочувствительность",
 					"entries": [
-						"While in sunlight, the maladrix has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+						"Находясь под солнечным светом, маладрикс совершает с помехой броски атаки, а также проверки Мудрости (Внимательность), основанные на зрении."
 					]
 				},
 				{
-					"name": "Whispers of Madness",
+					"name": "Шёпот безумия",
 					"entries": [
-						"Any creature that starts its turn within 5 feet of the maladrix must make a {@dc 15} Wisdom saving throw. On a failure, the creature can't take reactions until the start of its next turn and rolls a {@dice d10} to determine what it does during its turn.",
-						"On a 1 to 3, the creature feels horrifying anxiety and is {@condition frightened} until the end of its turn.",
-						"On a 4 to 6, the creature succumbs to a fugue state and is {@condition incapacitated} until the end its turn.",
-						"On a 7 to 8, the creature is overwhelmed with dread; it can't take any action or bonus action and uses all its movement to move away from the maladrix.",
-						"On a 9 to 10, the creature feels uncontrollable rage and makes a melee attack against a random ally within its reach or makes a melee attack against itself if it can't make such an attack."
+						"Любое существо, начинающее свой ход в пределах 5 футов от маладрикса, должно совершить спасбросок Мудрости {@dc 15}. При провале существо не может совершать реакции до начала своего следующего хода и бросает {@dice d10}, чтобы определить, что оно делает в свой ход.",
+						"При результате 1–3 существо испытывает ужасающую тревогу и становится {@condition frightened} до конца своего хода.",
+						"При результате 4–6 существо впадает в состояние фуги и становится {@condition incapacitated} до конца своего хода.",
+						"При результате 7–8 существо охватывает ужас; оно не может совершать действия или бонусные действия и использует всё своё перемещение, чтобы уйти от маладрикса.",
+						"При результате 9–10 существо охватывает неконтролируемая ярость, и оно совершает рукопашную атаку по случайному союзнику в пределах своей досягаемости или рукопашную атаку по себе, если такой атаки совершить не может."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The maladrix makes three attacks with its claws."
+						"Маладрикс совершает три атаки когтями."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Necrotic Bite",
+					"name": "Некротический укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage plus 13 ({@damage 2d12}) necrotic damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 2d6 + 2}) колющего урона плюс 13 ({@damage 2d12}) урона некротической энергией."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Claw Slash",
+					"name": "Удар когтями",
 					"entries": [
-						"The maladrix makes a claw attack."
+						"Маладрикс совершает атаку когтями."
 					]
 				},
 				{
-					"name": "Detect",
+					"name": "Обнаружение",
 					"entries": [
-						"The maladrix makes a Wisdom (Perception) check."
+						"Маладрикс совершает проверку Мудрости (Внимательность)."
 					]
 				},
 				{
-					"name": "Jump",
+					"name": "Прыжок",
 					"entries": [
-						"The maladrix jumps up to its speed to an unoccupied space without provoking opportunity attacks."
+						"Маладрикс прыгает на расстояние до своей скорости в свободное пространство, не провоцируя атаки по возможности."
 					]
 				}
 			],
@@ -1844,7 +1844,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"damageTags": [
 				"N",
@@ -1863,17 +1863,17 @@
 			],
 			"fluff": {
 				"entries": [
-					"No-one knows how a maladrix is born. Some say that a city that is sinful will spawn one in the hidden corners of the city. Others speculate that it is a spirit that has infested a collection of filth and bones to find a form to inhabit. Nevertheless, it is a scourge that will torment a city in many terrible ways, if left unchecked. ",
-					"{@bold Revolting and Ghastly.} Maladrixes have the upper bodies of ghasts and an insectoid lower body with six legs. Their bones extrude from their flesh in disgusting ways and they smell like a combination of dead flesh and sewer waste. ",
-					"{@bold Horrors in the Sewers.} Maladrixes are usually found in the sewers of large cities, but sometimes they can be found in swamps or underground caves. Most prefer to be near their prey, which is why they prefer cities over the wilderness\u2013even if cities are more dangerous hunting grounds for them. ",
-					"{@bold Telepathic Mind Breakers.} Maladrixes are telepathic, but they don't speak any languages. Instead, they communicate by images and emotions. They project an aura of telepathic, incoherent whispering near them, which twists the minds of their victims, creating waking nightmares and pitting them against each other. They hunt at night and kill their prey in horrible and sadistic ways before feasting on their souls and leaving the bodies out in the open to spread fear. ",
-					"{@bold Harvesters of Souls.} When a maladrix kills a creature, it consumes the victim's soul. Reviving a creature that has lost its soul this way is not possible, although the soul remains intact for a few days hidden in the maladrix's heart, which is a calcified, bonelike structure in the chest of the monster. Breaking the heart releases all the souls that have not yet been consumed. ",
-					"{@bold Dreadful Silencers.} Maladrixes seem to make no sound when they move, but the reality is even more disturbing. Maladrixes deafen all sound around them, making them impossible to detect by sound."
+					"Никто не знает, как рождается маладрикс. Одни говорят, что грешный город породит одного в своих скрытых уголках. Другие предполагают, что это дух, вселившийся в скопление грязи и костей, чтобы найти себе форму для обитания. Как бы то ни было, это бич, который будет терзать город многими страшными способами, если его не остановить. ",
+					"{@bold Отвратительные и жуткие.} У маладриксов верхняя часть тела — как у вурдалаков, а нижняя — насекомоподобная, с шестью ногами. Их кости отвратительно выступают из плоти, и они пахнут смесью мёртвой плоти и канализационных отходов. ",
+					"{@bold Ужасы в канализации.} Маладриксов обычно находят в канализации больших городов, но иногда их можно встретить в болотах или подземных пещерах. Большинство предпочитает быть рядом с добычей, поэтому они предпочитают города дикой природе — даже если города для них более опасные охотничьи угодья. ",
+					"{@bold Телепатические ломатели разума.} Маладриксы телепатичны, но ни на каких языках не говорят. Вместо этого они общаются образами и эмоциями. Они проецируют вокруг себя ауру телепатического бессвязного шёпота, которая искажает разум их жертв, порождая кошмары наяву и стравливая их друг с другом. Они охотятся по ночам и убивают добычу ужасными и садистскими способами, прежде чем насытиться их душами и оставить тела на виду, чтобы сеять страх. ",
+					"{@bold Жнецы душ.} Когда маладрикс убивает существо, он поглощает душу жертвы. Вернуть к жизни существо, потерявшее душу таким образом, невозможно, хотя душа остаётся невредимой несколько дней, спрятанная в сердце маладрикса — обызвествлённой, похожей на кость структуре в груди монстра. Разбитие сердца освобождает все ещё не поглощённые души. ",
+					"{@bold Ужасающие глушители.} Кажется, что маладриксы не издают никаких звуков при движении, но реальность ещё более тревожна. Маладриксы заглушают всё звуки вокруг себя, делая невозможным их обнаружение по звуку."
 				]
 			}
 		},
 		{
-			"name": "Mire Ooze",
+			"name": "Топкая слизь",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -1920,51 +1920,51 @@
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Amorphous",
+					"name": "Аморфность",
 					"entries": [
-						"The ooze can move through a space as narrow as 1 inch wide without squeezing."
+						"Слизь может перемещаться сквозь пространство шириной в 1 дюйм без протискивания."
 					]
 				},
 				{
-					"name": "False Appearance",
+					"name": "Ложная внешность",
 					"entries": [
-						"While the ooze remains motionless and is at the surface of water, it is indistinguishable from the surface of the water it is floating on."
+						"Пока слизь остаётся неподвижной и находится у поверхности воды, её невозможно отличить от поверхности воды, на которой она плавает."
 					]
 				},
 				{
-					"name": "Floater",
+					"name": "Плавучесть",
 					"entries": [
-						"The ooze can move on top of water as if it were solid ground."
+						"Слизь может двигаться по поверхности воды, как по твёрдой земле."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Drown",
+					"name": "Утопление",
 					"entries": [
-						"If the ooze is on top of water, it attempts to pull a target that is smaller than it underneath itself and into the water.",
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}The target is pulled into the ooze's space. The target takes 10 ({@damage 3d6}) acid damage. The target can't breathe, is {@condition restrained}, and takes 10 ({@damage 3d6}) acid damage at the start of each of the ooze's turns. When the ooze moves, the target moves with it.",
-						"A target subjected to this ability can try to escape by taking an action to make a {@dc 13} Strength check. On a success, the target escapes and enters a space of its choice within 5 feet of the ooze."
+						"Если слизь находится на поверхности воды, она пытается затащить цель меньше себя под себя и в воду.",
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 10 футов, одна цель. {@h}Цель затягивается в пространство слизи. Цель получает 10 ({@damage 3d6}) урона кислотой. Цель не может дышать, {@condition restrained} и получает 10 ({@damage 3d6}) урона кислотой в начале каждого хода слизи. Когда слизь перемещается, цель перемещается вместе с ней.",
+						"Цель, подвергшаяся этому умению, может попытаться освободиться, потратив действие на проверку Силы {@dc 13}. При успехе цель освобождается и попадает в пространство на свой выбор в пределах 5 футов от слизи."
 					]
 				},
 				{
-					"name": "Pseudopod",
+					"name": "Псевдоподия",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage plus 10 ({@damage 3d6}) acid damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 10 футов, одна цель. {@h}10 ({@damage 2d6 + 3}) дробящего урона плюс 10 ({@damage 3d6}) урона кислотой."
 					]
 				},
 				{
-					"name": "Splash",
+					"name": "Всплеск",
 					"entries": [
-						"If the ooze is on top of water, it warps its form suddenly to create a wave. Each creature within 5 feet of the ooze must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"Если слизь находится на поверхности воды, она резко искажает свою форму, создавая волну. Каждое существо в пределах 5 футов от слизи должно преуспеть в спасброске Силы {@dc 13}, иначе сбивается {@condition prone}."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Split",
+					"name": "Разделение",
 					"entries": [
-						"When an ooze that is Medium or larger is subjected to lightning or slashing damage, it splits into two new oozes if it has at least 10 hit points. Each new ooze has hit points equal to half the original ooze's, rounded down. New oozes are one size smaller than the original ooze. If a creature is under the effects of Drown when the ooze splits, the creature can use its reaction to attempt to escape. The effects of Drown end if splitting the ooze causes it to be the same size or smaller than the creature being drowned."
+						"Когда слизь Среднего размера или больше подвергается урону электричеством или рубящему урону, она разделяется на две новые слизи, если у неё есть хотя бы 10 хитов. У каждой новой слизи хитов — половина от исходной слизи, округляя вниз. Новые слизи на один размер меньше исходной. Если существо находится под действием «Утопления», когда слизь разделяется, оно может реакцией попытаться освободиться. Эффекты «Утопления» оканчиваются, если разделение слизи делает её размером равной или меньшей, чем тонущее существо."
 					]
 				}
 			],
@@ -1973,7 +1973,7 @@
 				"drown|pota"
 			],
 			"traitTags": [
-				"Amorphous",
+				"Аморфность",
 				"False Appearance"
 			],
 			"senseTags": [
@@ -1996,14 +1996,14 @@
 			],
 			"fluff": {
 				"entries": [
-					"Floating on the surface of the small, but deep pools found in bogs and mires, the mire ooze is one of the rare oozes that prefers the outside to the damp insides of caves and dungeons. The ooze chooses a pool that is near the same size as it is and spreads itself out thinly on top of the water. They are black as the pools they float on and hunt by waiting for some creature to come too close to it. ",
-					"{@bold Manipulators of Water.} While a mire ooze is not any more intelligent than the next ooze, it has adapted to its surroundings. It floats effortlessly on top of water and can use that water to drown its victims. At times a mire ooze will warp their forms violently to create waves around themselves, causing their unsuspecting prey to fall prone and become more susceptible to its cold, acidic embrace. ",
-					"{@bold Ooze Nature.} An ooze doesn't require sleep."
+					"Плавая на поверхности небольших, но глубоких водоёмов, встречающихся в топях и трясинах, топкая слизь — одна из редких слизей, предпочитающих открытое пространство сырости пещер и подземелий. Слизь выбирает водоём примерно того же размера, что и она сама, и тонко распластывается по поверхности воды. Они черны, как водоёмы, на которых плавают, и охотятся, выжидая, пока какое-нибудь существо не подойдёт слишком близко. ",
+					"{@bold Управляющие водой.} Хотя топкая слизь и не умнее любой другой слизи, она приспособилась к своему окружению. Она без усилий плавает на поверхности воды и может использовать эту воду, чтобы топить своих жертв. Временами топкая слизь неистово искажает свою форму, создавая вокруг себя волны, отчего её ничего не подозревающая добыча падает ничком и становится более восприимчивой к её холодным, кислотным объятиям. ",
+					"{@bold Природа слизей.} Слизь не нуждается во сне."
 				]
 			}
 		},
 		{
-			"name": "Molder Bloom",
+			"name": "Цветущий гнилец",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2055,23 +2055,23 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Fungal Communication",
+					"name": "Грибное общение",
 					"entries": [
-						"The molder bloom can communicate silently with molders within 60 feet of it by secreting smells."
+						"Цветущий гнилец может безмолвно общаться с гнильцами в пределах 60 футов от себя, выделяя запахи."
 					]
 				},
 				{
-					"name": "Noxious Spores",
+					"name": "Ядовитые споры",
 					"entries": [
-						"A creature that touches the molder bloom or hits it with a melee attack while within 5 feet of it takes 3 ({@damage 1d6}) poison damage."
+						"Существо, касающееся цветущего гнильца или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 3 ({@damage 1d6}) урона ядом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Pummel",
+					"name": "Избиение",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) bludgeoning damage plus 3 ({@damage 1d6}) poison damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 2d6 + 1}) дробящего урона плюс 3 ({@damage 1d6}) урона ядом."
 					]
 				}
 			],
@@ -2088,16 +2088,16 @@
 			],
 			"fluff": {
 				"entries": [
-					"Molders are a group of swamp-dwelling creatures formed when a certain type of fungus finds suitable hosts to grow on. Creatures that wander off into the swamp and get lost and exhausted or fall ill are the most common victims of a molder colony taking over them. Once an infection sets in, it can be easy to cure, but left untreated, the result can be a fate worse than death\u2013an unlife in the service of the fungi. ",
-					"{@bold Spreading Blight.} If there are enough suitable hosts, molders can spread rapidly and completely take over a swamp. They do decay over time as they slowly break down and eat their hosts, so an outbreak of molders can quiet down after a while. Times after war are a common situation when molders can become a veritable plague near a swamp. Thankfully\u2013or unfortunately, depending on your point of view\u2013molders can only infect a humanoid creature. Keeping out of a molder infested swamp will eventually force an outbreak to die out. ",
-					"{@bold Swamp Dwellers.} Molders need a lot of shade and moisture to survive, so they seldom wander off from the swamps they have infested.",
-					"{@bold Molder Bloom.} If a host is large enough to nourish a large and particularly aggressive colony of molder spores, the result is referred to as a molder bloom. These creatures are easily distinguished from mere molder spawn: they are more colorful and much larger in size, although still significantly smaller than their original hosts. ",
-					"{@bold Poisonous Spores.} Molder blooms are covered in sporocaps, which can easily burst and spread choking, poisonous spores that may even spread the molder colony into a host that is too weak to fight their infection."
+					"Гнильцы — это группа болотных существ, образующихся, когда определённый вид грибка находит подходящих хозяев, на которых растёт. Существа, забредшие в болото и заблудившиеся и обессилевшие или заболевшие, — самые частые жертвы того, что колония гнильцов овладевает ими. Однажды начавшаяся инфекция легко излечивается, но если её не лечить, результат может оказаться судьбой хуже смерти — нежизнью на службе у грибка. ",
+					"{@bold Расползающаяся порча.} Если подходящих хозяев достаточно, гнильцы могут быстро распространиться и полностью захватить болото. Со временем они действительно увядают, поскольку медленно разлагают и поедают своих хозяев, поэтому вспышка гнильцов может утихнуть через какое-то время. Послевоенное время — обычная ситуация, когда гнильцы могут стать настоящей чумой близ болота. К счастью — или к несчастью, смотря как посмотреть — гнильцы могут заразить только гуманоидное существо. Держась подальше от заражённого гнильцами болота, вы в конце концов заставите вспышку угаснуть. ",
+					"{@bold Обитатели болот.} Гнильцам для выживания нужна масса тени и влаги, поэтому они редко покидают болота, в которые вселились.",
+					"{@bold Цветущий гнилец.} Если хозяин достаточно крупный, чтобы прокормить большую и особенно агрессивную колонию спор гнильцов, результат называют цветущим гнильцом. Этих существ легко отличить от простых отродий гнильца: они более ярко окрашены и намного крупнее, хотя всё ещё значительно меньше своих исходных хозяев. ",
+					"{@bold Ядовитые споры.} Цветущие гнильцы покрыты спороносными шляпками, которые могут легко лопнуть и распространить удушающие, ядовитые споры, способные даже заразить колонией гнильцов хозяина, слишком слабого, чтобы бороться с инфекцией."
 				]
 			}
 		},
 		{
-			"name": "Molder Spawn",
+			"name": "Отродье гнильца",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2149,17 +2149,17 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Fungal Communication",
+					"name": "Грибное общение",
 					"entries": [
-						"The molder spawn can communicate silently with molders within 60 feet of it by secreting smells."
+						"Отродье гнильца может безмолвно общаться с гнильцами в пределах 60 футов от себя, выделяя запахи."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Claw",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage plus 3 ({@damage 1d6}) poison damage."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d4 + 1}) рубящего урона плюс 3 ({@damage 1d6}) урона ядом."
 					]
 				}
 			],
@@ -2176,16 +2176,16 @@
 			],
 			"fluff": {
 				"entries": [
-					"Molders are a group of swamp-dwelling creatures formed when a certain type of fungus finds suitable hosts to grow on. Creatures that wander off into the swamp and get lost and exhausted or fall ill are the most common victims of a molder colony taking over them. Once an infection sets in, it can be easy to cure, but left untreated, the result can be a fate worse than death\u2013an unlife in the service of the fungi. ",
-					"{@bold Spreading Blight.} If there are enough suitable hosts, molders can spread rapidly and completely take over a swamp. They do decay over time as they slowly break down and eat their hosts, so an outbreak of molders can quiet down after a while. Times after war are a common situation when molders can become a veritable plague near a swamp. Thankfully\u2013or unfortunately, depending on your point of view\u2013molders can only infect a humanoid creature. Keeping out of a molder infested swamp will eventually force an outbreak to die out. ",
-					"{@bold Swamp Dwellers.} Molders need a lot of shade and moisture to survive, so they seldom wander off from the swamps they have infested.",
-					"{@bold Molder Spawn.} The simplest forms of molders are the molder spawn. They are usually small or medium humanoids transformed into something that resembles a humanoid fungus. The transformation process consumes the host somewhat, resulting in a shrunk version of the creature. Despite their size, these creatures are aggressive and will attack mercilessly against any opponents. ",
-					"{@bold Drones and Protectors.} Some have speculated that molders may retain some of the intellectual capacity of their hosts and can form a sort of a hivemind when enough hosts are close by. In these situations, it is believed that molder spawns begin to perform more complex tasks and become drones for a wider molder colony consisting of several molder hosts working together."
+					"Гнильцы — это группа болотных существ, образующихся, когда определённый вид грибка находит подходящих хозяев, на которых растёт. Существа, забредшие в болото и заблудившиеся и обессилевшие или заболевшие, — самые частые жертвы того, что колония гнильцов овладевает ими. Однажды начавшаяся инфекция легко излечивается, но если её не лечить, результат может оказаться судьбой хуже смерти — нежизнью на службе у грибка. ",
+					"{@bold Расползающаяся порча.} Если подходящих хозяев достаточно, гнильцы могут быстро распространиться и полностью захватить болото. Со временем они действительно увядают, поскольку медленно разлагают и поедают своих хозяев, поэтому вспышка гнильцов может утихнуть через какое-то время. Послевоенное время — обычная ситуация, когда гнильцы могут стать настоящей чумой близ болота. К счастью — или к несчастью, смотря как посмотреть — гнильцы могут заразить только гуманоидное существо. Держась подальше от заражённого гнильцами болота, вы в конце концов заставите вспышку угаснуть. ",
+					"{@bold Обитатели болот.} Гнильцам для выживания нужна масса тени и влаги, поэтому они редко покидают болота, в которые вселились.",
+					"{@bold Отродье гнильца.} Простейшие формы гнильцов — это отродья гнильца. Обычно это малые или средние гуманоиды, превращённые во что-то, напоминающее гуманоидный гриб. Процесс превращения несколько истощает хозяина, из-за чего получается уменьшенная версия существа. Несмотря на размер, эти существа агрессивны и будут безжалостно атаковать любого противника. ",
+					"{@bold Трутни и защитники.} Некоторые предполагают, что гнильцы могут сохранять часть умственных способностей своих хозяев и образовывать нечто вроде коллективного разума, когда рядом достаточно хозяев. В таких ситуациях считается, что отродья гнильца начинают выполнять более сложные задачи и становятся трутнями более широкой колонии гнильцов, состоящей из нескольких хозяев, работающих сообща."
 				]
 			}
 		},
 		{
-			"name": "Molder Titan",
+			"name": "Гнилец-титан",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2237,30 +2237,30 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Fungal Communication",
+					"name": "Грибное общение",
 					"entries": [
-						"The molder titan can communicate silently with molders within 60 feet of it by secreting smells."
+						"Гнилец-титан может безмолвно общаться с гнильцами в пределах 60 футов от себя, выделяя запахи."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The molder titan makes two claw attacks."
+						"Гнилец-титан совершает две атаки когтями."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage plus 3 ({@damage 1d6}) poison damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона плюс 3 ({@damage 1d6}) урона ядом."
 					]
 				},
 				{
-					"name": "Entangling Bite",
+					"name": "Опутывающий укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage plus 3 ({@damage 1d6}) poison damage. If the target is a Large or smaller creature, it must succeed in a {@dc 12} Strength saving throw or be {@condition grappled} (escape {@dc 12}).",
-						"Until the grapple ends, the molder titan can bite only the {@condition grappled} creature and has an advantage on attack rolls to do so."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона плюс 3 ({@damage 1d6}) урона ядом. Если цель — существо Большого размера или меньше, она должна преуспеть в спасброске Силы {@dc 12}, иначе становится {@condition grappled} (высвобождение {@dc 12}).",
+						"Пока этот захват не окончен, гнилец-титан может кусать только {@condition grappled} существо и совершает с преимуществом броски атаки для этого."
 					]
 				}
 			],
@@ -2269,7 +2269,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"damageTags": [
 				"I",
@@ -2287,16 +2287,16 @@
 			],
 			"fluff": {
 				"entries": [
-					"Molders are a group of swamp-dwelling creatures formed when a certain type of fungus finds suitable hosts to grow on. Creatures that wander off into the swamp and get lost and exhausted or fall ill are the most common victims of a molder colony taking over them. Once an infection sets in, it can be easy to cure, but left untreated, the result can be a fate worse than death\u2013an unlife in the service of the fungi. ",
-					"{@bold Spreading Blight.} If there are enough suitable hosts, molders can spread rapidly and completely take over a swamp. They do decay over time as they slowly break down and eat their hosts, so an outbreak of molders can quiet down after a while. Times after war are a common situation when molders can become a veritable plague near a swamp. Thankfully\u2013or unfortunately, depending on your point of view\u2013molders can only infect a humanoid creature. Keeping out of a molder infested swamp will eventually force an outbreak to die out. ",
-					"{@bold Swamp Dwellers.} Molders need a lot of shade and moisture to survive, so they seldom wander off from the swamps they have infested.",
-					"{@bold Molder Titan.} Swamps are home to many trolls, which in turn at times can become hosts for molders. In these situations, the strange mutative properties of the troll create a monstrous being known as a molder titan. ",
-					"{@bold Hulking Mass.} The molder titan differs from other molders by its size: the regenerative properties of the troll's tissues provide the molder colony a seemingly endless supply of sustenance, which in turn creates an increasingly large monster. Over time these regenerative properties diminish as the flesh rots, and the molder colony begins to consume more than there is available. Thankfully this leads to molder titans being short-lived abominations."
+					"Гнильцы — это группа болотных существ, образующихся, когда определённый вид грибка находит подходящих хозяев, на которых растёт. Существа, забредшие в болото и заблудившиеся и обессилевшие или заболевшие, — самые частые жертвы того, что колония гнильцов овладевает ими. Однажды начавшаяся инфекция легко излечивается, но если её не лечить, результат может оказаться судьбой хуже смерти — нежизнью на службе у грибка. ",
+					"{@bold Расползающаяся порча.} Если подходящих хозяев достаточно, гнильцы могут быстро распространиться и полностью захватить болото. Со временем они действительно увядают, поскольку медленно разлагают и поедают своих хозяев, поэтому вспышка гнильцов может утихнуть через какое-то время. Послевоенное время — обычная ситуация, когда гнильцы могут стать настоящей чумой близ болота. К счастью — или к несчастью, смотря как посмотреть — гнильцы могут заразить только гуманоидное существо. Держась подальше от заражённого гнильцами болота, вы в конце концов заставите вспышку угаснуть. ",
+					"{@bold Обитатели болот.} Гнильцам для выживания нужна масса тени и влаги, поэтому они редко покидают болота, в которые вселились.",
+					"{@bold Гнилец-титан.} Болота — дом для многих троллей, которые, в свою очередь, временами могут становиться хозяевами для гнильцов. В таких ситуациях странные мутагенные свойства тролля создают чудовищное существо, известное как гнилец-титан. ",
+					"{@bold Громадная масса.} Гнилец-титан отличается от других гнильцов своим размером: регенеративные свойства тканей тролля обеспечивают колонии гнильцов, казалось бы, бесконечный запас пропитания, что, в свою очередь, создаёт всё более крупного монстра. Со временем эти регенеративные свойства угасают по мере разложения плоти, и колония гнильцов начинает потреблять больше, чем доступно. К счастью, это приводит к тому, что гнильцы-титаны становятся недолговечными мерзостями."
 				]
 			}
 		},
 		{
-			"name": "Naiad",
+			"name": "Наяда",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2332,16 +2332,16 @@
 			],
 			"passive": 14,
 			"languages": [
-				"Elvish",
-				"Sylvan"
+				"Эльфийский",
+				"Сильванский"
 			],
 			"cr": "1",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The naiad's innate spellcasting ability is Charisma (spell save {@dc 14}). The naiad can innately cast the following spells, requiring no material components:"
+						"Базовая характеристика наяды для врождённых заклинаний — Харизма (спасбросок от заклинаний {@dc 14}). Наяда может врождённо накладывать следующие заклинания, не требуя материальных компонентов:"
 					],
 					"will": [
 						"{@spell druidcraft}"
@@ -2362,37 +2362,37 @@
 			],
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The naiad has advantage on saving throws against spells and other magical effects."
+						"У наяды преимущество на спасброски от заклинаний и других магических эффектов."
 					]
 				},
 				{
-					"name": "Speak with Beasts and Plants",
+					"name": "Разговор со зверями и растениями",
 					"entries": [
-						"The naiad can communicate with beasts and plants as if they shared a language."
+						"Наяда может общаться со зверями и растениями так, словно они делят общий язык."
 					]
 				},
 				{
-					"name": "Hazy Disappearance",
+					"name": "Туманное исчезновение",
 					"entries": [
-						"As long as the naiad is underwater, it can cast invisibility at will, requiring no material components."
+						"Пока наяда находится под водой, она может по желанию накладывать «невидимость», не требуя материальных компонентов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Club",
+					"name": "Дубина",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit ({@hit 6} to hit with shillelagh), reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage, or 8 ({@dice 1d8} + 4) bludgeoning damage with shillelagh."
+						"{@atk mw} {@hit 2} к попаданию ({@hit 6} к попаданию с шилейлой), досягаемость 5 футов, одна цель. {@h}2 ({@damage 1d4}) дробящего урона или 8 ({@dice 1d8} + 4) дробящего урона с шилейлой."
 					]
 				},
 				{
-					"name": "Fey Charm",
+					"name": "Фейское очарование",
 					"entries": [
-						"The naiad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the naiad, it must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition charmed}. The {@condition charmed} creature regards the naiad as a trusted friend to be heeded and protected. Although the target isn't under the naiad's control, it takes the naiad's requests or actions in the most favorable way it can.",
-						"Each time the naiad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the naiad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the naiad's Fey Charm for the next 24 hours.",
-						"The naiad can have no more than one humanoid and up to three beasts {@condition charmed} at a time."
+						"Наяда выбирает целью одного гуманоида или зверя, которого видит в пределах 30 футов от себя. Если цель может видеть наяду, она должна преуспеть в спасброске Мудрости {@dc 14}, иначе магически становится {@condition charmed}. Существо {@condition charmed} считает наяду доверенным другом, к которому следует прислушиваться и которого следует защищать. Хотя цель и не находится под контролем наяды, она воспринимает её просьбы или действия самым благоприятным для неё образом.",
+						"Каждый раз, когда наяда или её союзники причиняют цели вред, цель может повторить спасбросок, при успехе снимая эффект с себя. В остальных случаях эффект длится 24 часа или до тех пор, пока наяда не умрёт, не окажется на другом плане существования от цели или не окончит эффект бонусным действием. Если спасбросок цели успешен, цель становится невосприимчивой к «Фейскому очарованию» наяды на следующие 24 часа.",
+						"Наяда может держать {@condition charmed} одновременно не более одного гуманоида и до трёх зверей."
 					]
 				}
 			],
@@ -2431,7 +2431,7 @@
 			]
 		},
 		{
-			"name": "Oozehound",
+			"name": "Слизнегончая",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2474,36 +2474,36 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Smelly",
+					"name": "Зловоние",
 					"entries": [
-						"Any creature that has advantage on Wisdom (Perception) checks that rely on smell automatically knows the location of an oozehound that is within 120 feet of it."
+						"Любое существо, обладающее преимуществом на проверки Мудрости (Внимательность), основанные на обонянии, автоматически знает местоположение слизнегончей в пределах 120 футов от себя."
 					]
 				},
 				{
-					"name": "Sticky",
+					"name": "Липкость",
 					"entries": [
-						"The oozehound can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Слизнегончая может лазать по трудным поверхностям, включая передвижение вниз головой по потолкам, не совершая проверок характеристик."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The oozehound makes four tentacle slap attacks."
+						"Слизнегончая совершает четыре атаки ударом щупальцем."
 					]
 				},
 				{
-					"name": "Tentacle Slap",
+					"name": "Удар щупальцем",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, and the target must succeed on a {@dc 12} Constitution saving throw. On a failed save, the creature can't use reactions and its speed is halved until the end of its next turn.",
-						"If the target is already under the effects of this ability and is hit again, it repeats the saving throw, and is {@condition restrained} on a failure until the end of its next turn. On a success, the original effects continue until the end of the target's next turn."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) дробящего урона, и цель должна преуспеть в спасброске Телосложения {@dc 12}. При провале существо не может совершать реакции, и его скорость уменьшается вдвое до конца его следующего хода.",
+						"Если цель уже находится под действием этого умения и получает удар снова, она повторяет спасбросок и при провале становится {@condition restrained} до конца своего следующего хода. При успехе исходные эффекты продолжаются до конца следующего хода цели."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage plus 11 ({@damage 2d10}) poison damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d8 + 2}) колющего урона плюс 11 ({@damage 2d10}) урона ядом."
 					]
 				}
 			],
@@ -2512,7 +2512,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"damageTags": [
 				"B",
@@ -2531,15 +2531,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Oozehounds are neither hounds nor oozes, but have similarities with both, at least on the outside. An oozehound is a truly hideous being created by foul sorcery. It can be smelled well before it is seen: the overpowering smell of the slime it is covered in resembles the stench of rotten eggs. They live in wet, secluded locations such as swamps, lakeside caves or even sewers. ",
-					"{@bold Solitary Hunters.} An oozehound claims an area large enough to sustain itself as its territory and guards it fiercely against all possible intruders, including other oozehounds. It may tolerate creatures that are significantly smaller than it, provided they keep their distance and don't seem like a threat to it. ",
-					"{@bold Covered in Slime.} The Oozehound is covered in a sticky, viscous fluid it secretes constantly. This allows it to climb surfaces and trap its opponents. It has a multitude of tentacles growing out of its back, all of them covered in this sticky, smelly substance. Anyone that gets hit with a slap is instantly covered with the disgusting slime and will find movement difficult. ",
-					"{@bold Unlikely Guard Dogs.} Despite being quite aggressive, some small humanoids, such as kobolds, have learned how to use oozehounds as guards by providing food for them and keeping a respectful distance. A well fed oozehound is quite happy staying in place, so it can be used to guard a strategic location in a sewer, for instance."
+					"Слизнегончие — ни гончие, ни слизи, но имеют сходство с обоими, по крайней мере внешне. Слизнегончая — поистине отвратительное существо, созданное мерзким колдовством. Её можно учуять задолго до того, как увидеть: всепоглощающий запах покрывающей её слизи напоминает вонь тухлых яиц. Они живут во влажных уединённых местах, таких как болота, пещеры у озёр или даже канализация. ",
+					"{@bold Одинокие охотники.} Слизнегончая объявляет своей территорией область, достаточно большую, чтобы прокормить себя, и яростно охраняет её от всех возможных пришельцев, включая других слизнегончих. Она может терпеть существ значительно меньших себя, при условии что те держат дистанцию и не кажутся ей угрозой. ",
+					"{@bold Покрыта слизью.} Слизнегончая покрыта липкой вязкой жидкостью, которую постоянно выделяет. Это позволяет ей лазать по поверхностям и ловить противников. Из её спины растёт множество щупалец, и все они покрыты этим липким, зловонным веществом. Любой, по кому попадает удар, мгновенно покрывается отвратительной слизью, и ему становится трудно двигаться. ",
+					"{@bold Неожиданные сторожевые псы.} Несмотря на свою довольно агрессивную натуру, некоторые малые гуманоиды, например кобольды, научились использовать слизнегончих как стражей, обеспечивая их едой и соблюдая почтительную дистанцию. Сытая слизнегончая вполне довольна, оставаясь на месте, поэтому её можно использовать, например, для охраны стратегического места в канализации."
 				]
 			}
 		},
 		{
-			"name": "Shadestalker",
+			"name": "Тенелов",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2594,41 +2594,41 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands Common but can't speak"
+				"Understands Общий но не может говорить"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Shadow Stride",
+					"name": "Теневой шаг",
 					"entries": [
-						"When the shadestalker is in dim light or darkness, it can use a bonus action to teleport up to 60 feet to an unoccupied space it can see that is also in dim light or darkness."
+						"Когда тенелов находится в тусклом свете или во тьме, он может бонусным действием телепортироваться на расстояние до 60 футов в свободное пространство, которое видит и которое также находится в тусклом свете или во тьме."
 					]
 				},
 				{
-					"name": "Sunlight Weakness",
+					"name": "Слабость к солнцу",
 					"entries": [
-						"While in bright light created by sunlight, the shadestalker has disadvantage on attack rolls, ability checks, and saving throws."
+						"Находясь в ярком свете, созданном солнечным светом, тенелов совершает с помехой броски атаки, проверки характеристик и спасброски."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The shadestalker makes three impale attacks."
+						"Тенелов совершает три атаки пронзанием."
 					]
 				},
 				{
-					"name": "Impale",
+					"name": "Пронзание",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
 					]
 				},
 				{
-					"name": "Obscure {@recharge 5}",
+					"name": "Затмение {@recharge 5}",
 					"entries": [
-						"A 15-foot radius of magical darkness extends out from the shadestalker and spreads around corners.",
-						"The darkness does not move with the shadestalker, but lasts as long as the shadestalker maintains concentration, up to 1 minute (as if concentrating on a spell). Darkvision can't penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled."
+						"Радиус магической тьмы в 15 футов исходит от тенелова и распространяется за углы.",
+						"Тьма не перемещается вместе с тенеловом, но держится, пока тенелов поддерживает концентрацию, вплоть до 1 минуты (как если бы он концентрировался на заклинании). Тёмное зрение не может проникнуть сквозь эту тьму, и никакой естественный свет не освещает её. Если эта тьма пересекается с областью света, созданной заклинанием 2-го уровня или ниже, заклинание, создающее свет, рассеивается."
 					]
 				}
 			],
@@ -2637,7 +2637,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"languageTags": [
 				"C",
@@ -2653,14 +2653,14 @@
 			],
 			"fluff": {
 				"entries": [
-					"Travelers who move through swamps are threatened by many different beings, but few are as frightening as the shadestalker. These beings are native to the elemental plane of Shadow, but often slip into the mortal planes when an opportunity arises or when summoned by spellcasters or other powerful beings. They are rarely seen in direct light, and most people only see their green eyes glittering in the darkness before being impaled by them. ",
-					"{@bold Masterful Lurkers.} The shadestalker resembles a plant but seeing it up close reveals that it is something else. Although its body looks like a collection of roots, it's covered in skin rather than bark. The skin is slick with a chameleonlike surface that shifts its color and manipulates light in a way that seems to create texture where there is none. Only in direct light it is revealed that a shadestalker is actually the color of white pearls. They usually stay in place or move from shadow to shadow when hunting their prey, whatever fits the situation best. ",
-					"{@bold Servants and Sentinels.} Shadestalkers often serve more powerful beings, such as hags or evil spellcasters, or even black dragons. They usually act as guards around their master's lair and kill all those who wander too close to it. They are callous beings that enjoy seeing the life disappear from their victim's eyes as their spear-like limbs impale them. At times their master commands them to scout and spy for them, something the shadestalker is good at, but does not enjoy. On such missions, its bloodthirsty nature may take the better of it and it may attack its target against orders."
+					"Путникам, идущим через болота, угрожают многие существа, но мало кто столь страшен, как тенелов. Эти создания родом с элементального плана Тени, но часто проскальзывают в смертные планы, когда появляется возможность или когда их призывают заклинатели либо другие могущественные существа. Их редко видят при прямом свете, и большинство людей успевают увидеть лишь блеск их зелёных глаз во тьме, прежде чем их пронзают. ",
+					"{@bold Искусные затаиватели.} Тенелов похож на растение, но вблизи видно, что это нечто иное. Хотя его тело выглядит как скопление корней, оно покрыто кожей, а не корой. Кожа гладкая, с хамелеоноподобной поверхностью, которая меняет цвет и управляет светом так, что, кажется, создаёт текстуру там, где её нет. Лишь при прямом свете обнаруживается, что тенелов на самом деле цвета белого жемчуга. Охотясь на добычу, они обычно остаются на месте или перебираются из тени в тень — в зависимости от того, что лучше подходит к ситуации. ",
+					"{@bold Слуги и стражи.} Тенеловы часто служат более могущественным существам — таким как карги или злые заклинатели, а то и чёрные драконы. Обычно они выступают стражами вокруг логова своего хозяина и убивают всех, кто подходит слишком близко. Это бесчувственные создания, которым нравится видеть, как жизнь угасает в глазах их жертвы, когда их копьевидные конечности пронзают её. Временами хозяин приказывает им разведывать и шпионить — тенелов хорошо это умеет, но не любит. В таких заданиях его кровожадная натура может взять верх, и он нападает на цель вопреки приказам."
 				]
 			}
 		},
 		{
-			"name": "Skull Mollusk",
+			"name": "Черепной моллюск",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2696,29 +2696,29 @@
 			"cr": "0",
 			"action": [
 				{
-					"name": "Tentacles",
+					"name": "Щупальца",
 					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 bludgeoning damage and the target is {@condition grappled} (escape {@dc 8}). Until the grapple ends, the mollusk can gnaw the target and has advantage on attack rolls to do so."
+						"{@atk mw} {@hit 0} к попаданию, досягаемость 5 футов, одна цель. {@h}1 дробящего урона, и цель становится {@condition grappled} (высвобождение {@dc 8}). Пока этот захват не окончен, моллюск может обгладывать цель и совершает с преимуществом броски атаки для этого."
 					]
 				},
 				{
-					"name": "Gnaw",
+					"name": "Обгладывание",
 					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target that is {@condition grappled} by the mollusk. {@h}2 ({@damage 1d4}) piercing damage."
+						"{@atk mw} {@hit 0} к попаданию, досягаемость 5 футов, одна цель, {@condition grappled} моллюском. {@h}2 ({@damage 1d4}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Drop Attack",
+					"name": "Атака сверху",
 					"entries": [
-						"When the mollusk drops onto or otherwise impacts a creature, it makes a tentacles attack against it with advantage."
+						"Когда моллюск падает на существо или иным образом врезается в него, он совершает по нему атаку щупальцами с преимуществом."
 					]
 				}
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/MMM-SS/dOPOD3Q.png",
 			"actionTags": [
-				"Tentacles"
+				"Щупальца"
 			],
 			"damageTags": [
 				"B",
@@ -2732,13 +2732,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Skull mollusks are land-dwelling cousins of the octopus. They get their name from their habit of taking a skull or a similar round object as a protective shell to hide in. They carry the shell around, climb up trees and wait their to ambush their prey. Skull mollusks are carnivores, but have a peculiar feeding habit: they prefer to use their tentacles to grab larger creatures and gnaw at them, removing small bites of flesh to eat. When such prey is unavailable, they scavenge and consume carrion. Their tentacles are covered in small, curved barbs which make it easier for them to attach to any kind of creature.",
-					"{@bold Pets of Hodgepokers.} Creatures such as {@creature hodgepoker|MMM-SS|Hodgepokers} (see earlier in this booklet) like to catch skull mollusks to use in their tricks. Carrying these creatures is easy, as the mollusk usually hides in the skull and becomes inactive when put into a dark place, such as a bag. Hodgepokers sometimes throw these creatures at unsuspecting enemies with the intent of slowing them down or distracting them."
+					"Черепные моллюски — наземные родичи осьминога. Своё название они получили за привычку брать череп или похожий округлый предмет в качестве защитной раковины, в которой можно спрятаться. Они носят раковину с собой, взбираются на деревья и ждут там, чтобы устроить засаду на добычу. Черепные моллюски — хищники, но у них своеобразная манера питания: они предпочитают хватать крупных существ щупальцами и обгладывать их, откусывая небольшие кусочки плоти для еды. Когда такой добычи нет, они подбирают и поедают падаль. Их щупальца покрыты мелкими загнутыми зазубринами, которые облегчают прикрепление к любому существу.",
+					"{@bold Питомцы ходжпокеров.} Такие существа, как {@creature Ходжпокер|MMM-SS|Ходжпокеры} (см. ранее в этом буклете), любят ловить черепных моллюсков для использования в своих трюках. Носить этих существ легко, так как моллюск обычно прячется в черепе и становится неактивным, когда его помещают в тёмное место, например в мешок. Ходжпокеры иногда швыряют этих существ в ничего не подозревающих врагов, намереваясь замедлить их или отвлечь."
 				]
 			}
 		},
 		{
-			"name": "Svampyr",
+			"name": "Свампир",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2774,42 +2774,42 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Амфибия",
 					"entries": [
-						"The svampyr can breathe air and water."
+						"Свампир может дышать воздухом и водой."
 					]
 				},
 				{
-					"name": "Water Dependency",
+					"name": "Зависимость от воды",
 					"entries": [
-						"The svampyr takes 6 ({@damage 1d12}) acid damage every 1 minute it goes without exposure to water."
+						"Свампир получает 6 ({@damage 1d12}) урона кислотой за каждую 1 минуту без контакта с водой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Grapple",
+					"name": "Захват",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 13}).",
-						"At the start of each of the svampyr's turns, the target loses 6 ({@dice 1d6 + 3}) hit points due to blood loss, and the svampyr regains hit points equal to the damage taken. The grapple ends if the svampyr takes the Flail About action."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) колющего урона. Если цель — существо Среднего размера или меньше, она становится {@condition grappled} (высвобождение {@dc 13}).",
+						"В начале каждого хода свампира цель теряет 6 ({@dice 1d6 + 3}) хитов из-за потери крови, а свампир восстанавливает хиты, равные полученному урону. Захват оканчивается, если свампир совершает действие «Барахтанье»."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Удар",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) дробящего урона."
 					]
 				},
 				{
-					"name": "Flail About",
+					"name": "Барахтанье",
 					"entries": [
-						"If the svampyr is at least partially submerged in water, it swings its body around violently, causing the water to splash everywhere. Each creature within 10 feet of it must succeed on a {@dc 13} Constitution saving throw or be {@condition blinded} until the end of the svampyr's next turn. Additionally, the svampyr makes a slam attack against each creature within 5 feet of it."
+						"Если свампир хотя бы частично погружён в воду, он неистово крутит телом, разбрызгивая воду повсюду. Каждое существо в пределах 10 футов от него должно преуспеть в спасброске Телосложения {@dc 13}, иначе становится {@condition blinded} до конца следующего хода свампира. Кроме того, свампир совершает атаку ударом по каждому существу в пределах 5 футов от него."
 					]
 				}
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/MMM-SS/aKrh9iC.png",
 			"traitTags": [
-				"Amphibious"
+				"Амфибия"
 			],
 			"senseTags": [
 				"B",
@@ -2834,13 +2834,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Named by the now forgotten evil wizard who needed sentinels to guard his hidden laboratory and had the bright idea of creating giant, ravenous leeches to do the job, svampyrs are one of the ugliest and most dangerous things swimming through the wetlands. ",
-					"{@bold Bloodsucking Grapplers.} A svampyr lurks in the shallow waters of the swamp and roams searching for prey. Once it finds its quarry, it waits and tries to find a moment to attack. Once it finds an opportunity, it attempts to grapple its target and envelop it with its jaws. The many sharp blades hidden in its mouth parts penetrate the victim's skin and the swampyr begins to suck blood out of the victim."
+					"Названные давно забытым злым волшебником, которому нужны были стражи для охраны своей тайной лаборатории и который додумался создать для этого гигантских ненасытных пиявок, свампиры — одни из самых уродливых и опасных существ, плавающих по заболоченным землям. ",
+					"{@bold Кровососущие захватчики.} Свампир таится в мелких водах болота и рыскает в поисках добычи. Найдя жертву, он ждёт и старается выждать момент для атаки. Как только выпадает возможность, он пытается схватить цель и обхватить её челюстями. Множество острых лезвий, скрытых в его ротовых частях, проникают под кожу жертвы, и свампир начинает высасывать из неё кровь."
 				]
 			}
 		},
 		{
-			"name": "Swarm of Leeches",
+			"name": "Роя пиявок",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2897,17 +2897,17 @@
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Swarm",
+					"name": "Рой",
 					"entries": [
-						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+						"Рой может занимать пространство другого существа и наоборот, и рой может перемещаться через любое отверстие, достаточно большое для Крошечного насекомого. Рой не может восстанавливать хиты или получать временные хиты."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer; and the swarm attaches to the target. While attached, the swarm moves when the target moves. The swarm can detach by spending 5 feet of movement."
+						"{@atk mw} {@hit 3} к попаданию, досягаемость 0 футов, одна цель в пространстве роя. {@h}10 ({@damage 4d4}) колющего урона или 5 ({@damage 2d4}) колющего урона, если у роя половина хитов или меньше; и рой прикрепляется к цели. Пока рой прикреплён, он перемещается вместе с целью. Рой может отцепиться, потратив 5 футов перемещения."
 					]
 				}
 			],
@@ -2923,7 +2923,7 @@
 			]
 		},
 		{
-			"name": "Utburd",
+			"name": "Утбурд",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -2958,28 +2958,28 @@
 			"cha": 6,
 			"passive": 10,
 			"languages": [
-				"understands Sylvan but can't speak"
+				"Understands сильванский но не может говорить"
 			],
 			"cr": "2",
 			"action": [
 				{
-					"name": "Claw",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 2d8 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Horrifying Wail {@recharge 5}",
+					"name": "Ужасающий вопль {@recharge 5}",
 					"entries": [
-						"The utburd releases an unnerving wail. Each creature of the utburd's choice within 60 feet of the utburd that can hear it must succeed on a {@dc 10} Wisdom saving throw or be {@condition frightened} until the end of the utburd's next turn."
+						"Утбурд испускает леденящий вопль. Каждое выбранное утбурдом существо в пределах 60 футов от него, которое его слышит, должно преуспеть в спасброске Мудрости {@dc 10}, иначе становится {@condition frightened} до конца следующего хода утбурда."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Furious Retribution",
+					"name": "Яростное возмездие",
 					"entries": [
-						"When a creature within 15 feet of the utburd kills a bane bogy, the utburd can move up to 10 feet towards that creature and make a claw attack against the creature if it is able."
+						"Когда существо в пределах 15 футов от утбурда убивает губительного боги, утбурд может переместиться на расстояние до 10 футов в сторону этого существа и, если может, совершить по нему атаку когтями."
 					]
 				}
 			],
@@ -3002,14 +3002,14 @@
 			],
 			"fluff": {
 				"entries": [
-					"Utburd means \"taken outside\", it's an old phrase referring to children that are abandoned after birth. Often a newborn is hidden in the swamp, where the bane bogies find it, but at times bane bogies may even steal newborns from nearby villages. The bogies feed the baby foulberries until it begins to transform and grow, creating a massive monster that sees the bane bogies as its family and protects them fiercely. The heads of utburds bear some semblance of humanoid features, but their bodies do not: they have stout, short bodies that resemble massive moles, and sharp claws which they use for maiming their enemies and digging. ",
-					"{@bold Horrifying Howlers.} An utburd makes sounds that are almost identical to the sounds a newborn would make, which is enough to give chills to anyone trying to hunt or fight them. Their eerie howls are loud and can be heard for miles around, so anyone brave enough can use these sounds to find the location of a bane bogy tribe. ",
-					"{@bold Servants of Bane Bogies.} Utburds serve {@creature bane bogy|MMM-SS|bane bogies} (see earlier in this booklet) and protect them. They dig a cave near the home tree of the bogies as a nest for themselves, and attack anyone trying to get near the tribe. Sometimes, if an utburd grows large enough, the bane bogies can use it to attack a village to destroy the village and everyone in it. Such occurrences are rare, however, as most utburds are not large enough to be used in such a manner."
+					"«Утбурд» означает «вынесенный наружу» — это старое выражение, относящееся к детям, которых оставляют после рождения. Часто новорождённого прячут в болоте, где его находят губительные боги, но иногда боги могут даже украсть новорождённых из ближних деревень. Боги кормят младенца злотворными ягодами, пока он не начнёт преображаться и расти, превращаясь в огромного монстра, который считает губительных боги своей семьёй и яростно их защищает. Головы утбурдов несут некоторое подобие гуманоидных черт, но их тела — нет: у них коренастые короткие тела, напоминающие огромных кротов, и острые когти, которыми они калечат врагов и копают. ",
+					"{@bold Ужасающие вопли.} Утбурд издаёт звуки, почти идентичные тем, что издаёт новорождённый, и этого достаточно, чтобы оторопь взяла любого, кто пытается на них охотиться или с ними сражаться. Их жуткие вопли громки и слышны на многие мили вокруг, так что любой смельчак может использовать эти звуки, чтобы найти местоположение племени губительных боги. ",
+					"{@bold Слуги губительных боги.} Утбурды служат {@creature Губительный боги|MMM-SS|губительные боги} (см. ранее в этом буклете) и защищают их. Они выкапывают пещеру близ домашнего дерева боги как гнездо для себя и нападают на любого, кто пытается приблизиться к племени. Иногда, если утбурд вырастает достаточно большим, губительные боги могут использовать его для нападения на деревню, чтобы уничтожить её и всех в ней. Однако такие случаи редки, так как большинство утбурдов недостаточно крупны для такого использования."
 				]
 			}
 		},
 		{
-			"name": "Young Maladrix",
+			"name": "Молодой маладрикс",
 			"source": "MMM-SS",
 			"page": 0,
 			"size": [
@@ -3072,65 +3072,65 @@
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Aura of Silence",
+					"name": "Аура тишины",
 					"entries": [
-						"No sound can pass through or be created within 15 feet of the maladrix if the maladrix is not in sunlight. Any creature or object entirely inside the radius is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there."
+						"Никакой звук не может пройти сквозь пространство в пределах 15 футов от маладрикса или быть создан там, если маладрикс не находится под солнечным светом. Любое существо или предмет, полностью находящиеся внутри радиуса, невосприимчивы к урону звуком, а существа {@condition deafened}, пока находятся внутри него целиком. Наложение заклинания, включающего словесный компонент, там невозможно."
 					]
 				},
 				{
-					"name": "Soul Harvest",
+					"name": "Жатва душ",
 					"entries": [
-						"A creature that dies from the maladrix's attacks can't be revived with spells of 7th level or lower unless the maladrix is dead and its heart is destroyed."
+						"Существо, погибшее от атак маладрикса, нельзя вернуть к жизни заклинаниями 7-го уровня или ниже, если маладрикс не мёртв и его сердце не уничтожено."
 					]
 				},
 				{
-					"name": "Spiderclimb",
+					"name": "Паучье лазание",
 					"entries": [
-						"The maladrix can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Маладрикс может лазать по трудным поверхностям, включая передвижение вниз головой по потолкам, не совершая проверок характеристик."
 					]
 				},
 				{
-					"name": "Sunlight Sensitivity",
+					"name": "Светочувствительность",
 					"entries": [
-						"While in sunlight, the maladrix has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+						"Находясь под солнечным светом, маладрикс совершает с помехой броски атаки, а также проверки Мудрости (Внимательность), основанные на зрении."
 					]
 				},
 				{
-					"name": "Whispers of Madness",
+					"name": "Шёпот безумия",
 					"entries": [
-						"Any creature that starts its turn within 5 feet of the maladrix must make a {@dc 15} Wisdom saving throw. On a failure, the creature can't take reactions until the start of its next turn and rolls a {@dice d10} to determine what it does during its turn.",
-						"On a 1 to 3, the creature feels horrifying anxiety and is {@condition frightened} until the end of its turn.",
-						"On a 4 to 6, the creature succumbs to a fugue state and is {@condition incapacitated} until the end its turn.",
-						"On a 7 to 8, the creature is overwhelmed with dread; it can't take any action or bonus action and uses all its movement to move away from the maladrix.",
-						"On a 9 to 10, the creature feels uncontrollable rage and makes a melee attack against a random ally within its reach or makes a melee attack against itself if it can't make such an attack."
+						"Любое существо, начинающее свой ход в пределах 5 футов от маладрикса, должно совершить спасбросок Мудрости {@dc 15}. При провале существо не может совершать реакции до начала своего следующего хода и бросает {@dice d10}, чтобы определить, что оно делает в свой ход.",
+						"При результате 1–3 существо испытывает ужасающую тревогу и становится {@condition frightened} до конца своего хода.",
+						"При результате 4–6 существо впадает в состояние фуги и становится {@condition incapacitated} до конца своего хода.",
+						"При результате 7–8 существо охватывает ужас; оно не может совершать действия или бонусные действия и использует всё своё перемещение, чтобы уйти от маладрикса.",
+						"При результате 9–10 существо охватывает неконтролируемая ярость, и оно совершает рукопашную атаку по случайному союзнику в пределах своей досягаемости или рукопашную атаку по себе, если такой атаки совершить не может."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The maladrix makes three attacks with its claws."
+						"Маладрикс совершает три атаки когтями."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Necrotic Bite",
+					"name": "Некротический укус",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage plus 13 ({@damage 2d12}) necrotic damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 2d6 + 2}) колющего урона плюс 13 ({@damage 2d12}) урона некротической энергией."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Psychic Screams",
+					"name": "Психические крики",
 					"entries": [
-						"When the maladrix is subjected to damage, it can bombard the attacking creature with psychic screams. The creature must make a {@dc 15} Wisdom saving throw. On a failure, it is {@condition deafened} and can't stop screaming. It can't cast any spells with a verbal component while it is screaming. The effect lasts until the end of the creature's next turn."
+						"Когда маладрикс получает урон, он может обрушить на атакующее существо психические крики. Существо должно совершить спасбросок Мудрости {@dc 15}. При провале оно {@condition deafened} и не может перестать кричать. Оно не может накладывать заклинания со словесным компонентом, пока кричит. Эффект длится до конца следующего хода существа."
 					]
 				}
 			],
@@ -3142,7 +3142,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Мультиатака"
 			],
 			"damageTags": [
 				"N",
@@ -3161,23 +3161,23 @@
 			],
 			"fluff": {
 				"entries": [
-					"No-one knows how a maladrix is born. Some say that a city that is sinful will spawn one in the hidden corners of the city. Others speculate that it is a spirit that has infested a collection of filth and bones to find a form to inhabit. Nevertheless, it is a scourge that will torment a city in many terrible ways, if left unchecked. ",
-					"{@bold Revolting and Ghastly.} Maladrixes have the upper bodies of ghasts and an insectoid lower body with six legs. Their bones extrude from their flesh in disgusting ways and they smell like a combination of dead flesh and sewer waste. ",
-					"{@bold Horrors in the Sewers.} Maladrixes are usually found in the sewers of large cities, but sometimes they can be found in swamps or underground caves. Most prefer to be near their prey, which is why they prefer cities over the wilderness\u2013even if cities are more dangerous hunting grounds for them. ",
-					"{@bold Telepathic Mind Breakers.} Maladrixes are telepathic, but they don't speak any languages. Instead, they communicate by images and emotions. They project an aura of telepathic, incoherent whispering near them, which twists the minds of their victims, creating waking nightmares and pitting them against each other. They hunt at night and kill their prey in horrible and sadistic ways before feasting on their souls and leaving the bodies out in the open to spread fear. ",
-					"{@bold Harvesters of Souls.} When a maladrix kills a creature, it consumes the victim's soul. Reviving a creature that has lost its soul this way is not possible, although the soul remains intact for a few days hidden in the maladrix's heart, which is a calcified, bonelike structure in the chest of the monster. Breaking the heart releases all the souls that have not yet been consumed. ",
-					"{@bold Dreadful Silencers.} Maladrixes seem to make no sound when they move, but the reality is even more disturbing. Maladrixes deafen all sound around them, making them impossible to detect by sound."
+					"Никто не знает, как рождается маладрикс. Одни говорят, что грешный город породит одного в своих скрытых уголках. Другие предполагают, что это дух, вселившийся в скопление грязи и костей, чтобы найти себе форму для обитания. Как бы то ни было, это бич, который будет терзать город многими страшными способами, если его не остановить. ",
+					"{@bold Отвратительные и жуткие.} У маладриксов верхняя часть тела — как у вурдалаков, а нижняя — насекомоподобная, с шестью ногами. Их кости отвратительно выступают из плоти, и они пахнут смесью мёртвой плоти и канализационных отходов. ",
+					"{@bold Ужасы в канализации.} Маладриксов обычно находят в канализации больших городов, но иногда их можно встретить в болотах или подземных пещерах. Большинство предпочитает быть рядом с добычей, поэтому они предпочитают города дикой природе — даже если города для них более опасные охотничьи угодья. ",
+					"{@bold Телепатические ломатели разума.} Маладриксы телепатичны, но ни на каких языках не говорят. Вместо этого они общаются образами и эмоциями. Они проецируют вокруг себя ауру телепатического бессвязного шёпота, которая искажает разум их жертв, порождая кошмары наяву и стравливая их друг с другом. Они охотятся по ночам и убивают добычу ужасными и садистскими способами, прежде чем насытиться их душами и оставить тела на виду, чтобы сеять страх. ",
+					"{@bold Жнецы душ.} Когда маладрикс убивает существо, он поглощает душу жертвы. Вернуть к жизни существо, потерявшее душу таким образом, невозможно, хотя душа остаётся невредимой несколько дней, спрятанная в сердце маладрикса — обызвествлённой, похожей на кость структуре в груди монстра. Разбитие сердца освобождает все ещё не поглощённые души. ",
+					"{@bold Ужасающие глушители.} Кажется, что маладриксы не издают никаких звуков при движении, но реальность ещё более тревожна. Маладриксы заглушают всё звуки вокруг себя, делая невозможным их обнаружение по звуку."
 				]
 			}
 		}
 	],
 	"table": [
 		{
-			"name": "Mire Random Encounters (Level 1-4)",
+			"name": "Случайные встречи в трясине (уровни 1–4)",
 			"source": "MMM-SS",
 			"colLabels": [
 				"{@dice d100}",
-				"Encounter"
+				"Встреча"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -3215,7 +3215,7 @@
 							"pad": true
 						}
 					},
-					"{@dice 1d8} {@creature commoner} gathering peat or berries"
+					"{@dice 1d8} {@creature commoner}, собирающие торф или ягоды"
 				],
 				[
 					{
@@ -3292,7 +3292,7 @@
 							"pad": true
 						}
 					},
-					"A {@creature bandit captain}, tied up in a pool that is slowly filling up."
+					"{@creature bandit captain}, связанный в водоёме, который медленно наполняется."
 				],
 				[
 					{
@@ -3303,7 +3303,7 @@
 							"pad": true
 						}
 					},
-					"{@dice 1d8+1} {@creature hodgepoker|MMM-SS}"
+					"{@dice 1d8+1} {@creature Ходжпокер|MMM-SS}"
 				],
 				[
 					{
@@ -3314,7 +3314,7 @@
 							"pad": true
 						}
 					},
-					"a bog body (see book), which during the night haunts the locations as a {@creature specter}"
+					"болотное тело (см. книгу), которое ночью является в этих местах как {@creature specter}"
 				],
 				[
 					{
@@ -3325,7 +3325,7 @@
 							"pad": true
 						}
 					},
-					"{@dice 1d6} {@creature gorgemaw|MMM-SS}"
+					"{@dice 1d6} {@creature Горгемор|MMM-SS}"
 				],
 				[
 					{
@@ -3347,7 +3347,7 @@
 							"pad": true
 						}
 					},
-					"1 {@creature bogmangler|MMM-SS}"
+					"1 {@creature Болотный терзатель|MMM-SS}"
 				],
 				[
 					{
@@ -3358,7 +3358,7 @@
 							"pad": true
 						}
 					},
-					"{@dice 1d4} {@creature harpy} sit on a stunted tree, waiting for a moment to strike a character into a pond"
+					"{@dice 1d4} {@creature harpy} сидят на чахлом дереве, выжидая момент, чтобы сбросить персонажа в пруд"
 				],
 				[
 					{
@@ -3369,7 +3369,7 @@
 							"pad": true
 						}
 					},
-					"An old crone collecting medicinal herbs"
+					"Старая карга, собирающая целебные травы"
 				],
 				[
 					{
@@ -3380,7 +3380,7 @@
 							"pad": true
 						}
 					},
-					"A {@creature green hag} impersonating as an old hag collecting medicinal herbs"
+					"{@creature green hag}, притворяющаяся старой каргой, собирающей целебные травы"
 				],
 				[
 					{
@@ -3402,7 +3402,7 @@
 							"pad": true
 						}
 					},
-					"1 {@creature mire ooze|MMM-SS}"
+					"1 {@creature Топкая слизь|MMM-SS}"
 				],
 				[
 					{
@@ -3412,7 +3412,7 @@
 							"pad": true
 						}
 					},
-					"1 {@creature hydra} bursts from under a quagmire"
+					"1 {@creature hydra} вырывается из-под трясины"
 				]
 			]
 		}

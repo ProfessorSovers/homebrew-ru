@@ -24,7 +24,7 @@
 	},
 	"monster": [
 		{
-			"name": "Apex Tsucora Quori",
+			"name": "Вершинный цукора куори",
 			"isNamedCreature": true,
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
@@ -96,10 +96,10 @@
 				"frightened"
 			],
 			"languages": [
-				"Common",
+				"Общий",
 				"Quor",
 				"Riedran",
-				"telepathy 120 ft"
+				"Телепатия 120 ft"
 			],
 			"cr": {
 				"cr": "11",
@@ -107,10 +107,10 @@
 			},
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting (Psionics)",
+					"name": "Врождённое колдовство (псионика)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The tsucora's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no components:"
+						"Базовая характеристика для заклинаний цукора — Харизма (Сл спасброска от заклинаний {@dc 16}). Он может врождённо накладывать следующие заклинания, не требуя компонентов:"
 					],
 					"will": [
 						"{@spell mage armor} (self only; the armor is invisible)",
@@ -129,78 +129,78 @@
 			],
 			"trait": [
 				{
-					"name": "Legendary Resistance (1/day)",
+					"name": "Легендарное сопротивление (1/день)",
 					"entries": [
-						"If the apex tsucora fails a saving throw, it can choose to succeed instead."
+						"Если вершинный цукора проваливает спасбросок, он может вместо этого преуспеть."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The apex tsucora has advantage on saving throws against spells and other magical effects."
+						"Вершинный цукора совершает спасброски против заклинаний и других магических эффектов с преимуществом."
 					]
 				},
 				{
-					"name": "Nightmare Awareness",
+					"name": "Осведомлённость о кошмарах",
 					"entries": [
-						"Magical darkness doesn't impede the quori's darkvision, and magic can't put it to sleep."
+						"Магическая тьма не мешает тёмному зрению куори, а магия не может погрузить его в усыпление."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The tsucora makes three attacks: two with its pincers and one with its sting."
+						"Цукора совершает три атаки: две клешнями и одну жалом."
 					]
 				},
 				{
-					"name": "Pincer",
+					"name": "Клешня",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft, one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 13}). The tsucora has two pincers, each of which can grapple only one target."
+						"{@atk mw} {@hit 8} для попадания, досягаемость 10 футов, одна цель. {@h}15 ({@damage 2d10 + 4}) дробящего урона, и цель становится {@condition grappled} (спасбросок {@dc 13}). У Цукоры две клешни, каждая из которых может схватить только одну цель."
 					]
 				},
 				{
-					"name": "Terrifying Sting",
+					"name": "Ужасающий укус",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage and the target must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. At the end of each of the target's turns while {@condition frightened} by this effect, it must succeed on another Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage. On a successful save, the target is no longer {@condition frightened}."
+						"{@atk mw} {@hit 9} для попадания, досягаемость 10 фт., одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона, и цель должна преуспеть в спасброске Мудрости {@dc 16}, иначе станет {@condition frightened} на 1 минуту. В конце каждого хода цели, пока она {@condition frightened} этим эффектом, она должна преуспеть в ещё одном спасброске Мудрости, иначе получит 22 ({@damage 4d10}) психического урона. При успешном спасброске цель больше не {@condition frightened}."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"The apex tsucora can take 2 legendary actions (or 4 if there are 6 or more PCs in this adventure), choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The apex tsucora regains spent legendary actions at the start of its turn."
+				"Вершинный цукора может совершить 2 легендарных действия (или 4, если в этом приключении участвуют 6 или более персонажей игроков), выбирая из вариантов ниже. Одновременно можно использовать только один вариант легендарного действия и только в конце хода другого существа. Вершинный цукора восстанавливает потраченные легендарные действия в начале своего хода."
 			],
 			"legendaryActions": 4,
 			"legendary": [
 				{
-					"name": "Pincer",
+					"name": "Клешня",
 					"entries": [
-						"The apex tsucora quori makes one Pincer attack."
+						"Высшая Цукора куори совершает одну атаку «Клешня»."
 					]
 				},
 				{
-					"name": "Sting (Costs 2 Actions)",
+					"name": "Жало (стоит 2 действия)",
 					"entries": [
-						"The apex tsucora makes a Terrifying Sting attack."
+						"Высшая Цукора совершает атаку «Ужасающий укус»."
 					]
 				},
 				{
-					"name": "Mind Schism (Costs 2 Actions)",
+					"name": "Раскол разума (стоит 2 действия)",
 					"entries": [
-						"The apex tsucora casts one of its innate spells."
+						"Высшая Цукора накладывает одно из своих врождённых заклинаний."
 					]
 				},
 				{
-					"name": "Agony Amplifier",
+					"name": "Усилитель агонии",
 					"entries": [
-						"The agony amplifier broadcasts one creature's pain to all those around it. Profane runes shimmer in the outer edge of such a ring, binding mental magic into its vile form. ",
-						"Effect: An agony amplifier typically covers a 15 foot square. Whenever a creature in that space takes damage, each other creature in the space takes 5 psychic damage per tier. If no other creature is in the agony amplifier, the triggering creature takes 5 extra psychic damage per tier. ",
-						"Usage: The apex tsucora causes an additional water pool to appear, and activates all current pools as agony amplifiers"
+						"Усилитель агонии распространяет боль одного существа на всех вокруг него. На внешнем краю такого кольца мерцают нечестивые руны, связывающие ментальную магию в её мерзкой форме.",
+						"Эффект: усилитель агонии обычно покрывает квадрат со стороной 15 футов. Когда существо в этой области получает урон, каждое другое существо в области получает 5 психического урона за каждый уровень. Если в усилителе агонии нет других существ, получившее урон существо получает дополнительно 5 психического урона за каждый уровень.",
+						"Использование: вершина цукора заставляет появиться дополнительному водоёму и активирует все текущие водоёмы как усилители агонии"
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Aboleth",
+				"name": "Аболет",
 				"source": "MM"
 			},
 			"traitTags": [
@@ -249,7 +249,7 @@
 			]
 		},
 		{
-			"name": "Baron Dennell Ir'Tollan",
+			"name": "Барон Денелл Ир'Толлан",
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
 				"M"
@@ -292,44 +292,44 @@
 			],
 			"passive": 11,
 			"languages": [
-				"Common",
-				"Elvish"
+				"Общий",
+				"Эльфийский"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Fey Ancestry",
+					"name": "Наследие фей",
 					"entries": [
-						"Dennell has advantage on saving throws against being {@condition charmed}, and magic can't put the him to sleep."
+						"Денелл совершает спасброски с преимуществом против состояния {@condition charmed}, а магия не может погрузить его в усыпление."
 					]
 				},
 				{
-					"name": "Skilled Duelist",
+					"name": "Одарённый дуэлянт",
 					"entries": [
-						"Dennell adds twice his proficiency modifier on attacks using weapons with the finesse property, and such weapons deal one extra die of their damage when he hits with them (included in the attack)."
+						"Денелл дважды добавляет свой модификатор владения к атакам оружием с фехтовальным свойством, а такое оружие наносит на одну кость урона больше при попадании им (включено в атаку)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Dennell makes two rapier attacks."
+						"Денелл совершает две атаки шпагой."
 					]
 				},
 				{
-					"name": "Rapier",
+					"name": "Шпага",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 2d8 + 3}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry & Riposte",
+					"name": "Парирование и ответный удар",
 					"entries": [
-						"Dennell adds 4 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon. ",
-						"If this causes the attack to miss, Dennell immediately makes a rapier attack against same attacker."
+						"Денелл добавляет 4 к своему КД против одной атаки ближнего боя, которая попала бы по нему. Для этого он должен видеть нападающего и владеть оружием ближнего боя.",
+						"Если это приводит к промаху атаки, Денелл немедленно совершает атаку шпагой против того же нападающего."
 					]
 				}
 			],
@@ -358,12 +358,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"The Baron is not the deadliest of swordsmen, but he does fence as a dedicated hobby and has placed respectably in some national tournaments. If pressed, he will draw steel to defend himself and his wife."
+					"Барон не самый смертоносный из фехтовальщиков, но он занимается фехтованием как серьёзным увлечением и занял достойные места на нескольких национальных турнирах. Если его прижать, он обнажит сталь, чтобы защитить себя и свою жену."
 				]
 			}
 		},
 		{
-			"name": "Baroness Faela Ir'Tollan",
+			"name": "Баронесса Фаэла Ир'Толлан",
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
 				"M"
@@ -417,16 +417,16 @@
 				}
 			],
 			"languages": [
-				"Common",
-				"Elvish"
+				"Общий",
+				"Эльфийский"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Faela is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 13}, +5 to hit with spell attacks). She has the following wizard spells prepared."
+						"Фаэла — заклинатель 7-го уровня. Её базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 13}, +5 к попаданию атаками заклинаниями). Она подготовила следующие заклинания волшебника."
 					],
 					"spells": {
 						"0": {
@@ -476,25 +476,25 @@
 			],
 			"trait": [
 				{
-					"name": "Fey Ancestry",
+					"name": "Наследие фей",
 					"entries": [
-						"The baroness faela ir'tollan has advantage on saving throws against being {@condition charmed}, and magic can't put the baroness faela ir'tollan to sleep."
+						"Баронесса Фаэла Ир'толлан получает преимущество на спасброски против состояния {@condition charmed}, а магия не может подвергнуть баронессу Фаэлу Ир'толлан эффекту Усыпления."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Hairpin",
+					"name": "Заколка",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Illusory Success",
+					"name": "Иллюзорный успех",
 					"entries": [
-						"If a creature succeeds on a saving throw to resist a spell Faela has cast upon them, she can force them to reroll the saving throw and abide by the new result instead."
+						"Если существо преуспевает в Спасброске, чтобы сопротивляться заклинанию, которое Фаэла наложила на него, она может заставить его перебросить спасбросок и использовать новый результат."
 					]
 				}
 			],
@@ -526,12 +526,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"Baroness Faela studies arcane magic in her ample free time, and she has a penchant for illusion and enchantment magic."
+					"Баронесса Фаэла изучает аркейнскую магию в своё свободное время, которого у неё много, и особенно увлекается магией иллюзий и заклятий."
 				]
 			}
 		},
 		{
-			"name": "Deneith White Blade",
+			"name": "Белый клинок Дейнит",
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
 				"M"
@@ -572,16 +572,16 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Common",
-				"Elvish"
+				"Общий",
+				"Эльфийский"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Dragonmark Magic",
+					"name": "Магия драконьей метки",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Mark of Sentinel grants the White Blade innate spellcasting. It's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components"
+						"Метка Стража наделяет Белый клинок врождённым использованием заклинаний. Его базовая характеристика для заклинаний — Мудрость. Он может врождённо использовать следующие заклинания, не требующие компонентов"
 					],
 					"will": [
 						"{@spell blade ward}"
@@ -596,45 +596,45 @@
 			],
 			"trait": [
 				{
-					"name": "Sentinel's Intuition",
+					"name": "Интуиция Стража",
 					"entries": [
-						"When the White Blade rolls Initiative or makes a Wisdom (Perception) check to notice a threat, it adds {@dice 1d4} to the result of the roll."
+						"Когда Белый клинок совершает бросок Инициативы или Проверку Мудрости (Внимательности), чтобы заметить угрозу, он добавляет {@dice 1d4} к результату броска."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The White Blade makes two longsword attacks. "
+						"Белый клинок совершает две атаки длинным мечом."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинные мечи",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона или 8 ({@damage 1d10 + 3}) рубящего урона при использовании двумя руками."
 					]
 				},
 				{
-					"name": "Heavy Crossbow",
+					"name": "Тяжёлый арбалет",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage. "
+						"{@atk rw} {@hit 4} к попаданию, дистанция 100/400 футов, одна цель. {@h}6 ({@damage 1d10 + 1}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Blademark Strike",
+					"name": "Удар метки клинка",
 					"entries": [
-						"The White Blade makes a longsword attack against a creature that leaves its threatened space, even if they took the Disengage action. If the attack hits, the target's speed is reduced to 0 for the rest of its turn. This reaction occurs before the target's triggering movement."
+						"Белый клинок совершает атаку длинным мечом против существа, покидающего пространство под его угрозой, даже если оно совершило действие «Отход». Если атака попадает, скорость цели становится равной 0 до конца её хода. Эта реакция происходит до перемещения, вызвавшего её."
 					]
 				}
 			],
 			"variant": [
 				{
-					"name": "Markless Blade",
+					"name": "Безметочный клинок",
 					"entries": [
-						"Not all members of the Blademarks Guild have manifested dragonmarks. Those without do not have the Dragonmark Magic and Sentinel's Intuition traits detailed in the White Blade's stat block."
+						"Не все члены Гильдии меток клинка проявили драконьи метки. У тех, у кого их нет, отсутствуют описанные в блоке характеристик Белого клинка свойства «Магия драконьей метки» и «Интуиция Стража»."
 					],
 					"type": "variant"
 				}
@@ -662,13 +662,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Within the Blademarks Guild of House Deneith, the rank of White Blade is reserved for proven veterans. ",
-					"The Mark of Sentinel. Not all members of the Blademarks Guild have manifested dragonmarks. Only half of the White Blades aboard the Silver-Towers Local have the Dragonmark Magic and Sentinel's Intuition traits detailed in the White Blade's stat block. White Blades without the Mark of Sentinel have the same challenge rating as those who do."
+					"В Гильдии меток клинка дома Дениит звание Белого клинка получают только проверенные ветераны.",
+					"Метка Стража. Не все члены Гильдии меток клинка проявили драконьи метки. Только половина Белых клинков на борту «Серебряных башен» обладает описанными в блоке характеристик Белого клинка свойствами «Магия драконьей метки» и «Интуиция Стража». Белые клинки без Метки Стража имеют тот же показатель опасности, что и остальные."
 				]
 			}
 		},
 		{
-			"name": "Eliana d'Vadalis",
+			"name": "Элиана д'Вадалис",
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
 				"M"
@@ -707,16 +707,16 @@
 			],
 			"passive": 13,
 			"languages": [
-				"Common",
-				"Elvish"
+				"Общий",
+				"Эльфийский"
 			],
 			"cr": "1/8",
 			"spellcasting": [
 				{
-					"name": "Dragonmark Magic",
+					"name": "Магия драконьей метки",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Greater Mark of Handling grants Eliana innate spellcasting. Her innate spellcasting ability is Wisdom. She can innately cast the following spells, requiring no components"
+						"Высшая метка ухода за животными наделяет Элиану врождённым использованием заклинаний. Её базовая характеристика для заклинаний — Мудрость. Она может врождённо накладывать следующие заклинания, не требуя компонентов"
 					],
 					"rest": {
 						"1e": [
@@ -734,24 +734,24 @@
 			],
 			"trait": [
 				{
-					"name": "Wild Intuition",
+					"name": "Дикая интуиция",
 					"entries": [
-						"When Eliana makes a Wisdom (Animal Handling) or Intelligence (Nature) check, she adds {@dice 1d6} to the result of the roll."
+						"Когда Элиана совершает проверку Мудрости (Уход за животными) или Интеллекта (Природа), она добавляет {@dice 1d6} к результату броска."
 					]
 				},
 				{
-					"name": "Primal Companion",
+					"name": "Первичный спутник",
 					"entries": [
-						"Eliana grants her winter wolf companion, Frosty, advantage on attack rolls against all creatures within 15 feet of herself, no action required. ",
-						"Additionally, if Eliana's winter wolf is within 15 feet of her, she may expend a spell from her dragonmark as a bonus action to recharge its Cold Breath attack. If she does, the winter wolf can use it immediately as a reaction. "
+						"Элиана даёт своему спутнику — полярному волку по имени Фрости — преимущество на броски атаки против всех существ в пределах 15 футов от неё, действие не требуется.",
+						"Кроме того, если полярный волк Элианы находится в пределах 15 футов от неё, она может потратить заклинание своей драконьей метки бонусным действием, чтобы восстановить его дыхательную атаку «Холодное дыхание». Если она это делает, полярный волк может немедленно применить её реакцией."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Shortsword",
+					"name": "Короткие мечи",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) рубящего урона."
 					]
 				}
 			],
@@ -777,12 +777,12 @@
 			],
 			"fluff": {
 				"entries": [
-					"Eliana is a dragonmarked heiress of House Vadalis, with a Greater Mark of Handling. She travels with her favored bestial companion \"Frosty\", a lawful neutral winter wolf (Monster Manual, pg. 340), that will protect her with its life if necessary. "
+					"Элиана — наследница с драконьей меткой из Дома Вадалис, обладающая высшей меткой обращения. Она путешествует со своим любимым звериным спутником «Фрости» — законопослушным нейтральным полярным волком («Монстр мануал», стр. 340), который в случае необходимости будет защищать её ценой своей жизни."
 				]
 			}
 		},
 		{
-			"name": "Gareth d'Deneith",
+			"name": "Гэрет д'Денейт",
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
 				"M"
@@ -835,16 +835,16 @@
 				"slashing"
 			],
 			"languages": [
-				"Common",
-				"Elvish"
+				"Общий",
+				"Эльфийский"
 			],
 			"cr": "11",
 			"spellcasting": [
 				{
-					"name": "Dragonmark Magic",
+					"name": "Магия драконьей метки",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Greater Mark of Sentinel grants Gareth innate spellcasting. His innate spellcasting ability is Wisdom (spell save {@dc 15}). He can innately cast the following spells, requiring no components "
+						"Высшая метка стража наделяет Гэрета врождённым использованием заклинаний. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска {@dc 15}). Он может использовать следующие заклинания врождённо, не требуя компонентов"
 					],
 					"will": [
 						"{@spell blade ward}"
@@ -859,7 +859,7 @@
 					"ability": "wis"
 				},
 				{
-					"name": "Plate of the Guardian",
+					"name": "Доспехи стража",
 					"type": "spellcasting",
 					"headerEntries": [
 						""
@@ -873,38 +873,38 @@
 			],
 			"trait": [
 				{
-					"name": "Sentinel's Intuition",
+					"name": "Интуиция Стража",
 					"entries": [
-						"When Gareth rolls Initiative or makes a Wisdom (Perception) check to notice a threat, it adds {@dice 1d10} to the result of the roll. "
+						"Когда Гэрет совершает бросок инициативы или проверку Мудрости (Внимательность), чтобы заметить угрозу, он добавляет {@dice 1d10} к результату броска."
 					]
 				},
 				{
-					"name": "Special Equipment",
+					"name": "Особое снаряжение",
 					"entries": [
-						"Gareth is donned with Plate of the Guardian, which grants him a +1 bonus to AC and resistance to all bludgeoning, piercing, and slashing damage. ",
-						"In addition, once per day, he may expend a use of warding bond from his dragonmark as an action to cast spirit guardians instead. When he does, the spectral form of the spirits appear as duplicates of himself seemingly made from three-dimensional living dragonmarks, and the spell always deals force damage instead of radiant or necrotic"
+						"Гэрет облачён в доспехи стража, которые дают ему бонус +1 к КД и сопротивление всему дробящему, колющему и рубящему урону.",
+						"Кроме того, 1 раз в день он может потратить использование охраняющей связи своей драконьей метки действием, чтобы вместо этого наложить духовных стражей. Когда он это делает, призрачные формы духов появляются в виде его двойников, словно созданных из объёмных живых драконьих меток, и заклинание всегда наносит силовой урон вместо излучения или некротического урона"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Gareth makes three longsword attacks."
+						"Гарет совершает три атаки длинным мечом."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинные мечи",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 4}) slashing damage plus 10 ({@damage 3d6}) slashing damage if an ally Gareth can see is missing any of its hit points."
+						"{@atk mw} {@hit 8} для попадания, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 4}) рубящего урона плюс 10 ({@damage 3d6}) рубящего урона, если у видимого Гаретом союзника отсутствуют хиты."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Defender Strike",
+					"name": "Удар защитника",
 					"entries": [
-						"When a creature within 5 feet of Gareth makes an attack against a target other than him, he can make a longsword attack against the attacking creature with advantage."
+						"Когда существо в пределах 5 футов от Гарета совершает атаку против цели, отличной от него, Гарет может совершить атаку длинным мечом против атакующего существа с преимуществом."
 					]
 				}
 			],
@@ -934,13 +934,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"Gareth d'Deneith is a decorated veteran of the Defender's Guild, with many marks of distinction in his service to his House and his wards. He is professional, polite, and most of all, deadly. ",
-					"His most prized position is his Plate of the Guardian, a magical, ornate suit of armor that is also a dragonshard focus item that empowers his Greater Mark of Sentinel. It was awarded to him personally by Baron Breven d'Deneith, House Deneith's patriarch, to honor his astonishing skill and exceptionally potent dragonmark."
+					"Гарет д'Денейт — награждённый ветеран Гильдии защитников, получивший множество знаков отличия за службу своему Дому и своим подопечным. Он профессионален, вежлив и, прежде всего, смертоносен.",
+					"Самое ценное его имущество — латный доспех Стража, магический богато украшенный комплект доспехов, который также является предметом-средоточием из драконьего осколка и усиливает его Высшую метку Стража. Его лично вручил ему барон Бревен д'Денейт, патриарх Дома Денейт, чтобы отметить его поразительное мастерство и исключительно мощную драконью метку."
 				]
 			}
 		},
 		{
-			"name": "Hob",
+			"name": "Хоб",
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
 				"S"
@@ -991,52 +991,52 @@
 			],
 			"languages": [
 				"all",
-				"telepathy 100 ft"
+				"Телепатия 100 ft"
 			],
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Fearmonger",
+					"name": "Запугиватель",
 					"entries": [
-						"A hob knows the deepest fears of all creatures within range of its telepathy. Any creature within range of its telepathy has disadvantage on saving throws to resist the hob's Terrifying Form."
+						"Хоб знает глубочайшие страхи всех существ в пределах дистанции его телепатии. Любое существо в пределах дистанции его телепатии совершает с помехой спасброски для сопротивления Устрашающему облику хоба."
 					]
 				},
 				{
-					"name": "Shapechanger",
+					"name": "Оборотень",
 					"entries": [
-						"The hob can use its action or reaction to polymorph into any Medium or smaller aberration, beast, humanoid, or monstrosity, or back into its true form. Its statistics, other than its size, are the same in each form. "
+						"Хоб может использовать своё действие или реакцию, чтобы превратиться в любую аберрацию, зверя, гуманоида или монстрозность Среднего размера или меньше либо вернуться в истинную форму. Его характеристики, за исключением размера, одинаковы в каждой форме."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The hob can use Terrifying Form. It then makes any two attacks appropriate to whatever form it is currently in. "
+						"Хоб может использовать Устрашающий облик. Затем он совершает любые две атаки, подходящие для его текущей формы."
 					]
 				},
 				{
-					"name": "Beak, Bite, or Sting",
+					"name": "Клюв, укус или жало",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 7 ({@damage 2d6}) acid or poison damage (hob's choice)."
+						"{@atk mw} {@hit 7} для попадания, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона плюс 7 ({@damage 2d6}) кислотного или ядовитого урона (на выбор хоба)."
 					]
 				},
 				{
-					"name": "Claws or Talons",
+					"name": "Когти или талоны",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) slashing damage"
+						"{@atk mw} {@hit 7} для попадания, досягаемость 5 фт., одна цель. {@h}14 ({@damage 3d6 + 4}) рубящего урона"
 					]
 				},
 				{
-					"name": "Fist, Slam, Tail, or Tentacle",
+					"name": "Кулак, удар, хвост или щупальце",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 14}). Until this grapple ends, the target is {@condition restrained}, and the hob can't use this appendage to attack another target. "
+						"{@atk mw} {@hit 7} для попадания, досягаемость 5 фт., одна цель. {@h}9 ({@damage 1d10 + 4}) дробящего урона. Если цель — существо, оно становится {@condition grappled} (для высвобождения требуется {@dc 14}). Пока этот захват не окончится, цель остаётся {@condition restrained}, а хоб не может использовать этот отросток для атаки другой цели."
 					]
 				},
 				{
-					"name": "Terrifying Form",
+					"name": "Ужасающая форма",
 					"entries": [
-						"The hob changes into a form horrifying to every creature of its choice that is within 100 feet of it. These creatures must succeed on a {@dc 15} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hob's Frightful Presence for the next 24 hours."
+						"Хоб принимает форму, ужасающую любое выбранное им существо в пределах 100 футов от него. Эти существа должны преуспеть в спасброске Мудрости {@dc 15}, иначе станут {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе в случае успеха. Если спасбросок существа успешен или эффект оканчивается для него, существо получает иммунитет к «Устрашающему присутствию» хоба на следующие 24 часа."
 					]
 				}
 			],
@@ -1068,16 +1068,16 @@
 			],
 			"fluff": {
 				"entries": [
-					"Dal Quor, the Region of Dreams, is dominated by the quori, and mortal dreamers conjure eidolons into existence every night. However, those are not the only creatures native to the plane. ",
-					"Hobs are one type of \"drifter\"\u2014beings that roam the fringes of Dal Quor, created from the ambient energies of Dal Quor and shaped by the collective impressions of mortal dreamers. This nebulous group of beings are neither quori nor eidolons, but something in between. Drifters come in many types and forms, and hobs are just one species of creature among them. ",
-					"Hobs are telepathic shapeshifters, instinctively changing their forms to be the most terrifying to those around them. In their natural forms, they are small, grey creatures with semi-feline heads that are slightly too big for their bodies. ",
-					"The hob in this adventure is a scavenger\u2014a remora to Aka'vanaksha's shark, picking on the scraps of terror left behind by the larger predator's feast of psychic energy. ",
-					"If you know of any particular phobias the PCs might have\u2014spiders, for instance\u2014the hob's Fearmonger trait allows it to capitalize on them. When using its Terrifying Form, it will shift into the visage of what it knows to be the character's most primal fears."
+					"Дал Куор, область грёз, находится под властью кворри, а смертные сновидцы каждую ночь призывают эйдолонов к существованию. Однако это не единственные существа, обитающие на этом плане.",
+					"Хобы — один из типов «скитальцев» — существ, странствующих по окраинам Дал Куора, созданных из окружающих энергий Дал Куора и сформированных коллективными представлениями смертных сновидцев. Эта расплывчатая группа существ не является ни квориями, ни эйдолонами, а представляет собой нечто среднее. Скитальцы бывают разных типов и форм, и хобы — лишь один из видов существ среди них.",
+					"Хобы — телепатические оборотни, инстинктивно меняющие свой облик, чтобы стать наиболее устрашающими для окружающих. В естественной форме это маленькие серые существа с полукошачьими головами, слегка великоватыми для их тел.",
+					"Хоб в этом приключении — падальщик, ремора акулы Ака'ванакши, подбирающая остатки ужаса, оставшиеся после пиршества более крупного хищника, поглотившего психическую энергию.",
+					"Если вы знаете о каких-либо конкретных фобиях персонажей — например, о боязни пауков, — черта хоба «Распространитель страха» позволяет ему использовать их. Используя свою «Устрашающую форму», он примет облик того, что, как ему известно, является глубочайшим первобытным страхом персонажа."
 				]
 			}
 		},
 		{
-			"name": "The Butcher",
+			"name": "Мясник",
 			"isNamedCreature": true,
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
@@ -1145,60 +1145,60 @@
 				"poisoned"
 			],
 			"languages": [
-				"understands the languages of the creatures who imagined it into being but can't speak"
+				"Understands the languages of the creatures who imagined it into being но не может говорить"
 			],
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The Butcher has advantage on saving throws against spells and other magical effects."
+						"Мясник совершает спасброски против заклинаний и других магических эффектов с Преимуществом."
 					]
 				},
 				{
-					"name": "Magic Weapons",
+					"name": "Магическое оружие",
 					"entries": [
-						"The Butcher's weapon attacks are magical."
+						"Атаки оружием Мясника являются магическими."
 					]
 				},
 				{
-					"name": "Eidolon",
+					"name": "Эйдолон",
 					"entries": [
-						"Whenever an eidolon is subjected to psychic damage, it takes no damage and instead regains a number of hit points equal to the psychic damage dealt. ",
-						"If the eidolon is affected by any effect that would transport it to another plane, such as the banishment spell, it is destroyed instead."
+						"Если эйдолон подвергается психическому урону, он не получает урон, а вместо этого восстанавливает количество хитов, равное нанесённому психическому урону.",
+						"Если на эйдолона воздействует эффект, который должен перенести его на другой план, например заклинание изгнание, он вместо этого уничтожается."
 					]
 				},
 				{
-					"name": "Unseen Return",
+					"name": "Невидимое возвращение",
 					"entries": [
-						"As a bonus action, The Butcher can teleport up to 30 feet, but only when no creature with an Intelligence score of 6 or higher creature can see it, and it can only arrive at a destination that is likewise unobserved. The Butcher does not need to be able to see its destination."
+						"Бонусным действием Мясник может телепортироваться на расстояние до 30 футов, но только если ни одно существо с показателем Интеллекта 6 или выше не может его видеть, и прибыть он может только в место, которое также никто не видит. Мяснику не нужно видеть место назначения."
 					]
 				},
 				{
-					"name": "Hooks",
+					"name": "Крючья",
 					"entries": [
-						"A creature that touches The Butcher or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) piercing damage and must succeed on a {@dc 15} Dexterity saving throw or become {@condition grappled}. Creatures that start their turn {@condition grappled} by The Butcher automatically take this damage. ",
-						"The Butcher can grapple any number of opponents this way and doing so does not impair its ability to take any actions. "
+						"Существо, которое касается Мясника или попадает по нему атакой ближнего боя, находясь в пределах 5 футов от него, получает 10 ({@damage 3d6}) колющего урона и должно преуспеть в спасброске Ловкости {@dc 15}, иначе становится {@condition grappled}. Существа, начинающие свой ход {@condition grappled} Мясником, автоматически получают этот урон.",
+						"Мясник может схватить таким образом любое количество противников, и это не мешает ему совершать какие-либо действия."
 					]
 				},
 				{
-					"name": "Eidolon Nature",
+					"name": "Природа Эйдолона",
 					"entries": [
-						"An eidolon can only exist on the plane of Dal Quor. It does not breath, eat, drink, or sleep. When reduced to 0 hit points, an eidolon disappears without a trace."
+						"Эйдолон может существовать только на плане Дал Куор. Ему не нужно дышать, есть, пить или спать. Когда его хиты уменьшаются до 0, эйдолон исчезает без следа."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The Butcher makes two cleaver attacks."
+						"Мясник совершает две атаки тесаком."
 					]
 				},
 				{
-					"name": "Cleaver",
+					"name": "Тесак",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}21 ({@damage 3d10 + 5}) slashing damage."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 15 футов, одна цель. {@h}21 ({@damage 3d10 + 5}) рубящего урона."
 					]
 				}
 			],
@@ -1228,13 +1228,13 @@
 			],
 			"fluff": {
 				"entries": [
-					"\"The Butcher\" is not truly a creature\u2014it is what the quori term an \"eidolon\"; a figment of the imagination of a mortal dreamer. Such thought-constructs are not to be taken lightly, as within the wild dreamscapes on the fringe of Dal Quor, they can be just as dangerous as any quori. Knowing the true nature of an eidolon does not grant a creature any advantage or protection from it while they remain in the Region of Dreams. ",
-					"Part 2 of Nightmare on the Mournland Express takes place in such a dreamscape, so while the PCs are dreaming, \"The Butcher\" is a very real threat to them. The Butcher can \"burrow\" through any solid barrier, rending metal and splintering wood with disconcerting ease as it closes with the party, leaving wreckage in its wake."
+					"«Мясник» — не настоящее существо, а то, что куори называют «эйдолоном» — плод воображения смертного сновидца. К таким мыслеформам нельзя относиться легкомысленно, поскольку в диких сновидениях на окраине Дал Куора они могут быть столь же опасны, как любой куори. Знание истинной природы эйдолона не даёт существу никаких преимуществ или защиты от него, пока оно остаётся в Области Снов.",
+					"Часть 2 «Кошмара на экспрессе Моурнленда» проходит в таком сновидческом пространстве, поэтому, пока персонажи игроков спят, «Мясник» представляет для них вполне реальную угрозу. Мясник может «рыть» любой твёрдый барьер, с пугающей лёгкостью разрывая металл и расщепляя дерево, пока приближается к Отряду и оставляет после себя разрушения."
 				]
 			}
 		},
 		{
-			"name": "Wandslinger",
+			"name": "Жезломет",
 			"source": "NightmareOntheMournlandExpress",
 			"size": [
 				"M"
@@ -1275,15 +1275,15 @@
 			},
 			"passive": 14,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The wandslinger is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, +5 to hit with spell attacks). The wandslinger knows the following spells and must use a wand as an arcane focus to cast them."
+						"Жезломет — заклинатель 2-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 13}, +5 к попаданию атаками заклинаниями). Жезломет знает следующие заклинания и должен использовать жезл как магическую фокусировку для их накладывания."
 					],
 					"spells": {
 						"0": {
@@ -1304,23 +1304,23 @@
 			],
 			"trait": [
 				{
-					"name": "High Caliber Cantrips",
+					"name": "Заговоры крупного калибра",
 					"entries": [
-						"The wandslinger adds its Intelligence modifier to the damage of any cantrip it casts and casts them as a 5th level character."
+						"Жезломет добавляет свой модификатор Интеллекта к урону любого заговора, который он накладывает, и накладывает их как персонаж 5-го уровня."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Shortsword",
+					"name": "Короткие мечи",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Wands Akimbo",
+					"name": "Два жезла",
 					"entries": [
-						"If the wandslinger has two wands drawn, it casts two cantrips as a single action."
+						"Если у Жезломета в руках есть два обнажённых жезла, он накладывает два заговора одним действием."
 					]
 				}
 			],
@@ -1343,8 +1343,8 @@
 			],
 			"fluff": {
 				"entries": [
-					"Magic was a valuable asset during the Last War, but the armies of the Five Nations did not often have time to wait for fully-trained mages to enlist. Soldiers that showed even a minor magical talent received enough training to be able to cast one or two cantrips\u2014typically combat oriented wizard or sorcerer cantrips\u2014and one 1st-level spell. Unlike fully trained wizards or gifted sorcerers, a wandslinger can only fulfill the somatic components of spells by using an arcane focus, typically a wand. ",
-					"Within the military, these limited spellcasters are known as \"arcaneers\", but to common folk, they are known by the more evocative moniker of \"wandslinger\"."
+					"Магия была ценным ресурсом во время Последней войны, но у армий Пяти наций нечасто находилось время ждать, пока полностью обученные маги поступят на службу. Солдаты, проявившие даже малейший магический талант, получали достаточно подготовки, чтобы накладывать один или два заговора — обычно боевые заговоры волшебника или чародея — и одно заклинание 1-го уровня. В отличие от полностью обученных волшебников или одарённых чародеев, Жезломет может выполнять соматические компоненты заклинаний только с помощью магической фокусировки, обычно жезла.",
+					"В армии таких заклинателей с ограниченными возможностями называют «аркейнами», но простые люди знают их под более выразительным прозвищем «жезломет»."
 				]
 			}
 		}

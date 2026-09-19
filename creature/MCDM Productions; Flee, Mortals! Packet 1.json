@@ -24,18 +24,18 @@
 	},
 	"item": [
 		{
-			"name": "Banner of Glory",
+			"name": "Знамя славы",
 			"source": "FMp1",
 			"rarity": "very rare",
 			"wondrous": true,
 			"entries": [
-				"While holding the banner, you can use an action to wave it heroically to inspire willing creatures of your choice within 30 feet of you. An affected creature immediately gains the benefits of a short rest. Once used, the banner can't be used again for 24 hours."
+				"Держа знамя, вы можете действием героически размахивать им, чтобы воодушевить согласных существ на ваш выбор в пределах 30 футов от вас. Затронутое существо немедленно получает преимущества короткого отдыха. После использования знамя нельзя использовать вновь в течение 24 часов."
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Dancing Lady",
+			"name": "Танцующая дама",
 			"source": "FMp1",
 			"page": 16,
 			"size": [
@@ -91,55 +91,55 @@
 				"prone"
 			],
 			"languages": [
-				"understands Druidic and Sylvan but can't speak"
+				"Understands druidic and сильванский но не может говорить"
 			],
 			"cr": "9",
 			"trait": [
 				{
-					"name": "Dancing Flowers",
+					"name": "Танцующие цветы",
 					"entries": [
-						"The dancing lady has three spinning flowers resembling life-sized dancing Humanoids. Each flower has AC 16, 5 hit points, vulnerability to fire damage, and immunity to psychic damage. Attack rolls against these whirling blooms have disadvantage. Destroying a flower deals no damage to the dancing lady, who regrows destroyed flowers at the end of their turn."
+						"У танцующей дамы три вращающихся цветка, напоминающих танцующих гуманоидов в натуральную величину. Каждый цветок имеет КД 16, 5 хитов, уязвимость к урону огнём и иммунитет к психическому урону. Броски атак по этим кружащимся бутонам совершаются с помехой. Уничтожение цветка не причиняет урона танцующей даме, которая вновь выращивает уничтоженные цветки в конце своего хода."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The dancing lady makes two Slam attacks."
+						"Танцующая дама совершает два Размашистых удара."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Размашистый удар",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit 10} к попаданию, досягаемость 10 футов, одна цель. {@h}25 ({@damage 3d12 + 6}) дробящего урона."
 					]
 				},
 				{
-					"name": "Blood-Red Waltz",
+					"name": "Кроваво-красный вальс",
 					"entries": [
-						"For each flower the dancing lady has, they can choose one creature they can see within 60 feet of them. Each target must make a {@dc 17} Strength saving throw as a dancing flower sweeps toward them. On a failed save, a creature takes 18 ({@damage 4d8}) psychic damage and is moved to an unoccupied space within 60 feet of the dancing lady. On a successful save, a creature takes half as much damage and isn't moved."
+						"За каждый цветок, имеющийся у танцующей дамы, она может выбрать одно существо, которое видит в пределах 60 футов от себя. Каждая цель должна совершить спасбросок Силы {@dc 17}, когда танцующий цветок устремляется к ней. При провале существо получает 18 ({@damage 4d8}) психического урона и перемещается в свободное пространство в пределах 60 футов от танцующей дамы. При успешном спасброске существо получает половину этого урона и не перемещается."
 					]
 				},
 				{
-					"name": "Disarming Quickstep",
+					"name": "Обезоруживающий быстрый шаг",
 					"entries": [
-						"For each flower the dancing lady has, they can choose one creature they can see within 60 feet of them.",
-						"Each target must make a {@dc 17} Dexterity saving throw as a dancing flower whirls them into a dance. On a failed save, a creature takes 17 ({@damage 5d6}) bludgeoning damage and is dazed until the start of the dancing lady's next turn. On a successful save, a creature takes half as much damage and isn't dazed."
+						"За каждый цветок, имеющийся у танцующей дамы, она может выбрать одно существо, которое видит в пределах 60 футов от себя.",
+						"Каждая цель должна совершить спасбросок Ловкости {@dc 17}, когда танцующий цветок вовлекает её в танец. При провале существо получает 17 ({@damage 5d6}) дробящего урона и становится ошеломлённым до начала следующего хода танцующей дамы. При успешном спасброске существо получает половину этого урона и не становится ошеломлённым."
 					]
 				},
 				{
-					"name": "Ballet of Terror (1/Day)",
+					"name": "Балет ужаса (1/день)",
 					"entries": [
-						"The dancing lady's flowers pirouette and emit acrid mist. Creatures of the dancing lady's choice within 120 feet of them that can smell the mist must make a {@dc 17} Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} of the dancing lady for 1 minute (save ends at end of turn)."
+						"Цветы танцующей дамы делают пируэт и испускают едкий туман. Существа на выбор танцующей дамы в пределах 120 футов от неё, которые могут почувствовать запах тумана, должны совершить спасбросок Мудрости {@dc 17}. При провале существо становится {@condition frightened} танцующей дамы на 1 минуту (спасбросок оканчивается в конце хода)."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Somber Dirge",
+					"name": "Мрачная панихида",
 					"entries": [
-						"When a creature the dancing lady can see hits the dancing lady with an attack, the dancing lady causes the attack to hit one of their flowers instead."
+						"Когда существо, которое танцующая дама может видеть, попадает по танцующей даме атакой, танцующая дама заставляет атаку попасть вместо этого по одному из её цветков."
 					]
 				}
 			],
@@ -172,7 +172,7 @@
 			]
 		},
 		{
-			"name": "Dohma Raskovar",
+			"name": "Дохма Расковар",
 			"source": "FMp1",
 			"page": 8,
 			"size": [
@@ -230,86 +230,86 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Adrenaline Rush",
+					"name": "Прилив адреналина",
 					"entries": [
-						"If Raskovar fails a saving throw, he can expend a use of his Dohma Rally without gaining its benefits (no action required), and succeed on the save instead."
+						"Если Расковар проваливает спасбросок, он может потратить одно использование своего Дохма-сбора, не получая его преимуществ (не требуется действие), и вместо этого преуспеть в спасброске."
 					]
 				},
 				{
-					"name": "Relentless (1/Turn)",
+					"name": "Неумолимый (1/ход)",
 					"entries": [
-						"When Raskovar isn't {@condition incapacitated} and he is reduced to 0 hit points but not killed outright, he can make an attack against a hostile creature (no action required) before the hit point reduction is resolved. If the attack hits and its damage reduces the target to 0 hit points, Raskovar drops to 1 hit point instead of 0 hit points."
+						"Когда Расковар не {@condition incapacitated} и его хиты опускаются до 0, но он не убит сразу, он может совершить атаку по враждебному существу (не требуется действие) до того, как уменьшение хитов будет рассчитано. Если атака попадает и её урон уменьшает хиты цели до 0, хиты Расковара опускаются до 1 вместо 0."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Raskovar makes three Repeating Crossbow attacks or two War Mace attacks."
+						"Расковар совершает три атаки из повторяющегося арбалета или две атаки боевой булавой."
 					]
 				},
 				{
-					"name": "War Mace",
+					"name": "Боевая булава",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage, and the target is dazed until the end of their next turn."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 2d4 + 3}) дробящего урона, и цель ошеломлена до конца своего следующего хода."
 					]
 				},
 				{
-					"name": "Repeating Crossbow",
+					"name": "Скорострельный арбалет",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d12 + 1}) piercing damage, and the target's speed is reduced by 10 feet until the end of their next turn."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 30/120 фт., одна цель. {@h}7 ({@damage 1d12 + 1}) колющего урона, и скорость цели уменьшается на 10 футов до конца её следующего хода."
 					]
 				},
 				{
-					"name": "Reinforcements (1/Day)",
+					"name": "Подкрепление (1/день)",
 					"entries": [
-						"Raskovar gains the benefits of the Dodge action, and ten orc blitzers appear in unoccupied spaces within 30 feet of him."
+						"Расковар получает преимущества действия Уклонение, и десять орков-налётчиков появляются в свободных пространствах в пределах 30 футов от него."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Dohma Rally (3/Day)",
+					"name": "Дохма-сбор (3/день)",
 					"entries": [
-						"Raskovar regains 20 hit points, and he gains resistance to bludgeoning, piercing, and slashing damage until the end of his next turn."
+						"Расковар восстанавливает 20 хитов и получает сопротивление дробящему, колющему и рубящему урону до конца своего следующего хода."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "On the House",
+					"name": "За счёт заведения",
 					"entries": [
-						"When a creature Raskovar can see within 30 feet of him fails an ability check or misses with an attack roll, that creature can reroll the check or attack, choosing either result."
+						"Когда существо, которое Расковар может видеть в пределах 30 футов от себя, проваливает проверку характеристики или промахивается броском атаки, это существо может перебросить проверку или атаку, выбрав любой из результатов."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"Raskovar has three villain actions. He can take each action once during an encounter after an enemy creature's turn. He can take these actions in any order but can only use one per round."
+				"У Расковара три злодейских действия. Он может совершить каждое действие один раз за столкновение после хода враждебного существа. Он может совершать эти действия в любом порядке, но может использовать только одно за раунд."
 			],
 			"legendary": [
 				{
-					"name": "Action 1: Close In",
+					"name": "Действие 1: Сближение",
 					"entries": [
-						"Each creature of Raskovar's choice within 60 feet of him that can hear him can move up to their speed. After this movement, each enemy within 5 feet of at least one creature who moved must make a {@dc 15} Wisdom saving throw or be {@condition frightened} of Raskovar for 1 minute (save ends at end of turn)."
+						"Каждое существо на выбор Расковара в пределах 60 футов от него, которое может его слышать, может переместиться на расстояние, не превышающее его скорость. После этого перемещения каждый враг в пределах 5 футов от хотя бы одного переместившегося существа должен совершить спасбросок Мудрости {@dc 15}, иначе станет {@condition frightened} Расковара на 1 минуту (спасбросок оканчивается в конце хода)."
 					]
 				},
 				{
-					"name": "Action 2: Lockdown",
+					"name": "Действие 2: Блокировка",
 					"entries": [
-						"Each creature of Raskovar's choice within 60 feet of him that can hear him can make a Strength (Athletics) check with advantage to grapple an enemy within their reach (no action required). Then Raskovar can move up to his speed."
+						"Каждое существо на выбор Расковара в пределах 60 футов от него, которое может его слышать, может совершить проверку Силы (Атлетика) с преимуществом, чтобы схватить врага в пределах своей досягаемости (не требуется действие). Затем Расковар может переместиться на расстояние, не превышающее его скорость."
 					]
 				},
 				{
-					"name": "Action 3: Do It Myself",
+					"name": "Действие 3: Сделаю сам",
 					"entries": [
-						"Raskovar moves up to his speed without provoking opportunity attacks. At the end of the movement, he can make up to five War Mace attacks with advantage."
+						"Расковар перемещается на расстояние, не превышающее его скорость, не провоцируя атак по возможности. В конце перемещения он может совершить до пяти атак боевой булавой с преимуществом."
 					]
 				}
 			],
@@ -340,7 +340,7 @@
 			]
 		},
 		{
-			"name": "Empyrean Stag",
+			"name": "Эмпирейский олень",
 			"source": "FMp1",
 			"page": 16,
 			"size": [
@@ -419,52 +419,52 @@
 			"cr": "13",
 			"trait": [
 				{
-					"name": "Supernatural Resistance",
+					"name": "Сверхъестественное сопротивление",
 					"entries": [
-						"The stag has advantage on saving throws against powers, spells, and other supernatural effects."
+						"Олень совершает с преимуществом спасброски против сил, заклинаний и других сверхъестественных эффектов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The stag makes three Ram or Lightburst attacks."
+						"Олень совершает три атаки тараном или световым взрывом."
 					]
 				},
 				{
-					"name": "Ram",
+					"name": "Таран",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}25 ({@damage 4d8 + 7}) piercing damage."
+						"{@atk mw} {@hit 12} к попаданию, досягаемость 10 футов, одна цель. {@h}25 ({@damage 4d8 + 7}) колющего урона."
 					]
 				},
 				{
-					"name": "Lightburst",
+					"name": "Световой взрыв",
 					"entries": [
-						"{@atk rs} {@hit 10} to hit, range 120 ft., one target. {@h}18 ({@damage 3d8 + 5}) radiant damage, and the target is outlined in a golden light, giving attack rolls against them advantage until the start of the stag's next turn."
+						"{@atk rs} {@hit 10} к попаданию, дистанция 120 фт., одна цель. {@h}18 ({@damage 3d8 + 5}) урона излучением, и цель очерчивается золотистым светом, давая броскам атаки по ней преимущество до начала следующего хода оленя."
 					]
 				},
 				{
-					"name": "Starcall (1/Day)",
+					"name": "Зов звёзд (1/день)",
 					"entries": [
-						"The stag calls down a magical shower of stars on an area that is 60 feet long and 5 feet wide within 120 feet of the stag. Each hostile creature in that area must make a {@dc 18} Dexterity saving throw, taking 28 ({@damage 8d6}) radiant damage on a failed save, or half as much damage on a successful one. Each willing friendly creature in that area regains 15 hit points.",
-						"The stars then create a 10-foot-high wall of opaque radiant light in that area. Each creature in the wall's space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on. The wall lasts for 1 minute or until the stag is {@condition incapacitated} or dies. If a hostile creature moves through the wall of light, willingly or otherwise, the creature must make a {@dc 18} Constitution saving throw, taking 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one."
+						"Олень призывает магический звёздный ливень на область длиной 60 футов и шириной 5 футов в пределах 120 футов от оленя. Все враждебные существа в этой области должны совершить спасбросок Ловкости {@dc 18}, получая 28 ({@damage 8d6}) урона излучением при провале, или половину этого урона при успехе. Все согласные дружественные существа в этой области восстанавливают 15 хитов.",
+						"Затем звёзды создают в этой области стену из непрозрачного света излучения высотой 10 футов. Все существа в пространстве стены выталкиваются из неё по кратчайшему пути. Существо выбирает, с какой стороны стены оно окажется. Стена существует 1 минуту или пока олень не станет {@condition incapacitated} или не умрёт. Если враждебное существо проходит сквозь стену света, добровольно или нет, оно должно совершить спасбросок Телосложения {@dc 18}, получая 14 ({@damage 4d6}) урона излучением при провале, или половину этого урона при успехе."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Starlight Infusion",
+					"name": "Насыщение звёздным светом",
 					"entries": [
-						"The stag infuses radiant energy into a willing creature they can see within 60 feet of them. That creature deals an extra 5 radiant damage with weapon attack rolls until the start of the stag's next turn."
+						"Олень насыщает энергией излучения согласное существо, которое видит в пределах 60 футов от себя. Это существо причиняет дополнительный 5 урона излучением бросками атак оружием до начала следующего хода оленя."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Nature's Ward",
+					"name": "Оберег природы",
 					"entries": [
-						"When the stag or a creature they can see within 30 feet of them takes damage, the stag magically creates a protective barrier around that creature. The barrier reduces that damage to the protected creature by 20, then vanishes."
+						"Когда олень или существо, которое он видит в пределах 30 футов от себя, получает урон, олень магическим образом создаёт вокруг этого существа защитный барьер. Барьер уменьшает этот урон защищённому существу на 20, а затем исчезает."
 					]
 				}
 			],
@@ -492,7 +492,7 @@
 			]
 		},
 		{
-			"name": "Hulking Brain",
+			"name": "Громадный мозг",
 			"source": "FMp1",
 			"page": 12,
 			"size": [
@@ -536,50 +536,50 @@
 			"passive": 8,
 			"languages": [
 				"Deep Speech",
-				"Undercommon",
+				"Подземный",
 				"telepathy 120 ft."
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Psionic Immunity",
+					"name": "Псионический иммунитет",
 					"entries": [
-						"The hulking brain is unaffected by psionic powers manifested by voiceless talkers unless the brain wishes to be."
+						"На громадный мозг не действуют псионические силы, проявляемые безголосыми говорящими, если только мозг сам этого не пожелает."
 					]
 				},
 				{
-					"name": "Psychic Scream",
+					"name": "Психический крик",
 					"entries": [
-						"When the brain drops to 0 hit points, each creature within 30 feet of them must make a {@dc 16} Wisdom saving throw, taking 21 ({@damage 6d6}) psychic damage on a failed save, or half as much damage on a successful one."
+						"Когда хиты мозга опускаются до 0, все существа в пределах 30 футов от него должны совершить спасбросок Мудрости {@dc 16}, получая 21 ({@damage 6d6}) психического урона при провале, или половину этого урона при успехе."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The brain makes three Bash attacks."
+						"Мозг совершает три атаки размашистым ударом."
 					]
 				},
 				{
-					"name": "Bash",
+					"name": "Размашистый удар",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and has disadvantage on saving throws against psionic powers.",
-						"The brain can grapple up to four creatures at once."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 10 фт., одна цель. {@h}14 ({@damage 2d8 + 5}) дробящего урона, и цель {@condition grappled} (высвобождение {@dc 15}). Пока захват не окончен, цель {@condition restrained} и совершает с помехой спасброски против псионических сил.",
+						"Мозг может держать в захвате до четырёх существ одновременно."
 					]
 				},
 				{
-					"name": "Squeeze",
+					"name": "Сжатие",
 					"entries": [
-						"Each creature {@condition grappled} by the brain must make a {@dc 16} Strength saving throw, taking 22 ({@damage 4d10}) bludgeoning damage on a failed save, or half as much damage on a successful one."
+						"Каждое существо {@condition grappled} мозгом должно совершить спасбросок Силы {@dc 16}, получая 22 ({@damage 4d10}) дробящего урона при провале, или половину этого урона при успехе."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Psionic Invigoration (1/Day)",
+					"name": "Псионическое воодушевление (1/день)",
 					"entries": [
-						"Each willing voiceless talker within 60 feet of the brain regains the use of one psionic power of the voiceless talker's choice, and the voiceless talker has advantage on attack rolls until the end of the brain's next turn."
+						"Каждый согласный безголосый говорящий в пределах 60 футов от мозга восстанавливает использование одной псионической силы на выбор безголосого говорящего, и безголосый говорящий имеет преимущество на броски атаки до конца следующего хода мозга."
 					]
 				}
 			],
@@ -613,7 +613,7 @@
 			]
 		},
 		{
-			"name": "Lord Syuul",
+			"name": "Лорд Сюул",
 			"isNamedCreature": true,
 			"source": "FMp1",
 			"page": 14,
@@ -678,108 +678,108 @@
 			],
 			"languages": [
 				"Deep Speech",
-				"Undercommon",
+				"Подземный",
 				"telepathy 120 ft."
 			],
 			"cr": "15",
 			"trait": [
 				{
-					"name": "Draw In",
+					"name": "Втягивание",
 					"entries": [
-						"If Lord Syuul fails a saving throw while grappling at least one hostile creature, he can choose to release all {@condition grappled} creatures and succeed on the saving throw instead."
+						"Если лорд Сюул проваливает спасбросок, держа в захвате как минимум одно враждебное существо, он может решить освободить всех {@condition grappled} существ и вместо этого преуспеть в спасброске."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Lord Syuul makes two Tentacle or Psionic Repeater attacks then manifests a power or uses Memory Transfer."
+						"Лорд Сюул совершает две атаки щупальцем или псионическим повторителем, затем проявляет силу или использует Перенос памяти."
 					]
 				},
 				{
-					"name": "Tentacle",
+					"name": "Щупальце",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}28 ({@damage 4d10 + 6}) psychic damage, and the target is {@condition grappled} (escape {@dc 19})."
+						"{@atk mw} {@hit 11} к попаданию, досягаемость 15 фт., одна цель. {@h}28 ({@damage 4d10 + 6}) психического урона, и цель {@condition grappled} (высвобождение {@dc 19})."
 					]
 				},
 				{
-					"name": "Psionic Repeater",
+					"name": "Псионический повторитель",
 					"entries": [
-						"{@atk rw} {@hit 11} to hit, range 150/600 ft., one target. {@h}22 ({@damage 3d10 + 6}) force damage."
+						"{@atk rw} {@hit 11} к попаданию, дистанция 150/600 футов, одна цель. {@h}22 ({@damage 3d10 + 6}) силового урона."
 					]
 				},
 				{
-					"name": "Brain Overload (1/Day; 6th-Order Power)",
+					"name": "Перегрузка мозга (1/день; сила 6-го порядка)",
 					"entries": [
-						"Lord Syuul creates a sudden surge of energy in the mind of a creature he can see within 120 feet of him. The target must make a {@dc 19} Constitution saving throw, taking 77 ({@damage 14d10}) psychic damage on a failed save, or half as much damage on a successful one. If the target has a head and is reduced to 0 hit points, their head explodes, and if they can't survive without a head, they die."
+						"Лорд Сюул создаёт внезапный всплеск энергии в разуме существа, которое он видит в пределах 120 футов от себя. Цель должна совершить спасбросок Телосложения {@dc 19}, получая 77 ({@damage 14d10}) психического урона при провале, или половину этого урона при успехе. Если у цели есть голова и её хиты опускаются до 0, её голова взрывается, и если она не может выжить без головы, она умирает."
 					]
 				},
 				{
-					"name": "Flay (6th-Order Power)",
+					"name": "Свежевание (сила 6-го порядка)",
 					"entries": [
-						"Lord Syuul shoots a 15-foot cone of psionic energy from his eyes. Each creature in that area must make a {@dc 19} Intelligence saving throw, taking 35 ({@damage 10d6}) psychic damage on a failed save, or half as much damage on a successful one."
+						"Лорд Сюул выпускает 15-футовый конус псионической энергии из своих глаз. Все существа в этой области должны совершить спасбросок Интеллекта {@dc 19}, получая 35 ({@damage 10d6}) психического урона при провале, или половину этого урона при успехе."
 					]
 				},
 				{
-					"name": "Memory Transfer",
+					"name": "Перенос памяти",
 					"entries": [
-						"Lord Syuul psionically plunders the mind of each creature he is grappling. Each target must succeed on a {@dc 19} Intelligence saving throw or take 44 ({@damage 8d10}) psychic damage. If a target fails their saving throw and doesn't escape the grapple by the end of their next turn, they must choose one of these effects:",
+						"Лорд Сюул псионически разоряет разум каждого существа, которое держит в захвате. Каждая цель должна преуспеть в спасброске Интеллекта {@dc 19}, иначе получит 44 ({@damage 8d10}) психического урона. Если цель проваливает спасбросок и не вырывается из захвата к концу своего следующего хода, она должна выбрать один из следующих эффектов:",
 						{
 							"type": "list",
 							"items": [
-								"The target's proficiency bonus drops to 0, they can't form new thoughts or speak, and they have disadvantage on all ability checks, attack rolls, and saving throws. Only the cure ailment power, {@spell lesser restoration} spell, or similar supernatural effects can return the target's proficiency bonus to normal.",
-								"The target is {@condition charmed} by Lord Syuul for 1 hour. While the target is {@condition charmed}, Lord Syuul can issue the target telepathic commands (no action required), which the target does their best to obey. Each time the target takes damage, they can make a {@dc 19} Wisdom saving throw, ending the condition on a success."
+								"Бонус мастерства цели опускается до 0, она не может формировать новые мысли или говорить, и она совершает с помехой все проверки характеристик, броски атаки и спасброски. Только сила исцеления недуга, заклинание {@spell lesser restoration} или подобные сверхъестественные эффекты могут вернуть бонус мастерства цели к норме.",
+								"Цель {@condition charmed} лордом Сюулом на 1 час. Пока цель {@condition charmed}, лорд Сюул может отдавать цели телепатические команды (не требуется действие), которые цель старается выполнять как можно лучше. Каждый раз, когда цель получает урон, она может совершить спасбросок Мудрости {@dc 19}, оканчивая состояние при успехе."
 							]
 						},
-						"Additionally, until Lord Syuul finishes a long rest, he gains a cumulative +5 bonus to damage rolls."
+						"Кроме того, пока лорд Сюул не завершит продолжительный отдых, он получает накопительный бонус +5 к броскам урона."
 					]
 				},
 				{
-					"name": "Guise (3rd-Order Power)",
+					"name": "Личина (сила 3-го порядка)",
 					"entries": [
-						"Lord Syuul projects a psionic image over his body, transforming that transforms his appearance for 1 hour into that of a Medium creature he has seen. When he manifests this power, he can also change the appearance of any equipment he carries.",
-						"The changes wrought by this power fail to hold up to physical inspection. A creature can use an action to inspect Lord Syuul's appearance and make a {@dc 19} Intelligence (Investigation) check, noticing the image is a projection on a success."
+						"Лорд Сюул проецирует псионический образ поверх своего тела, превращая свою внешность на 1 час во внешность существа Среднего размера, которое он видел. Проявляя эту силу, он также может изменить внешность любого несомого им снаряжения.",
+						"Изменения, внесённые этой силой, не выдерживают физической проверки. Существо может действием осмотреть внешность лорда Сюула и совершить проверку Интеллекта (Анализ) {@dc 19}, при успехе замечая, что образ является проекцией."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Grappling Jaunt",
+					"name": "Захватное перемещение",
 					"entries": [
-						"Lord Syuul and each creature {@condition grappled} by him teleport up to 30 feet to an unoccupied space he can see."
+						"Лорд Сюул и каждое существо {@condition grappled} им телепортируются на расстояние до 30 футов в свободное пространство, которое он видит."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Brain Drain",
+					"name": "Вытягивание мозга",
 					"entries": [
-						"When a creature {@condition grappled} by Lord Syuul makes a saving throw against Memory Transfer, Lord Syuul momentarily weakens the creature and the creature has disadvantage on the saving throw."
+						"Когда существо {@condition grappled} лордом Сюулом совершает спасбросок против Переноса памяти, лорд Сюул на мгновение ослабляет существо, и существо совершает спасбросок с помехой."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"Lord Syuul has three villain actions. He can take each action once during an encounter after an enemy creature's turn. He can take these actions in any order but can only use one per round."
+				"У лорда Сюула три злодейских действия. Он может совершить каждое действие один раз за столкновение после хода враждебного существа. Он может совершать эти действия в любом порядке, но может использовать только одно за раунд."
 			],
 			"legendary": [
 				{
-					"name": "Action 1: Mindblind",
+					"name": "Действие 1: Слепой разум",
 					"entries": [
-						"Each creature of Lord Syuul's choice he can see within 60 feet of him must make a {@dc 19} Wisdom saving throw. On a failed save, a creature can't see creatures other than Lord Syuul for 1 minute (save ends at end of turn)."
+						"Каждое существо на выбор лорда Сюула, которое он видит в пределах 60 футов от себя, должно совершить спасбросок Мудрости {@dc 19}. При провале существо не может видеть никого, кроме лорда Сюула, в течение 1 минуты (спасбросок оканчивается в конце хода)."
 					]
 				},
 				{
-					"name": "Action 2: Was I Ever Here?",
+					"name": "Действие 2: Был ли я вообще здесь?",
 					"entries": [
-						"Lord Syuul becomes {@condition invisible}, teleports 60 feet to an unoccupied space he can see, and can take the Hide action. At the same time, an illusory psionic image of Lord Syuul appears in the space he left, gesturing, speaking, and behaving as he chooses (no action required). A creature who touches the image or makes a melee attack against it must succeed on a {@dc 19} Constitution saving throw or take 21 ({@damage 6d6}) psychic damage. Physical interaction with the image reveals it to be an illusion, because things can pass through it. Lord Syuul's invisibility ends and his image disappears at the end of his next turn."
+						"Лорд Сюул становится {@condition invisible}, телепортируется на 60 футов в свободное пространство, которое видит, и может совершить действие Засада. Одновременно в оставленном им пространстве появляется иллюзорный псионический образ лорда Сюула, который жестикулирует, говорит и ведёт себя по его выбору (не требуется действие). Существо, которое касается образа или совершает по нему рукопашную атаку, должно преуспеть в спасброске Телосложения {@dc 19}, иначе получит 21 ({@damage 6d6}) психического урона. Физическое взаимодействие с образом раскрывает, что это иллюзия, поскольку предметы проходят сквозь него. Невидимость лорда Сюула оканчивается, и его образ исчезает в конце его следующего хода."
 					]
 				},
 				{
-					"name": "Action 3: Mindshatter",
+					"name": "Действие 3: Раздробление разума",
 					"entries": [
-						"Each creature of Lord Syuul's choice he can see within 60 feet of him must make a {@dc 19} Wisdom throw. On a failed save, a target takes 55 ({@damage 10d10}) psychic damage and is dazed for 1 minute (save ends at end of turn).",
-						"On a successful save, a target takes half as much damage and isn't dazed."
+						"Каждое существо на выбор лорда Сюула, которое он видит в пределах 60 футов от себя, должно совершить спасбросок Мудрости {@dc 19}. При провале цель получает 55 ({@damage 10d10}) психического урона и ошеломлена на 1 минуту (спасбросок оканчивается в конце хода).",
+						"При успешном спасброске цель получает половину этого урона и не ошеломлена."
 					]
 				}
 			],
@@ -816,7 +816,7 @@
 			]
 		},
 		{
-			"name": "Mindkiller",
+			"name": "Убийца разума",
 			"source": "FMp1",
 			"page": 13,
 			"size": [
@@ -860,43 +860,43 @@
 			"passive": 12,
 			"languages": [
 				"Deep Speech",
-				"Undercommon",
+				"Подземный",
 				"telepathy 120 ft."
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Amorphous",
+					"name": "Аморфность",
 					"entries": [
-						"The mindkiller can move through a space as narrow as 1 inch wide without squeezing."
+						"Убийца разума может перемещаться сквозь пространство шириной в 1 дюйм без протискивания."
 					]
 				},
 				{
-					"name": "Psionic Immunity",
+					"name": "Псионический иммунитет",
 					"entries": [
-						"The mindkiller is unaffected by psionic powers manifested by voiceless talkers unless the mindkiller wishes to be."
+						"На убийцу разума не действуют псионические силы, проявляемые безголосыми говорящими, если только убийца разума сам этого не пожелает."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Когти",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage plus 7 ({@damage 2d6}) psychic damage, and if the target is a Medium or smaller creature, the target is {@condition grappled} (escape {@dc 12}). Until the grapple ends, the target is {@condition restrained} and the mindkiller can't use their Claws to attack another target."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 2d4 + 2}) рубящего урона плюс 7 ({@damage 2d6}) психического урона, и если цель — существо Среднего или меньшего размера, цель {@condition grappled} (высвобождение {@dc 12}). Пока захват не окончен, цель {@condition restrained}, и убийца разума не может использовать свои Когти для атаки по другой цели."
 					]
 				},
 				{
-					"name": "Concealing Strike",
+					"name": "Скрытный удар",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 30 ft., one creature. {@h}13 ({@damage 3d6 + 3}) psychic damage, and the mindkiller is {@condition invisible} to the target until the end of the mindkiller's next turn."
+						"{@atk rs} {@hit 5} к попаданию, дистанция 30 фт., одно существо. {@h}13 ({@damage 3d6 + 3}) психического урона, и убийца разума {@condition invisible} для цели до конца следующего хода убийцы разума."
 					]
 				},
 				{
-					"name": "Mindwipe",
+					"name": "Стирание разума",
 					"entries": [
-						"A Humanoid {@condition grappled} by the mindkiller must succeed on a {@dc 12} Strength saving throw or the mindkiller enters the Humanoid's body. While inside a Humanoid, the mindkiller has total cover against attacks and other effects originating outside the Humanoid, and the only action the mindkiller can take is to leave the body, exiting in an unoccupied space within 5 feet of the body.",
-						"When a Humanoid ends their turn with the mindkiller inside of them, they must succeed on a {@dc 13} Constitution saving throw or take 10 necrotic damage. If the Humanoid is reduced to 0 hit points, they die and the mindkiller takes over the body, which regains hit points equal to the Humanoid's hit point maximum. The mindkiller retains their Intelligence, Wisdom, and Charisma scores, their understanding of Deep Speech and Undercommon, and their telepathy. They otherwise adopt the target's statistics and can take the actions the creature could take. They know everything the creature knew, including spells, class features, traits, and languages. If the body is reduced to 0 hit points after the mindkiller takes control, the mindkiller must leave it.",
-						"A creature wielding a sharp tool or weapon within reach of a Humanoid host or body with a mindkiller inside can use an action to attempt to remove the mindkiller, making an attack roll against the Humanoid's AC if the host is unwilling. On a hit, the creature deals 11 ({@damage 2d10}) slashing damage to the host and must make a {@dc 15} Wisdom (Medicine) check. On a successful check, the creature cuts the mindkiller out of the host. On a faiIed check, if this slashing damage reduced the host to 0 hit points, the mindkiller kills the host; otherwise, there is no effect."
+						"Гуманоид {@condition grappled} убийцей разума должен преуспеть в спасброске Силы {@dc 12}, иначе убийца разума проникает в тело гуманоида. Находясь внутри гуманоида, убийца разума обладает полным укрытием от атак и прочих эффектов, исходящих извне гуманоида, и единственное действие, которое убийца разума может совершить, — покинуть тело, выходя в свободное пространство в пределах 5 футов от тела.",
+						"Когда гуманоид оканчивает свой ход с убийцей разума внутри себя, он должен преуспеть в спасброске Телосложения {@dc 13}, иначе получит 10 некротического урона. Если хиты гуманоида опускаются до 0, он умирает, и убийца разума завладевает телом, которое восстанавливает хиты в количестве, равном максимуму хитов гуманоида. Убийца разума сохраняет свои значения Интеллекта, Мудрости и Харизмы, своё понимание Глубокой речи и Подземного наречия и свою телепатию. В остальном он принимает статистику цели и может совершать действия, которые могло совершать это существо. Он знает всё, что знало существо, включая заклинания, умения класса, особенности и языки. Если хиты тела опускаются до 0 после того, как убийца разума взял его под контроль, убийца разума должен покинуть его.",
+						"Существо, владеющее острым инструментом или оружием в пределах досягаемости гуманоида-носителя или тела с убийцей разума внутри, может действием попытаться извлечь убийцу разума, совершая бросок атаки по КД гуманоида, если носитель не желает этого. При попадании существо причиняет носителю 11 ({@damage 2d10}) рубящего урона и должно совершить проверку Мудрости (Медицина) {@dc 15}. При успешной проверке существо вырезает убийцу разума из носителя. При провальной проверке, если этот рубящий урон уменьшил хиты носителя до 0, убийца разума убивает носителя; в остальном эффекта нет."
 					]
 				}
 			],
@@ -930,7 +930,7 @@
 			]
 		},
 		{
-			"name": "Mindkiller Whelp",
+			"name": "Детёныш убийцы разума",
 			"source": "FMp1",
 			"page": 13,
 			"size": [
@@ -969,41 +969,41 @@
 			"passive": 11,
 			"languages": [
 				"Deep Speech",
-				"Undercommon",
+				"Подземный",
 				"telepathy 120 ft."
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Amorphous",
+					"name": "Аморфность",
 					"entries": [
-						"The whelp can move through a space as narrow as 1 inch wide without squeezing."
+						"Детёныш может перемещаться сквозь пространство шириной в 1 дюйм без протискивания."
 					]
 				},
 				{
-					"name": "Minion",
+					"name": "Прислужник",
 					"entries": [
-						"If the whelp takes damage from an attack or as the result of a failed saving throw, their hit points are reduced to 0. If the whelp takes damage from another effect, they die if the damage equals or exceeds their hit point maximum, otherwise they take no damage."
+						"Если детёныш получает урон от атаки или в результате проваленного спасброска, его хиты опускаются до 0. Если детёныш получает урон от другого эффекта, он умирает, если урон равен его максимуму хитов или превышает его, в остальном он не получает урона."
 					]
 				},
 				{
-					"name": "Psionic Immunity",
+					"name": "Псионический иммунитет",
 					"entries": [
-						"The whelp is unaffected by psionic powers manifested by voiceless talkers unless they wish to be."
+						"На детёныша не действуют псионические силы, проявляемые безголосыми говорящими, если только он сам этого не пожелает."
 					]
 				},
 				{
-					"name": "Resistance Drain",
+					"name": "Истощение сопротивления",
 					"entries": [
-						"When a hostile creature within 5 feet of three or more whelps makes a saving throw against a power or psionic effect, the creature takes a penalty to the save equal to the number of whelps within 5 feet of them."
+						"Когда враждебное существо в пределах 5 футов от трёх или более детёнышей совершает спасбросок против силы или псионического эффекта, существо получает штраф к спасброску, равный числу детёнышей в пределах 5 футов от него."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Claws (Group Attack)",
+					"name": "Когти (групповая атака)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}3 рубящего урона."
 					]
 				}
 			],
@@ -1026,7 +1026,7 @@
 			]
 		},
 		{
-			"name": "Mohler",
+			"name": "Молер",
 			"source": "FMp1",
 			"page": 7,
 			"size": [
@@ -1066,29 +1066,29 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) рубящего урона."
 					]
 				},
 				{
-					"name": "Earth Bump",
+					"name": "Земляной толчок",
 					"entries": [
-						"As the mohler burrows under a Large or smaller creature on the ground within 5 feet of them, the mohler shifts the ground. The creature above them must succeed on a {@dc 12} Dexterity saving throw or be knocked {@condition prone}."
+						"Когда молер копается под существом Большого или меньшего размера на земле в пределах 5 футов от себя, он сдвигает землю. Существо над ним должно преуспеть в спасброске Ловкости {@dc 12}, иначе будет сбито с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Ground Grinder",
+					"name": "Земляной бурав",
 					"entries": [
-						"The mohler burrows up to their burrowing speed. Ground within 5 feet of where the mohler burrows becomes difficult terrain."
+						"Молер копается на расстояние, не превышающее его скорость копания. Земля в пределах 5 футов от места, где копается молер, становится труднопроходимой местностью."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Zip",
+					"name": "Рывок",
 					"entries": [
-						"If the mohler fails a Dexterity saving throw while burrowing, they succeed instead."
+						"Если молер проваливает спасбросок Ловкости, копаясь, он вместо этого преуспевает."
 					]
 				}
 			],
@@ -1110,7 +1110,7 @@
 			]
 		},
 		{
-			"name": "Mohler Companion",
+			"name": "Спутник-молер",
 			"source": "FMp1",
 			"page": 9,
 			"size": [
@@ -1159,50 +1159,50 @@
 			"pbNote": "equals caregiver's proficiency bonus",
 			"action": [
 				{
-					"name": "Signature Attack (Claw)",
+					"name": "Характерная атака (коготь)",
 					"entries": [
-						"{@atk mw} +3 plus PB to hit, reach 5 ft., one target. {@h}{@dice 1d6} plus PB slashing damage."
+						"{@atk mw} +3 плюс БМ к попаданию, досягаемость 5 фт., одна цель. {@h}{@dice 1d6} плюс БМ рубящего урона."
 					]
 				},
 				{
-					"name": "1st Level",
+					"name": "1-й уровень",
 					"entries": [
-						"Earth Bump (2 Ferocity). The mohler burrows up to their speed and chooses one Large or smaller creature they come within 5 feet of during the move. The target must succeed on a {@dc 10} plus PB Dexterity saving throw or be knocked {@condition prone}."
+						"Земляной толчок (2 ярости). Молер копается на расстояние, не превышающее его скорость, и выбирает одно существо Большого или меньшего размера, к которому он приближается на 5 футов во время перемещения. Цель должна преуспеть в спасброске Ловкости {@dc 10} плюс БМ, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "3rd Level",
+					"name": "3-й уровень",
 					"entries": [
-						"Sinkhole (5 Ferocity). The mohler burrows up to their speed and targets a creature they can sense on the surface within 10 feet of them. The target must succeed on a {@dc 10} plus PB Strength saving throw or be {@condition restrained} by the ground until the start of the mohler's next turn."
+						"Воронка (5 ярости). Молер копается на расстояние, не превышающее его скорость, и нацеливается на существо, которое он ощущает на поверхности в пределах 10 футов от себя. Цель должна преуспеть в спасброске Силы {@dc 10} плюс БМ, иначе будет {@condition restrained} землёй до начала следующего хода молера."
 					]
 				},
 				{
-					"name": "5th Level",
+					"name": "5-й уровень",
 					"entries": [
-						"Terranova (8 Ferocity). Each creature on the ground within 10 feet of the mohler must succeed on a {@dc 10} plus PB Strength saving throw or take {@dice 1d6} plus PB bludgeoning damage and be knocked {@condition prone}. A creature who fails this saving throw by 5 or more is {@condition restrained} by the ground (save ends at end of turn).",
-						"A creature can use their action to free themself or another creature within their reach, ending the effect."
+						"Терранова (8 ярости). Каждое существо на земле в пределах 10 футов от молера должно преуспеть в спасброске Силы {@dc 10} плюс БМ, иначе получит {@dice 1d6} плюс БМ дробящего урона и будет сбито с ног {@condition prone}. Существо, провалившее этот спасбросок на 5 или больше, {@condition restrained} землёй (спасбросок оканчивается в конце хода).",
+						"Существо может использовать своё действие, чтобы освободить себя или другое существо в пределах своей досягаемости, оканчивая эффект."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Quick Pit (1/Day)",
+					"name": "Быстрая яма (1/день)",
 					"entries": [
-						"If the mohler's caregiver fails a Dexterity saving throw while they are within 10 feet of the mohler and the mohler isn't {@condition incapacitated} or {@condition restrained}, the mohler pulls the caregiver out of danger. The caregiver succeeds on the saving throw instead."
+						"Если опекун молера проваливает спасбросок Ловкости, находясь в пределах 10 футов от молера, и молер не {@condition incapacitated} и не {@condition restrained}, молер вытаскивает опекуна из опасности. Опекун вместо этого преуспевает в спасброске."
 					]
 				}
 			],
 			"variant": [
 				{
 					"type": "inset",
-					"name": "Mystic Connection: Mohler",
+					"name": "Мистическая связь: молер",
 					"entries": [
-						"If you're playing a {@link beastheart|https://shop.mcdmproductions.com/products/beastheart-companions} and have a mohler companion, you gain the following benefit at 9th level when you gain the beastheart's Mystic Connection feature:",
+						"Если вы играете {@link beastheart|https://shop.mcdmproductions.com/products/beastheart-companions} и у вас есть спутник-молер, вы получаете следующее преимущество на 9-м уровне, когда получаете умение Мистическая связь зверосердца:",
 						{
 							"type": "entries",
-							"name": "Earthen Strength",
+							"name": "Земляная сила",
 							"entries": [
-								"As a bonus action, your limbs grow dense and swing with incredible force for 1 minute. For the duration, when you hit a creature no more than one size category larger or smaller than you with a melee weapon attack, the creature is also knocked {@condition prone}. Once you use this benefit, you can't do so again until you finish a long rest."
+								"Бонусным действием ваши конечности на 1 минуту становятся плотными и бьют с невероятной силой. На время действия, когда вы попадаете по существу не более чем на одну категорию размера больше или меньше вас рукопашной атакой оружием, это существо также сбивается с ног {@condition prone}. После использования этого преимущества вы не можете использовать его снова, пока не завершите продолжительный отдых."
 							]
 						}
 					]
@@ -1221,7 +1221,7 @@
 			]
 		},
 		{
-			"name": "Orc Blacksmith",
+			"name": "Орк-кузнец",
 			"source": "FMp1",
 			"page": 9,
 			"size": [
@@ -1269,43 +1269,43 @@
 			],
 			"passive": 13,
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"trait": [
 				{
-					"name": "Tool Proficiency",
+					"name": "Владение инструментами",
 					"entries": [
-						"The blacksmith is proficient in smith's tools (+6 bonus)."
+						"Кузнец владеет кузнечными инструментами (бонус +6)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Signature Attack (Warhammer)",
+					"name": "Характерная атака (боевой молот)",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) bludgeoning damage.",
-						"Beginning at 7th level, the blacksmith can make this attack twice, instead of once, when they take the Attack action on their turn."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d10 + 4}) дробящего урона.",
+						"Начиная с 7-го уровня кузнец может совершать эту атаку дважды вместо одного раза, когда совершает в свой ход действие Атака."
 					]
 				},
 				{
-					"name": "3rd Level: Fire Bellows (3/Day)",
+					"name": "3-й уровень: Огненные мехи (3/день)",
 					"entries": [
-						"The blacksmith blows fire in a 15-foot cone or in a 30-foot-long, 5-foot-wide line. Each creature in that area must make a Dexterity saving throw, taking 9 ({@damage 2d8}) fire damage on a failed save, or half as much damage on a successful one."
+						"Кузнец выдыхает огонь 15-футовым конусом или линией длиной 30 футов и шириной 5 футов. Все существа в этой области должны совершить спасбросок Ловкости, получая 9 ({@damage 2d8}) урона огнём при провале, или половину этого урона при успехе."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "5th Level: Reinforce Armor (3/Day)",
+					"name": "5-й уровень: Укрепление доспеха (3/день)",
 					"entries": [
-						"As a bonus action, the blacksmith touches a piece of armor and fortifies it. Roll a {@dice d4}. For 10 minutes, a creature wearing the armor gains a bonus to their AC equal to the result of the roll."
+						"Бонусным действием кузнец касается части доспеха и укрепляет её. Бросьте {@dice d4}. В течение 10 минут существо, носящее этот доспех, получает бонус к своему КД, равный результату броска."
 					]
 				},
 				{
-					"name": "7th Level: Fortify Weapon (3/Day)",
+					"name": "7-й уровень: Укрепление оружия (3/день)",
 					"entries": [
-						"As a bonus action, the blacksmith touches a weapon and polishes it. For 1 minute, the weapon is magical and deals an extra {@damage 1d8} damage."
+						"Бонусным действием кузнец касается оружия и полирует его. В течение 1 минуты оружие является магическим и причиняет дополнительный {@damage 1d8} урона."
 					]
 				}
 			],
@@ -1327,7 +1327,7 @@
 			]
 		},
 		{
-			"name": "Orc Blitzer",
+			"name": "Орк-налётчик",
 			"source": "FMp1",
 			"page": 3,
 			"size": [
@@ -1371,35 +1371,35 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Gnashing Horde",
+					"name": "Скрежещущая орда",
 					"entries": [
-						"If a hostile creature the blitzer can see starts their turn within 5 feet of three or more blitzers, the creature takes 1 piercing damage for each blitzer within 5 feet of them."
+						"Если враждебное существо, которое налётчик может видеть, начинает свой ход в пределах 5 футов от трёх или более налётчиков, существо получает 1 колющего урона за каждого налётчика в пределах 5 футов от него."
 					]
 				},
 				{
-					"name": "Minion",
+					"name": "Прислужник",
 					"entries": [
-						"If the blitzer takes damage from an attack or as the result of a failed saving throw, their hit points are reduced to 0. If the blitzer takes damage from another effect, they die if the damage equals or exceeds their hit point maximum, otherwise they take no damage."
+						"Если налётчик получает урон от атаки или в результате проваленного спасброска, его хиты опускаются до 0. Если налётчик получает урон от другого эффекта, он умирает, если урон равен его максимуму хитов или превышает его, в остальном он не получает урона."
 					]
 				},
 				{
-					"name": "Relentless Minion",
+					"name": "Неумолимый прислужник",
 					"entries": [
-						"When the blitzer isn't {@condition incapacitated} and is reduced to 0 hit points, they can deal 1 piercing damage to a hostile creature within 5 feet of them."
+						"Когда налётчик не {@condition incapacitated} и его хиты опускаются до 0, он может причинить 1 колющего урона враждебному существу в пределах 5 футов от себя."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Spear (Group Attack)",
+					"name": "Копьё (групповая атака)",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or ranged 20/60 ft., one target. {@h}1 piercing damage."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}1 колющего урона."
 					]
 				}
 			],
@@ -1424,7 +1424,7 @@
 			]
 		},
 		{
-			"name": "Orc Bloodrunner",
+			"name": "Орк-кровобег",
 			"source": "FMp1",
 			"page": 3,
 			"size": [
@@ -1444,7 +1444,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item shield|phb|spiked shield}"
+						"{@item shield|phb|шипастый щит}"
 					]
 				}
 			],
@@ -1476,43 +1476,43 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Relentless (1/Turn)",
+					"name": "Неумолимый (1/ход)",
 					"entries": [
-						"When the bloodrunner isn't {@condition incapacitated} and they are reduced to 0 hit points but not killed outright, they can make an attack against a hostile creature (no action required) before the hit point reduction is resolved. If the attack hits and its damage reduces the target to 0 hit points, the bloodrunner drops to 1 hit point instead of 0 hit points."
+						"Когда кровобег не {@condition incapacitated} и его хиты опускаются до 0, но он не убит сразу, он может совершить атаку по враждебному существу (не требуется действие) до того, как уменьшение хитов будет рассчитано. Если атака попадает и её урон уменьшает хиты цели до 0, хиты кровобега опускаются до 1 вместо 0."
 					]
 				},
 				{
-					"name": "Unimpeded",
+					"name": "Беспрепятственность",
 					"entries": [
-						"The bloodrunner can occupy a {@condition prone} creature's space. The first time the bloodrunner enters a {@condition prone} creature's space on the bloodrunner's turn, the {@condition prone} creature takes 3 ({@damage 1d6}) bludgeoning damage. When a {@condition prone} creature in the bloodrunner's space stands up, the creature enters the nearest unoccupied space of their choice."
+						"Кровобег может занимать пространство существа {@condition prone}. Первый раз, когда кровобег в свой ход входит в пространство существа {@condition prone}, существо {@condition prone} получает 3 ({@damage 1d6}) дробящего урона. Когда существо {@condition prone} в пространстве кровобега встаёт, это существо занимает ближайшее свободное пространство на свой выбор."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Spiked Shield",
+					"name": "Шипастый щит",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage. If the bloodrunner moves at least 10 feet before hitting a Large or smaller creature with this attack, the bloodrunner can choose to knock the target {@condition prone} or push them up to 10 feet away."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона. Если кровобег перемещается как минимум на 10 футов, прежде чем попасть этой атакой по существу Большого или меньшего размера, кровобег может решить сбить цель с ног {@condition prone} или оттолкнуть её на расстояние до 10 футов."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Метательное копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Juke",
+					"name": "Уклонение",
 					"entries": [
-						"When the bloodrunner makes a Dexterity saving throw, they can gain advantage on the save. To do so, the bloodrunner can't be {@condition prone}, {@condition grappled}, or {@condition restrained}."
+						"Когда кровобег совершает спасбросок Ловкости, он может получить преимущество на этот спасбросок. Для этого кровобег не может быть {@condition prone}, {@condition grappled} или {@condition restrained}."
 					]
 				}
 			],
@@ -1538,7 +1538,7 @@
 			]
 		},
 		{
-			"name": "Orc Conduit",
+			"name": "Орк-проводник",
 			"source": "FMp1",
 			"page": 4,
 			"size": [
@@ -1591,44 +1591,44 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Affinity",
+					"name": "Сродство",
 					"entries": [
-						"The conduit has a lifelong affinity for one of the following damage types: cold, fire, or lightning. The chosen type determines the conduit's damage resistance and the damage of their Elemental Discharge and Power Burst actions."
+						"У проводника есть пожизненное сродство с одним из следующих типов урона: холодом, огнём или электричеством. Выбранный тип определяет сопротивление урону проводника и урон его действий Высвобождение стихии и Всплеск силы."
 					]
 				},
 				{
-					"name": "Relentless (1/Turn)",
+					"name": "Неумолимый (1/ход)",
 					"entries": [
-						"When the conduit isn't {@condition incapacitated} and they are reduced to 0 hit points but not killed outright, they can make an attack against a hostile creature (no action required) before the hit point reduction is resolved. If the attack hits and its damage reduces the target to 0 hit points, the conduit drops to 1 hit point instead of 0 hit points."
+						"Когда проводник не {@condition incapacitated} и его хиты опускаются до 0, но он не убит сразу, он может совершить атаку по враждебному существу (не требуется действие) до того, как уменьшение хитов будет рассчитано. Если атака попадает и её урон уменьшает хиты цели до 0, хиты проводника опускаются до 1 вместо 0."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Elemental Discharge (Cantrip)",
+					"name": "Высвобождение стихии (заговор)",
 					"entries": [
-						"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 120 ft., one target. {@h}9 ({@damage 1d12 + 3}) damage of the type determined by the conduit's Affinity trait."
+						"{@atk ms,rs} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 120 фт., одна цель. {@h}9 ({@damage 1d12 + 3}) урона типа, определяемого свойством Сродство проводника."
 					]
 				},
 				{
-					"name": "Power Burst (2/Day; 1st-Level Spell)",
+					"name": "Всплеск силы (2/день; заклинание 1-го уровня)",
 					"entries": [
-						"The conduit unleashes explosive energy in a 15-foot cone. The ground in that area becomes difficult terrain, and each creature in that area must make a {@dc 13} Dexterity saving throw. On a failed save, a creature takes 10 ({@damage 3d6}) damage of the type determined by the conduit's Affinity trait, and they are pushed 10 feet away from the conduit.",
-						"On a successful save, a creature takes half as much damage and isn't pushed."
+						"Проводник высвобождает взрывную энергию 15-футовым конусом. Земля в этой области становится труднопроходимой местностью, и все существа в этой области должны совершить спасбросок Ловкости {@dc 13}. При провале существо получает 10 ({@damage 3d6}) урона типа, определяемого свойством Сродство проводника, и отталкивается на 10 футов от проводника.",
+						"При успешном спасброске существо получает половину этого урона и не отталкивается."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Rush",
+					"name": "Спешка",
 					"entries": [
-						"The conduit takes the Dash action."
+						"Проводник совершает действие Рывок."
 					]
 				}
 			],
@@ -1647,7 +1647,7 @@
 			]
 		},
 		{
-			"name": "Orc Fury",
+			"name": "Орк-фурия",
 			"source": "FMp1",
 			"page": 4,
 			"size": [
@@ -1698,37 +1698,37 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Relentless (1/Turn)",
+					"name": "Неумолимый (1/ход)",
 					"entries": [
-						"When the fury isn't {@condition incapacitated} and they are reduced to 0 hit points but not killed outright, they can make an attack against a hostile creature (no action required) before the hit point reduction is resolved. If the attack hits and its damage reduces the target to 0 hit points, the fury drops to 1 hit point instead of 0 hit points."
+						"Когда фурия не {@condition incapacitated} и её хиты опускаются до 0, но она не убита сразу, она может совершить атаку по враждебному существу (не требуется действие) до того, как уменьшение хитов будет рассчитано. Если атака попадает и её урон уменьшает хиты цели до 0, хиты фурии опускаются до 1 вместо 0."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Haymaker Greataxe",
+					"name": "Секира с замахом",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) slashing damage, or 12 ({@damage 1d12 + 6}) slashing damage if the target is {@condition prone}. If the target is a Medium or smaller creature, they must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 1d12 + 3}) рубящего урона, или 12 ({@damage 1d12 + 6}) рубящего урона, если цель {@condition prone}. Если цель — существо Среднего или меньшего размера, оно должно преуспеть в спасброске Силы {@dc 13}, иначе будет сбито с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Метательное копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk mw,rw} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Healing Rally (1/Day)",
+					"name": "Исцеляющий сбор (1/день)",
 					"entries": [
-						"The fury regains 5 hit points."
+						"Фурия восстанавливает 5 хитов."
 					]
 				}
 			],
@@ -1760,7 +1760,7 @@
 			]
 		},
 		{
-			"name": "Orc Garroter",
+			"name": "Орк-душитель",
 			"source": "FMp1",
 			"page": 5,
 			"size": [
@@ -1812,37 +1812,37 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Relentless (1/Turn)",
+					"name": "Неумолимый (1/ход)",
 					"entries": [
-						"When the garroter isn't {@condition incapacitated} and they are reduced to 0 hit points but not killed outright, they can make an attack against a hostile creature (no action required) before the hit point reduction is resolved. If the attack hits and its damage reduces the target to 0 hit points, the garroter drops to 1 hit point instead of 0 hit points."
+						"Когда душитель не {@condition incapacitated} и его хиты опускаются до 0, но он не убит сразу, он может совершить атаку по враждебному существу (не требуется действие) до того, как уменьшение хитов будет рассчитано. Если атака попадает и её урон уменьшает хиты цели до 0, хиты душителя опускаются до 1 вместо 0."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Strangle",
+					"name": "Удушение",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). Until the grapple ends, the target can't speak intelligibly or cast spells with verbal components. If the attack was made with advantage, the target must make a {@dc 12} Constitution saving throw. On a failed save, the target falls {@condition unconscious} for 1 minute (save ends at start of turn) or until they take damage. A creature can use an action to shake another creature awake who falls {@condition unconscious} this way."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) дробящего урона, и цель {@condition grappled} (высвобождение {@dc 12}). Пока захват не окончен, цель не может внятно говорить или накладывать заклинания с вербальными компонентами. Если атака была совершена с преимуществом, цель должна совершить спасбросок Телосложения {@dc 12}. При провале цель падает {@condition unconscious} на 1 минуту (спасбросок оканчивается в начале хода) или пока не получит урон. Существо может действием разбудить другое существо, упавшее {@condition unconscious} таким образом."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. If the attack was made with advantage, the target takes an extra 7 ({@damage 2d6}) piercing damage."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона. Если атака была совершена с преимуществом, цель получает дополнительный 7 ({@damage 2d6}) колющего урона."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Cloak (1/Day)",
+					"name": "Плащ (1/день)",
 					"entries": [
-						"The garroter magically turns {@condition invisible} for 1 minute. Any equipment the garroter wears or carries is {@condition invisible} with them. While {@condition invisible}, the garroter's movements make no sound. If the garroter hits a creature with an attack, casts a spell, or takes damage, the effect ends."
+						"Душитель магическим образом становится {@condition invisible} на 1 минуту. Всё снаряжение, которое душитель носит или несёт, {@condition invisible} вместе с ним. Пока душитель {@condition invisible}, его перемещения не издают звука. Если душитель попадает по существу атакой, накладывает заклинание или получает урон, эффект оканчивается."
 					]
 				}
 			],
@@ -1876,7 +1876,7 @@
 			]
 		},
 		{
-			"name": "Orc Godcaller",
+			"name": "Орк-зовущий богов",
 			"source": "FMp1",
 			"page": 5,
 			"size": [
@@ -1930,43 +1930,43 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Relentless (1/Turn)",
+					"name": "Неумолимый (1/ход)",
 					"entries": [
-						"When the godcaller isn't {@condition incapacitated} and they are reduced to 0 hit points but not killed outright, they can make an attack against a hostile creature (no action required) before the hit point reduction is resolved. If the attack hits and its damage reduces the target to 0 hit points, the godcaller drops to 1 hit point instead of 0 hit points."
+						"Когда зовущий богов не {@condition incapacitated} и его хиты опускаются до 0, но он не убит сразу, он может совершить атаку по враждебному существу (не требуется действие) до того, как уменьшение хитов будет рассчитано. Если атака попадает и её урон уменьшает хиты цели до 0, хиты зовущего богов опускаются до 1 вместо 0."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Power Chord (1st-Level Spell)",
+					"name": "Мощный аккорд (заклинание 1-го уровня)",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 30 ft., one creature who can hear the godcaller. {@h}18 ({@damage 4d6 + 4}) thunder damage."
+						"{@atk ms,rs} {@hit 6} к попаданию, досягаемость 5 фт. или дистанция 30 фт., одно существо, которое может слышать зовущего богов. {@h}18 ({@damage 4d6 + 4}) урона звуком."
 					]
 				},
 				{
-					"name": "Cadenza",
+					"name": "Каденция",
 					"entries": [
-						"The godcaller chooses another creature within 30 feet of them. If the target can hear the godcaller, the target can use their reaction to move up to their speed and make an attack."
+						"Зовущий богов выбирает другое существо в пределах 30 футов от себя. Если цель может слышать зовущего богов, цель может реакцией переместиться на расстояние, не превышающее её скорость, и совершить атаку."
 					]
 				},
 				{
-					"name": "Song of the Gods (2nd-Level Spell)",
+					"name": "Песнь богов (заклинание 2-го уровня)",
 					"entries": [
-						"The godcaller and each creature of their choice within 30 feet of them that can hear them has advantage on attack rolls until the start of the godcaller's next turn. This effect ends early if the godcaller takes any damage."
+						"Зовущий богов и каждое существо на его выбор в пределах 30 футов от него, которое может его слышать, имеют преимущество на броски атаки до начала следующего хода зовущего богов. Этот эффект оканчивается раньше, если зовущий богов получает любой урон."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Rallying Ostinato (1/Day)",
+					"name": "Воодушевляющее остинато (1/день)",
 					"entries": [
-						"The godcaller and up to three creatures of their choice within 60 feet of them that can hear them regain 20 hit points, and these creatures ignore difficult terrain for 1 minute."
+						"Зовущий богов и до трёх существ на его выбор в пределах 60 футов от него, которые могут его слышать, восстанавливают 20 хитов, и эти существа игнорируют труднопроходимую местность в течение 1 минуты."
 					]
 				}
 			],
@@ -1982,7 +1982,7 @@
 			]
 		},
 		{
-			"name": "Orc Rampart",
+			"name": "Орк-оплот",
 			"source": "FMp1",
 			"page": 6,
 			"size": [
@@ -2032,37 +2032,37 @@
 				"exhaustion"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Relentless (1/Turn)",
+					"name": "Неумолимый (1/ход)",
 					"entries": [
-						"When the rampart isn't {@condition incapacitated} and they are reduced to 0 hit points but not killed outright, they can make an attack against a hostile creature (no action required) before the hit point reduction is resolved. If the attack hits and its damage reduces the target to 0 hit points, the rampart drops to 1 hit point instead of 0 hit points."
+						"Когда оплот не {@condition incapacitated} и его хиты опускаются до 0, но он не убит сразу, он может совершить атаку по враждебному существу (не требуется действие) до того, как уменьшение хитов будет рассчитано. Если атака попадает и её урон уменьшает хиты цели до 0, хиты оплота опускаются до 1 вместо 0."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The rampart makes two Spear attacks. If the rampart targets the same creature with both attacks, the target has disadvantage on attack rolls against creatures other than the rampart until the start of the rampart's next turn."
+						"Оплот совершает две атаки копьём. Если оплот нацеливается на одно и то же существо обеими атаками, цель совершает с помехой броски атаки по существам, кроме оплота, до начала следующего хода оплота."
 					]
 				},
 				{
-					"name": "Spear",
+					"name": "Копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or ranged 20/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, or 8 ({@damage 1d8 + 4}) piercing damage if used with two hands to make a melee attack."
+						"{@atk mw,rw} {@hit 6} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона, или 8 ({@damage 1d8 + 4}) колющего урона при использовании двумя руками для рукопашной атаки."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "No!",
+					"name": "Нет!",
 					"entries": [
-						"When a creature within 5 feet of the rampart targets another creature with an attack, the attacker must target the rampart instead."
+						"Когда существо в пределах 5 футов от оплота нацеливается атакой на другое существо, атакующий должен вместо этого нацелиться на оплот."
 					]
 				}
 			],
@@ -2090,7 +2090,7 @@
 			]
 		},
 		{
-			"name": "Orc Terranova",
+			"name": "Орк-терранова",
 			"source": "FMp1",
 			"page": 6,
 			"size": [
@@ -2140,61 +2140,61 @@
 				"prone"
 			],
 			"languages": [
-				"Common",
-				"Orc"
+				"Общий",
+				"Орочий"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Relentless (1/Turn)",
+					"name": "Неумолимый (1/ход)",
 					"entries": [
-						"When the terranova isn't {@condition incapacitated} and they are reduced to 0 hit points but not killed outright, they can make an attack against a hostile creature (no action required) before the hit point reduction is resolved. If the attack hits and its damage reduces the target to 0 hit points, the terranova drops to 1 hit point instead of 0 hit points."
+						"Когда терранова не {@condition incapacitated} и её хиты опускаются до 0, но она не убита сразу, она может совершить атаку по враждебному существу (не требуется действие) до того, как уменьшение хитов будет рассчитано. Если атака попадает и её урон уменьшает хиты цели до 0, хиты террановы опускаются до 1 вместо 0."
 					]
 				},
 				{
-					"name": "Tremorspeak",
+					"name": "Дрожащая речь",
 					"entries": [
-						"The terranova can sense anything a willing creature within 30 feet of them can sense with tremorsense or Tremorspeak."
+						"Терранова может ощущать всё, что может ощущать согласное существо в пределах 30 футов от неё с помощью чувства вибрации или Дрожащей речи."
 					]
 				},
 				{
-					"name": "Unhindered",
+					"name": "Беспрепятственность",
 					"entries": [
-						"The terranova ignores difficult terrain."
+						"Терранова игнорирует труднопроходимую местность."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Earth Pillar (1st-Level Spell)",
+					"name": "Земляной столб (заклинание 1-го уровня)",
 					"entries": [
-						"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 30 ft., one target touching the ground. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage, and the target is knocked {@condition prone}."
+						"{@atk ms,rs} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 30 фт., одна цель, касающаяся земли. {@h}12 ({@damage 2d8 + 3}) дробящего урона, и цель сбивается с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Quake",
+					"name": "Землетрясение",
 					"entries": [
-						"The terranova chooses up to five creatures on the ground within 15 feet of them and stomps the ground. Each target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"Терранова выбирает до пяти существ на земле в пределах 15 футов от неё и топает по земле. Каждая цель должна преуспеть в спасброске Силы {@dc 13}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Sinkhole",
+					"name": "Воронка",
 					"entries": [
-						"The terranova chooses up to two creatures on the ground within 30 feet of them. Each target must succeed on a {@dc 13} Strength saving throw or be {@condition restrained}. A creature can use their action to free themself or another creature within their reach, ending the effect on that creature."
+						"Терранова выбирает до двух существ на земле в пределах 30 футов от неё. Каждая цель должна преуспеть в спасброске Силы {@dc 13}, иначе станет {@condition restrained}. Существо может использовать своё действие, чтобы освободить себя или другое существо в пределах своей досягаемости, оканчивая эффект на этом существе."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Unearth Mohlers (1/Day)",
+					"name": "Выкапывание молеров (1/день)",
 					"entries": [
-						"The terranova stomps, and {@dice 1d3 + 1} mohlers pop out of the ground in unoccupied spaces within 30 feet of them. The mohlers are friendly to the terranova and act immediately after them."
+						"Терранова топает, и {@dice 1d3 + 1} молеров выпрыгивают из земли в свободных пространствах в пределах 30 футов от неё. Молеры дружественны к терранове и действуют сразу после неё."
 					]
 				},
 				{
-					"name": "Rush",
+					"name": "Спешка",
 					"entries": [
-						"The terranova takes the Dash action."
+						"Терранова совершает действие Рывок."
 					]
 				}
 			],
@@ -2218,7 +2218,7 @@
 			]
 		},
 		{
-			"name": "Scyza",
+			"name": "Сциза",
 			"source": "FMp1",
 			"page": 7,
 			"size": [
@@ -2268,47 +2268,47 @@
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Siege Monster",
+					"name": "Осадное чудовище",
 					"entries": [
-						"The scyza deals double damage to objects and structures."
+						"Сциза причиняет двойной урон предметам и строениям."
 					]
 				},
 				{
-					"name": "War Harness",
+					"name": "Военная упряжь",
 					"entries": [
-						"While wearing a war harness, the scyza can carry up to thirty-six Medium or smaller creatures."
+						"Нося военную упряжь, сциза может нести до тридцати шести существ Среднего или меньшего размера."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The scyza makes two Talon attacks."
+						"Сциза совершает две атаки когтями."
 					]
 				},
 				{
-					"name": "Talon",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage, and the target is knocked {@condition prone}."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона, и цель сбивается с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Tail Whip",
+					"name": "Удар хвостом",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 20 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is on top of the scyza, the target falls off and lands {@condition prone}."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 20 фт., одна цель. {@h}14 ({@damage 2d8 + 5}) дробящего урона. Если цель находится на спине сцизы, цель падает и приземляется {@condition prone}."
 					]
 				},
 				{
-					"name": "Head Crest",
+					"name": "Гребень на голове",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d8 + 5}) slashing damage, and if the target is a creature who can hear, they are dazed until the end of their next turn by the crest's deep ringing."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}23 ({@damage 4d8 + 5}) рубящего урона, и если цель — существо, которое может слышать, она ошеломлена до конца своего следующего хода глубоким звоном гребня."
 					]
 				},
 				{
-					"name": "Talon Twister {@recharge}",
+					"name": "Вихрь когтей {@recharge}",
 					"entries": [
-						"The scyza claws at the ground in a flurry. Each creature of the scyza's choice within 5 feet of them must make a {@dc 15} Dexterity saving throw. On a failed save, a creature takes 13 ({@damage 3d8}) slashing damage, is knocked {@condition prone}, and is {@condition blinded} by a cloud of dust until the start of the scyza's next turn. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone} or {@condition blinded}."
+						"Сциза яростно скребёт землю когтями. Каждое существо на выбор сцизы в пределах 5 футов от неё должно совершить спасбросок Ловкости {@dc 15}. При провале существо получает 13 ({@damage 3d8}) рубящего урона, сбивается с ног {@condition prone} и становится {@condition blinded} от облака пыли до начала следующего хода сцизы. При успешном спасброске существо получает половину этого урона и не сбивается с ног {@condition prone} и не становится {@condition blinded}."
 					]
 				}
 			],
@@ -2339,7 +2339,7 @@
 			]
 		},
 		{
-			"name": "Voiceless Talker",
+			"name": "Безголосый говорящий",
 			"source": "FMp1",
 			"page": 11,
 			"size": [
@@ -2400,56 +2400,56 @@
 			],
 			"languages": [
 				"Deep Speech",
-				"Undercommon",
+				"Подземный",
 				"telepathy 120 ft."
 			],
 			"cr": "7",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The voiceless talker manifests a power and makes a Tentacle or Psionic Pistol attack."
+						"Безголосый говорящий проявляет силу и совершает атаку щупальцем или псионическим пистолетом."
 					]
 				},
 				{
-					"name": "Tentacle",
+					"name": "Щупальце",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) psychic damage, and the target is {@condition grappled} (escape {@dc 15})."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}15 ({@damage 2d10 + 4}) психического урона, и цель {@condition grappled} (высвобождение {@dc 15})."
 					]
 				},
 				{
-					"name": "Psionic Pistol",
+					"name": "Псионический пистолет",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage."
+						"{@atk rw} {@hit 7} к попаданию, дистанция 80/320 футов, одна цель. {@h}15 ({@damage 2d10 + 4}) силового урона."
 					]
 				},
 				{
-					"name": "Memory Thief (4th-Order Power)",
+					"name": "Похититель памяти (сила 4-го порядка)",
 					"entries": [
-						"The voiceless talker psionically plunders the mind of a creature they can see within 30 feet of them. The target must make a {@dc 15} Intelligence saving throw.",
-						"On a failed save, the target takes 22 ({@damage 4d10}) psychic damage, and until they finish a long rest or die, their proficiency bonus is lowered by 1 and the voiceless talker gains a cumulative +2 bonus to damage rolls. On a successful save, a target takes half as much damage and doesn't have their proficiency bonus reduced.",
-						"A creature whose proficiency bonus drops to 0 can't form new thoughts or speak, and they have disadvantage on ability checks, attack rolls, and saving throws."
+						"Безголосый говорящий псионически разоряет разум существа, которое он видит в пределах 30 футов от себя. Цель должна совершить спасбросок Интеллекта {@dc 15}.",
+						"При провале цель получает 22 ({@damage 4d10}) психического урона, и пока она не завершит продолжительный отдых или не умрёт, её бонус мастерства понижается на 1, а безголосый говорящий получает накопительный бонус +2 к броскам урона. При успешном спасброске цель получает половину этого урона, и её бонус мастерства не понижается.",
+						"Существо, чей бонус мастерства опускается до 0, не может формировать новые мысли или говорить, и оно совершает с помехой проверки характеристик, броски атаки и спасброски."
 					]
 				},
 				{
-					"name": "Flay (3/Day; 5th-Order Power)",
+					"name": "Свежевание (3/день; сила 5-го порядка)",
 					"entries": [
-						"The voiceless talker shoots a 15- foot cone of psionic energy from their eyes. Each creature in that area must make a {@dc 15} Intelligence saving throw, taking 28 ({@damage 8d6}) psychic damage on a failed save, or half as much damage on a successful one."
+						"Безголосый говорящий выпускает 15-футовый конус псионической энергии из своих глаз. Все существа в этой области должны совершить спасбросок Интеллекта {@dc 15}, получая 28 ({@damage 8d6}) психического урона при провале, или половину этого урона при успехе."
 					]
 				},
 				{
-					"name": "Guise (3rd-Order Power)",
+					"name": "Личина (сила 3-го порядка)",
 					"entries": [
-						"The voiceless talker projects a psionic image over their body, transforming their appearance for 1 hour into that of a Medium creature they have seen. When they manifest this power, they can also change the appearance of any equipment they carry for the duration.",
-						"The changes wrought by this power fail to hold up to physical inspection. A creature can use an action to inspect the voiceless talker's appearance and make a {@dc 15} Intelligence (Investigation) check, noticing the image is a projection on a success."
+						"Безголосый говорящий проецирует псионический образ поверх своего тела, превращая свою внешность на 1 час во внешность существа Среднего размера, которое он видел. Проявляя эту силу, он также может на время изменить внешность любого несомого им снаряжения.",
+						"Изменения, внесённые этой силой, не выдерживают физической проверки. Существо может действием осмотреть внешность безголосого говорящего и совершить проверку Интеллекта (Анализ) {@dc 15}, при успехе замечая, что образ является проекцией."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Brain Drain",
+					"name": "Вытягивание мозга",
 					"entries": [
-						"When a creature {@condition grappled} by the voiceless talker makes a saving throw against one of the voiceless talker's powers, the voiceless talker momentarily weakens the creature and the creature has disadvantage on the saving throw."
+						"Когда существо {@condition grappled} безголосым говорящим совершает спасбросок против одной из сил безголосого говорящего, безголосый говорящий на мгновение ослабляет существо, и существо совершает спасбросок с помехой."
 					]
 				}
 			],
@@ -2482,7 +2482,7 @@
 			]
 		},
 		{
-			"name": "Voiceless Talker Artillerist",
+			"name": "Безголосый говорящий-артиллерист",
 			"source": "FMp1",
 			"page": 11,
 			"size": [
@@ -2543,58 +2543,58 @@
 			],
 			"languages": [
 				"Deep Speech",
-				"Undercommon",
+				"Подземный",
 				"telepathy 120 ft."
 			],
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Phasing Rifle (1/Turn)",
+					"name": "Фазовинтовка (1/ход)",
 					"entries": [
-						"When the artillerist hits a target with their Psionic Rifle attack, the artillerist can attempt to teleport the target (no action required). The target must succeed on a {@dc 17} Wisdom saving throw or be teleported to an unoccupied space of the artillerist's choice they can see within 60 feet of the artillerist. The chosen space must be on a surface or in a liquid that can support the target without squeezing."
+						"Когда артиллерист попадает по цели своей атакой псионической винтовкой, артиллерист может попытаться телепортировать цель (не требуется действие). Цель должна преуспеть в спасброске Мудрости {@dc 17}, иначе будет телепортирована в свободное пространство на выбор артиллериста, которое он видит в пределах 60 футов от себя. Выбранное пространство должно быть на поверхности или в жидкости, способной удержать цель без протискивания."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The artillerist makes two Psionic Rifle attacks, or they manifest a power and make a Tentacle attack."
+						"Артиллерист совершает две атаки псионической винтовкой, или проявляет силу и совершает атаку щупальцем."
 					]
 				},
 				{
-					"name": "Psionic Rifle",
+					"name": "Псионическая винтовка",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}21 ({@damage 3d10 + 5}) force damage."
+						"{@atk rw} {@hit 9} к попаданию, дистанция 150/600 футов, одна цель. {@h}21 ({@damage 3d10 + 5}) силового урона."
 					]
 				},
 				{
-					"name": "Phasing Tentacles",
+					"name": "Фазовые щупальца",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d10 + 5}) psychic damage, and the artillerist can choose one of the following effects: the target is {@condition grappled} (escape {@dc 17}) or teleported up to 15 feet to an unoccupied space the artillerist can see."
+						"{@atk mw} {@hit 9} к попаданию, досягаемость 10 фт., одна цель. {@h}21 ({@damage 3d10 + 5}) психического урона, и артиллерист может выбрать один из следующих эффектов: цель {@condition grappled} (высвобождение {@dc 17}) или телепортирована на расстояние до 15 футов в свободное пространство, которое артиллерист видит."
 					]
 				},
 				{
-					"name": "Memory Thief (5th-Order Power)",
+					"name": "Похититель памяти (сила 5-го порядка)",
 					"entries": [
-						"The artillerist psionically plunders the mind of a creature they can see within 30 feet of them. The target must make a {@dc 17} Intelligence saving throw.",
-						"On a failed save, the target takes 33 ({@damage 6d10}) psychic damage, and until they finish a long rest or die, their proficiency bonus is lowered by 1 and the artillerist gains a cumulative +2 bonus to damage rolls. On a successful save, a target takes half as much damage and doesn't have their proficiency bonus reduced.",
-						"A creature whose proficiency bonus drops to 0 can't form new thoughts or speak, and they have disadvantage on ability checks, attack rolls, and saving throws."
+						"Артиллерист псионически разоряет разум существа, которое он видит в пределах 30 футов от себя. Цель должна совершить спасбросок Интеллекта {@dc 17}.",
+						"При провале цель получает 33 ({@damage 6d10}) психического урона, и пока она не завершит продолжительный отдых или не умрёт, её бонус мастерства понижается на 1, а артиллерист получает накопительный бонус +2 к броскам урона. При успешном спасброске цель получает половину этого урона, и её бонус мастерства не понижается.",
+						"Существо, чей бонус мастерства опускается до 0, не может формировать новые мысли или говорить, и оно совершает с помехой проверки характеристик, броски атаки и спасброски."
 					]
 				},
 				{
-					"name": "Guise (3rd-Order Power)",
+					"name": "Личина (сила 3-го порядка)",
 					"entries": [
-						"The artillerist projects a psionic image over their body, transforming their appearance for 1 hour into that of a Medium creature they have seen. When they manifest this power, they can also change the appearance of any equipment they carry for the duration.",
-						"The changes wrought by this power fail to hold up to physical inspection. A creature can use an action to inspect the artillerist's appearance and make a {@dc 17} Intelligence (Investigation) check, noticing the image is a projection on a success."
+						"Артиллерист проецирует псионический образ поверх своего тела, превращая свою внешность на 1 час во внешность существа Среднего размера, которое он видел. Проявляя эту силу, он также может на время изменить внешность любого несомого им снаряжения.",
+						"Изменения, внесённые этой силой, не выдерживают физической проверки. Существо может действием осмотреть внешность артиллериста и совершить проверку Интеллекта (Анализ) {@dc 17}, при успехе замечая, что образ является проекцией."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Vanish for One (3/Day; 3rd-Order Power; Concentration)",
+					"name": "Исчезновение для одного (3/день; сила 3-го порядка; концентрация)",
 					"entries": [
-						"The artillerist cloaks themself from the sight of a creature the artillerist can see within 60 feet of them. The creature must succeed on a {@dc 17} Wisdom saving throw or the artillerist becomes {@condition invisible} to the creature for 1 minute (save ends at end of turn). This effect ends early if the artillerist attacks the creature, deals damage to them, or creates an effect that forces them to make a saving throw."
+						"Артиллерист скрывается от взгляда существа, которое он видит в пределах 60 футов от себя. Существо должно преуспеть в спасброске Мудрости {@dc 17}, иначе артиллерист становится {@condition invisible} для этого существа на 1 минуту (спасбросок оканчивается в конце хода). Этот эффект оканчивается раньше, если артиллерист атакует существо, причиняет ему урон или создаёт эффект, вынуждающий его совершить спасбросок."
 					]
 				}
 			],
@@ -2629,17 +2629,17 @@
 	],
 	"condition": [
 		{
-			"name": "Dazed",
+			"name": "Ошеломлённый",
 			"source": "FMp1",
 			"page": 17,
 			"entries": [
-				"A dazed creature can only do one of the following things on their turn: move, use an action, or use a bonus action. If a creature becomes dazed during their turn, their turn ends."
+				"Ошеломлённое существо может в свой ход сделать только одно из следующего: переместиться, использовать действие или использовать бонусное действие. Если существо становится ошеломлённым в свой ход, его ход оканчивается."
 			]
 		}
 	],
 	"book": [
 		{
-			"name": "Flee, Mortals! (Packet 1)",
+			"name": "Бегите, смертные! (пакет 1)",
 			"id": "FMp1",
 			"source": "FMp1",
 			"group": "homebrew",
@@ -2647,19 +2647,19 @@
 			"author": "MCDM Productions",
 			"contents": [
 				{
-					"name": "Introduction",
+					"name": "Введение",
 					"headers": [
 						"Using These Creatures"
 					]
 				},
 				{
-					"name": "Orcs"
+					"name": "Орки"
 				},
 				{
-					"name": "Voiceless Talkers"
+					"name": "Безголосые говорящие"
 				},
 				{
-					"name": "Enchanted Forest"
+					"name": "Зачарованный лес"
 				}
 			]
 		}
@@ -2671,135 +2671,135 @@
 			"data": [
 				{
 					"type": "entries",
-					"name": "Flee, Mortals",
+					"name": "Бегите, смертные",
 					"page": 1,
 					"entries": [
-						"Monster Packet 1 is here! Inside, you'll find some MCDM orcs, voiceless talkers, and forest creatures. While these creatures have been playtested and edited, they aren't necessarily the final stat blocks you'll see in the book. If you'd like to let us know what you think about these critters, come chat about them in the {@link MCDM Discord server|https://mcdm.gg/discord}.",
-						"Good news! If you've run fifth edition, then you already understand how to use most of the creatures in this book. You may see a few unfamiliar details, but fear not; the tweaks we made to creature stat blocks don't take much time at all to grok.",
+						"Пакет монстров 1 здесь! Внутри вы найдёте нескольких орков MCDM, безголосых говорящих и лесных существ. Хотя эти существа были протестированы и отредактированы, они не обязательно являются окончательными блоками статистики, которые вы увидите в книге. Если вы хотите сообщить нам, что думаете об этих зверушках, приходите обсудить их на {@link сервере Discord MCDM|https://mcdm.gg/discord}.",
+						"Хорошие новости! Если вы уже водили пятую редакцию, то уже понимаете, как использовать большинство существ из этой книги. Возможно, вы увидите несколько незнакомых деталей, но не бойтесь: наши правки блоков статистики существ не займут много времени для освоения.",
 						{
 							"type": "section",
-							"name": "Using These Creatures",
+							"name": "Использование этих существ",
 							"page": 1,
 							"entries": [
-								"The creatures in this book generally follow the core rules, but we've made a few tweaks.",
+								"Существа в этой книге в целом следуют основным правилам, но мы внесли несколько правок.",
 								{
 									"type": "entries",
-									"name": "Challenge Rating",
+									"name": "Уровень опасности",
 									"page": 1,
 									"entries": [
-										"Each creature's stat block lists their challenge rating in the top right corner. The more obvious placement of the challenge rating makes it easier to find stat blocks and build encounters to challenge your players."
+										"В блоке статистики каждого существа указан его уровень опасности в верхнем правом углу. Более очевидное размещение уровня опасности упрощает поиск блоков статистики и построение столкновений, способных бросить вызов вашим игрокам."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Creature Roles",
+									"name": "Роли существ",
 									"page": 1,
 									"entries": [
-										"Each creature has a role listed next to their challenge rating. Roles are descriptive and typically don't include rules. Most simply help you build encounters and utilize the creature effectively in combat.",
+										"У каждого существа рядом с его уровнем опасности указана роль. Роли описательны и обычно не содержат правил. Большинство из них просто помогают вам строить столкновения и эффективно использовать существо в бою.",
 										{
 											"type": "entries",
-											"name": "Ambusher",
+											"name": "Устроитель засад",
 											"page": 1,
 											"entries": [
-												"Ambushers are creatures who hide well\u2014not just before an encounter, but during it. They utilize surprise and stealth to gain the upper hand."
+												"Устроители засад хорошо прячутся — не только перед столкновением, но и во время него. Они используют внезапность и скрытность, чтобы получить преимущество."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Artillery",
+											"name": "Артиллерия",
 											"page": 1,
 											"entries": [
-												"Artillery creatures fight best from afar. Whether they wield arrows or magical rays, these creatures always try to keep a distance from their foes."
+												"Существа-артиллеристы лучше всего сражаются издалека. Владеют ли они стрелами или магическими лучами, эти существа всегда стараются держать дистанцию от врагов."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Brute",
+											"name": "Громила",
 											"page": 1,
 											"entries": [
-												"Brutes are hardy creatures who have lots of hit points and deal lots of damage. They might not be the most disciplined warriors, but they make up for it in sheer toughness and aggression."
+												"Громилы — это крепкие существа с множеством хитов, причиняющие много урона. Они могут и не быть самыми дисциплинированными воинами, но компенсируют это чистым упорством и агрессией."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Companion",
+											"name": "Спутник",
 											"page": 1,
 											"entries": [
-												"Companion creatures are meant to accompany player characters on adventures. For more information, see \"Companion Creatures\" on page 18."
+												"Существа-спутники предназначены для сопровождения игровых персонажей в приключениях. Подробнее см. «Существа-спутники» на странице 18."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Controller",
+											"name": "Контролёр",
 											"page": 1,
 											"entries": [
-												"Controllers debuff, move, and obstruct their enemies. They often have crowd control actions that target multiple creatures at once or apply a debilitating effect to a target."
+												"Контролёры ослабляют, перемещают и затрудняют перемещение своих врагов. Часто у них есть действия контроля толпы, нацеленные на несколько существ одновременно или накладывающие ослабляющий эффект на цель."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Leader",
+											"name": "Лидер",
 											"page": 1,
 											"entries": [
-												"A leader is an action-oriented creature who fights alongside underlings. For more information, see \"ActionOriented Creatures\" on page 17."
+												"Лидер — это ориентированное на действия существо, сражающееся вместе с подчинёнными. Подробнее см. «Ориентированные на действия существа» на странице 17."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Minion",
+											"name": "Прислужник",
 											"page": 1,
 											"entries": [
-												"Minions are weak creatures who find strength in numbers. For more information, see \"Minions\" on page 21."
+												"Прислужники — слабые существа, которые обретают силу в количестве. Подробнее см. «Прислужники» на странице 21."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Retainer",
+											"name": "Приближённый",
 											"page": 1,
 											"entries": [
-												"Retainers are Humanoids meant to accompany player characters on adventures. For more information, see \"Retainers\" on page 20."
+												"Приближённые — это гуманоиды, предназначенные для сопровождения игровых персонажей в приключениях. Подробнее см. «Приближённые» на странице 20."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Skirmisher",
+											"name": "Застрельщик",
 											"page": 1,
 											"entries": [
-												"Skirmishers are mobile warriors that use hit-and-run tactics in combat. Their traits allow them to make the most of their position."
+												"Застрельщики — это мобильные воины, использующие в бою тактику «ударил-убежал». Их особенности позволяют им извлекать максимум из своей позиции."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Soldier",
+											"name": "Солдат",
 											"page": 1,
 											"entries": [
-												"Soldiers are well-armored creatures who draw the attacks of their foes, freeing allies to move around the battlefield. These trained warriors typically have higher attack bonuses and AC."
+												"Солдаты — хорошо бронированные существа, привлекающие атаки врагов и освобождающие союзников для манёвров на поле боя. Эти обученные воины обычно имеют более высокие бонусы атаки и КД."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Solo",
+											"name": "Одиночка",
 											"page": 1,
 											"entries": [
-												"A solo creature is an action-oriented creature who can take on the player characters on their own. For more information, see \"Action-Oriented Creatures\" on page 17."
+												"Одиночка — это ориентированное на действия существо, способное в одиночку противостоять игровым персонажам. Подробнее см. «Ориентированные на действия существа» на странице 17."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Support",
+											"name": "Поддержка",
 											"page": 1,
 											"entries": [
-												"Support creatures aid their allies, providing buffs, healing, movement, or action options."
+												"Существа поддержки помогают союзникам, предоставляя усиления, исцеление, перемещение или варианты действий."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Other New Rules",
+									"name": "Другие новые правила",
 									"page": 1,
 									"entries": [
-										"If you want to learn more about the new rules, like the dazed condition, we've put into Flee, Mortals, flip to \"New Rules\" on page 17."
+										"Если вы хотите узнать больше о новых правилах, например о состоянии ошеломления, которые мы ввели в «Бегите, смертные!», перейдите к разделу «Новые правила» на странице 17."
 									]
 								}
 							]
@@ -2808,22 +2808,22 @@
 				},
 				{
 					"type": "section",
-					"name": "Orcs",
+					"name": "Орки",
 					"page": 2,
 					"entries": [
 						{
 							"type": "quote",
 							"entries": [
-								"\"I want to fight!\"",
-								"\"Yes, so did I at your age,\" Tovokor said to his niece.",
-								"\"But you'll not fight until you burn for it.\"",
-								"\"I burn!\"",
-								"The warrior chuckled and deftly snatched the spear from his niece's hands. \"You've got fire in your eyes, I can see it. But when you're ready, when you burn, the whole world will know.\""
+								"«Я хочу сражаться!»",
+								"— Да, я тоже хотел в твоём возрасте, — сказал Товокор своей племяннице.",
+								"— Но ты не будешь сражаться, пока не загоришься этим.",
+								"— Я горю!",
+								"Воин усмехнулся и ловко выхватил копьё из рук племянницы. — В твоих глазах огонь, я это вижу. Но когда ты будешь готов, когда загоришься, весь мир узнает об этом."
 							],
 							"skipMarks": true
 						},
-						"In a long-lost language, the word oruk\u2014\"blood fire\"\u2014described the glowing appearance of the orc people when they push themselves to their limits. While orcs know one other as kanin in their own tongue, they also use \"orc\" with great pride, especially when dealing with other folk. Orc history spans the world and all its ages. They've settled into villages and cities, hot and cold climates, high in the mountains and deep underground. Most orcs live in diverse humanoid societies, though a few live secluded in the tropics.",
-						"Though orcs are no more likely to stand in the adventurers' way than any other folk, those who do fill the same roles as other humanoids: mercenaries, bounty hunters, garroters, guards, cultists, and corrupt kings.",
+						"На давно утраченном языке слово орук — «кровавый огонь» — описывало светящийся облик народа орков, когда они доводят себя до предела. Хотя орки называют друг друга канин на своём языке, они также используют слово «орк» с большой гордостью, особенно в общении с другими народами. История орков охватывает мир и все его эпохи. Они селились в деревнях и городах, в жарком и холодном климате, высоко в горах и глубоко под землёй. Большинство орков живёт в разнообразных гуманоидных обществах, хотя некоторые живут уединённо в тропиках.",
+						"Хотя орки не более склонны вставать на пути искателей приключений, чем любой другой народ, те из них, кто это делает, занимают те же роли, что и другие гуманоиды: наёмники, охотники за головами, душители, стражи, культисты и продажные короли.",
 						{
 							"type": "entries",
 							"entries": [
@@ -2832,74 +2832,74 @@
 									"entries": [
 										{
 											"type": "entries",
-											"name": "Relentlessly Tough",
+											"name": "Неустанно крепкие",
 											"page": 2,
 											"entries": [
-												"Orcs grow to impressive heights. The veins that commonly stripe their tough-skinned faces can appear more vibrant when they're excited or driven. Their hair, which can range from coarse to fine, extends from their heads and drapes across their shoulders like royal mantles. Strong tusks extend past their lips and guard the rest of their teeth.",
-												"Few other humanoids can match the endurance of an orc, and orcs who train for hunting and combat can rally themselves to move faster and prevail longer. Should an orc find themself on the brink of death, their veins instinctively surge with \"blood fire,\" glowing brightly and invigorating them to perform one last attack. Blood fire often appears red, though orcs from the mountains and underground glow blue and white respectively."
+												"Орки вырастают до внушительного роста. Вены, обычно испещряющие их грубые лица, могут выглядеть ярче, когда они возбуждены или целеустремлены. Их волосы, от жёстких до тонких, растут из головы и ниспадают через плечи, как королевские мантии. Мощные клыки выступают за пределы губ и охраняют остальные зубы.",
+												"Немногие другие гуманоиды могут сравниться с выносливостью орка, а орки, тренирующиеся для охоты и боя, способны собраться, чтобы двигаться быстрее и держаться дольше. Если орк оказывается на грани смерти, его вены инстинктивно наполняются «кровавым огнём», ярко светясь и воодушевляя его на последнюю атаку. Кровавый огонь часто выглядит красным, хотя орки из гор и подземья светятся синим и белым соответственно."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Innate Power",
+											"name": "Врождённая сила",
 											"page": 2,
 											"entries": [
-												"The intense power of an orc's spirit occasionally manifests as raw magic. Orc conduits hone their magic into singular affinities that are easy to manipulate. Orc terranovas move their magic through their feet, surging into the earth. Orc godcallers use song to spark the magic inherent in every creature's spirit."
+												"Интенсивная сила духа орка иногда проявляется как сырая магия. Орки-проводники оттачивают свою магию в единичные сродства, которыми легко управлять. Орки-террановы пропускают свою магию через ступни, вливая её в землю. Орки-зовущие богов используют песнь, чтобы разжечь магию, присущую духу каждого существа."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Mohler",
+									"name": "Молер",
 									"page": 2,
 									"entries": [
-										"Mohlers are spined, pig-like beasts that corkscrew through the ground faster than they can run. Originating from deserts and forests, these burrowing creatures produce shallow networks of tunnels just below the surface.",
-										"Where orcs go, mohlers are sure to follow. In times of peace, orcs domesticate them to plow the earth and eat pests\u2014and in times of war, mohlers reshape the battlefield and knock the orcs' enemies off their feet."
+										"Молеры — колючие зверьки, похожие на свиней, которые штопором проходят сквозь землю быстрее, чем могут бежать. Происходя из пустынь и лесов, эти роющие существа создают неглубокие сети туннелей прямо под поверхностью.",
+										"Куда идут орки, туда наверняка следуют и молеры. В мирное время орки приручают их, чтобы пахать землю и поедать вредителей, а в военное время молеры меняют облик поля боя и сбивают врагов орков с ног."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Scyza",
+									"name": "Сциза",
 									"page": 2,
 									"entries": [
-										"Orcs rely on giant flightless birds called scyzas to carry them over great distances. Orcs adorn these mounts, which originated in the tropics, with great harnesses of interconnected gondolas that freely swing along their thick plumage. The birds are fearless in the face of danger, making them perfect battle mounts.",
-										"The scyza's trunk-like legs and talons cleave through the ground and kick up terrible dust storms. Worse still are their razor-sharp beaks and crests, which emit a terrible, bone-shaking ringing sound."
+										"Орки полагаются на гигантских нелетающих птиц, называемых сцизами, чтобы перевозить их на большие расстояния. Орки украшают этих верховых животных, происходящих из тропиков, огромными упряжами из соединённых гондол, которые свободно раскачиваются вдоль их густого оперения. Птицы бесстрашны перед лицом опасности, что делает их идеальными боевыми скакунами.",
+										"Похожие на стволы ноги и когти сцизы рассекают землю и поднимают ужасные пылевые бури. Хуже того — их острые как бритва клювы и гребни, испускающие ужасный, сотрясающий кости звон."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Dohma Raskovar",
+									"name": "Дохма Расковар",
 									"page": 2,
 									"entries": [
-										"Dohma Raskovar is the latest in a long line of leaders\u2014known as dohmas\u2014of the Ivory Throne, a band of mercenaries. Under Raskovar's leadership, the throne has grown to over a hundred strong, and now they handle multiple contracts simultaneously, occasionally banding together to fight as a single unit in battle.",
-										"Raskovar runs the throne from the Hanging Tree, his tavern where he plays the role of barkeep. Here, clients in the know can discreetly indicate their desire to hire bounty hunters, cutthroats, or thieves by ordering a boiling oil, a mundane blend of whiskey and rum that appears on no menu.",
-										"Once the drink is ordered, Raskovar himself appears at the table, ready to do business. He prides himself on remaining politically neutral and treating all potential customers as equals, something that chafes a few of his clients. Many local nobles have stormed out of the Hanging Tree in a rage after Raskovar refused to use the proper forms of address\u2014only to return later when their situation is more desperate, and pride too costly."
+										"Дохма Расковар — последний в длинной череде лидеров — известных как дохмы — «Слоновой кости Трона», отряда наёмников. Под руководством Расковара Трон вырос до более чем сотни бойцов и теперь одновременно ведёт несколько контрактов, иногда объединяясь, чтобы сражаться в бою как единое подразделение.",
+										"Расковар управляет Троном из Висящего дерева, своей таверны, где он играет роль бармена. Здесь клиенты, знающие правила, могут незаметно выразить желание нанять охотников за головами, головорезов или воров, заказав кипящее масло — обычную смесь виски и рома, которой нет ни в одном меню.",
+										"Как только напиток заказан, сам Расковар появляется у стола, готовый вести дела. Он гордится тем, что остаётся политически нейтральным и относится ко всем потенциальным клиентам как к равным, что раздражает некоторых его клиентов. Многие местные дворяне в ярости выбегали из Висящего дерева после того, как Расковар отказывался использовать надлежащие формы обращения, — и лишь возвращались позже, когда их положение становилось отчаяннее, а гордость — слишком дорогой."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Stat Blocks",
+									"name": "Блоки статистики",
 									"page": 2,
 									"entries": [
-										"This section contains the orc stat blocks.",
+										"В этом разделе содержатся блоки статистики орков.",
 										{
 											"type": "list",
 											"columns": 3,
 											"items": [
-												"{@creature Orc Blitzer|FMp1}",
-												"{@creature Orc Bloodrunner|FMp1}",
-												"{@creature Orc Conduit|FMp1}",
-												"{@creature Orc Fury|FMp1}",
-												"{@creature Orc Garroter|FMp1}",
-												"{@creature Orc Godcaller|FMp1}",
-												"{@creature Orc Rampart|FMp1}",
-												"{@creature Orc Terranova|FMp1}",
-												"{@creature Mohler|FMp1}",
-												"{@creature Scyza|FMp1}",
-												"{@creature Dohma Raskovar|FMp1}",
-												"{@creature Orc Blacksmith|FMp1}",
-												"{@creature Mohler Companion|FMp1}"
+												"{@creature Орк-налётчик|FMp1}",
+												"{@creature Орк-кровобег|FMp1}",
+												"{@creature Орк-проводник|FMp1}",
+												"{@creature Орк-фурия|FMp1}",
+												"{@creature Орк-душитель|FMp1}",
+												"{@creature Орк-зовущий богов|FMp1}",
+												"{@creature Орк-оплот|FMp1}",
+												"{@creature Орк-терранова|FMp1}",
+												"{@creature Молер|FMp1}",
+												"{@creature Сциза|FMp1}",
+												"{@creature Дохма Расковар|FMp1}",
+												"{@creature Орк-кузнец|FMp1}",
+												"{@creature Спутник-молер|FMp1}"
 											]
 										}
 									]
@@ -2910,10 +2910,10 @@
 				},
 				{
 					"type": "section",
-					"name": "Voiceless Talkers",
+					"name": "Безголосые говорящие",
 					"page": 10,
 					"entries": [
-						"Among the most powerful psions in the timescape, synlirii (singular: synliroi) are known as the \"voiceless talkers\" to the denizens of the World Below\u2014and to surface dwellers unfortunate enough to encounter them. Descended from boneless aquatic cephalopods, they are alien in thought and motivation to the humanoid species they loathe. Synlirii consider the \"barking ones\" (their label for creatures who squeeze air through meat flaps to communicate) to be a corrupt branch of the evolutionary tree\u2014an abomination that must be corrected.",
+						"Среди самых могущественных псиоников мироздания синлирии (единственное число: синлирой) известны как «безголосые говорящие» обитателям Нижнего Мира — и жителям поверхности, которым не посчастливилось с ними столкнуться. Произошедшие от бескостных водных головоногих, они чужды по мыслям и мотивам гуманоидным видам, которые ненавидят. Синлирии считают «лающих» (их обозначение существ, которые проталкивают воздух через мясные складки, чтобы общаться) испорченной ветвью эволюционного древа — мерзостью, которую необходимо исправить.",
 						{
 							"type": "entries",
 							"entries": [
@@ -2922,48 +2922,48 @@
 									"entries": [
 										{
 											"type": "entries",
-											"name": "Uneasy Alliances",
+											"name": "Шаткие союзы",
 											"page": 10,
 											"entries": [
-												"Though synlirii and overminds are hereditary enemies, their mutual obsession with the barking ones often leads to uneasy alliances. Both synlirii and overminds employ humanoids from the World Below as agents, trading lore and technology for information on their surface foes."
+												"Хотя синлирии и сверхразумы — наследственные враги, их взаимная одержимость лающими часто приводит к шатким союзам. И синлирии, и сверхразумы используют гуманоидов из Нижнего Мира как агентов, обменивая знания и технологии на сведения об их врагах с поверхности."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Aboleth Hatred",
+											"name": "Ненависть к аболетам",
 											"page": 10,
 											"entries": [
-												"The synlirii's visceral antipathy toward the barking ones is surpassed only by their deep enmity toward (and fear of) aboleths. Ancient myths say aboleths created both synlirii and overminds. To overminds, this is a harmless fable. But synlirii, who style themselves as the future masters of the timescape, rage against implications their powers come from any source other than their own superior development."
+												"Глубинная антипатия синлириев к лающим уступает лишь их глубокой вражде (и страху) к аболетам. Древние мифы гласят, что аболеты создали и синлириев, и сверхразумов. Для сверхразумов это безобидная сказка. Но синлирии, называющие себя будущими владыками мироздания, ярятся от намёков, будто их силы происходят из какого-либо источника, кроме их собственного превосходного развития."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Psionic Spies",
+											"name": "Псионические шпионы",
 											"page": 10,
 											"entries": [
-												"Despite their mental powers, voiceless talkers consider information their greatest weapon. They use their psionic talents to manipulate memory and perception, obscure their form, and pass undetected among other cultures."
+												"Несмотря на свои умственные силы, безголосые говорящие считают информацию своим величайшим оружием. Они используют свои псионические таланты, чтобы манипулировать памятью и восприятием, скрывать свою форму и проходить незамеченными среди других культур."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Psi-Tech",
+											"name": "Пси-технологии",
 											"page": 10,
 											"entries": [
-												"Synlirii breed mollusks that secrete plasticlike substances, using them to fashion weapons and similar technology powered by psionic crystals. The voiceless talkers' handheld psi-pistols and portable psirifles can only be used by their alien minds."
+												"Синлирии разводят моллюсков, выделяющих пластикоподобные вещества, и используют их для изготовления оружия и подобных технологий на псионических кристаллах. Ручные пси-пистолеты и портативные пси-винтовки безголосых говорящих могут использовать только их чужеродные умы."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Creature Engineers",
+											"name": "Инженеры существ",
 											"page": 10,
 											"entries": [
-												"Synlirii are obsessed with manipulating the natural development of other organisms. They create hulking brains, mindkillers, and other servants using a psionic technique they call the Interlace. Many synlirii experiments don't live long and aren't intended to. But the World Below is littered with unnatural creatures who escaped the voiceless talkers' body banks\u2014most of them singular life forms that can't reproduce and may never die.",
+												"Синлирии одержимы манипулированием естественным развитием других организмов. Они создают громадных мозгов, убийц разума и других слуг с помощью псионической техники, которую называют Переплетением. Многие эксперименты синлириев живут недолго, и так и задумано. Но Нижний Мир усеян неестественными существами, сбежавшими из банков тел безголосых говорящих, — большинство из них единичные формы жизни, которые не могут размножаться и, возможно, никогда не умрут.",
 												{
 													"type": "inset",
-													"name": "Psi-Tech",
+													"name": "Пси-технологии",
 													"page": 10,
 													"entries": [
-														"While most psi-tech weapons can only be used by voiceless talkers, a character using the talent class (from the upcoming MCDM supplement The Talent and Psionics) can use these weapons by gaining 1 strain each time they make an attack with it. A creature using a psi-tech ranged weapon uses Intelligence instead of Dexterity for attack and damage rolls."
+														"Хотя большинство пси-технологического оружия могут использовать только безголосые говорящие, персонаж, использующий класс таланта (из готовящегося дополнения MCDM «Талант и псионика»), может использовать это оружие, получая 1 напряжение каждый раз, когда совершает им атаку. Существо, использующее дальнобойное пси-технологическое оружие, использует Интеллект вместо Ловкости для бросков атаки и урона."
 													]
 												}
 											]
@@ -2974,55 +2974,55 @@
 						},
 						{
 							"type": "entries",
-							"name": "Hulking Brain",
+							"name": "Громадный мозг",
 							"page": 10,
 							"entries": [
-								"The voiceless talkers have engineered gray-skinned, humanoid-shaped aberrations with four massive arms and\u2014in place of a head\u2014a large pulsing brain. Called thylinça by voiceless talkers and hulking brains by everyone else, these creatures serve as bodyguards and psionic batteries for their synlirii masters."
+								"Безголосые говорящие создали серокожих аберраций гуманоидной формы с четырьмя массивными руками и — вместо головы — большим пульсирующим мозгом. Называемые синлириями тилинçа, а всеми остальными — громадными мозгами, эти существа служат телохранителями и псионическими батареями для своих хозяев-синлириев."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Mindkiller",
+							"name": "Убийца разума",
 							"page": 10,
 							"entries": [
-								"Floating clawed brains with a trailing spinal column and nerves, mindkillers serve as the voiceless talkers' pets and lackeys. These amorphous parasites can force themselves into a humanoid's body through the ear, eye, or nose, then devour the victim's central nervous system while replacing it with their own tissue. When the process is complete, the mindkiller gains all the victim's knowledge and memories and can puppet the body, becoming the perfect spy for the mindkiller's synlirii overlords.",
-								"Mindkiller whelps are a lesser form of mindkiller that can be created in a fraction of the time. While they can't inhabit bodies, their mere presence weakens their foes' mental defenses against psionics."
+								"Плавающие когтистые мозги с тянущимся спинным столбом и нервами, убийцы разума служат питомцами и лакеями безголосых говорящих. Эти аморфные паразиты могут проникнуть в тело гуманоида через ухо, глаз или нос, а затем пожирают центральную нервную систему жертвы, заменяя её собственной тканью. Когда процесс завершён, убийца разума получает все знания и воспоминания жертвы и может управлять телом, становясь идеальным шпионом для своих владык-синлириев.",
+								"Детёныши убийцы разума — это меньшая форма убийцы разума, которую можно создать за долю времени. Хотя они не могут вселяться в тела, само их присутствие ослабляет умственную защиту врагов от псионики."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Lord Syuul",
+							"name": "Лорд Сюул",
 							"page": 10,
 							"entries": [
-								"Chief Design Architect of his nation's body banks, the synliroi Lord Syuul seeks more material for his experiments. His spies, informants, and allies are always on the lookout for subjects with unique hereditary traits the Interlace might extract.",
-								"Lord Syuul, who belongs to an ancient and respected noble house, never leaves his estate without a retinue of guards and minions. They obey his orders fanatically\u2014as Syuul has ensured they're biologically incapable of refusing.",
-								"Syuul's recent experiments have focused on isolating the trait that expresses sorcerous ability in humanoids. Thus far, these attempts have been unsuccessful. Not to be deterred, Lord Syuul has placed his assistant in charge of the day-to-day operations of the body banks, while Syuul himself ventures forth to observe the surface world and plunder its diversity."
+								"Главный проектировщик банков тел своей нации, синлирой лорд Сюул ищет больше материала для своих экспериментов. Его шпионы, осведомители и союзники всегда высматривают субъектов с уникальными наследственными чертами, которые могло бы извлечь Переплетение.",
+								"Лорд Сюул, принадлежащий к древнему и уважаемому благородному дому, никогда не покидает своё поместье без свиты стражи и прислужников. Они фанатично подчиняются его приказам — Сюул позаботился о том, чтобы они были биологически неспособны отказать.",
+								"Недавние эксперименты Сюула сосредоточены на выделении черты, выражающей колдовские способности у гуманоидов. До сих пор эти попытки были безуспешны. Не желая отступать, лорд Сюул поставил своего помощника во главе повседневной работы банков тел, а сам Сюул отправился наблюдать за миром поверхности и расхищать его многообразие."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Stat Blocks",
+							"name": "Блоки статистики",
 							"page": 10,
 							"entries": [
-								"This section contains the voiceless talker stat blocks.",
+								"В этом разделе содержатся блоки статистики безголосых говорящих.",
 								{
 									"type": "inset",
-									"name": "Absolute Evil",
+									"name": "Абсолютное зло",
 									"page": 10,
 									"entries": [
-										"Voiceless talkers are evil sapient beings who engage in reprehensible and irredeemable acts of eugenics. While you can create exceptional synlirii who fight against such philosophies and practices, the voiceless talkers who participate in genetic experiments are unquestionably evil."
+										"Безголосые говорящие — злые разумные существа, занимающиеся предосудительными и непростительными актами евгеники. Хотя вы можете создать исключительных синлириев, борющихся с такой философией и практикой, безголосые говорящие, участвующие в генетических экспериментах, бесспорно злы."
 									]
 								},
 								{
 									"type": "list",
 									"columns": 3,
 									"items": [
-										"{@creature Voiceless Talker|FMp1}",
-										"{@creature Voiceless Talker Artillerist|FMp1}",
-										"{@creature Hulking Brain|FMp1}",
-										"{@creature Mindkiller|FMp1}",
-										"{@creature Mindkiller Whelp|FMp1}",
-										"{@creature Lord Syuul|FMp1}"
+										"{@creature Безголосый говорящий|FMp1}",
+										"{@creature Безголосый говорящий-артиллерист|FMp1}",
+										"{@creature Громадный мозг|FMp1}",
+										"{@creature Убийца разума|FMp1}",
+										"{@creature Детёныш убийцы разума|FMp1}",
+										"{@creature Лорд Сюул|FMp1}"
 									]
 								}
 							]
@@ -3031,23 +3031,23 @@
 				},
 				{
 					"type": "section",
-					"name": "Enchanted Forest",
+					"name": "Зачарованный лес",
 					"page": 15,
 					"entries": [
 						{
 							"type": "quote",
 							"entries": [
-								"He who has no dreams, let him go to a beautiful forest to have many."
+								"Тому, у кого нет снов, пусть он идёт в прекрасный лес, чтобы обрести их множество."
 							],
 							"by": "Mehmet Murat Ildan"
 						},
-						"Magic permeates nature. From fulminating thunderstorms to nurturing berries, nature answers when adventurers seek its verdant potency. Where planar veils are thin, ancient spirits dwell, or ley lines emanate wild energy, enchanted forests await with mesmerizing creatures and mysteries.",
+						"Магия пронизывает природу. От громыхающих гроз до питательных ягод — природа отвечает, когда искатели приключений ищут её зелёную мощь. Там, где тонки планарные завесы, обитают древние духи или линии лей излучают дикую энергию, зачарованные леса ждут с завораживающими существами и тайнами.",
 						{
 							"type": "entries",
-							"name": "Enchanted Forest Traits",
+							"name": "Свойства зачарованного леса",
 							"page": 15,
 							"entries": [
-								"You can create an enchanted forest version of an existing creature by taking their stat block and adding one or more of the following traits:",
+								"Вы можете создать версию зачарованного леса для существующего существа, взяв его блок статистики и добавив одно или несколько из следующих свойств:",
 								{
 									"type": "entries",
 									"entries": [
@@ -3059,23 +3059,23 @@
 													"items": [
 														{
 															"type": "entries",
-															"name": "Speak with Beasts and Plants",
+															"name": "Разговор со зверями и растениями",
 															"entries": [
-																"The enchanted forest creature can communicate with Beasts and Plants as if they share a language."
+																"Существо зачарованного леса может общаться с Зверями и Растениями так, будто они владеют общим языком."
 															]
 														},
 														{
 															"type": "entries",
-															"name": "Tree Stride",
+															"name": "Шаг сквозь дерево",
 															"entries": [
-																"Once per turn, the enchanted forest creature can use 10 feet of their movement to step magically into one living tree within reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be the same size category as the enchanted forest creature or bigger."
+																"Один раз в ход существо зачарованного леса может использовать 10 футов своего перемещения, чтобы магическим образом войти в одно живое дерево в пределах досягаемости и выйти из второго живого дерева в пределах 60 футов от первого, появляясь в свободном пространстве в пределах 5 футов от второго дерева. Оба дерева должны быть той же категории размера, что и существо зачарованного леса, или больше."
 															]
 														},
 														{
 															"type": "entries",
-															"name": "Living Forest",
+															"name": "Живой лес",
 															"entries": [
-																"A writhing grove thrives in a 30-foot radius centered on the enchanted forest creature. Mist lightly obscures that area, and colorful vines and shifting foliage make its ground {@quickref difficult terrain||3}. Teasing voices laugh and whisper, giving other creatures in that area disadvantage on saving throws made to maintain concentration on spells and similar effects. Flickering lights extinguish magical darkness in that area created by spells of 3rd level or lower. (When adding this trait to a creature, you can choose to exclude one or more of these effects.)"
+																"В радиусе 30 футов с центром на существе зачарованного леса буйно растёт извивающаяся роща. Туман слегка заслоняет эту область, а яркие лианы и подвижная листва делают её землю {@quickref труднопроходимая местность||3}. Дразнящие голоса смеются и шепчут, давая другим существам в этой области помеху на спасброски, совершаемые для поддержания концентрации на заклинаниях и подобных эффектах. Мерцающие огни гасят магическую тьму в этой области, созданную заклинаниями 3-го уровня или ниже. (Добавляя это свойство существу, вы можете решить исключить один или несколько из этих эффектов.)"
 															]
 														}
 													]
@@ -3088,36 +3088,36 @@
 						},
 						{
 							"type": "entries",
-							"name": "Enchanted Forest Lair Actions",
+							"name": "Действия в логове зачарованного леса",
 							"page": 15,
 							"entries": [
-								"You can create a more formidable version of an existing creature who lives in an enchanted forest by giving them the following lair actions. On initiative count 20 (losing initiative ties), the enchanted forest creature can take one of the following lair actions; the enchanted forest creature can't take the same lair action two rounds in a row.",
+								"Вы можете создать более грозную версию существующего существа, живущего в зачарованном лесу, дав ему следующие действия в логове. На счётчике инициативы 20 (проигрывая ничьи инициативы) существо зачарованного леса может совершить одно из следующих действий в логове; оно не может совершить одно и то же действие в логове два раунда подряд.",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Frothing Flora",
+											"name": "Вспенённая флора",
 											"page": 15,
 											"entries": [
-												"The enchanted forest creature causes roots and vines to temporarily grow around them; until initiative count 20 on the next round, the ground within 30 feet of the enchanted forest creature is {@quickref difficult terrain||3}."
+												"Существо зачарованного леса заставляет корни и лианы временно вырасти вокруг него; до счётчика инициативы 20 следующего раунда земля в пределах 30 футов от существа зачарованного леса является {@quickref труднопроходимая местность||3}."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Writhing Roots",
+											"name": "Извивающиеся корни",
 											"page": 15,
 											"entries": [
-												"Foliage in the enchanted forest creature's lair becomes a conduit for the enchanted forest creature's power. The enchanted forest creature can target creatures of their choice that are touching such plant life within 90 feet of the enchanted forest creature. A target must succeed on a {@dc 10} plus PB Wisdom saving throw or take PBd6 psychic damage and be {@condition grappled} (escape {@dc 10} plus PB)."
+												"Листва в логове существа зачарованного леса становится проводником силы существа зачарованного леса. Существо зачарованного леса может нацелиться на существ на свой выбор, которые касаются такой растительности в пределах 90 футов от него. Цель должна преуспеть в спасброске Мудрости {@dc 10} плюс БМ, иначе получит БМк6 психического урона и станет {@condition grappled} (высвобождение {@dc 10} плюс БМ)."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Faerie Lights",
+											"name": "Огни фей",
 											"page": 15,
 											"entries": [
-												"The enchanted forest creature creates dancing lights in a 20-foot cube at a point they can see within 120 feet of them. Each creature in that area who can see the lights must make a {@dc 10} plus PB Wisdom saving throw. On a failed save, a creature is {@condition blinded}, outlined in light, and sheds dim light in a 10-foot radius until the end of initiative count 20 on the next round. {@action Attack} rolls against an affected creature have advantage if the attacker can see them, and the affected creature can't benefit from being {@condition invisible}."
+												"Существо зачарованного леса создаёт танцующие огни в кубе 20 футов в точке, которую оно видит в пределах 120 футов от себя. Каждое существо в этой области, которое может видеть эти огни, должно совершить спасбросок Мудрости {@dc 10} плюс БМ. При провале существо становится {@condition blinded}, очерченным светом, и излучает тусклый свет в радиусе 10 футов до конца счётчика инициативы 20 следующего раунда. Броски {@action Attack} по затронутому существу совершаются с преимуществом, если атакующий может его видеть, и затронутое существо не может получить преимущества от {@condition invisible}."
 											]
 										}
 									]
@@ -3126,36 +3126,36 @@
 						},
 						{
 							"type": "entries",
-							"name": "Dancing Lady",
+							"name": "Танцующая дама",
 							"page": 15,
 							"entries": [
-								"Strange visions in the mist are to be expected in enchanted forests, but in the case of the dancing lady, these figures aren't illusions\u2014they're real ... sort of.",
-								"The dancing lady is an enormous plant with white humanoid-sized flowers resembling figures in dresses. Large red and green leaves surround these hanging blooms. The dancing lady lurks around fey populations or other forest denizens, flowers peacefully turning until a threat appears. Once the plant's allies are endangered, the dancing lady's oversized flowers spring into dizzying dances to addle and frighten foes."
+								"Странные видения в тумане ожидаемы в зачарованных лесах, но в случае танцующей дамы эти фигуры — не иллюзии, они настоящие… вроде того.",
+								"Танцующая дама — огромное растение с белыми цветами размером с гуманоида, напоминающими фигуры в платьях. Большие красные и зелёные листья окружают эти висящие бутоны. Танцующая дама поджидает вблизи популяций фей или других лесных обитателей, мирно поворачивая цветы, пока не появится угроза. Как только союзники растения оказываются в опасности, огромные цветы танцующей дамы пускаются в головокружительные танцы, чтобы одурманить и напугать врагов."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Empyrean Stag",
+							"name": "Эмпирейский олень",
 							"page": 15,
 							"entries": [
-								"As Celestial wardens of the forest, empyrean stags appear only to defend forest denizens from great threats or to warn mortals about forthcoming calamities. Their white fur is dappled with blue, and their eyes shine with the darkness of night.",
+								"Как небесные стражи леса, эмпирейские олени появляются лишь для защиты лесных обитателей от великих угроз или чтобы предупредить смертных о грядущих бедствиях. Их белый мех испещрён синим, а глаза сияют темнотой ночи.",
 								{
 									"type": "entries",
 									"entries": [
 										{
 											"type": "entries",
-											"name": "Unyielding Defenders",
+											"name": "Неуступчивые защитники",
 											"page": 15,
 											"entries": [
-												"Adventurers often clash with forest denizens, from hungry owlbears to mischievous fey. This violence draws an empyrean stag's ire, often provoking a deadly attack from the stag and their forest allies. Repentant adventurers can make restitution by helping the stag defend the wood from an even greater threat."
+												"Искатели приключений часто сталкиваются с лесными обитателями — от голодных совомедов до озорных фей. Это насилие вызывает гнев эмпирейского оленя, часто провоцируя смертельную атаку со стороны оленя и его лесных союзников. Раскаявшиеся искатели приключений могут искупить вину, помогая оленю защитить лес от ещё большей угрозы."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Divine Knowledge",
+											"name": "Божественное знание",
 											"page": 15,
 											"entries": [
-												"Those who impress an empyrean stag\u2014typically by protecting the forest\u2014are allowed to ask the stag one question, which the Celestial answers truthfully to the best of their ability. Between their antlers, they can show shimmering visions of the present or glimpses of the future. The horns glow gold when the stag aids an ally, and white when they divine information."
+												"Тем, кто впечатлил эмпирейского оленя — обычно защитой леса, — позволяется задать оленю один вопрос, на который небесное существо отвечает правдиво в меру своих способностей. Между их рогами можно увидеть мерцающие видения настоящего или проблески будущего. Рога светятся золотом, когда олень помогает союзнику, и белым, когда он провидит информацию."
 											]
 										}
 									]
@@ -3164,16 +3164,16 @@
 						},
 						{
 							"type": "entries",
-							"name": "Stat Blocks",
+							"name": "Блоки статистики",
 							"page": 15,
 							"entries": [
-								"This section contains the enchanted forest stat blocks.",
+								"В этом разделе содержатся блоки статистики зачарованного леса.",
 								{
 									"type": "list",
 									"columns": 3,
 									"items": [
-										"{@creature Dancing Lady|FMp1}",
-										"{@creature Empyrean Stag|FMp1}"
+										"{@creature Танцующая дама|FMp1}",
+										"{@creature Эмпирейский олень|FMp1}"
 									]
 								}
 							]

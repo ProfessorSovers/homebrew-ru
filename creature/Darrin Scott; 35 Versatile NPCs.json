@@ -23,7 +23,7 @@
 	},
 	"monster": [
 		{
-			"name": "Agile Fighter",
+			"name": "Ловкий боец",
 			"source": "VNPC",
 			"page": 3,
 			"size": [
@@ -58,34 +58,34 @@
 			"cha": 10,
 			"passive": 10,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Swift Strike",
+					"name": "Быстрый удар",
 					"entries": [
-						"If the fighter makes a dash action in a direct line toward a creature, it may make a single melee attack against it."
+						"Если боец совершает действие Рывок по прямой к существу, он может совершить по нему одну рукопашную атаку."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The fighter makes two weapon attacks."
+						"Боец совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit. reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию. досягаемость 5 фт., одно существо. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Shortbow",
+					"name": "Короткий лук",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit. range 80/320 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk rw} {@hit 5} к попаданию. дистанция 80/320 фт., одно существо. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				}
 			],
@@ -123,7 +123,7 @@
 			}
 		},
 		{
-			"name": "Arcane Trickster",
+			"name": "Мистический ловкач",
 			"source": "VNPC",
 			"page": 3,
 			"size": [
@@ -166,15 +166,15 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The trickster is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The trickster has the following bard spells prepared:"
+						"Ловкач — заклинатель 3-го уровня. Его базовой характеристикой для заклинаний является Харизма (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию заклинательными атаками). У ловкача подготовлены следующие заклинания барда:"
 					],
 					"spells": {
 						"0": {
@@ -202,23 +202,23 @@
 			],
 			"trait": [
 				{
-					"name": "Nimble Escape",
+					"name": "Ловкий побег",
 					"entries": [
-						"The arcane trickster can take the Disengage or Hide action as a bonus action on each of its turns."
+						"Мистический ловкач может бонусным действием в каждый свой ход совершать действие Отход или Затаиться."
 					]
 				},
 				{
-					"name": "Sneak Attack (1/turn)",
+					"name": "Скрытая атака (1/ход)",
 					"entries": [
-						"The t rickster deal s an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the trickster that isn't incapacitated and the trickster doesn't have disadvantage on the attack roll."
+						"Мистический ловкач наносит дополнительно 7 (2d6) урона, когда попадает по цели атакой оружием и совершает бросок атаки с преимуществом, или когда цель находится в пределах 5 футов от союзника ловкача, который не лишён дееспособности, и ловкач не совершает бросок атаки с помехой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage in melee, or 4 ({@damage 1d4 + 2}) piercing damage at range, plus 3 ({@damage 1d6}) poison damage."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}4 ({@damage 1d4 + 2}) колющего урона в рукопашной или 4 ({@damage 1d4 + 2}) колющего урона на расстоянии, плюс 3 ({@damage 1d6}) урона ядом."
 					]
 				}
 			],
@@ -265,7 +265,7 @@
 			}
 		},
 		{
-			"name": "Artificer Alchemist",
+			"name": "Изобретатель-алхимик",
 			"source": "VNPC",
 			"page": 4,
 			"size": [
@@ -305,15 +305,15 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any three languages"
+				"любые три языка"
 			],
 			"cr": "2",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The alchemist is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The alchemist has the following artificer spells prepared:"
+						"Алхимик — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Интеллект (Сл спасброска от заклинаний {@dc 14}, {@hit 6} к попаданию заклинательными атаками). У алхимика подготовлены следующие заклинания изобретателя:"
 					],
 					"spells": {
 						"1": {
@@ -338,33 +338,33 @@
 			],
 			"action": [
 				{
-					"name": "Infuse Magic (2/day)",
+					"name": "Наполнение магией (2/день)",
 					"entries": [
-						"The alchemist can spend 1 minute infusing an item with one of the spel ls it knows, provided the spell has a casting time of one action. A creature with an Intelligence score of 6 or higher thereafter may activate the spell as an action. The spell casting save DC and modifier of the activated item is the same as the alchemist's. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spel I has an area of effect, it is centered on the item. If the spell's range is self, it targets the creature that activates the item. If the spell requires concentration, the creature that activates the item maintains the concentration as if they had cast the spell. An infused item remains so for 8 hours, after which point, the magic fades."
+						"Алхимик может потратить 1 минуту, чтобы наполнить предмет одним из известных ему заклинаний, если время накладывания этого заклинания — одно действие. Существо со значением Интеллекта 6 или выше может после этого активировать заклинание действием. Сл спасброска от заклинаний и модификатор активированного предмета такие же, как у алхимика. Если заклинание нацелено более чем на одно существо, дополнительные цели выбирает существо, активировавшее предмет. Если у заклинания есть область действия, её центром становится предмет. Если дистанция заклинания — «на себя», его целью становится существо, активировавшее предмет. Если заклинание требует концентрации, существо, активировавшее предмет, поддерживает концентрацию так, как если бы оно само сотворило заклинание. Наполненный предмет остаётся таким 8 часов, после чего магия угасает."
 					]
 				},
 				{
-					"name": "Alchemical Acid (3/day)",
+					"name": "Алхимическая кислота (3/день)",
 					"entries": [
-						"The alchemist throws a vial of acid at a creature or object up to 30 feet away. Creatures within a 5-foot radius must make a Dexterity saving throw, taking 3d6 acid damage on a failed save, or half as much on a successful one. "
+						"Алхимик бросает склянку с кислотой в существо или предмет на расстоянии до 30 футов. Существа в радиусе 5 футов должны совершить спасбросок Ловкости, получая 3d6 урона кислотой при провале или половину этого урона при успешном спасброске."
 					]
 				},
 				{
-					"name": "Flash bomb (2/day)",
+					"name": "Ослепляющая бомба (2/день)",
 					"entries": [
-						"The alchemist throws a ceramic bomb at a point on the group up to 30 feet away. Each creature within a 10-foot radius of the impact must make a DC 14 Constitution saving throw or be blinded until the end of the alchemist's next turn."
+						"Алхимик бросает керамическую бомбу в точку на земле в пределах 30 футов. Каждое существо в радиусе 10 футов от места удара должно совершить спасбросок Телосложения Сл 14, иначе станет ослеплённым до конца следующего хода алхимика."
 					]
 				},
 				{
-					"name": "Crossbow, light",
+					"name": "Арбалет, лёгкий",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit range 80/320 ft., one creature. {@h}6 (1 d8 + 2) piercing damage."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 80/320 фт., одно существо. {@h}6 (1d8 + 2) колющего урона."
 					]
 				},
 				{
-					"name": "Rapier",
+					"name": "Шпага",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit reach 5 ft., one creature. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одно существо. {@h}6 ({@damage 1d8 + 2}) колющего урона."
 					]
 				}
 			],
@@ -403,7 +403,7 @@
 			}
 		},
 		{
-			"name": "Artificer Gunsmith",
+			"name": "Изобретатель-оружейник",
 			"source": "VNPC",
 			"page": 5,
 			"size": [
@@ -443,15 +443,15 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any three languages"
+				"любые три языка"
 			],
 			"cr": "2",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The artificer gunsmith is a 5th-level spelicaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The artificer gunsmith has the following artificer spells prepared."
+						"Изобретатель-оружейник — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Интеллект (Сл спасброска от заклинаний {@dc 14}, {@hit 6} к попаданию заклинательными атаками). У изобретателя-оружейника подготовлены следующие заклинания изобретателя."
 					],
 					"spells": {
 						"1": {
@@ -475,29 +475,29 @@
 			],
 			"trait": [
 				{
-					"name": "Infuse Magic (2/day)",
+					"name": "Наполнение магией (2/день)",
 					"entries": [
-						"The artificer can spend 1 minute infusing an item with one of the spells it knows, provided the spell has a casting time of one action. A creature with an Intelligence score of 6 or higher thereafter may activate the spell as an action"
+						"Изобретатель может потратить 1 минуту, чтобы наполнить предмет одним из известных ему заклинаний, если время накладывания этого заклинания — одно действие. Существо со значением Интеллекта 6 или выше может после этого активировать заклинание действием"
 					]
 				},
 				{
-					"name": "The spellcasting save DC and modifier of the activated item is the same as the artificer's",
+					"name": "Сл спасброска от заклинаний и модификатор активированного предмета такие же, как у изобретателя",
 					"entries": [
-						"If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell 's range is self, it targets the creature that activates the item. If the spell requires concentration, the creature that activates the item maintains the concentration as if they had cast the spell. An infused item rema ins so for 8 hours, after which point, the magic fades."
+						"Если заклинание нацелено более чем на одно существо, дополнительные цели выбирает существо, активировавшее предмет. Если у заклинания есть область действия, её центром становится предмет. Если дистанция заклинания — «на себя», его целью становится существо, активировавшее предмет. Если заклинание требует концентрации, существо, активировавшее предмет, поддерживает концентрацию так, как если бы оно само сотворило заклинание. Наполненный предмет остаётся таким 8 часов, после чего магия угасает."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Rapier",
+					"name": "Шпага",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit. reach 5 ft., one creature. {@h}7 (1 dB+ 3) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию. досягаемость 5 фт., одно существо. {@h}7 (1d8 + 3) колющего урона."
 					]
 				},
 				{
-					"name": "Thundercannon",
+					"name": "Громовая пушка",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit., range 150/300 ft., one creature. {@h}17 ({@damage 4d6 + 3}) thunder damage."
+						"{@atk rw} {@hit 5} к попаданию. , дистанция 150/300 фт., одно существо. {@h}17 ({@damage 4d6 + 3}) урона звуком."
 					]
 				}
 			],
@@ -534,7 +534,7 @@
 			}
 		},
 		{
-			"name": "Bastion",
+			"name": "Бастион",
 			"source": "VNPC",
 			"page": 6,
 			"size": [
@@ -578,54 +578,54 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Brute",
+					"name": "Громила",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when the bastion hits with it (included in the attack)."
+						"Рукопашное оружие наносит одну дополнительную кость урона, когда бастион попадает им (уже включено в атаку)."
 					]
 				},
 				{
-					"name": "Shelter",
+					"name": "Укрытие",
 					"entries": [
-						"Allies within 5 feet of the bastion gain a +2 bonus to their AC, if the Bastion is not prone or incapacitated."
+						"Союзники в пределах 5 футов от бастиона получают бонус +2 к классу доспеха, если бастион не лежит ничком и не лишён дееспособности."
 					]
 				},
 				{
-					"name": "Shield Charge",
+					"name": "Наскок со щитом",
 					"entries": [
-						"If the bastion moves at least 10 feet straight toward a target and then hits it with its flail on the same turn, the target takes an extra 13 (3d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength Saving throw or be knocked prone."
+						"Если бастион перемещается не менее чем на 10 футов по прямой к цели и в том же ходу попадает по ней своим цепом, цель получает дополнительно 13 (3d8) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы Сл 15, иначе упадёт ничком."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The bastion makes two weapon attacks"
+						"Бастион совершает две атаки оружием"
 					]
 				},
 				{
-					"name": "Flail",
+					"name": "Цеп",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одно существо. {@h}13 ({@damage 2d8 + 4}) дробящего урона."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Сулица",
 					"entries": [
-						"Melee or R on Attack: {@hit 7} to hit,  reach 5 ft. or range 30 t., one creature. {@h}11 d6 + 4) piercing damage in melee, or 11 ({@damage 2d6 + 4}) piercing damage at range"
+						"Рукопашная или дальнобойная атака: {@hit 7} к попаданию, досягаемость 5 фт. или дистанция 30 фт. , одно существо. {@h}11 (1d6 + 4) колющего урона в рукопашной или 11 ({@damage 2d6 + 4}) колющего урона на расстоянии"
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Block",
+					"name": "Блокирование",
 					"entries": [
-						"The bastion adds +3AC against an attack that would normally hit it. To do so, the bastion must see the attacker and be wielding a shield"
+						"Бастион добавляет +3 к классу доспеха против атаки, которая обычно по нему попадает. Для этого бастион должен видеть атакующего и держать щит"
 					]
 				}
 			],
@@ -664,7 +664,7 @@
 			}
 		},
 		{
-			"name": "Beast Master",
+			"name": "Повелитель зверей",
 			"source": "VNPC",
 			"page": 7,
 			"size": [
@@ -704,15 +704,15 @@
 			},
 			"passive": 13,
 			"languages": [
-				"any languages"
+				"Любой languages"
 			],
 			"cr": "1",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The beast master is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} tohit with spell attacks). The beast master has the following ranger spells prepared:"
+						"Повелитель зверей — заклинатель 2-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию заклинательными атаками). У повелителя зверей подготовлены следующие заклинания следопыта:"
 					],
 					"spells": {
 						"1": {
@@ -728,29 +728,29 @@
 			],
 			"trait": [
 				{
-					"name": "Exceptional Training",
+					"name": "Исключительная дрессировка",
 					"entries": [
-						"The beast master can have a bond with one or more beasts from the Monster Manual, as determined by the DM. The beast obeys the master's commands as best as it can, and takes its turn on the master's initiative order.  One it's turn, the beast master can verbally command the beast where to move (with no action required on the master's part). In place of one of its weapon attacks, the beast master can command the beast to take the Attack action. The beast has  advantage on attacks it is commanded to make.  Asa bonus action, the beast master can command the beast to take the Dash, Disengage, Dodge, or Help action. It takes attacks of opportunity and other reactions without needing the beast master's command."
+						"Повелитель зверей может быть связан с одним или несколькими зверями из «Бестиария», как решит Мастер. Зверь по мере сил подчиняется приказам хозяина и действует в свою очередь в порядке инициативы хозяина. В свой ход повелитель зверей может словами указать зверю, куда перемещаться (для этого хозяину не требуется действие). Вместо одной из своих атак оружием повелитель зверей может приказать зверю совершить действие Атака. Зверь совершает с преимуществом атаки, совершить которые ему приказали. Бонусным действием повелитель зверей может приказать зверю совершить действие Рывок, Отход, Уклонение или Помощь. Зверь совершает атаки по возможности и другие реакции без приказа повелителя зверей."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The beast master makes two weapon attacks."
+						"Повелитель зверей совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Scimitar",
+					"name": "Сабля",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одно существо. {@h}6 ({@damage 1d6 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Shortbow",
+					"name": "Короткий лук",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk rw} {@hit 5} к попаданию, дистанция 80/320 футов, одно существо. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				}
 			],
@@ -791,7 +791,7 @@
 			}
 		},
 		{
-			"name": "Brawler",
+			"name": "Драчун",
 			"source": "VNPC",
 			"page": 8,
 			"size": [
@@ -829,34 +829,34 @@
 			},
 			"passive": 10,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Still Standing",
+					"name": "Всё ещё на ногах",
 					"entries": [
-						"If the brawler has 10 or fewer hit points remaining, it has advantage on attack rolls."
+						"Если у драчуна осталось 10 хитов или меньше, он совершает с преимуществом броски атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The brawler makes two unarmed strikes or one greatclub"
+						"Драчун совершает два безоружных удара или одну атаку палицей"
 					]
 				},
 				{
-					"name": "Greatclub",
+					"name": "Палица",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одно существо. {@h}6 ({@damage 1d8 + 2}) дробящего урона."
 					]
 				},
 				{
-					"name": "Unarmed Strike",
+					"name": "Удар без оружия",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одно существо. {@h}4 ({@damage 1d4 + 2}) дробящего урона."
 					]
 				}
 			],
@@ -891,7 +891,7 @@
 			}
 		},
 		{
-			"name": "Cavalry Specialist",
+			"name": "Кавалерийский специалист",
 			"source": "VNPC",
 			"page": 8,
 			"size": [
@@ -930,40 +930,40 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Skilled Rider",
+					"name": "Умелый наездник",
 					"entries": [
-						"Attack rolls made against the cavalry specialist's mount have disadvantage."
+						"Броски атаки по скакуну кавалерийского специалиста совершаются с помехой."
 					]
 				},
 				{
-					"name": "Thundering Charge (1/Turn)",
+					"name": "Громовой наскок (1/ход)",
 					"entries": [
-						"If the cavalry specialist's mount moves at least 20 feet straight toward a target and the specialist hits it with a spear attack on the same turn, the target takes an extra 7 (2d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+						"Если скакун кавалерийского специалиста перемещается не менее чем на 20 футов по прямой к цели и специалист в том же ходу попадает по ней атакой копьём, цель получает дополнительно 7 (2d6) колющего урона. Если цель — существо, она должна преуспеть в спасброске Силы Сл 13, иначе упадёт ничком."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The cavalry specialist makes two weapon attacks"
+						"Кавалерийский специалист совершает две атаки оружием"
 					]
 				},
 				{
-					"name": "Spear",
+					"name": "Копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage in melee, or 6 ({@damage 1d6 + 3}) piercing damage at range, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack"
+						"{@atk mw,rw} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}6 ({@damage 1d6 + 3}) колющего урона в рукопашной или 6 ({@damage 1d6 + 3}) колющего урона на расстоянии, или 7 ({@damage 1d8 + 3}) колющего урона при использовании двумя руками для рукопашной атаки"
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Сулица",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage in melee, or 6 ({@damage 1d6 + 3}) piercing damage at range."
+						"{@atk mw,rw} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одно существо. {@h}6 ({@damage 1d6 + 3}) колющего урона в рукопашной или 6 ({@damage 1d6 + 3}) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -1002,7 +1002,7 @@
 			}
 		},
 		{
-			"name": "Defender",
+			"name": "Защитник",
 			"source": "VNPC",
 			"page": 9,
 			"size": [
@@ -1038,34 +1038,34 @@
 			"cha": 9,
 			"passive": 10,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1",
 			"action": [
 				{
-					"name": "Warhammer",
+					"name": "Боевой молот",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}6 (108 + 2) bludgeoning damage, or 7 (1d10 +2) bludgeoning damage if used with two hands to make a melee attack."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одно существо. {@h}6 (1d8 + 2) дробящего урона или 7 (1d10 + 2) дробящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Сулица",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage in melee, or 5 ({@damage 1d6 + 2}) piercing damage at range"
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одно существо. {@h}5 ({@damage 1d6 + 2}) колющего урона в рукопашной или 5 ({@damage 1d6 + 2}) колющего урона на расстоянии"
 					]
 				},
 				{
-					"name": "Goading Attack {@recharge 5}",
+					"name": "Провоцирующая атака {@recharge 5}",
 					"entries": [
-						"The defender makes an attack which, if it hits, imposes disadvantage on the target if it attacks any creature but the defender. The defender's attack also deals an additional 4 ({@damage 1d8}) damage."
+						"Защитник совершает атаку, которая при попадании налагает помеху на цель, если та атакует любое существо, кроме защитника. Атака защитника также наносит дополнительно 4 ({@damage 1d8}) урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Block",
+					"name": "Блокирование",
 					"entries": [
-						"The defender adds +2 AC against an attack that would normally hit it To do so, the defender must see the attacker and be wielding a shield."
+						"Защитник добавляет +2 к классу доспеха против атаки, которая обычно по нему попадает. Для этого защитник должен видеть атакующего и держать щит."
 					]
 				}
 			],
@@ -1101,7 +1101,7 @@
 			}
 		},
 		{
-			"name": "Duelist",
+			"name": "Дуэлянт",
 			"source": "VNPC",
 			"page": 9,
 			"size": [
@@ -1136,34 +1136,34 @@
 			},
 			"passive": 13,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The duelist makes two rapier attacks"
+						"Дуэлянт совершает две атаки шпагой"
 					]
 				},
 				{
-					"name": "Rapier",
+					"name": "Шпага",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одно существо. {@h}7 ({@damage 1d8 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Suave Defense",
+					"name": "Изящная защита",
 					"entries": [
-						"While the duelist is wearing light armor or no armor and is not wielding a shield, its AC includes its Charisma modifier."
+						"Пока дуэлянт носит лёгкий доспех или не носит доспехов и не держит щит, его класс доспеха включает модификатор Харизмы."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"The duelist adds +2 AC against an attack that would normally hit it. To do so, the duelist must see the attacker and be wielding a melee weapon."
+						"Дуэлянт добавляет +2 к классу доспеха против атаки, которая обычно по нему попадает. Для этого дуэлянт должен видеть атакующего и держать рукопашное оружие."
 					]
 				}
 			],
@@ -1198,7 +1198,7 @@
 			}
 		},
 		{
-			"name": "Eternal Hunter",
+			"name": "Вечный охотник",
 			"source": "VNPC",
 			"page": 10,
 			"size": [
@@ -1246,48 +1246,48 @@
 			},
 			"passive": 17,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Ethereal Strike {@recharge 5}",
+					"name": "Эфирный удар {@recharge 5}",
 					"entries": [
-						"In place of one of its weapon attacks, the hunter, as a bonus action, can teleport to an unoccupied space within 30 feet that it can see, and within 5 feet of a creature against which the hunter makes a shortsword attack that does an additional 13 (3d8) force damage."
+						"Вместо одной из своих атак оружием охотник может бонусным действием телепортироваться в свободное пространство в пределах 30 футов, которое видит, и в пределах 5 футов от существа, по которому охотник совершает атаку коротким мечом, наносящую дополнительно 13 (3d8) урона силовым полем."
 					]
 				},
 				{
-					"name": "Piercing Arrows",
+					"name": "Пронзающие стрелы",
 					"entries": [
-						"When the hunter hits a creature with its longbow, it can make an additional longbow attack against another creature in a straight line up to 30 feet away from the first target. The hunter's arrows are also magical and do an additional 4 (1d8) force damage (included in the attack)."
+						"Когда охотник попадает по существу длинным луком, он может совершить дополнительную атаку длинным луком по другому существу, находящемуся на прямой линии на расстоянии до 30 футов от первой цели. Стрелы охотника также магические и наносят дополнительно 4 (1d8) урона силовым полем (уже включено в атаку)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The hunter makes three weapon attacks"
+						"Охотник совершает три атаки оружием"
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Длинный лук",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one creature. {@h}14 ({@damage 2d8 + 5}) force damage."
+						"{@atk rw} {@hit 8} к попаданию, дистанция 150/600 футов, одно существо. {@h}14 ({@damage 2d8 + 5}) силового урона."
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., Art by David Rapoza one creature. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 фт., одно существо (иллюстрация: David Rapoza). {@h}8 ({@damage 1d6 + 5}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Uncanny Dodge",
+					"name": "Невероятное уклонение",
 					"entries": [
-						"The hunter halves the damage from an attack that hits it. The hunter must be able to see the attacker."
+						"Охотник уменьшает вдвое урон от атаки, которая по нему попала. Охотник должен видеть атакующего."
 					]
 				}
 			],
@@ -1325,7 +1325,7 @@
 			}
 		},
 		{
-			"name": "Heterodox Priest",
+			"name": "Жрец-отступник",
 			"source": "VNPC",
 			"page": 11,
 			"size": [
@@ -1366,15 +1366,15 @@
 			},
 			"passive": 13,
 			"languages": [
-				"any three languages"
+				"любые три языка"
 			],
 			"cr": "5",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The heterodox priest is a 10th-level spelicaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} tohit with spell attacks). The heterodox priest has the following cleric spells prepared:"
+						"Жрец-отступник — заклинатель 10-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 14}, {@hit 6} к попаданию заклинательными атаками). У жреца-отступника подготовлены следующие заклинания жреца:"
 					],
 					"spells": {
 						"0": {
@@ -1406,21 +1406,21 @@
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The heterodox priest makes two weapon attacks"
+						"Жрец-отступник совершает две атаки оружием"
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage in melee, or 5 ({@damage 1d4 + 3}) piercing damage at range"
+						"{@atk mw,rw} {@hit 6} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}5 ({@damage 1d4 + 3}) колющего урона в рукопашной или 5 ({@damage 1d4 + 3}) колющего урона на расстоянии"
 					]
 				},
 				{
-					"name": "Morningstar",
+					"name": "Моргенштерн",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одно существо. {@h}7 ({@damage 1d8 + 3}) колющего урона."
 					]
 				}
 			],
@@ -1471,7 +1471,7 @@
 			}
 		},
 		{
-			"name": "Honor-Bound Fighter",
+			"name": "Боец, связанный честью",
 			"source": "VNPC",
 			"page": 11,
 			"size": [
@@ -1514,40 +1514,40 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Death Before Dishonor",
+					"name": "Смерть прежде бесчестия",
 					"entries": [
-						"The honor-bound fighter has advantage on saving throws against being charmed or frightened"
+						"Боец, связанный честью, совершает с преимуществом спасброски против очарования и испуга"
 					]
 				},
 				{
-					"name": "Still Standing",
+					"name": "Всё ещё на ногах",
 					"entries": [
-						"While it has 20 hit points or fewer, the fighter has advantage on attack rolls."
+						"Пока у бойца 20 хитов или меньше, он совершает с преимуществом броски атаки."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The fighter makes three weapon attacks."
+						"Боец совершает три атаки оружием."
 					]
 				},
 				{
-					"name": "Greatsword",
+					"name": "Двуручный меч",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одно существо. {@h}10 ({@damage 2d6 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Длинный лук",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 150/600 ft one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{@atk rw} {@hit 6} к попаданию, дистанция 150/600 фт., одно существо. {@h}7 ({@damage 1d8 + 3}) колющего урона."
 					]
 				}
 			],
@@ -1585,7 +1585,7 @@
 			}
 		},
 		{
-			"name": "Inquisitor",
+			"name": "Инквизитор",
 			"source": "VNPC",
 			"page": 12,
 			"size": [
@@ -1628,15 +1628,15 @@
 			},
 			"passive": 16,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "5",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The inquisitor is a 5th-level spellcaster. Its  spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The inquisitor has the following cleric spells prepared:"
+						"Инквизитор — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 14}, {@hit 6} к попаданию заклинательными атаками). У инквизитора подготовлены следующие заклинания жреца:"
 					],
 					"spells": {
 						"0": {
@@ -1667,43 +1667,43 @@
 			],
 			"trait": [
 				{
-					"name": "Stern Resolve",
+					"name": "Суровая решимость",
 					"entries": [
-						"The inquisitor has advantage on saving throws against being charmed or frightened"
+						"Инквизитор совершает с преимуществом спасброски против очарования и испуга"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The inquisitor makes three melee attacks or two ranged attacks. The inquisitor ignores the loading quality on the hand crossbow."
+						"Инквизитор совершает три рукопашные атаки или две дальнобойные атаки. Инквизитор игнорирует свойство «перезарядка» ручного арбалета."
 					]
 				},
 				{
-					"name": "Crossbow, hand",
+					"name": "Арбалет, ручной",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 30/120 ft., one creature. {@h}7 ({@damage 1d6 + 4}) piercing damage, plus 3 ({@damage 1d6}) fire damage."
+						"{@atk rw} {@hit 7} к попаданию, дистанция 30/120 фт., одно существо. {@h}7 ({@damage 1d6 + 4}) колющего урона, плюс 3 ({@damage 1d6}) урона огнём."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}6 ({@damage 1d4 + 4}) piercing damage in melee, or 6 ({@damage 1d4 + 4}) piercing damage at range."
+						"{@atk mw,rw} {@hit 7} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}6 ({@damage 1d4 + 4}) колющего урона в рукопашной или 6 ({@damage 1d4 + 4}) колющего урона на расстоянии."
 					]
 				},
 				{
-					"name": "Rapier",
+					"name": "Шпага",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одно существо. {@h}8 ({@damage 1d8 + 4}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"The inquisitor adds +3 AC against an attack that would normally hit it. To do so, the inquisitor must see the attacker and be wielding a melee weapon."
+						"Инквизитор добавляет +3 к классу доспеха против атаки, которая обычно по нему попадает. Для этого инквизитор должен видеть атакующего и держать рукопашное оружие."
 					]
 				}
 			],
@@ -1752,7 +1752,7 @@
 			}
 		},
 		{
-			"name": "Journeyman Mage",
+			"name": "Маг-подмастерье",
 			"source": "VNPC",
 			"page": 13,
 			"size": [
@@ -1790,15 +1790,15 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any three languages"
+				"любые три языка"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The journeyman mage is a Sth-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The journeyman wizard has the following wizard spells prepared:"
+						"Маг-подмастерье — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Интеллект (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию заклинательными атаками). У мага-подмастерья подготовлены следующие заклинания волшебника:"
 					],
 					"spells": {
 						"0": {
@@ -1832,9 +1832,9 @@
 			],
 			"action": [
 				{
-					"name": "Quarterstaff",
+					"name": "Боевой посох",
 					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d6}) bludgeoning damage."
+						"{@atk mw} {@hit 0} к попаданию, досягаемость 5 футов, одно существо. {@h}3 ({@damage 1d6}) дробящего урона."
 					]
 				}
 			],
@@ -1874,7 +1874,7 @@
 			}
 		},
 		{
-			"name": "Martial Commander",
+			"name": "Военный командир",
 			"source": "VNPC",
 			"page": 13,
 			"size": [
@@ -1914,40 +1914,40 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "4",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The martial commander makes three longsword or two javelin attacks"
+						"Военный командир совершает три атаки длинным мечом или две атаки сулицей"
 					]
 				},
 				{
-					"name": "Leadership (Recharges after a Short or Long rest)",
+					"name": "Лидерство (восстанавливается после короткого или продолжительного отдыха)",
 					"entries": [
-						"For 1 minute, the martial commander can utter a special command or warning whenever a non hostile creature that it can see within 30 feet of it makes an attack roll or saving throw. The creature can add a d4 to its roll provided it can hear and understand the commander. A creature can benefit from only one Leadership die at a time. This effect ends if the commander is incapacitated."
+						"В течение 1 минуты военный командир может произносить особую команду или предупреждение каждый раз, когда невраждебное существо, которое он видит в пределах 30 футов от себя, совершает бросок атаки или спасбросок. Существо может добавить к4 к своему броску, если оно слышит и понимает командира. Существо может получать преимущество только от одной кости Лидерства одновременно. Этот эффект заканчивается, если командир лишён дееспособности."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit. reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands to make a melee attack."
+						"{@atk mw} {@hit 5} к попаданию. досягаемость 5 фт., одно существо. {@h}7 ({@damage 1d8 + 3}) рубящего урона или 8 ({@damage 1d10 + 3}) рубящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Сулица",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage in melee, or 6 ({@damage 1d6 + 3}) piercing damage at range."
+						"{@atk mw,rw} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одно существо. {@h}6 ({@damage 1d6 + 3}) колющего урона в рукопашной или 6 ({@damage 1d6 + 3}) колющего урона на расстоянии."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"The martial commander adds +2 AC against an attack that would normally hit it. To do so, the commander must see the attacker and be wielding a melee weapon."
+						"Военный командир добавляет +2 к классу доспеха против атаки, которая обычно по нему попадает. Для этого командир должен видеть атакующего и держать рукопашное оружие."
 					]
 				}
 			],
@@ -1987,7 +1987,7 @@
 			}
 		},
 		{
-			"name": "Master Swordsman",
+			"name": "Мастер-мечник",
 			"source": "VNPC",
 			"page": 14,
 			"size": [
@@ -2026,54 +2026,54 @@
 			},
 			"passive": 15,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Cold Steel",
+					"name": "Холодная сталь",
 					"entries": [
-						"The master swordsman gains +1 to its damage with its longsword while wielding it and no other weapon or shield (included in the attack)."
+						"Мастер-мечник получает +1 к урону своим длинным мечом, пока держит его и никакого другого оружия или щита (уже включено в атаку)."
 					]
 				},
 				{
-					"name": "Form over Force",
+					"name": "Форма важнее силы",
 					"entries": [
-						"The master swordsman can use its Dexterity score when making attacks with its longsword."
+						"Мастер-мечник может использовать значение своей Ловкости, совершая атаки длинным мечом."
 					]
 				},
 				{
-					"name": "Hard Target {@recharge 5}",
+					"name": "Трудная цель {@recharge 5}",
 					"entries": [
-						"The master swordsman can take the Dodge action as a bonus action."
+						"Мастер-мечник может совершать действие Уклонение бонусным действием."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The Master Swordsman makes three longsword attacks"
+						"Мастер-мечник совершает три атаки длинным мечом"
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. Hit· 10 (1 dB+ 6) slashing damage, or 11 ({@damage 1d10 + 6}) slashing damage if used with two hands to make a melee attack."
+						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 фт., одно существо. Попадание: 10 (1d8 + 6) рубящего урона или 11 ({@damage 1d10 + 6}) рубящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"The master swordsman adds +3 AC against an attack that would normally hit it. To do so, the master swordsman must see the attacker and be wielding a me lee weapon."
+						"Мастер-мечник добавляет +3 к классу доспеха против атаки, которая обычно по нему попадает. Для этого мастер-мечник должен видеть атакующего и держать рукопашное оружие."
 					]
 				},
 				{
-					"name": "Riposte (Recharge 5 ·6)",
+					"name": "Рипост (перезарядка 5–6)",
 					"entries": [
-						"The master swordsman makes a weapon attack against a creature that missed it with a melee attack."
+						"Мастер-мечник совершает атаку оружием по существу, которое промахнулось по нему рукопашной атакой."
 					]
 				}
 			],
@@ -2108,7 +2108,7 @@
 			}
 		},
 		{
-			"name": "Mystic",
+			"name": "Мистик",
 			"source": "VNPC",
 			"page": 14,
 			"size": [
@@ -2148,15 +2148,15 @@
 			},
 			"passive": 13,
 			"languages": [
-				"any three languages"
+				"любые три языка"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Spellcasting/Psionics",
+					"name": "Использование заклинаний / псионика",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mystic is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Many mystics practice psionics. Such mystics require no verbal, somatic, or material requirements for their abilities. In either case, the mystic effectively has the following wizard spells prepared:"
+						"Мистик — заклинатель 9-го уровня. Его базовой характеристикой для заклинаний является Интеллект (Сл спасброска от заклинаний {@dc 14}, {@hit 6} к попаданию заклинательными атаками). Многие мистики практикуют псионику. Таким мистикам для их способностей не требуются вербальные, соматические или материальные компоненты. В любом случае у мистика фактически подготовлены следующие заклинания волшебника:"
 					],
 					"spells": {
 						"0": {
@@ -2191,15 +2191,15 @@
 			],
 			"trait": [
 				{
-					"name": "Strength of Mind (Recharges after a Short or Long Rest)",
+					"name": "Сила разума (восстанавливается после короткого или продолжительного отдыха)",
 					"entries": [
-						"If the mystic is required to make a saving throw it is not proficient in, it may use its Wisdom save modifiers instead."
+						"Если мистик должен совершить спасбросок, во владении которым он не обладает, он может вместо этого использовать свой модификатор спасбросков Мудрости."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage in melee, or 4 (1d4 + 2) piercing damage at range."
+						"Рукопашная или дальнобойная атака оружием: +2 к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. Попадание: 4 (1d4 + 2) колющего урона в рукопашной или 4 (1d4 + 2) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -2231,7 +2231,7 @@
 			}
 		},
 		{
-			"name": "Ninja",
+			"name": "Ниндзя",
 			"source": "VNPC",
 			"page": 15,
 			"size": [
@@ -2273,60 +2273,60 @@
 			},
 			"passive": 13,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "6",
 			"trait": [
 				{
-					"name": "Evasion",
+					"name": "Увёртливость",
 					"entries": [
-						"If the ninja is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the ninja instead takes no damage if it succeeds on the saving throw, and only half damage if it fails"
+						"Если ниндзя подвергается эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить лишь половину урона, то при успешном спасброске он не получает урона, а при провале — только половину"
 					]
 				},
 				{
-					"name": "Shadow Stealth",
+					"name": "Теневая скрытность",
 					"entries": [
-						"While in dim light or darkness, the ninja can take the Hide action as a bonus action"
+						"В тусклом свете или темноте ниндзя может совершать действие Затаиться бонусным действием"
 					]
 				},
 				{
-					"name": "Unarmored Defense",
+					"name": "Защита без доспехов",
 					"entries": [
-						"While the ninja is wearing no armor and wielding no shield, its AC includes its Wisdom modifier"
+						"Пока ниндзя не носит доспехов и не держит щит, его класс доспеха включает модификатор Мудрости"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The ninja makes two weapon attacks."
+						"Ниндзя совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d6 + 4}) piercing damage, plus 7 ({@damage 2d6}) poison damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одно существо. {@h}7 ({@damage 1d6 + 4}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом."
 					]
 				},
 				{
-					"name": "Dart",
+					"name": "Дротик",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 20/60 ft., one creature. {@h}6 ({@damage 1d4 + 4}) piercing damage, plus 7 ({@damage 2d6}) poison"
+						"{@atk rw} {@hit 7} к попаданию, дистанция 20/60 фт., одно существо. {@h}6 ({@damage 1d4 + 4}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом"
 					]
 				},
 				{
-					"name": "Smoke Bomb (1/Day)",
+					"name": "Дымовая бомба (1/день)",
 					"entries": [
-						"The ninja throws a smoke bomb at a point up 60 feet away. The area within a 5-foot radius of the impact immediately becomes heavily obscured. A moderate wind (at least 10 miles per hour) disperses the smoke in4 rounds; a strong wind (20 or more miles per hour) disperses itin one round. Otherwise, the smoke dissipates after 1 minute."
+						"Ниндзя бросает дымовую бомбу в точку на расстоянии до 60 футов. Область в радиусе 5 футов от места удара немедленно становится сильно заслонённой. Умеренный ветер (не менее 10 миль в час) рассеивает дым за 4 раунда; сильный ветер (20 миль в час и более) рассеивает его за 1 раунд. В противном случае дым рассеивается через 1 минуту."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Deflect Missile",
+					"name": "Отражение снарядов",
 					"entries": [
-						"In response to being hit by a ranged weapon, the ninja deflects the missile. The damage it takes from the attack is reduced by 1d10 + 4. If the damage is reduced to 0, the ninja catches the missile if its small enough to hold in one hand and the ninja has a free hand."
+						"В ответ на попадание по нему дальнобойным оружием ниндзя отражает снаряд. Урон, получаемый от этой атаки, уменьшается на 1d10 + 4. Если урон уменьшается до 0, ниндзя ловит снаряд, если тот достаточно мал, чтобы удержать его одной рукой, и у ниндзя свободна рука."
 					]
 				}
 			],
@@ -2367,7 +2367,7 @@
 			}
 		},
 		{
-			"name": "Outland Veteran",
+			"name": "Ветеран чужбины",
 			"source": "VNPC",
 			"page": 16,
 			"size": [
@@ -2403,40 +2403,40 @@
 			"cha": 9,
 			"passive": 11,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Ferocious Attacks",
+					"name": "Свирепые атаки",
 					"entries": [
-						"The veteran rolls two damage dice for its weapon attacks (included by default in the attack description)."
+						"Ветеран бросает две кости урона для своих атак оружием (по умолчанию уже включено в описание атаки)."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Тактика стаи",
 					"entries": [
-						"The veteran has advantage on an attack roll against a creature if at least one of the veteran's allies is within 5 feet of the creature and the ally isn't incapacitated,"
+						"Ветеран совершает с преимуществом бросок атаки по существу, если хотя бы один союзник ветерана находится в пределах 5 футов от этого существа и не лишён дееспособности,"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The veteran makes two weapon attacks."
+						"Ветеран совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Handaxe",
+					"name": "Ручной топор",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}9 ({@damage 2d6 + 2}) slashing damage in melee, or 9 ({@damage 2d6 + 2}) slashing damage at range."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}9 ({@damage 2d6 + 2}) рубящего урона в рукопашной или 9 ({@damage 2d6 + 2}) рубящего урона на расстоянии."
 					]
 				},
 				{
-					"name": "Spear",
+					"name": "Копьё",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft, one creature. {@h}9 ({@damage 2d6 + 2}) piercing damage in melee, or 9 ({@damage 2d6 + 2}) piercing damage at range, or 11 ({@damage 2d8 + 2}) piercing damage if used with two hands to make a melee attack"
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}9 ({@damage 2d6 + 2}) колющего урона в рукопашной или 9 ({@damage 2d6 + 2}) колющего урона на расстоянии, или 11 ({@damage 2d8 + 2}) колющего урона при использовании двумя руками для рукопашной атаки"
 					]
 				}
 			],
@@ -2478,7 +2478,7 @@
 			}
 		},
 		{
-			"name": "Overseer",
+			"name": "Надзиратель",
 			"source": "VNPC",
 			"page": 16,
 			"size": [
@@ -2517,46 +2517,46 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Intimidating Glare",
+					"name": "Устрашающий взгляд",
 					"entries": [
-						"As a bonus action, the overseer can direct its gaze at a creature it can see. The creature must make a DC 13 Wisdom saving throw or be frightened for 1 minute. The creature may repeat this saving throw at the end of each of its turns. On a success, the creature is immune to the overseer's glare for 24 hours."
+						"Бонусным действием надзиратель может устремить свой взгляд на существо, которое видит. Существо должно совершить спасбросок Мудрости Сл 13, иначе станет испуганным на 1 минуту. Существо может повторять этот спасбросок в конце каждого своего хода. При успехе существо получает иммунитет к взгляду надзирателя на 24 часа."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The overseer makes three melee weapon attacks, or one sleep dart attack"
+						"Надзиратель совершает три рукопашные атаки оружием или одну атаку снотворным дротиком"
 					]
 				},
 				{
-					"name": "Leadership (Recharges after a Short or Long rest)",
+					"name": "Лидерство (восстанавливается после короткого или продолжительного отдыха)",
 					"entries": [
-						"For 1 minute, the overseer can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or saving throw. The creature can add a de to its roll provided it Art by can hear and understand the overseer. A creature can benefit from only one Leadership Grafit Studio die ata time. This effect ends if the overseer is incapacitated"
+						"В течение 1 минуты надзиратель может произносить особую команду или предупреждение каждый раз, когда невраждебное существо, которое он видит в пределах 30 футов от себя, совершает бросок атаки или спасбросок. Существо может добавить к4 к своему броску, если оно слышит и понимает надзирателя. Существо может получать преимущества только от одной кости Лидерства Grafit Studio за раз. Этот эффект заканчивается, если надзиратель лишён дееспособности"
 					]
 				},
 				{
-					"name": "Scimitar",
+					"name": "Сабля",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одно существо. {@h}6 ({@damage 1d6 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Whip (optional)",
+					"name": "Кнут (опционально)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one creature. {@h}5 ({@damage 1d4 + 3}) slashing damage"
+						"{@atk mw} {@hit 5} к попаданию, досягаемость 10 фт., одно существо. {@h}5 ({@damage 1d4 + 3}) рубящего урона"
 					]
 				},
 				{
-					"name": "Sleep Dart",
+					"name": "Снотворный дротик",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one creature. {@h}4 1 piercing damage. The targeted creature must succeed on a DC 12 Constitution saving throw or fall asleep for 1 minute. The target awakens if it takes damage or another creature takes another action to wake it. This attack has no effect on constructs or undead."
+						"{@atk rw} {@hit 5} к попаданию, дистанция 20/60 фт., одно существо. {@h}4 (1) колющего урона. Выбранное целью существо должно преуспеть в спасброске Телосложения Сл 12, иначе уснёт на 1 минуту. Цель просыпается, если получает урон или если другое существо потратит действие, чтобы её разбудить. Эта атака не действует на конструктов и нежить."
 					]
 				}
 			],
@@ -2597,7 +2597,7 @@
 			}
 		},
 		{
-			"name": "Paladin",
+			"name": "Паладин",
 			"source": "VNPC",
 			"page": 17,
 			"size": [
@@ -2637,15 +2637,15 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "5",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The paladin is a 4th-level spelicaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The paladin has the following paladin spells prepared:"
+						"Паладин — заклинатель 4-го уровня. Его базовой характеристикой для заклинаний является Харизма (Сл спасброска от заклинаний {@dc 14}, {@hit 6} к попаданию заклинательными атаками). У паладина подготовлены следующие заклинания паладина:"
 					],
 					"spells": {
 						"1": {
@@ -2669,35 +2669,35 @@
 			],
 			"trait": [
 				{
-					"name": "Divine Sense (4/day)",
+					"name": "Божественное чувство (4/день)",
 					"entries": [
-						"Until the end of its next turn, the paladin knows the location of any celestial, fiend or undead within 60 feet that is not behind total cover."
+						"До конца своего следующего хода паладин знает местоположение любого небожителя, исчадия или нежити в пределах 60 футов, не находящихся за полным укрытием."
 					]
 				},
 				{
-					"name": "Lay on Hands",
+					"name": "Наложение рук",
 					"entries": [
-						"As an action, the paladin can touch a creature and draw from its pool of 25 hit points to restore a number of hit points to that creature, up to the maximum remaining in its pool. The paladin can, alternatively, can expend 5 hit points from its pool of healing to cure the target of one disease or neutralize one poison affecting it. It can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points seperately for each one. This feature has no effect on undead or constructs."
+						"Действием паладин может коснуться существа и взять из своего запаса в 25 хитов, чтобы восстановить этому существу количество хитов в пределах оставшегося запаса. Кроме того, паладин может потратить 5 хитов из своего запаса лечения, чтобы излечить цель от одной болезни или нейтрализовать один действующий на неё яд. Одним применением Наложения рук он может излечить несколько болезней и нейтрализовать несколько ядов, тратя хиты отдельно на каждый. Эта способность не действует на нежить и конструктов."
 					]
 				},
 				{
-					"name": "Sacred Weapon (1/day)",
+					"name": "Священное оружие (1/день)",
 					"entries": [
-						"For 1 minute, the paladin adds its +3 to attack rolls made with its longsword. The longsword also emites a bright light in a 20-foot radius, and dim light 20 feet beyond that. The weapon attacks are considered magical."
+						"В течение 1 минуты паладин добавляет свой +3 к броскам атаки длинным мечом. Длинный меч также излучает яркий свет в радиусе 20 футов и тусклый свет ещё на 20 футов. Атаки этим оружием считаются магическими."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The paladin makes two longsword attacks"
+						"Паладин совершает две атаки длинным мечом"
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands to make a melee attack, plus 4 ({@damage 1d8}) radiant damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одно существо. {@h}7 ({@damage 1d8 + 3}) рубящего урона или 8 ({@damage 1d10 + 3}) рубящего урона при использовании двумя руками для рукопашной атаки, плюс 4 ({@damage 1d8}) урона излучением."
 					]
 				}
 			],
@@ -2740,7 +2740,7 @@
 			}
 		},
 		{
-			"name": "Performer",
+			"name": "Артист",
 			"source": "VNPC",
 			"page": 18,
 			"size": [
@@ -2784,52 +2784,52 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Evasion",
+					"name": "Увёртливость",
 					"entries": [
-						"If the performer is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the performer instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+						"Если артист подвергается эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить лишь половину урона, то при успешном спасброске он не получает урона, а при провале — только половину."
 					]
 				},
 				{
-					"name": "Light-footed",
+					"name": "Легконогий",
 					"entries": [
-						"The performer can take the Dash or Disengage action as a bonus action."
+						"Артист может бонусным действием совершить действие Рывок или Отход."
 					]
 				},
 				{
-					"name": "Sneak Attack (1/turn)",
+					"name": "Скрытая атака (1/ход)",
 					"entries": [
-						"The performer deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the performer that incapacitated and the performer doesn't have disadvantage on the attack roll."
+						"Артист наносит дополнительно 7 (2d6) урона, когда попадает по цели атакой оружием и совершает бросок атаки с преимуществом, или когда цель находится в пределах 5 футов от союзника артиста, который не лишён дееспособности, и артист не совершает бросок атаки с помехой."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"Makes three melee or ranged weapon attacks."
+						"Совершает три рукопашные или дальнобойные атаки оружием."
 					]
 				},
 				{
-					"name": "Fire Breath {@recharge 5}; optional",
+					"name": "Огненное дыхание {@recharge 5}; опционально",
 					"entries": [
-						"Creatures within a 15-foot cone of the performer must make a DC 14 Dexterity saving throw, taking 4d6fire damage on failed save, or half as much on a successful one."
+						"Существа в конусе 15 футов от артиста должны совершить спасбросок Ловкости Сл 14, получая 4d6 урона огнём при провале или половину этого урона при успешном спасброске."
 					]
 				},
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit. reach S ft. or range 20/60 ft., one creature. {@h}6 ({@damage 1d4 + 4}) piercing damage in melee, or 6 ({@damage 1d4 + 4}) piercing damage at range."
+						"{@atk mw,rw} {@hit 6} к попаданию. досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}6 ({@damage 1d4 + 4}) колющего урона в рукопашной или 6 ({@damage 1d4 + 4}) колющего урона на расстоянии."
 					]
 				},
 				{
-					"name": "Whip",
+					"name": "Кнут",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit. reach 10 ft., one creature. {@h}6 ({@damage 1d4 + 4}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию. досягаемость 10 фт., одно существо. {@h}6 ({@damage 1d4 + 4}) рубящего урона."
 					]
 				}
 			],
@@ -2875,7 +2875,7 @@
 			}
 		},
 		{
-			"name": "Relentless Fighter",
+			"name": "Неутомимый боец",
 			"source": "VNPC",
 			"page": 18,
 			"size": [
@@ -2914,34 +2914,34 @@
 			},
 			"passive": 10,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Warrior's Fortitude",
+					"name": "Стойкость воина",
 					"entries": [
-						"If damage reduces the relentless fighter to O hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, the relentless fighter drops to 1 hit point instead."
+						"Если урон опускает хиты неутомимого бойца до 0, он должен совершить спасбросок Телосложения со Сл 5 + полученный урон, если только урон не нанесён критическим попаданием. При успехе неутомимый боец вместо этого остаётся с 1 хитом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The fighter makes two weapon attacks."
+						"Боец совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Battleaxe",
+					"name": "Боевой топор",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ( 1 dl O + 2) slashing damage if used with two hands to make a melee attack."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одно существо. {@h}6 ({@damage 1d8 + 2}) рубящего урона или 7 (1d10 + 2) рубящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Сулица",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage in melee, or 5 ({@damage 1d6 + 2}) piercing damage at range."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одно существо. {@h}5 ({@damage 1d6 + 2}) колющего урона в рукопашной или 5 ({@damage 1d6 + 2}) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -2980,7 +2980,7 @@
 			}
 		},
 		{
-			"name": "Rugged Warrior",
+			"name": "Закалённый воин",
 			"source": "VNPC",
 			"page": 19,
 			"size": [
@@ -3019,28 +3019,28 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Defensive Formation",
+					"name": "Оборонительное построение",
 					"entries": [
-						"The warrior gains a +2 bonus to its AC if at least one of the warrior's allies with a shield is within 5 feet of the the warrior and the ally isn't incapacitated."
+						"Воин получает бонус +2 к классу доспеха, если хотя бы один союзник воина со щитом находится в пределах 5 футов от него и не лишён дееспособности."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Battleaxe",
+					"name": "Боевой топор",
 					"entries": [
-						"Me/ee Weapon Attack: {@hit 4} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands to make a melee attack."
+						"Рукопашная атака оружием: {@hit 4} к попаданию, досягаемость 5 фт., одно существо. {@h}6 ({@damage 1d8 + 2}) рубящего урона или 7 ({@damage 1d10 + 2}) рубящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				},
 				{
-					"name": "Shortbow",
+					"name": "Короткий лук",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 80/320 футов, одно существо. {@h}5 ({@damage 1d6 + 2}) колющего урона."
 					]
 				}
 			],
@@ -3074,7 +3074,7 @@
 			}
 		},
 		{
-			"name": "Ruler-Warrior",
+			"name": "Правитель-воин",
 			"source": "VNPC",
 			"page": 19,
 			"size": [
@@ -3118,42 +3118,42 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Brave",
+					"name": "Храбрый",
 					"entries": [
-						"The ruler-warrior has advantage on saving throws against being frightened. Aura of Courage. Allied creatures that are within 30 and can see or hear the rulerwarrior have advantage on saving throws against being frightened Ferocious Attacks. The ruler-warrior rolls double damage dice for its weapon attacks (included in the weapon attack descriptions)."
+						"Правитель-воин совершает с преимуществом спасброски против испуга. Аура мужества. Дружественные существа в пределах 30 футов, которые видят или слышат правителя-воина, совершают с преимуществом спасброски против испуга. Свирепые атаки. Правитель-воин бросает двойные кости урона для своих атак оружием (уже включено в описания атак оружием)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The ruler-warrior makes three longsword attacks or two heavy crossbow attacks (the ruler-warrior ignores the Loading quality)."
+						"Правитель-воин совершает три атаки длинным мечом или две атаки тяжёлым арбалетом (правитель-воин игнорирует свойство «перезарядка»)."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}12 ({@damage 2d8 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) slashing damage if used with two hands to make a melee attack."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одно существо. {@h}12 ({@damage 2d8 + 3}) рубящего урона или 14 ({@damage 2d10 + 3}) рубящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				},
 				{
-					"name": "Crossbow, heavy",
+					"name": "Арбалет, тяжёлый",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 100/400 ft., one creature. {@h}14 ({@damage 2d10 + 3}) piercing damage."
+						"{@atk rw} {@hit 6} к попаданию, дистанция 100/400 футов, одно существо. {@h}14 ({@damage 2d10 + 3}) колющего урона."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Парирование",
 					"entries": [
-						"The ruler-warrior adds +3 AC against an attack that would normally hit it. To do so, the ruler-warrior must see the attacker and be wielding a melee weapon."
+						"Правитель-воин добавляет +3 к классу доспеха против атаки, которая обычно по нему попадает. Для этого правитель-воин должен видеть атакующего и держать рукопашное оружие."
 					]
 				}
 			],
@@ -3191,7 +3191,7 @@
 			}
 		},
 		{
-			"name": "Scholar",
+			"name": "Учёный",
 			"source": "VNPC",
 			"page": 20,
 			"size": [
@@ -3230,22 +3230,22 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any three languages"
+				"любые три языка"
 			],
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Faint-Hearted",
+					"name": "Малодушный",
 					"entries": [
-						"If a creature makes an attack on the scholar, and the scholar is not incapacitated, it can move 10 feet away from the attacker as a reaction, not provoking attacks of opportunity."
+						"Если существо атакует учёного и учёный не лишён дееспособности, он может реакцией переместиться на 10 футов от атакующего, не провоцируя атак по возможности."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}2 (104) piercing damage in melee, or 2 ({@damage 1d4}) piercing damage at range."
+						"{@atk mw,rw} {@hit 2} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}2 (1d4) колющего урона в рукопашной или 2 ({@damage 1d4}) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -3279,7 +3279,7 @@
 			}
 		},
 		{
-			"name": "Scoundrel",
+			"name": "Негодяй",
 			"source": "VNPC",
 			"page": 20,
 			"size": [
@@ -3320,22 +3320,22 @@
 			},
 			"passive": 10,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Suprise Attack",
+					"name": "Внезапная атака",
 					"entries": [
-						"If the scoundrel surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 3 (1d6) damage from the attack."
+						"Если негодяй застаёт существо врасплох и попадает по нему атакой в первом раунде боя, цель получает от этой атаки дополнительно 3 (1d6) урона."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Кинжал",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage in melee, or 4 (1d4 +2) piercing damage at range."
+						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}4 ({@damage 1d4 + 2}) колющего урона в рукопашной или 4 (1d4 + 2) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -3369,7 +3369,7 @@
 			}
 		},
 		{
-			"name": "Seasoned Hunter",
+			"name": "Опытный охотник",
 			"source": "VNPC",
 			"page": 21,
 			"size": [
@@ -3413,46 +3413,46 @@
 			},
 			"passive": 16,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Ambusher",
+					"name": "Засадник",
 					"entries": [
-						"The seasoned hunter has advantage on attack rolls against any creature it has surprised."
+						"Опытный охотник совершает с преимуществом броски атаки по любому существу, которое застал врасплох."
 					]
 				},
 				{
-					"name": "Evasion",
+					"name": "Увёртливость",
 					"entries": [
-						"If the seasoned hunter is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the seasoned hunter instead takes no damage if it succeeds on the• saving throw, and only half damage if it fails."
+						"Если опытный охотник подвергается эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить лишь половину урона, то при успешном спасброске он не получает урона, а при провале — только половину."
 					]
 				},
 				{
-					"name": "Evasive Fire",
+					"name": "Уклончивый огонь",
 					"entries": [
-						"As a bonus action, the seasoned hunter may move up to half of its movement away from its target immediately after making an attack. This does not provoke an attack of opportunity from the target if it is within 5 feet. but it still has disadvantage, on Evasive Attacks made with ranged weapons against enemies within 5 feet."
+						"Бонусным действием опытный охотник может сразу после совершения атаки переместиться на расстояние до половины своей скорости от своей цели. Это не провоцирует атаку по возможности от цели, если та находится в пределах 5 футов. но он по-прежнему совершает с помехой атаки с уклонением дальнобойным оружием по врагам в пределах 5 футов."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The seasoned hunter makes two ranged or three shorsword attacks"
+						"Опытный охотник совершает две дальнобойные атаки или три атаки коротким мечом"
 					]
 				},
 				{
-					"name": "Shortsword",
+					"name": "Короткий меч",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit. reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} к попаданию. досягаемость 5 фт., одно существо. {@h}6 ({@damage 1d6 + 3}) колющего урона."
 					]
 				},
 				{
-					"name": "Longbow",
+					"name": "Длинный лук",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit. range 150/600 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage, plus 3 ({@damage 1d6}) poison damage."
+						"{@atk rw} {@hit 5} к попаданию. дистанция 150/600 фт., одно существо. {@h}7 ({@damage 1d8 + 3}) колющего урона, плюс 3 ({@damage 1d6}) урона ядом."
 					]
 				}
 			],
@@ -3494,7 +3494,7 @@
 			}
 		},
 		{
-			"name": "Shaman",
+			"name": "Шаман",
 			"source": "VNPC",
 			"page": 22,
 			"size": [
@@ -3532,15 +3532,15 @@
 			},
 			"passive": 15,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The shaman is a 9th-level spelicaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The shaman has the following druid spells prepared:"
+						"Шаман — заклинатель 9-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию заклинательными атаками). У шамана подготовлены следующие заклинания друида:"
 					],
 					"spells": {
 						"0": {
@@ -3572,9 +3572,9 @@
 			],
 			"action": [
 				{
-					"name": "Quarterstaff",
+					"name": "Боевой посох",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage if using two hands or shilleglah."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одно существо. {@h}5 ({@damage 1d6 + 2}) дробящего урона при использовании двумя руками или с заклинанием «Дубинка»."
 					]
 				}
 			],
@@ -3611,7 +3611,7 @@
 			}
 		},
 		{
-			"name": "Slayer",
+			"name": "Убийца",
 			"source": "VNPC",
 			"page": 23,
 			"size": [
@@ -3653,54 +3653,54 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "7",
 			"trait": [
 				{
-					"name": "Brute",
+					"name": "Громила",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when the slayer hits with it (included in the attack)."
+						"Рукопашное оружие наносит одну дополнительную кость урона, когда убийца попадает им (уже включено в атаку)."
 					]
 				},
 				{
-					"name": "Reckless",
+					"name": "Безрассудство",
 					"entries": [
-						"At the start of its turn, the slayer can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+						"В начале своего хода убийца может получить преимущество на все броски атак рукопашным оружием в этом ходу, но броски атаки по нему совершаются с преимуществом до начала его следующего хода."
 					]
 				},
 				{
-					"name": "Unarmored Defense",
+					"name": "Защита без доспехов",
 					"entries": [
-						"While the slayer is wearing no armor, its AC includes its Constitution modifier."
+						"Пока убийца не носит доспехов, его класс доспеха включает модификатор Телосложения."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The slayer makes three weapon attacks, one with its battleaxe and two with its handaxe(s)."
+						"Убийца совершает три атаки оружием: одну боевым топором и две ручными топорами."
 					]
 				},
 				{
-					"name": "Battleaxe",
+					"name": "Боевой топор",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) slashing damage, or 15 ({@damage 2d10 + 4}) slashing damage if used with two hands to make a melee attack."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одно существо. {@h}13 ({@damage 2d8 + 4}) рубящего урона или 15 ({@damage 2d10 + 4}) рубящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				},
 				{
-					"name": "Handaxe",
+					"name": "Ручной топор",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}11 ({@damage 2d6 + 4}) slashing damage in melee, or 11 ({@damage 2d6 + 4}) slashing damage at range."
+						"{@atk mw,rw} {@hit 7} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одно существо. {@h}11 ({@damage 2d6 + 4}) рубящего урона в рукопашной или 11 ({@damage 2d6 + 4}) рубящего урона на расстоянии."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Unbridled Fury {@recharge 4}",
+					"name": "Безудержная ярость {@recharge 4}",
 					"entries": [
-						"In response to being hit by a melee attack, the slayer can make a battleaxe attack against a creature within 5 feet."
+						"В ответ на попадание по нему рукопашной атакой убийца может совершить атаку боевым топором по существу в пределах 5 футов."
 					]
 				}
 			],
@@ -3743,7 +3743,7 @@
 			}
 		},
 		{
-			"name": "Soldier",
+			"name": "Солдат",
 			"source": "VNPC",
 			"page": 24,
 			"size": [
@@ -3782,26 +3782,26 @@
 			},
 			"passive": 10,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Martial Advantage",
+					"name": "Воинское превосходство",
 					"entries": [
-						"Once per turn, the soldier can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the soldier that isn't incapacitated."
+						"Один раз в ход солдат может нанести дополнительно 7 (2d6) урона существу, по которому попал атакой оружием, если это существо находится в пределах 5 футов от союзника солдата, который не лишён дееспособности."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands to make a melee attack."
+						"{@atk mw} +4 к попаданию, досягаемость 5 фт., одно существо. Попадание: 6 (1d8 + 2) рубящего урона или 7 (1d10 + 2) рубящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				},
 				{
-					"name": "Crossbow, light",
+					"name": "Арбалет, лёгкий",
 					"entries": [
-						"{@atk rw} +4 to hit, range 80/320 ft., one creature. Hit: 6 (1d8 + 2) piercing damage"
+						"{@atk rw} +4 к попаданию, дистанция 80/320 фт., одно существо. Попадание: 6 (1d8 + 2) колющего урона"
 					]
 				}
 			],
@@ -3825,7 +3825,7 @@
 			}
 		},
 		{
-			"name": "Spellsword",
+			"name": "Заклинатель-мечник",
 			"source": "VNPC",
 			"page": 24,
 			"size": [
@@ -3863,15 +3863,15 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "4",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The spellsword is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The spellsword has the following wizard spells prepared:"
+						"Заклинатель-мечник — заклинатель 4-го уровня. Его базовой характеристикой для заклинаний является Интеллект (Сл спасброска от заклинаний {@dc 14}, {@hit 6} к попаданию заклинательными атаками). У заклинателя-мечника подготовлены следующие заклинания волшебника:"
 					],
 					"spells": {
 						"0": {
@@ -3901,23 +3901,23 @@
 			],
 			"trait": [
 				{
-					"name": "War Magic",
+					"name": "Военная магия",
 					"entries": [
-						"When the spellsword uses its action to cast a cantrip or 1st- level spell, it can make an attack with its longsword as a bonus action."
+						"Когда заклинатель-мечник использует действие, чтобы сотворить заговор или заклинание 1-го уровня, он может бонусным действием совершить атаку длинным мечом."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The spellsword makes two longsword attacks."
+						"Заклинатель-мечник совершает две атаки длинным мечом."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Длинный меч",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands to make a melee attack."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одно существо. {@h}7 ({@damage 1d8 + 3}) рубящего урона или 8 ({@damage 1d10 + 3}) рубящего урона при использовании двумя руками для рукопашной атаки."
 					]
 				}
 			],
@@ -3962,7 +3962,7 @@
 			}
 		},
 		{
-			"name": "Warchief",
+			"name": "Вождь войны",
 			"source": "VNPC",
 			"page": 25,
 			"size": [
@@ -4005,46 +4005,46 @@
 			},
 			"passive": 16,
 			"languages": [
-				"any two languages"
+				"любые два языка"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Brute",
+					"name": "Громила",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when the warchief hits with it."
+						"Рукопашное оружие наносит одну дополнительную кость урона, когда вождь войны попадает им."
 					]
 				},
 				{
-					"name": "Sweeping Attack {@recharge 5}",
+					"name": "Размашистая атака {@recharge 5}",
 					"entries": [
-						"When the warchief makes a greataxe attack, it can make an additional greataxe attack, as a bonus action, on a creature within reach and 5 feet of the original target."
+						"Когда вождь войны совершает атаку двуручным топором, он может бонусным действием совершить дополнительную атаку двуручным топором по существу в пределах досягаемости и в 5 футах от первоначальной цели."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The war chief makes two weapon attacks."
+						"Вождь войны совершает две атаки оружием."
 					]
 				},
 				{
-					"name": "Battle Cry (1/Day)",
+					"name": "Боевой клич (1/день)",
 					"entries": [
-						"Each creature of the warchief's choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gain advantage on attack rolls, until the start of the warchief's next turn. The warchief can then make one attack as a bonus action."
+						"Каждое существо по выбору вождя войны, находящееся в пределах 30 футов от него, слышащее его и ещё не затронутое Боевым кличем, получает преимущество на броски атаки до начала следующего хода вождя войны. После этого вождь войны может бонусным действием совершить одну атаку."
 					]
 				},
 				{
-					"name": "Greataxe",
+					"name": "Двуручный топор",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}16 ({@damage 2d12 + 3}) slashing damage."
+						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одно существо. {@h}16 ({@damage 2d12 + 3}) рубящего урона."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Сулица",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 30/120 ft., one creature. {@h}10 ({@damage 2d6 + 3}) piercing damage in melee, or 10 ({@damage 2d6 + 3}) piercing damage at range."
+						"{@atk mw,rw} {@hit 6} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одно существо. {@h}10 ({@damage 2d6 + 3}) колющего урона в рукопашной или 10 ({@damage 2d6 + 3}) колющего урона на расстоянии."
 					]
 				}
 			],
@@ -4086,7 +4086,7 @@
 			}
 		},
 		{
-			"name": "Warden",
+			"name": "Страж",
 			"source": "VNPC",
 			"page": 26,
 			"size": [
@@ -4125,32 +4125,32 @@
 			},
 			"passive": 14,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "1",
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The warden makes two melee attacks or one hand crossbow attack."
+						"Страж совершает две рукопашные атаки или одну атаку ручным арбалетом."
 					]
 				},
 				{
-					"name": "Mace",
+					"name": "Булава",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одно существо. {@h}5 ({@damage 1d6 + 2}) дробящего урона."
 					]
 				},
 				{
-					"name": "Crossbow, hand",
+					"name": "Арбалет, ручной",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or fall asleep for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This attack has no effect on constructs or undead."
+						"{@atk rw} {@hit 4} к попаданию, дистанция 30/120 фт., одно существо. {@h}5 ({@damage 1d6 + 2}) колющего урона, и цель должна преуспеть в спасброске Телосложения Сл 12, иначе уснёт на 1 минуту. Цель просыпается, если получает урон или если другое существо потратит действие, чтобы её разбудить. Эта атака не действует на конструктов и нежить."
 					]
 				},
 				{
-					"name": "Disarming Strike (1/Turn)",
+					"name": "Обезоруживающий удар (1/ход)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, and the, target must succeed on a DC 12 Strength saving throw or drop one item of the warden's choice, that the target is holding. The object lands at the target's feet."
+						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одно существо. {@h}5 ({@damage 1d6 + 2}) дробящего урона, и цель должна преуспеть в спасброске Силы Сл 12, иначе уронит один предмет, который держит, — по выбору стража. Предмет падает к ногам цели."
 					]
 				}
 			],
@@ -4188,7 +4188,7 @@
 			}
 		},
 		{
-			"name": "Whirling Swordsman",
+			"name": "Вихревой мечник",
 			"source": "VNPC",
 			"page": 27,
 			"size": [
@@ -4229,42 +4229,42 @@
 			},
 			"passive": 11,
 			"languages": [
-				"any one language (usually common)"
+				"One (обычно Общий)"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Ferocious Attacks",
+					"name": "Свирепые атаки",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when the swordsman hits with it (included in the attack)."
+						"Рукопашное оружие наносит одну дополнительную кость урона, когда мечник попадает им (уже включено в атаку)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The swordsman makes two attacks with its scimitars."
+						"Мечник совершает две атаки саблями."
 					]
 				},
 				{
-					"name": "Scimitar",
+					"name": "Сабля",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одно существо. {@h}12 ({@damage 2d6 + 5}) рубящего урона."
 					]
 				},
 				{
-					"name": "Whirlwind {@recharge 4}",
+					"name": "Вихрь {@recharge 4}",
 					"entries": [
-						"The swordsman moves up to 15 feet. Up The swordsman may make a scimitar attack on up to 5 creatures of the swordsman's choice that pass within 5 feet. Attacks of opportunity taken while the swordsman is using the Whirlwind action have disadvantage."
+						"Мечник перемещается на расстояние до 15 футов. Мечник может совершить атаку саблей по каждому из до 5 выбранных им существ, которые проходят в пределах 5 футов. Атаки по возможности, совершаемые, пока мечник использует действие Вихрь, совершаются с помехой."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Uncanny Dodge",
+					"name": "Невероятное уклонение",
 					"entries": [
-						"The swordsman halves the damage from an attack that hits it. The swordsman must be able to see the attacker."
+						"Мечник уменьшает вдвое урон от атаки, которая по нему попала. Мечник должен видеть атакующего."
 					]
 				}
 			],

@@ -23,8 +23,8 @@
 	},
 	"monster": [
 		{
-			"name": "Black Greatwyrm",
-			"shortName": "greatwyrm",
+			"name": "Чёрный великий змей",
+			"shortName": "великий змей",
 			"group": [
 				"Chromatic Dragon"
 			],
@@ -90,211 +90,211 @@
 				"frightened"
 			],
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "26",
 			"trait": [
 				{
-					"name": "Draconic Might",
+					"name": "Мощь дракона",
 					"entries": [
-						"The greatwyrm's weapon attacks are magical and deal quadruple damage to objects and structures. When it hits a target with a melee attack, if the attack roll meets or exceeds the target's passive Strength ({@skill Athletics}) score, the greatwyrm can push it up to 10 feet away, or 20 feet away if its mythic trait is active."
+						"Атаки оружием великого змея являются магическими и причиняют четверной урон предметам и строениям. Когда он попадает по цели рукопашной атакой, если результат броска атаки равен пассивному значению Силы ({@skill Athletics}) цели или превышает его, великий змей может оттолкнуть её на расстояние до 10 футов или до 20 футов, если его мифическая черта активна."
 					]
 				},
 				{
-					"name": "Feign Weakness (Mythic Trait; Once Per Rest)",
+					"name": "Мнимая слабость (мифическая черта; один раз за отдых)",
 					"entries": [
-						"If the greatwyrm dies, it shrieks in pain as its body melts into a puddle of acid and filth. Its body then reforms from this puddle at the start of its next turn, resetting to maximum hit points, ending any spells of its choice on itself, and becoming active again. The greatwyrm then moves up to its speed (without provoking opportunity attacks) towards the creature that killed it, and makes one claw attack against it if possible."
+						"Если великий змей умирает, он кричит от боли, пока его тело плавится в лужу кислоты и грязи. Затем его тело восстанавливается из этой лужи в начале его следующего хода, возвращаясь к максимуму хитов, оканчивая любые заклинания на себе по своему выбору и снова становясь активным. После этого великий змей перемещается на расстояние, не превышающее его скорость (не провоцируя атак по возможности), к существу, которое его убило, и совершает по нему одну атаку когтями, если это возможно."
 					]
 				},
 				{
-					"name": "Unbreakable",
+					"name": "Несокрушимый",
 					"entries": [
-						"If the greatwyrm is {@condition incapacitated}, {@condition poisoned}, or {@condition restrained} at the start of its turn, any effects causing these conditions immediately end on the greatwyrm."
+						"Если великий змей {@condition incapacitated}, {@condition poisoned} или {@condition restrained} в начале своего хода, любые эффекты, вызывающие эти состояния, немедленно оканчиваются на нём."
 					]
 				},
 				{
-					"name": "Stench",
+					"name": "Зловоние",
 					"entries": [
-						"At the start of each of the greatwyrm's turns, each creature within 30 feet of it must succeed on a {@dc 25} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to the greatwyrm's stench for 24 hours."
+						"В начале каждого хода великого змея все существа в пределах 30 футов от него должны преуспеть в спасброске Телосложения {@dc 25}, иначе станут {@condition poisoned} до начала своего следующего хода. При успешном спасброске существо получает иммунитет к зловонию великого змея на 24 часа."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The greatwyrm can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+						"Великий змей может использовать своё Ужасающее присутствие. Затем он совершает три атаки: одну укусом и две когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 13 ({@damage 2d12}) acid damage."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 15 фт., одна цель. {@h}21 ({@damage 2d10 + 10}) колющего урона плюс 13 ({@damage 2d12}) урона кислотой."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} this way at a time."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 10 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) рубящего урона. Если цель — существо Огромного или меньшего размера, оно {@condition grappled} (высвобождение {@dc 20}) и {@condition restrained}, пока этот захват не окончен. Великий змей может удерживать таким образом только одно существо {@condition grappled} одновременно."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 20 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 26}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Each creature of the greatwyrm's choice that is within 1 mile of the dragon and aware of it must succeed on a {@dc 23} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the greatwyrm's Frightful Presence for the next 24 hours."
+						"Все существа на выбор великого змея, находящиеся в пределах 1 мили от дракона и знающие о его присутствии, должны преуспеть в спасброске Мудрости {@dc 23}, иначе станут {@condition frightened} на 1 минуту. Существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа был успешным или эффект на нём окончился, существо получает иммунитет к Ужасающему присутствию этого великого змея на следующие 24 часа."
 					]
 				},
 				{
-					"name": "Corrosive Breath {@recharge 5}",
+					"name": "Едкое дыхание {@recharge 5}",
 					"entries": [
-						"The greatwyrm exhales acid in a 300-foot line that is 20 feet wide. Each creature and object in that area takes 88 ({@damage 16d10}) acid damage ({@dc 25} Dexterity save for half). Damaged surfaces in this area then become corrosive acid pools until cleared. Any creature or object that touches one of these surfaces takes 11 ({@damage 2d10}) acid damage; a target can't take this damage more than once per round."
+						"Великий змей выдыхает кислоту линией длиной 300 футов и шириной 20 футов. Все существа и предметы в этой области получают 88 ({@damage 16d10}) урона кислотой (спасбросок Ловкости {@dc 25} для половины урона). Повреждённые поверхности в этой области затем становятся лужами едкой кислоты, пока не будут очищены. Любое существо или предмет, касающееся одной из этих поверхностей, получает 11 ({@damage 2d10}) урона кислотой; цель не может получать этот урон более одного раза за раунд."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Rampage",
+					"name": "Буйство",
 					"entries": [
-						"When the greatwyrm reduces a creature or a Gargantuan object to 0 hit points with a melee attack on its turn, it can use this bonus action to move up to half its speed and make another attack."
+						"Когда великий змей в свой ход опускает рукопашной атакой хиты существа или Исполинского предмета до 0, он может бонусным действием переместиться на расстояние до половины своей скорости и совершить ещё одну атаку."
 					]
 				},
 				{
-					"name": "Gas Cloud (1/Day)",
+					"name": "Облако газа (1/день)",
 					"entries": [
-						"The greatwyrm unleashes a cloud of toxic gas in a 1 mile radius that lasts for 1 hour. The gas reduces visibility to 120 feet, and everything within that radius is lightly obscured. While in this gas, living creatures are plagued by constant coughing and cannot benefit from resistance to acid or poison. If a living creature dies while in the gas, insects and filth possess its corpse, causing it to rise as a {@creature zombie} in the same space. The greatwyrm ignores all effects caused by the cloud."
+						"Великий змей выпускает облако токсичного газа в радиусе 1 мили, которое держится 1 час. Газ уменьшает видимость до 120 футов, и всё в этом радиусе слегка заслонено. Находясь в этом газе, живые существа мучаются от постоянного кашля и не могут получить преимущества от сопротивления урону кислотой или ядом. Если живое существо умирает в этом газе, насекомые и грязь овладевают его трупом, заставляя его восстать как {@creature zombie} в том же пространстве. Великий змей игнорирует все эффекты, вызванные облаком."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Tail Attack",
+					"name": "Атака хвостом",
 					"entries": [
-						"The greatwyrm makes two tail attacks, one of which must be against an object."
+						"Великий змей совершает две атаки хвостом, одна из которых должна быть по предмету."
 					]
 				},
 				{
-					"name": "Vitriolic Spray",
+					"name": "Едкая струя",
 					"entries": [
-						"{@atk rs} {@hit 15} to hit, range 90 ft., one target. {@h} 14 ({@damage 3d4 + 7}) acid damage, and the target must succeed on a {@dc 23} Constitution saving throw or be {@condition blinded} until the end of its next turn."
+						"{@atk rs} {@hit 15} к попаданию, дистанция 90 фт., одна цель. {@h} 14 ({@damage 3d4 + 7}) урона кислотой, и цель должна преуспеть в спасброске Телосложения {@dc 23}, иначе станет {@condition blinded} до конца своего следующего хода."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm beats its wings. Each creature within 10 feet of the greatwyrm must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The greatwyrm can then fly up to half its flying speed."
+						"Великий змей бьёт своими крыльями. Все существа в пределах 10 футов от великого змея должны преуспеть в спасброске Ловкости {@dc 26}, иначе получат 17 ({@damage 2d6 + 10}) дробящего урона и будут сбиты с ног {@condition prone}. После этого великий змей может пролететь на расстояние, не превышающее половину скорости полёта."
 					]
 				}
 			],
 			"mythicHeader": [
-				"If the greatwyrm's mythic trait has activated in the last hour, it can use the options below as legendary actions."
+				"Если мифическая черта великого змея активировалась за последний час, он может использовать приведённые ниже варианты как легендарные действия."
 			],
 			"mythic": [
 				{
-					"name": "Fling",
+					"name": "Отбрасывание",
 					"entries": [
-						"One Huge or smaller object held or creature {@condition grappled} by the greatwyrm is thrown up to 30 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 20} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"Один предмет Огромного или меньшего размера, удерживаемый великим змеем, или существо {@condition grappled} им отбрасывается на расстояние до 30 футов в случайном направлении и сбивается с ног {@condition prone}. Если отброшенная цель ударяется о твёрдую поверхность, цель получает 3 ({@damage 1d6}) дробящего урона за каждые 10 футов перемещения. Если цель отброшена в другое существо, это существо должно преуспеть в спасброске Ловкости {@dc 20}, иначе получит такой же урон и будет сбито с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Corrosive Decay (Costs 2 Actions)",
+					"name": "Едкое разложение (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm unleashes a burst of rot and acid in a 20-foot-radius, 40-foot-high cylinder centered on a point within 90 feet of it. Each creature and object in the area takes 22 ({@damage 4d10}) acid damage ({@dc 25} Dexterity save for half). Objects in the area become permanently vulnerable to all damage, and each creature that takes this damage suffers disadvantage on Strength and Constitution saving throws until the end of the greatwyrm's next turn."
+						"Великий змей выпускает взрыв гнили и кислоты в цилиндре радиусом 20 футов и высотой 40 футов с центром в точке в пределах 90 футов от него. Все существа и предметы в этой области получают 22 ({@damage 4d10}) урона кислотой (спасбросок Ловкости {@dc 25} для половины урона). Предметы в этой области навсегда становятся уязвимыми ко всем видам урона, и каждое существо, получившее этот урон, страдает от помехи на спасброски Силы и Телосложения до конца следующего хода великого змея."
 					]
 				},
 				{
-					"name": "Summon Shambling Mound (Costs 2 Actions)",
+					"name": "Призыв бродячего холма (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm magically creates a {@creature shambling mound} in an unoccupied space within 30 feet of it. The shambling mound takes its turn on initiative count 20 (losing initiative ties) each round and carries out the greatwyrm's malefic will to the best of its ability."
+						"Великий змей магическим образом создаёт {@creature shambling mound} в свободном пространстве в пределах 30 футов от себя. Бродячий холм ходит на счётчике инициативы 20 (проигрывая ничьи инициативы) каждый раунд и исполняет злую волю великого змея в меру своих способностей."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Black Dragon",
+				"name": "Чёрный дракон",
 				"source": "MM"
 			},
 			"variant": [
 				{
 					"type": "inset",
-					"name": "Customizing Dragons",
+					"name": "Настройка драконов",
 					"source": "FTD",
 					"page": 33,
 					"entries": [
-						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						"Вы можете настроить блок статистики любого дракона, чтобы отразить его уникальный характер. Незначительные изменения, подобные приведённым ниже, легко внести, и они не влияют на уровень опасности дракона.",
 						{
 							"type": "entries",
-							"name": "Languages",
+							"name": "Языки",
 							"entries": [
-								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+								"Большинство драконов предпочитает говорить на Драконьем, но учит Общий для общения с союзниками и прислужниками. Однако благодаря высокому Интеллекту и долгой жизни драконы легко осваивают дополнительные языки. Вы можете добавить языки в блок статистики дракона."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Skills",
+							"name": "Навыки",
 							"entries": [
-								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+								"Большинство драконов владеет навыками {@skill Perception} и {@skill Stealth}, и у многих драконов есть дополнительные владения навыками. Как и с языками, вы можете настроить список навыков дракона (вплоть до удвоения бонуса мастерства для некоторых навыков), чтобы отразить его интересы и занятия. Вы также можете дать дракону владение инструментами, особенно если дракон проводит время в гуманоидной форме."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spells",
+							"name": "Заклинания",
 							"entries": [
-								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+								"{@note См. врезку(и) «Вариант: драконы как врождённые заклинатели» ниже.}"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Other Traits and Actions",
+							"name": "Другие свойства и действия",
 							"entries": [
-								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								"Вы можете заимствовать свойства и действия у других монстров, чтобы придать дракону уникальный колорит. Рассмотрите эти примеры:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Change Shape.",
+											"name": "Смена облика.",
 											"entries": [
-												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
-												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+												"Вы можете решить, что дракон обретает это действие в более молодом возрасте, чем обычно, особенно если хотите показать дракона в гуманоидной форме в своей кампании:",
+												"Дракон магическим образом превращается в гуманоида или зверя, чей уровень опасности не выше его собственного, или обратно в свой истинный облик. Он возвращается в свой истинный облик, если умирает. Всё несомое или носимое им снаряжение поглощается или несётся новым обликом (на выбор дракона).",
+												"В новом облике дракон сохраняет мировоззрение, хиты, Кости Хитов, способность говорить, владения, Легендарное сопротивление, действия в логове и значения Интеллекта, Мудрости и Харизмы, а также это действие. В остальном его статистика и возможности заменяются таковыми нового облика, кроме любых классовых умений или легендарных действий этого облика."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Flyby,",
+											"name": "Облёт,",
 											"entries": [
-												"The dragon is an agile flier, quick to fly out of enemies' reach.",
-												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+												"Дракон — ловкий летун, быстро вылетающий из досягаемости врагов.",
+												"Дракон не провоцирует атаку по возможности, когда вылетает из досягаемости врага."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Mimicry.",
+											"name": "Мимикрия.",
 											"entries": [
-												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
-												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+												"Выдавать себя за персонажей или их союзников может быть занятным трюком для хитрого дракона.",
+												"Дракон может подражать любым звукам, которые слышал, включая голоса. Существо, слышащее эти звуки, может распознать, что это имитация, при успешной проверке Мудрости ({@skill Insight}) {@dc 13}."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Rejuvenation.",
+											"name": "Восстановление.",
 											"entries": [
-												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
-												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+												"Вы можете решить, что драконы в вашей кампании, будучи неотъемлемой частью Материального плана, почти неуничтожимы. Жизненная сущность дракона может храниться в яйце, из которого он впервые вылупился, в его сокровищнице или в пещерном зале в центре мира, подобно тому как сущность лича скрыта в филактерии.",
+												"Если у него есть предмет, хранящий сущность, уничтоженный дракон получает новое тело через {@dice 1d10} дней, восстанавливая все свои хиты и снова становясь активным. Новое тело появляется в пределах 5 футов от предмета."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Special Senses.",
+											"name": "Особые чувства.",
 											"entries": [
-												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+												"У большинства драконов есть {@sense blindsight} и {@sense darkvision}. Вы можете улучшить {@sense blindsight} до {@sense truesight} или дать дракону со скоростью копания {@sense tremorsense|MM}."
 											]
 										}
 									]
@@ -307,7 +307,7 @@
 			"dragonCastingColor": "black",
 			"dragonAge": "greatwyrm",
 			"token": {
-				"name": "Adult Black Dragon",
+				"name": "Взрослый чёрный дракон",
 				"source": "MM"
 			},
 			"senseTags": [
@@ -360,7 +360,7 @@
 			"hasFluff": true,
 			"fluff": {
 				"_monsterFluff": {
-					"name": "Chromatic Greatwyrms",
+					"name": "Цветные великие змеи",
 					"source": "BeGr"
 				},
 				"images": [
@@ -375,8 +375,8 @@
 			}
 		},
 		{
-			"name": "Blue Greatwyrm",
-			"shortName": "greatwyrm",
+			"name": "Синий великий змей",
+			"shortName": "великий змей",
 			"group": [
 				"Chromatic Dragon"
 			],
@@ -446,218 +446,218 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "28",
 			"trait": [
 				{
-					"name": "Draconic Might",
+					"name": "Мощь дракона",
 					"entries": [
-						"The greatwyrm's weapon attacks are magical and deal quadruple damage to objects and structures. When it hits a target with a melee attack, if the attack roll meets or exceeds the target's passive Strength ({@skill Athletics}) score, the greatwyrm can push it up to 10 feet away, or 20 feet away if its mythic trait is active."
+						"Атаки оружием великого змея являются магическими и причиняют четверной урон предметам и строениям. Когда он попадает по цели рукопашной атакой, если результат броска атаки равен пассивному значению Силы ({@skill Athletics}) цели или превышает его, великий змей может оттолкнуть её на расстояние до 10 футов или до 20 футов, если его мифическая черта активна."
 					]
 				},
 				{
-					"name": "Destructive Wrath (Mythic Trait; Once Per Rest)",
+					"name": "Разрушительный гнев (мифическая черта; один раз за отдых)",
 					"entries": [
-						"If the greatwyrm would be reduced to 0 hit points, it instead resets to maximum hit points, and it can end any spells of its choice on itself. It then unleashes a huge burst of thunder that concusses each creature and object within 120 feet of it. Each target takes 14 ({@damage 4d6}) thunder damage ({@dc 25} Constitution saving throw for half) and is pushed up to 20 feet away from the greatwyrm. On a failed save, a target is also knocked {@condition prone}."
+						"Если хиты великого змея должны опуститься до 0, он вместо этого возвращается к максимуму хитов и может окончить любые заклинания на себе по своему выбору. Затем он выпускает огромный взрыв грома, контузящий каждое существо и предмет в пределах 120 футов от него. Каждая цель получает 14 ({@damage 4d6}) урона звуком (спасбросок Телосложения {@dc 25} для половины урона) и отталкивается на расстояние до 20 футов от великого змея. При провале цель также сбивается с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "Сопротивление магии",
 					"entries": [
-						"The greatwyrm has advantage on saving throws against spells and other magical effects."
+						"Великий змей совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
 					]
 				},
 				{
-					"name": "Thunderous Charge (1/Turn)",
+					"name": "Громогласная атака в броске (1/ход)",
 					"entries": [
-						"If the greatwyrm moves at least 15 feet straight toward a target and then hits it with a gore attack on the same turn, the target also takes 26 ({@damage 4d12}) thunder damage."
+						"Если великий змей переместится как минимум на 15 футов по прямой к цели, а затем в том же ходу попадёт по ней атакой бодания, цель также получает 26 ({@damage 4d12}) урона звуком."
 					]
 				},
 				{
-					"name": "Supercharged",
+					"name": "Перезаряженный",
 					"entries": [
-						"If a creature touches the greatwyrm or hits it with a melee attack while within 15 feet of it, or if it targets the dragon with a spell that it isn't a willing target of, the creature takes 7 ({@damage 2d6}) lightning damage."
+						"Если существо касается великого змея или попадает по нему рукопашной атакой, находясь в пределах 15 футов от него, или если оно нацеливается на дракона заклинанием, согласной целью которого он не является, это существо получает 7 ({@damage 2d6}) урона электричеством."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The greatwyrm can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+						"Великий змей может использовать своё Ужасающее присутствие. Затем он совершает три атаки: одну укусом и две когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 13 ({@damage 2d12}) lightning damage."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 15 фт., одна цель. {@h}21 ({@damage 2d10 + 10}) колющего урона плюс 13 ({@damage 2d12}) урона электричеством."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} this way at a time."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 10 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) рубящего урона. Если цель — существо Огромного или меньшего размера, оно {@condition grappled} (высвобождение {@dc 20}) и {@condition restrained}, пока этот захват не окончен. Великий змей может удерживать таким образом только одно существо {@condition grappled} одновременно."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 27} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 20 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 27}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Gore",
+					"name": "Бодание",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 15 футов, одна цель. {@h}36 ({@damage 4d12 + 10}) колющего урона."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Each creature of the greatwyrm's choice that is within 1 mile of the dragon and aware of it must succeed on a {@dc 24} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the greatwyrm's Frightful Presence for the next 24 hours."
+						"Все существа на выбор великого змея, находящиеся в пределах 1 мили от дракона и знающие о его присутствии, должны преуспеть в спасброске Мудрости {@dc 24}, иначе станут {@condition frightened} на 1 минуту. Существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа был успешным или эффект на нём окончился, существо получает иммунитет к Ужасающему присутствию этого великого змея на следующие 24 часа."
 					]
 				},
 				{
-					"name": "Storm Breath {@recharge 5}",
+					"name": "Штормовое дыхание {@recharge 5}",
 					"entries": [
-						"The greatwyrm exhales concentrated storm energy in a 300-foot line that is 20 feet wide. Each creature and object in that area takes 88 ({@damage 16d10}) lightning damage ({@dc 25} Dexterity save for half). If a Huge or smaller target fails this save by 5 or more, it is also pushed up to 30 feet away from the greatwyrm."
+						"Великий змей выдыхает концентрированную энергию бури линией длиной 300 футов и шириной 20 футов. Все существа и предметы в этой области получают 88 ({@damage 16d10}) урона электричеством (спасбросок Ловкости {@dc 25} для половины урона). Если цель Огромного или меньшего размера проваливает этот спасбросок на 5 или больше, она также отталкивается на расстояние до 30 футов от великого змея."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Superstorm (1/Day)",
+					"name": "Сверхбуря (1/день)",
 					"entries": [
-						"The greatwyrm unleashes a violent storm in a 1 mile radius that lasts for 1 hour. The storm is either a rainstorm or a sandstorm, depending on the features of the surrounding environment. {@hazard Strong wind} (DMG 110) batters the area and causes any creature in it that is knocked {@condition prone} to also be flung up to 30 feet in a random direction.",
-						"Every 5 rounds, an {@creature air elemental} spawns at a random location in the storm, taking its turn on initiative count 20 (losing initiative ties) of each round and carrying out the greatwyrm's malefic will to the best of its ability. The greatwyrm and the elementals ignore all effects caused by the storm."
+						"Великий змей выпускает неистовую бурю в радиусе 1 мили, которая держится 1 час. Буря является либо дождевой, либо песчаной, в зависимости от особенностей окружающей среды. {@hazard Strong wind} (DMG 110) бьёт по области и заставляет любое существо в ней, сбитое с ног {@condition prone}, также отлететь на расстояние до 30 футов в случайном направлении.",
+						"Каждые 5 раундов {@creature air elemental} появляется в случайном месте бури, ходит на счётчике инициативы 20 (проигрывая ничьи инициативы) каждого раунда и исполняет злую волю великого змея в меру своих способностей. Великий змей и элементали игнорируют все эффекты, вызванные бурей."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Tail Attack",
+					"name": "Атака хвостом",
 					"entries": [
-						"The greatwyrm makes two tail attacks, one of which must be against an object."
+						"Великий змей совершает две атаки хвостом, одна из которых должна быть по предмету."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm beats its wings. Each creature within 10 feet of the greatwyrm must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The greatwyrm can then fly up to half its flying speed."
+						"Великий змей бьёт своими крыльями. Все существа в пределах 10 футов от великого змея должны преуспеть в спасброске Ловкости {@dc 26}, иначе получат 17 ({@damage 2d6 + 10}) дробящего урона и будут сбиты с ног {@condition prone}. После этого великий змей может пролететь на расстояние, не превышающее половину скорости полёта."
 					]
 				},
 				{
-					"name": "Thunder Bolt",
+					"name": "Удар грома",
 					"entries": [
-						"{@atk rs} {@hit 16} to hit, range 90 ft., one target. {@h} 15 ({@damage 2d6 + 8}) lightning damage plus 3 ({@damage 1d6}) thunder damage. On a critical hit, the target must also succeed on a {@dc 24} Constitution saving throw or become {@condition stunned} until the end of the dragon's next turn."
+						"{@atk rs} {@hit 16} к попаданию, дистанция 90 фт., одна цель. {@h} 15 ({@damage 2d6 + 8}) урона электричеством плюс 3 ({@damage 1d6}) урона звуком. При критическом попадании цель также должна преуспеть в спасброске Телосложения {@dc 24}, иначе станет {@condition stunned} до конца следующего хода дракона."
 					]
 				}
 			],
 			"mythicHeader": [
-				"If the greatwyrm's mythic trait has activated in the last hour, it can use the options below as legendary actions."
+				"Если мифическая черта великого змея активировалась за последний час, он может использовать приведённые ниже варианты как легендарные действия."
 			],
 			"mythic": [
 				{
-					"name": "Fling",
+					"name": "Отбрасывание",
 					"entries": [
-						"One Huge or smaller object held or creature {@condition grappled} by the greatwyrm is thrown up to 30 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 20} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"Один предмет Огромного или меньшего размера, удерживаемый великим змеем, или существо {@condition grappled} им отбрасывается на расстояние до 30 футов в случайном направлении и сбивается с ног {@condition prone}. Если отброшенная цель ударяется о твёрдую поверхность, цель получает 3 ({@damage 1d6}) дробящего урона за каждые 10 футов перемещения. Если цель отброшена в другое существо, это существо должно преуспеть в спасброске Ловкости {@dc 20}, иначе получит такой же урон и будет сбито с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Vortex",
+					"name": "Вихрь",
 					"entries": [
-						"The greatwyrm uses its horn to channel elemental wind, sucking in any number of Huge or smaller creatures or objects within 90 feet of it using a powerful vortex. Each target is pulled up to 40 feet towards the greatwyrm ({@dc 24} Strength save for half)."
+						"Великий змей использует свой рог, чтобы направить стихийный ветер, втягивая при помощи мощного вихря любое число существ Огромного или меньшего размера или предметов в пределах 90 футов от себя. Каждая цель втягивается на расстояние до 40 футов к великому змею (спасбросок Силы {@dc 24} для половины урона)."
 					]
 				},
 				{
-					"name": "Lightning Strike (Costs 2 Actions)",
+					"name": "Удар молнии (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm causes a bolt of lightning to strike a point on the ground within 120 feet of it. Each creature and object within 5 feet of that point takes 26 ({@damage 4d12}) lightning damage ({@dc 24} Dexterity save for half). If the save fails by 5 or more, a creature is also {@condition deafened} until the end of the greatwyrm's next turn."
+						"Великий змей заставляет удар молнии поразить точку на земле в пределах 120 футов от него. Все существа и предметы в пределах 5 футов от этой точки получают 26 ({@damage 4d12}) урона электричеством (спасбросок Ловкости {@dc 24} для половины урона). Если спасбросок проваливается на 5 или больше, существо также {@condition deafened} до конца следующего хода великого змея."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Blue Dragon",
+				"name": "Синий дракон",
 				"source": "MM"
 			},
 			"variant": [
 				{
 					"type": "inset",
-					"name": "Customizing Dragons",
+					"name": "Настройка драконов",
 					"source": "FTD",
 					"page": 33,
 					"entries": [
-						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						"Вы можете настроить блок статистики любого дракона, чтобы отразить его уникальный характер. Незначительные изменения, подобные приведённым ниже, легко внести, и они не влияют на уровень опасности дракона.",
 						{
 							"type": "entries",
-							"name": "Languages",
+							"name": "Языки",
 							"entries": [
-								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+								"Большинство драконов предпочитает говорить на Драконьем, но учит Общий для общения с союзниками и прислужниками. Однако благодаря высокому Интеллекту и долгой жизни драконы легко осваивают дополнительные языки. Вы можете добавить языки в блок статистики дракона."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Skills",
+							"name": "Навыки",
 							"entries": [
-								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+								"Большинство драконов владеет навыками {@skill Perception} и {@skill Stealth}, и у многих драконов есть дополнительные владения навыками. Как и с языками, вы можете настроить список навыков дракона (вплоть до удвоения бонуса мастерства для некоторых навыков), чтобы отразить его интересы и занятия. Вы также можете дать дракону владение инструментами, особенно если дракон проводит время в гуманоидной форме."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spells",
+							"name": "Заклинания",
 							"entries": [
-								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+								"{@note См. врезку(и) «Вариант: драконы как врождённые заклинатели» ниже.}"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Other Traits and Actions",
+							"name": "Другие свойства и действия",
 							"entries": [
-								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								"Вы можете заимствовать свойства и действия у других монстров, чтобы придать дракону уникальный колорит. Рассмотрите эти примеры:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Change Shape.",
+											"name": "Смена облика.",
 											"entries": [
-												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
-												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+												"Вы можете решить, что дракон обретает это действие в более молодом возрасте, чем обычно, особенно если хотите показать дракона в гуманоидной форме в своей кампании:",
+												"Дракон магическим образом превращается в гуманоида или зверя, чей уровень опасности не выше его собственного, или обратно в свой истинный облик. Он возвращается в свой истинный облик, если умирает. Всё несомое или носимое им снаряжение поглощается или несётся новым обликом (на выбор дракона).",
+												"В новом облике дракон сохраняет мировоззрение, хиты, Кости Хитов, способность говорить, владения, Легендарное сопротивление, действия в логове и значения Интеллекта, Мудрости и Харизмы, а также это действие. В остальном его статистика и возможности заменяются таковыми нового облика, кроме любых классовых умений или легендарных действий этого облика."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Flyby,",
+											"name": "Облёт,",
 											"entries": [
-												"The dragon is an agile flier, quick to fly out of enemies' reach.",
-												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+												"Дракон — ловкий летун, быстро вылетающий из досягаемости врагов.",
+												"Дракон не провоцирует атаку по возможности, когда вылетает из досягаемости врага."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Mimicry.",
+											"name": "Мимикрия.",
 											"entries": [
-												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
-												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+												"Выдавать себя за персонажей или их союзников может быть занятным трюком для хитрого дракона.",
+												"Дракон может подражать любым звукам, которые слышал, включая голоса. Существо, слышащее эти звуки, может распознать, что это имитация, при успешной проверке Мудрости ({@skill Insight}) {@dc 13}."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Rejuvenation.",
+											"name": "Восстановление.",
 											"entries": [
-												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
-												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+												"Вы можете решить, что драконы в вашей кампании, будучи неотъемлемой частью Материального плана, почти неуничтожимы. Жизненная сущность дракона может храниться в яйце, из которого он впервые вылупился, в его сокровищнице или в пещерном зале в центре мира, подобно тому как сущность лича скрыта в филактерии.",
+												"Если у него есть предмет, хранящий сущность, уничтоженный дракон получает новое тело через {@dice 1d10} дней, восстанавливая все свои хиты и снова становясь активным. Новое тело появляется в пределах 5 футов от предмета."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Special Senses.",
+											"name": "Особые чувства.",
 											"entries": [
-												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+												"У большинства драконов есть {@sense blindsight} и {@sense darkvision}. Вы можете улучшить {@sense blindsight} до {@sense truesight} или дать дракону со скоростью копания {@sense tremorsense|MM}."
 											]
 										}
 									]
@@ -670,7 +670,7 @@
 			"dragonCastingColor": "blue",
 			"dragonAge": "greatwyrm",
 			"token": {
-				"name": "Adult Blue Dragon",
+				"name": "Взрослый синий дракон",
 				"source": "MM"
 			},
 			"traitTags": [
@@ -726,7 +726,7 @@
 			"hasFluff": true,
 			"fluff": {
 				"_monsterFluff": {
-					"name": "Chromatic Greatwyrms",
+					"name": "Цветные великие змеи",
 					"source": "BeGr"
 				},
 				"images": [
@@ -741,8 +741,8 @@
 			}
 		},
 		{
-			"name": "Green Greatwyrm",
-			"shortName": "greatwyrm",
+			"name": "Зелёный великий змей",
+			"shortName": "великий змей",
 			"group": [
 				"Chromatic Dragon"
 			],
@@ -813,213 +813,213 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "27",
 			"trait": [
 				{
-					"name": "Draconic Might",
+					"name": "Мощь дракона",
 					"entries": [
-						"The greatwyrm's weapon attacks are magical and deal quadruple damage to objects and structures. When it hits a target with a melee attack, if the attack roll meets or exceeds the target's passive Strength ({@skill Athletics}) score, the greatwyrm can push it up to 10 feet away, or 20 feet away if its mythic trait is active."
+						"Атаки оружием великого змея являются магическими и причиняют четверной урон предметам и строениям. Когда он попадает по цели рукопашной атакой, если результат броска атаки равен пассивному значению Силы ({@skill Athletics}) цели или превышает его, великий змей может оттолкнуть её на расстояние до 10 футов или до 20 футов, если его мифическая черта активна."
 					]
 				},
 				{
-					"name": "Deceive the Senses (Mythic Trait; Once Per Rest)",
+					"name": "Обман чувств (мифическая черта; один раз за отдых)",
 					"entries": [
-						"If the greatwyrm would be reduced to 0 hit points, it instead resets to maximum hit points, and it can end any spells of its choice on itself. It then becomes {@condition invisible} until the end of its next turn, and it can immediately move up to its speed and take the {@action Hide} action (no reaction required)."
+						"Если хиты великого змея должны опуститься до 0, он вместо этого возвращается к максимуму хитов и может окончить любые заклинания на себе по своему выбору. Затем он становится {@condition invisible} до конца своего следующего хода, и он может немедленно переместиться на расстояние, не превышающее его скорость, и совершить действие {@action Hide} (реакция не требуется)."
 					]
 				},
 				{
-					"name": "Guarded Mind",
+					"name": "Защищённый разум",
 					"entries": [
-						"The greatwyrm has advantage on all Intelligence, Wisdom, and Charisma saving throws."
+						"Великий змей совершает с преимуществом все спасброски Интеллекта, Мудрости и Харизмы."
 					]
 				},
 				{
-					"name": "Plant Stride",
+					"name": "Шаг по растениям",
 					"entries": [
-						"The greatwyrm ignores difficult terrain caused by plants and can't take damage from them if they are nonmagical."
+						"Великий змей игнорирует труднопроходимую местность, созданную растениями, и не может получать от них урон, если они немагические."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The greatwyrm can use its Corrupting Presence. It then makes three attacks: one with its bite and two with its claws."
+						"Великий змей может использовать своё Развращающее присутствие. Затем он совершает три атаки: одну укусом и две когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 13 ({@damage 2d12}) poison damage."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 15 фт., одна цель. {@h}21 ({@damage 2d10 + 10}) колющего урона плюс 13 ({@damage 2d12}) урона ядом."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}), {@condition restrained}, and has disadvantage on Intelligence, Wisdom, and Charisma saving throws until this grapple ends. The greatwyrm can have only one creature {@condition grappled} this way at a time."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 10 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) рубящего урона. Если цель — существо Огромного или меньшего размера, оно {@condition grappled} (высвобождение {@dc 20}), {@condition restrained} и совершает с помехой спасброски Интеллекта, Мудрости и Харизмы, пока этот захват не окончен. Великий змей может удерживать таким образом только одно существо {@condition grappled} одновременно."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 27} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 20 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 27}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Corrupting Presence",
+					"name": "Развращающее присутствие",
 					"entries": [
-						"Each creature of the greatwyrm's choice that is within 1 mile of the dragon and aware of it must succeed on a {@dc 23} Wisdom saving throw or become {@condition charmed} or {@condition frightened} (greatwyrm's choice) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the greatwyrm's Corrupting Presence for the next 24 hours."
+						"Все существа на выбор великого змея, находящиеся в пределах 1 мили от дракона и знающие о его присутствии, должны преуспеть в спасброске Мудрости {@dc 23}, иначе станут {@condition charmed} или {@condition frightened} (на выбор великого змея) на 1 минуту. Существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа был успешным или эффект на нём окончился, существо получает иммунитет к Развращающему присутствию великого змея на следующие 24 часа."
 					]
 				},
 				{
-					"name": "Noxious Breath {@recharge 5}",
+					"name": "Ядовитое дыхание {@recharge 5}",
 					"entries": [
-						"The greatwyrm exhales poison in a 300-foot cone. Each creature and object in that area takes 91 ({@damage 26d6}) poison damage ({@dc 25} Constitution save for half). Damaged surfaces in this area then grow thick vines that grasp at nearby creatures until cleared. Any Large or smaller creature that ends its turn within 5 feet of these vines is {@condition grappled} by them (escape {@dc 15})."
+						"Великий змей выдыхает яд 300-футовым конусом. Все существа и предметы в этой области получают 91 ({@damage 26d6}) урона ядом (спасбросок Телосложения {@dc 25} для половины урона). Повреждённые поверхности в этой области затем покрываются густыми лианами, хватающими ближайших существ, пока их не расчистят. Любое существо Большого или меньшего размера, оканчивающее свой ход в пределах 5 футов от этих лиан, {@condition grappled} ими (высвобождение {@dc 15})."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Brain Fog (1/Day)",
+					"name": "Туман в мозгу (1/день)",
 					"entries": [
-						"The greatwyrm unleashes a cloud of poisonous fog in a 1 mile radius that lasts for 1 hour. The gas lightly obscures the area, and living creatures in the area cannot benefit from resistance to poison or psychic damage and have disadvantage on all Intelligence, Wisdom, and Charisma checks. The greatwyrm ignores all effects caused by the fog."
+						"Великий змей выпускает облако ядовитого тумана в радиусе 1 мили, которое держится 1 час. Газ слегка заслоняет эту область, а живые существа в этой области не могут получить преимущества от сопротивления урону ядом или психическому урону и совершают с помехой все проверки Интеллекта, Мудрости и Харизмы. Великий змей игнорирует все эффекты, вызванные туманом."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Feed on Weakness",
+					"name": "Питание слабостью",
 					"entries": [
-						"When a creature within 20 feet of the greatwyrm fails an Intelligence, Wisdom, or Charisma saving throw, the greatwyrm gains 15 temporary hit points."
+						"Когда существо в пределах 20 футов от великого змея проваливает спасбросок Интеллекта, Мудрости или Харизмы, великий змей получает 15 временных хитов."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Tail Attack",
+					"name": "Атака хвостом",
 					"entries": [
-						"The greatwyrm makes two tail attacks, one of which must be against an object."
+						"Великий змей совершает две атаки хвостом, одна из которых должна быть по предмету."
 					]
 				},
 				{
-					"name": "Luring Glare",
+					"name": "Манящий взгляд",
 					"entries": [
-						"The dragon targets one creature it can see within 90 feet of it. The target must make a {@dc 24} Wisdom saving throw. The target has disadvantage on the save if it is {@condition poisoned}. On a failed save, the target must use its reaction to move up to half its speed along a path of the dragon's choice."
+						"Дракон нацеливается на одно существо, которое он видит в пределах 90 футов от себя. Цель должна совершить спасбросок Мудрости {@dc 24}. Цель совершает спасбросок с помехой, если она {@condition poisoned}. При провале цель должна реакцией переместиться на расстояние до половины своей скорости по пути на выбор дракона."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm beats its wings. Each creature within 10 feet of the greatwyrm must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The greatwyrm can then fly up to half its flying speed."
+						"Великий змей бьёт своими крыльями. Все существа в пределах 10 футов от великого змея должны преуспеть в спасброске Ловкости {@dc 26}, иначе получат 17 ({@damage 2d6 + 10}) дробящего урона и будут сбиты с ног {@condition prone}. После этого великий змей может пролететь на расстояние, не превышающее половину скорости полёта."
 					]
 				}
 			],
 			"mythicHeader": [
-				"If the greatwyrm's mythic trait has activated in the last hour, it can use the options below as legendary actions."
+				"Если мифическая черта великого змея активировалась за последний час, он может использовать приведённые ниже варианты как легендарные действия."
 			],
 			"mythic": [
 				{
-					"name": "Nimble Predator",
+					"name": "Ловкий хищник",
 					"entries": [
-						"The greatwyrm moves up to 30 feet without provoking opportunity attacks."
+						"Великий змей перемещается на расстояние до 30 футов, не провоцируя атак по возможности."
 					]
 				},
 				{
-					"name": "Fling",
+					"name": "Отбрасывание",
 					"entries": [
-						"One Huge or smaller object held or creature {@condition grappled} by the greatwyrm is thrown up to 30 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 20} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"Один предмет Огромного или меньшего размера, удерживаемый великим змеем, или существо {@condition grappled} им отбрасывается на расстояние до 30 футов в случайном направлении и сбивается с ног {@condition prone}. Если отброшенная цель ударяется о твёрдую поверхность, цель получает 3 ({@damage 1d6}) дробящего урона за каждые 10 футов перемещения. Если цель отброшена в другое существо, это существо должно преуспеть в спасброске Ловкости {@dc 20}, иначе получит такой же урон и будет сбито с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Mind Poison (Costs 2 Actions)",
+					"name": "Отравление разума (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm unleashes a mental assault against all creatures within a 20-foot-radius sphere centered on a point within 90 feet of it. Each target takes 22 ({@damage 4d10}) psychic damage ({@dc 24} Intelligence save for half). On a failed save, a target is also {@condition poisoned} until the end of the greatwyrm's next turn."
+						"Великий змей обрушивает психическую атаку на все существа в сфере радиусом 20 футов с центром в точке в пределах 90 футов от него. Каждая цель получает 22 ({@damage 4d10}) психического урона (спасбросок Интеллекта {@dc 24} для половины урона). При провале цель также {@condition poisoned} до конца следующего хода великого змея."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Green Dragon",
+				"name": "Зелёный дракон",
 				"source": "MM"
 			},
 			"variant": [
 				{
 					"type": "inset",
-					"name": "Customizing Dragons",
+					"name": "Настройка драконов",
 					"source": "FTD",
 					"page": 33,
 					"entries": [
-						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						"Вы можете настроить блок статистики любого дракона, чтобы отразить его уникальный характер. Незначительные изменения, подобные приведённым ниже, легко внести, и они не влияют на уровень опасности дракона.",
 						{
 							"type": "entries",
-							"name": "Languages",
+							"name": "Языки",
 							"entries": [
-								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+								"Большинство драконов предпочитает говорить на Драконьем, но учит Общий для общения с союзниками и прислужниками. Однако благодаря высокому Интеллекту и долгой жизни драконы легко осваивают дополнительные языки. Вы можете добавить языки в блок статистики дракона."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Skills",
+							"name": "Навыки",
 							"entries": [
-								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+								"Большинство драконов владеет навыками {@skill Perception} и {@skill Stealth}, и у многих драконов есть дополнительные владения навыками. Как и с языками, вы можете настроить список навыков дракона (вплоть до удвоения бонуса мастерства для некоторых навыков), чтобы отразить его интересы и занятия. Вы также можете дать дракону владение инструментами, особенно если дракон проводит время в гуманоидной форме."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spells",
+							"name": "Заклинания",
 							"entries": [
-								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+								"{@note См. врезку(и) «Вариант: драконы как врождённые заклинатели» ниже.}"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Other Traits and Actions",
+							"name": "Другие свойства и действия",
 							"entries": [
-								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								"Вы можете заимствовать свойства и действия у других монстров, чтобы придать дракону уникальный колорит. Рассмотрите эти примеры:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Change Shape.",
+											"name": "Смена облика.",
 											"entries": [
-												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
-												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+												"Вы можете решить, что дракон обретает это действие в более молодом возрасте, чем обычно, особенно если хотите показать дракона в гуманоидной форме в своей кампании:",
+												"Дракон магическим образом превращается в гуманоида или зверя, чей уровень опасности не выше его собственного, или обратно в свой истинный облик. Он возвращается в свой истинный облик, если умирает. Всё несомое или носимое им снаряжение поглощается или несётся новым обликом (на выбор дракона).",
+												"В новом облике дракон сохраняет мировоззрение, хиты, Кости Хитов, способность говорить, владения, Легендарное сопротивление, действия в логове и значения Интеллекта, Мудрости и Харизмы, а также это действие. В остальном его статистика и возможности заменяются таковыми нового облика, кроме любых классовых умений или легендарных действий этого облика."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Flyby,",
+											"name": "Облёт,",
 											"entries": [
-												"The dragon is an agile flier, quick to fly out of enemies' reach.",
-												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+												"Дракон — ловкий летун, быстро вылетающий из досягаемости врагов.",
+												"Дракон не провоцирует атаку по возможности, когда вылетает из досягаемости врага."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Mimicry.",
+											"name": "Мимикрия.",
 											"entries": [
-												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
-												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+												"Выдавать себя за персонажей или их союзников может быть занятным трюком для хитрого дракона.",
+												"Дракон может подражать любым звукам, которые слышал, включая голоса. Существо, слышащее эти звуки, может распознать, что это имитация, при успешной проверке Мудрости ({@skill Insight}) {@dc 13}."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Rejuvenation.",
+											"name": "Восстановление.",
 											"entries": [
-												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
-												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+												"Вы можете решить, что драконы в вашей кампании, будучи неотъемлемой частью Материального плана, почти неуничтожимы. Жизненная сущность дракона может храниться в яйце, из которого он впервые вылупился, в его сокровищнице или в пещерном зале в центре мира, подобно тому как сущность лича скрыта в филактерии.",
+												"Если у него есть предмет, хранящий сущность, уничтоженный дракон получает новое тело через {@dice 1d10} дней, восстанавливая все свои хиты и снова становясь активным. Новое тело появляется в пределах 5 футов от предмета."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Special Senses.",
+											"name": "Особые чувства.",
 											"entries": [
-												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+												"У большинства драконов есть {@sense blindsight} и {@sense darkvision}. Вы можете улучшить {@sense blindsight} до {@sense truesight} или дать дракону со скоростью копания {@sense tremorsense|MM}."
 											]
 										}
 									]
@@ -1032,7 +1032,7 @@
 			"dragonCastingColor": "green",
 			"dragonAge": "greatwyrm",
 			"token": {
-				"name": "Adult Green Dragon",
+				"name": "Взрослый зелёный дракон",
 				"source": "MM"
 			},
 			"senseTags": [
@@ -1085,7 +1085,7 @@
 			"hasFluff": true,
 			"fluff": {
 				"_monsterFluff": {
-					"name": "Chromatic Greatwyrms",
+					"name": "Цветные великие змеи",
 					"source": "BeGr"
 				},
 				"images": [
@@ -1100,8 +1100,8 @@
 			}
 		},
 		{
-			"name": "Red Greatwyrm",
-			"shortName": "greatwyrm",
+			"name": "Красный великий змей",
+			"shortName": "великий змей",
 			"group": [
 				"Chromatic Dragon"
 			],
@@ -1169,206 +1169,206 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "29",
 			"trait": [
 				{
-					"name": "Draconic Might",
+					"name": "Мощь дракона",
 					"entries": [
-						"The greatwyrm's weapon attacks are magical and deal quadruple damage to objects and structures. When it hits a target with a melee attack, if the attack roll meets or exceeds the target's passive Strength ({@skill Athletics}) score, the greatwyrm can push it up to 10 feet away, or 20 feet away if its mythic trait is active."
+						"Атаки оружием великого змея являются магическими и причиняют четверной урон предметам и строениям. Когда он попадает по цели рукопашной атакой, если результат броска атаки равен пассивному значению Силы ({@skill Athletics}) цели или превышает его, великий змей может оттолкнуть её на расстояние до 10 футов или до 20 футов, если его мифическая черта активна."
 					]
 				},
 				{
-					"name": "Shrug it Off",
+					"name": "Стряхнуть",
 					"entries": [
-						"At the start of each of its turns, the greatwyrm can end one condition on itself, provided it has at least 1 hit point."
+						"В начале каждого своего хода великий змей может окончить одно состояние на себе, при условии что у него осталось как минимум 1 хит."
 					]
 				},
 				{
-					"name": "Fiery Rebirth (Mythic Trait; Once Per Rest)",
+					"name": "Огненное перерождение (мифическая черта; один раз за отдых)",
 					"entries": [
-						"If the greatwyrm dies, its body burns away into a pile of ashes. Its body then reforms from these ashes at the start of its next turn, resetting to maximum hit points, ending any spells of its choice on itself, and becoming active again. When this happens, each creature that can see the greatwyrm must succeed on a {@dc 27} Constitution saving throw or take 14 ({@damage 4d6}) fire damage and be {@condition blinded} until the end of the greatwyrm's next turn."
+						"Если великий змей умирает, его тело сгорает в кучу пепла. Затем его тело восстанавливается из этого пепла в начале его следующего хода, возвращаясь к максимуму хитов, оканчивая любые заклинания на себе по своему выбору и снова становясь активным. Когда это происходит, каждое существо, которое может видеть великого змея, должно преуспеть в спасброске Телосложения {@dc 27}, иначе получит 14 ({@damage 4d6}) урона огнём и станет {@condition blinded} до конца следующего хода великого змея."
 					]
 				},
 				{
-					"name": "Spreading Magma",
+					"name": "Растекающаяся магма",
 					"entries": [
-						"Some of the greatwyrm's features might cause magma to burst forth from a surface, making it molten for a time. While molten, the surface is difficult terrain, and any creature that ends its turn while touching it takes 14 ({@damage 4d6}) fire damage."
+						"Некоторые особенности великого змея могут заставлять магму вырываться из поверхности, делая её на время расплавленной. Пока поверхность расплавлена, она является труднопроходимой местностью, и любое существо, оканчивающее свой ход, касаясь её, получает 14 ({@damage 4d6}) урона огнём."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The greatwyrm can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+						"Великий змей может использовать своё Ужасающее присутствие. Затем он совершает три атаки: одну укусом и две когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 13 ({@damage 2d12}) fire damage."
+						"{@atk mw} {@hit 19} к попаданию, досягаемость 15 фт., одна цель. {@h}21 ({@damage 2d10 + 10}) колющего урона плюс 13 ({@damage 2d12}) урона огнём."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} this way at a time."
+						"{@atk mw} {@hit 19} к попаданию, досягаемость 10 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) рубящего урона. Если цель — существо Огромного или меньшего размера, оно {@condition grappled} (высвобождение {@dc 20}) и {@condition restrained}, пока этот захват не окончен. Великий змей может удерживать таким образом только одно существо {@condition grappled} одновременно."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 27} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 19} к попаданию, досягаемость 20 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 27}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Each creature of the greatwyrm's choice that is within 1 mile of the dragon and aware of it must succeed on a {@dc 26} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the greatwyrm's Frightful Presence for the next 24 hours."
+						"Все существа на выбор великого змея, находящиеся в пределах 1 мили от дракона и знающие о его присутствии, должны преуспеть в спасброске Мудрости {@dc 26}, иначе станут {@condition frightened} на 1 минуту. Существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа был успешным или эффект на нём окончился, существо получает иммунитет к Ужасающему присутствию этого великого змея на следующие 24 часа."
 					]
 				},
 				{
-					"name": "Inferno Breath {@recharge 5}",
+					"name": "Адское дыхание {@recharge 5}",
 					"entries": [
-						"The greatwyrm exhales fire in a 300-foot cone. Each creature and object in that area takes 91 ({@damage 26d6}) fire damage ({@dc 26} Dexterity save for half). Damaged surfaces in the area become molten until the end of the greatwyrm's next turn."
+						"Великий змей выдыхает огонь 300-футовым конусом. Все существа и предметы в этой области получают 91 ({@damage 26d6}) урона огнём (спасбросок Ловкости {@dc 26} для половины урона). Повреждённые поверхности в этой области становятся расплавленными до конца следующего хода великого змея."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Rain of Fire (1/Day)",
+					"name": "Огненный дождь (1/день)",
 					"entries": [
-						"The greatwyrm causes fiery meteors to rain down on an area in a 1 mile radius that lasts for 1 hour. Small meteor impacts cause every creature and object exposed to the sky to take 2 ({@damage 1d4}) fire damage at the start of each of the greatwyrm's turns.",
-						"Additionally, when a creature or object drops to 0 hit points while in the storm, magma explodes out from it, causing the area within 10 feet of it to become molten until cleared."
+						"Великий змей заставляет огненные метеоры падать дождём на область в радиусе 1 мили в течение 1 часа. Удары малых метеоров заставляют каждое существо и предмет, открытые небу, получать 2 ({@damage 1d4}) урона огнём в начале каждого хода великого змея.",
+						"Кроме того, когда существо или предмет опускается до 0 хитов, находясь в буре, из него вырывается магма, заставляя область в пределах 10 футов от него стать расплавленной, пока её не расчистят."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Tail Attack",
+					"name": "Атака хвостом",
 					"entries": [
-						"The greatwyrm makes two tail attacks, one of which must be against an object."
+						"Великий змей совершает две атаки хвостом, одна из которых должна быть по предмету."
 					]
 				},
 				{
-					"name": "Flame Blast",
+					"name": "Взрыв пламени",
 					"entries": [
-						"{@atk rs} {@hit 18} to hit, range 90 ft., one target. {@h} 17 ({@damage 2d8 + 8}) fire damage. On a critical hit, the target has disadvantage on saving throws against fire damage until the end of the dragon's next turn. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+						"{@atk rs} {@hit 18} к попаданию, дистанция 90 фт., одна цель. {@h} 17 ({@damage 2d8 + 8}) урона огнём. При критическом попадании цель совершает с помехой спасброски против урона огнём до конца следующего хода дракона. Если цель — существо или горючий предмет, она воспламеняется. Пока существо не потратит действие, чтобы потушить огонь, цель получает 5 ({@damage 1d10}) урона огнём в начале каждого своего хода."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm beats its wings. Each creature within 10 feet of the greatwyrm must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The greatwyrm can then fly up to half its flying speed."
+						"Великий змей бьёт своими крыльями. Все существа в пределах 10 футов от великого змея должны преуспеть в спасброске Ловкости {@dc 26}, иначе получат 17 ({@damage 2d6 + 10}) дробящего урона и будут сбиты с ног {@condition prone}. После этого великий змей может пролететь на расстояние, не превышающее половину скорости полёта."
 					]
 				}
 			],
 			"mythicHeader": [
-				"If the greatwyrm's mythic trait has activated in the last hour, it can use the options below as legendary actions."
+				"Если мифическая черта великого змея активировалась за последний час, он может использовать приведённые ниже варианты как легендарные действия."
 			],
 			"mythic": [
 				{
-					"name": "Chosen of Tiamat",
+					"name": "Избранник Тиамат",
 					"entries": [
-						"Channeling the power of the mother of dragons herself, the greatwyrm grants itself advantage on the next saving throw it makes before the end of its next turn."
+						"Направляя силу самой матери драконов, великий змей даёт себе преимущество на следующий спасбросок, который он совершает до конца своего следующего хода."
 					]
 				},
 				{
-					"name": "Fling",
+					"name": "Отбрасывание",
 					"entries": [
-						"One Huge or smaller object held or creature {@condition grappled} by the greatwyrm is thrown up to 30 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 20} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"Один предмет Огромного или меньшего размера, удерживаемый великим змеем, или существо {@condition grappled} им отбрасывается на расстояние до 30 футов в случайном направлении и сбивается с ног {@condition prone}. Если отброшенная цель ударяется о твёрдую поверхность, цель получает 3 ({@damage 1d6}) дробящего урона за каждые 10 футов перемещения. Если цель отброшена в другое существо, это существо должно преуспеть в спасброске Ловкости {@dc 20}, иначе получит такой же урон и будет сбито с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Volcanic Eruption (Costs 2 Actions)",
+					"name": "Вулканическое извержение (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm causes lava to erupt from every molten surface within 120 feet of it. Each creature and object within 10 feet of a molten surface when this happens takes 14 ({@damage 4d6}) bludgeoning damage plus 14 ({@damage 4d6}) fire damage ({@dc 26} Dexterity save for half). If the save fails by 5 or more, a creature is also knocked {@condition prone}."
+						"Великий змей заставляет лаву вырываться из каждой расплавленной поверхности в пределах 120 футов от него. Все существа и предметы в пределах 10 футов от расплавленной поверхности, когда это происходит, получают 14 ({@damage 4d6}) дробящего урона плюс 14 ({@damage 4d6}) урона огнём (спасбросок Ловкости {@dc 26} для половины урона). Если спасбросок проваливается на 5 или больше, существо также сбивается с ног {@condition prone}."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Red Dragon",
+				"name": "Красный дракон",
 				"source": "MM"
 			},
 			"variant": [
 				{
 					"type": "inset",
-					"name": "Customizing Dragons",
+					"name": "Настройка драконов",
 					"source": "FTD",
 					"page": 33,
 					"entries": [
-						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						"Вы можете настроить блок статистики любого дракона, чтобы отразить его уникальный характер. Незначительные изменения, подобные приведённым ниже, легко внести, и они не влияют на уровень опасности дракона.",
 						{
 							"type": "entries",
-							"name": "Languages",
+							"name": "Языки",
 							"entries": [
-								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+								"Большинство драконов предпочитает говорить на Драконьем, но учит Общий для общения с союзниками и прислужниками. Однако благодаря высокому Интеллекту и долгой жизни драконы легко осваивают дополнительные языки. Вы можете добавить языки в блок статистики дракона."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Skills",
+							"name": "Навыки",
 							"entries": [
-								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+								"Большинство драконов владеет навыками {@skill Perception} и {@skill Stealth}, и у многих драконов есть дополнительные владения навыками. Как и с языками, вы можете настроить список навыков дракона (вплоть до удвоения бонуса мастерства для некоторых навыков), чтобы отразить его интересы и занятия. Вы также можете дать дракону владение инструментами, особенно если дракон проводит время в гуманоидной форме."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spells",
+							"name": "Заклинания",
 							"entries": [
-								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+								"{@note См. врезку(и) «Вариант: драконы как врождённые заклинатели» ниже.}"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Other Traits and Actions",
+							"name": "Другие свойства и действия",
 							"entries": [
-								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								"Вы можете заимствовать свойства и действия у других монстров, чтобы придать дракону уникальный колорит. Рассмотрите эти примеры:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Change Shape.",
+											"name": "Смена облика.",
 											"entries": [
-												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
-												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+												"Вы можете решить, что дракон обретает это действие в более молодом возрасте, чем обычно, особенно если хотите показать дракона в гуманоидной форме в своей кампании:",
+												"Дракон магическим образом превращается в гуманоида или зверя, чей уровень опасности не выше его собственного, или обратно в свой истинный облик. Он возвращается в свой истинный облик, если умирает. Всё несомое или носимое им снаряжение поглощается или несётся новым обликом (на выбор дракона).",
+												"В новом облике дракон сохраняет мировоззрение, хиты, Кости Хитов, способность говорить, владения, Легендарное сопротивление, действия в логове и значения Интеллекта, Мудрости и Харизмы, а также это действие. В остальном его статистика и возможности заменяются таковыми нового облика, кроме любых классовых умений или легендарных действий этого облика."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Flyby,",
+											"name": "Облёт,",
 											"entries": [
-												"The dragon is an agile flier, quick to fly out of enemies' reach.",
-												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+												"Дракон — ловкий летун, быстро вылетающий из досягаемости врагов.",
+												"Дракон не провоцирует атаку по возможности, когда вылетает из досягаемости врага."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Mimicry.",
+											"name": "Мимикрия.",
 											"entries": [
-												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
-												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+												"Выдавать себя за персонажей или их союзников может быть занятным трюком для хитрого дракона.",
+												"Дракон может подражать любым звукам, которые слышал, включая голоса. Существо, слышащее эти звуки, может распознать, что это имитация, при успешной проверке Мудрости ({@skill Insight}) {@dc 13}."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Rejuvenation.",
+											"name": "Восстановление.",
 											"entries": [
-												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
-												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+												"Вы можете решить, что драконы в вашей кампании, будучи неотъемлемой частью Материального плана, почти неуничтожимы. Жизненная сущность дракона может храниться в яйце, из которого он впервые вылупился, в его сокровищнице или в пещерном зале в центре мира, подобно тому как сущность лича скрыта в филактерии.",
+												"Если у него есть предмет, хранящий сущность, уничтоженный дракон получает новое тело через {@dice 1d10} дней, восстанавливая все свои хиты и снова становясь активным. Новое тело появляется в пределах 5 футов от предмета."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Special Senses.",
+											"name": "Особые чувства.",
 											"entries": [
-												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+												"У большинства драконов есть {@sense blindsight} и {@sense darkvision}. Вы можете улучшить {@sense blindsight} до {@sense truesight} или дать дракону со скоростью копания {@sense tremorsense|MM}."
 											]
 										}
 									]
@@ -1381,7 +1381,7 @@
 			"dragonCastingColor": "red",
 			"dragonAge": "greatwyrm",
 			"token": {
-				"name": "Red Greatwyrm",
+				"name": "Красный великий змей",
 				"source": "FTD"
 			},
 			"senseTags": [
@@ -1430,7 +1430,7 @@
 			"hasFluff": true,
 			"fluff": {
 				"_monsterFluff": {
-					"name": "Chromatic Greatwyrms",
+					"name": "Цветные великие змеи",
 					"source": "BeGr"
 				},
 				"images": [
@@ -1445,7 +1445,7 @@
 			}
 		},
 		{
-			"name": "Tiamat",
+			"name": "Тиамат",
 			"shortName": true,
 			"isNamedCreature": true,
 			"source": "BeGr",
@@ -1528,15 +1528,15 @@
 			],
 			"languages": [
 				"all",
-				"telepathy 1,000 ft."
+				"Телепатия 1,000 ft."
 			],
 			"cr": "30",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Врождённое колдовство",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Tiamat's innate spellcasting ability is Charisma (spell save {@dc 25}). She can innately cast the following spells:"
+						"Врождённой базовой характеристикой Тиамат является Харизма (Сл спасброска от заклинания {@dc 25}). Она может накладывать следующие заклинания, не нуждаясь в компонентах:"
 					],
 					"constant": [
 						"{@spell freedom of movement}",
@@ -1557,88 +1557,88 @@
 			],
 			"trait": [
 				{
-					"name": "Legendary Resistance (5/Day)",
+					"name": "Легендарное сопротивление (5/день)",
 					"entries": [
-						"If Tiamat fails a saving throw, she can choose to succeed instead."
+						"Если Тиамат проваливает спасбросок, она может вместо этого сделать этот спасбросок успешным."
 					]
 				},
 				{
-					"name": "Discorporation",
+					"name": "Развоплощение",
 					"entries": [
-						"When Tiamat drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Nine Hells, and she is unable to take physical form for a time."
+						"Когда хиты Тиамат опускаются до 0 или она умирает, её тело уничтожается, но её сущность возвращается в её владения в Девяти Преисподних, и она не может принимать физическую форму некоторое время."
 					]
 				},
 				{
-					"name": "Divine Will",
+					"name": "Божественная воля",
 					"entries": [
-						"Tiamat is immune to any spell or effect that would alter her form, as well as those that would read her thoughts, determine if she is lying, or magically influence her thoughts or behavior."
+						"Тиамат невосприимчива к любому заклинанию или эффекту, который изменил бы её форму, а также к тем, что читают её мысли, определяют, лжёт ли она, или магически влияют на её мысли или поведение."
 					]
 				},
 				{
-					"name": "Multiple Heads",
+					"name": "Множество голов",
 					"entries": [
-						"Tiamat can take one reaction per turn, rather than only one per round. She also has advantage on saving throws against being knocked {@condition unconscious}. If she fails a saving throw against an effect that would stun a creature, one of her unspent legendary actions is spent."
+						"Тиамат может совершать одну реакцию в ход, а не только одну за раунд. Она также совершает с преимуществом спасброски против того, чтобы её сбили {@condition unconscious}. Если она проваливает спасбросок против эффекта, который ошеломил бы существо, тратится одно из её неиспользованных легендарных действий."
 					]
 				},
 				{
-					"name": "Draconic Might",
+					"name": "Мощь дракона",
 					"entries": [
-						"Tiamat's weapon attacks are magical and deal quadruple damage to objects and structures. When she hits a target with a melee attack, if the attack roll meets or exceeds the target's passive Strength ({@skill Athletics}) score, Tiamat can push it up to 10 feet away, 20 feet away if one of her mythic traits are active, or 30 feet away if both mythic traits are active."
+						"Атаки оружием Тиамат являются магическими и причиняют четверной урон предметам и строениям. Когда она попадает по цели рукопашной атакой, если результат броска атаки равен пассивному значению Силы ({@skill Athletics}) цели или превышает его, Тиамат может оттолкнуть её на расстояние до 10 футов, до 20 футов, если активна одна из её мифических черт, или до 30 футов, если активны обе мифические черты."
 					]
 				},
 				{
-					"name": "Dragon Queen's Roar (Mythic Trait; Once Per Rest)",
+					"name": "Рёв Королевы драконов (мифическая черта; один раз за отдых)",
 					"entries": [
-						"If Tiamat would be reduced to 0 hit points, she instead resets to maximum hit points, and she can end any spells of her choice on herself. She then releases a huge roar that decimates the area within 300 feet of her, causing each creature and object of her choice in the area, regardless of size or structural stability, to be pushed up to 60 feet away from Tiamat and knocked {@condition prone}."
+						"Если хиты Тиамат должны опуститься до 0, она вместо этого возвращается к максимуму хитов и может окончить любые заклинания на себе по своему выбору. Затем она издаёт огромный рёв, опустошающий область в пределах 300 футов от неё, заставляя каждое существо и предмет на её выбор в этой области, независимо от размера или структурной устойчивости, отлететь на расстояние до 60 футов от Тиамат и упасть {@condition prone}."
 					]
 				},
 				{
-					"name": "Infernal Dealings (Mythic Trait; Once Per Rest)",
+					"name": "Адские сделки (мифическая черта; один раз за отдых)",
 					"entries": [
-						"If Tiamat would be reduced to 0 hit points, she instead resets to maximum hit points, and she can end any spells of her choice on herself. She then regurgitates ten {@creature Merregon|mtf|merregons} who land in unoccupied spaces within 30 feet of her. The merregons act at the end of the initiative order and defend Tiamat to the best of their ability."
+						"Если хиты Тиамат должны опуститься до 0, она вместо этого возвращается к максимуму хитов и может окончить любые заклинания на себе по своему выбору. Затем она отрыгивает десять {@creature Merregon|mtf|меррегонов}, которые приземляются в свободных пространствах в пределах 30 футов от неё. Меррегоны действуют в конце порядка инициативы и защищают Тиамат в меру своих способностей."
 					]
 				},
 				{
-					"name": "Sense Avarice",
+					"name": "Чувство алчности",
 					"entries": [
-						"If a creature Tiamat can see communicates telepathically with her, she learns the creature's greatest desires."
+						"Если существо, которое Тиамат может видеть, общается с ней телепатически, она узнаёт величайшие желания этого существа."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Catastrophic Breath",
+					"name": "Катастрофическое дыхание",
 					"entries": [
-						"Tiamat exhales elemental energy from one of her heads in a 300-foot cone. Each creature and object in that area takes 97 ({@damage 15d12}) damage ({@dc 27} saving throw for half; see below), with the damage type, save type, and secondary effect determined by which head she used.",
-						"Once Tiamat chooses a breath weapon  for one of her heads, she can't choose another one associated with that head on her next turn.",
+						"Тиамат выдыхает стихийную энергию из одной из своих голов 300-футовым конусом. Все существа и предметы в этой области получают 97 ({@damage 15d12}) урона (спасбросок {@dc 27} для половины урона; см. ниже), причём тип урона, тип спасброска и вторичный эффект определяются тем, какую голову она использовала.",
+						"Как только Тиамат выбирает дыхательное оружие для одной из своих голов, она не может выбрать другое, связанное с этой головой, в свой следующий ход.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "White: Frost Breath.",
-									"entry": "The breath does cold damage, and its save type is Constitution. Damaged surfaces in this area then become {@hazard slippery ice} (DMG 110) until cleared."
+									"name": "Белая: Морозное дыхание.",
+									"entry": "Дыхание причиняет урон холодом, а тип спасброска — Телосложение. Повреждённые поверхности в этой области затем становятся {@hazard slippery ice} (DMG 110), пока их не расчистят."
 								},
 								{
 									"type": "item",
-									"name": "Black: Corrosive Breath.",
-									"entry": "The breath does acid damage, and the save type is Dexterity. Damaged surfaces in this area then become corrosive acid pools until cleared. Any creature or object that touches one of these surfaces takes 11 ({@damage 2d10}) acid damage; a target can't take this damage more than once per round."
+									"name": "Чёрная: Едкое дыхание.",
+									"entry": "Дыхание причиняет урон кислотой, а тип спасброска — Ловкость. Повреждённые поверхности в этой области затем становятся лужами едкой кислоты, пока не будут очищены. Любое существо или предмет, касающееся одной из этих поверхностей, получает 11 ({@damage 2d10}) урона кислотой; цель не может получать этот урон более одного раза за раунд."
 								},
 								{
 									"type": "item",
-									"name": "Green: Noxious Breath.",
-									"entry": "The breath does poison damage, and the save type is Constitution. Damaged surfaces in this area then grow thick vines that grasp at nearby creatures until cleared. Any Large or smaller creature that ends its turn within 5 feet of these vines is {@condition grappled} by them (escape {@dc 15})."
+									"name": "Зелёная: Ядовитое дыхание.",
+									"entry": "Дыхание причиняет урон ядом, а тип спасброска — Телосложение. Повреждённые поверхности в этой области затем покрываются густыми лианами, хватающими ближайших существ, пока их не расчистят. Любое существо Большого или меньшего размера, оканчивающее свой ход в пределах 5 футов от этих лиан, {@condition grappled} ими (высвобождение {@dc 15})."
 								},
 								{
 									"type": "item",
-									"name": "Blue: Storm Breath.",
-									"entry": "The breath does lightning damage, and the save type is Dexterity. If a Huge or smaller target fails this save by 5 or more, it is also pushed up to 30 feet away from the greatwyrm."
+									"name": "Синяя: Штормовое дыхание.",
+									"entry": "Дыхание причиняет урон электричеством, а тип спасброска — Ловкость. Если цель Огромного или меньшего размера проваливает этот спасбросок на 5 или больше, она также отталкивается на расстояние до 30 футов от великого змея."
 								},
 								{
 									"type": "item",
-									"name": "Red: Inferno Breath.",
-									"entry": "The breath does fire damage, and the save type is Dexterity. Damaged surfaces in this area then become molten until the end of the greatwyrm's next turn. While molten, the surface is difficult terrain, and any creature that ends its turn while touching it takes 14 ({@damage 4d6}) fire damage."
+									"name": "Красная: Адское дыхание.",
+									"entry": "Дыхание причиняет урон огнём, а тип спасброска — Ловкость. Повреждённые поверхности в этой области затем становятся расплавленными до конца следующего хода великого змея. Пока поверхность расплавлена, она является труднопроходимой местностью, и любое существо, оканчивающее свой ход, касаясь её, получает 14 ({@damage 4d6}) урона огнём."
 								}
 							]
 						}
@@ -1647,97 +1647,97 @@
 			],
 			"bonus": [
 				{
-					"name": "Apocalypse (1/Day)",
+					"name": "Апокалипсис (1/день)",
 					"entries": [
-						"TIamat unleashes an apocalyptic storm in a 1 mile radius that lasts for 1 hour. The area is battered by {@hazard heavy precipitation} and {@hazard strong wind}, and violent elemental energies cause every creature and object exposed to the storm to take 5 ({@damage 2d4}) acid, cold, fire, lightning, or poison damage (Tiamat's choice) at the start of each of Tiamat's turns. Tiamat, and any elemental effect she creates, is unaffected by the storm."
+						"Тиамат выпускает апокалиптическую бурю в радиусе 1 мили, которая держится 1 час. По области бьют {@hazard heavy precipitation} и {@hazard strong wind}, а неистовые стихийные энергии заставляют каждое существо и предмет, открытые буре, получать 5 ({@damage 2d4}) урона кислотой, холодом, огнём, электричеством или ядом (на выбор Тиамат) в начале каждого хода Тиамат. Тиамат и любые создаваемые ею стихийные эффекты не подвержены буре."
 					]
 				},
 				{
-					"name": "Corrupting Presence",
+					"name": "Развращающее присутствие",
 					"entries": [
-						"Each creature of Tiamat's choice that is within 1 mile of the dragon and aware of it must succeed on a {@dc 25} Wisdom saving throw or become {@condition charmed} or {@condition frightened} (Tiamat's choice) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Corrupting Presence for the next 24 hours."
+						"Все существа на выбор Тиамат, находящиеся в пределах 1 мили от дракона и знающие о её присутствии, должны преуспеть в спасброске Мудрости {@dc 25}, иначе станут {@condition charmed} или {@condition frightened} (на выбор Тиамат) на 1 минуту. Существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа был успешным или эффект на нём окончился, существо получает иммунитет к Развращающему присутствию Тиамат на следующие 24 часа."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"Tiamat can take 5 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Tiamat regains spent legendary actions at the start of her turn."
+				"Тиамат может совершить 5 легендарных действий, выбирая из представленных ниже вариантов. За один раз можно использовать только одно легендарное действие, и только в конце хода другого существа. Тиамат восстанавливает использованные легендарные действия в начале своего хода."
 			],
 			"legendaryActions": 5,
 			"legendary": [
 				{
-					"name": "Nimble Predator",
+					"name": "Ловкий хищник",
 					"entries": [
-						"Tiamat moves up to 30 feet without provoking opportunity attacks."
+						"Тиамат перемещается на расстояние до 30 футов, не провоцируя атак по возможности."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}23 ({@damage 2d12 + 10}) piercing damage plus 19 ({@damage 3d12}) acid, cold, fire, lightning, or poison damage (Tiamat's choice)."
+						"{@atk mw} {@hit 19} к попаданию, досягаемость 20 фт., одна цель. {@h}23 ({@damage 2d12 + 10}) колющего урона плюс 19 ({@damage 3d12}) урона кислотой, холодом, огнём, электричеством или ядом (на выбор Тиамат)."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}), {@condition restrained}, and has disadvantage on Intelligence, Wisdom, and Charisma saving throws until this grapple ends. The aspect can have only one creature {@condition grappled} this way at a time."
+						"{@atk mw} {@hit 19} к попаданию, досягаемость 15 фт., одна цель. {@h}21 ({@damage 2d10 + 10}) рубящего урона. Если цель — существо Огромного или меньшего размера, оно {@condition grappled} (высвобождение {@dc 20}), {@condition restrained} и совершает с помехой спасброски Интеллекта, Мудрости и Харизмы, пока этот захват не окончен. Аспект может удерживать таким образом только одно существо {@condition grappled} одновременно."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 30 ft., one target. {@h}23 ({@damage 2d12 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 27} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 19} к попаданию, досягаемость 30 фт., одна цель. {@h}23 ({@damage 2d12 + 10}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 27}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Cast a Spell (Costs 3 Actions)",
+					"name": "Сотворить заклинание (стоит 3 действия)",
 					"entries": [
-						"Tiamat casts one of her innate spells."
+						"Тиамат накладывает одно из своих врождённых заклинаний."
 					]
 				}
 			],
 			"mythicHeader": [
-				"If one of Tiamat's mythic traits were activated in the last hour, she can use the first three options below as legendary actions. If both traits were activated in the last hour, she can instead use any of the options below."
+				"Если одна из мифических черт Тиамат активировалась за последний час, она может использовать первые три приведённых ниже варианта как легендарные действия. Если обе черты активировались за последний час, она вместо этого может использовать любой из приведённых ниже вариантов."
 			],
 			"mythic": [
 				{
-					"name": "Divine Greed",
+					"name": "Божественная жадность",
 					"entries": [
-						"Tiamat steals the magic benefiting one creature she can see within 90 feet of her. Any beneficial spell affecting the target of her choice is transferred to Tiamat. If a spell she steals requires concentration, Tiamat concentrates on it for the duration instead, but she cannot concentrate on multiple spells simultaneously (as normal)."
+						"Тиамат крадёт магию, приносящую пользу одному существу, которое она видит в пределах 90 футов от себя. Любое благотворное заклинание, действующее на цель на её выбор, переносится на Тиамат. Если украденное заклинание требует концентрации, Тиамат вместо этого концентрируется на нём в течение длительности, но она не может концентрироваться на нескольких заклинаниях одновременно (как обычно)."
 					]
 				},
 				{
-					"name": "Tail Sweep",
+					"name": "Взмах хвостом",
 					"entries": [
-						"Tiamat makes a tail attack against each creature and object within 30 feet of her."
+						"Тиамат совершает атаку хвостом по каждому существу и предмету в пределах 30 футов от себя."
 					]
 				},
 				{
-					"name": "Chilling Gaze (Costs 2 Actions)",
+					"name": "Леденящий взгляд (стоит 2 действия)",
 					"entries": [
-						"Tiamat uses her green and white heads to assault each creature of her choice that she can see within a 90-foot cone. Each creature in the area takes 11 ({@damage 2d10}) cold damage plus 11 ({@damage 2d10}) psychic damage ({@dc 25} Intelligence save for half). On a failed save, a target is also {@condition poisoned} and has its speed halved until the end of the greatwyrm's next turn."
+						"Тиамат использует свои зелёную и белую головы, чтобы атаковать каждое существо на свой выбор, которое она видит в пределах 90-футового конуса. Каждое существо в этой области получает 11 ({@damage 2d10}) урона холодом плюс 11 ({@damage 2d10}) психического урона (спасбросок Интеллекта {@dc 25} для половины урона). При провале цель также {@condition poisoned}, и её скорость уменьшается вдвое до конца следующего хода великого змея."
 					]
 				},
 				{
-					"name": "Toxic Gas (Costs 2 Actions)",
+					"name": "Токсичный газ (стоит 2 действия)",
 					"entries": [
-						"Tiamat uses her black and green heads to unleash toxic gas in a 60-foot radius around her. Each creature in that area must succeed on a {@dc 25} Constitution saving throw or become {@condition poisoned} until the end of Tiamat's next turn. A creature is {@condition blinded} and {@condition deafened} while {@condition poisoned} in this way."
+						"Тиамат использует свои чёрную и зелёную головы, чтобы выпустить токсичный газ в радиусе 60 футов вокруг себя. Каждое существо в этой области должно преуспеть в спасброске Телосложения {@dc 25}, иначе станет {@condition poisoned} до конца следующего хода Тиамат. Существо {@condition blinded} и {@condition deafened}, пока {@condition poisoned} таким образом."
 					]
 				},
 				{
-					"name": "Fiery Tornado (Costs 2 Actions)",
+					"name": "Огненный смерч (стоит 2 действия)",
 					"entries": [
-						"Tiamat uses her blue and red heads to unleash a cyclone in a 30-foot radius centered on a point she can see. Each creature and object in the vortex takes 10 ({@damage 3d6}) fire damage plus 10 ({@damage 3d6}) lightning damage ({@dc 25} Dexterity save for half). On a failed save, a Huge or smaller creature is also hurled 30 feet in a random direction and knocked {@condition prone}."
+						"Тиамат использует свои синюю и красную головы, чтобы выпустить циклон радиусом 30 футов с центром в точке, которую она видит. Каждое существо и предмет в вихре получает 10 ({@damage 3d6}) урона огнём плюс 10 ({@damage 3d6}) урона электричеством (спасбросок Ловкости {@dc 25} для половины урона). При провале существо Огромного или меньшего размера также отбрасывается на 30 футов в случайном направлении и падает {@condition prone}."
 					]
 				},
 				{
-					"name": "Hurl Through Hell (Costs 3 Actions)",
+					"name": "Бросок через Ад (стоит 3 действия)",
 					"entries": [
-						"Tiamat targets a creature she is grappling. The creature must succeed on a {@dc 25} Charisma saving throw or take 44 ({@damage 8d10}) psychic damage and be banished to Avernus (the first layer of the Nine Hells). At the start of Tiamat's next turn, the creature reappears in an unoccupied space within 10 feet of her."
+						"Тиамат нацеливается на существо, которое держит в захвате. Существо должно преуспеть в спасброске Харизмы {@dc 25}, иначе получит 44 ({@damage 8d10}) психического урона и будет изгнано в Авернус (первый слой Девяти Преисподних). В начале следующего хода Тиамат существо вновь появляется в свободном пространстве в пределах 10 футов от неё."
 					]
 				}
 			],
 			"token": {
-				"name": "Aspect of Tiamat",
+				"name": "Аспект Тиамат",
 				"source": "FTD"
 			},
 			"traitTags": [
@@ -1805,41 +1805,41 @@
 					{
 						"type": "entries",
 						"entries": [
-							"The evil queen of dragons is a fearsome god of greed, envy, and hoarded wealth. While chromatic dragons are her foremost worshipers, Tiamat accepts the worship of any who crave wealth. All chromatic dragons have a fearful reverence for their tyrannical queen, but many dragons of near-deific power and ambition chafe under her rule.",
-							"Tiamat remains imprisoned in Avernus, the first of the Nine Hells, influencing the souls of chromatic dragons across the planes and seeking the means to free herself.",
-							"The stat block presented represents Tiamat in her full form. To represent her aspect, remove one of her mythic traits.",
+							"Злая королева драконов — грозный бог жадности, зависти и накопленных богатств. Хотя цветные драконы — её главные почитатели, Тиамат принимает поклонение любого, кто жаждет богатства. Все цветные драконы испытывают боязливое почтение к своей тиранической королеве, но многие драконы почти божественной силы и амбиций тяготятся её правлением.",
+							"Тиамат остаётся заточенной в Авернусе, первом из Девяти Преисподних, влияя на души цветных драконов по всем планам и ища средства освободиться.",
+							"Представленный блок статистики отражает Тиамат в её полной форме. Чтобы отразить её аспект, уберите одну из её мифических черт.",
 							{
 								"type": "entries",
 								"entries": [
-									"Only by meeting specific conditions can the characters hope to bypass her Discorporation trait and truly kill Tiamat. The following are sample quests.",
+									"Только при выполнении определённых условий персонажи могут надеяться обойти её черту Развоплощение и по-настоящему убить Тиамат. Ниже приведены примеры заданий.",
 									{
-										"name": "Appeal to Avarice",
+										"name": "Взывание к алчности",
 										"type": "entries",
 										"entries": [
-											"An ancient treasure was lost in the Astral Sea while being transported in a githyanki ship. If the party can locate this cache of immaculate gems and rare metals, they can use Tiamat's greed to draw her out of her domain. They must trick her into entering a domain under the control of Bahamut, where she can be slain, or at least her discorporated essence can be trapped."
+											"Древнее сокровище было потеряно в Астральном море при перевозке на корабле гитьянки. Если группа сможет найти этот тайник безупречных самоцветов и редких металлов, она может использовать жадность Тиамат, чтобы выманить её из её владений. Они должны обманом заставить её войти во владения под контролем Бахамута, где её можно убить или по крайней мере заточить её развоплощённую сущность."
 										]
 									},
 									{
-										"name": "Draconic Weapons",
+										"name": "Драконьи оружия",
 										"type": "entries",
 										"entries": [
-											"The party must kill five greatwyrms, each of a different chromatic variety, then craft magic items from their bones or scales. Only if they are wearing or using these items can they destroy Tiamat. At least one of the greatwyrms killed for this purpose must be a past or present consort of Tiamat."
+											"Группа должна убить пятерых великих змеев, каждого из разных цветных разновидностей, а затем изготовить магические предметы из их костей или чешуи. Только если они носят или используют эти предметы, они могут уничтожить Тиамат. Как минимум один из великих змеев, убитых для этой цели, должен быть прошлым или нынешним супругом Тиамат."
 										]
 									},
 									{
-										"name": "Gather Tiamat's Eggs",
+										"name": "Собрать яйца Тиамат",
 										"type": "entries",
 										"entries": [
-											"One hoary old tome printed on basalt pages and bound in purple dragon scales describes a ritual called Fashioning Tiamat's True Death. This ritual's intricate recipe includes procuring at least one of Tiamat's eggs, in which a newly forged weapon must be quenched. Multiple weapons require multiple eggs. If the weapon is used against Tiamat and draws blood at least once, the god's essence is destroyed, not discorporated."
+											"Один древний пыльный том, напечатанный на базальтовых страницах и переплетённый в пурпурную драконью чешую, описывает ритуал под названием «Создание истинной смерти Тиамат». Сложный рецепт этого ритуала включает добычу хотя бы одного яйца Тиамат, в котором нужно закалить новоизготовленное оружие. Несколько оружий требуют нескольких яиц. Если оружие используется против Тиамат и хотя бы раз проливает кровь, сущность божества уничтожается, а не развоплощается."
 										]
 									}
 								]
 							},
 							{
-								"name": "Targeting Objects",
+								"name": "Нацеливание на предметы",
 								"type": "inset",
 								"entries": [
-									"When a feature here says that it targets an object, it really means an object that isn't being worn or carried. I just couldn't be bothered to write that every single time."
+									"Когда какая-либо особенность здесь говорит, что она нацеливается на предмет, она действительно имеет в виду предмет, который никто не носит и не несёт. Мне просто было лень писать это каждый раз."
 								]
 							}
 						]
@@ -1857,8 +1857,8 @@
 			}
 		},
 		{
-			"name": "White Greatwyrm",
-			"shortName": "greatwyrm",
+			"name": "Белый великий змей",
+			"shortName": "великий змей",
 			"group": [
 				"Chromatic Dragon"
 			],
@@ -1924,219 +1924,219 @@
 				"frightened"
 			],
 			"languages": [
-				"Common",
-				"Draconic"
+				"Общий",
+				"Драконий"
 			],
 			"cr": "25",
 			"trait": [
 				{
-					"name": "Ice Walk",
+					"name": "Хождение по льду",
 					"entries": [
-						"The greatwyrm can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment."
+						"Великий змей может перемещаться по ледяным поверхностям и взбираться на них без совершения проверок характеристик. Кроме того, труднопроходимая местность из льда или снега не стоит ему дополнительного перемещения."
 					]
 				},
 				{
-					"name": "Draconic Might",
+					"name": "Мощь дракона",
 					"entries": [
-						"The greatwyrm's weapon attacks are magical and deal quadruple damage to objects and structures. When it hits a target with a melee attack, if the attack roll meets or exceeds the target's passive Strength ({@skill Athletics}) score, the greatwyrm can push it up to 10 feet away, or 20 feet away if its mythic trait is active."
+						"Атаки оружием великого змея являются магическими и причиняют четверной урон предметам и строениям. Когда он попадает по цели рукопашной атакой, если результат броска атаки равен пассивному значению Силы ({@skill Athletics}) цели или превышает его, великий змей может оттолкнуть её на расстояние до 10 футов или до 20 футов, если его мифическая черта активна."
 					]
 				},
 				{
-					"name": "Absolute Zero (Mythic Trait; Once Per Rest)",
+					"name": "Абсолютный ноль (мифическая черта; один раз за отдых)",
 					"entries": [
-						"If the greatwyrm would be reduced to 0 hit points, it instead resets to maximum hit points, and it can end any spells of its choice on itself. It then unleashes a blast of elemental cold in a 120 foot radius. Each creature in the area must succeed on a {@dc 25} Constitution saving throw or be {@condition restrained} until the end of the dragon's next turn."
+						"Если хиты великого змея должны опуститься до 0, он вместо этого возвращается к максимуму хитов и может окончить любые заклинания на себе по своему выбору. Затем он выпускает взрыв стихийного холода в радиусе 120 футов. Каждое существо в этой области должно преуспеть в спасброске Телосложения {@dc 25}, иначе станет {@condition restrained} до конца следующего хода дракона."
 					]
 				},
 				{
-					"name": "Brutish Durability",
+					"name": "Грубая живучесть",
 					"entries": [
-						"Whenever the greatwyrm makes a saving throw, it can roll a {@dice d10} and add the result to the total."
+						"Каждый раз, когда великий змей совершает спасбросок, он может бросить {@dice d10} и добавить результат к итогу."
 					]
 				},
 				{
-					"name": "Indomitable (3/Day)",
+					"name": "Неукротимый (3/день)",
 					"entries": [
-						"The greatwyrm can reroll a saving throw it fails. It must use the new roll."
+						"Великий змей может перебросить проваленный спасбросок. Он должен использовать новый результат."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"name": "Мультиатака",
 					"entries": [
-						"The greatwyrm can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+						"Великий змей может использовать своё Ужасающее присутствие. Затем он совершает три атаки: одну укусом и две когтями."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 13 ({@damage 2d12}) cold damage, and the target's speed is reduced by 10 feet until the end of its next turn."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 15 фт., одна цель. {@h}21 ({@damage 2d10 + 10}) колющего урона плюс 13 ({@damage 2d12}) урона холодом, и скорость цели уменьшается на 10 футов до конца её следующего хода."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Коготь",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} this way at a time."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 10 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) рубящего урона. Если цель — существо Огромного или меньшего размера, оно {@condition grappled} (высвобождение {@dc 20}) и {@condition restrained}, пока этот захват не окончен. Великий змей может удерживать таким образом только одно существо {@condition grappled} одновременно."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Хвост",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 18} к попаданию, досягаемость 20 фт., одна цель. {@h}19 ({@damage 2d8 + 10}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 26}, иначе будет сбита с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Frightful Presence",
+					"name": "Ужасающее присутствие",
 					"entries": [
-						"Each creature of the greatwyrm's choice that is within 1 mile of the dragon and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the greatwyrm's Frightful Presence for the next 24 hours."
+						"Все существа на выбор великого змея, находящиеся в пределах 1 мили от дракона и знающие о его присутствии, должны преуспеть в спасброске Мудрости {@dc 19}, иначе станут {@condition frightened} на 1 минуту. Существо может повторять этот спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа был успешным или эффект на нём окончился, существо получает иммунитет к Ужасающему присутствию этого великого змея на следующие 24 часа."
 					]
 				},
 				{
-					"name": "Frost Breath {@recharge 5}",
+					"name": "Морозное дыхание {@recharge 5}",
 					"entries": [
-						"The greatwyrm exhales an icy blast in a 300-foot cone. Each creature and object in that area takes 88 ({@damage 16d10}) cold damage ({@dc 25} Constitution save for half). Damaged surfaces in this area then become {@hazard slippery ice} (DMG 110) until cleared."
+						"Великий змей выдыхает ледяной взрыв 300-футовым конусом. Все существа и предметы в этой области получают 88 ({@damage 16d10}) урона холодом (спасбросок Телосложения {@dc 25} для половины урона). Повреждённые поверхности в этой области затем становятся {@hazard slippery ice} (DMG 110), пока их не расчистят."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Snowstorm (1/Day)",
+					"name": "Снежная буря (1/день)",
 					"entries": [
-						"The greatwyrm unleashes a magical snowstorm in a 1 mile radius that lasts for 1 hour. Use the {@hazard blizzard|IDRotF} (IDRotF 10) or {@hazard heavy precipitation} (DMG 110) entry to represent its effects. The greatwyrm ignores all effects caused by the snowstorm."
+						"Великий змей выпускает магическую снежную бурю в радиусе 1 мили, которая держится 1 час. Используйте статью {@hazard blizzard|IDRotF} (IDRotF 10) или {@hazard heavy precipitation} (DMG 110), чтобы отразить её эффекты. Великий змей игнорирует все эффекты, вызванные снежной бурей."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Vicious Reprisal",
+					"name": "Жестокая расплата",
 					"entries": [
-						"In response to taking damage, the greatwyrm makes a bite attack against a random creature within 5 feet of it. If no creature is within reach, the greatwyrm can attack an object, or it can move up to half its speed toward an enemy it can see, without provoking opportunity attacks."
+						"В ответ на получение урона великий змей совершает атаку укусом по случайному существу в пределах 5 футов от себя. Если в пределах досягаемости нет существа, великий змей может атаковать предмет или переместиться на расстояние до половины своей скорости к видимому врагу, не провоцируя атак по возможности."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Tail Attack",
+					"name": "Атака хвостом",
 					"entries": [
-						"The greatwyrm makes two tail attacks, one of which must be against an object."
+						"Великий змей совершает две атаки хвостом, одна из которых должна быть по предмету."
 					]
 				},
 				{
-					"name": "Savage (Costs 2 Actions)",
+					"name": "Свирепость (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm makes a claw attack against each creature and object within 10 feet of it."
+						"Великий змей совершает атаку когтями по каждому существу и предмету в пределах 10 футов от себя."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Атака крыльями (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm beats its wings. Each creature within 10 feet of the greatwyrm must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The greatwyrm can then fly up to half its flying speed."
+						"Великий змей бьёт своими крыльями. Все существа в пределах 10 футов от великого змея должны преуспеть в спасброске Ловкости {@dc 26}, иначе получат 17 ({@damage 2d6 + 10}) дробящего урона и будут сбиты с ног {@condition prone}. После этого великий змей может пролететь на расстояние, не превышающее половину скорости полёта."
 					]
 				}
 			],
 			"mythicHeader": [
-				"If the greatwyrm's mythic trait has activated in the last hour, it can use the options below as legendary actions."
+				"Если мифическая черта великого змея активировалась за последний час, он может использовать приведённые ниже варианты как легендарные действия."
 			],
 			"mythic": [
 				{
-					"name": "Fling",
+					"name": "Отбрасывание",
 					"entries": [
-						"One Huge or smaller object held or creature {@condition grappled} by the greatwyrm is thrown up to 30 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 20} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"Один предмет Огромного или меньшего размера, удерживаемый великим змеем, или существо {@condition grappled} им отбрасывается на расстояние до 30 футов в случайном направлении и сбивается с ног {@condition prone}. Если отброшенная цель ударяется о твёрдую поверхность, цель получает 3 ({@damage 1d6}) дробящего урона за каждые 10 футов перемещения. Если цель отброшена в другое существо, это существо должно преуспеть в спасброске Ловкости {@dc 20}, иначе получит такой же урон и будет сбито с ног {@condition prone}."
 					]
 				},
 				{
-					"name": "Icicle Impale",
+					"name": "Пронзание сосулькой",
 					"entries": [
-						"{@atk rs} {@hit 17} to hit, range 60 ft., one target. {@h} 19 ({@damage 3d6 + 9}) piercing damage, and the target's speed is reduced by 10 feet until the end of its next turn."
+						"{@atk rs} {@hit 17} к попаданию, дистанция 60 фт., одна цель. {@h} 19 ({@damage 3d6 + 9}) колющего урона, и скорость цели уменьшается на 10 футов до конца её следующего хода."
 					]
 				},
 				{
-					"name": "Ice Shards (Costs 2 Actions)",
+					"name": "Осколки льда (стоит 2 действия)",
 					"entries": [
-						"The greatwyrm causes shards of ice to burst forth from any ice within 120 feet of it. Each creature within 5 feet of that ice takes 9 ({@damage 2d8}) piercing damage plus 9 ({@damage 2d8}) cold damage ({@dc 25} Dexterity save for half). If the saving throw fails by 5 or more, the target also deals only half damage with weapon attacks that use Strength until the end of its next turn."
+						"Великий змей заставляет осколки льда вырываться из любого льда в пределах 120 футов от него. Каждое существо в пределах 5 футов от этого льда получает 9 ({@damage 2d8}) колющего урона плюс 9 ({@damage 2d8}) урона холодом (спасбросок Ловкости {@dc 25} для половины урона). Если спасбросок проваливается на 5 или больше, цель также причиняет только половину урона атаками оружием, использующими Силу, до конца своего следующего хода."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "White Dragon",
+				"name": "Белый дракон",
 				"source": "MM"
 			},
 			"variant": [
 				{
 					"type": "inset",
-					"name": "Customizing Dragons",
+					"name": "Настройка драконов",
 					"source": "FTD",
 					"page": 33,
 					"entries": [
-						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						"Вы можете настроить блок статистики любого дракона, чтобы отразить его уникальный характер. Незначительные изменения, подобные приведённым ниже, легко внести, и они не влияют на уровень опасности дракона.",
 						{
 							"type": "entries",
-							"name": "Languages",
+							"name": "Языки",
 							"entries": [
-								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+								"Большинство драконов предпочитает говорить на Драконьем, но учит Общий для общения с союзниками и прислужниками. Однако благодаря высокому Интеллекту и долгой жизни драконы легко осваивают дополнительные языки. Вы можете добавить языки в блок статистики дракона."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Skills",
+							"name": "Навыки",
 							"entries": [
-								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+								"Большинство драконов владеет навыками {@skill Perception} и {@skill Stealth}, и у многих драконов есть дополнительные владения навыками. Как и с языками, вы можете настроить список навыков дракона (вплоть до удвоения бонуса мастерства для некоторых навыков), чтобы отразить его интересы и занятия. Вы также можете дать дракону владение инструментами, особенно если дракон проводит время в гуманоидной форме."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Spells",
+							"name": "Заклинания",
 							"entries": [
-								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+								"{@note См. врезку(и) «Вариант: драконы как врождённые заклинатели» ниже.}"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Other Traits and Actions",
+							"name": "Другие свойства и действия",
 							"entries": [
-								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								"Вы можете заимствовать свойства и действия у других монстров, чтобы придать дракону уникальный колорит. Рассмотрите эти примеры:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Change Shape.",
+											"name": "Смена облика.",
 											"entries": [
-												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
-												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+												"Вы можете решить, что дракон обретает это действие в более молодом возрасте, чем обычно, особенно если хотите показать дракона в гуманоидной форме в своей кампании:",
+												"Дракон магическим образом превращается в гуманоида или зверя, чей уровень опасности не выше его собственного, или обратно в свой истинный облик. Он возвращается в свой истинный облик, если умирает. Всё несомое или носимое им снаряжение поглощается или несётся новым обликом (на выбор дракона).",
+												"В новом облике дракон сохраняет мировоззрение, хиты, Кости Хитов, способность говорить, владения, Легендарное сопротивление, действия в логове и значения Интеллекта, Мудрости и Харизмы, а также это действие. В остальном его статистика и возможности заменяются таковыми нового облика, кроме любых классовых умений или легендарных действий этого облика."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Flyby,",
+											"name": "Облёт,",
 											"entries": [
-												"The dragon is an agile flier, quick to fly out of enemies' reach.",
-												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+												"Дракон — ловкий летун, быстро вылетающий из досягаемости врагов.",
+												"Дракон не провоцирует атаку по возможности, когда вылетает из досягаемости врага."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Mimicry.",
+											"name": "Мимикрия.",
 											"entries": [
-												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
-												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+												"Выдавать себя за персонажей или их союзников может быть занятным трюком для хитрого дракона.",
+												"Дракон может подражать любым звукам, которые слышал, включая голоса. Существо, слышащее эти звуки, может распознать, что это имитация, при успешной проверке Мудрости ({@skill Insight}) {@dc 13}."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Rejuvenation.",
+											"name": "Восстановление.",
 											"entries": [
-												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
-												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+												"Вы можете решить, что драконы в вашей кампании, будучи неотъемлемой частью Материального плана, почти неуничтожимы. Жизненная сущность дракона может храниться в яйце, из которого он впервые вылупился, в его сокровищнице или в пещерном зале в центре мира, подобно тому как сущность лича скрыта в филактерии.",
+												"Если у него есть предмет, хранящий сущность, уничтоженный дракон получает новое тело через {@dice 1d10} дней, восстанавливая все свои хиты и снова становясь активным. Новое тело появляется в пределах 5 футов от предмета."
 											]
 										},
 										{
 											"type": "item",
-											"name": "Special Senses.",
+											"name": "Особые чувства.",
 											"entries": [
-												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+												"У большинства драконов есть {@sense blindsight} и {@sense darkvision}. Вы можете улучшить {@sense blindsight} до {@sense truesight} или дать дракону со скоростью копания {@sense tremorsense|MM}."
 											]
 										}
 									]
@@ -2149,7 +2149,7 @@
 			"dragonCastingColor": "white",
 			"dragonAge": "greatwyrm",
 			"token": {
-				"name": "Adult White Dragon",
+				"name": "Взрослый белый дракон",
 				"source": "MM"
 			},
 			"senseTags": [
@@ -2198,7 +2198,7 @@
 			"hasFluff": true,
 			"fluff": {
 				"_monsterFluff": {
-					"name": "Chromatic Greatwyrms",
+					"name": "Цветные великие змеи",
 					"source": "BeGr"
 				},
 				"images": [
@@ -2215,11 +2215,11 @@
 	],
 	"monsterFluff": [
 		{
-			"name": "Chromatic Greatwyrms",
+			"name": "Цветные великие змеи",
 			"source": "BeGr",
 			"entries": [
-				"By absorbing the energies of a powerful primordial object or creature, chromatic dragons can ascend into greatwyrms. Chromatic greatwyrms wield unfathomable elemental magic that places them just short of a deity's aspect in destructive might.",
-				"As it comes with immortality and almost completely unrivaled power, greatwyrm status is vied for by all chromatic dragons with the means to achieve it. An adult or ancient dragon might spend an entire campaign gathering the artifacts and creatures needed to complete the ascension ritual.",
+				"Поглощая энергии могущественного первобытного предмета или существа, цветные драконы могут вознестись в великих змеев. Цветные великие змеи владеют непостижимой стихийной магией, которая по разрушительной мощи ставит их чуть ниже аспекта божества.",
+				"Поскольку статус великого змея приходит с бессмертием и почти совершенно неоспоримой силой, за него соперничают все цветные драконы, имеющие средства его достичь. Взрослый или древний дракон может потратить целую кампанию на собирание артефактов и существ, необходимых для завершения ритуала вознесения.",
 				{
 					"type": "entries",
 					"entries": [
@@ -2227,10 +2227,10 @@
 							"type": "entries",
 							"entries": [
 								{
-									"name": "Unusual Nature",
+									"name": "Необычная природа",
 									"type": "entries",
 									"entries": [
-										"The greatwyrm doesn't require food, drink, or air."
+										"Великий змей не нуждается в еде, питье или воздухе."
 									]
 								}
 							]
@@ -2238,10 +2238,10 @@
 					]
 				},
 				{
-					"name": "Targeting Objects",
+					"name": "Нацеливание на предметы",
 					"type": "inset",
 					"entries": [
-						"When a feature here says that it targets an object, it really means an object that isn't being worn or carried. I just couldn't be bothered to write that every single time."
+						"Когда какая-либо особенность здесь говорит, что она нацеливается на предмет, она действительно имеет в виду предмет, который никто не носит и не несёт. Мне просто было лень писать это каждый раз."
 					]
 				}
 			]

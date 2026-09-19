@@ -24,7 +24,7 @@
 	},
 	"monster": [
 		{
-			"name": "Death Seer",
+			"name": "Провидец смерти",
 			"shortName": true,
 			"isNamedCreature": true,
 			"source": "COMUndeadLegendary",
@@ -106,15 +106,15 @@
 			],
 			"languages": [
 				"All",
-				"telepathy 120ft"
+				"Телепатия 120ft"
 			],
 			"cr": "20",
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Сотворение заклинаний",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Death Seer spellcasting ability is Charisma (spell save {@dc 19}, +11 to hit with spel"
+						"Провидец Смерти: базовая характеристика для заклинаний — Харизма (Сл спасброска от заклинаний {@dc 19}, +11 к попаданию заклин"
 					],
 					"will": [
 						"{@spell arcane eye|PHB}",
@@ -158,90 +158,90 @@
 			],
 			"trait": [
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If the death seer fails a saving throw, it can choose to succeed instead."
+						"Если Провидец смерти проваливает спасбросок, он может вместо этого преуспеть."
 					]
 				},
 				{
-					"name": "Turn Resistance",
+					"name": "Сопротивление изгнанию",
 					"entries": [
-						"The death seer has advantage on saving throws against any effect that turns undead."
+						"Провидец смерти совершает спасброски с преимуществом против любого эффекта, который обращает нежить."
 					]
 				},
 				{
-					"name": "Master of Occultism",
+					"name": "Мастер оккультизма",
 					"entries": [
-						"The death seer can't be targeted by any divination magic or perceived through magical scrying sensors."
+						"Провидец смерти не может быть целью магии предсказания и не может восприниматься магическими сенсорами наблюдения."
 					]
 				},
 				{
-					"name": "Rejuvenation",
+					"name": "Восстановление",
 					"entries": [
-						"A destroyed death seer gains a new body in 24 hours if its heart is intact, regaining all its hit points and becoming active again. The new body appears within 5 feet of the seer of death's heart."
+						"Уничтоженный Провидец смерти получает новое тело через 24 часа, если его сердце не повреждено, восстанавливая все хиты и снова становясь активным. Новое тело появляется в пределах 5 фт. от сердца Провидца смерти."
 					]
 				},
 				{
-					"name": "Aura of Tragedy",
+					"name": "Аура трагедии",
 					"entries": [
-						"A creature that fails a death saving throw within 25 feet of the death seer, must remove one success from its previous death saving throws if it has any and gains disadvantage on its next death saving throw."
+						"Существо, провалившее спасброски от смерти в пределах 25 фт. от Провидца смерти, должно убрать один успех из своих предыдущих Спасбросков от смерти, если он у него есть, и получает помеху на следующий спасбросок от смерти."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack.",
+					"name": "Мультиатака.",
 					"entries": [
-						"The death seer makes two Blinding Touch attacks. or use deepest fears and casts a cantrip"
+						"Провидец смерти совершает две атаки «Ослепляющее касание» или использует «Глубочайшие страхи» и накладывает заговор."
 					]
 				},
 				{
-					"name": "Blinding Touch",
+					"name": "Ослепляющее касание",
 					"entries": [
-						"{@atk ms} {@hit +11} to hit, reach 5 ft., one creature. {@h}10 ({@damage 4d6}) necrotic damage. The target must succeed on a Constitution {@dc 18} constitution saving throw or be {@condition blinded} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk ms} {@hit +11} для попадания, досягаемость 5 фт., одно существо. {@h}10 ({@damage 4d6}) некротического урона. Цель должна преуспеть в Спасброске Телосложения {@dc 18} или стать {@condition blinded} на 1 минуту. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе."
 					]
 				},
 				{
-					"name": "Deepest Fears (5-6)",
+					"name": "Глубочайшие страхи (5—6)",
 					"entries": [
-						"The death seer penetrates the mind of every target within 60 feet of him, and makes them see their own death in a horrific way. Targets must succeed on a DC18 wisdom saving throw or become {@condition frightened} for 1 minute and believe what they saw is true. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. "
+						"Провидец смерти проникает в разум каждой цели в пределах 60 футов от него и заставляет их ужасным образом увидеть собственную смерть. Цели должны успешно пройти спасбросок Мудрости СЛ 18 или стать {@condition frightened} на 1 минуту и поверить, что увиденное ими — правда. Цель может повторять спасбросок в конце каждого своего хода, оканчивая действие на себе при успехе."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "One Step Ahead",
+					"name": "На шаг впереди",
 					"entries": [
-						"When the death seer is hit by an attack, it can force the target to reroll that attack roll. Alternatively, if a creature within 30 feet of the death seer makes a saving throw, the death seer can make the target reroll this saving throw"
+						"Когда Провидец смерти получает попадание атакой, он может заставить цель перебросить этот Бросок атаки. В качестве альтернативы, если существо в пределах 30 фт. от Провидца смерти совершает спасбросок, Провидец смерти может заставить цель перебросить этот спасбросок."
 					]
 				}
 			],
 			"legendaryHeader": [
-				"The death seer can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The death seer regains spent legendary actions at the start of its turn."
+				"Провидец смерти может совершить 3 легендарных действия, выбирая из вариантов ниже. Одновременно можно использовать только один вариант легендарного действия и только в конце хода другого существа. Провидец смерти восстанавливает потраченные легендарные действия в начале своего хода."
 			],
 			"legendary": [
 				{
-					"name": "Cantrip",
+					"name": "Заговор",
 					"entries": [
-						"The death seer uses cantrip"
+						"Провидец смерти использует заговор"
 					]
 				},
 				{
-					"name": "Blinding Touch (Costs 2 Actions)",
+					"name": "Ослепляющее касание (стоит 2 Действия)",
 					"entries": [
-						"The death seer uses its blinding touch"
+						"Провидец смерти использует своё ослепляющее касание"
 					]
 				},
 				{
-					"name": "At will Spellcasting (Costs 2 actions)",
+					"name": "Использование заклинаний по желанию (стоит 2 действия)",
 					"entries": [
-						"the seer of death can cast one of his at will spells"
+						"Провидец смерти может накладывать одно из своих заклинаний по желанию"
 					]
 				},
 				{
-					"name": "Disrupt Life (Costs 3 Actions)",
+					"name": "Разрушение жизни (стоит 3 действия)",
 					"entries": [
-						"Each non-undead creature within 20 feet of the lich must make a {@dc 17} Constitution saving throw against this magic, taking 21 ({@damage 6d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+						"Каждое не-нежить существо в пределах 20 футов от лича должно совершить {@dc 17} спасбросок Телосложения против этой магии, получая 21 ({@damage 6d6}) некротического урона при провале или половину этого урона при успехе."
 					]
 				}
 			],
@@ -297,24 +297,24 @@
 			],
 			"fluff": {
 				"entries": [
-					"{@b Credit:} {@link Esquizofrenia Coletiva com Amigos|https://github.com/TheGiddyLimit/homebrew/pull/1975/}",
-					"{@i The death seer it's a powerful monster created by a god of death and serve him as a harbinger}",
-					"Harbinger of the Reaper's Arrival",
-					"In the ethereal realm where death and the beyond converge, a death god harnesses the power of a rare and formidable entity known as the Death Seer. As a precursor to the deity's ominous arrival, the Death Seer awakens from its eternal slumber, a herald that announces the impending transition from life to the unknown.",
-					"{@b Appearance:}",
-					"The Death Seer is a sight to behold, veiled in an otherworldly presence. Blind to the physical realm, its spectral form is adorned with green ghostly eyes that orbit around it like haunting satellites. A luminous green heart beats rhythmically within its incorporeal chest, an enduring symbol of its connection to the forces of death.",
-					"{@b Abilities}",
+					"{@b Автор:} {@link Esquizofrenia Coletiva com Amigos|https://github.com/TheGiddyLimit/homebrew/pull/1975/}",
+					"{@i Провидец смерти — могущественный монстр, созданный богом смерти и служащий ему предвестником}",
+					"Предвестник прибытия Жнеца",
+					"В эфирном царстве, где сходятся смерть и загробный мир, бог смерти использует силу редкого и грозного существа, известного как Провидец смерти. Будучи предвестником зловещего прибытия божества, Провидец смерти пробуждается от вечного сна — это глашатай, возвещающий о грядущем переходе от жизни к неизведанному.",
+					"{@b Внешность:}",
+					"Провидец смерти — зрелище, достойное Взгляда бехолдера, окутанное потусторонним присутствием. Не способный видеть физический мир, он обладает призрачной формой, украшенной зелёными призрачными глазами, которые вращаются вокруг него, словно зловещие спутники. Светящееся зелёное сердце ритмично бьётся в его бестелесной груди — непреходящий знак его связи с силами смерти.",
+					"{@b Способности}",
 					{
 						"type": "list",
 						"items": [
-							"{@b Dream Manipulation:} The Death Seer possesses the ability to delve into the dreams and nightmares of the living. With a mere thought, it can weave illusions or unveil subconscious fears, sowing the seeds of anticipation for the impending arrival of the death god.",
-							"{@b Telepathic Communication:} Silent as the void, the Death Seer communicates through telepathy, projecting its message directly into the minds of its chosen targets. The chilling whispers carry promises of relief from the burdens of existence, instilling a false hope that the end of mortal suffering is nigh.",
-							"{@b Immortality:} As an undead entity, the Death Seer is immune to the ravages of time and decay. It exists in a perpetual state of slumber, only roused from its eternal rest when summoned by its creator, the death god."
+							"{@b Манипуляция снами:} Провидец смерти обладает способностью погружаться в сны и кошмары живых. Одной мыслью он может сплетать иллюзии или раскрывать подсознательные страхи, сея семена предвкушения грядущего прибытия бога смерти.",
+							"{@b Телепатическое общение:} Безмолвный, словно пустота, Провидец Смерти общается посредством Телепатии, проецируя своё Сообщение прямо в разум избранных им Целей. Леденящие Шёпот несут обещания избавления от тягот существования, вселяя ложную надежду на то, что конец страданий Смертных близок.",
+							"{@b Бессмертие:} Будучи сущностью Нежити, Провидец Смерти невосприимчив к разрушительному воздействию времени и разложению. Он пребывает в вечном сне и пробуждается от своего вечного покоя лишь тогда, когда его призывает создатель — бог Смерти."
 						]
 					},
-					"{@b Role in the Lore:}",
-					"The Death Seer serves as both messenger and harbinger, orchestrating the psychological prelude to the death god's impending arrival. As the death god stirs from its celestial abode, it awakens the Death Seer, unleashing it upon the world to prepare the hearts and minds of the living for the inevitable embrace of mortality.",
-					"In the wake of the Death Seer's influence, the boundaries between reality and the unknown blur, and a pervasive sense of anticipation permeates the land. The stage is set for the arrival of the death god, as hope and despair dance in an eerie waltz, guided by the spectral hands of the Death Seer."
+					"{@b Роль в преданиях:}",
+					"Провидец Смерти выступает одновременно вестником и предвестником, подготавливая психологическую почву для грядущего прибытия бога Смерти. Когда бог Смерти пробуждается в своей Небесной обители, он пробуждает Провидца Смерти, выпуская его в мир, чтобы подготовить сердца и разум живых к Неизбежности смертности.",
+					"Под влиянием Провидца Смерти границы между реальностью и неизвестностью становятся размытыми, а всепроникающее чувство ожидания охватывает землю. Сцена готова к прибытию бога Смерти, а надежда и Отчаяние танцуют жуткий вальс, ведомые призрачными руками Провидца Смерти."
 				],
 				"images": [
 					{
@@ -328,7 +328,7 @@
 			}
 		},
 		{
-			"name": "Little girl",
+			"name": "Маленькая девочка",
 			"source": "COMUndeadLegendary",
 			"page": 0,
 			"size": [
@@ -379,51 +379,51 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Common"
+				"Общий"
 			],
 			"trait": [
 				{
-					"name": "Shapechanger",
+					"name": "Оборотень",
 					"entries": [
-						"If the little girl isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form. While in bat form, the little girl can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. While in mist form, the little girl can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+						"Если маленькая девочка не находится под солнечным светом или в проточной воде, она может использовать своё действие, чтобы превратиться в миниатюрную летучую мышь или среднее облако тумана либо вернуться в свой истинный облик. В облике летучей мыши маленькая девочка не может говорить, её скорость ходьбы равна 5 футам, а скорость полёта — 30 футам. Её характеристики, за исключением размера и скорости, не изменяются. Всё надетое на ней превращается вместе с ней, но ничего переносимого ею не превращается. Если она умирает, то возвращается в свой истинный облик. В облике тумана маленькая девочка не может совершать никаких действий, говорить или манипулировать предметами. Она невесома, обладает скоростью полёта 20 футов, может парить, а также может войти в пространство враждебного существа и остаться там. Кроме того, если воздух может проходить через пространство, туман может проходить через него, не протискиваясь, но не может проходить сквозь воду. Она совершает с преимуществом спасброски Силы, Ловкости и Телосложения и обладает иммунитетом ко всему немагическому урону, кроме урона, который получает от солнечного света."
 					]
 				},
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Легендарное сопротивление (3/день)",
 					"entries": [
-						"If the little girl fails a saving throw, it can choose to succeed instead."
+						"Если маленькая девочка проваливает спасбросок, она может вместо этого решить, что преуспела."
 					]
 				},
 				{
-					"name": "Misty Escape",
+					"name": "Туманное исчезновение",
 					"entries": [
-						"When it drops to 0 hit points outside its resting place, the little girl transforms into a cloud of mist (as in the Shapechanger trait) instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
-						"While it has 0 hit points in mist form, it can't revert to its the little girl form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its the little girl form. It is then paralyzed until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+						"Когда вне места своего отдыха её хиты опускаются до 0, маленькая девочка превращается в облако тумана (как указано в способности «Меняющий форму»), вместо того чтобы потерять сознание, если только она не находится под солнечным светом или в проточной воде. Если она не может превратиться, она уничтожается.",
+						"Имея 0 хитов в форме тумана, она не может вернуться в форму маленькой девочки и должна достичь места своего упокоения в течение 2 часов, иначе будет уничтожена. Оказавшись в месте своего упокоения, она возвращается в форму маленькой девочки. Затем она становится парализованной, пока не восстановит как минимум 1 хит. Проведя 1 час в месте своего упокоения с 0 хитами, она восстанавливает 1 хит."
 					]
 				},
 				{
-					"name": "Regeneration",
+					"name": "Регенерация",
 					"entries": [
-						"the little girl regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the little girl takes radiant damage or damage from holy water, this trait doesn't function at the start of the little girl's next turn."
+						"Маленькая девочка восстанавливает 20 хитов в начале своего хода, если у неё есть как минимум 1 хит и она не находится под солнечным светом или в проточной воде. Если маленькая девочка получает урон излучением или урон от святой воды, эта особенность не действует в начале следующего хода маленькой девочки."
 					]
 				},
 				{
-					"name": "Spider Climb",
+					"name": "Паучье лазанье",
 					"entries": [
-						"the little girl can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"Маленькая девочка может лазать по трудным поверхностям, в том числе вверх ногами по потолкам, без необходимости совершать проверку характеристики."
 					]
 				},
 				{
-					"name": "Vampire Weakness",
+					"name": "Слабости вампира",
 					"entries": [
-						"The little girl has the following flaws:",
+						"Маленькая девочка обладает следующими недостатками:",
 						{
 							"type": "list",
 							"items": [
-								"{@i Forbiddance.} The little girl can't enter a residence without an invitation from one of the occupants.",
-								"{@i Harmed by Running Water.} The little girl takes 20 acid damage when she ends her turn in running water.",
-								"{@i Stake to the Heart.} The little girl is destroyed if a piercing weapon made of wood is driven into her heart while she is {@condition incapacitated} in her resting place, she is {@condition paralyzed} until the stake is removed.",
-								"{@i Sunlight Hypersensitivity.} The little girl takes 20 radiant damage when she starts her turn in sunlight. While in sunlight, she has disadvantage on attack rolls and ability checks."
+								"{@i Запрет.} Маленькая девочка не может войти в жилище без приглашения от одного из его обитателей.",
+								"{@i Вред от проточной воды.} Маленькая девочка получает 20 кислотного урона, когда заканчивает свой ход в проточной воде.",
+								"{@i Кол в сердце.} Маленькая девочка уничтожается, если деревянное колющее оружие вонзается ей в сердце, пока она {@condition incapacitated} в месте своего упокоения; она остаётся {@condition paralyzed}, пока кол не будет извлечён.",
+								"{@i Гиперчувствительность к солнечному свету.} Маленькая девочка получает 20 урона излучением, когда начинает свой ход под солнечным светом. Находясь под солнечным светом, она совершает броски атаки и проверки характеристик с помехой."
 							]
 						}
 					]
@@ -431,53 +431,53 @@
 			],
 			"action": [
 				{
-					"name": "Multiattack (Vampire Form Only)",
+					"name": "Мультиатака (только форма вампира)",
 					"entries": [
-						"The vampire makes two attacks, only one of which can be a bite attack."
+						"Вампир совершает две атаки, только одна из которых может быть атакой укуса."
 					]
 				},
 				{
-					"name": "Unarmed Strike",
+					"name": "Удар без оружия",
 					"entries": [
-						"{@atk mw} +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 4) piercing damage."
+						"{@atk mw} +6 к попаданию, досягаемость 5 фт., одна цель. Попадание: 6 (1d8 + 4) колющего урона."
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Укус",
 					"entries": [
-						"{@atk mw} +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage."
+						"{@atk mw} +6 к попаданию, досягаемость 5 фт., одна цель. Попадание: 6 (1d6 + 4) колющего урона плюс 10 (3d6) некротического урона."
 					]
 				},
 				{
-					"name": "Charm",
+					"name": "Заклятие",
 					"entries": [
-						"The vampire targets one humanoid it can see within 30 ft. of it. If the target can see the vampire, the target must succeed on a DC 17 Wisdom saving throw against this magic or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bit attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Вампир выбирает целью одного гуманоида, которого может видеть в пределах 30 фт. от себя. Если цель может видеть вампира, цель должна преуспеть в спасброске Мудрости СЛ 17 против этой магии, иначе становится очарованной вампиром. Очарованная цель считает вампира надёжным другом, которому следует внимать и которого следует защищать. Хотя цель не находится под контролем вампира, она выполняет просьбы или действия вампира наиболее благоприятным для себя образом и становится добровольной целью для атаки укуса вампира. Каждый раз, когда вампир или его спутники делают что-либо вредоносное для цели, она может повторить спасбросок, оканчивая воздействие на себе при успехе. В противном случае воздействие длится 24 часа или до тех пор, пока вампир не будет уничтожен, не окажется на другом плане существования по сравнению с целью или не совершит бонусное действие, чтобы окончить воздействие."
 					]
 				},
 				{
-					"name": "Children of the Night (1/Day)",
+					"name": "Дети ночи (1/день)",
 					"entries": [
-						"The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+						"Вампир магическим образом призывает 2d4 роя летучих мышей или крыс, если только солнце не взошло. На открытом воздухе вампир вместо этого может призвать 3d6 волков. Призванные существа прибывают через 1d4 раунда, действуя как союзники вампира и повинуясь его устным приказам. Звери остаются на 1 час, пока вампир не умрёт или пока вампир не отпустит их бонусным действием."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Move",
+					"name": "Перемещение",
 					"entries": [
-						"The vampire moves up to its speed without provoking opportunity attacks."
+						"Вампир перемещается на расстояние вплоть до своей скорости, не провоцируя провоцированные атаки."
 					]
 				},
 				{
-					"name": "Unarmed Strike",
+					"name": "Удар без оружия",
 					"entries": [
-						"The vampire makes one unarmed strike."
+						"Вампир совершает один безоружный удар."
 					]
 				},
 				{
-					"name": "Bite (Costs 2 Actions)",
+					"name": "Укус (стоит 2 действия)",
 					"entries": [
-						"The vampire makes one bite attack."
+						"Вампир совершает одну атаку укусом."
 					]
 				}
 			],
