@@ -1,1679 +1,1679 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "SorcererRevitalized",
-				"abbreviation": "SRv",
-				"full": "Sorcerer, Revitalized",
-				"version": "0.2",
-				"authors": [
-					"DXHHH101",
-					"Sinder",
-					"Superxavman"
-				],
-				"convertedBy": [
-					"DXHHH101"
-				],
-				"color": "00b4ff"
-			},
-			{
-				"json": "SorcererRevitalized-TCE",
-				"abbreviation": "TCE",
-				"full": "Sorcerer, Revitalized - Tasha's Cauldron of Everything",
-				"version": "1.0",
-				"authors": [
-					"Wizards of the Coast"
-				],
-				"targetSchema": "1.0.0"
-			},
-			{
-				"json": "SorcererRevitalized-XGE",
-				"abbreviation": "XGE",
-				"full": "Sorcerer, Revitalized - Xanathar's Guide to Everything",
-				"version": "1.0",
-				"authors": [
-					"Wizards of the Coast"
-				],
-				"targetSchema": "1.0.0"
-			}
-		],
-		"dependencies": {
-			"subclass": [
-				"sorcerer",
-				"OrchardSorcReflourished"
-			]
-		},
-		"edition": "classic",
-		"dateAdded": 1667009734,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "b902abc71a"
-	},
-	"class": [
-		{
-			"name": "Чародей, обновлённый",
-			"source": "SorcererRevitalized",
-			"hd": {
-				"number": 1,
-				"faces": 6
-			},
-			"proficiency": [
-				"con",
-				"cha"
-			],
-			"spellcastingAbility": "cha",
-			"casterProgression": "full",
-			"cantripProgression": [
-				4,
-				4,
-				4,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				6,
-				6,
-				6,
-				6,
-				6,
-				6,
-				6,
-				6,
-				6,
-				6,
-				6
-			],
-			"spellsKnownProgression": [
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				12,
-				13,
-				13,
-				14,
-				14,
-				15,
-				15,
-				15,
-				15
-			],
-			"optionalfeatureProgression": [
-				{
-					"name": "Метамагия",
-					"featureType": [
-						"MM"
-					],
-					"progression": {
-						"3": 2,
-						"10": 3,
-						"17": 4
-					}
-				}
-			],
-			"startingProficiencies": {
-				"weapons": [
-					"{@item dagger|phb|кинжалы}",
-					"{@item dart|phb|дротики}",
-					"{@item sling|phb|пращи}",
-					"{@item quarterstaff|phb|боевые посохи}",
-					"{@item light crossbow|phb|лёгкие арбалеты}"
-				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"arcana",
-								"deception",
-								"insight",
-								"intimidation",
-								"persuasion",
-								"religion"
-							],
-							"count": 2
-						}
-					}
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 болтов} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"Two {@item dagger|phb|кинжалы}"
-				],
-				"goldAlternative": "{@dice 3d4 × 10|3d4 × 10|Начальное золото}",
-				"defaultData": [
-					{
-						"a": [
-							"light crossbow|phb",
-							"crossbow bolts (20)|phb"
-						],
-						"b": [
-							{
-								"equipmentType": "weaponSimple"
-							}
-						]
-					},
-					{
-						"a": [
-							"component pouch|phb"
-						],
-						"b": [
-							"arcane focus|phb"
-						]
-					},
-					{
-						"a": [
-							"dungeoneer's pack|phb"
-						],
-						"b": [
-							"explorer's pack|phb"
-						]
-					},
-					{
-						"_": [
-							{
-								"item": "dagger|phb",
-								"quantity": 2
-							}
-						]
-					}
-				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"cha": 13
-				}
-			},
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"Очки чародейства"
-					],
-					"rows": [
-						[
-							0
-						],
-						[
-							2
-						],
-						[
-							3
-						],
-						[
-							4
-						],
-						[
-							5
-						],
-						[
-							6
-						],
-						[
-							7
-						],
-						[
-							8
-						],
-						[
-							9
-						],
-						[
-							10
-						],
-						[
-							11
-						],
-						[
-							12
-						],
-						[
-							13
-						],
-						[
-							14
-						],
-						[
-							15
-						],
-						[
-							16
-						],
-						[
-							17
-						],
-						[
-							18
-						],
-						[
-							19
-						],
-						[
-							20
-						]
-					]
-				},
-				{
-					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Sorcerer}",
-						"{@filter Spells Known|spells|class=Sorcerer}"
-					],
-					"rows": [
-						[
-							4,
-							2
-						],
-						[
-							4,
-							3
-						],
-						[
-							4,
-							4
-						],
-						[
-							5,
-							5
-						],
-						[
-							5,
-							6
-						],
-						[
-							5,
-							7
-						],
-						[
-							5,
-							8
-						],
-						[
-							5,
-							9
-						],
-						[
-							5,
-							10
-						],
-						[
-							6,
-							11
-						],
-						[
-							6,
-							12
-						],
-						[
-							6,
-							12
-						],
-						[
-							6,
-							13
-						],
-						[
-							6,
-							13
-						],
-						[
-							6,
-							14
-						],
-						[
-							6,
-							14
-						],
-						[
-							6,
-							15
-						],
-						[
-							6,
-							15
-						],
-						[
-							6,
-							15
-						],
-						[
-							6,
-							15
-						]
-					]
-				},
-				{
-					"title": "Ячейки заклинаний по уровням заклинаний",
-					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Sorcerer}",
-						"{@filter 2nd|spells|level=2|class=Sorcerer}",
-						"{@filter 3rd|spells|level=3|class=Sorcerer}",
-						"{@filter 4th|spells|level=4|class=Sorcerer}",
-						"{@filter 5th|spells|level=5|class=Sorcerer}",
-						"{@filter 6th|spells|level=6|class=Sorcerer}",
-						"{@filter 7th|spells|level=7|class=Sorcerer}",
-						"{@filter 8th|spells|level=8|class=Sorcerer}",
-						"{@filter 9th|spells|level=9|class=Sorcerer}"
-					],
-					"rowsSpellProgression": [
-						[
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							1,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							2,
-							2,
-							1,
-							1
-						]
-					]
-				}
-			],
-			"classFeatures": [
-				"Сотворение заклинаний|Sorcerer, Revitalized|SorcererRevitalized|1",
-				{
-					"classFeature": "Sorcerous Origin|Sorcerer|PHB|1",
-					"gainSubclassFeature": true
-				},
-				"Spell Versatility|Sorcerer|PHB|1|UAClassFeatureVariants",
-				"Font of Magic|Sorcerer|PHB|2",
-				"Font of Magic Options|Sorcerer|PHB|2|UAClassFeatureVariants",
-				"Метамагия|Sorcerer, Revitalized|SorcererRevitalized|3",
-				"Metamagic Options|Sorcerer|PHB|3|UAClassFeatureVariants",
-				"Metamagic Options|Sorcerer|PHB|3|TCE",
-				"Восстановление чародейства|Sorcerer, Revitalized|SorcererRevitalized|3",
-				"Ability Score Improvement|Sorcerer|PHB|4",
-				"Proficiency Versatility|Sorcerer|PHB|4|UAClassFeatureVariants",
-				"Гибкость заговоров|Sorcerer, Revitalized|SorcererRevitalized|4",
-				"Magical Guidance|Sorcerer|PHB|5|TCE",
-				{
-					"classFeature": "Sorcerous Origin feature|Sorcerer|PHB|6",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Sorcerer|PHB|8",
-				"Proficiency Versatility|Sorcerer|PHB|8|UAClassFeatureVariants",
-				"Метамагия|Sorcerer, Revitalized|SorcererRevitalized|10",
-				"Ability Score Improvement|Sorcerer|PHB|12",
-				"Proficiency Versatility|Sorcerer|PHB|12|UAClassFeatureVariants",
-				{
-					"classFeature": "Sorcerous Origin feature|Sorcerer|PHB|14",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Sorcerer|PHB|16",
-				"Proficiency Versatility|Sorcerer|PHB|16|UAClassFeatureVariants",
-				"Метамагия|Sorcerer, Revitalized|SorcererRevitalized|17",
-				{
-					"classFeature": "Sorcerous Origin feature|Sorcerer|PHB|18",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Sorcerer|PHB|19",
-				"Proficiency Versatility|Sorcerer|PHB|19|UAClassFeatureVariants",
-				"Мастерство метамагии|Sorcerer, Revitalized|SorcererRevitalized|20"
-			],
-			"subclassTitle": "Sorcerous Origin"
-		}
-	],
-	"subclass": [
-		{
-			"source": "SorcererRevitalized-TCE",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"_copy": {
-				"name": "Aberrant Mind",
-				"source": "TCE",
-				"shortName": "Aberrant Mind",
-				"className": "Sorcerer",
-				"classSource": "PHB"
-			}
-		},
-		{
-			"source": "SorcererRevitalized-TCE",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"_copy": {
-				"name": "Clockwork Soul",
-				"source": "TCE",
-				"shortName": "Clockwork Soul",
-				"className": "Sorcerer",
-				"classSource": "PHB"
-			}
-		},
-		{
-			"source": "SorcererRevitalized-XGE",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"_copy": {
-				"name": "Divine Soul",
-				"source": "XGE",
-				"shortName": "Divine Soul",
-				"className": "Sorcerer",
-				"classSource": "PHB"
-			}
-		},
-		{
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"_copy": {
-				"name": "Draconic Bloodline",
-				"source": "PHB",
-				"shortName": "Draconic",
-				"className": "Sorcerer",
-				"classSource": "PHB"
-			},
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"absorb elements|XGE",
-							"chromatic orb"
-						],
-						"3": [
-							"dragon's breath|XGE",
-							"see invisibility"
-						],
-						"5": [
-							"fear",
-							"fly"
-						],
-						"7": [
-							"elemental bane|XGE",
-							"freedom of movement"
-						],
-						"9": [
-							"control winds|XGE",
-							"legend lore"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"see invisibility",
-				"fear",
-				"legend lore",
-				"freedom of movement",
-				"absorb elements|xge",
-				"aganazzar's scorcher|xge",
-				"bigby's hand|phb",
-				"burning hands|phb",
-				"chaos bolt|xge",
-				"chromatic orb|phb",
-				"cone of cold|phb",
-				"continual flame|phb",
-				"darkness|phb",
-				"dawn|xge",
-				"daylight|phb",
-				"earth tremor|xge",
-				"fire shield|phb",
-				"fireball|phb",
-				"flame blade|phb",
-				"frost fingers|idrotf",
-				"gust of wind|phb",
-				"hellish rebuke|phb",
-				"ice storm|phb",
-				"immolation|xge",
-				"jim's magic missile|ai",
-				"leomund's tiny hut|phb",
-				"lightning bolt|phb",
-				"magic missile|phb",
-				"melf's acid arrow|phb",
-				"melf's minute meteors|xge",
-				"otiluke's resilient sphere|phb",
-				"rime's binding ice|ftd",
-				"scorching ray|phb",
-				"sending|phb",
-				"shatter|phb",
-				"sickening radiance|xge",
-				"snilloc's snowball swarm|xge",
-				"storm sphere|xge",
-				"tasha's caustic brew|tce",
-				"thunderwave|phb",
-				"vitriolic sphere|xge",
-				"wall of fire|phb",
-				"wall of force|phb",
-				"wall of light|xge",
-				"wall of sand|xge",
-				"wall of stone|phb",
-				"wall of water|xge",
-				"warding wind|xge",
-				"witch bolt|phb",
-				"alter self|phb",
-				"animate objects|phb",
-				"ashardalon's stride|ftd",
-				"blink|phb",
-				"catapult|xge",
-				"control water|phb",
-				"control winds|xge",
-				"create spelljamming helm|aag",
-				"darkvision|phb",
-				"dragon's breath|xge",
-				"earthbind|xge",
-				"elemental bane|xge",
-				"enhance ability|phb",
-				"enlarge%2freduce|phb",
-				"erupting earth|xge",
-				"expeditious retreat|phb",
-				"fabricate|phb",
-				"feather fall|phb",
-				"flame arrows|xge",
-				"fly|phb",
-				"gaseous form|phb",
-				"haste|phb",
-				"jump|phb",
-				"kinetic jaunt|scc",
-				"knock|phb",
-				"levitate|phb",
-				"longstrider|phb",
-				"magic weapon|phb",
-				"maximilian's earthen grasp|xge",
-				"passwall|phb",
-				"polymorph|phb",
-				"pyrotechnics|xge",
-				"rope trick|phb",
-				"skill empowerment|xge",
-				"skywrite|xge",
-				"slow|phb",
-				"spider climb|phb",
-				"stone shape|phb",
-				"telekinesis|phb",
-				"tiny servant|xge",
-				"transmute rock|xge",
-				"water breathing|phb",
-				"water walk|phb"
-			],
-			"subclassFeatures": [
-				"Драконье происхождение|Sorcerer, Revitalized|SorcererRevitalized|Draconic|SorcererRevitalized|1",
-				"Elemental Affinity|Sorcerer||Draconic||6",
-				"Dragon Wings|Sorcerer||Draconic||14",
-				"Draconic Presence|Sorcerer||Draconic||18"
-			]
-		},
-		{
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"_copy": {
-				"name": "Shadow Magic",
-				"source": "XGE",
-				"shortName": "Shadow",
-				"className": "Sorcerer",
-				"classSource": "PHB"
-			},
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"hex",
-							"inflict wounds"
-						],
-						"3": [
-							"pass without trace",
-							"shadow blade|XGE",
-							"darkness"
-						],
-						"5": [
-							"feign death",
-							"vampiric touch"
-						],
-						"7": [
-							"blight",
-							"shadow of moil|XGE"
-						],
-						"9": [
-							"negative energy flood|XGE",
-							"seeming"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"hex",
-				"pass without trace",
-				"darkness",
-				"blur|phb",
-				"color spray|phb",
-				"creation|phb",
-				"disguise self|phb",
-				"distort value|ai",
-				"dream|phb",
-				"fear|phb",
-				"greater invisibility|phb",
-				"hallucinatory terrain|phb",
-				"hypnotic pattern|phb",
-				"illusory script|phb",
-				"invisibility|phb",
-				"magic mouth|phb",
-				"major image|phb",
-				"mirror image|phb",
-				"mislead|phb",
-				"nathair's mischief|ftd",
-				"nystul's magic aura|phb",
-				"phantasmal force|phb",
-				"phantasmal killer|phb",
-				"phantom steed|phb",
-				"seeming|phb",
-				"shadow blade|xge",
-				"silent image|phb",
-				"animate dead|phb",
-				"bestow curse|phb",
-				"blight|phb",
-				"blindness%2fdeafness|phb",
-				"cause fear|xge",
-				"danse macabre|xge",
-				"enervation|xge",
-				"false life|phb",
-				"feign death|phb",
-				"gentle repose|phb",
-				"life transference|xge",
-				"negative energy flood|xge",
-				"ray of enfeeblement|phb",
-				"ray of sickness|phb",
-				"shadow of moil|xge",
-				"speak with dead|phb",
-				"spirit shroud|tce",
-				"summon undead|tce",
-				"vampiric touch|phb",
-				"wither and bloom|scc"
-			],
-			"subclassFeatures": [
-				"Теневая магия|Sorcerer, Revitalized|SorcererRevitalized|Shadow|SorcererRevitalized|1",
-				"Hound of Ill Omen|Sorcerer||Shadow|XGE|6",
-				"Shadow Walk|Sorcerer||Shadow|XGE|14",
-				"Umbral Form|Sorcerer||Shadow|XGE|18"
-			]
-		},
-		{
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"_copy": {
-				"name": "Storm Sorcery",
-				"source": "XGE",
-				"shortName": "Storm",
-				"className": "Sorcerer",
-				"classSource": "PHB"
-			},
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"fog cloud",
-							"thunderwave"
-						],
-						"3": [
-							"gust of wind",
-							"levitate"
-						],
-						"5": [
-							"lightning bolt",
-							"thunder step|XGE"
-						],
-						"7": [
-							"storm sphere|XGE",
-							"watery sphere|XGE"
-						],
-						"9": [
-							"control winds|XGE",
-							"maelstrom|XGE"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"control winds|xge",
-				"levitate|phb",
-				"aganazzar's scorcher|xge",
-				"air bubble|aag",
-				"arms of hadar|phb",
-				"bigby's hand|phb",
-				"burning hands|phb",
-				"chaos bolt|xge",
-				"chromatic orb|phb",
-				"cloud of daggers|phb",
-				"cloudkill|phb",
-				"cone of cold|phb",
-				"conjure elemental|phb",
-				"conjure minor elementals|phb",
-				"continual flame|phb",
-				"darkness|phb",
-				"dawn|xge",
-				"daylight|phb",
-				"dimension door|phb",
-				"dust devil|xge",
-				"earth tremor|xge",
-				"evard's black tentacles|phb",
-				"far step|xge",
-				"find familiar|phb",
-				"fire shield|phb",
-				"fireball|phb",
-				"flame blade|phb",
-				"flaming sphere|phb",
-				"fog cloud|phb",
-				"frost fingers|idrotf",
-				"grease|phb",
-				"gust of wind|phb",
-				"hellish rebuke|phb",
-				"hunger of hadar|phb",
-				"ice knife|xge",
-				"ice storm|phb",
-				"immolation|xge",
-				"infernal calling|xge",
-				"insect plague|phb",
-				"jim's magic missile|ai",
-				"leomund's secret chest|phb",
-				"leomund's tiny hut|phb",
-				"lightning bolt|phb",
-				"magic missile|phb",
-				"melf's acid arrow|phb",
-				"melf's minute meteors|xge",
-				"misty step|phb",
-				"mordenkainen's faithful hound|phb",
-				"otiluke's resilient sphere|phb",
-				"rime's binding ice|ftd",
-				"scorching ray|phb",
-				"sending|phb",
-				"shatter|phb",
-				"sickening radiance|xge",
-				"sleet storm|phb",
-				"snilloc's snowball swarm|xge",
-				"steel wind strike|xge",
-				"stinking cloud|phb",
-				"storm sphere|xge",
-				"summon aberration|tce",
-				"summon construct|tce",
-				"summon draconic spirit|ftd",
-				"summon elemental|tce",
-				"summon fey|tce",
-				"summon greater demon|xge",
-				"summon lesser demons|xge",
-				"summon shadowspawn|tce",
-				"tasha's caustic brew|tce",
-				"teleportation circle|phb",
-				"tenser's floating disk|phb",
-				"thunder step|xge",
-				"thunderwave|phb",
-				"tidal wave|xge",
-				"unseen servant|phb",
-				"vitriolic sphere|xge",
-				"vortex warp|scc",
-				"wall of fire|phb",
-				"wall of force|phb",
-				"wall of light|xge",
-				"wall of sand|xge",
-				"wall of stone|phb",
-				"wall of water|xge",
-				"warding wind|xge",
-				"watery sphere|xge",
-				"web|phb",
-				"witch bolt|phb"
-			],
-			"subclassFeatures": [
-				"Штормовое колдовство|Sorcerer, Revitalized|SorcererRevitalized|Storm|SorcererRevitalized|1",
-				"Heart of the Storm|Sorcerer||Storm|XGE|6",
-				"Storm Guide|Sorcerer||Storm|XGE|6",
-				"Storm's Fury|Sorcerer||Storm|XGE|14",
-				"Wind Soul|Sorcerer||Storm|XGE|18"
-			]
-		},
-		{
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"_copy": {
-				"name": "Wild Magic",
-				"source": "PHB",
-				"shortName": "Wild",
-				"className": "Sorcerer",
-				"classSource": "PHB"
-			},
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"chaos bolt|XGE",
-							"color spray"
-						],
-						"3": [
-							"enlarge/reduce",
-							"mirror image"
-						],
-						"5": [
-							"enemies abound|XGE",
-							"hypnotic pattern"
-						],
-						"7": [
-							"confusion",
-							"polymorph"
-						],
-						"9": [
-							"animate objects",
-							"mislead"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"chaos bolt|xge",
-				"color spray",
-				"mirror image",
-				"hypnotic pattern",
-				"mislead",
-				"catnap|xge",
-				"charm monster|xge",
-				"charm person|phb",
-				"confusion|phb",
-				"crown of madness|phb",
-				"dominate beast|phb",
-				"dominate person|phb",
-				"enemies abound|xge",
-				"enthrall|phb",
-				"fast friends|ai",
-				"geas|phb",
-				"gift of gab|ai",
-				"hex|phb",
-				"hold monster|phb",
-				"hold person|phb",
-				"incite greed|ai",
-				"jim's glowing coin|ai",
-				"modify memory|phb",
-				"raulothim's psychic lance|ftd",
-				"silvery barbs|scc",
-				"sleep|phb",
-				"suggestion|phb",
-				"synaptic static|xge",
-				"tasha's hideous laughter|phb",
-				"tasha's mind whip|tce",
-				"alter self|phb",
-				"animate objects|phb",
-				"ashardalon's stride|ftd",
-				"blink|phb",
-				"catapult|xge",
-				"control water|phb",
-				"control winds|xge",
-				"create spelljamming helm|aag",
-				"darkvision|phb",
-				"dragon's breath|xge",
-				"earthbind|xge",
-				"elemental bane|xge",
-				"enhance ability|phb",
-				"enlarge%2freduce|phb",
-				"erupting earth|xge",
-				"expeditious retreat|phb",
-				"fabricate|phb",
-				"feather fall|phb",
-				"flame arrows|xge",
-				"fly|phb",
-				"gaseous form|phb",
-				"haste|phb",
-				"jump|phb",
-				"kinetic jaunt|scc",
-				"knock|phb",
-				"levitate|phb",
-				"longstrider|phb",
-				"magic weapon|phb",
-				"maximilian's earthen grasp|xge",
-				"passwall|phb",
-				"polymorph|phb",
-				"pyrotechnics|xge",
-				"rope trick|phb",
-				"skill empowerment|xge",
-				"skywrite|xge",
-				"slow|phb",
-				"spider climb|phb",
-				"stone shape|phb",
-				"telekinesis|phb",
-				"tiny servant|xge",
-				"transmute rock|xge",
-				"water breathing|phb",
-				"water walk|phb"
-			],
-			"subclassFeatures": [
-				"Дикая магия|Sorcerer, Revitalized|SorcererRevitalized|Wild|SorcererRevitalized|1",
-				"Bend Luck|Sorcerer||Wild||6",
-				"Controlled Chaos|Sorcerer||Wild||14",
-				"Spell Bombardment|Sorcerer||Wild||18"
-			]
-		},
-		{
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"_copy": {
-				"name": "Orchard Origin",
-				"source": "OrchardSorcReflourished",
-				"shortName": "Orchard",
-				"className": "Sorcerer",
-				"classSource": "PHB"
-			}
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Сотворение заклинаний",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"level": 1,
-			"entries": [
-				"Событие в вашем прошлом или в жизни родителя либо предка оставило на вас неизгладимый след, наполнив вас тайной магией. Этот источник магии, каково бы ни было его происхождение, питает ваши заклинания. Общие правила сотворения заклинаний смотрите в {@book chapter 10|PHB|10}, а {@filter sorcerer spell list|spells|class=sorcerer} — в {@book chapter 11|PHB|11}.",
-				{
-					"type": "entries",
-					"name": "Заговоры",
-					"entries": [
-						"На 1-м уровне вы знаете четыре заговора на свой выбор из списка заклинаний чародея. Вы узнаёте дополнительный заговор чародея на свой выбор на 4-м уровне и ещё один на 10-м."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ячейки заклинаний",
-					"entries": [
-						"Таблица чародея показывает, сколько у вас ячеек заклинаний для сотворения {@filter sorcerer spells|spells|class=sorcerer} 1-го уровня и выше. Чтобы сотворить такое заклинание чародея, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете продолжительный отдых.",
-						"Например, если вы знаете заклинание 1-го уровня {@spell burning hands} и у вас есть ячейка 1-го и ячейка 2-го уровня, вы можете сотворить {@spell burning hands}, используя любую из них."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Известные заклинания 1-го уровня и выше",
-					"entries": [
-						"Вы знаете два заклинания 1-го уровня на свой выбор из списка заклинаний чародея.",
-						"Вы узнаёте дополнительное заклинание чародея на свой выбор на каждом уровне, кроме 12-го, 14-го, 16-го, 18-го, 19-го и 20-го. Уровень каждого из этих заклинаний должен быть таким, для которого у вас есть ячейки заклинаний. Например, достигнув 3-го уровня в этом классе, вы можете выучить одно новое заклинание 1-го или 2-го уровня.",
-						"Кроме того, получая уровень в этом классе, вы можете выбрать одно известное вам заклинание чародея и заменить его другим заклинанием из списка заклинаний чародея, которое также должно быть такого уровня, для которого у вас есть ячейки заклинаний."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Базовая характеристика для заклинаний",
-					"entries": [
-						"Харизма — ваша способность к сотворению заклинаний для заклинаний чародея, поскольку сила вашей магии опирается на умение проецировать свою волю в мир. Вы используете Харизму всякий раз, когда заклинание ссылается на вашу способность к сотворению заклинаний. Кроме того, вы используете модификатор Харизмы, когда задаёте Сл спасброска для сотворяемого заклинания чародея и когда совершаете им бросок атаки.",
-						{
-							"type": "abilityDc",
-							"name": "Заклинание",
-							"attributes": [
-								"cha"
-							]
-						},
-						{
-							"type": "abilityAttackMod",
-							"name": "Заклинание",
-							"attributes": [
-								"cha"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ритуальное сотворение",
-					"entries": [
-						"Вы можете сотворить любое известное вам заклинание чародея как ритуал, если у этого заклинания есть метка «ритуал»."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Личный фокус",
-					"entries": [
-						"Когда вы сотворяете свои заклинания чародея, требующие материального компонента, вы можете игнорировать этот компонент, если у него нет стоимости (как, например, алмаз стоимостью не менее 50 зм для заклинания {@spell chromatic orb}) и если он не расходуется."
-					]
-				}
-			]
-		},
-		{
-			"name": "Метамагия",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"level": 3,
-			"entries": [
-				"На 3-м уровне вы обретаете способность видоизменять свои заклинания под свои нужды. Вы подготавливаете доступные вам варианты метамагии. Для этого выберите два следующих варианта метамагии на свой выбор. Вы можете выбрать ещё один на 10-м и 17-м уровне.",
-				"Вы можете изменить список подготовленных вариантов метамагии, когда завершаете продолжительный отдых. Подготовка нового списка вариантов метамагии требует времени, проведённого в медитации.",
-				"Сотворяя заклинание, вы можете применить к нему только один вариант метамагии, если не указано иное.",
-				{
-					"type": "options",
-					"count": 2,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Careful Spell"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Distant Spell"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Empowered Spell"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Extended Spell"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Heightened Spell"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Quickened Spell"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Subtle Spell"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Twinned Spell"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Восстановление чародейства",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"level": 3,
-			"entries": [
-				"Начиная с 3-го уровня вы можете восстанавливать часть своей магической энергии, сосредотачиваясь на внутреннем источнике магии. Во время короткого отдыха вы восстанавливаете количество потраченных очков чародейства, равное половине вашего уровня чародея (округляя вверх). Вы не можете использовать это умение снова, пока не завершите продолжительный отдых."
-			]
-		},
-		{
-			"name": "Гибкость заговоров",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"level": 4,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i Чародей 4-го уровня {@variantrule optional class features|tce|optional feature}}",
-				"Каждый раз, когда вы получаете в этом классе уровень, дающий умение «Увеличение характеристик», вы можете заменить один заговор, изученный по умению «Сотворение заклинаний» этого класса, другим заговором из {@filter sorcerer spell list|spells|level=0|class=Sorcerer}."
-			]
-		},
-		{
-			"name": "Метамагия",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"level": 10,
-			"entries": [
-				"На 10-м уровне вы можете подготовить дополнительный вариант метамагии."
-			]
-		},
-		{
-			"name": "Метамагия",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"level": 17,
-			"entries": [
-				"На 10-м уровне вы можете подготовить дополнительный вариант метамагии."
-			]
-		},
-		{
-			"name": "Мастерство метамагии",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"level": 20,
-			"entries": [
-				"На 20-м уровне вы в совершенстве освоили свою метамагию и получаете следующие преимущества:",
-				{
-					"type": "list",
-					"items": [
-						"Все ваши варианты метамагии всегда подготовлены.",
-						"Каждый раз, когда вы применяете метамагию к заклинанию, вы можете уменьшить потраченные очки чародейства на 1, но не менее чем до 1.",
-						"Каждый раз, когда вы применяете метамагию, которая стоит 1 очко чародейства (включая уменьшение от этого умения), к заклинанию, вы можете вместо этого применить её бесплатно. Вы можете делать это число раз, равное вашему бонусу мастерства. Вы восстанавливаете потраченные использования, когда завершаете продолжительный отдых."
-					]
-				}
-			]
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": "Драконье происхождение",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"subclassShortName": "Драконий",
-			"subclassSource": "SorcererRevitalized",
-			"level": 1,
-			"entries": [
-				"Ваша врождённая магия происходит от драконьей магии, смешавшейся с вашей кровью или кровью ваших предков. Чаще всего чародеи с этим происхождением ведут своё родословное древо к могущественному чародею древности, заключившему сделку с драконом или даже заявившему о драконе-родителе. Некоторые из этих родословных хорошо известны в мире, но большинство безвестны. Любой чародей может оказаться первым в новой родословной в результате пакта или иного исключительного обстоятельства.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Драконьи заклинания|Sorcerer, Revitalized|SorcererRevitalized|Draconic|SorcererRevitalized|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Dragon Ancestor|Sorcerer||Draconic||1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Resilience|Sorcerer||Draconic||1"
-				}
-			]
-		},
-		{
-			"name": "Драконьи заклинания",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"subclassShortName": "Драконий",
-			"subclassSource": "SorcererRevitalized",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице «Драконьи заклинания». Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается в числе известных вам заклинаний чародея.",
-				"Каждый раз, когда вы получаете уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter evocation or a transmutation spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=V;T|level=1;2;3;4;5}.",
-				{
-					"type": "table",
-					"caption": "Драконьи заклинания",
-					"colLabels": [
-						"Уровень чародея",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell absorb elements|XGE}, {@spell chromatic orb}"
-						],
-						[
-							"3-й",
-							"{@spell dragon's breath|XGE}, {@spell see invisibility}"
-						],
-						[
-							"5-й",
-							"{@spell fear}, {@spell fly}"
-						],
-						[
-							"7-й",
-							"{@spell elemental bane|XGE}, {@spell freedom of movement}"
-						],
-						[
-							"9-й",
-							"{@spell control winds|XGE}, {@spell legend lore}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Теневая магия",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"subclassShortName": "Тень",
-			"subclassSource": "SorcererRevitalized",
-			"level": 1,
-			"entries": [
-				"Вы — создание тени, ибо ваша врождённая магия происходит из самого Царства Теней. Возможно, вы ведёте свою родословную от существа из того места или, возможно, вы подверглись его гибельной энергии и были ею преображены.",
-				"Сила теневой магии накладывает странную тень на ваше физическое присутствие. Искра жизни, что поддерживает вас, приглушена, словно ей трудно оставаться живой против тёмной энергии, наполняющей вашу душу. По вашему выбору вы можете выбрать или бросить по таблице «Причуды теневого чародея», чтобы создать причуду для своего персонажа.",
-				{
-					"type": "table",
-					"caption": "Причуды теневого чародея",
-					"colLabels": [
-						"d6",
-						"Причуда"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1",
-							"Вы всегда ледяные на ощупь."
-						],
-						[
-							"2",
-							"Когда вы спите, вы не выглядите дышащим (хотя для выживания вам всё равно нужно дышать)."
-						],
-						[
-							"3",
-							"Вы почти не кровоточите, даже тяжело раненые."
-						],
-						[
-							"4",
-							"Ваше сердце бьётся раз в минуту. Это событие иногда застаёт вас врасплох."
-						],
-						[
-							"5",
-							"Вам трудно вспомнить, что с живыми существами и трупами следует обращаться по-разному."
-						],
-						[
-							"6",
-							"Вы моргнули. Один раз. На прошлой неделе."
-						]
-					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Теневые заклинания|Sorcerer, Revitalized|SorcererRevitalized|Shadow|SorcererRevitalized|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of the Dark|Sorcerer||Shadow|XGE|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Strength of the Grave|Sorcerer||Shadow|XGE|1"
-				}
-			]
-		},
-		{
-			"name": "Теневые заклинания",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"subclassShortName": "Тень",
-			"subclassSource": "SorcererRevitalized",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице «Теневые заклинания». Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается в числе известных вам заклинаний чародея.",
-				"Каждый раз, когда вы получаете уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter illusion or a necromancy spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=I;N|level=1;2;3;4;5}.",
-				{
-					"type": "table",
-					"caption": "Теневые заклинания",
-					"colLabels": [
-						"Уровень чародея",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell hex}, {@spell inflict wounds}"
-						],
-						[
-							"3-й",
-							"{@spell pass without trace}, {@spell shadow blade|XGE}"
-						],
-						[
-							"5-й",
-							"{@spell feign death}, {@spell vampiric touch}"
-						],
-						[
-							"7-й",
-							"{@spell blight}, {@spell shadow of moil|XGE}"
-						],
-						[
-							"9-й",
-							"{@spell negative energy flood|XGE}, {@spell seeming}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Штормовое колдовство",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"subclassShortName": "Шторм",
-			"subclassSource": "SorcererRevitalized",
-			"level": 1,
-			"entries": [
-				"Ваша врождённая магия происходит от силы элементального воздуха. Многие с этой силой возводят своё колдовство к околосмертному опыту, вызванному Великим дождём, но, возможно, вы родились во время завывающего шквала, столь могущественного, что о нём до сих пор рассказывают истории, или в вашей родословной есть влияние могущественных воздушных существ, таких как джинны. Как бы то ни было, магия шторма пронизывает всё ваше существо.",
-				"Штормовые чародеи — бесценные члены экипажа корабля. Их магия позволяет им управлять ветром и погодой в непосредственной близости. Их способности также полезны для отражения атак сахуагинов, пиратов и других водных угроз.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Магия шторма|Sorcerer, Revitalized|SorcererRevitalized|Storm|SorcererRevitalized|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Wind Speaker|Sorcerer||Storm|XGE|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tempestuous Magic|Sorcerer||Storm|XGE|1"
-				}
-			]
-		},
-		{
-			"name": "Магия шторма",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"subclassShortName": "Шторм",
-			"subclassSource": "SorcererRevitalized",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице «Заклинания бури». Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается в числе известных вам заклинаний чародея.",
-				"Каждый раз, когда вы получаете уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter conjuration or an evocation spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=C;E|level=1;2;3;4;5}.",
-				{
-					"type": "table",
-					"caption": "Заклинания бури",
-					"colLabels": [
-						"Уровень чародея",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell fog cloud}, {@spell thunderwave}"
-						],
-						[
-							"3-й",
-							"{@spell gust of wind}, {@spell levitate}"
-						],
-						[
-							"5-й",
-							"{@spell lightning bolt}, {@spell thunder step|XGE}"
-						],
-						[
-							"7-й",
-							"{@spell storm sphere|XGE}, {@spell watery sphere|XGE}"
-						],
-						[
-							"9-й",
-							"{@spell control winds|XGE}, {@spell maelstrom|XGE}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Дикая магия",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"subclassShortName": "Дикий",
-			"subclassSource": "SorcererRevitalized",
-			"level": 1,
-			"entries": [
-				"Ваша врождённая магия происходит от диких сил хаоса, лежащих в основе порядка мироздания. Возможно, вы пережили воздействие некой формы сырой магии — например, через планарный портал, ведущий в Лимбо, Элементарные планы или загадочный Дальний предел. Возможно, вас благословило могущественное фейское существо или отметил демон. Или ваша магия может быть случайностью вашего рождения, без видимой причины. Как бы она ни появилась, этот хаотический дар бурлит внутри вас, ожидая любого выхода.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Дикие заклинания|Sorcerer, Revitalized|SorcererRevitalized|Wild|SorcererRevitalized|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Magic Surge|Sorcerer||Wild||1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tides of Chaos|Sorcerer||Wild||1"
-				}
-			]
-		},
-		{
-			"name": "Дикие заклинания",
-			"source": "SorcererRevitalized",
-			"className": "Sorcerer, Revitalized",
-			"classSource": "SorcererRevitalized",
-			"subclassShortName": "Дикий",
-			"subclassSource": "SorcererRevitalized",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице «Дикие заклинания». Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается в числе известных вам заклинаний чародея.",
-				"Каждый раз, когда вы получаете уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter enchantment or a transmutation spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=E;T|level=1;2;3;4;5}.",
-				{
-					"type": "table",
-					"caption": "Дикие заклинания",
-					"colLabels": [
-						"Уровень чародея",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell chaos bolt|XGE}, {@spell color spray}"
-						],
-						[
-							"3-й",
-							"{@spell enlarge/reduce}, {@spell mirror image}"
-						],
-						[
-							"5-й",
-							"{@spell enemies abound|XGE}, {@spell hypnotic pattern}"
-						],
-						[
-							"7-й",
-							"{@spell confusion}, {@spell polymorph}"
-						],
-						[
-							"9-й",
-							"{@spell animate objects}, {@spell mislead}"
-						]
-					]
-				}
-			]
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "SorcererRevitalized",
+        "abbreviation": "SRv",
+        "full": "Sorcerer, Revitalized",
+        "version": "0.2",
+        "authors": [
+          "DXHHH101",
+          "Sinder",
+          "Superxavman"
+        ],
+        "convertedBy": [
+          "DXHHH101"
+        ],
+        "color": "00b4ff"
+      },
+      {
+        "json": "SorcererRevitalized-TCE",
+        "abbreviation": "TCE",
+        "full": "Sorcerer, Revitalized - Tasha's Cauldron of Everything",
+        "version": "1.0",
+        "authors": [
+          "Wizards of the Coast"
+        ],
+        "targetSchema": "1.0.0"
+      },
+      {
+        "json": "SorcererRevitalized-XGE",
+        "abbreviation": "XGE",
+        "full": "Sorcerer, Revitalized - Xanathar's Guide to Everything",
+        "version": "1.0",
+        "authors": [
+          "Wizards of the Coast"
+        ],
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dependencies": {
+      "subclass": [
+        "sorcerer",
+        "OrchardSorcReflourished"
+      ]
+    },
+    "edition": "classic",
+    "dateAdded": 1667009734,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "b902abc71a"
+  },
+  "class": [
+    {
+      "name": "Чародей, обновлённый",
+      "source": "SorcererRevitalized",
+      "hd": {
+        "number": 1,
+        "faces": 6
+      },
+      "proficiency": [
+        "con",
+        "cha"
+      ],
+      "spellcastingAbility": "cha",
+      "casterProgression": "full",
+      "cantripProgression": [
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "spellsKnownProgression": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        12,
+        13,
+        13,
+        14,
+        14,
+        15,
+        15,
+        15,
+        15
+      ],
+      "optionalfeatureProgression": [
+        {
+          "name": "Метамагия",
+          "featureType": [
+            "MM"
+          ],
+          "progression": {
+            "3": 2,
+            "10": 3,
+            "17": 4
+          }
+        }
+      ],
+      "startingProficiencies": {
+        "weapons": [
+          "{@item dagger|phb|кинжалы}",
+          "{@item dart|phb|дротики}",
+          "{@item sling|phb|пращи}",
+          "{@item quarterstaff|phb|боевые посохи}",
+          "{@item light crossbow|phb|лёгкие арбалеты}"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "arcana",
+                "deception",
+                "insight",
+                "intimidation",
+                "persuasion",
+                "religion"
+              ],
+              "count": 2
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 болтов} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+          "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+          "Two {@item dagger|phb|кинжалы}"
+        ],
+        "goldAlternative": "{@dice 3d4 × 10|3d4 × 10|Начальное золото}",
+        "defaultData": [
+          {
+            "a": [
+              "light crossbow|phb",
+              "crossbow bolts (20)|phb"
+            ],
+            "b": [
+              {
+                "equipmentType": "weaponSimple"
+              }
+            ]
+          },
+          {
+            "a": [
+              "component pouch|phb"
+            ],
+            "b": [
+              "arcane focus|phb"
+            ]
+          },
+          {
+            "a": [
+              "dungeoneer's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
+          },
+          {
+            "_": [
+              {
+                "item": "dagger|phb",
+                "quantity": 2
+              }
+            ]
+          }
+        ]
+      },
+      "multiclassing": {
+        "requirements": {
+          "cha": 13
+        }
+      },
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Очки чародейства"
+          ],
+          "rows": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ],
+            [
+              8
+            ],
+            [
+              9
+            ],
+            [
+              10
+            ],
+            [
+              11
+            ],
+            [
+              12
+            ],
+            [
+              13
+            ],
+            [
+              14
+            ],
+            [
+              15
+            ],
+            [
+              16
+            ],
+            [
+              17
+            ],
+            [
+              18
+            ],
+            [
+              19
+            ],
+            [
+              20
+            ]
+          ]
+        },
+        {
+          "colLabels": [
+            "{@filter Cantrips Known|spells|level=0|class=Sorcerer}",
+            "{@filter Spells Known|spells|class=Sorcerer}"
+          ],
+          "rows": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              6,
+              12
+            ],
+            [
+              6,
+              12
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ]
+        },
+        {
+          "title": "Ячейки заклинаний по уровням заклинаний",
+          "colLabels": [
+            "{@filter 1st|spells|level=1|class=Sorcerer}",
+            "{@filter 2nd|spells|level=2|class=Sorcerer}",
+            "{@filter 3rd|spells|level=3|class=Sorcerer}",
+            "{@filter 4th|spells|level=4|class=Sorcerer}",
+            "{@filter 5th|spells|level=5|class=Sorcerer}",
+            "{@filter 6th|spells|level=6|class=Sorcerer}",
+            "{@filter 7th|spells|level=7|class=Sorcerer}",
+            "{@filter 8th|spells|level=8|class=Sorcerer}",
+            "{@filter 9th|spells|level=9|class=Sorcerer}"
+          ],
+          "rowsSpellProgression": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Сотворение заклинаний|Sorcerer, Revitalized|SorcererRevitalized|1",
+        {
+          "classFeature": "Sorcerous Origin|Sorcerer|PHB|1",
+          "gainSubclassFeature": true
+        },
+        "Spell Versatility|Sorcerer|PHB|1|UAClassFeatureVariants",
+        "Font of Magic|Sorcerer|PHB|2",
+        "Font of Magic Options|Sorcerer|PHB|2|UAClassFeatureVariants",
+        "Метамагия|Sorcerer, Revitalized|SorcererRevitalized|3",
+        "Metamagic Options|Sorcerer|PHB|3|UAClassFeatureVariants",
+        "Metamagic Options|Sorcerer|PHB|3|TCE",
+        "Восстановление чародейства|Sorcerer, Revitalized|SorcererRevitalized|3",
+        "Ability Score Improvement|Sorcerer|PHB|4",
+        "Proficiency Versatility|Sorcerer|PHB|4|UAClassFeatureVariants",
+        "Гибкость заговоров|Sorcerer, Revitalized|SorcererRevitalized|4",
+        "Magical Guidance|Sorcerer|PHB|5|TCE",
+        {
+          "classFeature": "Sorcerous Origin feature|Sorcerer|PHB|6",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Sorcerer|PHB|8",
+        "Proficiency Versatility|Sorcerer|PHB|8|UAClassFeatureVariants",
+        "Метамагия|Sorcerer, Revitalized|SorcererRevitalized|10",
+        "Ability Score Improvement|Sorcerer|PHB|12",
+        "Proficiency Versatility|Sorcerer|PHB|12|UAClassFeatureVariants",
+        {
+          "classFeature": "Sorcerous Origin feature|Sorcerer|PHB|14",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Sorcerer|PHB|16",
+        "Proficiency Versatility|Sorcerer|PHB|16|UAClassFeatureVariants",
+        "Метамагия|Sorcerer, Revitalized|SorcererRevitalized|17",
+        {
+          "classFeature": "Sorcerous Origin feature|Sorcerer|PHB|18",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Sorcerer|PHB|19",
+        "Proficiency Versatility|Sorcerer|PHB|19|UAClassFeatureVariants",
+        "Мастерство метамагии|Sorcerer, Revitalized|SorcererRevitalized|20"
+      ],
+      "subclassTitle": "Sorcerous Origin"
+    }
+  ],
+  "subclass": [
+    {
+      "source": "SorcererRevitalized-TCE",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "_copy": {
+        "name": "Аберрантный разум",
+        "source": "TCE",
+        "shortName": "Аберрантный",
+        "className": "Sorcerer",
+        "classSource": "PHB"
+      }
+    },
+    {
+      "source": "SorcererRevitalized-TCE",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "_copy": {
+        "name": "Механическая душа",
+        "source": "TCE",
+        "shortName": "Механическая",
+        "className": "Sorcerer",
+        "classSource": "PHB"
+      }
+    },
+    {
+      "source": "SorcererRevitalized-XGE",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "_copy": {
+        "name": "Божественная душа",
+        "source": "XGE",
+        "shortName": "Божественная",
+        "className": "Sorcerer",
+        "classSource": "PHB"
+      }
+    },
+    {
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "_copy": {
+        "name": "Драконья кровь",
+        "source": "PHB",
+        "shortName": "Драконья",
+        "className": "Sorcerer",
+        "classSource": "PHB"
+      },
+      "additionalSpells": [
+        {
+          "known": {
+            "1": [
+              "absorb elements|XGE",
+              "chromatic orb"
+            ],
+            "3": [
+              "dragon's breath|XGE",
+              "see invisibility"
+            ],
+            "5": [
+              "fear",
+              "fly"
+            ],
+            "7": [
+              "elemental bane|XGE",
+              "freedom of movement"
+            ],
+            "9": [
+              "control winds|XGE",
+              "legend lore"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "see invisibility",
+        "fear",
+        "legend lore",
+        "freedom of movement",
+        "absorb elements|xge",
+        "aganazzar's scorcher|xge",
+        "bigby's hand|phb",
+        "burning hands|phb",
+        "chaos bolt|xge",
+        "chromatic orb|phb",
+        "cone of cold|phb",
+        "continual flame|phb",
+        "darkness|phb",
+        "dawn|xge",
+        "daylight|phb",
+        "earth tremor|xge",
+        "fire shield|phb",
+        "fireball|phb",
+        "flame blade|phb",
+        "frost fingers|idrotf",
+        "gust of wind|phb",
+        "hellish rebuke|phb",
+        "ice storm|phb",
+        "immolation|xge",
+        "jim's magic missile|ai",
+        "leomund's tiny hut|phb",
+        "lightning bolt|phb",
+        "magic missile|phb",
+        "melf's acid arrow|phb",
+        "melf's minute meteors|xge",
+        "otiluke's resilient sphere|phb",
+        "rime's binding ice|ftd",
+        "scorching ray|phb",
+        "sending|phb",
+        "shatter|phb",
+        "sickening radiance|xge",
+        "snilloc's snowball swarm|xge",
+        "storm sphere|xge",
+        "tasha's caustic brew|tce",
+        "thunderwave|phb",
+        "vitriolic sphere|xge",
+        "wall of fire|phb",
+        "wall of force|phb",
+        "wall of light|xge",
+        "wall of sand|xge",
+        "wall of stone|phb",
+        "wall of water|xge",
+        "warding wind|xge",
+        "witch bolt|phb",
+        "alter self|phb",
+        "animate objects|phb",
+        "ashardalon's stride|ftd",
+        "blink|phb",
+        "catapult|xge",
+        "control water|phb",
+        "control winds|xge",
+        "create spelljamming helm|aag",
+        "darkvision|phb",
+        "dragon's breath|xge",
+        "earthbind|xge",
+        "elemental bane|xge",
+        "enhance ability|phb",
+        "enlarge%2freduce|phb",
+        "erupting earth|xge",
+        "expeditious retreat|phb",
+        "fabricate|phb",
+        "feather fall|phb",
+        "flame arrows|xge",
+        "fly|phb",
+        "gaseous form|phb",
+        "haste|phb",
+        "jump|phb",
+        "kinetic jaunt|scc",
+        "knock|phb",
+        "levitate|phb",
+        "longstrider|phb",
+        "magic weapon|phb",
+        "maximilian's earthen grasp|xge",
+        "passwall|phb",
+        "polymorph|phb",
+        "pyrotechnics|xge",
+        "rope trick|phb",
+        "skill empowerment|xge",
+        "skywrite|xge",
+        "slow|phb",
+        "spider climb|phb",
+        "stone shape|phb",
+        "telekinesis|phb",
+        "tiny servant|xge",
+        "transmute rock|xge",
+        "water breathing|phb",
+        "water walk|phb"
+      ],
+      "subclassFeatures": [
+        "Драконье происхождение|Sorcerer, Revitalized|SorcererRevitalized|Draconic|SorcererRevitalized|1",
+        "Elemental Affinity|Sorcerer||Draconic||6",
+        "Dragon Wings|Sorcerer||Draconic||14",
+        "Draconic Presence|Sorcerer||Draconic||18"
+      ]
+    },
+    {
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "_copy": {
+        "name": "Магия тени",
+        "source": "XGE",
+        "shortName": "Тень",
+        "className": "Sorcerer",
+        "classSource": "PHB"
+      },
+      "additionalSpells": [
+        {
+          "known": {
+            "1": [
+              "hex",
+              "inflict wounds"
+            ],
+            "3": [
+              "pass without trace",
+              "shadow blade|XGE",
+              "darkness"
+            ],
+            "5": [
+              "feign death",
+              "vampiric touch"
+            ],
+            "7": [
+              "blight",
+              "shadow of moil|XGE"
+            ],
+            "9": [
+              "negative energy flood|XGE",
+              "seeming"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "hex",
+        "pass without trace",
+        "darkness",
+        "blur|phb",
+        "color spray|phb",
+        "creation|phb",
+        "disguise self|phb",
+        "distort value|ai",
+        "dream|phb",
+        "fear|phb",
+        "greater invisibility|phb",
+        "hallucinatory terrain|phb",
+        "hypnotic pattern|phb",
+        "illusory script|phb",
+        "invisibility|phb",
+        "magic mouth|phb",
+        "major image|phb",
+        "mirror image|phb",
+        "mislead|phb",
+        "nathair's mischief|ftd",
+        "nystul's magic aura|phb",
+        "phantasmal force|phb",
+        "phantasmal killer|phb",
+        "phantom steed|phb",
+        "seeming|phb",
+        "shadow blade|xge",
+        "silent image|phb",
+        "animate dead|phb",
+        "bestow curse|phb",
+        "blight|phb",
+        "blindness%2fdeafness|phb",
+        "cause fear|xge",
+        "danse macabre|xge",
+        "enervation|xge",
+        "false life|phb",
+        "feign death|phb",
+        "gentle repose|phb",
+        "life transference|xge",
+        "negative energy flood|xge",
+        "ray of enfeeblement|phb",
+        "ray of sickness|phb",
+        "shadow of moil|xge",
+        "speak with dead|phb",
+        "spirit shroud|tce",
+        "summon undead|tce",
+        "vampiric touch|phb",
+        "wither and bloom|scc"
+      ],
+      "subclassFeatures": [
+        "Теневая магия|Sorcerer, Revitalized|SorcererRevitalized|Shadow|SorcererRevitalized|1",
+        "Hound of Ill Omen|Sorcerer||Shadow|XGE|6",
+        "Shadow Walk|Sorcerer||Shadow|XGE|14",
+        "Umbral Form|Sorcerer||Shadow|XGE|18"
+      ]
+    },
+    {
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "_copy": {
+        "name": "Чародейство бури",
+        "source": "XGE",
+        "shortName": "Буря",
+        "className": "Sorcerer",
+        "classSource": "PHB"
+      },
+      "additionalSpells": [
+        {
+          "known": {
+            "1": [
+              "fog cloud",
+              "thunderwave"
+            ],
+            "3": [
+              "gust of wind",
+              "levitate"
+            ],
+            "5": [
+              "lightning bolt",
+              "thunder step|XGE"
+            ],
+            "7": [
+              "storm sphere|XGE",
+              "watery sphere|XGE"
+            ],
+            "9": [
+              "control winds|XGE",
+              "maelstrom|XGE"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "control winds|xge",
+        "levitate|phb",
+        "aganazzar's scorcher|xge",
+        "air bubble|aag",
+        "arms of hadar|phb",
+        "bigby's hand|phb",
+        "burning hands|phb",
+        "chaos bolt|xge",
+        "chromatic orb|phb",
+        "cloud of daggers|phb",
+        "cloudkill|phb",
+        "cone of cold|phb",
+        "conjure elemental|phb",
+        "conjure minor elementals|phb",
+        "continual flame|phb",
+        "darkness|phb",
+        "dawn|xge",
+        "daylight|phb",
+        "dimension door|phb",
+        "dust devil|xge",
+        "earth tremor|xge",
+        "evard's black tentacles|phb",
+        "far step|xge",
+        "find familiar|phb",
+        "fire shield|phb",
+        "fireball|phb",
+        "flame blade|phb",
+        "flaming sphere|phb",
+        "fog cloud|phb",
+        "frost fingers|idrotf",
+        "grease|phb",
+        "gust of wind|phb",
+        "hellish rebuke|phb",
+        "hunger of hadar|phb",
+        "ice knife|xge",
+        "ice storm|phb",
+        "immolation|xge",
+        "infernal calling|xge",
+        "insect plague|phb",
+        "jim's magic missile|ai",
+        "leomund's secret chest|phb",
+        "leomund's tiny hut|phb",
+        "lightning bolt|phb",
+        "magic missile|phb",
+        "melf's acid arrow|phb",
+        "melf's minute meteors|xge",
+        "misty step|phb",
+        "mordenkainen's faithful hound|phb",
+        "otiluke's resilient sphere|phb",
+        "rime's binding ice|ftd",
+        "scorching ray|phb",
+        "sending|phb",
+        "shatter|phb",
+        "sickening radiance|xge",
+        "sleet storm|phb",
+        "snilloc's snowball swarm|xge",
+        "steel wind strike|xge",
+        "stinking cloud|phb",
+        "storm sphere|xge",
+        "summon aberration|tce",
+        "summon construct|tce",
+        "summon draconic spirit|ftd",
+        "summon elemental|tce",
+        "summon fey|tce",
+        "summon greater demon|xge",
+        "summon lesser demons|xge",
+        "summon shadowspawn|tce",
+        "tasha's caustic brew|tce",
+        "teleportation circle|phb",
+        "tenser's floating disk|phb",
+        "thunder step|xge",
+        "thunderwave|phb",
+        "tidal wave|xge",
+        "unseen servant|phb",
+        "vitriolic sphere|xge",
+        "vortex warp|scc",
+        "wall of fire|phb",
+        "wall of force|phb",
+        "wall of light|xge",
+        "wall of sand|xge",
+        "wall of stone|phb",
+        "wall of water|xge",
+        "warding wind|xge",
+        "watery sphere|xge",
+        "web|phb",
+        "witch bolt|phb"
+      ],
+      "subclassFeatures": [
+        "Штормовое колдовство|Sorcerer, Revitalized|SorcererRevitalized|Storm|SorcererRevitalized|1",
+        "Heart of the Storm|Sorcerer||Storm|XGE|6",
+        "Storm Guide|Sorcerer||Storm|XGE|6",
+        "Storm's Fury|Sorcerer||Storm|XGE|14",
+        "Wind Soul|Sorcerer||Storm|XGE|18"
+      ]
+    },
+    {
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "_copy": {
+        "name": "Дикая магия",
+        "source": "PHB",
+        "shortName": "Дикая",
+        "className": "Sorcerer",
+        "classSource": "PHB"
+      },
+      "additionalSpells": [
+        {
+          "known": {
+            "1": [
+              "chaos bolt|XGE",
+              "color spray"
+            ],
+            "3": [
+              "enlarge/reduce",
+              "mirror image"
+            ],
+            "5": [
+              "enemies abound|XGE",
+              "hypnotic pattern"
+            ],
+            "7": [
+              "confusion",
+              "polymorph"
+            ],
+            "9": [
+              "animate objects",
+              "mislead"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "chaos bolt|xge",
+        "color spray",
+        "mirror image",
+        "hypnotic pattern",
+        "mislead",
+        "catnap|xge",
+        "charm monster|xge",
+        "charm person|phb",
+        "confusion|phb",
+        "crown of madness|phb",
+        "dominate beast|phb",
+        "dominate person|phb",
+        "enemies abound|xge",
+        "enthrall|phb",
+        "fast friends|ai",
+        "geas|phb",
+        "gift of gab|ai",
+        "hex|phb",
+        "hold monster|phb",
+        "hold person|phb",
+        "incite greed|ai",
+        "jim's glowing coin|ai",
+        "modify memory|phb",
+        "raulothim's psychic lance|ftd",
+        "silvery barbs|scc",
+        "sleep|phb",
+        "suggestion|phb",
+        "synaptic static|xge",
+        "tasha's hideous laughter|phb",
+        "tasha's mind whip|tce",
+        "alter self|phb",
+        "animate objects|phb",
+        "ashardalon's stride|ftd",
+        "blink|phb",
+        "catapult|xge",
+        "control water|phb",
+        "control winds|xge",
+        "create spelljamming helm|aag",
+        "darkvision|phb",
+        "dragon's breath|xge",
+        "earthbind|xge",
+        "elemental bane|xge",
+        "enhance ability|phb",
+        "enlarge%2freduce|phb",
+        "erupting earth|xge",
+        "expeditious retreat|phb",
+        "fabricate|phb",
+        "feather fall|phb",
+        "flame arrows|xge",
+        "fly|phb",
+        "gaseous form|phb",
+        "haste|phb",
+        "jump|phb",
+        "kinetic jaunt|scc",
+        "knock|phb",
+        "levitate|phb",
+        "longstrider|phb",
+        "magic weapon|phb",
+        "maximilian's earthen grasp|xge",
+        "passwall|phb",
+        "polymorph|phb",
+        "pyrotechnics|xge",
+        "rope trick|phb",
+        "skill empowerment|xge",
+        "skywrite|xge",
+        "slow|phb",
+        "spider climb|phb",
+        "stone shape|phb",
+        "telekinesis|phb",
+        "tiny servant|xge",
+        "transmute rock|xge",
+        "water breathing|phb",
+        "water walk|phb"
+      ],
+      "subclassFeatures": [
+        "Дикая магия|Sorcerer, Revitalized|SorcererRevitalized|Wild|SorcererRevitalized|1",
+        "Bend Luck|Sorcerer||Wild||6",
+        "Controlled Chaos|Sorcerer||Wild||14",
+        "Spell Bombardment|Sorcerer||Wild||18"
+      ]
+    },
+    {
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "_copy": {
+        "name": "Происхождение сада",
+        "source": "OrchardSorcReflourished",
+        "shortName": "Садовое",
+        "className": "Sorcerer",
+        "classSource": "PHB"
+      }
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Сотворение заклинаний",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "level": 1,
+      "entries": [
+        "Событие в вашем прошлом или в жизни родителя либо предка оставило на вас неизгладимый след, наполнив вас тайной магией. Этот источник магии, каково бы ни было его происхождение, питает ваши заклинания. Общие правила сотворения заклинаний смотрите в {@book chapter 10|PHB|10}, а {@filter sorcerer spell list|spells|class=sorcerer} — в {@book chapter 11|PHB|11}.",
+        {
+          "type": "entries",
+          "name": "Заговоры",
+          "entries": [
+            "На 1-м уровне вы знаете четыре заговора на свой выбор из списка заклинаний чародея. Вы узнаёте дополнительный заговор чародея на свой выбор на 4-м уровне и ещё один на 10-м."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ячейки заклинаний",
+          "entries": [
+            "Таблица чародея показывает, сколько у вас ячеек заклинаний для сотворения {@filter sorcerer spells|spells|class=sorcerer} 1-го уровня и выше. Чтобы сотворить такое заклинание чародея, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда завершаете продолжительный отдых.",
+            "Например, если вы знаете заклинание 1-го уровня {@spell burning hands} и у вас есть ячейка 1-го и ячейка 2-го уровня, вы можете сотворить {@spell burning hands}, используя любую из них."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Известные заклинания 1-го уровня и выше",
+          "entries": [
+            "Вы знаете два заклинания 1-го уровня на свой выбор из списка заклинаний чародея.",
+            "Вы узнаёте дополнительное заклинание чародея на свой выбор на каждом уровне, кроме 12-го, 14-го, 16-го, 18-го, 19-го и 20-го. Уровень каждого из этих заклинаний должен быть таким, для которого у вас есть ячейки заклинаний. Например, достигнув 3-го уровня в этом классе, вы можете выучить одно новое заклинание 1-го или 2-го уровня.",
+            "Кроме того, получая уровень в этом классе, вы можете выбрать одно известное вам заклинание чародея и заменить его другим заклинанием из списка заклинаний чародея, которое также должно быть такого уровня, для которого у вас есть ячейки заклинаний."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Базовая характеристика для заклинаний",
+          "entries": [
+            "Харизма — ваша способность к сотворению заклинаний для заклинаний чародея, поскольку сила вашей магии опирается на умение проецировать свою волю в мир. Вы используете Харизму всякий раз, когда заклинание ссылается на вашу способность к сотворению заклинаний. Кроме того, вы используете модификатор Харизмы, когда задаёте Сл спасброска для сотворяемого заклинания чародея и когда совершаете им бросок атаки.",
+            {
+              "type": "abilityDc",
+              "name": "Заклинание",
+              "attributes": [
+                "cha"
+              ]
+            },
+            {
+              "type": "abilityAttackMod",
+              "name": "Заклинание",
+              "attributes": [
+                "cha"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ритуальное сотворение",
+          "entries": [
+            "Вы можете сотворить любое известное вам заклинание чародея как ритуал, если у этого заклинания есть метка «ритуал»."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Личный фокус",
+          "entries": [
+            "Когда вы сотворяете свои заклинания чародея, требующие материального компонента, вы можете игнорировать этот компонент, если у него нет стоимости (как, например, алмаз стоимостью не менее 50 зм для заклинания {@spell chromatic orb}) и если он не расходуется."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Метамагия",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "level": 3,
+      "entries": [
+        "На 3-м уровне вы обретаете способность видоизменять свои заклинания под свои нужды. Вы подготавливаете доступные вам варианты метамагии. Для этого выберите два следующих варианта метамагии на свой выбор. Вы можете выбрать ещё один на 10-м и 17-м уровне.",
+        "Вы можете изменить список подготовленных вариантов метамагии, когда завершаете продолжительный отдых. Подготовка нового списка вариантов метамагии требует времени, проведённого в медитации.",
+        "Сотворяя заклинание, вы можете применить к нему только один вариант метамагии, если не указано иное.",
+        {
+          "type": "options",
+          "count": 2,
+          "entries": [
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Careful Spell"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Distant Spell"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Empowered Spell"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Extended Spell"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Heightened Spell"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Quickened Spell"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Subtle Spell"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Twinned Spell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Восстановление чародейства",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "level": 3,
+      "entries": [
+        "Начиная с 3-го уровня вы можете восстанавливать часть своей магической энергии, сосредотачиваясь на внутреннем источнике магии. Во время короткого отдыха вы восстанавливаете количество потраченных очков чародейства, равное половине вашего уровня чародея (округляя вверх). Вы не можете использовать это умение снова, пока не завершите продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Гибкость заговоров",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "level": 4,
+      "isClassFeatureVariant": true,
+      "entries": [
+        "{@i Чародей 4-го уровня {@variantrule optional class features|tce|optional feature}}",
+        "Каждый раз, когда вы получаете в этом классе уровень, дающий умение «Увеличение характеристик», вы можете заменить один заговор, изученный по умению «Сотворение заклинаний» этого класса, другим заговором из {@filter sorcerer spell list|spells|level=0|class=Sorcerer}."
+      ]
+    },
+    {
+      "name": "Метамагия",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "level": 10,
+      "entries": [
+        "На 10-м уровне вы можете подготовить дополнительный вариант метамагии."
+      ]
+    },
+    {
+      "name": "Метамагия",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "level": 17,
+      "entries": [
+        "На 10-м уровне вы можете подготовить дополнительный вариант метамагии."
+      ]
+    },
+    {
+      "name": "Мастерство метамагии",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "level": 20,
+      "entries": [
+        "На 20-м уровне вы в совершенстве освоили свою метамагию и получаете следующие преимущества:",
+        {
+          "type": "list",
+          "items": [
+            "Все ваши варианты метамагии всегда подготовлены.",
+            "Каждый раз, когда вы применяете метамагию к заклинанию, вы можете уменьшить потраченные очки чародейства на 1, но не менее чем до 1.",
+            "Каждый раз, когда вы применяете метамагию, которая стоит 1 очко чародейства (включая уменьшение от этого умения), к заклинанию, вы можете вместо этого применить её бесплатно. Вы можете делать это число раз, равное вашему бонусу мастерства. Вы восстанавливаете потраченные использования, когда завершаете продолжительный отдых."
+          ]
+        }
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Драконье происхождение",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "subclassShortName": "Драконий",
+      "subclassSource": "SorcererRevitalized",
+      "level": 1,
+      "entries": [
+        "Ваша врождённая магия происходит от драконьей магии, смешавшейся с вашей кровью или кровью ваших предков. Чаще всего чародеи с этим происхождением ведут своё родословное древо к могущественному чародею древности, заключившему сделку с драконом или даже заявившему о драконе-родителе. Некоторые из этих родословных хорошо известны в мире, но большинство безвестны. Любой чародей может оказаться первым в новой родословной в результате пакта или иного исключительного обстоятельства.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Драконьи заклинания|Sorcerer, Revitalized|SorcererRevitalized|Draconic|SorcererRevitalized|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Dragon Ancestor|Sorcerer||Draconic||1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Draconic Resilience|Sorcerer||Draconic||1"
+        }
+      ]
+    },
+    {
+      "name": "Драконьи заклинания",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "subclassShortName": "Драконий",
+      "subclassSource": "SorcererRevitalized",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице «Драконьи заклинания». Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается в числе известных вам заклинаний чародея.",
+        "Каждый раз, когда вы получаете уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter evocation or a transmutation spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=V;T|level=1;2;3;4;5}.",
+        {
+          "type": "table",
+          "caption": "Драконьи заклинания",
+          "colLabels": [
+            "Уровень чародея",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell absorb elements|XGE}, {@spell chromatic orb}"
+            ],
+            [
+              "3-й",
+              "{@spell dragon's breath|XGE}, {@spell see invisibility}"
+            ],
+            [
+              "5-й",
+              "{@spell fear}, {@spell fly}"
+            ],
+            [
+              "7-й",
+              "{@spell elemental bane|XGE}, {@spell freedom of movement}"
+            ],
+            [
+              "9-й",
+              "{@spell control winds|XGE}, {@spell legend lore}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Теневая магия",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "subclassShortName": "Тень",
+      "subclassSource": "SorcererRevitalized",
+      "level": 1,
+      "entries": [
+        "Вы — создание тени, ибо ваша врождённая магия происходит из самого Царства Теней. Возможно, вы ведёте свою родословную от существа из того места или, возможно, вы подверглись его гибельной энергии и были ею преображены.",
+        "Сила теневой магии накладывает странную тень на ваше физическое присутствие. Искра жизни, что поддерживает вас, приглушена, словно ей трудно оставаться живой против тёмной энергии, наполняющей вашу душу. По вашему выбору вы можете выбрать или бросить по таблице «Причуды теневого чародея», чтобы создать причуду для своего персонажа.",
+        {
+          "type": "table",
+          "caption": "Причуды теневого чародея",
+          "colLabels": [
+            "d6",
+            "Причуда"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1",
+              "Вы всегда ледяные на ощупь."
+            ],
+            [
+              "2",
+              "Когда вы спите, вы не выглядите дышащим (хотя для выживания вам всё равно нужно дышать)."
+            ],
+            [
+              "3",
+              "Вы почти не кровоточите, даже тяжело раненые."
+            ],
+            [
+              "4",
+              "Ваше сердце бьётся раз в минуту. Это событие иногда застаёт вас врасплох."
+            ],
+            [
+              "5",
+              "Вам трудно вспомнить, что с живыми существами и трупами следует обращаться по-разному."
+            ],
+            [
+              "6",
+              "Вы моргнули. Один раз. На прошлой неделе."
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Теневые заклинания|Sorcerer, Revitalized|SorcererRevitalized|Shadow|SorcererRevitalized|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Eyes of the Dark|Sorcerer||Shadow|XGE|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Strength of the Grave|Sorcerer||Shadow|XGE|1"
+        }
+      ]
+    },
+    {
+      "name": "Теневые заклинания",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "subclassShortName": "Тень",
+      "subclassSource": "SorcererRevitalized",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице «Теневые заклинания». Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается в числе известных вам заклинаний чародея.",
+        "Каждый раз, когда вы получаете уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter illusion or a necromancy spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=I;N|level=1;2;3;4;5}.",
+        {
+          "type": "table",
+          "caption": "Теневые заклинания",
+          "colLabels": [
+            "Уровень чародея",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell hex}, {@spell inflict wounds}"
+            ],
+            [
+              "3-й",
+              "{@spell pass without trace}, {@spell shadow blade|XGE}"
+            ],
+            [
+              "5-й",
+              "{@spell feign death}, {@spell vampiric touch}"
+            ],
+            [
+              "7-й",
+              "{@spell blight}, {@spell shadow of moil|XGE}"
+            ],
+            [
+              "9-й",
+              "{@spell negative energy flood|XGE}, {@spell seeming}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Штормовое колдовство",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "subclassShortName": "Шторм",
+      "subclassSource": "SorcererRevitalized",
+      "level": 1,
+      "entries": [
+        "Ваша врождённая магия происходит от силы элементального воздуха. Многие с этой силой возводят своё колдовство к околосмертному опыту, вызванному Великим дождём, но, возможно, вы родились во время завывающего шквала, столь могущественного, что о нём до сих пор рассказывают истории, или в вашей родословной есть влияние могущественных воздушных существ, таких как джинны. Как бы то ни было, магия шторма пронизывает всё ваше существо.",
+        "Штормовые чародеи — бесценные члены экипажа корабля. Их магия позволяет им управлять ветром и погодой в непосредственной близости. Их способности также полезны для отражения атак сахуагинов, пиратов и других водных угроз.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Магия шторма|Sorcerer, Revitalized|SorcererRevitalized|Storm|SorcererRevitalized|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Wind Speaker|Sorcerer||Storm|XGE|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Tempestuous Magic|Sorcerer||Storm|XGE|1"
+        }
+      ]
+    },
+    {
+      "name": "Магия шторма",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "subclassShortName": "Шторм",
+      "subclassSource": "SorcererRevitalized",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице «Заклинания бури». Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается в числе известных вам заклинаний чародея.",
+        "Каждый раз, когда вы получаете уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter conjuration or an evocation spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=C;E|level=1;2;3;4;5}.",
+        {
+          "type": "table",
+          "caption": "Заклинания бури",
+          "colLabels": [
+            "Уровень чародея",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell fog cloud}, {@spell thunderwave}"
+            ],
+            [
+              "3-й",
+              "{@spell gust of wind}, {@spell levitate}"
+            ],
+            [
+              "5-й",
+              "{@spell lightning bolt}, {@spell thunder step|XGE}"
+            ],
+            [
+              "7-й",
+              "{@spell storm sphere|XGE}, {@spell watery sphere|XGE}"
+            ],
+            [
+              "9-й",
+              "{@spell control winds|XGE}, {@spell maelstrom|XGE}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Дикая магия",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "subclassShortName": "Дикий",
+      "subclassSource": "SorcererRevitalized",
+      "level": 1,
+      "entries": [
+        "Ваша врождённая магия происходит от диких сил хаоса, лежащих в основе порядка мироздания. Возможно, вы пережили воздействие некой формы сырой магии — например, через планарный портал, ведущий в Лимбо, Элементарные планы или загадочный Дальний предел. Возможно, вас благословило могущественное фейское существо или отметил демон. Или ваша магия может быть случайностью вашего рождения, без видимой причины. Как бы она ни появилась, этот хаотический дар бурлит внутри вас, ожидая любого выхода.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Дикие заклинания|Sorcerer, Revitalized|SorcererRevitalized|Wild|SorcererRevitalized|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Wild Magic Surge|Sorcerer||Wild||1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Tides of Chaos|Sorcerer||Wild||1"
+        }
+      ]
+    },
+    {
+      "name": "Дикие заклинания",
+      "source": "SorcererRevitalized",
+      "className": "Sorcerer, Revitalized",
+      "classSource": "SorcererRevitalized",
+      "subclassShortName": "Дикий",
+      "subclassSource": "SorcererRevitalized",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Вы изучаете дополнительные заклинания, достигая определённых уровней в этом классе, как показано в таблице «Дикие заклинания». Каждое из этих заклинаний считается для вас заклинанием чародея, но не учитывается в числе известных вам заклинаний чародея.",
+        "Каждый раз, когда вы получаете уровень чародея, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть {@filter enchantment or a transmutation spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=E;T|level=1;2;3;4;5}.",
+        {
+          "type": "table",
+          "caption": "Дикие заклинания",
+          "colLabels": [
+            "Уровень чародея",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell chaos bolt|XGE}, {@spell color spray}"
+            ],
+            [
+              "3-й",
+              "{@spell enlarge/reduce}, {@spell mirror image}"
+            ],
+            [
+              "5-й",
+              "{@spell enemies abound|XGE}, {@spell hypnotic pattern}"
+            ],
+            [
+              "7-й",
+              "{@spell confusion}, {@spell polymorph}"
+            ],
+            [
+              "9-й",
+              "{@spell animate objects}, {@spell mislead}"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
 }

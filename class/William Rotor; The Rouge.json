@@ -1,2233 +1,2233 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "WRTR",
-				"abbreviation": "WRTR",
-				"full": "The Rouge",
-				"url": "https://www.dmsguild.com/product/299579/The-Rouge",
-				"version": "2020-10-05",
-				"authors": [
-					"William Rotor"
-				],
-				"convertedBy": [
-					"Lxran"
-				],
-				"color": "a61137",
-				"targetSchema": "1.2"
-			}
-		],
-		"optionalFeatureTypes": {
-			"R:FFO": "Rouge; Favoured Face Options"
-		},
-		"edition": "classic",
-		"dateAdded": 1626093519,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "6018574c4e"
-	},
-	"class": [
-		{
-			"name": "Руж",
-			"source": "WRTR",
-			"page": 1,
-			"hd": {
-				"number": 1,
-				"faces": 6
-			},
-			"proficiency": [
-				"wis",
-				"cha"
-			],
-			"spellcastingAbility": "cha",
-			"casterProgression": "full",
-			"preparedSpells": "<$level$> + <$cha_mod$>",
-			"cantripProgression": [
-				3,
-				3,
-				3,
-				4,
-				4,
-				4,
-				4,
-				4,
-				4,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5
-			],
-			"classSpells": [
-				"blade ward",
-				"booming blade|tce",
-				"friends",
-				"guidance",
-				"mending",
-				"prestidigitation",
-				"resistance",
-				"thaumaturgy",
-				"vicious mockery",
-				"absorb elements|xge",
-				"armor of agathys",
-				"charm person",
-				"comprehend languages",
-				"cure wounds",
-				"detect poison and disease",
-				"detect magic",
-				"disguise self",
-				"expeditious retreat",
-				"false life",
-				"feather fall",
-				"jump",
-				"longstrider",
-				"mage armor",
-				"protection from evil and good",
-				"sanctuary",
-				"alter self",
-				"barkskin",
-				"blur",
-				"darkvision",
-				"detect thoughts",
-				"dragon's breath|xge",
-				"enhance ability",
-				"enlarge/reduce",
-				"enthrall",
-				"gentle repose",
-				"invisibility",
-				"mirror image",
-				"pass without trace",
-				"see invisibility",
-				"fear",
-				"feign death",
-				"haste",
-				"meld into stone",
-				"nondetection",
-				"protection from energy",
-				"remove curse",
-				"revivify",
-				"tongues",
-				"vampiric touch",
-				"water breathing",
-				"compulsion",
-				"confusion",
-				"death ward",
-				"divination",
-				"freedom of movement",
-				"greater invisibility",
-				"polymorph",
-				"awaken",
-				"creation",
-				"dream",
-				"modify memory",
-				"passwall",
-				"contingency",
-				"harm",
-				"heal",
-				"sunbeam",
-				"true seeing",
-				"etherealness",
-				"plane shift",
-				"regenerate",
-				"symbol",
-				"clone",
-				"glibness",
-				"mind blank",
-				"telepathy",
-				"astral projection",
-				"foresight",
-				"invulnerability",
-				"shapechange",
-				"time stop"
-			],
-			"startingProficiencies": {
-				"weapons": [
-					"{@item dagger|phb|кинжалы}",
-					"{@item dart|phb|дротики}",
-					"{@item sling|phb|пращи}",
-					"{@item quarterstaff|phb|боевые посохи}",
-					"{@item light crossbow|phb|лёгкие арбалеты}"
-				],
-				"tools": [
-					"{@item disguise kit|phb}",
-					"{@item painter's supplies|phb}"
-				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"acrobatics",
-								"arcana",
-								"deception",
-								"history",
-								"insight",
-								"intimidation",
-								"perception",
-								"performance",
-								"persuasion",
-								"religion",
-								"sleight of hand",
-								"stealth"
-							],
-							"count": 4
-						}
-					}
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(а) 2 {@item dagger|phb|кинжала} или (б) {@item quarterstaff|phb}",
-					"(а) {@item light crossbow|phb} и {@item crossbow bolts (20)|phb|20 болтов} или (б) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) an {@item entertainer's pack|phb} (b) a {@item diplomat's pack|phb}, or (c) an {@item explorer's pack|phb}",
-					"a {@item disguise kit|phb}, a set of {@item painter's supplies|phb}, and a make-up kit"
-				],
-				"defaultData": [
-					{
-						"a": [
-							{
-								"item": "dagger|phb",
-								"quantity": 2
-							}
-						],
-						"b": [
-							"quarterstaff|phb"
-						]
-					},
-					{
-						"a": [
-							"light crossbow|phb",
-							"crossbow bolts (20)|phb"
-						],
-						"b": [
-							{
-								"equipmentType": "weaponSimple"
-							}
-						]
-					},
-					{
-						"a": [
-							"entertainer's pack|phb"
-						],
-						"b": [
-							"diplomat's pack|phb"
-						],
-						"c": [
-							"explorer's pack|phb"
-						]
-					},
-					{
-						"_": [
-							"disguise kit|phb",
-							"painter's supplies|phb",
-							{
-								"special": "make-up kit"
-							}
-						]
-					}
-				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"cha": 13
-				},
-				"proficienciesGained": {
-					"tools": [
-						"{@item disguise kit|phb}",
-						"{@item painter's supplies|phb}"
-					],
-					"skills": [
-						{
-							"choose": {
-								"from": [
-									"acrobatics",
-									"arcana",
-									"deception",
-									"history",
-									"insight",
-									"intimidation",
-									"perception",
-									"performance",
-									"persuasion",
-									"religion",
-									"sleight of hand",
-									"stealth"
-								],
-								"count": 1
-							}
-						}
-					]
-				}
-			},
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"{@filter Cantrips Known|spells|class=Rouge (WRTR)}"
-					],
-					"rows": [
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						]
-					]
-				},
-				{
-					"title": "Ячейки заклинаний по уровням заклинаний",
-					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Rouge (WRTR)}",
-						"{@filter 2nd|spells|level=2|class=Rouge (WRTR)}",
-						"{@filter 3rd|spells|level=3|class=Rouge (WRTR)}",
-						"{@filter 4th|spells|level=4|class=Rouge (WRTR)}",
-						"{@filter 5th|spells|level=5|class=Rouge (WRTR)}",
-						"{@filter 6th|spells|level=6|class=Rouge (WRTR)}",
-						"{@filter 7th|spells|level=7|class=Rouge (WRTR)}",
-						"{@filter 8th|spells|level=8|class=Rouge (WRTR)}",
-						"{@filter 9th|spells|level=9|class=Rouge (WRTR)}"
-					],
-					"rows": [
-						[
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							1,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							2,
-							2,
-							1,
-							1
-						]
-					]
-				}
-			],
-			"classFeatures": [
-				"Виртуоз макияжа|Rouge|WRTR|1",
-				"Сотворение заклинаний|Rouge|WRTR|1",
-				{
-					"classFeature": "Специализация ружа|Rouge|WRTR|2",
-					"gainSubclassFeature": true
-				},
-				{
-					"classFeature": "Избранное лицо|Rouge|WRTR|3",
-					"gainSubclassFeature": true
-				},
-				"Зеркальце, зеркальце|Rouge|WRTR|3",
-				"Увеличение характеристик|Rouge|WRTR|4",
-				"Чернильная магия (1-й)|Rouge|WRTR|5",
-				{
-					"classFeature": "Умение специализации ружа|Rouge|WRTR|6"
-				},
-				"Увеличение характеристик|Rouge|WRTR|8",
-				"Чернильная магия (2-й)|Rouge|WRTR|9",
-				"Чужое лицо|Rouge|WRTR|10",
-				"Увеличение характеристик|Rouge|WRTR|12",
-				{
-					"classFeature": "Умение специализации ружа|Rouge|WRTR|13",
-					"gainSubclassFeature": true
-				},
-				"Комедия и драма|Rouge|WRTR|14",
-				"Чернильная магия (3-й)|Rouge|WRTR|15",
-				"Увеличение характеристик|Rouge|WRTR|16",
-				"Привычное лицо|Rouge|WRTR|18",
-				"Увеличение характеристик|Rouge|WRTR|19",
-				{
-					"classFeature": "Умение специализации ружа|Rouge|WRTR|20",
-					"gainSubclassFeature": true
-				}
-			],
-			"subclassTitle": "Rouge Specialisation",
-			"hasFluff": true
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Руж",
-			"source": "WRTR",
-			"entries": [
-				{
-					"type": "section",
-					"name": "Руж",
-					"source": "WRTR",
-					"page": 8,
-					"entries": [
-						{
-							"type": "section",
-							"name": "Макияж и магия",
-							"page": 8,
-							"entries": [
-								"Сотворение заклинаний с использованием набора для макияжа в качестве фокусировки может выглядеть иначе, чем обычно в игре. Ниже приведены разъяснения и примеры этого.",
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"entries": [
-												{
-													"type": "entries",
-													"name": "Заклинание накладывается на вас самого",
-													"page": 8,
-													"entries": [
-														"Вы наносите макияж на собственное лицо. Например, для {@spell disguise self} вы рисуете на лице подобие маскировки, после чего магия вступает в силу и довершает маскировку."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Заклинание накладывается на союзника и имеет дальность касание",
-													"page": 8,
-													"entries": [
-														"Вы наносите макияж на союзника. Например, {@spell cure wounds} может включать рисование свежей залеченной кожи поверх раны."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Заклинание накладывается на союзника и имеет дальность больше касания",
-													"page": 8,
-													"entries": [
-														"Вы наносите макияж на себя, и магия распространяется на союзников поблизости. Например, вы рисуете тенями «крылатые глаза» как часть {@spell feather fall}, и когда магия вступает в силу, она действует на союзников на ваш выбор так же, как при любых других обстоятельствах. Вы наносите макияж на себя, даже если не являетесь одной из целей заклинания."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Заклинание накладывается на врага и имеет дальность касание",
-													"page": 8,
-													"entries": [
-														"Вы небрежно размазываете макияж по врагу, касаясь его. Например, {@spell bestow curse} может потребовать нарисовать проклятую печать на ладони и шлёпнуть мокрой краской по ровной поверхности на его доспехе."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Заклинание накладывается на врага и имеет дальность больше касания",
-													"page": 8,
-													"entries": [
-														"Вы наносите макияж на своё лицо, а враг взирает на это в ужасе. Например, вы рисуете страшный чудовищный облик, чтобы внушить страх. Некоторые заклинания не требуют, чтобы враг вас видел, и тогда макияж лишь наделяет вас силой наложить заклинание."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Заклинание требует от вас броска дальнобойной атаки",
-													"page": 8,
-													"entries": [
-														"Вы наносите макияж на своё лицо, а затем совершаете бросок атаки, когда магия вступает в силу. Например, вы рисуете на лице ангельский оттенок белого для {@spell guiding bolt}, наполняясь героической энергией, что высвобождается, когда вы указываете на цель."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "У заклинания нет конкретной цели",
-													"page": 8,
-													"entries": [
-														"Вы наносите макияж на своё лицо, и магия истекает из него в мир. Например, макияж, нанесённый как часть {@spell silent image}, может стечь с вашего лица и обратиться в иллюзию, которую создаёт заклинание, или, пока вы накладываете {@spell prestidigitation}, жесты, нужные для вашего макияжа, — взмах кистью или пощипывание носа, — могут отразиться в мире зажигающейся свечой или исчезающим запахом."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Когда сомневаетесь",
-													"page": 8,
-													"entries": [
-														"Вы наносите макияж на своё лицо и накладываете заклинание как обычно."
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Заключительные слова",
-							"page": 98,
-							"entries": [
-								"Есть несколько ключевых соображений, которые стоит учесть, если вы хотите включить класс руж в свою игру, оставаясь верным его изначальному замыслу.",
-								{
-									"type": "list",
-									"items": [
-										"Вы можете по своему желанию решать, как ваш макияж вплетается в заклинания; чем изобретательнее решение, тем лучше.",
-										"Вы можете наносить макияж во время короткого или продолжительного отдыха.",
-										"При необходимости вы можете использовать одну и ту же руку для нанесения макияжа и выполнения соматических компонентов, если ваш Мастер не решит иначе.",
-										"Хотя вы вполне способны наносить макияж другим (и многие ваши заклинания это предполагают), эффекты избранного лица действуют только на вас. Лишь вы сами можете получить пользу от своего лица.",
-										"Нанесение нового макияжа как части заклинания или умения класса не убирает ваше избранное лицо. Эти способности отменяет лишь рисование нового избранного лица или намеренное снятие макияжа.",
-										"Такие заклинания, как {@spell vampiric touch}, и ваш вариант избранного лица «Ядовитый плющ» дают вам надёжный (пусть и небольшой) источник урона, но ожидать, что вы сравни́тесь с чародеем, применяющим метамагию «Раздвоенное заклинание» к {@spell disintegrate}, — значит неверно понимать замысел класса руж, который задуман как социальный и вспомогательный контролёр. Ничего страшного в том, чтобы полагаться на товарищей в вопросах урона, когда вы превосходите их в других областях.",
-										"Многие ваши умения класса работают только пока вы носите макияж. Ваш Мастер может решить, что определённые ситуации — например, продолжительный отдых, купание или нападение {@creature water weird} — снимают ваш макияж. Не спорьте с Мастером; просто воспользуйтесь первой же возможностью потратить минуту и нанести макияж заново. Если вам кажется, что Мастер слишком строг, объясните вне роли, что подразумевается, будто эти возможности всегда у вас под рукой, и снятие макияжа — это как отобрать у воина оружие и доспехи. Дело не в том, что так нельзя, а в том, что перегибать с этим, возможно, противоречит духу игры.",
-										"Самое важное: как и с бардами и очарователями, ваши наступательные способности лучше всего применять против НИПов (и при полном сотрудничестве с вашим Мастером). Всегда соблюдайте общественный договор за своим столом и смотрите на друзей глазами живых игроков прежде, чем персонажей. Если кому-то неприятно, например, что вы накладываете {@spell charm person} на его персонажа, правильный путь — остановиться и заново установить границы. Вы выигрываете игру тогда, когда весело всему столу, а не только вам."
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	],
-	"subclass": [
-		{
-			"name": "Мастер эффектов",
-			"shortName": "Мастер эффектов",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"page": 5,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"2": [
-							"color spray",
-							"silent image"
-						],
-						"3": [
-							"mirror image",
-							"phantasmal force"
-						],
-						"5": [
-							"hypnotic pattern",
-							"major image"
-						],
-						"7": [
-							"hallucinatory terrain",
-							"phantasmal killer"
-						],
-						"9": [
-							"modify memory",
-							"seeming"
-						]
-					},
-					"innate": {
-						"2": [
-							"minor illusion#c",
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"minor illusion",
-				"thuamaturgy",
-				"color spray",
-				"silent image",
-				"mirror image",
-				"phantasmal force",
-				"hypnotic pattern",
-				"major image",
-				"hallucinatory terrain",
-				"phantasmal killer",
-				"modify memory",
-				"seeming"
-			],
-			"subclassFeatures": [
-				"Мастер эффектов|Rouge|WRTR|Мастер эффектов|WRTR|2",
-				"Вариант избранного лица: Особый эффект|Rouge|WRTR|Мастер эффектов|WRTR|3",
-				"Пугающая магия|Rouge|WRTR|Мастер эффектов|WRTR|6",
-				"Таинственные иллюзии|Rouge|WRTR|Мастер эффектов|WRTR|13",
-				"Вы не поверите своим глазам|Rouge|WRTR|Мастер эффектов|WRTR|20"
-			]
-		},
-		{
-			"name": "Модница",
-			"shortName": "Модница",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"page": 5,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"2": [
-							"faerie fire",
-							"guiding bolt"
-						],
-						"3": [
-							"enthrall",
-							"pyrotechnics|xge"
-						],
-						"5": [
-							"daylight",
-							"hypnotic pattern"
-						],
-						"7": [
-							"dominate beast",
-							"hallucinatory terrain"
-						],
-						"9": [
-							"dawn|XGE",
-							"wall of light|xge"
-						]
-					},
-					"innate": {
-						"2": [
-							"dancing lights#c",
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"dancing lights",
-				"thaumaturgy",
-				"faerie fire",
-				"guiding bolt",
-				"enthrall",
-				"pyrotechnics|xge",
-				"daylight",
-				"hypnotic pattern",
-				"dominate beast",
-				"hallucinatory terrain",
-				"dawn|xge",
-				"wall of light|xge"
-			],
-			"subclassFeatures": [
-				"Модница|Rouge|WRTR|Модница|WRTR|2",
-				"Вариант избранного лица: Скользящая модель|Rouge|WRTR|Модница|WRTR|3",
-				"Очаровывающая магия|Rouge|WRTR|Модница|WRTR|6",
-				"Королева бала|Rouge|WRTR|Модница|WRTR|13",
-				"Улучшение королевы бала|Rouge|WRTR|Модница|WRTR|20"
-			]
-		},
-		{
-			"name": "Гот",
-			"shortName": "Гот",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"page": 6,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"2": [
-							"protection from evil and good",
-							"sleep"
-						],
-						"3": [
-							"darkness",
-							"gentle repose"
-						],
-						"5": [
-							"bestow curse",
-							"speak with dead"
-						],
-						"7": [
-							"banishment",
-							"death ward"
-						],
-						"9": [
-							"dispel evil and good",
-							"dream"
-						]
-					},
-					"innate": {
-						"2": [
-							"chill touch#c",
-							"spare the dying#c"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"chill touch",
-				"spare the dying",
-				"protection from evil and good",
-				"sleep",
-				"darkness",
-				"gentle repose",
-				"bestow curse",
-				"speak with dead",
-				"banishment",
-				"dispel evil and good",
-				"dream"
-			],
-			"subclassFeatures": [
-				"Гот|Rouge|WRTR|Гот|WRTR|2",
-				"Вариант избранного лица: Покров смерти|Rouge|WRTR|Гот|WRTR|3",
-				"Пугающая магия|Rouge|WRTR|Гот|WRTR|6",
-				"Ткач кошмаров|Rouge|WRTR|Гот|WRTR|13",
-				"Самые глубокие, самые тёмные страхи|Rouge|WRTR|Гот|WRTR|20"
-			]
-		},
-		{
-			"name": "Милашка",
-			"shortName": "Милашка",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"page": 6,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"2": [
-							"charm person",
-							"enthrall"
-						],
-						"3": [
-							"enthrall",
-							"suggestion"
-						],
-						"5": [
-							"counterspell",
-							"bestow curse"
-						],
-						"7": [
-							"charm monster",
-							"compulsion"
-						],
-						"9": [
-							"geas",
-							"modify memory"
-						]
-					},
-					"innate": {
-						"2": [
-							"friends#c",
-							"guidance#c"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"friends",
-				"guidance",
-				"charm person",
-				"command",
-				"enthrall",
-				"suggestion",
-				"counterspell",
-				"hypnotic pattern",
-				"charm monster",
-				"compulsion",
-				"geas",
-				"modify memory"
-			],
-			"subclassFeatures": [
-				"Милашка|Rouge|WRTR|Милашка|WRTR|2",
-				"Вариант избранного лица: Белая как снег|Rouge|WRTR|Милашка|WRTR|3",
-				"Очаровывающая магия|Rouge|WRTR|Милашка|WRTR|6",
-				"Безграничное обаяние|Rouge|WRTR|Милашка|WRTR|13",
-				"Важно то, что снаружи|Rouge|WRTR|Милашка|WRTR|13",
-				"Неотразимость|Rouge|WRTR|Милашка|WRTR|20"
-			]
-		},
-		{
-			"name": "Клоун",
-			"shortName": "Клоун",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"page": 4,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"2": [
-							"color spray",
-							"tasha's hideous laughter"
-						],
-						"3": [
-							"crown of madness",
-							"magic mouth"
-						],
-						"5": [
-							"fear",
-							"feign death"
-						],
-						"7": [
-							"confusion",
-							"freedom of movement"
-						],
-						"9": [
-							"cloudkill",
-							"dream"
-						]
-					},
-					"innate": {
-						"2": [
-							"friends#c",
-							"vicious mockery#c"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"friends",
-				"vicious mockery",
-				"color spray",
-				"tasha's hideous laughter",
-				"crown of madness",
-				"magic mouth",
-				"fear",
-				"feign death",
-				"confusion",
-				"freedom of movement",
-				"cloudkill",
-				"dream"
-			],
-			"subclassFeatures": [
-				"Клоун|Rouge|WRTR|Клоун|WRTR|2",
-				"Вариант избранного лица: Целый цирк|Rouge|WRTR|Клоун|WRTR|3",
-				"Пугающая магия|Rouge|WRTR|Клоун|WRTR|6",
-				"Просто дурачусь|Rouge|WRTR|Клоун|WRTR|13",
-				"Внезапный карнавал|Rouge|WRTR|Клоун|WRTR|20"
-			]
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Виртуоз макияжа",
-			"source": "WRTR",
-			"page": 3,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 1,
-			"entries": [
-				"Начиная с 1-го уровня ваш бонус мастерства удваивается для любой проверки характеристики, связанной с использованием вашего {@item disguise kit|phb}, {@item painter's supplies|phb} или набора для макияжа."
-			]
-		},
-		{
-			"name": "Сотворение заклинаний",
-			"source": "WRTR",
-			"page": 3,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 1,
-			"entries": [
-				"Ваша способность направлять магию через нанесение макияжа — необычный источник силы в мире, повторяющий эффекты как изучения тайного, так и божественного. Когда вы накладываете заклинания, соматические и материальные компоненты заклинания заменяются нанесением макияжа на себя или цель. Общие правила сотворения заклинаний см. в {@book chapter 10|PHB|10}.",
-				{
-					"type": "entries",
-					"name": "Заговоры",
-					"page": 3,
-					"entries": [
-						"На 1-м уровне вы знаете три заговора на ваш выбор из {@filter rouge spell list|spells|class=Rouge (WRTR)}. Вы изучаете дополнительные заговоры ружа на ваш выбор на более высоких уровнях, как показано в столбце «Известные заговоры» таблицы ружа."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Подготовка и сотворение заклинаний",
-					"page": 3,
-					"entries": [
-						"Таблица ружа показывает, сколько ячеек заклинаний у вас есть для накладывания заклинаний 1-го уровня и выше. Чтобы наложить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний после завершения продолжительного отдыха.",
-						"Вы подготавливаете список заклинаний ружа, доступных вам для накладывания, выбирая из {@filter rouge spell list|spells|class=Rouge (WRTR)}. Делая так, выберите число заклинаний ружа, равное вашему модификатору Харизмы + ваш уровень ружа (минимум одно заклинание). Заклинания должны быть уровня, для которого у вас есть ячейки заклинаний.",
-						"Например, если вы руж 3-го уровня, у вас четыре ячейки заклинаний 1-го уровня и две 2-го уровня. При Харизме 16 ваш список подготовленных заклинаний может включать шесть заклинаний 1-го или 2-го уровня в любом сочетании. Если вы подготовите заклинание 1-го уровня {@spell cure wounds}, вы можете наложить его с помощью ячейки 1-го или 2-го уровня. Наложение заклинания не убирает его из вашего списка подготовленных заклинаний.",
-						"Вы можете изменить свой список подготовленных заклинаний, завершив продолжительный отдых. Подготовка нового списка заклинаний ружа требует времени на расположение набора для макияжа в правильной конфигурации: как минимум 1 минута на уровень для каждого заклинания в вашем списке."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Базовая характеристика для заклинаний",
-					"page": 3,
-					"entries": [
-						"Харизма — ваша способность к сотворению заклинаний для заклинаний ружа. Сила ваших заклинаний происходит от вашего технического мастерства с принадлежностями для макияжа. Вы используете Харизму всякий раз, когда заклинание ружа ссылается на вашу способность к сотворению заклинаний. Кроме того, вы используете модификатор Харизмы, задавая Сл спасброска от заклинаний ружа и совершая бросок атаки им.",
-						{
-							"type": "abilityDc",
-							"name": "Заклинание",
-							"attributes": [
-								"cha"
-							]
-						},
-						{
-							"type": "abilityAttackMod",
-							"name": "Заклинание",
-							"attributes": [
-								"cha"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Заклинательная фокусировка",
-					"page": 3,
-					"entries": [
-						"Вы используете свой набор для макияжа как заклинательную фокусировку для заклинаний ружа, который также может заменять соматические компоненты. Без набора для макияжа вы не можете накладывать заклинания 1-го уровня и выше, но всё ещё можете накладывать заговоры.",
-						"Когда вы накладываете заклинание с материальными компонентами, имеющими стоимость в золоте, вы можете заменить компоненты этого заклинания своим макияжем, но для этого вам нужен специальный, дорогой макияж. Нужный вам специальный макияж стоит столько же, сколько стоили бы материальные компоненты."
-					]
-				}
-			]
-		},
-		{
-			"name": "Специализация ружа",
-			"source": "WRTR",
-			"page": 3,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 2,
-			"entries": [
-				"На 2-м уровне выберите одну специализацию ружа: клоун, мастер эффектов, модница, гот или милашка. Каждая специализация — это свой способ применения вашего мастерства макияжа.",
-				{
-					"type": "entries",
-					"name": "Заклинания специализации",
-					"page": 3,
-					"entries": [
-						"У каждой специализации ружа есть список заклинаний — её заклинания специализации, — которые вы получаете, когда можете накладывать заклинания указанного в описании уровня. Получив заклинание специализации, вы всегда держите его подготовленным, и оно не учитывается в числе заклинаний, которые вы можете подготовить каждый день.",
-						"Если у вас есть заклинание специализации, отсутствующее в списке заклинаний ружа, оно тем не менее является для вас заклинанием ружа."
-					]
-				}
-			]
-		},
-		{
-			"name": "Избранное лицо",
-			"source": "WRTR",
-			"page": 3,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 3,
-			"entries": [
-				"Начиная с 3-го уровня вы можете выбрать избранное лицо из следующего списка. Эффекты действуют лишь пока макияж остаётся на вашем лице, и они не считаются магическими эффектами (например, их нельзя рассеять). Используя зеркало, вы можете сменить избранное лицо, потратив десять непрерывных минут на нанесение нового макияжа.",
-				"Ваша специализация ружа даёт вам дополнительный вариант избранного лица.",
-				{
-					"type": "options",
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Blushing Bride|WRTR"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Eyes of Horus|WRTR"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Empty Doll|WRTR"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Venomous Ivy|WRTR"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Shadowy Stalker|WRTR"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Зеркальце, зеркальце",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 3,
-			"entries": [
-				"Также на 3-м уровне вы обретаете способность создавать зеркала из любого вещества. Выберите блок сыпучих материалов 1 фут на 1 фут, который видите в пределах досягаемости и который является камнем, песком или иным минеральным веществом. Вы создаёте круглое зеркало диаметром не более 1 фута. Это зеркало может включать ручку. Существа и магические предметы этой способностью не затрагиваются."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 4,
-			"entries": [
-				"Достигнув 4-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Чернильная магия (1-й)",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 5,
-			"entries": [
-				"Начиная с 5-го уровня вы можете пополнять свой источник магии, тратя 10 минут на рисование руны на своей коже с помощью набора для макияжа. Вы можете стереть эту руну бонусным действием, чтобы восстановить ячейку заклинаний 1-го уровня. Восполнив ячейку заклинаний этим умением, вы не можете заново нарисовать руну на своём теле, пока не завершите короткий или продолжительный отдых."
-			]
-		},
-		{
-			"name": "Умение специализации ружа",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 6,
-			"entries": [
-				"На 6-м уровне вы получаете одно умение, даруемое вашей Специализацией ружа."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 8,
-			"entries": [
-				"Достигнув 8-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Чернильная магия (2-й)",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 9,
-			"entries": [
-				"На 9-м уровне вы получаете знание, позволяющее нарисовать вторую руну на своей коже. Эта вторая руна действует так же, как первая, но может восполнить ячейку заклинаний 1-го или 2-го уровня."
-			]
-		},
-		{
-			"name": "Чужое лицо",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 10,
-			"entries": [
-				"Начиная с 10-го уровня ваше мастерство макияжа становится сверхъестественным. Изучая лицо гуманоида как минимум 10 минут, вы можете затем потратить ещё 10 минут, чтобы идеально воспроизвести это лицо на своём. Помимо изменения лица, ваша магия также меняет ваш голос в соответствии с ним и может сделать вас ниже или выше вплоть до 1 фута. Эффекты длятся, пока макияж не снят.",
-				"Подозрительное существо может совершить проверку Мудрости ({@skill Insight}), изучая вас, против вашей Сл спасброска от заклинаний, чтобы распознать в вас самозванца. Существо совершает эту проверку с преимуществом, если у него близкие отношения с этим человеком."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 12,
-			"entries": [
-				"Достигнув 12-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Умение специализации ружа",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 13,
-			"entries": [
-				"На 13-м уровне вы получаете одно умение, даруемое вашей Специализацией ружа."
-			]
-		},
-		{
-			"name": "Комедия и драма",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 14,
-			"entries": [
-				"Начиная с 14-го уровня, когда на вас действует заклинание или иной магический эффект, вы можете действием перекрасить лицо, изменив при этом своё выражение. Если вы так делаете, следующий спасбросок, который вы совершаете, чтобы окончить заклинание или эффект, совершается с преимуществом. Это не оканчивает эффекты, зависящие от ношения макияжа. Оно также меняет ваше настроение с оптимистичного на пессимистичное или наоборот."
-			]
-		},
-		{
-			"name": "Чернильная магия (3-й)",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 15,
-			"entries": [
-				"На 15-м уровне вы получаете знание, позволяющее нарисовать третью руну на своей коже. Эта третья руна действует так же, как первая и вторая, но может восполнить ячейку заклинаний 1-го, 2-го или 3-го уровня."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 16,
-			"entries": [
-				"Достигнув 16-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Привычное лицо",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 18,
-			"entries": [
-				"На 18-м уровне вы настолько искусны в рисовании лица, что большая часть ваших магических способностей проявляется без осознанных усилий. Вам не нужно тратить ячейки заклинаний, чтобы накладывать заклинания 1-го уровня из вашего списка заклинаний специализации. Чтобы наложить заклинание более высокого уровня, вы должны потратить соответствующую ячейку заклинаний. Например, клоун может накладывать {@spell color spray} по желанию или потратить ячейку 2-го уровня, чтобы наложить {@spell color spray} более высокого уровня."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 19,
-			"entries": [
-				"Достигнув 19-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Умение специализации ружа",
-			"source": "WRTR",
-			"page": 4,
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"level": 20,
-			"entries": [
-				"На 20-м уровне вы получаете одно умение, даруемое вашей Специализацией ружа."
-			]
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": "Мастер эффектов",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Мастер эффектов",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"entries": [
-				"Мастер эффектов превосходно создаёт спецэффекты и иллюзии. Его макияж простирается в мир перед ним, срываясь с кожи и складываясь в странные и чарующие творения.",
-				{
-					"type": "table",
-					"caption": "Заклинания мастера эффектов",
-					"colLabels": [
-						"Уровень заклинания",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-3 text-center",
-						"col-9"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell color spray}, {@spell silent image}"
-						],
-						[
-							"2-й",
-							"{@spell mirror image}, {@spell phantasmal force}"
-						],
-						[
-							"3-й",
-							"{@spell hypnotic pattern}, {@spell major image}"
-						],
-						[
-							"4-й",
-							"{@spell hallucinatory terrain}, {@spell phantasmal killer}"
-						],
-						[
-							"5-й",
-							"{@spell modify memory}, {@spell seeming}"
-						]
-					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Макияж эффектов|Rouge|WRTR|Мастер эффектов|WRTR|2|WRTR"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Иллюзорный облик|Rouge|WRTR|Мастер эффектов|WRTR|2|WRTR"
-				}
-			]
-		},
-		{
-			"name": "Макияж эффектов",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Мастер эффектов",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell minor illusion} и {@spell thaumaturgy}. Это не учитывается в числе известных вам заговоров."
-			]
-		},
-		{
-			"name": "Иллюзорный облик",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Мастер эффектов",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Начиная с того, как вы выбираете эту специализацию на 2-м уровне, пока вы носите макияж, существа не формируют воспоминаний о вашем лице, если они не невосприимчивы к состоянию {@condition charmed}. Существо может запомнить вас иначе — по одежде, телосложению, поступкам, снаряжению или голосу, — но ваше лицо в его памяти предстаёт размытым пятном. Вы можете выбрать конкретных существ, на которых этот эффект не действует."
-			]
-		},
-		{
-			"name": "Вариант избранного лица: Особый эффект",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Мастер эффектов",
-			"subclassSource": "WRTR",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне этот вариант становится вам доступен.",
-				"Макияж на вашем лице — это изменчивая миазма из форм и цветов. Действием вы можете изменить форму своего макияжа, чтобы создать сцену из своей памяти или воображения, создавая грубое визуальное подобие в пределах возможностей вашего макияжа."
-			]
-		},
-		{
-			"name": "Пугающая магия",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Мастер эффектов",
-			"subclassSource": "WRTR",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition frightened} вас на время действия заклинания, если вы того пожелаете."
-			]
-		},
-		{
-			"name": "Таинственные иллюзии",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Мастер эффектов",
-			"subclassSource": "WRTR",
-			"level": 13,
-			"header": 2,
-			"entries": [
-				"Начиная с 13-го уровня иллюзии, которые вы создаёте с помощью {@spell phantasmal force} и {@spell phantasmal killer}, не имеют ограничения по размеру."
-			]
-		},
-		{
-			"name": "Вы не поверите своим глазам",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Мастер эффектов",
-			"subclassSource": "WRTR",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"Начиная с 20-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, вы можете заставить существо сойти с ума от пережитого вдобавок к эффектам заклинания. Безумие длится {@dice 1d10} минут. Как только существо сошло с ума от этого эффекта, оно не может сойти с ума таким же образом в течение 24 часов. Бросьте по таблице {@table Short-Term Madness|DMG} из «Книги Мастера», чтобы определить безумие цели."
-			]
-		},
-		{
-			"name": "Модница",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Модница",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"entries": [
-				"Модница всегда в центре внимания: она нежится в лучах славы, используя свою магию, чтобы озарить комнату и упиться собственным великолепием.",
-				{
-					"type": "table",
-					"caption": "Заклинания модницы",
-					"colLabels": [
-						"Уровень заклинания",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-3 text-center",
-						"col-9"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell faerie fire}, {@spell guiding bolt}"
-						],
-						[
-							"2-й",
-							"{@spell enthrall}, {@spell pyrotechnics|XGE}"
-						],
-						[
-							"3-й",
-							"{@spell daylight}, {@spell hypnotic pattern}"
-						],
-						[
-							"4-й",
-							"{@spell dominate beast}, {@spell hallucinatory terrain}"
-						],
-						[
-							"5-й",
-							"{@spell dawn|XGE}, {@spell wall of light|XGE}"
-						]
-					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Макияж модницы|Rouge|WRTR|Модница|WRTR|2|WRTR"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Модный образ|Rouge|WRTR|Модница|WRTR|2|WRTR"
-				}
-			]
-		},
-		{
-			"name": "Модный образ",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Модница",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Начиная с того, как вы выбираете эту специализацию на 2-м уровне, пока вы носите макияж, вы можете испускать сияющий свет, излучая яркий свет на расстояние до 10 футов и тусклый свет ещё на 10 футов далее. Существо в ярком свете совершает с помехой броски рукопашных атак по вам, если только не может видеть вас с помощью каких-либо иных чувств. Вы можете отключать или вновь включать этот эффект действием, стирая или заново нанося части макияжа."
-			]
-		},
-		{
-			"name": "Макияж модницы",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Модница",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell dancing lights} и {@spell thaumaturgy}. Это не учитывается в числе известных вам заговоров."
-			]
-		},
-		{
-			"name": "Вариант избранного лица: Скользящая модель",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Модница",
-			"subclassSource": "WRTR",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне этот вариант становится вам доступен.",
-				"Вы совершаете с преимуществом проверки характеристик и спасброски, чтобы избежать того, чтобы вас сбили {@condition prone}, и можете игнорировать эффекты труднопроходимой местности."
-			]
-		},
-		{
-			"name": "Очаровывающая магия",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Модница",
-			"subclassSource": "WRTR",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition charmed} вами на время действия заклинания, если вы того пожелаете."
-			]
-		},
-		{
-			"name": "Королева бала",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Модница",
-			"subclassSource": "WRTR",
-			"level": 13,
-			"header": 2,
-			"entries": [
-				"Начиная с 13-го уровня вы можете действием выбрать существо, которое видите в пределах 60 футов от себя. Цель должна преуспеть в спасброске Мудрости против вашей Сл спасброска от заклинаний, иначе станет {@condition charmed} вами. Пока существо {@condition charmed} таким образом, оно не может воспринимать своим обычным зрением никого, кроме вас. В конце каждого своего хода цель может повторить спасбросок, оканчивая эффекты досрочно при успехе.",
-				"Как только эффекты закончились или цель преуспела в любом спасброске против этого умения, цель получает невосприимчивость к этому умению на 24 часа, а вы должны завершить короткий или продолжительный отдых, прежде чем сможете снова использовать это умение."
-			]
-		},
-		{
-			"name": "Улучшение королевы бала",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Модница",
-			"subclassSource": "WRTR",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"На 20-м уровне, впервые выбирая цель, вы также можете выбрать двух других существ, которых видите в пределах 30 футов от исходной цели, на которых подействует умение. Пока существо {@condition charmed} вами этим умением, вы можете на последующих ходах использовать своё действие, чтобы нацелиться на дополнительных существ, без ограничения на общее число {@condition charmed} существ. Все эффекты заканчиваются через одну минуту после первого применения умения, если не закончились раньше."
-			]
-		},
-		{
-			"name": "Гот",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Гот",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"entries": [
-				"Готы берут под контроль свои кошмары и используют их для борьбы с настоящими ужасами мира. Худшее — не внутри нас. Внутри нас — сила, позволяющая сделать так, чтобы ни один невиновный больше никогда не лежал без сна от страха.",
-				{
-					"type": "table",
-					"caption": "Заклинания гота",
-					"colLabels": [
-						"Уровень заклинания",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-3 text-center",
-						"col-9"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell protection from evil and good}, {@spell sleep}"
-						],
-						[
-							"2-й",
-							"{@spell darkness}, {@spell gentle repose}"
-						],
-						[
-							"3-й",
-							"{@spell bestow curse}, {@spell speak with dead}"
-						],
-						[
-							"4-й",
-							"{@spell banishment}, {@spell death ward}"
-						],
-						[
-							"5-й",
-							"{@spell dispel evil and good}, {@spell dream}"
-						]
-					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Макияж гота|Rouge|WRTR|Гот|WRTR|2|WRTR"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Покрывало тьмы|Rouge|WRTR|Гот|WRTR|2|WRTR"
-				}
-			]
-		},
-		{
-			"name": "Покрывало тьмы",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Гот",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Начиная со 2-го уровня, пока вы носите макияж, вы можете действием слиться с областью тусклого света или тьмы, становясь {@condition invisible} до конца вашего следующего хода или пока вы не совершите бросок атаки или не заставите существо совершить спасбросок. Пока вы {@condition invisible}, ваша скорость равна 0, но вы можете бонусным действием телепортироваться на расстояние до 30 футов в пустое пространство тусклого света или тьмы, которое видите."
-			]
-		},
-		{
-			"name": "Макияж гота",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Гот",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell chill touch} и {@spell spare the dying}. Это не учитывается в числе известных вам заговоров."
-			]
-		},
-		{
-			"name": "Вариант избранного лица: Покров смерти",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Гот",
-			"subclassSource": "WRTR",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне этот вариант становится вам доступен.",
-				"Пока вы неподвижны, вас не отличить от трупа. Существо может совершить проверку Мудрости ({@skill Medicine}) против вашей Сл спасброска от заклинаний, чтобы определить, что вы живы."
-			]
-		},
-		{
-			"name": "Пугающая магия",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Гот",
-			"subclassSource": "WRTR",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition frightened} вас на время действия заклинания, если вы того пожелаете."
-			]
-		},
-		{
-			"name": "Ткач кошмаров",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Гот",
-			"subclassSource": "WRTR",
-			"level": 13,
-			"header": 2,
-			"entries": [
-				"Начиная с 13-го уровня вы можете восстановить ячейку заклинаний 5-го уровня или ниже после накладывания {@spell dream}. Сделав это, вы не можете сделать это снова, пока не завершите продолжительный отдых.",
-				"Кроме того, существо, на которое вы наложили {@spell dream}, особенно восприимчиво к вашему влиянию. В течение следующих 24 часов после провала спасброска против вашего {@spell dream} существо совершает с помехой спасброски Мудрости против заклинаний и других магических эффектов, исходящих от вас."
-			]
-		},
-		{
-			"name": "Самые глубокие, самые тёмные страхи",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Гот",
-			"subclassSource": "WRTR",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"На 20-м уровне вы можете призвать существ тьмы, чтобы одолеть врагов в кошмаре наяву. Действием вы выбираете существо, которое видите в пределах 30 футов от вас. Цель должна преуспеть в спасброске Мудрости против вашей Сл спасброска от заклинаний, иначе её облепят призрачные монстры, связанные с её глубочайшими страхами. Цель становится {@condition petrified} на 1 минуту.",
-				"Призрачные монстры могут принять любую форму. Ниже приведены некоторые примеры.",
-				{
-					"type": "list",
-					"items": [
-						"Змеи обвиваются вокруг ног цели.",
-						"Пауки опутывают цель паутиной.",
-						"Бесы вьются вокруг цели, тыча и поддевая её своими зазубренными копьями, дёргая за волосы и зачитывая из тайного договора всё дурное, что цель совершила.",
-						"Призрачные образы умерших родственников цели кружат вокруг неё, попрекая её за то, что она не оправдала ожиданий.",
-						"Мрачный спектр смерти собственнически укутывает цель в свой плащ. Час близок."
-					]
-				}
-			]
-		},
-		{
-			"name": "Милашка",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Милашка",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"entries": [
-				"Большинство хотели бы быть не просто милашкой, но эти специалистки знают, что им это не обязательно. Их мастерство макияжа делает их привлекательнее и опаснее всех прочих: они приманивают жертв одной лишь притягательностью, а затем используют их и отбрасывают.",
-				{
-					"type": "table",
-					"caption": "Заклинания милашки",
-					"colLabels": [
-						"Уровень заклинания",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-3 text-center",
-						"col-9"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell charm person}, {@spell command}"
-						],
-						[
-							"2-й",
-							"{@spell enthrall}, {@spell suggestion}"
-						],
-						[
-							"3-й",
-							"{@spell counterspell}, {@spell hypnotic pattern}"
-						],
-						[
-							"4-й",
-							"{@spell charm monster}, {@spell compulsion}"
-						],
-						[
-							"5-й",
-							"{@spell geas}, {@spell modify memory}"
-						]
-					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Миленький макияж|Rouge|WRTR|Милашка|WRTR|2|WRTR"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Невозможно устоять|Rouge|WRTR|Милашка|WRTR|2|WRTR"
-				}
-			]
-		},
-		{
-			"name": "Невозможно устоять",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Милашка",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"На 2-м уровне вы получаете владение {@skill Persuasion}, если ещё им не владеете. Вы совершаете с преимуществом проверки Харизмы ({@skill Persuasion}) в социальных ситуациях."
-			]
-		},
-		{
-			"name": "Миленький макияж",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Милашка",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell friends} и {@spell guidance}. Это не учитывается в числе известных вам заговоров."
-			]
-		},
-		{
-			"name": "Вариант избранного лица: Белая как снег",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Милашка",
-			"subclassSource": "WRTR",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне этот вариант становится вам доступен.",
-				"Вы можете общаться простыми идеями с крошечными зверями — такими как птицы, белки и рыбы — с помощью звуков и жестов."
-			]
-		},
-		{
-			"name": "Очаровывающая магия",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Милашка",
-			"subclassSource": "WRTR",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition charmed} вами на время действия заклинания, если вы того пожелаете."
-			]
-		},
-		{
-			"name": "Безграничное обаяние",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Милашка",
-			"subclassSource": "WRTR",
-			"level": 13,
-			"header": 2,
-			"entries": [
-				"Начиная с 13-го уровня, когда результат проверки Харизмы ({@skill Persuasion}) меньше 15, ваш результат становится 15."
-			]
-		},
-		{
-			"name": "Важно то, что снаружи",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Милашка",
-			"subclassSource": "WRTR",
-			"level": 13,
-			"header": 2,
-			"entries": [
-				"Также на 13-м уровне вы можете потратить 1 час, чтобы нанести макияж на союзное существо, которое видите. После нанесения макияжа, пока цель носит его, она обладает вашим умением «Безграничное обаяние». Макияж сам стирается через 8 часов."
-			]
-		},
-		{
-			"name": "Неотразимость",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Милашка",
-			"subclassSource": "WRTR",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"Начиная с 20-го уровня враги совершают с помехой спасброски против ваших заклинаний школы заклятия 1-го уровня или выше."
-			]
-		},
-		{
-			"name": "Клоун",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Клоун",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"entries": [
-				"Клоун — это артист, но в равной мере и фигура ужаса, черпающая из призрачной бледности мёртвых, ярко-красных губ ядовитого жука, запавших глаз раздувшегося трупа, диких волос колючего кустарника и неуклюжих движений марионетки без хозяина.",
-				{
-					"type": "table",
-					"caption": "Заклинания клоуна",
-					"colLabels": [
-						"Уровень заклинания",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-3 text-center",
-						"col-9"
-					],
-					"rows": [
-						[
-							"1-й",
-							"{@spell color spray}, {@spell Tasha's hideous Laughter}"
-						],
-						[
-							"2-й",
-							"{@spell crown of madness}, {@spell magic mouth}"
-						],
-						[
-							"3-й",
-							"{@spell fear}, {@spell feign death}"
-						],
-						[
-							"4-й",
-							"{@spell confusion}, {@spell freedom of movement}"
-						],
-						[
-							"5-й",
-							"{@spell cloudkill}, {@spell dream}"
-						]
-					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Макияж клоуна|Rouge|WRTR|Клоун|WRTR|2|WRTR"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Кувыркающийся шут|Rouge|WRTR|Клоун|WRTR|2|WRTR"
-				}
-			]
-		},
-		{
-			"name": "Макияж клоуна",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Клоун",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell friends} и {@spell vicious mockery}. Это не учитывается в числе известных вам заговоров."
-			]
-		},
-		{
-			"name": "Кувыркающийся шут",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Клоун",
-			"subclassSource": "WRTR",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"Начиная с того, как вы выбираете эту специализацию на 2-м уровне, вы получаете владение {@skill Acrobatics}, если ещё им не владеете.",
-				"Пока вы носите макияж, когда вы получаете урон от падения, вы можете по выбору игнорировать этот урон, если он меньше вашего уровня ружа ×5. Кроме того, пока вы носите макияж, вы можете совершить действие {@action Disengage} бонусным действием."
-			]
-		},
-		{
-			"name": "Вариант избранного лица: Целый цирк",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Клоун",
-			"subclassSource": "WRTR",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне этот вариант становится вам доступен.",
-				"Когда существо попадает по вам рукопашной атакой, ваши пустые глаза и фальшивая улыбка глубоко его пугают. Реакцией вы заставляете существо совершить спасбросок Мудрости против вашей Сл спасброска от заклинаний, и при провале оно становится {@condition frightened} вас до конца вашего следующего хода. Существо, преуспевшее в этом спасброске, получает невосприимчивость к этому эффекту на 24 часа."
-			]
-		},
-		{
-			"name": "Пугающая магия",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Клоун",
-			"subclassSource": "WRTR",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition frightened} вас на время действия заклинания, если вы того пожелаете."
-			]
-		},
-		{
-			"name": "Просто дурачусь",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Клоун",
-			"subclassSource": "WRTR",
-			"level": 13,
-			"header": 2,
-			"entries": [
-				"Начиная с 13-го уровня ваша способность применять {@spell vicious mockery} в бою резко возрастает. Вы можете добавить модификатор Харизмы к урону заклинания, а существо, преуспевшее в спасброске, получает половину урона вместо нуля."
-			]
-		},
-		{
-			"name": "Внезапный карнавал",
-			"source": "WRTR",
-			"className": "Rouge",
-			"classSource": "WRTR",
-			"subclassShortName": "Клоун",
-			"subclassSource": "WRTR",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"Начиная с 20-го уровня у вас есть сила запереть существо в галлюцинаторном карнавальном кошмаре. Когда существо проваливает спасбросок против вашего «Издевательства», вы можете использовать это умение, чтобы мгновенно погрузить существо в свой извращённый карнавал. Это умение не действует на существ, способных видеть сквозь иллюзии, например обладающих {@sense truesight}.",
-				"Существо под действием ошеломлено, а также ослеплено и оглушено к окружению. Эффекты длятся до конца вашего следующего хода, после чего галлюцинации прекращаются, а существо получает {@dice 10d10} психического урона, приходя в себя после пережитого ужаса.",
-				"Использовав это умение, вы не можете использовать его снова, пока не завершите короткий или продолжительный отдых."
-			]
-		}
-	],
-	"optionalfeature": [
-		{
-			"name": "Краснеющая невеста",
-			"source": "WRTR",
-			"page": 3,
-			"featureType": [
-				"R:FFO"
-			],
-			"entries": [
-				"Вы совершаете с преимуществом проверки Харизмы, чтобы флиртовать с гуманоидами."
-			]
-		},
-		{
-			"name": "Пустая кукла",
-			"source": "WRTR",
-			"page": 3,
-			"featureType": [
-				"R:FFO"
-			],
-			"entries": [
-				"Другие существа совершают с помехой проверки Мудрости ({@skill Insight}), чтобы понять ваши мысли или поведение."
-			]
-		},
-		{
-			"name": "Глаза Хора",
-			"source": "WRTR",
-			"page": 3,
-			"featureType": [
-				"R:FFO"
-			],
-			"entries": [
-				"Вы совершаете с преимуществом проверки Мудрости ({@skill Perception}), основанные на зрении.",
-				{
-					"type": "inset",
-					"entries": [
-						"Примечание: этот вариант избранного лица также увеличивает ваш показатель пассивной {@skill Perception} на 5."
-					]
-				}
-			]
-		},
-		{
-			"name": "Скользящая модель",
-			"source": "WRTR",
-			"page": 5,
-			"featureType": [
-				"R:FFO"
-			],
-			"prerequisite": [
-				{
-					"level": {
-						"level": 3,
-						"class": {
-							"name": "Rouge",
-							"source": "WRTR"
-						},
-						"subclass": {
-							"name": "Fashionista",
-							"source": "WRTR",
-							"visible": true
-						}
-					}
-				}
-			],
-			"entries": [
-				"Вы совершаете с преимуществом проверки характеристик и спасброски, чтобы избежать того, чтобы вас сбили {@condition prone}, и можете игнорировать эффекты труднопроходимой местности."
-			]
-		},
-		{
-			"name": "Тенистый охотник",
-			"source": "WRTR",
-			"page": 4,
-			"featureType": [
-				"R:FFO"
-			],
-			"entries": [
-				"Вы можете совершить действие {@action Hide} бонусным действием, находясь в тусклом свете или во тьме."
-			]
-		},
-		{
-			"name": "Особый эффект",
-			"source": "WRTR",
-			"page": 5,
-			"featureType": [
-				"R:FFO"
-			],
-			"prerequisite": [
-				{
-					"level": {
-						"level": 3,
-						"class": {
-							"name": "Rouge",
-							"source": "WRTR"
-						},
-						"subclass": {
-							"name": "Effects Master",
-							"source": "WRTR",
-							"visible": true
-						}
-					}
-				}
-			],
-			"entries": [
-				"Макияж на вашем лице — это изменчивая миазма из форм и цветов. Действием вы можете изменить форму своего макияжа, чтобы создать сцену из своей памяти или воображения, создавая грубое визуальное подобие в пределах возможностей вашего макияжа."
-			]
-		},
-		{
-			"name": "Покров смерти",
-			"source": "WRTR",
-			"page": 6,
-			"featureType": [
-				"R:FFO"
-			],
-			"prerequisite": [
-				{
-					"level": {
-						"level": 3,
-						"class": {
-							"name": "Rouge",
-							"source": "WRTR"
-						},
-						"subclass": {
-							"name": "Goth",
-							"source": "WRTR",
-							"visible": true
-						}
-					}
-				}
-			],
-			"entries": [
-				"Пока вы неподвижны, вас не отличить от трупа. Существо может совершить проверку Мудрости ({@skill Medicine}) против вашей Сл спасброска от заклинаний, чтобы определить, что вы живы."
-			]
-		},
-		{
-			"name": "Целый цирк",
-			"source": "WRTR",
-			"page": 4,
-			"featureType": [
-				"R:FFO"
-			],
-			"prerequisite": [
-				{
-					"level": {
-						"level": 3,
-						"class": {
-							"name": "Rouge",
-							"source": "WRTR"
-						},
-						"subclass": {
-							"name": "The Clown",
-							"source": "WRTR",
-							"visible": true
-						}
-					}
-				}
-			],
-			"entries": [
-				"Когда существо попадает по вам рукопашной атакой, ваши пустые глаза и фальшивая улыбка глубоко его пугают. Реакцией вы заставляете существо совершить спасбросок Мудрости против вашей Сл спасброска от заклинаний, и при провале оно становится {@condition frightened} вас до конца вашего следующего хода. Существо, преуспевшее в этом спасброске, получает невосприимчивость к этому эффекту на 24 часа. Использовав это умение, вы не можете использовать его снова, пока не завершите короткий или продолжительный отдых."
-			]
-		},
-		{
-			"name": "Ядовитый плющ",
-			"source": "WRTR",
-			"page": 3,
-			"featureType": [
-				"R:FFO"
-			],
-			"entries": [
-				"Когда вы действием целуете гуманоида в губы, он получает {@dice 2d8} урона ядом. Этот урон увеличивается до {@dice 3d8} на вашем 5-м уровне ружа, до {@dice 4d8} на 11-м уровне ружа и до {@dice 5d8} на 17-м уровне ружа. Существо, знающее о вашей попытке поцеловать его, может совершить спасбросок Ловкости против вашей Сл спасброска от заклинаний, чтобы избежать поцелуя."
-			]
-		},
-		{
-			"name": "Белая как снег",
-			"source": "WRTR",
-			"page": 7,
-			"featureType": [
-				"R:FFO"
-			],
-			"prerequisite": [
-				{
-					"level": {
-						"level": 3,
-						"class": {
-							"name": "Rouge",
-							"source": "WRTR"
-						},
-						"subclass": {
-							"name": "Pretty Face",
-							"source": "WRTR",
-							"visible": true
-						}
-					}
-				}
-			],
-			"entries": [
-				"Вы можете общаться простыми идеями с крошечными зверями — такими как птицы, белки и рыбы — с помощью звуков и жестов."
-			]
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "WRTR",
+        "abbreviation": "WRTR",
+        "full": "The Rouge",
+        "url": "https://www.dmsguild.com/product/299579/The-Rouge",
+        "version": "2020-10-05",
+        "authors": [
+          "William Rotor"
+        ],
+        "convertedBy": [
+          "Lxran"
+        ],
+        "color": "a61137",
+        "targetSchema": "1.2"
+      }
+    ],
+    "optionalFeatureTypes": {
+      "R:FFO": "Rouge; Favoured Face Options"
+    },
+    "edition": "classic",
+    "dateAdded": 1626093519,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "6018574c4e"
+  },
+  "class": [
+    {
+      "name": "Руж",
+      "source": "WRTR",
+      "page": 1,
+      "hd": {
+        "number": 1,
+        "faces": 6
+      },
+      "proficiency": [
+        "wis",
+        "cha"
+      ],
+      "spellcastingAbility": "cha",
+      "casterProgression": "full",
+      "preparedSpells": "<$level$> + <$cha_mod$>",
+      "cantripProgression": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "classSpells": [
+        "blade ward",
+        "booming blade|tce",
+        "friends",
+        "guidance",
+        "mending",
+        "prestidigitation",
+        "resistance",
+        "thaumaturgy",
+        "vicious mockery",
+        "absorb elements|xge",
+        "armor of agathys",
+        "charm person",
+        "comprehend languages",
+        "cure wounds",
+        "detect poison and disease",
+        "detect magic",
+        "disguise self",
+        "expeditious retreat",
+        "false life",
+        "feather fall",
+        "jump",
+        "longstrider",
+        "mage armor",
+        "protection from evil and good",
+        "sanctuary",
+        "alter self",
+        "barkskin",
+        "blur",
+        "darkvision",
+        "detect thoughts",
+        "dragon's breath|xge",
+        "enhance ability",
+        "enlarge/reduce",
+        "enthrall",
+        "gentle repose",
+        "invisibility",
+        "mirror image",
+        "pass without trace",
+        "see invisibility",
+        "fear",
+        "feign death",
+        "haste",
+        "meld into stone",
+        "nondetection",
+        "protection from energy",
+        "remove curse",
+        "revivify",
+        "tongues",
+        "vampiric touch",
+        "water breathing",
+        "compulsion",
+        "confusion",
+        "death ward",
+        "divination",
+        "freedom of movement",
+        "greater invisibility",
+        "polymorph",
+        "awaken",
+        "creation",
+        "dream",
+        "modify memory",
+        "passwall",
+        "contingency",
+        "harm",
+        "heal",
+        "sunbeam",
+        "true seeing",
+        "etherealness",
+        "plane shift",
+        "regenerate",
+        "symbol",
+        "clone",
+        "glibness",
+        "mind blank",
+        "telepathy",
+        "astral projection",
+        "foresight",
+        "invulnerability",
+        "shapechange",
+        "time stop"
+      ],
+      "startingProficiencies": {
+        "weapons": [
+          "{@item dagger|phb|кинжалы}",
+          "{@item dart|phb|дротики}",
+          "{@item sling|phb|пращи}",
+          "{@item quarterstaff|phb|боевые посохи}",
+          "{@item light crossbow|phb|лёгкие арбалеты}"
+        ],
+        "tools": [
+          "{@item disguise kit|phb}",
+          "{@item painter's supplies|phb}"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "arcana",
+                "deception",
+                "history",
+                "insight",
+                "intimidation",
+                "perception",
+                "performance",
+                "persuasion",
+                "religion",
+                "sleight of hand",
+                "stealth"
+              ],
+              "count": 4
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(а) 2 {@item dagger|phb|кинжала} или (б) {@item quarterstaff|phb}",
+          "(а) {@item light crossbow|phb} и {@item crossbow bolts (20)|phb|20 болтов} или (б) любое {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+          "(a) an {@item entertainer's pack|phb} (b) a {@item diplomat's pack|phb}, or (c) an {@item explorer's pack|phb}",
+          "a {@item disguise kit|phb}, a set of {@item painter's supplies|phb}, and a make-up kit"
+        ],
+        "defaultData": [
+          {
+            "a": [
+              {
+                "item": "dagger|phb",
+                "quantity": 2
+              }
+            ],
+            "b": [
+              "quarterstaff|phb"
+            ]
+          },
+          {
+            "a": [
+              "light crossbow|phb",
+              "crossbow bolts (20)|phb"
+            ],
+            "b": [
+              {
+                "equipmentType": "weaponSimple"
+              }
+            ]
+          },
+          {
+            "a": [
+              "entertainer's pack|phb"
+            ],
+            "b": [
+              "diplomat's pack|phb"
+            ],
+            "c": [
+              "explorer's pack|phb"
+            ]
+          },
+          {
+            "_": [
+              "disguise kit|phb",
+              "painter's supplies|phb",
+              {
+                "special": "make-up kit"
+              }
+            ]
+          }
+        ]
+      },
+      "multiclassing": {
+        "requirements": {
+          "cha": 13
+        },
+        "proficienciesGained": {
+          "tools": [
+            "{@item disguise kit|phb}",
+            "{@item painter's supplies|phb}"
+          ],
+          "skills": [
+            {
+              "choose": {
+                "from": [
+                  "acrobatics",
+                  "arcana",
+                  "deception",
+                  "history",
+                  "insight",
+                  "intimidation",
+                  "perception",
+                  "performance",
+                  "persuasion",
+                  "religion",
+                  "sleight of hand",
+                  "stealth"
+                ],
+                "count": 1
+              }
+            }
+          ]
+        }
+      },
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "{@filter Cantrips Known|spells|class=Rouge (WRTR)}"
+          ],
+          "rows": [
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ]
+          ]
+        },
+        {
+          "title": "Ячейки заклинаний по уровням заклинаний",
+          "colLabels": [
+            "{@filter 1st|spells|level=1|class=Rouge (WRTR)}",
+            "{@filter 2nd|spells|level=2|class=Rouge (WRTR)}",
+            "{@filter 3rd|spells|level=3|class=Rouge (WRTR)}",
+            "{@filter 4th|spells|level=4|class=Rouge (WRTR)}",
+            "{@filter 5th|spells|level=5|class=Rouge (WRTR)}",
+            "{@filter 6th|spells|level=6|class=Rouge (WRTR)}",
+            "{@filter 7th|spells|level=7|class=Rouge (WRTR)}",
+            "{@filter 8th|spells|level=8|class=Rouge (WRTR)}",
+            "{@filter 9th|spells|level=9|class=Rouge (WRTR)}"
+          ],
+          "rows": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Виртуоз макияжа|Rouge|WRTR|1",
+        "Сотворение заклинаний|Rouge|WRTR|1",
+        {
+          "classFeature": "Специализация ружа|Rouge|WRTR|2",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Избранное лицо|Rouge|WRTR|3",
+          "gainSubclassFeature": true
+        },
+        "Зеркальце, зеркальце|Rouge|WRTR|3",
+        "Увеличение характеристик|Rouge|WRTR|4",
+        "Чернильная магия (1-й)|Rouge|WRTR|5",
+        {
+          "classFeature": "Умение специализации ружа|Rouge|WRTR|6"
+        },
+        "Увеличение характеристик|Rouge|WRTR|8",
+        "Чернильная магия (2-й)|Rouge|WRTR|9",
+        "Чужое лицо|Rouge|WRTR|10",
+        "Увеличение характеристик|Rouge|WRTR|12",
+        {
+          "classFeature": "Умение специализации ружа|Rouge|WRTR|13",
+          "gainSubclassFeature": true
+        },
+        "Комедия и драма|Rouge|WRTR|14",
+        "Чернильная магия (3-й)|Rouge|WRTR|15",
+        "Увеличение характеристик|Rouge|WRTR|16",
+        "Привычное лицо|Rouge|WRTR|18",
+        "Увеличение характеристик|Rouge|WRTR|19",
+        {
+          "classFeature": "Умение специализации ружа|Rouge|WRTR|20",
+          "gainSubclassFeature": true
+        }
+      ],
+      "subclassTitle": "Rouge Specialisation",
+      "hasFluff": true
+    }
+  ],
+  "classFluff": [
+    {
+      "name": "Руж",
+      "source": "WRTR",
+      "entries": [
+        {
+          "type": "section",
+          "name": "Руж",
+          "source": "WRTR",
+          "page": 8,
+          "entries": [
+            {
+              "type": "section",
+              "name": "Макияж и магия",
+              "page": 8,
+              "entries": [
+                "Сотворение заклинаний с использованием набора для макияжа в качестве фокусировки может выглядеть иначе, чем обычно в игре. Ниже приведены разъяснения и примеры этого.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Заклинание накладывается на вас самого",
+                          "page": 8,
+                          "entries": [
+                            "Вы наносите макияж на собственное лицо. Например, для {@spell disguise self} вы рисуете на лице подобие маскировки, после чего магия вступает в силу и довершает маскировку."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Заклинание накладывается на союзника и имеет дальность касание",
+                          "page": 8,
+                          "entries": [
+                            "Вы наносите макияж на союзника. Например, {@spell cure wounds} может включать рисование свежей залеченной кожи поверх раны."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Заклинание накладывается на союзника и имеет дальность больше касания",
+                          "page": 8,
+                          "entries": [
+                            "Вы наносите макияж на себя, и магия распространяется на союзников поблизости. Например, вы рисуете тенями «крылатые глаза» как часть {@spell feather fall}, и когда магия вступает в силу, она действует на союзников на ваш выбор так же, как при любых других обстоятельствах. Вы наносите макияж на себя, даже если не являетесь одной из целей заклинания."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Заклинание накладывается на врага и имеет дальность касание",
+                          "page": 8,
+                          "entries": [
+                            "Вы небрежно размазываете макияж по врагу, касаясь его. Например, {@spell bestow curse} может потребовать нарисовать проклятую печать на ладони и шлёпнуть мокрой краской по ровной поверхности на его доспехе."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Заклинание накладывается на врага и имеет дальность больше касания",
+                          "page": 8,
+                          "entries": [
+                            "Вы наносите макияж на своё лицо, а враг взирает на это в ужасе. Например, вы рисуете страшный чудовищный облик, чтобы внушить страх. Некоторые заклинания не требуют, чтобы враг вас видел, и тогда макияж лишь наделяет вас силой наложить заклинание."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Заклинание требует от вас броска дальнобойной атаки",
+                          "page": 8,
+                          "entries": [
+                            "Вы наносите макияж на своё лицо, а затем совершаете бросок атаки, когда магия вступает в силу. Например, вы рисуете на лице ангельский оттенок белого для {@spell guiding bolt}, наполняясь героической энергией, что высвобождается, когда вы указываете на цель."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "У заклинания нет конкретной цели",
+                          "page": 8,
+                          "entries": [
+                            "Вы наносите макияж на своё лицо, и магия истекает из него в мир. Например, макияж, нанесённый как часть {@spell silent image}, может стечь с вашего лица и обратиться в иллюзию, которую создаёт заклинание, или, пока вы накладываете {@spell prestidigitation}, жесты, нужные для вашего макияжа, — взмах кистью или пощипывание носа, — могут отразиться в мире зажигающейся свечой или исчезающим запахом."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Когда сомневаетесь",
+                          "page": 8,
+                          "entries": [
+                            "Вы наносите макияж на своё лицо и накладываете заклинание как обычно."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Заключительные слова",
+              "page": 98,
+              "entries": [
+                "Есть несколько ключевых соображений, которые стоит учесть, если вы хотите включить класс руж в свою игру, оставаясь верным его изначальному замыслу.",
+                {
+                  "type": "list",
+                  "items": [
+                    "Вы можете по своему желанию решать, как ваш макияж вплетается в заклинания; чем изобретательнее решение, тем лучше.",
+                    "Вы можете наносить макияж во время короткого или продолжительного отдыха.",
+                    "При необходимости вы можете использовать одну и ту же руку для нанесения макияжа и выполнения соматических компонентов, если ваш Мастер не решит иначе.",
+                    "Хотя вы вполне способны наносить макияж другим (и многие ваши заклинания это предполагают), эффекты избранного лица действуют только на вас. Лишь вы сами можете получить пользу от своего лица.",
+                    "Нанесение нового макияжа как части заклинания или умения класса не убирает ваше избранное лицо. Эти способности отменяет лишь рисование нового избранного лица или намеренное снятие макияжа.",
+                    "Такие заклинания, как {@spell vampiric touch}, и ваш вариант избранного лица «Ядовитый плющ» дают вам надёжный (пусть и небольшой) источник урона, но ожидать, что вы сравни́тесь с чародеем, применяющим метамагию «Раздвоенное заклинание» к {@spell disintegrate}, — значит неверно понимать замысел класса руж, который задуман как социальный и вспомогательный контролёр. Ничего страшного в том, чтобы полагаться на товарищей в вопросах урона, когда вы превосходите их в других областях.",
+                    "Многие ваши умения класса работают только пока вы носите макияж. Ваш Мастер может решить, что определённые ситуации — например, продолжительный отдых, купание или нападение {@creature water weird} — снимают ваш макияж. Не спорьте с Мастером; просто воспользуйтесь первой же возможностью потратить минуту и нанести макияж заново. Если вам кажется, что Мастер слишком строг, объясните вне роли, что подразумевается, будто эти возможности всегда у вас под рукой, и снятие макияжа — это как отобрать у воина оружие и доспехи. Дело не в том, что так нельзя, а в том, что перегибать с этим, возможно, противоречит духу игры.",
+                    "Самое важное: как и с бардами и очарователями, ваши наступательные способности лучше всего применять против НИПов (и при полном сотрудничестве с вашим Мастером). Всегда соблюдайте общественный договор за своим столом и смотрите на друзей глазами живых игроков прежде, чем персонажей. Если кому-то неприятно, например, что вы накладываете {@spell charm person} на его персонажа, правильный путь — остановиться и заново установить границы. Вы выигрываете игру тогда, когда весело всему столу, а не только вам."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Мастер эффектов",
+      "shortName": "Мастер эффектов",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "page": 5,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "2": [
+              "color spray",
+              "silent image"
+            ],
+            "3": [
+              "mirror image",
+              "phantasmal force"
+            ],
+            "5": [
+              "hypnotic pattern",
+              "major image"
+            ],
+            "7": [
+              "hallucinatory terrain",
+              "phantasmal killer"
+            ],
+            "9": [
+              "modify memory",
+              "seeming"
+            ]
+          },
+          "innate": {
+            "2": [
+              "minor illusion#c",
+              "thaumaturgy#c"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "minor illusion",
+        "thuamaturgy",
+        "color spray",
+        "silent image",
+        "mirror image",
+        "phantasmal force",
+        "hypnotic pattern",
+        "major image",
+        "hallucinatory terrain",
+        "phantasmal killer",
+        "modify memory",
+        "seeming"
+      ],
+      "subclassFeatures": [
+        "Мастер эффектов|Rouge|WRTR|Мастер эффектов|WRTR|2",
+        "Вариант избранного лица: Особый эффект|Rouge|WRTR|Мастер эффектов|WRTR|3",
+        "Пугающая магия|Rouge|WRTR|Мастер эффектов|WRTR|6",
+        "Таинственные иллюзии|Rouge|WRTR|Мастер эффектов|WRTR|13",
+        "Вы не поверите своим глазам|Rouge|WRTR|Мастер эффектов|WRTR|20"
+      ]
+    },
+    {
+      "name": "Модница",
+      "shortName": "Модница",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "page": 5,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "2": [
+              "faerie fire",
+              "guiding bolt"
+            ],
+            "3": [
+              "enthrall",
+              "pyrotechnics|xge"
+            ],
+            "5": [
+              "daylight",
+              "hypnotic pattern"
+            ],
+            "7": [
+              "dominate beast",
+              "hallucinatory terrain"
+            ],
+            "9": [
+              "dawn|XGE",
+              "wall of light|xge"
+            ]
+          },
+          "innate": {
+            "2": [
+              "dancing lights#c",
+              "thaumaturgy#c"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "dancing lights",
+        "thaumaturgy",
+        "faerie fire",
+        "guiding bolt",
+        "enthrall",
+        "pyrotechnics|xge",
+        "daylight",
+        "hypnotic pattern",
+        "dominate beast",
+        "hallucinatory terrain",
+        "dawn|xge",
+        "wall of light|xge"
+      ],
+      "subclassFeatures": [
+        "Модница|Rouge|WRTR|Модница|WRTR|2",
+        "Вариант избранного лица: Скользящая модель|Rouge|WRTR|Модница|WRTR|3",
+        "Очаровывающая магия|Rouge|WRTR|Модница|WRTR|6",
+        "Королева бала|Rouge|WRTR|Модница|WRTR|13",
+        "Улучшение королевы бала|Rouge|WRTR|Модница|WRTR|20"
+      ]
+    },
+    {
+      "name": "Гот",
+      "shortName": "Гот",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "page": 6,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "2": [
+              "protection from evil and good",
+              "sleep"
+            ],
+            "3": [
+              "darkness",
+              "gentle repose"
+            ],
+            "5": [
+              "bestow curse",
+              "speak with dead"
+            ],
+            "7": [
+              "banishment",
+              "death ward"
+            ],
+            "9": [
+              "dispel evil and good",
+              "dream"
+            ]
+          },
+          "innate": {
+            "2": [
+              "chill touch#c",
+              "spare the dying#c"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "chill touch",
+        "spare the dying",
+        "protection from evil and good",
+        "sleep",
+        "darkness",
+        "gentle repose",
+        "bestow curse",
+        "speak with dead",
+        "banishment",
+        "dispel evil and good",
+        "dream"
+      ],
+      "subclassFeatures": [
+        "Гот|Rouge|WRTR|Гот|WRTR|2",
+        "Вариант избранного лица: Покров смерти|Rouge|WRTR|Гот|WRTR|3",
+        "Пугающая магия|Rouge|WRTR|Гот|WRTR|6",
+        "Ткач кошмаров|Rouge|WRTR|Гот|WRTR|13",
+        "Самые глубокие, самые тёмные страхи|Rouge|WRTR|Гот|WRTR|20"
+      ]
+    },
+    {
+      "name": "Милашка",
+      "shortName": "Милашка",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "page": 6,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "2": [
+              "charm person",
+              "enthrall"
+            ],
+            "3": [
+              "enthrall",
+              "suggestion"
+            ],
+            "5": [
+              "counterspell",
+              "bestow curse"
+            ],
+            "7": [
+              "charm monster",
+              "compulsion"
+            ],
+            "9": [
+              "geas",
+              "modify memory"
+            ]
+          },
+          "innate": {
+            "2": [
+              "friends#c",
+              "guidance#c"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "friends",
+        "guidance",
+        "charm person",
+        "command",
+        "enthrall",
+        "suggestion",
+        "counterspell",
+        "hypnotic pattern",
+        "charm monster",
+        "compulsion",
+        "geas",
+        "modify memory"
+      ],
+      "subclassFeatures": [
+        "Милашка|Rouge|WRTR|Милашка|WRTR|2",
+        "Вариант избранного лица: Белая как снег|Rouge|WRTR|Милашка|WRTR|3",
+        "Очаровывающая магия|Rouge|WRTR|Милашка|WRTR|6",
+        "Безграничное обаяние|Rouge|WRTR|Милашка|WRTR|13",
+        "Важно то, что снаружи|Rouge|WRTR|Милашка|WRTR|13",
+        "Неотразимость|Rouge|WRTR|Милашка|WRTR|20"
+      ]
+    },
+    {
+      "name": "Клоун",
+      "shortName": "Клоун",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "page": 4,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "2": [
+              "color spray",
+              "tasha's hideous laughter"
+            ],
+            "3": [
+              "crown of madness",
+              "magic mouth"
+            ],
+            "5": [
+              "fear",
+              "feign death"
+            ],
+            "7": [
+              "confusion",
+              "freedom of movement"
+            ],
+            "9": [
+              "cloudkill",
+              "dream"
+            ]
+          },
+          "innate": {
+            "2": [
+              "friends#c",
+              "vicious mockery#c"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "friends",
+        "vicious mockery",
+        "color spray",
+        "tasha's hideous laughter",
+        "crown of madness",
+        "magic mouth",
+        "fear",
+        "feign death",
+        "confusion",
+        "freedom of movement",
+        "cloudkill",
+        "dream"
+      ],
+      "subclassFeatures": [
+        "Клоун|Rouge|WRTR|Клоун|WRTR|2",
+        "Вариант избранного лица: Целый цирк|Rouge|WRTR|Клоун|WRTR|3",
+        "Пугающая магия|Rouge|WRTR|Клоун|WRTR|6",
+        "Просто дурачусь|Rouge|WRTR|Клоун|WRTR|13",
+        "Внезапный карнавал|Rouge|WRTR|Клоун|WRTR|20"
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Виртуоз макияжа",
+      "source": "WRTR",
+      "page": 3,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 1,
+      "entries": [
+        "Начиная с 1-го уровня ваш бонус мастерства удваивается для любой проверки характеристики, связанной с использованием вашего {@item disguise kit|phb}, {@item painter's supplies|phb} или набора для макияжа."
+      ]
+    },
+    {
+      "name": "Сотворение заклинаний",
+      "source": "WRTR",
+      "page": 3,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 1,
+      "entries": [
+        "Ваша способность направлять магию через нанесение макияжа — необычный источник силы в мире, повторяющий эффекты как изучения тайного, так и божественного. Когда вы накладываете заклинания, соматические и материальные компоненты заклинания заменяются нанесением макияжа на себя или цель. Общие правила сотворения заклинаний см. в {@book chapter 10|PHB|10}.",
+        {
+          "type": "entries",
+          "name": "Заговоры",
+          "page": 3,
+          "entries": [
+            "На 1-м уровне вы знаете три заговора на ваш выбор из {@filter rouge spell list|spells|class=Rouge (WRTR)}. Вы изучаете дополнительные заговоры ружа на ваш выбор на более высоких уровнях, как показано в столбце «Известные заговоры» таблицы ружа."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Подготовка и сотворение заклинаний",
+          "page": 3,
+          "entries": [
+            "Таблица ружа показывает, сколько ячеек заклинаний у вас есть для накладывания заклинаний 1-го уровня и выше. Чтобы наложить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний после завершения продолжительного отдыха.",
+            "Вы подготавливаете список заклинаний ружа, доступных вам для накладывания, выбирая из {@filter rouge spell list|spells|class=Rouge (WRTR)}. Делая так, выберите число заклинаний ружа, равное вашему модификатору Харизмы + ваш уровень ружа (минимум одно заклинание). Заклинания должны быть уровня, для которого у вас есть ячейки заклинаний.",
+            "Например, если вы руж 3-го уровня, у вас четыре ячейки заклинаний 1-го уровня и две 2-го уровня. При Харизме 16 ваш список подготовленных заклинаний может включать шесть заклинаний 1-го или 2-го уровня в любом сочетании. Если вы подготовите заклинание 1-го уровня {@spell cure wounds}, вы можете наложить его с помощью ячейки 1-го или 2-го уровня. Наложение заклинания не убирает его из вашего списка подготовленных заклинаний.",
+            "Вы можете изменить свой список подготовленных заклинаний, завершив продолжительный отдых. Подготовка нового списка заклинаний ружа требует времени на расположение набора для макияжа в правильной конфигурации: как минимум 1 минута на уровень для каждого заклинания в вашем списке."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Базовая характеристика для заклинаний",
+          "page": 3,
+          "entries": [
+            "Харизма — ваша способность к сотворению заклинаний для заклинаний ружа. Сила ваших заклинаний происходит от вашего технического мастерства с принадлежностями для макияжа. Вы используете Харизму всякий раз, когда заклинание ружа ссылается на вашу способность к сотворению заклинаний. Кроме того, вы используете модификатор Харизмы, задавая Сл спасброска от заклинаний ружа и совершая бросок атаки им.",
+            {
+              "type": "abilityDc",
+              "name": "Заклинание",
+              "attributes": [
+                "cha"
+              ]
+            },
+            {
+              "type": "abilityAttackMod",
+              "name": "Заклинание",
+              "attributes": [
+                "cha"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Заклинательная фокусировка",
+          "page": 3,
+          "entries": [
+            "Вы используете свой набор для макияжа как заклинательную фокусировку для заклинаний ружа, который также может заменять соматические компоненты. Без набора для макияжа вы не можете накладывать заклинания 1-го уровня и выше, но всё ещё можете накладывать заговоры.",
+            "Когда вы накладываете заклинание с материальными компонентами, имеющими стоимость в золоте, вы можете заменить компоненты этого заклинания своим макияжем, но для этого вам нужен специальный, дорогой макияж. Нужный вам специальный макияж стоит столько же, сколько стоили бы материальные компоненты."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Специализация ружа",
+      "source": "WRTR",
+      "page": 3,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 2,
+      "entries": [
+        "На 2-м уровне выберите одну специализацию ружа: клоун, мастер эффектов, модница, гот или милашка. Каждая специализация — это свой способ применения вашего мастерства макияжа.",
+        {
+          "type": "entries",
+          "name": "Заклинания специализации",
+          "page": 3,
+          "entries": [
+            "У каждой специализации ружа есть список заклинаний — её заклинания специализации, — которые вы получаете, когда можете накладывать заклинания указанного в описании уровня. Получив заклинание специализации, вы всегда держите его подготовленным, и оно не учитывается в числе заклинаний, которые вы можете подготовить каждый день.",
+            "Если у вас есть заклинание специализации, отсутствующее в списке заклинаний ружа, оно тем не менее является для вас заклинанием ружа."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Избранное лицо",
+      "source": "WRTR",
+      "page": 3,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 3,
+      "entries": [
+        "Начиная с 3-го уровня вы можете выбрать избранное лицо из следующего списка. Эффекты действуют лишь пока макияж остаётся на вашем лице, и они не считаются магическими эффектами (например, их нельзя рассеять). Используя зеркало, вы можете сменить избранное лицо, потратив десять непрерывных минут на нанесение нового макияжа.",
+        "Ваша специализация ружа даёт вам дополнительный вариант избранного лица.",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Blushing Bride|WRTR"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Eyes of Horus|WRTR"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Empty Doll|WRTR"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Venomous Ivy|WRTR"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Shadowy Stalker|WRTR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Зеркальце, зеркальце",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 3,
+      "entries": [
+        "Также на 3-м уровне вы обретаете способность создавать зеркала из любого вещества. Выберите блок сыпучих материалов 1 фут на 1 фут, который видите в пределах досягаемости и который является камнем, песком или иным минеральным веществом. Вы создаёте круглое зеркало диаметром не более 1 фута. Это зеркало может включать ручку. Существа и магические предметы этой способностью не затрагиваются."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 4,
+      "entries": [
+        "Достигнув 4-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Чернильная магия (1-й)",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 5,
+      "entries": [
+        "Начиная с 5-го уровня вы можете пополнять свой источник магии, тратя 10 минут на рисование руны на своей коже с помощью набора для макияжа. Вы можете стереть эту руну бонусным действием, чтобы восстановить ячейку заклинаний 1-го уровня. Восполнив ячейку заклинаний этим умением, вы не можете заново нарисовать руну на своём теле, пока не завершите короткий или продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Умение специализации ружа",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 6,
+      "entries": [
+        "На 6-м уровне вы получаете одно умение, даруемое вашей Специализацией ружа."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 8,
+      "entries": [
+        "Достигнув 8-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Чернильная магия (2-й)",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 9,
+      "entries": [
+        "На 9-м уровне вы получаете знание, позволяющее нарисовать вторую руну на своей коже. Эта вторая руна действует так же, как первая, но может восполнить ячейку заклинаний 1-го или 2-го уровня."
+      ]
+    },
+    {
+      "name": "Чужое лицо",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 10,
+      "entries": [
+        "Начиная с 10-го уровня ваше мастерство макияжа становится сверхъестественным. Изучая лицо гуманоида как минимум 10 минут, вы можете затем потратить ещё 10 минут, чтобы идеально воспроизвести это лицо на своём. Помимо изменения лица, ваша магия также меняет ваш голос в соответствии с ним и может сделать вас ниже или выше вплоть до 1 фута. Эффекты длятся, пока макияж не снят.",
+        "Подозрительное существо может совершить проверку Мудрости ({@skill Insight}), изучая вас, против вашей Сл спасброска от заклинаний, чтобы распознать в вас самозванца. Существо совершает эту проверку с преимуществом, если у него близкие отношения с этим человеком."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 12,
+      "entries": [
+        "Достигнув 12-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Умение специализации ружа",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 13,
+      "entries": [
+        "На 13-м уровне вы получаете одно умение, даруемое вашей Специализацией ружа."
+      ]
+    },
+    {
+      "name": "Комедия и драма",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 14,
+      "entries": [
+        "Начиная с 14-го уровня, когда на вас действует заклинание или иной магический эффект, вы можете действием перекрасить лицо, изменив при этом своё выражение. Если вы так делаете, следующий спасбросок, который вы совершаете, чтобы окончить заклинание или эффект, совершается с преимуществом. Это не оканчивает эффекты, зависящие от ношения макияжа. Оно также меняет ваше настроение с оптимистичного на пессимистичное или наоборот."
+      ]
+    },
+    {
+      "name": "Чернильная магия (3-й)",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 15,
+      "entries": [
+        "На 15-м уровне вы получаете знание, позволяющее нарисовать третью руну на своей коже. Эта третья руна действует так же, как первая и вторая, но может восполнить ячейку заклинаний 1-го, 2-го или 3-го уровня."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 16,
+      "entries": [
+        "Достигнув 16-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Привычное лицо",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 18,
+      "entries": [
+        "На 18-м уровне вы настолько искусны в рисовании лица, что большая часть ваших магических способностей проявляется без осознанных усилий. Вам не нужно тратить ячейки заклинаний, чтобы накладывать заклинания 1-го уровня из вашего списка заклинаний специализации. Чтобы наложить заклинание более высокого уровня, вы должны потратить соответствующую ячейку заклинаний. Например, клоун может накладывать {@spell color spray} по желанию или потратить ячейку 2-го уровня, чтобы наложить {@spell color spray} более высокого уровня."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 19,
+      "entries": [
+        "Достигнув 19-го уровня, вы можете повысить одну характеристику на ваш выбор на 2 либо две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Умение специализации ружа",
+      "source": "WRTR",
+      "page": 4,
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "level": 20,
+      "entries": [
+        "На 20-м уровне вы получаете одно умение, даруемое вашей Специализацией ружа."
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Мастер эффектов",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Мастер эффектов",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "entries": [
+        "Мастер эффектов превосходно создаёт спецэффекты и иллюзии. Его макияж простирается в мир перед ним, срываясь с кожи и складываясь в странные и чарующие творения.",
+        {
+          "type": "table",
+          "caption": "Заклинания мастера эффектов",
+          "colLabels": [
+            "Уровень заклинания",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell color spray}, {@spell silent image}"
+            ],
+            [
+              "2-й",
+              "{@spell mirror image}, {@spell phantasmal force}"
+            ],
+            [
+              "3-й",
+              "{@spell hypnotic pattern}, {@spell major image}"
+            ],
+            [
+              "4-й",
+              "{@spell hallucinatory terrain}, {@spell phantasmal killer}"
+            ],
+            [
+              "5-й",
+              "{@spell modify memory}, {@spell seeming}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Макияж эффектов|Rouge|WRTR|Мастер эффектов|WRTR|2|WRTR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Иллюзорный облик|Rouge|WRTR|Мастер эффектов|WRTR|2|WRTR"
+        }
+      ]
+    },
+    {
+      "name": "Макияж эффектов",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Мастер эффектов",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell minor illusion} и {@spell thaumaturgy}. Это не учитывается в числе известных вам заговоров."
+      ]
+    },
+    {
+      "name": "Иллюзорный облик",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Мастер эффектов",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Начиная с того, как вы выбираете эту специализацию на 2-м уровне, пока вы носите макияж, существа не формируют воспоминаний о вашем лице, если они не невосприимчивы к состоянию {@condition charmed}. Существо может запомнить вас иначе — по одежде, телосложению, поступкам, снаряжению или голосу, — но ваше лицо в его памяти предстаёт размытым пятном. Вы можете выбрать конкретных существ, на которых этот эффект не действует."
+      ]
+    },
+    {
+      "name": "Вариант избранного лица: Особый эффект",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Мастер эффектов",
+      "subclassSource": "WRTR",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне этот вариант становится вам доступен.",
+        "Макияж на вашем лице — это изменчивая миазма из форм и цветов. Действием вы можете изменить форму своего макияжа, чтобы создать сцену из своей памяти или воображения, создавая грубое визуальное подобие в пределах возможностей вашего макияжа."
+      ]
+    },
+    {
+      "name": "Пугающая магия",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Мастер эффектов",
+      "subclassSource": "WRTR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition frightened} вас на время действия заклинания, если вы того пожелаете."
+      ]
+    },
+    {
+      "name": "Таинственные иллюзии",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Мастер эффектов",
+      "subclassSource": "WRTR",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "Начиная с 13-го уровня иллюзии, которые вы создаёте с помощью {@spell phantasmal force} и {@spell phantasmal killer}, не имеют ограничения по размеру."
+      ]
+    },
+    {
+      "name": "Вы не поверите своим глазам",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Мастер эффектов",
+      "subclassSource": "WRTR",
+      "level": 20,
+      "header": 2,
+      "entries": [
+        "Начиная с 20-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, вы можете заставить существо сойти с ума от пережитого вдобавок к эффектам заклинания. Безумие длится {@dice 1d10} минут. Как только существо сошло с ума от этого эффекта, оно не может сойти с ума таким же образом в течение 24 часов. Бросьте по таблице {@table Short-Term Madness|DMG} из «Книги Мастера», чтобы определить безумие цели."
+      ]
+    },
+    {
+      "name": "Модница",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Модница",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "entries": [
+        "Модница всегда в центре внимания: она нежится в лучах славы, используя свою магию, чтобы озарить комнату и упиться собственным великолепием.",
+        {
+          "type": "table",
+          "caption": "Заклинания модницы",
+          "colLabels": [
+            "Уровень заклинания",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell faerie fire}, {@spell guiding bolt}"
+            ],
+            [
+              "2-й",
+              "{@spell enthrall}, {@spell pyrotechnics|XGE}"
+            ],
+            [
+              "3-й",
+              "{@spell daylight}, {@spell hypnotic pattern}"
+            ],
+            [
+              "4-й",
+              "{@spell dominate beast}, {@spell hallucinatory terrain}"
+            ],
+            [
+              "5-й",
+              "{@spell dawn|XGE}, {@spell wall of light|XGE}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Макияж модницы|Rouge|WRTR|Модница|WRTR|2|WRTR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Модный образ|Rouge|WRTR|Модница|WRTR|2|WRTR"
+        }
+      ]
+    },
+    {
+      "name": "Модный образ",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Модница",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Начиная с того, как вы выбираете эту специализацию на 2-м уровне, пока вы носите макияж, вы можете испускать сияющий свет, излучая яркий свет на расстояние до 10 футов и тусклый свет ещё на 10 футов далее. Существо в ярком свете совершает с помехой броски рукопашных атак по вам, если только не может видеть вас с помощью каких-либо иных чувств. Вы можете отключать или вновь включать этот эффект действием, стирая или заново нанося части макияжа."
+      ]
+    },
+    {
+      "name": "Макияж модницы",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Модница",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell dancing lights} и {@spell thaumaturgy}. Это не учитывается в числе известных вам заговоров."
+      ]
+    },
+    {
+      "name": "Вариант избранного лица: Скользящая модель",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Модница",
+      "subclassSource": "WRTR",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне этот вариант становится вам доступен.",
+        "Вы совершаете с преимуществом проверки характеристик и спасброски, чтобы избежать того, чтобы вас сбили {@condition prone}, и можете игнорировать эффекты труднопроходимой местности."
+      ]
+    },
+    {
+      "name": "Очаровывающая магия",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Модница",
+      "subclassSource": "WRTR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition charmed} вами на время действия заклинания, если вы того пожелаете."
+      ]
+    },
+    {
+      "name": "Королева бала",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Модница",
+      "subclassSource": "WRTR",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "Начиная с 13-го уровня вы можете действием выбрать существо, которое видите в пределах 60 футов от себя. Цель должна преуспеть в спасброске Мудрости против вашей Сл спасброска от заклинаний, иначе станет {@condition charmed} вами. Пока существо {@condition charmed} таким образом, оно не может воспринимать своим обычным зрением никого, кроме вас. В конце каждого своего хода цель может повторить спасбросок, оканчивая эффекты досрочно при успехе.",
+        "Как только эффекты закончились или цель преуспела в любом спасброске против этого умения, цель получает невосприимчивость к этому умению на 24 часа, а вы должны завершить короткий или продолжительный отдых, прежде чем сможете снова использовать это умение."
+      ]
+    },
+    {
+      "name": "Улучшение королевы бала",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Модница",
+      "subclassSource": "WRTR",
+      "level": 20,
+      "header": 2,
+      "entries": [
+        "На 20-м уровне, впервые выбирая цель, вы также можете выбрать двух других существ, которых видите в пределах 30 футов от исходной цели, на которых подействует умение. Пока существо {@condition charmed} вами этим умением, вы можете на последующих ходах использовать своё действие, чтобы нацелиться на дополнительных существ, без ограничения на общее число {@condition charmed} существ. Все эффекты заканчиваются через одну минуту после первого применения умения, если не закончились раньше."
+      ]
+    },
+    {
+      "name": "Гот",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Гот",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "entries": [
+        "Готы берут под контроль свои кошмары и используют их для борьбы с настоящими ужасами мира. Худшее — не внутри нас. Внутри нас — сила, позволяющая сделать так, чтобы ни один невиновный больше никогда не лежал без сна от страха.",
+        {
+          "type": "table",
+          "caption": "Заклинания гота",
+          "colLabels": [
+            "Уровень заклинания",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell protection from evil and good}, {@spell sleep}"
+            ],
+            [
+              "2-й",
+              "{@spell darkness}, {@spell gentle repose}"
+            ],
+            [
+              "3-й",
+              "{@spell bestow curse}, {@spell speak with dead}"
+            ],
+            [
+              "4-й",
+              "{@spell banishment}, {@spell death ward}"
+            ],
+            [
+              "5-й",
+              "{@spell dispel evil and good}, {@spell dream}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Макияж гота|Rouge|WRTR|Гот|WRTR|2|WRTR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Покрывало тьмы|Rouge|WRTR|Гот|WRTR|2|WRTR"
+        }
+      ]
+    },
+    {
+      "name": "Покрывало тьмы",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Гот",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Начиная со 2-го уровня, пока вы носите макияж, вы можете действием слиться с областью тусклого света или тьмы, становясь {@condition invisible} до конца вашего следующего хода или пока вы не совершите бросок атаки или не заставите существо совершить спасбросок. Пока вы {@condition invisible}, ваша скорость равна 0, но вы можете бонусным действием телепортироваться на расстояние до 30 футов в пустое пространство тусклого света или тьмы, которое видите."
+      ]
+    },
+    {
+      "name": "Макияж гота",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Гот",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell chill touch} и {@spell spare the dying}. Это не учитывается в числе известных вам заговоров."
+      ]
+    },
+    {
+      "name": "Вариант избранного лица: Покров смерти",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Гот",
+      "subclassSource": "WRTR",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне этот вариант становится вам доступен.",
+        "Пока вы неподвижны, вас не отличить от трупа. Существо может совершить проверку Мудрости ({@skill Medicine}) против вашей Сл спасброска от заклинаний, чтобы определить, что вы живы."
+      ]
+    },
+    {
+      "name": "Пугающая магия",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Гот",
+      "subclassSource": "WRTR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition frightened} вас на время действия заклинания, если вы того пожелаете."
+      ]
+    },
+    {
+      "name": "Ткач кошмаров",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Гот",
+      "subclassSource": "WRTR",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "Начиная с 13-го уровня вы можете восстановить ячейку заклинаний 5-го уровня или ниже после накладывания {@spell dream}. Сделав это, вы не можете сделать это снова, пока не завершите продолжительный отдых.",
+        "Кроме того, существо, на которое вы наложили {@spell dream}, особенно восприимчиво к вашему влиянию. В течение следующих 24 часов после провала спасброска против вашего {@spell dream} существо совершает с помехой спасброски Мудрости против заклинаний и других магических эффектов, исходящих от вас."
+      ]
+    },
+    {
+      "name": "Самые глубокие, самые тёмные страхи",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Гот",
+      "subclassSource": "WRTR",
+      "level": 20,
+      "header": 2,
+      "entries": [
+        "На 20-м уровне вы можете призвать существ тьмы, чтобы одолеть врагов в кошмаре наяву. Действием вы выбираете существо, которое видите в пределах 30 футов от вас. Цель должна преуспеть в спасброске Мудрости против вашей Сл спасброска от заклинаний, иначе её облепят призрачные монстры, связанные с её глубочайшими страхами. Цель становится {@condition petrified} на 1 минуту.",
+        "Призрачные монстры могут принять любую форму. Ниже приведены некоторые примеры.",
+        {
+          "type": "list",
+          "items": [
+            "Змеи обвиваются вокруг ног цели.",
+            "Пауки опутывают цель паутиной.",
+            "Бесы вьются вокруг цели, тыча и поддевая её своими зазубренными копьями, дёргая за волосы и зачитывая из тайного договора всё дурное, что цель совершила.",
+            "Призрачные образы умерших родственников цели кружат вокруг неё, попрекая её за то, что она не оправдала ожиданий.",
+            "Мрачный спектр смерти собственнически укутывает цель в свой плащ. Час близок."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Милашка",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Милашка",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "entries": [
+        "Большинство хотели бы быть не просто милашкой, но эти специалистки знают, что им это не обязательно. Их мастерство макияжа делает их привлекательнее и опаснее всех прочих: они приманивают жертв одной лишь притягательностью, а затем используют их и отбрасывают.",
+        {
+          "type": "table",
+          "caption": "Заклинания милашки",
+          "colLabels": [
+            "Уровень заклинания",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell charm person}, {@spell command}"
+            ],
+            [
+              "2-й",
+              "{@spell enthrall}, {@spell suggestion}"
+            ],
+            [
+              "3-й",
+              "{@spell counterspell}, {@spell hypnotic pattern}"
+            ],
+            [
+              "4-й",
+              "{@spell charm monster}, {@spell compulsion}"
+            ],
+            [
+              "5-й",
+              "{@spell geas}, {@spell modify memory}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Миленький макияж|Rouge|WRTR|Милашка|WRTR|2|WRTR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Невозможно устоять|Rouge|WRTR|Милашка|WRTR|2|WRTR"
+        }
+      ]
+    },
+    {
+      "name": "Невозможно устоять",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Милашка",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "На 2-м уровне вы получаете владение {@skill Persuasion}, если ещё им не владеете. Вы совершаете с преимуществом проверки Харизмы ({@skill Persuasion}) в социальных ситуациях."
+      ]
+    },
+    {
+      "name": "Миленький макияж",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Милашка",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell friends} и {@spell guidance}. Это не учитывается в числе известных вам заговоров."
+      ]
+    },
+    {
+      "name": "Вариант избранного лица: Белая как снег",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Милашка",
+      "subclassSource": "WRTR",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне этот вариант становится вам доступен.",
+        "Вы можете общаться простыми идеями с крошечными зверями — такими как птицы, белки и рыбы — с помощью звуков и жестов."
+      ]
+    },
+    {
+      "name": "Очаровывающая магия",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Милашка",
+      "subclassSource": "WRTR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition charmed} вами на время действия заклинания, если вы того пожелаете."
+      ]
+    },
+    {
+      "name": "Безграничное обаяние",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Милашка",
+      "subclassSource": "WRTR",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "Начиная с 13-го уровня, когда результат проверки Харизмы ({@skill Persuasion}) меньше 15, ваш результат становится 15."
+      ]
+    },
+    {
+      "name": "Важно то, что снаружи",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Милашка",
+      "subclassSource": "WRTR",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "Также на 13-м уровне вы можете потратить 1 час, чтобы нанести макияж на союзное существо, которое видите. После нанесения макияжа, пока цель носит его, она обладает вашим умением «Безграничное обаяние». Макияж сам стирается через 8 часов."
+      ]
+    },
+    {
+      "name": "Неотразимость",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Милашка",
+      "subclassSource": "WRTR",
+      "level": 20,
+      "header": 2,
+      "entries": [
+        "Начиная с 20-го уровня враги совершают с помехой спасброски против ваших заклинаний школы заклятия 1-го уровня или выше."
+      ]
+    },
+    {
+      "name": "Клоун",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Клоун",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "entries": [
+        "Клоун — это артист, но в равной мере и фигура ужаса, черпающая из призрачной бледности мёртвых, ярко-красных губ ядовитого жука, запавших глаз раздувшегося трупа, диких волос колючего кустарника и неуклюжих движений марионетки без хозяина.",
+        {
+          "type": "table",
+          "caption": "Заклинания клоуна",
+          "colLabels": [
+            "Уровень заклинания",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1-й",
+              "{@spell color spray}, {@spell Tasha's hideous Laughter}"
+            ],
+            [
+              "2-й",
+              "{@spell crown of madness}, {@spell magic mouth}"
+            ],
+            [
+              "3-й",
+              "{@spell fear}, {@spell feign death}"
+            ],
+            [
+              "4-й",
+              "{@spell confusion}, {@spell freedom of movement}"
+            ],
+            [
+              "5-й",
+              "{@spell cloudkill}, {@spell dream}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Макияж клоуна|Rouge|WRTR|Клоун|WRTR|2|WRTR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Кувыркающийся шут|Rouge|WRTR|Клоун|WRTR|2|WRTR"
+        }
+      ]
+    },
+    {
+      "name": "Макияж клоуна",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Клоун",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Выбрав эту специализацию на 2-м уровне, пока вы носите макияж, вы знаете {@spell friends} и {@spell vicious mockery}. Это не учитывается в числе известных вам заговоров."
+      ]
+    },
+    {
+      "name": "Кувыркающийся шут",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Клоун",
+      "subclassSource": "WRTR",
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Начиная с того, как вы выбираете эту специализацию на 2-м уровне, вы получаете владение {@skill Acrobatics}, если ещё им не владеете.",
+        "Пока вы носите макияж, когда вы получаете урон от падения, вы можете по выбору игнорировать этот урон, если он меньше вашего уровня ружа ×5. Кроме того, пока вы носите макияж, вы можете совершить действие {@action Disengage} бонусным действием."
+      ]
+    },
+    {
+      "name": "Вариант избранного лица: Целый цирк",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Клоун",
+      "subclassSource": "WRTR",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне этот вариант становится вам доступен.",
+        "Когда существо попадает по вам рукопашной атакой, ваши пустые глаза и фальшивая улыбка глубоко его пугают. Реакцией вы заставляете существо совершить спасбросок Мудрости против вашей Сл спасброска от заклинаний, и при провале оно становится {@condition frightened} вас до конца вашего следующего хода. Существо, преуспевшее в этом спасброске, получает невосприимчивость к этому эффекту на 24 часа."
+      ]
+    },
+    {
+      "name": "Пугающая магия",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Клоун",
+      "subclassSource": "WRTR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Начиная с 6-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний 1-го уровня или выше, существо также становится {@condition frightened} вас на время действия заклинания, если вы того пожелаете."
+      ]
+    },
+    {
+      "name": "Просто дурачусь",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Клоун",
+      "subclassSource": "WRTR",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "Начиная с 13-го уровня ваша способность применять {@spell vicious mockery} в бою резко возрастает. Вы можете добавить модификатор Харизмы к урону заклинания, а существо, преуспевшее в спасброске, получает половину урона вместо нуля."
+      ]
+    },
+    {
+      "name": "Внезапный карнавал",
+      "source": "WRTR",
+      "className": "Rouge",
+      "classSource": "WRTR",
+      "subclassShortName": "Клоун",
+      "subclassSource": "WRTR",
+      "level": 20,
+      "header": 2,
+      "entries": [
+        "Начиная с 20-го уровня у вас есть сила запереть существо в галлюцинаторном карнавальном кошмаре. Когда существо проваливает спасбросок против вашего «Издевательства», вы можете использовать это умение, чтобы мгновенно погрузить существо в свой извращённый карнавал. Это умение не действует на существ, способных видеть сквозь иллюзии, например обладающих {@sense truesight}.",
+        "Существо под действием ошеломлено, а также ослеплено и оглушено к окружению. Эффекты длятся до конца вашего следующего хода, после чего галлюцинации прекращаются, а существо получает {@dice 10d10} психического урона, приходя в себя после пережитого ужаса.",
+        "Использовав это умение, вы не можете использовать его снова, пока не завершите короткий или продолжительный отдых."
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Краснеющая невеста",
+      "source": "WRTR",
+      "page": 3,
+      "featureType": [
+        "R:FFO"
+      ],
+      "entries": [
+        "Вы совершаете с преимуществом проверки Харизмы, чтобы флиртовать с гуманоидами."
+      ]
+    },
+    {
+      "name": "Пустая кукла",
+      "source": "WRTR",
+      "page": 3,
+      "featureType": [
+        "R:FFO"
+      ],
+      "entries": [
+        "Другие существа совершают с помехой проверки Мудрости ({@skill Insight}), чтобы понять ваши мысли или поведение."
+      ]
+    },
+    {
+      "name": "Глаза Хора",
+      "source": "WRTR",
+      "page": 3,
+      "featureType": [
+        "R:FFO"
+      ],
+      "entries": [
+        "Вы совершаете с преимуществом проверки Мудрости ({@skill Perception}), основанные на зрении.",
+        {
+          "type": "inset",
+          "entries": [
+            "Примечание: этот вариант избранного лица также увеличивает ваш показатель пассивной {@skill Perception} на 5."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Скользящая модель",
+      "source": "WRTR",
+      "page": 5,
+      "featureType": [
+        "R:FFO"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Плут",
+              "source": "WRTR"
+            },
+            "subclass": {
+              "name": "Модник",
+              "source": "WRTR",
+              "visible": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Вы совершаете с преимуществом проверки характеристик и спасброски, чтобы избежать того, чтобы вас сбили {@condition prone}, и можете игнорировать эффекты труднопроходимой местности."
+      ]
+    },
+    {
+      "name": "Тенистый охотник",
+      "source": "WRTR",
+      "page": 4,
+      "featureType": [
+        "R:FFO"
+      ],
+      "entries": [
+        "Вы можете совершить действие {@action Hide} бонусным действием, находясь в тусклом свете или во тьме."
+      ]
+    },
+    {
+      "name": "Особый эффект",
+      "source": "WRTR",
+      "page": 5,
+      "featureType": [
+        "R:FFO"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Плут",
+              "source": "WRTR"
+            },
+            "subclass": {
+              "name": "Мастер эффектов",
+              "source": "WRTR",
+              "visible": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Макияж на вашем лице — это изменчивая миазма из форм и цветов. Действием вы можете изменить форму своего макияжа, чтобы создать сцену из своей памяти или воображения, создавая грубое визуальное подобие в пределах возможностей вашего макияжа."
+      ]
+    },
+    {
+      "name": "Покров смерти",
+      "source": "WRTR",
+      "page": 6,
+      "featureType": [
+        "R:FFO"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Плут",
+              "source": "WRTR"
+            },
+            "subclass": {
+              "name": "Гот",
+              "source": "WRTR",
+              "visible": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Пока вы неподвижны, вас не отличить от трупа. Существо может совершить проверку Мудрости ({@skill Medicine}) против вашей Сл спасброска от заклинаний, чтобы определить, что вы живы."
+      ]
+    },
+    {
+      "name": "Целый цирк",
+      "source": "WRTR",
+      "page": 4,
+      "featureType": [
+        "R:FFO"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Плут",
+              "source": "WRTR"
+            },
+            "subclass": {
+              "name": "Клоун",
+              "source": "WRTR",
+              "visible": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Когда существо попадает по вам рукопашной атакой, ваши пустые глаза и фальшивая улыбка глубоко его пугают. Реакцией вы заставляете существо совершить спасбросок Мудрости против вашей Сл спасброска от заклинаний, и при провале оно становится {@condition frightened} вас до конца вашего следующего хода. Существо, преуспевшее в этом спасброске, получает невосприимчивость к этому эффекту на 24 часа. Использовав это умение, вы не можете использовать его снова, пока не завершите короткий или продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Ядовитый плющ",
+      "source": "WRTR",
+      "page": 3,
+      "featureType": [
+        "R:FFO"
+      ],
+      "entries": [
+        "Когда вы действием целуете гуманоида в губы, он получает {@dice 2d8} урона ядом. Этот урон увеличивается до {@dice 3d8} на вашем 5-м уровне ружа, до {@dice 4d8} на 11-м уровне ружа и до {@dice 5d8} на 17-м уровне ружа. Существо, знающее о вашей попытке поцеловать его, может совершить спасбросок Ловкости против вашей Сл спасброска от заклинаний, чтобы избежать поцелуя."
+      ]
+    },
+    {
+      "name": "Белая как снег",
+      "source": "WRTR",
+      "page": 7,
+      "featureType": [
+        "R:FFO"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Плут",
+              "source": "WRTR"
+            },
+            "subclass": {
+              "name": "Красавчик",
+              "source": "WRTR",
+              "visible": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Вы можете общаться простыми идеями с крошечными зверями — такими как птицы, белки и рыбы — с помощью звуков и жестов."
+      ]
+    }
+  ]
 }

@@ -1,2923 +1,2923 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "TheBasterTheRuffian",
-				"abbreviation": "Ruff",
-				"full": "The Ruffian – A Tank-Class for DnD 5e",
-				"url": "https://homebrewery.naturalcrit.com/share/1x--xfdutHNQ",
-				"version": "0.4",
-				"dateReleased": "2023-09-13",
-				"authors": [
-					"The Baster",
-					"u/ImWildsoul"
-				],
-				"convertedBy": [
-					"alterNERDtive"
-				],
-				"color": "386018"
-			}
-		],
-		"edition": "classic",
-		"status": "ready",
-		"dateAdded": 1742304373,
-		"dateLastModified": 1785698747,
-		"_dateLastModifiedHash": "eec019ced0"
-	},
-	"class": [
-		{
-			"name": "Головорез",
-			"source": "TheBasterTheRuffian",
-			"edition": "classic",
-			"hd": {
-				"number": 1,
-				"faces": 12
-			},
-			"proficiency": [
-				"str",
-				"con"
-			],
-			"startingProficiencies": {
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"acrobatics",
-								"athletics",
-								"deception",
-								"perception",
-								"persuasion",
-								"sleight of hand",
-								"stealth",
-								"survival"
-							],
-							"count": 2
-						}
-					}
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
-				"tools": [
-					"one social tool"
-				],
-				"toolProficiencies": [
-					{
-						"any": 1
-					}
-				],
-				"armor": [
-					"light",
-					"medium",
-					"shield"
-				],
-				"armorProficiencies": [
-					{
-						"light": true,
-						"medium": true,
-						"shield": true
-					}
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(a) a {@item longsword|phb} or (b) one {@item warhammer|phb}",
-					"(a) a {@item shield|phb} or (b) {@item handaxe|phb|2 ручных топора}",
-					"(a) a {@item scale mail|phb} or (b) a {@item chain shirt|phb}",
-					"a {@item burglar's pack|phb}"
-				],
-				"defaultData": [
-					{
-						"a": [
-							"longsword|phb"
-						],
-						"b": [
-							"warhammer|phb"
-						]
-					},
-					{
-						"a": [
-							"shield|phb"
-						],
-						"b": [
-							{
-								"item": "handaxe|phb",
-								"quantity": 2
-							}
-						]
-					},
-					{
-						"a": [
-							"scale mail|phb"
-						],
-						"b": [
-							"chain shirt|phb"
-						]
-					},
-					{
-						"_": [
-							"burglar's pack|phb"
-						]
-					}
-				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"con": 13,
-					"or": [
-						{
-							"str": 13,
-							"dex": 13,
-							"cha": 13
-						}
-					]
-				},
-				"proficienciesGained": {
-					"weapons": [
-						"simple",
-						"martial"
-					],
-					"armor": [
-						"light",
-						"medium",
-						"shield"
-					],
-					"armorProficiencies": [
-						{
-							"light": true,
-							"medium": true,
-							"shield": true
-						}
-					]
-				}
-			},
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"Максимум очков стойкости",
-						"Снижение урона за счёт стойкости"
-					],
-					"rows": [
-						[
-							4,
-							"один раз"
-						],
-						[
-							4,
-							"один раз"
-						],
-						[
-							5,
-							"один раз"
-						],
-						[
-							5,
-							"один раз"
-						],
-						[
-							6,
-							"дважды"
-						],
-						[
-							6,
-							"дважды"
-						],
-						[
-							7,
-							"дважды"
-						],
-						[
-							7,
-							"дважды"
-						],
-						[
-							8,
-							"дважды"
-						],
-						[
-							8,
-							"трижды"
-						],
-						[
-							9,
-							"трижды"
-						],
-						[
-							9,
-							"трижды"
-						],
-						[
-							10,
-							"трижды"
-						],
-						[
-							10,
-							"трижды"
-						],
-						[
-							11,
-							"четыре раза"
-						],
-						[
-							11,
-							"четыре раза"
-						],
-						[
-							12,
-							"четыре раза"
-						],
-						[
-							12,
-							"четыре раза"
-						],
-						[
-							12,
-							"четыре раза"
-						],
-						[
-							12,
-							"пять раз"
-						]
-					]
-				}
-			],
-			"classFeatures": [
-				"Стойкость|Ruffian|TheBasterTheRuffian|1",
-				"Устрашающая фигура|Ruffian|TheBasterTheRuffian|1",
-				"Гнетущее присутствие|Ruffian|TheBasterTheRuffian|2",
-				"Шквал|Ruffian|TheBasterTheRuffian|2",
-				{
-					"classFeature": "Кредо головореза|Ruffian|TheBasterTheRuffian|3",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Ruffian|TheBasterTheRuffian|4",
-				"Контрудар|Ruffian|TheBasterTheRuffian|5",
-				"Взаимодействие|Ruffian|TheBasterTheRuffian|5",
-				{
-					"classFeature": "Умение кредо|Ruffian|TheBasterTheRuffian|6",
-					"gainSubclassFeature": true
-				},
-				"Сопротивление|Ruffian|TheBasterTheRuffian|7",
-				"Под давлением рождаются алмазы|Ruffian|TheBasterTheRuffian|7",
-				"Увеличение характеристик|Ruffian|TheBasterTheRuffian|8",
-				"Найти слабость|Ruffian|TheBasterTheRuffian|9",
-				{
-					"classFeature": "Умение кредо|Ruffian|TheBasterTheRuffian|10",
-					"gainSubclassFeature": true
-				},
-				"Грубая сила|Ruffian|TheBasterTheRuffian|11",
-				"Увеличение характеристик|Ruffian|TheBasterTheRuffian|12",
-				"Величественное появление|Ruffian|TheBasterTheRuffian|13",
-				{
-					"classFeature": "Умение кредо|Ruffian|TheBasterTheRuffian|14",
-					"gainSubclassFeature": true
-				},
-				"Последний рубеж|Ruffian|TheBasterTheRuffian|15",
-				"Увеличение характеристик|Ruffian|TheBasterTheRuffian|16",
-				"Леденящий кровь крик|Ruffian|TheBasterTheRuffian|17",
-				{
-					"classFeature": "Умение кредо|Ruffian|TheBasterTheRuffian|18",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Ruffian|TheBasterTheRuffian|19",
-				"Непреклонный|Ruffian|TheBasterTheRuffian|20"
-			],
-			"subclassTitle": "Ruffian Creeds",
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryAdvancement": [
-				{
-					"type": "ScaleValue",
-					"configuration": {
-						"identifier": "grit-points-maximum",
-						"type": "number",
-						"scale": {
-							"1": {
-								"value": 4
-							},
-							"3": {
-								"value": 5
-							},
-							"5": {
-								"value": 6
-							},
-							"7": {
-								"value": 7
-							},
-							"9": {
-								"value": 8
-							},
-							"11": {
-								"value": 9
-							},
-							"13": {
-								"value": 10
-							},
-							"15": {
-								"value": 11
-							},
-							"17": {
-								"value": 12
-							}
-						}
-					},
-					"title": "Grit Points Maximum"
-				},
-				{
-					"type": "ScaleValue",
-					"configuration": {
-						"identifier": "grit-damage-reduction",
-						"type": "number",
-						"scale": {
-							"1": {
-								"value": 1
-							},
-							"5": {
-								"value": 2
-							},
-							"10": {
-								"value": 3
-							},
-							"15": {
-								"value": 4
-							}
-						}
-					},
-					"title": "Grit Damage Reduction"
-				},
-				{
-					"type": "ScaleValue",
-					"configuration": {
-						"identifier": "barrage-attacks",
-						"type": "number",
-						"scale": {
-							"2": {
-								"value": 1
-							},
-							"9": {
-								"value": 2
-							},
-							"17": {
-								"value": 3
-							}
-						}
-					},
-					"title": "Barrage Attacks"
-				}
-			]
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Головорез",
-			"source": "TheBasterTheRuffian",
-			"entries": [
-				{
-					"type": "section",
-					"name": "Головорез",
-					"source": "TheBasterTheRuffian",
-					"page": 1,
-					"entries": [
-						"Ночь сгущается в переулках преступного дна древнего дворфийского города. Сила ныне правит как закон улиц. Кряжистая полуорчиха сражается с голиафом-громилой за кучу украденных припасов. Двое багбиров избивают щуплого полурослика за то, что тот не предоставил затребованный товар. Криминальный воротила посылает своих головорезов проникнуть в особняк дворянина, который встал у него на пути.",
-						"Головорезов часто считают худшими из худших. Они бьют первыми, а вопросы задают потом. Жизнь на улицах взяла с них свою плату. Вопрос не в том, есть ли у головореза шрамы, а в том, сколько их... и откуда они взялись. Каждый шрам рассказывает историю — о потерях, о победе и о ложной надежде. Доля головореза часто мрачна и бессмысленна. Большинство отказались писать собственную историю. Вместо этого они служат продажным вожакам и пачкают руки за чужие преступления."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Выносливый и обаятельный",
-					"page": 1,
-					"entries": [
-						"Головорез всегда выдержит удар. Он привык, что в него стреляют или что в спине у него нож. Целая жизнь схваток сделала их настолько выносливыми, насколько позволяет их анатомия. В бою они упиваются собственной живучестью, демонстрируя поразительные всплески силы и выносливости в неожиданные мгновения. Не стоит беспокоиться о головорезе, яростно бросающемся в атаку — он в отчаянии. Стоит беспокоиться о головорезе, терпеливо выжидающем, сносящем удары и наносящем удар, когда его противники устанут.",
-						"Однако мрачная жизнь вовсе не {@italic всегда} должна вести к мрачному характеру. Хотя большинство головорезов не слишком умны и не слишком мудры, некоторые из них могут быть остроумны и обаятельны. Не каждая гора мускулов — пустая оболочка. Сладкие речи могут завести далеко в преступных мирах вселенной. И тот, кто выживал так долго, как головорезы, уж точно знает, что сказать... и когда."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Создание головореза",
-					"page": 2,
-					"entries": [
-						"Создавая головореза, подумайте о его воспитании. Головорезы в основном привыкли к суровой жизни на улицах, где мало кто о них заботится и мало кто им дорог. Как они попали в отряд искателей приключений? Они только сила или ещё и ум? Используют ли они свою мощь, чтобы брать желаемое? Или только для защиты того, что у них есть?",
-						"Конечно, головорез не обязан быть родом из преступного мира или иметь криминальное прошлое. Возможно, он дворянин, всю жизнь занимавшийся боксом. Быть может, он часть цирка. Или просто обладает могучей фигурой, позволяющей ему выдерживать множество ударов. Важно отметить, что головорез не обязан быть тупым громилой, предпочитающим насилие всему остальному.",
-						{
-							"type": "inset",
-							"name": "БЫСТРОЕ СОЗДАНИЕ",
-							"page": 2,
-							"entries": [
-								"Вы можете быстро создать головореза, следуя этим советам. Во-первых, сделайте Телосложение своей самой высокой характеристикой. Следующей по величине должна быть Сила. Ваша третья по величине характеристика зависит от стиля игры: Ловкость, если хотите повысить свою инициативу и Класс Доспеха, и Харизма, если хотите, чтобы ваши насмешки и устрашения были более действенными. Во-вторых, выберите предысторию преступник/шпион."
-							]
-						},
-						{
-							"type": "inset",
-							"name": "МУЛЬТИКЛАССИРОВАНИЕ",
-							"page": 2,
-							"entries": [
-								"Чтобы мультиклассироваться в этот класс или из него, значение вашего Телосложения должно быть не менее 13, а также значение вашей Силы, Ловкости или Харизмы должно быть не менее 13."
-							]
-						}
-					]
-				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-					},
-					"title": "Тортл-варвар (мужчина)",
-					"credit": "Rollmodels"
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/grasha.webp"
-					},
-					"title": "Заказ: Граша",
-					"credit": "nozomi-M"
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/盗贼.webp"
-					},
-					"title": "盗贼",
-					"credit": "Zhang Bo"
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/naumia.webp"
-					},
-					"title": "Наумия, мой голиаф-варвар/плут",
-					"credit": "u/sovereignrk on reddit"
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/barbarian.webp"
-					},
-					"title": "Бой варвара",
-					"credit": "Atanas Lozanski"
-				}
-			]
-		}
-	],
-	"subclass": [
-		{
-			"name": "Кредо головореза: телохранитель",
-			"shortName": "Телохранитель",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"page": 7,
-			"subclassFeatures": [
-				"Кредо головореза: телохранитель|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|3",
-				"Защита|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|3",
-				"Удар щитом|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|3",
-				"Встань за меня|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|6",
-				"Мясной щит|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|10",
-				"Привлечение внимания|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|14",
-				"Жертва|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|18"
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Кредо головореза: забияка",
-			"shortName": "Забияка",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"page": 6,
-			"subclassFeatures": [
-				"Кредо головореза: забияка|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|3",
-				"Железные кулаки|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|3",
-				"Дуэль|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|6",
-				"Необъяснимая сила|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|6",
-				"Головокружение|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|10",
-				"Окружение|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|14",
-				"Калечение|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|18"
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Кредо головореза: часовой",
-			"shortName": "Часовой",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"page": 8,
-			"subclassFeatures": [
-				"Кредо головореза: часовой|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|3",
-				"Вдохновляющая стойкость|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|3",
-				"Ещё не конец!|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|3",
-				"Сочувственный контрудар|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|6",
-				"Улучшение вдохновляющей стойкости|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|10",
-				"Вдохновляющее появление|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|14",
-				"Несокрушимые союзники|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|18"
-			],
-			"hasFluffImages": true
-		}
-	],
-	"subclassFluff": [
-		{
-			"name": "Кредо головореза: телохранитель",
-			"shortName": "Телохранитель",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
-					},
-					"title": "Образ жизни богатых и знаменитых",
-					"credit": "William O'Connor"
-				}
-			]
-		},
-		{
-			"name": "Кредо головореза: забияка",
-			"shortName": "Забияка",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-					},
-					"title": "Орк-забияка",
-					"credit": "Dennis Pospelov"
-				}
-			]
-		},
-		{
-			"name": "Кредо головореза: часовой",
-			"shortName": "Часовой",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
-					},
-					"title": "Раненый",
-					"credit": "Gui Guimaraes"
-				}
-			]
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Стойкость",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 1,
-			"entries": [
-				"Хорошая драка — всё, что вам нужно. Пока вокруг вас бушует бой, ваша стойкость растёт, даруя вам поразительные всплески силы и выносливости. Ваши умения позволяют вам получать Очки стойкости. У вас может быть максимум четыре Очка стойкости. Этот максимум увеличивается с ростом уровня, как показано в таблице класса Головореза. Вы теряете все Очки стойкости во время короткого отдыха. Очки стойкости используются в ряде ваших классовых умений.",
-				"Ваша стойкость делает вас поразительно живучим. Один раз в промежутке от начала вашего хода до начала вашего следующего хода, после получения урона, вы можете уменьшить урон на {@dice 1d8} + ваш уровень головореза. Если ваше снижение недостаточно, чтобы полностью отменить урон, вы получаете одно Очко стойкости. Вы можете сделать это, только если у вас сейчас Очки стойкости ниже вашего Максимума очков стойкости. Начиная с 5-го уровня вы можете уменьшать урон дважды для отдельных атак между вашими ходами. С ростом уровня это увеличивается до трижды на 10-м уровне, четырёх раз на 15-м и пяти раз на 20-м уровне."
-			],
-			"foundrySystem": {
-				"uses": {
-					"max": "@scale.ruffian.grit-points-maximum",
-					"recovery": [
-						{
-							"period": "sr",
-							"type": "loseAll"
-						}
-					],
-					"value": 0
-				}
-			}
-		},
-		{
-			"name": "Устрашающая фигура",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 1,
-			"entries": [
-				"На 1-м уровне уже одно ваше присутствие может устрашать других. Вы получаете владение проверками Харизмы ({@skill Intimidation}), и вы можете добавлять свой модификатор Силы ко всем совершаемым вами проверкам Харизмы ({@skill Intimidation}).",
-				"Кроме того, ваша фигура дарует вам быстрые рефлексы. У вас преимущество на все {@action Opportunity Attack|PHB|провоцированные атаки}, которые вы совершаете."
-			]
-		},
-		{
-			"name": "Шквал",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 2,
-			"entries": [
-				"На 2-м уровне переносимая вами боль дарует вам поразительные всплески силы. Используя действие Атака, вы можете потратить два {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы совершить дополнительную Атаку в рамках того же действия. На 9-м уровне вы можете потратить четыре Очка стойкости, чтобы совершить две дополнительные Атаки. На 17-м уровне вы можете потратить шесть Очков стойкости, чтобы совершить три дополнительные Атаки."
-			]
-		},
-		{
-			"name": "Гнетущее присутствие",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 2,
-			"entries": [
-				"На 2-м уровне уже одно ваше присутствие может устрашать других. Всякий раз когда существо перемещается в пределах 5 фт. от вас или начинает там свой ход, вы можете заставить это существо совершить спасбросок Мудрости против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}. При провале существо становится зацикленным на вас до конца своего следующего хода. Существо, зацикленное на вас, не может добровольно отойти от вас. Вы также получаете {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian||Grit Point} всякий раз, когда зацикленное на вас существо наносит урон существу, отличному от вас.",
-				"Кроме того, вы можете использовать своё бонусное действие, чтобы заставить существо в пределах 60 фт. от вас, которое может вас видеть, совершить спасбросок Мудрости против Сл спасброска вашего Гнетущего присутствия. При провале существо становится зацикленным на вас до конца своего следующего хода.",
-				{
-					"type": "abilityDc",
-					"name": "Гнетущее присутствие",
-					"attributes": [
-						"cha"
-					]
-				}
-			]
-		},
-		{
-			"name": "Кредо головореза",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 3,
-			"entries": [
-				"На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 4,
-			"entries": [
-				"При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Взаимодействие",
-			"source": "TheBasterTheRuffian",
-			"page": 4,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 5,
-			"entries": [
-				"На 5-м уровне ваша репутация и ваша фигура побуждают других существ легче сотрудничать с вами. Вы получаете преимущество на все основанные на Харизме проверки характеристик, которые совершаете против существа, зацикленного на вас."
-			]
-		},
-		{
-			"name": "Контрудар",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 5,
-			"entries": [
-				"На 5-м уровне вы можете использовать то, что противник снижает свою оборону для атаки. После того как по вам попали броском атаки и вы получили урон, вы можете использовать свою реакцию, чтобы совершить рукопашную атаку по цели, которая по вам попала. Вы можете использовать своё умение {@classFeature Barrage|Ruffian|TheBasterTheRuffian|2} на этой атаке, чтобы даровать себе дополнительные атаки. Если существо зациклено на вас, вы совершаете эти атаки с преимуществом."
-			]
-		},
-		{
-			"name": "Умение кредо",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 6,
-			"entries": [
-				"На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
-			]
-		},
-		{
-			"name": "Под давлением рождаются алмазы",
-			"source": "TheBasterTheRuffian",
-			"page": 4,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 7,
-			"entries": [
-				"На 7-м уровне вы быстро приспосабливаетесь к физически сложным задачам. Совершая основанную на Силе или Ловкости проверку характеристики, вы можете потратить одно {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Point}, чтобы дать себе преимущество на бросок."
-			]
-		},
-		{
-			"name": "Сопротивление",
-			"source": "TheBasterTheRuffian",
-			"page": 4,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 7,
-			"entries": [
-				"На 7-м уровне вас трудно удержать. Всякий раз, когда вас вынуждают совершить спасбросок, чтобы окончить или избежать действующего на вас состояния, вы можете потратить два {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы окончить состояние на себе без совершения спасброска. Вы можете сделать это бонусным действием, даже если спасбросок требовался как действие."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 8,
-			"entries": [
-				"При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Найти слабость",
-			"source": "TheBasterTheRuffian",
-			"page": 4,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 9,
-			"entries": [
-				"На 9-м уровне ваш опыт на поле боя быстро подсказывает вам слабость существа, позволяя вам использовать её. Раз за ход, попадая по существу броском атаки, вы можете решить не наносить урон, а вместо этого нацелиться на его доспех. Существо совершает спасбросок Телосложения против вашего броска атаки. При провале его КД уменьшается на число, равное вашему текущему количеству {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, до начала вашего следующего хода."
-			]
-		},
-		{
-			"name": "Умение кредо",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 10,
-			"entries": [
-				"На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
-			]
-		},
-		{
-			"name": "Грубая сила",
-			"source": "TheBasterTheRuffian",
-			"page": 4,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 11,
-			"entries": [
-				"На 11-м уровне вы бьёте достаточно сильно, чтобы вырубить существо. После попадания по существу броском атаки и после броска урона вы можете потратить шесть {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы заставить существо совершить спасбросок Телосложения со Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы. При провале существо теряет сознание на одну минуту или пока не получит урон."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 12,
-			"entries": [
-				"При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Величественное появление",
-			"source": "TheBasterTheRuffian",
-			"page": 4,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 13,
-			"entries": [
-				"На 13-м уровне вы знаете, как привлечь внимание других к себе. В начале вашего первого хода в бою вы можете заставить всех существ на ваш выбор в радиусе 60 фт. от вас совершить спасбросок Мудрости против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}. При провале существо становится зацикленным на вас до конца своего следующего хода."
-			]
-		},
-		{
-			"name": "Умение кредо",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 14,
-			"entries": [
-				"На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
-			]
-		},
-		{
-			"name": "Последний рубеж",
-			"source": "TheBasterTheRuffian",
-			"page": 4,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 15,
-			"entries": [
-				"На 15-м уровне вы знаете, как дать последний отпор. При получении урона, который уменьшил бы вас до 0 хитов, вы можете потратить восемь {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы потратить одну Кость хитов (реакция не требуется), и затем остаётесь в сознании с количеством хитов, равным результату броска."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 16,
-			"entries": [
-				"При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Леденящий кровь крик",
-			"source": "TheBasterTheRuffian",
-			"page": 5,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 17,
-			"entries": [
-				"На 17-м уровне ваши боевые кличи вселяют страх в сердца врагов. Бонусным действием вы можете заставить любое количество существ в пределах 60 фт. от вас, которые вас слышат, совершить спасбросок Интеллекта против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}. Существа, зацикленные на вас, совершают этот спасбросок с помехой. При провале скорость перемещения существа снижается до 0, оно совершает все спасброски с помехой и имеет помеху на все совершаемые броски атаки до начала вашего следующего хода.",
-				"Вы можете использовать это умение число раз, равное вашему модификатору Харизмы (минимум 1), за продолжительный отдых."
-			],
-			"foundrySystem": {
-				"uses": {
-					"max": "max(1, @abilities.cha.mod)",
-					"recovery": [
-						{
-							"period": "lr",
-							"type": "loseAll"
-						}
-					]
-				}
-			}
-		},
-		{
-			"name": "Умение кредо",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 18,
-			"entries": [
-				"На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "TheBasterTheRuffian",
-			"page": 3,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 19,
-			"entries": [
-				"При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Непреклонный",
-			"source": "TheBasterTheRuffian",
-			"page": 5,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 20,
-			"entries": [
-				"На 20-м уровне вы никогда не сдаётесь. Раз за короткий отдых бонусным действием в свой ход вы даруете себе следующие бонусы до начала вашего следующего хода.",
-				{
-					"type": "list",
-					"columns": 1,
-					"page": 5,
-					"items": [
-						"вы получаете сопротивление всем типам урона",
-						"вы снимаете с себя все состояния и становитесь невосприимчивы ко всем состояниям",
-						"вы получаете преимущество на все совершаемые вами броски рукопашных атак",
-						"ваше перемещение нельзя ограничить никаким образом"
-					]
-				}
-			],
-			"foundrySystem": {
-				"uses": {
-					"max": 1,
-					"recovery": [
-						{
-							"period": "sr",
-							"type": "recoverAll"
-						}
-					]
-				}
-			}
-		}
-	],
-	"foundryClassFeature": [
-		{
-			"name": "Grit",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 1,
-			"activities": [
-				{
-					"name": "Grit Damage Reduction",
-					"type": "heal",
-					"description": {
-						"chatFlavor": "Grit Damage Reduction"
-					},
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "activityUses",
-								"value": 1
-							}
-						]
-					},
-					"uses": {
-						"max": "@scale.ruffian.grit-damage-reduction",
-						"recovery": [
-							{
-								"period": "turnStart",
-								"type": "recoverAll"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					},
-					"healing": {
-						"bonus": "@classes.ruffian.levels",
-						"denomination": "8",
-						"number": 1,
-						"types": [
-							"healing"
-						]
-					}
-				},
-				{
-					"name": "Gain Grit Point",
-					"type": "utility",
-					"description": {
-						"chatFlavor": "Gain Grit Point"
-					},
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"value": -1
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					}
-				},
-				{
-					"name": "Quick Recovery",
-					"type": "heal",
-					"description": {
-						"chatFlavor": "Quick Recovery"
-					},
-					"activation": {
-						"type": "turnStart"
-					},
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					},
-					"healing": {
-						"custom": {
-							"enabled": true,
-							"formula": "@item.uses.value * @attributes.prof"
-						},
-						"types": [
-							"temphp"
-						]
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Intimidating Physique",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 1,
-			"effects": [
-				{
-					"transfer": true,
-					"changes": [
-						{
-							"key": "system.skills.itm.value",
-							"mode": "UPGRADE",
-							"value": 1
-						},
-						{
-							"key": "system.skills.itm.bonuses.check",
-							"mode": "ADD",
-							"value": "@abilities.str.mod"
-						}
-					]
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Barrage",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 2,
-			"activities": [
-				{
-					"name": "Use",
-					"type": "utility",
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"scaling": {
-							"allowed": true,
-							"max": "@scale.ruffian.barrage-attacks"
-						},
-						"targets": [
-							{
-								"scaling": {
-									"formula": "2",
-									"mode": "amount"
-								},
-								"type": "itemUses",
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"value": "2"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "creature"
-						}
-					},
-					"range": {
-						"units": "self"
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Daunting Pressence",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 2,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "bonus"
-					},
-					"target": {
-						"affects": {
-							"type": "creature"
-						}
-					},
-					"range": {
-						"units": "ft",
-						"value": 60
-					},
-					"save": {
-						"ability": [
-							"wis"
-						],
-						"dc": {
-							"calculation": "spellcasting"
-						}
-					},
-					"effects": [
-						{
-							"foundryId": "dauntingPresence"
-						}
-					]
-				},
-				{
-					"name": "Gain Grit Point",
-					"type": "utility",
-					"description": {
-						"chatFlavor": "Gain Grit Point"
-					},
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"value": -1
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					}
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "dauntingPresence",
-					"duration": {
-						"rounds": 1
-					},
-					"changes": []
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Cooperation",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 5,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Counter",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 5,
-			"activities": [
-				{
-					"name": "Use",
-					"type": "utility",
-					"activation": {
-						"type": "reaction"
-					},
-					"target": {
-						"affects": {
-							"type": "creature"
-						}
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Pressure Forms Diamonds",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 7,
-			"activities": [
-				{
-					"type": "utility",
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"value": "1"
-							}
-						]
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Resistance",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 7,
-			"activities": [
-				{
-					"type": "utility",
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"value": "2"
-							}
-						]
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Find Weakness",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 9,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"scaling": {
-							"allowed": true
-						}
-					},
-					"target": {
-						"affects": {
-							"type": "creature"
-						}
-					},
-					"save": {
-						"ability": [
-							"con"
-						],
-						"dc": {
-							"formula": "@scaling"
-						}
-					},
-					"effects": [
-						{
-							"foundryId": "findWeakness"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "findWeakness",
-					"duration": {
-						"rounds": 1
-					},
-					"changes": []
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Brute Force",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 11,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"value": "6"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "creature"
-						}
-					},
-					"save": {
-						"ability": [
-							"con"
-						],
-						"dc": {
-							"calculation": "str"
-						}
-					},
-					"effects": [
-						{
-							"foundryId": "bruteForce"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "bruteForce",
-					"duration": {
-						"seconds": 60
-					},
-					"changes": [],
-					"flags": {
-						"dnd5e": {
-							"riders": {
-								"statuses": [
-									"unconscious"
-								]
-							}
-						}
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Grand Entrance",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 13,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Last Stand",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 15,
-			"activities": [
-				{
-					"type": "heal",
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Bloodcurling Cry",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 17,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "bonus"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"value": "1"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "creature"
-						}
-					},
-					"range": {
-						"unit": "ft",
-						"value": 60
-					},
-					"save": {
-						"ability": [
-							"int"
-						],
-						"dc": {
-							"calculation": "spellcasting"
-						}
-					},
-					"effects": [
-						{
-							"foundryId": "bloodCurdling"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "bloodCurdling",
-					"duration": {
-						"rounds": 1
-					},
-					"changes": [
-						{
-							"key": "system.attributes.movement.burrow",
-							"mode": "DOWNGRADE",
-							"value": 0
-						},
-						{
-							"key": "system.attributes.movement.climb",
-							"mode": "DOWNGRADE",
-							"value": 0
-						},
-						{
-							"key": "system.attributes.movement.fly",
-							"mode": "DOWNGRADE",
-							"value": 0
-						},
-						{
-							"key": "system.attributes.movement.swim",
-							"mode": "DOWNGRADE",
-							"value": 0
-						},
-						{
-							"key": "system.attributes.movement.walk",
-							"mode": "DOWNGRADE",
-							"value": 0
-						}
-					]
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		},
-		{
-			"name": "Unyielding",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"level": 20,
-			"activities": [
-				{
-					"type": "utility",
-					"activation": {
-						"type": "bonus"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"value": 1
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					},
-					"effects": [
-						{
-							"foundryId": "unyieldingEffect"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "unyieldingEffect",
-					"disabled": true,
-					"transfer": true,
-					"duration": {
-						"duration": 1,
-						"rounds": 1
-					},
-					"changes": [
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "acid"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "bludgeoning"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "cold"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "fire"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "force"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "lightning"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "necrotic"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "piercing"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "poison"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "psychic"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "radiant"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "slashing"
-						},
-						{
-							"key": "system.traits.dr.value",
-							"mode": "ADD",
-							"value": "thunder"
-						}
-					]
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": "Защита",
-			"source": "TheBasterTheRuffian",
-			"page": 7,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне вы отдадите жизнь, чтобы заслонить других от вреда. Когда существо в пределах 5 фт. от вас получает попадание броском атаки, вы можете использовать на нём своё умение {@classFeature Grit|Ruffian|TheBasterTheRuffian|1}. Вы уменьшаете урон, но существо всё равно получает любой избыточный урон. Используя своё умение таким образом, вы всё равно получаете Очко стойкости."
-			]
-		},
-		{
-			"name": "Кредо головореза: телохранитель",
-			"source": "TheBasterTheRuffian",
-			"page": 7,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Как бы заманчива ни была перспектива богатства и власти, всегда найдутся те, кто захочет отнять их у вас. Влиятельные люди поэтому часто нанимают телохранителей, чтобы обеспечить свою защиту. Эти головорезы не придерживаются военных процедур, которые могут считать священными другие охранники. Для них есть только одна цель: защитить тех, кому они либо поклялись, либо за чью защиту им платят. Ради этого они не боятся играть грязно. В конце концов, честь ничего не окупает, если источник выплаты умер ради неё."
-			]
-		},
-		{
-			"name": "Удар щитом",
-			"source": "TheBasterTheRuffian",
-			"page": 7,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне щит, который вы носите, может быть и оборонительным, и наступательным средством. Держа щит, вы можете использовать своё бонусное действие, чтобы совершить им бросок атаки. Вы можете нацелиться на существо в пределах 5 фт. от вас. Вы добавляете свой бонус мастерства и модификатор Силы к броску атаки. При попадании цель должна преуспеть в спасброске Ловкости со Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы. При провале она сбивается с ног Ничком.",
-				"Вы можете использовать это умение без щита, но тогда вы совершите бросок атаки с помехой."
-			]
-		},
-		{
-			"name": "Встань за меня",
-			"source": "TheBasterTheRuffian",
-			"page": 7,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"На 6-м уровне вы знаете, как увести союзников из-под удара. В свой ход вы можете потратить половину своего перемещения, чтобы коснуться согласного существа и поменяться с ним местами (действие не требуется). Как и любое вынужденное перемещение, это не провоцирует провоцированных атак ни против одного из вас."
-			]
-		},
-		{
-			"name": "Мясной щит",
-			"source": "TheBasterTheRuffian",
-			"page": 7,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"На 10-м уровне вы можете полностью заслонить существо от вреда. Бонусным действием в свой ход вы можете потратить четыре {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы коснуться существа. До начала вашего следующего хода и только если существо остаётся в пределах 5 фт. от вас, вы даруете существу укрытие на три четверти."
-			]
-		},
-		{
-			"name": "Привлечение внимания",
-			"source": "TheBasterTheRuffian",
-			"page": 7,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"На 14-м уровне вы можете попытаться отвлечь внимание от существ, защищать которых вы поклялись, оставив себя открытым для атак. В конце своего хода вы можете заставить всех существ, зацикленных на вас, совершить спасбросок Мудрости против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}.",
-				"При провале существо должно использовать своё действие в свой следующий ход, чтобы попытаться нанести вам урон. Любые броски атаки, которые оно совершает по вам, совершаются с преимуществом, и у вас помеха на все спасброски, которые оно вынуждает вас совершить."
-			]
-		},
-		{
-			"name": "Жертва",
-			"source": "TheBasterTheRuffian",
-			"page": 7,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"На 18-м уровне вы готовы пожертвовать собой ради тех, защищать которых вы поклялись. Когда существо в пределах 30 фт. от вас уменьшается до 0 хитов, вы можете использовать свою реакцию, чтобы броситься к нему.",
-				"Вы можете потратить всё своё перемещение в направлении существа. Оно восстанавливает хиты, равные вашему текущему количеству {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points} × 10. Затем вы теряете такое же количество хитов."
-			]
-		},
-		{
-			"name": "Железные кулаки",
-			"source": "TheBasterTheRuffian",
-			"page": 6,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне ваши хук слева и справа боятся повсюду. Вы можете бросить {@dice 1d6|d6} вместо обычного урона вашего безоружного удара. Вы можете добавить свой бонус мастерства к броску урона. Когда вы в свой ход используете действие {@action Attack} с безоружным ударом, вы можете совершить один безоружный удар бонусным действием."
-			]
-		},
-		{
-			"name": "Кредо головореза: забияка",
-			"source": "TheBasterTheRuffian",
-			"page": 6,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Хотя большинство головорезов умеют владеть оружием, не все из них предпочитают это делать. Иногда хороший старый хук справа может завести далеко. Забияки часто участвуют в драках в барах и на улицах. Есть что-то достойное в том, чтобы встретиться с противником лицом к лицу без оружия и решить исход боя чистой силой рук. Забияк также часто нанимают криминальные воротилы, чтобы запугивать соперников и следить за выплатой долгов. Когда кулак забияки ударит вас по челюсти и раздастся нехороший хруст, вы дважды подумаете, прежде чем снова его злить."
-			]
-		},
-		{
-			"name": "Дуэль",
-			"source": "TheBasterTheRuffian",
-			"page": 6,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"На 6-м уровне вы можете попытаться вынудить существо в дуэль. Бонусным действием вы можете заставить существо в пределах 60 фт. от вас, которое может вас видеть, совершить спасбросок Интеллекта против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}. Существо, зацикленное на вас, совершает этот спасбросок с помехой. При провале вы и существо оба получаете помеху на все броски атаки, не нацеленные друг на друга. Кроме того, каждое существо — помимо вас двоих — получает преимущество на спасброски, которые вы его вынуждаете совершить. Дуэль длится одну минуту или пока один из вас не будет уменьшен до 0 хитов. Если вы уменьшаете до 0 хитов существо, с которым у вас дуэль, вы можете потратить любое количество своих Костей хитов и восстановить это количество хитов, не добавляя свой модификатор Телосложения."
-			]
-		},
-		{
-			"name": "Необъяснимая сила",
-			"source": "TheBasterTheRuffian",
-			"page": 6,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"На 6-м уровне ваши безоружные удары считаются магическими для целей преодоления сопротивлений."
-			]
-		},
-		{
-			"name": "Головокружение",
-			"source": "TheBasterTheRuffian",
-			"page": 6,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"На 10-м уровне ваши удары могут оставить существо в состоянии головокружения. После попадания по существу броском атаки вы можете потратить два {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы вложить в удар много веса. Существо должно преуспеть в спасброске Телосложения со Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы. При провале существо не может использовать реакции до начала вашего следующего хода."
-			]
-		},
-		{
-			"name": "Окружение",
-			"source": "TheBasterTheRuffian",
-			"page": 6,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"На 14-м уровне вы можете решить навалиться на противника, не давая ему времени опомниться. Совершая бросок атаки, вы можете потратить три {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}. Если ваша атака попадает, выбранное существо должно совершить спасбросок Ловкости со Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы. При провале оно должно использовать свою реакцию, чтобы предпринять действие Уклонение. В свой следующий ход оно должно использовать своё действие, чтобы предпринять действие Уклонение."
-			]
-		},
-		{
-			"name": "Калечение",
-			"source": "TheBasterTheRuffian",
-			"page": 6,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"На 18-м уровне наносимый вами урон не так легко отмахнуть. Ваши безоружные удары теперь уменьшают максимум хитов существа на наносимый ими урон. Если максимум хитов существа уменьшается до 0 с помощью этого умения, существо умирает. Эффекты этого умения сохраняются, пока существо не завершит продолжительный отдых."
-			]
-		},
-		{
-			"name": "Вдохновляющая стойкость",
-			"source": "TheBasterTheRuffian",
-			"page": 8,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне ваша стойкость перед лицом боли побуждает союзников сражаться упорнее. Всякий раз когда вы тратите {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|grit points}, вы можете дать Ободрение одному союзнику в пределах 30 фт., который может вас видеть. На следующий раунд они получают бонус, равный половине вашего модификатора Харизмы (округлённой вверх), либо к своим спасброскам, либо к Классу Доспеха, либо к броскам атаки. Они выбирают эффект, когда вы активируете эту способность."
-			]
-		},
-		{
-			"name": "Ещё не конец!",
-			"source": "TheBasterTheRuffian",
-			"page": 8,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне вас могут сбить с ног 10 раз, но на 11-й вы снова встанете! Когда вы совершаете спасброски от смерти, результат 19 или выше считается так, будто вы выбросили чистую 20. Кроме того, каждый раз, когда вы совершаете спасбросок от смерти — до броска — вы можете потратить любое количество {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit points} и прибавить это число к броску."
-			]
-		},
-		{
-			"name": "Кредо головореза: часовой",
-			"source": "TheBasterTheRuffian",
-			"page": 8,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Битва за правое (или неправое) дело может привести к крепкому товариществу. Некоторые головорезы образуют тесные связи со своими спутниками, даже если всех их вместе сводят лишь страсть или нужда в деньгах. Эти Часовые одержимы стремлением следить, чтобы никто из их союзников не пострадал. А их стойкость и решимость вдохновляют окружающих никогда не сдаваться. Даже — или, быть может, особенно — когда шансы против них."
-			]
-		},
-		{
-			"name": "Сочувственный контрудар",
-			"source": "TheBasterTheRuffian",
-			"page": 8,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"На 6-м уровне вы ненавидите видеть, как вашим друзьям причиняют боль. Когда вы видите, как существо или союзник получает урон, вы можете потратить 3 {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|grit points} и свою реакцию, чтобы переместиться на расстояние до своего полного перемещения в сторону агрессора и использовать своё умение Контрудар, как если бы по вам атаковали."
-			]
-		},
-		{
-			"name": "Улучшение вдохновляющей стойкости",
-			"source": "TheBasterTheRuffian",
-			"page": 8,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"На 10-м уровне существа, получающие пользу от вашего умения Ободрение, теперь добавляют ваш полный модификатор Харизмы вместо половины. Кроме того, они могут вместо этого применить бонус к любой Сл спасброска, которую они вынуждают совершить других существ, или к своим спасброскам от смерти."
-			]
-		},
-		{
-			"name": "Вдохновляющее появление",
-			"source": "TheBasterTheRuffian",
-			"page": 8,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"На 14-м уровне, всякий раз когда вы используете своё умение {@classFeature Grand Entrance|Ruffian|TheBasterTheRuffian|13}, вы можете дать Ободрение любому количеству союзников в пределах дистанции эффекта. Кроме того, вы можете снова использовать это умение всякий раз, когда возвращаетесь в сознание в результате спасброска от смерти."
-			]
-		},
-		{
-			"name": "Несокрушимые союзники",
-			"source": "TheBasterTheRuffian",
-			"page": 8,
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"На 18-м уровне вы можете использовать своё умение {@classFeature Last Stand|Ruffian|TheBasterTheRuffian|15} раз за короткий отдых, не тратя никаких {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}. Кроме того, когда союзник в пределах 60 фт. от вас должен упасть до 0 хитов, вы можете использовать свою реакцию, чтобы позволить ему использовать ваше умение Последний рубеж вместо вас."
-			],
-			"foundrySystem": {
-				"uses": {
-					"max": "1",
-					"recovery": [
-						{
-							"period": "lr",
-							"type": "recoverAll"
-						}
-					]
-				}
-			}
-		}
-	],
-	"foundrySubclassFeature": [
-		{
-			"name": "Protection",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
-		},
-		{
-			"name": "Shield Bash",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "bonus"
-					},
-					"target": {
-						"affects": {
-							"count": 1,
-							"type": "creature"
-						}
-					},
-					"save": {
-						"ability": [
-							"dex",
-							"str"
-						],
-						"dc": {
-							"calculation": "str"
-						}
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
-		},
-		{
-			"name": "Get Behind Me",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 6,
-			"activities": [
-				{
-					"type": "utility",
-					"activation": {
-						"type": "special"
-					},
-					"target": {
-						"affects": {
-							"count": 1,
-							"type": "creature"
-						}
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
-		},
-		{
-			"name": "Meat Shield",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 10,
-			"activities": [
-				{
-					"type": "utility",
-					"activation": {
-						"type": "bonus"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"value": "4"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"count": 1,
-							"type": "creature"
-						}
-					},
-					"effects": [
-						{
-							"foundryId": "meatShield"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "meatShield",
-					"duration": {
-						"rounds": 1
-					},
-					"changes": [
-						{
-							"key": "system.attributes.ac.bonus",
-							"mode": "ADD",
-							"value": 5
-						},
-						{
-							"key": "system.abilities.dex.bonuses.save",
-							"mode": "ADD",
-							"value": 5
-						}
-					]
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
-		},
-		{
-			"name": "Drawing Attention",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 14,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "turnEnd"
-					},
-					"target": {
-						"affects": {
-							"special": "that is fixated on you",
-							"type": "creature"
-						}
-					},
-					"range": {
-						"units": "ft",
-						"value": 30
-					},
-					"save": {
-						"ability": [
-							"wis"
-						],
-						"dc": {
-							"calculation": "spellcasting"
-						}
-					},
-					"effects": [
-						{
-							"foundryId": "drawingAttention"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "drawingAttention",
-					"duration": {
-						"rounds": 1
-					},
-					"changes": []
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
-		},
-		{
-			"name": "Sacrifice",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Телохранитель",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 18,
-			"activities": [
-				{
-					"type": "heal",
-					"activation": {
-						"type": "reaction"
-					},
-					"consumption": {
-						"scaling": {
-							"allowed": true,
-							"max": "@scale.ruffian.grit-points-maximum"
-						},
-						"targets": [
-							{
-								"scaling": {
-									"mode": "amount",
-									"formula": 10
-								},
-								"target": "attributes.hp.value",
-								"type": "attribute",
-								"value": 10
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"count": 1,
-							"special": "that has been reduced to 0 Hit Points",
-							"type": "creature"
-						}
-					},
-					"range": {
-						"units": "touch"
-					},
-					"healing": {
-						"custom": {
-							"enabled": true,
-							"formula": 10
-						},
-						"scaling": {
-							"formula": 10,
-							"mode": "whole"
-						},
-						"types": [
-							"healing"
-						]
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
-		},
-		{
-			"name": "Bonus Unarmed Strike",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-		},
-		{
-			"name": "Heavy Hitter",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-		},
-		{
-			"name": "Iron Fists",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"activities": [
-				{
-					"name": "Heavy Hitter",
-					"type": "enchant",
-					"description": {
-						"chatFlavor": "Heavy Hitter"
-					},
-					"activation": {
-						"type": "none"
-					},
-					"restrictions": {
-						"allowMagical": true
-					},
-					"effects": [
-						{
-							"foundryId": "ironFists"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "ironFists",
-					"name": "Heavy Hitter",
-					"type": "enchantment",
-					"disabled": true,
-					"transfer": true,
-					"changes": [
-						{
-							"key": "system.damage.base.custom.enabled",
-							"mode": "OVERRIDE",
-							"value": false
-						},
-						{
-							"key": "system.damage.base.number",
-							"mode": "OVERRIDE",
-							"value": "1"
-						},
-						{
-							"key": "system.damage.base.denomination",
-							"mode": "OVERRIDE",
-							"value": "6"
-						},
-						{
-							"key": "system.damage.bonus",
-							"mode": "ADD",
-							"value": "@attributes.prof"
-						}
-					]
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-		},
-		{
-			"name": "Duel",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 6,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "bonus"
-					},
-					"target": {
-						"affects": {
-							"count": 1,
-							"type": "creature"
-						}
-					},
-					"range": {
-						"units": "ft",
-						"value": 60
-					},
-					"save": {
-						"ability": [
-							"int"
-						],
-						"dc": {
-							"calculation": "spellcasting"
-						}
-					},
-					"effects": [
-						{
-							"foundryId": "duel"
-						}
-					]
-				},
-				{
-					"type": "heal",
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "hitDice",
-								"target": "largest",
-								"value": "1"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					},
-					"healing": {
-						"custom": {
-							"enabled": true,
-							"formula": "1@attributes.hd.largestAvailable"
-						},
-						"types": [
-							"healing"
-						]
-					}
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "duel",
-					"duration": {
-						"seconds": 60
-					},
-					"changes": []
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-		},
-		{
-			"name": "Inexplicable Strength",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 6,
-			"activities": [
-				{
-					"type": "enchant",
-					"activation": {
-						"type": "none"
-					},
-					"restrictions": {
-						"allowMagical": true
-					},
-					"effects": [
-						{
-							"foundryId": "inexplicableStr"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "inexplicableStr",
-					"type": "enchantment",
-					"disabled": true,
-					"transfer": true,
-					"changes": [
-						{
-							"key": "system.damage.base.types",
-							"mode": "ADD",
-							"value": "force"
-						}
-					]
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-		},
-		{
-			"name": "Dizzy",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 10,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"value": "2"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"count": 1,
-							"type": "creature"
-						}
-					},
-					"save": {
-						"ability": [
-							"con"
-						],
-						"dc": {
-							"calculation": "str"
-						}
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-		},
-		{
-			"name": "Swarm",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 14,
-			"activities": [
-				{
-					"type": "save",
-					"activation": {
-						"type": "special"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"type": "itemUses",
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"value": "3"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"count": 1,
-							"type": "creature"
-						}
-					},
-					"save": {
-						"ability": [
-							"dex"
-						],
-						"dc": {
-							"calculation": "str"
-						}
-					},
-					"effects": [
-						{
-							"foundryId": "swarm"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "swarm",
-					"duration": {
-						"rounds": 1
-					},
-					"changes": [],
-					"flags": {
-						"dnd5e": {
-							"riders": {
-								"statuses": [
-									"dodging"
-								]
-							}
-						}
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-		},
-		{
-			"name": "Cripple",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Забияка",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 18,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-		},
-		{
-			"name": "Inspiring Toughness",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"activities": [
-				{
-					"type": "utility",
-					"activation": {
-						"condition": "whenever you expend Grit Points",
-						"type": "special"
-					},
-					"target": {
-						"affects": {
-							"count": 1,
-							"type": "creature"
-						}
-					},
-					"range": {
-						"units": "ft",
-						"value": 30
-					},
-					"effects": [
-						{
-							"foundryId": "inspToughness"
-						}
-					]
-				}
-			],
-			"effects": [
-				{
-					"foundryId": "inspToughness",
-					"duration": {
-						"rounds": 1
-					},
-					"changes": []
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
-		},
-		{
-			"name": "Not Done Yet",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 3,
-			"activities": [
-				{
-					"type": "utility",
-					"activation": {
-						"condition": "each time you make a Death Saving Throw",
-						"type": "special"
-					},
-					"consumption": {
-						"scaling": {
-							"allowed": true,
-							"max": "@scale.ruffian.grit-points-maximum"
-						},
-						"targets": [
-							{
-								"scaling": {
-									"mode": "amount"
-								},
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"type": "itemUses",
-								"value": "1"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					},
-					"roll": {
-						"formula": "1d20 + @bonuses.abilities.save + @scaling",
-						"name": "Death Saving Throw",
-						"prompt": true
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
-		},
-		{
-			"name": "Sympathetic Counter",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 6,
-			"activities": [
-				{
-					"type": "utility",
-					"activation": {
-						"condition": "when a creature that you can see or hear is hit by an Attack Roll and takes damage",
-						"type": "reaction"
-					},
-					"consumption": {
-						"targets": [
-							{
-								"target": {
-									"consumes": {
-										"name": "Grit"
-									}
-								},
-								"type": "itemUses",
-								"value": "3"
-							}
-						]
-					},
-					"target": {
-						"affects": {
-							"type": "self"
-						}
-					},
-					"range": {
-						"units": "self"
-					}
-				}
-			],
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
-		},
-		{
-			"name": "Inspiring Toughness Improvement",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 10,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
-		},
-		{
-			"name": "Inspiring Entrance",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 14,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
-		},
-		{
-			"name": "Unbreakable Allies",
-			"source": "TheBasterTheRuffian",
-			"className": "Ruffian",
-			"classSource": "TheBasterTheRuffian",
-			"subclassShortName": "Часовой",
-			"subclassSource": "TheBasterTheRuffian",
-			"level": 18,
-			"img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
-		}
-	],
-	"item": [
-		{
-			"name": "Боевая рукавица",
-			"source": "TheBasterTheRuffian",
-			"page": 9,
-			"type": "M",
-			"rarity": "none",
-			"weight": 5,
-			"value": 3000,
-			"weaponCategory": "martial",
-			"property": [
-				"L"
-			],
-			"dmg1": "1d6",
-			"dmgType": "B",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Особое",
-					"entries": [
-						"Владение боевой рукавицей позволяет вам добавлять свой бонус мастерства к броску атаки для любой совершаемой ею атаки.",
-						"Если вы совершаете критическое попадание боевой рукавицей, существо, по которому вы попали, отбрасывается на 5 футов назад."
-					]
-				}
-			],
-			"hasFluffImages": true
-		}
-	],
-	"itemFluff": [
-		{
-			"name": "Боевая рукавица",
-			"source": "TheBasterTheRuffian",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/victorianvi.webp"
-					},
-					"title": "Викторианская Ви",
-					"credit": "Kureiyah"
-				}
-			]
-		}
-	],
-	"book": [
-		{
-			"name": "Головорез — класс-танк для DnD 5e",
-			"id": "TheBasterTheRuffian",
-			"source": "TheBasterTheRuffian",
-			"group": "homebrew",
-			"cover": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/cover.webp"
-			},
-			"published": "2023-09-13",
-			"author": "The Baster, u/ImWildsoul (Sentry subclass)",
-			"contents": [
-				{
-					"name": "Головорез — класс-танк для DnD 5e",
-					"headers": [
-						"Ruffian",
-						{
-							"header": "Выносливый и обаятельный",
-							"depth": 2
-						},
-						{
-							"header": "Создание головореза",
-							"depth": 2
-						},
-						{
-							"header": "Классовые умения",
-							"depth": 2
-						},
-						"Ruffian Creed: Brawler",
-						"Ruffian Creed: Bodyguard",
-						"Ruffian Creed: Sentry",
-						"Ruffian Equipment",
-						"Credit",
-						"Pictures Credit"
-					]
-				}
-			]
-		}
-	],
-	"bookData": [
-		{
-			"id": "TheBasterTheRuffian",
-			"source": "TheBasterTheRuffian",
-			"data": [
-				{
-					"type": "section",
-					"name": "Головорез — класс-танк для DnD 5e",
-					"page": 1,
-					"entries": [
-						{
-							"type": "section",
-							"name": "Головорез",
-							"page": 1,
-							"entries": [
-								"Ночь сгущается в переулках преступного дна древнего дворфийского города. Сила ныне правит как закон улиц. Кряжистая полуорчиха сражается с голиафом-громилой за кучу украденных припасов. Двое багбиров избивают щуплого полурослика за то, что тот не предоставил затребованный товар. Криминальный воротила посылает своих головорезов проникнуть в особняк дворянина, который встал у него на пути.",
-								"Головорезов часто считают худшими из худших. Они бьют первыми, а вопросы задают потом. Жизнь на улицах взяла с них свою плату. Вопрос не в том, есть ли у головореза шрамы, а в том, сколько их... и откуда они взялись. Каждый шрам рассказывает историю — о потерях, о победе и о ложной надежде. Доля головореза часто мрачна и бессмысленна. Большинство отказались писать собственную историю. Вместо этого они служат продажным вожакам и пачкают руки за чужие преступления.",
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/grasha.webp"
-									},
-									"title": "Заказ: Граша",
-									"credit": "nozomi-M"
-								},
-								{
-									"type": "section",
-									"name": "Выносливый и обаятельный",
-									"page": 1,
-									"entries": [
-										"Головорез всегда выдержит удар. Он привык, что в него стреляют или что в спине у него нож. Целая жизнь схваток сделала их настолько выносливыми, насколько позволяет их анатомия. В бою они упиваются собственной живучестью, демонстрируя поразительные всплески силы и выносливости в неожиданные мгновения. Не стоит беспокоиться о головорезе, яростно бросающемся в атаку — он в отчаянии. Стоит беспокоиться о головорезе, терпеливо выжидающем, сносящем удары и наносящем удар, когда его противники устанут.",
-										"Однако мрачная жизнь вовсе не обязательно должна вести к мрачному характеру. Хотя большинство головорезов не слишком умны и не слишком мудры, некоторые из них могут быть остроумны и обаятельны. Не каждая гора мускулов — пустая оболочка. Сладкие речи могут завести далеко в преступных мирах вселенной. И тот, кто выживал так долго, как головорезы, уж точно знает, что сказать... и когда."
-									]
-								},
-								{
-									"type": "section",
-									"name": "Создание головореза",
-									"page": 2,
-									"entries": [
-										"Создавая головореза, подумайте о его воспитании. Головорезы в основном привыкли к суровой жизни на улицах, где мало кто о них заботится и мало кто им дорог. Как они попали в отряд искателей приключений? Они только сила или ещё и ум? Используют ли они свою мощь, чтобы брать желаемое? Или только для защиты того, что у них есть?",
-										"Конечно, головорез не обязан быть родом из преступного мира или иметь криминальное прошлое. Возможно, он дворянин, всю жизнь занимавшийся боксом. Быть может, он часть цирка. Или просто обладает могучей фигурой, позволяющей ему выдерживать множество ударов. Важно отметить, что головорез не обязан быть тупым громилой, предпочитающим насилие всему остальному.",
-										{
-											"type": "inset",
-											"name": "БЫСТРОЕ СОЗДАНИЕ",
-											"page": 2,
-											"entries": [
-												"Вы можете быстро создать головореза, следуя этим советам. Во-первых, сделайте Телосложение своей самой высокой характеристикой. Следующей по величине должна быть Сила. Ваша третья по величине характеристика зависит от стиля игры: Ловкость, если хотите повысить свою инициативу и Класс Доспеха, и Харизма, если хотите, чтобы ваши насмешки и устрашения были более действенными. Во-вторых, выберите предысторию преступник/шпион."
-											]
-										},
-										{
-											"type": "inset",
-											"name": "МУЛЬТИКЛАССИРОВАНИЕ",
-											"page": 2,
-											"entries": [
-												"Чтобы мультиклассироваться в этот класс или из него, значение вашего Телосложения должно быть не менее 13, а также значение вашей Силы, Ловкости или Харизмы должно быть не менее 13."
-											]
-										}
-									]
-								},
-								{
-									"type": "section",
-									"name": "Классовые умения",
-									"page": 2,
-									"entries": [
-										"См. {@class Головорез|TheBasterTheRuffian|class entry}."
-									]
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/盗贼.webp"
-									},
-									"title": "盗贼",
-									"credit": "Zhang Bo"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/naumia.webp"
-									},
-									"title": "Наумия, мой голиаф-варвар/плут",
-									"credit": "u/sovereignrk on reddit"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/barbarian.webp"
-									},
-									"title": "Бой варвара",
-									"credit": "Atanas Lozanski"
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Кредо головореза: забияка",
-							"page": 6,
-							"entries": [
-								"См. {@subclass Brawler|Ruffian|TheBasterTheRuffian|TheBasterTheRuffian|subclass entry}.",
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
-									},
-									"title": "Орк-забияка",
-									"credit": "Dennis Pospelov"
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Кредо головореза: телохранитель",
-							"page": 7,
-							"entries": [
-								"См. {@subclass Bodyguard|Ruffian|TheBasterTheRuffian|TheBasterTheRuffian|subclass entry}.",
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
-									},
-									"title": "Образ жизни богатых и знаменитых",
-									"credit": "William O'Connor"
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Кредо головореза: часовой",
-							"page": 8,
-							"entries": [
-								"См. {@subclass Sentry|Ruffian|TheBasterTheRuffian|TheBasterTheRuffian|subclass entry}.",
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
-									},
-									"title": "Раненый",
-									"credit": "Gui Guimaraes"
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Снаряжение головореза",
-							"page": 9,
-							"entries": [
-								{
-									"type": "list",
-									"columns": 1,
-									"page": 9,
-									"items": [
-										"{@item Боевая рукавица|TheBasterTheRuffian}"
-									]
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/victorianvi.webp"
-									},
-									"title": "Викторианская Ви",
-									"credit": "Kureiyah"
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Авторы",
-							"page": 9,
-							"entries": [
-								"Этот класс создан {@italic Бастер} Подкласс Часовой создан {@italic ИмВайлдсоул}"
-							]
-						},
-						{
-							"type": "section",
-							"name": "Авторы иллюстраций",
-							"page": 9,
-							"entries": [
-								{
-									"type": "list",
-									"style": "list-hang",
-									"columns": 1,
-									"page": 9,
-									"items": [
-										"{@bold Тортл-варвар (мужчина)} — Rollmodels",
-										"{@bold Заказ: Граша} — Нозоми-М",
-										"{@bold 盗贼} — Zhang Bo",
-										"{@bold Наумия, мой голиаф-варвар/плут} — Sovereignrk на Реддите",
-										"{@bold Бой варвара} — Atanas Lozanski",
-										"{@bold Орк-забияка} — Dennis Pospelov",
-										"{@bold Образ жизни богатых и знаменитых} — Уильям О'Коннор",
-										"{@bold Раненый} — Gui Guimaraes",
-										"{@bold Викторианская Ви} — Kureiyah"
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "TheBasterTheRuffian",
+        "abbreviation": "Ruff",
+        "full": "The Ruffian – A Tank-Class for DnD 5e",
+        "url": "https://homebrewery.naturalcrit.com/share/1x--xfdutHNQ",
+        "version": "0.4",
+        "dateReleased": "2023-09-13",
+        "authors": [
+          "The Baster",
+          "u/ImWildsoul"
+        ],
+        "convertedBy": [
+          "alterNERDtive"
+        ],
+        "color": "386018"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1742304373,
+    "dateLastModified": 1785698747,
+    "_dateLastModifiedHash": "eec019ced0"
+  },
+  "class": [
+    {
+      "name": "Головорез",
+      "source": "TheBasterTheRuffian",
+      "edition": "classic",
+      "hd": {
+        "number": 1,
+        "faces": 12
+      },
+      "proficiency": [
+        "str",
+        "con"
+      ],
+      "startingProficiencies": {
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "athletics",
+                "deception",
+                "perception",
+                "persuasion",
+                "sleight of hand",
+                "stealth",
+                "survival"
+              ],
+              "count": 2
+            }
+          }
+        ],
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "tools": [
+          "one social tool"
+        ],
+        "toolProficiencies": [
+          {
+            "any": 1
+          }
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a {@item longsword|phb} or (b) one {@item warhammer|phb}",
+          "(a) a {@item shield|phb} or (b) {@item handaxe|phb|2 ручных топора}",
+          "(a) a {@item scale mail|phb} or (b) a {@item chain shirt|phb}",
+          "a {@item burglar's pack|phb}"
+        ],
+        "defaultData": [
+          {
+            "a": [
+              "longsword|phb"
+            ],
+            "b": [
+              "warhammer|phb"
+            ]
+          },
+          {
+            "a": [
+              "shield|phb"
+            ],
+            "b": [
+              {
+                "item": "handaxe|phb",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "a": [
+              "scale mail|phb"
+            ],
+            "b": [
+              "chain shirt|phb"
+            ]
+          },
+          {
+            "_": [
+              "burglar's pack|phb"
+            ]
+          }
+        ]
+      },
+      "multiclassing": {
+        "requirements": {
+          "con": 13,
+          "or": [
+            {
+              "str": 13,
+              "dex": 13,
+              "cha": 13
+            }
+          ]
+        },
+        "proficienciesGained": {
+          "weapons": [
+            "simple",
+            "martial"
+          ],
+          "armor": [
+            "light",
+            "medium",
+            "shield"
+          ],
+          "armorProficiencies": [
+            {
+              "light": true,
+              "medium": true,
+              "shield": true
+            }
+          ]
+        }
+      },
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Максимум очков стойкости",
+            "Снижение урона за счёт стойкости"
+          ],
+          "rows": [
+            [
+              4,
+              "один раз"
+            ],
+            [
+              4,
+              "один раз"
+            ],
+            [
+              5,
+              "один раз"
+            ],
+            [
+              5,
+              "один раз"
+            ],
+            [
+              6,
+              "дважды"
+            ],
+            [
+              6,
+              "дважды"
+            ],
+            [
+              7,
+              "дважды"
+            ],
+            [
+              7,
+              "дважды"
+            ],
+            [
+              8,
+              "дважды"
+            ],
+            [
+              8,
+              "трижды"
+            ],
+            [
+              9,
+              "трижды"
+            ],
+            [
+              9,
+              "трижды"
+            ],
+            [
+              10,
+              "трижды"
+            ],
+            [
+              10,
+              "трижды"
+            ],
+            [
+              11,
+              "четыре раза"
+            ],
+            [
+              11,
+              "четыре раза"
+            ],
+            [
+              12,
+              "четыре раза"
+            ],
+            [
+              12,
+              "четыре раза"
+            ],
+            [
+              12,
+              "четыре раза"
+            ],
+            [
+              12,
+              "пять раз"
+            ]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Стойкость|Ruffian|TheBasterTheRuffian|1",
+        "Устрашающая фигура|Ruffian|TheBasterTheRuffian|1",
+        "Гнетущее присутствие|Ruffian|TheBasterTheRuffian|2",
+        "Шквал|Ruffian|TheBasterTheRuffian|2",
+        {
+          "classFeature": "Кредо головореза|Ruffian|TheBasterTheRuffian|3",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Ruffian|TheBasterTheRuffian|4",
+        "Контрудар|Ruffian|TheBasterTheRuffian|5",
+        "Взаимодействие|Ruffian|TheBasterTheRuffian|5",
+        {
+          "classFeature": "Умение кредо|Ruffian|TheBasterTheRuffian|6",
+          "gainSubclassFeature": true
+        },
+        "Сопротивление|Ruffian|TheBasterTheRuffian|7",
+        "Под давлением рождаются алмазы|Ruffian|TheBasterTheRuffian|7",
+        "Увеличение характеристик|Ruffian|TheBasterTheRuffian|8",
+        "Найти слабость|Ruffian|TheBasterTheRuffian|9",
+        {
+          "classFeature": "Умение кредо|Ruffian|TheBasterTheRuffian|10",
+          "gainSubclassFeature": true
+        },
+        "Грубая сила|Ruffian|TheBasterTheRuffian|11",
+        "Увеличение характеристик|Ruffian|TheBasterTheRuffian|12",
+        "Величественное появление|Ruffian|TheBasterTheRuffian|13",
+        {
+          "classFeature": "Умение кредо|Ruffian|TheBasterTheRuffian|14",
+          "gainSubclassFeature": true
+        },
+        "Последний рубеж|Ruffian|TheBasterTheRuffian|15",
+        "Увеличение характеристик|Ruffian|TheBasterTheRuffian|16",
+        "Леденящий кровь крик|Ruffian|TheBasterTheRuffian|17",
+        {
+          "classFeature": "Умение кредо|Ruffian|TheBasterTheRuffian|18",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Ruffian|TheBasterTheRuffian|19",
+        "Непреклонный|Ruffian|TheBasterTheRuffian|20"
+      ],
+      "subclassTitle": "Ruffian Creeds",
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "foundryAdvancement": [
+        {
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "grit-points-maximum",
+            "type": "number",
+            "scale": {
+              "1": {
+                "value": 4
+              },
+              "3": {
+                "value": 5
+              },
+              "5": {
+                "value": 6
+              },
+              "7": {
+                "value": 7
+              },
+              "9": {
+                "value": 8
+              },
+              "11": {
+                "value": 9
+              },
+              "13": {
+                "value": 10
+              },
+              "15": {
+                "value": 11
+              },
+              "17": {
+                "value": 12
+              }
+            }
+          },
+          "title": "Grit Points Maximum"
+        },
+        {
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "grit-damage-reduction",
+            "type": "number",
+            "scale": {
+              "1": {
+                "value": 1
+              },
+              "5": {
+                "value": 2
+              },
+              "10": {
+                "value": 3
+              },
+              "15": {
+                "value": 4
+              }
+            }
+          },
+          "title": "Grit Damage Reduction"
+        },
+        {
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "barrage-attacks",
+            "type": "number",
+            "scale": {
+              "2": {
+                "value": 1
+              },
+              "9": {
+                "value": 2
+              },
+              "17": {
+                "value": 3
+              }
+            }
+          },
+          "title": "Barrage Attacks"
+        }
+      ]
+    }
+  ],
+  "classFluff": [
+    {
+      "name": "Головорез",
+      "source": "TheBasterTheRuffian",
+      "entries": [
+        {
+          "type": "section",
+          "name": "Головорез",
+          "source": "TheBasterTheRuffian",
+          "page": 1,
+          "entries": [
+            "Ночь сгущается в переулках преступного дна древнего дворфийского города. Сила ныне правит как закон улиц. Кряжистая полуорчиха сражается с голиафом-громилой за кучу украденных припасов. Двое багбиров избивают щуплого полурослика за то, что тот не предоставил затребованный товар. Криминальный воротила посылает своих головорезов проникнуть в особняк дворянина, который встал у него на пути.",
+            "Головорезов часто считают худшими из худших. Они бьют первыми, а вопросы задают потом. Жизнь на улицах взяла с них свою плату. Вопрос не в том, есть ли у головореза шрамы, а в том, сколько их... и откуда они взялись. Каждый шрам рассказывает историю — о потерях, о победе и о ложной надежде. Доля головореза часто мрачна и бессмысленна. Большинство отказались писать собственную историю. Вместо этого они служат продажным вожакам и пачкают руки за чужие преступления."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Выносливый и обаятельный",
+          "page": 1,
+          "entries": [
+            "Головорез всегда выдержит удар. Он привык, что в него стреляют или что в спине у него нож. Целая жизнь схваток сделала их настолько выносливыми, насколько позволяет их анатомия. В бою они упиваются собственной живучестью, демонстрируя поразительные всплески силы и выносливости в неожиданные мгновения. Не стоит беспокоиться о головорезе, яростно бросающемся в атаку — он в отчаянии. Стоит беспокоиться о головорезе, терпеливо выжидающем, сносящем удары и наносящем удар, когда его противники устанут.",
+            "Однако мрачная жизнь вовсе не {@italic всегда} должна вести к мрачному характеру. Хотя большинство головорезов не слишком умны и не слишком мудры, некоторые из них могут быть остроумны и обаятельны. Не каждая гора мускулов — пустая оболочка. Сладкие речи могут завести далеко в преступных мирах вселенной. И тот, кто выживал так долго, как головорезы, уж точно знает, что сказать... и когда."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Создание головореза",
+          "page": 2,
+          "entries": [
+            "Создавая головореза, подумайте о его воспитании. Головорезы в основном привыкли к суровой жизни на улицах, где мало кто о них заботится и мало кто им дорог. Как они попали в отряд искателей приключений? Они только сила или ещё и ум? Используют ли они свою мощь, чтобы брать желаемое? Или только для защиты того, что у них есть?",
+            "Конечно, головорез не обязан быть родом из преступного мира или иметь криминальное прошлое. Возможно, он дворянин, всю жизнь занимавшийся боксом. Быть может, он часть цирка. Или просто обладает могучей фигурой, позволяющей ему выдерживать множество ударов. Важно отметить, что головорез не обязан быть тупым громилой, предпочитающим насилие всему остальному.",
+            {
+              "type": "inset",
+              "name": "БЫСТРОЕ СОЗДАНИЕ",
+              "page": 2,
+              "entries": [
+                "Вы можете быстро создать головореза, следуя этим советам. Во-первых, сделайте Телосложение своей самой высокой характеристикой. Следующей по величине должна быть Сила. Ваша третья по величине характеристика зависит от стиля игры: Ловкость, если хотите повысить свою инициативу и Класс Доспеха, и Харизма, если хотите, чтобы ваши насмешки и устрашения были более действенными. Во-вторых, выберите предысторию преступник/шпион."
+              ]
+            },
+            {
+              "type": "inset",
+              "name": "МУЛЬТИКЛАССИРОВАНИЕ",
+              "page": 2,
+              "entries": [
+                "Чтобы мультиклассироваться в этот класс или из него, значение вашего Телосложения должно быть не менее 13, а также значение вашей Силы, Ловкости или Харизмы должно быть не менее 13."
+              ]
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+          },
+          "title": "Тортл-варвар (мужчина)",
+          "credit": "Rollmodels"
+        },
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/grasha.webp"
+          },
+          "title": "Заказ: Граша",
+          "credit": "nozomi-M"
+        },
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/盗贼.webp"
+          },
+          "title": "盗贼",
+          "credit": "Zhang Bo"
+        },
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/naumia.webp"
+          },
+          "title": "Наумия, мой голиаф-варвар/плут",
+          "credit": "u/sovereignrk on reddit"
+        },
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/barbarian.webp"
+          },
+          "title": "Бой варвара",
+          "credit": "Atanas Lozanski"
+        }
+      ]
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Кредо головореза: телохранитель",
+      "shortName": "Телохранитель",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "page": 7,
+      "subclassFeatures": [
+        "Кредо головореза: телохранитель|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|3",
+        "Защита|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|3",
+        "Удар щитом|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|3",
+        "Встань за меня|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|6",
+        "Мясной щит|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|10",
+        "Привлечение внимания|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|14",
+        "Жертва|Ruffian|TheBasterTheRuffian|Телохранитель|TheBasterTheRuffian|18"
+      ],
+      "hasFluffImages": true
+    },
+    {
+      "name": "Кредо головореза: забияка",
+      "shortName": "Забияка",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "page": 6,
+      "subclassFeatures": [
+        "Кредо головореза: забияка|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|3",
+        "Железные кулаки|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|3",
+        "Дуэль|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|6",
+        "Необъяснимая сила|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|6",
+        "Головокружение|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|10",
+        "Окружение|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|14",
+        "Калечение|Ruffian|TheBasterTheRuffian|Забияка|TheBasterTheRuffian|18"
+      ],
+      "hasFluffImages": true
+    },
+    {
+      "name": "Кредо головореза: часовой",
+      "shortName": "Часовой",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "page": 8,
+      "subclassFeatures": [
+        "Кредо головореза: часовой|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|3",
+        "Вдохновляющая стойкость|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|3",
+        "Ещё не конец!|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|3",
+        "Сочувственный контрудар|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|6",
+        "Улучшение вдохновляющей стойкости|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|10",
+        "Вдохновляющее появление|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|14",
+        "Несокрушимые союзники|Ruffian|TheBasterTheRuffian|Часовой|TheBasterTheRuffian|18"
+      ],
+      "hasFluffImages": true
+    }
+  ],
+  "subclassFluff": [
+    {
+      "name": "Кредо головореза: телохранитель",
+      "shortName": "Телохранитель",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
+          },
+          "title": "Образ жизни богатых и знаменитых",
+          "credit": "William O'Connor"
+        }
+      ]
+    },
+    {
+      "name": "Кредо головореза: забияка",
+      "shortName": "Забияка",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+          },
+          "title": "Орк-забияка",
+          "credit": "Dennis Pospelov"
+        }
+      ]
+    },
+    {
+      "name": "Кредо головореза: часовой",
+      "shortName": "Часовой",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
+          },
+          "title": "Раненый",
+          "credit": "Gui Guimaraes"
+        }
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Стойкость",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 1,
+      "entries": [
+        "Хорошая драка — всё, что вам нужно. Пока вокруг вас бушует бой, ваша стойкость растёт, даруя вам поразительные всплески силы и выносливости. Ваши умения позволяют вам получать Очки стойкости. У вас может быть максимум четыре Очка стойкости. Этот максимум увеличивается с ростом уровня, как показано в таблице класса Головореза. Вы теряете все Очки стойкости во время короткого отдыха. Очки стойкости используются в ряде ваших классовых умений.",
+        "Ваша стойкость делает вас поразительно живучим. Один раз в промежутке от начала вашего хода до начала вашего следующего хода, после получения урона, вы можете уменьшить урон на {@dice 1d8} + ваш уровень головореза. Если ваше снижение недостаточно, чтобы полностью отменить урон, вы получаете одно Очко стойкости. Вы можете сделать это, только если у вас сейчас Очки стойкости ниже вашего Максимума очков стойкости. Начиная с 5-го уровня вы можете уменьшать урон дважды для отдельных атак между вашими ходами. С ростом уровня это увеличивается до трижды на 10-м уровне, четырёх раз на 15-м и пяти раз на 20-м уровне."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "max": "@scale.ruffian.grit-points-maximum",
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "loseAll"
+            }
+          ],
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "Устрашающая фигура",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 1,
+      "entries": [
+        "На 1-м уровне уже одно ваше присутствие может устрашать других. Вы получаете владение проверками Харизмы ({@skill Intimidation}), и вы можете добавлять свой модификатор Силы ко всем совершаемым вами проверкам Харизмы ({@skill Intimidation}).",
+        "Кроме того, ваша фигура дарует вам быстрые рефлексы. У вас преимущество на все {@action Opportunity Attack|PHB|провоцированные атаки}, которые вы совершаете."
+      ]
+    },
+    {
+      "name": "Шквал",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 2,
+      "entries": [
+        "На 2-м уровне переносимая вами боль дарует вам поразительные всплески силы. Используя действие Атака, вы можете потратить два {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы совершить дополнительную Атаку в рамках того же действия. На 9-м уровне вы можете потратить четыре Очка стойкости, чтобы совершить две дополнительные Атаки. На 17-м уровне вы можете потратить шесть Очков стойкости, чтобы совершить три дополнительные Атаки."
+      ]
+    },
+    {
+      "name": "Гнетущее присутствие",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 2,
+      "entries": [
+        "На 2-м уровне уже одно ваше присутствие может устрашать других. Всякий раз когда существо перемещается в пределах 5 фт. от вас или начинает там свой ход, вы можете заставить это существо совершить спасбросок Мудрости против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}. При провале существо становится зацикленным на вас до конца своего следующего хода. Существо, зацикленное на вас, не может добровольно отойти от вас. Вы также получаете {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian||Grit Point} всякий раз, когда зацикленное на вас существо наносит урон существу, отличному от вас.",
+        "Кроме того, вы можете использовать своё бонусное действие, чтобы заставить существо в пределах 60 фт. от вас, которое может вас видеть, совершить спасбросок Мудрости против Сл спасброска вашего Гнетущего присутствия. При провале существо становится зацикленным на вас до конца своего следующего хода.",
+        {
+          "type": "abilityDc",
+          "name": "Гнетущее присутствие",
+          "attributes": [
+            "cha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Кредо головореза",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 3,
+      "entries": [
+        "На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 4,
+      "entries": [
+        "При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Взаимодействие",
+      "source": "TheBasterTheRuffian",
+      "page": 4,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 5,
+      "entries": [
+        "На 5-м уровне ваша репутация и ваша фигура побуждают других существ легче сотрудничать с вами. Вы получаете преимущество на все основанные на Харизме проверки характеристик, которые совершаете против существа, зацикленного на вас."
+      ]
+    },
+    {
+      "name": "Контрудар",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 5,
+      "entries": [
+        "На 5-м уровне вы можете использовать то, что противник снижает свою оборону для атаки. После того как по вам попали броском атаки и вы получили урон, вы можете использовать свою реакцию, чтобы совершить рукопашную атаку по цели, которая по вам попала. Вы можете использовать своё умение {@classFeature Barrage|Ruffian|TheBasterTheRuffian|2} на этой атаке, чтобы даровать себе дополнительные атаки. Если существо зациклено на вас, вы совершаете эти атаки с преимуществом."
+      ]
+    },
+    {
+      "name": "Умение кредо",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 6,
+      "entries": [
+        "На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
+      ]
+    },
+    {
+      "name": "Под давлением рождаются алмазы",
+      "source": "TheBasterTheRuffian",
+      "page": 4,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 7,
+      "entries": [
+        "На 7-м уровне вы быстро приспосабливаетесь к физически сложным задачам. Совершая основанную на Силе или Ловкости проверку характеристики, вы можете потратить одно {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Point}, чтобы дать себе преимущество на бросок."
+      ]
+    },
+    {
+      "name": "Сопротивление",
+      "source": "TheBasterTheRuffian",
+      "page": 4,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 7,
+      "entries": [
+        "На 7-м уровне вас трудно удержать. Всякий раз, когда вас вынуждают совершить спасбросок, чтобы окончить или избежать действующего на вас состояния, вы можете потратить два {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы окончить состояние на себе без совершения спасброска. Вы можете сделать это бонусным действием, даже если спасбросок требовался как действие."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 8,
+      "entries": [
+        "При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Найти слабость",
+      "source": "TheBasterTheRuffian",
+      "page": 4,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 9,
+      "entries": [
+        "На 9-м уровне ваш опыт на поле боя быстро подсказывает вам слабость существа, позволяя вам использовать её. Раз за ход, попадая по существу броском атаки, вы можете решить не наносить урон, а вместо этого нацелиться на его доспех. Существо совершает спасбросок Телосложения против вашего броска атаки. При провале его КД уменьшается на число, равное вашему текущему количеству {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, до начала вашего следующего хода."
+      ]
+    },
+    {
+      "name": "Умение кредо",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 10,
+      "entries": [
+        "На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
+      ]
+    },
+    {
+      "name": "Грубая сила",
+      "source": "TheBasterTheRuffian",
+      "page": 4,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 11,
+      "entries": [
+        "На 11-м уровне вы бьёте достаточно сильно, чтобы вырубить существо. После попадания по существу броском атаки и после броска урона вы можете потратить шесть {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы заставить существо совершить спасбросок Телосложения со Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы. При провале существо теряет сознание на одну минуту или пока не получит урон."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 12,
+      "entries": [
+        "При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Величественное появление",
+      "source": "TheBasterTheRuffian",
+      "page": 4,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 13,
+      "entries": [
+        "На 13-м уровне вы знаете, как привлечь внимание других к себе. В начале вашего первого хода в бою вы можете заставить всех существ на ваш выбор в радиусе 60 фт. от вас совершить спасбросок Мудрости против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}. При провале существо становится зацикленным на вас до конца своего следующего хода."
+      ]
+    },
+    {
+      "name": "Умение кредо",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 14,
+      "entries": [
+        "На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
+      ]
+    },
+    {
+      "name": "Последний рубеж",
+      "source": "TheBasterTheRuffian",
+      "page": 4,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 15,
+      "entries": [
+        "На 15-м уровне вы знаете, как дать последний отпор. При получении урона, который уменьшил бы вас до 0 хитов, вы можете потратить восемь {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы потратить одну Кость хитов (реакция не требуется), и затем остаётесь в сознании с количеством хитов, равным результату броска."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 16,
+      "entries": [
+        "При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Леденящий кровь крик",
+      "source": "TheBasterTheRuffian",
+      "page": 5,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 17,
+      "entries": [
+        "На 17-м уровне ваши боевые кличи вселяют страх в сердца врагов. Бонусным действием вы можете заставить любое количество существ в пределах 60 фт. от вас, которые вас слышат, совершить спасбросок Интеллекта против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}. Существа, зацикленные на вас, совершают этот спасбросок с помехой. При провале скорость перемещения существа снижается до 0, оно совершает все спасброски с помехой и имеет помеху на все совершаемые броски атаки до начала вашего следующего хода.",
+        "Вы можете использовать это умение число раз, равное вашему модификатору Харизмы (минимум 1), за продолжительный отдых."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "max": "max(1, @abilities.cha.mod)",
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "loseAll"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Умение кредо",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 18,
+      "entries": [
+        "На 3-м уровне вы выбрали кредо, определяющее ваши жизненные решения. Ваш выбор даёт вам различные умения на 3-м, 6-м, 10-м, 14-м и 18-м уровнях."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "TheBasterTheRuffian",
+      "page": 3,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 19,
+      "entries": [
+        "При достижении 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как вариант, вы можете выбрать получение одной {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Непреклонный",
+      "source": "TheBasterTheRuffian",
+      "page": 5,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 20,
+      "entries": [
+        "На 20-м уровне вы никогда не сдаётесь. Раз за короткий отдых бонусным действием в свой ход вы даруете себе следующие бонусы до начала вашего следующего хода.",
+        {
+          "type": "list",
+          "columns": 1,
+          "page": 5,
+          "items": [
+            "вы получаете сопротивление всем типам урона",
+            "вы снимаете с себя все состояния и становитесь невосприимчивы ко всем состояниям",
+            "вы получаете преимущество на все совершаемые вами броски рукопашных атак",
+            "ваше перемещение нельзя ограничить никаким образом"
+          ]
+        }
+      ],
+      "foundrySystem": {
+        "uses": {
+          "max": 1,
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "foundryClassFeature": [
+    {
+      "name": "Grit",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 1,
+      "activities": [
+        {
+          "name": "Grit Damage Reduction",
+          "type": "heal",
+          "description": {
+            "chatFlavor": "Grit Damage Reduction"
+          },
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "activityUses",
+                "value": 1
+              }
+            ]
+          },
+          "uses": {
+            "max": "@scale.ruffian.grit-damage-reduction",
+            "recovery": [
+              {
+                "period": "turnStart",
+                "type": "recoverAll"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          },
+          "healing": {
+            "bonus": "@classes.ruffian.levels",
+            "denomination": "8",
+            "number": 1,
+            "types": [
+              "healing"
+            ]
+          }
+        },
+        {
+          "name": "Gain Grit Point",
+          "type": "utility",
+          "description": {
+            "chatFlavor": "Gain Grit Point"
+          },
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": -1
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          }
+        },
+        {
+          "name": "Quick Recovery",
+          "type": "heal",
+          "description": {
+            "chatFlavor": "Quick Recovery"
+          },
+          "activation": {
+            "type": "turnStart"
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          },
+          "healing": {
+            "custom": {
+              "enabled": true,
+              "formula": "@item.uses.value * @attributes.prof"
+            },
+            "types": [
+              "temphp"
+            ]
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Intimidating Physique",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 1,
+      "effects": [
+        {
+          "transfer": true,
+          "changes": [
+            {
+              "key": "system.skills.itm.value",
+              "mode": "UPGRADE",
+              "value": 1
+            },
+            {
+              "key": "system.skills.itm.bonuses.check",
+              "mode": "ADD",
+              "value": "@abilities.str.mod"
+            }
+          ]
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Barrage",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 2,
+      "activities": [
+        {
+          "name": "Use",
+          "type": "utility",
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": true,
+              "max": "@scale.ruffian.barrage-attacks"
+            },
+            "targets": [
+              {
+                "scaling": {
+                  "formula": "2",
+                  "mode": "amount"
+                },
+                "type": "itemUses",
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "value": "2"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "creature"
+            }
+          },
+          "range": {
+            "units": "self"
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Daunting Pressence",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 2,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "bonus"
+          },
+          "target": {
+            "affects": {
+              "type": "creature"
+            }
+          },
+          "range": {
+            "units": "ft",
+            "value": 60
+          },
+          "save": {
+            "ability": [
+              "wis"
+            ],
+            "dc": {
+              "calculation": "spellcasting"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "dauntingPresence"
+            }
+          ]
+        },
+        {
+          "name": "Gain Grit Point",
+          "type": "utility",
+          "description": {
+            "chatFlavor": "Gain Grit Point"
+          },
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "value": -1
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "dauntingPresence",
+          "duration": {
+            "rounds": 1
+          },
+          "changes": []
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Cooperation",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 5,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Counter",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 5,
+      "activities": [
+        {
+          "name": "Use",
+          "type": "utility",
+          "activation": {
+            "type": "reaction"
+          },
+          "target": {
+            "affects": {
+              "type": "creature"
+            }
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Pressure Forms Diamonds",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 7,
+      "activities": [
+        {
+          "type": "utility",
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "value": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Resistance",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 7,
+      "activities": [
+        {
+          "type": "utility",
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "value": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Find Weakness",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 9,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": true
+            }
+          },
+          "target": {
+            "affects": {
+              "type": "creature"
+            }
+          },
+          "save": {
+            "ability": [
+              "con"
+            ],
+            "dc": {
+              "formula": "@scaling"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "findWeakness"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "findWeakness",
+          "duration": {
+            "rounds": 1
+          },
+          "changes": []
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Brute Force",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 11,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "value": "6"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "creature"
+            }
+          },
+          "save": {
+            "ability": [
+              "con"
+            ],
+            "dc": {
+              "calculation": "str"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "bruteForce"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "bruteForce",
+          "duration": {
+            "seconds": 60
+          },
+          "changes": [],
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": [
+                  "unconscious"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Grand Entrance",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 13,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Last Stand",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 15,
+      "activities": [
+        {
+          "type": "heal",
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Bloodcurling Cry",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 17,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "bonus"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "creature"
+            }
+          },
+          "range": {
+            "unit": "ft",
+            "value": 60
+          },
+          "save": {
+            "ability": [
+              "int"
+            ],
+            "dc": {
+              "calculation": "spellcasting"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "bloodCurdling"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "bloodCurdling",
+          "duration": {
+            "rounds": 1
+          },
+          "changes": [
+            {
+              "key": "system.attributes.movement.burrow",
+              "mode": "DOWNGRADE",
+              "value": 0
+            },
+            {
+              "key": "system.attributes.movement.climb",
+              "mode": "DOWNGRADE",
+              "value": 0
+            },
+            {
+              "key": "system.attributes.movement.fly",
+              "mode": "DOWNGRADE",
+              "value": 0
+            },
+            {
+              "key": "system.attributes.movement.swim",
+              "mode": "DOWNGRADE",
+              "value": 0
+            },
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": "DOWNGRADE",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    },
+    {
+      "name": "Unyielding",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "level": 20,
+      "activities": [
+        {
+          "type": "utility",
+          "activation": {
+            "type": "bonus"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": 1
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          },
+          "effects": [
+            {
+              "foundryId": "unyieldingEffect"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "unyieldingEffect",
+          "disabled": true,
+          "transfer": true,
+          "duration": {
+            "duration": 1,
+            "rounds": 1
+          },
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "acid"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "bludgeoning"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "cold"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "fire"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "force"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "lightning"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "necrotic"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "piercing"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "poison"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "psychic"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "radiant"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "slashing"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "thunder"
+            }
+          ]
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/tortle.webp"
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Защита",
+      "source": "TheBasterTheRuffian",
+      "page": 7,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне вы отдадите жизнь, чтобы заслонить других от вреда. Когда существо в пределах 5 фт. от вас получает попадание броском атаки, вы можете использовать на нём своё умение {@classFeature Grit|Ruffian|TheBasterTheRuffian|1}. Вы уменьшаете урон, но существо всё равно получает любой избыточный урон. Используя своё умение таким образом, вы всё равно получаете Очко стойкости."
+      ]
+    },
+    {
+      "name": "Кредо головореза: телохранитель",
+      "source": "TheBasterTheRuffian",
+      "page": 7,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Как бы заманчива ни была перспектива богатства и власти, всегда найдутся те, кто захочет отнять их у вас. Влиятельные люди поэтому часто нанимают телохранителей, чтобы обеспечить свою защиту. Эти головорезы не придерживаются военных процедур, которые могут считать священными другие охранники. Для них есть только одна цель: защитить тех, кому они либо поклялись, либо за чью защиту им платят. Ради этого они не боятся играть грязно. В конце концов, честь ничего не окупает, если источник выплаты умер ради неё."
+      ]
+    },
+    {
+      "name": "Удар щитом",
+      "source": "TheBasterTheRuffian",
+      "page": 7,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне щит, который вы носите, может быть и оборонительным, и наступательным средством. Держа щит, вы можете использовать своё бонусное действие, чтобы совершить им бросок атаки. Вы можете нацелиться на существо в пределах 5 фт. от вас. Вы добавляете свой бонус мастерства и модификатор Силы к броску атаки. При попадании цель должна преуспеть в спасброске Ловкости со Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы. При провале она сбивается с ног Ничком.",
+        "Вы можете использовать это умение без щита, но тогда вы совершите бросок атаки с помехой."
+      ]
+    },
+    {
+      "name": "Встань за меня",
+      "source": "TheBasterTheRuffian",
+      "page": 7,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "На 6-м уровне вы знаете, как увести союзников из-под удара. В свой ход вы можете потратить половину своего перемещения, чтобы коснуться согласного существа и поменяться с ним местами (действие не требуется). Как и любое вынужденное перемещение, это не провоцирует провоцированных атак ни против одного из вас."
+      ]
+    },
+    {
+      "name": "Мясной щит",
+      "source": "TheBasterTheRuffian",
+      "page": 7,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "На 10-м уровне вы можете полностью заслонить существо от вреда. Бонусным действием в свой ход вы можете потратить четыре {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы коснуться существа. До начала вашего следующего хода и только если существо остаётся в пределах 5 фт. от вас, вы даруете существу укрытие на три четверти."
+      ]
+    },
+    {
+      "name": "Привлечение внимания",
+      "source": "TheBasterTheRuffian",
+      "page": 7,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "На 14-м уровне вы можете попытаться отвлечь внимание от существ, защищать которых вы поклялись, оставив себя открытым для атак. В конце своего хода вы можете заставить всех существ, зацикленных на вас, совершить спасбросок Мудрости против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}.",
+        "При провале существо должно использовать своё действие в свой следующий ход, чтобы попытаться нанести вам урон. Любые броски атаки, которые оно совершает по вам, совершаются с преимуществом, и у вас помеха на все спасброски, которые оно вынуждает вас совершить."
+      ]
+    },
+    {
+      "name": "Жертва",
+      "source": "TheBasterTheRuffian",
+      "page": 7,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "На 18-м уровне вы готовы пожертвовать собой ради тех, защищать которых вы поклялись. Когда существо в пределах 30 фт. от вас уменьшается до 0 хитов, вы можете использовать свою реакцию, чтобы броситься к нему.",
+        "Вы можете потратить всё своё перемещение в направлении существа. Оно восстанавливает хиты, равные вашему текущему количеству {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points} × 10. Затем вы теряете такое же количество хитов."
+      ]
+    },
+    {
+      "name": "Железные кулаки",
+      "source": "TheBasterTheRuffian",
+      "page": 6,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне ваши хук слева и справа боятся повсюду. Вы можете бросить {@dice 1d6|d6} вместо обычного урона вашего безоружного удара. Вы можете добавить свой бонус мастерства к броску урона. Когда вы в свой ход используете действие {@action Attack} с безоружным ударом, вы можете совершить один безоружный удар бонусным действием."
+      ]
+    },
+    {
+      "name": "Кредо головореза: забияка",
+      "source": "TheBasterTheRuffian",
+      "page": 6,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Хотя большинство головорезов умеют владеть оружием, не все из них предпочитают это делать. Иногда хороший старый хук справа может завести далеко. Забияки часто участвуют в драках в барах и на улицах. Есть что-то достойное в том, чтобы встретиться с противником лицом к лицу без оружия и решить исход боя чистой силой рук. Забияк также часто нанимают криминальные воротилы, чтобы запугивать соперников и следить за выплатой долгов. Когда кулак забияки ударит вас по челюсти и раздастся нехороший хруст, вы дважды подумаете, прежде чем снова его злить."
+      ]
+    },
+    {
+      "name": "Дуэль",
+      "source": "TheBasterTheRuffian",
+      "page": 6,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "На 6-м уровне вы можете попытаться вынудить существо в дуэль. Бонусным действием вы можете заставить существо в пределах 60 фт. от вас, которое может вас видеть, совершить спасбросок Интеллекта против Сл спасброска вашего {@classFeature Daunting Pressence|Ruffian|TheBasterTheRuffian|2}. Существо, зацикленное на вас, совершает этот спасбросок с помехой. При провале вы и существо оба получаете помеху на все броски атаки, не нацеленные друг на друга. Кроме того, каждое существо — помимо вас двоих — получает преимущество на спасброски, которые вы его вынуждаете совершить. Дуэль длится одну минуту или пока один из вас не будет уменьшен до 0 хитов. Если вы уменьшаете до 0 хитов существо, с которым у вас дуэль, вы можете потратить любое количество своих Костей хитов и восстановить это количество хитов, не добавляя свой модификатор Телосложения."
+      ]
+    },
+    {
+      "name": "Необъяснимая сила",
+      "source": "TheBasterTheRuffian",
+      "page": 6,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "На 6-м уровне ваши безоружные удары считаются магическими для целей преодоления сопротивлений."
+      ]
+    },
+    {
+      "name": "Головокружение",
+      "source": "TheBasterTheRuffian",
+      "page": 6,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "На 10-м уровне ваши удары могут оставить существо в состоянии головокружения. После попадания по существу броском атаки вы можете потратить два {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}, чтобы вложить в удар много веса. Существо должно преуспеть в спасброске Телосложения со Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы. При провале существо не может использовать реакции до начала вашего следующего хода."
+      ]
+    },
+    {
+      "name": "Окружение",
+      "source": "TheBasterTheRuffian",
+      "page": 6,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "На 14-м уровне вы можете решить навалиться на противника, не давая ему времени опомниться. Совершая бросок атаки, вы можете потратить три {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}. Если ваша атака попадает, выбранное существо должно совершить спасбросок Ловкости со Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы. При провале оно должно использовать свою реакцию, чтобы предпринять действие Уклонение. В свой следующий ход оно должно использовать своё действие, чтобы предпринять действие Уклонение."
+      ]
+    },
+    {
+      "name": "Калечение",
+      "source": "TheBasterTheRuffian",
+      "page": 6,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "На 18-м уровне наносимый вами урон не так легко отмахнуть. Ваши безоружные удары теперь уменьшают максимум хитов существа на наносимый ими урон. Если максимум хитов существа уменьшается до 0 с помощью этого умения, существо умирает. Эффекты этого умения сохраняются, пока существо не завершит продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Вдохновляющая стойкость",
+      "source": "TheBasterTheRuffian",
+      "page": 8,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне ваша стойкость перед лицом боли побуждает союзников сражаться упорнее. Всякий раз когда вы тратите {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|grit points}, вы можете дать Ободрение одному союзнику в пределах 30 фт., который может вас видеть. На следующий раунд они получают бонус, равный половине вашего модификатора Харизмы (округлённой вверх), либо к своим спасброскам, либо к Классу Доспеха, либо к броскам атаки. Они выбирают эффект, когда вы активируете эту способность."
+      ]
+    },
+    {
+      "name": "Ещё не конец!",
+      "source": "TheBasterTheRuffian",
+      "page": 8,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне вас могут сбить с ног 10 раз, но на 11-й вы снова встанете! Когда вы совершаете спасброски от смерти, результат 19 или выше считается так, будто вы выбросили чистую 20. Кроме того, каждый раз, когда вы совершаете спасбросок от смерти — до броска — вы можете потратить любое количество {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit points} и прибавить это число к броску."
+      ]
+    },
+    {
+      "name": "Кредо головореза: часовой",
+      "source": "TheBasterTheRuffian",
+      "page": 8,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Битва за правое (или неправое) дело может привести к крепкому товариществу. Некоторые головорезы образуют тесные связи со своими спутниками, даже если всех их вместе сводят лишь страсть или нужда в деньгах. Эти Часовые одержимы стремлением следить, чтобы никто из их союзников не пострадал. А их стойкость и решимость вдохновляют окружающих никогда не сдаваться. Даже — или, быть может, особенно — когда шансы против них."
+      ]
+    },
+    {
+      "name": "Сочувственный контрудар",
+      "source": "TheBasterTheRuffian",
+      "page": 8,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "На 6-м уровне вы ненавидите видеть, как вашим друзьям причиняют боль. Когда вы видите, как существо или союзник получает урон, вы можете потратить 3 {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|grit points} и свою реакцию, чтобы переместиться на расстояние до своего полного перемещения в сторону агрессора и использовать своё умение Контрудар, как если бы по вам атаковали."
+      ]
+    },
+    {
+      "name": "Улучшение вдохновляющей стойкости",
+      "source": "TheBasterTheRuffian",
+      "page": 8,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "На 10-м уровне существа, получающие пользу от вашего умения Ободрение, теперь добавляют ваш полный модификатор Харизмы вместо половины. Кроме того, они могут вместо этого применить бонус к любой Сл спасброска, которую они вынуждают совершить других существ, или к своим спасброскам от смерти."
+      ]
+    },
+    {
+      "name": "Вдохновляющее появление",
+      "source": "TheBasterTheRuffian",
+      "page": 8,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "На 14-м уровне, всякий раз когда вы используете своё умение {@classFeature Grand Entrance|Ruffian|TheBasterTheRuffian|13}, вы можете дать Ободрение любому количеству союзников в пределах дистанции эффекта. Кроме того, вы можете снова использовать это умение всякий раз, когда возвращаетесь в сознание в результате спасброска от смерти."
+      ]
+    },
+    {
+      "name": "Несокрушимые союзники",
+      "source": "TheBasterTheRuffian",
+      "page": 8,
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "На 18-м уровне вы можете использовать своё умение {@classFeature Last Stand|Ruffian|TheBasterTheRuffian|15} раз за короткий отдых, не тратя никаких {@classFeature Grit|Ruffian|TheBasterTheRuffian|1|TheBasterTheRuffian|Grit Points}. Кроме того, когда союзник в пределах 60 фт. от вас должен упасть до 0 хитов, вы можете использовать свою реакцию, чтобы позволить ему использовать ваше умение Последний рубеж вместо вас."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "max": "1",
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "foundrySubclassFeature": [
+    {
+      "name": "Protection",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
+    },
+    {
+      "name": "Shield Bash",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "bonus"
+          },
+          "target": {
+            "affects": {
+              "count": 1,
+              "type": "creature"
+            }
+          },
+          "save": {
+            "ability": [
+              "dex",
+              "str"
+            ],
+            "dc": {
+              "calculation": "str"
+            }
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
+    },
+    {
+      "name": "Get Behind Me",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 6,
+      "activities": [
+        {
+          "type": "utility",
+          "activation": {
+            "type": "special"
+          },
+          "target": {
+            "affects": {
+              "count": 1,
+              "type": "creature"
+            }
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
+    },
+    {
+      "name": "Meat Shield",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 10,
+      "activities": [
+        {
+          "type": "utility",
+          "activation": {
+            "type": "bonus"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "value": "4"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "count": 1,
+              "type": "creature"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "meatShield"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "meatShield",
+          "duration": {
+            "rounds": 1
+          },
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": "ADD",
+              "value": 5
+            },
+            {
+              "key": "system.abilities.dex.bonuses.save",
+              "mode": "ADD",
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
+    },
+    {
+      "name": "Drawing Attention",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 14,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "turnEnd"
+          },
+          "target": {
+            "affects": {
+              "special": "that is fixated on you",
+              "type": "creature"
+            }
+          },
+          "range": {
+            "units": "ft",
+            "value": 30
+          },
+          "save": {
+            "ability": [
+              "wis"
+            ],
+            "dc": {
+              "calculation": "spellcasting"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "drawingAttention"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "drawingAttention",
+          "duration": {
+            "rounds": 1
+          },
+          "changes": []
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
+    },
+    {
+      "name": "Sacrifice",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Телохранитель",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 18,
+      "activities": [
+        {
+          "type": "heal",
+          "activation": {
+            "type": "reaction"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": true,
+              "max": "@scale.ruffian.grit-points-maximum"
+            },
+            "targets": [
+              {
+                "scaling": {
+                  "mode": "amount",
+                  "formula": 10
+                },
+                "target": "attributes.hp.value",
+                "type": "attribute",
+                "value": 10
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "count": 1,
+              "special": "that has been reduced to 0 Hit Points",
+              "type": "creature"
+            }
+          },
+          "range": {
+            "units": "touch"
+          },
+          "healing": {
+            "custom": {
+              "enabled": true,
+              "formula": 10
+            },
+            "scaling": {
+              "formula": 10,
+              "mode": "whole"
+            },
+            "types": [
+              "healing"
+            ]
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
+    },
+    {
+      "name": "Bonus Unarmed Strike",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+    },
+    {
+      "name": "Heavy Hitter",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+    },
+    {
+      "name": "Iron Fists",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "activities": [
+        {
+          "name": "Heavy Hitter",
+          "type": "enchant",
+          "description": {
+            "chatFlavor": "Heavy Hitter"
+          },
+          "activation": {
+            "type": "none"
+          },
+          "restrictions": {
+            "allowMagical": true
+          },
+          "effects": [
+            {
+              "foundryId": "ironFists"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "ironFists",
+          "name": "Heavy Hitter",
+          "type": "enchantment",
+          "disabled": true,
+          "transfer": true,
+          "changes": [
+            {
+              "key": "system.damage.base.custom.enabled",
+              "mode": "OVERRIDE",
+              "value": false
+            },
+            {
+              "key": "system.damage.base.number",
+              "mode": "OVERRIDE",
+              "value": "1"
+            },
+            {
+              "key": "system.damage.base.denomination",
+              "mode": "OVERRIDE",
+              "value": "6"
+            },
+            {
+              "key": "system.damage.bonus",
+              "mode": "ADD",
+              "value": "@attributes.prof"
+            }
+          ]
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+    },
+    {
+      "name": "Duel",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 6,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "bonus"
+          },
+          "target": {
+            "affects": {
+              "count": 1,
+              "type": "creature"
+            }
+          },
+          "range": {
+            "units": "ft",
+            "value": 60
+          },
+          "save": {
+            "ability": [
+              "int"
+            ],
+            "dc": {
+              "calculation": "spellcasting"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "duel"
+            }
+          ]
+        },
+        {
+          "type": "heal",
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "hitDice",
+                "target": "largest",
+                "value": "1"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          },
+          "healing": {
+            "custom": {
+              "enabled": true,
+              "formula": "1@attributes.hd.largestAvailable"
+            },
+            "types": [
+              "healing"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "duel",
+          "duration": {
+            "seconds": 60
+          },
+          "changes": []
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+    },
+    {
+      "name": "Inexplicable Strength",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 6,
+      "activities": [
+        {
+          "type": "enchant",
+          "activation": {
+            "type": "none"
+          },
+          "restrictions": {
+            "allowMagical": true
+          },
+          "effects": [
+            {
+              "foundryId": "inexplicableStr"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "inexplicableStr",
+          "type": "enchantment",
+          "disabled": true,
+          "transfer": true,
+          "changes": [
+            {
+              "key": "system.damage.base.types",
+              "mode": "ADD",
+              "value": "force"
+            }
+          ]
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+    },
+    {
+      "name": "Dizzy",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 10,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "value": "2"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "count": 1,
+              "type": "creature"
+            }
+          },
+          "save": {
+            "ability": [
+              "con"
+            ],
+            "dc": {
+              "calculation": "str"
+            }
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+    },
+    {
+      "name": "Swarm",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 14,
+      "activities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "special"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "value": "3"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "count": 1,
+              "type": "creature"
+            }
+          },
+          "save": {
+            "ability": [
+              "dex"
+            ],
+            "dc": {
+              "calculation": "str"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "swarm"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "swarm",
+          "duration": {
+            "rounds": 1
+          },
+          "changes": [],
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": [
+                  "dodging"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+    },
+    {
+      "name": "Cripple",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Забияка",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 18,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+    },
+    {
+      "name": "Inspiring Toughness",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "activities": [
+        {
+          "type": "utility",
+          "activation": {
+            "condition": "whenever you expend Grit Points",
+            "type": "special"
+          },
+          "target": {
+            "affects": {
+              "count": 1,
+              "type": "creature"
+            }
+          },
+          "range": {
+            "units": "ft",
+            "value": 30
+          },
+          "effects": [
+            {
+              "foundryId": "inspToughness"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "foundryId": "inspToughness",
+          "duration": {
+            "rounds": 1
+          },
+          "changes": []
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
+    },
+    {
+      "name": "Not Done Yet",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 3,
+      "activities": [
+        {
+          "type": "utility",
+          "activation": {
+            "condition": "each time you make a Death Saving Throw",
+            "type": "special"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": true,
+              "max": "@scale.ruffian.grit-points-maximum"
+            },
+            "targets": [
+              {
+                "scaling": {
+                  "mode": "amount"
+                },
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "type": "itemUses",
+                "value": "1"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          },
+          "roll": {
+            "formula": "1d20 + @bonuses.abilities.save + @scaling",
+            "name": "Death Saving Throw",
+            "prompt": true
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
+    },
+    {
+      "name": "Sympathetic Counter",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 6,
+      "activities": [
+        {
+          "type": "utility",
+          "activation": {
+            "condition": "when a creature that you can see or hear is hit by an Attack Roll and takes damage",
+            "type": "reaction"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "target": {
+                  "consumes": {
+                    "name": "Grit"
+                  }
+                },
+                "type": "itemUses",
+                "value": "3"
+              }
+            ]
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "range": {
+            "units": "self"
+          }
+        }
+      ],
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
+    },
+    {
+      "name": "Inspiring Toughness Improvement",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 10,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
+    },
+    {
+      "name": "Inspiring Entrance",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 14,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
+    },
+    {
+      "name": "Unbreakable Allies",
+      "source": "TheBasterTheRuffian",
+      "className": "Ruffian",
+      "classSource": "TheBasterTheRuffian",
+      "subclassShortName": "Часовой",
+      "subclassSource": "TheBasterTheRuffian",
+      "level": 18,
+      "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
+    }
+  ],
+  "item": [
+    {
+      "name": "Боевая рукавица",
+      "source": "TheBasterTheRuffian",
+      "page": 9,
+      "type": "M",
+      "rarity": "none",
+      "weight": 5,
+      "value": 3000,
+      "weaponCategory": "martial",
+      "property": [
+        "L"
+      ],
+      "dmg1": "1d6",
+      "dmgType": "B",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Особое",
+          "entries": [
+            "Владение боевой рукавицей позволяет вам добавлять свой бонус мастерства к броску атаки для любой совершаемой ею атаки.",
+            "Если вы совершаете критическое попадание боевой рукавицей, существо, по которому вы попали, отбрасывается на 5 футов назад."
+          ]
+        }
+      ],
+      "hasFluffImages": true
+    }
+  ],
+  "itemFluff": [
+    {
+      "name": "Боевая рукавица",
+      "source": "TheBasterTheRuffian",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/victorianvi.webp"
+          },
+          "title": "Викторианская Ви",
+          "credit": "Kureiyah"
+        }
+      ]
+    }
+  ],
+  "book": [
+    {
+      "name": "Головорез — класс-танк для DnD 5e",
+      "id": "TheBasterTheRuffian",
+      "source": "TheBasterTheRuffian",
+      "group": "homebrew",
+      "cover": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/cover.webp"
+      },
+      "published": "2023-09-13",
+      "author": "The Baster, u/ImWildsoul (Sentry subclass)",
+      "contents": [
+        {
+          "name": "Головорез — класс-танк для DnD 5e",
+          "headers": [
+            "Ruffian",
+            {
+              "header": "Выносливый и обаятельный",
+              "depth": 2
+            },
+            {
+              "header": "Создание головореза",
+              "depth": 2
+            },
+            {
+              "header": "Классовые умения",
+              "depth": 2
+            },
+            "Ruffian Creed: Brawler",
+            "Ruffian Creed: Bodyguard",
+            "Ruffian Creed: Sentry",
+            "Ruffian Equipment",
+            "Credit",
+            "Pictures Credit"
+          ]
+        }
+      ]
+    }
+  ],
+  "bookData": [
+    {
+      "id": "TheBasterTheRuffian",
+      "source": "TheBasterTheRuffian",
+      "data": [
+        {
+          "type": "section",
+          "name": "Головорез — класс-танк для DnD 5e",
+          "page": 1,
+          "entries": [
+            {
+              "type": "section",
+              "name": "Головорез",
+              "page": 1,
+              "entries": [
+                "Ночь сгущается в переулках преступного дна древнего дворфийского города. Сила ныне правит как закон улиц. Кряжистая полуорчиха сражается с голиафом-громилой за кучу украденных припасов. Двое багбиров избивают щуплого полурослика за то, что тот не предоставил затребованный товар. Криминальный воротила посылает своих головорезов проникнуть в особняк дворянина, который встал у него на пути.",
+                "Головорезов часто считают худшими из худших. Они бьют первыми, а вопросы задают потом. Жизнь на улицах взяла с них свою плату. Вопрос не в том, есть ли у головореза шрамы, а в том, сколько их... и откуда они взялись. Каждый шрам рассказывает историю — о потерях, о победе и о ложной надежде. Доля головореза часто мрачна и бессмысленна. Большинство отказались писать собственную историю. Вместо этого они служат продажным вожакам и пачкают руки за чужие преступления.",
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/grasha.webp"
+                  },
+                  "title": "Заказ: Граша",
+                  "credit": "nozomi-M"
+                },
+                {
+                  "type": "section",
+                  "name": "Выносливый и обаятельный",
+                  "page": 1,
+                  "entries": [
+                    "Головорез всегда выдержит удар. Он привык, что в него стреляют или что в спине у него нож. Целая жизнь схваток сделала их настолько выносливыми, насколько позволяет их анатомия. В бою они упиваются собственной живучестью, демонстрируя поразительные всплески силы и выносливости в неожиданные мгновения. Не стоит беспокоиться о головорезе, яростно бросающемся в атаку — он в отчаянии. Стоит беспокоиться о головорезе, терпеливо выжидающем, сносящем удары и наносящем удар, когда его противники устанут.",
+                    "Однако мрачная жизнь вовсе не обязательно должна вести к мрачному характеру. Хотя большинство головорезов не слишком умны и не слишком мудры, некоторые из них могут быть остроумны и обаятельны. Не каждая гора мускулов — пустая оболочка. Сладкие речи могут завести далеко в преступных мирах вселенной. И тот, кто выживал так долго, как головорезы, уж точно знает, что сказать... и когда."
+                  ]
+                },
+                {
+                  "type": "section",
+                  "name": "Создание головореза",
+                  "page": 2,
+                  "entries": [
+                    "Создавая головореза, подумайте о его воспитании. Головорезы в основном привыкли к суровой жизни на улицах, где мало кто о них заботится и мало кто им дорог. Как они попали в отряд искателей приключений? Они только сила или ещё и ум? Используют ли они свою мощь, чтобы брать желаемое? Или только для защиты того, что у них есть?",
+                    "Конечно, головорез не обязан быть родом из преступного мира или иметь криминальное прошлое. Возможно, он дворянин, всю жизнь занимавшийся боксом. Быть может, он часть цирка. Или просто обладает могучей фигурой, позволяющей ему выдерживать множество ударов. Важно отметить, что головорез не обязан быть тупым громилой, предпочитающим насилие всему остальному.",
+                    {
+                      "type": "inset",
+                      "name": "БЫСТРОЕ СОЗДАНИЕ",
+                      "page": 2,
+                      "entries": [
+                        "Вы можете быстро создать головореза, следуя этим советам. Во-первых, сделайте Телосложение своей самой высокой характеристикой. Следующей по величине должна быть Сила. Ваша третья по величине характеристика зависит от стиля игры: Ловкость, если хотите повысить свою инициативу и Класс Доспеха, и Харизма, если хотите, чтобы ваши насмешки и устрашения были более действенными. Во-вторых, выберите предысторию преступник/шпион."
+                      ]
+                    },
+                    {
+                      "type": "inset",
+                      "name": "МУЛЬТИКЛАССИРОВАНИЕ",
+                      "page": 2,
+                      "entries": [
+                        "Чтобы мультиклассироваться в этот класс или из него, значение вашего Телосложения должно быть не менее 13, а также значение вашей Силы, Ловкости или Харизмы должно быть не менее 13."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "name": "Классовые умения",
+                  "page": 2,
+                  "entries": [
+                    "См. {@class Головорез|TheBasterTheRuffian|class entry}."
+                  ]
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/盗贼.webp"
+                  },
+                  "title": "盗贼",
+                  "credit": "Zhang Bo"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/naumia.webp"
+                  },
+                  "title": "Наумия, мой голиаф-варвар/плут",
+                  "credit": "u/sovereignrk on reddit"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/barbarian.webp"
+                  },
+                  "title": "Бой варвара",
+                  "credit": "Atanas Lozanski"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Кредо головореза: забияка",
+              "page": 6,
+              "entries": [
+                "См. {@subclass Brawler|Ruffian|TheBasterTheRuffian|TheBasterTheRuffian|subclass entry}.",
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/brawler.webp"
+                  },
+                  "title": "Орк-забияка",
+                  "credit": "Dennis Pospelov"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Кредо головореза: телохранитель",
+              "page": 7,
+              "entries": [
+                "См. {@subclass Bodyguard|Ruffian|TheBasterTheRuffian|TheBasterTheRuffian|subclass entry}.",
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/bodyguard.webp"
+                  },
+                  "title": "Образ жизни богатых и знаменитых",
+                  "credit": "William O'Connor"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Кредо головореза: часовой",
+              "page": 8,
+              "entries": [
+                "См. {@subclass Sentry|Ruffian|TheBasterTheRuffian|TheBasterTheRuffian|subclass entry}.",
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/wounded.webp"
+                  },
+                  "title": "Раненый",
+                  "credit": "Gui Guimaraes"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Снаряжение головореза",
+              "page": 9,
+              "entries": [
+                {
+                  "type": "list",
+                  "columns": 1,
+                  "page": 9,
+                  "items": [
+                    "{@item Боевая рукавица|TheBasterTheRuffian}"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TheBasterTheRuffian/victorianvi.webp"
+                  },
+                  "title": "Викторианская Ви",
+                  "credit": "Kureiyah"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Авторы",
+              "page": 9,
+              "entries": [
+                "Этот класс создан {@italic Бастер} Подкласс Часовой создан {@italic ИмВайлдсоул}"
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Авторы иллюстраций",
+              "page": 9,
+              "entries": [
+                {
+                  "type": "list",
+                  "style": "list-hang",
+                  "columns": 1,
+                  "page": 9,
+                  "items": [
+                    "{@bold Тортл-варвар (мужчина)} — Rollmodels",
+                    "{@bold Заказ: Граша} — Нозоми-М",
+                    "{@bold Плут} от Чжан Бо",
+                    "{@bold Наумия, мой голиаф-варвар/плут} — Sovereignrk на Реддите",
+                    "{@bold Бой варвара} — Atanas Lozanski",
+                    "{@bold Орк-забияка} — Dennis Pospelov",
+                    "{@bold Образ жизни богатых и знаменитых} — Уильям О'Коннор",
+                    "{@bold Раненый} — Gui Guimaraes",
+                    "{@bold Викторианская Ви} — Kureiyah"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

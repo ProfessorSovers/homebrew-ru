@@ -1,214 +1,214 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-	"_meta": {
-		"sources": [
-			{
-				"json": "COMFeyFaeriesLegendary",
-				"abbreviation": "COMFeyFaeriesLegendary",
-				"full": "Community Fey,Faeries Legendary Collection",
-				"url": "https://github.com/TheGiddyLimit/homebrew",
-				"version": "2021.10.01",
-				"authors": [
-					"A collection derived from the web community (Reddit,Pinterest,DmsGuild,ecc.). For credits, authors are provided with a web link in the entity description"
-				],
-				"convertedBy": [
-					"p4535992"
-				],
-				"targetSchema": "1.7.0"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1633111364,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "d8e61042c9"
-	},
-	"monster": [
-		{
-			"name": "Королева огонька",
-			"shortName": "Королева огонька",
-			"source": "COMFeyFaeriesLegendary",
-			"size": [
-				"L"
-			],
-			"type": "fey",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 19,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "20d10",
-				"average": 110
-			},
-			"speed": {
-				"walk": 40,
-				"fly": {
-					"number": 50,
-					"condition": "(hover)"
-				},
-				"canHover": true
-			},
-			"str": 12,
-			"dex": 20,
-			"con": 10,
-			"int": 13,
-			"wis": 14,
-			"cha": 14,
-			"save": {
-				"dex": "+8"
-			},
-			"skill": {
-				"acrobatics": "+8",
-				"persuasion": "+5"
-			},
-			"senses": [
-				"darkvision 120 ft.",
-				"truesight 60 ft."
-			],
-			"passive": 12,
-			"resist": [
-				{
-					"resist": [
-						"acid",
-						"cold",
-						"fire",
-						"necrotic",
-						"radiant",
-						"thunder"
-					]
-				},
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical weapons"
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"grappled",
-				"paralyzed",
-				"poisoned",
-				"restrained",
-				"unconscious"
-			],
-			"languages": [
-				"Небесный",
-				"Общий",
-				"Эльфийский",
-				"Сильванский",
-				"Телепатия 100ft."
-			],
-			"cr": "8",
-			"trait": [
-				{
-					"name": "Поглощение жизни",
-					"entries": [
-						"Бонусным действием Королева огонька может выбрать одно существо, которое она может видеть в пределах 15 футов от себя, у которого 15 хитов и которое ещё живо. Цель должна преуспеть в спасброске Телосложения {@dc 10} против этой магии, иначе умрёт. Если цель умирает, Королева огонька восстанавливает 10 ({@dice 3d6}) хитов."
-					]
-				},
-				{
-					"name": "Переменное освещение",
-					"entries": [
-						"Огонёк испускает яркий свет в радиусе от 5 до 40 футов и тусклый свет ещё на количество футов, равное выбранному радиусу. Огонёк может изменять радиус бонусным действием."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Светлый меч",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d10 + 5}) излучения."
-					]
-				},
-				{
-					"name": "Огонь огонька",
-					"entries": [
-						"{@atk rw} {@hit 8} к попаданию, дистанция 60 футов, одна цель. {@h}13 ({@damage 3d8}) излучения."
-					]
-				},
-				{
-					"name": "Невидимость",
-					"entries": [
-						"Королева огонька и её свет магически становятся {@condition invisible}, пока она не атакует или не использует «Поглощение жизни», или пока не окончится её концентрация (как если бы она поддерживала заклинание)."
-					]
-				}
-			],
-			"legendaryHeader": [
-				"Королева огонька может совершить 3 легендарных действия, выбирая из вариантов ниже. Одновременно можно использовать только один вариант легендарного действия, и только в конце хода другого существа. Королева огонька восстанавливает потраченные легендарные действия в начале своего хода."
-			],
-			"legendaryActions": 3,
-			"legendary": [
-				{
-					"name": "Световой удар",
-					"entries": [
-						"Королева огонька совершает одну атаку Светлым мечом"
-					]
-				},
-				{
-					"name": "Слепящий свет (стоит 2 действия)",
-					"entries": [
-						"Каждое существо в сфере радиусом 20 футов с центром на Королеве огонька должно совершить спасбросок Ловкости. Цель получает {@damage 4d6} урона излучением и становится {@condition blinded} на минуту; при успешном спасброске цель получает только половину этого урона и не становится {@condition blinded}."
-					]
-				},
-				{
-					"name": "Свет в тумане (стоит 2 действия)",
-					"entries": [
-						"Королева огонька выбирает одно существо, которое может её видеть и слышать. Существо совершает спасбросок Мудрости ({@dc 12}). Если оно проваливает спасбросок, оно становится {@condition charmed} Королевой огонька на минуту. {@condition charmed} существо действует, чтобы защищать Королеву огонька от всех угроз. Цель может перебросить спасбросок в конце своих ходов."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMFeyFaeriesLegendary/npwsXvJ.png",
-			"senseTags": [
-				"SD",
-				"U"
-			],
-			"languageTags": [
-				"C",
-				"CE",
-				"E",
-				"S",
-				"TP"
-			],
-			"damageTags": [
-				"R"
-			],
-			"miscTags": [
-				"MW",
-				"RW"
-			],
-			"conditionInflict": [
-				"blinded"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Queen of the Wisp|https://www.reddit.com/r/monsteraday/comments/pl8mjy/would_anyone_be_able_to_stat_this_as_a_fey/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMFeyFaeriesLegendary/4PkkZHU.png"
-						}
-					}
-				]
-			}
-		}
-	]
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "COMFeyFaeriesLegendary",
+        "abbreviation": "COMFeyFaeriesLegendary",
+        "full": "Community Fey,Faeries Legendary Collection",
+        "url": "https://github.com/TheGiddyLimit/homebrew",
+        "version": "2021.10.01",
+        "authors": [
+          "A collection derived from the web community (Reddit,Pinterest,DmsGuild,ecc.). For credits, authors are provided with a web link in the entity description"
+        ],
+        "convertedBy": [
+          "p4535992"
+        ],
+        "targetSchema": "1.7.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1633111364,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "d8e61042c9"
+  },
+  "monster": [
+    {
+      "name": "Королева огонька",
+      "shortName": "Королева огонька",
+      "source": "COMFeyFaeriesLegendary",
+      "size": [
+        "L"
+      ],
+      "type": "fey",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "20d10",
+        "average": 110
+      },
+      "speed": {
+        "walk": 40,
+        "fly": {
+          "number": 50,
+          "condition": "(парение)"
+        },
+        "canHover": true
+      },
+      "str": 12,
+      "dex": 20,
+      "con": 10,
+      "int": 13,
+      "wis": 14,
+      "cha": 14,
+      "save": {
+        "dex": "+8"
+      },
+      "skill": {
+        "acrobatics": "+8",
+        "persuasion": "+5"
+      },
+      "senses": [
+        "darkvision 120 ft.",
+        "truesight 60 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        {
+          "resist": [
+            "acid",
+            "cold",
+            "fire",
+            "necrotic",
+            "radiant",
+            "thunder"
+          ]
+        },
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical weapons"
+        }
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "grappled",
+        "paralyzed",
+        "poisoned",
+        "restrained",
+        "unconscious"
+      ],
+      "languages": [
+        "Небесный",
+        "Общий",
+        "Эльфийский",
+        "Сильванский",
+        "Телепатия 100ft."
+      ],
+      "cr": "8",
+      "trait": [
+        {
+          "name": "Поглощение жизни",
+          "entries": [
+            "Бонусным действием Королева огонька может выбрать одно существо, которое она может видеть в пределах 15 футов от себя, у которого 15 хитов и которое ещё живо. Цель должна преуспеть в спасброске Телосложения {@dc 10} против этой магии, иначе умрёт. Если цель умирает, Королева огонька восстанавливает 10 ({@dice 3d6}) хитов."
+          ]
+        },
+        {
+          "name": "Переменное освещение",
+          "entries": [
+            "Огонёк испускает яркий свет в радиусе от 5 до 40 футов и тусклый свет ещё на количество футов, равное выбранному радиусу. Огонёк может изменять радиус бонусным действием."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Светлый меч",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d10 + 5}) излучения."
+          ]
+        },
+        {
+          "name": "Огонь огонька",
+          "entries": [
+            "{@atk rw} {@hit 8} к попаданию, дистанция 60 футов, одна цель. {@h}13 ({@damage 3d8}) излучения."
+          ]
+        },
+        {
+          "name": "Невидимость",
+          "entries": [
+            "Королева огонька и её свет магически становятся {@condition invisible}, пока она не атакует или не использует «Поглощение жизни», или пока не окончится её концентрация (как если бы она поддерживала заклинание)."
+          ]
+        }
+      ],
+      "legendaryHeader": [
+        "Королева огонька может совершить 3 легендарных действия, выбирая из вариантов ниже. Одновременно можно использовать только один вариант легендарного действия, и только в конце хода другого существа. Королева огонька восстанавливает потраченные легендарные действия в начале своего хода."
+      ],
+      "legendaryActions": 3,
+      "legendary": [
+        {
+          "name": "Световой удар",
+          "entries": [
+            "Королева огонька совершает одну атаку Светлым мечом"
+          ]
+        },
+        {
+          "name": "Слепящий свет (стоит 2 действия)",
+          "entries": [
+            "Каждое существо в сфере радиусом 20 футов с центром на Королеве огонька должно совершить спасбросок Ловкости. Цель получает {@damage 4d6} урона излучением и становится {@condition blinded} на минуту; при успешном спасброске цель получает только половину этого урона и не становится {@condition blinded}."
+          ]
+        },
+        {
+          "name": "Свет в тумане (стоит 2 действия)",
+          "entries": [
+            "Королева огонька выбирает одно существо, которое может её видеть и слышать. Существо совершает спасбросок Мудрости ({@dc 12}). Если оно проваливает спасбросок, оно становится {@condition charmed} Королевой огонька на минуту. {@condition charmed} существо действует, чтобы защищать Королеву огонька от всех угроз. Цель может перебросить спасбросок в конце своих ходов."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMFeyFaeriesLegendary/npwsXvJ.png",
+      "senseTags": [
+        "SD",
+        "U"
+      ],
+      "languageTags": [
+        "C",
+        "CE",
+        "E",
+        "S",
+        "TP"
+      ],
+      "damageTags": [
+        "R"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "blinded"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Queen of the Wisp|https://www.reddit.com/r/monsteraday/comments/pl8mjy/would_anyone_be_able_to_stat_this_as_a_fey/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMFeyFaeriesLegendary/4PkkZHU.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,2506 +1,2506 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "Helodinn-Necromancer",
-				"abbreviation": "Necro",
-				"full": "The Necromancer (maarlebw's edit)",
-				"url": "https://homebrewery.naturalcrit.com/share/MBOIiixB4asu",
-				"version": "1.1-edit",
-				"dateReleased": "2020-08-24",
-				"authors": [
-					"maarlebw",
-					"u/Helodinn",
-					"u/NathanCouto"
-				],
-				"convertedBy": [
-					"Spappz"
-				],
-				"color": "753c4b"
-			}
-		],
-		"edition": "classic",
-		"status": "ready",
-		"dateAdded": 1722981035,
-		"dateLastModified": 1785698747,
-		"_dateLastModifiedHash": "3c501bc5e6"
-	},
-	"class": [
-		{
-			"name": "Некромант",
-			"source": "Helodinn-Necromancer",
-			"page": 2,
-			"hd": {
-				"number": 1,
-				"faces": 8
-			},
-			"proficiency": [
-				"int",
-				"con"
-			],
-			"spellcastingAbility": "int",
-			"casterProgression": "full",
-			"cantripProgression": [
-				3,
-				3,
-				3,
-				4,
-				4,
-				5,
-				5,
-				5,
-				5,
-				5,
-				6,
-				6,
-				6,
-				6,
-				6,
-				7,
-				7,
-				7,
-				7,
-				7
-			],
-			"spellsKnownProgression": [
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21
-			],
-			"spellsKnownProgressionFixedAllowLowerLevel": true,
-			"classSpells": [
-				"Chill Touch",
-				"Frost Bite",
-				"Infestation",
-				"Mage Hand",
-				"Message",
-				"Necrotic Blade",
-				"Poison Spray",
-				"Prestidigitation",
-				"Ray of Frost",
-				"Sapping Sting|EGW",
-				"Spare the Dying",
-				"Sword Burst|TCE",
-				"Thaumaturgy",
-				"Toll the Dead",
-				"Cause Fear|XGE",
-				"Command",
-				"Cure Wounds",
-				"Detect Poison and Disease",
-				"Detect Magic",
-				"Disguise Self",
-				"False Life",
-				"Find Familiar",
-				"Hex",
-				"Inflict Wounds",
-				"Ray of Sickness",
-				"Sleep",
-				"Shield",
-				"Arcane Lock",
-				"Blindness/Deafness",
-				"Crown of Madness",
-				"Darkness",
-				"Darkvision",
-				"Gentle Repose",
-				"Hold Person",
-				"Invisibility",
-				"Lesser Restoration",
-				"Locate Object",
-				"Magic Weapon",
-				"Misty Step",
-				"Protection From Poison",
-				"Ray of Enfeeblement",
-				"Silence",
-				"Shadow Blade|XGE",
-				"Animate Dead",
-				"Bestow Curse",
-				"Blink",
-				"Catnap|XGE",
-				"Counterspell",
-				"Dispel Magic",
-				"Enemies Abound|XGE",
-				"Fear",
-				"Feign Death",
-				"Fly",
-				"Hypnotic Pattern",
-				"Life Transference|XGE",
-				"Remove Curse",
-				"Revivify",
-				"Speak With Dead",
-				"Tongues",
-				"Vampiric Touch",
-				"Banishment",
-				"Blight",
-				"Charm Monster",
-				"Confusion",
-				"Death Ward",
-				"Dimensional Door",
-				"Evard's Black Tentacles",
-				"Ice Storm",
-				"Leomund's Secret Chest",
-				"Phantasmal Killer",
-				"Polymorph",
-				"Shadow of Moil|XGE",
-				"Stoneskin",
-				"Vitriolic Sphere|XGE",
-				"Cloudkill",
-				"Contagion",
-				"Danse Macabre|XGE",
-				"Enervation|XGE",
-				"Geas",
-				"Hallow",
-				"Hold Monster",
-				"Mass Cure Wounds",
-				"Negative Energy Flood|XGE",
-				"Raise Dead",
-				"Reincarnate",
-				"Teleportation Circle",
-				"Arcane Gate",
-				"Circle of Death",
-				"Create Undead",
-				"Disintegrate",
-				"Eyebite",
-				"Harm",
-				"Heal",
-				"Magic Jar",
-				"Scatter|XGE",
-				"Soul Cage|XGE",
-				"Tenser's Transformation|XGE",
-				"True Seeing",
-				"Divine Word",
-				"Finger of Death",
-				"Forcecage",
-				"Plane Shift",
-				"Power Word Pain|XGE",
-				"Regenerate",
-				"Resurrection",
-				"Simulacrum",
-				"Symbol",
-				"Tether Essence|EGW",
-				"Abi-Dalzim's Horrid Wilting|XGE",
-				"Antimagic Field",
-				"Antipathy/Sympathy",
-				"Clone",
-				"Dark Star|EGW",
-				"Demiplane",
-				"Dominate Monster",
-				"Maddening Darkness|XGE",
-				"Power Word Stun",
-				"Astral Projection",
-				"Invulnerability|XGE",
-				"Power Word Kill",
-				"Psychic Scream|XGE",
-				"Shapechange",
-				"Time Ravage|EGW",
-				"True Resurection",
-				"Wish"
-			],
-			"startingProficiencies": {
-				"skills": [
-					{
-						"choose": {
-							"count": 2,
-							"from": [
-								"arcana",
-								"history",
-								"insight",
-								"intimidation",
-								"investigation",
-								"perception"
-							]
-						}
-					}
-				],
-				"weapons": [
-					"simple",
-					"{@item sickle|PHB}",
-					"{@item shortsword|PHB}"
-				],
-				"armor": [
-					"light"
-				],
-				"armorProficiencies": [
-					{
-						"light": true
-					}
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(a) a {@item Shortsword|PHB} or (b) a {@item Sickle|PHB}",
-					"(a) a {@item Component pouch|PHB} or (b) a {@item Arcane focus|PHB}",
-					"(a) a {@item Dungeoneer's Pack|PHB} or (b) a {@item Explorer's Pack|PHB}"
-				],
-				"goldAlternative": "{@dice 4d4 × 10}",
-				"defaultData": [
-					{
-						"a": [
-							"shortsword|phb"
-						],
-						"b": [
-							"sickle|phb"
-						]
-					},
-					{
-						"a": [
-							"component pouch|phb"
-						],
-						"b": [
-							"arcane focus|phb"
-						]
-					},
-					{
-						"a": [
-							"dungeoneer's pack|phb"
-						],
-						"b": [
-							"explorer's pack|phb"
-						]
-					}
-				]
-			},
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=necromancer (necro)}",
-						"{@filter Spells Known|spells|class=necromancer (necro)}"
-					],
-					"rows": [
-						[
-							3,
-							2
-						],
-						[
-							3,
-							3
-						],
-						[
-							3,
-							4
-						],
-						[
-							4,
-							5
-						],
-						[
-							4,
-							6
-						],
-						[
-							5,
-							7
-						],
-						[
-							5,
-							8
-						],
-						[
-							5,
-							9
-						],
-						[
-							5,
-							10
-						],
-						[
-							5,
-							11
-						],
-						[
-							6,
-							12
-						],
-						[
-							6,
-							13
-						],
-						[
-							6,
-							14
-						],
-						[
-							6,
-							15
-						],
-						[
-							6,
-							16
-						],
-						[
-							7,
-							17
-						],
-						[
-							7,
-							18
-						],
-						[
-							7,
-							19
-						],
-						[
-							7,
-							20
-						],
-						[
-							7,
-							21
-						]
-					]
-				},
-				{
-					"title": "Ячейки заклинаний по уровням заклинаний",
-					"colLabels": [
-						"{@filter 1st|spells|level=1|class=necromancer (necro)}",
-						"{@filter 2nd|spells|level=2|class=necromancer (necro)}",
-						"{@filter 3rd|spells|level=3|class=necromancer (necro)}",
-						"{@filter 4th|spells|level=4|class=necromancer (necro)}",
-						"{@filter 5th|spells|level=5|class=necromancer (necro)}",
-						"{@filter 6th|spells|level=6|class=necromancer (necro)}",
-						"{@filter 7th|spells|level=7|class=necromancer (necro)}",
-						"{@filter 8th|spells|level=8|class=necromancer (necro)}",
-						"{@filter 9th|spells|level=9|class=necromancer (necro)}"
-					],
-					"rowsSpellProgression": [
-						[
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							1,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							2,
-							2,
-							1,
-							1
-						]
-					]
-				}
-			],
-			"classFeatures": [
-				"Сотворение заклинаний|Necromancer|Helodinn-Necromancer|1",
-				"Негативная энергия|Necromancer|Helodinn-Necromancer|1",
-				"Выкачивание жизни|Necromancer|Helodinn-Necromancer|1",
-				{
-					"classFeature": "Смертельный путь|Necromancer|Helodinn-Necromancer|2",
-					"gainSubclassFeature": true
-				},
-				"Слуга-нежить|Necromancer|Helodinn-Necromancer|3",
-				"Увеличение характеристик|Necromancer|Helodinn-Necromancer|4",
-				"Нечестивое сопротивление|Necromancer|Helodinn-Necromancer|5",
-				{
-					"classFeature": "Умение Смертельного пути|Necromancer|Helodinn-Necromancer|6",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Necromancer|Helodinn-Necromancer|8",
-				{
-					"classFeature": "Умение Смертельного пути|Necromancer|Helodinn-Necromancer|10",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Necromancer|Helodinn-Necromancer|12",
-				{
-					"classFeature": "Умение Смертельного пути|Necromancer|Helodinn-Necromancer|14",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Necromancer|Helodinn-Necromancer|16",
-				"Отрицание смерти|Necromancer|Helodinn-Necromancer|17",
-				{
-					"classFeature": "Умение Смертельного пути|Necromancer|Helodinn-Necromancer|18",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Necromancer|Helodinn-Necromancer|19",
-				"Мрачная жатва|Necromancer|Helodinn-Necromancer|20"
-			],
-			"subclassTitle": "Deadly Path",
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryAdvancement": [
-				{
-					"type": "ScaleValue",
-					"configuration": {
-						"identifier": "necrotic-points",
-						"type": "number",
-						"scale": {
-							"1": {
-								"value": 1
-							},
-							"2": {
-								"value": 2
-							},
-							"3": {
-								"value": 3
-							},
-							"4": {
-								"value": 4
-							},
-							"5": {
-								"value": 5
-							},
-							"6": {
-								"value": 6
-							},
-							"7": {
-								"value": 7
-							},
-							"8": {
-								"value": 8
-							},
-							"9": {
-								"value": 9
-							},
-							"10": {
-								"value": 10
-							},
-							"11": {
-								"value": 12
-							},
-							"12": {
-								"value": 14
-							},
-							"13": {
-								"value": 16
-							},
-							"14": {
-								"value": 18
-							},
-							"15": {
-								"value": 20
-							},
-							"16": {
-								"value": 22
-							},
-							"17": {
-								"value": 24
-							},
-							"18": {
-								"value": 26
-							},
-							"19": {
-								"value": 28
-							},
-							"20": {
-								"value": 30
-							}
-						}
-					},
-					"title": "Necrotic Points"
-				},
-				{
-					"type": "ScaleValue",
-					"configuration": {
-						"identifier": "life-syphon",
-						"type": "dice",
-						"scale": {
-							"1": {
-								"n": 1,
-								"die": 6
-							},
-							"5": {
-								"n": 2
-							},
-							"11": {
-								"n": 3
-							},
-							"17": {
-								"n": 4
-							}
-						}
-					},
-					"title": "Life Syphon"
-				}
-			]
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Некромант",
-			"source": "Helodinn-Necromancer",
-			"entries": [
-				{
-					"type": "section",
-					"name": "Некромант",
-					"page": 2,
-					"entries": [
-						"Некромантия — искусство, считающееся табу даже среди богов, однако есть несколько пользователей магии, которым нравится этот вид запретного знания. Некроманты стремятся управлять жизнью и смертью во всех их формах; у них природный талант к манипулированию жизненными сущностями, текущими в живых существах.",
-						"Некроманты — верховные пользователи чёрной магии; их главная черта — способность управлять смертью, будь то создание зомби, сражающихся вместо них, или призыв духов для выполнения грязной работы.",
-						{
-							"type": "entries",
-							"name": "Запретные знания",
-							"page": 2,
-							"entries": [
-								"Многие века искусство некромантии было скрыто от смертных; боги знали, что эта сила может быть весьма разрушительной, попади она в дурные руки. Пока однажды несколько учёных, сведущих в магии, не начали замечать, что существует магия из неестественного источника, и не посвятили себя её изучению.",
-								"Ныне есть несколько пользователей магии, использующих некромантские ресурсы, но не все заходят дальше простых заклинаний; многие боятся быть проклятыми богами за чрезмерное использование этого искусства.",
-								{
-									"type": "entries",
-									"name": "Быстрая сборка",
-									"page": 2,
-									"entries": [
-										"Вы можете быстро создать некроманта, следуя этим советам. Во-первых, Интеллект должен быть вашей наивысшей характеристикой, а следом — Телосложение. Во-вторых, выберите предысторию {@background Far Traveler|SCAG}. В-третьих, выберите заговор {@spell Некротический клинок|Helodinn-Necromancer}, если делаете рукопашного персонажа, или заговор {@spell Chill Touch|PHB}, если делаете дальнобойного, а также заговор {@spell Spare the Dying|PHB} для небольшой помощи группе, вместе с заклинаниями 1-го уровня {@spell Cause Fear|XGE} и {@spell Ray of Sickness|PHB}."
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Helodinn-Necromancer/how-is-she-standing.webp"
-					},
-					"credit": "{@link wyrmylad|https://www.deviantart.com/wyrmylad/art/Catrina-De-Muertos-864890913}"
-				}
-			]
-		}
-	],
-	"subclass": [
-		{
-			"name": "Смертельный путь Падшего",
-			"shortName": "Падший",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"page": 5,
-			"subclassFeatures": [
-				"Смертельный путь Падшего|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|2",
-				"Контроль нежити|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|6",
-				"Армия нежити|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|10",
-				"Владыка нежити|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|14",
-				"Спонтанное выкапывание|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|18"
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Смертельный путь Людоеда",
-			"shortName": "Людоед",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"page": 6,
-			"subclassFeatures": [
-				"Смертельный путь Людоеда|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|2",
-				"Смертельное восстановление|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|6",
-				"Унаследованное обжорство|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|10",
-				"Вкус воспоминаний|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|14",
-				"Превосходная мнимая молодость|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|18"
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Смертельный путь Шептуна",
-			"shortName": "Шептун",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"page": 7,
-			"subclassFeatures": [
-				"Смертельный путь Шептуна|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|2",
-				"Духовное вселение|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|6",
-				"Поступь смерти|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|10",
-				"Аура смерти|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|14",
-				"Вселение Мстительного духа|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|18"
-			],
-			"hasFluffImages": true,
-			"foundryAdvancement": [
-				{
-					"type": "ScaleValue",
-					"configuration": {
-						"identifier": "necrotic-spellcasting",
-						"type": "dice",
-						"scale": {
-							"2": {
-								"n": 1,
-								"die": 4
-							},
-							"5": {
-								"die": 6
-							},
-							"8": {
-								"die": 8
-							},
-							"11": {
-								"die": 10
-							},
-							"14": {
-								"die": 12
-							}
-						}
-					},
-					"title": "Necrotic Spellcasting"
-				}
-			]
-		}
-	],
-	"subclassFluff": [
-		{
-			"name": "Смертельный путь Падшего",
-			"shortName": "Падший",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Helodinn-Necromancer/use-a-table-silly.webp"
-					},
-					"credit": "{@link Anna Krasova|https://www.artstation.com/artwork/rRr5ke}"
-				}
-			]
-		},
-		{
-			"name": "Смертельный путь Людоеда",
-			"shortName": "Людоед",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Helodinn-Necromancer/hes-behind-you.webp"
-					},
-					"credit": "{@link Helga Sable|https://www.artstation.com/artwork/kK1QA}"
-				}
-			]
-		},
-		{
-			"name": "Смертельный путь Шептуна",
-			"shortName": "Шептун",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Helodinn-Necromancer/hug.webp"
-					},
-					"credit": "{@link Ryan Lee|https://www.deviantart.com/ryan-alexander-lee/art/Until-I-Say-350311505}"
-				}
-			]
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Выкачивание жизни",
-			"source": "Helodinn-Necromancer",
-			"page": 4,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 1,
-			"entries": [
-				"Начиная с 1-го уровня ваше касание может выкачивать жизненную силу других, укрепляя вашу. Когда вы совершаете рукопашную атаку или дальнобойную атаку заклинанием по живому существу и попадаете, вы можете бонусным действием потратить некротическое очко, чтобы нанести урон некротической энергией, равный {@damage 1d6} + ваш модификатор Интеллекта, при попадании. Вы получаете временные хиты, равные нанесённому урону некротической энергией. Если это умение убивает существо, вы получаете вдвое больше временных хитов от использования этого умения. Урон увеличивается на {@damage 1d6} на 5-м уровне ({@damage 2d6}), 11-м ({@damage 3d6}) и 17-м ({@damage 4d6}). Вы можете использовать это умение число раз, равное вашему модификатору Интеллекта (минимум один), и восстанавливаете все его использования в конце продолжительного отдыха."
-			]
-		},
-		{
-			"name": "Негативная энергия",
-			"source": "Helodinn-Necromancer",
-			"page": 4,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 1,
-			"entries": [
-				"На 1-м уровне вы черпаете из глубокого источника негативной энергии внутри себя. Этот источник представлен некротическими очками, которые позволяют вам использовать способности некроманта.",
-				{
-					"type": "entries",
-					"name": "Некротические очки",
-					"page": 4,
-					"entries": [
-						"У вас 1 некротическое очко на 1-м уровне, и вы получаете по одному за каждый уровень некроманта вплоть до 10-го; после этого уровня вы получаете по 2 некротических очка за уровень. Вы восстанавливаете все потраченные некротические очки, когда завершаете продолжительный отдых."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Некромантские трюки",
-					"page": 4,
-					"entries": [
-						"Вы можете использовать свои некротические очки, чтобы получать дополнительные ячейки заклинаний, или жертвовать ячейки заклинаний, чтобы получать дополнительные некротические очки, а также призывать нежить с помощью своих некромантских очков на более высоких уровнях."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Создание ячеек заклинаний",
-					"page": 4,
-					"entries": [
-						"Вы можете преобразовать неизрасходованные некротические очки и отдать немного жизненной энергии в одну ячейку заклинаний бонусным действием в свой ход. Таблица «Создание ячеек заклинаний» показывает стоимость создания ячейки заклинаний заданного уровня. Вы можете создавать ячейки заклинаний уровнем не выше 5-го. Любая созданная этим умением ячейка исчезает, когда вы завершаете продолжительный отдых.",
-						{
-							"type": "table",
-							"page": 4,
-							"colLabels": [
-								"Уровень ячейки",
-								"Стоимость некротического очка",
-								"Цена жизни"
-							],
-							"colStyles": [
-								"col-4 text-center",
-								"col-4 text-center",
-								"col-4 text-center"
-							],
-							"rows": [
-								[
-									"1-й",
-									"2",
-									"{@damage 1d8}"
-								],
-								[
-									"2-й",
-									"3",
-									"{@damage 2d8}"
-								],
-								[
-									"3-й",
-									"5",
-									"{@damage 3d8}"
-								],
-								[
-									"4-й",
-									"6",
-									"{@damage 4d8}"
-								],
-								[
-									"5-й",
-									"7",
-									"{@damage 5d8}"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Преобразование ячейки заклинаний в некротические очки",
-					"page": 4,
-					"entries": [
-						"Бонусным действием в свой ход вы можете потратить ячейку заклинаний и пожертвовать частью жизненной энергии, чтобы получить количество некротических очков, равное уровню ячейки.",
-						{
-							"type": "table",
-							"page": 4,
-							"colLabels": [
-								"Уровень ячейки",
-								"Преобразованное некротическое очко",
-								"Цена жизни"
-							],
-							"colStyles": [
-								"col-4 text-center",
-								"col-4 text-center",
-								"col-4 text-center"
-							],
-							"rows": [
-								[
-									"1-й",
-									"1",
-									"{@damage 1d4}"
-								],
-								[
-									"2-й",
-									"2",
-									"{@damage 2d4}"
-								],
-								[
-									"3-й",
-									"3",
-									"{@damage 3d4}"
-								],
-								[
-									"4-й",
-									"4",
-									"{@damage 4d4}"
-								],
-								[
-									"5-й",
-									"5",
-									"{@damage 5d4}"
-								],
-								[
-									"6-й",
-									"6",
-									"{@damage 6d4}"
-								],
-								[
-									"7-й",
-									"7",
-									"{@damage 7d4}"
-								],
-								[
-									"8-й",
-									"8",
-									"{@damage 8d4}"
-								],
-								[
-									"9-й",
-									"9",
-									"{@damage 9d4}"
-								]
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Сотворение заклинаний",
-			"source": "Helodinn-Necromancer",
-			"page": 2,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 1,
-			"entries": [
-				"Как ученик тайной магии, вы имеете книгу заклинаний, содержащую заклинания, которые являют первые проблески вашей истинной силы. См. {@book Spell Rules section of the {@i Player's Handbook}|PHB|10} для общих правил сотворения заклинаний и список заклинаний для {@filter necromancer spell list|spells|class=necromancer (necro)}.",
-				{
-					"type": "entries",
-					"name": "Заговоры",
-					"page": 2,
-					"entries": [
-						"На 1-м уровне вы изучаете три {@filter cantrips of your choice from the necromancer spell list|spells|level=0|class=necromancer (necro)}. Вы изучаете дополнительные {@filter wizard cantrips|spells|level=0|class=wizard} на ваш выбор на более высоких уровнях, как показано в столбце «Известные заговоры» таблицы некроманта."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Известные заклинания 1-го уровня и выше",
-					"page": 2,
-					"entries": [
-						"Вы знаете два {@filter 1st-level spells of your choice from the necromancer spell list|spells|level=1|class=necromancer (necro)}.",
-						"Столбец «Известные заклинания» таблицы некроманта показывает, когда вы изучаете новые заклинания некроманта на ваш выбор. Каждое из этих заклинаний должно быть уровня, для которого у вас есть ячейки заклинаний. Например, достигнув 3-го уровня в этом классе, вы можете изучить одно новое заклинание 1-го или 2-го уровня.",
-						"Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно из известных вам заклинаний некроманта и заменить его другим заклинанием из списка заклинаний некроманта, которое также должно быть уровня, для которого у вас есть ячейки заклинаний."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Базовая характеристика для заклинаний",
-					"page": 3,
-					"entries": [
-						"Интеллект — ваша способность к заклинаниям для заклинаний некроманта, так как вы изучаете заклинания путём усердной учёбы и заучивания. Вы используете Интеллект всякий раз, когда заклинание ссылается на вашу способность к заклинаниям. Кроме того, вы используете модификатор Интеллекта при определении Сл спасброска от ваших заклинаний некроманта и при совершении броска атаки ими.",
-						{
-							"type": "abilityDc",
-							"name": "Заклинание",
-							"attributes": [
-								"int"
-							]
-						},
-						{
-							"type": "abilityAttackMod",
-							"name": "Заклинание",
-							"attributes": [
-								"int"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ритуальное сотворение",
-					"page": 3,
-					"entries": [
-						"Вы можете сотворить заклинание некроманта как ритуал, если оно имеет свойство «ритуал» и содержится в вашей книге заклинаний. Вам не нужно держать его подготовленным."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Фокусировка для сотворения",
-					"page": 3,
-					"entries": [
-						"Вы можете использовать {@item arcane focus|PHB} (см. раздел «Снаряжение для приключений») как фокусировку для сотворения ваших заклинаний некроманта."
-					]
-				}
-			]
-		},
-		{
-			"name": "Смертельный путь",
-			"source": "Helodinn-Necromancer",
-			"page": 5,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Достигнув 2-го уровня, вы выбираете Смертельный путь, определяя свою практику некромантии одним из следующих путей: Путь Падшего, Путь Людоеда и Путь Шептуна.",
-				"Ваш выбор дарует вам умения на 2-м уровне, а также на 6-м, 10-м, 14-м и 18-м уровне."
-			]
-		},
-		{
-			"name": "Слуга-нежить",
-			"source": "Helodinn-Necromancer",
-			"page": 4,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 3,
-			"entries": [
-				"Начиная с 3-го уровня вы получаете способность призывать нежить-слугу под своё командование: действием вы можете потратить некротические очки и жизненную энергию в соответствии с размером и ПО существа-нежити. Вы можете контролировать только 1 существо-нежить за раз.",
-				"Эта таблица показывает некротические очки, которые вы должны потратить в зависимости от размера существа:",
-				{
-					"type": "table",
-					"caption": "Стоимость слуги-нежити",
-					"page": 4,
-					"colLabels": [
-						"Размер",
-						"Стоимость некротического очка",
-						"Цена жизни"
-					],
-					"colStyles": [
-						"col-4 text-center",
-						"col-4 text-center",
-						"col-4 text-center"
-					],
-					"rows": [
-						[
-							"маленький",
-							"1",
-							"{@damage 1d8}"
-						],
-						[
-							"средний",
-							"2",
-							"{@damage 1d12}"
-						],
-						[
-							"большой",
-							"3",
-							"{@damage 3d12}"
-						],
-						[
-							"огромный",
-							"4",
-							"{@damage 5d12}"
-						]
-					]
-				},
-				"Эта таблица показывает ПО чудовища, которое вы можете призвать:",
-				{
-					"type": "table",
-					"caption": "ПО слуги-нежити",
-					"page": 4,
-					"colLabels": [
-						"Уровень",
-						"Показатель опасности"
-					],
-					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
-					],
-					"rows": [
-						[
-							"3-й",
-							"{@filter 1/4|bestiary|type=undead|challenge rating=[&0;&1/4]}"
-						],
-						[
-							"6-й",
-							"{@filter 1/2|bestiary|type=undead|challenge rating=[&0;&1/2]}"
-						],
-						[
-							"9-й",
-							"{@filter 1|bestiary|type=undead|challenge rating=[&0;&1]}"
-						],
-						[
-							"12-й",
-							"{@filter 2|bestiary|type=undead|challenge rating=[&0;&2]}"
-						],
-						[
-							"15-й",
-							"{@filter 3|bestiary|type=undead|challenge rating=[&0;&3]}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 4,
-			"entries": [
-				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Нечестивое сопротивление",
-			"source": "Helodinn-Necromancer",
-			"page": 5,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 5,
-			"resist": [
-				"necrotic"
-			],
-			"entries": [
-				"Начиная с 5-го уровня время, потраченное на использование негативной энергии, начинает влиять на вашу душу. Ваш возраст увеличивается лишь на 1 год за каждые прошедшие 10 лет. Вы получаете сопротивление урону некротической энергией, и ваш максимум хитов не может быть уменьшен (например, способностью «Вытягивание жизни» {@creature wight||умертвия}). На 10-м уровне это умение распространяется на любую нежить под вашим контролем."
-			]
-		},
-		{
-			"name": "Умение Смертельного пути",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 6,
-			"entries": [
-				"На 6-м уровне вы получаете умение от своего Смертельного пути."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 8,
-			"entries": [
-				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Умение Смертельного пути",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 10,
-			"entries": [
-				"На 10-м уровне вы получаете умение от своего Смертельного пути."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 12,
-			"entries": [
-				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Умение Смертельного пути",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 14,
-			"entries": [
-				"На 14-м уровне вы получаете умение от своего Смертельного пути."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 16,
-			"entries": [
-				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Отрицание смерти",
-			"source": "Helodinn-Necromancer",
-			"page": 5,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 17,
-			"entries": [
-				"Начиная с 17-го уровня вы можете решить проигнорировать смерть, если она слишком некстати. Если существо в пределах 10 футов опускается до 0 хитов, вместо этого заставьте его опуститься до 1 хита. Вы должны завершить короткий или продолжительный отдых, прежде чем сможете использовать это умение снова."
-			]
-		},
-		{
-			"name": "Умение Смертельного пути",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 18,
-			"entries": [
-				"На 18-м уровне вы получаете умение от своего Смертельного пути."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Helodinn-Necromancer",
-			"page": 0,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 19,
-			"entries": [
-				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Мрачная жатва",
-			"source": "Helodinn-Necromancer",
-			"page": 5,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 20,
-			"entries": [
-				"Всякий раз, когда существо погибает в пределах 60 футов от вас, вы можете реакцией создать из его тела взрыв некротической энергии радиусом 20 футов. Каждое существо на ваш выбор внутри взрыва должно совершить спасбросок Телосложения, получая {@damage 8d8} урона некротической энергией при провале или половину этого при успехе. Если урон взрыва убивает каких-либо существ, вы можете выбрать одно из них целью в рамках той же реакции, вызывая вторичный взрыв радиусом 20 футов. Каждое существо во вторичном взрыве должно совершить спасбросок Телосложения, получая {@damage 4d8} урона некротической энергией при провале или половину этого при успехе. Подобным образом вы можете создать третичный взрыв, который наносит {@damage 2d8} урона некротической энергией при провале или половину этого при успехе.",
-				"Некротические взрывы действуют на нежить под вашим контролем иначе, чем на других существ. Ваши прислужники-нежить не совершают спасброска и не получают урона от этого умения. Вместо этого они восстанавливают хиты, равные половине всего урона, нанесённого этим умением.",
-				"Это умение можно использовать только один раз, и вы восстанавливаете его использование после завершения продолжительного отдыха."
-			]
-		}
-	],
-	"foundryClassFeature": [
-		{
-			"name": "Life Syphon",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 1,
-			"system": {
-				"uses.per": "lr",
-				"uses.max": "@abilities.int.mod",
-				"damage.parts": [
-					[
-						"@scale.necromancer.life-syphon + @abilities.int.mod",
-						"necrotic"
-					]
-				]
-			}
-		},
-		{
-			"name": "Negative Energy",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 1,
-			"system": {
-				"uses.per": "lr",
-				"uses.max": "@scale.necromancer.necrotic-points"
-			}
-		},
-		{
-			"name": "Death Denial",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"level": 17,
-			"system": {
-				"uses.per": "sr",
-				"uses.max": 1
-			}
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": "Смертельный путь Падшего",
-			"source": "Helodinn-Necromancer",
-			"page": 5,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Падший",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Поднятие трупов — естественная способность некромантов, однако некоторые из них в итоге сосредотачиваются на этом запретном искусстве, обретая способность призывать более сильных существ и контролировать более 1 существа одновременно (максимум 4 существа).",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Слуга-нежить — вариант Смертельного пути|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|2|Helodinn-Necromancer"
-				}
-			]
-		},
-		{
-			"name": "Слуга-нежить — вариант Смертельного пути",
-			"source": "Helodinn-Necromancer",
-			"page": 5,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Падший",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Обряды вашего пути даруют вам способность призывать более опасных существ-нежить. Начиная с 2-го уровня вы можете призвать нежить-прислужника с показателем опасности вплоть до 1.",
-				"Начиная с 6-го уровня вы можете призывать нежить-прислужника с показателем опасности вплоть до вашего уровня некроманта, разделённого на 3, с округлением вниз.",
-				"Начиная с 10-го уровня вы обретаете способность призывать в свой ход бонусным действием, а не действием. Эта таблица показывает некротические очки и жизненную энергию, которые вы должны потратить в зависимости от размера существа:",
-				{
-					"type": "table",
-					"caption": "Стоимость слуги-нежити",
-					"page": 5,
-					"colLabels": [
-						"Размер",
-						"Стоимость некротического очка",
-						"Цена жизни"
-					],
-					"colStyles": [
-						"col-4 text-center",
-						"col-4 text-center",
-						"col-4 text-center"
-					],
-					"rows": [
-						[
-							"маленький",
-							"1",
-							"{@damage 1d8}"
-						],
-						[
-							"средний",
-							"2",
-							"{@damage 1d12}"
-						],
-						[
-							"большой",
-							"3",
-							"{@damage 3d12}"
-						],
-						[
-							"огромный",
-							"4",
-							"{@damage 5d12}"
-						]
-					]
-				},
-				"Эта таблица показывает ПО чудовища, которое вы можете призвать, и сколько вы можете контролировать одновременно:",
-				{
-					"type": "table",
-					"caption": "ПО слуги-нежити",
-					"page": 5,
-					"colLabels": [
-						"Уровень",
-						"Показатель опасности",
-						"Нежить под контролем"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-5 text-center",
-						"col-5 text-center"
-					],
-					"rows": [
-						[
-							"3-й",
-							"{@filter 1|bestiary|type=undead|challenge rating=[&0;&1]}",
-							"1"
-						],
-						[
-							"6-й",
-							"{@filter 2|bestiary|type=undead|challenge rating=[&0;&2]}",
-							"1"
-						],
-						[
-							"9-й",
-							"{@filter 3|bestiary|type=undead|challenge rating=[&0;&3]}",
-							"2"
-						],
-						[
-							"12-й",
-							"{@filter 4|bestiary|type=undead|challenge rating=[&0;&4]}",
-							"2"
-						],
-						[
-							"15-й",
-							"{@filter 5|bestiary|type=undead|challenge rating=[&0;&5]}",
-							"3"
-						],
-						[
-							"18-й",
-							"{@filter 6|bestiary|type=undead|challenge rating=[&0;&6]}",
-							"3"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Контроль нежити",
-			"source": "Helodinn-Necromancer",
-			"page": 6,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Падший",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Достигнув 6-го уровня, вы обретаете способность брать под контроль найденную нежить. Действием вы можете потратить некротические очки и жизненную энергию в соответствии с размером и ПО существа-нежити, как указано в таблице «Стоимость контроля нежити» ниже. Существо должно преуспеть в спасброске Интеллекта Сл 15. При провале оно переходит под ваш контроль.",
-				{
-					"type": "table",
-					"caption": "Стоимость контроля нежити",
-					"page": 6,
-					"colLabels": [
-						"Размер",
-						"Стоимость некротического очка",
-						"Цена жизни"
-					],
-					"colStyles": [
-						"col-4 text-center",
-						"col-4 text-center",
-						"col-4 text-center"
-					],
-					"rows": [
-						[
-							"маленький",
-							"1",
-							"{@damage 1d8}"
-						],
-						[
-							"средний",
-							"2",
-							"{@damage 1d12}"
-						],
-						[
-							"большой",
-							"3",
-							"{@damage 3d12}"
-						],
-						[
-							"огромный",
-							"4",
-							"{@damage 5d12}"
-						]
-					]
-				},
-				"Эта таблица показывает ПО чудовища, которое вы можете призвать:",
-				{
-					"type": "table",
-					"caption": "ПО контролируемой нежити",
-					"page": 5,
-					"colLabels": [
-						"Уровень",
-						"Показатель опасности"
-					],
-					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
-					],
-					"rows": [
-						[
-							"6-й",
-							"{@filter 1|bestiary|type=undead|challenge rating=[&0;&1]}"
-						],
-						[
-							"9-й",
-							"{@filter 2|bestiary|type=undead|challenge rating=[&0;&2]}"
-						],
-						[
-							"12-й",
-							"{@filter 3|bestiary|type=undead|challenge rating=[&0;&3]}"
-						],
-						[
-							"15-й",
-							"{@filter 4|bestiary|type=undead|challenge rating=[&0;&4]}"
-						],
-						[
-							"18-й",
-							"{@filter 5|bestiary|type=undead|challenge rating=[&0;&5]}"
-						]
-					]
-				},
-				"На 10-м уровне вы получаете способность брать под контроль нежить в свой ход бонусным действием, а не действием."
-			]
-		},
-		{
-			"name": "Армия нежити",
-			"source": "Helodinn-Necromancer",
-			"page": 6,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Падший",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"Начиная с 10-го уровня вы учитесь управлять более чем одним существом-нежитью одновременно, но они совершают броски атаки с помехой, так как вы делите своё внимание между этими существами.",
-				"На 15-м уровне существа-нежить под вашим контролем могут атаковать нормально, без помехи."
-			]
-		},
-		{
-			"name": "Владыка нежити",
-			"source": "Helodinn-Necromancer",
-			"page": 6,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Падший",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"Начиная с 14-го уровня вы достигли вершины в поднятии нежити. Ваши существа-нежить больше не имеют уязвимости к урону и получают дополнительные хиты, равные вашему уровню некроманта."
-			]
-		},
-		{
-			"name": "Спонтанное выкапывание",
-			"source": "Helodinn-Necromancer",
-			"page": 6,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Падший",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"Начиная с 18-го уровня негативная энергия, текущая в вас, начинает переполнять вас, и иногда вы самопроизвольно поднимаете {@creature zombie}. Это происходит всякий раз, когда вы тратите 1 или более некротических очков. Вы обладаете абсолютным контролем над {@creature zombie||зомби}, поднятыми таким образом."
-			]
-		},
-		{
-			"name": "Смертельный путь Людоеда",
-			"source": "Helodinn-Necromancer",
-			"page": 6,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Некроманты, позволяющие негативным силам завладеть своим разумом, неизбежно начинают терять рассудок. В мире они могут функционировать как психопаты, но начинают терять контроль над эмоциями, когда их магическая энергия на исходе. Из их тела вырывается неутолимый голод, требующий сырого, гнилого или даже мёртвого мяса других существ.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Неестественный желудок|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|2|Helodinn-Necromancer"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Неестественный доспех|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|2|Helodinn-Necromancer"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Мнимая молодость|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|2|Helodinn-Necromancer"
-				}
-			]
-		},
-		{
-			"name": "Мнимая молодость",
-			"source": "Helodinn-Necromancer",
-			"page": 6,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Следуя этому Смертельному пути, вы терпите последствия использования тёмной магии. Если вы не ели сырую, гнилую или мёртвую плоть в последние 24 часа, ваша кожа начнёт слезать. После целых 24 часов без еды ваша кожа станет похожа на кожу зомби. Пока вы в этом состоянии, вы совершаете с помехой все проверки и спасброски Харизмы."
-			]
-		},
-		{
-			"name": "Неестественный доспех",
-			"source": "Helodinn-Necromancer",
-			"page": 6,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Также на 2-м уровне вы учитесь поглощать энергию из того, что можете съесть с помощью способности Неестественный желудок. Вы можете действием укусить и оторвать кожу и плоть. Когда вы это делаете, цель должна преуспеть в спасброске Телосложения. При провале ваш КД становится таким же, как у цели, на следующие 10 минут."
-			]
-		},
-		{
-			"name": "Неестественный желудок",
-			"source": "Helodinn-Necromancer",
-			"page": 6,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Начиная с момента выбора этого пути на 2-м уровне, ваша пищеварительная система развилась, чтобы переваривать сырое, мёртвое или гнилое мясо других существ."
-			]
-		},
-		{
-			"name": "Смертельное восстановление",
-			"source": "Helodinn-Necromancer",
-			"page": 7,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"На 6-м уровне ваша пища становится питательнее, и вы можете поглощать магическую энергию из того, что перевариваете с помощью Неестественного желудка, во время коротких отдыхов. Делая так, вы можете восстановить количество хитов, равное вашему модификатору Интеллекта, и восстановить ячейки заклинаний. Суммарный уровень восстанавливаемых ячеек должен быть меньше или равен вашему модификатору Интеллекта.",
-				{
-					"type": "inset",
-					"name": "Пример восстановления ячеек заклинаний",
-					"entries": [
-						"Если ваш модификатор Интеллекта равен 5, вы можете восстановить 1 заклинание 3-го уровня и 1 заклинание 2-го уровня (3 + 2 = 5) или 3 заклинания 1-го уровня и 1 заклинание 2-го уровня (1 + 1 + 1 + 2 = 5)."
-					]
-				}
-			]
-		},
-		{
-			"name": "Унаследованное обжорство",
-			"source": "Helodinn-Necromancer",
-			"page": 7,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"Достигнув 10-го уровня, вы можете действием извергнуть желудочную кислоту на один предмет или существо в пределах 5 футов от вас. Это наносит урон кислотой, равный {@damage 2d6} + ваш модификатор Интеллекта. Как вариант, это можно использовать, чтобы покрыть оружие кислотой, заставляя его наносить дополнительно {@damage 2d6} урона кислотой в течение следующих 10 минут. Это умение можно использовать один раз, и оно восстанавливается после завершения продолжительного отдыха."
-			]
-		},
-		{
-			"name": "Вкус воспоминаний",
-			"source": "Helodinn-Necromancer",
-			"page": 7,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"Воспоминания и чувства связаны с разумом и телом. На 14-м уровне, если вы съедите часть живого существа или предмета, вы можете проследить их воспоминания, чувства, местоположения или другую информацию за последние 24 часа. Поговорите с Мастером, чтобы понять, какую информацию вы можете получить, чтобы сохранить течение игры (или нет)."
-			]
-		},
-		{
-			"name": "Превосходная мнимая молодость",
-			"source": "Helodinn-Necromancer",
-			"page": 7,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"На 18-м уровне ваше тело стало привычнее к последствиям использования тёмной магии. Теперь вам нужно есть сырую, гнилую или мёртвую плоть лишь раз в неделю, чтобы поддерживать свой обычный облик."
-			]
-		},
-		{
-			"name": "Смертельный путь Шептуна",
-			"source": "Helodinn-Necromancer",
-			"page": 7,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Энергия негативных планов влияет на некромантов по-разному: одни становятся искусны в поднятии трупов, другие изучают запретное искусство людоедства, а у некоторых некромантов крепкая связь с духами. Эти некроманты могут видеть духовных существ, говорить с ними и взаимодействовать.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Духовные спутники|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|2|Helodinn-Necromancer"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Безумие Шептуна|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|2|Helodinn-Necromancer"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Некротическое сотворение|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|2|Helodinn-Necromancer"
-				}
-			]
-		},
-		{
-			"name": "Безумие Шептуна",
-			"source": "Helodinn-Necromancer",
-			"page": 7,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Практикующие это искусство некромантии обычно склонны к приступам безумия: каждые 24 часа вы бросаете {@dice d100} и получаете эффект из таблицы {@table indefinite madness}, с той лишь разницей, что эффект меняется каждый день."
-			]
-		},
-		{
-			"name": "Некротическое сотворение",
-			"source": "Helodinn-Necromancer",
-			"page": 7,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Начиная с 2-го уровня облако смрада сопровождает сотворяемые вами заклинания, разъедая плоть и кости жертвы и отвлекая её. Любые заклинания некромантии, которые вы сотворяете, наносят дополнительно {@damage 1d4} урона некротической энергией. Кроме того, нежить совершает с помехой спасброски против ваших заклинаний.",
-				{
-					"type": "table",
-					"caption": "Дополнительный урон в зависимости от вашего уровня",
-					"page": 7,
-					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
-					],
-					"colLabels": [
-						"Уровень",
-						"Урон"
-					],
-					"rows": [
-						[
-							"2-й",
-							"{@damage 1d4}"
-						],
-						[
-							"5-й",
-							"{@damage 1d6}"
-						],
-						[
-							"8-й",
-							"{@damage 1d8}"
-						],
-						[
-							"11-й",
-							"{@damage 1d10}"
-						],
-						[
-							"14-й",
-							"{@damage 1d12}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Духовные спутники",
-			"source": "Helodinn-Necromancer",
-			"page": 7,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"entries": [
-				"Начиная с 2-го уровня вы можете создать связь с любым духом на материальном плане. Связанный с вами дух будет следовать за вами повсюду. Дух {@condition invisible}, обладает {@sense darkvision} и может перемещаться только в радиусе 100 футов с центром на вас."
-			]
-		},
-		{
-			"name": "Духовное вселение",
-			"source": "Helodinn-Necromancer",
-			"page": 8,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Достигнув 6-го уровня, вы учитесь манипулировать духом-спутником и вселять его в целевое существо. Действием вы можете потратить некротические очки в соответствии с размером и ПО существа. Существо должно преуспеть в спасброске Мудрости Сл 15; при провале ваш духовный спутник берёт над ним контроль.",
-				"Эта таблица показывает некротические очки, которые вы должны потратить в зависимости от размера существа:",
-				{
-					"type": "table",
-					"page": 8,
-					"colStyles": [
-						"col-4 text-center",
-						"col-8"
-					],
-					"colLabels": [
-						"Размер",
-						"Стоимость некротического очка"
-					],
-					"rows": [
-						[
-							"маленький",
-							"1"
-						],
-						[
-							"средний",
-							"2"
-						],
-						[
-							"большой",
-							"3"
-						],
-						[
-							"огромный",
-							"4"
-						]
-					]
-				},
-				"Эта таблица показывает ПО существа, которым может управлять ваш дух:",
-				{
-					"type": "table",
-					"caption": "Контроль духовного вселения",
-					"page": 8,
-					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
-					],
-					"colLabels": [
-						"Размер",
-						"Стоимость некротического очка"
-					],
-					"rows": [
-						[
-							"6-й",
-							"1"
-						],
-						[
-							"9-й",
-							"2"
-						],
-						[
-							"12-й",
-							"3"
-						],
-						[
-							"15-й",
-							"4"
-						],
-						[
-							"18-й",
-							"5"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Поступь смерти",
-			"source": "Helodinn-Necromancer",
-			"page": 8,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"Начиная с 10-го уровня вы можете частично переходить в царство мёртвых, становясь подобным призраку. Бонусным действием вы принимаете призрачную форму. Пока она действует, у вас скорость полёта 10 футов, вы можете парить, и броски атаки по вам совершаются с помехой. Вы также можете перемещаться сквозь существ и предметы, как если бы это была труднопроходимая местность, но получаете {@damage 1d10} урона силовым полем, если оканчиваете свой ход внутри существа или предмета. Вы остаётесь в этой форме 10 минут или до тех пор, пока не окончите её бонусным действием. Чтобы использовать это умение снова, вы должны завершить короткий или продолжительный отдых или уничтожить одного из своих зомби в рамках бонусного действия, которым активируете «Поступь смерти»."
-			]
-		},
-		{
-			"name": "Аура смерти",
-			"source": "Helodinn-Necromancer",
-			"page": 8,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"Начиная с 14-го уровня вы способны проецировать устрашающую ауру, подобную самой смерти.",
-				"Действием вы можете создать вокруг себя устрашающую ауру. Существа в радиусе 30 футов должны преуспеть в спасброске Мудрости против Сл спасброска ваших заклинаний некроманта, иначе станут {@condition frightened} на 1 минуту. {@condition frightened} цель может повторять спасбросок в конце каждого своего хода. При успехе цель не испытывает эффектов и получает иммунитет к этому умению на следующие 24 часа."
-			]
-		},
-		{
-			"name": "Вселение Мстительного духа",
-			"source": "Helodinn-Necromancer",
-			"page": 8,
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"Достигнув 18-го уровня, ваша связь с духами стала крепче: теперь вами может овладеть {@creature Мстительный дух|Helodinn-Necromancer}, чтобы помогать в битвах. Во время вселения вы можете совершать только действия духа, и если ваши хиты опускаются до 0, вы падаете {@condition unconscious} на 3 хода. Вы можете использовать это умение один раз, пока не завершите продолжительный отдых."
-			]
-		}
-	],
-	"foundrySubclassFeature": [
-		{
-			"name": "Deadly Recovery",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 6,
-			"system": {
-				"damage.parts": [
-					[
-						"@abilities.int.mod",
-						"healing"
-					]
-				]
-			}
-		},
-		{
-			"name": "Throwback Gluttony",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Людоед",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 10,
-			"system": {
-				"damage.parts": [
-					[
-						"2d6 + @abilities.int.mod",
-						"acid"
-					]
-				],
-				"uses.per": "lr",
-				"uses.max": 1
-			}
-		},
-		{
-			"name": "Necrotic Spellcasting",
-			"source": "Helodinn-Necromancer",
-			"className": "Necromancer",
-			"classSource": "Helodinn-Necromancer",
-			"subclassShortName": "Шептун",
-			"subclassSource": "Helodinn-Necromancer",
-			"level": 2,
-			"system": {
-				"damage.parts": [
-					[
-						"@scale.deadly-path-of-the-whisperer.necrotic-spellcasting",
-						"necrotic"
-					]
-				]
-			}
-		}
-	],
-	"spell": [
-		{
-			"name": "Баллада мёртвых",
-			"source": "Helodinn-Necromancer",
-			"page": 9,
-			"level": 5,
-			"school": "N",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"components": {
-				"v": true,
-				"m": "a tiny vial of blood, bone dust"
-			},
-			"duration": [
-				{
-					"type": "permanent",
-					"ends": [
-						"dispel"
-					]
-				}
-			],
-			"entries": [
-				"Пропевая эту песню, он доводит частоту своего голоса до негативного плана, заставляя гнилые руки подниматься из земли, а духов — появляться под похоронную мелодию. Каждое существо в сфере радиусом 20 футов с центром в этой точке должно совершить спасбросок Ловкости. Цель получает {@damage 4d8} урона некротической энергией и {@damage 4d8} психического урона при провале или половину этого урона при успехе.",
-				"Существа должны преуспеть в проверке Мудрости Сл 15, иначе они становятся {@condition frightened} и не могут атаковать вас, пока этот эффект не закончится."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Когда вы сотворяете это заклинание, используя ячейку заклинаний 6-го уровня или выше, урон увеличивается на {@dice 1d8} за каждый уровень ячейки выше 5-го для каждого типа урона."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Necromancer",
-						"source": "Helodinn-Necromancer"
-					}
-				]
-			},
-			"damageInflict": [
-				"necrotic",
-				"psychic"
-			],
-			"conditionInflict": [
-				"frightened"
-			],
-			"savingThrow": [
-				"dexterity"
-			]
-		},
-		{
-			"name": "Проклятие Тариздуна",
-			"source": "Helodinn-Necromancer",
-			"page": 8,
-			"level": 4,
-			"school": "N",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 100
-				}
-			},
-			"components": {
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"Вы начинаете выпевать древние слова на {@language abyssal|PHB}, и внезапно на поле боя начинают происходить малые взрывы, зажигая пламя бездны в целевых существах. Выберите до 4 существ в пределах дистанции — они должны совершить спасбросок Ловкости. Цель получает {@damage 2d8} урона некротической энергией и {@damage 2d8} урона огнём при провале или половину этого урона при успехе. Затронутые существа получают {@dice 1d8} урона огнём и {@dice 1d8} урона некротической энергией в конце каждого хода, пока заклинание не закончится, и если цель не получает никакого урона, этот эффект ничего не делает. Пламя нельзя потушить или устранить магией."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Когда вы сотворяете это заклинание, используя ячейку заклинаний 5-го уровня или выше, урон увеличивается на {@dice 1d8} за каждый уровень ячейки выше 4-го для каждого типа урона."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Sorcerer",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					},
-					{
-						"name": "Necromancer",
-						"source": "Helodinn-Necromancer"
-					}
-				]
-			},
-			"damageInflict": [
-				"fire",
-				"necrotic"
-			],
-			"savingThrow": [
-				"dexterity"
-			]
-		},
-		{
-			"name": "Некротический клинок",
-			"source": "Helodinn-Necromancer",
-			"page": 8,
-			"level": 0,
-			"school": "N",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 5
-				}
-			},
-			"components": {
-				"v": true,
-				"m": "A weapon"
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"В рамках действия, используемого для сотворения этого заклинания, вы должны совершить рукопашную атаку оружием по одному существу в пределах дистанции заклинания, иначе заклинание проваливается. При попадании цель терпит обычные эффекты атаки и покрывается некротической энергией до начала вашего следующего хода. Если цель добровольно переместится до этого, она немедленно получает {@damage 1d8} урона некротической энергией, и заклинание заканчивается.",
-				"Урон этого заклинания увеличивается на более высоких уровнях. На 5-м уровне рукопашная атака наносит цели дополнительно {@damage 1d8} урона некротической энергией, и урон, получаемый целью за перемещение, увеличивается до {@dice 2d8}. Оба броска урона увеличиваются на {@dice 1d8} на 11-м и 17-м уровне."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Sorcerer",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					},
-					{
-						"name": "Necromancer",
-						"source": "Helodinn-Necromancer"
-					}
-				]
-			},
-			"damageInflict": [
-				"necrotic"
-			],
-			"miscTags": [
-				"AAD",
-				"SCL"
-			]
-		},
-		{
-			"name": "Стена плоти",
-			"source": "Helodinn-Necromancer",
-			"page": 9,
-			"level": 6,
-			"school": "N",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"components": {
-				"v": true,
-				"m": "a small piece of flayed flesh from a humanoid"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Вы создаёте мерзкую стену из плоти, глаз и ртов, излучающую токсичную ауру. Стена появляется на твёрдой поверхности в пределах дистанции. Стена может быть до 60 футов длиной, 10 футов высотой и 5 футов толщиной. Стена блокирует линию обзора, существа не могут пройти сквозь неё, её нельзя разрушить немагическими средствами, и она держится, пока длится заклинание. Когда стена появляется, каждое существо в пределах 10 футов от неё должно преуспеть в спасброске Телосложения, иначе станет {@condition poisoned} до конца своего следующего хода и получит {@damage 3d12} урона кислотой, так как рты и раны источают зловредный яд и извергают кислотные телесные жидкости. При успешном спасброске цель не {@condition poisoned} и получает половину этого урона. Стена наносит {@damage 3d12} урона кислотой любому существу, оканчивающему свой ход в пределах 10 футов от неё. Это существо также должно преуспеть в спасброске Телосложения, иначе станет {@condition poisoned} до конца своего следующего хода. Сотворяя заклинание, вы можете выбрать количество существ, равное вашему модификатору способности к заклинаниям, которые будут обладать иммунитетом к его эффектам."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях:",
-					"entries": [
-						"Когда вы сотворяете это заклинание, используя ячейку заклинаний 7-го уровня или выше, урон увеличивается на {@dice 1d12} за каждый уровень ячейки выше 6-го."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					},
-					{
-						"name": "Necromancer",
-						"source": "Helodinn-Necromancer"
-					}
-				]
-			},
-			"damageInflict": [
-				"acid"
-			],
-			"conditionInflict": [
-				"poisoned"
-			],
-			"savingThrow": [
-				"constitution"
-			],
-			"fluff": {
-				"entries": [
-					"{@note {@i Стена плоти} от {@b u/WhiteShadowTaiChi}}"
-				]
-			}
-		}
-	],
-	"monster": [
-		{
-			"name": "Мстительный дух",
-			"source": "Helodinn-Necromancer",
-			"page": 9,
-			"size": [
-				"M"
-			],
-			"type": "undead",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				18
-			],
-			"hp": {
-				"average": 169,
-				"formula": "18d10 + 40"
-			},
-			"speed": {
-				"walk": 45
-			},
-			"str": 20,
-			"dex": 20,
-			"con": 18,
-			"int": 14,
-			"wis": 16,
-			"cha": 16,
-			"skill": {
-				"athletics": "+9",
-				"perception": "+8",
-				"intimidation": "+7"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 18,
-			"resist": [
-				"cold",
-				"necrotic"
-			],
-			"immune": [
-				"fire"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion"
-			],
-			"languages": [
-				"Бездонный",
-				"Инфернальный",
-				"Общий"
-			],
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Способность духа к заклинаниям — Харизма (Сл спасброска {@dc 15}, {@hit 7} для попадания атаками заклинаниями). Дух может интуитивно сотворять следующие заклинания, не требующие материальных компонентов:"
-					],
-					"will": [
-						"{@spell Fire bolt}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell Scorching Ray}",
-							"{@spell Fire Shield}"
-						],
-						"2e": [
-							"{@spell Fireball}",
-							"{@spell Wall of Fire}"
-						],
-						"1e": [
-							"{@spell Баллада мёртвых|Helodinn-Necromancer}",
-							"{@spell Проклятие Тариздуна|Helodinn-Necromancer}",
-							"{@spell Phantasmal Killer}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"trait": [
-				{
-					"name": "Воплощение огня",
-					"entries": [
-						"Тело Мстительного духа объято буйным адским огнём. Пока этот огонь бушует, все атаки, совершаемые этим существом, наносят дополнительно {@dice 2d6} урона огнём. Этот адский огонь обходит сопротивления, которые существо может иметь к немагическому урону или урону огнём."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Мстительный дух совершает три рукопашные атаки: две когтями или адской косой и одну другим оружием. Он может сотворить {@spell fire bolt} вместо любой рукопашной атаки."
-					]
-				},
-				{
-					"name": "Коготь",
-					"entries": [
-						"{@atk mw} +8 к попаданию, досягаемость 5 фт., одна цель. Попадание 11 ({@dice 2d6 + 5}) плюс 7 ({@damage 2d6}) урона огнём."
-					]
-				},
-				{
-					"name": "Адская коса",
-					"entries": [
-						"{@atk mw} +8 к попаданию, досягаемость 10 фт., одна цель. Попадание 9 ({@dice 2d4 + 5}) + 7 ({@damage 2d6}) урона огнём."
-					]
-				},
-				{
-					"name": "Адское дыхание {@recharge 5}",
-					"entries": [
-						"Мстительный дух выдыхает огонь конусом на 15 футов. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 16}, получая 42 ({@damage 8d8}) урона огнём при провале или половину этого урона при успехе. Этот адский огонь обходит сопротивления, которые существо может иметь к немагическому урону или урону огнём."
-					]
-				}
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Breath Weapon",
-				"Multiattack"
-			],
-			"languageTags": [
-				"AB",
-				"C",
-				"I"
-			],
-			"damageTags": [
-				"F"
-			],
-			"damageTagsSpell": [
-				"C",
-				"F",
-				"Y"
-			],
-			"spellcastingTags": [
-				"I"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"conditionInflictSpell": [
-				"frightened"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"savingThrowForcedSpell": [
-				"dexterity",
-				"wisdom"
-			]
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "Helodinn-Necromancer",
+        "abbreviation": "Necro",
+        "full": "The Necromancer (maarlebw's edit)",
+        "url": "https://homebrewery.naturalcrit.com/share/MBOIiixB4asu",
+        "version": "1.1-edit",
+        "dateReleased": "2020-08-24",
+        "authors": [
+          "maarlebw",
+          "u/Helodinn",
+          "u/NathanCouto"
+        ],
+        "convertedBy": [
+          "Spappz"
+        ],
+        "color": "753c4b"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1722981035,
+    "dateLastModified": 1785698747,
+    "_dateLastModifiedHash": "3c501bc5e6"
+  },
+  "class": [
+    {
+      "name": "Некромант",
+      "source": "Helodinn-Necromancer",
+      "page": 2,
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "int",
+        "con"
+      ],
+      "spellcastingAbility": "int",
+      "casterProgression": "full",
+      "cantripProgression": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "spellsKnownProgression": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "spellsKnownProgressionFixedAllowLowerLevel": true,
+      "classSpells": [
+        "Chill Touch",
+        "Frost Bite",
+        "Infestation",
+        "Mage Hand",
+        "Message",
+        "Necrotic Blade",
+        "Poison Spray",
+        "Prestidigitation",
+        "Ray of Frost",
+        "Sapping Sting|EGW",
+        "Spare the Dying",
+        "Sword Burst|TCE",
+        "Thaumaturgy",
+        "Toll the Dead",
+        "Cause Fear|XGE",
+        "Command",
+        "Cure Wounds",
+        "Detect Poison and Disease",
+        "Detect Magic",
+        "Disguise Self",
+        "False Life",
+        "Find Familiar",
+        "Hex",
+        "Inflict Wounds",
+        "Ray of Sickness",
+        "Sleep",
+        "Shield",
+        "Arcane Lock",
+        "Blindness/Deafness",
+        "Crown of Madness",
+        "Darkness",
+        "Darkvision",
+        "Gentle Repose",
+        "Hold Person",
+        "Invisibility",
+        "Lesser Restoration",
+        "Locate Object",
+        "Magic Weapon",
+        "Misty Step",
+        "Protection From Poison",
+        "Ray of Enfeeblement",
+        "Silence",
+        "Shadow Blade|XGE",
+        "Animate Dead",
+        "Bestow Curse",
+        "Blink",
+        "Catnap|XGE",
+        "Counterspell",
+        "Dispel Magic",
+        "Enemies Abound|XGE",
+        "Fear",
+        "Feign Death",
+        "Fly",
+        "Hypnotic Pattern",
+        "Life Transference|XGE",
+        "Remove Curse",
+        "Revivify",
+        "Speak With Dead",
+        "Tongues",
+        "Vampiric Touch",
+        "Banishment",
+        "Blight",
+        "Charm Monster",
+        "Confusion",
+        "Death Ward",
+        "Dimensional Door",
+        "Evard's Black Tentacles",
+        "Ice Storm",
+        "Leomund's Secret Chest",
+        "Phantasmal Killer",
+        "Polymorph",
+        "Shadow of Moil|XGE",
+        "Stoneskin",
+        "Vitriolic Sphere|XGE",
+        "Cloudkill",
+        "Contagion",
+        "Danse Macabre|XGE",
+        "Enervation|XGE",
+        "Geas",
+        "Hallow",
+        "Hold Monster",
+        "Mass Cure Wounds",
+        "Negative Energy Flood|XGE",
+        "Raise Dead",
+        "Reincarnate",
+        "Teleportation Circle",
+        "Arcane Gate",
+        "Circle of Death",
+        "Create Undead",
+        "Disintegrate",
+        "Eyebite",
+        "Harm",
+        "Heal",
+        "Magic Jar",
+        "Scatter|XGE",
+        "Soul Cage|XGE",
+        "Tenser's Transformation|XGE",
+        "True Seeing",
+        "Divine Word",
+        "Finger of Death",
+        "Forcecage",
+        "Plane Shift",
+        "Power Word Pain|XGE",
+        "Regenerate",
+        "Resurrection",
+        "Simulacrum",
+        "Symbol",
+        "Tether Essence|EGW",
+        "Abi-Dalzim's Horrid Wilting|XGE",
+        "Antimagic Field",
+        "Antipathy/Sympathy",
+        "Clone",
+        "Dark Star|EGW",
+        "Demiplane",
+        "Dominate Monster",
+        "Maddening Darkness|XGE",
+        "Power Word Stun",
+        "Astral Projection",
+        "Invulnerability|XGE",
+        "Power Word Kill",
+        "Psychic Scream|XGE",
+        "Shapechange",
+        "Time Ravage|EGW",
+        "True Resurection",
+        "Wish"
+      ],
+      "startingProficiencies": {
+        "skills": [
+          {
+            "choose": {
+              "count": 2,
+              "from": [
+                "arcana",
+                "history",
+                "insight",
+                "intimidation",
+                "investigation",
+                "perception"
+              ]
+            }
+          }
+        ],
+        "weapons": [
+          "simple",
+          "{@item sickle|PHB}",
+          "{@item shortsword|PHB}"
+        ],
+        "armor": [
+          "light"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a {@item Shortsword|PHB} or (b) a {@item Sickle|PHB}",
+          "(a) a {@item Component pouch|PHB} or (b) a {@item Arcane focus|PHB}",
+          "(a) a {@item Dungeoneer's Pack|PHB} or (b) a {@item Explorer's Pack|PHB}"
+        ],
+        "goldAlternative": "{@dice 4d4 × 10}",
+        "defaultData": [
+          {
+            "a": [
+              "shortsword|phb"
+            ],
+            "b": [
+              "sickle|phb"
+            ]
+          },
+          {
+            "a": [
+              "component pouch|phb"
+            ],
+            "b": [
+              "arcane focus|phb"
+            ]
+          },
+          {
+            "a": [
+              "dungeoneer's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
+          }
+        ]
+      },
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "{@filter Cantrips Known|spells|level=0|class=necromancer (necro)}",
+            "{@filter Spells Known|spells|class=necromancer (necro)}"
+          ],
+          "rows": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              6,
+              12
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              16
+            ],
+            [
+              7,
+              17
+            ],
+            [
+              7,
+              18
+            ],
+            [
+              7,
+              19
+            ],
+            [
+              7,
+              20
+            ],
+            [
+              7,
+              21
+            ]
+          ]
+        },
+        {
+          "title": "Ячейки заклинаний по уровням заклинаний",
+          "colLabels": [
+            "{@filter 1st|spells|level=1|class=necromancer (necro)}",
+            "{@filter 2nd|spells|level=2|class=necromancer (necro)}",
+            "{@filter 3rd|spells|level=3|class=necromancer (necro)}",
+            "{@filter 4th|spells|level=4|class=necromancer (necro)}",
+            "{@filter 5th|spells|level=5|class=necromancer (necro)}",
+            "{@filter 6th|spells|level=6|class=necromancer (necro)}",
+            "{@filter 7th|spells|level=7|class=necromancer (necro)}",
+            "{@filter 8th|spells|level=8|class=necromancer (necro)}",
+            "{@filter 9th|spells|level=9|class=necromancer (necro)}"
+          ],
+          "rowsSpellProgression": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Сотворение заклинаний|Necromancer|Helodinn-Necromancer|1",
+        "Негативная энергия|Necromancer|Helodinn-Necromancer|1",
+        "Выкачивание жизни|Necromancer|Helodinn-Necromancer|1",
+        {
+          "classFeature": "Смертельный путь|Necromancer|Helodinn-Necromancer|2",
+          "gainSubclassFeature": true
+        },
+        "Слуга-нежить|Necromancer|Helodinn-Necromancer|3",
+        "Увеличение характеристик|Necromancer|Helodinn-Necromancer|4",
+        "Нечестивое сопротивление|Necromancer|Helodinn-Necromancer|5",
+        {
+          "classFeature": "Умение Смертельного пути|Necromancer|Helodinn-Necromancer|6",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Necromancer|Helodinn-Necromancer|8",
+        {
+          "classFeature": "Умение Смертельного пути|Necromancer|Helodinn-Necromancer|10",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Necromancer|Helodinn-Necromancer|12",
+        {
+          "classFeature": "Умение Смертельного пути|Necromancer|Helodinn-Necromancer|14",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Necromancer|Helodinn-Necromancer|16",
+        "Отрицание смерти|Necromancer|Helodinn-Necromancer|17",
+        {
+          "classFeature": "Умение Смертельного пути|Necromancer|Helodinn-Necromancer|18",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Necromancer|Helodinn-Necromancer|19",
+        "Мрачная жатва|Necromancer|Helodinn-Necromancer|20"
+      ],
+      "subclassTitle": "Deadly Path",
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "foundryAdvancement": [
+        {
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "necrotic-points",
+            "type": "number",
+            "scale": {
+              "1": {
+                "value": 1
+              },
+              "2": {
+                "value": 2
+              },
+              "3": {
+                "value": 3
+              },
+              "4": {
+                "value": 4
+              },
+              "5": {
+                "value": 5
+              },
+              "6": {
+                "value": 6
+              },
+              "7": {
+                "value": 7
+              },
+              "8": {
+                "value": 8
+              },
+              "9": {
+                "value": 9
+              },
+              "10": {
+                "value": 10
+              },
+              "11": {
+                "value": 12
+              },
+              "12": {
+                "value": 14
+              },
+              "13": {
+                "value": 16
+              },
+              "14": {
+                "value": 18
+              },
+              "15": {
+                "value": 20
+              },
+              "16": {
+                "value": 22
+              },
+              "17": {
+                "value": 24
+              },
+              "18": {
+                "value": 26
+              },
+              "19": {
+                "value": 28
+              },
+              "20": {
+                "value": 30
+              }
+            }
+          },
+          "title": "Necrotic Points"
+        },
+        {
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "life-syphon",
+            "type": "dice",
+            "scale": {
+              "1": {
+                "n": 1,
+                "die": 6
+              },
+              "5": {
+                "n": 2
+              },
+              "11": {
+                "n": 3
+              },
+              "17": {
+                "n": 4
+              }
+            }
+          },
+          "title": "Life Syphon"
+        }
+      ]
+    }
+  ],
+  "classFluff": [
+    {
+      "name": "Некромант",
+      "source": "Helodinn-Necromancer",
+      "entries": [
+        {
+          "type": "section",
+          "name": "Некромант",
+          "page": 2,
+          "entries": [
+            "Некромантия — искусство, считающееся табу даже среди богов, однако есть несколько пользователей магии, которым нравится этот вид запретного знания. Некроманты стремятся управлять жизнью и смертью во всех их формах; у них природный талант к манипулированию жизненными сущностями, текущими в живых существах.",
+            "Некроманты — верховные пользователи чёрной магии; их главная черта — способность управлять смертью, будь то создание зомби, сражающихся вместо них, или призыв духов для выполнения грязной работы.",
+            {
+              "type": "entries",
+              "name": "Запретные знания",
+              "page": 2,
+              "entries": [
+                "Многие века искусство некромантии было скрыто от смертных; боги знали, что эта сила может быть весьма разрушительной, попади она в дурные руки. Пока однажды несколько учёных, сведущих в магии, не начали замечать, что существует магия из неестественного источника, и не посвятили себя её изучению.",
+                "Ныне есть несколько пользователей магии, использующих некромантские ресурсы, но не все заходят дальше простых заклинаний; многие боятся быть проклятыми богами за чрезмерное использование этого искусства.",
+                {
+                  "type": "entries",
+                  "name": "Быстрая сборка",
+                  "page": 2,
+                  "entries": [
+                    "Вы можете быстро создать некроманта, следуя этим советам. Во-первых, Интеллект должен быть вашей наивысшей характеристикой, а следом — Телосложение. Во-вторых, выберите предысторию {@background Far Traveler|SCAG}. В-третьих, выберите заговор {@spell Некротический клинок|Helodinn-Necromancer}, если делаете рукопашного персонажа, или заговор {@spell Chill Touch|PHB}, если делаете дальнобойного, а также заговор {@spell Spare the Dying|PHB} для небольшой помощи группе, вместе с заклинаниями 1-го уровня {@spell Cause Fear|XGE} и {@spell Ray of Sickness|PHB}."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Helodinn-Necromancer/how-is-she-standing.webp"
+          },
+          "credit": "{@link wyrmylad|https://www.deviantart.com/wyrmylad/art/Catrina-De-Muertos-864890913}"
+        }
+      ]
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Смертельный путь Падшего",
+      "shortName": "Падший",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "page": 5,
+      "subclassFeatures": [
+        "Смертельный путь Падшего|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|2",
+        "Контроль нежити|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|6",
+        "Армия нежити|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|10",
+        "Владыка нежити|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|14",
+        "Спонтанное выкапывание|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|18"
+      ],
+      "hasFluffImages": true
+    },
+    {
+      "name": "Смертельный путь Людоеда",
+      "shortName": "Людоед",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "page": 6,
+      "subclassFeatures": [
+        "Смертельный путь Людоеда|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|2",
+        "Смертельное восстановление|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|6",
+        "Унаследованное обжорство|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|10",
+        "Вкус воспоминаний|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|14",
+        "Превосходная мнимая молодость|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|18"
+      ],
+      "hasFluffImages": true
+    },
+    {
+      "name": "Смертельный путь Шептуна",
+      "shortName": "Шептун",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "page": 7,
+      "subclassFeatures": [
+        "Смертельный путь Шептуна|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|2",
+        "Духовное вселение|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|6",
+        "Поступь смерти|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|10",
+        "Аура смерти|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|14",
+        "Вселение Мстительного духа|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|18"
+      ],
+      "hasFluffImages": true,
+      "foundryAdvancement": [
+        {
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "necrotic-spellcasting",
+            "type": "dice",
+            "scale": {
+              "2": {
+                "n": 1,
+                "die": 4
+              },
+              "5": {
+                "die": 6
+              },
+              "8": {
+                "die": 8
+              },
+              "11": {
+                "die": 10
+              },
+              "14": {
+                "die": 12
+              }
+            }
+          },
+          "title": "Necrotic Spellcasting"
+        }
+      ]
+    }
+  ],
+  "subclassFluff": [
+    {
+      "name": "Смертельный путь Падшего",
+      "shortName": "Падший",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Helodinn-Necromancer/use-a-table-silly.webp"
+          },
+          "credit": "{@link Anna Krasova|https://www.artstation.com/artwork/rRr5ke}"
+        }
+      ]
+    },
+    {
+      "name": "Смертельный путь Людоеда",
+      "shortName": "Людоед",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Helodinn-Necromancer/hes-behind-you.webp"
+          },
+          "credit": "{@link Helga Sable|https://www.artstation.com/artwork/kK1QA}"
+        }
+      ]
+    },
+    {
+      "name": "Смертельный путь Шептуна",
+      "shortName": "Шептун",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Helodinn-Necromancer/hug.webp"
+          },
+          "credit": "{@link Ryan Lee|https://www.deviantart.com/ryan-alexander-lee/art/Until-I-Say-350311505}"
+        }
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Выкачивание жизни",
+      "source": "Helodinn-Necromancer",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 1,
+      "entries": [
+        "Начиная с 1-го уровня ваше касание может выкачивать жизненную силу других, укрепляя вашу. Когда вы совершаете рукопашную атаку или дальнобойную атаку заклинанием по живому существу и попадаете, вы можете бонусным действием потратить некротическое очко, чтобы нанести урон некротической энергией, равный {@damage 1d6} + ваш модификатор Интеллекта, при попадании. Вы получаете временные хиты, равные нанесённому урону некротической энергией. Если это умение убивает существо, вы получаете вдвое больше временных хитов от использования этого умения. Урон увеличивается на {@damage 1d6} на 5-м уровне ({@damage 2d6}), 11-м ({@damage 3d6}) и 17-м ({@damage 4d6}). Вы можете использовать это умение число раз, равное вашему модификатору Интеллекта (минимум один), и восстанавливаете все его использования в конце продолжительного отдыха."
+      ]
+    },
+    {
+      "name": "Негативная энергия",
+      "source": "Helodinn-Necromancer",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 1,
+      "entries": [
+        "На 1-м уровне вы черпаете из глубокого источника негативной энергии внутри себя. Этот источник представлен некротическими очками, которые позволяют вам использовать способности некроманта.",
+        {
+          "type": "entries",
+          "name": "Некротические очки",
+          "page": 4,
+          "entries": [
+            "У вас 1 некротическое очко на 1-м уровне, и вы получаете по одному за каждый уровень некроманта вплоть до 10-го; после этого уровня вы получаете по 2 некротических очка за уровень. Вы восстанавливаете все потраченные некротические очки, когда завершаете продолжительный отдых."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Некромантские трюки",
+          "page": 4,
+          "entries": [
+            "Вы можете использовать свои некротические очки, чтобы получать дополнительные ячейки заклинаний, или жертвовать ячейки заклинаний, чтобы получать дополнительные некротические очки, а также призывать нежить с помощью своих некромантских очков на более высоких уровнях."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Создание ячеек заклинаний",
+          "page": 4,
+          "entries": [
+            "Вы можете преобразовать неизрасходованные некротические очки и отдать немного жизненной энергии в одну ячейку заклинаний бонусным действием в свой ход. Таблица «Создание ячеек заклинаний» показывает стоимость создания ячейки заклинаний заданного уровня. Вы можете создавать ячейки заклинаний уровнем не выше 5-го. Любая созданная этим умением ячейка исчезает, когда вы завершаете продолжительный отдых.",
+            {
+              "type": "table",
+              "page": 4,
+              "colLabels": [
+                "Уровень ячейки",
+                "Стоимость некротического очка",
+                "Цена жизни"
+              ],
+              "colStyles": [
+                "col-4 text-center",
+                "col-4 text-center",
+                "col-4 text-center"
+              ],
+              "rows": [
+                [
+                  "1-й",
+                  "2",
+                  "{@damage 1d8}"
+                ],
+                [
+                  "2-й",
+                  "3",
+                  "{@damage 2d8}"
+                ],
+                [
+                  "3-й",
+                  "5",
+                  "{@damage 3d8}"
+                ],
+                [
+                  "4-й",
+                  "6",
+                  "{@damage 4d8}"
+                ],
+                [
+                  "5-й",
+                  "7",
+                  "{@damage 5d8}"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Преобразование ячейки заклинаний в некротические очки",
+          "page": 4,
+          "entries": [
+            "Бонусным действием в свой ход вы можете потратить ячейку заклинаний и пожертвовать частью жизненной энергии, чтобы получить количество некротических очков, равное уровню ячейки.",
+            {
+              "type": "table",
+              "page": 4,
+              "colLabels": [
+                "Уровень ячейки",
+                "Преобразованное некротическое очко",
+                "Цена жизни"
+              ],
+              "colStyles": [
+                "col-4 text-center",
+                "col-4 text-center",
+                "col-4 text-center"
+              ],
+              "rows": [
+                [
+                  "1-й",
+                  "1",
+                  "{@damage 1d4}"
+                ],
+                [
+                  "2-й",
+                  "2",
+                  "{@damage 2d4}"
+                ],
+                [
+                  "3-й",
+                  "3",
+                  "{@damage 3d4}"
+                ],
+                [
+                  "4-й",
+                  "4",
+                  "{@damage 4d4}"
+                ],
+                [
+                  "5-й",
+                  "5",
+                  "{@damage 5d4}"
+                ],
+                [
+                  "6-й",
+                  "6",
+                  "{@damage 6d4}"
+                ],
+                [
+                  "7-й",
+                  "7",
+                  "{@damage 7d4}"
+                ],
+                [
+                  "8-й",
+                  "8",
+                  "{@damage 8d4}"
+                ],
+                [
+                  "9-й",
+                  "9",
+                  "{@damage 9d4}"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Сотворение заклинаний",
+      "source": "Helodinn-Necromancer",
+      "page": 2,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 1,
+      "entries": [
+        "Как ученик тайной магии, вы имеете книгу заклинаний, содержащую заклинания, которые являют первые проблески вашей истинной силы. См. {@book Spell Rules section of the {@i Player's Handbook}|PHB|10} для общих правил сотворения заклинаний и список заклинаний для {@filter necromancer spell list|spells|class=necromancer (necro)}.",
+        {
+          "type": "entries",
+          "name": "Заговоры",
+          "page": 2,
+          "entries": [
+            "На 1-м уровне вы изучаете три {@filter cantrips of your choice from the necromancer spell list|spells|level=0|class=necromancer (necro)}. Вы изучаете дополнительные {@filter wizard cantrips|spells|level=0|class=wizard} на ваш выбор на более высоких уровнях, как показано в столбце «Известные заговоры» таблицы некроманта."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Известные заклинания 1-го уровня и выше",
+          "page": 2,
+          "entries": [
+            "Вы знаете два {@filter 1st-level spells of your choice from the necromancer spell list|spells|level=1|class=necromancer (necro)}.",
+            "Столбец «Известные заклинания» таблицы некроманта показывает, когда вы изучаете новые заклинания некроманта на ваш выбор. Каждое из этих заклинаний должно быть уровня, для которого у вас есть ячейки заклинаний. Например, достигнув 3-го уровня в этом классе, вы можете изучить одно новое заклинание 1-го или 2-го уровня.",
+            "Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно из известных вам заклинаний некроманта и заменить его другим заклинанием из списка заклинаний некроманта, которое также должно быть уровня, для которого у вас есть ячейки заклинаний."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Базовая характеристика для заклинаний",
+          "page": 3,
+          "entries": [
+            "Интеллект — ваша способность к заклинаниям для заклинаний некроманта, так как вы изучаете заклинания путём усердной учёбы и заучивания. Вы используете Интеллект всякий раз, когда заклинание ссылается на вашу способность к заклинаниям. Кроме того, вы используете модификатор Интеллекта при определении Сл спасброска от ваших заклинаний некроманта и при совершении броска атаки ими.",
+            {
+              "type": "abilityDc",
+              "name": "Заклинание",
+              "attributes": [
+                "int"
+              ]
+            },
+            {
+              "type": "abilityAttackMod",
+              "name": "Заклинание",
+              "attributes": [
+                "int"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ритуальное сотворение",
+          "page": 3,
+          "entries": [
+            "Вы можете сотворить заклинание некроманта как ритуал, если оно имеет свойство «ритуал» и содержится в вашей книге заклинаний. Вам не нужно держать его подготовленным."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Фокусировка для сотворения",
+          "page": 3,
+          "entries": [
+            "Вы можете использовать {@item arcane focus|PHB} (см. раздел «Снаряжение для приключений») как фокусировку для сотворения ваших заклинаний некроманта."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Смертельный путь",
+      "source": "Helodinn-Necromancer",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Достигнув 2-го уровня, вы выбираете Смертельный путь, определяя свою практику некромантии одним из следующих путей: Путь Падшего, Путь Людоеда и Путь Шептуна.",
+        "Ваш выбор дарует вам умения на 2-м уровне, а также на 6-м, 10-м, 14-м и 18-м уровне."
+      ]
+    },
+    {
+      "name": "Слуга-нежить",
+      "source": "Helodinn-Necromancer",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 3,
+      "entries": [
+        "Начиная с 3-го уровня вы получаете способность призывать нежить-слугу под своё командование: действием вы можете потратить некротические очки и жизненную энергию в соответствии с размером и ПО существа-нежити. Вы можете контролировать только 1 существо-нежить за раз.",
+        "Эта таблица показывает некротические очки, которые вы должны потратить в зависимости от размера существа:",
+        {
+          "type": "table",
+          "caption": "Стоимость слуги-нежити",
+          "page": 4,
+          "colLabels": [
+            "Размер",
+            "Стоимость некротического очка",
+            "Цена жизни"
+          ],
+          "colStyles": [
+            "col-4 text-center",
+            "col-4 text-center",
+            "col-4 text-center"
+          ],
+          "rows": [
+            [
+              "маленький",
+              "1",
+              "{@damage 1d8}"
+            ],
+            [
+              "средний",
+              "2",
+              "{@damage 1d12}"
+            ],
+            [
+              "большой",
+              "3",
+              "{@damage 3d12}"
+            ],
+            [
+              "огромный",
+              "4",
+              "{@damage 5d12}"
+            ]
+          ]
+        },
+        "Эта таблица показывает ПО чудовища, которое вы можете призвать:",
+        {
+          "type": "table",
+          "caption": "ПО слуги-нежити",
+          "page": 4,
+          "colLabels": [
+            "Уровень",
+            "Показатель опасности"
+          ],
+          "colStyles": [
+            "col-6 text-center",
+            "col-6 text-center"
+          ],
+          "rows": [
+            [
+              "3-й",
+              "{@filter 1/4|bestiary|type=undead|challenge rating=[&0;&1/4]}"
+            ],
+            [
+              "6-й",
+              "{@filter 1/2|bestiary|type=undead|challenge rating=[&0;&1/2]}"
+            ],
+            [
+              "9-й",
+              "{@filter 1|bestiary|type=undead|challenge rating=[&0;&1]}"
+            ],
+            [
+              "12-й",
+              "{@filter 2|bestiary|type=undead|challenge rating=[&0;&2]}"
+            ],
+            [
+              "15-й",
+              "{@filter 3|bestiary|type=undead|challenge rating=[&0;&3]}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 4,
+      "entries": [
+        "Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Нечестивое сопротивление",
+      "source": "Helodinn-Necromancer",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 5,
+      "resist": [
+        "necrotic"
+      ],
+      "entries": [
+        "Начиная с 5-го уровня время, потраченное на использование негативной энергии, начинает влиять на вашу душу. Ваш возраст увеличивается лишь на 1 год за каждые прошедшие 10 лет. Вы получаете сопротивление урону некротической энергией, и ваш максимум хитов не может быть уменьшен (например, способностью «Вытягивание жизни» {@creature wight||умертвия}). На 10-м уровне это умение распространяется на любую нежить под вашим контролем."
+      ]
+    },
+    {
+      "name": "Умение Смертельного пути",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 6,
+      "entries": [
+        "На 6-м уровне вы получаете умение от своего Смертельного пути."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 8,
+      "entries": [
+        "Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Умение Смертельного пути",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 10,
+      "entries": [
+        "На 10-м уровне вы получаете умение от своего Смертельного пути."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 12,
+      "entries": [
+        "Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Умение Смертельного пути",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 14,
+      "entries": [
+        "На 14-м уровне вы получаете умение от своего Смертельного пути."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 16,
+      "entries": [
+        "Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Отрицание смерти",
+      "source": "Helodinn-Necromancer",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 17,
+      "entries": [
+        "Начиная с 17-го уровня вы можете решить проигнорировать смерть, если она слишком некстати. Если существо в пределах 10 футов опускается до 0 хитов, вместо этого заставьте его опуститься до 1 хита. Вы должны завершить короткий или продолжительный отдых, прежде чем сможете использовать это умение снова."
+      ]
+    },
+    {
+      "name": "Умение Смертельного пути",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 18,
+      "entries": [
+        "На 18-м уровне вы получаете умение от своего Смертельного пути."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Helodinn-Necromancer",
+      "page": 0,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 19,
+      "entries": [
+        "Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер позволяет использовать черты, вы можете вместо этого взять {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Мрачная жатва",
+      "source": "Helodinn-Necromancer",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 20,
+      "entries": [
+        "Всякий раз, когда существо погибает в пределах 60 футов от вас, вы можете реакцией создать из его тела взрыв некротической энергии радиусом 20 футов. Каждое существо на ваш выбор внутри взрыва должно совершить спасбросок Телосложения, получая {@damage 8d8} урона некротической энергией при провале или половину этого при успехе. Если урон взрыва убивает каких-либо существ, вы можете выбрать одно из них целью в рамках той же реакции, вызывая вторичный взрыв радиусом 20 футов. Каждое существо во вторичном взрыве должно совершить спасбросок Телосложения, получая {@damage 4d8} урона некротической энергией при провале или половину этого при успехе. Подобным образом вы можете создать третичный взрыв, который наносит {@damage 2d8} урона некротической энергией при провале или половину этого при успехе.",
+        "Некротические взрывы действуют на нежить под вашим контролем иначе, чем на других существ. Ваши прислужники-нежить не совершают спасброска и не получают урона от этого умения. Вместо этого они восстанавливают хиты, равные половине всего урона, нанесённого этим умением.",
+        "Это умение можно использовать только один раз, и вы восстанавливаете его использование после завершения продолжительного отдыха."
+      ]
+    }
+  ],
+  "foundryClassFeature": [
+    {
+      "name": "Life Syphon",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 1,
+      "system": {
+        "uses.per": "lr",
+        "uses.max": "@abilities.int.mod",
+        "damage.parts": [
+          [
+            "@scale.necromancer.life-syphon + @abilities.int.mod",
+            "necrotic"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Negative Energy",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 1,
+      "system": {
+        "uses.per": "lr",
+        "uses.max": "@scale.necromancer.necrotic-points"
+      }
+    },
+    {
+      "name": "Death Denial",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "level": 17,
+      "system": {
+        "uses.per": "sr",
+        "uses.max": 1
+      }
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Смертельный путь Падшего",
+      "source": "Helodinn-Necromancer",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Падший",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Поднятие трупов — естественная способность некромантов, однако некоторые из них в итоге сосредотачиваются на этом запретном искусстве, обретая способность призывать более сильных существ и контролировать более 1 существа одновременно (максимум 4 существа).",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Слуга-нежить — вариант Смертельного пути|Necromancer|Helodinn-Necromancer|Падший|Helodinn-Necromancer|2|Helodinn-Necromancer"
+        }
+      ]
+    },
+    {
+      "name": "Слуга-нежить — вариант Смертельного пути",
+      "source": "Helodinn-Necromancer",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Падший",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Обряды вашего пути даруют вам способность призывать более опасных существ-нежить. Начиная с 2-го уровня вы можете призвать нежить-прислужника с показателем опасности вплоть до 1.",
+        "Начиная с 6-го уровня вы можете призывать нежить-прислужника с показателем опасности вплоть до вашего уровня некроманта, разделённого на 3, с округлением вниз.",
+        "Начиная с 10-го уровня вы обретаете способность призывать в свой ход бонусным действием, а не действием. Эта таблица показывает некротические очки и жизненную энергию, которые вы должны потратить в зависимости от размера существа:",
+        {
+          "type": "table",
+          "caption": "Стоимость слуги-нежити",
+          "page": 5,
+          "colLabels": [
+            "Размер",
+            "Стоимость некротического очка",
+            "Цена жизни"
+          ],
+          "colStyles": [
+            "col-4 text-center",
+            "col-4 text-center",
+            "col-4 text-center"
+          ],
+          "rows": [
+            [
+              "маленький",
+              "1",
+              "{@damage 1d8}"
+            ],
+            [
+              "средний",
+              "2",
+              "{@damage 1d12}"
+            ],
+            [
+              "большой",
+              "3",
+              "{@damage 3d12}"
+            ],
+            [
+              "огромный",
+              "4",
+              "{@damage 5d12}"
+            ]
+          ]
+        },
+        "Эта таблица показывает ПО чудовища, которое вы можете призвать, и сколько вы можете контролировать одновременно:",
+        {
+          "type": "table",
+          "caption": "ПО слуги-нежити",
+          "page": 5,
+          "colLabels": [
+            "Уровень",
+            "Показатель опасности",
+            "Нежить под контролем"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-5 text-center",
+            "col-5 text-center"
+          ],
+          "rows": [
+            [
+              "3-й",
+              "{@filter 1|bestiary|type=undead|challenge rating=[&0;&1]}",
+              "1"
+            ],
+            [
+              "6-й",
+              "{@filter 2|bestiary|type=undead|challenge rating=[&0;&2]}",
+              "1"
+            ],
+            [
+              "9-й",
+              "{@filter 3|bestiary|type=undead|challenge rating=[&0;&3]}",
+              "2"
+            ],
+            [
+              "12-й",
+              "{@filter 4|bestiary|type=undead|challenge rating=[&0;&4]}",
+              "2"
+            ],
+            [
+              "15-й",
+              "{@filter 5|bestiary|type=undead|challenge rating=[&0;&5]}",
+              "3"
+            ],
+            [
+              "18-й",
+              "{@filter 6|bestiary|type=undead|challenge rating=[&0;&6]}",
+              "3"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Контроль нежити",
+      "source": "Helodinn-Necromancer",
+      "page": 6,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Падший",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Достигнув 6-го уровня, вы обретаете способность брать под контроль найденную нежить. Действием вы можете потратить некротические очки и жизненную энергию в соответствии с размером и ПО существа-нежити, как указано в таблице «Стоимость контроля нежити» ниже. Существо должно преуспеть в спасброске Интеллекта Сл 15. При провале оно переходит под ваш контроль.",
+        {
+          "type": "table",
+          "caption": "Стоимость контроля нежити",
+          "page": 6,
+          "colLabels": [
+            "Размер",
+            "Стоимость некротического очка",
+            "Цена жизни"
+          ],
+          "colStyles": [
+            "col-4 text-center",
+            "col-4 text-center",
+            "col-4 text-center"
+          ],
+          "rows": [
+            [
+              "маленький",
+              "1",
+              "{@damage 1d8}"
+            ],
+            [
+              "средний",
+              "2",
+              "{@damage 1d12}"
+            ],
+            [
+              "большой",
+              "3",
+              "{@damage 3d12}"
+            ],
+            [
+              "огромный",
+              "4",
+              "{@damage 5d12}"
+            ]
+          ]
+        },
+        "Эта таблица показывает ПО чудовища, которое вы можете призвать:",
+        {
+          "type": "table",
+          "caption": "ПО контролируемой нежити",
+          "page": 5,
+          "colLabels": [
+            "Уровень",
+            "Показатель опасности"
+          ],
+          "colStyles": [
+            "col-6 text-center",
+            "col-6 text-center"
+          ],
+          "rows": [
+            [
+              "6-й",
+              "{@filter 1|bestiary|type=undead|challenge rating=[&0;&1]}"
+            ],
+            [
+              "9-й",
+              "{@filter 2|bestiary|type=undead|challenge rating=[&0;&2]}"
+            ],
+            [
+              "12-й",
+              "{@filter 3|bestiary|type=undead|challenge rating=[&0;&3]}"
+            ],
+            [
+              "15-й",
+              "{@filter 4|bestiary|type=undead|challenge rating=[&0;&4]}"
+            ],
+            [
+              "18-й",
+              "{@filter 5|bestiary|type=undead|challenge rating=[&0;&5]}"
+            ]
+          ]
+        },
+        "На 10-м уровне вы получаете способность брать под контроль нежить в свой ход бонусным действием, а не действием."
+      ]
+    },
+    {
+      "name": "Армия нежити",
+      "source": "Helodinn-Necromancer",
+      "page": 6,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Падший",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Начиная с 10-го уровня вы учитесь управлять более чем одним существом-нежитью одновременно, но они совершают броски атаки с помехой, так как вы делите своё внимание между этими существами.",
+        "На 15-м уровне существа-нежить под вашим контролем могут атаковать нормально, без помехи."
+      ]
+    },
+    {
+      "name": "Владыка нежити",
+      "source": "Helodinn-Necromancer",
+      "page": 6,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Падший",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Начиная с 14-го уровня вы достигли вершины в поднятии нежити. Ваши существа-нежить больше не имеют уязвимости к урону и получают дополнительные хиты, равные вашему уровню некроманта."
+      ]
+    },
+    {
+      "name": "Спонтанное выкапывание",
+      "source": "Helodinn-Necromancer",
+      "page": 6,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Падший",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "Начиная с 18-го уровня негативная энергия, текущая в вас, начинает переполнять вас, и иногда вы самопроизвольно поднимаете {@creature zombie}. Это происходит всякий раз, когда вы тратите 1 или более некротических очков. Вы обладаете абсолютным контролем над {@creature zombie||зомби}, поднятыми таким образом."
+      ]
+    },
+    {
+      "name": "Смертельный путь Людоеда",
+      "source": "Helodinn-Necromancer",
+      "page": 6,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Некроманты, позволяющие негативным силам завладеть своим разумом, неизбежно начинают терять рассудок. В мире они могут функционировать как психопаты, но начинают терять контроль над эмоциями, когда их магическая энергия на исходе. Из их тела вырывается неутолимый голод, требующий сырого, гнилого или даже мёртвого мяса других существ.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Неестественный желудок|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|2|Helodinn-Necromancer"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Неестественный доспех|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|2|Helodinn-Necromancer"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Мнимая молодость|Necromancer|Helodinn-Necromancer|Людоед|Helodinn-Necromancer|2|Helodinn-Necromancer"
+        }
+      ]
+    },
+    {
+      "name": "Мнимая молодость",
+      "source": "Helodinn-Necromancer",
+      "page": 6,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Следуя этому Смертельному пути, вы терпите последствия использования тёмной магии. Если вы не ели сырую, гнилую или мёртвую плоть в последние 24 часа, ваша кожа начнёт слезать. После целых 24 часов без еды ваша кожа станет похожа на кожу зомби. Пока вы в этом состоянии, вы совершаете с помехой все проверки и спасброски Харизмы."
+      ]
+    },
+    {
+      "name": "Неестественный доспех",
+      "source": "Helodinn-Necromancer",
+      "page": 6,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Также на 2-м уровне вы учитесь поглощать энергию из того, что можете съесть с помощью способности Неестественный желудок. Вы можете действием укусить и оторвать кожу и плоть. Когда вы это делаете, цель должна преуспеть в спасброске Телосложения. При провале ваш КД становится таким же, как у цели, на следующие 10 минут."
+      ]
+    },
+    {
+      "name": "Неестественный желудок",
+      "source": "Helodinn-Necromancer",
+      "page": 6,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Начиная с момента выбора этого пути на 2-м уровне, ваша пищеварительная система развилась, чтобы переваривать сырое, мёртвое или гнилое мясо других существ."
+      ]
+    },
+    {
+      "name": "Смертельное восстановление",
+      "source": "Helodinn-Necromancer",
+      "page": 7,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "На 6-м уровне ваша пища становится питательнее, и вы можете поглощать магическую энергию из того, что перевариваете с помощью Неестественного желудка, во время коротких отдыхов. Делая так, вы можете восстановить количество хитов, равное вашему модификатору Интеллекта, и восстановить ячейки заклинаний. Суммарный уровень восстанавливаемых ячеек должен быть меньше или равен вашему модификатору Интеллекта.",
+        {
+          "type": "inset",
+          "name": "Пример восстановления ячеек заклинаний",
+          "entries": [
+            "Если ваш модификатор Интеллекта равен 5, вы можете восстановить 1 заклинание 3-го уровня и 1 заклинание 2-го уровня (3 + 2 = 5) или 3 заклинания 1-го уровня и 1 заклинание 2-го уровня (1 + 1 + 1 + 2 = 5)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Унаследованное обжорство",
+      "source": "Helodinn-Necromancer",
+      "page": 7,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Достигнув 10-го уровня, вы можете действием извергнуть желудочную кислоту на один предмет или существо в пределах 5 футов от вас. Это наносит урон кислотой, равный {@damage 2d6} + ваш модификатор Интеллекта. Как вариант, это можно использовать, чтобы покрыть оружие кислотой, заставляя его наносить дополнительно {@damage 2d6} урона кислотой в течение следующих 10 минут. Это умение можно использовать один раз, и оно восстанавливается после завершения продолжительного отдыха."
+      ]
+    },
+    {
+      "name": "Вкус воспоминаний",
+      "source": "Helodinn-Necromancer",
+      "page": 7,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Воспоминания и чувства связаны с разумом и телом. На 14-м уровне, если вы съедите часть живого существа или предмета, вы можете проследить их воспоминания, чувства, местоположения или другую информацию за последние 24 часа. Поговорите с Мастером, чтобы понять, какую информацию вы можете получить, чтобы сохранить течение игры (или нет)."
+      ]
+    },
+    {
+      "name": "Превосходная мнимая молодость",
+      "source": "Helodinn-Necromancer",
+      "page": 7,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "На 18-м уровне ваше тело стало привычнее к последствиям использования тёмной магии. Теперь вам нужно есть сырую, гнилую или мёртвую плоть лишь раз в неделю, чтобы поддерживать свой обычный облик."
+      ]
+    },
+    {
+      "name": "Смертельный путь Шептуна",
+      "source": "Helodinn-Necromancer",
+      "page": 7,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Энергия негативных планов влияет на некромантов по-разному: одни становятся искусны в поднятии трупов, другие изучают запретное искусство людоедства, а у некоторых некромантов крепкая связь с духами. Эти некроманты могут видеть духовных существ, говорить с ними и взаимодействовать.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Духовные спутники|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|2|Helodinn-Necromancer"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Безумие Шептуна|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|2|Helodinn-Necromancer"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Некротическое сотворение|Necromancer|Helodinn-Necromancer|Шептун|Helodinn-Necromancer|2|Helodinn-Necromancer"
+        }
+      ]
+    },
+    {
+      "name": "Безумие Шептуна",
+      "source": "Helodinn-Necromancer",
+      "page": 7,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Практикующие это искусство некромантии обычно склонны к приступам безумия: каждые 24 часа вы бросаете {@dice d100} и получаете эффект из таблицы {@table indefinite madness}, с той лишь разницей, что эффект меняется каждый день."
+      ]
+    },
+    {
+      "name": "Некротическое сотворение",
+      "source": "Helodinn-Necromancer",
+      "page": 7,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Начиная с 2-го уровня облако смрада сопровождает сотворяемые вами заклинания, разъедая плоть и кости жертвы и отвлекая её. Любые заклинания некромантии, которые вы сотворяете, наносят дополнительно {@damage 1d4} урона некротической энергией. Кроме того, нежить совершает с помехой спасброски против ваших заклинаний.",
+        {
+          "type": "table",
+          "caption": "Дополнительный урон в зависимости от вашего уровня",
+          "page": 7,
+          "colStyles": [
+            "col-6 text-center",
+            "col-6 text-center"
+          ],
+          "colLabels": [
+            "Уровень",
+            "Урон"
+          ],
+          "rows": [
+            [
+              "2-й",
+              "{@damage 1d4}"
+            ],
+            [
+              "5-й",
+              "{@damage 1d6}"
+            ],
+            [
+              "8-й",
+              "{@damage 1d8}"
+            ],
+            [
+              "11-й",
+              "{@damage 1d10}"
+            ],
+            [
+              "14-й",
+              "{@damage 1d12}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Духовные спутники",
+      "source": "Helodinn-Necromancer",
+      "page": 7,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "entries": [
+        "Начиная с 2-го уровня вы можете создать связь с любым духом на материальном плане. Связанный с вами дух будет следовать за вами повсюду. Дух {@condition invisible}, обладает {@sense darkvision} и может перемещаться только в радиусе 100 футов с центром на вас."
+      ]
+    },
+    {
+      "name": "Духовное вселение",
+      "source": "Helodinn-Necromancer",
+      "page": 8,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Достигнув 6-го уровня, вы учитесь манипулировать духом-спутником и вселять его в целевое существо. Действием вы можете потратить некротические очки в соответствии с размером и ПО существа. Существо должно преуспеть в спасброске Мудрости Сл 15; при провале ваш духовный спутник берёт над ним контроль.",
+        "Эта таблица показывает некротические очки, которые вы должны потратить в зависимости от размера существа:",
+        {
+          "type": "table",
+          "page": 8,
+          "colStyles": [
+            "col-4 text-center",
+            "col-8"
+          ],
+          "colLabels": [
+            "Размер",
+            "Стоимость некротического очка"
+          ],
+          "rows": [
+            [
+              "маленький",
+              "1"
+            ],
+            [
+              "средний",
+              "2"
+            ],
+            [
+              "большой",
+              "3"
+            ],
+            [
+              "огромный",
+              "4"
+            ]
+          ]
+        },
+        "Эта таблица показывает ПО существа, которым может управлять ваш дух:",
+        {
+          "type": "table",
+          "caption": "Контроль духовного вселения",
+          "page": 8,
+          "colStyles": [
+            "col-6 text-center",
+            "col-6 text-center"
+          ],
+          "colLabels": [
+            "Размер",
+            "Стоимость некротического очка"
+          ],
+          "rows": [
+            [
+              "6-й",
+              "1"
+            ],
+            [
+              "9-й",
+              "2"
+            ],
+            [
+              "12-й",
+              "3"
+            ],
+            [
+              "15-й",
+              "4"
+            ],
+            [
+              "18-й",
+              "5"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Поступь смерти",
+      "source": "Helodinn-Necromancer",
+      "page": 8,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Начиная с 10-го уровня вы можете частично переходить в царство мёртвых, становясь подобным призраку. Бонусным действием вы принимаете призрачную форму. Пока она действует, у вас скорость полёта 10 футов, вы можете парить, и броски атаки по вам совершаются с помехой. Вы также можете перемещаться сквозь существ и предметы, как если бы это была труднопроходимая местность, но получаете {@damage 1d10} урона силовым полем, если оканчиваете свой ход внутри существа или предмета. Вы остаётесь в этой форме 10 минут или до тех пор, пока не окончите её бонусным действием. Чтобы использовать это умение снова, вы должны завершить короткий или продолжительный отдых или уничтожить одного из своих зомби в рамках бонусного действия, которым активируете «Поступь смерти»."
+      ]
+    },
+    {
+      "name": "Аура смерти",
+      "source": "Helodinn-Necromancer",
+      "page": 8,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Начиная с 14-го уровня вы способны проецировать устрашающую ауру, подобную самой смерти.",
+        "Действием вы можете создать вокруг себя устрашающую ауру. Существа в радиусе 30 футов должны преуспеть в спасброске Мудрости против Сл спасброска ваших заклинаний некроманта, иначе станут {@condition frightened} на 1 минуту. {@condition frightened} цель может повторять спасбросок в конце каждого своего хода. При успехе цель не испытывает эффектов и получает иммунитет к этому умению на следующие 24 часа."
+      ]
+    },
+    {
+      "name": "Вселение Мстительного духа",
+      "source": "Helodinn-Necromancer",
+      "page": 8,
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "Достигнув 18-го уровня, ваша связь с духами стала крепче: теперь вами может овладеть {@creature Мстительный дух|Helodinn-Necromancer}, чтобы помогать в битвах. Во время вселения вы можете совершать только действия духа, и если ваши хиты опускаются до 0, вы падаете {@condition unconscious} на 3 хода. Вы можете использовать это умение один раз, пока не завершите продолжительный отдых."
+      ]
+    }
+  ],
+  "foundrySubclassFeature": [
+    {
+      "name": "Deadly Recovery",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 6,
+      "system": {
+        "damage.parts": [
+          [
+            "@abilities.int.mod",
+            "healing"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Throwback Gluttony",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Людоед",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 10,
+      "system": {
+        "damage.parts": [
+          [
+            "2d6 + @abilities.int.mod",
+            "acid"
+          ]
+        ],
+        "uses.per": "lr",
+        "uses.max": 1
+      }
+    },
+    {
+      "name": "Necrotic Spellcasting",
+      "source": "Helodinn-Necromancer",
+      "className": "Necromancer",
+      "classSource": "Helodinn-Necromancer",
+      "subclassShortName": "Шептун",
+      "subclassSource": "Helodinn-Necromancer",
+      "level": 2,
+      "system": {
+        "damage.parts": [
+          [
+            "@scale.deadly-path-of-the-whisperer.necrotic-spellcasting",
+            "necrotic"
+          ]
+        ]
+      }
+    }
+  ],
+  "spell": [
+    {
+      "name": "Баллада мёртвых",
+      "source": "Helodinn-Necromancer",
+      "page": 9,
+      "level": 5,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "m": "a tiny vial of blood, bone dust"
+      },
+      "duration": [
+        {
+          "type": "permanent",
+          "ends": [
+            "dispel"
+          ]
+        }
+      ],
+      "entries": [
+        "Пропевая эту песню, он доводит частоту своего голоса до негативного плана, заставляя гнилые руки подниматься из земли, а духов — появляться под похоронную мелодию. Каждое существо в сфере радиусом 20 футов с центром в этой точке должно совершить спасбросок Ловкости. Цель получает {@damage 4d8} урона некротической энергией и {@damage 4d8} психического урона при провале или половину этого урона при успехе.",
+        "Существа должны преуспеть в проверке Мудрости Сл 15, иначе они становятся {@condition frightened} и не могут атаковать вас, пока этот эффект не закончится."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Когда вы сотворяете это заклинание, используя ячейку заклинаний 6-го уровня или выше, урон увеличивается на {@dice 1d8} за каждый уровень ячейки выше 5-го для каждого типа урона."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Бард",
+            "source": "PHB"
+          },
+          {
+            "name": "Некромант",
+            "source": "Helodinn-Necromancer"
+          }
+        ]
+      },
+      "damageInflict": [
+        "necrotic",
+        "psychic"
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Проклятие Тариздуна",
+      "source": "Helodinn-Necromancer",
+      "page": 8,
+      "level": 4,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 100
+        }
+      },
+      "components": {
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "Вы начинаете выпевать древние слова на {@language abyssal|PHB}, и внезапно на поле боя начинают происходить малые взрывы, зажигая пламя бездны в целевых существах. Выберите до 4 существ в пределах дистанции — они должны совершить спасбросок Ловкости. Цель получает {@damage 2d8} урона некротической энергией и {@damage 2d8} урона огнём при провале или половину этого урона при успехе. Затронутые существа получают {@dice 1d8} урона огнём и {@dice 1d8} урона некротической энергией в конце каждого хода, пока заклинание не закончится, и если цель не получает никакого урона, этот эффект ничего не делает. Пламя нельзя потушить или устранить магией."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Когда вы сотворяете это заклинание, используя ячейку заклинаний 5-го уровня или выше, урон увеличивается на {@dice 1d8} за каждый уровень ячейки выше 4-го для каждого типа урона."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Чародей",
+            "source": "PHB"
+          },
+          {
+            "name": "Колдун",
+            "source": "PHB"
+          },
+          {
+            "name": "Волшебник",
+            "source": "PHB"
+          },
+          {
+            "name": "Некромант",
+            "source": "Helodinn-Necromancer"
+          }
+        ]
+      },
+      "damageInflict": [
+        "fire",
+        "necrotic"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Некротический клинок",
+      "source": "Helodinn-Necromancer",
+      "page": 8,
+      "level": 0,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true,
+        "m": "A weapon"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "В рамках действия, используемого для сотворения этого заклинания, вы должны совершить рукопашную атаку оружием по одному существу в пределах дистанции заклинания, иначе заклинание проваливается. При попадании цель терпит обычные эффекты атаки и покрывается некротической энергией до начала вашего следующего хода. Если цель добровольно переместится до этого, она немедленно получает {@damage 1d8} урона некротической энергией, и заклинание заканчивается.",
+        "Урон этого заклинания увеличивается на более высоких уровнях. На 5-м уровне рукопашная атака наносит цели дополнительно {@damage 1d8} урона некротической энергией, и урон, получаемый целью за перемещение, увеличивается до {@dice 2d8}. Оба броска урона увеличиваются на {@dice 1d8} на 11-м и 17-м уровне."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Чародей",
+            "source": "PHB"
+          },
+          {
+            "name": "Волшебник",
+            "source": "PHB"
+          },
+          {
+            "name": "Некромант",
+            "source": "Helodinn-Necromancer"
+          }
+        ]
+      },
+      "damageInflict": [
+        "necrotic"
+      ],
+      "miscTags": [
+        "AAD",
+        "SCL"
+      ]
+    },
+    {
+      "name": "Стена плоти",
+      "source": "Helodinn-Necromancer",
+      "page": 9,
+      "level": 6,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "m": "a small piece of flayed flesh from a humanoid"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Вы создаёте мерзкую стену из плоти, глаз и ртов, излучающую токсичную ауру. Стена появляется на твёрдой поверхности в пределах дистанции. Стена может быть до 60 футов длиной, 10 футов высотой и 5 футов толщиной. Стена блокирует линию обзора, существа не могут пройти сквозь неё, её нельзя разрушить немагическими средствами, и она держится, пока длится заклинание. Когда стена появляется, каждое существо в пределах 10 футов от неё должно преуспеть в спасброске Телосложения, иначе станет {@condition poisoned} до конца своего следующего хода и получит {@damage 3d12} урона кислотой, так как рты и раны источают зловредный яд и извергают кислотные телесные жидкости. При успешном спасброске цель не {@condition poisoned} и получает половину этого урона. Стена наносит {@damage 3d12} урона кислотой любому существу, оканчивающему свой ход в пределах 10 футов от неё. Это существо также должно преуспеть в спасброске Телосложения, иначе станет {@condition poisoned} до конца своего следующего хода. Сотворяя заклинание, вы можете выбрать количество существ, равное вашему модификатору способности к заклинаниям, которые будут обладать иммунитетом к его эффектам."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях:",
+          "entries": [
+            "Когда вы сотворяете это заклинание, используя ячейку заклинаний 7-го уровня или выше, урон увеличивается на {@dice 1d12} за каждый уровень ячейки выше 6-го."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Жрец",
+            "source": "PHB"
+          },
+          {
+            "name": "Колдун",
+            "source": "PHB"
+          },
+          {
+            "name": "Волшебник",
+            "source": "PHB"
+          },
+          {
+            "name": "Некромант",
+            "source": "Helodinn-Necromancer"
+          }
+        ]
+      },
+      "damageInflict": [
+        "acid"
+      ],
+      "conditionInflict": [
+        "poisoned"
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "fluff": {
+        "entries": [
+          "{@note {@i Стена плоти} от {@b u/WhiteShadowTaiChi}}"
+        ]
+      }
+    }
+  ],
+  "monster": [
+    {
+      "name": "Мстительный дух",
+      "source": "Helodinn-Necromancer",
+      "page": 9,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        18
+      ],
+      "hp": {
+        "average": 169,
+        "formula": "18d10 + 40"
+      },
+      "speed": {
+        "walk": 45
+      },
+      "str": 20,
+      "dex": 20,
+      "con": 18,
+      "int": 14,
+      "wis": 16,
+      "cha": 16,
+      "skill": {
+        "athletics": "+9",
+        "perception": "+8",
+        "intimidation": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 18,
+      "resist": [
+        "cold",
+        "necrotic"
+      ],
+      "immune": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion"
+      ],
+      "languages": [
+        "Бездонный",
+        "Инфернальный",
+        "Общий"
+      ],
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Способность духа к заклинаниям — Харизма (Сл спасброска {@dc 15}, {@hit 7} для попадания атаками заклинаниями). Дух может интуитивно сотворять следующие заклинания, не требующие материальных компонентов:"
+          ],
+          "will": [
+            "{@spell Fire bolt}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell Scorching Ray}",
+              "{@spell Fire Shield}"
+            ],
+            "2e": [
+              "{@spell Fireball}",
+              "{@spell Wall of Fire}"
+            ],
+            "1e": [
+              "{@spell Баллада мёртвых|Helodinn-Necromancer}",
+              "{@spell Проклятие Тариздуна|Helodinn-Necromancer}",
+              "{@spell Phantasmal Killer}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Воплощение огня",
+          "entries": [
+            "Тело Мстительного духа объято буйным адским огнём. Пока этот огонь бушует, все атаки, совершаемые этим существом, наносят дополнительно {@dice 2d6} урона огнём. Этот адский огонь обходит сопротивления, которые существо может иметь к немагическому урону или урону огнём."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Мстительный дух совершает три рукопашные атаки: две когтями или адской косой и одну другим оружием. Он может сотворить {@spell fire bolt} вместо любой рукопашной атаки."
+          ]
+        },
+        {
+          "name": "Коготь",
+          "entries": [
+            "{@atk mw} +8 к попаданию, досягаемость 5 фт., одна цель. Попадание 11 ({@dice 2d6 + 5}) плюс 7 ({@damage 2d6}) урона огнём."
+          ]
+        },
+        {
+          "name": "Адская коса",
+          "entries": [
+            "{@atk mw} +8 к попаданию, досягаемость 10 фт., одна цель. Попадание 9 ({@dice 2d4 + 5}) + 7 ({@damage 2d6}) урона огнём."
+          ]
+        },
+        {
+          "name": "Адское дыхание {@recharge 5}",
+          "entries": [
+            "Мстительный дух выдыхает огонь конусом на 15 футов. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 16}, получая 42 ({@damage 8d8}) урона огнём при провале или половину этого урона при успехе. Этот адский огонь обходит сопротивления, которые существо может иметь к немагическому урону или урону огнём."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "I"
+      ],
+      "damageTags": [
+        "F"
+      ],
+      "damageTagsSpell": [
+        "C",
+        "F",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "frightened"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
+      ]
+    }
+  ]
 }

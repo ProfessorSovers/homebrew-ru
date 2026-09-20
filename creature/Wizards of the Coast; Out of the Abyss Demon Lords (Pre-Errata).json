@@ -1,401 +1,401 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "OotADemonLords",
-				"abbreviation": "OotA*",
-				"full": "Out of the Abyss (Pre-Errata)",
-				"url": "https://www.dndbeyond.com/sources/dnd/oota/appendix-d-demon-lords",
-				"version": "Current as of 2025/10/28",
-				"authors": [
-					"Wizards of the Coast"
-				],
-				"convertedBy": [
-					"Giddy"
-				],
-				"color": "808080"
-			}
-		],
-		"dependencies": {
-			"monster": [
-				"MTF"
-			],
-			"monsterFluff": [
-				"MTF"
-			]
-		},
-		"edition": "classic",
-		"status": "ready",
-		"dateAdded": 1761858474,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "9cd5b4ec4a"
-	},
-	"monster": [
-		{
-			"name": "Бафомет",
-			"source": "OotADemonLords",
-			"reprintedAs": [
-				"Baphomet|MTF"
-			],
-			"_copy": {
-				"name": "Baphomet",
-				"source": "MTF",
-				"_mod": {
-					"trait": {
-						"mode": "replaceArr",
-						"replace": "Charge",
-						"items": {
-							"name": "Charge",
-							"entries": [
-								"Если Бафомет перемещается не менее чем на 10 футов по прямой к цели и затем попадает по ней атакой бодания в тот же ход, цель получает дополнительно 22 ({@damage 4d10}) колющего урона. Если цель — существо, она должна преуспеть в спасброске Силы против СЛ {@dc 25}, иначе её отталкивают на расстояние до 10 футов и сбивают с ног {@condition prone}."
-							]
-						}
-					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Heartcleaver",
-							"items": {
-								"name": "Heartcleaver",
-								"entries": [
-									"{@atk mw} {@hit 17} к попаданию, досягаемость 15 футов, одна цель. {@h}24 ({@damage 4d6 + 10}) рубящего урона."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Gore",
-							"items": {
-								"name": "Gore",
-								"entries": [
-									"{@atk mw} {@hit 17} к попаданию, досягаемость 10 футов, одна цель. {@h}21 {@damage 2d10 + 10}) колющего урона."
-								]
-							}
-						}
-					]
-				},
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"hp": {
-				"average": 333,
-				"formula": "23d12 + 184"
-			},
-			"token": {
-				"name": "Бафомет",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Демогоргон",
-			"source": "OotADemonLords",
-			"reprintedAs": [
-				"Demogorgon|MTF"
-			],
-			"_copy": {
-				"name": "Demogorgon",
-				"source": "MTF",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Tentacle",
-							"items": {
-								"name": "Tentacle",
-								"entries": [
-									"{@atk mw} {@hit 17} к попаданию, досягаемость 10 футов, одна цель. {@h}35 ({@damage 4d12 + 9}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Телосложения против СЛ {@dc 23}, иначе её максимум хитов уменьшается на величину полученного урона. Это уменьшение длится до тех пор, пока цель не завершит продолжительный отдых. Цель умирает, если её максимум хитов уменьшается до 0."
-								]
-							}
-						}
-					],
-					"legendary": {
-						"mode": "replaceArr",
-						"replace": "Tail",
-						"items": {
-							"name": "Tail",
-							"entries": [
-								"{@atk mw} {@hit 17} к попаданию, досягаемость 15 футов, одна цель. {@h}31 ({@damage 4d10 + 9}) дробящего урона плюс 22 ({@damage 4d10}) некротического урона."
-							]
-						}
-					}
-				},
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"hp": {
-				"average": 496,
-				"formula": "34d12 + 272"
-			},
-			"token": {
-				"name": "Демогоргон",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Фраз-Урб'луу",
-			"source": "OotADemonLords",
-			"reprintedAs": [
-				"Fraz-Urb'luu|MTF"
-			],
-			"_copy": {
-				"name": "Fraz-Urb'luu",
-				"source": "MTF",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Bite",
-							"items": {
-								"name": "Bite",
-								"entries": [
-									"{@atk mw} {@hit 16} к попаданию, досягаемость 10 футов, одна цель. {@h}23 ({@damage 4d6 + 9}) колющего урона."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Fist",
-							"items": {
-								"name": "Fist",
-								"entries": [
-									"{@atk mw} {@hit 16} к попаданию, досягаемость 10 футов, одна цель. {@h}27 ({@damage 4d8 + 9}) дробящего урона."
-								]
-							}
-						}
-					],
-					"legendary": {
-						"mode": "replaceArr",
-						"replace": "Tail",
-						"items": {
-							"name": "Tail",
-							"entries": [
-								"{@atk mw} {@hit 16} к попаданию, досягаемость 15 футов, одна цель. {@h}31 ({@damage 4d10 + 9}) дробящего урона. Если цель — существо Большого размера или меньше, оно также {@condition grappled} (высвобождение {@dc 24}). Цель, находящаяся в состоянии {@condition grappled}, также {@condition restrained}. Фраз-Урб'луу может удерживать своим хвостом только одно существо за раз."
-							]
-						}
-					}
-				},
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"hp": {
-				"average": 350,
-				"formula": "28d10 + 196"
-			},
-			"save": {
-				"dex": "+8",
-				"con": "+15",
-				"int": "+15",
-				"wis": "+14"
-			},
-			"token": {
-				"name": "Фраз-Урб'луу",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Граззт",
-			"source": "OotADemonLords",
-			"reprintedAs": [
-				"Graz'zt|MTF"
-			],
-			"_copy": {
-				"name": "Graz'zt",
-				"source": "MTF",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Wave of Sorrow (Greatsword)",
-							"items": {
-								"name": "Wave of Sorrow (Greatsword)",
-								"entries": [
-									"{@atk mw} {@hit 13} к попаданию, досягаемость 10 футов, одна цель. {@h}20 ({@damage 4d6 + 6}) рубящего урона плюс 14 ({@damage 4d6}) кислотного урона."
-								]
-							}
-						}
-					]
-				},
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"hp": {
-				"average": 378,
-				"formula": "36d10 + 180"
-			},
-			"token": {
-				"name": "Граззт",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Оркус",
-			"source": "OotADemonLords",
-			"reprintedAs": [
-				"Orcus|MTF"
-			],
-			"_copy": {
-				"name": "Orcus",
-				"source": "MTF",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Tail",
-							"items": {
-								"name": "Tail",
-								"entries": [
-									"{@atk mw} {@hit 17} к попаданию, досягаемость 10 футов, одна цель. {@h}21 ({@damage 3d8 + 8}) колющего урона плюс 18 ({@damage 4d8}) ядовитого урона."
-								]
-							}
-						}
-					]
-				},
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"token": {
-				"name": "Оркус",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Йеногу",
-			"source": "OotADemonLords",
-			"reprintedAs": [
-				"Yeenoghu|MTF"
-			],
-			"_copy": {
-				"name": "Yeenoghu",
-				"source": "MTF",
-				"_mod": {
-					"_": {
-						"mode": "addSpells",
-						"will": [
-							"{@spell spiritual weapon} (8th-level spell, {@damage 4d8 + 2} force damage on a hit, appears as a flail)"
-						]
-					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Flail",
-							"items": {
-								"name": "Flail",
-								"entries": [
-									"{@atk mw} {@hit 16} к попаданию, досягаемость 15 футов, одна цель. {@h}22 ({@damage 2d12 + 9}) дробящего урона."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Bite",
-							"items": {
-								"name": "Bite",
-								"entries": [
-									"{@atk mw} {@hit 16} к попаданию, досягаемость 10 футов, одна цель. {@h}31 ({@damage 4d10 + 9}) колющего урона."
-								]
-							}
-						}
-					]
-				},
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"ac": [
-				{
-					"ac": 22,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 348,
-				"formula": "24d12 + 192"
-			},
-			"token": {
-				"name": "Йеногу",
-				"source": "MTF"
-			}
-		}
-	],
-	"monsterFluff": [
-		{
-			"name": "Бафомет",
-			"source": "OotADemonLords",
-			"_copy": {
-				"name": "Baphomet",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Демогоргон",
-			"source": "OotADemonLords",
-			"_copy": {
-				"name": "Demogorgon",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Фраз-Урб'луу",
-			"source": "OotADemonLords",
-			"_copy": {
-				"name": "Fraz-Urb'luu",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Граззт",
-			"source": "OotADemonLords",
-			"_copy": {
-				"name": "Graz'zt",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Оркус",
-			"source": "OotADemonLords",
-			"_copy": {
-				"name": "Orcus",
-				"source": "MTF"
-			}
-		},
-		{
-			"name": "Йеногу",
-			"source": "OotADemonLords",
-			"_copy": {
-				"name": "Yeenoghu",
-				"source": "MTF"
-			}
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "OotADemonLords",
+        "abbreviation": "OotA*",
+        "full": "Out of the Abyss (Pre-Errata)",
+        "url": "https://www.dndbeyond.com/sources/dnd/oota/appendix-d-demon-lords",
+        "version": "Current as of 2025/10/28",
+        "authors": [
+          "Wizards of the Coast"
+        ],
+        "convertedBy": [
+          "Giddy"
+        ],
+        "color": "808080"
+      }
+    ],
+    "dependencies": {
+      "monster": [
+        "MTF"
+      ],
+      "monsterFluff": [
+        "MTF"
+      ]
+    },
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1761858474,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "9cd5b4ec4a"
+  },
+  "monster": [
+    {
+      "name": "Бафомет",
+      "source": "OotADemonLords",
+      "reprintedAs": [
+        "Baphomet|MTF"
+      ],
+      "_copy": {
+        "name": "Бафомет",
+        "source": "MTF",
+        "_mod": {
+          "trait": {
+            "mode": "replaceArr",
+            "replace": "Charge",
+            "items": {
+              "name": "Таран",
+              "entries": [
+                "Если Бафомет перемещается не менее чем на 10 футов по прямой к цели и затем попадает по ней атакой бодания в тот же ход, цель получает дополнительно 22 ({@damage 4d10}) колющего урона. Если цель — существо, она должна преуспеть в спасброске Силы против СЛ {@dc 25}, иначе её отталкивают на расстояние до 10 футов и сбивают с ног {@condition prone}."
+              ]
+            }
+          },
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Heartcleaver",
+              "items": {
+                "name": "Раскалыватель Сердец",
+                "entries": [
+                  "{@atk mw} {@hit 17} к попаданию, досягаемость 15 футов, одна цель. {@h}24 ({@damage 4d6 + 10}) рубящего урона."
+                ]
+              }
+            },
+            {
+              "mode": "replaceArr",
+              "replace": "Gore",
+              "items": {
+                "name": "Бодание",
+                "entries": [
+                  "{@atk mw} {@hit 17} к попаданию, досягаемость 10 футов, одна цель. {@h}21 {@damage 2d10 + 10}) колющего урона."
+                ]
+              }
+            }
+          ]
+        },
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "hp": {
+        "average": 333,
+        "formula": "23d12 + 184"
+      },
+      "token": {
+        "name": "Бафомет",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Демогоргон",
+      "source": "OotADemonLords",
+      "reprintedAs": [
+        "Demogorgon|MTF"
+      ],
+      "_copy": {
+        "name": "Демогоргон",
+        "source": "MTF",
+        "_mod": {
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Tentacle",
+              "items": {
+                "name": "Щупальце",
+                "entries": [
+                  "{@atk mw} {@hit 17} к попаданию, досягаемость 10 футов, одна цель. {@h}35 ({@damage 4d12 + 9}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Телосложения против СЛ {@dc 23}, иначе её максимум хитов уменьшается на величину полученного урона. Это уменьшение длится до тех пор, пока цель не завершит продолжительный отдых. Цель умирает, если её максимум хитов уменьшается до 0."
+                ]
+              }
+            }
+          ],
+          "legendary": {
+            "mode": "replaceArr",
+            "replace": "Tail",
+            "items": {
+              "name": "Хвост",
+              "entries": [
+                "{@atk mw} {@hit 17} к попаданию, досягаемость 15 футов, одна цель. {@h}31 ({@damage 4d10 + 9}) дробящего урона плюс 22 ({@damage 4d10}) некротического урона."
+              ]
+            }
+          }
+        },
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "hp": {
+        "average": 496,
+        "formula": "34d12 + 272"
+      },
+      "token": {
+        "name": "Демогоргон",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Фраз-Урб'луу",
+      "source": "OotADemonLords",
+      "reprintedAs": [
+        "Fraz-Urb'luu|MTF"
+      ],
+      "_copy": {
+        "name": "Фраз-Урб'луу",
+        "source": "MTF",
+        "_mod": {
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Bite",
+              "items": {
+                "name": "Укус",
+                "entries": [
+                  "{@atk mw} {@hit 16} к попаданию, досягаемость 10 футов, одна цель. {@h}23 ({@damage 4d6 + 9}) колющего урона."
+                ]
+              }
+            },
+            {
+              "mode": "replaceArr",
+              "replace": "Fist",
+              "items": {
+                "name": "Кулак",
+                "entries": [
+                  "{@atk mw} {@hit 16} к попаданию, досягаемость 10 футов, одна цель. {@h}27 ({@damage 4d8 + 9}) дробящего урона."
+                ]
+              }
+            }
+          ],
+          "legendary": {
+            "mode": "replaceArr",
+            "replace": "Tail",
+            "items": {
+              "name": "Хвост",
+              "entries": [
+                "{@atk mw} {@hit 16} к попаданию, досягаемость 15 футов, одна цель. {@h}31 ({@damage 4d10 + 9}) дробящего урона. Если цель — существо Большого размера или меньше, оно также {@condition grappled} (высвобождение {@dc 24}). Цель, находящаяся в состоянии {@condition grappled}, также {@condition restrained}. Фраз-Урб'луу может удерживать своим хвостом только одно существо за раз."
+              ]
+            }
+          }
+        },
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "hp": {
+        "average": 350,
+        "formula": "28d10 + 196"
+      },
+      "save": {
+        "dex": "+8",
+        "con": "+15",
+        "int": "+15",
+        "wis": "+14"
+      },
+      "token": {
+        "name": "Фраз-Урб'луу",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Граззт",
+      "source": "OotADemonLords",
+      "reprintedAs": [
+        "Graz'zt|MTF"
+      ],
+      "_copy": {
+        "name": "Граз'зт",
+        "source": "MTF",
+        "_mod": {
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Wave of Sorrow (Greatsword)",
+              "items": {
+                "name": "Волна Скорби (Двуручный меч)",
+                "entries": [
+                  "{@atk mw} {@hit 13} к попаданию, досягаемость 10 футов, одна цель. {@h}20 ({@damage 4d6 + 6}) рубящего урона плюс 14 ({@damage 4d6}) кислотного урона."
+                ]
+              }
+            }
+          ]
+        },
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "hp": {
+        "average": 378,
+        "formula": "36d10 + 180"
+      },
+      "token": {
+        "name": "Граззт",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Оркус",
+      "source": "OotADemonLords",
+      "reprintedAs": [
+        "Orcus|MTF"
+      ],
+      "_copy": {
+        "name": "Оркус",
+        "source": "MTF",
+        "_mod": {
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Tail",
+              "items": {
+                "name": "Хвост",
+                "entries": [
+                  "{@atk mw} {@hit 17} к попаданию, досягаемость 10 футов, одна цель. {@h}21 ({@damage 3d8 + 8}) колющего урона плюс 18 ({@damage 4d8}) ядовитого урона."
+                ]
+              }
+            }
+          ]
+        },
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "token": {
+        "name": "Оркус",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Йеногу",
+      "source": "OotADemonLords",
+      "reprintedAs": [
+        "Yeenoghu|MTF"
+      ],
+      "_copy": {
+        "name": "Йеногу",
+        "source": "MTF",
+        "_mod": {
+          "_": {
+            "mode": "addSpells",
+            "will": [
+              "{@spell spiritual weapon} (8th-level spell, {@damage 4d8 + 2} force damage on a hit, appears as a flail)"
+            ]
+          },
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Flail",
+              "items": {
+                "name": "Цеп",
+                "entries": [
+                  "{@atk mw} {@hit 16} к попаданию, досягаемость 15 футов, одна цель. {@h}22 ({@damage 2d12 + 9}) дробящего урона."
+                ]
+              }
+            },
+            {
+              "mode": "replaceArr",
+              "replace": "Bite",
+              "items": {
+                "name": "Укус",
+                "entries": [
+                  "{@atk mw} {@hit 16} к попаданию, досягаемость 10 футов, одна цель. {@h}31 ({@damage 4d10 + 9}) колющего урона."
+                ]
+              }
+            }
+          ]
+        },
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "ac": [
+        {
+          "ac": 22,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 348,
+        "formula": "24d12 + 192"
+      },
+      "token": {
+        "name": "Йеногу",
+        "source": "MTF"
+      }
+    }
+  ],
+  "monsterFluff": [
+    {
+      "name": "Бафомет",
+      "source": "OotADemonLords",
+      "_copy": {
+        "name": "Бафомет",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Демогоргон",
+      "source": "OotADemonLords",
+      "_copy": {
+        "name": "Демогоргон",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Фраз-Урб'луу",
+      "source": "OotADemonLords",
+      "_copy": {
+        "name": "Фраз-Урб'луу",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Граззт",
+      "source": "OotADemonLords",
+      "_copy": {
+        "name": "Граз'зт",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Оркус",
+      "source": "OotADemonLords",
+      "_copy": {
+        "name": "Оркус",
+        "source": "MTF"
+      }
+    },
+    {
+      "name": "Йеногу",
+      "source": "OotADemonLords",
+      "_copy": {
+        "name": "Йеногу",
+        "source": "MTF"
+      }
+    }
+  ]
 }

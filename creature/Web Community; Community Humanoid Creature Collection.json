@@ -1,3465 +1,3465 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-	"_meta": {
-		"sources": [
-			{
-				"json": "COMHumanoid",
-				"abbreviation": "COMHumanoid",
-				"full": "Community Humanoid Collection",
-				"url": "https://github.com/TheGiddyLimit/homebrew",
-				"version": "2022.04.27",
-				"authors": [
-					"A collection derived from the web community (Reddit,Pinterest,DmsGuild,ecc.). For credits, authors are provided with a web link in the entity description"
-				],
-				"convertedBy": [
-					"p4535992"
-				],
-				"targetSchema": "1.7.0"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1608058117,
-		"dateLastModified": 1775645737,
-		"_dateLastModifiedHash": "7874e3c72d"
-	},
-	"monster": [
-		{
-			"name": "Варвар",
-			"shortName": "Варвар",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"NX",
-				"C",
-				"G",
-				"NY",
-				"E"
-			],
-			"ac": [
-				12
-			],
-			"hp": {
-				"formula": "4d8 + 8",
-				"average": 26
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 10,
-			"con": 14,
-			"int": 8,
-			"wis": 10,
-			"cha": 8,
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/4",
-			"trait": [
-				{
-					"name": "Искусство секиры",
-					"entries": [
-						"Варвар получает бонус +1 к броскам атаки секирами и молотами (уже включён в атаку). Когда варвар имеет преимущество на бросок рукопашной атаки секирой или молотом и попадает, он может сбить цель {@condition prone}, если меньший из бросков {@dice d20} тоже попал бы. Когда варвар имеет помеху на бросок рукопашной атаки секирой или молотом, цель получает 2 дробящего урона, если варвар промахивается, но больший бросок {@dice d20} попал бы. Когда варвар совершает действие «Помощь», чтобы помочь рукопашной атаке союзника, помимо получения союзником преимущества на бросок, союзник также получает бонус +2 к броску атаки, если цель использует щит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Секира (одной рукой)",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
-					]
-				},
-				{
-					"name": "Секира (двумя руками)",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/vkKyyl5.png",
-			"attachedItems": [
-				"battleaxe|phb"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Barbarian (dandwiki)|https://www.dandwiki.com/wiki/Barbarian_(5e_Creature)}",
-					"{@b Заметка дизайнера:} Если вы используете {@link damage Reduction (5e Variant Rule)|https://www.dandwiki.com/wiki/Damage_Reduction_(5e_Variant_Rule)}, у варвара вместо этого КД 11 и значение снижения урона 1.",
-					"Известные также как разбойники, варвары — это люди, полагающиеся в бою на чистую силу и дикость. Варвары обычно селятся в горных областях, которые организованным армиям трудно захватить. Варвары часто составляют разбойничьи группы, но нередко нанимаются к другим за деньги."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/vkKyyl5.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Жонглёр клинками",
-			"shortName": "Жонглёр клинками",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item common clothes|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "18d8",
-				"average": 81
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 18,
-			"con": 11,
-			"int": 11,
-			"wis": 12,
-			"cha": 14,
-			"skill": {
-				"sleight of hand": "+6"
-			},
-			"passive": 11,
-			"languages": [
-				"Общий"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Вихрь клинков",
-					"entries": [
-						"Пока по жонглёру клинками не попали или пока он не атаковал, все входящие атаки по нему совершаются с помехой. Жонглёр клинками может действием вновь получить это преимущество."
-					]
-				},
-				{
-					"name": "Зрелище: возврат клинков",
-					"entries": [
-						"Если в этот ход жонглёр клинками нанёс урон существу, он может использовать это бонусным действием. Жонглёр клинками может переместиться до 10 фт. и вернуть любое количество кинжалов, которые больше не находятся у него."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Жонглёр клинками атакует один раз за каждый кинжал, который у него есть."
-					]
-				},
-				{
-					"name": "Кинжал",
-					"entries": [
-						"{@atk mw,rw} {@hit 6} к попаданию, досягаемость 5 фт. или дистанция 15/30 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона в рукопашной, или 6 ({@damage 1d4 + 4}) колющего урона на расстоянии."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/LYrMweC.png",
-			"attachedItems": [
-				"dagger|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Blade Juggler|https://ravnicacardsconverted.tumblr.com/post/612221643017830400/join-the-ravnica-cards-converted-discord-and-come}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/XYRC47m.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Телохранитель",
-			"shortName": "Телохранитель",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"L",
-				"G",
-				"NY",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item studded leather armor|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "15d8 + 30",
-				"average": 97
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 12,
-			"con": 15,
-			"int": 10,
-			"wis": 12,
-			"cha": 13,
-			"save": {
-				"con": "+4"
-			},
-			"skill": {
-				"perception": "+4",
-				"athletics": "+4"
-			},
-			"passive": 14,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "5",
-			"trait": [
-				{
-					"name": "Часовой",
-					"entries": [
-						"Существа вызывают атаки по возможности, покидая зону досягаемости телохранителя, даже если они совершили Отход. Когда телохранитель попадает по существу атакой по возможности, скорость этого существа становится равной 0 до конца хода."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Телохранитель совершает три атаки длинным мечом."
-					]
-				},
-				{
-					"name": "Длинный меч",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона, или 8 ({@damage 1d10 + 3}) рубящего урона при использовании двумя руками."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Контратака",
-					"entries": [
-						"Когда существо в пределах 5 фт. от телохранителя атакует существо, отличное от телохранителя, телохранитель может совершить атаку по этому существу."
-					]
-				},
-				{
-					"name": "Парирование",
-					"entries": [
-						"В ответ на попадание рукопашной атакой телохранитель может добавить 3 КД к своему классу доспеха. Для этого он должен держать рукопашное оружие и видеть атакующего."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/GUSc2Ob.png",
-			"attachedItems": [
-				"longsword|phb"
-			],
-			"actionTags": [
-				"Multiattack",
-				"Parry"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Bodyguard (dandwiki)|https://www.dandwiki.com/wiki/Bodyguard_(5e_Creature)}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/2DMorEY.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Трактирный буян (дварф)",
-			"shortName": "Трактирный буян (дварф)",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				11
-			],
-			"hp": {
-				"formula": "2d8 + 4",
-				"average": 13
-			},
-			"speed": {
-				"walk": 25
-			},
-			"str": 14,
-			"dex": 12,
-			"con": 14,
-			"int": 9,
-			"wis": 10,
-			"cha": 9,
-			"skill": {
-				"intimidation": "+2"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 10,
-			"languages": [
-				"Общий",
-				"Дварфийский"
-			],
-			"cr": "1/8",
-			"trait": [
-				{
-					"name": "Импровизированное оружие",
-					"entries": [
-						"Буян может подобрать импровизированное оружие из окружения, например разбитую бутылку или ножку стола. Он может использовать своё действие «Удар без оружия» с этим оружием, но тип урона может измениться (разбитая бутылка наносит колющий урон вместо дробящего)."
-					]
-				},
-				{
-					"name": "Борец",
-					"entries": [
-						"Буян имеет преимущество на проверки Атлетики, чтобы толкнуть существо, и может волочить или нести {@condition grappled} существо с собой на полной скорости, пока размер существа не превышает Средний."
-					]
-				},
-				{
-					"name": "Дварфийская стойкость",
-					"entries": [
-						"Буян имеет преимущество на спасброски от яда и сопротивление урону ядом."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Удар без оружия",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
-						"Если цель — существо Большого размера или меньше, оно становится {@condition grappled} (освобождение {@dc 12}). Пока этот захват не окончен, буян может атаковать только {@condition grappled} существо и имеет преимущество на броски атаки по нему."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/YefhAGw.png",
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"C",
-				"D"
-			],
-			"damageTags": [
-				"B"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"grappled"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Tavern Brawler (Sailor)|https://www.reddit.com/r/dndnext/comments/4j1fqv/monsters_tavern_brawler_and_the_rat_king/}",
-					"{@b Всегда рвётся в драку.} У него есть всё, чтобы устроить драку в баре, достойную кино: он может перемещать схваченную цель на полной скорости по стойке бара (по пути опрокидывая напитки) и виртуозно швыряет бедолаг через столы или в стены. Он одинаково хорошо дерётся кулаками или, отломав ножку стула, размахивает ею как дубиной! Этот Трактирный буян — дварф, но при небольших изменениях им может быть любая раса."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/YefhAGw.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Трактирный буян (человек)",
-			"shortName": "Трактирный буян",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"L",
-				"G",
-				"NY",
-				"E"
-			],
-			"ac": [
-				11
-			],
-			"hp": {
-				"formula": "2d8 + 4",
-				"average": 13
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 12,
-			"con": 14,
-			"int": 9,
-			"wis": 10,
-			"cha": 9,
-			"passive": 10,
-			"languages": [
-				"Общий"
-			],
-			"cr": "1/8",
-			"trait": [
-				{
-					"name": "Импровизированное оружие",
-					"entries": [
-						"Буян может подобрать импровизированное оружие из окружения, например разбитую бутылку или ножку стола. Он может использовать своё действие «Удар без оружия» с этим оружием, но тип урона может измениться (разбитая бутылка наносит колющий урон вместо дробящего)."
-					]
-				},
-				{
-					"name": "Борец",
-					"entries": [
-						"Буян имеет преимущество на проверки Атлетики, чтобы толкнуть существо, и может волочить или нести {@condition grappled} существо с собой на полной скорости, пока размер существа не превышает Средний."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Удар без оружия",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
-						"Если цель — существо Большого размера или меньше, оно становится {@condition grappled} (освобождение {@dc 12}). Пока этот захват не окончен, буян может атаковать только {@condition grappled} существо и имеет преимущество на броски атаки по нему."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/2oLE9nU.png",
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"B"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"grappled"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Tavern Brawler (Sailor)|https://www.reddit.com/r/dndnext/comments/4j1fqv/monsters_tavern_brawler_and_the_rat_king/}",
-					"Всегда рвётся в драку. У него есть всё, чтобы устроить драку в баре, достойную кино: он может перемещать схваченную цель на полной скорости по стойке бара (по пути опрокидывая напитки) и виртуозно швыряет бедолаг через столы или в стены. Он одинаково хорошо дерётся кулаками или, отломав ножку стула, размахивает ею как дубиной! Этот Трактирный буян — дварф, но при небольших изменениях им может быть любая раса."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/2oLE9nU.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Городской стражник",
-			"shortName": "Городской стражник",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"L",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"Breastplate"
-					]
-				}
-			],
-			"hp": {
-				"formula": "5d8 + 5",
-				"average": 27
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 14,
-			"con": 12,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"skill": {
-				"athletics": "+4"
-			},
-			"passive": 10,
-			"languages": [
-				"Общий"
-			],
-			"cr": "1",
-			"trait": [
-				{
-					"name": "Воинское превосходство",
-					"entries": [
-						"Один раз в ход стражник может нанести дополнительно 7 ({@damage 2d6}) урона существу, по которому попал атакой оружием, если это существо находится в пределах 5 футов от союзника стражника, не являющегося {@condition incapacitated}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Пика",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Лёгкий арбалет",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, досягаемость 100/400 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона.",
-						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для дальнобойной атаки, только если у вас есть боеприпасы, чтобы выстрелить из него. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Достать боеприпас из колчана, сумки или другого контейнера — часть атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на обыскивание поля боя. Если вы используете оружие со свойством «боеприпасы» для рукопашной атаки, вы рассматриваете это оружие как импровизированное (см. «Импровизированное оружие» ниже в разделе). Пращу нужно зарядить, чтобы нанести ею урон таким образом."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/T90LIP5.png",
-			"attachedItems": [
-				"light crossbow|phb",
-				"pike|phb"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RCH",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link City Guard|https://www.5esrd.com/gamemastering/monsters-foes/npc/guards-city-watch-npcs/city-watch-captain-3pp/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/T90LIP5.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Командир городской стражи",
-			"shortName": "Командир городской стражи",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 20,
-					"from": [
-						"Plate",
-						"Shield"
-					]
-				}
-			],
-			"hp": {
-				"formula": "11d8 + 22",
-				"average": 71
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 14,
-			"con": 14,
-			"int": 13,
-			"wis": 14,
-			"cha": 15,
-			"save": {
-				"wis": "+5",
-				"cha": "+5"
-			},
-			"skill": {
-				"athletics": "+6",
-				"intimidation": "+5"
-			},
-			"passive": 12,
-			"languages": [
-				"Общий"
-			],
-			"cr": "10",
-			"trait": [
-				{
-					"name": "Воинское превосходство",
-					"entries": [
-						"Один раз в ход военный командир может нанести дополнительно 10 (3d6) урона существу, по которому попал атакой оружием, если это существо находится в пределах 5 футов от союзника военного командира, не являющегося {@condition incapacitated}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Командир совершает три рукопашные или две дальнобойные атаки."
-					]
-				},
-				{
-					"name": "Длинный меч (одной рукой)",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Длинный меч (двумя руками)",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Метательное копьё",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
-					]
-				},
-				{
-					"name": "Метательное копьё (бросок)",
-					"entries": [
-						"{@atk rw} {@hit 6} к попаданию, досягаемость 30/120 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
-					]
-				},
-				{
-					"name": "Командование (перезаряжается после короткого или продолжительного отдыха)",
-					"entries": [
-						"В течение 1 минуты командир может отдавать особый приказ или предупреждение всякий раз, когда не враждебное существо, которое он видит в пределах 30 футов от него, совершает бросок атаки или спасбросок. Существо может добавить d4 к своему броску, если оно способно слышать и понимать командира. Существо может получать пользу только от одной кости «Командования» за раз. Этот эффект оканчивается, если командир {@condition incapacitated}."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Парирование",
-					"entries": [
-						"Командир добавляет +2 КД против рукопашной атаки, которая обычно попала бы по нему. Для этого командир должен видеть атакующего и владеть рукопашным оружием."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/IxTylof.png",
-			"attachedItems": [
-				"javelin|phb",
-				"longsword|phb"
-			],
-			"actionTags": [
-				"Multiattack",
-				"Parry"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link City Guard|https://www.pinterest.es/pin/AVgoHUmwjQUrTKFX0Ibws-szXiveyrXK_IFeXeZfj_6cvJ9U8Dmb7Sg/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/IxTylof.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Капитан городской стражи",
-			"shortName": "Капитан городской стражи",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"L",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"Scale Mail"
-					]
-				}
-			],
-			"hp": {
-				"formula": "14d8 + 28",
-				"average": 91
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 16,
-			"con": 14,
-			"int": 10,
-			"wis": 11,
-			"cha": 13,
-			"skill": {
-				"perception": "+2"
-			},
-			"passive": 12,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "4",
-			"trait": [
-				{
-					"name": "Тактическое чутьё",
-					"entries": [
-						"Капитан городской стражи имеет преимущество на броски инициативы. Солдаты городской стражи под командованием капитана действуют в том же порядке инициативы, что и капитан."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Капитан городской стражи совершает две атаки рапирой и одну атаку кинжалом. Капитан может заменить одну атаку рапирой обезоруживающей атакой."
-					]
-				},
-				{
-					"name": "Рапира",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Кинжал",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
-					]
-				},
-				{
-					"name": "Кинжал (бросок)",
-					"entries": [
-						"{@atk rw} {@hit 5} к попаданию, досягаемость 20/60 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
-					]
-				},
-				{
-					"name": "Лёгкий арбалет",
-					"entries": [
-						"{@atk rw} {@hit 5} к попаданию, досягаемость 80/320 футов, одна цель. {@h}5 ({@damage 1d8 + 3}) колющего урона.",
-						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для дальнобойной атаки, только если у вас есть боеприпасы, чтобы выстрелить из него. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Достать боеприпас из колчана, сумки или другого контейнера — часть атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на обыскивание поля боя. Если вы используете оружие со свойством «боеприпасы» для рукопашной атаки, вы рассматриваете это оружие как импровизированное (см. «Импровизированное оружие» ниже в разделе). Пращу нужно зарядить, чтобы нанести ею урон таким образом."
-					]
-				},
-				{
-					"name": "Разоружающая атака",
-					"entries": [
-						"{@atk mw} +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: цель должна преуспеть в спасброске Силы Сл 13, иначе выронит один удерживаемый предмет на выбор капитана городской стражи. Предмет падает на расстоянии до 10 футов от цели в место, выбранное капитаном."
-					]
-				},
-				{
-					"name": "Приказ атаковать (1/день)",
-					"entries": [
-						"Каждое существо на выбор капитана городской стражи в пределах 30 футов от него, способное его слышать, совершает одну рукопашную или дальнобойную атаку оружием в качестве реакции. Этот человек легко мог бы оказаться по другую сторону закона, но ему нравится, как он выглядит в форме городской стражи — и как на него смотрят горожане, когда он идёт по улице во главе патруля. С длинными усами и лихо заломленным колпаком он, без сомнения, выглядит щеголевато и статно. Будучи опытным следователем, капитан городской стражи не боится обнажить клинок, чтобы положить конец угрозе своему городу."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/T90LIP5.png",
-			"attachedItems": [
-				"dagger|phb",
-				"light crossbow|phb",
-				"rapier|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link City Guard|https://www.5esrd.com/gamemastering/monsters-foes/npc/guards-city-watch-npcs/city-watch-captain-3pp/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/T90LIP5.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Культист",
-			"shortName": "Культист",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "4d8 + 4",
-				"average": 22
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 12,
-			"con": 12,
-			"int": 7,
-			"wis": 12,
-			"cha": 6,
-			"save": {
-				"dex": "+3"
-			},
-			"skill": {
-				"stealth": "+3"
-			},
-			"passive": 11,
-			"languages": [
-				"Общий"
-			],
-			"cr": "1/4",
-			"trait": [
-				{
-					"name": "Разное оружие",
-					"entries": [
-						"Культисты известны тем, что используют различные виды оружия под свои нужды. Культист может заменить свой короткий меч на любое дальнобойное или рукопашное оружие, которое сумел раздобыть, но при этом не считается владеющим им."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Короткий меч",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) рубящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/p9JhX2b.png",
-			"attachedItems": [
-				"shortsword|phb"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Cultist|https://valldoesdnd.tumblr.com/image/148703473015}",
-					"Обычный культист — не повод для беспокойства умудрённого искателя приключений. Они не храбры и не выносливы. Однако они очень преданы божеству, которому, как полагают, поклоняются, и это может сделать их проблемой в большом количестве.",
-					"Опасные ритуалы, тайные секты и закулисные делишки — всё это свидетельства активности культистов в округе. Умным искателям приключений стоит искоренить такую деятельность, пока фанатичные глупцы не стали слишком многочисленными и самоуверенными или, что хуже, случайно (или намеренно) не выпустили на ничего не подозревающий мир куда более ужасные и древние ужасы."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/RdBa1Z6.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Агент Тёмного Клинка",
-			"shortName": "Агент Тёмного Клинка",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "13d8 + 16",
-				"average": 89
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 16,
-			"con": 11,
-			"int": 10,
-			"wis": 15,
-			"cha": 14,
-			"skill": {
-				"stealth": "+8",
-				"perception": "+4"
-			},
-			"passive": 14,
-			"languages": [
-				"Общий"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Наблюдение, 2-й уровень",
-					"entries": [
-						"Один раз в день Агент Тёмного Клинка может активировать Наблюдение. При этом он видит любой живой организм в радиусе 20 футов. Если он сосредотачивается на существе, которое видит, или преуспевает в проверке Мудрости {@dc 15}, чтобы сосредоточиться на известном ему существе. Он способен видеть любые физические и магические следы, оставленные им, — например, отпечатки шагов или энергию от сотворённых заклинаний. Это длится 2 минуты. При допросе это существо будет огрызаться вместо ответов."
-					]
-				},
-				{
-					"name": "Навык наблюдения",
-					"entries": [
-						"Пока Агент Тёмного Клинка использует свою способность Наблюдение, он наносит дополнительно {@damage 1d8} некротического урона; этот урон уменьшает максимум хитов поражённого существа. Кроме того, каждый раз, когда Агент Тёмного Клинка успешно попадает по существу, он восстанавливает один раунд наблюдения."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Агент Тёмного Клинка совершает две атаки кинжалами или две атаки метательными кинжалами."
-					]
-				},
-				{
-					"name": "Кинжал",
-					"entries": [
-						"{@atk mw,rw} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 30/60 фт., одна цель. {@h}5 ({@damage 1d4}) колющего урона в рукопашной, или 5 ({@damage 1d4}) колющего урона на расстоянии."
-					]
-				}
-			],
-			"environment": [
-				"urban"
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/VgBuPd7.png",
-			"attachedItems": [
-				"dagger|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Darkblade Agents|https://www.reddit.com/r/Pauper/comments/9fixlr/grn_darkblade_agent/} — самый распространённый тип полевых агентов Димиров. Хотя они умеют убивать, это не их главная цель. Они ведут разведку и выполняют базовую шпионскую работу. Поэтому, если их не раскрыли, они скорее всего сбегут с места событий, а не начнут открытый бой."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/MyzhXcr.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Элитный задержатель",
-			"shortName": "Элитный задержатель",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any"
-				]
-			},
-			"alignment": [
-				"NX",
-				"NY",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"{@item plate armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "13d8 + 39",
-				"average": 97
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 10,
-			"con": 17,
-			"int": 12,
-			"wis": 14,
-			"cha": 14,
-			"skill": {
-				"athletics": "+6",
-				"intimidation": "+4"
-			},
-			"passive": 12,
-			"languages": [
-				"Общий",
-				"And any other two language"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Несмертельный боец",
-					"entries": [
-						"Когда Элитный задержатель атакует несмертельно, атака наносит дополнительную кость урона."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Элитный задержатель совершает две атаки боевым молотом."
-					]
-				},
-				{
-					"name": "Боевой молот",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d12 + 4}) дробящего урона, или 10 ({@damage 1d12 + 4}) дробящего урона при использовании двумя руками."
-					]
-				}
-			],
-			"environment": [
-				"urban"
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/jtUIEh0.png",
-			"attachedItems": [
-				"warhammer|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"B"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Elite Arrester|https://ravnicacardsconverted.tumblr.com/post/620214122202660864/join-the-ravnica-cards-converted-discord-and-come}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/dl03zFo.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Капитан стражи",
-			"shortName": "Капитан стражи",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"Chain Shirt",
-						"Shield"
-					]
-				}
-			],
-			"hp": {
-				"formula": "7d8 + 14",
-				"average": 45
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 15,
-			"dex": 14,
-			"con": 14,
-			"int": 10,
-			"wis": 12,
-			"cha": 13,
-			"save": {
-				"wis": "+3"
-			},
-			"skill": {
-				"insight": "+3",
-				"perception": "+3",
-				"persuasion": "+3"
-			},
-			"passive": 13,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1",
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Капитан совершает две рукопашные атаки."
-					]
-				},
-				{
-					"name": "Длинный меч (одной рукой)",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
-					]
-				},
-				{
-					"name": "Длинный меч (двумя руками)",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
-					]
-				},
-				{
-					"name": "Короткий лук",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, досягаемость 80/320 футов, одна цель. {@h}5 ({@damage 1d6}) колющего урона.",
-						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
-						"Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
-					]
-				},
-				{
-					"name": "Лидерство (восстанавливается после короткого или продолжительного отдыха)",
-					"entries": [
-						"В течение 1 минуты капитан может отдавать особый приказ или предупреждение всякий раз, когда не враждебное существо, которое он видит в пределах 30 футов от него, совершает бросок атаки или спасбросок. Существо может добавить {@dice d4} к своему броску, если оно способно слышать и понимать капитана. Существо может получать пользу только от одной кости «Командования» за раз. Этот эффект оканчивается, если капитан {@condition incapacitated}. (Существо со состоянием {@condition incapacitated} не может совершать действия или реакции.)"
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/q52gtpy.png",
-			"attachedItems": [
-				"longsword|phb",
-				"shortbow|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Guard captains (dandwiki)|https://www.dandwiki.com/wiki/Guard_Captain_(5e_Creature)}",
-					"Капитаны стражи — особенно влиятельные стражники, фактически на одну ступень выше в своей командной цепи. Один капитан может иметь власть над двумя-двадцатью стражниками более низкого ранга. Охраняя большую территорию внушительным отрядом, капитан стремится занять центральную позицию, откуда приказы можно отдавать наиболее эффективно. Если капитан приносит присягу королевству или другой крупной организации, он, вероятно, подчиняется рыцарям, генералам или высокородным дворянам."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/q52gtpy.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Элитный стражник, простой",
-			"shortName": "Элитный стражник, простой",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"Chain Shirt",
-						"Shield"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 7",
-				"average": 18
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 15,
-			"con": 12,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"acrobatics": "+5",
-				"athletics": "+5",
-				"perception": "+5"
-			},
-			"passive": 14,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/8",
-			"action": [
-				{
-					"name": "Копьё (одной рукой)",
-					"entries": [
-						"{@atk mw} {@hit 1} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
-					]
-				},
-				{
-					"name": "Копьё (метательное)",
-					"entries": [
-						"{@atk rw} {@hit 1} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
-					]
-				},
-				{
-					"name": "Копьё (двумя руками)",
-					"entries": [
-						"{@atk mw} {@hit 1} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/LMMbkIi.png",
-			"attachedItems": [
-				"spear|phb"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"Простой элитный стражник"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/LMMbkIi.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Стражник, простой",
-			"shortName": "Стражник, простой",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"Chain Shirt",
-						"Shield"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 2",
-				"average": 11
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 12,
-			"con": 12,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"perception": "+2"
-			},
-			"passive": 12,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/8",
-			"action": [
-				{
-					"name": "Копьё",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
-					]
-				},
-				{
-					"name": "Короткий меч",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d6}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/e9T053Y.png",
-			"attachedItems": [
-				"shortsword|phb",
-				"spear|phb"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"Простой стражник"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/e9T053Y.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Стражник с луком, простой",
-			"shortName": "Стражник с луком, простой",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"Chain Shirt",
-						"Shield"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 2",
-				"average": 11
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 12,
-			"con": 12,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"perception": "+2"
-			},
-			"passive": 12,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/8",
-			"action": [
-				{
-					"name": "Копьё",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
-					]
-				},
-				{
-					"name": "Короткий лук",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, досягаемость 80/320 футов, одна цель. {@h}4 ({@damage 1d6+1}) колющего урона.",
-						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
-						"Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/kAkS895.png",
-			"attachedItems": [
-				"shortbow|phb",
-				"spear|phb"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"Стражник с луком"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/kAkS895.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Служанка, или проститутка, или куртизанка",
-			"shortName": "Служанка, или проститутка, или куртизанка",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 2",
-				"average": 11
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 15,
-			"con": 12,
-			"int": 12,
-			"wis": 13,
-			"cha": 14,
-			"skill": {
-				"perception": "+3"
-			},
-			"passive": 13,
-			"languages": [
-				"Общий"
-			],
-			"cr": "1/2",
-			"action": [
-				{
-					"name": "Кинжал",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 2}) рубящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/Jria7rW.png",
-			"attachedItems": [
-				"dagger|phb"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link HandMaiden|https://dnd-5e-homebrew.tumblr.com/post/147716547969/princess-class-by-by-impersonater/amp}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/PH17sG3.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Верховный жрец солнца",
-			"shortName": "Верховный жрец солнца",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				12,
-				{
-					"ac": 15,
-					"condition": "with {@spell mage armor}",
-					"braces": true
-				}
-			],
-			"hp": {
-				"average": 75,
-				"formula": "10d10 + 20"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 15,
-			"con": 14,
-			"int": 10,
-			"wis": 11,
-			"cha": 16,
-			"skill": {
-				"deception": "+5",
-				"intimidation": "+5",
-				"religion": "+2"
-			},
-			"passive": 10,
-			"resist": [
-				"fire",
-				"radiant"
-			],
-			"conditionImmune": [
-				"blinded"
-			],
-			"languages": [
-				"Общий",
-				"Игнан"
-			],
-			"cr": "3",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Верховный жрец — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Харизма (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию атаками заклинаниями). Он знает следующие заклинания чародея:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell control flames|xge}",
-								"{@spell create bonfire|xge}",
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell minor illusion}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell burning hands}",
-								"{@spell chromatic orb}",
-								"{@spell mage armor}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell flame blade}",
-								"{@spell scorching ray}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell daylight}",
-								"{@spell fireball}"
-							],
-							"slots": 2
-						},
-						"4": {
-							"spells": [
-								"{@spell fire shield}",
-								"{@spell wall of fire}"
-							],
-							"slots": 2
-						},
-						"5": {
-							"spells": [
-								"{@spell immolation|XGE}",
-								"{@spell ivaldi|COMSpells}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "cha"
-				}
-			],
-			"trait": [
-				{
-					"name": "Сияние солнца",
-					"entries": [
-						"Вы изучаете заговор {@spell produce flame}, и он не учитывается в вашем количестве известных заговоров жреца. Кроме того, всякий раз, когда вы наносите урон огнём или излучением, вы можете изменить его с одного на другое."
-					]
-				},
-				{
-					"name": "Божественный удар",
-					"entries": [
-						"Вы получаете способность наполнять свои удары оружием пылающим пламенем. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительно {@damage 1d8} урона огнём."
-					]
-				},
-				{
-					"name": "Покров пустыни",
-					"entries": [
-						"Вы получаете сопротивление урону огнём или урону излучением и можете менять это сопротивление 1-минутным ритуалом в молитве. Кроме того, вы не можете быть {@condition blinded}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Кинжал",
-					"entries": [
-						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Скимитар",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) рубящего урона."
-					]
-				},
-				{
-					"name": "Солнечный удар",
-					"entries": [
-						"Действием вы можете воззвать к мощи солнца, чтобы ударить в точку в пределах 30 футов от вас. Существа в пределах 5 футов от этой точки должны совершить спасбросок Ловкости, получая {@damage 1d10} + ваш уровень жреца урона огнём и становясь {@condition blinded} на 1 минуту при провале спасброска, или половину при успехе, не становясь {@condition blinded}. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
-					]
-				},
-				{
-					"name": "Восславь солнце!",
-					"entries": [
-						"Действием вы можете принять позу восхваления солнца, воскликнув «Восславь солнце!». В течение 1 минуты количество союзных существ, равное вашему модификатору Мудрости (минимум 1), в пределах 60 футов от вас наносят {@dice 1d8} урона огнём или излучением (на их выбор) за одну рукопашную атаку в ход и получают временные хиты, равные вашему уровню жреца."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/LYWcWI5.png",
-			"attachedItems": [
-				"dagger|phb",
-				"scimitar|phb"
-			],
-			"languageTags": [
-				"C",
-				"IG"
-			],
-			"damageTags": [
-				"P"
-			],
-			"damageTagsSpell": [
-				"A",
-				"C",
-				"F",
-				"I",
-				"L",
-				"T"
-			],
-			"spellcastingTags": [
-				"CS"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW",
-				"THW"
-			],
-			"savingThrowForcedSpell": [
-				"dexterity"
-			],
-			"hasToken": true,
-			"fluff": {
-				"entries": [
-					"На основе {@link Cleric of Sun Domain|https://blackbandos-homebrew.fandom.com/wiki/Solar_Domain_(5e_Cleric_Archetype) }"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/G4NF1W4.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Янычар",
-			"shortName": "Янычар",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item leather armor|phb}",
-						"{@item scimitar|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "10d8 + 20",
-				"average": 65
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 15,
-			"dex": 18,
-			"con": 14,
-			"int": 12,
-			"wis": 15,
-			"cha": 12,
-			"skill": {
-				"acrobatics": "+8",
-				"athletics": "+4",
-				"intimidation": "+3"
-			},
-			"passive": 12,
-			"languages": [
-				"любые три языка"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Мастерство клинка",
-					"entries": [
-						"Когда янычар попадает своим скимитаром, он бросает одну дополнительную кость урона и добавляет её к урону атаки (уже включено в атаку)."
-					]
-				},
-				{
-					"name": "Защита клинком",
-					"entries": [
-						"Янычар получает от своего скимитара те же преимущества, что и от щита."
-					]
-				},
-				{
-					"name": "Дервиш",
-					"entries": [
-						"В течение хода янычара, если он совершает рукопашную атаку по существу, это существо не может совершать по нему атаки по возможности до конца хода янычара."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Янычар совершает три атаки: одну когтистой рукавицей и две скимитаром."
-					]
-				},
-				{
-					"name": "Скимитар",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Когтистая рукавица",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона. Если цель — существо, не являющееся нежитью или конструктом, она должна преуспеть в спасброске Телосложения {@dc 15}, иначе теряет 2 ({@dice 1d4}) хита в конце каждого своего хода, пока она или существо в пределах 5 футов от неё не потратит действие, чтобы остановить кровотечение. Рана также закрывается, если цель получает магическое лечение. Каждый раз, когда янычар попадает по раненой цели атакой оружием, урон от раны увеличивается на 2 ({@dice 1d4})."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Отражение атаки",
-					"entries": [
-						"Когда враждебное существо промахивается по янычару рукопашной атакой оружием, янычар может заставить эту атаку попасть по одному существу на свой выбор, отличному от атакующего, которое он видит в пределах 5 футов от себя."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/la8jvBh.png",
-			"attachedItems": [
-				"scimitar|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Janissary|https://www.reddit.com/r/monsteraday/comments/ab1er1/janissary/?utm_medium=android_app&utm_source=share}",
-					"«Танцевать с дьяволом? Лучше вести.»",
-					"— Янычар Экрем",
-					"Янычары — элитнейшие из солдат. Для них клинки — продолжение тела: они крутят ими без усилий, перенаправляя атаки, которые обычно попали бы по ним, на других. Поговорка «лучшая защита — хорошее нападение» применима ко всем воинам, но для янычара она не значит ничего, ведь его клинки, словно щиты, без усилий отражают атаки. Своими когтистыми рукавицами они наносят глубокие раны противникам, заставляя тех либо сосредоточиться на ранах, от которых они погибнут, либо на битве с кружащимся дьяволом. Это сочетание энтузиазма и мастерства привело к тому, что многие были сражены их танцующими клинками."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/Py0VWh3.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Ниндзя",
-			"shortName": "Ниндзя",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "10d8 + 20",
-				"average": 65
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 12,
-			"dex": 18,
-			"con": 14,
-			"int": 12,
-			"wis": 16,
-			"cha": 10,
-			"save": {
-				"dex": "+10",
-				"wis": "+6"
-			},
-			"skill": {
-				"acrobatics": "+7",
-				"deception": "+3",
-				"sleight of hand": "+7",
-				"stealth": "+7"
-			},
-			"passive": 13,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "6",
-			"trait": [
-				{
-					"name": "Уклонение",
-					"entries": [
-						"Если ниндзя подвергается эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить только половину урона, при успехе ниндзя вместо этого не получает урона, а при провале получает только половину урона."
-					]
-				},
-				{
-					"name": "Теневая скрытность",
-					"entries": [
-						"Находясь в тусклом свете или темноте, ниндзя может совершить действие «Скрыться» бонусным действием."
-					]
-				},
-				{
-					"name": "Защита без доспехов",
-					"entries": [
-						"Пока ниндзя не носит доспехов и не использует щит, его КД включает модификатор Мудрости."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Ниндзя совершает две атаки оружием."
-					]
-				},
-				{
-					"name": "Короткие мечи",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом."
-					]
-				},
-				{
-					"name": "Дротик",
-					"entries": [
-						"{@atk rw} {@hit 7} к попаданию, дистанция 20/60 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом."
-					]
-				},
-				{
-					"name": "Дымовая бомба (1/день)",
-					"entries": [
-						"Ниндзя бросает дымовую бомбу в точку на расстоянии до 60 фт. Область в радиусе 5 фт. от места удара немедленно становится сильно заслонённой. Умеренный ветер (не менее 10 миль в час) рассеивает дым за 4 раунда; сильный ветер (20 и более миль в час) рассеивает его за один раунд. В противном случае дым рассеивается через 1 минуту."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Отражение снаряда",
-					"entries": [
-						"В ответ на попадание дальнобойным оружием ниндзя отражает снаряд. Получаемый им от атаки урон уменьшается на {@dice 1d10 + 4}. Если урон уменьшен до 0, ниндзя ловит снаряд, если он достаточно мал, чтобы уместиться в одной руке, и у ниндзя есть свободная рука."
-					]
-				}
-			],
-			"environment": [
-				"urban"
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/sYctZGY.png",
-			"attachedItems": [
-				"dart|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"I",
-				"P"
-			],
-			"miscTags": [
-				"MW",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Ninja|https://www.pinterest.se/pin/232920611966519039/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/s4880uv.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Капитан пиратов",
-			"shortName": "Капитан пиратов",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"C",
-				"G",
-				"NY",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "18d8 + 18",
-				"average": 99
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 20,
-				"swim": {
-					"number": 20,
-					"condition": "when Vehicles (water) + 10 ft."
-				}
-			},
-			"str": 10,
-			"dex": 18,
-			"con": 13,
-			"int": 15,
-			"wis": 9,
-			"cha": 17,
-			"skill": {
-				"acrobatics": "+7",
-				"athletics": "+3",
-				"deception": "+6"
-			},
-			"passive": 9,
-			"languages": [
-				"Общий"
-			],
-			"cr": "7",
-			"trait": [
-				{
-					"name": "Лёгкая поступь",
-					"entries": [
-						"Капитан может совершать действие «Рывок» или «Отход» бонусным действием в каждый свой ход."
-					]
-				},
-				{
-					"name": "Морские ноги",
-					"entries": [
-						"Капитан имеет преимущество на проверки Силы и Ловкости, совершаемые стоя на плавучем средстве (как описано на странице 157 Книги игрока)."
-					]
-				},
-				{
-					"name": "Скрытая атака (1/ход)",
-					"entries": [
-						"Капитан наносит дополнительно 14 ({@damage 6d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника капитана, не являющегося {@condition incapacitated}, и капитан не имеет помехи на бросок атаки."
-					]
-				},
-				{
-					"name": "Отточенная защита",
-					"entries": [
-						"Капитан наносит дополнительно 14 ({@damage 6d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника капитана, не являющегося {@condition incapacitated}, и капитан не имеет помехи на бросок атаки."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Капитан совершает три атаки: одну хлыстом и две рапирой."
-					]
-				},
-				{
-					"name": "Рапира",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
-					]
-				},
-				{
-					"name": "Хлыст",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) рубящего урона. Если цель — существо Среднего размера или меньше, она должна совершить спасбросок Силы {@dc 15}, иначе будет сбита {@condition prone}."
-					]
-				}
-			],
-			"environment": [
-				"coastal"
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/FbkKBel.png",
-			"attachedItems": [
-				"rapier|phb",
-				"whip|phb"
-			],
-			"traitTags": [
-				"Sneak Attack"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RCH"
-			],
-			"conditionInflict": [
-				"incapacitated",
-				"prone"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Pirate Captain - 5e monster (CR7ish..)|https://www.reddit.com/r/UnearthedArcana/comments/8bd71d/pirate_captain_5e_monster_cr7ish/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/Qk1sugy.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Жрец солнца",
-			"shortName": "Жрец солнца",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item splint armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"average": 45,
-				"formula": "7d8 + 14"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 15,
-			"dex": 11,
-			"con": 14,
-			"int": 12,
-			"wis": 10,
-			"cha": 16,
-			"skill": {
-				"intimidation": "+5",
-				"religion": "+3",
-				"persuasion": "+5"
-			},
-			"passive": 10,
-			"resist": [
-				"fire",
-				"radiant"
-			],
-			"conditionImmune": [
-				"blinded"
-			],
-			"languages": [
-				"Общий",
-				"Терран"
-			],
-			"cr": "3",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Жрец — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Харизма (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию атаками заклинаниями). Он знает следующие заклинания чародея:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell acid splash}",
-								"{@spell blade ward}",
-								"{@spell light}",
-								"{@spell mending}",
-								"{@spell mold earth|XGE}",
-								"{@spell produce flame}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell burning hands}",
-								"{@spell chromatic orb}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell flame blade}",
-								"{@spell scorching ray}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell daylight}",
-								"{@spell fireball}"
-							],
-							"slots": 2
-						},
-						"4": {
-							"spells": [
-								"{@spell fire shield}",
-								"{@spell wall of fire}"
-							],
-							"slots": 2
-						},
-						"5": {
-							"spells": [
-								"{@spell immolation|XGE}",
-								"{@spell ivaldi|COMSpells}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "cha"
-				}
-			],
-			"trait": [
-				{
-					"name": "Тяжёлый доспех",
-					"entries": [
-						"Вы получаете владение тяжёлыми доспехами."
-					]
-				},
-				{
-					"name": "Сияние солнца",
-					"entries": [
-						"Вы изучаете заговор {@spell produce flame}, и он не учитывается в вашем количестве известных заговоров жреца. Кроме того, всякий раз, когда вы наносите урон огнём или излучением, вы можете изменить его с одного на другое."
-					]
-				},
-				{
-					"name": "Божественный удар",
-					"entries": [
-						"Вы получаете способность наполнять свои удары оружием пылающим пламенем. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительно {@damage 1d8} урона огнём."
-					]
-				},
-				{
-					"name": "Покров пустыни",
-					"entries": [
-						"Вы получаете сопротивление урону огнём или урону излучением и можете менять это сопротивление 1-минутным ритуалом в молитве. Кроме того, вы не можете быть {@condition blinded}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Жрец совершает две рукопашные атаки."
-					]
-				},
-				{
-					"name": "Глефа",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
-					]
-				},
-				{
-					"name": "Солнечный удар",
-					"entries": [
-						"Действием вы можете воззвать к мощи солнца, чтобы ударить в точку в пределах 30 футов от вас. Существа в пределах 5 футов от этой точки должны совершить спасбросок Ловкости, получая {@damage 1d10} + ваш уровень жреца урона огнём и становясь {@condition blinded} на 1 минуту при провале спасброска, или половину при успехе, не становясь {@condition blinded}. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
-					]
-				},
-				{
-					"name": "Восславь солнце!",
-					"entries": [
-						"Действием вы можете принять позу восхваления солнца, воскликнув «Восславь солнце!». В течение 1 минуты количество союзных существ, равное вашему модификатору Мудрости (минимум 1), в пределах 60 футов от вас наносят {@dice 1d8} урона огнём или излучением (на их выбор) за одну рукопашную атаку в ход и получают временные хиты, равные вашему уровню жреца."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Непреклонность",
-					"entries": [
-						"Когда жрец подвергается эффекту, который переместил бы его, сбил бы его {@condition prone} или и то и другое, он может использовать свою реакцию, чтобы не быть ни перемещённым, ни сбитым {@condition prone}."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/4g66KF9.png",
-			"attachedItems": [
-				"glaive|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"T"
-			],
-			"damageTags": [
-				"S"
-			],
-			"damageTagsSpell": [
-				"A",
-				"C",
-				"F",
-				"I",
-				"L",
-				"T"
-			],
-			"spellcastingTags": [
-				"CS"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RCH"
-			],
-			"conditionInflictSpell": [
-				"prone"
-			],
-			"savingThrowForcedSpell": [
-				"dexterity"
-			],
-			"hasToken": true,
-			"fluff": {
-				"entries": [
-					"На основе {@link Cleric of Sun Domain|https://blackbandos-homebrew.fandom.com/wiki/Solar_Domain_(5e_Cleric_Archetype) }"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/4BxBJKn.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Шивана — полудракон",
-			"shortName": "Шивана — полудракон",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item scale mail|phb}"
-					]
-				},
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					],
-					"condition": "in dragon form"
-				}
-			],
-			"hp": {
-				"formula": "14d8 + 42",
-				"average": 105
-			},
-			"speed": {
-				"walk": 30,
-				"fly": {
-					"number": 50,
-					"condition": "in dragon form"
-				}
-			},
-			"str": 18,
-			"dex": 12,
-			"con": 16,
-			"int": 10,
-			"wis": 10,
-			"cha": 14,
-			"save": {
-				"con": "+6",
-				"cha": "+5"
-			},
-			"skill": {
-				"athletics": "+7",
-				"perception": "+6"
-			},
-			"senses": [
-				"blindsight 10 ft.",
-				"darkvision 60 ft."
-			],
-			"passive": 16,
-			"resist": [
-				"fire"
-			],
-			"languages": [
-				"Общий",
-				"Драконий"
-			],
-			"cr": "7",
-			"trait": [
-				{
-					"name": "Выгорание",
-					"entries": [
-						"Бонусным действием в свой ход Шивана может испускать пылающее пламя в радиусе 10 фт., которое длится до начала её следующего хода. Существо, начинающее свой ход в этом радиусе, должно преуспеть в спасброске Ловкости {@dc 14}, иначе получит 7 ({@damage 2d6}) урона огнём.",
-						"Пока Шивана находится в форме дракона, цель при провале спасброска получает дополнительно 3 ({@damage 1d6}) урона огнём."
-					]
-				},
-				{
-					"name": "Убийца драконов",
-					"entries": [
-						"Шивана имеет преимущество на броски атак оружием против драконов. Когда Шивана попадает по дракону атакой оружием, оружие наносит одну дополнительную кость своего урона."
-					]
-				},
-				{
-					"name": "Ярость дракона",
-					"entries": [
-						"Всякий раз, когда Шивана получает 20 или более урона огнём за один ход, она немедленно восстанавливает израсходованное использование своего действия «Смена облика»."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Шивана атакует дважды когтями. Она может заменить одну из этих атак укусом, если он доступен."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 2d4 + 4}) рубящего урона, плюс 3 ({@damage 1d6}) урона огнём."
-					]
-				},
-				{
-					"name": "Укус (только в форме дракона)",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона, плюс 3 ({@damage 1d6}) урона огнём."
-					]
-				},
-				{
-					"name": "Огненное дыхание {@recharge}",
-					"entries": [
-						"Шивана выпускает огонь в линию длиной 30 футов и шириной 5 футов. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 14}, получая 28 ({@damage 8d6}) урона огнём при провале или половину этого урона при успехе.",
-						"Пока Шивана находится в форме дракона, область становится конусом длиной 30 футов, а цель получает дополнительно 14 ({@damage 4d6}) урона огнём."
-					]
-				},
-				{
-					"name": "Смена облика (1/день)",
-					"entries": [
-						"Шивана магически превращается в Большого дракона и может оставаться в этой форме до 1 часа. Её характеристики, кроме размера, в этой форме остаются прежними. Любое снаряжение, которое на ней надето или которое она несёт, не превращается. Шивана возвращается к своему истинному облику, если умирает или теряет сознание ({@condition unconscious}). Она может вернуться к истинному облику бонусным действием в свой ход."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/79ROzTF.png",
-			"senseTags": [
-				"B",
-				"D"
-			],
-			"actionTags": [
-				"Breath Weapon",
-				"Multiattack",
-				"Shapechanger"
-			],
-			"languageTags": [
-				"C",
-				"DR"
-			],
-			"damageTags": [
-				"F",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"AOE",
-				"MW",
-				"RCH"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Shyvana - the half-dragon|https://www.reddit.com/r/monsteraday/comments/p9bd5y/shyvana_suffer_the_true_fury_of_a_halfdragon/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/MQOCnQ7.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Сивир, боевая госпожа",
-			"shortName": "Сивир, боевая госпожа",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "12d8 + 24",
-				"average": 78
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 18,
-			"con": 14,
-			"int": 11,
-			"wis": 14,
-			"cha": 15,
-			"save": {
-				"str": "+4",
-				"dex": "+7",
-				"cha": "+5"
-			},
-			"skill": {
-				"athletics": "+4",
-				"investigation": "+3",
-				"persuasion": "+5",
-				"perception": "+5"
-			},
-			"passive": 15,
-			"languages": [
-				"Общий"
-			],
-			"cr": "7",
-			"trait": [
-				{
-					"name": "Особое снаряжение",
-					"entries": [
-						"Сивир владеет скрещённым клинком Чаликар — магическим оружием, дающим бонус +1 к броскам атаки и урона (уже включено в её характеристики). После того как она совершает атаку этим оружием, оно возвращается ей в руку."
-					]
-				},
-				{
-					"name": "Дитя пустыни",
-					"entries": [
-						"Сивир естественно приспособлена к жаркому климату и автоматически преуспевает в любых спасбросках против эффектов экстремальной жары."
-					]
-				},
-				{
-					"name": "Быстрота ног",
-					"entries": [
-						"Сивир может бонусным действием в свой ход совершить действие «Рывок»."
-					]
-				},
-				{
-					"name": "Восход Вознесённых (1/день)",
-					"entries": [
-						"Когда Сивир умирает, она восстанавливает половину своих общих хитов через 1 минуту, если её тело не уничтожено и она не является уроженцем иного плана, чем тот, на котором находится."
-					]
-				},
-				{
-					"name": "Расхитительница гробниц",
-					"entries": [
-						"Сивир имеет преимущество на проверки характеристик для определения денежной стоимости немагических предметов возрастом более столетия. Кроме того, Сивир имеет преимущество на спасброски Ловкости против вредных эффектов, которые она видит, находясь в древних руинах. Чтобы получить это преимущество, она не может быть {@condition blinded}, {@condition deafened} или {@condition incapacitated}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Сивир совершает две атаки Чаликаром."
-					]
-				},
-				{
-					"name": "Чаликар",
-					"entries": [
-						"{@atk rw} {@hit 8} к попаданию, дистанция 30/90 фт., одна цель. {@h}11 ({@damage 2d6 + 5}) рубящего урона, и враждебное существо в пределах 10 футов от цели должно преуспеть в спасброске Ловкости {@dc 15}, иначе получит 7 ({@damage 2d6}) рубящего урона. Каждый раз, когда цель проваливает такой спасбросок, Сивир может выбрать новую цель в пределах 10 футов от предыдущей (максимум 6 раз), но не может выбрать одну и ту же цель более одного раза."
-					]
-				},
-				{
-					"name": "Смертельный бросок",
-					"entries": [
-						"Сивир швыряет свой клинок по линии длиной 30 футов и шириной 5 футов. Каждое существо на линии должно совершить спасбросок Ловкости {@dc 15}, получая 14 ({@damage 4d6}) рубящего урона при провале или половину этого урона при успехе."
-					]
-				},
-				{
-					"name": "Бесстрашный натиск (1/день)",
-					"entries": [
-						"Сивир и каждое существо на её выбор в пределах 30 футов от неё, способное её слышать, удваивают свою скорость до начала следующего хода Сивир. Затем Сивир может совершить одну атаку бонусным действием."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Щит от заклинаний",
-					"entries": [
-						"Сивир может добавить {@dice 1d10} к спасброску, который совершает против вредного заклинания или иного магического эффекта."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/hNoJBGv.png",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"RW"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Sivir, the Battle Mistress|https://www.reddit.com/r/monsteraday/comments/pi8qbz/sivir_every_problem_has_its_price_every_life_its/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/PFxUHR7.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Солнечный рыцарь",
-			"shortName": "Солнечный рыцарь",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"L",
-				"NX",
-				"C",
-				"G"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item breastplate|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "33d8 + 66",
-				"average": 214
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 12,
-			"con": 14,
-			"int": 12,
-			"wis": 18,
-			"cha": 12,
-			"save": {
-				"con": "+6",
-				"wis": "+8"
-			},
-			"skill": {
-				"insight": "+8",
-				"perception": "+8",
-				"religion": "+7"
-			},
-			"passive": 18,
-			"immune": [
-				"radiant"
-			],
-			"languages": [
-				"Общий"
-			],
-			"cr": "10",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Солнечный рыцарь — заклинатель 9-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 16}, +8 к попаданию атаками заклинаниями). Солнечный рыцарь подготовил следующие заклинания:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell light}",
-								"{@spell resistance}",
-								"{@spell sacred flame}",
-								"{@spell spare the dying}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell bless}",
-								"{@spell cure wounds}",
-								"{@spell sanctuary}",
-								"{@spell shield of faith}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell aid}",
-								"{@spell calm emotions}",
-								"{@spell prayer of healing}",
-								"{@spell zone of truth}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell aura of vitality}",
-								"{@spell crusader's mantle}",
-								"{@spell remove curse}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell aura of life}",
-								"{@spell death ward}",
-								"{@spell guardian of faith}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell circle of power}",
-								"{@spell raise dead}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"trait": [
-				{
-					"name": "Озарение (1/день)",
-					"entries": [
-						"Солнечный рыцарь может бонусным действием излучать яркий свет в радиусе 30 фт. и тусклый свет ещё на 30 фт. Этот свет длится 1 минуту и является солнечным светом."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Солнечный рыцарь совершает три атаки сияющим длинным мечом."
-					]
-				},
-				{
-					"name": "Сияющий длинный меч",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона, плюс 13 ({@damage 3d8}) урона излучением."
-					]
-				},
-				{
-					"name": "Изгнание нечестивых",
-					"entries": [
-						"Каждое исчадие или нежить, способные видеть или слышать солнечного рыцаря в пределах 30 футов от него, должны преуспеть в спасброске Мудрости {@dc 16}, иначе станут {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа успешен или эффект на нём окончился, существо получает иммунитет к «Изгнанию нечестивых» этого рыцаря на следующие 24 часа. Рыцарь может использовать это действие один раз за короткий отдых."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/gFBZnlG.png",
-			"traitTags": [
-				"Illumination"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"R",
-				"S"
-			],
-			"damageTagsSpell": [
-				"R"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForced": [
-				"wisdom"
-			],
-			"savingThrowForcedSpell": [
-				"charisma",
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Sun Knight|https://www.pinterest.it/pin/747316131913640012/}",
-					"Наделённые божественной благодатью своего божества, солнечные рыцари — столпы, на которые опираются праведные в борьбе с завесой. Они связаны долгом положить конец существованию злых и порочных существ, таящихся в тенях.",
-					"Маяк надежды. Солнечные рыцари способны пропускать яркость самого солнца через свои святые символы, озаряя самые тёмные уголки мира, чтобы изгнать зло из пределов. Этот жгучий свет выжигает скверну, что прячется во тьме, принося тепло солнечного сияния существам, что избегают его блеска."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/Kv9hRqb.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Бастион",
-			"shortName": "Бастион",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 20,
-					"from": [
-						"{@item plate armor|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "13d8 + 52",
-				"average": 110
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 11,
-			"con": 18,
-			"int": 12,
-			"wis": 14,
-			"cha": 10,
-			"save": {
-				"str": "+7",
-				"con": "+7"
-			},
-			"skill": {
-				"athletics": "+7",
-				"intimidation": "+3"
-			},
-			"passive": 12,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "7",
-			"trait": [
-				{
-					"name": "Громила",
-					"entries": [
-						"Рукопашное оружие наносит одну дополнительную кость своего урона, когда Бастион попадает им."
-					]
-				},
-				{
-					"name": "Укрытие",
-					"entries": [
-						"Союзники в пределах 5 футов от Бастиона получают бонус +2 к своему КД, если Бастион не {@condition prone} и не {@condition incapacitated}."
-					]
-				},
-				{
-					"name": "Натиск со щитом",
-					"entries": [
-						"Если Бастион перемещается как минимум на 10 футов по прямой к цели, а затем попадает по ней цепом в тот же ход, цель получает дополнительно 13 ({@dice 3d8}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 15}, иначе будет сбита {@condition prone}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Бастион совершает две атаки оружием."
-					]
-				},
-				{
-					"name": "Цеп",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) дробящего урона."
-					]
-				},
-				{
-					"name": "Метательное копьё",
-					"entries": [
-						"{@atk mw,rw} {@hit 7} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) колющего урона в рукопашной, или 11 ({@damage 2d6 + 4}) колющего урона на расстоянии."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Блок",
-					"entries": [
-						"Бастион добавляет +3 КД против атаки, которая обычно попала бы по нему. Для этого Бастион должен видеть атакующего и использовать щит."
-					]
-				}
-			],
-			"environment": [
-				"urban"
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/H5EFY84.png",
-			"attachedItems": [
-				"flail|phb",
-				"javelin|phb"
-			],
-			"traitTags": [
-				"Brute"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW",
-				"THW"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"fluff": {
-				"entries": [
-					"{@link The Bastion|https://deadmanstales.wordpress.com/2018/02/18/the-bastion/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/FTMa0FR.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Вор",
-			"shortName": "Вор",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "4d8 + 0",
-				"average": 18
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 30
-			},
-			"str": 8,
-			"dex": 14,
-			"con": 10,
-			"int": 10,
-			"wis": 12,
-			"cha": 12,
-			"skill": {
-				"stealth": "+6"
-			},
-			"passive": 11,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/4",
-			"trait": [
-				{
-					"name": "Инструменты",
-					"entries": [
-						"Воровские инструменты +6"
-					]
-				},
-				{
-					"name": "Хитрое действие",
-					"entries": [
-						"В каждый свой ход вор может использовать бонусное действие, чтобы совершить действие «Рывок», «Отход» или «Скрыться»."
-					]
-				},
-				{
-					"name": "Скрытая атака (1/ход)",
-					"entries": [
-						"Вор наносит дополнительно 3 ({@damage 1d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 фт. от союзника вора, не являющегося {@condition incapacitated}, и вор не имеет помехи на бросок атаки."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Кинжал",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Кинжал (бросок)",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, дистанция 20/60 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/skDWNAj.png",
-			"attachedItems": [
-				"dagger|phb"
-			],
-			"traitTags": [
-				"Sneak Attack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Thief (dandwiki)|https://www.dandwiki.com/wiki/Thief_(5e_Creature)}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/skDWNAj.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Ведьма-человек",
-			"shortName": "Ведьма-человек",
-			"source": "COMHumanoid",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "4d8 + 4",
-				"average": 22
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 12,
-			"con": 12,
-			"int": 11,
-			"wis": 12,
-			"cha": 14,
-			"passive": 11,
-			"languages": [
-				"Общий"
-			],
-			"cr": "3",
-			"action": [
-				{
-					"name": "Боевой посох",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d6 + 1}) дробящего урона, или 5 ({@damage 1d8 + 1}) дробящего урона при использовании двумя руками."
-					]
-				},
-				{
-					"name": "Электрошок",
-					"entries": [
-						"Знахарь выбирает одно существо в пределах своей досягаемости. Цель должна преуспеть в спасброске Ловкости {@dc 14}. В противном случае цель получает 4 ({@damage 1d8}) урона электричеством и не может совершать реакции до своего следующего хода."
-					]
-				},
-				{
-					"name": "Луч слабости (2/день)",
-					"entries": [
-						"Знахарь выбирает существо в пределах 50 футов. Цель должна совершить спасбросок Ловкости {@dc 14}. При провале спасброска цель получает 14 ({@damage 4d6}) некротического урона, и, если максимум хитов цели равен 25 или меньше, рукопашные атаки цели наносят только половину урона, а цель имеет помеху на проверки и спасброски Силы и Ловкости. Этот эффект длится 1 минуту."
-					]
-				},
-				{
-					"name": "Свет",
-					"entries": [
-						"Знахарь касается предмета, заставляя его излучать яркий свет в сфере радиусом 20 фт. и тусклый свет в пределах 40 фт. от сферы. Свет длится 1 час или пока знахарь не использует это действие снова."
-					]
-				},
-				{
-					"name": "Сопротивление урону (1/день)",
-					"entries": [
-						"Знахарь касается согласного существа, кроме себя, и выбирает тип урона: кислотой, дробящий, холодом, огнём, электричеством, колющий, некротический, рубящий или звуком. Коснувшееся существо получает сопротивление этому типу урона на 1 час."
-					]
-				}
-			],
-			"environment": [
-				"coastal",
-				"forest",
-				"swamp"
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/bM0dJ5D.png",
-			"attachedItems": [
-				"quarterstaff|phb"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"B",
-				"L",
-				"N"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Human Witch|https://www.deviantart.com/dizman/art/DnD-Next-Monster-Cards-Human-Witch-404860763}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/HDcVyL8.png"
-						}
-					}
-				]
-			}
-		}
-	]
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "COMHumanoid",
+        "abbreviation": "COMHumanoid",
+        "full": "Community Humanoid Collection",
+        "url": "https://github.com/TheGiddyLimit/homebrew",
+        "version": "2022.04.27",
+        "authors": [
+          "A collection derived from the web community (Reddit,Pinterest,DmsGuild,ecc.). For credits, authors are provided with a web link in the entity description"
+        ],
+        "convertedBy": [
+          "p4535992"
+        ],
+        "targetSchema": "1.7.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1608058117,
+    "dateLastModified": 1775645737,
+    "_dateLastModifiedHash": "7874e3c72d"
+  },
+  "monster": [
+    {
+      "name": "Варвар",
+      "shortName": "Варвар",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "NX",
+        "C",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "formula": "4d8 + 8",
+        "average": 26
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 10,
+      "con": 14,
+      "int": 8,
+      "wis": 10,
+      "cha": 8,
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/4",
+      "trait": [
+        {
+          "name": "Искусство секиры",
+          "entries": [
+            "Варвар получает бонус +1 к броскам атаки секирами и молотами (уже включён в атаку). Когда варвар имеет преимущество на бросок рукопашной атаки секирой или молотом и попадает, он может сбить цель {@condition prone}, если меньший из бросков {@dice d20} тоже попал бы. Когда варвар имеет помеху на бросок рукопашной атаки секирой или молотом, цель получает 2 дробящего урона, если варвар промахивается, но больший бросок {@dice d20} попал бы. Когда варвар совершает действие «Помощь», чтобы помочь рукопашной атаке союзника, помимо получения союзником преимущества на бросок, союзник также получает бонус +2 к броску атаки, если цель использует щит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Секира (одной рукой)",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Секира (двумя руками)",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/vkKyyl5.png",
+      "attachedItems": [
+        "battleaxe|phb"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Barbarian (dandwiki)|https://www.dandwiki.com/wiki/Barbarian_(5e_Creature)}",
+          "{@b Заметка дизайнера:} Если вы используете {@link damage Reduction (5e Variant Rule)|https://www.dandwiki.com/wiki/Damage_Reduction_(5e_Variant_Rule)}, у варвара вместо этого КД 11 и значение снижения урона 1.",
+          "Известные также как разбойники, варвары — это люди, полагающиеся в бою на чистую силу и дикость. Варвары обычно селятся в горных областях, которые организованным армиям трудно захватить. Варвары часто составляют разбойничьи группы, но нередко нанимаются к другим за деньги."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/vkKyyl5.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Жонглёр клинками",
+      "shortName": "Жонглёр клинками",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item common clothes|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "18d8",
+        "average": 81
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 18,
+      "con": 11,
+      "int": 11,
+      "wis": 12,
+      "cha": 14,
+      "skill": {
+        "sleight of hand": "+6"
+      },
+      "passive": 11,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Вихрь клинков",
+          "entries": [
+            "Пока по жонглёру клинками не попали или пока он не атаковал, все входящие атаки по нему совершаются с помехой. Жонглёр клинками может действием вновь получить это преимущество."
+          ]
+        },
+        {
+          "name": "Зрелище: возврат клинков",
+          "entries": [
+            "Если в этот ход жонглёр клинками нанёс урон существу, он может использовать это бонусным действием. Жонглёр клинками может переместиться до 10 фт. и вернуть любое количество кинжалов, которые больше не находятся у него."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Жонглёр клинками атакует один раз за каждый кинжал, который у него есть."
+          ]
+        },
+        {
+          "name": "Кинжал",
+          "entries": [
+            "{@atk mw,rw} {@hit 6} к попаданию, досягаемость 5 фт. или дистанция 15/30 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона в рукопашной, или 6 ({@damage 1d4 + 4}) колющего урона на расстоянии."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/LYrMweC.png",
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Blade Juggler|https://ravnicacardsconverted.tumblr.com/post/612221643017830400/join-the-ravnica-cards-converted-discord-and-come}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/XYRC47m.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Телохранитель",
+      "shortName": "Телохранитель",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "15d8 + 30",
+        "average": 97
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 15,
+      "int": 10,
+      "wis": 12,
+      "cha": 13,
+      "save": {
+        "con": "+4"
+      },
+      "skill": {
+        "perception": "+4",
+        "athletics": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Часовой",
+          "entries": [
+            "Существа вызывают атаки по возможности, покидая зону досягаемости телохранителя, даже если они совершили Отход. Когда телохранитель попадает по существу атакой по возможности, скорость этого существа становится равной 0 до конца хода."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Телохранитель совершает три атаки длинным мечом."
+          ]
+        },
+        {
+          "name": "Длинный меч",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона, или 8 ({@damage 1d10 + 3}) рубящего урона при использовании двумя руками."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Контратака",
+          "entries": [
+            "Когда существо в пределах 5 фт. от телохранителя атакует существо, отличное от телохранителя, телохранитель может совершить атаку по этому существу."
+          ]
+        },
+        {
+          "name": "Парирование",
+          "entries": [
+            "В ответ на попадание рукопашной атакой телохранитель может добавить 3 КД к своему классу доспеха. Для этого он должен держать рукопашное оружие и видеть атакующего."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/GUSc2Ob.png",
+      "attachedItems": [
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Bodyguard (dandwiki)|https://www.dandwiki.com/wiki/Bodyguard_(5e_Creature)}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/2DMorEY.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Трактирный буян (дварф)",
+      "shortName": "Трактирный буян (дварф)",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        11
+      ],
+      "hp": {
+        "formula": "2d8 + 4",
+        "average": 13
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 14,
+      "dex": 12,
+      "con": 14,
+      "int": 9,
+      "wis": 10,
+      "cha": 9,
+      "skill": {
+        "intimidation": "+2"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "languages": [
+        "Общий",
+        "Дварфийский"
+      ],
+      "cr": "1/8",
+      "trait": [
+        {
+          "name": "Импровизированное оружие",
+          "entries": [
+            "Буян может подобрать импровизированное оружие из окружения, например разбитую бутылку или ножку стола. Он может использовать своё действие «Удар без оружия» с этим оружием, но тип урона может измениться (разбитая бутылка наносит колющий урон вместо дробящего)."
+          ]
+        },
+        {
+          "name": "Борец",
+          "entries": [
+            "Буян имеет преимущество на проверки Атлетики, чтобы толкнуть существо, и может волочить или нести {@condition grappled} существо с собой на полной скорости, пока размер существа не превышает Средний."
+          ]
+        },
+        {
+          "name": "Дварфийская стойкость",
+          "entries": [
+            "Буян имеет преимущество на спасброски от яда и сопротивление урону ядом."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Удар без оружия",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
+            "Если цель — существо Большого размера или меньше, оно становится {@condition grappled} (освобождение {@dc 12}). Пока этот захват не окончен, буян может атаковать только {@condition grappled} существо и имеет преимущество на броски атаки по нему."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/YefhAGw.png",
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "D"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Tavern Brawler (Sailor)|https://www.reddit.com/r/dndnext/comments/4j1fqv/monsters_tavern_brawler_and_the_rat_king/}",
+          "{@b Всегда рвётся в драку.} У него есть всё, чтобы устроить драку в баре, достойную кино: он может перемещать схваченную цель на полной скорости по стойке бара (по пути опрокидывая напитки) и виртуозно швыряет бедолаг через столы или в стены. Он одинаково хорошо дерётся кулаками или, отломав ножку стула, размахивает ею как дубиной! Этот Трактирный буян — дварф, но при небольших изменениях им может быть любая раса."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/YefhAGw.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Трактирный буян (человек)",
+      "shortName": "Трактирный буян",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        11
+      ],
+      "hp": {
+        "formula": "2d8 + 4",
+        "average": 13
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 12,
+      "con": 14,
+      "int": 9,
+      "wis": 10,
+      "cha": 9,
+      "passive": 10,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "1/8",
+      "trait": [
+        {
+          "name": "Импровизированное оружие",
+          "entries": [
+            "Буян может подобрать импровизированное оружие из окружения, например разбитую бутылку или ножку стола. Он может использовать своё действие «Удар без оружия» с этим оружием, но тип урона может измениться (разбитая бутылка наносит колющий урон вместо дробящего)."
+          ]
+        },
+        {
+          "name": "Борец",
+          "entries": [
+            "Буян имеет преимущество на проверки Атлетики, чтобы толкнуть существо, и может волочить или нести {@condition grappled} существо с собой на полной скорости, пока размер существа не превышает Средний."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Удар без оружия",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
+            "Если цель — существо Большого размера или меньше, оно становится {@condition grappled} (освобождение {@dc 12}). Пока этот захват не окончен, буян может атаковать только {@condition grappled} существо и имеет преимущество на броски атаки по нему."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/2oLE9nU.png",
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Tavern Brawler (Sailor)|https://www.reddit.com/r/dndnext/comments/4j1fqv/monsters_tavern_brawler_and_the_rat_king/}",
+          "Всегда рвётся в драку. У него есть всё, чтобы устроить драку в баре, достойную кино: он может перемещать схваченную цель на полной скорости по стойке бара (по пути опрокидывая напитки) и виртуозно швыряет бедолаг через столы или в стены. Он одинаково хорошо дерётся кулаками или, отломав ножку стула, размахивает ею как дубиной! Этот Трактирный буян — дварф, но при небольших изменениях им может быть любая раса."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/2oLE9nU.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Городской стражник",
+      "shortName": "Городской стражник",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "Breastplate"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "5d8 + 5",
+        "average": 27
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 14,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "skill": {
+        "athletics": "+4"
+      },
+      "passive": 10,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Воинское превосходство",
+          "entries": [
+            "Один раз в ход стражник может нанести дополнительно 7 ({@damage 2d6}) урона существу, по которому попал атакой оружием, если это существо находится в пределах 5 футов от союзника стражника, не являющегося {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Пика",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Лёгкий арбалет",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, досягаемость 100/400 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона.",
+            "{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для дальнобойной атаки, только если у вас есть боеприпасы, чтобы выстрелить из него. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Достать боеприпас из колчана, сумки или другого контейнера — часть атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на обыскивание поля боя. Если вы используете оружие со свойством «боеприпасы» для рукопашной атаки, вы рассматриваете это оружие как импровизированное (см. «Импровизированное оружие» ниже в разделе). Пращу нужно зарядить, чтобы нанести ею урон таким образом."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/T90LIP5.png",
+      "attachedItems": [
+        "light crossbow|phb",
+        "pike|phb"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RCH",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link City Guard|https://www.5esrd.com/gamemastering/monsters-foes/npc/guards-city-watch-npcs/city-watch-captain-3pp/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/T90LIP5.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Командир городской стражи",
+      "shortName": "Командир городской стражи",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "Plate",
+            "Shield"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "11d8 + 22",
+        "average": 71
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 14,
+      "int": 13,
+      "wis": 14,
+      "cha": 15,
+      "save": {
+        "wis": "+5",
+        "cha": "+5"
+      },
+      "skill": {
+        "athletics": "+6",
+        "intimidation": "+5"
+      },
+      "passive": 12,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "10",
+      "trait": [
+        {
+          "name": "Воинское превосходство",
+          "entries": [
+            "Один раз в ход военный командир может нанести дополнительно 10 (3d6) урона существу, по которому попал атакой оружием, если это существо находится в пределах 5 футов от союзника военного командира, не являющегося {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Командир совершает три рукопашные или две дальнобойные атаки."
+          ]
+        },
+        {
+          "name": "Длинный меч (одной рукой)",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Длинный меч (двумя руками)",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Метательное копьё",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
+          ]
+        },
+        {
+          "name": "Метательное копьё (бросок)",
+          "entries": [
+            "{@atk rw} {@hit 6} к попаданию, досягаемость 30/120 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
+          ]
+        },
+        {
+          "name": "Командование (перезаряжается после короткого или продолжительного отдыха)",
+          "entries": [
+            "В течение 1 минуты командир может отдавать особый приказ или предупреждение всякий раз, когда не враждебное существо, которое он видит в пределах 30 футов от него, совершает бросок атаки или спасбросок. Существо может добавить d4 к своему броску, если оно способно слышать и понимать командира. Существо может получать пользу только от одной кости «Командования» за раз. Этот эффект оканчивается, если командир {@condition incapacitated}."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Парирование",
+          "entries": [
+            "Командир добавляет +2 КД против рукопашной атаки, которая обычно попала бы по нему. Для этого командир должен видеть атакующего и владеть рукопашным оружием."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/IxTylof.png",
+      "attachedItems": [
+        "javelin|phb",
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link City Guard|https://www.pinterest.es/pin/AVgoHUmwjQUrTKFX0Ibws-szXiveyrXK_IFeXeZfj_6cvJ9U8Dmb7Sg/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/IxTylof.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Капитан городской стражи",
+      "shortName": "Капитан городской стражи",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "Scale Mail"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "14d8 + 28",
+        "average": 91
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 16,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 13,
+      "skill": {
+        "perception": "+2"
+      },
+      "passive": 12,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Тактическое чутьё",
+          "entries": [
+            "Капитан городской стражи имеет преимущество на броски инициативы. Солдаты городской стражи под командованием капитана действуют в том же порядке инициативы, что и капитан."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Капитан городской стражи совершает две атаки рапирой и одну атаку кинжалом. Капитан может заменить одну атаку рапирой обезоруживающей атакой."
+          ]
+        },
+        {
+          "name": "Рапира",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Кинжал",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
+          ]
+        },
+        {
+          "name": "Кинжал (бросок)",
+          "entries": [
+            "{@atk rw} {@hit 5} к попаданию, досягаемость 20/60 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) колющего урона."
+          ]
+        },
+        {
+          "name": "Лёгкий арбалет",
+          "entries": [
+            "{@atk rw} {@hit 5} к попаданию, досягаемость 80/320 футов, одна цель. {@h}5 ({@damage 1d8 + 3}) колющего урона.",
+            "{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для дальнобойной атаки, только если у вас есть боеприпасы, чтобы выстрелить из него. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Достать боеприпас из колчана, сумки или другого контейнера — часть атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на обыскивание поля боя. Если вы используете оружие со свойством «боеприпасы» для рукопашной атаки, вы рассматриваете это оружие как импровизированное (см. «Импровизированное оружие» ниже в разделе). Пращу нужно зарядить, чтобы нанести ею урон таким образом."
+          ]
+        },
+        {
+          "name": "Разоружающая атака",
+          "entries": [
+            "{@atk mw} +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: цель должна преуспеть в спасброске Силы Сл 13, иначе выронит один удерживаемый предмет на выбор капитана городской стражи. Предмет падает на расстоянии до 10 футов от цели в место, выбранное капитаном."
+          ]
+        },
+        {
+          "name": "Приказ атаковать (1/день)",
+          "entries": [
+            "Каждое существо на выбор капитана городской стражи в пределах 30 футов от него, способное его слышать, совершает одну рукопашную или дальнобойную атаку оружием в качестве реакции. Этот человек легко мог бы оказаться по другую сторону закона, но ему нравится, как он выглядит в форме городской стражи — и как на него смотрят горожане, когда он идёт по улице во главе патруля. С длинными усами и лихо заломленным колпаком он, без сомнения, выглядит щеголевато и статно. Будучи опытным следователем, капитан городской стражи не боится обнажить клинок, чтобы положить конец угрозе своему городу."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/T90LIP5.png",
+      "attachedItems": [
+        "dagger|phb",
+        "light crossbow|phb",
+        "rapier|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link City Guard|https://www.5esrd.com/gamemastering/monsters-foes/npc/guards-city-watch-npcs/city-watch-captain-3pp/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/T90LIP5.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Культист",
+      "shortName": "Культист",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "4d8 + 4",
+        "average": 22
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 7,
+      "wis": 12,
+      "cha": 6,
+      "save": {
+        "dex": "+3"
+      },
+      "skill": {
+        "stealth": "+3"
+      },
+      "passive": 11,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "1/4",
+      "trait": [
+        {
+          "name": "Разное оружие",
+          "entries": [
+            "Культисты известны тем, что используют различные виды оружия под свои нужды. Культист может заменить свой короткий меч на любое дальнобойное или рукопашное оружие, которое сумел раздобыть, но при этом не считается владеющим им."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Короткий меч",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) рубящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/p9JhX2b.png",
+      "attachedItems": [
+        "shortsword|phb"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Cultist|https://valldoesdnd.tumblr.com/image/148703473015}",
+          "Обычный культист — не повод для беспокойства умудрённого искателя приключений. Они не храбры и не выносливы. Однако они очень преданы божеству, которому, как полагают, поклоняются, и это может сделать их проблемой в большом количестве.",
+          "Опасные ритуалы, тайные секты и закулисные делишки — всё это свидетельства активности культистов в округе. Умным искателям приключений стоит искоренить такую деятельность, пока фанатичные глупцы не стали слишком многочисленными и самоуверенными или, что хуже, случайно (или намеренно) не выпустили на ничего не подозревающий мир куда более ужасные и древние ужасы."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/RdBa1Z6.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Агент Тёмного Клинка",
+      "shortName": "Агент Тёмного Клинка",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "13d8 + 16",
+        "average": 89
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 16,
+      "con": 11,
+      "int": 10,
+      "wis": 15,
+      "cha": 14,
+      "skill": {
+        "stealth": "+8",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Наблюдение, 2-й уровень",
+          "entries": [
+            "Один раз в день Агент Тёмного Клинка может активировать Наблюдение. При этом он видит любой живой организм в радиусе 20 футов. Если он сосредотачивается на существе, которое видит, или преуспевает в проверке Мудрости {@dc 15}, чтобы сосредоточиться на известном ему существе. Он способен видеть любые физические и магические следы, оставленные им, — например, отпечатки шагов или энергию от сотворённых заклинаний. Это длится 2 минуты. При допросе это существо будет огрызаться вместо ответов."
+          ]
+        },
+        {
+          "name": "Навык наблюдения",
+          "entries": [
+            "Пока Агент Тёмного Клинка использует свою способность Наблюдение, он наносит дополнительно {@damage 1d8} некротического урона; этот урон уменьшает максимум хитов поражённого существа. Кроме того, каждый раз, когда Агент Тёмного Клинка успешно попадает по существу, он восстанавливает один раунд наблюдения."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Агент Тёмного Клинка совершает две атаки кинжалами или две атаки метательными кинжалами."
+          ]
+        },
+        {
+          "name": "Кинжал",
+          "entries": [
+            "{@atk mw,rw} {@hit 5} к попаданию, досягаемость 5 фт. или дистанция 30/60 фт., одна цель. {@h}5 ({@damage 1d4}) колющего урона в рукопашной, или 5 ({@damage 1d4}) колющего урона на расстоянии."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/VgBuPd7.png",
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Darkblade Agents|https://www.reddit.com/r/Pauper/comments/9fixlr/grn_darkblade_agent/} — самый распространённый тип полевых агентов Димиров. Хотя они умеют убивать, это не их главная цель. Они ведут разведку и выполняют базовую шпионскую работу. Поэтому, если их не раскрыли, они скорее всего сбегут с места событий, а не начнут открытый бой."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/MyzhXcr.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Элитный задержатель",
+      "shortName": "Элитный задержатель",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any"
+        ]
+      },
+      "alignment": [
+        "NX",
+        "NY",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "13d8 + 39",
+        "average": 97
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 10,
+      "con": 17,
+      "int": 12,
+      "wis": 14,
+      "cha": 14,
+      "skill": {
+        "athletics": "+6",
+        "intimidation": "+4"
+      },
+      "passive": 12,
+      "languages": [
+        "Общий",
+        "And any other two language"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Несмертельный боец",
+          "entries": [
+            "Когда Элитный задержатель атакует несмертельно, атака наносит дополнительную кость урона."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Элитный задержатель совершает две атаки боевым молотом."
+          ]
+        },
+        {
+          "name": "Боевой молот",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d12 + 4}) дробящего урона, или 10 ({@damage 1d12 + 4}) дробящего урона при использовании двумя руками."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/jtUIEh0.png",
+      "attachedItems": [
+        "warhammer|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Elite Arrester|https://ravnicacardsconverted.tumblr.com/post/620214122202660864/join-the-ravnica-cards-converted-discord-and-come}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/dl03zFo.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Капитан стражи",
+      "shortName": "Капитан стражи",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "Chain Shirt",
+            "Shield"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "7d8 + 14",
+        "average": 45
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 14,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 13,
+      "save": {
+        "wis": "+3"
+      },
+      "skill": {
+        "insight": "+3",
+        "perception": "+3",
+        "persuasion": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1",
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Капитан совершает две рукопашные атаки."
+          ]
+        },
+        {
+          "name": "Длинный меч (одной рукой)",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Длинный меч (двумя руками)",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Короткий лук",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, досягаемость 80/320 футов, одна цель. {@h}5 ({@damage 1d6}) колющего урона.",
+            "{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
+            "Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
+          ]
+        },
+        {
+          "name": "Лидерство (восстанавливается после короткого или продолжительного отдыха)",
+          "entries": [
+            "В течение 1 минуты капитан может отдавать особый приказ или предупреждение всякий раз, когда не враждебное существо, которое он видит в пределах 30 футов от него, совершает бросок атаки или спасбросок. Существо может добавить {@dice d4} к своему броску, если оно способно слышать и понимать капитана. Существо может получать пользу только от одной кости «Командования» за раз. Этот эффект оканчивается, если капитан {@condition incapacitated}. (Существо со состоянием {@condition incapacitated} не может совершать действия или реакции.)"
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/q52gtpy.png",
+      "attachedItems": [
+        "longsword|phb",
+        "shortbow|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Guard captains (dandwiki)|https://www.dandwiki.com/wiki/Guard_Captain_(5e_Creature)}",
+          "Капитаны стражи — особенно влиятельные стражники, фактически на одну ступень выше в своей командной цепи. Один капитан может иметь власть над двумя-двадцатью стражниками более низкого ранга. Охраняя большую территорию внушительным отрядом, капитан стремится занять центральную позицию, откуда приказы можно отдавать наиболее эффективно. Если капитан приносит присягу королевству или другой крупной организации, он, вероятно, подчиняется рыцарям, генералам или высокородным дворянам."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/q52gtpy.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Элитный стражник, простой",
+      "shortName": "Элитный стражник, простой",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "Chain Shirt",
+            "Shield"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 7",
+        "average": 18
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 15,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "acrobatics": "+5",
+        "athletics": "+5",
+        "perception": "+5"
+      },
+      "passive": 14,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/8",
+      "action": [
+        {
+          "name": "Копьё (одной рукой)",
+          "entries": [
+            "{@atk mw} {@hit 1} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
+          ]
+        },
+        {
+          "name": "Копьё (метательное)",
+          "entries": [
+            "{@atk rw} {@hit 1} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
+          ]
+        },
+        {
+          "name": "Копьё (двумя руками)",
+          "entries": [
+            "{@atk mw} {@hit 1} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/LMMbkIi.png",
+      "attachedItems": [
+        "spear|phb"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "Простой элитный стражник"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/LMMbkIi.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Стражник, простой",
+      "shortName": "Стражник, простой",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "Chain Shirt",
+            "Shield"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 2",
+        "average": 11
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "perception": "+2"
+      },
+      "passive": 12,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/8",
+      "action": [
+        {
+          "name": "Копьё",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
+          ]
+        },
+        {
+          "name": "Короткий меч",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d6}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/e9T053Y.png",
+      "attachedItems": [
+        "shortsword|phb",
+        "spear|phb"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "Простой стражник"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/e9T053Y.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Стражник с луком, простой",
+      "shortName": "Стражник с луком, простой",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "Chain Shirt",
+            "Shield"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 2",
+        "average": 11
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "perception": "+2"
+      },
+      "passive": 12,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/8",
+      "action": [
+        {
+          "name": "Копьё",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
+          ]
+        },
+        {
+          "name": "Короткий лук",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, досягаемость 80/320 футов, одна цель. {@h}4 ({@damage 1d6+1}) колющего урона.",
+            "{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
+            "Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/kAkS895.png",
+      "attachedItems": [
+        "shortbow|phb",
+        "spear|phb"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "Стражник с луком"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/kAkS895.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Служанка, или проститутка, или куртизанка",
+      "shortName": "Служанка, или проститутка, или куртизанка",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 2",
+        "average": 11
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 15,
+      "con": 12,
+      "int": 12,
+      "wis": 13,
+      "cha": 14,
+      "skill": {
+        "perception": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "1/2",
+      "action": [
+        {
+          "name": "Кинжал",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 2}) рубящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/Jria7rW.png",
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link HandMaiden|https://dnd-5e-homebrew.tumblr.com/post/147716547969/princess-class-by-by-impersonater/amp}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/PH17sG3.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Верховный жрец солнца",
+      "shortName": "Верховный жрец солнца",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        12,
+        {
+          "ac": 15,
+          "condition": "с {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 75,
+        "formula": "10d10 + 20"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 15,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 16,
+      "skill": {
+        "deception": "+5",
+        "intimidation": "+5",
+        "religion": "+2"
+      },
+      "passive": 10,
+      "resist": [
+        "fire",
+        "radiant"
+      ],
+      "conditionImmune": [
+        "blinded"
+      ],
+      "languages": [
+        "Общий",
+        "Игнан"
+      ],
+      "cr": "3",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Верховный жрец — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Харизма (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию атаками заклинаниями). Он знает следующие заклинания чародея:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell control flames|xge}",
+                "{@spell create bonfire|xge}",
+                "{@spell fire bolt}",
+                "{@spell light}",
+                "{@spell minor illusion}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell burning hands}",
+                "{@spell chromatic orb}",
+                "{@spell mage armor}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell flame blade}",
+                "{@spell scorching ray}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell daylight}",
+                "{@spell fireball}"
+              ],
+              "slots": 2
+            },
+            "4": {
+              "spells": [
+                "{@spell fire shield}",
+                "{@spell wall of fire}"
+              ],
+              "slots": 2
+            },
+            "5": {
+              "spells": [
+                "{@spell immolation|XGE}",
+                "{@spell ivaldi|COMSpells}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Сияние солнца",
+          "entries": [
+            "Вы изучаете заговор {@spell produce flame}, и он не учитывается в вашем количестве известных заговоров жреца. Кроме того, всякий раз, когда вы наносите урон огнём или излучением, вы можете изменить его с одного на другое."
+          ]
+        },
+        {
+          "name": "Божественный удар",
+          "entries": [
+            "Вы получаете способность наполнять свои удары оружием пылающим пламенем. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительно {@damage 1d8} урона огнём."
+          ]
+        },
+        {
+          "name": "Покров пустыни",
+          "entries": [
+            "Вы получаете сопротивление урону огнём или урону излучением и можете менять это сопротивление 1-минутным ритуалом в молитве. Кроме того, вы не можете быть {@condition blinded}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Кинжал",
+          "entries": [
+            "{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Скимитар",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Солнечный удар",
+          "entries": [
+            "Действием вы можете воззвать к мощи солнца, чтобы ударить в точку в пределах 30 футов от вас. Существа в пределах 5 футов от этой точки должны совершить спасбросок Ловкости, получая {@damage 1d10} + ваш уровень жреца урона огнём и становясь {@condition blinded} на 1 минуту при провале спасброска, или половину при успехе, не становясь {@condition blinded}. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
+          ]
+        },
+        {
+          "name": "Восславь солнце!",
+          "entries": [
+            "Действием вы можете принять позу восхваления солнца, воскликнув «Восславь солнце!». В течение 1 минуты количество союзных существ, равное вашему модификатору Мудрости (минимум 1), в пределах 60 футов от вас наносят {@dice 1d8} урона огнём или излучением (на их выбор) за одну рукопашную атаку в ход и получают временные хиты, равные вашему уровню жреца."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/LYWcWI5.png",
+      "attachedItems": [
+        "dagger|phb",
+        "scimitar|phb"
+      ],
+      "languageTags": [
+        "C",
+        "IG"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "A",
+        "C",
+        "F",
+        "I",
+        "L",
+        "T"
+      ],
+      "spellcastingTags": [
+        "CS"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity"
+      ],
+      "hasToken": true,
+      "fluff": {
+        "entries": [
+          "На основе {@link Cleric of Sun Domain|https://blackbandos-homebrew.fandom.com/wiki/Solar_Domain_(5e_Cleric_Archetype) }"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/G4NF1W4.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Янычар",
+      "shortName": "Янычар",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item leather armor|phb}",
+            "{@item scimitar|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d8 + 20",
+        "average": 65
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 18,
+      "con": 14,
+      "int": 12,
+      "wis": 15,
+      "cha": 12,
+      "skill": {
+        "acrobatics": "+8",
+        "athletics": "+4",
+        "intimidation": "+3"
+      },
+      "passive": 12,
+      "languages": [
+        "любые три языка"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Мастерство клинка",
+          "entries": [
+            "Когда янычар попадает своим скимитаром, он бросает одну дополнительную кость урона и добавляет её к урону атаки (уже включено в атаку)."
+          ]
+        },
+        {
+          "name": "Защита клинком",
+          "entries": [
+            "Янычар получает от своего скимитара те же преимущества, что и от щита."
+          ]
+        },
+        {
+          "name": "Дервиш",
+          "entries": [
+            "В течение хода янычара, если он совершает рукопашную атаку по существу, это существо не может совершать по нему атаки по возможности до конца хода янычара."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Янычар совершает три атаки: одну когтистой рукавицей и две скимитаром."
+          ]
+        },
+        {
+          "name": "Скимитар",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Когтистая рукавица",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона. Если цель — существо, не являющееся нежитью или конструктом, она должна преуспеть в спасброске Телосложения {@dc 15}, иначе теряет 2 ({@dice 1d4}) хита в конце каждого своего хода, пока она или существо в пределах 5 футов от неё не потратит действие, чтобы остановить кровотечение. Рана также закрывается, если цель получает магическое лечение. Каждый раз, когда янычар попадает по раненой цели атакой оружием, урон от раны увеличивается на 2 ({@dice 1d4})."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Отражение атаки",
+          "entries": [
+            "Когда враждебное существо промахивается по янычару рукопашной атакой оружием, янычар может заставить эту атаку попасть по одному существу на свой выбор, отличному от атакующего, которое он видит в пределах 5 футов от себя."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/la8jvBh.png",
+      "attachedItems": [
+        "scimitar|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Janissary|https://www.reddit.com/r/monsteraday/comments/ab1er1/janissary/?utm_medium=android_app&utm_source=share}",
+          "«Танцевать с дьяволом? Лучше вести.»",
+          "— Янычар Экрем",
+          "Янычары — элитнейшие из солдат. Для них клинки — продолжение тела: они крутят ими без усилий, перенаправляя атаки, которые обычно попали бы по ним, на других. Поговорка «лучшая защита — хорошее нападение» применима ко всем воинам, но для янычара она не значит ничего, ведь его клинки, словно щиты, без усилий отражают атаки. Своими когтистыми рукавицами они наносят глубокие раны противникам, заставляя тех либо сосредоточиться на ранах, от которых они погибнут, либо на битве с кружащимся дьяволом. Это сочетание энтузиазма и мастерства привело к тому, что многие были сражены их танцующими клинками."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/Py0VWh3.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ниндзя",
+      "shortName": "Ниндзя",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d8 + 20",
+        "average": 65
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 12,
+      "dex": 18,
+      "con": 14,
+      "int": 12,
+      "wis": 16,
+      "cha": 10,
+      "save": {
+        "dex": "+10",
+        "wis": "+6"
+      },
+      "skill": {
+        "acrobatics": "+7",
+        "deception": "+3",
+        "sleight of hand": "+7",
+        "stealth": "+7"
+      },
+      "passive": 13,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Уклонение",
+          "entries": [
+            "Если ниндзя подвергается эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить только половину урона, при успехе ниндзя вместо этого не получает урона, а при провале получает только половину урона."
+          ]
+        },
+        {
+          "name": "Теневая скрытность",
+          "entries": [
+            "Находясь в тусклом свете или темноте, ниндзя может совершить действие «Скрыться» бонусным действием."
+          ]
+        },
+        {
+          "name": "Защита без доспехов",
+          "entries": [
+            "Пока ниндзя не носит доспехов и не использует щит, его КД включает модификатор Мудрости."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Ниндзя совершает две атаки оружием."
+          ]
+        },
+        {
+          "name": "Короткие мечи",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом."
+          ]
+        },
+        {
+          "name": "Дротик",
+          "entries": [
+            "{@atk rw} {@hit 7} к попаданию, дистанция 20/60 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона, плюс 7 ({@damage 2d6}) урона ядом."
+          ]
+        },
+        {
+          "name": "Дымовая бомба (1/день)",
+          "entries": [
+            "Ниндзя бросает дымовую бомбу в точку на расстоянии до 60 фт. Область в радиусе 5 фт. от места удара немедленно становится сильно заслонённой. Умеренный ветер (не менее 10 миль в час) рассеивает дым за 4 раунда; сильный ветер (20 и более миль в час) рассеивает его за один раунд. В противном случае дым рассеивается через 1 минуту."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Отражение снаряда",
+          "entries": [
+            "В ответ на попадание дальнобойным оружием ниндзя отражает снаряд. Получаемый им от атаки урон уменьшается на {@dice 1d10 + 4}. Если урон уменьшен до 0, ниндзя ловит снаряд, если он достаточно мал, чтобы уместиться в одной руке, и у ниндзя есть свободная рука."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/sYctZGY.png",
+      "attachedItems": [
+        "dart|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Ninja|https://www.pinterest.se/pin/232920611966519039/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/s4880uv.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Капитан пиратов",
+      "shortName": "Капитан пиратов",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "C",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "18d8 + 18",
+        "average": 99
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 20,
+        "swim": {
+          "number": 20,
+          "condition": "когда Транспорт (водный) + 10 фт."
+        }
+      },
+      "str": 10,
+      "dex": 18,
+      "con": 13,
+      "int": 15,
+      "wis": 9,
+      "cha": 17,
+      "skill": {
+        "acrobatics": "+7",
+        "athletics": "+3",
+        "deception": "+6"
+      },
+      "passive": 9,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Лёгкая поступь",
+          "entries": [
+            "Капитан может совершать действие «Рывок» или «Отход» бонусным действием в каждый свой ход."
+          ]
+        },
+        {
+          "name": "Морские ноги",
+          "entries": [
+            "Капитан имеет преимущество на проверки Силы и Ловкости, совершаемые стоя на плавучем средстве (как описано на странице 157 Книги игрока)."
+          ]
+        },
+        {
+          "name": "Скрытая атака (1/ход)",
+          "entries": [
+            "Капитан наносит дополнительно 14 ({@damage 6d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника капитана, не являющегося {@condition incapacitated}, и капитан не имеет помехи на бросок атаки."
+          ]
+        },
+        {
+          "name": "Отточенная защита",
+          "entries": [
+            "Капитан наносит дополнительно 14 ({@damage 6d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 футов от союзника капитана, не являющегося {@condition incapacitated}, и капитан не имеет помехи на бросок атаки."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Капитан совершает три атаки: одну хлыстом и две рапирой."
+          ]
+        },
+        {
+          "name": "Рапира",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
+          ]
+        },
+        {
+          "name": "Хлыст",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) рубящего урона. Если цель — существо Среднего размера или меньше, она должна совершить спасбросок Силы {@dc 15}, иначе будет сбита {@condition prone}."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal"
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/FbkKBel.png",
+      "attachedItems": [
+        "rapier|phb",
+        "whip|phb"
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "incapacitated",
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Pirate Captain - 5e monster (CR7ish..)|https://www.reddit.com/r/UnearthedArcana/comments/8bd71d/pirate_captain_5e_monster_cr7ish/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/Qk1sugy.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Жрец солнца",
+      "shortName": "Жрец солнца",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item splint armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "7d8 + 14"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 12,
+      "wis": 10,
+      "cha": 16,
+      "skill": {
+        "intimidation": "+5",
+        "religion": "+3",
+        "persuasion": "+5"
+      },
+      "passive": 10,
+      "resist": [
+        "fire",
+        "radiant"
+      ],
+      "conditionImmune": [
+        "blinded"
+      ],
+      "languages": [
+        "Общий",
+        "Терран"
+      ],
+      "cr": "3",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Жрец — заклинатель 5-го уровня. Его базовой характеристикой для заклинаний является Харизма (Сл спасброска от заклинаний {@dc 13}, {@hit 5} к попаданию атаками заклинаниями). Он знает следующие заклинания чародея:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell acid splash}",
+                "{@spell blade ward}",
+                "{@spell light}",
+                "{@spell mending}",
+                "{@spell mold earth|XGE}",
+                "{@spell produce flame}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell burning hands}",
+                "{@spell chromatic orb}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell flame blade}",
+                "{@spell scorching ray}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell daylight}",
+                "{@spell fireball}"
+              ],
+              "slots": 2
+            },
+            "4": {
+              "spells": [
+                "{@spell fire shield}",
+                "{@spell wall of fire}"
+              ],
+              "slots": 2
+            },
+            "5": {
+              "spells": [
+                "{@spell immolation|XGE}",
+                "{@spell ivaldi|COMSpells}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Тяжёлый доспех",
+          "entries": [
+            "Вы получаете владение тяжёлыми доспехами."
+          ]
+        },
+        {
+          "name": "Сияние солнца",
+          "entries": [
+            "Вы изучаете заговор {@spell produce flame}, и он не учитывается в вашем количестве известных заговоров жреца. Кроме того, всякий раз, когда вы наносите урон огнём или излучением, вы можете изменить его с одного на другое."
+          ]
+        },
+        {
+          "name": "Божественный удар",
+          "entries": [
+            "Вы получаете способность наполнять свои удары оружием пылающим пламенем. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести цели дополнительно {@damage 1d8} урона огнём."
+          ]
+        },
+        {
+          "name": "Покров пустыни",
+          "entries": [
+            "Вы получаете сопротивление урону огнём или урону излучением и можете менять это сопротивление 1-минутным ритуалом в молитве. Кроме того, вы не можете быть {@condition blinded}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Жрец совершает две рукопашные атаки."
+          ]
+        },
+        {
+          "name": "Глефа",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 10 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Солнечный удар",
+          "entries": [
+            "Действием вы можете воззвать к мощи солнца, чтобы ударить в точку в пределах 30 футов от вас. Существа в пределах 5 футов от этой точки должны совершить спасбросок Ловкости, получая {@damage 1d10} + ваш уровень жреца урона огнём и становясь {@condition blinded} на 1 минуту при провале спасброска, или половину при успехе, не становясь {@condition blinded}. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект при успехе."
+          ]
+        },
+        {
+          "name": "Восславь солнце!",
+          "entries": [
+            "Действием вы можете принять позу восхваления солнца, воскликнув «Восславь солнце!». В течение 1 минуты количество союзных существ, равное вашему модификатору Мудрости (минимум 1), в пределах 60 футов от вас наносят {@dice 1d8} урона огнём или излучением (на их выбор) за одну рукопашную атаку в ход и получают временные хиты, равные вашему уровню жреца."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Непреклонность",
+          "entries": [
+            "Когда жрец подвергается эффекту, который переместил бы его, сбил бы его {@condition prone} или и то и другое, он может использовать свою реакцию, чтобы не быть ни перемещённым, ни сбитым {@condition prone}."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/4g66KF9.png",
+      "attachedItems": [
+        "glaive|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "T"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "damageTagsSpell": [
+        "A",
+        "C",
+        "F",
+        "I",
+        "L",
+        "T"
+      ],
+      "spellcastingTags": [
+        "CS"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflictSpell": [
+        "prone"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity"
+      ],
+      "hasToken": true,
+      "fluff": {
+        "entries": [
+          "На основе {@link Cleric of Sun Domain|https://blackbandos-homebrew.fandom.com/wiki/Solar_Domain_(5e_Cleric_Archetype) }"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/4BxBJKn.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Шивана — полудракон",
+      "shortName": "Шивана — полудракон",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item scale mail|phb}"
+          ]
+        },
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ],
+          "condition": "в форме дракона"
+        }
+      ],
+      "hp": {
+        "formula": "14d8 + 42",
+        "average": 105
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 50,
+          "condition": "в форме дракона"
+        }
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 10,
+      "wis": 10,
+      "cha": 14,
+      "save": {
+        "con": "+6",
+        "cha": "+5"
+      },
+      "skill": {
+        "athletics": "+7",
+        "perception": "+6"
+      },
+      "senses": [
+        "blindsight 10 ft.",
+        "darkvision 60 ft."
+      ],
+      "passive": 16,
+      "resist": [
+        "fire"
+      ],
+      "languages": [
+        "Общий",
+        "Драконий"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Выгорание",
+          "entries": [
+            "Бонусным действием в свой ход Шивана может испускать пылающее пламя в радиусе 10 фт., которое длится до начала её следующего хода. Существо, начинающее свой ход в этом радиусе, должно преуспеть в спасброске Ловкости {@dc 14}, иначе получит 7 ({@damage 2d6}) урона огнём.",
+            "Пока Шивана находится в форме дракона, цель при провале спасброска получает дополнительно 3 ({@damage 1d6}) урона огнём."
+          ]
+        },
+        {
+          "name": "Убийца драконов",
+          "entries": [
+            "Шивана имеет преимущество на броски атак оружием против драконов. Когда Шивана попадает по дракону атакой оружием, оружие наносит одну дополнительную кость своего урона."
+          ]
+        },
+        {
+          "name": "Ярость дракона",
+          "entries": [
+            "Всякий раз, когда Шивана получает 20 или более урона огнём за один ход, она немедленно восстанавливает израсходованное использование своего действия «Смена облика»."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Шивана атакует дважды когтями. Она может заменить одну из этих атак укусом, если он доступен."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}9 ({@damage 2d4 + 4}) рубящего урона, плюс 3 ({@damage 1d6}) урона огнём."
+          ]
+        },
+        {
+          "name": "Укус (только в форме дракона)",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 10 фт., одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона, плюс 3 ({@damage 1d6}) урона огнём."
+          ]
+        },
+        {
+          "name": "Огненное дыхание {@recharge}",
+          "entries": [
+            "Шивана выпускает огонь в линию длиной 30 футов и шириной 5 футов. Каждое существо в этой области должно совершить спасбросок Ловкости {@dc 14}, получая 28 ({@damage 8d6}) урона огнём при провале или половину этого урона при успехе.",
+            "Пока Шивана находится в форме дракона, область становится конусом длиной 30 футов, а цель получает дополнительно 14 ({@damage 4d6}) урона огнём."
+          ]
+        },
+        {
+          "name": "Смена облика (1/день)",
+          "entries": [
+            "Шивана магически превращается в Большого дракона и может оставаться в этой форме до 1 часа. Её характеристики, кроме размера, в этой форме остаются прежними. Любое снаряжение, которое на ней надето или которое она несёт, не превращается. Шивана возвращается к своему истинному облику, если умирает или теряет сознание ({@condition unconscious}). Она может вернуться к истинному облику бонусным действием в свой ход."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/79ROzTF.png",
+      "senseTags": [
+        "B",
+        "D"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack",
+        "Shapechanger"
+      ],
+      "languageTags": [
+        "C",
+        "DR"
+      ],
+      "damageTags": [
+        "F",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Shyvana - the half-dragon|https://www.reddit.com/r/monsteraday/comments/p9bd5y/shyvana_suffer_the_true_fury_of_a_halfdragon/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/MQOCnQ7.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Сивир, боевая госпожа",
+      "shortName": "Сивир, боевая госпожа",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 24",
+        "average": 78
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 18,
+      "con": 14,
+      "int": 11,
+      "wis": 14,
+      "cha": 15,
+      "save": {
+        "str": "+4",
+        "dex": "+7",
+        "cha": "+5"
+      },
+      "skill": {
+        "athletics": "+4",
+        "investigation": "+3",
+        "persuasion": "+5",
+        "perception": "+5"
+      },
+      "passive": 15,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Особое снаряжение",
+          "entries": [
+            "Сивир владеет скрещённым клинком Чаликар — магическим оружием, дающим бонус +1 к броскам атаки и урона (уже включено в её характеристики). После того как она совершает атаку этим оружием, оно возвращается ей в руку."
+          ]
+        },
+        {
+          "name": "Дитя пустыни",
+          "entries": [
+            "Сивир естественно приспособлена к жаркому климату и автоматически преуспевает в любых спасбросках против эффектов экстремальной жары."
+          ]
+        },
+        {
+          "name": "Быстрота ног",
+          "entries": [
+            "Сивир может бонусным действием в свой ход совершить действие «Рывок»."
+          ]
+        },
+        {
+          "name": "Восход Вознесённых (1/день)",
+          "entries": [
+            "Когда Сивир умирает, она восстанавливает половину своих общих хитов через 1 минуту, если её тело не уничтожено и она не является уроженцем иного плана, чем тот, на котором находится."
+          ]
+        },
+        {
+          "name": "Расхитительница гробниц",
+          "entries": [
+            "Сивир имеет преимущество на проверки характеристик для определения денежной стоимости немагических предметов возрастом более столетия. Кроме того, Сивир имеет преимущество на спасброски Ловкости против вредных эффектов, которые она видит, находясь в древних руинах. Чтобы получить это преимущество, она не может быть {@condition blinded}, {@condition deafened} или {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Сивир совершает две атаки Чаликаром."
+          ]
+        },
+        {
+          "name": "Чаликар",
+          "entries": [
+            "{@atk rw} {@hit 8} к попаданию, дистанция 30/90 фт., одна цель. {@h}11 ({@damage 2d6 + 5}) рубящего урона, и враждебное существо в пределах 10 футов от цели должно преуспеть в спасброске Ловкости {@dc 15}, иначе получит 7 ({@damage 2d6}) рубящего урона. Каждый раз, когда цель проваливает такой спасбросок, Сивир может выбрать новую цель в пределах 10 футов от предыдущей (максимум 6 раз), но не может выбрать одну и ту же цель более одного раза."
+          ]
+        },
+        {
+          "name": "Смертельный бросок",
+          "entries": [
+            "Сивир швыряет свой клинок по линии длиной 30 футов и шириной 5 футов. Каждое существо на линии должно совершить спасбросок Ловкости {@dc 15}, получая 14 ({@damage 4d6}) рубящего урона при провале или половину этого урона при успехе."
+          ]
+        },
+        {
+          "name": "Бесстрашный натиск (1/день)",
+          "entries": [
+            "Сивир и каждое существо на её выбор в пределах 30 футов от неё, способное её слышать, удваивают свою скорость до начала следующего хода Сивир. Затем Сивир может совершить одну атаку бонусным действием."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Щит от заклинаний",
+          "entries": [
+            "Сивир может добавить {@dice 1d10} к спасброску, который совершает против вредного заклинания или иного магического эффекта."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/hNoJBGv.png",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "RW"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Sivir, the Battle Mistress|https://www.reddit.com/r/monsteraday/comments/pi8qbz/sivir_every_problem_has_its_price_every_life_its/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/PFxUHR7.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Солнечный рыцарь",
+      "shortName": "Солнечный рыцарь",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "NX",
+        "C",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item breastplate|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "33d8 + 66",
+        "average": 214
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 14,
+      "int": 12,
+      "wis": 18,
+      "cha": 12,
+      "save": {
+        "con": "+6",
+        "wis": "+8"
+      },
+      "skill": {
+        "insight": "+8",
+        "perception": "+8",
+        "religion": "+7"
+      },
+      "passive": 18,
+      "immune": [
+        "radiant"
+      ],
+      "languages": [
+        "Общий"
+      ],
+      "cr": "10",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Солнечный рыцарь — заклинатель 9-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 16}, +8 к попаданию атаками заклинаниями). Солнечный рыцарь подготовил следующие заклинания:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell resistance}",
+                "{@spell sacred flame}",
+                "{@spell spare the dying}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell bless}",
+                "{@spell cure wounds}",
+                "{@spell sanctuary}",
+                "{@spell shield of faith}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell aid}",
+                "{@spell calm emotions}",
+                "{@spell prayer of healing}",
+                "{@spell zone of truth}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell aura of vitality}",
+                "{@spell crusader's mantle}",
+                "{@spell remove curse}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell aura of life}",
+                "{@spell death ward}",
+                "{@spell guardian of faith}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell circle of power}",
+                "{@spell raise dead}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Озарение (1/день)",
+          "entries": [
+            "Солнечный рыцарь может бонусным действием излучать яркий свет в радиусе 30 фт. и тусклый свет ещё на 30 фт. Этот свет длится 1 минуту и является солнечным светом."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Солнечный рыцарь совершает три атаки сияющим длинным мечом."
+          ]
+        },
+        {
+          "name": "Сияющий длинный меч",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона, плюс 13 ({@damage 3d8}) урона излучением."
+          ]
+        },
+        {
+          "name": "Изгнание нечестивых",
+          "entries": [
+            "Каждое исчадие или нежить, способные видеть или слышать солнечного рыцаря в пределах 30 футов от него, должны преуспеть в спасброске Мудрости {@dc 16}, иначе станут {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Если спасбросок существа успешен или эффект на нём окончился, существо получает иммунитет к «Изгнанию нечестивых» этого рыцаря на следующие 24 часа. Рыцарь может использовать это действие один раз за короткий отдых."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/gFBZnlG.png",
+      "traitTags": [
+        "Illumination"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "R",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "R"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Sun Knight|https://www.pinterest.it/pin/747316131913640012/}",
+          "Наделённые божественной благодатью своего божества, солнечные рыцари — столпы, на которые опираются праведные в борьбе с завесой. Они связаны долгом положить конец существованию злых и порочных существ, таящихся в тенях.",
+          "Маяк надежды. Солнечные рыцари способны пропускать яркость самого солнца через свои святые символы, озаряя самые тёмные уголки мира, чтобы изгнать зло из пределов. Этот жгучий свет выжигает скверну, что прячется во тьме, принося тепло солнечного сияния существам, что избегают его блеска."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/Kv9hRqb.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Бастион",
+      "shortName": "Бастион",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "{@item plate armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "13d8 + 52",
+        "average": 110
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 11,
+      "con": 18,
+      "int": 12,
+      "wis": 14,
+      "cha": 10,
+      "save": {
+        "str": "+7",
+        "con": "+7"
+      },
+      "skill": {
+        "athletics": "+7",
+        "intimidation": "+3"
+      },
+      "passive": 12,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Громила",
+          "entries": [
+            "Рукопашное оружие наносит одну дополнительную кость своего урона, когда Бастион попадает им."
+          ]
+        },
+        {
+          "name": "Укрытие",
+          "entries": [
+            "Союзники в пределах 5 футов от Бастиона получают бонус +2 к своему КД, если Бастион не {@condition prone} и не {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Натиск со щитом",
+          "entries": [
+            "Если Бастион перемещается как минимум на 10 футов по прямой к цели, а затем попадает по ней цепом в тот же ход, цель получает дополнительно 13 ({@dice 3d8}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 15}, иначе будет сбита {@condition prone}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Бастион совершает две атаки оружием."
+          ]
+        },
+        {
+          "name": "Цеп",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Метательное копьё",
+          "entries": [
+            "{@atk mw,rw} {@hit 7} к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) колющего урона в рукопашной, или 11 ({@damage 2d6 + 4}) колющего урона на расстоянии."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Блок",
+          "entries": [
+            "Бастион добавляет +3 КД против атаки, которая обычно попала бы по нему. Для этого Бастион должен видеть атакующего и использовать щит."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/H5EFY84.png",
+      "attachedItems": [
+        "flail|phb",
+        "javelin|phb"
+      ],
+      "traitTags": [
+        "Brute"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link The Bastion|https://deadmanstales.wordpress.com/2018/02/18/the-bastion/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/FTMa0FR.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Вор",
+      "shortName": "Вор",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "4d8 + 0",
+        "average": 18
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 12,
+      "cha": 12,
+      "skill": {
+        "stealth": "+6"
+      },
+      "passive": 11,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/4",
+      "trait": [
+        {
+          "name": "Инструменты",
+          "entries": [
+            "Воровские инструменты +6"
+          ]
+        },
+        {
+          "name": "Хитрое действие",
+          "entries": [
+            "В каждый свой ход вор может использовать бонусное действие, чтобы совершить действие «Рывок», «Отход» или «Скрыться»."
+          ]
+        },
+        {
+          "name": "Скрытая атака (1/ход)",
+          "entries": [
+            "Вор наносит дополнительно 3 ({@damage 1d6}) урона, когда попадает по цели атакой оружием и имеет преимущество на бросок атаки, или когда цель находится в пределах 5 фт. от союзника вора, не являющегося {@condition incapacitated}, и вор не имеет помехи на бросок атаки."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Кинжал",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Кинжал (бросок)",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, дистанция 20/60 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/skDWNAj.png",
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Thief (dandwiki)|https://www.dandwiki.com/wiki/Thief_(5e_Creature)}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/skDWNAj.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ведьма-человек",
+      "shortName": "Ведьма-человек",
+      "source": "COMHumanoid",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "4d8 + 4",
+        "average": 22
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 12,
+      "con": 12,
+      "int": 11,
+      "wis": 12,
+      "cha": 14,
+      "passive": 11,
+      "languages": [
+        "Общий"
+      ],
+      "cr": "3",
+      "action": [
+        {
+          "name": "Боевой посох",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d6 + 1}) дробящего урона, или 5 ({@damage 1d8 + 1}) дробящего урона при использовании двумя руками."
+          ]
+        },
+        {
+          "name": "Электрошок",
+          "entries": [
+            "Знахарь выбирает одно существо в пределах своей досягаемости. Цель должна преуспеть в спасброске Ловкости {@dc 14}. В противном случае цель получает 4 ({@damage 1d8}) урона электричеством и не может совершать реакции до своего следующего хода."
+          ]
+        },
+        {
+          "name": "Луч слабости (2/день)",
+          "entries": [
+            "Знахарь выбирает существо в пределах 50 футов. Цель должна совершить спасбросок Ловкости {@dc 14}. При провале спасброска цель получает 14 ({@damage 4d6}) некротического урона, и, если максимум хитов цели равен 25 или меньше, рукопашные атаки цели наносят только половину урона, а цель имеет помеху на проверки и спасброски Силы и Ловкости. Этот эффект длится 1 минуту."
+          ]
+        },
+        {
+          "name": "Свет",
+          "entries": [
+            "Знахарь касается предмета, заставляя его излучать яркий свет в сфере радиусом 20 фт. и тусклый свет в пределах 40 фт. от сферы. Свет длится 1 час или пока знахарь не использует это действие снова."
+          ]
+        },
+        {
+          "name": "Сопротивление урону (1/день)",
+          "entries": [
+            "Знахарь касается согласного существа, кроме себя, и выбирает тип урона: кислотой, дробящий, холодом, огнём, электричеством, колющий, некротический, рубящий или звуком. Коснувшееся существо получает сопротивление этому типу урона на 1 час."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "forest",
+        "swamp"
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/bM0dJ5D.png",
+      "attachedItems": [
+        "quarterstaff|phb"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B",
+        "L",
+        "N"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Human Witch|https://www.deviantart.com/dizman/art/DnD-Next-Monster-Cards-Human-Witch-404860763}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMHumanoid/HDcVyL8.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

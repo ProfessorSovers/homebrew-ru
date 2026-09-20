@@ -1,882 +1,882 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-	"_meta": {
-		"sources": [
-			{
-				"json": "WANTEDSCORES",
-				"abbreviation": "WANTEDSCORES",
-				"full": "Wanted Scores",
-				"url": "https://www.dmsguild.com/product/266052/Wanted-Scores",
-				"version": "2020.04.12",
-				"authors": [
-					"Michael J Winegar"
-				],
-				"convertedBy": [
-					"p4535992"
-				],
-				"targetSchema": "1.6.3"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1586704492,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "483b8c3cb1"
-	},
-	"monster": [
-		{
-			"name": "Начинающий охотник за головами",
-			"shortName": "Начинающий охотник за головами",
-			"source": "WANTEDSCORES",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"L",
-				"NX",
-				"C",
-				"NY",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 11,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "5d8 + 10",
-				"average": 32
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 15,
-			"dex": 11,
-			"con": 14,
-			"int": 10,
-			"wis": 10,
-			"cha": 11,
-			"skill": {
-				"intimidation": "+2"
-			},
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/2",
-			"trait": [
-				{
-					"name": "Тактика стаи",
-					"entries": [
-						"Начинающие охотники за головами совершают с преимуществом бросок атаки по существу, если хотя бы один союзник охотника находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}"
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Головорез совершает две рукопашные атаки."
-					]
-				},
-				{
-					"name": "Дубинка",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) дробящего урона."
-					]
-				},
-				{
-					"name": "Тяжёлый арбалет",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, дистанция 100/400 футов, одна цель. {@h}5 ({@damage 1d10}) колющего урона.",
-						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
-						"Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/EQTRhfz.png",
-			"attachedItems": [
-				"heavy crossbow|phb"
-			],
-			"traitTags": [
-				"Pack Tactics"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"Начинающий охотник за головами "
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/EQTRhfz.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Маг-охотник за головами",
-			"shortName": "Маг-охотник за головами",
-			"source": "WANTEDSCORES",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"condition": "(15 with {@spell mage armor})"
-				}
-			],
-			"hp": {
-				"formula": "9d8 + 0",
-				"average": 40
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 9,
-			"dex": 14,
-			"con": 11,
-			"int": 17,
-			"wis": 12,
-			"cha": 11,
-			"save": {
-				"int": "+6",
-				"wis": "+4"
-			},
-			"skill": {
-				"arcana": "+6",
-				"history": "+6"
-			},
-			"passive": 11,
-			"languages": [
-				"любые четыре языка"
-			],
-			"cr": "6",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Маг — заклинатель 9-го уровня. Его способность к сотворению заклинаний — Интеллект (Сл спасброска заклинаний {@dc 14}, +6 к попаданию атаками заклинаний). У мага подготовлены следующие заклинания волшебника:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell fire bolt|PHB}",
-								"{@spell light|PHB}",
-								"{@spell message|PHB}",
-								"{@spell ray of frost|PHB}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell detect magic|PHB}",
-								"{@spell disguise self|PHB}",
-								"{@spell mage armor|PHB}",
-								"{@spell magic missile|PHB}",
-								"{@spell sleep|PHB}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell hold person|PHB}",
-								"{@spell ray of enfeeblement|PHB}",
-								"{@spell suggestion|PHB}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell clairvoyance|PHB}",
-								"{@spell counterspell|PHB}",
-								"{@spell fly|PHB}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell greater invisibility|PHB}",
-								"{@spell locate creature|PHB}",
-								"{@spell polymorph|PHB}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell dominate person|PHB}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"action": [
-				{
-					"name": "Посох (одной рукой)",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) дробящего урона."
-					]
-				},
-				{
-					"name": "Посох (двумя руками)",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 2}) дробящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/3JEBOCk.png",
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"B"
-			],
-			"damageTagsSpell": [
-				"C",
-				"F",
-				"O"
-			],
-			"spellcastingTags": [
-				"CW"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"Маг-охотник за головами"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/3JEBOCk.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Капитан стражи",
-			"shortName": "Капитан стражи",
-			"source": "WANTEDSCORES",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"{@item plate armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "8d8 + 16",
-				"average": 52
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 11,
-			"con": 14,
-			"int": 11,
-			"wis": 11,
-			"cha": 15,
-			"save": {
-				"con": "+4",
-				"wis": "+2"
-			},
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Храбрый",
-					"entries": [
-						"Капитан совершает с преимуществом спасброски против того, чтобы стать {@condition frightened}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Капитан совершает две рукопашные атаки."
-					]
-				},
-				{
-					"name": "Длинный меч (одной рукой)",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Длинный меч (двумя руками)",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Лидерство (восстанавливается после короткого или продолжительного отдыха)",
-					"entries": [
-						"В течение 1 минуты Капитан может произносить особую команду или предупреждение всякий раз, когда не враждебное существо, которое он может видеть в пределах 30 футов от себя, совершает бросок атаки или спасбросок.",
-						"Существо может добавить {@dice 1d4} к своему броску при условии, что оно может слышать и понимать Капитана. Существо может получить выгоду только от одной кости Лидерства одновременно. Этот эффект оканчивается, если Капитан {@condition incapacitated}."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Парирование",
-					"entries": [
-						"Капитан добавляет 2 к своему КД против одной рукопашной атаки, которая бы по нему попала. Для этого Капитан должен видеть атакующего и держать рукопашное оружие."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/1JU5dZu.png",
-			"attachedItems": [
-				"longsword|phb"
-			],
-			"actionTags": [
-				"Multiattack",
-				"Parry"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"Капитан стражи "
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/1JU5dZu.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Профессиональный охотник за головами",
-			"shortName": "Профессиональный охотник за головами",
-			"source": "WANTEDSCORES",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item splint armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "9d8 + 18",
-				"average": 58
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 14,
-			"con": 14,
-			"int": 10,
-			"wis": 12,
-			"cha": 10,
-			"skill": {
-				"athletics": "+5",
-				"perception": "+3",
-				"stealth": "+4",
-				"survival": "+3"
-			},
-			"passive": 12,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "3",
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Охотник за головами совершает две атаки длинным мечом. Если у него наготове короткий меч, он также может совершить атаку дубинкой."
-					]
-				},
-				{
-					"name": "Длинный меч (одной рукой)",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Длинный меч (двумя руками)",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Дубинка",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) дробящего урона."
-					]
-				},
-				{
-					"name": "Тяжёлый арбалет",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 100/400 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона.",
-						"{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
-						"Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
-					]
-				},
-				{
-					"name": "Бола",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 30/50 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
-						"Бола — это шнур с грузилами на концах, который метают в ноги убегающей цели. Крупное или меньшее существо, по которому попадают, должно преуспеть в спасброске Ловкости {@dc 13}, иначе станет {@condition grappled}. Проверка Силы {@dc 12}, чтобы разорвать. У болы 4 хита. Охотник за головами может использовать болу во время возможности атаки, даже если цель использовала действие Отход."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/pvOI85B.png",
-			"attachedItems": [
-				"heavy crossbow|phb",
-				"longsword|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"conditionInflict": [
-				"grappled"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"fluff": {
-				"entries": [
-					"Профессиональный охотник за головами"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/pvOI85B.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Городская стража/стражник/солдат",
-			"shortName": "Городская стража/стражник/солдат",
-			"source": "WANTEDSCORES",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item chain shirt|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 2",
-				"average": 11
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 12,
-			"con": 12,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"perception": "+2"
-			},
-			"passive": 12,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/8",
-			"action": [
-				{
-					"name": "Копьё (одной рукой)",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
-					]
-				},
-				{
-					"name": "Копьё (метательное)",
-					"entries": [
-						"{@atk rw} {@hit 3} к попаданию, дистанция 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
-					]
-				},
-				{
-					"name": "Копьё (двумя руками)",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/WacDXEX.png",
-			"attachedItems": [
-				"spear|phb"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"Городская стража/стражник/солдат "
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/WacDXEX.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Ищейка",
-			"shortName": "Ищейка",
-			"source": "WANTEDSCORES",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "3d8 + 3",
-				"average": 16
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 11,
-			"dex": 14,
-			"con": 12,
-			"int": 11,
-			"wis": 13,
-			"cha": 11,
-			"skill": {
-				"nature": "+4",
-				"perception": "+5",
-				"stealth": "+6",
-				"survival": "+5"
-			},
-			"passive": 15,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/2",
-			"trait": [
-				{
-					"name": "Острые зрение и слух",
-					"entries": [
-						"Ищейка совершает с преимуществом проверки Мудрости (Внимательность), полагающиеся на слух или зрение."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Разведчик совершает две рукопашные атаки или две дальнобойные атаки."
-					]
-				},
-				{
-					"name": "Короткий меч",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Длинный лук",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/I6tndeX.png",
-			"attachedItems": [
-				"longbow|phb",
-				"shortsword|phb"
-			],
-			"traitTags": [
-				"Keen Senses"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"Ищейка "
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/I6tndeX.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Стражник-детектив",
-			"shortName": "Стражник-детектив",
-			"source": "WANTEDSCORES",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				12
-			],
-			"hp": {
-				"formula": "6d8 + 0",
-				"average": 27
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 15,
-			"con": 10,
-			"int": 12,
-			"wis": 14,
-			"cha": 16,
-			"skill": {
-				"deception": "+5",
-				"insight": "+4",
-				"persuasion": "+5",
-				"investigation": "+5",
-				"sleight of hand": "+4",
-				"stealth": "+4",
-				"perception": "+6"
-			},
-			"passive": 16,
-			"languages": [
-				"любые два языка"
-			],
-			"cr": "1",
-			"trait": [
-				{
-					"name": "Хитрое действие",
-					"entries": [
-						"Детектив использует бонусное действие для Рывка, Отхода или Засады."
-					]
-				},
-				{
-					"name": "Скрытая атака (1/ход)",
-					"entries": [
-						"Детектив наносит дополнительные 7 ({@damage 2d6}) урона, когда он попадает по цели и совершает бросок атаки с преимуществом, или когда цель находится в пределах 5 футов от союзника, который не {@condition incapacitated}, и у детектива нет помехи на бросок атаки"
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Шпион совершает две рукопашные атаки."
-					]
-				},
-				{
-					"name": "Короткий меч",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/ojYkDkv.png",
-			"attachedItems": [
-				"shortsword|phb"
-			],
-			"traitTags": [
-				"Sneak Attack"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"conditionInflict": [
-				"incapacitated"
-			],
-			"fluff": {
-				"entries": [
-					"Стражник-детектив "
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/ojYkDkv.png"
-						}
-					}
-				]
-			}
-		}
-	]
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "WANTEDSCORES",
+        "abbreviation": "WANTEDSCORES",
+        "full": "Wanted Scores",
+        "url": "https://www.dmsguild.com/product/266052/Wanted-Scores",
+        "version": "2020.04.12",
+        "authors": [
+          "Michael J Winegar"
+        ],
+        "convertedBy": [
+          "p4535992"
+        ],
+        "targetSchema": "1.6.3"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1586704492,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "483b8c3cb1"
+  },
+  "monster": [
+    {
+      "name": "Начинающий охотник за головами",
+      "shortName": "Начинающий охотник за головами",
+      "source": "WANTEDSCORES",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "NX",
+        "C",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "5d8 + 10",
+        "average": 32
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 11,
+      "skill": {
+        "intimidation": "+2"
+      },
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/2",
+      "trait": [
+        {
+          "name": "Тактика стаи",
+          "entries": [
+            "Начинающие охотники за головами совершают с преимуществом бросок атаки по существу, если хотя бы один союзник охотника находится в пределах 5 футов от этого существа и этот союзник не {@condition incapacitated}"
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Головорез совершает две рукопашные атаки."
+          ]
+        },
+        {
+          "name": "Дубинка",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Тяжёлый арбалет",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, дистанция 100/400 футов, одна цель. {@h}5 ({@damage 1d10}) колющего урона.",
+            "{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
+            "Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/EQTRhfz.png",
+      "attachedItems": [
+        "heavy crossbow|phb"
+      ],
+      "traitTags": [
+        "Pack Tactics"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "Начинающий охотник за головами "
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/EQTRhfz.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Маг-охотник за головами",
+      "shortName": "Маг-охотник за головами",
+      "source": "WANTEDSCORES",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "condition": "(15 с {@spell mage armor})"
+        }
+      ],
+      "hp": {
+        "formula": "9d8 + 0",
+        "average": 40
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 11,
+      "int": 17,
+      "wis": 12,
+      "cha": 11,
+      "save": {
+        "int": "+6",
+        "wis": "+4"
+      },
+      "skill": {
+        "arcana": "+6",
+        "history": "+6"
+      },
+      "passive": 11,
+      "languages": [
+        "любые четыре языка"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Маг — заклинатель 9-го уровня. Его способность к сотворению заклинаний — Интеллект (Сл спасброска заклинаний {@dc 14}, +6 к попаданию атаками заклинаний). У мага подготовлены следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell fire bolt|PHB}",
+                "{@spell light|PHB}",
+                "{@spell message|PHB}",
+                "{@spell ray of frost|PHB}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell detect magic|PHB}",
+                "{@spell disguise self|PHB}",
+                "{@spell mage armor|PHB}",
+                "{@spell magic missile|PHB}",
+                "{@spell sleep|PHB}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell hold person|PHB}",
+                "{@spell ray of enfeeblement|PHB}",
+                "{@spell suggestion|PHB}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell clairvoyance|PHB}",
+                "{@spell counterspell|PHB}",
+                "{@spell fly|PHB}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell greater invisibility|PHB}",
+                "{@spell locate creature|PHB}",
+                "{@spell polymorph|PHB}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell dominate person|PHB}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "action": [
+        {
+          "name": "Посох (одной рукой)",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Посох (двумя руками)",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 2}) дробящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/3JEBOCk.png",
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "damageTagsSpell": [
+        "C",
+        "F",
+        "O"
+      ],
+      "spellcastingTags": [
+        "CW"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "Маг-охотник за головами"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/3JEBOCk.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Капитан стражи",
+      "shortName": "Капитан стражи",
+      "source": "WANTEDSCORES",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 16",
+        "average": 52
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 11,
+      "con": 14,
+      "int": 11,
+      "wis": 11,
+      "cha": 15,
+      "save": {
+        "con": "+4",
+        "wis": "+2"
+      },
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Храбрый",
+          "entries": [
+            "Капитан совершает с преимуществом спасброски против того, чтобы стать {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Капитан совершает две рукопашные атаки."
+          ]
+        },
+        {
+          "name": "Длинный меч (одной рукой)",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Длинный меч (двумя руками)",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Лидерство (восстанавливается после короткого или продолжительного отдыха)",
+          "entries": [
+            "В течение 1 минуты Капитан может произносить особую команду или предупреждение всякий раз, когда не враждебное существо, которое он может видеть в пределах 30 футов от себя, совершает бросок атаки или спасбросок.",
+            "Существо может добавить {@dice 1d4} к своему броску при условии, что оно может слышать и понимать Капитана. Существо может получить выгоду только от одной кости Лидерства одновременно. Этот эффект оканчивается, если Капитан {@condition incapacitated}."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Парирование",
+          "entries": [
+            "Капитан добавляет 2 к своему КД против одной рукопашной атаки, которая бы по нему попала. Для этого Капитан должен видеть атакующего и держать рукопашное оружие."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/1JU5dZu.png",
+      "attachedItems": [
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "Капитан стражи "
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/1JU5dZu.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Профессиональный охотник за головами",
+      "shortName": "Профессиональный охотник за головами",
+      "source": "WANTEDSCORES",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item splint armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "9d8 + 18",
+        "average": 58
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 10,
+      "skill": {
+        "athletics": "+5",
+        "perception": "+3",
+        "stealth": "+4",
+        "survival": "+3"
+      },
+      "passive": 12,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "3",
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Охотник за головами совершает две атаки длинным мечом. Если у него наготове короткий меч, он также может совершить атаку дубинкой."
+          ]
+        },
+        {
+          "name": "Длинный меч (одной рукой)",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d8 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Длинный меч (двумя руками)",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d10 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Дубинка",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Тяжёлый арбалет",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 100/400 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона.",
+            "{@b Боеприпасы:} Вы можете использовать оружие со свойством «боеприпасы» для совершения дальнобойной атаки, только если у вас есть боеприпасы для стрельбы из этого оружия. Каждый раз, когда вы атакуете этим оружием, вы расходуете один боеприпас. Извлечение боеприпаса из колчана, сумки или другого контейнера является частью атаки. В конце боя вы можете восстановить половину потраченных боеприпасов, потратив минуту на поиски на поле боя.",
+            "Если вы используете оружие со свойством «боеприпасы» для совершения рукопашной атаки, вы считаете это оружие импровизированным оружием (см. «Импровизированное оружие» далее в разделе). Праща должна быть заряжена, чтобы нанести урон при таком использовании."
+          ]
+        },
+        {
+          "name": "Бола",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 30/50 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) дробящего урона.",
+            "Бола — это шнур с грузилами на концах, который метают в ноги убегающей цели. Крупное или меньшее существо, по которому попадают, должно преуспеть в спасброске Ловкости {@dc 13}, иначе станет {@condition grappled}. Проверка Силы {@dc 12}, чтобы разорвать. У болы 4 хита. Охотник за головами может использовать болу во время возможности атаки, даже если цель использовала действие Отход."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/pvOI85B.png",
+      "attachedItems": [
+        "heavy crossbow|phb",
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          "Профессиональный охотник за головами"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/pvOI85B.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Городская стража/стражник/солдат",
+      "shortName": "Городская стража/стражник/солдат",
+      "source": "WANTEDSCORES",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item chain shirt|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 2",
+        "average": 11
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "perception": "+2"
+      },
+      "passive": 12,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/8",
+      "action": [
+        {
+          "name": "Копьё (одной рукой)",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
+          ]
+        },
+        {
+          "name": "Копьё (метательное)",
+          "entries": [
+            "{@atk rw} {@hit 3} к попаданию, дистанция 20/60 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона."
+          ]
+        },
+        {
+          "name": "Копьё (двумя руками)",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/WacDXEX.png",
+      "attachedItems": [
+        "spear|phb"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "Городская стража/стражник/солдат "
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/WacDXEX.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ищейка",
+      "shortName": "Ищейка",
+      "source": "WANTEDSCORES",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "3d8 + 3",
+        "average": 16
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 11,
+      "wis": 13,
+      "cha": 11,
+      "skill": {
+        "nature": "+4",
+        "perception": "+5",
+        "stealth": "+6",
+        "survival": "+5"
+      },
+      "passive": 15,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/2",
+      "trait": [
+        {
+          "name": "Острые зрение и слух",
+          "entries": [
+            "Ищейка совершает с преимуществом проверки Мудрости (Внимательность), полагающиеся на слух или зрение."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Разведчик совершает две рукопашные атаки или две дальнобойные атаки."
+          ]
+        },
+        {
+          "name": "Короткий меч",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Длинный лук",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/I6tndeX.png",
+      "attachedItems": [
+        "longbow|phb",
+        "shortsword|phb"
+      ],
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "Ищейка "
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/I6tndeX.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Стражник-детектив",
+      "shortName": "Стражник-детектив",
+      "source": "WANTEDSCORES",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "formula": "6d8 + 0",
+        "average": 27
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 15,
+      "con": 10,
+      "int": 12,
+      "wis": 14,
+      "cha": 16,
+      "skill": {
+        "deception": "+5",
+        "insight": "+4",
+        "persuasion": "+5",
+        "investigation": "+5",
+        "sleight of hand": "+4",
+        "stealth": "+4",
+        "perception": "+6"
+      },
+      "passive": 16,
+      "languages": [
+        "любые два языка"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Хитрое действие",
+          "entries": [
+            "Детектив использует бонусное действие для Рывка, Отхода или Засады."
+          ]
+        },
+        {
+          "name": "Скрытая атака (1/ход)",
+          "entries": [
+            "Детектив наносит дополнительные 7 ({@damage 2d6}) урона, когда он попадает по цели и совершает бросок атаки с преимуществом, или когда цель находится в пределах 5 футов от союзника, который не {@condition incapacitated}, и у детектива нет помехи на бросок атаки"
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Шпион совершает две рукопашные атаки."
+          ]
+        },
+        {
+          "name": "Короткий меч",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/ojYkDkv.png",
+      "attachedItems": [
+        "shortsword|phb"
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflict": [
+        "incapacitated"
+      ],
+      "fluff": {
+        "entries": [
+          "Стражник-детектив "
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WANTEDSCORES/ojYkDkv.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

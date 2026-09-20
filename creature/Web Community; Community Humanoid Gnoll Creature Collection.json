@@ -1,1164 +1,1164 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-	"_meta": {
-		"sources": [
-			{
-				"json": "COMGnoll",
-				"abbreviation": "COMGnoll",
-				"full": "Community Gnoll Collection",
-				"url": "https://github.com/TheGiddyLimit/homebrew",
-				"version": "2021.09.30",
-				"authors": [
-					"A collection derived from the web community (Reddit,Pinterest,DmsGuild,ecc.). For credits, authors are provided with a web link in the entity description"
-				],
-				"convertedBy": [
-					"p4535992"
-				],
-				"targetSchema": "1.7.0"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1555319662,
-		"dateLastModified": 1775645737,
-		"_dateLastModifiedHash": "9c59a6e852"
-	},
-	"monster": [
-		{
-			"name": "Демоническая гиена",
-			"shortName": "Демоническая гиена",
-			"source": "COMGnoll",
-			"size": [
-				"L"
-			],
-			"type": "fiend",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "6d10 + 12",
-				"average": 45
-			},
-			"speed": {
-				"walk": 50
-			},
-			"str": 18,
-			"dex": 13,
-			"con": 15,
-			"int": 7,
-			"wis": 12,
-			"cha": 10,
-			"skill": {
-				"perception": "+3"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 13,
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"poisoned"
-			],
-			"cr": "2",
-			"trait": [
-				{
-					"name": "Неистовство",
-					"entries": [
-						"Когда гиена уменьшает хиты существа до 0 атакой ближнего боя в свой ход, гиена может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/0StucGL.png",
-			"traitTags": [
-				"Rampage"
-			],
-			"senseTags": [
-				"D"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Fiendish Hyena|https://dnd-5e-homebrew.tumblr.com/post/139253739739/stonestrix-monsters/amp}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/FuOERne.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Гнолл — рыцарь смерти",
-			"shortName": "Гнолл — рыцарь смерти",
-			"source": "COMGnoll",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "giant",
-				"tags": [
-					"gnoll"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item half plate armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "16d8 + 48",
-				"average": 120
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 15,
-			"con": 16,
-			"int": 10,
-			"wis": 11,
-			"cha": 14,
-			"save": {
-				"str": "+7",
-				"con": "+6",
-				"cha": "+5"
-			},
-			"skill": {
-				"intimidation": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 10,
-			"languages": [
-				"Гноллий"
-			],
-			"cr": "6",
-			"trait": [
-				{
-					"name": "Неистовство",
-					"entries": [
-						"Если гнолл в свой ход опускает рукопашной атакой хиты существа до 0, он может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
-					]
-				},
-				{
-					"name": "Аура злобы",
-					"entries": [
-						"Все враги в пределах 10 футов от гнолла совершают спасброски с помехой."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Гнолл совершает три атаки: одну укусом и две двуручным мечом."
-					]
-				},
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 7} для попадания, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона, и цель должна преуспеть в спасброске Телосложения со Сл {@dc 14}, иначе получает 14 ({@damage 4d6}) некротического урона."
-					]
-				},
-				{
-					"name": "Двуручный меч",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/hs7ECxo.png",
-			"attachedItems": [
-				"greatsword|phb"
-			],
-			"traitTags": [
-				"Rampage"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"OTH"
-			],
-			"damageTags": [
-				"N",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Gnoll Deathknight|https://dnd-5e-homebrew.tumblr.com/post/139253739739/stonestrix-monsters/amp}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/3YwJVHu.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Гнолл — некромант",
-			"shortName": "Гнолл — некромант",
-			"source": "COMGnoll",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"gnoll"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"formula": "1d8 + 1",
-				"average": 5
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 14,
-			"con": 12,
-			"int": 17,
-			"wis": 13,
-			"cha": 12,
-			"skill": {
-				"deception": "+4",
-				"perception": "+4"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 14,
-			"languages": [
-				"Гноллий"
-			],
-			"cr": "7",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Гнолл является заклинателем 10-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска {@dc 14}, бонус +6 к попаданию атаками заклинаниями). Гнолл подготовил следующие заклинания:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell acid splash}",
-								"{@spell blade ward}",
-								"{@spell chill touch}",
-								"{@spell poison spray}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell mage armor}",
-								"{@spell ray of sickness}",
-								"{@spell shield}",
-								"{@spell Tasha's hideous laughter}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell alter self}",
-								"{@spell darkness}",
-								"{@spell misty step}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell fear}",
-								"{@spell slow}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell blight}",
-								"{@spell confusion}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell cloudkill}"
-							],
-							"slots": 2
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"action": [
-				{
-					"name": "Кинжал",
-					"entries": [
-						"{@atk mw} {@hit 3} для попадания, досягаемость 5 фт., одна цель. {@h}2 ({@damage 1d4}) колющего урона плюс 7 ({@damage 2d6}) ядовитого урона."
-					]
-				},
-				{
-					"name": "Призыв демонов (1/день)",
-					"entries": [
-						"Гнолл магическим образом призывает {@dice 1d4} демонических гиен. Призванные демоны появляются в свободных пространствах в пределах 60 футов от призывателя и действуют как его союзники. Они остаются на 10 минут, пока они или их призыватель не погибнут либо пока призыватель не отпустит их действием."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/4hGlaPz.png",
-			"attachedItems": [
-				"dagger|phb"
-			],
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"OTH"
-			],
-			"damageTags": [
-				"I",
-				"P"
-			],
-			"damageTagsSpell": [
-				"A",
-				"B",
-				"I",
-				"N",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Gnoll Deathmage|https://dnd-5e-homebrew.tumblr.com/post/139253739739/stonestrix-monsters/amp}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/Evde45Z.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Гнолл — клятвопреступник",
-			"shortName": "Гнолл — клятвопреступник",
-			"source": "COMGnoll",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "giant",
-				"tags": [
-					"gnoll"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item chain shirt|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "10d8 + 20",
-				"average": 65
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 13,
-			"con": 14,
-			"int": 8,
-			"wis": 11,
-			"cha": 9,
-			"save": {
-				"str": "+5",
-				"con": "+4"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 10,
-			"languages": [
-				"Гноллий"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Громила",
-					"entries": [
-						"Оружие ближнего боя наносит одну дополнительную кость своего урона, когда Гнолл попадает им (включено в его атаки)."
-					]
-				},
-				{
-					"name": "Аура судьбы",
-					"entries": [
-						"Любое существо в пределах 15 футов от Гнолла совершает с помехой спасброски от смерти."
-					]
-				},
-				{
-					"name": "Неистовство",
-					"entries": [
-						"Когда Гнолл уменьшает хиты существа до 0 атакой ближнего боя в свой ход, Гнолл может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
-					]
-				},
-				{
-					"name": "Военачальник",
-					"entries": [
-						"Любое существо в пределах 5 футов от этого Гнолла, враждебное ему, совершает с помехой броски атаки против целей, отличных от этого Гнолла или другого существа с этой или сходной особенностью. Враг невосприимчив к этому эффекту, если не может видеть или слышать этого Гнолла или не может быть {@condition frightened}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Гнолл совершает две атаки своим боевым топором."
-					]
-				},
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 2d4 + 3}) колющего урона."
-					]
-				},
-				{
-					"name": "Топор, боевой",
-					"entries": [
-						"{@atk mw} {@hit 5} для попадания, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d8 + 3}) рубящего урона или 14 ({@damage 2d10 + 3}) урона, если используется двумя руками."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/V8K349Q.png",
-			"attachedItems": [
-				"battleaxe|phb"
-			],
-			"traitTags": [
-				"Brute",
-				"Rampage"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"OTH"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Gnoll Deatpldege|https://www.reddit.com/r/monsteraday/comments/7p8x6n/az_day_11_gnoll_deathpledge/}",
-					"Гноллы, особенно стремящиеся доказать свою состоятельность Йеногу и своей стае, дают клятву резни, обещая",
-					"пролить достойное количество крови во имя своего господина. Каждый Гнолл, давший клятву смерти (иногда его просто называют «убийцей»), получает ауру скверны и атаки, которые ломают кости и разрывают плоть. От того, выполнит ли Гнолл свою клятву, зависит, повысит ли он свой статус или будет презираем и наказан стаей.",
-					"Такая Подвижность в иерархии прайда может привести к стремительным изменениям в порядке иерархии, даже на самом верху. Ведь если Глава прайда не обеспечит достаточно резни, чтобы угодить Йеногу, самый успешный клятвопреступник выступит в качестве претендента. Каков бы ни был исход, владыка резни доволен."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/2AiuGZM.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Гнолл Флинд",
-			"shortName": "Гнолл Флинд",
-			"source": "COMGnoll",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"gnoll"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item chain mail|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "15d8 + 60",
-				"average": 127
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 20,
-			"dex": 10,
-			"con": 19,
-			"int": 11,
-			"wis": 13,
-			"cha": 12,
-			"save": {
-				"wis": "+5",
-				"con": "+8"
-			},
-			"skill": {
-				"intimidation": "+5",
-				"perception": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 15,
-			"languages": [
-				"Гноллий",
-				"Бездонный"
-			],
-			"cr": "9",
-			"trait": [
-				{
-					"name": "Аура кровожадности",
-					"entries": [
-						"Если Флинд не {@condition incapacitated}, любое существо с особенностью «Буйство» может совершить атаку укусом в качестве Бонусного действия, находясь в пределах 10 футов от Флинда."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Флинд совершает три Атаки: по одной каждой из своих разных атак цепом или три атаки своим Луком, длинным."
-					]
-				},
-				{
-					"name": "Цеп безумия",
-					"entries": [
-						"{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона, и цель должна совершить спасбросок Мудрости {@dc 16}. При провале спасброска,",
-						"существо должно совершить Атаку в ближнем бою против случайной цели в пределах своей Досягаемости в свой следующий ход. Если после перемещения в пределах его Досягаемости нет Целей, оно теряет действие в этом ходу."
-					]
-				},
-				{
-					"name": "Цеп боли",
-					"entries": [
-						"{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона плюс 22 ({@damage 4d10}) психического урона."
-					]
-				},
-				{
-					"name": "Цеп паралича",
-					"entries": [
-						"{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона, и цель должна преуспеть в спасброске Телосложения {@dc 16}, иначе станет {@condition paralyzed} до конца своего следующего хода,"
-					]
-				},
-				{
-					"name": "Лук, длинный",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}4 ({@damage 1d8}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/RUkbri5.png",
-			"attachedItems": [
-				"longbow|phb"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"AB",
-				"OTH"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"Y"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"conditionInflict": [
-				"paralyzed"
-			],
-			"savingThrowForced": [
-				"constitution",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Flind|https://kotaku.com/an-early-look-at-d-d-s-newest-monster-bible-1788410991?utm_campaign=Socialflow_Kotaku_Twitter&utm_source=Kotaku_Twitter&utm_medium=Socialflow}",
-					"Военный отряд гноллов может включать одного или нескольких гноллов особых видов, описанных в этом разделе.",
-					"Флинд — исключительно сильный и свирепый гнолл, который командует военным отрядом и руководит им; он владеет цепом, наделённым могущественной магией самим Йеногу.",
-					"В банде может быть только один флинд, и именно это существо определяет путь банды. Благодаря особой связи с Йеногу, флинд использует данные богами знамения и демоническую проницательность, чтобы вести гноллов к слабой добыче, созревшей для бойни.",
-					"В отличие от других лидеров гуманоидов, которые могут прятаться за своими прислужниками, флинд возглавляет атаку в бою и подчиняет себе тех, кого поражает."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/9b9srkw.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Повелитель охоты гноллов",
-			"shortName": "Повелитель охоты гноллов",
-			"source": "COMGnoll",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"gnoll"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "8d8 + 8",
-				"average": 44
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 16,
-			"con": 12,
-			"int": 10,
-			"wis": 13,
-			"cha": 9,
-			"skill": {
-				"perception": "+3",
-				"stealth": "+5",
-				"survival": "+3"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 13,
-			"languages": [
-				"Гноллий"
-			],
-			"cr": "2",
-			"trait": [
-				{
-					"name": "Неистовство",
-					"entries": [
-						"Когда гнолл в свой ход сокращает хиты существа до 0 атакой в ближнем бою, гнолл может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Гнолл совершает две атаки — либо копьём, либо длинным луком — и использует свой Безрассудный залп, если может."
-					]
-				},
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Копьё",
-					"entries": [
-						"{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона в ближнем бою или 5 ({@damage 1d6 + 2}) колющего урона на расстоянии либо 6 ({@damage 1d8 + 2}) колющего урона, если используется двумя руками."
-					]
-				},
-				{
-					"name": "Лук, длинный",
-					"entries": [
-						"{@atk rw} {@hit 5} для попадания, дистанция 150/600 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона, и скорость цели уменьшается на 10 футов до конца её следующего хода."
-					]
-				},
-				{
-					"name": "Безрассудный натиск {@recharge 5}",
-					"entries": [
-						"До трёх союзных существ в пределах 120 футов от этого гнолла могут использовать свои реакции, чтобы каждое совершить одну дальнюю атаку оружием с помехой, если они слышат этого гнолла и обладают особенностью «Ярость»."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Кража убийства",
-					"entries": [
-						"Если гнолл видит находящееся в сознании существо, которое получает урон и имеет 10 или меньше хитов, он может использовать свою реакцию, чтобы совершить дальнюю атаку против этого существа."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/t0VBGFK.png",
-			"attachedItems": [
-				"longbow|phb",
-				"spear|phb"
-			],
-			"traitTags": [
-				"Rampage"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"OTH"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW",
-				"THW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Gnoll Headmaster|https://www.reddit.com/r/monsteraday/comments/7odgnm/az_day_10_gnoll_huntmaster/}",
-					"Вожак стаи",
-					"Некоторые считают, что лидерство среди гнолльих военных отрядов достигается принесением жертв на алтаре или в нечестивом месте. Однако чемпионы резни не приобретают статус, убивая беспомощных жертв, привязанных к алтарю.",
-					"Методичная подготовка и мрачное насилие опозорили бы Владыку Дикости. Надлежащие жертвоприношения совершаются во время жестоких, залитых кровью оргий, которые невежественные просто называют «набегами гноллов».",
-					"Пёс на охоте.",
-					"Повелитель охоты уступает лишь Главе прайда. Он ведёт охотников и разведчиков и отвечает за поиск следующей цели прайда. Поскольку это главное желание прайда и оно обеспечивает его Выживание, не редкость, когда эту роль исполняет самый умный и Одарённый, если не самый сильный и искусный в бою Гнолл во всём военном отряде. Все повелители охоты искусны в стрельбе из лука, поражая раненую добычу и редко вступая в Ближний бой. В результате эти хитрые Гноллы обычно живут вдвое дольше большинства Глав прайда.",
-					"Перед отправлением в экспедицию повелитель охоты советуется с клыком Йеногу или Шаманом, который отвечает за толкование предзнаменований. Так, если не удастся найти беззащитную деревню или караван, повелитель охоты сможет отвести от себя вину, которая может привести к Смерти, и указать пальцем на того, кто дал ему этот совет."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/VJcXgK1.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Гнолл Мангехарт (Шаман Йеногу)",
-			"shortName": "Гнолл Мангехарт",
-			"source": "COMGnoll",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"gnoll"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				11
-			],
-			"hp": {
-				"formula": "5d8 + 5",
-				"average": 27
-			},
-			"speed": {
-				"walk": {
-					"number": 25,
-					"condition": "(45 ft. in hyena form)"
-				}
-			},
-			"str": 11,
-			"dex": 12,
-			"con": 12,
-			"int": 9,
-			"wis": 14,
-			"cha": 8,
-			"skill": {
-				"animal handling": "+4",
-				"survival": "+4"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 12,
-			"languages": [
-				"Гноллий"
-			],
-			"cr": "2",
-			"spellcasting": [
-				{
-					"name": "Использование заклинаний (только форма Гнолла)",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Гнолл — заклинатель 5-го Уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 12}, +4 к попаданию атаками заклинаниями). Гнолл подготовил следующие заклинания Друида:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell guidance}",
-								"{@spell infestation|XGE}",
-								"{@spell produce flame}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell beast bond|XGE}",
-								"{@spell faerie fire}",
-								"{@spell snare|XGE}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell beast sense}",
-								"{@spell pass without trace}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell animate dead}",
-								"{@spell conjure animals} ({@creature hyena|MM}s or {@creature giant hyena|MM}s only)"
-							],
-							"slots": 2
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"trait": [
-				{
-					"name": "Искалеченный",
-					"entries": [
-						"Ранение навсегда уменьшает скорость Гнолла на 5, независимо от того, находится ли он в форме Гнолла или Гиены."
-					]
-				},
-				{
-					"name": "Неистовство",
-					"entries": [
-						"Когда Гнолл уменьшает хиты существа до 0 атакой ближнего боя в свой ход, Гнолл может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}2 ({@damage 1d4}) колющего урона."
-					]
-				},
-				{
-					"name": "Боевой посох (только форма Гнолла)",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d6}) дробящего урона или 4 ({@damage 1d8}) дробящего урона, если оружие используется двумя руками."
-					]
-				},
-				{
-					"name": "Изменение облика (восстанавливается после короткого или Продолжительного отдыха)",
-					"entries": [
-						"Гнолл магическим образом превращается в {@creature hyena|MM}, оставаясь в этой форме до 3 часов. Он может вернуться в истинную форму бонусным действием. Его характеристики, за исключением скорости, одинаковы в каждой форме. Любое надетое или переносимое им снаряжение поглощается новой формой. Если он умирает, то возвращается в истинную форму."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Проклятая рана",
-					"entries": [
-						"Когда союзник попадает по существу атакой в ближнем бою, гнолл проклинает рану, при условии, что существо видно гноллу и находится в пределах 60 футов. Цель проклята до конца своего следующего хода. Пока оно проклято таким образом, его скорость уменьшается вдвое, и оно совершает броски атаки с помехой."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/StovB7o.png",
-			"attachedItems": [
-				"quarterstaff|phb"
-			],
-			"traitTags": [
-				"Rampage"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Shapechanger"
-			],
-			"languageTags": [
-				"OTH"
-			],
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"damageTagsSpell": [
-				"F",
-				"I"
-			],
-			"spellcastingTags": [
-				"CD",
-				"F"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Gnoll Mangeheart (Yeenoghu Shaman)|https://www.reddit.com/r/monsteraday/comments/7queni/az_day_13_gnoll_mangeheart_yeenoghu_shaman/}",
-					"Ни один гнолл не выбирает становиться гноллом-сердцеедом, которого часто просто называют шаманом. Вместо этого Йеногу выбирает сердцеедов среди раненых и искалеченных. Перспективных гноллов исцеляют ровно настолько, чтобы их не разорвали на части сородичи по стае. Затем Йеногу дарует им способность принимать форму гиены, чтобы они могли поспевать за военным отрядом и служить скрытными разведчиками. Их почти всегда сопровождают одна или несколько гиен, которые являются их единственными спутниками и помогают вести разведку.",
-					"В любом случае дни их бессмысленной резни, когда они разрубали жертв надвое могучими топорами, закончились. Теперь Мангехарты вынуждены довольствоваться проведением ритуалов, наделяющих воинов силой Владыки Бойни, поднимающих гнилоступов и иссохликов и ослабляющих врагов, которых затем добивают другие. Если бы Гноллы были любым другим существом, они, возможно, смотрели бы на Мангехартов с жалостью. Вместо этого они сталкиваются со слабаком, которому достаточно одного неверного шага, чтобы превратиться в обед."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/jbA6Nmq.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Гнолл Марир Гореклэш",
-			"shortName": "Гнолл Марир Гореклэш",
-			"source": "COMGnoll",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"gnoll"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item hide armor|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "5d8 + 10",
-				"average": 37
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 14,
-			"con": 14,
-			"int": 7,
-			"wis": 12,
-			"cha": 11,
-			"save": {
-				"con": "+5",
-				"str": "+6"
-			},
-			"skill": {
-				"athletics": "+7",
-				"perception": "+4",
-				"stealth": "+5",
-				"survival": "+4"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 14,
-			"languages": [
-				"Гноллий",
-				"Орочий",
-				"Сильванский",
-				"Первобытный"
-			],
-			"cr": "2",
-			"trait": [
-				{
-					"name": "Неистовство",
-					"entries": [
-						"Если гнолл в свой ход опускает рукопашной атакой хиты существа до 0, он может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона."
-					]
-				},
-				{
-					"name": "Топор, боевой",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Лук, длинный",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/55VtRCt.png",
-			"attachedItems": [
-				"battleaxe|phb",
-				"longbow|phb"
-			],
-			"traitTags": [
-				"Rampage"
-			],
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"O",
-				"OTH",
-				"P",
-				"S"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Marir Goreclash|https://www.pinterest.it/pin/747316131913510079/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/f2KuxSQ.png"
-						}
-					}
-				]
-			}
-		}
-	]
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "COMGnoll",
+        "abbreviation": "COMGnoll",
+        "full": "Community Gnoll Collection",
+        "url": "https://github.com/TheGiddyLimit/homebrew",
+        "version": "2021.09.30",
+        "authors": [
+          "A collection derived from the web community (Reddit,Pinterest,DmsGuild,ecc.). For credits, authors are provided with a web link in the entity description"
+        ],
+        "convertedBy": [
+          "p4535992"
+        ],
+        "targetSchema": "1.7.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1555319662,
+    "dateLastModified": 1775645737,
+    "_dateLastModifiedHash": "9c59a6e852"
+  },
+  "monster": [
+    {
+      "name": "Демоническая гиена",
+      "shortName": "Демоническая гиена",
+      "source": "COMGnoll",
+      "size": [
+        "L"
+      ],
+      "type": "fiend",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "6d10 + 12",
+        "average": 45
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 18,
+      "dex": 13,
+      "con": 15,
+      "int": 7,
+      "wis": 12,
+      "cha": 10,
+      "skill": {
+        "perception": "+3"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "resist": [
+        "cold",
+        "fire",
+        "lightning"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Неистовство",
+          "entries": [
+            "Когда гиена уменьшает хиты существа до 0 атакой ближнего боя в свой ход, гиена может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/0StucGL.png",
+      "traitTags": [
+        "Rampage"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Fiendish Hyena|https://dnd-5e-homebrew.tumblr.com/post/139253739739/stonestrix-monsters/amp}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/FuOERne.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Гнолл — рыцарь смерти",
+      "shortName": "Гнолл — рыцарь смерти",
+      "source": "COMGnoll",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "giant",
+        "tags": [
+          "gnoll"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item half plate armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d8 + 48",
+        "average": 120
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 15,
+      "con": 16,
+      "int": 10,
+      "wis": 11,
+      "cha": 14,
+      "save": {
+        "str": "+7",
+        "con": "+6",
+        "cha": "+5"
+      },
+      "skill": {
+        "intimidation": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "languages": [
+        "Гноллий"
+      ],
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Неистовство",
+          "entries": [
+            "Если гнолл в свой ход опускает рукопашной атакой хиты существа до 0, он может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
+          ]
+        },
+        {
+          "name": "Аура злобы",
+          "entries": [
+            "Все враги в пределах 10 футов от гнолла совершают спасброски с помехой."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Гнолл совершает три атаки: одну укусом и две двуручным мечом."
+          ]
+        },
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 7} для попадания, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d6 + 4}) колющего урона, и цель должна преуспеть в спасброске Телосложения со Сл {@dc 14}, иначе получает 14 ({@damage 4d6}) некротического урона."
+          ]
+        },
+        {
+          "name": "Двуручный меч",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/hs7ECxo.png",
+      "attachedItems": [
+        "greatsword|phb"
+      ],
+      "traitTags": [
+        "Rampage"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "OTH"
+      ],
+      "damageTags": [
+        "N",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Gnoll Deathknight|https://dnd-5e-homebrew.tumblr.com/post/139253739739/stonestrix-monsters/amp}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/3YwJVHu.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Гнолл — некромант",
+      "shortName": "Гнолл — некромант",
+      "source": "COMGnoll",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "gnoll"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "formula": "1d8 + 1",
+        "average": 5
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 17,
+      "wis": 13,
+      "cha": 12,
+      "skill": {
+        "deception": "+4",
+        "perception": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "languages": [
+        "Гноллий"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Гнолл является заклинателем 10-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска {@dc 14}, бонус +6 к попаданию атаками заклинаниями). Гнолл подготовил следующие заклинания:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell acid splash}",
+                "{@spell blade ward}",
+                "{@spell chill touch}",
+                "{@spell poison spray}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell mage armor}",
+                "{@spell ray of sickness}",
+                "{@spell shield}",
+                "{@spell Tasha's hideous laughter}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell alter self}",
+                "{@spell darkness}",
+                "{@spell misty step}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell fear}",
+                "{@spell slow}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell blight}",
+                "{@spell confusion}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell cloudkill}"
+              ],
+              "slots": 2
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "action": [
+        {
+          "name": "Кинжал",
+          "entries": [
+            "{@atk mw} {@hit 3} для попадания, досягаемость 5 фт., одна цель. {@h}2 ({@damage 1d4}) колющего урона плюс 7 ({@damage 2d6}) ядовитого урона."
+          ]
+        },
+        {
+          "name": "Призыв демонов (1/день)",
+          "entries": [
+            "Гнолл магическим образом призывает {@dice 1d4} демонических гиен. Призванные демоны появляются в свободных пространствах в пределах 60 футов от призывателя и действуют как его союзники. Они остаются на 10 минут, пока они или их призыватель не погибнут либо пока призыватель не отпустит их действием."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/4hGlaPz.png",
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "OTH"
+      ],
+      "damageTags": [
+        "I",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "A",
+        "B",
+        "I",
+        "N",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Gnoll Deathmage|https://dnd-5e-homebrew.tumblr.com/post/139253739739/stonestrix-monsters/amp}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/Evde45Z.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Гнолл — клятвопреступник",
+      "shortName": "Гнолл — клятвопреступник",
+      "source": "COMGnoll",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "giant",
+        "tags": [
+          "gnoll"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item chain shirt|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d8 + 20",
+        "average": 65
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 13,
+      "con": 14,
+      "int": 8,
+      "wis": 11,
+      "cha": 9,
+      "save": {
+        "str": "+5",
+        "con": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "languages": [
+        "Гноллий"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Громила",
+          "entries": [
+            "Оружие ближнего боя наносит одну дополнительную кость своего урона, когда Гнолл попадает им (включено в его атаки)."
+          ]
+        },
+        {
+          "name": "Аура судьбы",
+          "entries": [
+            "Любое существо в пределах 15 футов от Гнолла совершает с помехой спасброски от смерти."
+          ]
+        },
+        {
+          "name": "Неистовство",
+          "entries": [
+            "Когда Гнолл уменьшает хиты существа до 0 атакой ближнего боя в свой ход, Гнолл может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
+          ]
+        },
+        {
+          "name": "Военачальник",
+          "entries": [
+            "Любое существо в пределах 5 футов от этого Гнолла, враждебное ему, совершает с помехой броски атаки против целей, отличных от этого Гнолла или другого существа с этой или сходной особенностью. Враг невосприимчив к этому эффекту, если не может видеть или слышать этого Гнолла или не может быть {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Гнолл совершает две атаки своим боевым топором."
+          ]
+        },
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 2d4 + 3}) колющего урона."
+          ]
+        },
+        {
+          "name": "Топор, боевой",
+          "entries": [
+            "{@atk mw} {@hit 5} для попадания, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d8 + 3}) рубящего урона или 14 ({@damage 2d10 + 3}) урона, если используется двумя руками."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/V8K349Q.png",
+      "attachedItems": [
+        "battleaxe|phb"
+      ],
+      "traitTags": [
+        "Brute",
+        "Rampage"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "OTH"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Gnoll Deatpldege|https://www.reddit.com/r/monsteraday/comments/7p8x6n/az_day_11_gnoll_deathpledge/}",
+          "Гноллы, особенно стремящиеся доказать свою состоятельность Йеногу и своей стае, дают клятву резни, обещая",
+          "пролить достойное количество крови во имя своего господина. Каждый Гнолл, давший клятву смерти (иногда его просто называют «убийцей»), получает ауру скверны и атаки, которые ломают кости и разрывают плоть. От того, выполнит ли Гнолл свою клятву, зависит, повысит ли он свой статус или будет презираем и наказан стаей.",
+          "Такая Подвижность в иерархии прайда может привести к стремительным изменениям в порядке иерархии, даже на самом верху. Ведь если Глава прайда не обеспечит достаточно резни, чтобы угодить Йеногу, самый успешный клятвопреступник выступит в качестве претендента. Каков бы ни был исход, владыка резни доволен."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/2AiuGZM.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Гнолл Флинд",
+      "shortName": "Гнолл Флинд",
+      "source": "COMGnoll",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "gnoll"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item chain mail|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "15d8 + 60",
+        "average": 127
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 20,
+      "dex": 10,
+      "con": 19,
+      "int": 11,
+      "wis": 13,
+      "cha": 12,
+      "save": {
+        "wis": "+5",
+        "con": "+8"
+      },
+      "skill": {
+        "intimidation": "+5",
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "languages": [
+        "Гноллий",
+        "Бездонный"
+      ],
+      "cr": "9",
+      "trait": [
+        {
+          "name": "Аура кровожадности",
+          "entries": [
+            "Если Флинд не {@condition incapacitated}, любое существо с особенностью «Буйство» может совершить атаку укусом в качестве Бонусного действия, находясь в пределах 10 футов от Флинда."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Флинд совершает три Атаки: по одной каждой из своих разных атак цепом или три атаки своим Луком, длинным."
+          ]
+        },
+        {
+          "name": "Цеп безумия",
+          "entries": [
+            "{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона, и цель должна совершить спасбросок Мудрости {@dc 16}. При провале спасброска,",
+            "существо должно совершить Атаку в ближнем бою против случайной цели в пределах своей Досягаемости в свой следующий ход. Если после перемещения в пределах его Досягаемости нет Целей, оно теряет действие в этом ходу."
+          ]
+        },
+        {
+          "name": "Цеп боли",
+          "entries": [
+            "{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона плюс 22 ({@damage 4d10}) психического урона."
+          ]
+        },
+        {
+          "name": "Цеп паралича",
+          "entries": [
+            "{@atk mw} {@hit 9} для попадания, Досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) дробящего урона, и цель должна преуспеть в спасброске Телосложения {@dc 16}, иначе станет {@condition paralyzed} до конца своего следующего хода,"
+          ]
+        },
+        {
+          "name": "Лук, длинный",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}4 ({@damage 1d8}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/RUkbri5.png",
+      "attachedItems": [
+        "longbow|phb"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AB",
+        "OTH"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "Y"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "conditionInflict": [
+        "paralyzed"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Flind|https://kotaku.com/an-early-look-at-d-d-s-newest-monster-bible-1788410991?utm_campaign=Socialflow_Kotaku_Twitter&utm_source=Kotaku_Twitter&utm_medium=Socialflow}",
+          "Военный отряд гноллов может включать одного или нескольких гноллов особых видов, описанных в этом разделе.",
+          "Флинд — исключительно сильный и свирепый гнолл, который командует военным отрядом и руководит им; он владеет цепом, наделённым могущественной магией самим Йеногу.",
+          "В банде может быть только один флинд, и именно это существо определяет путь банды. Благодаря особой связи с Йеногу, флинд использует данные богами знамения и демоническую проницательность, чтобы вести гноллов к слабой добыче, созревшей для бойни.",
+          "В отличие от других лидеров гуманоидов, которые могут прятаться за своими прислужниками, флинд возглавляет атаку в бою и подчиняет себе тех, кого поражает."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/9b9srkw.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Повелитель охоты гноллов",
+      "shortName": "Повелитель охоты гноллов",
+      "source": "COMGnoll",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "gnoll"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 8",
+        "average": 44
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 16,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 9,
+      "skill": {
+        "perception": "+3",
+        "stealth": "+5",
+        "survival": "+3"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "languages": [
+        "Гноллий"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Неистовство",
+          "entries": [
+            "Когда гнолл в свой ход сокращает хиты существа до 0 атакой в ближнем бою, гнолл может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Гнолл совершает две атаки — либо копьём, либо длинным луком — и использует свой Безрассудный залп, если может."
+          ]
+        },
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Копьё",
+          "entries": [
+            "{@atk mw,rw} {@hit 4} к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона в ближнем бою или 5 ({@damage 1d6 + 2}) колющего урона на расстоянии либо 6 ({@damage 1d8 + 2}) колющего урона, если используется двумя руками."
+          ]
+        },
+        {
+          "name": "Лук, длинный",
+          "entries": [
+            "{@atk rw} {@hit 5} для попадания, дистанция 150/600 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона, и скорость цели уменьшается на 10 футов до конца её следующего хода."
+          ]
+        },
+        {
+          "name": "Безрассудный натиск {@recharge 5}",
+          "entries": [
+            "До трёх союзных существ в пределах 120 футов от этого гнолла могут использовать свои реакции, чтобы каждое совершить одну дальнюю атаку оружием с помехой, если они слышат этого гнолла и обладают особенностью «Ярость»."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Кража убийства",
+          "entries": [
+            "Если гнолл видит находящееся в сознании существо, которое получает урон и имеет 10 или меньше хитов, он может использовать свою реакцию, чтобы совершить дальнюю атаку против этого существа."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/t0VBGFK.png",
+      "attachedItems": [
+        "longbow|phb",
+        "spear|phb"
+      ],
+      "traitTags": [
+        "Rampage"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "OTH"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Gnoll Headmaster|https://www.reddit.com/r/monsteraday/comments/7odgnm/az_day_10_gnoll_huntmaster/}",
+          "Вожак стаи",
+          "Некоторые считают, что лидерство среди гнолльих военных отрядов достигается принесением жертв на алтаре или в нечестивом месте. Однако чемпионы резни не приобретают статус, убивая беспомощных жертв, привязанных к алтарю.",
+          "Методичная подготовка и мрачное насилие опозорили бы Владыку Дикости. Надлежащие жертвоприношения совершаются во время жестоких, залитых кровью оргий, которые невежественные просто называют «набегами гноллов».",
+          "Пёс на охоте.",
+          "Повелитель охоты уступает лишь Главе прайда. Он ведёт охотников и разведчиков и отвечает за поиск следующей цели прайда. Поскольку это главное желание прайда и оно обеспечивает его Выживание, не редкость, когда эту роль исполняет самый умный и Одарённый, если не самый сильный и искусный в бою Гнолл во всём военном отряде. Все повелители охоты искусны в стрельбе из лука, поражая раненую добычу и редко вступая в Ближний бой. В результате эти хитрые Гноллы обычно живут вдвое дольше большинства Глав прайда.",
+          "Перед отправлением в экспедицию повелитель охоты советуется с клыком Йеногу или Шаманом, который отвечает за толкование предзнаменований. Так, если не удастся найти беззащитную деревню или караван, повелитель охоты сможет отвести от себя вину, которая может привести к Смерти, и указать пальцем на того, кто дал ему этот совет."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/VJcXgK1.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Гнолл Мангехарт (Шаман Йеногу)",
+      "shortName": "Гнолл Мангехарт",
+      "source": "COMGnoll",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "gnoll"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        11
+      ],
+      "hp": {
+        "formula": "5d8 + 5",
+        "average": 27
+      },
+      "speed": {
+        "walk": {
+          "number": 25,
+          "condition": "(45 футов в форме гиены)"
+        }
+      },
+      "str": 11,
+      "dex": 12,
+      "con": 12,
+      "int": 9,
+      "wis": 14,
+      "cha": 8,
+      "skill": {
+        "animal handling": "+4",
+        "survival": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "languages": [
+        "Гноллий"
+      ],
+      "cr": "2",
+      "spellcasting": [
+        {
+          "name": "Использование заклинаний (только форма Гнолла)",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Гнолл — заклинатель 5-го Уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 12}, +4 к попаданию атаками заклинаниями). Гнолл подготовил следующие заклинания Друида:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell guidance}",
+                "{@spell infestation|XGE}",
+                "{@spell produce flame}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell beast bond|XGE}",
+                "{@spell faerie fire}",
+                "{@spell snare|XGE}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell beast sense}",
+                "{@spell pass without trace}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell animate dead}",
+                "{@spell conjure animals} ({@creature hyena|MM}s or {@creature giant hyena|MM}s only)"
+              ],
+              "slots": 2
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Искалеченный",
+          "entries": [
+            "Ранение навсегда уменьшает скорость Гнолла на 5, независимо от того, находится ли он в форме Гнолла или Гиены."
+          ]
+        },
+        {
+          "name": "Неистовство",
+          "entries": [
+            "Когда Гнолл уменьшает хиты существа до 0 атакой ближнего боя в свой ход, Гнолл может бонусным действием переместиться на расстояние вплоть до половины своей скорости и совершить атаку укусом."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}2 ({@damage 1d4}) колющего урона."
+          ]
+        },
+        {
+          "name": "Боевой посох (только форма Гнолла)",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 фт., одна цель. {@h}3 ({@damage 1d6}) дробящего урона или 4 ({@damage 1d8}) дробящего урона, если оружие используется двумя руками."
+          ]
+        },
+        {
+          "name": "Изменение облика (восстанавливается после короткого или Продолжительного отдыха)",
+          "entries": [
+            "Гнолл магическим образом превращается в {@creature hyena|MM}, оставаясь в этой форме до 3 часов. Он может вернуться в истинную форму бонусным действием. Его характеристики, за исключением скорости, одинаковы в каждой форме. Любое надетое или переносимое им снаряжение поглощается новой формой. Если он умирает, то возвращается в истинную форму."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Проклятая рана",
+          "entries": [
+            "Когда союзник попадает по существу атакой в ближнем бою, гнолл проклинает рану, при условии, что существо видно гноллу и находится в пределах 60 футов. Цель проклята до конца своего следующего хода. Пока оно проклято таким образом, его скорость уменьшается вдвое, и оно совершает броски атаки с помехой."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/StovB7o.png",
+      "attachedItems": [
+        "quarterstaff|phb"
+      ],
+      "traitTags": [
+        "Rampage"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Shapechanger"
+      ],
+      "languageTags": [
+        "OTH"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "I"
+      ],
+      "spellcastingTags": [
+        "CD",
+        "F"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Gnoll Mangeheart (Yeenoghu Shaman)|https://www.reddit.com/r/monsteraday/comments/7queni/az_day_13_gnoll_mangeheart_yeenoghu_shaman/}",
+          "Ни один гнолл не выбирает становиться гноллом-сердцеедом, которого часто просто называют шаманом. Вместо этого Йеногу выбирает сердцеедов среди раненых и искалеченных. Перспективных гноллов исцеляют ровно настолько, чтобы их не разорвали на части сородичи по стае. Затем Йеногу дарует им способность принимать форму гиены, чтобы они могли поспевать за военным отрядом и служить скрытными разведчиками. Их почти всегда сопровождают одна или несколько гиен, которые являются их единственными спутниками и помогают вести разведку.",
+          "В любом случае дни их бессмысленной резни, когда они разрубали жертв надвое могучими топорами, закончились. Теперь Мангехарты вынуждены довольствоваться проведением ритуалов, наделяющих воинов силой Владыки Бойни, поднимающих гнилоступов и иссохликов и ослабляющих врагов, которых затем добивают другие. Если бы Гноллы были любым другим существом, они, возможно, смотрели бы на Мангехартов с жалостью. Вместо этого они сталкиваются со слабаком, которому достаточно одного неверного шага, чтобы превратиться в обед."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/jbA6Nmq.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Гнолл Марир Гореклэш",
+      "shortName": "Гнолл Марир Гореклэш",
+      "source": "COMGnoll",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "gnoll"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item hide armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "5d8 + 10",
+        "average": 37
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 14,
+      "int": 7,
+      "wis": 12,
+      "cha": 11,
+      "save": {
+        "con": "+5",
+        "str": "+6"
+      },
+      "skill": {
+        "athletics": "+7",
+        "perception": "+4",
+        "stealth": "+5",
+        "survival": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "languages": [
+        "Гноллий",
+        "Орочий",
+        "Сильванский",
+        "Первобытный"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Неистовство",
+          "entries": [
+            "Если гнолл в свой ход опускает рукопашной атакой хиты существа до 0, он может бонусным действием переместиться на расстояние до половины своей скорости и совершить атаку укусом."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона."
+          ]
+        },
+        {
+          "name": "Топор, боевой",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Лук, длинный",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/55VtRCt.png",
+      "attachedItems": [
+        "battleaxe|phb",
+        "longbow|phb"
+      ],
+      "traitTags": [
+        "Rampage"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "O",
+        "OTH",
+        "P",
+        "S"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Marir Goreclash|https://www.pinterest.it/pin/747316131913510079/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/COMGnoll/f2KuxSQ.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

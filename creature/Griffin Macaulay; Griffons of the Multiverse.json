@@ -1,3408 +1,3408 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "GriffonsofMultiverse",
-				"abbreviation": "GotM",
-				"full": "Griffons of the Multiverse",
-				"url": "https://hitpointpress.com/products/the-griffons-saddlebag-griffons-of-the-multiverse-pdf",
-				"version": "1.0.0",
-				"authors": [
-					"Griffin Macaulay"
-				],
-				"convertedBy": [
-					"Unknown"
-				],
-				"color": "AE8445"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1761837839,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "99d0eded26"
-	},
-	"monster": [
-		{
-			"name": "Воздушный грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 22,
-			"size": [
-				"L"
-			],
-			"type": "elemental",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 119,
-				"formula": "14d10 + 42"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": {
-					"number": 120,
-					"condition": "(hover)"
-				},
-				"canHover": true
-			},
-			"str": 15,
-			"dex": 18,
-			"con": 16,
-			"int": 2,
-			"wis": 15,
-			"cha": 8,
-			"skill": {
-				"acrobatics": "+7",
-				"perception": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 15,
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"poisoned",
-				"prone"
-			],
-			"cr": "5",
-			"trait": [
-				{
-					"name": "Воздушная устойчивость",
-					"entries": [
-						"Грифон обладает иммунитетом к любому эффекту, который толкал бы, тянул бы или иным образом принуждал его двигаться во время полёта."
-					]
-				},
-				{
-					"name": "Циклогенез",
-					"entries": [
-						"Грифон создаёт вихри на своём пути во время полёта. Когда грифон пролетает в пределах 5 футов от существа размера Средний или меньше, это существо должно преуспеть в спасброске Силы {@dc 14}, иначе будет сбито с ног {@condition prone}. При успехе существо получает иммунитет к этому эффекту до начала своего следующего хода."
-					]
-				},
-				{
-					"name": "Облёт",
-					"entries": [
-						"Грифон не провоцирует атаки по возможности, когда вылетает из зоны досягаемости врага."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает три атаки: одну клювом и две когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 2d6 + 2}) рубящего урона."
-					]
-				},
-				{
-					"name": "Циклон {@recharge 5}",
-					"entries": [
-						"Грифон стремительно вращается, создавая неистовое торнадо с центром на себе. Каждое существо в пределах 30 футов должно совершить спасбросок Силы {@dc 14}. При провале существо получает 28 ({@damage 8d6}) дробящего урона, перемещается на расстояние до 30 футов в случайном направлении и сбивается с ног {@condition prone}. При успехе существо получает половину урона и перемещается на расстояние до 5 футов в случайном направлении, но не сбивается с ног {@condition prone}."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Air%20Griffon.webp"
-			},
-			"traitTags": [
-				"Flyby",
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Альце",
-			"source": "GriffonsofMultiverse",
-			"page": 5,
-			"size": [
-				"L"
-			],
-			"type": "monstrosity",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 95,
-				"formula": "10d10 + 40"
-			},
-			"speed": {
-				"walk": 50
-			},
-			"str": 19,
-			"dex": 15,
-			"con": 18,
-			"int": 8,
-			"wis": 16,
-			"cha": 13,
-			"save": {
-				"str": "+6",
-				"con": "+6"
-			},
-			"skill": {
-				"athletics": "+6",
-				"perception": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 15,
-			"cr": "4",
-			"trait": [
-				{
-					"name": "Атака в броске",
-					"entries": [
-						"Если альце перемещается как минимум на 20 футов по прямой к цели, а затем в том же ходу попадает по ней рогами, цель получает дополнительно 6 ({@damage 1d12}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 14}, иначе будет сбита с ног {@condition prone}."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Альце совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Безрассудный",
-					"entries": [
-						"В начале своего хода альце может получить преимущество на все броски рукопашных атак оружием, совершаемые в течение этого хода, но броски атак по нему получают преимущество до начала его следующего хода."
-					]
-				},
-				{
-					"name": "Осадное чудовище",
-					"entries": [
-						"Альце наносит удвоенный урон предметам и строениям."
-					]
-				},
-				{
-					"name": "Твёрдая поступь",
-					"entries": [
-						"Альце совершает с преимуществом спасброски Силы и Ловкости против эффектов, которые сбили бы его с ног {@condition prone}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Альце совершает три атаки: одну клювом, одну когтями и одну рогами."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Рога",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 1d12 + 4}) дробящего урона."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Alce.webp"
-			},
-			"traitTags": [
-				"Charge",
-				"Keen Senses",
-				"Reckless",
-				"Siege Monster"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Небесный грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 34,
-			"size": [
-				"H"
-			],
-			"type": "celestial",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 168,
-				"formula": "16d12 + 64"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 90
-			},
-			"str": 20,
-			"dex": 16,
-			"con": 18,
-			"int": 11,
-			"wis": 15,
-			"cha": 21,
-			"save": {
-				"con": "+7",
-				"wis": "+5",
-				"cha": "+8"
-			},
-			"skill": {
-				"insight": "+5",
-				"perception": "+5"
-			},
-			"senses": [
-				"truesight 60 ft."
-			],
-			"passive": 15,
-			"resist": [
-				"necrotic"
-			],
-			"immune": [
-				"poison",
-				"radiant"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"languages": [
-				"Небесный; телепатия 60 ft."
-			],
-			"cr": "8",
-			"trait": [
-				{
-					"name": "Благословенная погода",
-					"entries": [
-						"Погода в пределах 1 мили от грифона со временем сверхъестественно проясняется, как если бы это было заклинанием {@spell control weather}, меняясь в сторону стадий «Ясно», «Тепло» и «Спокойно» соответственно. Каждая смена стадии занимает 1 минуту. Эта черта не влияет на погоду, изменённую магией."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Сопротивление магии",
-					"entries": [
-						"Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
-					]
-				},
-				{
-					"name": "Магическое оружие",
-					"entries": [
-						"Атаки оружием грифона являются магическими."
-					]
-				},
-				{
-					"name": "Поглощение излучения",
-					"entries": [
-						"Всякий раз, когда грифон подвергается урону излучением, он не получает урона и вместо этого восстанавливает хиты в количестве, равном причинённому урону излучением."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 10 фт., одна цель. {@h}12 ({@damage 2d6 + 5}) колющего урона плюс 5 ({@damage 1d10}) урона излучением."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 10 футов, одна цель. {@h}18 ({@damage 3d8 + 5}) рубящего урона."
-					]
-				},
-				{
-					"name": "Волна божественности {@recharge 5}",
-					"entries": [
-						"Грифон испускает всплеск божественной энергии в сфере радиусом 60 футов с центром на себе. Вплоть до четырёх дружественных существ на его выбор восстанавливают 18 ({@dice 3d8 + 5}) хитов и освобождаются от любых проклятий, болезней, яда, слепоты или глухоты. Вплоть до четырёх враждебных существ на его выбор должны совершить спасбросок Телосложения {@dc 16}, иначе получат 36 ({@damage 8d8}) урона излучением и станут {@condition blinded} и {@condition deafened} до начала следующего хода грифона."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Celestial%20Griffon.webp"
-			},
-			"traitTags": [
-				"Damage Absorption",
-				"Keen Senses",
-				"Magic Resistance",
-				"Magic Weapons"
-			],
-			"senseTags": [
-				"U"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"CE",
-				"TP"
-			],
-			"damageTags": [
-				"P",
-				"R",
-				"S"
-			],
-			"miscTags": [
-				"AOE",
-				"MW",
-				"RCH"
-			],
-			"conditionInflict": [
-				"blinded",
-				"deafened"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Химерический грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 7,
-			"size": [
-				"L"
-			],
-			"type": "monstrosity",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 133,
-				"formula": "14d10 + 56"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 90
-			},
-			"str": 21,
-			"dex": 17,
-			"con": 18,
-			"int": 4,
-			"wis": 14,
-			"cha": 9,
-			"skill": {
-				"perception": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 20,
-			"cr": "6",
-			"trait": [
-				{
-					"name": "Химерическое тело",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}) и спасброски от того, чтобы стать {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, быть сбитым с ног {@condition prone} или упасть {@condition unconscious}."
-					]
-				},
-				{
-					"name": "Град клювов (1/ход)",
-					"entries": [
-						"Если грифон промахивается атакой клювом, он может совершить ещё одну атаку клювом в рамках того же действия."
-					]
-				},
-				{
-					"name": "Реактивные головы",
-					"entries": [
-						"У грифона есть две дополнительные реакции, которые можно использовать только для совершения атак по возможности клювом."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает четыре атаки: три клювами и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d8 + 5}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона."
-					]
-				},
-				{
-					"name": "Визгливый хор {@recharge}",
-					"entries": [
-						"Три головы грифона визжат в унисон, принуждая каждое другое существо в пределах 15 футов от него, способное его слышать, совершить спасбросок Мудрости {@dc 15}. При провале существо получает 13 ({@damage 3d8}) урона звуком плюс 13 ({@damage 3d8}) урона психической энергией, и цель становится {@condition deafened} до конца следующего хода грифона. При успехе существо получает половину урона и не становится {@condition deafened}."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Chimeric%20Griffon.webp"
-			},
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"P",
-				"S",
-				"T",
-				"Y"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"deafened"
-			],
-			"savingThrowForced": [
-				"wisdom"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Друидический грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 12,
-			"size": [
-				"L"
-			],
-			"type": "monstrosity",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 120,
-				"formula": "16d10 + 32"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 80
-			},
-			"str": 18,
-			"dex": 14,
-			"con": 14,
-			"int": 12,
-			"wis": 16,
-			"cha": 13,
-			"save": {
-				"wis": "+6"
-			},
-			"skill": {
-				"nature": "+4",
-				"perception": "+6"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 16,
-			"languages": [
-				"Understands druidic and сильванский но не может говорить"
-			],
-			"cr": "6",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Грифон — заклинатель 5-го уровня. Его базовая характеристика заклинаний — Мудрость (Сл спасброска {@dc 14}). Для сотворения заклинаний ему не требуются материальные компоненты. У него подготовлены следующие заклинания друида:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell guidance}",
-								"{@spell thorn whip}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell entangle}",
-								"{@spell goodberry}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell flaming sphere}",
-								"{@spell lesser restoration}"
-							]
-						},
-						"3": {
-							"slots": 2,
-							"spells": [
-								"{@spell plant growth}",
-								"{@spell wind wall}"
-							]
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"trait": [
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Узы природы",
-					"entries": [
-						"Когда хиты грифона уменьшаются до 0, растения в пределах 30 футов от него быстро разрастаются по области, создавая труднопроходимую местность, пока её не расчистят."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d10 + 4}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Изумрудный визг {@recharge 5}",
-					"entries": [
-						"Грифон издаёт резонирующий крик, наполняющий природу силой. Каждое существо на выбор грифона в пределах 20 футов должно преуспеть в спасброске Силы {@dc 14}, иначе будет {@condition restrained} корнями и лозами (высвобождение {@dc 14}). Растения увядают через 1 минуту или когда грифон умирает."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Druidic%20Griffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"CS",
-				"DU",
-				"S"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"damageTagsSpell": [
-				"B",
-				"F",
-				"P"
-			],
-			"spellcastingTags": [
-				"CD"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"restrained"
-			],
-			"conditionInflictSpell": [
-				"restrained"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"savingThrowForcedSpell": [
-				"dexterity",
-				"strength"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Земляной грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 27,
-			"size": [
-				"L"
-			],
-			"type": "elemental",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 152,
-				"formula": "16d10 + 54"
-			},
-			"speed": {
-				"walk": 40,
-				"burrow": 30
-			},
-			"str": 20,
-			"dex": 11,
-			"con": 18,
-			"int": 2,
-			"wis": 13,
-			"cha": 8,
-			"skill": {
-				"perception": "+4"
-			},
-			"senses": [
-				"darkvision 60 ft.",
-				"tremorsense 60 ft."
-			],
-			"passive": 14,
-			"immune": [
-				"poison"
-			],
-			"vulnerable": [
-				"thunder"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"petrified",
-				"poisoned"
-			],
-			"cr": "5",
-			"trait": [
-				{
-					"name": "Скольжение по земле",
-					"entries": [
-						"Грифон может прорываться сквозь немагическую необработанную землю и камень. При этом он не нарушает материал, через который перемещается."
-					]
-				},
-				{
-					"name": "Тяжёлая поступь",
-					"entries": [
-						"Грифон совершает с преимуществом проверки характеристик и спасброски против любого эффекта, который толкал бы его, тянул бы его или сбивал бы его с ног {@condition prone}."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Каменная маскировка",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Ловкости ({@skill Stealth}), чтобы спрятаться в каменистой местности."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну когтями и одну размашистым ударом."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона."
-					]
-				},
-				{
-					"name": "Размашистый удар",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 фт., одна цель. {@h}11 ({@damage 1d12 + 5}) дробящего урона (23 [{@dice 2d12 + 10}], если цель — предмет или строение)."
-					]
-				},
-				{
-					"name": "Внезапное извержение",
-					"entries": [
-						"Если грифон начинает свой ход под землёй и в пределах 10 футов от поверхности, он может вырваться вверх во взрывном поднятии земли. Каждое существо в пределах 10 футов должно совершить спасбросок Силы {@dc 16}, получая 26 ({@damage 4d12}) дробящего урона и сбиваясь с ног {@condition prone} при провале, или половину урона без {@condition prone} при успехе."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Earth%20Griffon.webp"
-			},
-			"traitTags": [
-				"Camouflage",
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D",
-				"T"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"B",
-				"S"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Грифон фей",
-			"source": "GriffonsofMultiverse",
-			"page": 15,
-			"size": [
-				"T"
-			],
-			"type": "fey",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 136,
-				"formula": "16d10 + 48"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 80
-			},
-			"str": 18,
-			"dex": 16,
-			"con": 17,
-			"int": 12,
-			"wis": 15,
-			"cha": 18,
-			"save": {
-				"dex": "+6",
-				"cha": "+7"
-			},
-			"skill": {
-				"arcana": "+4",
-				"perception": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 15,
-			"resist": [
-				"cold",
-				"fire",
-				"lightning",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"conditionImmune": [
-				"charmed"
-			],
-			"languages": [
-				"Сильванский",
-				"Эльфийский; телепатия 60 ft."
-			],
-			"cr": "8",
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Врождённая способность к заклинаниям грифона — Харизма (Сл спасброска {@dc 15}). Он может врождённо творить следующие заклинания, не требуя материальных компонентов:"
-					],
-					"will": [
-						"{@spell druidcraft}",
-						"{@spell faerie fire}",
-						"{@spell speak with animals}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell misty step}",
-							"{@spell moonbeam}"
-						],
-						"1e": [
-							"{@spell conjure animals} (fey creatures only)",
-							"{@spell greater invisibility}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"trait": [
-				{
-					"name": "Сопротивление магии",
-					"entries": [
-						"Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d10 + 4}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Вспышка фей {@recharge 5}",
-					"entries": [
-						"Грифон испускает сияющий свет в радиусе 30 футов. Каждое враждебное существо в этой области должно преуспеть в спасброске Мудрости {@dc 15}, иначе станет {@condition blinded} до конца следующего хода грифона. Существа, которых нельзя {@condition blinded}, автоматически преуспевают."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Fey%20Griffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses",
-				"Magic Resistance"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"E",
-				"S",
-				"TP"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"damageTagsSpell": [
-				"R"
-			],
-			"spellcastingTags": [
-				"I"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"conditionInflict": [
-				"blinded"
-			],
-			"conditionInflictSpell": [
-				"invisible"
-			],
-			"savingThrowForced": [
-				"wisdom"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Огненный грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 28,
-			"size": [
-				"L"
-			],
-			"type": "elemental",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 127,
-				"formula": "15d10 + 45"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 90
-			},
-			"str": 18,
-			"dex": 17,
-			"con": 16,
-			"int": 2,
-			"wis": 13,
-			"cha": 8,
-			"skill": {
-				"perception": "+4"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 14,
-			"immune": [
-				"fire",
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"poisoned"
-			],
-			"cr": "5",
-			"trait": [
-				{
-					"name": "Раскалённое тело",
-					"entries": [
-						"Существо, касающееся грифона или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 4 ({@damage 1d8}) урона огнём."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Пронзительный жар",
-					"entries": [
-						"Всякий раз, когда грифон наносит урон огнём, он может считать любую выпавшую на кости урона 1 как 2."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона плюс 7 ({@damage 2d6}) урона огнём."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Огненное вращение {@recharge 4}",
-					"entries": [
-						"Грифон пролетает до 60 футов по прямой, сворачивая тело в плотно вращающуюся полосу пламени шириной 10 футов. Каждое существо в этой линии должно совершить спасбросок Ловкости {@dc 14}, получая 24 ({@damage 7d6}) урона огнём при провале или половину при успехе."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Fire%20Griffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"F",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Адский грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 37,
-			"size": [
-				"H"
-			],
-			"type": "fiend",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 184,
-				"formula": "16d12 + 80"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 90
-			},
-			"str": 19,
-			"dex": 18,
-			"con": 20,
-			"int": 9,
-			"wis": 14,
-			"cha": 19,
-			"skill": {
-				"deception": "+8",
-				"perception": "+6"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 16,
-			"immune": [
-				"fire",
-				"poison"
-			],
-			"conditionImmune": [
-				"poisoned"
-			],
-			"languages": [
-				"Инфернальный"
-			],
-			"cr": "9",
-			"trait": [
-				{
-					"name": "Дарование сопротивления огню",
-					"entries": [
-						"Грифон может даровать сопротивление урону огнём любому, кто на нём едет."
-					]
-				},
-				{
-					"name": "Дьявольское зрение",
-					"entries": [
-						"Магическая тьма не мешает тёмному зрению грифона."
-					]
-				},
-				{
-					"name": "Освещение",
-					"entries": [
-						"Грифон испускает яркий свет в радиусе 15 футов и тусклый свет ещё на 15 футов."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Сопротивление магии",
-					"entries": [
-						"Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает три атаки: одну клювом и две когтями. Или он совершает три атаки Метанием пламени."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 10 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) колющего урона плюс 16 ({@damage 3d10}) урона огнём."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 10 футов, одна цель. {@h}17 ({@damage 3d8 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Метание пламени",
-					"entries": [
-						"{@atk rs} {@hit 8} к попаданию, дистанция 120 футов, одна цель. {@h}18 ({@damage 4d8}) огнём."
-					]
-				},
-				{
-					"name": "Переход между планами (перезаряжается после короткого или продолжительного отдыха)",
-					"entries": [
-						"Грифон и вплоть до четырёх существ, касающихся его, переносятся в место на выбор грифона в Девяти Преисподних, или на другой план на выбор грифона в одном из Нижних Планов, если он уже там. Нежелающее существо может совершить спасбросок Харизмы {@dc 16}, чтобы воспротивиться переносу."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Hell%20Griffon.webp"
-			},
-			"traitTags": [
-				"Devil's Sight",
-				"Illumination",
-				"Keen Senses",
-				"Magic Resistance"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"I"
-			],
-			"damageTags": [
-				"F",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"AOE",
-				"MW",
-				"RA",
-				"RCH"
-			],
-			"savingThrowForced": [
-				"charisma"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Призрачный грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 20,
-			"size": [
-				"L"
-			],
-			"type": "undead",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				14
-			],
-			"hp": {
-				"average": 59,
-				"formula": "7d10 + 21"
-			},
-			"speed": {
-				"walk": 0,
-				"fly": {
-					"number": 90,
-					"condition": "(hover)"
-				},
-				"canHover": true
-			},
-			"str": 9,
-			"dex": 18,
-			"con": 16,
-			"int": 2,
-			"wis": 14,
-			"cha": 11,
-			"skill": {
-				"perception": "+4"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 14,
-			"resist": [
-				"acid",
-				"cold",
-				"fire",
-				"lightning",
-				"thunder",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"necrotic",
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained"
-			],
-			"cr": "4",
-			"trait": [
-				{
-					"name": "Эфирное зрение",
-					"entries": [
-						"Грифон может видеть на 120 футов в Эфирный план, находясь на Материальном плане, и наоборот."
-					]
-				},
-				{
-					"name": "Бесплотное передвижение",
-					"entries": [
-						"Грифон может перемещаться сквозь других существ и предметы, как если бы они были труднопроходимой местностью. Он получает 5 ({@damage 1d10}) урона силовым полем, если оканчивает ход внутри предмета."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Высасывание жизни (1/ход)",
-					"entries": [
-						"Когда грифон попадает по существу рукопашной атакой, он может нанести дополнительно 5 ({@damage 1d10}) урона некротической энергией. Цель должна преуспеть в спасброске Телосложения {@dc 12}, иначе максимум её хитов уменьшится на количество нанесённого урона некротической энергией. Это уменьшение длится до тех пор, пока существо не окончит продолжительный отдых. Цель умирает, если это уменьшает максимум её хитов до 0."
-					]
-				},
-				{
-					"name": "Природа нежити",
-					"entries": [
-						"Грифон не нуждается в воздухе, еде, питье и сне."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Призрачный клюв",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) силового урона."
-					]
-				},
-				{
-					"name": "Призрачные когти",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) силового урона."
-					]
-				},
-				{
-					"name": "Эфирность",
-					"entries": [
-						"Грифон переходит на Эфирный план с Материального плана или наоборот. Он виден на Материальном плане, пока находится в Пограничном Эфире, но не может влиять на что-либо на другом плане или подвергаться влиянию."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Phantom%20Griffon.webp"
-			},
-			"traitTags": [
-				"Incorporeal Movement",
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"N",
-				"O"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Грифон-феникс",
-			"source": "GriffonsofMultiverse",
-			"page": 30,
-			"size": [
-				"G"
-			],
-			"type": "elemental",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 181,
-				"formula": "11d20 + 66"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 120
-			},
-			"str": 18,
-			"dex": 23,
-			"con": 22,
-			"int": 9,
-			"wis": 16,
-			"cha": 17,
-			"save": {
-				"dex": "+11",
-				"int": "+4"
-			},
-			"skill": {
-				"perception": "+8"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 18,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"fire",
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"poisoned",
-				"prone",
-				"restrained"
-			],
-			"languages": [
-				"Игнан"
-			],
-			"cr": "15",
-			"trait": [
-				{
-					"name": "Предсмертный взрыв",
-					"entries": [
-						"Когда грифон умирает, он взрывается вспышкой искр и пепла. Каждое существо в пределах 30 футов должно совершить спасбросок Ловкости {@dc 19}, получая 21 ({@damage 6d6}) урона огнём при провале или половину при успехе. Взрыв воспламеняет горючие предметы в области, которые никто не носит и не несёт."
-					]
-				},
-				{
-					"name": "Элементальная природа",
-					"entries": [
-						"Грифон не нуждается в воздухе, еде, питье и сне."
-					]
-				},
-				{
-					"name": "Огненная форма",
-					"entries": [
-						"Грифон может перемещаться через пространство шириной всего 1 дюйм, не протискиваясь. Существо, касающееся грифона или попадающее по нему рукопашной атакой в пределах 5 футов, получает 5 урона огнём."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Phoenix%20Griffon.webp"
-			},
-			"traitTags": [
-				"Death Burst"
-			],
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"IG"
-			],
-			"damageTags": [
-				"F"
-			],
-			"miscTags": [
-				"AOE"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Псевдогрифон",
-			"source": "GriffonsofMultiverse",
-			"page": 16,
-			"size": [
-				"T"
-			],
-			"type": "monstrosity",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"ac": [
-				13
-			],
-			"hp": {
-				"average": 7,
-				"formula": "2d4 + 2"
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 20,
-				"fly": 60
-			},
-			"str": 5,
-			"dex": 16,
-			"con": 12,
-			"int": 10,
-			"wis": 14,
-			"cha": 9,
-			"skill": {
-				"perception": "+4",
-				"stealth": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 14,
-			"languages": [
-				"Understands Общий но не может говорить"
-			],
-			"cr": "1/4",
-			"trait": [
-				{
-					"name": "Острые чувства",
-					"entries": [
-						"Псевдогрифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение, слух или обоняние."
-					]
-				},
-				{
-					"name": "Ограниченная телепатия",
-					"entries": [
-						"Псевдогрифон может магически передавать телепатически простые идеи, эмоции и образы любому существу в пределах 100 футов от него, способному понимать язык."
-					]
-				},
-				{
-					"name": "Сопротивление магии",
-					"entries": [
-						"Псевдогрифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
-					]
-				},
-				{
-					"name": "Наскок",
-					"entries": [
-						"Если псевдогрифон перемещается как минимум на 10 футов по прямой к существу размера Маленький или меньше, а затем в том же ходу попадает по нему когтями, эта цель должна преуспеть в спасброске Силы {@dc 13}, иначе будет сбита с ног {@condition prone}. Если цель {@condition prone}, псевдогрифон может бонусным действием совершить по ней одну атаку клювом."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}1 колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Гипнотический взгляд (1/день)",
-					"entries": [
-						"Одно существо, которое псевдогрифон видит в пределах 20 футов от него, должно преуспеть в спасброске Мудрости {@dc 12}, иначе станет {@condition charmed} на 1 час или пока псевдогрифон или один из его союзников не сделает цели ничего вредного. Будучи {@condition charmed} таким образом, скорость цели уменьшается до 0, и она {@condition incapacitated}."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Pseudogriffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses",
-				"Magic Resistance",
-				"Pounce"
-			],
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"C",
-				"CS"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"charmed",
-				"prone"
-			],
-			"savingThrowForced": [
-				"strength",
-				"wisdom"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Грифон-ракшаса",
-			"source": "GriffonsofMultiverse",
-			"page": 39,
-			"size": [
-				"M"
-			],
-			"type": "fiend",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 102,
-				"formula": "12d8 + 48"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 40
-			},
-			"str": 15,
-			"dex": 17,
-			"con": 18,
-			"int": 12,
-			"wis": 16,
-			"cha": 19,
-			"skill": {
-				"deception": "+7",
-				"insight": "+6",
-				"perception": "+6"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 16,
-			"immune": [
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"vulnerable": [
-				{
-					"vulnerable": [
-						"piercing"
-					],
-					"note": "from magic weapons wielded by good creatures",
-					"cond": true
-				}
-			],
-			"languages": [
-				"Общий",
-				"Инфернальный"
-			],
-			"cr": "7",
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Врождённая способность к заклинаниям грифона — Харизма (Сл спасброска {@dc 15}). Он может врождённо творить следующие заклинания, не требуя материальных компонентов:"
-					],
-					"will": [
-						"{@spell disguise self}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell charm person}",
-							"{@spell detect magic}",
-							"{@spell detect thoughts}"
-						],
-						"1e": [
-							"{@spell invisibility}",
-							"{@spell major image}",
-							"{@spell suggestion}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"trait": [
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Ограниченная магическая иммунность",
-					"entries": [
-						"Грифон не может быть затронут или обнаружен заклинаниями 3-го уровня и ниже, если сам того не пожелает. Он совершает с преимуществом спасброски от всех остальных заклинаний и магических эффектов."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 2d4 + 2}) рубящего урона, и если цель — существо, она проклята. В следующий раз, когда цель совершает короткий или продолжительный отдых, её мучают ужасные сны, и она не получает от этого отдыха никакой пользы. Затем проклятие оканчивается."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Rakshasa%20Griffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"I"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"spellcastingTags": [
-				"I"
-			],
-			"miscTags": [
-				"CUR",
-				"MW"
-			],
-			"conditionInflictSpell": [
-				"charmed",
-				"invisible"
-			],
-			"savingThrowForcedSpell": [
-				"wisdom"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Теневой грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 18,
-			"size": [
-				"L"
-			],
-			"type": "undead",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 123,
-				"formula": "13d10 + 52"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 80
-			},
-			"str": 18,
-			"dex": 18,
-			"con": 18,
-			"int": 3,
-			"wis": 13,
-			"cha": {
-				"special": "15 (+2)"
-			},
-			"senses": [
-				"darkvision 120 ft."
-			],
-			"passive": 15,
-			"resist": [
-				"acid",
-				"cold",
-				"fire",
-				"lightning",
-				"thunder",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"necrotic",
-				"poison"
-			],
-			"vulnerable": [
-				"radiant"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"frightened",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained"
-			],
-			"cr": "6",
-			"trait": [
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Теневая скрытность",
-					"entries": [
-						"Находясь в тусклом свете или тьме, грифон может совершить действие «Затаиться» бонусным действием. Если он совершает атаку, будучи скрытым в тусклом свете или тьме, цель при попадании получает дополнительно 5 ({@damage 1d10}) урона некротической энергией."
-					]
-				},
-				{
-					"name": "Слабость к солнцу",
-					"entries": [
-						"Находясь на солнечном свету, грифон совершает с помехой броски атаки, проверки характеристик и спасброски."
-					]
-				},
-				{
-					"name": "Сопротивление изгнанию",
-					"entries": [
-						"Грифон совершает с преимуществом спасброски против любого эффекта, который изгоняет нежить."
-					]
-				},
-				{
-					"name": "Природа нежити",
-					"entries": [
-						"Грифон не нуждается в воздухе, еде, питье и сне."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона плюс 5 ({@damage 1d10}) урона некротической энергией."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона плюс 5 ({@damage 1d10}) урона некротической энергией."
-					]
-				},
-				{
-					"name": "Теневая форма",
-					"entries": [
-						"Грифон становится бестелесным облаком клубящихся теней в форме грифона, пока не умрёт или не окончит эффект бонусным действием. В этой форме он имеет скорость полёта 40 футов и может парить; он может входить в пространство другого существа и занимать его. Он совершает с преимуществом спасброски Силы, Ловкости и Телосложения; может проходить через небольшие отверстия, узкие проёмы и даже щели (считает жидкости твёрдыми поверхностями); двигается бесшумно; {@condition invisible}, пока находится в областях тьмы (даже для тёмного зрения); не может падать и остаётся парящим, даже когда {@condition stunned} или {@condition incapacitated}; не может манипулировать предметами, и любые предметы, которые он нёс, нельзя уронить, использовать или иным образом взаимодействовать с ними; и грифон не может атаковать."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Shadow%20Griffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses",
-				"Turn Resistance"
-			],
-			"senseTags": [
-				"SD"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"N",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Грифон-сфинкс",
-			"source": "GriffonsofMultiverse",
-			"page": 8,
-			"size": [
-				"L"
-			],
-			"type": "monstrosity",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 127,
-				"formula": "15d10 + 45"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 80
-			},
-			"str": 18,
-			"dex": 15,
-			"con": 16,
-			"int": 17,
-			"wis": 17,
-			"cha": 14,
-			"save": {
-				"dex": "+6",
-				"con": "+7",
-				"int": "+7",
-				"wis": "+7"
-			},
-			"skill": {
-				"arcana": "+7",
-				"perception": "+7",
-				"religion": "+7"
-			},
-			"senses": [
-				"truesight 120 ft."
-			],
-			"passive": 17,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"psychic"
-			],
-			"conditionImmune": [
-				"charmed",
-				"frightened"
-			],
-			"languages": [
-				"Общий",
-				"Sphinx"
-			],
-			"cr": "10",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Грифон — заклинатель 6-го уровня. Его базовая характеристика заклинаний — Интеллект (Сл спасброска {@dc 15}). Для сотворения заклинаний ему не требуются материальные компоненты. У грифона подготовлены следующие заклинания волшебника:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell mage hand}",
-								"{@spell minor illusion}",
-								"{@spell prestidigitation}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"{@spell shield}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell darkness}",
-								"{@spell locate object}",
-								"{@spell suggestion}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell dispel magic}",
-								"{@spell tongues}"
-							]
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"trait": [
-				{
-					"name": "Непостижимый",
-					"entries": [
-						"Грифон обладает иммунитетом к любому эффекту, который чувствовал бы его эмоции или читал бы его мысли, а также к любому заклинанию прорицания, от которого он отказывается. Проверки Мудрости ({@skill Insight}) для определения намерений или искренности грифона совершаются с помехой."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Магическое оружие",
-					"entries": [
-						"Атаки оружием грифона являются магическими."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну укусом и одну когтями."
-					]
-				},
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Задать загадку (3/день)",
-					"entries": [
-						"Грифон телепатически задаёт загадку каждому существу на свой выбор, которое видит в пределах 60 футов от него. Существо, не понимающее хотя бы один язык, получает иммунитет к этому эффекту. Каждое затронутое существо должно преуспеть в спасброске Интеллекта {@dc 15}, иначе станет {@condition incapacitated} до начала следующего хода грифона. Мастер может решить представить игроку настоящую загадку. Если игрок её разгадает, этот персонаж автоматически преуспевает в спасброске. В противном случае персонаж совершает спасбросок как обычно."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Атака когтями",
-					"entries": [
-						"Грифон совершает одну атаку когтями."
-					]
-				},
-				{
-					"name": "Телепортация (стоит 2 действия)",
-					"entries": [
-						"Грифон магически телепортируется вместе с любым снаряжением, которое носит или несёт, на расстояние до 120 футов в свободное пространство, которое видит."
-					]
-				},
-				{
-					"name": "Сотворить заклинание (стоит 3 действия)",
-					"entries": [
-						"Грифон творит заклинание из своего списка подготовленных заклинаний, используя ячейку заклинаний как обычно."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Sphinx%20Griffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses",
-				"Magic Weapons"
-			],
-			"senseTags": [
-				"U"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"OTH"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"spellcastingTags": [
-				"CW"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"incapacitated"
-			],
-			"savingThrowForced": [
-				"intelligence"
-			],
-			"savingThrowForcedSpell": [
-				"wisdom"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Звёздный грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 42,
-			"size": [
-				"G"
-			],
-			"type": "celestial",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 264,
-				"formula": "16d20 + 96"
-			},
-			"speed": {
-				"walk": 50,
-				"fly": {
-					"number": 150,
-					"condition": "(hover)"
-				},
-				"canHover": true
-			},
-			"str": 22,
-			"dex": 20,
-			"con": 23,
-			"int": 14,
-			"wis": 19,
-			"cha": 25,
-			"save": {
-				"con": "+12",
-				"int": "+8"
-			},
-			"skill": {
-				"arcana": "+8",
-				"perception": "+16"
-			},
-			"senses": [
-				"darkvision 300 ft.",
-				"truesight 120 ft."
-			],
-			"passive": 26,
-			"resist": [
-				"cold",
-				"force",
-				"radiant"
-			],
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned"
-			],
-			"languages": [
-				"All; телепатия 300 ft."
-			],
-			"cr": "19",
-			"trait": [
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Зажигатель звёзд",
-					"entries": [
-						"В начале каждого своего хода и всякий раз, когда он совершает критическое попадание, грифон создаёт средних размеров частицу света, напоминающую мерцающую звезду, в свободном пространстве на свой выбор в пределах 30 футов. Частица нематериальна и испускает тусклый свет в радиусе 60 футов. Созданная частица сохраняется, пока грифон не окажется более чем в 1 миле от неё, не отпустит её (действие не требуется) или не войдёт в магическую тьму. Грифон может иметь одновременно до двенадцати частиц."
-					]
-				},
-				{
-					"name": "Легендарное сопротивление (3/день)",
-					"entries": [
-						"Если грифон проваливает спасбросок, он может вместо этого сделать спасбросок успешным."
-					]
-				},
-				{
-					"name": "Сопротивление магии",
-					"entries": [
-						"Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
-					]
-				},
-				{
-					"name": "Вселенская природа",
-					"entries": [
-						"Грифон не нуждается в воздухе, еде, питье и сне."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает три атаки: одну клювом и две когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 12} к попаданию, досягаемость 15 футов, одна цель. {@h}22 ({@damage 3d10 + 6}) силового урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 12} к попаданию, досягаемость 15 футов, одна цель. {@h}24 ({@damage 4d8 + 6}) силового урона."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Создание звезды",
-					"entries": [
-						"Грифон создаёт частицу, как описано в его черте Зажигатель звёзд."
-					]
-				},
-				{
-					"name": "Межзвёздный шаг",
-					"entries": [
-						"Грифон телепортируется в свободное пространство, находящееся в тусклом свете, испускаемом одной из его частиц."
-					]
-				},
-				{
-					"name": "Падающие звёзды (стоит 2 действия)",
-					"entries": [
-						"Грифон направляет до шести частиц нестись к своим врагам. Каждая частица поражает существо, которое грифон видит в пределах 120 футов, нанося 21 ({@damage 6d6}) урона силовым полем. Каждая цель, поражённая хотя бы одной частицей, должна преуспеть в спасброске Силы {@dc 15}, иначе будет сбита с ног {@condition prone}."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Starscape%20Griffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses",
-				"Legendary Resistances",
-				"Magic Resistance"
-			],
-			"senseTags": [
-				"SD",
-				"U"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"TP",
-				"XX"
-			],
-			"damageTags": [
-				"O"
-			],
-			"miscTags": [
-				"AOE",
-				"MW",
-				"RCH"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Грифон-буря",
-			"source": "GriffonsofMultiverse",
-			"page": 24,
-			"size": [
-				"G"
-			],
-			"type": "monstrosity",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 148,
-				"formula": "17d20 + 54"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 120
-			},
-			"str": 22,
-			"dex": 21,
-			"con": 23,
-			"int": 10,
-			"wis": 16,
-			"cha": 13,
-			"save": {
-				"con": "+10",
-				"int": "+4"
-			},
-			"skill": {
-				"perception": "+7"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 17,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"lightning",
-				"poison",
-				"thunder"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"stunned"
-			],
-			"languages": [
-				"Ауран"
-			],
-			"cr": "12",
-			"trait": [
-				{
-					"name": "Электризованное тело",
-					"entries": [
-						"Существо, касающееся грифона или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 5 ({@damage 1d10}) урона электричеством."
-					]
-				},
-				{
-					"name": "Облёт",
-					"entries": [
-						"Грифон не провоцирует атаки по возможности, когда вылетает из зоны досягаемости врага."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Легендарное сопротивление (3/день)",
-					"entries": [
-						"Если грифон проваливает спасбросок, он может вместо этого сделать спасбросок успешным."
-					]
-				},
-				{
-					"name": "Безмолвная природа",
-					"entries": [
-						"Грифон не нуждается в воздухе, еде, питье и сне."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает три атаки: одну клювом, одну когтями и одну хвостом."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 15 фт., одна цель. {@h}16 ({@damage 2d8 + 7}) колющего урона плюс 5 ({@damage 1d10}) урона звуком."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 15 фт., одна цель. {@h}20 ({@damage 2d12 + 7}) рубящего урона плюс 5 ({@damage 1d10}) урона электричеством."
-					]
-				},
-				{
-					"name": "Хвост",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 20 фт., одна цель. {@h}14 ({@damage 2d6 + 7}) дробящего урона плюс 5 ({@damage 1d10}) урона электричеством."
-					]
-				},
-				{
-					"name": "Дыхание молнии {@recharge 5}",
-					"entries": [
-						"Грифон выпускает луч потрескивающей молнии линией 120 футов длиной и 10 футов шириной. Каждое существо в линии должно совершить спасбросок Ловкости {@dc 18}, получая 36 ({@damage 8d8}) урона электричеством при провале или половину при успехе."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Tempest%20Griffon.webp"
-			},
-			"traitTags": [
-				"Flyby",
-				"Keen Senses",
-				"Legendary Resistances"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Breath Weapon",
-				"Multiattack"
-			],
-			"languageTags": [
-				"AU"
-			],
-			"damageTags": [
-				"B",
-				"L",
-				"P",
-				"S",
-				"T"
-			],
-			"miscTags": [
-				"AOE",
-				"MW",
-				"RCH"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Грифон-врок",
-			"source": "GriffonsofMultiverse",
-			"page": 40,
-			"size": [
-				"L"
-			],
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 95,
-				"formula": "10d10 + 40"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 80
-			},
-			"str": 17,
-			"dex": 15,
-			"con": 18,
-			"int": 5,
-			"wis": 13,
-			"cha": 8,
-			"save": {
-				"dex": "+5",
-				"wis": "+4",
-				"cha": "+2"
-			},
-			"skill": {
-				"perception": "+4"
-			},
-			"senses": [
-				"darkvision 120 ft."
-			],
-			"passive": 14,
-			"resist": [
-				"cold",
-				"fire",
-				"lightning",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"poisoned"
-			],
-			"languages": [
-				"Understands бездонный но не может говорить"
-			],
-			"cr": "5",
-			"trait": [
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Ограниченная телепатия",
-					"entries": [
-						"Грифон может магически передавать телепатически простые идеи, эмоции и образы любому существу в пределах 60 футов от него, способному понимать язык."
-					]
-				},
-				{
-					"name": "Сопротивление магии",
-					"entries": [
-						"Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d12 + 3}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d10 + 3}) рубящего урона."
-					]
-				},
-				{
-					"name": "Оглушающий визг (1/день)",
-					"entries": [
-						"Грифон издаёт ужасающий визг. Каждое существо в пределах 20 футов от него, способное его слышать и не являющееся демоном, должно преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition stunned} до конца следующего хода грифона."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Выпускание спор {@recharge}",
-					"entries": [
-						"Когда грифон получает урон, он стряхивает облако спор. Каждое существо в пределах 10 футов от него должно преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition poisoned}. Будучи {@condition poisoned} таким образом, цель получает 5 ({@damage 1d10}) урона ядом в начале каждого своего хода. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Выливание на цель флакона святой воды также оканчивает эффект."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Vrock%20Griffon.webp"
-			},
-			"traitTags": [
-				"Keen Senses",
-				"Magic Resistance"
-			],
-			"senseTags": [
-				"SD"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"AB",
-				"CS"
-			],
-			"damageTags": [
-				"I",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"conditionInflict": [
-				"poisoned",
-				"stunned"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Водяной грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 33,
-			"size": [
-				"L"
-			],
-			"type": "elemental",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 119,
-				"formula": "14d10 + 42"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 80,
-				"swim": 80
-			},
-			"str": 18,
-			"dex": 16,
-			"con": 17,
-			"int": 2,
-			"wis": 14,
-			"cha": 8,
-			"save": {
-				"dex": "+6"
-			},
-			"skill": {
-				"perception": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 15,
-			"resist": [
-				"acid",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"poisoned"
-			],
-			"cr": "5",
-			"trait": [
-				{
-					"name": "Амфибия",
-					"entries": [
-						"Грифон может дышать воздухом и водой."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Невидим в воде",
-					"entries": [
-						"Грифон {@condition invisible}, пока полностью погружён в воду."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает две атаки: одну клювом и одну когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
-					]
-				},
-				{
-					"name": "Гидроволна {@recharge 5}",
-					"entries": [
-						"Грифон извергает поток воды линией 20 футов длиной и 30 футов шириной. Каждое существо в области должно совершить спасбросок Силы {@dc 14}, получая 21 ({@damage 6d6}) дробящего урона и сбиваясь с ног {@condition prone} при провале, или половину и без {@condition prone} при успехе."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Water%20Griffon.webp"
-			},
-			"traitTags": [
-				"Amphibious",
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"conditionInflict": [
-				"invisible"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Зимний грифон",
-			"source": "GriffonsofMultiverse",
-			"page": 10,
-			"size": [
-				"M"
-			],
-			"type": "monstrosity",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 142,
-				"formula": "15d10 + 60"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 80
-			},
-			"str": 20,
-			"dex": 14,
-			"con": 18,
-			"int": 8,
-			"wis": 14,
-			"cha": 12,
-			"save": {
-				"con": "+7",
-				"wis": "+5"
-			},
-			"skill": {
-				"perception": "+5",
-				"stealth": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 15,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"cold"
-			],
-			"conditionImmune": [
-				"frightened"
-			],
-			"cr": "7",
-			"trait": [
-				{
-					"name": "Морозящее тело",
-					"entries": [
-						"Существо, касающееся грифона или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 5 ({@damage 1d10}) урона холодом."
-					]
-				},
-				{
-					"name": "Острое зрение",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
-					]
-				},
-				{
-					"name": "Снежная маскировка",
-					"entries": [
-						"Грифон совершает с преимуществом проверки Ловкости ({@skill Stealth}), чтобы спрятаться в снежной местности."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Грифон совершает три атаки: одну клювом и две когтями."
-					]
-				},
-				{
-					"name": "Клюв",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) колющего урона плюс 5 ({@damage 1d10}) урона холодом."
-					]
-				},
-				{
-					"name": "Когти",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона плюс 5 ({@damage 1d10}) урона холодом."
-					]
-				},
-				{
-					"name": "Морозящий визг {@recharge 5}",
-					"entries": [
-						"Грифон издаёт пронзительный крик, наполненный сверхъестественным холодом. Каждое существо на выбор грифона в пределах 30 футов должно совершить спасбросок Телосложения {@dc 15}, получая 21 ({@damage 6d6}) урона холодом при провале или половину при успехе."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Winter%20Griffon.webp"
-			},
-			"traitTags": [
-				"Camouflage",
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"C",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"hasToken": true,
-			"hasFluffImages": true
-		}
-	],
-	"monsterFluff": [
-		{
-			"name": "Воздушный грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Air%20Griffon.webp"
-					},
-					"width": 6840,
-					"height": 5154,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Альце",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Alce.webp"
-					},
-					"width": 4078,
-					"height": 3310,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Небесный грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Celestial%20Griffon.webp"
-					},
-					"width": 6158,
-					"height": 4934,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Химерический грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Chimeric%20Griffon.webp"
-					},
-					"width": 5036,
-					"height": 4804,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Друидический грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Druidic%20Griffon.webp"
-					},
-					"width": 6818,
-					"height": 5390,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Земляной грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Earth%20Griffon.webp"
-					},
-					"width": 4172,
-					"height": 3214,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Грифон фей",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Fey%20Griffon.webp"
-					},
-					"width": 4960,
-					"height": 4704,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Огненный грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Fire%20Griffon.webp"
-					},
-					"width": 7066,
-					"height": 5248,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Адский грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Hell%20Griffon.webp"
-					},
-					"width": 5462,
-					"height": 4148,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Призрачный грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Phantom%20Griffon.webp"
-					},
-					"width": 6914,
-					"height": 5536,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Грифон-феникс",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Phoenix%20Griffon.webp"
-					},
-					"width": 3962,
-					"height": 2222,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Псевдогрифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Psuedogriffon.webp"
-					},
-					"width": 5576,
-					"height": 4688,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Грифон-ракшаса",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Rakshasa%20Griffon.webp"
-					},
-					"width": 4686,
-					"height": 6000,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Теневой грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Shadow%20Griffon.webp"
-					},
-					"width": 7646,
-					"height": 5344,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Грифон-сфинкс",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Sphinx%20Griffon.webp"
-					},
-					"width": 4488,
-					"height": 2770,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Звёздный грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Starscape%20Griffon.webp"
-					},
-					"width": 7418,
-					"height": 3406,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Грифон-буря",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Tempest%20Griffon.webp"
-					},
-					"width": 6538,
-					"height": 5074,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Грифон-врок",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Vrock%20Griffon.webp"
-					},
-					"width": 6989,
-					"height": 6000,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Водяной грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Water%20Griffon.webp"
-					},
-					"width": 6168,
-					"height": 4816,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		},
-		{
-			"name": "Зимний грифон",
-			"source": "GriffonsofMultiverse",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Winter%20Griffon.webp"
-					},
-					"width": 7142,
-					"height": 5504,
-					"credit": "Damien Mammoliti"
-				}
-			]
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "GriffonsofMultiverse",
+        "abbreviation": "GotM",
+        "full": "Griffons of the Multiverse",
+        "url": "https://hitpointpress.com/products/the-griffons-saddlebag-griffons-of-the-multiverse-pdf",
+        "version": "1.0.0",
+        "authors": [
+          "Griffin Macaulay"
+        ],
+        "convertedBy": [
+          "Unknown"
+        ],
+        "color": "AE8445"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1761837839,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "99d0eded26"
+  },
+  "monster": [
+    {
+      "name": "Воздушный грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 22,
+      "size": [
+        "L"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 119,
+        "formula": "14d10 + 42"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": {
+          "number": 120,
+          "condition": "(парение)"
+        },
+        "canHover": true
+      },
+      "str": 15,
+      "dex": 18,
+      "con": 16,
+      "int": 2,
+      "wis": 15,
+      "cha": 8,
+      "skill": {
+        "acrobatics": "+7",
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned",
+        "prone"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Воздушная устойчивость",
+          "entries": [
+            "Грифон обладает иммунитетом к любому эффекту, который толкал бы, тянул бы или иным образом принуждал его двигаться во время полёта."
+          ]
+        },
+        {
+          "name": "Циклогенез",
+          "entries": [
+            "Грифон создаёт вихри на своём пути во время полёта. Когда грифон пролетает в пределах 5 футов от существа размера Средний или меньше, это существо должно преуспеть в спасброске Силы {@dc 14}, иначе будет сбито с ног {@condition prone}. При успехе существо получает иммунитет к этому эффекту до начала своего следующего хода."
+          ]
+        },
+        {
+          "name": "Облёт",
+          "entries": [
+            "Грифон не провоцирует атаки по возможности, когда вылетает из зоны досягаемости врага."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает три атаки: одну клювом и две когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 2d6 + 2}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Циклон {@recharge 5}",
+          "entries": [
+            "Грифон стремительно вращается, создавая неистовое торнадо с центром на себе. Каждое существо в пределах 30 футов должно совершить спасбросок Силы {@dc 14}. При провале существо получает 28 ({@damage 8d6}) дробящего урона, перемещается на расстояние до 30 футов в случайном направлении и сбивается с ног {@condition prone}. При успехе существо получает половину урона и перемещается на расстояние до 5 футов в случайном направлении, но не сбивается с ног {@condition prone}."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Air%20Griffon.webp"
+      },
+      "traitTags": [
+        "Flyby",
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Альце",
+      "source": "GriffonsofMultiverse",
+      "page": 5,
+      "size": [
+        "L"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 95,
+        "formula": "10d10 + 40"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 18,
+      "int": 8,
+      "wis": 16,
+      "cha": 13,
+      "save": {
+        "str": "+6",
+        "con": "+6"
+      },
+      "skill": {
+        "athletics": "+6",
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Атака в броске",
+          "entries": [
+            "Если альце перемещается как минимум на 20 футов по прямой к цели, а затем в том же ходу попадает по ней рогами, цель получает дополнительно 6 ({@damage 1d12}) дробящего урона. Если цель — существо, она должна преуспеть в спасброске Силы {@dc 14}, иначе будет сбита с ног {@condition prone}."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Альце совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Безрассудный",
+          "entries": [
+            "В начале своего хода альце может получить преимущество на все броски рукопашных атак оружием, совершаемые в течение этого хода, но броски атак по нему получают преимущество до начала его следующего хода."
+          ]
+        },
+        {
+          "name": "Осадное чудовище",
+          "entries": [
+            "Альце наносит удвоенный урон предметам и строениям."
+          ]
+        },
+        {
+          "name": "Твёрдая поступь",
+          "entries": [
+            "Альце совершает с преимуществом спасброски Силы и Ловкости против эффектов, которые сбили бы его с ног {@condition prone}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Альце совершает три атаки: одну клювом, одну когтями и одну рогами."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Рога",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 1d12 + 4}) дробящего урона."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Alce.webp"
+      },
+      "traitTags": [
+        "Charge",
+        "Keen Senses",
+        "Reckless",
+        "Siege Monster"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Небесный грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 34,
+      "size": [
+        "H"
+      ],
+      "type": "celestial",
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 168,
+        "formula": "16d12 + 64"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 90
+      },
+      "str": 20,
+      "dex": 16,
+      "con": 18,
+      "int": 11,
+      "wis": 15,
+      "cha": 21,
+      "save": {
+        "con": "+7",
+        "wis": "+5",
+        "cha": "+8"
+      },
+      "skill": {
+        "insight": "+5",
+        "perception": "+5"
+      },
+      "senses": [
+        "truesight 60 ft."
+      ],
+      "passive": 15,
+      "resist": [
+        "necrotic"
+      ],
+      "immune": [
+        "poison",
+        "radiant"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "poisoned"
+      ],
+      "languages": [
+        "Небесный; телепатия 60 ft."
+      ],
+      "cr": "8",
+      "trait": [
+        {
+          "name": "Благословенная погода",
+          "entries": [
+            "Погода в пределах 1 мили от грифона со временем сверхъестественно проясняется, как если бы это было заклинанием {@spell control weather}, меняясь в сторону стадий «Ясно», «Тепло» и «Спокойно» соответственно. Каждая смена стадии занимает 1 минуту. Эта черта не влияет на погоду, изменённую магией."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Сопротивление магии",
+          "entries": [
+            "Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
+          ]
+        },
+        {
+          "name": "Магическое оружие",
+          "entries": [
+            "Атаки оружием грифона являются магическими."
+          ]
+        },
+        {
+          "name": "Поглощение излучения",
+          "entries": [
+            "Всякий раз, когда грифон подвергается урону излучением, он не получает урона и вместо этого восстанавливает хиты в количестве, равном причинённому урону излучением."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 10 фт., одна цель. {@h}12 ({@damage 2d6 + 5}) колющего урона плюс 5 ({@damage 1d10}) урона излучением."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 10 футов, одна цель. {@h}18 ({@damage 3d8 + 5}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Волна божественности {@recharge 5}",
+          "entries": [
+            "Грифон испускает всплеск божественной энергии в сфере радиусом 60 футов с центром на себе. Вплоть до четырёх дружественных существ на его выбор восстанавливают 18 ({@dice 3d8 + 5}) хитов и освобождаются от любых проклятий, болезней, яда, слепоты или глухоты. Вплоть до четырёх враждебных существ на его выбор должны совершить спасбросок Телосложения {@dc 16}, иначе получат 36 ({@damage 8d8}) урона излучением и станут {@condition blinded} и {@condition deafened} до начала следующего хода грифона."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Celestial%20Griffon.webp"
+      },
+      "traitTags": [
+        "Damage Absorption",
+        "Keen Senses",
+        "Magic Resistance",
+        "Magic Weapons"
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CE",
+        "TP"
+      ],
+      "damageTags": [
+        "P",
+        "R",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "deafened"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Химерический грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 7,
+      "size": [
+        "L"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 133,
+        "formula": "14d10 + 56"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 90
+      },
+      "str": 21,
+      "dex": 17,
+      "con": 18,
+      "int": 4,
+      "wis": 14,
+      "cha": 9,
+      "skill": {
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 20,
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Химерическое тело",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}) и спасброски от того, чтобы стать {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, быть сбитым с ног {@condition prone} или упасть {@condition unconscious}."
+          ]
+        },
+        {
+          "name": "Град клювов (1/ход)",
+          "entries": [
+            "Если грифон промахивается атакой клювом, он может совершить ещё одну атаку клювом в рамках того же действия."
+          ]
+        },
+        {
+          "name": "Реактивные головы",
+          "entries": [
+            "У грифона есть две дополнительные реакции, которые можно использовать только для совершения атак по возможности клювом."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает четыре атаки: три клювами и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d8 + 5}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Визгливый хор {@recharge}",
+          "entries": [
+            "Три головы грифона визжат в унисон, принуждая каждое другое существо в пределах 15 футов от него, способное его слышать, совершить спасбросок Мудрости {@dc 15}. При провале существо получает 13 ({@damage 3d8}) урона звуком плюс 13 ({@damage 3d8}) урона психической энергией, и цель становится {@condition deafened} до конца следующего хода грифона. При успехе существо получает половину урона и не становится {@condition deafened}."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Chimeric%20Griffon.webp"
+      },
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "P",
+        "S",
+        "T",
+        "Y"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "deafened"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Друидический грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 12,
+      "size": [
+        "L"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 120,
+        "formula": "16d10 + 32"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 80
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 14,
+      "int": 12,
+      "wis": 16,
+      "cha": 13,
+      "save": {
+        "wis": "+6"
+      },
+      "skill": {
+        "nature": "+4",
+        "perception": "+6"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 16,
+      "languages": [
+        "Understands druidic and сильванский но не может говорить"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Грифон — заклинатель 5-го уровня. Его базовая характеристика заклинаний — Мудрость (Сл спасброска {@dc 14}). Для сотворения заклинаний ему не требуются материальные компоненты. У него подготовлены следующие заклинания друида:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell guidance}",
+                "{@spell thorn whip}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell entangle}",
+                "{@spell goodberry}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell flaming sphere}",
+                "{@spell lesser restoration}"
+              ]
+            },
+            "3": {
+              "slots": 2,
+              "spells": [
+                "{@spell plant growth}",
+                "{@spell wind wall}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Узы природы",
+          "entries": [
+            "Когда хиты грифона уменьшаются до 0, растения в пределах 30 футов от него быстро разрастаются по области, создавая труднопроходимую местность, пока её не расчистят."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d10 + 4}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Изумрудный визг {@recharge 5}",
+          "entries": [
+            "Грифон издаёт резонирующий крик, наполняющий природу силой. Каждое существо на выбор грифона в пределах 20 футов должно преуспеть в спасброске Силы {@dc 14}, иначе будет {@condition restrained} корнями и лозами (высвобождение {@dc 14}). Растения увядают через 1 минуту или когда грифон умирает."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Druidic%20Griffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CS",
+        "DU",
+        "S"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "B",
+        "F",
+        "P"
+      ],
+      "spellcastingTags": [
+        "CD"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "restrained"
+      ],
+      "conditionInflictSpell": [
+        "restrained"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "strength"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Земляной грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 27,
+      "size": [
+        "L"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 152,
+        "formula": "16d10 + 54"
+      },
+      "speed": {
+        "walk": 40,
+        "burrow": 30
+      },
+      "str": 20,
+      "dex": 11,
+      "con": 18,
+      "int": 2,
+      "wis": 13,
+      "cha": 8,
+      "skill": {
+        "perception": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft.",
+        "tremorsense 60 ft."
+      ],
+      "passive": 14,
+      "immune": [
+        "poison"
+      ],
+      "vulnerable": [
+        "thunder"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "petrified",
+        "poisoned"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Скольжение по земле",
+          "entries": [
+            "Грифон может прорываться сквозь немагическую необработанную землю и камень. При этом он не нарушает материал, через который перемещается."
+          ]
+        },
+        {
+          "name": "Тяжёлая поступь",
+          "entries": [
+            "Грифон совершает с преимуществом проверки характеристик и спасброски против любого эффекта, который толкал бы его, тянул бы его или сбивал бы его с ног {@condition prone}."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Каменная маскировка",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Ловкости ({@skill Stealth}), чтобы спрятаться в каменистой местности."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну когтями и одну размашистым ударом."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Размашистый удар",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 фт., одна цель. {@h}11 ({@damage 1d12 + 5}) дробящего урона (23 [{@dice 2d12 + 10}], если цель — предмет или строение)."
+          ]
+        },
+        {
+          "name": "Внезапное извержение",
+          "entries": [
+            "Если грифон начинает свой ход под землёй и в пределах 10 футов от поверхности, он может вырваться вверх во взрывном поднятии земли. Каждое существо в пределах 10 футов должно совершить спасбросок Силы {@dc 16}, получая 26 ({@damage 4d12}) дробящего урона и сбиваясь с ног {@condition prone} при провале, или половину урона без {@condition prone} при успехе."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Earth%20Griffon.webp"
+      },
+      "traitTags": [
+        "Camouflage",
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D",
+        "T"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Грифон фей",
+      "source": "GriffonsofMultiverse",
+      "page": 15,
+      "size": [
+        "T"
+      ],
+      "type": "fey",
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 136,
+        "formula": "16d10 + 48"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 80
+      },
+      "str": 18,
+      "dex": 16,
+      "con": 17,
+      "int": 12,
+      "wis": 15,
+      "cha": 18,
+      "save": {
+        "dex": "+6",
+        "cha": "+7"
+      },
+      "skill": {
+        "arcana": "+4",
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "resist": [
+        "cold",
+        "fire",
+        "lightning",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "languages": [
+        "Сильванский",
+        "Эльфийский; телепатия 60 ft."
+      ],
+      "cr": "8",
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Врождённая способность к заклинаниям грифона — Харизма (Сл спасброска {@dc 15}). Он может врождённо творить следующие заклинания, не требуя материальных компонентов:"
+          ],
+          "will": [
+            "{@spell druidcraft}",
+            "{@spell faerie fire}",
+            "{@spell speak with animals}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell misty step}",
+              "{@spell moonbeam}"
+            ],
+            "1e": [
+              "{@spell conjure animals} (fey creatures only)",
+              "{@spell greater invisibility}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Сопротивление магии",
+          "entries": [
+            "Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d10 + 4}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Вспышка фей {@recharge 5}",
+          "entries": [
+            "Грифон испускает сияющий свет в радиусе 30 футов. Каждое враждебное существо в этой области должно преуспеть в спасброске Мудрости {@dc 15}, иначе станет {@condition blinded} до конца следующего хода грифона. Существа, которых нельзя {@condition blinded}, автоматически преуспевают."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Fey%20Griffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "E",
+        "S",
+        "TP"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "R"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "conditionInflict": [
+        "blinded"
+      ],
+      "conditionInflictSpell": [
+        "invisible"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Огненный грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 28,
+      "size": [
+        "L"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 127,
+        "formula": "15d10 + 45"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 90
+      },
+      "str": 18,
+      "dex": 17,
+      "con": 16,
+      "int": 2,
+      "wis": 13,
+      "cha": 8,
+      "skill": {
+        "perception": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "immune": [
+        "fire",
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Раскалённое тело",
+          "entries": [
+            "Существо, касающееся грифона или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 4 ({@damage 1d8}) урона огнём."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Пронзительный жар",
+          "entries": [
+            "Всякий раз, когда грифон наносит урон огнём, он может считать любую выпавшую на кости урона 1 как 2."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона плюс 7 ({@damage 2d6}) урона огнём."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Огненное вращение {@recharge 4}",
+          "entries": [
+            "Грифон пролетает до 60 футов по прямой, сворачивая тело в плотно вращающуюся полосу пламени шириной 10 футов. Каждое существо в этой линии должно совершить спасбросок Ловкости {@dc 14}, получая 24 ({@damage 7d6}) урона огнём при провале или половину при успехе."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Fire%20Griffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "F",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Адский грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 37,
+      "size": [
+        "H"
+      ],
+      "type": "fiend",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 184,
+        "formula": "16d12 + 80"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 90
+      },
+      "str": 19,
+      "dex": 18,
+      "con": 20,
+      "int": 9,
+      "wis": 14,
+      "cha": 19,
+      "skill": {
+        "deception": "+8",
+        "perception": "+6"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 16,
+      "immune": [
+        "fire",
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "Инфернальный"
+      ],
+      "cr": "9",
+      "trait": [
+        {
+          "name": "Дарование сопротивления огню",
+          "entries": [
+            "Грифон может даровать сопротивление урону огнём любому, кто на нём едет."
+          ]
+        },
+        {
+          "name": "Дьявольское зрение",
+          "entries": [
+            "Магическая тьма не мешает тёмному зрению грифона."
+          ]
+        },
+        {
+          "name": "Освещение",
+          "entries": [
+            "Грифон испускает яркий свет в радиусе 15 футов и тусклый свет ещё на 15 футов."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Сопротивление магии",
+          "entries": [
+            "Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает три атаки: одну клювом и две когтями. Или он совершает три атаки Метанием пламени."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 10 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) колющего урона плюс 16 ({@damage 3d10}) урона огнём."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 10 футов, одна цель. {@h}17 ({@damage 3d8 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Метание пламени",
+          "entries": [
+            "{@atk rs} {@hit 8} к попаданию, дистанция 120 футов, одна цель. {@h}18 ({@damage 4d8}) огнём."
+          ]
+        },
+        {
+          "name": "Переход между планами (перезаряжается после короткого или продолжительного отдыха)",
+          "entries": [
+            "Грифон и вплоть до четырёх существ, касающихся его, переносятся в место на выбор грифона в Девяти Преисподних, или на другой план на выбор грифона в одном из Нижних Планов, если он уже там. Нежелающее существо может совершить спасбросок Харизмы {@dc 16}, чтобы воспротивиться переносу."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Hell%20Griffon.webp"
+      },
+      "traitTags": [
+        "Devil's Sight",
+        "Illumination",
+        "Keen Senses",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "I"
+      ],
+      "damageTags": [
+        "F",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RA",
+        "RCH"
+      ],
+      "savingThrowForced": [
+        "charisma"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Призрачный грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 20,
+      "size": [
+        "L"
+      ],
+      "type": "undead",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        14
+      ],
+      "hp": {
+        "average": 59,
+        "formula": "7d10 + 21"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": {
+          "number": 90,
+          "condition": "(парение)"
+        },
+        "canHover": true
+      },
+      "str": 9,
+      "dex": 18,
+      "con": 16,
+      "int": 2,
+      "wis": 14,
+      "cha": 11,
+      "skill": {
+        "perception": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "resist": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "necrotic",
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Эфирное зрение",
+          "entries": [
+            "Грифон может видеть на 120 футов в Эфирный план, находясь на Материальном плане, и наоборот."
+          ]
+        },
+        {
+          "name": "Бесплотное передвижение",
+          "entries": [
+            "Грифон может перемещаться сквозь других существ и предметы, как если бы они были труднопроходимой местностью. Он получает 5 ({@damage 1d10}) урона силовым полем, если оканчивает ход внутри предмета."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Высасывание жизни (1/ход)",
+          "entries": [
+            "Когда грифон попадает по существу рукопашной атакой, он может нанести дополнительно 5 ({@damage 1d10}) урона некротической энергией. Цель должна преуспеть в спасброске Телосложения {@dc 12}, иначе максимум её хитов уменьшится на количество нанесённого урона некротической энергией. Это уменьшение длится до тех пор, пока существо не окончит продолжительный отдых. Цель умирает, если это уменьшает максимум её хитов до 0."
+          ]
+        },
+        {
+          "name": "Природа нежити",
+          "entries": [
+            "Грифон не нуждается в воздухе, еде, питье и сне."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Призрачный клюв",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) силового урона."
+          ]
+        },
+        {
+          "name": "Призрачные когти",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) силового урона."
+          ]
+        },
+        {
+          "name": "Эфирность",
+          "entries": [
+            "Грифон переходит на Эфирный план с Материального плана или наоборот. Он виден на Материальном плане, пока находится в Пограничном Эфире, но не может влиять на что-либо на другом плане или подвергаться влиянию."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Phantom%20Griffon.webp"
+      },
+      "traitTags": [
+        "Incorporeal Movement",
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "N",
+        "O"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Грифон-феникс",
+      "source": "GriffonsofMultiverse",
+      "page": 30,
+      "size": [
+        "G"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 181,
+        "formula": "11d20 + 66"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 120
+      },
+      "str": 18,
+      "dex": 23,
+      "con": 22,
+      "int": 9,
+      "wis": 16,
+      "cha": 17,
+      "save": {
+        "dex": "+11",
+        "int": "+4"
+      },
+      "skill": {
+        "perception": "+8"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 18,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "fire",
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned",
+        "prone",
+        "restrained"
+      ],
+      "languages": [
+        "Игнан"
+      ],
+      "cr": "15",
+      "trait": [
+        {
+          "name": "Предсмертный взрыв",
+          "entries": [
+            "Когда грифон умирает, он взрывается вспышкой искр и пепла. Каждое существо в пределах 30 футов должно совершить спасбросок Ловкости {@dc 19}, получая 21 ({@damage 6d6}) урона огнём при провале или половину при успехе. Взрыв воспламеняет горючие предметы в области, которые никто не носит и не несёт."
+          ]
+        },
+        {
+          "name": "Элементальная природа",
+          "entries": [
+            "Грифон не нуждается в воздухе, еде, питье и сне."
+          ]
+        },
+        {
+          "name": "Огненная форма",
+          "entries": [
+            "Грифон может перемещаться через пространство шириной всего 1 дюйм, не протискиваясь. Существо, касающееся грифона или попадающее по нему рукопашной атакой в пределах 5 футов, получает 5 урона огнём."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Phoenix%20Griffon.webp"
+      },
+      "traitTags": [
+        "Death Burst"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "IG"
+      ],
+      "damageTags": [
+        "F"
+      ],
+      "miscTags": [
+        "AOE"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Псевдогрифон",
+      "source": "GriffonsofMultiverse",
+      "page": 16,
+      "size": [
+        "T"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 7,
+        "formula": "2d4 + 2"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 20,
+        "fly": 60
+      },
+      "str": 5,
+      "dex": 16,
+      "con": 12,
+      "int": 10,
+      "wis": 14,
+      "cha": 9,
+      "skill": {
+        "perception": "+4",
+        "stealth": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "languages": [
+        "Understands Общий но не может говорить"
+      ],
+      "cr": "1/4",
+      "trait": [
+        {
+          "name": "Острые чувства",
+          "entries": [
+            "Псевдогрифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение, слух или обоняние."
+          ]
+        },
+        {
+          "name": "Ограниченная телепатия",
+          "entries": [
+            "Псевдогрифон может магически передавать телепатически простые идеи, эмоции и образы любому существу в пределах 100 футов от него, способному понимать язык."
+          ]
+        },
+        {
+          "name": "Сопротивление магии",
+          "entries": [
+            "Псевдогрифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
+          ]
+        },
+        {
+          "name": "Наскок",
+          "entries": [
+            "Если псевдогрифон перемещается как минимум на 10 футов по прямой к существу размера Маленький или меньше, а затем в том же ходу попадает по нему когтями, эта цель должна преуспеть в спасброске Силы {@dc 13}, иначе будет сбита с ног {@condition prone}. Если цель {@condition prone}, псевдогрифон может бонусным действием совершить по ней одну атаку клювом."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}1 колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d4 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Гипнотический взгляд (1/день)",
+          "entries": [
+            "Одно существо, которое псевдогрифон видит в пределах 20 футов от него, должно преуспеть в спасброске Мудрости {@dc 12}, иначе станет {@condition charmed} на 1 час или пока псевдогрифон или один из его союзников не сделает цели ничего вредного. Будучи {@condition charmed} таким образом, скорость цели уменьшается до 0, и она {@condition incapacitated}."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Pseudogriffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses",
+        "Magic Resistance",
+        "Pounce"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "CS"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength",
+        "wisdom"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Грифон-ракшаса",
+      "source": "GriffonsofMultiverse",
+      "page": 39,
+      "size": [
+        "M"
+      ],
+      "type": "fiend",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 102,
+        "formula": "12d8 + 48"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 40
+      },
+      "str": 15,
+      "dex": 17,
+      "con": 18,
+      "int": 12,
+      "wis": 16,
+      "cha": 19,
+      "skill": {
+        "deception": "+7",
+        "insight": "+6",
+        "perception": "+6"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 16,
+      "immune": [
+        {
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "vulnerable": [
+        {
+          "vulnerable": [
+            "piercing"
+          ],
+          "note": "from magic weapons wielded by good creatures",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Общий",
+        "Инфернальный"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Врождённая способность к заклинаниям грифона — Харизма (Сл спасброска {@dc 15}). Он может врождённо творить следующие заклинания, не требуя материальных компонентов:"
+          ],
+          "will": [
+            "{@spell disguise self}",
+            "{@spell mage hand}",
+            "{@spell minor illusion}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell charm person}",
+              "{@spell detect magic}",
+              "{@spell detect thoughts}"
+            ],
+            "1e": [
+              "{@spell invisibility}",
+              "{@spell major image}",
+              "{@spell suggestion}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Ограниченная магическая иммунность",
+          "entries": [
+            "Грифон не может быть затронут или обнаружен заклинаниями 3-го уровня и ниже, если сам того не пожелает. Он совершает с преимуществом спасброски от всех остальных заклинаний и магических эффектов."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 фт., одна цель. {@h}7 ({@damage 2d4 + 2}) рубящего урона, и если цель — существо, она проклята. В следующий раз, когда цель совершает короткий или продолжительный отдых, её мучают ужасные сны, и она не получает от этого отдыха никакой пользы. Затем проклятие оканчивается."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Rakshasa%20Griffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "I"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "CUR",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "invisible"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Теневой грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 18,
+      "size": [
+        "L"
+      ],
+      "type": "undead",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 123,
+        "formula": "13d10 + 52"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 80
+      },
+      "str": 18,
+      "dex": 18,
+      "con": 18,
+      "int": 3,
+      "wis": 13,
+      "cha": {
+        "special": "15 (+2)"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 15,
+      "resist": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "necrotic",
+        "poison"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained"
+      ],
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Теневая скрытность",
+          "entries": [
+            "Находясь в тусклом свете или тьме, грифон может совершить действие «Затаиться» бонусным действием. Если он совершает атаку, будучи скрытым в тусклом свете или тьме, цель при попадании получает дополнительно 5 ({@damage 1d10}) урона некротической энергией."
+          ]
+        },
+        {
+          "name": "Слабость к солнцу",
+          "entries": [
+            "Находясь на солнечном свету, грифон совершает с помехой броски атаки, проверки характеристик и спасброски."
+          ]
+        },
+        {
+          "name": "Сопротивление изгнанию",
+          "entries": [
+            "Грифон совершает с преимуществом спасброски против любого эффекта, который изгоняет нежить."
+          ]
+        },
+        {
+          "name": "Природа нежити",
+          "entries": [
+            "Грифон не нуждается в воздухе, еде, питье и сне."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона плюс 5 ({@damage 1d10}) урона некротической энергией."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона плюс 5 ({@damage 1d10}) урона некротической энергией."
+          ]
+        },
+        {
+          "name": "Теневая форма",
+          "entries": [
+            "Грифон становится бестелесным облаком клубящихся теней в форме грифона, пока не умрёт или не окончит эффект бонусным действием. В этой форме он имеет скорость полёта 40 футов и может парить; он может входить в пространство другого существа и занимать его. Он совершает с преимуществом спасброски Силы, Ловкости и Телосложения; может проходить через небольшие отверстия, узкие проёмы и даже щели (считает жидкости твёрдыми поверхностями); двигается бесшумно; {@condition invisible}, пока находится в областях тьмы (даже для тёмного зрения); не может падать и остаётся парящим, даже когда {@condition stunned} или {@condition incapacitated}; не может манипулировать предметами, и любые предметы, которые он нёс, нельзя уронить, использовать или иным образом взаимодействовать с ними; и грифон не может атаковать."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Shadow%20Griffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses",
+        "Turn Resistance"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "N",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Грифон-сфинкс",
+      "source": "GriffonsofMultiverse",
+      "page": 8,
+      "size": [
+        "L"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 127,
+        "formula": "15d10 + 45"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 80
+      },
+      "str": 18,
+      "dex": 15,
+      "con": 16,
+      "int": 17,
+      "wis": 17,
+      "cha": 14,
+      "save": {
+        "dex": "+6",
+        "con": "+7",
+        "int": "+7",
+        "wis": "+7"
+      },
+      "skill": {
+        "arcana": "+7",
+        "perception": "+7",
+        "religion": "+7"
+      },
+      "senses": [
+        "truesight 120 ft."
+      ],
+      "passive": 17,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "languages": [
+        "Общий",
+        "Sphinx"
+      ],
+      "cr": "10",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Грифон — заклинатель 6-го уровня. Его базовая характеристика заклинаний — Интеллект (Сл спасброска {@dc 15}). Для сотворения заклинаний ему не требуются материальные компоненты. У грифона подготовлены следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell mage hand}",
+                "{@spell minor illusion}",
+                "{@spell prestidigitation}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell identify}",
+                "{@spell shield}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell darkness}",
+                "{@spell locate object}",
+                "{@spell suggestion}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell dispel magic}",
+                "{@spell tongues}"
+              ]
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Непостижимый",
+          "entries": [
+            "Грифон обладает иммунитетом к любому эффекту, который чувствовал бы его эмоции или читал бы его мысли, а также к любому заклинанию прорицания, от которого он отказывается. Проверки Мудрости ({@skill Insight}) для определения намерений или искренности грифона совершаются с помехой."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Магическое оружие",
+          "entries": [
+            "Атаки оружием грифона являются магическими."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну укусом и одну когтями."
+          ]
+        },
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 2d8 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Задать загадку (3/день)",
+          "entries": [
+            "Грифон телепатически задаёт загадку каждому существу на свой выбор, которое видит в пределах 60 футов от него. Существо, не понимающее хотя бы один язык, получает иммунитет к этому эффекту. Каждое затронутое существо должно преуспеть в спасброске Интеллекта {@dc 15}, иначе станет {@condition incapacitated} до начала следующего хода грифона. Мастер может решить представить игроку настоящую загадку. Если игрок её разгадает, этот персонаж автоматически преуспевает в спасброске. В противном случае персонаж совершает спасбросок как обычно."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Атака когтями",
+          "entries": [
+            "Грифон совершает одну атаку когтями."
+          ]
+        },
+        {
+          "name": "Телепортация (стоит 2 действия)",
+          "entries": [
+            "Грифон магически телепортируется вместе с любым снаряжением, которое носит или несёт, на расстояние до 120 футов в свободное пространство, которое видит."
+          ]
+        },
+        {
+          "name": "Сотворить заклинание (стоит 3 действия)",
+          "entries": [
+            "Грифон творит заклинание из своего списка подготовленных заклинаний, используя ячейку заклинаний как обычно."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Sphinx%20Griffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses",
+        "Magic Weapons"
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "OTH"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "spellcastingTags": [
+        "CW"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "incapacitated"
+      ],
+      "savingThrowForced": [
+        "intelligence"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Звёздный грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 42,
+      "size": [
+        "G"
+      ],
+      "type": "celestial",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 264,
+        "formula": "16d20 + 96"
+      },
+      "speed": {
+        "walk": 50,
+        "fly": {
+          "number": 150,
+          "condition": "(парение)"
+        },
+        "canHover": true
+      },
+      "str": 22,
+      "dex": 20,
+      "con": 23,
+      "int": 14,
+      "wis": 19,
+      "cha": 25,
+      "save": {
+        "con": "+12",
+        "int": "+8"
+      },
+      "skill": {
+        "arcana": "+8",
+        "perception": "+16"
+      },
+      "senses": [
+        "darkvision 300 ft.",
+        "truesight 120 ft."
+      ],
+      "passive": 26,
+      "resist": [
+        "cold",
+        "force",
+        "radiant"
+      ],
+      "immune": [
+        "poison",
+        {
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned"
+      ],
+      "languages": [
+        "All; телепатия 300 ft."
+      ],
+      "cr": "19",
+      "trait": [
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Зажигатель звёзд",
+          "entries": [
+            "В начале каждого своего хода и всякий раз, когда он совершает критическое попадание, грифон создаёт средних размеров частицу света, напоминающую мерцающую звезду, в свободном пространстве на свой выбор в пределах 30 футов. Частица нематериальна и испускает тусклый свет в радиусе 60 футов. Созданная частица сохраняется, пока грифон не окажется более чем в 1 миле от неё, не отпустит её (действие не требуется) или не войдёт в магическую тьму. Грифон может иметь одновременно до двенадцати частиц."
+          ]
+        },
+        {
+          "name": "Легендарное сопротивление (3/день)",
+          "entries": [
+            "Если грифон проваливает спасбросок, он может вместо этого сделать спасбросок успешным."
+          ]
+        },
+        {
+          "name": "Сопротивление магии",
+          "entries": [
+            "Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
+          ]
+        },
+        {
+          "name": "Вселенская природа",
+          "entries": [
+            "Грифон не нуждается в воздухе, еде, питье и сне."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает три атаки: одну клювом и две когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 12} к попаданию, досягаемость 15 футов, одна цель. {@h}22 ({@damage 3d10 + 6}) силового урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 12} к попаданию, досягаемость 15 футов, одна цель. {@h}24 ({@damage 4d8 + 6}) силового урона."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Создание звезды",
+          "entries": [
+            "Грифон создаёт частицу, как описано в его черте Зажигатель звёзд."
+          ]
+        },
+        {
+          "name": "Межзвёздный шаг",
+          "entries": [
+            "Грифон телепортируется в свободное пространство, находящееся в тусклом свете, испускаемом одной из его частиц."
+          ]
+        },
+        {
+          "name": "Падающие звёзды (стоит 2 действия)",
+          "entries": [
+            "Грифон направляет до шести частиц нестись к своим врагам. Каждая частица поражает существо, которое грифон видит в пределах 120 футов, нанося 21 ({@damage 6d6}) урона силовым полем. Каждая цель, поражённая хотя бы одной частицей, должна преуспеть в спасброске Силы {@dc 15}, иначе будет сбита с ног {@condition prone}."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Starscape%20Griffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses",
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "SD",
+        "U"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "TP",
+        "XX"
+      ],
+      "damageTags": [
+        "O"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Грифон-буря",
+      "source": "GriffonsofMultiverse",
+      "page": 24,
+      "size": [
+        "G"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 148,
+        "formula": "17d20 + 54"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 120
+      },
+      "str": 22,
+      "dex": 21,
+      "con": 23,
+      "int": 10,
+      "wis": 16,
+      "cha": 13,
+      "save": {
+        "con": "+10",
+        "int": "+4"
+      },
+      "skill": {
+        "perception": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 17,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "lightning",
+        "poison",
+        "thunder"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "stunned"
+      ],
+      "languages": [
+        "Ауран"
+      ],
+      "cr": "12",
+      "trait": [
+        {
+          "name": "Электризованное тело",
+          "entries": [
+            "Существо, касающееся грифона или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 5 ({@damage 1d10}) урона электричеством."
+          ]
+        },
+        {
+          "name": "Облёт",
+          "entries": [
+            "Грифон не провоцирует атаки по возможности, когда вылетает из зоны досягаемости врага."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Легендарное сопротивление (3/день)",
+          "entries": [
+            "Если грифон проваливает спасбросок, он может вместо этого сделать спасбросок успешным."
+          ]
+        },
+        {
+          "name": "Безмолвная природа",
+          "entries": [
+            "Грифон не нуждается в воздухе, еде, питье и сне."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает три атаки: одну клювом, одну когтями и одну хвостом."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 15 фт., одна цель. {@h}16 ({@damage 2d8 + 7}) колющего урона плюс 5 ({@damage 1d10}) урона звуком."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 15 фт., одна цель. {@h}20 ({@damage 2d12 + 7}) рубящего урона плюс 5 ({@damage 1d10}) урона электричеством."
+          ]
+        },
+        {
+          "name": "Хвост",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 20 фт., одна цель. {@h}14 ({@damage 2d6 + 7}) дробящего урона плюс 5 ({@damage 1d10}) урона электричеством."
+          ]
+        },
+        {
+          "name": "Дыхание молнии {@recharge 5}",
+          "entries": [
+            "Грифон выпускает луч потрескивающей молнии линией 120 футов длиной и 10 футов шириной. Каждое существо в линии должно совершить спасбросок Ловкости {@dc 18}, получая 36 ({@damage 8d8}) урона электричеством при провале или половину при успехе."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Tempest%20Griffon.webp"
+      },
+      "traitTags": [
+        "Flyby",
+        "Keen Senses",
+        "Legendary Resistances"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AU"
+      ],
+      "damageTags": [
+        "B",
+        "L",
+        "P",
+        "S",
+        "T"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Грифон-врок",
+      "source": "GriffonsofMultiverse",
+      "page": 40,
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 95,
+        "formula": "10d10 + 40"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 80
+      },
+      "str": 17,
+      "dex": 15,
+      "con": 18,
+      "int": 5,
+      "wis": 13,
+      "cha": 8,
+      "save": {
+        "dex": "+5",
+        "wis": "+4",
+        "cha": "+2"
+      },
+      "skill": {
+        "perception": "+4"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 14,
+      "resist": [
+        "cold",
+        "fire",
+        "lightning",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "Understands бездонный но не может говорить"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Ограниченная телепатия",
+          "entries": [
+            "Грифон может магически передавать телепатически простые идеи, эмоции и образы любому существу в пределах 60 футов от него, способному понимать язык."
+          ]
+        },
+        {
+          "name": "Сопротивление магии",
+          "entries": [
+            "Грифон совершает с преимуществом спасброски от заклинаний и прочих магических эффектов."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}9 ({@damage 1d12 + 3}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 2d10 + 3}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Оглушающий визг (1/день)",
+          "entries": [
+            "Грифон издаёт ужасающий визг. Каждое существо в пределах 20 футов от него, способное его слышать и не являющееся демоном, должно преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition stunned} до конца следующего хода грифона."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Выпускание спор {@recharge}",
+          "entries": [
+            "Когда грифон получает урон, он стряхивает облако спор. Каждое существо в пределах 10 футов от него должно преуспеть в спасброске Телосложения {@dc 15}, иначе станет {@condition poisoned}. Будучи {@condition poisoned} таким образом, цель получает 5 ({@damage 1d10}) урона ядом в начале каждого своего хода. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе. Выливание на цель флакона святой воды также оканчивает эффект."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Vrock%20Griffon.webp"
+      },
+      "traitTags": [
+        "Keen Senses",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AB",
+        "CS"
+      ],
+      "damageTags": [
+        "I",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "conditionInflict": [
+        "poisoned",
+        "stunned"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Водяной грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 33,
+      "size": [
+        "L"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 119,
+        "formula": "14d10 + 42"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 80,
+        "swim": 80
+      },
+      "str": 18,
+      "dex": 16,
+      "con": 17,
+      "int": 2,
+      "wis": 14,
+      "cha": 8,
+      "save": {
+        "dex": "+6"
+      },
+      "skill": {
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "resist": [
+        "acid",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Амфибия",
+          "entries": [
+            "Грифон может дышать воздухом и водой."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Невидим в воде",
+          "entries": [
+            "Грифон {@condition invisible}, пока полностью погружён в воду."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает две атаки: одну клювом и одну когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}8 ({@damage 1d8 + 4}) колющего урона."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}11 ({@damage 2d6 + 4}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Гидроволна {@recharge 5}",
+          "entries": [
+            "Грифон извергает поток воды линией 20 футов длиной и 30 футов шириной. Каждое существо в области должно совершить спасбросок Силы {@dc 14}, получая 21 ({@damage 6d6}) дробящего урона и сбиваясь с ног {@condition prone} при провале, или половину и без {@condition prone} при успехе."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Water%20Griffon.webp"
+      },
+      "traitTags": [
+        "Amphibious",
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "conditionInflict": [
+        "invisible"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Зимний грифон",
+      "source": "GriffonsofMultiverse",
+      "page": 10,
+      "size": [
+        "M"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 142,
+        "formula": "15d10 + 60"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 80
+      },
+      "str": 20,
+      "dex": 14,
+      "con": 18,
+      "int": 8,
+      "wis": 14,
+      "cha": 12,
+      "save": {
+        "con": "+7",
+        "wis": "+5"
+      },
+      "skill": {
+        "perception": "+5",
+        "stealth": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "cold"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Морозящее тело",
+          "entries": [
+            "Существо, касающееся грифона или попадающее по нему рукопашной атакой, находясь в пределах 5 футов от него, получает 5 ({@damage 1d10}) урона холодом."
+          ]
+        },
+        {
+          "name": "Острое зрение",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Мудрости ({@skill Perception}), полагающиеся на зрение."
+          ]
+        },
+        {
+          "name": "Снежная маскировка",
+          "entries": [
+            "Грифон совершает с преимуществом проверки Ловкости ({@skill Stealth}), чтобы спрятаться в снежной местности."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Грифон совершает три атаки: одну клювом и две когтями."
+          ]
+        },
+        {
+          "name": "Клюв",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 фт., одна цель. {@h}10 ({@damage 1d10 + 5}) колющего урона плюс 5 ({@damage 1d10}) урона холодом."
+          ]
+        },
+        {
+          "name": "Когти",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 фт., одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона плюс 5 ({@damage 1d10}) урона холодом."
+          ]
+        },
+        {
+          "name": "Морозящий визг {@recharge 5}",
+          "entries": [
+            "Грифон издаёт пронзительный крик, наполненный сверхъестественным холодом. Каждое существо на выбор грифона в пределах 30 футов должно совершить спасбросок Телосложения {@dc 15}, получая 21 ({@damage 6d6}) урона холодом при провале или половину при успехе."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Tokens/Winter%20Griffon.webp"
+      },
+      "traitTags": [
+        "Camouflage",
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "C",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "hasToken": true,
+      "hasFluffImages": true
+    }
+  ],
+  "monsterFluff": [
+    {
+      "name": "Воздушный грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Air%20Griffon.webp"
+          },
+          "width": 6840,
+          "height": 5154,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Альце",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Alce.webp"
+          },
+          "width": 4078,
+          "height": 3310,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Небесный грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Celestial%20Griffon.webp"
+          },
+          "width": 6158,
+          "height": 4934,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Химерический грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Chimeric%20Griffon.webp"
+          },
+          "width": 5036,
+          "height": 4804,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Друидический грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Druidic%20Griffon.webp"
+          },
+          "width": 6818,
+          "height": 5390,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Земляной грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Earth%20Griffon.webp"
+          },
+          "width": 4172,
+          "height": 3214,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Грифон фей",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Fey%20Griffon.webp"
+          },
+          "width": 4960,
+          "height": 4704,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Огненный грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Fire%20Griffon.webp"
+          },
+          "width": 7066,
+          "height": 5248,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Адский грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Hell%20Griffon.webp"
+          },
+          "width": 5462,
+          "height": 4148,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Призрачный грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Phantom%20Griffon.webp"
+          },
+          "width": 6914,
+          "height": 5536,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Грифон-феникс",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Phoenix%20Griffon.webp"
+          },
+          "width": 3962,
+          "height": 2222,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Псевдогрифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Psuedogriffon.webp"
+          },
+          "width": 5576,
+          "height": 4688,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Грифон-ракшаса",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Rakshasa%20Griffon.webp"
+          },
+          "width": 4686,
+          "height": 6000,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Теневой грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Shadow%20Griffon.webp"
+          },
+          "width": 7646,
+          "height": 5344,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Грифон-сфинкс",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Sphinx%20Griffon.webp"
+          },
+          "width": 4488,
+          "height": 2770,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Звёздный грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Starscape%20Griffon.webp"
+          },
+          "width": 7418,
+          "height": 3406,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Грифон-буря",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Tempest%20Griffon.webp"
+          },
+          "width": 6538,
+          "height": 5074,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Грифон-врок",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Vrock%20Griffon.webp"
+          },
+          "width": 6989,
+          "height": 6000,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Водяной грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Water%20Griffon.webp"
+          },
+          "width": 6168,
+          "height": 4816,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    },
+    {
+      "name": "Зимний грифон",
+      "source": "GriffonsofMultiverse",
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GriffonsofMultiverse/Creatures/Winter%20Griffon.webp"
+          },
+          "width": 7142,
+          "height": 5504,
+          "credit": "Damien Mammoliti"
+        }
+      ]
+    }
+  ]
 }

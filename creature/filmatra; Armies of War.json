@@ -1,2738 +1,2738 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-	"_meta": {
-		"sources": [
-			{
-				"json": "ArmiesOfWar",
-				"abbreviation": "U_AOW",
-				"full": "Armies of War",
-				"url": "https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G",
-				"version": "3.1.1",
-				"authors": [
-					"u/filmatra"
-				],
-				"convertedBy": [
-					"p4535992"
-				],
-				"targetSchema": "1.7.0"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1657961727,
-		"dateLastModified": 1786039815,
-		"_dateLastModifiedHash": "d9db532b66"
-	},
-	"monster": [
-		{
-			"name": "Линия лучников",
-			"shortName": "Линия лучников",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"10-20 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"{@item padded armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "8d8 + 24",
-				"average": 60
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 22,
-			"dex": 13,
-			"con": 16,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"athletics": "+8"
-			},
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Затмить небо (должно быть больше половины хитов)",
-					"entries": [
-						"Отряд выбирает точку в пределах 600 футов. Все существа в пределах 30 футов от этой точки должны совершить спасбросок Ловкости {@dc 15}, получая 21 ({@damage 6d6}) колющего урона при провале или половину этого урона при успешном спасброске. Существа в тяжёлом доспехе со щитом совершают этот спасбросок с преимуществом и при успешном спасброске не получают урона вместо половины."
-					]
-				},
-				{
-					"name": "Шквал коротких мечей (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Шквал коротких мечей (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Прицельный огонь (у роя больше половины хитов)",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}18 ({@damage 4d8}) колющего урона."
-					]
-				},
-				{
-					"name": "Прицельный огонь (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}9 ({@damage 2d8}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Archer_Line_Token.webp",
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Archer Line|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Archer_Line_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Армейский барабанщик",
-			"shortName": "Армейский барабанщик",
-			"source": "ArmiesOfWar",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"{@item padded armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 2",
-				"average": 11
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 11,
-			"dex": 12,
-			"con": 12,
-			"int": 10,
-			"wis": 11,
-			"cha": 12,
-			"skill": {
-				"performance": "+3",
-				"persuasion": "+3",
-				"intimidation": "+3"
-			},
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/8",
-			"action": [
-				{
-					"name": "Вдохновение",
-					"entries": [
-						"Одно существо по выбору барабанщика добавляет 1d4 к следующему броску атаки, проверке навыка или спасброску, который оно совершает, до конца своего следующего хода."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Army_Drummer_Token.webp",
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Army Drummer|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Army_Drummer_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Обозные",
-			"shortName": "Обозные",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"20-40 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"formula": "8d8 + 8",
-				"average": 44
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 10,
-			"con": 13,
-			"int": 13,
-			"wis": 14,
-			"cha": 13,
-			"passive": 12,
-			"languages": [
-				"любые четыре языка"
-			],
-			"cr": "1",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Домашний уют",
-					"entries": [
-						"Пока этот отряд находится в пределах 300 фт. от армии в течение отдыха, эта армия восстанавливает максимальное количество хитов за любые потраченные кости хитов во время каждого короткого отдыха и теряет один дополнительный уровень истощения в конце каждого продолжительного отдыха."
-					]
-				},
-				{
-					"name": "Разношёрстность",
-					"entries": [
-						"Отряд состоит из торговцев, врачей, ремесленников, куртизанок и семей солдат самого разного происхождения. Каждый раз, когда отряд совершает проверку навыка, бросьте {@dice 1d4}. При результате 2–3 отряд добавляет к проверке свой бонус мастерства (+2). При результате 4 он добавляет к проверке удвоенный бонус мастерства (+4)."
-					]
-				},
-				{
-					"name": "Слабый боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он немедленно получает {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Импровизированная атака (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 4d4}) дробящего урона."
-					]
-				},
-				{
-					"name": "Импровизированная атака (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 2d4}) дробящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Camp_Followers_Token.webp",
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"B"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Camp Followers|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Camp_Followers_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Военачальники",
-			"source": "ArmiesOfWar",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid"
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"{@item plate armor|phb|пластинчатый доспех}"
-					]
-				}
-			],
-			"hp": {
-				"average": 229,
-				"formula": "27d8 + 108"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 20,
-			"dex": 16,
-			"con": 18,
-			"int": 12,
-			"wis": 12,
-			"cha": 18,
-			"save": {
-				"str": "+9",
-				"dex": "+7",
-				"con": "+8"
-			},
-			"skill": {
-				"athletics": "+9",
-				"intimidation": "+8",
-				"perception": "+5",
-				"persuasion": "+8"
-			},
-			"passive": 15,
-			"languages": [
-				"любые два языка"
-			],
-			"cr": "12",
-			"trait": [
-				{
-					"name": "Непреклонность (3/день)",
-					"entries": [
-						"Военачальники могут перебросить проваленный спасбросок. Они должны использовать новый результат."
-					]
-				},
-				{
-					"name": "Выживший",
-					"entries": [
-						"Военачальники восстанавливают 10 хитов в начале своего хода, если у них меньше половины хитов, но не менее 1 хита."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Военачальники совершают две атаки двуручным мечом или коротким луком."
-					]
-				},
-				{
-					"name": "Двуручный меч",
-					"entries": [
-						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона."
-					]
-				},
-				{
-					"name": "Короткий лук",
-					"entries": [
-						"{@atk rw} {@hit 7} к попаданию, дистанция 80/320 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
-					]
-				}
-			],
-			"legendaryHeader": [
-				"Военачальники может совершить 1 легендарное действие, выбирая из вариантов ниже. Одновременно можно использовать только один вариант легендарного действия, и только в конце хода другого существа. Военачальники восстанавливает потраченные легендарные действия в начале своего хода."
-			],
-			"legendaryActions": 1,
-			"legendary": [
-				{
-					"name": "Наступление/отступление",
-					"entries": [
-						"Каждая выбранная вами армия перемещается на расстояние до половины своей скорости."
-					]
-				},
-				{
-					"name": "Приказной удар (стоит 2 действия)",
-					"entries": [
-						"Одна выбранная вами армия совершает одну атаку по другому выбранному вами существу, которое вы видите."
-					]
-				},
-				{
-					"name": "Оборонительный приказ (стоит 2 действия)",
-					"entries": [
-						"Одна выбранная вами армия получает преимущества действия Уклонение до конца своего следующего хода."
-					]
-				},
-				{
-					"name": "Обнаружение",
-					"entries": [
-						"Вы совершаете проверку Мудрости (Восприятие)."
-					]
-				},
-				{
-					"name": "Вдохновляющий приказ",
-					"entries": [
-						"Одна подконтрольная вам армия по вашему выбору может добавить {@dice d10} к своему следующему броску атаки, проверке навыка или спасброску."
-					]
-				}
-			],
-			"legendaryGroup": {
-				"name": "Логовые действия военачальника",
-				"source": "ArmiesOfWar"
-			},
-			"environment": [
-				"urban"
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Commander_of_War_Token.webp",
-			"attachedItems": [
-				"greatsword|phb",
-				"shortbow|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"damageTagsLegendary": [
-				"A",
-				"B",
-				"C",
-				"F",
-				"L",
-				"T"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Commander of War|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}",
-					"Блок характеристик этого NPC основан на {@creature Warlord|MPMM} и адаптирован под этот хоумбрю-материал.",
-					{
-						"name": "Армии войны",
-						"entries": [
-							"Хаос раздирает центральное королевство. Дети рождаются в войне, живут до совершеннолетия и умирают в войне. Враждующие фракции разоряют процветающие города, месяцами держа в осаде их замки. Огромные батальоны сходятся в сельской местности, засеивая поля телами щедрее, чем семенами. Магические коллегии обратили свои исследования к искусству убивать. Даже песнопения святого королевского хора исказились в погребальные плачи.",
-							"В это время войны владыки земли полагаются на армии и могучих военачальников, чтобы отстаивать свои интересы на поле боя.",
-							"В этом дополнении собраны все простые, но мощные правила, которые понадобятся вам, чтобы командовать собственными огромными армиями, защищать крепости от вторжения или обращать их в руины и решать судьбу центрального королевства."
-						],
-						"type": "entries"
-					},
-					{
-						"name": "Военачальники",
-						"entries": [
-							"Любая армия действует лучше всего под началом командира — опытного человека, способного привести её к славе.",
-							"Как правило, армия присягает командиру, который платит за её службу, служит её господину или иным образом заслужил её уважение, выполнив какое-либо другое задание. У армии может быть только один командир одновременно, но она может сменить командира в течение короткого или продолжительного отдыха.",
-							"Чтобы получить преимущества командира, значение Харизмы командира должно быть выше суммарного показателя Опасности всех армий, которыми он командует."
-						],
-						"type": "entries"
-					},
-					{
-						"name": "Оборона при осаде",
-						"entries": [
-							"Крепкие каменные крепости — от нависающих башен у платных мостов до величественных замков в сердце процветающих городов — остаются символами безопасности в небезопасную эпоху.",
-							"Когда крепость осаждают, её защитники располагают разнообразными средствами обороны.",
-							"Крепости сильно различаются по размеру и расположению, но служат одной цели — отражать захватчиков и защищать своих обитателей от вреда."
-						],
-						"type": "entries"
-					},
-					{
-						"name": "Получение действий командира",
-						"entries": [
-							"Некоторые могущественные командиры могут совершать более 1 легендарного действия в каждом раунде. Как общее правило, командир под управлением Мастера может совершать 1 легендарное действие за каждые 5 уровней своего показателя Опасности. Например, военачальник (ОП 12) может совершать 2 легендарных действия в каждом раунде.",
-							"\"Если вы используете дополнительные правила для черт («Книга игрока», стр. 165), игрок может получить 1 легендарное действие вместо черты при повышении уровня. \""
-						],
-						"type": "entries"
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Commander_of_War_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Пехота-новобранцы",
-			"shortName": "Пехота-новобранцы",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"20-40 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 11,
-					"from": [
-						"{@item padded armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "8d8 + 24",
-				"average": 60
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 11,
-			"con": 16,
-			"int": 10,
-			"wis": 9,
-			"cha": 10,
-			"skill": {
-				"athletics": "+6"
-			},
-			"passive": 9,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Орда",
-					"entries": [
-						"Существо, начинающее свой ход в пространстве армии, получает 14 ({@damage 4d6}) колющего урона или 7 ({@dice 2d6}), если у отряда меньше половины хитов."
-					]
-				},
-				{
-					"name": "Мародёры",
-					"entries": [
-						"Если отряд тратит 10 или более минут, роясь в остатках разбитой армии, его класс доспеха навсегда увеличивается на 1 (до максимума 16, только один раз на каждые останки)."
-					]
-				},
-				{
-					"name": "Слабый боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он немедленно получает 2d8 урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Орда (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Орда (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Построение с копьями (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Построение с копьями (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Дождь сулиц (у роя больше половины хитов)",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, дистанция 30/120 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Дождь сулиц (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, дистанция 30/120 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Conscript_Infantry_Token.webp",
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Conscript Infantry|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Conscript_Infantry_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Новобранец-пехотинец",
-			"shortName": "Новобранец-пехотинец",
-			"source": "ArmiesOfWar",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 11,
-					"from": [
-						"{@item padded armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 2",
-				"average": 11
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 11,
-			"con": 12,
-			"int": 10,
-			"wis": 9,
-			"cha": 10,
-			"passive": 9,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/8",
-			"trait": [
-				{
-					"name": "Недисциплинированность",
-					"entries": [
-						"Пехотинец совершает с помехой спасброски против того, чтобы стать {@condition frightened}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Копьё",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 фт., одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона или 5 ({@damage 1d8 + 1}) колющего урона при использовании двумя руками."
-					]
-				},
-				{
-					"name": "Праща",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, дистанция 30/120 футов, одна цель. {@h}3 ({@damage 1d4 +1}) дробящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Conscripted_Footman_Token.webp",
-			"attachedItems": [
-				"sling|phb",
-				"spear|phb"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Conscripted Footman|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Conscripted_Footman_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Тяжёлая кавалерия",
-			"shortName": "Тяжёлая кавалерия",
-			"source": "ArmiesOfWar",
-			"size": [
-				"G"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"10-20 members",
-					"warhorse"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item splint armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "18d8 + 108",
-				"average": 189
-			},
-			"speed": {
-				"walk": {
-					"number": 30,
-					"condition": "(60 ft. while mounted)"
-				}
-			},
-			"str": 22,
-			"dex": 13,
-			"con": 22,
-			"int": 11,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"athletics": "+10",
-				"perception": "+4"
-			},
-			"passive": 14,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "12",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Растаптывающий рывок",
-					"entries": [
-						"Если в свой ход отряд перемещается не менее чем на 20 фт. по прямой к существу и затем попадает по нему атакой копытами, эта цель должна преуспеть в спасброске Силы {@dc 14}, иначе упадёт {@condition prone}. Если цель {@condition prone}, отряд может бонусным действием совершить по ней ещё одну атаку копытами."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Если в этом ходу отряд переместился не менее чем на 20 фт. по прямой, он совершает одну атаку наскоком с копьём и одну атаку копытами. В противном случае он совершает атаку шквалом вспомогательного оружия."
-					]
-				},
-				{
-					"name": "Наскок с копьём (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Наскок с копьём (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Копыта (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Копыта (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Шквал вспомогательного оружия (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) рубящего урона."
-					]
-				},
-				{
-					"name": "Шквал вспомогательного оружия (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) рубящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Cavalry_Token.webp",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Heavy Cavalry|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Cavalry_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Линия тяжёлых арбалетчиков",
-			"shortName": "Линия тяжёлых арбалетчиков",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"10-20 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item chain shirt|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "8d8 + 32",
-				"average": 68
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 22,
-			"dex": 11,
-			"con": 19,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"athletics": "+8"
-			},
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Сменный огонь",
-					"entries": [
-						"Отряд чередует шеренги стреляющих и перезаряжающих арбалетчиков. Пока у него больше половины хитов, он игнорирует свойство «перезарядка» тяжёлого арбалета."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Отряд совершает две атаки прицельным огнём."
-					]
-				},
-				{
-					"name": "Удушающий залп (должно быть больше половины хитов)",
-					"entries": [
-						"Все существа на линии шириной 15 фт. и длиной 100 фт. должны совершить спасбросок Ловкости {@dc 15}, получая 22 ({@dice 4d10}) колющего урона при провале или половину этого урона при успешном спасброске. Существа на расстоянии более 50 фт. от отряда совершают этот спасбросок с преимуществом."
-					]
-				},
-				{
-					"name": "Шквал коротких мечей (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Шквал коротких мечей (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Установка павезы",
-					"entries": [
-						"Отряд выставляет перед своей первой шеренгой ряд башенных щитов. До следующего перемещения или рукопашной атаки отряд получает укрытие на три четверти (бонус +5 к классу доспеха и спасброскам Ловкости)."
-					]
-				},
-				{
-					"name": "Прицельный огонь (у роя больше половины хитов)",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, дистанция 100/400 футов, одна цель. {@h}22 ({@damage 4d10}) колющего урона."
-					]
-				},
-				{
-					"name": "Прицельный огонь (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk rw} {@hit 2} к попаданию, дистанция 100/400 футов, одна цель. {@h}11 ({@damage 2d10}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Crossbow_Line_Token.webp",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Heavy Crossbow Line|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Crossbow_Line_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Тяжёлый арбалетчик",
-			"shortName": "Тяжёлый арбалетчик",
-			"source": "ArmiesOfWar",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item chain shirt|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 2",
-				"average": 11
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 13,
-			"con": 13,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/2",
-			"action": [
-				{
-					"name": "Арбалет",
-					"entries": [
-						"{@atk rw} {@hit 3} к попаданию, дистанция 100/400 футов, одна цель. {@h}6 ({@damage 1d10 + 1}) колющего урона."
-					]
-				},
-				{
-					"name": "Короткий меч",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Crossbowman_Token.webp",
-			"attachedItems": [
-				"shortsword|phb"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Heavy Crossbowman|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Crossbowman_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Священный хор",
-			"shortName": "Священный хор",
-			"source": "ArmiesOfWar",
-			"size": [
-				"L"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"5-10 members"
-				]
-			},
-			"alignment": [
-				"L",
-				"G",
-				"NY",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"{@item chain shirt|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "8d8 + 24",
-				"average": 60
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 10,
-			"con": 16,
-			"int": 13,
-			"wis": 16,
-			"cha": 13,
-			"skill": {
-				"medicine": "+9",
-				"persuasion": "+4",
-				"religion": "+4"
-			},
-			"passive": 13,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "7",
-			"spellcasting": [
-				{
-					"name": "Использование заклинаний: Созыв",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Отряд — заклинатель 9-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 14}, +6 к попаданию заклинательными атаками). Если его хиты уменьшаются более чем наполовину, отряд становится заклинателем 5-го уровня (он теряет ячейки заклинаний 4-го и 5-го уровней и одну из ячеек 3-го уровня). У отряда подготовлены следующие заклинания жреца:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell light}",
-								"{@spell mending}",
-								"{@spell spare the dying}",
-								"{@spell thaumaturgy}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell divine favor}",
-								"{@spell guiding bolt}",
-								"{@spell healing word}",
-								"{@spell sanctuary}",
-								"{@spell shield of faith}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell lesser restoration}",
-								"{@spell magic weapon}",
-								"{@spell prayer of healing}",
-								"{@spell silence}",
-								"{@spell spiritual weapon}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell beacon of hope}",
-								"{@spell crusader's mantle}",
-								"{@spell dispel magic}",
-								"{@spell revivify}",
-								"{@spell spirit guardians}",
-								"{@spell wall of water|XGE}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell banishment}",
-								"{@spell freedom of movement}",
-								"{@spell guardian of faith}",
-								"{@spell stoneskin}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell flame strike}",
-								"{@spell hold monster}",
-								"{@spell mass cure wounds}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости Сл 13, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				},
-				{
-					"name": "Военный лекарь",
-					"entries": [
-						"Заклинания этого отряда могут восстанавливать хиты армий даже во время боя."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Отряд творит одно заклинание и использует свою атаку шквалом булав."
-					]
-				},
-				{
-					"name": "Шквал булав",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Holy_Chorus_Token.webp",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B"
-			],
-			"damageTagsSpell": [
-				"F",
-				"N",
-				"O",
-				"R"
-			],
-			"spellcastingTags": [
-				"CC"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForcedSpell": [
-				"charisma",
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Holy Chorus|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Holy_Chorus_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Рыцарский орден",
-			"shortName": "Рыцарский орден",
-			"source": "ArmiesOfWar",
-			"size": [
-				"G"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"10-20 members",
-					"warhorse"
-				]
-			},
-			"alignment": [
-				"L",
-				"G",
-				"NY",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"{@item plate armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "18d8 + 108",
-				"average": 189
-			},
-			"speed": {
-				"walk": {
-					"number": 30,
-					"condition": "(60 ft. while mounted)"
-				}
-			},
-			"str": 22,
-			"dex": 13,
-			"con": 22,
-			"int": 11,
-			"wis": 11,
-			"cha": 15,
-			"skill": {
-				"athletics": "+11",
-				"perception": "+5"
-			},
-			"passive": 15,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "15",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Растаптывающий рывок",
-					"entries": [
-						"Если в свой ход отряд перемещается не менее чем на 20 фт. по прямой к существу и затем попадает по нему атакой копытами, эта цель должна преуспеть в спасброске Силы {@dc 14}, иначе упадёт {@condition prone}. Если цель {@condition prone}, отряд может бонусным действием совершить по ней ещё одну атаку копытами."
-					]
-				},
-				{
-					"name": "Непоколебимый боевой дух",
-					"entries": [
-						"Отряд совершает с преимуществом спасброски против того, чтобы стать {@condition frightened}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Если в этом ходу отряд переместился не менее чем на 20 фт. по прямой, он совершает одну атаку наскоком с длинным копьём и одну атаку копытами. В противном случае он совершает атаку шквалом вспомогательного оружия."
-					]
-				},
-				{
-					"name": "Наскок с длинным копьём (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}52 ({@damage 8d12}) колющего урона."
-					]
-				},
-				{
-					"name": "Наскок с длинным копьём (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}26 ({@damage 4d12}) колющего урона."
-					]
-				},
-				{
-					"name": "Копыта (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Копыта (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Шквал вспомогательного оружия (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) рубящего урона."
-					]
-				},
-				{
-					"name": "Шквал вспомогательного оружия (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) рубящего урона."
-					]
-				},
-				{
-					"name": "Гром арбалетных болтов (у роя больше половины хитов)",
-					"entries": [
-						"{@atk rw} {@hit 6} к попаданию, дистанция 100/400 футов, одна цель. {@h}28 ({@damage 8d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Гром арбалетных болтов (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk rw} {@hit 6} к попаданию, дистанция 100/400 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Маяк наставления (восстанавливается после короткого или продолжительного отдыха)",
-					"entries": [
-						"В течение 1 минуты все существа по выбору отряда в пределах 30 фт. от него, которых он видит, добавляют {@dice d4} к каждому броску атаки и спасброску, если они слышат и понимают отряд. Этот эффект заканчивается, если отряд лишён дееспособности."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Защитные манёвры",
-					"entries": [
-						"Отряд добавляет 2 к своему классу доспеха против одной рукопашной атаки, которая должна по нему попасть. Для этого отряд должен видеть атакующего и держать рукопашное оружие."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Knightly_Order_Token.webp",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Knightly Order|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Knightly_Order_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Лёгкая кавалерия",
-			"shortName": "Лёгкая кавалерия",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"5-10 members",
-					"warhorse"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item padded armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "12d8 + 36",
-				"average": 90
-			},
-			"speed": {
-				"walk": {
-					"number": 30,
-					"condition": "(60 ft. while mounted)"
-				}
-			},
-			"str": 20,
-			"dex": 16,
-			"con": 16,
-			"int": 18,
-			"wis": 11,
-			"cha": 14,
-			"skill": {
-				"athletics": "+8",
-				"perception": "+3"
-			},
-			"passive": 13,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "7",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Отряд совершает две атаки шквалом сабель или верховой стрельбой."
-					]
-				},
-				{
-					"name": "Шквал сабель (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) рубящего урона."
-					]
-				},
-				{
-					"name": "Шквал сабель (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) рубящего урона."
-					]
-				},
-				{
-					"name": "Копыта (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Копыта (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Верховая стрельба (у роя больше половины хитов)",
-					"entries": [
-						"{@atk rw} {@hit 6} к попаданию, дистанция 150/600 футов, одна цель. {@h}36 ({@damage 8d8}) колющего урона."
-					]
-				},
-				{
-					"name": "Верховая стрельба (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk rw} {@hit 6} к попаданию, дистанция 150/600 футов, одна цель. {@h}18 ({@damage 4d8}) колющего урона."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Защитные манёвры",
-					"entries": [
-						"Отряд добавляет 2 к своему классу доспеха против одной рукопашной атаки, которая должна по нему попасть. Для этого отряд должен видеть атакующего и держать рукопашное оружие."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Light_Cavalry_Token.webp",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Light Cavalry|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Light_Cavalry_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Лучник с длинным луком",
-			"shortName": "Лучник с длинным луком",
-			"source": "ArmiesOfWar",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"{@item padded armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8",
-				"average": 9
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 13,
-			"con": 10,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/4",
-			"action": [
-				{
-					"name": "Короткий меч",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Длинный лук",
-					"entries": [
-						"{@atk rw} {@hit 3} к попаданию, дистанция 150/600 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Longbowman_Token.webp",
-			"attachedItems": [
-				"longbow|phb"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Longbowman|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Longbowman_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Военный оркестр",
-			"shortName": "Военный оркестр",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"20-40 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"{@item padded armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "10d8 + 40",
-				"average": 85
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 12,
-			"con": 18,
-			"int": 10,
-			"wis": 11,
-			"cha": 15,
-			"skill": {
-				"athletics": "+7",
-				"performance": "+5",
-				"persuasion": "+5",
-				"intimidation": "+5"
-			},
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Военные марши",
-					"entries": [
-						"Действием в свой ход отряд начинает играть один из следующих ритмов. Он может играть только один ритм одновременно, должен использовать своё действие, чтобы продлевать эффекты ритма каждый ход, и должен поддерживать концентрацию на ритме так же, как на заклинании:",
-						{
-							"type": "list",
-							"items": [
-								"{@b Ритм наставления.} Песнь согласует передвижение армий. Каждый союзник в пределах 150 фт., у которого есть хотя бы одно легендарное действие, получает на одно легендарное действие больше и восстанавливает это действие в начале своего хода, пока слышит ритм.",
-								"{@b Ритм ужаса.} Песнь полна угрозы. Враждебные существа в пределах 150 фт., которые слышат ритм, совершают с помехой спасброски против того, чтобы стать {@condition frightened}, и получают 9 ({@dice 2d8}) дополнительного урона от потери боевого духа.",
-								"{@b Ритм доблести.} Песнь громогласна и эпична. Каждый союзник в пределах 150 фт. добавляет {@dice 1d4} к каждому своему броску атаки, проверке навыка и спасброску, пока слышит ритм."
-							]
-						}
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости Сл 13, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Шквал коротких мечей (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Шквал коротких мечей (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Martial_Band_Token.webp",
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Martial Band|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Martial_Band_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Разведывательный отряд",
-			"shortName": "Разведывательный отряд",
-			"source": "ArmiesOfWar",
-			"size": [
-				"L"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"5-10 members"
-				]
-			},
-			"alignment": [
-				"NX",
-				"NY",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "8d8 + 24",
-				"average": 60
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 14,
-			"con": 16,
-			"int": 11,
-			"wis": 13,
-			"cha": 11,
-			"skill": {
-				"nature": "+4",
-				"perception": "+5",
-				"stealth": "+6",
-				"survival": "+5"
-			},
-			"passive": 15,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Острые зрение и слух",
-					"entries": [
-						"Отряд совершает с преимуществом проверки Мудрости (Восприятие), основанные на слухе или зрении."
-					]
-				},
-				{
-					"name": "Землеходец",
-					"entries": [
-						"Путешествие армий, сопровождающих отряд, не замедляется труднопроходимой местностью. Путешествуя в одиночку, отряд может двигаться скрытно с обычной скоростью."
-					]
-				},
-				{
-					"name": "Дозорный",
-					"entries": [
-						"Во время отдыха отряд защищает область до 300 фт. так, как если бы это было заклинание «Охрана», с неслышимой сигнализацией."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Шквал коротких мечей (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Шквал коротких мечей (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Дождь игл (у роя больше половины хитов)",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 80/320 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Дождь игл (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 80/320 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Scouting_Troop_Token.webp",
-			"traitTags": [
-				"Keen Senses"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Scouting Troop|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Scouting_Troop_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Застрельщики",
-			"shortName": "Застрельщики",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"20-40 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item scale mail|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "10d8 + 60",
-				"average": 105
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 22,
-			"dex": 12,
-			"con": 22,
-			"int": 10,
-			"wis": 11,
-			"cha": 9,
-			"skill": {
-				"athletics": "+9",
-				"intimidation": "+2"
-			},
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "5",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Агрессивность",
-					"entries": [
-						"Бонусным действием отряд может переместиться на расстояние до своей скорости к враждебному существу, которое видит."
-					]
-				},
-				{
-					"name": "Орда",
-					"entries": [
-						"Существо, начинающее свой ход в пространстве отряда, получает 21 ({@damage 6d6}) колющего урона или 11 ({@dice 3d6}), если у отряда меньше половины хитов."
-					]
-				},
-				{
-					"name": "Безрассудство",
-					"entries": [
-						"В начале своего хода отряд может получить преимущество на все броски атак рукопашным оружием в этом ходу, но броски атаки по нему совершаются с преимуществом до начала его следующего хода."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Отряд совершает две атаки шквалом топоров."
-					]
-				},
-				{
-					"name": "Орда (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}21 ({@damage 6d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Орда (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 3d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Шквал топоров (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}21 ({@damage 6d6}) рубящего урона."
-					]
-				},
-				{
-					"name": "Шквал топоров (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 3d6 }) рубящего урона."
-					]
-				},
-				{
-					"name": "Копейный натиск (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}21 ({@damage 6d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Копейный натиск (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 3d6}) колющего урона."
-					]
-				}
-			],
-			"bonus": [
-				{
-					"name": "Агрессивность",
-					"entries": [
-						"Отряд может переместиться на расстояние до своей скорости к враждебному существу, которое видит."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Skirmishers_Token.webp",
-			"traitTags": [
-				"Aggressive",
-				"Reckless"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Skirmishers|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Skirmishers_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Ратники",
-			"shortName": "Ратники",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"20-40 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"{@item half plate armor|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "14d8 + 84",
-				"average": 147
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 22,
-			"dex": 13,
-			"con": 22,
-			"int": 11,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"athletics": "+10",
-				"perception": "+4"
-			},
-			"passive": 14,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "10",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Орда",
-					"entries": [
-						"Существо, начинающее свой ход в пространстве отряда, получает 28 ({@damage 8d6}) колющего урона или 14 ({@dice 4d6}), если у отряда меньше половины хитов."
-					]
-				},
-				{
-					"name": "Непоколебимый боевой дух",
-					"entries": [
-						"Отряд совершает с преимуществом спасброски против того, чтобы стать {@condition frightened}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Отряд совершает три рукопашные атаки или две дальнобойные атаки."
-					]
-				},
-				{
-					"name": "Орда (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Орда (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
-					]
-				},
-				{
-					"name": "Открытая схватка (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Открытая схватка (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Толчок щитом (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 фт., одна цель. {@h}20 ({@damage 8d4}) дробящего урона. Если цель — существо Среднего или меньшего размера, оно должно преуспеть в спасброске Силы {@dc 15}, иначе упадёт {@condition prone}."
-					]
-				},
-				{
-					"name": "Толчок щитом (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 фт., одна цель. {@h}10 ({@damage 4d4}) дробящего урона. Если цель — существо Среднего или меньшего размера, оно должно преуспеть в спасброске Силы {@dc 15}, иначе упадёт {@condition prone}."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Защитные манёвры",
-					"entries": [
-						"Отряд добавляет 2 к своему классу доспеха против одной рукопашной атаки, которая должна по нему попасть. Для этого отряд должен видеть атакующего и держать рукопашное оружие."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Soldiers_At_Arms_Token.webp",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"savingThrowForced": [
-				"strength"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Soldiers-At-Arms|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Soldiers_At_Arms_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Стена щитов",
-			"shortName": "Стена щитов",
-			"source": "ArmiesOfWar",
-			"size": [
-				"H"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"20-40 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item chain shirt|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "18d8 + 108",
-				"average": 189
-			},
-			"speed": {
-				"walk": 5
-			},
-			"str": 22,
-			"dex": 13,
-			"con": 22,
-			"int": 11,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"athletics": "+10",
-				"perception": "+4"
-			},
-			"passive": 14,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "10",
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Построение с пиками и щитами",
-					"entries": [
-						"Отряд совершает с преимуществом все рукопашные атаки по верховым отрядам, а немагические дальнобойные атаки по нему совершаются с помехой."
-					]
-				},
-				{
-					"name": "Мастер древкового оружия",
-					"entries": [
-						"Другие существа провоцируют атаку по возможности от отряда, когда входят в его пределы досягаемости (10 фт.)."
-					]
-				},
-				{
-					"name": "Страж",
-					"entries": [
-						"Когда отряд попадает по существу атакой по возможности, скорость этого существа становится 0 до конца хода. Кроме того, существа провоцируют атаки по возможности от отряда, даже если совершают действие Отход перед выходом из его пределов досягаемости."
-					]
-				},
-				{
-					"name": "Уязвимый фланг",
-					"entries": [
-						"В конце своего хода отряд объявляет, в какую сторону света он обращён. До конца своего следующего хода атаки по нему с противоположной стороны света совершаются с преимуществом, а от всех остальных направлений отряд имеет укрытие на три четверти."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Отряд совершает одну атаку шквалом пик."
-					]
-				},
-				{
-					"name": "Шквал пик (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}44 ({@damage 8d10}) колющего урона."
-					]
-				},
-				{
-					"name": "Шквал пик (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}22 ({@damage 4d10}) колющего урона."
-					]
-				},
-				{
-					"name": "Толчок щитом (у роя больше половины хитов)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}20 ({@damage 8d4}) дробящего урона."
-					]
-				},
-				{
-					"name": "Толчок щитом (у роя половина хитов или меньше)",
-					"entries": [
-						"{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 4d4}) дробящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Wall_of_Shields_Token.webp",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Wall of Shields|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Wall_of_Shields_Avatar.webp"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Маги военной академии",
-			"shortName": "Маги военной академии",
-			"source": "ArmiesOfWar",
-			"size": [
-				"L"
-			],
-			"type": {
-				"type": "humanoid",
-				"swarmSize": "M",
-				"tags": [
-					"any race",
-					"5-10 members"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"{@item chain shirt|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "8d8 + 24",
-				"average": 60
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 14,
-			"con": 16,
-			"int": 17,
-			"wis": 12,
-			"cha": 10,
-			"skill": {
-				"arcana": "+7",
-				"history": "+7"
-			},
-			"passive": 11,
-			"languages": [
-				"любые четыре языка"
-			],
-			"cr": "9",
-			"spellcasting": [
-				{
-					"name": "Использование заклинаний: Созыв",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Отряд — заклинатель 12-го уровня. Его базовой характеристикой для заклинаний является Интеллект (Сл спасброска от заклинаний {@dc 15}, +7 к попаданию заклинательными атаками). Если его хиты уменьшаются более чем наполовину, отряд становится заклинателем 8-го уровня (он теряет ячейки заклинаний 5-го и 6-го уровней и одну из ячеек 4-го уровня). У отряда подготовлены следующие заклинания волшебника:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell prestidigitation}",
-								"{@spell ray of frost}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell detect magic}",
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell mirror image}",
-								"{@spell misty step}",
-								"{@spell shatter}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell counterspell}",
-								"{@spell fireball}",
-								"{@spell lightning bolt}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell ice storm}",
-								"{@spell stoneskin}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell Bigby's hand}",
-								"{@spell cone of cold}"
-							],
-							"slots": 2
-						},
-						"6": {
-							"spells": [
-								"{@spell chain lightning}",
-								"{@spell wall of ice}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"trait": [
-				{
-					"name": "Армия",
-					"entries": [
-						"Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
-					]
-				},
-				{
-					"name": "Магическая защита",
-					"entries": [
-						"Существа по выбору отряда в пределах 30 фт. от него (включая его самого) совершают с преимуществом спасброски против заклинаний и других магических эффектов."
-					]
-				},
-				{
-					"name": "Боевой дух",
-					"entries": [
-						"Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости Сл 13, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Отряд творит одно заклинание 1-го уровня или выше и один заговор либо два заговора."
-					]
-				},
-				{
-					"name": "Отчаянные удары шестами",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
-					]
-				},
-				{
-					"name": "Отчаянные удары шестами",
-					"entries": [
-						"{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) дробящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/War_Academy_Mages_Token.webp",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"B"
-			],
-			"damageTagsSpell": [
-				"B",
-				"C",
-				"F",
-				"L",
-				"O",
-				"T"
-			],
-			"spellcastingTags": [
-				"CW"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity"
-			],
-			"fluff": {
-				"entries": [
-					"{@link War Academy Mages|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/War_Academy_Mages_Avatar.webp"
-						}
-					}
-				]
-			}
-		}
-	],
-	"legendaryGroup": [
-		{
-			"name": "Логовые действия военачальника",
-			"source": "ArmiesOfWar",
-			"lairActions": [
-				"При счёте инициативы 20 (при равенстве инициатив проигрывая), командир крепости может совершить действие логова, чтобы вызвать один из следующих эффектов; командир не может использовать один и тот же эффект два раунда подряд:",
-				{
-					"type": "list",
-					"items": [
-						"Камни бросают в точку с радиусом 15 фт. в пределах 30 фт. от стен крепости. Каждое существо в этой области должно совершить спасбросок Ловкости Сл {@dc 15}, получая 7 ({@damage 2d6}) дробящего урона при провале или половину этого урона при успешном спасброске.",
-						"Кипящее масло льётся из крепости на всех существ в точке с радиусом 10 фт. вдоль стен крепости. Каждое существо в этой области должно совершить спасбросок Ловкости Сл 15. При провале существо получает 10 ({@damage 4d4}) урона огнём и ещё 5 ({@damage 2d4}) урона огнём в начале каждого своего хода, пока не потратит действие, чтобы очиститься от масла. При успешном спасброске существо не получает урона.",
-						"Защитники крепости используют её проходы, архитектуру и простые механизмы себе на пользу. До конца раунда рукопашные атаки по существам по выбору командира совершаются с помехой.",
-						"{@spell glyph of warding}, сотворённая на 3-м уровне, появляется в незанятом месте по выбору командира где-то внутри крепости. Один из союзников командира может потратить ячейку заклинаний, чтобы поместить в знак заклинание, которое у него подготовлено. В противном случае знак является взрывной руной."
-					]
-				}
-			],
-			"regionalEffects": [
-				"Область, содержащая крепость, может изменяться под её присутствием, что создаёт один или несколько следующих эффектов:",
-				{
-					"type": "list",
-					"items": [
-						"Рвы, траншеи и рогатки уродуют пейзаж, изматывая путешествие. Область в пределах 1 мили от крепости является труднопроходимой местностью",
-						"Стражи крепости осветили земли пылающими кострами и тщательно патрулируют их в любое время суток. Проверки Ловкости (Скрытность) в пределах 1 мили от крепости совершаются с помехой.",
-						"Подчинённых командира убедили глубоко уважать или бояться своего предводителя. Проверки Харизмы (Обман, Запугивание и Убеждение) против жителей крепости совершаются с помехой.",
-						"Лордство сожгло свои земли, отозвав население за стены крепости. В пределах одного дня пути от крепости нельзя собирать или добывать охотой провизию."
-					]
-				},
-				"Если крепость захвачена, эти эффекты угасают в течение {@dice 1d10} дней."
-			]
-		}
-	]
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "ArmiesOfWar",
+        "abbreviation": "U_AOW",
+        "full": "Armies of War",
+        "url": "https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G",
+        "version": "3.1.1",
+        "authors": [
+          "u/filmatra"
+        ],
+        "convertedBy": [
+          "p4535992"
+        ],
+        "targetSchema": "1.7.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1657961727,
+    "dateLastModified": 1786039815,
+    "_dateLastModifiedHash": "d9db532b66"
+  },
+  "monster": [
+    {
+      "name": "Линия лучников",
+      "shortName": "Линия лучников",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "10-20 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item padded armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 24",
+        "average": 60
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 22,
+      "dex": 13,
+      "con": 16,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "athletics": "+8"
+      },
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Затмить небо (должно быть больше половины хитов)",
+          "entries": [
+            "Отряд выбирает точку в пределах 600 футов. Все существа в пределах 30 футов от этой точки должны совершить спасбросок Ловкости {@dc 15}, получая 21 ({@damage 6d6}) колющего урона при провале или половину этого урона при успешном спасброске. Существа в тяжёлом доспехе со щитом совершают этот спасбросок с преимуществом и при успешном спасброске не получают урона вместо половины."
+          ]
+        },
+        {
+          "name": "Шквал коротких мечей (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Шквал коротких мечей (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Прицельный огонь (у роя больше половины хитов)",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}18 ({@damage 4d8}) колющего урона."
+          ]
+        },
+        {
+          "name": "Прицельный огонь (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 150/600 футов, одна цель. {@h}9 ({@damage 2d8}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Archer_Line_Token.webp",
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Archer Line|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Archer_Line_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Армейский барабанщик",
+      "shortName": "Армейский барабанщик",
+      "source": "ArmiesOfWar",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item padded armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 2",
+        "average": 11
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 12,
+      "skill": {
+        "performance": "+3",
+        "persuasion": "+3",
+        "intimidation": "+3"
+      },
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/8",
+      "action": [
+        {
+          "name": "Вдохновение",
+          "entries": [
+            "Одно существо по выбору барабанщика добавляет 1d4 к следующему броску атаки, проверке навыка или спасброску, который оно совершает, до конца своего следующего хода."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Army_Drummer_Token.webp",
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Army Drummer|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Army_Drummer_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Обозные",
+      "shortName": "Обозные",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "20-40 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "formula": "8d8 + 8",
+        "average": 44
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 10,
+      "con": 13,
+      "int": 13,
+      "wis": 14,
+      "cha": 13,
+      "passive": 12,
+      "languages": [
+        "любые четыре языка"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Домашний уют",
+          "entries": [
+            "Пока этот отряд находится в пределах 300 фт. от армии в течение отдыха, эта армия восстанавливает максимальное количество хитов за любые потраченные кости хитов во время каждого короткого отдыха и теряет один дополнительный уровень истощения в конце каждого продолжительного отдыха."
+          ]
+        },
+        {
+          "name": "Разношёрстность",
+          "entries": [
+            "Отряд состоит из торговцев, врачей, ремесленников, куртизанок и семей солдат самого разного происхождения. Каждый раз, когда отряд совершает проверку навыка, бросьте {@dice 1d4}. При результате 2–3 отряд добавляет к проверке свой бонус мастерства (+2). При результате 4 он добавляет к проверке удвоенный бонус мастерства (+4)."
+          ]
+        },
+        {
+          "name": "Слабый боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он немедленно получает {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Импровизированная атака (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 4d4}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Импровизированная атака (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 2d4}) дробящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Camp_Followers_Token.webp",
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Camp Followers|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Camp_Followers_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Военачальники",
+      "source": "ArmiesOfWar",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid"
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|phb|пластинчатый доспех}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 229,
+        "formula": "27d8 + 108"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 20,
+      "dex": 16,
+      "con": 18,
+      "int": 12,
+      "wis": 12,
+      "cha": 18,
+      "save": {
+        "str": "+9",
+        "dex": "+7",
+        "con": "+8"
+      },
+      "skill": {
+        "athletics": "+9",
+        "intimidation": "+8",
+        "perception": "+5",
+        "persuasion": "+8"
+      },
+      "passive": 15,
+      "languages": [
+        "любые два языка"
+      ],
+      "cr": "12",
+      "trait": [
+        {
+          "name": "Непреклонность (3/день)",
+          "entries": [
+            "Военачальники могут перебросить проваленный спасбросок. Они должны использовать новый результат."
+          ]
+        },
+        {
+          "name": "Выживший",
+          "entries": [
+            "Военачальники восстанавливают 10 хитов в начале своего хода, если у них меньше половины хитов, но не менее 1 хита."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Военачальники совершают две атаки двуручным мечом или коротким луком."
+          ]
+        },
+        {
+          "name": "Двуручный меч",
+          "entries": [
+            "{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}12 ({@damage 2d6 + 5}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Короткий лук",
+          "entries": [
+            "{@atk rw} {@hit 7} к попаданию, дистанция 80/320 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) колющего урона."
+          ]
+        }
+      ],
+      "legendaryHeader": [
+        "Военачальники может совершить 1 легендарное действие, выбирая из вариантов ниже. Одновременно можно использовать только один вариант легендарного действия, и только в конце хода другого существа. Военачальники восстанавливает потраченные легендарные действия в начале своего хода."
+      ],
+      "legendaryActions": 1,
+      "legendary": [
+        {
+          "name": "Наступление/отступление",
+          "entries": [
+            "Каждая выбранная вами армия перемещается на расстояние до половины своей скорости."
+          ]
+        },
+        {
+          "name": "Приказной удар (стоит 2 действия)",
+          "entries": [
+            "Одна выбранная вами армия совершает одну атаку по другому выбранному вами существу, которое вы видите."
+          ]
+        },
+        {
+          "name": "Оборонительный приказ (стоит 2 действия)",
+          "entries": [
+            "Одна выбранная вами армия получает преимущества действия Уклонение до конца своего следующего хода."
+          ]
+        },
+        {
+          "name": "Обнаружение",
+          "entries": [
+            "Вы совершаете проверку Мудрости (Восприятие)."
+          ]
+        },
+        {
+          "name": "Вдохновляющий приказ",
+          "entries": [
+            "Одна подконтрольная вам армия по вашему выбору может добавить {@dice d10} к своему следующему броску атаки, проверке навыка или спасброску."
+          ]
+        }
+      ],
+      "legendaryGroup": {
+        "name": "Логовые действия военачальника",
+        "source": "ArmiesOfWar"
+      },
+      "environment": [
+        "urban"
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Commander_of_War_Token.webp",
+      "attachedItems": [
+        "greatsword|phb",
+        "shortbow|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "damageTagsLegendary": [
+        "A",
+        "B",
+        "C",
+        "F",
+        "L",
+        "T"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Commander of War|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}",
+          "Блок характеристик этого NPC основан на {@creature Warlord|MPMM} и адаптирован под этот хоумбрю-материал.",
+          {
+            "name": "Армии войны",
+            "entries": [
+              "Хаос раздирает центральное королевство. Дети рождаются в войне, живут до совершеннолетия и умирают в войне. Враждующие фракции разоряют процветающие города, месяцами держа в осаде их замки. Огромные батальоны сходятся в сельской местности, засеивая поля телами щедрее, чем семенами. Магические коллегии обратили свои исследования к искусству убивать. Даже песнопения святого королевского хора исказились в погребальные плачи.",
+              "В это время войны владыки земли полагаются на армии и могучих военачальников, чтобы отстаивать свои интересы на поле боя.",
+              "В этом дополнении собраны все простые, но мощные правила, которые понадобятся вам, чтобы командовать собственными огромными армиями, защищать крепости от вторжения или обращать их в руины и решать судьбу центрального королевства."
+            ],
+            "type": "entries"
+          },
+          {
+            "name": "Военачальники",
+            "entries": [
+              "Любая армия действует лучше всего под началом командира — опытного человека, способного привести её к славе.",
+              "Как правило, армия присягает командиру, который платит за её службу, служит её господину или иным образом заслужил её уважение, выполнив какое-либо другое задание. У армии может быть только один командир одновременно, но она может сменить командира в течение короткого или продолжительного отдыха.",
+              "Чтобы получить преимущества командира, значение Харизмы командира должно быть выше суммарного показателя Опасности всех армий, которыми он командует."
+            ],
+            "type": "entries"
+          },
+          {
+            "name": "Оборона при осаде",
+            "entries": [
+              "Крепкие каменные крепости — от нависающих башен у платных мостов до величественных замков в сердце процветающих городов — остаются символами безопасности в небезопасную эпоху.",
+              "Когда крепость осаждают, её защитники располагают разнообразными средствами обороны.",
+              "Крепости сильно различаются по размеру и расположению, но служат одной цели — отражать захватчиков и защищать своих обитателей от вреда."
+            ],
+            "type": "entries"
+          },
+          {
+            "name": "Получение действий командира",
+            "entries": [
+              "Некоторые могущественные командиры могут совершать более 1 легендарного действия в каждом раунде. Как общее правило, командир под управлением Мастера может совершать 1 легендарное действие за каждые 5 уровней своего показателя Опасности. Например, военачальник (ОП 12) может совершать 2 легендарных действия в каждом раунде.",
+              "\"Если вы используете дополнительные правила для черт («Книга игрока», стр. 165), игрок может получить 1 легендарное действие вместо черты при повышении уровня. \""
+            ],
+            "type": "entries"
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Commander_of_War_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Пехота-новобранцы",
+      "shortName": "Пехота-новобранцы",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "20-40 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "{@item padded armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 24",
+        "average": 60
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 11,
+      "con": 16,
+      "int": 10,
+      "wis": 9,
+      "cha": 10,
+      "skill": {
+        "athletics": "+6"
+      },
+      "passive": 9,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Орда",
+          "entries": [
+            "Существо, начинающее свой ход в пространстве армии, получает 14 ({@damage 4d6}) колющего урона или 7 ({@dice 2d6}), если у отряда меньше половины хитов."
+          ]
+        },
+        {
+          "name": "Мародёры",
+          "entries": [
+            "Если отряд тратит 10 или более минут, роясь в остатках разбитой армии, его класс доспеха навсегда увеличивается на 1 (до максимума 16, только один раз на каждые останки)."
+          ]
+        },
+        {
+          "name": "Слабый боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он немедленно получает 2d8 урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Орда (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Орда (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Построение с копьями (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Построение с копьями (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Дождь сулиц (у роя больше половины хитов)",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, дистанция 30/120 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Дождь сулиц (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, дистанция 30/120 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Conscript_Infantry_Token.webp",
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Conscript Infantry|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Conscript_Infantry_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Новобранец-пехотинец",
+      "shortName": "Новобранец-пехотинец",
+      "source": "ArmiesOfWar",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "{@item padded armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 2",
+        "average": 11
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 11,
+      "con": 12,
+      "int": 10,
+      "wis": 9,
+      "cha": 10,
+      "passive": 9,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/8",
+      "trait": [
+        {
+          "name": "Недисциплинированность",
+          "entries": [
+            "Пехотинец совершает с помехой спасброски против того, чтобы стать {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Копьё",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 5 фт., одна цель. {@h}4 ({@damage 1d6 + 1}) колющего урона или 5 ({@damage 1d8 + 1}) колющего урона при использовании двумя руками."
+          ]
+        },
+        {
+          "name": "Праща",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, дистанция 30/120 футов, одна цель. {@h}3 ({@damage 1d4 +1}) дробящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Conscripted_Footman_Token.webp",
+      "attachedItems": [
+        "sling|phb",
+        "spear|phb"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Conscripted Footman|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Conscripted_Footman_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Тяжёлая кавалерия",
+      "shortName": "Тяжёлая кавалерия",
+      "source": "ArmiesOfWar",
+      "size": [
+        "G"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "10-20 members",
+          "warhorse"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item splint armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "18d8 + 108",
+        "average": 189
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "(60 футов верхом)"
+        }
+      },
+      "str": 22,
+      "dex": 13,
+      "con": 22,
+      "int": 11,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "athletics": "+10",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "12",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Растаптывающий рывок",
+          "entries": [
+            "Если в свой ход отряд перемещается не менее чем на 20 фт. по прямой к существу и затем попадает по нему атакой копытами, эта цель должна преуспеть в спасброске Силы {@dc 14}, иначе упадёт {@condition prone}. Если цель {@condition prone}, отряд может бонусным действием совершить по ней ещё одну атаку копытами."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Если в этом ходу отряд переместился не менее чем на 20 фт. по прямой, он совершает одну атаку наскоком с копьём и одну атаку копытами. В противном случае он совершает атаку шквалом вспомогательного оружия."
+          ]
+        },
+        {
+          "name": "Наскок с копьём (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Наскок с копьём (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Копыта (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Копыта (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Шквал вспомогательного оружия (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Шквал вспомогательного оружия (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) рубящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Cavalry_Token.webp",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Heavy Cavalry|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Cavalry_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Линия тяжёлых арбалетчиков",
+      "shortName": "Линия тяжёлых арбалетчиков",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "10-20 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 32",
+        "average": 68
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 22,
+      "dex": 11,
+      "con": 19,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "athletics": "+8"
+      },
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Сменный огонь",
+          "entries": [
+            "Отряд чередует шеренги стреляющих и перезаряжающих арбалетчиков. Пока у него больше половины хитов, он игнорирует свойство «перезарядка» тяжёлого арбалета."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Отряд совершает две атаки прицельным огнём."
+          ]
+        },
+        {
+          "name": "Удушающий залп (должно быть больше половины хитов)",
+          "entries": [
+            "Все существа на линии шириной 15 фт. и длиной 100 фт. должны совершить спасбросок Ловкости {@dc 15}, получая 22 ({@dice 4d10}) колющего урона при провале или половину этого урона при успешном спасброске. Существа на расстоянии более 50 фт. от отряда совершают этот спасбросок с преимуществом."
+          ]
+        },
+        {
+          "name": "Шквал коротких мечей (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Шквал коротких мечей (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Установка павезы",
+          "entries": [
+            "Отряд выставляет перед своей первой шеренгой ряд башенных щитов. До следующего перемещения или рукопашной атаки отряд получает укрытие на три четверти (бонус +5 к классу доспеха и спасброскам Ловкости)."
+          ]
+        },
+        {
+          "name": "Прицельный огонь (у роя больше половины хитов)",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, дистанция 100/400 футов, одна цель. {@h}22 ({@damage 4d10}) колющего урона."
+          ]
+        },
+        {
+          "name": "Прицельный огонь (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk rw} {@hit 2} к попаданию, дистанция 100/400 футов, одна цель. {@h}11 ({@damage 2d10}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Crossbow_Line_Token.webp",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Heavy Crossbow Line|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Crossbow_Line_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Тяжёлый арбалетчик",
+      "shortName": "Тяжёлый арбалетчик",
+      "source": "ArmiesOfWar",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 2",
+        "average": 11
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 13,
+      "con": 13,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/2",
+      "action": [
+        {
+          "name": "Арбалет",
+          "entries": [
+            "{@atk rw} {@hit 3} к попаданию, дистанция 100/400 футов, одна цель. {@h}6 ({@damage 1d10 + 1}) колющего урона."
+          ]
+        },
+        {
+          "name": "Короткий меч",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Crossbowman_Token.webp",
+      "attachedItems": [
+        "shortsword|phb"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Heavy Crossbowman|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Heavy_Crossbowman_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Священный хор",
+      "shortName": "Священный хор",
+      "source": "ArmiesOfWar",
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "5-10 members"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 24",
+        "average": 60
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 10,
+      "con": 16,
+      "int": 13,
+      "wis": 16,
+      "cha": 13,
+      "skill": {
+        "medicine": "+9",
+        "persuasion": "+4",
+        "religion": "+4"
+      },
+      "passive": 13,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Использование заклинаний: Созыв",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Отряд — заклинатель 9-го уровня. Его базовой характеристикой для заклинаний является Мудрость (Сл спасброска от заклинаний {@dc 14}, +6 к попаданию заклинательными атаками). Если его хиты уменьшаются более чем наполовину, отряд становится заклинателем 5-го уровня (он теряет ячейки заклинаний 4-го и 5-го уровней и одну из ячеек 3-го уровня). У отряда подготовлены следующие заклинания жреца:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell mending}",
+                "{@spell spare the dying}",
+                "{@spell thaumaturgy}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell divine favor}",
+                "{@spell guiding bolt}",
+                "{@spell healing word}",
+                "{@spell sanctuary}",
+                "{@spell shield of faith}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell lesser restoration}",
+                "{@spell magic weapon}",
+                "{@spell prayer of healing}",
+                "{@spell silence}",
+                "{@spell spiritual weapon}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell beacon of hope}",
+                "{@spell crusader's mantle}",
+                "{@spell dispel magic}",
+                "{@spell revivify}",
+                "{@spell spirit guardians}",
+                "{@spell wall of water|XGE}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell banishment}",
+                "{@spell freedom of movement}",
+                "{@spell guardian of faith}",
+                "{@spell stoneskin}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell flame strike}",
+                "{@spell hold monster}",
+                "{@spell mass cure wounds}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости Сл 13, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        },
+        {
+          "name": "Военный лекарь",
+          "entries": [
+            "Заклинания этого отряда могут восстанавливать хиты армий даже во время боя."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Отряд творит одно заклинание и использует свою атаку шквалом булав."
+          ]
+        },
+        {
+          "name": "Шквал булав",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Holy_Chorus_Token.webp",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "N",
+        "O",
+        "R"
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Holy Chorus|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Holy_Chorus_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Рыцарский орден",
+      "shortName": "Рыцарский орден",
+      "source": "ArmiesOfWar",
+      "size": [
+        "G"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "10-20 members",
+          "warhorse"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "18d8 + 108",
+        "average": 189
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "(60 футов верхом)"
+        }
+      },
+      "str": 22,
+      "dex": 13,
+      "con": 22,
+      "int": 11,
+      "wis": 11,
+      "cha": 15,
+      "skill": {
+        "athletics": "+11",
+        "perception": "+5"
+      },
+      "passive": 15,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "15",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Растаптывающий рывок",
+          "entries": [
+            "Если в свой ход отряд перемещается не менее чем на 20 фт. по прямой к существу и затем попадает по нему атакой копытами, эта цель должна преуспеть в спасброске Силы {@dc 14}, иначе упадёт {@condition prone}. Если цель {@condition prone}, отряд может бонусным действием совершить по ней ещё одну атаку копытами."
+          ]
+        },
+        {
+          "name": "Непоколебимый боевой дух",
+          "entries": [
+            "Отряд совершает с преимуществом спасброски против того, чтобы стать {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Если в этом ходу отряд переместился не менее чем на 20 фт. по прямой, он совершает одну атаку наскоком с длинным копьём и одну атаку копытами. В противном случае он совершает атаку шквалом вспомогательного оружия."
+          ]
+        },
+        {
+          "name": "Наскок с длинным копьём (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}52 ({@damage 8d12}) колющего урона."
+          ]
+        },
+        {
+          "name": "Наскок с длинным копьём (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}26 ({@damage 4d12}) колющего урона."
+          ]
+        },
+        {
+          "name": "Копыта (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Копыта (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Шквал вспомогательного оружия (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Шквал вспомогательного оружия (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 11} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Гром арбалетных болтов (у роя больше половины хитов)",
+          "entries": [
+            "{@atk rw} {@hit 6} к попаданию, дистанция 100/400 футов, одна цель. {@h}28 ({@damage 8d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Гром арбалетных болтов (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk rw} {@hit 6} к попаданию, дистанция 100/400 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Маяк наставления (восстанавливается после короткого или продолжительного отдыха)",
+          "entries": [
+            "В течение 1 минуты все существа по выбору отряда в пределах 30 фт. от него, которых он видит, добавляют {@dice d4} к каждому броску атаки и спасброску, если они слышат и понимают отряд. Этот эффект заканчивается, если отряд лишён дееспособности."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Защитные манёвры",
+          "entries": [
+            "Отряд добавляет 2 к своему классу доспеха против одной рукопашной атаки, которая должна по нему попасть. Для этого отряд должен видеть атакующего и держать рукопашное оружие."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Knightly_Order_Token.webp",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Knightly Order|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Knightly_Order_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Лёгкая кавалерия",
+      "shortName": "Лёгкая кавалерия",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "5-10 members",
+          "warhorse"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item padded armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 36",
+        "average": 90
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "(60 футов верхом)"
+        }
+      },
+      "str": 20,
+      "dex": 16,
+      "con": 16,
+      "int": 18,
+      "wis": 11,
+      "cha": 14,
+      "skill": {
+        "athletics": "+8",
+        "perception": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Отряд совершает две атаки шквалом сабель или верховой стрельбой."
+          ]
+        },
+        {
+          "name": "Шквал сабель (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Шквал сабель (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Копыта (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Копыта (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Верховая стрельба (у роя больше половины хитов)",
+          "entries": [
+            "{@atk rw} {@hit 6} к попаданию, дистанция 150/600 футов, одна цель. {@h}36 ({@damage 8d8}) колющего урона."
+          ]
+        },
+        {
+          "name": "Верховая стрельба (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk rw} {@hit 6} к попаданию, дистанция 150/600 футов, одна цель. {@h}18 ({@damage 4d8}) колющего урона."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Защитные манёвры",
+          "entries": [
+            "Отряд добавляет 2 к своему классу доспеха против одной рукопашной атаки, которая должна по нему попасть. Для этого отряд должен видеть атакующего и держать рукопашное оружие."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Light_Cavalry_Token.webp",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Light Cavalry|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Light_Cavalry_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Лучник с длинным луком",
+      "shortName": "Лучник с длинным луком",
+      "source": "ArmiesOfWar",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item padded armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8",
+        "average": 9
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 13,
+      "con": 10,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/4",
+      "action": [
+        {
+          "name": "Короткий меч",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Длинный лук",
+          "entries": [
+            "{@atk rw} {@hit 3} к попаданию, дистанция 150/600 футов, одна цель. {@h}5 ({@damage 1d8 + 1}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Longbowman_Token.webp",
+      "attachedItems": [
+        "longbow|phb"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Longbowman|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Longbowman_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Военный оркестр",
+      "shortName": "Военный оркестр",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "20-40 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item padded armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d8 + 40",
+        "average": 85
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 18,
+      "int": 10,
+      "wis": 11,
+      "cha": 15,
+      "skill": {
+        "athletics": "+7",
+        "performance": "+5",
+        "persuasion": "+5",
+        "intimidation": "+5"
+      },
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Военные марши",
+          "entries": [
+            "Действием в свой ход отряд начинает играть один из следующих ритмов. Он может играть только один ритм одновременно, должен использовать своё действие, чтобы продлевать эффекты ритма каждый ход, и должен поддерживать концентрацию на ритме так же, как на заклинании:",
+            {
+              "type": "list",
+              "items": [
+                "{@b Ритм наставления.} Песнь согласует передвижение армий. Каждый союзник в пределах 150 фт., у которого есть хотя бы одно легендарное действие, получает на одно легендарное действие больше и восстанавливает это действие в начале своего хода, пока слышит ритм.",
+                "{@b Ритм ужаса.} Песнь полна угрозы. Враждебные существа в пределах 150 фт., которые слышат ритм, совершают с помехой спасброски против того, чтобы стать {@condition frightened}, и получают 9 ({@dice 2d8}) дополнительного урона от потери боевого духа.",
+                "{@b Ритм доблести.} Песнь громогласна и эпична. Каждый союзник в пределах 150 фт. добавляет {@dice 1d4} к каждому своему броску атаки, проверке навыка и спасброску, пока слышит ритм."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости Сл 13, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Шквал коротких мечей (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Шквал коротких мечей (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 8} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Martial_Band_Token.webp",
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Martial Band|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Martial_Band_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Разведывательный отряд",
+      "shortName": "Разведывательный отряд",
+      "source": "ArmiesOfWar",
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "5-10 members"
+        ]
+      },
+      "alignment": [
+        "NX",
+        "NY",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 24",
+        "average": 60
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 16,
+      "int": 11,
+      "wis": 13,
+      "cha": 11,
+      "skill": {
+        "nature": "+4",
+        "perception": "+5",
+        "stealth": "+6",
+        "survival": "+5"
+      },
+      "passive": 15,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Острые зрение и слух",
+          "entries": [
+            "Отряд совершает с преимуществом проверки Мудрости (Восприятие), основанные на слухе или зрении."
+          ]
+        },
+        {
+          "name": "Землеходец",
+          "entries": [
+            "Путешествие армий, сопровождающих отряд, не замедляется труднопроходимой местностью. Путешествуя в одиночку, отряд может двигаться скрытно с обычной скоростью."
+          ]
+        },
+        {
+          "name": "Дозорный",
+          "entries": [
+            "Во время отдыха отряд защищает область до 300 фт. так, как если бы это было заклинание «Охрана», с неслышимой сигнализацией."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Шквал коротких мечей (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Шквал коротких мечей (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Дождь игл (у роя больше половины хитов)",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 80/320 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Дождь игл (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 80/320 футов, одна цель. {@h}7 ({@damage 2d6}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Scouting_Troop_Token.webp",
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Scouting Troop|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Scouting_Troop_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Застрельщики",
+      "shortName": "Застрельщики",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "20-40 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item scale mail|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d8 + 60",
+        "average": 105
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 22,
+      "dex": 12,
+      "con": 22,
+      "int": 10,
+      "wis": 11,
+      "cha": 9,
+      "skill": {
+        "athletics": "+9",
+        "intimidation": "+2"
+      },
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для Большого зверя верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Агрессивность",
+          "entries": [
+            "Бонусным действием отряд может переместиться на расстояние до своей скорости к враждебному существу, которое видит."
+          ]
+        },
+        {
+          "name": "Орда",
+          "entries": [
+            "Существо, начинающее свой ход в пространстве отряда, получает 21 ({@damage 6d6}) колющего урона или 11 ({@dice 3d6}), если у отряда меньше половины хитов."
+          ]
+        },
+        {
+          "name": "Безрассудство",
+          "entries": [
+            "В начале своего хода отряд может получить преимущество на все броски атак рукопашным оружием в этом ходу, но броски атаки по нему совершаются с преимуществом до начала его следующего хода."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Отряд совершает две атаки шквалом топоров."
+          ]
+        },
+        {
+          "name": "Орда (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}21 ({@damage 6d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Орда (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 3d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Шквал топоров (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}21 ({@damage 6d6}) рубящего урона."
+          ]
+        },
+        {
+          "name": "Шквал топоров (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 3d6 }) рубящего урона."
+          ]
+        },
+        {
+          "name": "Копейный натиск (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}21 ({@damage 6d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Копейный натиск (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 9} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 3d6}) колющего урона."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Агрессивность",
+          "entries": [
+            "Отряд может переместиться на расстояние до своей скорости к враждебному существу, которое видит."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Skirmishers_Token.webp",
+      "traitTags": [
+        "Aggressive",
+        "Reckless"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Skirmishers|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Skirmishers_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ратники",
+      "shortName": "Ратники",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "20-40 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item half plate armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "14d8 + 84",
+        "average": 147
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 22,
+      "dex": 13,
+      "con": 22,
+      "int": 11,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "athletics": "+10",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "10",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера верхом или для гуманоида Среднего размера спешившись. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Орда",
+          "entries": [
+            "Существо, начинающее свой ход в пространстве отряда, получает 28 ({@damage 8d6}) колющего урона или 14 ({@dice 4d6}), если у отряда меньше половины хитов."
+          ]
+        },
+        {
+          "name": "Непоколебимый боевой дух",
+          "entries": [
+            "Отряд совершает с преимуществом спасброски против того, чтобы стать {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Отряд совершает три рукопашные атаки или две дальнобойные атаки."
+          ]
+        },
+        {
+          "name": "Орда (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Орда (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) колющего урона."
+          ]
+        },
+        {
+          "name": "Открытая схватка (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}28 ({@damage 8d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Открытая схватка (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Толчок щитом (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 фт., одна цель. {@h}20 ({@damage 8d4}) дробящего урона. Если цель — существо Среднего или меньшего размера, оно должно преуспеть в спасброске Силы {@dc 15}, иначе упадёт {@condition prone}."
+          ]
+        },
+        {
+          "name": "Толчок щитом (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 фт., одна цель. {@h}10 ({@damage 4d4}) дробящего урона. Если цель — существо Среднего или меньшего размера, оно должно преуспеть в спасброске Силы {@dc 15}, иначе упадёт {@condition prone}."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Защитные манёвры",
+          "entries": [
+            "Отряд добавляет 2 к своему классу доспеха против одной рукопашной атаки, которая должна по нему попасть. Для этого отряд должен видеть атакующего и держать рукопашное оружие."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Soldiers_At_Arms_Token.webp",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Soldiers-At-Arms|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Soldiers_At_Arms_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Стена щитов",
+      "shortName": "Стена щитов",
+      "source": "ArmiesOfWar",
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "20-40 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item chain shirt|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "18d8 + 108",
+        "average": 189
+      },
+      "speed": {
+        "walk": 5
+      },
+      "str": 22,
+      "dex": 13,
+      "con": 22,
+      "int": 11,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "athletics": "+10",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "10",
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Построение с пиками и щитами",
+          "entries": [
+            "Отряд совершает с преимуществом все рукопашные атаки по верховым отрядам, а немагические дальнобойные атаки по нему совершаются с помехой."
+          ]
+        },
+        {
+          "name": "Мастер древкового оружия",
+          "entries": [
+            "Другие существа провоцируют атаку по возможности от отряда, когда входят в его пределы досягаемости (10 фт.)."
+          ]
+        },
+        {
+          "name": "Страж",
+          "entries": [
+            "Когда отряд попадает по существу атакой по возможности, скорость этого существа становится 0 до конца хода. Кроме того, существа провоцируют атаки по возможности от отряда, даже если совершают действие Отход перед выходом из его пределов досягаемости."
+          ]
+        },
+        {
+          "name": "Уязвимый фланг",
+          "entries": [
+            "В конце своего хода отряд объявляет, в какую сторону света он обращён. До конца своего следующего хода атаки по нему с противоположной стороны света совершаются с преимуществом, а от всех остальных направлений отряд имеет укрытие на три четверти."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости {@dc 13}, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Отряд совершает одну атаку шквалом пик."
+          ]
+        },
+        {
+          "name": "Шквал пик (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}44 ({@damage 8d10}) колющего урона."
+          ]
+        },
+        {
+          "name": "Шквал пик (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}22 ({@damage 4d10}) колющего урона."
+          ]
+        },
+        {
+          "name": "Толчок щитом (у роя больше половины хитов)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}20 ({@damage 8d4}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Толчок щитом (у роя половина хитов или меньше)",
+          "entries": [
+            "{@atk mw} {@hit 10} к попаданию, досягаемость 5 футов, одна цель. {@h}10 ({@damage 4d4}) дробящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Wall_of_Shields_Token.webp",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Wall of Shields|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/Wall_of_Shields_Avatar.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Маги военной академии",
+      "shortName": "Маги военной академии",
+      "source": "ArmiesOfWar",
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M",
+        "tags": [
+          "any race",
+          "5-10 members"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 24",
+        "average": 60
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 14,
+      "con": 16,
+      "int": 17,
+      "wis": 12,
+      "cha": 10,
+      "skill": {
+        "arcana": "+7",
+        "history": "+7"
+      },
+      "passive": 11,
+      "languages": [
+        "любые четыре языка"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Использование заклинаний: Созыв",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Отряд — заклинатель 12-го уровня. Его базовой характеристикой для заклинаний является Интеллект (Сл спасброска от заклинаний {@dc 15}, +7 к попаданию заклинательными атаками). Если его хиты уменьшаются более чем наполовину, отряд становится заклинателем 8-го уровня (он теряет ячейки заклинаний 5-го и 6-го уровней и одну из ячеек 4-го уровня). У отряда подготовлены следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell fire bolt}",
+                "{@spell light}",
+                "{@spell prestidigitation}",
+                "{@spell ray of frost}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell mage armor}",
+                "{@spell magic missile}",
+                "{@spell shield}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell mirror image}",
+                "{@spell misty step}",
+                "{@spell shatter}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell counterspell}",
+                "{@spell fireball}",
+                "{@spell lightning bolt}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell ice storm}",
+                "{@spell stoneskin}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell Bigby's hand}",
+                "{@spell cone of cold}"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell chain lightning}",
+                "{@spell wall of ice}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Армия",
+          "entries": [
+            "Отряд может занимать пространство другого существа и наоборот, а также проходить через любое отверстие, достаточное для гуманоида Среднего размера. Во время боя отряд не может восстанавливать хиты или получать временные хиты."
+          ]
+        },
+        {
+          "name": "Магическая защита",
+          "entries": [
+            "Существа по выбору отряда в пределах 30 фт. от него (включая его самого) совершают с преимуществом спасброски против заклинаний и других магических эффектов."
+          ]
+        },
+        {
+          "name": "Боевой дух",
+          "entries": [
+            "Если отряд становится {@condition frightened} или его хиты уменьшаются вдвое, он должен преуспеть в спасброске Мудрости Сл 13, иначе получит {@damage 2d8} урона: часть его бойцов отбивается и бежит."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Отряд творит одно заклинание 1-го уровня или выше и один заговор либо два заговора."
+          ]
+        },
+        {
+          "name": "Отчаянные удары шестами",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}14 ({@damage 4d6}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Отчаянные удары шестами",
+          "entries": [
+            "{@atk mw} {@hit 2} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 2d6}) дробящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/War_Academy_Mages_Token.webp",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "damageTagsSpell": [
+        "B",
+        "C",
+        "F",
+        "L",
+        "O",
+        "T"
+      ],
+      "spellcastingTags": [
+        "CW"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link War Academy Mages|https://homebrewery.naturalcrit.com/share/o4qRnnxr0a2G} по мотивам поста {@link u/filmatra|https://www.reddit.com/r/UnearthedArcana/comments/pnewbv/comment/hcopcks/}"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ArmiesOfWar/War_Academy_Mages_Avatar.webp"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "legendaryGroup": [
+    {
+      "name": "Логовые действия военачальника",
+      "source": "ArmiesOfWar",
+      "lairActions": [
+        "При счёте инициативы 20 (при равенстве инициатив проигрывая), командир крепости может совершить действие логова, чтобы вызвать один из следующих эффектов; командир не может использовать один и тот же эффект два раунда подряд:",
+        {
+          "type": "list",
+          "items": [
+            "Камни бросают в точку с радиусом 15 фт. в пределах 30 фт. от стен крепости. Каждое существо в этой области должно совершить спасбросок Ловкости Сл {@dc 15}, получая 7 ({@damage 2d6}) дробящего урона при провале или половину этого урона при успешном спасброске.",
+            "Кипящее масло льётся из крепости на всех существ в точке с радиусом 10 фт. вдоль стен крепости. Каждое существо в этой области должно совершить спасбросок Ловкости Сл 15. При провале существо получает 10 ({@damage 4d4}) урона огнём и ещё 5 ({@damage 2d4}) урона огнём в начале каждого своего хода, пока не потратит действие, чтобы очиститься от масла. При успешном спасброске существо не получает урона.",
+            "Защитники крепости используют её проходы, архитектуру и простые механизмы себе на пользу. До конца раунда рукопашные атаки по существам по выбору командира совершаются с помехой.",
+            "{@spell glyph of warding}, сотворённая на 3-м уровне, появляется в незанятом месте по выбору командира где-то внутри крепости. Один из союзников командира может потратить ячейку заклинаний, чтобы поместить в знак заклинание, которое у него подготовлено. В противном случае знак является взрывной руной."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "Область, содержащая крепость, может изменяться под её присутствием, что создаёт один или несколько следующих эффектов:",
+        {
+          "type": "list",
+          "items": [
+            "Рвы, траншеи и рогатки уродуют пейзаж, изматывая путешествие. Область в пределах 1 мили от крепости является труднопроходимой местностью",
+            "Стражи крепости осветили земли пылающими кострами и тщательно патрулируют их в любое время суток. Проверки Ловкости (Скрытность) в пределах 1 мили от крепости совершаются с помехой.",
+            "Подчинённых командира убедили глубоко уважать или бояться своего предводителя. Проверки Харизмы (Обман, Запугивание и Убеждение) против жителей крепости совершаются с помехой.",
+            "Лордство сожгло свои земли, отозвав население за стены крепости. В пределах одного дня пути от крепости нельзя собирать или добывать охотой провизию."
+          ]
+        },
+        "Если крепость захвачена, эти эффекты угасают в течение {@dice 1d10} дней."
+      ]
+    }
+  ]
 }

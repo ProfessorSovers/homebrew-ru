@@ -1,1468 +1,1468 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-	"_meta": {
-		"sources": [
-			{
-				"json": "DMDAVEBNPC",
-				"abbreviation": "DMDAVEBNPC",
-				"full": "DMDave Blog Archives NPCs",
-				"url": "https://dmdave.com/tag/npcs/",
-				"version": "2022.07.31",
-				"authors": [
-					"DMDave Blog"
-				],
-				"convertedBy": [
-					"p4535992"
-				],
-				"targetSchema": "1.7.0"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1641557769,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "1397a7451d"
-	},
-	"monster": [
-		{
-			"name": "Аша Вандри-авантюрист",
-			"shortName": "Аша Вандри-авантюрист",
-			"source": "DMDAVEBNPC",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"priest"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 19,
-					"from": [
-						"{@item splint armor|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "14d8 + 28",
-				"average": 91
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 10,
-			"con": 14,
-			"int": 11,
-			"wis": 17,
-			"cha": 13,
-			"save": {
-				"con": "+5",
-				"wis": "+6"
-			},
-			"skill": {
-				"medicine": "+5",
-				"religion": "+3"
-			},
-			"passive": 13,
-			"languages": [
-				"любые два языка"
-			],
-			"cr": "5",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Аша Вандри является заклинателем 7-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 14}, бонус +6 к попаданию атаками заклинаниями). У него подготовлены следующие заклинания жреца:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell light}",
-								"{@spell mending}",
-								"{@spell sacred flame}",
-								"{@spell spare the dying}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell bless}",
-								"{@spell cure wounds}",
-								"{@spell guiding bolt}",
-								"{@spell healing word}",
-								"{@spell shield of faith}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell lesser restoration}",
-								"{@spell magic weapon} (The priest casts this spell on itself before combat)",
-								"{@spell prayer of healing}",
-								"{@spell silence}",
-								"{@spell spiritual weapon}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell beacon of hope}",
-								"{@spell crusader's mantle}",
-								"{@spell dispel magic}",
-								"{@spell revivify}",
-								"{@spell spirit guardians}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell death ward}",
-								"{@spell guardian of faith}",
-								"{@spell stoneskin}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"trait": [
-				{
-					"name": "Специализация на исцелении",
-					"entries": [
-						"Когда Аша Вандри использует заклинание 1-го уровня или выше, чтобы восстановить хиты существа, существо восстанавливает дополнительные хиты в количестве, равном 2 + уровню заклинания, а Аша Вандри получает хиты в количестве, равном 2 + уровню заклинания."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Аша Вандри совершает две атаки ближнего боя."
-					]
-				},
-				{
-					"name": "Булава (магическое оружие)",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d6 + 4}) дробящего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/PDKCJC9.png",
-			"attachedItems": [
-				"mace|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"B"
-			],
-			"damageTagsSpell": [
-				"N",
-				"O",
-				"R"
-			],
-			"spellcastingTags": [
-				"CC"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForcedSpell": [
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Adventuring Priest|https://dmdave.com/adventuring-priests/}",
-					"Ещё одна небольшая вещь для сегодняшней игровой сессии: я заметил, что в книгах о монстрах наблюдается серьёзная нехватка НИП, подобных жрецам. У нас есть Аша Вандри в «Бестиарии», которая является заклинателем 5-го уровня с ПО 2. А затем у нас есть Боевой священник, который представляет собой Прыжок вплоть до 9-го уровня и ПО 9 (кроме того, его Кости хитов совершенно не соответствуют его уровню заклинателя). Мне нужно нечто среднее (ПО 5), поэтому я решил создать сборку жреца, ориентированную на ПО.",
-					"Это немного иной способ создания монстров по сравнению с тем, который я описал в своей статье «как создать монстра за 15 минут или меньше». Хотя у меня в голове есть общая концепция, я добавляю ему характеристики и хиты исходя из показателя опасности, который хочу ему задать. «Руководство Мастера» направляет читателей в эту сторону, но, по моему мнению, так бывает не всегда весело.",
-					"Как бы то ни было, именно это мне нужно для сегодняшней игровой встречи. Бла-бла-бла, в общем, вот эта чёртова штука.",
-					"Надеюсь, вы сможете использовать этого Аша Вандри среднего уровня в своих приключениях. Удачи!",
-					"А если вы ещё не подписались, обязательно следите за блогом, заполнив форму подписки справа или внизу страницы, чтобы получать обновления о новом содержимом.",
-					"До скорого."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/zjj3riY.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Старший Аша Вандри/Старшая Аша Вандри",
-			"shortName": "Старший Аша Вандри/Старшая Аша Вандри",
-			"source": "DMDAVEBNPC",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"Arch Priest",
-					"Arch Priestess"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 20,
-					"from": [
-						"{@item plate armor|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "20d8 + 40",
-				"average": 130
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 13,
-			"con": 14,
-			"int": 14,
-			"wis": 18,
-			"cha": 15,
-			"save": {
-				"con": "+7",
-				"wis": "+9"
-			},
-			"skill": {
-				"medicine": "+14",
-				"religion": "+9",
-				"persuasion": "+7"
-			},
-			"passive": 14,
-			"languages": [
-				"любые два языка"
-			],
-			"cr": "13",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Верховный Аша Вандри — заклинатель 13-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 17}, +9 к попаданию атаками заклинаниями). Аша Вандри подготовил следующие заклинания Жреца:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell light}",
-								"{@spell sacred flame}",
-								"{@spell spare the dying}",
-								"{@spell thaumaturgy}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell cure wounds}",
-								"{@spell guiding bolt}",
-								"{@spell protection from evil and good}",
-								"{@spell sanctuary}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell hold person}",
-								"{@spell lesser restoration}",
-								"{@spell spiritual weapon}"
-							],
-							"slots": 4
-						},
-						"3": {
-							"spells": [
-								"{@spell dispel magic}",
-								"{@spell protection from energy}",
-								"{@spell spirit guardians}"
-							],
-							"slots": 4
-						},
-						"4": {
-							"spells": [
-								"{@spell banishment}",
-								"{@spell guardian of faith}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell flame strike}",
-								"{@spell insect plague}",
-								"{@spell mass cure wounds}"
-							],
-							"slots": 2
-						},
-						"6": {
-							"spells": [
-								"{@spell heal}"
-							],
-							"slots": 1
-						},
-						"7": {
-							"spells": [
-								"{@spell conjure celestial}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"trait": [
-				{
-					"name": "Божественное превосходство",
-					"entries": [
-						"Бонусным действием Аша Вандри может израсходовать ячейку заклинания, чтобы его атаки оружием ближнего боя магическим образом наносили цели дополнительные 10 ({@damage 3d6}) урона излучением при попадании. Это преимущество длится до конца хода. Если Аша Вандри расходует ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d6} за каждый уровень выше 1-го."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Аша Вандри совершает три атаки оружием ближнего боя."
-					]
-				},
-				{
-					"name": "Булава",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) дробящего урона."
-					]
-				}
-			],
-			"bonus": [
-				{
-					"name": "Божественное превосходство",
-					"entries": [
-						"Бонусным действием Аша Вандри может израсходовать ячейку заклинания, чтобы его атаки оружием ближнего боя магическим образом наносили цели дополнительные 10 ({@damage 3d6}) урона излучением при попадании. Это преимущество длится до конца хода. Если Аша Вандри расходует ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d6} за каждый уровень выше 1-го."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/64IIjBQ.png",
-			"attachedItems": [
-				"mace|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"R"
-			],
-			"damageTagsSpell": [
-				"F",
-				"N",
-				"O",
-				"P",
-				"R"
-			],
-			"spellcastingTags": [
-				"CC"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForcedSpell": [
-				"charisma",
-				"constitution",
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Arch Priest/Priestess|https://dmdave.com/arch-priest-priestess/}",
-					"Продолжая работу над этим приключением, когда я добрался до третьего яруса, мне понадобился ещё один высокоуровневый божественный НИП. Я надеялся, что варианты дроу подойдут (матрона-мать, верховная жрица и т. д.), но они были слишком по-дроуйски для того, что мне было нужно.",
-					"Поэтому мне пришлось придумать божественную угрозу высокого уровня.",
-					"Арт: Ju Hee Yoon"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/r0G9e5G.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Приспешник",
-			"shortName": "Приспешник",
-			"source": "DMDAVEBNPC",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"kevlar jumpsuit"
-					]
-				}
-			],
-			"hp": {
-				"formula": "5d8 + 5",
-				"average": 27
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 13,
-			"con": 12,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"skill": {
-				"intimidation": "+2"
-			},
-			"passive": 10,
-			"languages": [
-				"One (обычно Общий)"
-			],
-			"cr": "1/8",
-			"trait": [
-				{
-					"name": "Смертоноснее в одиночку",
-					"entries": [
-						"Приспешник имеет помеху на бросок атаки против существа, если хотя бы один из союзников приспешника находится в пределах 30 футов от существа и союзник не {@condition incapacitated}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Приспешник совершает две атаки ближнего боя."
-					]
-				},
-				{
-					"name": "Дубинка",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d4 + 1}) дробящего урона."
-					]
-				},
-				{
-					"name": "Оглушающее ружьё",
-					"entries": [
-						"{@atk rw} {@hit 3} к попаданию, дистанция 100/400 футов, одна цель. {@h}5 ({@damage 1d10}) излучения."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/CHOaY5M.png",
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"R"
-			],
-			"miscTags": [
-				"MW",
-				"RW"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Henchman|https://dmdave.com/henchmen/}",
-					"У Вейдера есть штурмовики. У Дума — думботы. У Дарксайда — парадемоны. У каждого злодея есть приспешники. Что такое приспешники? Приспешники (и приспешницы!) — это люди в одинаковой форме, которые служат препятствиями на пути героя к главному злодею. Они часто самоуверенны (или трусливы), у них отвратительная меткость, и обычно это не более чем безымянные пешки.",
-					"Звучит как D&D!",
-					"Создавая сеттинг для супергероев на основе правил «Подземелий и Драконов» пятой редакции, я понял, что мне также понадобятся приспешники. Вот они!"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/4OF6g7p.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Верховный жрец/жрица",
-			"shortName": "Верховный жрец/жрица",
-			"source": "DMDAVEBNPC",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"priestess",
-					"priest"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item breastplate|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "18d8 + 18",
-				"average": 99
-			},
-			"speed": {
-				"walk": 25
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 12,
-			"int": 14,
-			"wis": 18,
-			"cha": 15,
-			"skill": {
-				"medicine": "+10",
-				"persuasion": "+5",
-				"religion": "+6"
-			},
-			"passive": 14,
-			"languages": [
-				"любые два языка"
-			],
-			"cr": "6",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Верховный жрец — заклинатель 9-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 15}, +7 к попаданию атаками заклинаниями). Жрец подготовил следующие заклинания жреца:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell light}",
-								"{@spell sacred flame}",
-								"{@spell spare the dying}",
-								"{@spell thaumaturgy}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell cure wounds}",
-								"{@spell guiding bolt}",
-								"{@spell protection from evil and good}",
-								"{@spell sanctuary}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell hold person}",
-								"{@spell lesser restoration}",
-								"{@spell spiritual weapon}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell dispel magic}",
-								"{@spell protection from energy}",
-								"{@spell spirit guardians}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell banishment}",
-								"{@spell guardian of faith}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell flame strike}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"trait": [
-				{
-					"name": "Божественное превосходство",
-					"entries": [
-						"Бонусным действием Аша Вандри может израсходовать ячейку заклинания, чтобы его атаки оружием ближнего боя магическим образом наносили цели дополнительные 10 ({@damage 3d6}) урона излучением при попадании. Это преимущество длится до конца хода. Если Аша Вандри расходует ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d6} за каждый уровень выше 1-го."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Булава",
-					"entries": [
-						"{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d6}) дробящего урона."
-					]
-				}
-			],
-			"bonus": [
-				{
-					"name": "Божественное превосходство",
-					"entries": [
-						"Бонусным действием Аша Вандри может израсходовать ячейку заклинания, чтобы его атаки оружием ближнего боя магическим образом наносили цели дополнительные 10 ({@damage 3d6}) урона излучением при попадании. Это преимущество длится до конца хода. Если Аша Вандри расходует ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d6} за каждый уровень выше 1-го."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/fRDGBtY.png",
-			"attachedItems": [
-				"mace|phb"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"B",
-				"R"
-			],
-			"damageTagsSpell": [
-				"F",
-				"N",
-				"O",
-				"R"
-			],
-			"spellcastingTags": [
-				"CC"
-			],
-			"miscTags": [
-				"MLW",
-				"MW"
-			],
-			"savingThrowForcedSpell": [
-				"charisma",
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link High Priest/Priestess|https://dmdave.com/high-priest/}",
-					"Сейчас я работаю над приключением на одну сессию, в котором участвует бывшая диакониса, живущая в роскошном поместье, окружённом стеной. Приключение масштабируемо, то есть оно будет доступно персонажам любого уровня.",
-					"На ранних уровнях диакониса — жрец. Но когда персонажи достигают 5-го уровня, жрец больше не представляет для них достойной угрозы. Следующий НИП «жрец» описан в «Руководстве Воло по монстрам» — это Боевой священник, который, наоборот, слишком силён для персонажей 5-го уровня. Поэтому необходимо было создать нечто среднее.",
-					"Итак, вот версия НИП Аши Вандри с ПО 6 — верховный жрец/жрица.",
-					"Иллюстрация Вонми Чхве."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/fRjQtHu.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Мариачи",
-			"shortName": "Мариачи",
-			"source": "DMDAVEBNPC",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "6d8",
-				"average": 27
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 11,
-			"dex": 14,
-			"con": 10,
-			"int": 10,
-			"wis": 13,
-			"cha": 14,
-			"save": {
-				"dex": "+4",
-				"wis": "+3"
-			},
-			"skill": {
-				"perception": "+5",
-				"performance": "+6",
-				"survival": "+3"
-			},
-			"passive": 15,
-			"languages": [
-				"любые два языка"
-			],
-			"cr": "1",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Мариачи — заклинатель 3-го уровня. Его базовая характеристика для заклинаний — Харизма (Сл спасброска от заклинаний {@dc 12}, +4 к попаданию атаками заклинаниями). Он подготовил следующие заклинания барда:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell prestidigitation}",
-								"{@spell vicious mockery}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell charm person}",
-								"{@spell healing word}",
-								"{@spell heroism}",
-								"{@spell longstrider}",
-								"{@spell thunderwave}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell enthrall}"
-							],
-							"slots": 2
-						}
-					},
-					"ability": "cha"
-				}
-			],
-			"trait": [
-				{
-					"name": "Убедительное вступление (2/день)",
-					"entries": [
-						"В течение первого Раунда боя, если мариачи не застигнут врасплох и не имеет состояния {@condition incapacitated}, он может использовать свою реакцию в конце хода на счёте Инициативы 20, чтобы врождённо сотворить Благословение, не требуя материальных Компонентов, кроме своего инструмента. Его базовая характеристика для заклинаний — Харизма."
-					]
-				},
-				{
-					"name": "Песня отдыха",
-					"entries": [
-						"Мариачи может исполнять песню во время Короткого отдыха. Любой союзник, который слышит эту песню, восстанавливает дополнительные {@dice 1d6} Хитов, если в конце этого отдыха тратит Кости хитов для восстановления хитов. Мариачи также может применить это преимущество к себе."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Шпага",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Пистолет",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 30/90 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/QNLxO94.png",
-			"attachedItems": [
-				"pistol|dmg",
-				"rapier|phb"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"damageTagsSpell": [
-				"T",
-				"Y"
-			],
-			"spellcastingTags": [
-				"CB"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Mariachi|https://dmdave.com/mariachis/}",
-					"Мариачи — это мексиканский музыкальный стиль и музыкальный ансамбль, чьи традиции восходят по меньшей мере к 18-му веку. Ему присущи характерная инструментовка, манера исполнения и пения, а также костюмы. Многие мариачи носят трахе де чарро — костюм всадника — с большими широкополыми шляпами (сомбреро де чарро).",
-					"Обычно мариачи используют в своей музыке гитары, трубы и скрипки.",
-					"Мариачи в Dungeons & Dragons, пятом издании",
-					"В Dungeons & Dragons, особенно в сеттинге кампании «Эль Очо», мариачи — городские или странствующие артисты. Некоторые присоединяются к искателям приключений, другие же могут работать музыкантами у богатых дворян или наёмников. Мариачи часто объединяются в музыкальные группы, усиливая свою силу."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/KwjRWUm.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Группа мариачи",
-			"shortName": "Группа мариачи",
-			"source": "DMDAVEBNPC",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "6d8",
-				"average": 27
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 11,
-			"dex": 14,
-			"con": 10,
-			"int": 10,
-			"wis": 13,
-			"cha": 14,
-			"save": {
-				"dex": "+4",
-				"wis": "+3"
-			},
-			"skill": {
-				"perception": "+5",
-				"performance": "+6",
-				"survival": "+3"
-			},
-			"passive": 15,
-			"languages": [
-				"любые два языка"
-			],
-			"cr": "1",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Мариачи — заклинатель 3-го уровня. Его базовая характеристика для заклинаний — Харизма (Сл спасброска от заклинаний {@dc 12}, +4 к попаданию атаками заклинаниями). Он подготовил следующие заклинания барда:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell prestidigitation}",
-								"{@spell vicious mockery}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell charm person}",
-								"{@spell healing word}",
-								"{@spell heroism}",
-								"{@spell longstrider}",
-								"{@spell thunderwave}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell enthrall}"
-							],
-							"slots": 2
-						}
-					},
-					"ability": "cha"
-				},
-				{
-					"name": "Общее сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Пока как минимум три участника ансамбля мариачи находятся в пределах 30 футов друг от друга, каждый из них может сотворять следующие заклинания из списка заклинаний барда, но они должны делить ячейки заклинаний между собой. Эти дополнительные ячейки заклинаний не заменяют их индивидуальные ячейки заклинаний, которыми они по-прежнему могут пользоваться.",
-						"Для сотворения этих заклинаний каждый мариачи считается заклинателем 12-го уровня, использующим Харизму в качестве базовой характеристики для заклинаний. Сл спасброска от заклинаний равна 12 + модификатор Харизмы мариачи, а бонус атаки заклинанием равен 4 + модификатор Харизмы мариачи."
-					],
-					"spells": {
-						"1": {
-							"spells": [
-								"{@spell bane}",
-								"{@spell cure wounds}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell enhance ability}",
-								"{@spell shatter}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell bestow curse}",
-								"{@spell tongues}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell compulsion}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell dominate person}"
-							],
-							"slots": 2
-						},
-						"6": {
-							"spells": [
-								"{@spell Otto's irresistible dance}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "cha"
-				}
-			],
-			"trait": [
-				{
-					"name": "Убедительное вступление (2/день)",
-					"entries": [
-						"В течение первого Раунда боя, если мариачи не застигнут врасплох и не имеет состояния {@condition incapacitated}, он может использовать свою реакцию в конце хода на счёте Инициативы 20, чтобы врождённо сотворить Благословение, не требуя материальных Компонентов, кроме своего инструмента. Его базовая характеристика для заклинаний — Харизма."
-					]
-				},
-				{
-					"name": "Песня отдыха",
-					"entries": [
-						"Мариачи может исполнять песню во время Короткого отдыха. Любой союзник, который слышит эту песню, восстанавливает дополнительные {@dice 1d6} Хитов, если в конце этого отдыха тратит Кости хитов для восстановления хитов. Мариачи также может применить это преимущество к себе."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Шпага",
-					"entries": [
-						"{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
-					]
-				},
-				{
-					"name": "Пистолет",
-					"entries": [
-						"{@atk rw} {@hit 4} к попаданию, дистанция 30/90 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/dRUofQU.png",
-			"attachedItems": [
-				"pistol|dmg",
-				"rapier|phb"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"P"
-			],
-			"damageTagsSpell": [
-				"N",
-				"T"
-			],
-			"spellcastingTags": [
-				"CB",
-				"S"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RW"
-			],
-			"savingThrowForcedSpell": [
-				"charisma",
-				"constitution",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Mariachi Band|https://dmdave.com/mariachis/}",
-					"Мариачи не всегда работают в одиночку. Иногда они объединяются в ансамбли. В таком случае их способность очаровывать слушателей своей музыкой усиливается.",
-					"Ансамбль мариачи состоит как минимум из трёх мариачи, но обычно не более чем из семи."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/t8O77sS.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Ролфин, Драконий Аша Вандри",
-			"shortName": "Ролфин, Драконий Аша Вандри",
-			"source": "DMDAVEBNPC",
-			"size": [
-				"S"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"goblinoid"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "9d6 + 9",
-				"average": 40
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 16,
-			"con": 12,
-			"int": 11,
-			"wis": 14,
-			"cha": 16,
-			"save": {
-				"wis": "+5",
-				"cha": "+6"
-			},
-			"skill": {
-				"religion": "+3",
-				"stealth": "+9"
-			},
-			"senses": [
-				"blindsight 10 ft.",
-				"darkvision 30 ft."
-			],
-			"passive": 12,
-			"resist": [
-				"fire"
-			],
-			"languages": [
-				"Общий",
-				"Драконий",
-				"Гоблинский"
-			],
-			"cr": "6",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Ролфин — заклинатель 7-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 13}, +5 к попаданию атаками заклинаниями). Ролфин подготовил следующие заклинания жреца:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell light}",
-								"{@spell mending}",
-								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell burning hands}",
-								"{@spell cure wounds}",
-								"{@spell faerie fire}",
-								"{@spell sanctuary}",
-								"{@spell shield of faith}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell continual flame}",
-								"{@spell flaming sphere}",
-								"{@spell hold person}",
-								"{@spell scorching ray}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell animate dead}",
-								"{@spell daylight}",
-								"{@spell dispel magic}",
-								"{@spell fireball}",
-								"{@spell spirit guardians}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell banishment}",
-								"{@spell guardian of faith}",
-								"{@spell wall of fire}"
-							],
-							"slots": 1
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"trait": [
-				{
-					"name": "Особое снаряжение",
-					"entries": [
-						"Ролфин владеет {@i зубом дракона}, который действует как {@item +1 dagger} и при успешном попадании наносит дополнительно 3 ({@damage 1d6}) Огненный урон (включён в атаку)."
-					]
-				},
-				{
-					"name": "Ловкий побег",
-					"entries": [
-						"Ролфин может совершать Отход или Засаду в качестве Бонусного действия в каждый свой ход."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Ролфин совершает две атаки {@i драконьим зубом}."
-					]
-				},
-				{
-					"name": "Зуб дракона",
-					"entries": [
-						"{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона плюс 3 ({@damage 1d6}) Огненного урона."
-					]
-				},
-				{
-					"name": "Огненное дыхание {@recharge 5}",
-					"entries": [
-						"Ролфин выдыхает огонь конусом 15 футов. Каждое существо в этой области должно совершить {@dc 12} спасбросок Телосложения, получая 24 ({@damage 7d6}) Огненного урона при провале или половину этого урона при успехе."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Защищающая вспышка (2/день)",
-					"entries": [
-						"Когда на Ролфина нападает видимое им существо в пределах 30 футов от него, он может Реакцией наложить помеху на Бросок атаки, из-за чего перед атакующим вспыхивает Свет, прежде чем его атака попадёт или промахнётся. Атакующий, которого нельзя {@condition blinded}, невосприимчив к этой особенности."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/agHcXLD.png",
-			"senseTags": [
-				"B",
-				"D"
-			],
-			"actionTags": [
-				"Breath Weapon",
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"DR",
-				"GO"
-			],
-			"damageTags": [
-				"F",
-				"P"
-			],
-			"damageTagsSpell": [
-				"F",
-				"N",
-				"R"
-			],
-			"spellcastingTags": [
-				"CC"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"savingThrowForcedSpell": [
-				"charisma",
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link Rolfin the Dragon Priest|https://dmdave.com/rolfin-the-dragon-priest/}",
-					"Шахтой гоблинов управляет драконий жрец по имени Ролфин, полукрасный дракон-гоблин.",
-					"Ролфин слегка безумен и его боятся все в шахте, включая эйзера-кузнеца Роэза и некроманта Ламарра. Хотя Гёрд и другие гоблины всё же стараются уберечь его, гоблины верят, что только Ролфин не даёт Оритраксу сожрать их всех. Мегаломания Ролфина часто выводит его на передовую, даже когда этого не стоит делать.",
-					"Ролфин — главный злодей в первой части мегаподземелья «Тайна Заброшенной Вершины». Вы можете свободно использовать его в своих личных кампаниях.",
-					"До скорого.",
-					"Art by Wizards of the Coast."
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/90F1tqp.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Воин-маг",
-			"shortName": "Воин-маг",
-			"source": "DMDAVEBNPC",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				12,
-				{
-					"ac": 15,
-					"condition": "with {@spell mage armor}",
-					"braces": true
-				}
-			],
-			"hp": {
-				"formula": "9d8 + 9",
-				"average": 49
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 9,
-			"dex": 14,
-			"con": 12,
-			"int": 17,
-			"wis": 11,
-			"cha": 11,
-			"save": {
-				"int": "+6",
-				"wis": "+4"
-			},
-			"skill": {
-				"arcana": "+6",
-				"history": "+6"
-			},
-			"passive": 10,
-			"languages": [
-				"любые четыре языка"
-			],
-			"cr": "6",
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Воин-маг — заклинатель 9-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 14}, +6 к попаданию заклинаниями). Воин-маг знает следующие заклинания волшебника:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell chill touch}",
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
-								"{@spell true strike}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell misty step}",
-								"{@spell ray of enfeeblement}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell counterspell}",
-								"{@spell dispel magic}",
-								"{@spell fireball}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell Evard's black tentacles}",
-								"{@spell polymorph}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell cone of cold}",
-								"{@spell telekinesis}"
-							],
-							"slots": 2
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"trait": [
-				{
-					"name": "Всплеск мощи (Перезаряжается после короткого или продолжительного отдыха)",
-					"entries": [
-						"Раз в ход, когда боевой маг наносит урон существу или объекту заклинанием волшебника, он может добавить 4 единицы силового урона. Каждый раз, когда боевой маг успешно завершает действие заклинания с помощью Рассеивания магии или Контрзаклинания, он получает ещё одно использование этой черты, вплоть до 3 дополнительных использований. Если боевой маг завершает Продолжительный отдых до использования дополнительных использований, дополнительные использования исчезают."
-					]
-				},
-				{
-					"name": "Тактическая смекалка",
-					"entries": [
-						"Боевой маг добавляет свой модификатор Инициативы к результатам бросков на инициативу."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Кинжал",
-					"entries": [
-						"{@atk mw,rw} {@hit 5} для попадания, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона в ближнем бою или 4 ({@damage 1d4 + 2}) колющего урона на дистанции."
-					]
-				},
-				{
-					"name": "Лёгкий арбалет",
-					"entries": [
-						"{@atk rw} {@hit 5} к попаданию, дистанция 80/320 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Магическое отражение",
-					"entries": [
-						"Когда по боевому магу попадает атака или он проваливает спасбросок, он может Реакцией получить бонус +2 к своему КД против этой атаки или бонус +4 к этому спасброску. Использовав эту черту, боевой маг не может накладывать заклинания, кроме заговоров, до конца своего следующего хода."
-					]
-				}
-			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/7YHTZTs.png",
-			"attachedItems": [
-				"dagger|phb",
-				"light crossbow|phb"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"O",
-				"P"
-			],
-			"damageTagsSpell": [
-				"B",
-				"C",
-				"F",
-				"N",
-				"O"
-			],
-			"spellcastingTags": [
-				"CW"
-			],
-			"miscTags": [
-				"MLW",
-				"MW",
-				"RNG",
-				"RW",
-				"THW"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity",
-				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"{@link War Mage|https://dmdave.com/war-mages/}",
-					"«Руководство Воло по чудовищам» щедро представляет характеристики множества магов, каждый из которых связан с отдельной магической традицией. Однако, похоже, среди них отсутствует один тип мага — боевые маги из «Руководства Ксанатара обо всём».",
-					"Поскольку сегодня мне понадобилось несколько боевых магов, я решил составить им характеристики. Не только для себя, конечно, но и для вас. Наслаждайтесь!",
-					"Честно говоря, немного нервничаю, используя это против своей субботней группы. Они ещё не особо сталкивались с заклинателями, а волшебник Отряда сегодня отсутствует (матч OU против Техаса, сами понимаете).",
-					"Кто знает, что произойдёт?",
-					"До встречи в следующий раз!"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/kAS0fUd.jpg"
-						}
-					}
-				]
-			}
-		}
-	]
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "DMDAVEBNPC",
+        "abbreviation": "DMDAVEBNPC",
+        "full": "DMDave Blog Archives NPCs",
+        "url": "https://dmdave.com/tag/npcs/",
+        "version": "2022.07.31",
+        "authors": [
+          "DMDave Blog"
+        ],
+        "convertedBy": [
+          "p4535992"
+        ],
+        "targetSchema": "1.7.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1641557769,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "1397a7451d"
+  },
+  "monster": [
+    {
+      "name": "Аша Вандри-авантюрист",
+      "shortName": "Аша Вандри-авантюрист",
+      "source": "DMDAVEBNPC",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "priest"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "{@item splint armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "14d8 + 28",
+        "average": 91
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 10,
+      "con": 14,
+      "int": 11,
+      "wis": 17,
+      "cha": 13,
+      "save": {
+        "con": "+5",
+        "wis": "+6"
+      },
+      "skill": {
+        "medicine": "+5",
+        "religion": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "любые два языка"
+      ],
+      "cr": "5",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Аша Вандри является заклинателем 7-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 14}, бонус +6 к попаданию атаками заклинаниями). У него подготовлены следующие заклинания жреца:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell mending}",
+                "{@spell sacred flame}",
+                "{@spell spare the dying}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell bless}",
+                "{@spell cure wounds}",
+                "{@spell guiding bolt}",
+                "{@spell healing word}",
+                "{@spell shield of faith}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell lesser restoration}",
+                "{@spell magic weapon} (The priest casts this spell on itself before combat)",
+                "{@spell prayer of healing}",
+                "{@spell silence}",
+                "{@spell spiritual weapon}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell beacon of hope}",
+                "{@spell crusader's mantle}",
+                "{@spell dispel magic}",
+                "{@spell revivify}",
+                "{@spell spirit guardians}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell death ward}",
+                "{@spell guardian of faith}",
+                "{@spell stoneskin}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Специализация на исцелении",
+          "entries": [
+            "Когда Аша Вандри использует заклинание 1-го уровня или выше, чтобы восстановить хиты существа, существо восстанавливает дополнительные хиты в количестве, равном 2 + уровню заклинания, а Аша Вандри получает хиты в количестве, равном 2 + уровню заклинания."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Аша Вандри совершает две атаки ближнего боя."
+          ]
+        },
+        {
+          "name": "Булава (магическое оружие)",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 футов, одна цель. {@h}7 ({@damage 1d6 + 4}) дробящего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/PDKCJC9.png",
+      "attachedItems": [
+        "mace|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "damageTagsSpell": [
+        "N",
+        "O",
+        "R"
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Adventuring Priest|https://dmdave.com/adventuring-priests/}",
+          "Ещё одна небольшая вещь для сегодняшней игровой сессии: я заметил, что в книгах о монстрах наблюдается серьёзная нехватка НИП, подобных жрецам. У нас есть Аша Вандри в «Бестиарии», которая является заклинателем 5-го уровня с ПО 2. А затем у нас есть Боевой священник, который представляет собой Прыжок вплоть до 9-го уровня и ПО 9 (кроме того, его Кости хитов совершенно не соответствуют его уровню заклинателя). Мне нужно нечто среднее (ПО 5), поэтому я решил создать сборку жреца, ориентированную на ПО.",
+          "Это немного иной способ создания монстров по сравнению с тем, который я описал в своей статье «как создать монстра за 15 минут или меньше». Хотя у меня в голове есть общая концепция, я добавляю ему характеристики и хиты исходя из показателя опасности, который хочу ему задать. «Руководство Мастера» направляет читателей в эту сторону, но, по моему мнению, так бывает не всегда весело.",
+          "Как бы то ни было, именно это мне нужно для сегодняшней игровой встречи. Бла-бла-бла, в общем, вот эта чёртова штука.",
+          "Надеюсь, вы сможете использовать этого Аша Вандри среднего уровня в своих приключениях. Удачи!",
+          "А если вы ещё не подписались, обязательно следите за блогом, заполнив форму подписки справа или внизу страницы, чтобы получать обновления о новом содержимом.",
+          "До скорого."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/zjj3riY.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Старший Аша Вандри/Старшая Аша Вандри",
+      "shortName": "Старший Аша Вандри/Старшая Аша Вандри",
+      "source": "DMDAVEBNPC",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "Arch Priest",
+          "Arch Priestess"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "{@item plate armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "20d8 + 40",
+        "average": 130
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 13,
+      "con": 14,
+      "int": 14,
+      "wis": 18,
+      "cha": 15,
+      "save": {
+        "con": "+7",
+        "wis": "+9"
+      },
+      "skill": {
+        "medicine": "+14",
+        "religion": "+9",
+        "persuasion": "+7"
+      },
+      "passive": 14,
+      "languages": [
+        "любые два языка"
+      ],
+      "cr": "13",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Верховный Аша Вандри — заклинатель 13-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 17}, +9 к попаданию атаками заклинаниями). Аша Вандри подготовил следующие заклинания Жреца:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell sacred flame}",
+                "{@spell spare the dying}",
+                "{@spell thaumaturgy}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell cure wounds}",
+                "{@spell guiding bolt}",
+                "{@spell protection from evil and good}",
+                "{@spell sanctuary}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell hold person}",
+                "{@spell lesser restoration}",
+                "{@spell spiritual weapon}"
+              ],
+              "slots": 4
+            },
+            "3": {
+              "spells": [
+                "{@spell dispel magic}",
+                "{@spell protection from energy}",
+                "{@spell spirit guardians}"
+              ],
+              "slots": 4
+            },
+            "4": {
+              "spells": [
+                "{@spell banishment}",
+                "{@spell guardian of faith}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell flame strike}",
+                "{@spell insect plague}",
+                "{@spell mass cure wounds}"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell heal}"
+              ],
+              "slots": 1
+            },
+            "7": {
+              "spells": [
+                "{@spell conjure celestial}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Божественное превосходство",
+          "entries": [
+            "Бонусным действием Аша Вандри может израсходовать ячейку заклинания, чтобы его атаки оружием ближнего боя магическим образом наносили цели дополнительные 10 ({@damage 3d6}) урона излучением при попадании. Это преимущество длится до конца хода. Если Аша Вандри расходует ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d6} за каждый уровень выше 1-го."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Аша Вандри совершает три атаки оружием ближнего боя."
+          ]
+        },
+        {
+          "name": "Булава",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}4 ({@damage 1d6 + 1}) дробящего урона."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Божественное превосходство",
+          "entries": [
+            "Бонусным действием Аша Вандри может израсходовать ячейку заклинания, чтобы его атаки оружием ближнего боя магическим образом наносили цели дополнительные 10 ({@damage 3d6}) урона излучением при попадании. Это преимущество длится до конца хода. Если Аша Вандри расходует ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d6} за каждый уровень выше 1-го."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/64IIjBQ.png",
+      "attachedItems": [
+        "mace|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "R"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "N",
+        "O",
+        "P",
+        "R"
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Arch Priest/Priestess|https://dmdave.com/arch-priest-priestess/}",
+          "Продолжая работу над этим приключением, когда я добрался до третьего яруса, мне понадобился ещё один высокоуровневый божественный НИП. Я надеялся, что варианты дроу подойдут (матрона-мать, верховная жрица и т. д.), но они были слишком по-дроуйски для того, что мне было нужно.",
+          "Поэтому мне пришлось придумать божественную угрозу высокого уровня.",
+          "Арт: Ju Hee Yoon"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/r0G9e5G.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Приспешник",
+      "shortName": "Приспешник",
+      "source": "DMDAVEBNPC",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "kevlar jumpsuit"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "5d8 + 5",
+        "average": 27
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 13,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "skill": {
+        "intimidation": "+2"
+      },
+      "passive": 10,
+      "languages": [
+        "One (обычно Общий)"
+      ],
+      "cr": "1/8",
+      "trait": [
+        {
+          "name": "Смертоноснее в одиночку",
+          "entries": [
+            "Приспешник имеет помеху на бросок атаки против существа, если хотя бы один из союзников приспешника находится в пределах 30 футов от существа и союзник не {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Приспешник совершает две атаки ближнего боя."
+          ]
+        },
+        {
+          "name": "Дубинка",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d4 + 1}) дробящего урона."
+          ]
+        },
+        {
+          "name": "Оглушающее ружьё",
+          "entries": [
+            "{@atk rw} {@hit 3} к попаданию, дистанция 100/400 футов, одна цель. {@h}5 ({@damage 1d10}) излучения."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/CHOaY5M.png",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "R"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Henchman|https://dmdave.com/henchmen/}",
+          "У Вейдера есть штурмовики. У Дума — думботы. У Дарксайда — парадемоны. У каждого злодея есть приспешники. Что такое приспешники? Приспешники (и приспешницы!) — это люди в одинаковой форме, которые служат препятствиями на пути героя к главному злодею. Они часто самоуверенны (или трусливы), у них отвратительная меткость, и обычно это не более чем безымянные пешки.",
+          "Звучит как D&D!",
+          "Создавая сеттинг для супергероев на основе правил «Подземелий и Драконов» пятой редакции, я понял, что мне также понадобятся приспешники. Вот они!"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/4OF6g7p.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Верховный жрец/жрица",
+      "shortName": "Верховный жрец/жрица",
+      "source": "DMDAVEBNPC",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "priestess",
+          "priest"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item breastplate|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "18d8 + 18",
+        "average": 99
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 12,
+      "int": 14,
+      "wis": 18,
+      "cha": 15,
+      "skill": {
+        "medicine": "+10",
+        "persuasion": "+5",
+        "religion": "+6"
+      },
+      "passive": 14,
+      "languages": [
+        "любые два языка"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Верховный жрец — заклинатель 9-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 15}, +7 к попаданию атаками заклинаниями). Жрец подготовил следующие заклинания жреца:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell sacred flame}",
+                "{@spell spare the dying}",
+                "{@spell thaumaturgy}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell cure wounds}",
+                "{@spell guiding bolt}",
+                "{@spell protection from evil and good}",
+                "{@spell sanctuary}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell hold person}",
+                "{@spell lesser restoration}",
+                "{@spell spiritual weapon}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell dispel magic}",
+                "{@spell protection from energy}",
+                "{@spell spirit guardians}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell banishment}",
+                "{@spell guardian of faith}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell flame strike}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Божественное превосходство",
+          "entries": [
+            "Бонусным действием Аша Вандри может израсходовать ячейку заклинания, чтобы его атаки оружием ближнего боя магическим образом наносили цели дополнительные 10 ({@damage 3d6}) урона излучением при попадании. Это преимущество длится до конца хода. Если Аша Вандри расходует ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d6} за каждый уровень выше 1-го."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Булава",
+          "entries": [
+            "{@atk mw} {@hit 3} к попаданию, досягаемость 5 футов, одна цель. {@h}3 ({@damage 1d6}) дробящего урона."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Божественное превосходство",
+          "entries": [
+            "Бонусным действием Аша Вандри может израсходовать ячейку заклинания, чтобы его атаки оружием ближнего боя магическим образом наносили цели дополнительные 10 ({@damage 3d6}) урона излучением при попадании. Это преимущество длится до конца хода. Если Аша Вандри расходует ячейку заклинания 2-го уровня или выше, дополнительный урон увеличивается на {@dice 1d6} за каждый уровень выше 1-го."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/fRDGBtY.png",
+      "attachedItems": [
+        "mace|phb"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "R"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "N",
+        "O",
+        "R"
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link High Priest/Priestess|https://dmdave.com/high-priest/}",
+          "Сейчас я работаю над приключением на одну сессию, в котором участвует бывшая диакониса, живущая в роскошном поместье, окружённом стеной. Приключение масштабируемо, то есть оно будет доступно персонажам любого уровня.",
+          "На ранних уровнях диакониса — жрец. Но когда персонажи достигают 5-го уровня, жрец больше не представляет для них достойной угрозы. Следующий НИП «жрец» описан в «Руководстве Воло по монстрам» — это Боевой священник, который, наоборот, слишком силён для персонажей 5-го уровня. Поэтому необходимо было создать нечто среднее.",
+          "Итак, вот версия НИП Аши Вандри с ПО 6 — верховный жрец/жрица.",
+          "Иллюстрация Вонми Чхве."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/fRjQtHu.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Мариачи",
+      "shortName": "Мариачи",
+      "source": "DMDAVEBNPC",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "6d8",
+        "average": 27
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 13,
+      "cha": 14,
+      "save": {
+        "dex": "+4",
+        "wis": "+3"
+      },
+      "skill": {
+        "perception": "+5",
+        "performance": "+6",
+        "survival": "+3"
+      },
+      "passive": 15,
+      "languages": [
+        "любые два языка"
+      ],
+      "cr": "1",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Мариачи — заклинатель 3-го уровня. Его базовая характеристика для заклинаний — Харизма (Сл спасброска от заклинаний {@dc 12}, +4 к попаданию атаками заклинаниями). Он подготовил следующие заклинания барда:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell prestidigitation}",
+                "{@spell vicious mockery}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell charm person}",
+                "{@spell healing word}",
+                "{@spell heroism}",
+                "{@spell longstrider}",
+                "{@spell thunderwave}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell enthrall}"
+              ],
+              "slots": 2
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Убедительное вступление (2/день)",
+          "entries": [
+            "В течение первого Раунда боя, если мариачи не застигнут врасплох и не имеет состояния {@condition incapacitated}, он может использовать свою реакцию в конце хода на счёте Инициативы 20, чтобы врождённо сотворить Благословение, не требуя материальных Компонентов, кроме своего инструмента. Его базовая характеристика для заклинаний — Харизма."
+          ]
+        },
+        {
+          "name": "Песня отдыха",
+          "entries": [
+            "Мариачи может исполнять песню во время Короткого отдыха. Любой союзник, который слышит эту песню, восстанавливает дополнительные {@dice 1d6} Хитов, если в конце этого отдыха тратит Кости хитов для восстановления хитов. Мариачи также может применить это преимущество к себе."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Шпага",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Пистолет",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 30/90 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/QNLxO94.png",
+      "attachedItems": [
+        "pistol|dmg",
+        "rapier|phb"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "T",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "CB"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Mariachi|https://dmdave.com/mariachis/}",
+          "Мариачи — это мексиканский музыкальный стиль и музыкальный ансамбль, чьи традиции восходят по меньшей мере к 18-му веку. Ему присущи характерная инструментовка, манера исполнения и пения, а также костюмы. Многие мариачи носят трахе де чарро — костюм всадника — с большими широкополыми шляпами (сомбреро де чарро).",
+          "Обычно мариачи используют в своей музыке гитары, трубы и скрипки.",
+          "Мариачи в Dungeons & Dragons, пятом издании",
+          "В Dungeons & Dragons, особенно в сеттинге кампании «Эль Очо», мариачи — городские или странствующие артисты. Некоторые присоединяются к искателям приключений, другие же могут работать музыкантами у богатых дворян или наёмников. Мариачи часто объединяются в музыкальные группы, усиливая свою силу."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/KwjRWUm.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Группа мариачи",
+      "shortName": "Группа мариачи",
+      "source": "DMDAVEBNPC",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "6d8",
+        "average": 27
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 13,
+      "cha": 14,
+      "save": {
+        "dex": "+4",
+        "wis": "+3"
+      },
+      "skill": {
+        "perception": "+5",
+        "performance": "+6",
+        "survival": "+3"
+      },
+      "passive": 15,
+      "languages": [
+        "любые два языка"
+      ],
+      "cr": "1",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Мариачи — заклинатель 3-го уровня. Его базовая характеристика для заклинаний — Харизма (Сл спасброска от заклинаний {@dc 12}, +4 к попаданию атаками заклинаниями). Он подготовил следующие заклинания барда:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell prestidigitation}",
+                "{@spell vicious mockery}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell charm person}",
+                "{@spell healing word}",
+                "{@spell heroism}",
+                "{@spell longstrider}",
+                "{@spell thunderwave}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell enthrall}"
+              ],
+              "slots": 2
+            }
+          },
+          "ability": "cha"
+        },
+        {
+          "name": "Общее сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Пока как минимум три участника ансамбля мариачи находятся в пределах 30 футов друг от друга, каждый из них может сотворять следующие заклинания из списка заклинаний барда, но они должны делить ячейки заклинаний между собой. Эти дополнительные ячейки заклинаний не заменяют их индивидуальные ячейки заклинаний, которыми они по-прежнему могут пользоваться.",
+            "Для сотворения этих заклинаний каждый мариачи считается заклинателем 12-го уровня, использующим Харизму в качестве базовой характеристики для заклинаний. Сл спасброска от заклинаний равна 12 + модификатор Харизмы мариачи, а бонус атаки заклинанием равен 4 + модификатор Харизмы мариачи."
+          ],
+          "spells": {
+            "1": {
+              "spells": [
+                "{@spell bane}",
+                "{@spell cure wounds}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell enhance ability}",
+                "{@spell shatter}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell bestow curse}",
+                "{@spell tongues}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell compulsion}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell dominate person}"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell Otto's irresistible dance}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Убедительное вступление (2/день)",
+          "entries": [
+            "В течение первого Раунда боя, если мариачи не застигнут врасплох и не имеет состояния {@condition incapacitated}, он может использовать свою реакцию в конце хода на счёте Инициативы 20, чтобы врождённо сотворить Благословение, не требуя материальных Компонентов, кроме своего инструмента. Его базовая характеристика для заклинаний — Харизма."
+          ]
+        },
+        {
+          "name": "Песня отдыха",
+          "entries": [
+            "Мариачи может исполнять песню во время Короткого отдыха. Любой союзник, который слышит эту песню, восстанавливает дополнительные {@dice 1d6} Хитов, если в конце этого отдыха тратит Кости хитов для восстановления хитов. Мариачи также может применить это преимущество к себе."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Шпага",
+          "entries": [
+            "{@atk mw} {@hit 4} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d8 + 2}) колющего урона."
+          ]
+        },
+        {
+          "name": "Пистолет",
+          "entries": [
+            "{@atk rw} {@hit 4} к попаданию, дистанция 30/90 футов, одна цель. {@h}7 ({@damage 1d10 + 2}) колющего урона."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/dRUofQU.png",
+      "attachedItems": [
+        "pistol|dmg",
+        "rapier|phb"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "N",
+        "T"
+      ],
+      "spellcastingTags": [
+        "CB",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Mariachi Band|https://dmdave.com/mariachis/}",
+          "Мариачи не всегда работают в одиночку. Иногда они объединяются в ансамбли. В таком случае их способность очаровывать слушателей своей музыкой усиливается.",
+          "Ансамбль мариачи состоит как минимум из трёх мариачи, но обычно не более чем из семи."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/t8O77sS.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ролфин, Драконий Аша Вандри",
+      "shortName": "Ролфин, Драконий Аша Вандри",
+      "source": "DMDAVEBNPC",
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "goblinoid"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "9d6 + 9",
+        "average": 40
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 12,
+      "int": 11,
+      "wis": 14,
+      "cha": 16,
+      "save": {
+        "wis": "+5",
+        "cha": "+6"
+      },
+      "skill": {
+        "religion": "+3",
+        "stealth": "+9"
+      },
+      "senses": [
+        "blindsight 10 ft.",
+        "darkvision 30 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        "fire"
+      ],
+      "languages": [
+        "Общий",
+        "Драконий",
+        "Гоблинский"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Ролфин — заклинатель 7-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 13}, +5 к попаданию атаками заклинаниями). Ролфин подготовил следующие заклинания жреца:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell mending}",
+                "{@spell sacred flame}",
+                "{@spell thaumaturgy}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell burning hands}",
+                "{@spell cure wounds}",
+                "{@spell faerie fire}",
+                "{@spell sanctuary}",
+                "{@spell shield of faith}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell continual flame}",
+                "{@spell flaming sphere}",
+                "{@spell hold person}",
+                "{@spell scorching ray}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell animate dead}",
+                "{@spell daylight}",
+                "{@spell dispel magic}",
+                "{@spell fireball}",
+                "{@spell spirit guardians}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell banishment}",
+                "{@spell guardian of faith}",
+                "{@spell wall of fire}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Особое снаряжение",
+          "entries": [
+            "Ролфин владеет {@i зубом дракона}, который действует как {@item +1 dagger} и при успешном попадании наносит дополнительно 3 ({@damage 1d6}) Огненный урон (включён в атаку)."
+          ]
+        },
+        {
+          "name": "Ловкий побег",
+          "entries": [
+            "Ролфин может совершать Отход или Засаду в качестве Бонусного действия в каждый свой ход."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Ролфин совершает две атаки {@i драконьим зубом}."
+          ]
+        },
+        {
+          "name": "Зуб дракона",
+          "entries": [
+            "{@atk mw} {@hit 7} к попаданию, досягаемость 5 фт., одна цель. {@h}6 ({@damage 1d4 + 4}) колющего урона плюс 3 ({@damage 1d6}) Огненного урона."
+          ]
+        },
+        {
+          "name": "Огненное дыхание {@recharge 5}",
+          "entries": [
+            "Ролфин выдыхает огонь конусом 15 футов. Каждое существо в этой области должно совершить {@dc 12} спасбросок Телосложения, получая 24 ({@damage 7d6}) Огненного урона при провале или половину этого урона при успехе."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Защищающая вспышка (2/день)",
+          "entries": [
+            "Когда на Ролфина нападает видимое им существо в пределах 30 футов от него, он может Реакцией наложить помеху на Бросок атаки, из-за чего перед атакующим вспыхивает Свет, прежде чем его атака попадёт или промахнётся. Атакующий, которого нельзя {@condition blinded}, невосприимчив к этой особенности."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/agHcXLD.png",
+      "senseTags": [
+        "B",
+        "D"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "DR",
+        "GO"
+      ],
+      "damageTags": [
+        "F",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "N",
+        "R"
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link Rolfin the Dragon Priest|https://dmdave.com/rolfin-the-dragon-priest/}",
+          "Шахтой гоблинов управляет драконий жрец по имени Ролфин, полукрасный дракон-гоблин.",
+          "Ролфин слегка безумен и его боятся все в шахте, включая эйзера-кузнеца Роэза и некроманта Ламарра. Хотя Гёрд и другие гоблины всё же стараются уберечь его, гоблины верят, что только Ролфин не даёт Оритраксу сожрать их всех. Мегаломания Ролфина часто выводит его на передовую, даже когда этого не стоит делать.",
+          "Ролфин — главный злодей в первой части мегаподземелья «Тайна Заброшенной Вершины». Вы можете свободно использовать его в своих личных кампаниях.",
+          "До скорого.",
+          "Иллюстрация Wizards of the Coast."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/90F1tqp.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Воин-маг",
+      "shortName": "Воин-маг",
+      "source": "DMDAVEBNPC",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        12,
+        {
+          "ac": 15,
+          "condition": "с {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "formula": "9d8 + 9",
+        "average": 49
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 12,
+      "int": 17,
+      "wis": 11,
+      "cha": 11,
+      "save": {
+        "int": "+6",
+        "wis": "+4"
+      },
+      "skill": {
+        "arcana": "+6",
+        "history": "+6"
+      },
+      "passive": 10,
+      "languages": [
+        "любые четыре языка"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Воин-маг — заклинатель 9-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 14}, +6 к попаданию заклинаниями). Воин-маг знает следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell chill touch}",
+                "{@spell fire bolt}",
+                "{@spell mage hand}",
+                "{@spell true strike}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell mage armor}",
+                "{@spell magic missile}",
+                "{@spell shield}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell misty step}",
+                "{@spell ray of enfeeblement}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell counterspell}",
+                "{@spell dispel magic}",
+                "{@spell fireball}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell Evard's black tentacles}",
+                "{@spell polymorph}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell cone of cold}",
+                "{@spell telekinesis}"
+              ],
+              "slots": 2
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Всплеск мощи (Перезаряжается после короткого или продолжительного отдыха)",
+          "entries": [
+            "Раз в ход, когда боевой маг наносит урон существу или объекту заклинанием волшебника, он может добавить 4 единицы силового урона. Каждый раз, когда боевой маг успешно завершает действие заклинания с помощью Рассеивания магии или Контрзаклинания, он получает ещё одно использование этой черты, вплоть до 3 дополнительных использований. Если боевой маг завершает Продолжительный отдых до использования дополнительных использований, дополнительные использования исчезают."
+          ]
+        },
+        {
+          "name": "Тактическая смекалка",
+          "entries": [
+            "Боевой маг добавляет свой модификатор Инициативы к результатам бросков на инициативу."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Кинжал",
+          "entries": [
+            "{@atk mw,rw} {@hit 5} для попадания, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. {@h}4 ({@damage 1d4 + 2}) колющего урона в ближнем бою или 4 ({@damage 1d4 + 2}) колющего урона на дистанции."
+          ]
+        },
+        {
+          "name": "Лёгкий арбалет",
+          "entries": [
+            "{@atk rw} {@hit 5} к попаданию, дистанция 80/320 футов, одна цель. {@h}5 ({@damage 1d6 + 2}) колющего урона."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Магическое отражение",
+          "entries": [
+            "Когда по боевому магу попадает атака или он проваливает спасбросок, он может Реакцией получить бонус +2 к своему КД против этой атаки или бонус +4 к этому спасброску. Использовав эту черту, боевой маг не может накладывать заклинания, кроме заговоров, до конца своего следующего хода."
+          ]
+        }
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/7YHTZTs.png",
+      "attachedItems": [
+        "dagger|phb",
+        "light crossbow|phb"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "O",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "B",
+        "C",
+        "F",
+        "N",
+        "O"
+      ],
+      "spellcastingTags": [
+        "CW"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW",
+        "THW"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          "{@link War Mage|https://dmdave.com/war-mages/}",
+          "«Руководство Воло по чудовищам» щедро представляет характеристики множества магов, каждый из которых связан с отдельной магической традицией. Однако, похоже, среди них отсутствует один тип мага — боевые маги из «Руководства Ксанатара обо всём».",
+          "Поскольку сегодня мне понадобилось несколько боевых магов, я решил составить им характеристики. Не только для себя, конечно, но и для вас. Наслаждайтесь!",
+          "Честно говоря, немного нервничаю, используя это против своей субботней группы. Они ещё не особо сталкивались с заклинателями, а волшебник Отряда сегодня отсутствует (матч OU против Техаса, сами понимаете).",
+          "Кто знает, что произойдёт?",
+          "До встречи в следующий раз!"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DMDAVEBNPC/kAS0fUd.jpg"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

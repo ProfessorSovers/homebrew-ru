@@ -1,2694 +1,2694 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "Izzy:Incarnate",
-				"abbreviation": "INC",
-				"full": "The Incarnate",
-				"url": "https://www.gmbinder.com/share/-LmMupLVyMuux8_CwNb9",
-				"version": "1.1",
-				"authors": [
-					"Izzy"
-				],
-				"convertedBy": [
-					"Ikaguia"
-				]
-			},
-			{
-				"json": "Izzy:Incarnate-UAClassFeatureVariants",
-				"abbreviation": "UACFV",
-				"full": "The Incarnate - Unearthed Arcana: Class Feature Variants",
-				"version": "1.0",
-				"authors": [
-					"Wizards of the Coast"
-				],
-				"targetSchema": "1.0.0"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1592873199,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "e94d33005d"
-	},
-	"class": [
-		{
-			"name": "Воплощённый",
-			"source": "Izzy:Incarnate",
-			"hd": {
-				"number": 1,
-				"faces": 6
-			},
-			"proficiency": [
-				"wis",
-				"cha"
-			],
-			"spellcastingAbility": "cha",
-			"casterProgression": "1/2",
-			"spellsKnownProgression": [
-				0,
-				2,
-				3,
-				3,
-				4,
-				4,
-				5,
-				5,
-				6,
-				6,
-				7,
-				7,
-				8,
-				8,
-				9,
-				9,
-				10,
-				10,
-				11,
-				11
-			],
-			"classSpells": [
-				"Bane",
-				"Bless",
-				"Catapult",
-				"Cause Fear",
-				"Charm Person",
-				"Command",
-				"Comprehend Languages",
-				"Cure Wounds",
-				"Detect Evil and Good",
-				"Detect Magic",
-				"Disguise Self",
-				"False Life",
-				"Faerie Fire",
-				"Feather Fall",
-				"Find Familiar",
-				"Guiding Bolt",
-				"Heroism",
-				"Identify",
-				"Inflict Wounds",
-				"Jump",
-				"Longstrider",
-				"Protection from Evil and Good",
-				"Ray of Sickness",
-				"Sanctuary",
-				"Alter Self",
-				"Blindness/Deafness",
-				"Blur",
-				"Calm Emotions",
-				"Darkvision",
-				"Detect Thoughts",
-				"Enhance Ability",
-				"Enlarge/Reduce",
-				"Enthrall",
-				"Hold Person",
-				"Invisibility",
-				"Lesser Restoration",
-				"Levitate",
-				"Locate Object",
-				"Mind Spike",
-				"Mirror Image",
-				"Phantasmal Force",
-				"Ray of Enfeeblement",
-				"read essence|izzy:incarnate",
-				"See Invisibility",
-				"Silence",
-				"Suggestion",
-				"Warding Bond",
-				"Zone of Truth",
-				"Animate Dead",
-				"Blink",
-				"Bestow Curse",
-				"Clairvoyance",
-				"Enemies Abound",
-				"Fear",
-				"Fly",
-				"Gaseous Form",
-				"Hypnotic Pattern",
-				"Life Transference",
-				"Nondetection",
-				"Protection from Energy",
-				"Remove Curse",
-				"Revivify",
-				"Sending",
-				"Speak with Dead",
-				"Tongues",
-				"Vampiric Touch",
-				"Arcane Eye",
-				"Antilife Shell",
-				"Banishment",
-				"Blight",
-				"Charm Monster",
-				"Compulsion",
-				"Confusion",
-				"Death Ward",
-				"Dimension Door",
-				"Dominate Beast",
-				"Freedom of Movement",
-				"Greater Invisibility",
-				"Locate Creature",
-				"Phantasmal Killer",
-				"Polymorph",
-				"Sickening Radiance",
-				"Awaken",
-				"Danse Macabre",
-				"Dispel Evil and Good",
-				"Dominate Person",
-				"Dream",
-				"Enervation",
-				"Far Step",
-				"Geas",
-				"Hallow",
-				"Hold Monster",
-				"Mislead",
-				"Modify Memory",
-				"Reincarnate",
-				"Scrying",
-				"Seeming",
-				"Skill Empowerment",
-				"Telekinesis"
-			],
-			"startingProficiencies": {
-				"weapons": [
-					"simple"
-				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"athletics",
-								"acrobatics",
-								"sleight of hand",
-								"stealth",
-								"arcana",
-								"history",
-								"investigation",
-								"nature",
-								"religion",
-								"animal handling",
-								"insight",
-								"medicine",
-								"perception",
-								"survival",
-								"deception",
-								"intimidation",
-								"performance",
-								"persuasion"
-							],
-							"count": 2
-						}
-					}
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(а) {@item quarterstaff|phb} или (б) {@item light crossbow|phb} и {@item crossbow bolts (20)|phb|20 болтов}",
-					"(а) {@item dungeoneer's pack|phb} или (б) {@item explorer's pack|phb}",
-					"Если владеете, (а) {@item leather armor|phb}, (б) {@item scale mail|phb} или (в) {@item chain mail|phb}",
-					"Один {@item dagger|phb}"
-				],
-				"goldAlternative": "{@dice 4d4×10|5d4 × 10|Начальное золото}",
-				"defaultData": [
-					{
-						"a": [
-							"quarterstaff|phb"
-						],
-						"b": [
-							"light crossbow|phb",
-							"crossbow bolts (20)|phb"
-						]
-					},
-					{
-						"a": [
-							"dungeoneer's pack|phb"
-						],
-						"b": [
-							"explorer's pack|phb"
-						]
-					},
-					{
-						"If proficient,": [],
-						"{@item leather armor|phb},": [],
-						"{@item scale mail|phb}, or": []
-					},
-					{
-						"_": [
-							"dagger|phb"
-						]
-					}
-				]
-			},
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"{@filter Spells Known|spells|class=Incarnate (INC)}"
-					],
-					"rows": [
-						[
-							0
-						],
-						[
-							2
-						],
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							6
-						],
-						[
-							6
-						],
-						[
-							7
-						],
-						[
-							7
-						],
-						[
-							8
-						],
-						[
-							8
-						],
-						[
-							9
-						],
-						[
-							9
-						],
-						[
-							10
-						],
-						[
-							10
-						],
-						[
-							11
-						],
-						[
-							11
-						]
-					]
-				},
-				{
-					"title": "Ячейки заклинаний по уровням заклинаний",
-					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Incarnate (INC)}",
-						"{@filter 2nd|spells|level=2|class=Incarnate (INC)}",
-						"{@filter 3rd|spells|level=3|class=Incarnate (INC)}",
-						"{@filter 4th|spells|level=4|class=Incarnate (INC)}",
-						"{@filter 5th|spells|level=5|class=Incarnate (INC)}"
-					],
-					"rows": [
-						[
-							2,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							2,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2
-						]
-					]
-				}
-			],
-			"classFeatures": [
-				{
-					"classFeature": "Облик души|Incarnate|Izzy:Incarnate|1",
-					"gainSubclassFeature": true
-				},
-				"Преграда души|Incarnate|Izzy:Incarnate|1",
-				"Сотворение заклинаний|Incarnate|Izzy:Incarnate|2",
-				"Сожжение души|Incarnate|Izzy:Incarnate|2",
-				{
-					"classFeature": "Космическое воплощение|Incarnate|Izzy:Incarnate|3",
-					"gainSubclassFeature": true
-				},
-				"Проявление аур|Incarnate|Izzy:Incarnate|3",
-				"Увеличение характеристик|Incarnate|Izzy:Incarnate|4",
-				"Гибкость владений|Incarnate|Izzy:Incarnate|4|Izzy:Incarnate-UAClassFeatureVariants",
-				{
-					"classFeature": "Умение облика души|Incarnate|Izzy:Incarnate|5",
-					"gainSubclassFeature": true
-				},
-				"Свободный дух|Incarnate|Izzy:Incarnate|6",
-				"Сожжение души (2 использования)|Incarnate|Izzy:Incarnate|6",
-				{
-					"classFeature": "Умение воплощения|Incarnate|Izzy:Incarnate|7",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Incarnate|Izzy:Incarnate|8",
-				"Гибкость владений|Incarnate|Izzy:Incarnate|8|Izzy:Incarnate-UAClassFeatureVariants",
-				"Возвышенное существо|Incarnate|Izzy:Incarnate|10",
-				{
-					"classFeature": "Умение облика души|Incarnate|Izzy:Incarnate|11",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Incarnate|Izzy:Incarnate|12",
-				"Гибкость владений|Incarnate|Izzy:Incarnate|12|Izzy:Incarnate-UAClassFeatureVariants",
-				{
-					"classFeature": "Умение воплощения|Incarnate|Izzy:Incarnate|14",
-					"gainSubclassFeature": true
-				},
-				{
-					"classFeature": "Умение облика души|Incarnate|Izzy:Incarnate|15",
-					"gainSubclassFeature": true
-				},
-				"Вознесение|Incarnate|Izzy:Incarnate|15",
-				"Увеличение характеристик|Incarnate|Izzy:Incarnate|16",
-				"Гибкость владений|Incarnate|Izzy:Incarnate|16|Izzy:Incarnate-UAClassFeatureVariants",
-				{
-					"classFeature": "Умение воплощения|Incarnate|Izzy:Incarnate|18",
-					"gainSubclassFeature": true
-				},
-				"Сожжение души (3 использования)|Incarnate|Izzy:Incarnate|18",
-				"Увеличение характеристик|Incarnate|Izzy:Incarnate|19",
-				"Гибкость владений|Incarnate|Izzy:Incarnate|19|Izzy:Incarnate-UAClassFeatureVariants",
-				"Бессмертный|Incarnate|Izzy:Incarnate|20"
-			],
-			"subclassTitle": "Soul Shape | Incarnation"
-		}
-	],
-	"subclass": [
-		{
-			"name": "Душа небожителя",
-			"shortName": "Небожитель",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"page": 9,
-			"subclassFeatures": [
-				".|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|1",
-				"Душа небожителя|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|3",
-				".|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|5",
-				"Божественное провозглашение|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|7",
-				".|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|11",
-				"Серафическая форма|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|14",
-				".|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|15",
-				"Аура рая|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|18"
-			]
-		},
-		{
-			"name": "Облик воина",
-			"shortName": "Воин",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"page": 5,
-			"subclassFeatures": [
-				"Облик воина|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|1",
-				".|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|3",
-				"Дополнительная атака|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|5",
-				".|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|7",
-				"Неукротимый дух|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|11",
-				".|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|14",
-				"Рождённый войной|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|15",
-				".|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|18"
-			]
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Преграда души",
-			"source": "Izzy:Incarnate",
-			"page": 3,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 1,
-			"entries": [
-				"Самое простое проявление вашего свободного духа — преграда из душевной материи, защищающая ваш разум и тело. Эта преграда представляет собой запас защитной энергии, равный утроенному уровню воплощённого. Когда вы получаете урон, вы можете реакцией потратить любое количество энергии из этого запаса, не превышающее оставшееся количество, чтобы уменьшить получаемый урон на потраченное количество. До конца вашего следующего хода любой получаемый вами урон, равный потраченному количеству или меньший, уменьшается до 0.",
-				"Эта преграда восстанавливает всю свою защитную силу, когда вы заканчиваете продолжительный отдых, и половину своей защитной силы, когда вы заканчиваете короткий отдых."
-			]
-		},
-		{
-			"name": "Облик души",
-			"source": "Izzy:Incarnate",
-			"page": 3,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 1,
-			"entries": [
-				"Когда ваше тело и дух впервые разделились, вам открылась истинная природа вашей души, наделив вас скрытыми способностями. Выберите один из следующих обликов: Облик воина, Облик проводника, Облик хранителя или Облик зверя. Каждый из них подробно описан далее в этом документе. Выбранный облик дарует вам умения на 1-м, 5-м, 11-м и 15-м уровнях."
-			]
-		},
-		{
-			"name": "Сожжение души",
-			"source": "Izzy:Incarnate",
-			"page": 4,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 2,
-			"entries": [
-				"Также на 2-м уровне ваша душа может за мгновения израсходовать огромные запасы скрытой магии в смертельной опасности. Бонусным действием вы можете войти в состояние сожжения души, которое длится 1 минуту, пока вы не станете {@condition incapacitated} или пока вы не решите окончить его (действие не требуется). Входя в это состояние, выберите эмоцию, которую вы будете направлять: решимость, восторг, страх или ярость. В этом состоянии вы не можете использовать свой барьер души, но получаете следующие преимущества:",
-				{
-					"type": "list",
-					"items": [
-						"Вы излучаете яркий свет выбранного вами цвета в радиусе 10 футов. Этот свет игнорирует магическую тьму.",
-						"Бонусным действием в каждом своём ходу вы можете решить потерять количество хитов, равное половине вашего уровня воплощённого. Если вы это делаете, ваш барьер души восстанавливает такое же количество недостающей силы защиты, а вы получаете дополнительное преимущество в зависимости от выбранной эмоции."
-					]
-				},
-				"Вы можете использовать это умение один раз и восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых. Начиная с 6-го уровня, вы можете использовать это умение дважды между продолжительными отдыхами, а начиная с 18-го уровня — трижды.",
-				{
-					"type": "entries",
-					"name": "Решимость",
-					"entries": [
-						"Когда вы жертвуете хитами, ваш барьер души восстанавливает дополнительную силу защиты, равную вашему модификатору Харизмы (минимум 1), если до начала вашего предыдущего хода вы получили урон от враждебного существа."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Восторг",
-					"entries": [
-						"Когда вы жертвуете хитами, вы совершаете следующую атаку до начала своего следующего хода с преимуществом."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Страх",
-					"entries": [
-						"Когда вы жертвуете хитами, ваша скорость увеличивается на 10 плюс 5 за каждый пожертвованный хит до начала вашего следующего хода."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ярость",
-					"entries": [
-						"Когда вы жертвуете хитами, вы наносите дополнительный урон следующему существу, которому вы нанесёте урон до конца своего следующего хода. Этот урон равен {@damage 1d4} плюс количество потраченных хитов."
-					]
-				}
-			]
-		},
-		{
-			"name": "Сотворение заклинаний",
-			"source": "Izzy:Incarnate",
-			"page": 3,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 2,
-			"entries": [
-				"Начиная со 2-го уровня, вы учитесь выражать источник божественной силы в своей душе посредством сотворения заклинаний",
-				{
-					"type": "entries",
-					"name": "Ячейки заклинаний",
-					"entries": [
-						"В таблице воплощённого указано, сколько ячеек заклинаний у вас есть для сотворения заклинаний 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний воплощённого, вы должны потратить ячейку уровня этого заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний после завершения продолжительного отдыха.",
-						"Например, если вы знаете заклинание 1-го уровня {@spell cause fear} и у вас есть доступные ячейка заклинаний 1-го уровня и ячейка заклинаний 2-го уровня, вы можете сотворить {@spell cause fear}, используя любую из этих ячеек."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Известные заклинания 1-го уровня и выше",
-					"entries": [
-						"Вы знаете два заклинания 1-го уровня по вашему выбору из {@filter incarnate spell list|spells|class=Incarnate (INC)}.",
-						"Столбец «Известные заклинания» в таблице воплощённого показывает, когда вы изучаете дополнительные заклинания воплощённого по вашему выбору. Каждое из этих заклинаний должно быть уровня, для которого у вас есть ячейки заклинаний. Например, достигнув 4-го уровня в этом классе, вы можете изучить одно новое заклинание 1-го или 2-го уровня.",
-						"Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно известное вам заклинание воплощённого и заменить его другим заклинанием из списка заклинаний воплощённого, которое также должно быть уровня, для которого у вас есть ячейки заклинаний."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Базовая характеристика для заклинаний",
-					"entries": [
-						"Харизма — ваша базовая характеристика для сотворения заклинаний воплощённого, поскольку сила вашей магии зависит от вашей способности проецировать свою душу в мир. Вы используете Харизму, когда заклинание ссылается на вашу базовую характеристику для сотворения заклинаний. Кроме того, вы используете модификатор Харизмы при определении Сл спасброска от заклинания воплощённого, которое вы сотворили, и при совершении броска атаки для него.",
-						{
-							"type": "abilityDc",
-							"name": "Заклинание",
-							"attributes": [
-								"cha"
-							]
-						},
-						{
-							"type": "abilityAttackMod",
-							"name": "Заклинание",
-							"attributes": [
-								"cha"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Фокусировка души",
-					"entries": [
-						"Когда вы сотворяете заклинания, требующие материального компонента, вы можете не использовать этот компонент, если только у него не указана стоимость. В таком случае перед обычным сотворением заклинания вы должны иметь именно этот компонент"
-					]
-				}
-			]
-		},
-		{
-			"name": "Космическое воплощение",
-			"source": "Izzy:Incarnate",
-			"page": 5,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 3,
-			"entries": [
-				"Начиная с 3-го уровня вы выбираете архетипическую космическую силу, которой начала подражать ваша душа. Обычно душа воплощённого стремится подражать космическим силам, отражающим взгляды этого существа. Выберите один из следующих вариантов: небесная душа, бездненная душа или зелёная душа.",
-				"Ваш выбор воплощения предоставляет вам умения на 3-м, 6-м, 14-м и 18-м уровнях.",
-				{
-					"type": "entries",
-					"name": "Избирательные списки заклинаний воплощения",
-					"entries": [
-						"У каждого воплощения есть связанный с ним список заклинаний, подробно описанный в его описании. При достижении определённых уровней в этом классе вы изучаете одно заклинание по вашему выбору из двух заклинаний, представленных на этом уровне. Заклинание, изученное таким образом, считается для вас заклинанием воплощённого, но не учитывается при подсчёте известных вам заклинаний воплощённого.",
-						"Если какое-либо из этих заклинаний отсутствует в списке заклинаний воплощённого, оно добавляется в этот список для вас."
-					]
-				}
-			]
-		},
-		{
-			"name": "Проявление аур",
-			"source": "Izzy:Incarnate",
-			"page": 5,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 3,
-			"entries": [
-				"Также на 3-м уровне вы учитесь делать сущность души существа видимой для себя. Вы можете действием активировать это зрение на следующую минуту. Пока оно действует, каждое существо в пределах 30 футов от вас кажется вам окружённым разноцветной аурой. Аура каждого существа выглядит по-разному в зависимости от его космической значимости и силы. Вы видите эту ауру сквозь укрытия и даже если существо {@condition invisible}, что позволяет вам игнорировать это состояние. Вы знаете эмоциональное состояние каждого существа, которое видите таким образом, и совершаете с преимуществом проверки Мудрости ({@skill Insight}) и Харизмы против него.",
-				"Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 4,
-			"entries": [
-				"Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использовать черты, вместо этого вы можете выбрать {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Гибкость владений",
-			"source": "Izzy:Incarnate-UAClassFeatureVariants",
-			"page": 1,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 4,
-			"entries": [
-				"{@i Умение 4-го уровня (усиливает «Увеличение характеристик»)}",
-				"Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
-				"Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
-			]
-		},
-		{
-			"name": "Умение облика души",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 5,
-			"entries": [
-				"На 5-м уровне вы получаете умение, предоставляемое вашим выбором облика души."
-			]
-		},
-		{
-			"name": "Свободный дух",
-			"source": "Izzy:Incarnate",
-			"page": 5,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 6,
-			"entries": [
-				"На 6-м уровне вы можете в тяжёлые моменты освободить себя от боли тела и разума. Когда вы впервые входите в состояние ожога души, вы можете завершить действие одного из следующих состояний, воздействующих на вас: {@condition charmed}, {@condition frightened}, {@condition poisoned}, {@condition deafened} или {@condition blinded}."
-			]
-		},
-		{
-			"name": "Сожжение души (2 использования)",
-			"source": "Izzy:Incarnate",
-			"page": 4,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 6,
-			"entries": [
-				"Начиная с 6-го уровня вы можете использовать это умение дважды между продолжительными отдыхами."
-			]
-		},
-		{
-			"name": "Умение воплощения",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 7,
-			"entries": [
-				"На 7-м уровне вы получаете умение, предоставляемое выбранным вами Космическим воплощением."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 8,
-			"entries": [
-				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использовать черты, вместо этого вы можете выбрать {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Гибкость владений",
-			"source": "Izzy:Incarnate-UAClassFeatureVariants",
-			"page": 1,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 8,
-			"entries": [
-				"{@i Умение 8-го уровня (усиливает «Увеличение характеристик»)}",
-				"Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
-				"Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
-			]
-		},
-		{
-			"name": "Возвышенное существо",
-			"source": "Izzy:Incarnate",
-			"page": 5,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 10,
-			"entries": [
-				"На 10-м уровне ваше тело и душа начинают сливаться в единую сущность, поддерживаемую космосом. Вы получаете следующие преимущества:",
-				{
-					"type": "list",
-					"items": [
-						"Вам больше не нужно есть, пить или дышать.",
-						"Вы можете выбрать иммунитет к любому заклинанию или эффекту, способному изменить вашу форму.",
-						"Вам больше не нужно спать, и никакими средствами нельзя заставить вас уснуть. Чтобы получить преимущества продолжительного отдыха, вы можете потратить 4 часа на лёгкую деятельность."
-					]
-				},
-				"Кроме того, состояние {@condition incapacitated} больше не прекращает ваше испепеление души."
-			]
-		},
-		{
-			"name": "Умение облика души",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 11,
-			"entries": [
-				"На 11-м уровне вы получаете особенность, предоставляемую вашим выбором формы души."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 12,
-			"entries": [
-				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использовать черты, вместо этого вы можете выбрать {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Гибкость владений",
-			"source": "Izzy:Incarnate-UAClassFeatureVariants",
-			"page": 1,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 12,
-			"entries": [
-				"{@i Умение 12-го уровня (усиливает «Увеличение характеристик»)}",
-				"Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
-				"Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
-			]
-		},
-		{
-			"name": "Умение воплощения",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 14,
-			"entries": [
-				"На 14-м уровне вы получаете особенность, предоставляемую вашим выбором космического воплощения."
-			]
-		},
-		{
-			"name": "Вознесение",
-			"source": "Izzy:Incarnate",
-			"page": 5,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 15,
-			"entries": [
-				"Начиная с 15-го уровня ваше тело настроено на планы. Вы больше не стареете и не можете умереть из-за течения времени, а также можете игнорировать любые эффекты, вызванные окружающей средой или вашим текущим планом существования.",
-				"Кроме того, вы можете сотворить {@spell plane shift}, не расходуя ячейку заклинаний. Если вы уже бывали на плане, вам не нужен его камертон, чтобы переместиться туда. После того как вы сотворите заклинание с помощью этой особенности, вы не сможете сделать это снова, пока не завершите продолжительный отдых."
-			]
-		},
-		{
-			"name": "Умение облика души",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 15,
-			"entries": [
-				"На 15-м уровне вы получаете особенность, предоставляемую вашим выбором формы души."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 16,
-			"entries": [
-				"Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использовать черты, вместо этого вы можете выбрать {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Гибкость владений",
-			"source": "Izzy:Incarnate-UAClassFeatureVariants",
-			"page": 1,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 16,
-			"entries": [
-				"{@i Умение 16-го уровня (усиливает «Увеличение характеристик»)}",
-				"Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
-				"Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
-			]
-		},
-		{
-			"name": "Умение воплощения",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 18,
-			"entries": [
-				"На 18-м уровне вы получаете особенность, предоставляемую вашим выбором космического воплощения."
-			]
-		},
-		{
-			"name": "Сожжение души (3 использования)",
-			"source": "Izzy:Incarnate",
-			"page": 4,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 18,
-			"entries": [
-				"Начиная с 18-го уровня вы можете использовать эту особенность 3 раза между продолжительными отдыхами."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 19,
-			"entries": [
-				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
-				"Если ваш Мастер разрешает использование талантов, вместо этого вы можете выбрать {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Гибкость владений",
-			"source": "Izzy:Incarnate-UAClassFeatureVariants",
-			"page": 1,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 19,
-			"entries": [
-				"{@i Умение 19-го уровня (усиливает «Увеличение характеристик»)}",
-				"Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
-				"Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
-			]
-		},
-		{
-			"name": "Бессмертный",
-			"source": "Izzy:Incarnate",
-			"page": 5,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"level": 20,
-			"entries": [
-				"На 20-м уровне вы становитесь чужеродным существом, сущностью одной из энергий мультивселенной. Вас нельзя против вашей воли вселить, телепортировать или обратить в нежить, а вашу душу нельзя против вашей воли украсть, поглотить или заточить.",
-				"Вы можете потратить неделю, чтобы назначить незанятый куб со стороной 10 футов своим якорем. В этой области появляется памятник, созданный по вашему замыслу. Только божество или заклинание {@spell wish} могут переместить или уничтожить этот памятник. Если вы умираете, на памятнике появляется новая безжизненная копия вашего тела. Через {@dice 1d4} недели вы пробуждаетесь в новом теле, сохраняя ту же личность, воспоминания и способности, а также всё снаряжение, к которому у вас было привязано, — оно телепортируется к памятнику в момент вашего пробуждения. До пробуждения у этого тела Класс доспеха (КД) 5 и 1 хит. Если оно умирает, начинает расти новое тело с тем же результатом {@dice d4}. Если на это тело накладывают заклинание, единственный эффект которого — вернуть вас к жизни, но не обратить в нежить, вы мгновенно пробуждаетесь."
-			]
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": ".",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 1,
-			"header": 1,
-			"entries": []
-		},
-		{
-			"name": "Душа небожителя",
-			"source": "Izzy:Incarnate",
-			"page": 9,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 3,
-			"entries": [
-				"Воплощённые, посвятившие себя небесному сиянию верхних планов, ощущают, как их сущность наполняется прекрасным божественным теплом. Они чувствуют глубокую связь со всей естественной жизнью, что пробуждает в них способность помогать окружающим и испепелять тех, кто угрожает их покою.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Celestial Selective Spell List|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Light of the Favoured|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Healing Touch|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|3"
-				}
-			]
-		},
-		{
-			"name": "Избирательный список заклинаний Небожителя",
-			"source": "Izzy:Incarnate",
-			"page": 9,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				{
-					"type": "table",
-					"colLabels": [
-						"Уровень воплощённого",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3-й",
-							"{@spell bless}, {@spell healing word}"
-						],
-						[
-							"5-й",
-							"{@spell calm emotions}, {@spell augury}"
-						],
-						[
-							"9-й",
-							"{@spell sending}, {@spell revivify}"
-						],
-						[
-							"13-й",
-							"{@spell banishment}, {@spell death ward}"
-						],
-						[
-							"17-й",
-							"{@spell flame strike}, {@spell raise dead}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Целительное прикосновение",
-			"source": "Izzy:Incarnate",
-			"page": 10,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Также на 3-м уровне божественная сущность вашей ауры позволяет вам направлять свою энергию на исцеление ран других. Бонусным действием вы касаетесь существа, и оно восстанавливает количество хитов, равное {@dice 1d10} + вашему модификатору Харизмы + вашему уровню воплощённого.",
-				"Вы можете использовать это умение количество раз, равное вашему модификатору Харизмы (минимум 1 раз). Вы восстанавливаете все потраченные использования этого умения после завершения продолжительного отдыха.",
-				"Начиная с 7-го уровня, когда вы исцеляете кого-либо с помощью этого умения, вы можете избавить существо от любого проклятия, а также прекратить действующие на него {@condition disease}, {@condition poison|PHB|отравлен}, {@condition blindness} или {@condition deafness}."
-			]
-		},
-		{
-			"name": "Свет избранного",
-			"source": "Izzy:Incarnate",
-			"page": 9,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"На 3-м уровне вы можете бонусным действием создать или развеять кольцо из золотого света, парящее над вашей головой. Пока кольцо создано, оно излучает яркий свет в радиусе 30 футов вокруг вас.",
-				"Кроме того, пока это кольцо присутствует, вы можете говорить, читать и писать на {@language Celestial}."
-			]
-		},
-		{
-			"name": ".",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 5,
-			"header": 1,
-			"entries": []
-		},
-		{
-			"name": "Божественное провозглашение",
-			"source": "Izzy:Incarnate",
-			"page": 10,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 7,
-			"header": 1,
-			"entries": [
-				"На 7-м уровне вы изучаете элемент языка божественного творения. Действием вы произносите одно из перечисленных ниже божественных слов. Провозглашение воздействует на каждое существо в пределах 30 футов от вас.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "entries",
-							"name": "Мир",
-							"entries": [
-								"В течение следующей минуты всякий раз, когда подвергшееся этому эффекту существо подвергается атаке, бросок атаки совершается с помехой. Если существо вынуждено совершить спасбросок, оно совершает его с преимуществом. Если существо атакует или вынуждает другое существо совершить спасбросок, оно теряет это преимущество."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Смирение",
-							"entries": [
-								"Вы можете причинить {@damage 8d6} урона излучением каждому существу. Существо может выбрать преклонить колени и стать сбитым с ног, чтобы избежать урона."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Спасение",
-							"entries": [
-								"Каждое находящееся в сознании существо, имеющее не более половины своих максимальных хитов, восстанавливает количество хитов, равное {@dice 2d6} + ваш уровень воплощённого."
-							]
-						}
-					]
-				},
-				"Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
-			]
-		},
-		{
-			"name": ".",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 11,
-			"header": 1,
-			"entries": []
-		},
-		{
-			"name": "Серафическая форма",
-			"source": "Izzy:Incarnate",
-			"page": 10,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 14,
-			"header": 1,
-			"entries": [
-				"Начиная с 14-го уровня, вы можете бонусным действием проявить из спины пары призрачных крыльев. Пока крылья существуют, вы получаете скорость полёта 30 футов. Крылья существуют, пока вы не станете {@condition incapacitated}, не умрёте или не развеете их бонусным действием. Кроме того, вы получаете сопротивление урону излучением."
-			]
-		},
-		{
-			"name": ".",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 15,
-			"header": 1,
-			"entries": []
-		},
-		{
-			"name": "Аура рая",
-			"source": "Izzy:Incarnate",
-			"page": 10,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Небожитель",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 18,
-			"header": 1,
-			"entries": [
-				"На 18-м уровне вы можете распространить влияние своей небесной души на саму землю, на которой стоите. Действием вы можете испустить мощную ауру положительной энергии, воздействующую на всех выбранных вами существ в пределах 120 футов. Затронутое существо либо восстанавливает {@dice 10d6} хитов, либо получает {@damage 10d6} урона излучением — на ваш выбор. По мере распространения ауры область в пределах 120 футов от вас на 1 час превращается в небесную версию самой себя и получает следующие свойства:",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "entries",
-							"entries": [
-								"Любая магическая тьма, проклятие или болезнь в области подавляются."
-							]
-						},
-						{
-							"type": "entries",
-							"entries": [
-								"Существа в области чувствуют полное насыщение, поскольку им не нужно есть, пить или дышать."
-							]
-						},
-						{
-							"type": "entries",
-							"entries": [
-								"Всякий раз, когда существо совершает атаку по существу с 0 хитами, оно должно преуспеть в спасброске Харизмы, иначе атака промахивается. При успехе оно совершает бросок атаки как обычно."
-							]
-						}
-					]
-				},
-				"Использовав это умение, вы должны завершить продолжительный отдых, прежде чем сможете применить его снова.",
-				"Кроме того, если вы проводите в этой области весь час, её длительность увеличивается до 24 часов. Если вы используете это умение в одном и том же месте каждый день в течение 30 дней, оно становится постоянным. Это превращение можно прекратить только заклинанием {@spell wish}."
-			]
-		},
-		{
-			"name": "Облик воина",
-			"source": "Izzy:Incarnate",
-			"page": 5,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 1,
-			"entries": [
-				"Этот облик души открывает воплощённому величие битвы и наделяет его сверхъестественным воинским мастерством, даже если прежде он ни разу не брал в руки клинок. Такие воплощённые встречаются на поле боя, внутренне стремясь достичь славы через победу. Это пленники с огнём в глазах, закованные в цепи в конце битвы, рождённые под багровым приливом войны, дети избранников Исгарда или проклятые Ахерона. Независимо от происхождения, этот облик души определяется преодолением невзгод.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior Selective Spells|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior Embodied|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Martial Spirit|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|1"
-				}
-			]
-		},
-		{
-			"name": "Воинский дух",
-			"source": "Izzy:Incarnate",
-			"page": 6,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"Также на 1-м уровне вы можете призывать воинский дух, чтобы совершать выдающиеся боевые подвиги. Вы учитесь использовать три манёвра по вашему выбору из приведённых ниже. Использовав манёвр, вы не можете использовать ни один из этих манёвров снова до начала своего следующего хода:",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "entries",
-							"name": "Гибель исполина",
-							"entries": [
-								"Совершая атаку по существу Большого размера или больше с преимуществом, вы можете отказаться от преимущества, чтобы при попадании нанести дополнительный урон, равный одной кости оружия."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Калечащий удар",
-							"entries": [
-								"Если вы попадаете по существу атакой оружием, вы можете уменьшить его скорости на 10 футов до начала вашего следующего хода."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Сокрушитель земли",
-							"entries": [
-								"Если вы попадаете по {@condition prone} существу атакой оружием, вы можете нанести дополнительный урон силовым полем, равный модификатору способности, использованному для атаки."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Хватка титана",
-							"entries": [
-								"Если вы успешно используете {@action grapple} против существа, вы можете нанести этому существу урон силовым полем, равный {@damage 1d4} + половина вашего уровня воплощения."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Неостановимое наступление",
-							"entries": [
-								"Если вы попадаете по существу атакой оружием, вы можете оттолкнуть цель на 10 футов прямо влево, вправо или назад. Вы можете немедленно переместиться на 10 футов к ней, не провоцируя провоцированные атаки."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Парные удары",
-							"entries": [
-								"Если вы совершаете действие {@action Attack}, держа в каждой руке по рукопашному оружию, и совершаете атаку одним из этих оружий, вы можете немедленно совершить дополнительную атаку другим оружием. Вы не добавляете модификатор способности к урону этих дополнительных атак, если только он не отрицательный. Вы не можете совершить атаку оружием бонусным действием и использовать этот манёвр в том же ходу.",
-								"Начиная с 5-го уровня, вы также можете использовать этот манёвр для второй атаки, которую совершаете в рамках действия Attack."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Воплощённый воин",
-			"source": "Izzy:Incarnate",
-			"page": 6,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"На 1-м уровне вы получаете врождённое понимание военного дела. Вы получаете владение воинским оружием, всеми доспехами и щитами.",
-				"Кроме того, вы совершаете с преимуществом любые проверки Интеллекта, выполняемые для выяснения сведений, связанных с войнами, сражениями или другими видами военных действий."
-			]
-		},
-		{
-			"name": "Избирательные заклинания воина",
-			"source": "Izzy:Incarnate",
-			"page": 6,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"На 2-м, 5-м, 9-м, 13-м и 17-м уровнях вы изучаете по одному из двух заклинаний на соответствующем уровне, представленных в таблице «Избирательные заклинания воина», по вашему выбору. Изученное таким образом заклинание считается для вас заклинанием воплощённого, но не учитывается при подсчёте известного вам количества заклинаний воплощённого. Когда вы заменяете заклинание воплощённого при получении уровня с помощью вашего умения «Сотворение заклинаний», вы можете вместо этого заменить изученное таким образом заклинание другим заклинанием того же уровня.",
-				{
-					"type": "table",
-					"colLabels": [
-						"Уровень воплощённого",
-						"Заклинания"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3-й",
-							"{@spell Триумфальный дождь|Izzy:Incarnate}, {@spell compelled duel}"
-						],
-						[
-							"5-й",
-							"{@spell branding smite}, {@spell find steed}"
-						],
-						[
-							"9-й",
-							"{@spell Буря клинков|Izzy:Incarnate}, {@spell Железный залп|Izzy:Incarnate}"
-						],
-						[
-							"13-й",
-							"{@spell Призыв строя|Izzy:Incarnate}, {@spell find greater steed|XGE}"
-						],
-						[
-							"17-й",
-							"{@spell steel wind strike|XGE}, {@spell swift quiver}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": ".",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 3,
-			"header": 1,
-			"entries": []
-		},
-		{
-			"name": "Дополнительная атака",
-			"source": "Izzy:Incarnate",
-			"page": 6,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 5,
-			"header": 1,
-			"entries": [
-				"Начиная с 5-го уровня, вы можете атаковать дважды вместо одного раза, когда в свой ход совершаете действие {@action Attack}."
-			]
-		},
-		{
-			"name": ".",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 7,
-			"header": 1,
-			"entries": []
-		},
-		{
-			"name": "Неукротимый дух",
-			"source": "Izzy:Incarnate",
-			"page": 6,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 11,
-			"header": 1,
-			"entries": [
-				"На 11-м уровне душа воина наделяет вас невероятной стойкостью перед лицом невзгод. Если вы уменьшаете урон от атаки до 0 с помощью преграды души, вы можете совершить атаку против нападающего в рамках той же реакции."
-			]
-		},
-		{
-			"name": ".",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 14,
-			"header": 1,
-			"entries": []
-		},
-		{
-			"name": "Рождённый войной",
-			"source": "Izzy:Incarnate",
-			"page": 6,
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 15,
-			"header": 1,
-			"entries": [
-				"На 15-м уровне ваша душа ярче всего горит в величайших сражениях. Когда вы входите в состояние горения души, каждое враждебное существо в пределах 30 футов от вас получает {@damage 1d10} некротического урона. Вы получаете временные хиты в количестве, равном сумме нанесённого урона (максимум — утроенный уровень воплощённого). Эти временные хиты сохраняются, пока не закончится горение души."
-			]
-		},
-		{
-			"name": ".",
-			"source": "Izzy:Incarnate",
-			"className": "Incarnate",
-			"classSource": "Izzy:Incarnate",
-			"subclassShortName": "Воин",
-			"subclassSource": "Izzy:Incarnate",
-			"level": 18,
-			"header": 1,
-			"entries": []
-		}
-	],
-	"spell": [
-		{
-			"name": "Буря клинков",
-			"source": "Izzy:Incarnate",
-			"page": 16,
-			"level": 3,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					}
-				}
-			],
-			"entries": [
-				"Вы отделяете часть своей духовной сущности, чтобы призвать четыре призрачных оружия, парящих вокруг вас в вашем пространстве. Когда существо попадает по вам рукопашной атакой, вы можете уничтожить одно из этих оружий, чтобы уменьшить урон этой атаки на {@damage 1d8} + ваш модификатор базовой характеристики для сотворения заклинаний. Атакующее существо получает такое же количество урона силовым полем."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Если вы накладываете это заклинание, используя ячейку заклинаний 4-го уровня или выше, вы призываете ещё одно оружие за каждый уровень ячейки выше 3-го."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"force"
-			],
-			"miscTags": [
-				"SCL"
-			]
-		},
-		{
-			"name": "Терновая цепь",
-			"source": "Izzy:Incarnate",
-			"page": 17,
-			"level": 4,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Вы призываете толстую массу переплетённых корней и покрытых шипами лоз, которая вырывается из земли в свободном пространстве в пределах дистанции, которое вы видите. Наложив это заклинание, вы можете направить массу на существо в пределах 60 футов от неё, которое вы видите.",
-				"Это существо должно совершить спасбросок Ловкости. Цель автоматически преуспевает в этом спасброске, если она Огромная или больше. При провале цель получает состояние {@condition grappled}, получает {@damage 3d8} колющего урона и притягивается на 30 футов прямо к массе. Пока масса удерживает существо, вы можете бонусным действием причинить ему {@damage 3d8} колющего урона. В конце каждого своего хода существо может повторить спасбросок, освобождаясь от захвата при успехе. Союзное существо может добровольно провалить этот спасбросок, чтобы его притянуло на расстояние до 30 футов к лозе, не причиняя ему урона и не накладывая на него состояние {@condition grappled}.",
-				"Пока заклинание не закончится, вы можете бонусным действием в каждом своём ходу направлять терновую массу на то же или другое существо. Если она атакует существо, удерживая другое, первое существо больше не находится в состоянии {@condition grappled}."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"piercing"
-			],
-			"conditionInflict": [
-				"grappled"
-			],
-			"savingThrow": [
-				"dexterity"
-			],
-			"miscTags": [
-				"FMV",
-				"SGT",
-				"UBA"
-			],
-			"areaTags": [
-				"MT",
-				"ST"
-			]
-		},
-		{
-			"name": "Призыв драконьего рода",
-			"source": "Izzy:Incarnate",
-			"page": 16,
-			"level": 3,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Вы призываете на помощь драконьих духов, которые отвечают в форме призванного {@creature Дух дрейка|Izzy:Incarnate}. Драконий дух исчезает, когда его хиты опускаются до 0 или когда заклинание заканчивается. При призыве он получает одну из следующих особенностей: скорость лазания 30 футов, скорость рытья 20 футов или скорость плавания 30 футов. При попадании его укус причиняет дополнительно {@damage 1d6} урона одного из следующих типов: кислота, холод, огонь, электричество или яд; кроме того, он получает сопротивление этому типу урона.",
-				"Призванное существо дружелюбно к вам и вашим спутникам. Бросьте инициативу для духа дракона, у которого есть собственные ходы. Он подчиняется любым отданным вами устным приказам (не требующим от вас действия). Если вы не отдаёте приказов, он защищается от враждебных существ, но в остальном действий не совершает."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Если вы накладываете это заклинание, используя ячейку заклинаний 4-го уровня или выше, хиты духа увеличиваются на 15 за каждый уровень ячейки выше 3-го. Если вы используете ячейку заклинаний 5-го уровня или выше, длительность увеличивается до 24 часов."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"acid",
-				"bludgeoning",
-				"cold",
-				"fire",
-				"lightning",
-				"piercing",
-				"poison"
-			],
-			"miscTags": [
-				"SCL",
-				"SMN"
-			]
-		},
-		{
-			"name": "Призыв строя",
-			"source": "Izzy:Incarnate",
-			"page": 17,
-			"level": 4,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Вы призываете на земле в пределах дистанции линию призрачных солдат. Линия может иметь длину до 20 футов, высоту 10 футов и ширину 5 футов. Чтобы пройти через эту линию, существо должно действием совершить проверку Силы против вашей Сл заклинаний. При успехе существо может перемещаться через линию как по труднопроходимой местности до конца хода.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "entries",
-							"name": "Лучники",
-							"entries": [
-								"Когда лучники появляются впервые, а также действием в последующие ходы, вы можете выбрать точку в пределах 60 футов от лучников, не имеющую от них полного укрытия. Каждое существо в пределах 10 футов от этой точки должно преуспеть в спасброске Ловкости, получая {@damage 4d10} силового урона при провале или половину этого урона при успехе."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Фаланга",
-							"entries": [
-								"Выберите, в какую сторону обращаются вооружённые копьями солдаты этой линии. Область в пределах 10 футов от линии в направлении, куда обращены солдаты, является труднопроходимой местностью. Когда линия появляется впервые, а также в конце каждого вашего последующего хода каждое существо в этой области должно преуспеть в спасброске Ловкости, получая {@damage 4d10} силового урона при провале или половину этого урона при успехе. Вы можете бонусным действием переместить фалангу вперёд на расстояние до 15 футов в направлении, куда обращены солдаты. Она останавливается, если встречает существо или препятствие."
-							]
-						}
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"force"
-			],
-			"savingThrow": [
-				"dexterity"
-			],
-			"abilityCheck": [
-				"strength"
-			],
-			"miscTags": [
-				"UBA"
-			],
-			"areaTags": [
-				"L",
-				"R"
-			]
-		},
-		{
-			"name": "Бросок стража",
-			"source": "Izzy:Incarnate",
-			"page": 15,
-			"level": 2,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 5
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Вы пытаетесь метнуть существо в пределах дистанции силой призрачного стража. Цель должна совершить спасбросок Силы. При провале страж метает её на 30 футов в выбранном вами направлении. Если она сталкивается с предметом или существом, оба получают {@damage 1d6} дробящего урона за каждые 10 футов оставшегося вынужденного перемещения (минимум {@dice 1d6}).",
-				"Союзное существо может добровольно провалить этот спасбросок. В таком случае страж метает его на 30 футов, и оно не получает урон."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"bludgeoning"
-			],
-			"savingThrow": [
-				"strength"
-			],
-			"areaTags": [
-				"ST"
-			]
-		},
-		{
-			"name": "Буря листьев",
-			"source": "Izzy:Incarnate",
-			"page": 17,
-			"level": 4,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "различные виды листьев"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Снизу вырывается столб кружащегося ветра и острых как бритва листьев: цилиндр радиусом 15 футов и высотой 100 футов с центром в точке в пределах дистанции. Пока заклинание не закончится, местность внутри цилиндра считается труднопроходимой и сильно заслонённой. Когда существо перемещается в этой области или внутри неё, оно получает {@damage 3d4} рубящего урона за каждые пройденные 5 футов.",
-				"Бонусным действием в каждом своём ходу вы можете переместить цилиндр на расстояние до 15 футов в выбранном вами направлении."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"slashing"
-			],
-			"miscTags": [
-				"UBA"
-			],
-			"areaTags": [
-				"Y"
-			]
-		},
-		{
-			"name": "Наскок",
-			"source": "Izzy:Incarnate",
-			"page": 14,
-			"level": 1,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Ваше тело напрягается и на миг превращается в более звероподобную версию себя, пока вы прыгаете к своей добыче. Выберите видимое вам существо в пределах дистанции, не находящееся за полным укрытием. Вы прыгаете в свободное пространство в пределах 5 футов от существа. Цель должна преуспеть в спасброске Силы, иначе получает {@damage 1d6} дробящего урона, а вы накладываете на неё состояние {@condition grappled}, используя свободную руку или природное оружие.",
-				"Пока вы поддерживаете этот захват, безоружные удары и атаки естественным оружием наносят этому существу дополнительный {@damage 1d6} урона. Существо автоматически преуспевает в этом спасброске, если оно на две категории размера больше вас.",
-				"В каждый свой ход существо может действием повторить спасбросок, разрывая захват при успехе."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"bludgeoning"
-			],
-			"conditionInflict": [
-				"grappled"
-			],
-			"savingThrow": [
-				"strength"
-			],
-			"miscTags": [
-				"SGT"
-			],
-			"areaTags": [
-				"ST"
-			]
-		},
-		{
-			"name": "Рывок минотавра",
-			"source": "Izzy:Incarnate",
-			"page": 15,
-			"level": 2,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Ваши мышцы напрягаются и уплотняются, а из вашего черепа вырастают рога (если их у вас ещё нет), после чего вы устремляетесь вперёд. Выберите видимую вам цель в пределах дистанции. Вы перемещаетесь по прямой непосредственно к этой цели. Заклинание проваливается, если между вами и целью нет прямого пути, который вы можете преодолеть, используя одну из своих скоростей.",
-				"Во время этого перемещения вы получаете сопротивление всему урону и можете пробегать через пространства, занятые другими существами. Любое существо, через пространство которого вы пробегаете, получает {@damage 1d10} колющего урона и отталкивается в ближайшее свободное пространство по своему выбору, находящееся в стороне от вашего пути.",
-				"Достигнув цели, вы пронзаете её рогами, вынуждая её совершить спасбросок Силы. При провале существо получает {@damage 3d10} колющего урона и оказывается сбито с ног {@condition prone}, когда вы врезаете его в землю. Если вы выбрали предмет или строение, оно вместо этого получает 30 колющего урона."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Если вы накладываете это заклинание, используя ячейку заклинаний 3-го уровня или выше, урон цели увеличивается на {@damage 1d10}, а урон препятствиям — на 10 за каждый уровень ячейки выше 2-го."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"piercing"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"savingThrow": [
-				"strength"
-			],
-			"miscTags": [
-				"SCL",
-				"SGT"
-			],
-			"areaTags": [
-				"L",
-				"ST"
-			]
-		},
-		{
-			"name": "Изначальный гнев",
-			"source": "Izzy:Incarnate",
-			"page": 16,
-			"level": 3,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"На время действия ваше тело увеличивается, приобретая чудовищные черты. Например, ваше природное оружие становится крупнее и грубее, а ваше тело покрывается чешуёй, мехом или другими покровами. На время действия вы увеличиваетесь вдвое во всех измерениях, а ваш вес увеличивается в 8 раз. Этот рост увеличивает ваш размер на 1 категорию — например, со Среднего до Большого. Если вокруг недостаточно места, чтобы вы увеличились вдвое, вы достигаете максимально возможного размера в доступном пространстве. Всё снаряжение на вас сливается с вашим телом на время действия, однако вы всё ещё получаете преимущества от предметов, с которыми установили связь.",
-				"На время действия ваши безоружные удары или природное оружие причиняют дополнительный {@damage 1d8} урона, а дистанция вашего прыжка становится равна вашей скорости. Кроме того, вы добавляете свой модификатор базовой характеристики заклинаний к проверкам Силы и спасброскам, а ваша скорость не уменьшается вдвое, когда вы перемещаете цель, находящуюся в состоянии {@condition grappled}. Наконец, вы можете действием ударить по земле вокруг себя, заставляя всех существ в пределах 10 футов от вас совершить спасбросок Ловкости. При провале существо получает {@damage 2d12} дробящего урона и падает ничком: {@condition prone}."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"bludgeoning"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"savingThrow": [
-				"dexterity"
-			],
-			"areaTags": [
-				"R"
-			]
-		},
-		{
-			"name": "Ненасытная уловка",
-			"source": "Izzy:Incarnate",
-			"page": 18,
-			"level": 4,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 5
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Звериная отчаянность поглощает вас, а ваша пасть расширяется и покрывается острыми зубами. Вы вцепляетесь в одно существо и пытаетесь вытянуть его душу. Совершите рукопашную атаку заклинанием по существу в пределах дистанции. При попадании эта атака причиняет {@damage 5d10} некротического урона, а при промахе — половину этого урона.",
-				"Вы восстанавливаете количество хитов, равное количеству урона, полученного целью. Если у вас осталось менее половины максимального количества хитов, количество восстановленных хитов удваивается. Если хиты существа уменьшаются до 0, его душа оказывается заперта внутри вас, пока вы не умрёте. Пока душа заперта таким образом, существо нельзя оживить никакими средствами, кроме заклинания исполнения желаний."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"necrotic"
-			],
-			"spellAttack": [
-				"M"
-			],
-			"miscTags": [
-				"HL"
-			],
-			"areaTags": [
-				"ST"
-			]
-		},
-		{
-			"name": "Чтение сущности",
-			"source": "Izzy:Incarnate",
-			"page": 15,
-			"level": 2,
-			"school": "D",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 5
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Вы смотрите на предмет в пределах дистанции и пытаетесь прочесть оставшуюся в нём жизненную сущность. Вы узнаёте о предмете одну из следующих подробностей по своему выбору или схожую информацию, которую Мастер сочтёт подходящей:",
-				{
-					"type": "list",
-					"items": [
-						"Внешность последнего человека, державшего этот предмет в течение последних 10 дней, в момент, когда он держал его.",
-						"Использовался ли предмет для убийства кого-либо за последние 10 дней, прямо или косвенно.",
-						"Как выглядел предмет целиком, если он сломан."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"miscTags": [
-				"SGT"
-			],
-			"areaTags": [
-				"ST"
-			]
-		},
-		{
-			"name": "Дикий рёв",
-			"source": "Izzy:Incarnate",
-			"page": 18,
-			"level": 4,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Вы издаёте настолько свирепый и первобытный рёв, что он потрясает до глубины души существ вокруг вас. Этот рёв слышен на расстоянии до 1 мили. Каждое враждебное существо в пределах досягаемости должно преуспеть в спасброске Мудрости, иначе станет {@condition paralyzed} на время действия заклинания или пока не получит урон. Существа, невосприимчивые к состоянию {@condition frightened}, автоматически преуспевают в этом спасброске. Звери совершают этот спасбросок с помехой.",
-				"В конце каждого своего хода цель может повторить спасбросок Мудрости. При успехе заклинание заканчивает действовать на цели."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"conditionInflict": [
-				"paralyzed"
-			],
-			"savingThrow": [
-				"wisdom"
-			],
-			"areaTags": [
-				"S"
-			]
-		},
-		{
-			"name": "Покоритель небес",
-			"source": "Izzy:Incarnate",
-			"page": 17,
-			"level": 4,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Ваши глаза сужаются и становятся жёлтыми, а из спины вырастают орлиные крылья, магически изменяющие всё, что на вас надето, чтобы освободить для них место. Если у вас уже есть крылья, они становятся больше и сильнее.",
-				"На время действия заклинания вы получаете скорость полёта 60 футов. В качестве альтернативы, если у вас уже есть крылья, дающие скорость полёта, вы можете увеличить скорость полёта на 30 футов. Кроме того, вы нормально видите при тусклом свете и в темноте, а ваш бонус владения удваивается для совершаемых вами проверок {@skill Perception}, основанных на зрении."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"miscTags": [
-				"SGT"
-			]
-		},
-		{
-			"name": "Душа в узах",
-			"source": "Izzy:Incarnate",
-			"page": 16,
-			"level": 3,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Вы призываете силу призрачного стража, чтобы удерживать врагов. Когда вы накладываете это заклинание, а затем бонусным действием в последующие ходы в течение его длительности, вы можете призывать аспект своего стража, чтобы удерживать врагов. Часть вашего стража поднимается снизу и хватает существо. Например, если ваш страж принимает облик дриады, существо может оказаться опутанным лозами, а если ваш страж принимает облик дракона — зажатым в драконьих когтях или пасти.",
-				"Существо в пределах досягаемости должно совершить спасбросок Харизмы. При провале оно получает {@damage 3d8} урона силовым полем и становится {@condition restrained} на время действия заклинания. Существо, находящееся в состоянии {@condition restrained}, может действием повторить этот спасбросок и освободиться при успехе.",
-				"Действием вы можете нанести {@damage 3d8} урона силовым полем каждой цели, удерживаемой этим заклинанием в состоянии {@condition restrained}, пока аспекты давят на них."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Если вы накладываете это заклинание, используя ячейку заклинаний 4-го уровня или выше, начальный урон и урон, наносимый целям в состоянии {@condition restrained}, увеличивается на {@damage 1d8} за каждый уровень ячейки выше 3-го."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"force"
-			],
-			"conditionInflict": [
-				"restrained"
-			],
-			"savingThrow": [
-				"charisma"
-			],
-			"miscTags": [
-				"SCL",
-				"UBA"
-			],
-			"areaTags": [
-				"MT",
-				"ST"
-			]
-		},
-		{
-			"name": "Призрачный шквал",
-			"source": "Izzy:Incarnate",
-			"page": 15,
-			"level": 1,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 5
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Над вами нависает лик призрачного стража, пока вы оба наносите существу в пределах досягаемости стремительный шквал ударов. Совершите 2 рукопашные атаки заклинанием по цели. При попадании каждая атака наносит {@damage 2d6} урона силовым полем. Затем цель подвергается дополнительному эффекту в зависимости от количества попавших атак, как указано в таблице «Дополнительные эффекты». Вы можете выбрать любой эффект, соответствующий количеству попавших атак или меньший.",
-				{
-					"type": "table",
-					"colLabels": [
-						"Количество попаданий",
-						"Эффект"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"2 или меньше",
-							"Цель отталкивается на 10 футов за каждую попавшую атаку."
-						],
-						[
-							"3",
-							"Цель сбивается с ног: {@condition prone}."
-						],
-						[
-							"4",
-							"Цель должна преуспеть в спасброске Телосложения, иначе становится {@condition stunned} до начала вашего следующего хода."
-						],
-						[
-							"5",
-							"Цель должна преуспеть в спасброске Телосложения, иначе становится {@condition paralyzed} до начала вашего следующего хода."
-						],
-						[
-							"6 или больше",
-							"Цель получает дополнительный {@damage 1d6} урон за каждую попавшую атаку."
-						]
-					]
-				}
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Если вы накладываете это заклинание, используя ячейку заклинаний 2-го уровня или выше, вы можете совершить 1 дополнительную рукопашную атаку заклинанием за каждый уровень заклинаний выше 2-го."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"force"
-			],
-			"spellAttack": [
-				"M"
-			],
-			"miscTags": [
-				"FMV",
-				"SCL",
-				"SGT"
-			],
-			"areaTags": [
-				"ST"
-			]
-		},
-		{
-			"name": "Шаг преследователя",
-			"source": "Izzy:Incarnate",
-			"page": 17,
-			"level": 3,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					}
-				}
-			],
-			"entries": [
-				"Ваш облик становится гибким и кошачьим, ваш взгляд учится замечать слабые места, а ваша кожа начинает мерцать и сливаться с окружением. Пока заклинание действует, ваш облик становится размытым, из-за чего вы становитесь слегка заслонённым; вы можете использовать модификатор своей характеристики, используемой для сотворения заклинаний, вместо модификатора Ловкости при совершении проверки Ловкости ({@skill Stealth}), а также можете бонусным действием совершить действия {@action Dash} или {@action Hide}.",
-				"Когда вы накладываете это заклинание, а затем действием в последующие ходы, вы можете стать {@condition invisible} до конца своего следующего хода или до тех пор, пока не атакуете или не наложите заклинание.",
-				"Наконец, каждый раз, когда вы попадаете по существу, от которого вы скрыты, атакой рукопашным оружием, вы можете завершить это заклинание, чтобы эта атака причинила дополнительный урон {@damage 6d6}."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"miscTags": [
-				"UBA"
-			]
-		},
-		{
-			"name": "Душа титана",
-			"source": "Izzy:Incarnate",
-			"page": 18,
-			"level": 4,
-			"school": "N",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Вы берёте частицу своей души в руку и приказываете ей появиться в свободном пространстве в пределах дистанции. Из этой точки возникает Большой призрачный страж, существующий, пока действует заклинание. Все его значения характеристик и Класс доспеха (КД) равны значению вашей характеристики, используемой для сотворения заклинаний, а его максимум хитов равен вашему. Он обладает теми же чувствами, что и вы, и использует ваш модификатор владения. Он владеет всеми спасбросками, а также всеми навыками, которыми владеете вы.",
-				"Если вы участвуете в том же бою, страж совершает свой ход по вашей инициативе, а не совершает собственный бросок инициативы. Страж обладает врождённой связью с вами и поэтому действует именно так, как вы ему приказываете. Он обладает скоростью полёта 60 футов, а в свой ход может совершить действия {@action Dodge}, {@action Dash}, {@action Disengage} и {@action Search} или одно из следующих действий:",
-				"{@b Гнев титана.} Ваш страж излучает ауру жажды убийства. Каждое существо в пределах 20 футов от него должно преуспеть в спасброске Харизмы, иначе станет {@condition frightened} стражем до начала своего следующего хода. Пока существа находятся в состоянии {@condition frightened} таким образом, их скорость становится равной 0.",
-				"{@b Защита титана.} Ваш страж соединяет свою жизненную силу с жизненной силой другого существа. Выберите видимое стражу существо в пределах 5 футов от него. Любой урон, который это существо получает до начала своего следующего хода, уменьшается до 0. Страж получает весь урон, уменьшенный таким образом.",
-				"{@b Натиск титана.} Ваш страж жестоко поражает существо в пределах 10 футов от него. Страж совершает по нему рукопашную атаку заклинанием, используя ваш модификатор атаки заклинанием. При попадании цель получает {@damage 3d10} урона силовым полем и отталкивается на 10 футов."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"conditionInflict": [
-				"frightened"
-			],
-			"spellAttack": [
-				"M"
-			],
-			"savingThrow": [
-				"charisma"
-			],
-			"miscTags": [
-				"FMV",
-				"SMN"
-			],
-			"areaTags": [
-				"ST"
-			]
-		},
-		{
-			"name": "Триумфальный дождь",
-			"source": "Izzy:Incarnate",
-			"page": 15,
-			"level": 1,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Вы вызываете дождь призрачных копий на своих врагов. Каждая попавшая копья заставляет вашу душу предвкушать битву. Выберите точку в пределах дистанции. Каждое существо в пределах 10-футового радиуса от этой точки должно совершить спасбросок Ловкости. При провале существо получает {@damage 2d6} колющего урона, а при успехе — половину этого урона. За каждое существо, провалившее спасбросок, ваша скорость увеличивается на 10 футов до конца вашего следующего хода."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Если вы накладываете это заклинание, используя ячейку заклинаний 2-го уровня или выше, радиус заклинания увеличивается на 5 футов за каждый уровень ячейки выше 1-го."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"damageInflict": [
-				"piercing"
-			],
-			"savingThrow": [
-				"dexterity"
-			],
-			"miscTags": [
-				"SCL"
-			],
-			"areaTags": [
-				"S"
-			]
-		},
-		{
-			"name": "Железный залп",
-			"source": "Izzy:Incarnate",
-			"page": 17,
-			"level": 3,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "cone",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "боеприпасы или метательное оружие, которое не расходуется"
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Вы бросаете немагическое оружие или выстреливаете немагическим боеприпасом в воздух, создавая конус одинакового оружия, которое летит вперёд, а затем исчезает. Выберите любое количество существ в конусе длиной 60 футов и распределите между ними 20 снарядов (одно существо может быть целью не более 5 снарядов). Каждое существо должно совершить спасбросок Ловкости, получая {@damage 1d8} урона за каждый выпущенный в него снаряд, или половину этого урона при успешном спасброске. Вид урона совпадает с видом урона оружия или боеприпаса, использованного в качестве компонента."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Incarnate",
-						"source": "Izzy:Incarnate"
-					}
-				]
-			},
-			"savingThrow": [
-				"dexterity"
-			],
-			"areaTags": [
-				"N"
-			]
-		}
-	],
-	"monster": [
-		{
-			"name": "Дух дрейка",
-			"source": "Izzy:Incarnate",
-			"page": 98,
-			"size": [
-				"L"
-			],
-			"type": "dragon",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "7d10 + 21",
-				"average": 59
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 20
-			},
-			"str": 16,
-			"dex": 11,
-			"con": 16,
-			"int": 4,
-			"wis": 10,
-			"cha": 7,
-			"skill": {
-				"perception": "+2"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 12,
-			"languages": [
-				"понимает драконий, но не говорит на нём"
-			],
-			"cr": "2",
-			"action": [
-				{
-					"name": "Мультиатака",
-					"entries": [
-						"Дрейк совершает две атаки: одну укусом и одну хвостом."
-					]
-				},
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 5} для попадания, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона."
-					]
-				},
-				{
-					"name": "Хвост",
-					"entries": [
-						"{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) дробящего урона."
-					]
-				}
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"CS",
-				"DR"
-			],
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			]
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "Izzy:Incarnate",
+        "abbreviation": "INC",
+        "full": "The Incarnate",
+        "url": "https://www.gmbinder.com/share/-LmMupLVyMuux8_CwNb9",
+        "version": "1.1",
+        "authors": [
+          "Izzy"
+        ],
+        "convertedBy": [
+          "Ikaguia"
+        ]
+      },
+      {
+        "json": "Izzy:Incarnate-UAClassFeatureVariants",
+        "abbreviation": "UACFV",
+        "full": "The Incarnate - Unearthed Arcana: Class Feature Variants",
+        "version": "1.0",
+        "authors": [
+          "Wizards of the Coast"
+        ],
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1592873199,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "e94d33005d"
+  },
+  "class": [
+    {
+      "name": "Воплощённый",
+      "source": "Izzy:Incarnate",
+      "hd": {
+        "number": 1,
+        "faces": 6
+      },
+      "proficiency": [
+        "wis",
+        "cha"
+      ],
+      "spellcastingAbility": "cha",
+      "casterProgression": "1/2",
+      "spellsKnownProgression": [
+        0,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5,
+        5,
+        6,
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10,
+        10,
+        11,
+        11
+      ],
+      "classSpells": [
+        "Bane",
+        "Bless",
+        "Catapult",
+        "Cause Fear",
+        "Charm Person",
+        "Command",
+        "Comprehend Languages",
+        "Cure Wounds",
+        "Detect Evil and Good",
+        "Detect Magic",
+        "Disguise Self",
+        "False Life",
+        "Faerie Fire",
+        "Feather Fall",
+        "Find Familiar",
+        "Guiding Bolt",
+        "Heroism",
+        "Identify",
+        "Inflict Wounds",
+        "Jump",
+        "Longstrider",
+        "Protection from Evil and Good",
+        "Ray of Sickness",
+        "Sanctuary",
+        "Alter Self",
+        "Blindness/Deafness",
+        "Blur",
+        "Calm Emotions",
+        "Darkvision",
+        "Detect Thoughts",
+        "Enhance Ability",
+        "Enlarge/Reduce",
+        "Enthrall",
+        "Hold Person",
+        "Invisibility",
+        "Lesser Restoration",
+        "Levitate",
+        "Locate Object",
+        "Mind Spike",
+        "Mirror Image",
+        "Phantasmal Force",
+        "Ray of Enfeeblement",
+        "read essence|izzy:incarnate",
+        "See Invisibility",
+        "Silence",
+        "Suggestion",
+        "Warding Bond",
+        "Zone of Truth",
+        "Animate Dead",
+        "Blink",
+        "Bestow Curse",
+        "Clairvoyance",
+        "Enemies Abound",
+        "Fear",
+        "Fly",
+        "Gaseous Form",
+        "Hypnotic Pattern",
+        "Life Transference",
+        "Nondetection",
+        "Protection from Energy",
+        "Remove Curse",
+        "Revivify",
+        "Sending",
+        "Speak with Dead",
+        "Tongues",
+        "Vampiric Touch",
+        "Arcane Eye",
+        "Antilife Shell",
+        "Banishment",
+        "Blight",
+        "Charm Monster",
+        "Compulsion",
+        "Confusion",
+        "Death Ward",
+        "Dimension Door",
+        "Dominate Beast",
+        "Freedom of Movement",
+        "Greater Invisibility",
+        "Locate Creature",
+        "Phantasmal Killer",
+        "Polymorph",
+        "Sickening Radiance",
+        "Awaken",
+        "Danse Macabre",
+        "Dispel Evil and Good",
+        "Dominate Person",
+        "Dream",
+        "Enervation",
+        "Far Step",
+        "Geas",
+        "Hallow",
+        "Hold Monster",
+        "Mislead",
+        "Modify Memory",
+        "Reincarnate",
+        "Scrying",
+        "Seeming",
+        "Skill Empowerment",
+        "Telekinesis"
+      ],
+      "startingProficiencies": {
+        "weapons": [
+          "simple"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "athletics",
+                "acrobatics",
+                "sleight of hand",
+                "stealth",
+                "arcana",
+                "history",
+                "investigation",
+                "nature",
+                "religion",
+                "animal handling",
+                "insight",
+                "medicine",
+                "perception",
+                "survival",
+                "deception",
+                "intimidation",
+                "performance",
+                "persuasion"
+              ],
+              "count": 2
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(а) {@item quarterstaff|phb} или (б) {@item light crossbow|phb} и {@item crossbow bolts (20)|phb|20 болтов}",
+          "(а) {@item dungeoneer's pack|phb} или (б) {@item explorer's pack|phb}",
+          "Если владеете, (а) {@item leather armor|phb}, (б) {@item scale mail|phb} или (в) {@item chain mail|phb}",
+          "Один {@item dagger|phb}"
+        ],
+        "goldAlternative": "{@dice 4d4×10|5d4 × 10|Начальное золото}",
+        "defaultData": [
+          {
+            "a": [
+              "quarterstaff|phb"
+            ],
+            "b": [
+              "light crossbow|phb",
+              "crossbow bolts (20)|phb"
+            ]
+          },
+          {
+            "a": [
+              "dungeoneer's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
+          },
+          {
+            "If proficient,": [],
+            "{@item leather armor|phb},": [],
+            "{@item scale mail|phb}, or": []
+          },
+          {
+            "_": [
+              "dagger|phb"
+            ]
+          }
+        ]
+      },
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "{@filter Spells Known|spells|class=Incarnate (INC)}"
+          ],
+          "rows": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ],
+            [
+              7
+            ],
+            [
+              8
+            ],
+            [
+              8
+            ],
+            [
+              9
+            ],
+            [
+              9
+            ],
+            [
+              10
+            ],
+            [
+              10
+            ],
+            [
+              11
+            ],
+            [
+              11
+            ]
+          ]
+        },
+        {
+          "title": "Ячейки заклинаний по уровням заклинаний",
+          "colLabels": [
+            "{@filter 1st|spells|level=1|class=Incarnate (INC)}",
+            "{@filter 2nd|spells|level=2|class=Incarnate (INC)}",
+            "{@filter 3rd|spells|level=3|class=Incarnate (INC)}",
+            "{@filter 4th|spells|level=4|class=Incarnate (INC)}",
+            "{@filter 5th|spells|level=5|class=Incarnate (INC)}"
+          ],
+          "rows": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2
+            ]
+          ]
+        }
+      ],
+      "classFeatures": [
+        {
+          "classFeature": "Облик души|Incarnate|Izzy:Incarnate|1",
+          "gainSubclassFeature": true
+        },
+        "Преграда души|Incarnate|Izzy:Incarnate|1",
+        "Сотворение заклинаний|Incarnate|Izzy:Incarnate|2",
+        "Сожжение души|Incarnate|Izzy:Incarnate|2",
+        {
+          "classFeature": "Космическое воплощение|Incarnate|Izzy:Incarnate|3",
+          "gainSubclassFeature": true
+        },
+        "Проявление аур|Incarnate|Izzy:Incarnate|3",
+        "Увеличение характеристик|Incarnate|Izzy:Incarnate|4",
+        "Гибкость владений|Incarnate|Izzy:Incarnate|4|Izzy:Incarnate-UAClassFeatureVariants",
+        {
+          "classFeature": "Умение облика души|Incarnate|Izzy:Incarnate|5",
+          "gainSubclassFeature": true
+        },
+        "Свободный дух|Incarnate|Izzy:Incarnate|6",
+        "Сожжение души (2 использования)|Incarnate|Izzy:Incarnate|6",
+        {
+          "classFeature": "Умение воплощения|Incarnate|Izzy:Incarnate|7",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Incarnate|Izzy:Incarnate|8",
+        "Гибкость владений|Incarnate|Izzy:Incarnate|8|Izzy:Incarnate-UAClassFeatureVariants",
+        "Возвышенное существо|Incarnate|Izzy:Incarnate|10",
+        {
+          "classFeature": "Умение облика души|Incarnate|Izzy:Incarnate|11",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Incarnate|Izzy:Incarnate|12",
+        "Гибкость владений|Incarnate|Izzy:Incarnate|12|Izzy:Incarnate-UAClassFeatureVariants",
+        {
+          "classFeature": "Умение воплощения|Incarnate|Izzy:Incarnate|14",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Умение облика души|Incarnate|Izzy:Incarnate|15",
+          "gainSubclassFeature": true
+        },
+        "Вознесение|Incarnate|Izzy:Incarnate|15",
+        "Увеличение характеристик|Incarnate|Izzy:Incarnate|16",
+        "Гибкость владений|Incarnate|Izzy:Incarnate|16|Izzy:Incarnate-UAClassFeatureVariants",
+        {
+          "classFeature": "Умение воплощения|Incarnate|Izzy:Incarnate|18",
+          "gainSubclassFeature": true
+        },
+        "Сожжение души (3 использования)|Incarnate|Izzy:Incarnate|18",
+        "Увеличение характеристик|Incarnate|Izzy:Incarnate|19",
+        "Гибкость владений|Incarnate|Izzy:Incarnate|19|Izzy:Incarnate-UAClassFeatureVariants",
+        "Бессмертный|Incarnate|Izzy:Incarnate|20"
+      ],
+      "subclassTitle": "Soul Shape | Incarnation"
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Душа небожителя",
+      "shortName": "Небожитель",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "page": 9,
+      "subclassFeatures": [
+        ".|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|1",
+        "Душа небожителя|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|3",
+        ".|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|5",
+        "Божественное провозглашение|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|7",
+        ".|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|11",
+        "Серафическая форма|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|14",
+        ".|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|15",
+        "Аура рая|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|18"
+      ]
+    },
+    {
+      "name": "Облик воина",
+      "shortName": "Воин",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "page": 5,
+      "subclassFeatures": [
+        "Облик воина|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|1",
+        ".|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|3",
+        "Дополнительная атака|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|5",
+        ".|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|7",
+        "Неукротимый дух|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|11",
+        ".|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|14",
+        "Рождённый войной|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|15",
+        ".|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|18"
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Преграда души",
+      "source": "Izzy:Incarnate",
+      "page": 3,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 1,
+      "entries": [
+        "Самое простое проявление вашего свободного духа — преграда из душевной материи, защищающая ваш разум и тело. Эта преграда представляет собой запас защитной энергии, равный утроенному уровню воплощённого. Когда вы получаете урон, вы можете реакцией потратить любое количество энергии из этого запаса, не превышающее оставшееся количество, чтобы уменьшить получаемый урон на потраченное количество. До конца вашего следующего хода любой получаемый вами урон, равный потраченному количеству или меньший, уменьшается до 0.",
+        "Эта преграда восстанавливает всю свою защитную силу, когда вы заканчиваете продолжительный отдых, и половину своей защитной силы, когда вы заканчиваете короткий отдых."
+      ]
+    },
+    {
+      "name": "Облик души",
+      "source": "Izzy:Incarnate",
+      "page": 3,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 1,
+      "entries": [
+        "Когда ваше тело и дух впервые разделились, вам открылась истинная природа вашей души, наделив вас скрытыми способностями. Выберите один из следующих обликов: Облик воина, Облик проводника, Облик хранителя или Облик зверя. Каждый из них подробно описан далее в этом документе. Выбранный облик дарует вам умения на 1-м, 5-м, 11-м и 15-м уровнях."
+      ]
+    },
+    {
+      "name": "Сожжение души",
+      "source": "Izzy:Incarnate",
+      "page": 4,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 2,
+      "entries": [
+        "Также на 2-м уровне ваша душа может за мгновения израсходовать огромные запасы скрытой магии в смертельной опасности. Бонусным действием вы можете войти в состояние сожжения души, которое длится 1 минуту, пока вы не станете {@condition incapacitated} или пока вы не решите окончить его (действие не требуется). Входя в это состояние, выберите эмоцию, которую вы будете направлять: решимость, восторг, страх или ярость. В этом состоянии вы не можете использовать свой барьер души, но получаете следующие преимущества:",
+        {
+          "type": "list",
+          "items": [
+            "Вы излучаете яркий свет выбранного вами цвета в радиусе 10 футов. Этот свет игнорирует магическую тьму.",
+            "Бонусным действием в каждом своём ходу вы можете решить потерять количество хитов, равное половине вашего уровня воплощённого. Если вы это делаете, ваш барьер души восстанавливает такое же количество недостающей силы защиты, а вы получаете дополнительное преимущество в зависимости от выбранной эмоции."
+          ]
+        },
+        "Вы можете использовать это умение один раз и восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых. Начиная с 6-го уровня, вы можете использовать это умение дважды между продолжительными отдыхами, а начиная с 18-го уровня — трижды.",
+        {
+          "type": "entries",
+          "name": "Решимость",
+          "entries": [
+            "Когда вы жертвуете хитами, ваш барьер души восстанавливает дополнительную силу защиты, равную вашему модификатору Харизмы (минимум 1), если до начала вашего предыдущего хода вы получили урон от враждебного существа."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Восторг",
+          "entries": [
+            "Когда вы жертвуете хитами, вы совершаете следующую атаку до начала своего следующего хода с преимуществом."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Страх",
+          "entries": [
+            "Когда вы жертвуете хитами, ваша скорость увеличивается на 10 плюс 5 за каждый пожертвованный хит до начала вашего следующего хода."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ярость",
+          "entries": [
+            "Когда вы жертвуете хитами, вы наносите дополнительный урон следующему существу, которому вы нанесёте урон до конца своего следующего хода. Этот урон равен {@damage 1d4} плюс количество потраченных хитов."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Сотворение заклинаний",
+      "source": "Izzy:Incarnate",
+      "page": 3,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 2,
+      "entries": [
+        "Начиная со 2-го уровня, вы учитесь выражать источник божественной силы в своей душе посредством сотворения заклинаний",
+        {
+          "type": "entries",
+          "name": "Ячейки заклинаний",
+          "entries": [
+            "В таблице воплощённого указано, сколько ячеек заклинаний у вас есть для сотворения заклинаний 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний воплощённого, вы должны потратить ячейку уровня этого заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний после завершения продолжительного отдыха.",
+            "Например, если вы знаете заклинание 1-го уровня {@spell cause fear} и у вас есть доступные ячейка заклинаний 1-го уровня и ячейка заклинаний 2-го уровня, вы можете сотворить {@spell cause fear}, используя любую из этих ячеек."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Известные заклинания 1-го уровня и выше",
+          "entries": [
+            "Вы знаете два заклинания 1-го уровня по вашему выбору из {@filter incarnate spell list|spells|class=Incarnate (INC)}.",
+            "Столбец «Известные заклинания» в таблице воплощённого показывает, когда вы изучаете дополнительные заклинания воплощённого по вашему выбору. Каждое из этих заклинаний должно быть уровня, для которого у вас есть ячейки заклинаний. Например, достигнув 4-го уровня в этом классе, вы можете изучить одно новое заклинание 1-го или 2-го уровня.",
+            "Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно известное вам заклинание воплощённого и заменить его другим заклинанием из списка заклинаний воплощённого, которое также должно быть уровня, для которого у вас есть ячейки заклинаний."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Базовая характеристика для заклинаний",
+          "entries": [
+            "Харизма — ваша базовая характеристика для сотворения заклинаний воплощённого, поскольку сила вашей магии зависит от вашей способности проецировать свою душу в мир. Вы используете Харизму, когда заклинание ссылается на вашу базовую характеристику для сотворения заклинаний. Кроме того, вы используете модификатор Харизмы при определении Сл спасброска от заклинания воплощённого, которое вы сотворили, и при совершении броска атаки для него.",
+            {
+              "type": "abilityDc",
+              "name": "Заклинание",
+              "attributes": [
+                "cha"
+              ]
+            },
+            {
+              "type": "abilityAttackMod",
+              "name": "Заклинание",
+              "attributes": [
+                "cha"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Фокусировка души",
+          "entries": [
+            "Когда вы сотворяете заклинания, требующие материального компонента, вы можете не использовать этот компонент, если только у него не указана стоимость. В таком случае перед обычным сотворением заклинания вы должны иметь именно этот компонент"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Космическое воплощение",
+      "source": "Izzy:Incarnate",
+      "page": 5,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 3,
+      "entries": [
+        "Начиная с 3-го уровня вы выбираете архетипическую космическую силу, которой начала подражать ваша душа. Обычно душа воплощённого стремится подражать космическим силам, отражающим взгляды этого существа. Выберите один из следующих вариантов: небесная душа, бездненная душа или зелёная душа.",
+        "Ваш выбор воплощения предоставляет вам умения на 3-м, 6-м, 14-м и 18-м уровнях.",
+        {
+          "type": "entries",
+          "name": "Избирательные списки заклинаний воплощения",
+          "entries": [
+            "У каждого воплощения есть связанный с ним список заклинаний, подробно описанный в его описании. При достижении определённых уровней в этом классе вы изучаете одно заклинание по вашему выбору из двух заклинаний, представленных на этом уровне. Заклинание, изученное таким образом, считается для вас заклинанием воплощённого, но не учитывается при подсчёте известных вам заклинаний воплощённого.",
+            "Если какое-либо из этих заклинаний отсутствует в списке заклинаний воплощённого, оно добавляется в этот список для вас."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Проявление аур",
+      "source": "Izzy:Incarnate",
+      "page": 5,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 3,
+      "entries": [
+        "Также на 3-м уровне вы учитесь делать сущность души существа видимой для себя. Вы можете действием активировать это зрение на следующую минуту. Пока оно действует, каждое существо в пределах 30 футов от вас кажется вам окружённым разноцветной аурой. Аура каждого существа выглядит по-разному в зависимости от его космической значимости и силы. Вы видите эту ауру сквозь укрытия и даже если существо {@condition invisible}, что позволяет вам игнорировать это состояние. Вы знаете эмоциональное состояние каждого существа, которое видите таким образом, и совершаете с преимуществом проверки Мудрости ({@skill Insight}) и Харизмы против него.",
+        "Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 4,
+      "entries": [
+        "Достигнув 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использовать черты, вместо этого вы можете выбрать {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Гибкость владений",
+      "source": "Izzy:Incarnate-UAClassFeatureVariants",
+      "page": 1,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 4,
+      "entries": [
+        "{@i Умение 4-го уровня (усиливает «Увеличение характеристик»)}",
+        "Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
+        "Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
+      ]
+    },
+    {
+      "name": "Умение облика души",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 5,
+      "entries": [
+        "На 5-м уровне вы получаете умение, предоставляемое вашим выбором облика души."
+      ]
+    },
+    {
+      "name": "Свободный дух",
+      "source": "Izzy:Incarnate",
+      "page": 5,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 6,
+      "entries": [
+        "На 6-м уровне вы можете в тяжёлые моменты освободить себя от боли тела и разума. Когда вы впервые входите в состояние ожога души, вы можете завершить действие одного из следующих состояний, воздействующих на вас: {@condition charmed}, {@condition frightened}, {@condition poisoned}, {@condition deafened} или {@condition blinded}."
+      ]
+    },
+    {
+      "name": "Сожжение души (2 использования)",
+      "source": "Izzy:Incarnate",
+      "page": 4,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 6,
+      "entries": [
+        "Начиная с 6-го уровня вы можете использовать это умение дважды между продолжительными отдыхами."
+      ]
+    },
+    {
+      "name": "Умение воплощения",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 7,
+      "entries": [
+        "На 7-м уровне вы получаете умение, предоставляемое выбранным вами Космическим воплощением."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 8,
+      "entries": [
+        "Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использовать черты, вместо этого вы можете выбрать {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Гибкость владений",
+      "source": "Izzy:Incarnate-UAClassFeatureVariants",
+      "page": 1,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 8,
+      "entries": [
+        "{@i Умение 8-го уровня (усиливает «Увеличение характеристик»)}",
+        "Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
+        "Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
+      ]
+    },
+    {
+      "name": "Возвышенное существо",
+      "source": "Izzy:Incarnate",
+      "page": 5,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 10,
+      "entries": [
+        "На 10-м уровне ваше тело и душа начинают сливаться в единую сущность, поддерживаемую космосом. Вы получаете следующие преимущества:",
+        {
+          "type": "list",
+          "items": [
+            "Вам больше не нужно есть, пить или дышать.",
+            "Вы можете выбрать иммунитет к любому заклинанию или эффекту, способному изменить вашу форму.",
+            "Вам больше не нужно спать, и никакими средствами нельзя заставить вас уснуть. Чтобы получить преимущества продолжительного отдыха, вы можете потратить 4 часа на лёгкую деятельность."
+          ]
+        },
+        "Кроме того, состояние {@condition incapacitated} больше не прекращает ваше испепеление души."
+      ]
+    },
+    {
+      "name": "Умение облика души",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 11,
+      "entries": [
+        "На 11-м уровне вы получаете особенность, предоставляемую вашим выбором формы души."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 12,
+      "entries": [
+        "Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использовать черты, вместо этого вы можете выбрать {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Гибкость владений",
+      "source": "Izzy:Incarnate-UAClassFeatureVariants",
+      "page": 1,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 12,
+      "entries": [
+        "{@i Умение 12-го уровня (усиливает «Увеличение характеристик»)}",
+        "Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
+        "Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
+      ]
+    },
+    {
+      "name": "Умение воплощения",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 14,
+      "entries": [
+        "На 14-м уровне вы получаете особенность, предоставляемую вашим выбором космического воплощения."
+      ]
+    },
+    {
+      "name": "Вознесение",
+      "source": "Izzy:Incarnate",
+      "page": 5,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 15,
+      "entries": [
+        "Начиная с 15-го уровня ваше тело настроено на планы. Вы больше не стареете и не можете умереть из-за течения времени, а также можете игнорировать любые эффекты, вызванные окружающей средой или вашим текущим планом существования.",
+        "Кроме того, вы можете сотворить {@spell plane shift}, не расходуя ячейку заклинаний. Если вы уже бывали на плане, вам не нужен его камертон, чтобы переместиться туда. После того как вы сотворите заклинание с помощью этой особенности, вы не сможете сделать это снова, пока не завершите продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Умение облика души",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 15,
+      "entries": [
+        "На 15-м уровне вы получаете особенность, предоставляемую вашим выбором формы души."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 16,
+      "entries": [
+        "Достигнув 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использовать черты, вместо этого вы можете выбрать {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Гибкость владений",
+      "source": "Izzy:Incarnate-UAClassFeatureVariants",
+      "page": 1,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 16,
+      "entries": [
+        "{@i Умение 16-го уровня (усиливает «Увеличение характеристик»)}",
+        "Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
+        "Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
+      ]
+    },
+    {
+      "name": "Умение воплощения",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 18,
+      "entries": [
+        "На 18-м уровне вы получаете особенность, предоставляемую вашим выбором космического воплощения."
+      ]
+    },
+    {
+      "name": "Сожжение души (3 использования)",
+      "source": "Izzy:Incarnate",
+      "page": 4,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 18,
+      "entries": [
+        "Начиная с 18-го уровня вы можете использовать эту особенность 3 раза между продолжительными отдыхами."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 19,
+      "entries": [
+        "Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20.",
+        "Если ваш Мастер разрешает использование талантов, вместо этого вы можете выбрать {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Гибкость владений",
+      "source": "Izzy:Incarnate-UAClassFeatureVariants",
+      "page": 1,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 19,
+      "entries": [
+        "{@i Умение 19-го уровня (усиливает «Увеличение характеристик»)}",
+        "Получая от своего класса умение «Увеличение характеристик», вы можете также заменить одно из своих владений навыками на владение навыком, которое ваш класс даёт на 1-м уровне (заменяемое владение не обязано быть от класса).",
+        "Это изменение отражает то, что один из ваших навыков атрофируется, пока вы сосредотачиваетесь на другом навыке."
+      ]
+    },
+    {
+      "name": "Бессмертный",
+      "source": "Izzy:Incarnate",
+      "page": 5,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "level": 20,
+      "entries": [
+        "На 20-м уровне вы становитесь чужеродным существом, сущностью одной из энергий мультивселенной. Вас нельзя против вашей воли вселить, телепортировать или обратить в нежить, а вашу душу нельзя против вашей воли украсть, поглотить или заточить.",
+        "Вы можете потратить неделю, чтобы назначить незанятый куб со стороной 10 футов своим якорем. В этой области появляется памятник, созданный по вашему замыслу. Только божество или заклинание {@spell wish} могут переместить или уничтожить этот памятник. Если вы умираете, на памятнике появляется новая безжизненная копия вашего тела. Через {@dice 1d4} недели вы пробуждаетесь в новом теле, сохраняя ту же личность, воспоминания и способности, а также всё снаряжение, к которому у вас было привязано, — оно телепортируется к памятнику в момент вашего пробуждения. До пробуждения у этого тела Класс доспеха (КД) 5 и 1 хит. Если оно умирает, начинает расти новое тело с тем же результатом {@dice d4}. Если на это тело накладывают заклинание, единственный эффект которого — вернуть вас к жизни, но не обратить в нежить, вы мгновенно пробуждаетесь."
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": ".",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 1,
+      "header": 1,
+      "entries": []
+    },
+    {
+      "name": "Душа небожителя",
+      "source": "Izzy:Incarnate",
+      "page": 9,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 3,
+      "entries": [
+        "Воплощённые, посвятившие себя небесному сиянию верхних планов, ощущают, как их сущность наполняется прекрасным божественным теплом. Они чувствуют глубокую связь со всей естественной жизнью, что пробуждает в них способность помогать окружающим и испепелять тех, кто угрожает их покою.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Избирательный список заклинаний Небожителя|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Свет избранного|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Целительное прикосновение|Incarnate|Izzy:Incarnate|Celestial|Izzy:Incarnate|3"
+        }
+      ]
+    },
+    {
+      "name": "Избирательный список заклинаний Небожителя",
+      "source": "Izzy:Incarnate",
+      "page": 9,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        {
+          "type": "table",
+          "colLabels": [
+            "Уровень воплощённого",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3-й",
+              "{@spell bless}, {@spell healing word}"
+            ],
+            [
+              "5-й",
+              "{@spell calm emotions}, {@spell augury}"
+            ],
+            [
+              "9-й",
+              "{@spell sending}, {@spell revivify}"
+            ],
+            [
+              "13-й",
+              "{@spell banishment}, {@spell death ward}"
+            ],
+            [
+              "17-й",
+              "{@spell flame strike}, {@spell raise dead}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Целительное прикосновение",
+      "source": "Izzy:Incarnate",
+      "page": 10,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Также на 3-м уровне божественная сущность вашей ауры позволяет вам направлять свою энергию на исцеление ран других. Бонусным действием вы касаетесь существа, и оно восстанавливает количество хитов, равное {@dice 1d10} + вашему модификатору Харизмы + вашему уровню воплощённого.",
+        "Вы можете использовать это умение количество раз, равное вашему модификатору Харизмы (минимум 1 раз). Вы восстанавливаете все потраченные использования этого умения после завершения продолжительного отдыха.",
+        "Начиная с 7-го уровня, когда вы исцеляете кого-либо с помощью этого умения, вы можете избавить существо от любого проклятия, а также прекратить действующие на него {@condition disease}, {@condition poison|PHB|отравлен}, {@condition blindness} или {@condition deafness}."
+      ]
+    },
+    {
+      "name": "Свет избранного",
+      "source": "Izzy:Incarnate",
+      "page": 9,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "На 3-м уровне вы можете бонусным действием создать или развеять кольцо из золотого света, парящее над вашей головой. Пока кольцо создано, оно излучает яркий свет в радиусе 30 футов вокруг вас.",
+        "Кроме того, пока это кольцо присутствует, вы можете говорить, читать и писать на {@language Celestial}."
+      ]
+    },
+    {
+      "name": ".",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 5,
+      "header": 1,
+      "entries": []
+    },
+    {
+      "name": "Божественное провозглашение",
+      "source": "Izzy:Incarnate",
+      "page": 10,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 7,
+      "header": 1,
+      "entries": [
+        "На 7-м уровне вы изучаете элемент языка божественного творения. Действием вы произносите одно из перечисленных ниже божественных слов. Провозглашение воздействует на каждое существо в пределах 30 футов от вас.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Мир",
+              "entries": [
+                "В течение следующей минуты всякий раз, когда подвергшееся этому эффекту существо подвергается атаке, бросок атаки совершается с помехой. Если существо вынуждено совершить спасбросок, оно совершает его с преимуществом. Если существо атакует или вынуждает другое существо совершить спасбросок, оно теряет это преимущество."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Смирение",
+              "entries": [
+                "Вы можете причинить {@damage 8d6} урона излучением каждому существу. Существо может выбрать преклонить колени и стать сбитым с ног, чтобы избежать урона."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Спасение",
+              "entries": [
+                "Каждое находящееся в сознании существо, имеющее не более половины своих максимальных хитов, восстанавливает количество хитов, равное {@dice 2d6} + ваш уровень воплощённого."
+              ]
+            }
+          ]
+        },
+        "Использовав это умение, вы не можете применить его снова, пока не завершите продолжительный отдых."
+      ]
+    },
+    {
+      "name": ".",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 11,
+      "header": 1,
+      "entries": []
+    },
+    {
+      "name": "Серафическая форма",
+      "source": "Izzy:Incarnate",
+      "page": 10,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 14,
+      "header": 1,
+      "entries": [
+        "Начиная с 14-го уровня, вы можете бонусным действием проявить из спины пары призрачных крыльев. Пока крылья существуют, вы получаете скорость полёта 30 футов. Крылья существуют, пока вы не станете {@condition incapacitated}, не умрёте или не развеете их бонусным действием. Кроме того, вы получаете сопротивление урону излучением."
+      ]
+    },
+    {
+      "name": ".",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 15,
+      "header": 1,
+      "entries": []
+    },
+    {
+      "name": "Аура рая",
+      "source": "Izzy:Incarnate",
+      "page": 10,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Небожитель",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 18,
+      "header": 1,
+      "entries": [
+        "На 18-м уровне вы можете распространить влияние своей небесной души на саму землю, на которой стоите. Действием вы можете испустить мощную ауру положительной энергии, воздействующую на всех выбранных вами существ в пределах 120 футов. Затронутое существо либо восстанавливает {@dice 10d6} хитов, либо получает {@damage 10d6} урона излучением — на ваш выбор. По мере распространения ауры область в пределах 120 футов от вас на 1 час превращается в небесную версию самой себя и получает следующие свойства:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "entries": [
+                "Любая магическая тьма, проклятие или болезнь в области подавляются."
+              ]
+            },
+            {
+              "type": "entries",
+              "entries": [
+                "Существа в области чувствуют полное насыщение, поскольку им не нужно есть, пить или дышать."
+              ]
+            },
+            {
+              "type": "entries",
+              "entries": [
+                "Всякий раз, когда существо совершает атаку по существу с 0 хитами, оно должно преуспеть в спасброске Харизмы, иначе атака промахивается. При успехе оно совершает бросок атаки как обычно."
+              ]
+            }
+          ]
+        },
+        "Использовав это умение, вы должны завершить продолжительный отдых, прежде чем сможете применить его снова.",
+        "Кроме того, если вы проводите в этой области весь час, её длительность увеличивается до 24 часов. Если вы используете это умение в одном и том же месте каждый день в течение 30 дней, оно становится постоянным. Это превращение можно прекратить только заклинанием {@spell wish}."
+      ]
+    },
+    {
+      "name": "Облик воина",
+      "source": "Izzy:Incarnate",
+      "page": 5,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 1,
+      "entries": [
+        "Этот облик души открывает воплощённому величие битвы и наделяет его сверхъестественным воинским мастерством, даже если прежде он ни разу не брал в руки клинок. Такие воплощённые встречаются на поле боя, внутренне стремясь достичь славы через победу. Это пленники с огнём в глазах, закованные в цепи в конце битвы, рождённые под багровым приливом войны, дети избранников Исгарда или проклятые Ахерона. Независимо от происхождения, этот облик души определяется преодолением невзгод.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Избирательные заклинания воина|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Воплощённый воин|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Воинский дух|Incarnate|Izzy:Incarnate|Warrior|Izzy:Incarnate|1"
+        }
+      ]
+    },
+    {
+      "name": "Воинский дух",
+      "source": "Izzy:Incarnate",
+      "page": 6,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Также на 1-м уровне вы можете призывать воинский дух, чтобы совершать выдающиеся боевые подвиги. Вы учитесь использовать три манёвра по вашему выбору из приведённых ниже. Использовав манёвр, вы не можете использовать ни один из этих манёвров снова до начала своего следующего хода:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Гибель исполина",
+              "entries": [
+                "Совершая атаку по существу Большого размера или больше с преимуществом, вы можете отказаться от преимущества, чтобы при попадании нанести дополнительный урон, равный одной кости оружия."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Калечащий удар",
+              "entries": [
+                "Если вы попадаете по существу атакой оружием, вы можете уменьшить его скорости на 10 футов до начала вашего следующего хода."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Сокрушитель земли",
+              "entries": [
+                "Если вы попадаете по {@condition prone} существу атакой оружием, вы можете нанести дополнительный урон силовым полем, равный модификатору способности, использованному для атаки."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Хватка титана",
+              "entries": [
+                "Если вы успешно используете {@action grapple} против существа, вы можете нанести этому существу урон силовым полем, равный {@damage 1d4} + половина вашего уровня воплощения."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Неостановимое наступление",
+              "entries": [
+                "Если вы попадаете по существу атакой оружием, вы можете оттолкнуть цель на 10 футов прямо влево, вправо или назад. Вы можете немедленно переместиться на 10 футов к ней, не провоцируя провоцированные атаки."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Парные удары",
+              "entries": [
+                "Если вы совершаете действие {@action Attack}, держа в каждой руке по рукопашному оружию, и совершаете атаку одним из этих оружий, вы можете немедленно совершить дополнительную атаку другим оружием. Вы не добавляете модификатор способности к урону этих дополнительных атак, если только он не отрицательный. Вы не можете совершить атаку оружием бонусным действием и использовать этот манёвр в том же ходу.",
+                "Начиная с 5-го уровня, вы также можете использовать этот манёвр для второй атаки, которую совершаете в рамках действия Attack."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Воплощённый воин",
+      "source": "Izzy:Incarnate",
+      "page": 6,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "На 1-м уровне вы получаете врождённое понимание военного дела. Вы получаете владение воинским оружием, всеми доспехами и щитами.",
+        "Кроме того, вы совершаете с преимуществом любые проверки Интеллекта, выполняемые для выяснения сведений, связанных с войнами, сражениями или другими видами военных действий."
+      ]
+    },
+    {
+      "name": "Избирательные заклинания воина",
+      "source": "Izzy:Incarnate",
+      "page": 6,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "На 2-м, 5-м, 9-м, 13-м и 17-м уровнях вы изучаете по одному из двух заклинаний на соответствующем уровне, представленных в таблице «Избирательные заклинания воина», по вашему выбору. Изученное таким образом заклинание считается для вас заклинанием воплощённого, но не учитывается при подсчёте известного вам количества заклинаний воплощённого. Когда вы заменяете заклинание воплощённого при получении уровня с помощью вашего умения «Сотворение заклинаний», вы можете вместо этого заменить изученное таким образом заклинание другим заклинанием того же уровня.",
+        {
+          "type": "table",
+          "colLabels": [
+            "Уровень воплощённого",
+            "Заклинания"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3-й",
+              "{@spell Триумфальный дождь|Izzy:Incarnate}, {@spell compelled duel}"
+            ],
+            [
+              "5-й",
+              "{@spell branding smite}, {@spell find steed}"
+            ],
+            [
+              "9-й",
+              "{@spell Буря клинков|Izzy:Incarnate}, {@spell Железный залп|Izzy:Incarnate}"
+            ],
+            [
+              "13-й",
+              "{@spell Призыв строя|Izzy:Incarnate}, {@spell find greater steed|XGE}"
+            ],
+            [
+              "17-й",
+              "{@spell steel wind strike|XGE}, {@spell swift quiver}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 3,
+      "header": 1,
+      "entries": []
+    },
+    {
+      "name": "Дополнительная атака",
+      "source": "Izzy:Incarnate",
+      "page": 6,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 5,
+      "header": 1,
+      "entries": [
+        "Начиная с 5-го уровня, вы можете атаковать дважды вместо одного раза, когда в свой ход совершаете действие {@action Attack}."
+      ]
+    },
+    {
+      "name": ".",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 7,
+      "header": 1,
+      "entries": []
+    },
+    {
+      "name": "Неукротимый дух",
+      "source": "Izzy:Incarnate",
+      "page": 6,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 11,
+      "header": 1,
+      "entries": [
+        "На 11-м уровне душа воина наделяет вас невероятной стойкостью перед лицом невзгод. Если вы уменьшаете урон от атаки до 0 с помощью преграды души, вы можете совершить атаку против нападающего в рамках той же реакции."
+      ]
+    },
+    {
+      "name": ".",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 14,
+      "header": 1,
+      "entries": []
+    },
+    {
+      "name": "Рождённый войной",
+      "source": "Izzy:Incarnate",
+      "page": 6,
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 15,
+      "header": 1,
+      "entries": [
+        "На 15-м уровне ваша душа ярче всего горит в величайших сражениях. Когда вы входите в состояние горения души, каждое враждебное существо в пределах 30 футов от вас получает {@damage 1d10} некротического урона. Вы получаете временные хиты в количестве, равном сумме нанесённого урона (максимум — утроенный уровень воплощённого). Эти временные хиты сохраняются, пока не закончится горение души."
+      ]
+    },
+    {
+      "name": ".",
+      "source": "Izzy:Incarnate",
+      "className": "Incarnate",
+      "classSource": "Izzy:Incarnate",
+      "subclassShortName": "Воин",
+      "subclassSource": "Izzy:Incarnate",
+      "level": 18,
+      "header": 1,
+      "entries": []
+    }
+  ],
+  "spell": [
+    {
+      "name": "Буря клинков",
+      "source": "Izzy:Incarnate",
+      "page": 16,
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          }
+        }
+      ],
+      "entries": [
+        "Вы отделяете часть своей духовной сущности, чтобы призвать четыре призрачных оружия, парящих вокруг вас в вашем пространстве. Когда существо попадает по вам рукопашной атакой, вы можете уничтожить одно из этих оружий, чтобы уменьшить урон этой атаки на {@damage 1d8} + ваш модификатор базовой характеристики для сотворения заклинаний. Атакующее существо получает такое же количество урона силовым полем."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Если вы накладываете это заклинание, используя ячейку заклинаний 4-го уровня или выше, вы призываете ещё одно оружие за каждый уровень ячейки выше 3-го."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "force"
+      ],
+      "miscTags": [
+        "SCL"
+      ]
+    },
+    {
+      "name": "Терновая цепь",
+      "source": "Izzy:Incarnate",
+      "page": 17,
+      "level": 4,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Вы призываете толстую массу переплетённых корней и покрытых шипами лоз, которая вырывается из земли в свободном пространстве в пределах дистанции, которое вы видите. Наложив это заклинание, вы можете направить массу на существо в пределах 60 футов от неё, которое вы видите.",
+        "Это существо должно совершить спасбросок Ловкости. Цель автоматически преуспевает в этом спасброске, если она Огромная или больше. При провале цель получает состояние {@condition grappled}, получает {@damage 3d8} колющего урона и притягивается на 30 футов прямо к массе. Пока масса удерживает существо, вы можете бонусным действием причинить ему {@damage 3d8} колющего урона. В конце каждого своего хода существо может повторить спасбросок, освобождаясь от захвата при успехе. Союзное существо может добровольно провалить этот спасбросок, чтобы его притянуло на расстояние до 30 футов к лозе, не причиняя ему урона и не накладывая на него состояние {@condition grappled}.",
+        "Пока заклинание не закончится, вы можете бонусным действием в каждом своём ходу направлять терновую массу на то же или другое существо. Если она атакует существо, удерживая другое, первое существо больше не находится в состоянии {@condition grappled}."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "piercing"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ],
+      "miscTags": [
+        "FMV",
+        "SGT",
+        "UBA"
+      ],
+      "areaTags": [
+        "MT",
+        "ST"
+      ]
+    },
+    {
+      "name": "Призыв драконьего рода",
+      "source": "Izzy:Incarnate",
+      "page": 16,
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Вы призываете на помощь драконьих духов, которые отвечают в форме призванного {@creature Дух дрейка|Izzy:Incarnate}. Драконий дух исчезает, когда его хиты опускаются до 0 или когда заклинание заканчивается. При призыве он получает одну из следующих особенностей: скорость лазания 30 футов, скорость рытья 20 футов или скорость плавания 30 футов. При попадании его укус причиняет дополнительно {@damage 1d6} урона одного из следующих типов: кислота, холод, огонь, электричество или яд; кроме того, он получает сопротивление этому типу урона.",
+        "Призванное существо дружелюбно к вам и вашим спутникам. Бросьте инициативу для духа дракона, у которого есть собственные ходы. Он подчиняется любым отданным вами устным приказам (не требующим от вас действия). Если вы не отдаёте приказов, он защищается от враждебных существ, но в остальном действий не совершает."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Если вы накладываете это заклинание, используя ячейку заклинаний 4-го уровня или выше, хиты духа увеличиваются на 15 за каждый уровень ячейки выше 3-го. Если вы используете ячейку заклинаний 5-го уровня или выше, длительность увеличивается до 24 часов."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "acid",
+        "bludgeoning",
+        "cold",
+        "fire",
+        "lightning",
+        "piercing",
+        "poison"
+      ],
+      "miscTags": [
+        "SCL",
+        "SMN"
+      ]
+    },
+    {
+      "name": "Призыв строя",
+      "source": "Izzy:Incarnate",
+      "page": 17,
+      "level": 4,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Вы призываете на земле в пределах дистанции линию призрачных солдат. Линия может иметь длину до 20 футов, высоту 10 футов и ширину 5 футов. Чтобы пройти через эту линию, существо должно действием совершить проверку Силы против вашей Сл заклинаний. При успехе существо может перемещаться через линию как по труднопроходимой местности до конца хода.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Лучники",
+              "entries": [
+                "Когда лучники появляются впервые, а также действием в последующие ходы, вы можете выбрать точку в пределах 60 футов от лучников, не имеющую от них полного укрытия. Каждое существо в пределах 10 футов от этой точки должно преуспеть в спасброске Ловкости, получая {@damage 4d10} силового урона при провале или половину этого урона при успехе."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Фаланга",
+              "entries": [
+                "Выберите, в какую сторону обращаются вооружённые копьями солдаты этой линии. Область в пределах 10 футов от линии в направлении, куда обращены солдаты, является труднопроходимой местностью. Когда линия появляется впервые, а также в конце каждого вашего последующего хода каждое существо в этой области должно преуспеть в спасброске Ловкости, получая {@damage 4d10} силового урона при провале или половину этого урона при успехе. Вы можете бонусным действием переместить фалангу вперёд на расстояние до 15 футов в направлении, куда обращены солдаты. Она останавливается, если встречает существо или препятствие."
+              ]
+            }
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "force"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ],
+      "abilityCheck": [
+        "strength"
+      ],
+      "miscTags": [
+        "UBA"
+      ],
+      "areaTags": [
+        "L",
+        "R"
+      ]
+    },
+    {
+      "name": "Бросок стража",
+      "source": "Izzy:Incarnate",
+      "page": 15,
+      "level": 2,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Вы пытаетесь метнуть существо в пределах дистанции силой призрачного стража. Цель должна совершить спасбросок Силы. При провале страж метает её на 30 футов в выбранном вами направлении. Если она сталкивается с предметом или существом, оба получают {@damage 1d6} дробящего урона за каждые 10 футов оставшегося вынужденного перемещения (минимум {@dice 1d6}).",
+        "Союзное существо может добровольно провалить этот спасбросок. В таком случае страж метает его на 30 футов, и оно не получает урон."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "bludgeoning"
+      ],
+      "savingThrow": [
+        "strength"
+      ],
+      "areaTags": [
+        "ST"
+      ]
+    },
+    {
+      "name": "Буря листьев",
+      "source": "Izzy:Incarnate",
+      "page": 17,
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "различные виды листьев"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Снизу вырывается столб кружащегося ветра и острых как бритва листьев: цилиндр радиусом 15 футов и высотой 100 футов с центром в точке в пределах дистанции. Пока заклинание не закончится, местность внутри цилиндра считается труднопроходимой и сильно заслонённой. Когда существо перемещается в этой области или внутри неё, оно получает {@damage 3d4} рубящего урона за каждые пройденные 5 футов.",
+        "Бонусным действием в каждом своём ходу вы можете переместить цилиндр на расстояние до 15 футов в выбранном вами направлении."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "slashing"
+      ],
+      "miscTags": [
+        "UBA"
+      ],
+      "areaTags": [
+        "Y"
+      ]
+    },
+    {
+      "name": "Наскок",
+      "source": "Izzy:Incarnate",
+      "page": 14,
+      "level": 1,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Ваше тело напрягается и на миг превращается в более звероподобную версию себя, пока вы прыгаете к своей добыче. Выберите видимое вам существо в пределах дистанции, не находящееся за полным укрытием. Вы прыгаете в свободное пространство в пределах 5 футов от существа. Цель должна преуспеть в спасброске Силы, иначе получает {@damage 1d6} дробящего урона, а вы накладываете на неё состояние {@condition grappled}, используя свободную руку или природное оружие.",
+        "Пока вы поддерживаете этот захват, безоружные удары и атаки естественным оружием наносят этому существу дополнительный {@damage 1d6} урона. Существо автоматически преуспевает в этом спасброске, если оно на две категории размера больше вас.",
+        "В каждый свой ход существо может действием повторить спасбросок, разрывая захват при успехе."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "bludgeoning"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "savingThrow": [
+        "strength"
+      ],
+      "miscTags": [
+        "SGT"
+      ],
+      "areaTags": [
+        "ST"
+      ]
+    },
+    {
+      "name": "Рывок минотавра",
+      "source": "Izzy:Incarnate",
+      "page": 15,
+      "level": 2,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Ваши мышцы напрягаются и уплотняются, а из вашего черепа вырастают рога (если их у вас ещё нет), после чего вы устремляетесь вперёд. Выберите видимую вам цель в пределах дистанции. Вы перемещаетесь по прямой непосредственно к этой цели. Заклинание проваливается, если между вами и целью нет прямого пути, который вы можете преодолеть, используя одну из своих скоростей.",
+        "Во время этого перемещения вы получаете сопротивление всему урону и можете пробегать через пространства, занятые другими существами. Любое существо, через пространство которого вы пробегаете, получает {@damage 1d10} колющего урона и отталкивается в ближайшее свободное пространство по своему выбору, находящееся в стороне от вашего пути.",
+        "Достигнув цели, вы пронзаете её рогами, вынуждая её совершить спасбросок Силы. При провале существо получает {@damage 3d10} колющего урона и оказывается сбито с ног {@condition prone}, когда вы врезаете его в землю. Если вы выбрали предмет или строение, оно вместо этого получает 30 колющего урона."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Если вы накладываете это заклинание, используя ячейку заклинаний 3-го уровня или выше, урон цели увеличивается на {@damage 1d10}, а урон препятствиям — на 10 за каждый уровень ячейки выше 2-го."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "piercing"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrow": [
+        "strength"
+      ],
+      "miscTags": [
+        "SCL",
+        "SGT"
+      ],
+      "areaTags": [
+        "L",
+        "ST"
+      ]
+    },
+    {
+      "name": "Изначальный гнев",
+      "source": "Izzy:Incarnate",
+      "page": 16,
+      "level": 3,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "На время действия ваше тело увеличивается, приобретая чудовищные черты. Например, ваше природное оружие становится крупнее и грубее, а ваше тело покрывается чешуёй, мехом или другими покровами. На время действия вы увеличиваетесь вдвое во всех измерениях, а ваш вес увеличивается в 8 раз. Этот рост увеличивает ваш размер на 1 категорию — например, со Среднего до Большого. Если вокруг недостаточно места, чтобы вы увеличились вдвое, вы достигаете максимально возможного размера в доступном пространстве. Всё снаряжение на вас сливается с вашим телом на время действия, однако вы всё ещё получаете преимущества от предметов, с которыми установили связь.",
+        "На время действия ваши безоружные удары или природное оружие причиняют дополнительный {@damage 1d8} урона, а дистанция вашего прыжка становится равна вашей скорости. Кроме того, вы добавляете свой модификатор базовой характеристики заклинаний к проверкам Силы и спасброскам, а ваша скорость не уменьшается вдвое, когда вы перемещаете цель, находящуюся в состоянии {@condition grappled}. Наконец, вы можете действием ударить по земле вокруг себя, заставляя всех существ в пределах 10 футов от вас совершить спасбросок Ловкости. При провале существо получает {@damage 2d12} дробящего урона и падает ничком: {@condition prone}."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "bludgeoning"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ],
+      "areaTags": [
+        "R"
+      ]
+    },
+    {
+      "name": "Ненасытная уловка",
+      "source": "Izzy:Incarnate",
+      "page": 18,
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Звериная отчаянность поглощает вас, а ваша пасть расширяется и покрывается острыми зубами. Вы вцепляетесь в одно существо и пытаетесь вытянуть его душу. Совершите рукопашную атаку заклинанием по существу в пределах дистанции. При попадании эта атака причиняет {@damage 5d10} некротического урона, а при промахе — половину этого урона.",
+        "Вы восстанавливаете количество хитов, равное количеству урона, полученного целью. Если у вас осталось менее половины максимального количества хитов, количество восстановленных хитов удваивается. Если хиты существа уменьшаются до 0, его душа оказывается заперта внутри вас, пока вы не умрёте. Пока душа заперта таким образом, существо нельзя оживить никакими средствами, кроме заклинания исполнения желаний."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "necrotic"
+      ],
+      "spellAttack": [
+        "M"
+      ],
+      "miscTags": [
+        "HL"
+      ],
+      "areaTags": [
+        "ST"
+      ]
+    },
+    {
+      "name": "Чтение сущности",
+      "source": "Izzy:Incarnate",
+      "page": 15,
+      "level": 2,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Вы смотрите на предмет в пределах дистанции и пытаетесь прочесть оставшуюся в нём жизненную сущность. Вы узнаёте о предмете одну из следующих подробностей по своему выбору или схожую информацию, которую Мастер сочтёт подходящей:",
+        {
+          "type": "list",
+          "items": [
+            "Внешность последнего человека, державшего этот предмет в течение последних 10 дней, в момент, когда он держал его.",
+            "Использовался ли предмет для убийства кого-либо за последние 10 дней, прямо или косвенно.",
+            "Как выглядел предмет целиком, если он сломан."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "miscTags": [
+        "SGT"
+      ],
+      "areaTags": [
+        "ST"
+      ]
+    },
+    {
+      "name": "Дикий рёв",
+      "source": "Izzy:Incarnate",
+      "page": 18,
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Вы издаёте настолько свирепый и первобытный рёв, что он потрясает до глубины души существ вокруг вас. Этот рёв слышен на расстоянии до 1 мили. Каждое враждебное существо в пределах досягаемости должно преуспеть в спасброске Мудрости, иначе станет {@condition paralyzed} на время действия заклинания или пока не получит урон. Существа, невосприимчивые к состоянию {@condition frightened}, автоматически преуспевают в этом спасброске. Звери совершают этот спасбросок с помехой.",
+        "В конце каждого своего хода цель может повторить спасбросок Мудрости. При успехе заклинание заканчивает действовать на цели."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "conditionInflict": [
+        "paralyzed"
+      ],
+      "savingThrow": [
+        "wisdom"
+      ],
+      "areaTags": [
+        "S"
+      ]
+    },
+    {
+      "name": "Покоритель небес",
+      "source": "Izzy:Incarnate",
+      "page": 17,
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Ваши глаза сужаются и становятся жёлтыми, а из спины вырастают орлиные крылья, магически изменяющие всё, что на вас надето, чтобы освободить для них место. Если у вас уже есть крылья, они становятся больше и сильнее.",
+        "На время действия заклинания вы получаете скорость полёта 60 футов. В качестве альтернативы, если у вас уже есть крылья, дающие скорость полёта, вы можете увеличить скорость полёта на 30 футов. Кроме того, вы нормально видите при тусклом свете и в темноте, а ваш бонус владения удваивается для совершаемых вами проверок {@skill Perception}, основанных на зрении."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "miscTags": [
+        "SGT"
+      ]
+    },
+    {
+      "name": "Душа в узах",
+      "source": "Izzy:Incarnate",
+      "page": 16,
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Вы призываете силу призрачного стража, чтобы удерживать врагов. Когда вы накладываете это заклинание, а затем бонусным действием в последующие ходы в течение его длительности, вы можете призывать аспект своего стража, чтобы удерживать врагов. Часть вашего стража поднимается снизу и хватает существо. Например, если ваш страж принимает облик дриады, существо может оказаться опутанным лозами, а если ваш страж принимает облик дракона — зажатым в драконьих когтях или пасти.",
+        "Существо в пределах досягаемости должно совершить спасбросок Харизмы. При провале оно получает {@damage 3d8} урона силовым полем и становится {@condition restrained} на время действия заклинания. Существо, находящееся в состоянии {@condition restrained}, может действием повторить этот спасбросок и освободиться при успехе.",
+        "Действием вы можете нанести {@damage 3d8} урона силовым полем каждой цели, удерживаемой этим заклинанием в состоянии {@condition restrained}, пока аспекты давят на них."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Если вы накладываете это заклинание, используя ячейку заклинаний 4-го уровня или выше, начальный урон и урон, наносимый целям в состоянии {@condition restrained}, увеличивается на {@damage 1d8} за каждый уровень ячейки выше 3-го."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "force"
+      ],
+      "conditionInflict": [
+        "restrained"
+      ],
+      "savingThrow": [
+        "charisma"
+      ],
+      "miscTags": [
+        "SCL",
+        "UBA"
+      ],
+      "areaTags": [
+        "MT",
+        "ST"
+      ]
+    },
+    {
+      "name": "Призрачный шквал",
+      "source": "Izzy:Incarnate",
+      "page": 15,
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Над вами нависает лик призрачного стража, пока вы оба наносите существу в пределах досягаемости стремительный шквал ударов. Совершите 2 рукопашные атаки заклинанием по цели. При попадании каждая атака наносит {@damage 2d6} урона силовым полем. Затем цель подвергается дополнительному эффекту в зависимости от количества попавших атак, как указано в таблице «Дополнительные эффекты». Вы можете выбрать любой эффект, соответствующий количеству попавших атак или меньший.",
+        {
+          "type": "table",
+          "colLabels": [
+            "Количество попаданий",
+            "Эффект"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "2 или меньше",
+              "Цель отталкивается на 10 футов за каждую попавшую атаку."
+            ],
+            [
+              "3",
+              "Цель сбивается с ног: {@condition prone}."
+            ],
+            [
+              "4",
+              "Цель должна преуспеть в спасброске Телосложения, иначе становится {@condition stunned} до начала вашего следующего хода."
+            ],
+            [
+              "5",
+              "Цель должна преуспеть в спасброске Телосложения, иначе становится {@condition paralyzed} до начала вашего следующего хода."
+            ],
+            [
+              "6 или больше",
+              "Цель получает дополнительный {@damage 1d6} урон за каждую попавшую атаку."
+            ]
+          ]
+        }
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Если вы накладываете это заклинание, используя ячейку заклинаний 2-го уровня или выше, вы можете совершить 1 дополнительную рукопашную атаку заклинанием за каждый уровень заклинаний выше 2-го."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "force"
+      ],
+      "spellAttack": [
+        "M"
+      ],
+      "miscTags": [
+        "FMV",
+        "SCL",
+        "SGT"
+      ],
+      "areaTags": [
+        "ST"
+      ]
+    },
+    {
+      "name": "Шаг преследователя",
+      "source": "Izzy:Incarnate",
+      "page": 17,
+      "level": 3,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          }
+        }
+      ],
+      "entries": [
+        "Ваш облик становится гибким и кошачьим, ваш взгляд учится замечать слабые места, а ваша кожа начинает мерцать и сливаться с окружением. Пока заклинание действует, ваш облик становится размытым, из-за чего вы становитесь слегка заслонённым; вы можете использовать модификатор своей характеристики, используемой для сотворения заклинаний, вместо модификатора Ловкости при совершении проверки Ловкости ({@skill Stealth}), а также можете бонусным действием совершить действия {@action Dash} или {@action Hide}.",
+        "Когда вы накладываете это заклинание, а затем действием в последующие ходы, вы можете стать {@condition invisible} до конца своего следующего хода или до тех пор, пока не атакуете или не наложите заклинание.",
+        "Наконец, каждый раз, когда вы попадаете по существу, от которого вы скрыты, атакой рукопашным оружием, вы можете завершить это заклинание, чтобы эта атака причинила дополнительный урон {@damage 6d6}."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "miscTags": [
+        "UBA"
+      ]
+    },
+    {
+      "name": "Душа титана",
+      "source": "Izzy:Incarnate",
+      "page": 18,
+      "level": 4,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Вы берёте частицу своей души в руку и приказываете ей появиться в свободном пространстве в пределах дистанции. Из этой точки возникает Большой призрачный страж, существующий, пока действует заклинание. Все его значения характеристик и Класс доспеха (КД) равны значению вашей характеристики, используемой для сотворения заклинаний, а его максимум хитов равен вашему. Он обладает теми же чувствами, что и вы, и использует ваш модификатор владения. Он владеет всеми спасбросками, а также всеми навыками, которыми владеете вы.",
+        "Если вы участвуете в том же бою, страж совершает свой ход по вашей инициативе, а не совершает собственный бросок инициативы. Страж обладает врождённой связью с вами и поэтому действует именно так, как вы ему приказываете. Он обладает скоростью полёта 60 футов, а в свой ход может совершить действия {@action Dodge}, {@action Dash}, {@action Disengage} и {@action Search} или одно из следующих действий:",
+        "{@b Гнев титана.} Ваш страж излучает ауру жажды убийства. Каждое существо в пределах 20 футов от него должно преуспеть в спасброске Харизмы, иначе станет {@condition frightened} стражем до начала своего следующего хода. Пока существа находятся в состоянии {@condition frightened} таким образом, их скорость становится равной 0.",
+        "{@b Защита титана.} Ваш страж соединяет свою жизненную силу с жизненной силой другого существа. Выберите видимое стражу существо в пределах 5 футов от него. Любой урон, который это существо получает до начала своего следующего хода, уменьшается до 0. Страж получает весь урон, уменьшенный таким образом.",
+        "{@b Натиск титана.} Ваш страж жестоко поражает существо в пределах 10 футов от него. Страж совершает по нему рукопашную атаку заклинанием, используя ваш модификатор атаки заклинанием. При попадании цель получает {@damage 3d10} урона силовым полем и отталкивается на 10 футов."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "conditionInflict": [
+        "frightened"
+      ],
+      "spellAttack": [
+        "M"
+      ],
+      "savingThrow": [
+        "charisma"
+      ],
+      "miscTags": [
+        "FMV",
+        "SMN"
+      ],
+      "areaTags": [
+        "ST"
+      ]
+    },
+    {
+      "name": "Триумфальный дождь",
+      "source": "Izzy:Incarnate",
+      "page": 15,
+      "level": 1,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Вы вызываете дождь призрачных копий на своих врагов. Каждая попавшая копья заставляет вашу душу предвкушать битву. Выберите точку в пределах дистанции. Каждое существо в пределах 10-футового радиуса от этой точки должно совершить спасбросок Ловкости. При провале существо получает {@damage 2d6} колющего урона, а при успехе — половину этого урона. За каждое существо, провалившее спасбросок, ваша скорость увеличивается на 10 футов до конца вашего следующего хода."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Если вы накладываете это заклинание, используя ячейку заклинаний 2-го уровня или выше, радиус заклинания увеличивается на 5 футов за каждый уровень ячейки выше 1-го."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "damageInflict": [
+        "piercing"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ],
+      "miscTags": [
+        "SCL"
+      ],
+      "areaTags": [
+        "S"
+      ]
+    },
+    {
+      "name": "Железный залп",
+      "source": "Izzy:Incarnate",
+      "page": 17,
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "боеприпасы или метательное оружие, которое не расходуется"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Вы бросаете немагическое оружие или выстреливаете немагическим боеприпасом в воздух, создавая конус одинакового оружия, которое летит вперёд, а затем исчезает. Выберите любое количество существ в конусе длиной 60 футов и распределите между ними 20 снарядов (одно существо может быть целью не более 5 снарядов). Каждое существо должно совершить спасбросок Ловкости, получая {@damage 1d8} урона за каждый выпущенный в него снаряд, или половину этого урона при успешном спасброске. Вид урона совпадает с видом урона оружия или боеприпаса, использованного в качестве компонента."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Воплощенный",
+            "source": "Izzy:Incarnate"
+          }
+        ]
+      },
+      "savingThrow": [
+        "dexterity"
+      ],
+      "areaTags": [
+        "N"
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Дух дрейка",
+      "source": "Izzy:Incarnate",
+      "page": 98,
+      "size": [
+        "L"
+      ],
+      "type": "dragon",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "7d10 + 21",
+        "average": 59
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 20
+      },
+      "str": 16,
+      "dex": 11,
+      "con": 16,
+      "int": 4,
+      "wis": 10,
+      "cha": 7,
+      "skill": {
+        "perception": "+2"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "languages": [
+        "понимает драконий, но не говорит на нём"
+      ],
+      "cr": "2",
+      "action": [
+        {
+          "name": "Мультиатака",
+          "entries": [
+            "Дрейк совершает две атаки: одну укусом и одну хвостом."
+          ]
+        },
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 5} для попадания, досягаемость 5 фт., одна цель. {@h}7 ({@damage 1d8 + 3}) колющего урона."
+          ]
+        },
+        {
+          "name": "Хвост",
+          "entries": [
+            "{@atk mw} {@hit 5} к попаданию, досягаемость 5 футов, одна цель. {@h}6 ({@damage 1d6 + 3}) дробящего урона."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CS",
+        "DR"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    }
+  ]
 }

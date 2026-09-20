@@ -1,879 +1,879 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "XesusHomebrew",
-				"abbreviation": "XH",
-				"full": "Xesu's Homebrew",
-				"url": "https://xesu.moe",
-				"version": "1.1.0",
-				"authors": [
-					"Xesu"
-				],
-				"convertedBy": [
-					"Xesu"
-				]
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1598287787,
-		"dateLastModified": 1785698747,
-		"_dateLastModifiedHash": "c621b1100a"
-	},
-	"class": [
-		{
-			"name": "Самурай",
-			"source": "XesusHomebrew",
-			"hd": {
-				"number": 1,
-				"faces": 10
-			},
-			"proficiency": [
-				"con",
-				"wis"
-			],
-			"startingProficiencies": {
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"acrobatics",
-								"athletics",
-								"animal handling",
-								"history",
-								"insight",
-								"intimidation",
-								"perception",
-								"persuasion",
-								"survival"
-							],
-							"count": 2
-						}
-					}
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
-				"tools": [
-					"Shakuhachi, or any {@item musical instrument|PHB} of your choice"
-				],
-				"armor": [
-					"light",
-					"medium",
-					"heavy"
-				],
-				"armorProficiencies": [
-					{
-						"light": true,
-						"medium": true,
-						"heavy": true
-					}
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"a {@item longsword|phb}",
-					"(a) {@item leather armor|phb} or (b) {@item chain mail|phb}, or (c) {@item traveler's clothes|phb} and any {@filter musical instrument|items|miscellaneous=mundane|type=instrument}",
-					"(a) a {@item shortsword|phb}, (b) a  {@item longbow|phb} and a {@item quiver|phb} of {@item arrows (20)|phb|20 стрел}, (c) a {@item glaive|phb}, (d)  a {@item greatsword|phb} or (e) a  a {@item greatclub|phb}",
-					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
-				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Начальное золото}",
-				"defaultData": [
-					{
-						"_": [
-							"longsword|phb"
-						]
-					},
-					{
-						"a": [
-							"leather armor|phb"
-						],
-						"b": [
-							"chain mail|phb"
-						],
-						"c": [
-							"traveler's clothes|phb",
-							{
-								"equipmentType": "instrumentMusical"
-							}
-						]
-					},
-					{
-						"a": [
-							"shortsword|phb"
-						],
-						"b": [
-							"longbow|phb",
-							"arrows (20)|phb"
-						],
-						"c": [
-							"glaive|phb"
-						],
-						"d": [
-							"greatsword|phb"
-						],
-						"e": [
-							"greatclub|phb"
-						]
-					},
-					{
-						"a": [
-							"dungeoneer's pack|phb"
-						],
-						"b": [
-							"explorer's pack|phb"
-						]
-					}
-				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"wis": 13
-				},
-				"proficienciesGained": {
-					"skills": [
-						{
-							"choose": {
-								"from": [
-									"acrobatics",
-									"athletics",
-									"animal handling",
-									"history",
-									"insight",
-									"intimidation",
-									"perception",
-									"persuasion",
-									"survival"
-								],
-								"count": 1
-							}
-						}
-					],
-					"weapons": [
-						"simple",
-						"martial"
-					]
-				}
-			},
-			"classFeatures": [
-				"Воинские добродетели|Samurai|XesusHomebrew|1",
-				"Мастер оружия|Samurai|XesusHomebrew|1",
-				"Стойка|Samurai|XesusHomebrew|2",
-				"Боевой дух|Samurai|XesusHomebrew|2",
-				"Парирование|Samurai|XesusHomebrew|2",
-				{
-					"classFeature": "Кодекс чести|Samurai|XesusHomebrew|3",
-					"gainSubclassFeature": true
-				},
-				"Осознанное чувство|Samurai|XesusHomebrew|4",
-				"Увеличение характеристик|Samurai|XesusHomebrew|4",
-				"Дополнительная атака|Samurai|XesusHomebrew|5",
-				"Неутомимый дух|Samurai|XesusHomebrew|5",
-				{
-					"classFeature": "Умение кодекса|Samurai|XesusHomebrew|6",
-					"gainSubclassFeature": true
-				},
-				"Живая сила|Samurai|XesusHomebrew|7",
-				"Увеличение характеристик|Samurai|XesusHomebrew|8",
-				"Умелый|Samurai|XesusHomebrew|9",
-				{
-					"classFeature": "Умение кодекса|Samurai|XesusHomebrew|10",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Samurai|XesusHomebrew|12",
-				"Удар сверху|Samurai|XesusHomebrew|13",
-				{
-					"classFeature": "Умение кодекса|Samurai|XesusHomebrew|14",
-					"gainSubclassFeature": true
-				},
-				"Неумолимый дух|Samurai|XesusHomebrew|15",
-				"Увеличение характеристик|Samurai|XesusHomebrew|16",
-				"Сила прежде смерти|Samurai|XesusHomebrew|18",
-				"Увеличение характеристик|Samurai|XesusHomebrew|19",
-				"Разрез полной луны|Samurai|XesusHomebrew|20"
-			],
-			"subclassTitle": "Code of Honor",
-			"hasFluff": true
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Самурай",
-			"source": "XesusHomebrew",
-			"entries": [
-				{
-					"name": "Самурай",
-					"type": "section",
-					"source": "XesusHomebrew",
-					"entries": [
-						"Самурай — воин, черпающий силы в неукротимом боевом духе, чтобы одолеть врагов. Решимость самурая почти несокрушима, и у врагов на его пути есть два выбора: сдаться или погибнуть в бою.",
-						{
-							"type": "entries",
-							"name": "Благородный воин",
-							"entries": [
-								"These warriors follow a code called Bushido, which guides to their path of honor; masters in the art of swords these warriors use them with grace and unmatched skill. Using their skills for themselves or for others, these warriors will fight to the death and won't surrender. Some legends say they are able to even control subtle magic after years of study and meditation. Follower of the Bushido. Warrior with unique abilities achieved throughout years of training, the samurai is well known by it's fighting style, code of conduct and weapon proficiency, being able to defeat a foe in one single draw or sustaining several attacks swiftly and commanding its allies to victory. Not only deadly with a Katana, the samurai is specialized with several kinds of weapon, but tend to stick with one style for the rest of its life as its trademark."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Создание самурая",
-							"entries": [
-								"Почему ваш персонаж следует кодексу Бусидо — или почему нет? Почему он решил странствовать? Сражается ли он за своего господина, за себя или чтобы защитить кого-то? Сбежал ли он от своего господина или господин был убит, и теперь он ищет мести? Так же важна для него честь, как и жизнь?",
-								{
-									"type": "entries",
-									"name": "Быстрая сборка",
-									"entries": [
-										"Вы можете быстро создать самурая, следуя этим советам. Во-первых, Телосложение должно быть вашей наивысшей характеристикой, затем Мудрость. Во-вторых, выберите предысторию «солдат». В-третьих, выберите длинный лук, кожаный доспех и набор путешественника как начальное снаряжение."
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	],
-	"subclass": [
-		{
-			"name": "Обесчещенный",
-			"shortName": "Обесчещенный",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassFeatures": [
-				"Подавление присутствия|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|3",
-				"Смертельный удар|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|3",
-				"Кровавый дым|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|6",
-				"Текущая вода|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|10",
-				"Мерцание|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|14"
-			]
-		},
-		{
-			"name": "Фусигири",
-			"shortName": "Фусигири",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassFeatures": [
-				"Проклятое оружие|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|3",
-				"Жатва душ|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|3",
-				"Усиленное проклятое оружие|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|6",
-				"Проецируемая сила|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|10",
-				"Одержимость трупом|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|14"
-			]
-		},
-		{
-			"name": "Ронин",
-			"shortName": "Ронин",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassFeatures": [
-				"Бдительный|Samurai|XesusHomebrew|Ронин|XesusHomebrew|3",
-				"Восходящий карп|Samurai|XesusHomebrew|Ронин|XesusHomebrew|6",
-				"Нисходящий карп|Samurai|XesusHomebrew|Ронин|XesusHomebrew|10",
-				"Драконья вспышка|Samurai|XesusHomebrew|Ронин|XesusHomebrew|14"
-			]
-		},
-		{
-			"name": "Ёдзимбо",
-			"shortName": "Ёдзимбо",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassFeatures": [
-				"Защита|Samurai|XesusHomebrew|Ёдзимбо|XesusHomebrew|3",
-				"Долг|Samurai|XesusHomebrew|Ёдзимбо|XesusHomebrew|6",
-				"Вверение|Samurai|XesusHomebrew|Ёдзимбо|XesusHomebrew|10",
-				"Дзанмато|Samurai|XesusHomebrew|Ёдзимбо|XesusHomebrew|14"
-			]
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Воинские добродетели",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 1,
-			"entries": [
-				"Пока вы не носите ни брони, ни щита, ваш класс доспеха равен 10 + ваш модификатор Телосложения + ваш модификатор Мудрости.",
-				"Используя броню, вы можете применять модификатор Мудрости вместо модификатора Ловкости. Вы игнорируете ограничение модификатора для средней брони."
-			]
-		},
-		{
-			"name": "Мастер оружия",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 1,
-			"entries": [
-				"Начиная с 1-го уровня вы осваиваете катану, что позволяет вам использовать её с максимальной отдачей. Вы можете освоить другое оружие на 4-м, 8-м, 12-м, 16-м и 19-м уровнях.",
-				{
-					"type": "entries",
-					"name": "Катана",
-					"entries": [
-						"Длинные мечи считаются для вас фехтовальным оружием. Вы можете выхватить или убрать его как часть действия, бонусного действия или реакции, без дополнительных затрат взаимодействия.",
-						{
-							"type": "entries",
-							"name": "Бонус стойки",
-							"entries": [
-								"Вы получаете 1 класс доспеха"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Вакидзаси",
-					"entries": [
-						"Когда вы сражаетесь двумя оружиями, вы можете использовать сочетание короткого и длинного меча и добавлять модификатор характеристики к урону второй атаки.",
-						{
-							"type": "entries",
-							"name": "Бонус стойки",
-							"entries": [
-								"Вы не провоцируете атаки по возможности."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Юми",
-					"entries": [
-						"Бонусным действием, если в том же ходу вы опустили существо до 0 хитов, вы можете совершить дальнобойную атаку оружием из длинного лука. Атака на большую дистанцию из него не даёт помеху.",
-						{
-							"type": "entries",
-							"name": "Бонус стойки",
-							"entries": [
-								"Вы получаете +2 к броскам атаки, но -1 к классу доспеха."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Нагината",
-					"entries": [
-						"Пока вы держите глефу, другие существа провоцируют вашу атаку по возможности, когда входят в вашу досягаемость.",
-						{
-							"type": "entries",
-							"name": "Бонус стойки",
-							"entries": [
-								"Вы получаете преимущество на атаки по возможности."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Нодати",
-					"entries": [
-						"Прежде чем совершить рукопашную атаку двуручным мечом, вы можете выбрать штраф -5 к броску атаки. Если атака попадает, вы добавляете +10 к её урону.",
-						{
-							"type": "entries",
-							"name": "Бонус стойки",
-							"entries": [
-								"Добавляйте модификатор Мудрости к броскам урона."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Тецубо",
-					"entries": [
-						"Ваша палица наносит 1d12 урона вместо 1d8. Каждый раз, когда у вас есть преимущество на бросок рукопашной атаки палицей и вы попадаете, вы можете сбить цель с ног, если меньший из двух бросков d20 тоже попал бы по цели. Парирование палицей даёт атакующему помеху на его следующий бросок атаки.",
-						{
-							"type": "entries",
-							"name": "Бонус стойки",
-							"entries": [
-								"Вы можете выполнять парирование палицей."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Боевой дух",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 2,
-			"entries": [
-				"На 2-м уровне вы получаете количество очков духа, равное вашему модификатору Мудрости. Трата одного из этих очков позволяет вам выполнить особые техники. Эти очки восстанавливаются после продолжительного отдыха."
-			]
-		},
-		{
-			"name": "Парирование",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 2,
-			"entries": [
-				"На 2-м уровне, если вы держите или можете выхватить фехтовальное оружие, которым владеете, и другое существо попадает по вам рукопашной атакой, вы можете реакцией добавить свой бонус мастерства к КД против этой атаки, возможно, заставив атаку промахнуться.",
-				"Выполняя парирование, вы можете потратить 1 очко духа, чтобы выполнить идеальное парирование и удвоить бонус мастерства для бонусного КД. Если вы делаете это и отражаете атаку, вы получаете преимущество на свою следующую рукопашную атаку оружием, если она направлена на существо, спровоцировавшее парирование."
-			]
-		},
-		{
-			"name": "Стойка",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 2,
-			"entries": [
-				"На 2-м уровне вы можете бонусным действием принять стойку: это даёт вам особый бонус в зависимости от оружия, которое вы держите, до начала вашего следующего хода. Бонусы стойки перечислены в умении «Мастер оружия». Чтобы получить бонус стойки оружия, вы должны его освоить."
-			]
-		},
-		{
-			"name": "Кодекс чести",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 3,
-			"entries": [
-				"На 3-м уровне вы выбираете свой кодекс чести. Ваш выбор даёт вам умения на 3-м уровне, а также на 6-м, 10-м и 14-м уровнях."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 4,
-			"entries": [
-				"При достижении 4-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Осознанное чувство",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 4,
-			"entries": [
-				"На 4-м уровне вы можете потратить 1 очко духа и бонусное действие, чтобы получить слепое зрение на 30 футов на 1 минуту, но за это время вы слепы за пределами этой дистанции. Вы можете снова бонусным действием прекратить эффект."
-			]
-		},
-		{
-			"name": "Дополнительная атака",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 5,
-			"entries": [
-				"Начиная с 5-го уровня вы можете атаковать дважды вместо одного раза каждый раз, когда совершаете в свой ход действие Атака."
-			]
-		},
-		{
-			"name": "Неутомимый дух",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 5,
-			"entries": [
-				"Начиная с 5-го уровня вы получаете следующие преимущества, если ваши хиты ниже 50% от максимума:",
-				{
-					"type": "entries",
-					"name": "Дыхание жизни",
-					"entries": [
-						"Вы восстанавливаете 1 очко духа каждый раз, когда опускаете существо до 0 хитов или совершаете критическое попадание."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Дыхание природы",
-					"entries": [
-						"На 11-м уровне ваши атаки оружием становятся критическими при результате 18-20."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Быстрый удар",
-					"entries": [
-						"На 17-м уровне, если вы совершаете в свой ход действие Атака и имеете преимущество на бросок атаки по одной из целей, вы можете отказаться от преимущества на этот бросок, чтобы в рамках того же действия совершить дополнительную атаку оружием по этой цели. Вы можете делать это не более одного раза за ход."
-					]
-				}
-			]
-		},
-		{
-			"name": "Умение кодекса",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 6,
-			"entries": [
-				"На 6-м уровне вы получаете умение от выбранного кодекса чести."
-			]
-		},
-		{
-			"name": "Живая сила",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 7,
-			"entries": [
-				"На 7-м уровне потратьте 1 очко духа и бонусное действие, чтобы наполнить выбранное оружие и получить один из следующих эффектов на 1 минуту:",
-				{
-					"type": "entries",
-					"name": "Огненное оружие",
-					"entries": [
-						"Используйте флягу масла (1 см) для наполнения оружия огнём. Оружие получает бонус +1 к броскам атаки и наносит дополнительно 1d4 урона огнём. Враги в пределах 5 футов от вас совершают с помехой проверки Мудрости (Внимательность)."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Божественное благословение",
-					"entries": [
-						"Используйте щепотку святой воды или серебряного порошка (1 зм), чтобы наполнить оружие божественным благословением. Ваше оружие становится магическим с бонусом +1 к броскам атаки и урона на время действия. Если таким оружием попасть по аберрации, небожителю, элементалю, фее, исчадию или нежити, они совершают с помехой броски атаки, и существа не могут быть очарованы или напуганы ими до конца их следующего хода."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Вихревой удар",
-					"entries": [
-						"Используйте редкие благовония (5 зм), чтобы наполнить оружие вихрем ветра. Когда вы в следующий раз попадёте этим оружием по существу до окончания эффекта, ваша атака получит изгоняющий эффект. Если эта атака опускает цель до 50 хитов или меньше, вы изгоняете её. Если цель родом с иного плана существования, чем тот, где вы находитесь, цель исчезает, возвращаясь на свой родной план. Если цель родом с плана, на котором вы находитесь, существо исчезает в безвредном демиплане. Там цель недееспособна. Она остаётся там 1 минуту, после чего появляется в оставленном пространстве или в ближайшем незанятом, если то занято. Если атака недостаточно сильна, чтобы изгнать цель, она действует как под эффектом заклинания {@spell Confusion|PHB} до конца своего следующего хода."
-					]
-				}
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 8,
-			"entries": [
-				"При достижении 8-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Умелый",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 9,
-			"entries": [
-				"На 9-м уровне выберите три своих владения навыками. Вы можете добавлять модификатор Мудрости к любой проверке характеристики, использующей любое из выбранных владений.",
-				"Это не складывается с похожими умениями."
-			]
-		},
-		{
-			"name": "Умение кодекса",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 10,
-			"entries": [
-				"На 10-м уровне вы получаете умение от выбранного кодекса чести."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 12,
-			"entries": [
-				"При достижении 12-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Удар сверху",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 13,
-			"entries": [
-				"На 13-м уровне потратьте 1 очко духа, бонусное действие и совершите рукопашную атаку двуручным оружием по существу. Сразу после этого вы можете совершить ещё одну атаку, тоже двуручным оружием, с преимуществом по тому же существу. Если у второй атаки есть преимущество, вы можете сбить цель с ног, если меньший из двух бросков d20 тоже попал бы по цели."
-			]
-		},
-		{
-			"name": "Умение кодекса",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 14,
-			"entries": [
-				"На 14-м уровне вы получаете умение от выбранного кодекса чести."
-			]
-		},
-		{
-			"name": "Неумолимый дух",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 15,
-			"entries": [
-				"На 15-м уровне, если вы проваливаете спасбросок от смерти или спасбросок против состояния «очарован» либо «испуган», вы можете потратить 1 очко духа и вместо этого преуспеть."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 16,
-			"entries": [
-				"При достижении 16-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Сила прежде смерти",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 18,
-			"entries": [
-				"На 18-м уровне, если вы получаете урон, опускающий вас до 0 хитов, вы можете реакцией и всеми оставшимися очками духа отсрочить падение без сознания и немедленно получить дополнительный ход. Пока у вас 0 хитов в течение этого дополнительного хода, получение урона приводит к провалам спасбросков от смерти как обычно, и три провала спасбросков от смерти по-прежнему могут вас убить. Когда дополнительный ход заканчивается, вы падаете без сознания, если у вас всё ещё 0 хитов."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 19,
-			"entries": [
-				"При достижении 19-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Разрез полной луны",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"level": 20,
-			"entries": [
-				"На 20-м уровне, когда вы используете оружие с рубящим уроном для броска атаки с преимуществом, если это критическое попадание и меньший из двух бросков d20 тоже попал бы по цели, удвойте урон своей атаки по этому существу. Если оба d20 дают критическое попадание, утройте урон и восстановите все потраченные очки духа."
-			]
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": "Смертельный удар",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Обесчещенный",
-			"subclassSource": "XesusHomebrew",
-			"level": 3,
-			"entries": [
-				"Также на 3-м уровне, если вы скрыты от существа в пределах 15 футов от вас, вы можете потратить 1 очко духа, чтобы оставаться скрытым, пока движетесь к нему, тратя перемещение как обычно. Если вы делаете это, вы можете совершить рукопашную атаку фехтовальным оружием по этому существу, нанося дополнительный урон в количестве d6, равном половине вашего уровня самурая (округляя вверх). Вы не раскрываетесь, даже если вас прекрасно видно, пока эта атака не разрешится."
-			]
-		},
-		{
-			"name": "Подавление присутствия",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Обесчещенный",
-			"subclassSource": "XesusHomebrew",
-			"level": 3,
-			"entries": [
-				"Выбирая этот кодекс на 3-м уровне, вы благодаря дисциплине и вниманию к деталям превосходно действуете в скрытных ситуациях. Каждый раз, когда вы совершаете проверку Ловкости (Скрытность), вы получаете бонус к проверке, равный вашему модификатору Мудрости."
-			]
-		},
-		{
-			"name": "Кровавый дым",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Обесчещенный",
-			"subclassSource": "XesusHomebrew",
-			"level": 6,
-			"entries": [
-				"На 6-м уровне, когда ваши хиты ниже 50% от максимума и вы опускаете существо до 0 хитов, вы также превращаете брызжущую кровь жертвы в дым, что автоматически делает вас скрытым. Облако дыма имеет радиус 5 футов и блокирует обзор. Тёмное зрение не может сквозь него видеть."
-			]
-		},
-		{
-			"name": "Текущая вода",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Обесчещенный",
-			"subclassSource": "XesusHomebrew",
-			"level": 10,
-			"entries": [
-				"На 10-м уровне, если вы выполняете идеальное парирование, немедленно или после своей следующей рукопашной атаки оружием вы можете телепортироваться из текущего местоположения в любое незанятое пространство в пределах 30 футов, которое видите. Вы можете взять с собой только снаряжение."
-			]
-		},
-		{
-			"name": "Мерцание",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Обесчещенный",
-			"subclassSource": "XesusHomebrew",
-			"level": 14,
-			"entries": [
-				"На 14-м уровне вы можете потратить 1 очко духа и бонусное действие, чтобы телепортироваться из текущего местоположения в любое незанятое пространство в пределах 30 футов, которое видите. Вы можете взять с собой только снаряжение. Если целевая область хотя бы слабо заслонена и вы были скрыты, вы можете оставаться скрытым и применить «Смертельный удар» к существу в пределах 15 футов от целевой области. Если целевая область не заслонена, вы всё равно можете применить «Смертельный удар» к существу в пределах 5 футов от неё. Вы не тратите дополнительные очки духа на применение «Смертельного удара» с этим умением."
-			]
-		},
-		{
-			"name": "Проклятое оружие",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Фусигири",
-			"subclassSource": "XesusHomebrew",
-			"level": 3,
-			"entries": [
-				"Выбирая этот кодекс на 3-м уровне, одно ваше оружие на ваш выбор становится проклятым. Вы не можете от него избавиться, потерять или уничтожить его. Необъяснимо, но оно всегда возвращается к вам так или иначе.",
-				"Каждый раз, когда вы совершаете бросок урона своим проклятым оружием, вы добавляете дополнительно 1d6 некротического урона, но и сами получаете этот урон.",
-				"Вдобавок вы можете снять 1 уровень истощения каждый раз, когда опускаете существо до 0 хитов."
-			]
-		},
-		{
-			"name": "Жатва душ",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Фусигири",
-			"subclassSource": "XesusHomebrew",
-			"level": 3,
-			"entries": [
-				"Также на 3-м уровне вы можете потратить 1 очко духа, чтобы своим проклятым оружием пожать души живых. Все ваши атаки оружием в этот ход проклятым оружием по существам, не являющимся нежитью, наносят дополнительно 1d10 некротического урона. В конце хода вы восстанавливаете хиты на ту же величину нанесённого некротического урона."
-			]
-		},
-		{
-			"name": "Усиленное проклятое оружие",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Фусигири",
-			"subclassSource": "XesusHomebrew",
-			"level": 6,
-			"entries": [
-				"На 6-м уровне, когда ваши хиты ниже 50% от максимума, ваше проклятое оружие наносит 1d10 некротического урона вместо этого и не вызывает отдачи урона."
-			]
-		},
-		{
-			"name": "Проецируемая сила",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Фусигири",
-			"subclassSource": "XesusHomebrew",
-			"level": 10,
-			"entries": [
-				"На 10-м уровне, если вы выполняете идеальное парирование и ваша следующая атака проклятым оружием попадает по существу, вызвавшему парирование, оно восстанавливает вам хиты на величину нанесённого урона."
-			]
-		},
-		{
-			"name": "Одержимость трупом",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Фусигири",
-			"subclassSource": "XesusHomebrew",
-			"level": 14,
-			"entries": [
-				"На 14-м уровне, когда вы убиваете гуманоида среднего или маленького размера своим проклятым оружием, вы можете потратить 1 очко духа, чтобы вдохнуть в цель мерзкую пародию на жизнь, подняв её как зомби (характеристики существа у Мастера).",
-				"В каждый свой ход вы можете бонусным действием мысленно отдавать приказы любому созданному вами таким способом существу, если оно находится в пределах 60 футов от вас (если вы контролируете несколько существ, вы можете отдать приказ любому из них или всем одновременно, дав каждому один и тот же приказ). Вы решаете, какое действие существо совершит и куда переместится в свой следующий ход, либо можете отдать общий приказ, например охранять определённое помещение или коридор. Если вы не отдаёте приказов, существо только защищается от враждебных существ. Получив приказ, существо продолжает его выполнять, пока задача не будет выполнена.",
-				"Существо находится под вашим контролем 24 часа, после чего перестаёт подчиняться любым отданным вами приказам."
-			]
-		},
-		{
-			"name": "Бдительный",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Ронин",
-			"subclassSource": "XesusHomebrew",
-			"level": 3,
-			"entries": [
-				"Выбирая этот кодекс на 3-м уровне, вы получаете бонус +5 к инициативе, пока находитесь в сознании. Если вас застают врасплох, вы можете отказаться от этого бонуса, чтобы не быть застигнутым врасплох.",
-				"Кроме того, другие существа не получают преимущество на броски атаки против вас из-за того, что скрыты от вас."
-			]
-		},
-		{
-			"name": "Восходящий карп",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Ронин",
-			"subclassSource": "XesusHomebrew",
-			"level": 6,
-			"entries": [
-				"На 6-м уровне, когда ваши хиты ниже 50% от максимума, вы можете совершить рукопашную атаку оружием как часть реакции при выполнении парирования. Если атакующий в 10 футах, вы можете сократить разрыв, переместившись на 5 футов вперёд. Если вы решите обезоружить этой атакой, бросок атаки не получает помеху, даже если атакующий держит оружие двумя руками."
-			]
-		},
-		{
-			"name": "Нисходящий карп",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Ронин",
-			"subclassSource": "XesusHomebrew",
-			"level": 10,
-			"entries": [
-				"На 10-м уровне, если вы выполняете идеальное парирование и ваш следующий бросок атаки попадает по существу, вызвавшему парирование, цель должна реакцией, если она доступна, отойти на 15 футов от вас и стать испуганной."
-			]
-		},
-		{
-			"name": "Драконья вспышка",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Ронин",
-			"subclassSource": "XesusHomebrew",
-			"level": 14,
-			"entries": [
-				"На 14-м уровне потратьте 2 очка духа и своё действие и выберите до пяти существ, которых видите в пределах 30 футов от вас. Совершите рукопашную атаку оружием длинным мечом по каждой цели. При попадании цель получает 6d10 рубящего урона. Затем вы можете телепортироваться в незанятое пространство, которое видите, в пределах 5 футов от одной из целей, по которой попали или промахнулись. Вы не получаете очки духа за критическое попадание или за опускание существ до 0 хитов этим действием."
-			]
-		},
-		{
-			"name": "Защита",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Ёдзимбо",
-			"subclassSource": "XesusHomebrew",
-			"level": 3,
-			"entries": [
-				"Выбирая этот кодекс на 3-м уровне, вы можете потратить 1 очко духа и свою реакцию, чтобы заставить атаку, нацеленную не на вас, а на кого-то в пределах 5 футов от вас, выбрать целью вас.",
-				"Кроме того, вы можете использовать действие Помощь бонусным действием."
-			]
-		},
-		{
-			"name": "Долг",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Ёдзимбо",
-			"subclassSource": "XesusHomebrew",
-			"level": 6,
-			"entries": [
-				"На 6-м уровне, когда ваши хиты ниже 50% от максимума и враждебное существо совершает действие Атака против союзника в пределах 30 футов от вас, вы восстанавливаете 1 очко духа."
-			]
-		},
-		{
-			"name": "Вверение",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Ёдзимбо",
-			"subclassSource": "XesusHomebrew",
-			"level": 10,
-			"entries": [
-				"На 10-м уровне, если вы выполняете идеальное парирование, ваши союзники в пределах 10 футов от вас получают дополнительный d6 к своему следующему броску атаки или спасброску до конца вашего следующего хода."
-			]
-		},
-		{
-			"name": "Дзанмато",
-			"source": "XesusHomebrew",
-			"className": "Samurai",
-			"classSource": "XesusHomebrew",
-			"subclassShortName": "Ёдзимбо",
-			"subclassSource": "XesusHomebrew",
-			"level": 14,
-			"entries": [
-				"На 14-м уровне потратьте 1 очко духа и своё действие и выберите существо в пределах 5 футов. Цель должна совершить спасбросок Ловкости (Сл 8 + ваш бонус мастерства + ваш модификатор Мудрости). Если показатель опасности существа не выше вашего модификатора Мудрости и оно проваливает спасбросок, существо мгновенно казнено. Если его ПО выше и оно проваливает спасбросок, вы наносите 10d8 рубящего урона, а при успехе — половину. Вы не восстанавливаете очки духа, опуская существо до 0 хитов этим умением."
-			]
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "XesusHomebrew",
+        "abbreviation": "XH",
+        "full": "Xesu's Homebrew",
+        "url": "https://xesu.moe",
+        "version": "1.1.0",
+        "authors": [
+          "Xesu"
+        ],
+        "convertedBy": [
+          "Xesu"
+        ]
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1598287787,
+    "dateLastModified": 1785698747,
+    "_dateLastModifiedHash": "c621b1100a"
+  },
+  "class": [
+    {
+      "name": "Самурай",
+      "source": "XesusHomebrew",
+      "hd": {
+        "number": 1,
+        "faces": 10
+      },
+      "proficiency": [
+        "con",
+        "wis"
+      ],
+      "startingProficiencies": {
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "athletics",
+                "animal handling",
+                "history",
+                "insight",
+                "intimidation",
+                "perception",
+                "persuasion",
+                "survival"
+              ],
+              "count": 2
+            }
+          }
+        ],
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "tools": [
+          "Shakuhachi, or any {@item musical instrument|PHB} of your choice"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "heavy"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "heavy": true
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "a {@item longsword|phb}",
+          "(a) {@item leather armor|phb} or (b) {@item chain mail|phb}, or (c) {@item traveler's clothes|phb} and any {@filter musical instrument|items|miscellaneous=mundane|type=instrument}",
+          "(a) a {@item shortsword|phb}, (b) a  {@item longbow|phb} and a {@item quiver|phb} of {@item arrows (20)|phb|20 стрел}, (c) a {@item glaive|phb}, (d)  a {@item greatsword|phb} or (e) a  a {@item greatclub|phb}",
+          "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+        ],
+        "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Начальное золото}",
+        "defaultData": [
+          {
+            "_": [
+              "longsword|phb"
+            ]
+          },
+          {
+            "a": [
+              "leather armor|phb"
+            ],
+            "b": [
+              "chain mail|phb"
+            ],
+            "c": [
+              "traveler's clothes|phb",
+              {
+                "equipmentType": "instrumentMusical"
+              }
+            ]
+          },
+          {
+            "a": [
+              "shortsword|phb"
+            ],
+            "b": [
+              "longbow|phb",
+              "arrows (20)|phb"
+            ],
+            "c": [
+              "glaive|phb"
+            ],
+            "d": [
+              "greatsword|phb"
+            ],
+            "e": [
+              "greatclub|phb"
+            ]
+          },
+          {
+            "a": [
+              "dungeoneer's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
+          }
+        ]
+      },
+      "multiclassing": {
+        "requirements": {
+          "wis": 13
+        },
+        "proficienciesGained": {
+          "skills": [
+            {
+              "choose": {
+                "from": [
+                  "acrobatics",
+                  "athletics",
+                  "animal handling",
+                  "history",
+                  "insight",
+                  "intimidation",
+                  "perception",
+                  "persuasion",
+                  "survival"
+                ],
+                "count": 1
+              }
+            }
+          ],
+          "weapons": [
+            "simple",
+            "martial"
+          ]
+        }
+      },
+      "classFeatures": [
+        "Воинские добродетели|Samurai|XesusHomebrew|1",
+        "Мастер оружия|Samurai|XesusHomebrew|1",
+        "Стойка|Samurai|XesusHomebrew|2",
+        "Боевой дух|Samurai|XesusHomebrew|2",
+        "Парирование|Samurai|XesusHomebrew|2",
+        {
+          "classFeature": "Кодекс чести|Samurai|XesusHomebrew|3",
+          "gainSubclassFeature": true
+        },
+        "Осознанное чувство|Samurai|XesusHomebrew|4",
+        "Увеличение характеристик|Samurai|XesusHomebrew|4",
+        "Дополнительная атака|Samurai|XesusHomebrew|5",
+        "Неутомимый дух|Samurai|XesusHomebrew|5",
+        {
+          "classFeature": "Умение кодекса|Samurai|XesusHomebrew|6",
+          "gainSubclassFeature": true
+        },
+        "Живая сила|Samurai|XesusHomebrew|7",
+        "Увеличение характеристик|Samurai|XesusHomebrew|8",
+        "Умелый|Samurai|XesusHomebrew|9",
+        {
+          "classFeature": "Умение кодекса|Samurai|XesusHomebrew|10",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Samurai|XesusHomebrew|12",
+        "Удар сверху|Samurai|XesusHomebrew|13",
+        {
+          "classFeature": "Умение кодекса|Samurai|XesusHomebrew|14",
+          "gainSubclassFeature": true
+        },
+        "Неумолимый дух|Samurai|XesusHomebrew|15",
+        "Увеличение характеристик|Samurai|XesusHomebrew|16",
+        "Сила прежде смерти|Samurai|XesusHomebrew|18",
+        "Увеличение характеристик|Samurai|XesusHomebrew|19",
+        "Разрез полной луны|Samurai|XesusHomebrew|20"
+      ],
+      "subclassTitle": "Code of Honor",
+      "hasFluff": true
+    }
+  ],
+  "classFluff": [
+    {
+      "name": "Самурай",
+      "source": "XesusHomebrew",
+      "entries": [
+        {
+          "name": "Самурай",
+          "type": "section",
+          "source": "XesusHomebrew",
+          "entries": [
+            "Самурай — воин, черпающий силы в неукротимом боевом духе, чтобы одолеть врагов. Решимость самурая почти несокрушима, и у врагов на его пути есть два выбора: сдаться или погибнуть в бою.",
+            {
+              "type": "entries",
+              "name": "Благородный воин",
+              "entries": [
+                "Эти воины следуют кодексу, называемому Бусидо, который ведёт их по пути чести; мастера искусства меча, эти воины используют их с грацией и непревзойдённым мастерством. Используя свои навыки для себя или для других, эти воины будут сражаться до смерти и не сдадутся. Некоторые легенды гласят, что после долгих лет учёбы и медитации они способны даже управлять тонкой магией. Последователь Бусидо. Воин с уникальными способностями, достигнутыми за годы тренировок, самурай хорошо известен своим боевым стилем, кодексом поведения и владением оружием, будучи способным победить врага одним единственным выпадом или стремительно выдерживая несколько атак и ведя своих союзников к победе. Не только смертоносный с катаной, самурай специализируется на нескольких видах оружия, но склонен придерживаться одного стиля до конца своей жизни как своей визитной карточки."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Создание самурая",
+              "entries": [
+                "Почему ваш персонаж следует кодексу Бусидо — или почему нет? Почему он решил странствовать? Сражается ли он за своего господина, за себя или чтобы защитить кого-то? Сбежал ли он от своего господина или господин был убит, и теперь он ищет мести? Так же важна для него честь, как и жизнь?",
+                {
+                  "type": "entries",
+                  "name": "Быстрая сборка",
+                  "entries": [
+                    "Вы можете быстро создать самурая, следуя этим советам. Во-первых, Телосложение должно быть вашей наивысшей характеристикой, затем Мудрость. Во-вторых, выберите предысторию «солдат». В-третьих, выберите длинный лук, кожаный доспех и набор путешественника как начальное снаряжение."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Обесчещенный",
+      "shortName": "Обесчещенный",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassFeatures": [
+        "Подавление присутствия|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|3",
+        "Смертельный удар|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|3",
+        "Кровавый дым|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|6",
+        "Текущая вода|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|10",
+        "Мерцание|Samurai|XesusHomebrew|Обесчещенный|XesusHomebrew|14"
+      ]
+    },
+    {
+      "name": "Фусигири",
+      "shortName": "Фусигири",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassFeatures": [
+        "Проклятое оружие|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|3",
+        "Жатва душ|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|3",
+        "Усиленное проклятое оружие|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|6",
+        "Проецируемая сила|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|10",
+        "Одержимость трупом|Samurai|XesusHomebrew|Фусигири|XesusHomebrew|14"
+      ]
+    },
+    {
+      "name": "Ронин",
+      "shortName": "Ронин",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassFeatures": [
+        "Бдительный|Samurai|XesusHomebrew|Ронин|XesusHomebrew|3",
+        "Восходящий карп|Samurai|XesusHomebrew|Ронин|XesusHomebrew|6",
+        "Нисходящий карп|Samurai|XesusHomebrew|Ронин|XesusHomebrew|10",
+        "Драконья вспышка|Samurai|XesusHomebrew|Ронин|XesusHomebrew|14"
+      ]
+    },
+    {
+      "name": "Ёдзимбо",
+      "shortName": "Ёдзимбо",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassFeatures": [
+        "Защита|Samurai|XesusHomebrew|Ёдзимбо|XesusHomebrew|3",
+        "Долг|Samurai|XesusHomebrew|Ёдзимбо|XesusHomebrew|6",
+        "Вверение|Samurai|XesusHomebrew|Ёдзимбо|XesusHomebrew|10",
+        "Дзанмато|Samurai|XesusHomebrew|Ёдзимбо|XesusHomebrew|14"
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Воинские добродетели",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 1,
+      "entries": [
+        "Пока вы не носите ни брони, ни щита, ваш класс доспеха равен 10 + ваш модификатор Телосложения + ваш модификатор Мудрости.",
+        "Используя броню, вы можете применять модификатор Мудрости вместо модификатора Ловкости. Вы игнорируете ограничение модификатора для средней брони."
+      ]
+    },
+    {
+      "name": "Мастер оружия",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 1,
+      "entries": [
+        "Начиная с 1-го уровня вы осваиваете катану, что позволяет вам использовать её с максимальной отдачей. Вы можете освоить другое оружие на 4-м, 8-м, 12-м, 16-м и 19-м уровнях.",
+        {
+          "type": "entries",
+          "name": "Катана",
+          "entries": [
+            "Длинные мечи считаются для вас фехтовальным оружием. Вы можете выхватить или убрать его как часть действия, бонусного действия или реакции, без дополнительных затрат взаимодействия.",
+            {
+              "type": "entries",
+              "name": "Бонус стойки",
+              "entries": [
+                "Вы получаете 1 класс доспеха"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Вакидзаси",
+          "entries": [
+            "Когда вы сражаетесь двумя оружиями, вы можете использовать сочетание короткого и длинного меча и добавлять модификатор характеристики к урону второй атаки.",
+            {
+              "type": "entries",
+              "name": "Бонус стойки",
+              "entries": [
+                "Вы не провоцируете атаки по возможности."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Юми",
+          "entries": [
+            "Бонусным действием, если в том же ходу вы опустили существо до 0 хитов, вы можете совершить дальнобойную атаку оружием из длинного лука. Атака на большую дистанцию из него не даёт помеху.",
+            {
+              "type": "entries",
+              "name": "Бонус стойки",
+              "entries": [
+                "Вы получаете +2 к броскам атаки, но -1 к классу доспеха."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Нагината",
+          "entries": [
+            "Пока вы держите глефу, другие существа провоцируют вашу атаку по возможности, когда входят в вашу досягаемость.",
+            {
+              "type": "entries",
+              "name": "Бонус стойки",
+              "entries": [
+                "Вы получаете преимущество на атаки по возможности."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Нодати",
+          "entries": [
+            "Прежде чем совершить рукопашную атаку двуручным мечом, вы можете выбрать штраф -5 к броску атаки. Если атака попадает, вы добавляете +10 к её урону.",
+            {
+              "type": "entries",
+              "name": "Бонус стойки",
+              "entries": [
+                "Добавляйте модификатор Мудрости к броскам урона."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Тецубо",
+          "entries": [
+            "Ваша палица наносит 1d12 урона вместо 1d8. Каждый раз, когда у вас есть преимущество на бросок рукопашной атаки палицей и вы попадаете, вы можете сбить цель с ног, если меньший из двух бросков d20 тоже попал бы по цели. Парирование палицей даёт атакующему помеху на его следующий бросок атаки.",
+            {
+              "type": "entries",
+              "name": "Бонус стойки",
+              "entries": [
+                "Вы можете выполнять парирование палицей."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Боевой дух",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 2,
+      "entries": [
+        "На 2-м уровне вы получаете количество очков духа, равное вашему модификатору Мудрости. Трата одного из этих очков позволяет вам выполнить особые техники. Эти очки восстанавливаются после продолжительного отдыха."
+      ]
+    },
+    {
+      "name": "Парирование",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 2,
+      "entries": [
+        "На 2-м уровне, если вы держите или можете выхватить фехтовальное оружие, которым владеете, и другое существо попадает по вам рукопашной атакой, вы можете реакцией добавить свой бонус мастерства к КД против этой атаки, возможно, заставив атаку промахнуться.",
+        "Выполняя парирование, вы можете потратить 1 очко духа, чтобы выполнить идеальное парирование и удвоить бонус мастерства для бонусного КД. Если вы делаете это и отражаете атаку, вы получаете преимущество на свою следующую рукопашную атаку оружием, если она направлена на существо, спровоцировавшее парирование."
+      ]
+    },
+    {
+      "name": "Стойка",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 2,
+      "entries": [
+        "На 2-м уровне вы можете бонусным действием принять стойку: это даёт вам особый бонус в зависимости от оружия, которое вы держите, до начала вашего следующего хода. Бонусы стойки перечислены в умении «Мастер оружия». Чтобы получить бонус стойки оружия, вы должны его освоить."
+      ]
+    },
+    {
+      "name": "Кодекс чести",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 3,
+      "entries": [
+        "На 3-м уровне вы выбираете свой кодекс чести. Ваш выбор даёт вам умения на 3-м уровне, а также на 6-м, 10-м и 14-м уровнях."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 4,
+      "entries": [
+        "При достижении 4-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Осознанное чувство",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 4,
+      "entries": [
+        "На 4-м уровне вы можете потратить 1 очко духа и бонусное действие, чтобы получить слепое зрение на 30 футов на 1 минуту, но за это время вы слепы за пределами этой дистанции. Вы можете снова бонусным действием прекратить эффект."
+      ]
+    },
+    {
+      "name": "Дополнительная атака",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 5,
+      "entries": [
+        "Начиная с 5-го уровня вы можете атаковать дважды вместо одного раза каждый раз, когда совершаете в свой ход действие Атака."
+      ]
+    },
+    {
+      "name": "Неутомимый дух",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 5,
+      "entries": [
+        "Начиная с 5-го уровня вы получаете следующие преимущества, если ваши хиты ниже 50% от максимума:",
+        {
+          "type": "entries",
+          "name": "Дыхание жизни",
+          "entries": [
+            "Вы восстанавливаете 1 очко духа каждый раз, когда опускаете существо до 0 хитов или совершаете критическое попадание."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Дыхание природы",
+          "entries": [
+            "На 11-м уровне ваши атаки оружием становятся критическими при результате 18-20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Быстрый удар",
+          "entries": [
+            "На 17-м уровне, если вы совершаете в свой ход действие Атака и имеете преимущество на бросок атаки по одной из целей, вы можете отказаться от преимущества на этот бросок, чтобы в рамках того же действия совершить дополнительную атаку оружием по этой цели. Вы можете делать это не более одного раза за ход."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Умение кодекса",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 6,
+      "entries": [
+        "На 6-м уровне вы получаете умение от выбранного кодекса чести."
+      ]
+    },
+    {
+      "name": "Живая сила",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 7,
+      "entries": [
+        "На 7-м уровне потратьте 1 очко духа и бонусное действие, чтобы наполнить выбранное оружие и получить один из следующих эффектов на 1 минуту:",
+        {
+          "type": "entries",
+          "name": "Огненное оружие",
+          "entries": [
+            "Используйте флягу масла (1 см) для наполнения оружия огнём. Оружие получает бонус +1 к броскам атаки и наносит дополнительно 1d4 урона огнём. Враги в пределах 5 футов от вас совершают с помехой проверки Мудрости (Внимательность)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Божественное благословение",
+          "entries": [
+            "Используйте щепотку святой воды или серебряного порошка (1 зм), чтобы наполнить оружие божественным благословением. Ваше оружие становится магическим с бонусом +1 к броскам атаки и урона на время действия. Если таким оружием попасть по аберрации, небожителю, элементалю, фее, исчадию или нежити, они совершают с помехой броски атаки, и существа не могут быть очарованы или напуганы ими до конца их следующего хода."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Вихревой удар",
+          "entries": [
+            "Используйте редкие благовония (5 зм), чтобы наполнить оружие вихрем ветра. Когда вы в следующий раз попадёте этим оружием по существу до окончания эффекта, ваша атака получит изгоняющий эффект. Если эта атака опускает цель до 50 хитов или меньше, вы изгоняете её. Если цель родом с иного плана существования, чем тот, где вы находитесь, цель исчезает, возвращаясь на свой родной план. Если цель родом с плана, на котором вы находитесь, существо исчезает в безвредном демиплане. Там цель недееспособна. Она остаётся там 1 минуту, после чего появляется в оставленном пространстве или в ближайшем незанятом, если то занято. Если атака недостаточно сильна, чтобы изгнать цель, она действует как под эффектом заклинания {@spell Confusion|PHB} до конца своего следующего хода."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 8,
+      "entries": [
+        "При достижении 8-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Умелый",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 9,
+      "entries": [
+        "На 9-м уровне выберите три своих владения навыками. Вы можете добавлять модификатор Мудрости к любой проверке характеристики, использующей любое из выбранных владений.",
+        "Это не складывается с похожими умениями."
+      ]
+    },
+    {
+      "name": "Умение кодекса",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 10,
+      "entries": [
+        "На 10-м уровне вы получаете умение от выбранного кодекса чести."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 12,
+      "entries": [
+        "При достижении 12-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Удар сверху",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 13,
+      "entries": [
+        "На 13-м уровне потратьте 1 очко духа, бонусное действие и совершите рукопашную атаку двуручным оружием по существу. Сразу после этого вы можете совершить ещё одну атаку, тоже двуручным оружием, с преимуществом по тому же существу. Если у второй атаки есть преимущество, вы можете сбить цель с ног, если меньший из двух бросков d20 тоже попал бы по цели."
+      ]
+    },
+    {
+      "name": "Умение кодекса",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 14,
+      "entries": [
+        "На 14-м уровне вы получаете умение от выбранного кодекса чести."
+      ]
+    },
+    {
+      "name": "Неумолимый дух",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 15,
+      "entries": [
+        "На 15-м уровне, если вы проваливаете спасбросок от смерти или спасбросок против состояния «очарован» либо «испуган», вы можете потратить 1 очко духа и вместо этого преуспеть."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 16,
+      "entries": [
+        "При достижении 16-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Сила прежде смерти",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 18,
+      "entries": [
+        "На 18-м уровне, если вы получаете урон, опускающий вас до 0 хитов, вы можете реакцией и всеми оставшимися очками духа отсрочить падение без сознания и немедленно получить дополнительный ход. Пока у вас 0 хитов в течение этого дополнительного хода, получение урона приводит к провалам спасбросков от смерти как обычно, и три провала спасбросков от смерти по-прежнему могут вас убить. Когда дополнительный ход заканчивается, вы падаете без сознания, если у вас всё ещё 0 хитов."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 19,
+      "entries": [
+        "При достижении 19-го уровня вы можете увеличить одну характеристику на свой выбор на 2 или две характеристики на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Разрез полной луны",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "level": 20,
+      "entries": [
+        "На 20-м уровне, когда вы используете оружие с рубящим уроном для броска атаки с преимуществом, если это критическое попадание и меньший из двух бросков d20 тоже попал бы по цели, удвойте урон своей атаки по этому существу. Если оба d20 дают критическое попадание, утройте урон и восстановите все потраченные очки духа."
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Смертельный удар",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Обесчещенный",
+      "subclassSource": "XesusHomebrew",
+      "level": 3,
+      "entries": [
+        "Также на 3-м уровне, если вы скрыты от существа в пределах 15 футов от вас, вы можете потратить 1 очко духа, чтобы оставаться скрытым, пока движетесь к нему, тратя перемещение как обычно. Если вы делаете это, вы можете совершить рукопашную атаку фехтовальным оружием по этому существу, нанося дополнительный урон в количестве d6, равном половине вашего уровня самурая (округляя вверх). Вы не раскрываетесь, даже если вас прекрасно видно, пока эта атака не разрешится."
+      ]
+    },
+    {
+      "name": "Подавление присутствия",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Обесчещенный",
+      "subclassSource": "XesusHomebrew",
+      "level": 3,
+      "entries": [
+        "Выбирая этот кодекс на 3-м уровне, вы благодаря дисциплине и вниманию к деталям превосходно действуете в скрытных ситуациях. Каждый раз, когда вы совершаете проверку Ловкости (Скрытность), вы получаете бонус к проверке, равный вашему модификатору Мудрости."
+      ]
+    },
+    {
+      "name": "Кровавый дым",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Обесчещенный",
+      "subclassSource": "XesusHomebrew",
+      "level": 6,
+      "entries": [
+        "На 6-м уровне, когда ваши хиты ниже 50% от максимума и вы опускаете существо до 0 хитов, вы также превращаете брызжущую кровь жертвы в дым, что автоматически делает вас скрытым. Облако дыма имеет радиус 5 футов и блокирует обзор. Тёмное зрение не может сквозь него видеть."
+      ]
+    },
+    {
+      "name": "Текущая вода",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Обесчещенный",
+      "subclassSource": "XesusHomebrew",
+      "level": 10,
+      "entries": [
+        "На 10-м уровне, если вы выполняете идеальное парирование, немедленно или после своей следующей рукопашной атаки оружием вы можете телепортироваться из текущего местоположения в любое незанятое пространство в пределах 30 футов, которое видите. Вы можете взять с собой только снаряжение."
+      ]
+    },
+    {
+      "name": "Мерцание",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Обесчещенный",
+      "subclassSource": "XesusHomebrew",
+      "level": 14,
+      "entries": [
+        "На 14-м уровне вы можете потратить 1 очко духа и бонусное действие, чтобы телепортироваться из текущего местоположения в любое незанятое пространство в пределах 30 футов, которое видите. Вы можете взять с собой только снаряжение. Если целевая область хотя бы слабо заслонена и вы были скрыты, вы можете оставаться скрытым и применить «Смертельный удар» к существу в пределах 15 футов от целевой области. Если целевая область не заслонена, вы всё равно можете применить «Смертельный удар» к существу в пределах 5 футов от неё. Вы не тратите дополнительные очки духа на применение «Смертельного удара» с этим умением."
+      ]
+    },
+    {
+      "name": "Проклятое оружие",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Фусигири",
+      "subclassSource": "XesusHomebrew",
+      "level": 3,
+      "entries": [
+        "Выбирая этот кодекс на 3-м уровне, одно ваше оружие на ваш выбор становится проклятым. Вы не можете от него избавиться, потерять или уничтожить его. Необъяснимо, но оно всегда возвращается к вам так или иначе.",
+        "Каждый раз, когда вы совершаете бросок урона своим проклятым оружием, вы добавляете дополнительно 1d6 некротического урона, но и сами получаете этот урон.",
+        "Вдобавок вы можете снять 1 уровень истощения каждый раз, когда опускаете существо до 0 хитов."
+      ]
+    },
+    {
+      "name": "Жатва душ",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Фусигири",
+      "subclassSource": "XesusHomebrew",
+      "level": 3,
+      "entries": [
+        "Также на 3-м уровне вы можете потратить 1 очко духа, чтобы своим проклятым оружием пожать души живых. Все ваши атаки оружием в этот ход проклятым оружием по существам, не являющимся нежитью, наносят дополнительно 1d10 некротического урона. В конце хода вы восстанавливаете хиты на ту же величину нанесённого некротического урона."
+      ]
+    },
+    {
+      "name": "Усиленное проклятое оружие",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Фусигири",
+      "subclassSource": "XesusHomebrew",
+      "level": 6,
+      "entries": [
+        "На 6-м уровне, когда ваши хиты ниже 50% от максимума, ваше проклятое оружие наносит 1d10 некротического урона вместо этого и не вызывает отдачи урона."
+      ]
+    },
+    {
+      "name": "Проецируемая сила",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Фусигири",
+      "subclassSource": "XesusHomebrew",
+      "level": 10,
+      "entries": [
+        "На 10-м уровне, если вы выполняете идеальное парирование и ваша следующая атака проклятым оружием попадает по существу, вызвавшему парирование, оно восстанавливает вам хиты на величину нанесённого урона."
+      ]
+    },
+    {
+      "name": "Одержимость трупом",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Фусигири",
+      "subclassSource": "XesusHomebrew",
+      "level": 14,
+      "entries": [
+        "На 14-м уровне, когда вы убиваете гуманоида среднего или маленького размера своим проклятым оружием, вы можете потратить 1 очко духа, чтобы вдохнуть в цель мерзкую пародию на жизнь, подняв её как зомби (характеристики существа у Мастера).",
+        "В каждый свой ход вы можете бонусным действием мысленно отдавать приказы любому созданному вами таким способом существу, если оно находится в пределах 60 футов от вас (если вы контролируете несколько существ, вы можете отдать приказ любому из них или всем одновременно, дав каждому один и тот же приказ). Вы решаете, какое действие существо совершит и куда переместится в свой следующий ход, либо можете отдать общий приказ, например охранять определённое помещение или коридор. Если вы не отдаёте приказов, существо только защищается от враждебных существ. Получив приказ, существо продолжает его выполнять, пока задача не будет выполнена.",
+        "Существо находится под вашим контролем 24 часа, после чего перестаёт подчиняться любым отданным вами приказам."
+      ]
+    },
+    {
+      "name": "Бдительный",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Ронин",
+      "subclassSource": "XesusHomebrew",
+      "level": 3,
+      "entries": [
+        "Выбирая этот кодекс на 3-м уровне, вы получаете бонус +5 к инициативе, пока находитесь в сознании. Если вас застают врасплох, вы можете отказаться от этого бонуса, чтобы не быть застигнутым врасплох.",
+        "Кроме того, другие существа не получают преимущество на броски атаки против вас из-за того, что скрыты от вас."
+      ]
+    },
+    {
+      "name": "Восходящий карп",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Ронин",
+      "subclassSource": "XesusHomebrew",
+      "level": 6,
+      "entries": [
+        "На 6-м уровне, когда ваши хиты ниже 50% от максимума, вы можете совершить рукопашную атаку оружием как часть реакции при выполнении парирования. Если атакующий в 10 футах, вы можете сократить разрыв, переместившись на 5 футов вперёд. Если вы решите обезоружить этой атакой, бросок атаки не получает помеху, даже если атакующий держит оружие двумя руками."
+      ]
+    },
+    {
+      "name": "Нисходящий карп",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Ронин",
+      "subclassSource": "XesusHomebrew",
+      "level": 10,
+      "entries": [
+        "На 10-м уровне, если вы выполняете идеальное парирование и ваш следующий бросок атаки попадает по существу, вызвавшему парирование, цель должна реакцией, если она доступна, отойти на 15 футов от вас и стать испуганной."
+      ]
+    },
+    {
+      "name": "Драконья вспышка",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Ронин",
+      "subclassSource": "XesusHomebrew",
+      "level": 14,
+      "entries": [
+        "На 14-м уровне потратьте 2 очка духа и своё действие и выберите до пяти существ, которых видите в пределах 30 футов от вас. Совершите рукопашную атаку оружием длинным мечом по каждой цели. При попадании цель получает 6d10 рубящего урона. Затем вы можете телепортироваться в незанятое пространство, которое видите, в пределах 5 футов от одной из целей, по которой попали или промахнулись. Вы не получаете очки духа за критическое попадание или за опускание существ до 0 хитов этим действием."
+      ]
+    },
+    {
+      "name": "Защита",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Ёдзимбо",
+      "subclassSource": "XesusHomebrew",
+      "level": 3,
+      "entries": [
+        "Выбирая этот кодекс на 3-м уровне, вы можете потратить 1 очко духа и свою реакцию, чтобы заставить атаку, нацеленную не на вас, а на кого-то в пределах 5 футов от вас, выбрать целью вас.",
+        "Кроме того, вы можете использовать действие Помощь бонусным действием."
+      ]
+    },
+    {
+      "name": "Долг",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Ёдзимбо",
+      "subclassSource": "XesusHomebrew",
+      "level": 6,
+      "entries": [
+        "На 6-м уровне, когда ваши хиты ниже 50% от максимума и враждебное существо совершает действие Атака против союзника в пределах 30 футов от вас, вы восстанавливаете 1 очко духа."
+      ]
+    },
+    {
+      "name": "Вверение",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Ёдзимбо",
+      "subclassSource": "XesusHomebrew",
+      "level": 10,
+      "entries": [
+        "На 10-м уровне, если вы выполняете идеальное парирование, ваши союзники в пределах 10 футов от вас получают дополнительный d6 к своему следующему броску атаки или спасброску до конца вашего следующего хода."
+      ]
+    },
+    {
+      "name": "Дзанмато",
+      "source": "XesusHomebrew",
+      "className": "Samurai",
+      "classSource": "XesusHomebrew",
+      "subclassShortName": "Ёдзимбо",
+      "subclassSource": "XesusHomebrew",
+      "level": 14,
+      "entries": [
+        "На 14-м уровне потратьте 1 очко духа и своё действие и выберите существо в пределах 5 футов. Цель должна совершить спасбросок Ловкости (Сл 8 + ваш бонус мастерства + ваш модификатор Мудрости). Если показатель опасности существа не выше вашего модификатора Мудрости и оно проваливает спасбросок, существо мгновенно казнено. Если его ПО выше и оно проваливает спасбросок, вы наносите 10d8 рубящего урона, а при успехе — половину. Вы не восстанавливаете очки духа, опуская существо до 0 хитов этим умением."
+      ]
+    }
+  ]
 }

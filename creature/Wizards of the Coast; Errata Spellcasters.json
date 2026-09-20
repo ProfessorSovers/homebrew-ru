@@ -1,1547 +1,1547 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "ErrataSpellcasters",
-				"abbreviation": "ErtSpl",
-				"full": "Errata Spellcasters",
-				"url": "https://dnd.wizards.com/dndstudioblog/sage-advice-book-updates",
-				"version": "Current as of 2021/12/19",
-				"authors": [
-					"Wizards of the Coast"
-				],
-				"convertedBy": [
-					"Lyra [he/him]"
-				]
-			}
-		],
-		"dependencies": {
-			"monster": [
-				"SKT"
-			],
-			"monsterFluff": [
-				"SKT"
-			]
-		},
-		"edition": "classic",
-		"status": "ready",
-		"dateAdded": 1639480853,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "e02029c761"
-	},
-	"monster": [
-		{
-			"name": "Клаугийльяматар",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Claugiyliamatar",
-				"source": "SKT",
-				"_mod": {
-					"spellcastingTags": {
-						"mode": "appendArr",
-						"items": [
-							"CD"
-						]
-					}
-				},
-				"_preserve": {
-					"page": true,
-					"hasToken": true
-				}
-			},
-			"cr": "23",
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Базовая характеристика для заклинаний Клаугийльяматар — Харизма (Сл спасброска от заклинаний {@dc 19}). Клаугийльяматар может использовать следующие заклинания без врождённых компонентов:"
-					],
-					"daily": {
-						"1e": [
-							"{@spell invisibility}",
-							"{@spell legend lore}",
-							"{@spell protection from energy}",
-							"{@spell true seeing}"
-						]
-					},
-					"ability": "cha"
-				},
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Клаугийльяматар — заклинатель 8-го уровня. Её базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 18}, {@hit 10} для попадания атаками заклинаниями). Она подготовила следующие заклинания друида:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell druidcraft}",
-								"{@spell mending}",
-								"{@spell produce flame}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell cure wounds}",
-								"{@spell detect magic}",
-								"{@spell entangle}",
-								"{@spell speak with animals}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell animal messenger}",
-								"{@spell pass without trace}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell dispel magic}",
-								"{@spell plant growth}"
-							]
-						},
-						"4": {
-							"slots": 2,
-							"spells": [
-								"{@spell blight}",
-								"{@spell locate creature}",
-								"{@spell stoneskin}"
-							]
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"token": {
-				"name": "Клаугийльяматар",
-				"source": "SKT"
-			},
-			"damageTagsSpell": [
-				"F",
-				"N"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"strength"
-			]
-		},
-		{
-			"name": "Графиня Сансури",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Countess Sansuri",
-				"source": "SKT",
-				"_mod": {
-					"spellcastingTags": {
-						"mode": "appendArr",
-						"items": [
-							"CW"
-						]
-					}
-				},
-				"_preserve": {
-					"page": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Базовая характеристика для заклинаний Сансури — Харизма. Она может использовать следующие заклинания без врождённых компонентов:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell fog cloud}",
-						"{@spell light}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell feather fall}",
-							"{@spell fly}",
-							"{@spell misty step}",
-							"{@spell telekinesis}"
-						],
-						"1e": [
-							"{@spell control weather}",
-							"{@spell gaseous form}"
-						]
-					},
-					"ability": "cha"
-				},
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Сансури — заклинатель 13-го уровня. Её базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 15}; {@hit 7} для попадания атаками заклинаниями). Она подготовила следующие заклинания волшебника:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell mage hand}",
-								"{@spell mending}",
-								"{@spell message}",
-								"{@spell prestidigitation}",
-								"{@spell ray of frost}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell identify}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell unseen servant}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell arcane lock}",
-								"{@spell gust of wind}",
-								"{@spell invisibility}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell haste}",
-								"{@spell hypnotic pattern}",
-								"{@spell lightning bolt}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"{@spell ice storm}",
-								"{@spell stoneskin}"
-							]
-						},
-						"5": {
-							"slots": 2,
-							"spells": [
-								"{@spell Bigby's hand}",
-								"{@spell wall of force}"
-							]
-						},
-						"6": {
-							"slots": 1,
-							"spells": [
-								"{@spell globe of invulnerability}"
-							]
-						},
-						"7": {
-							"slots": 1,
-							"spells": [
-								"{@spell Mordenkainen's sword}"
-							]
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"token": {
-				"name": "Графиня Сансури",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"dexterity",
-				"strength",
-				"wisdom"
-			]
-		},
-		{
-			"name": "Йимрит",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Iymrith",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Базовая характеристика для заклинаний Йимрит — Харизма (Сл спасброска от заклинаний {@dc 20}). {@spell stone shape} Йимрит может создать живую {@creature gargoyle}, а не изменить камень, как описано в описании заклинания. Она может использовать следующие заклинания без врождённых компонентов:"
-					],
-					"daily": {
-						"1": [
-							"{@spell counterspell}",
-							"{@spell detect magic}",
-							"{@spell ice storm}",
-							"{@spell stone shape}",
-							"{@spell teleport}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"token": {
-				"name": "Йимрит",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"dexterity"
-			]
-		},
-		{
-			"name": "Ярл Сторвальд",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Jarl Storvald",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Ярл Сторвальд — заклинатель 9-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 16}, {@hit 8} для попадания атаками заклинаниями). Он знает следующие заклинания следопыта:"
-					],
-					"spells": {
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell hunter's mark}",
-								"{@spell jump}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell locate animals or plants}",
-								"{@spell locate object}"
-							]
-						},
-						"3": {
-							"slots": 2,
-							"spells": [
-								"{@spell water breathing}",
-								"{@spell water walk}"
-							]
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"token": {
-				"name": "Ярл Сторвальд",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Клаут",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Klauth",
-				"source": "SKT",
-				"_mod": {
-					"spellcastingTags": {
-						"mode": "appendArr",
-						"items": [
-							"CW"
-						]
-					}
-				},
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Базовая характеристика для заклинаний Клаута — Харизма (Сл спасброска от заклинаний {@dc 22}). Он может врождённо сотворять следующие заклинания, не требующие материальных компонентов:"
-					],
-					"daily": {
-						"1": [
-							"{@spell banishment}",
-							"{@spell etherealness}",
-							"{@spell find the path}",
-							"{@spell locate object}",
-							"{@spell prismatic spray}",
-							"{@spell suggestion}"
-						]
-					},
-					"ability": "cha"
-				},
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Клаут — заклинатель 14-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 20}; {@hit 12}, чтобы попадать заклинательными атаками). У него подготовлены следующие заклинания волшебника:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell mage hand}",
-								"{@spell mending}",
-								"{@spell minor illusion}",
-								"{@spell prestidigitation}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell comprehend languages}",
-								"{@spell detect magic}",
-								"{@spell expeditious retreat}",
-								"{@spell identify}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell darkness}",
-								"{@spell detect thoughts}",
-								"{@spell Melf's acid arrow}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell clairvoyance}",
-								"{@spell haste}",
-								"{@spell nondetection}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"{@spell greater invisibility}",
-								"{@spell ice storm}",
-								"{@spell stoneskin}"
-							]
-						},
-						"5": {
-							"slots": 2,
-							"spells": [
-								"{@spell Bigby's hand}",
-								"{@spell cloudkill}",
-								"{@spell scrying}"
-							]
-						},
-						"6": {
-							"slots": 1,
-							"spells": [
-								"{@spell disintegrate}",
-								"{@spell mass suggestion}"
-							]
-						},
-						"7": {
-							"slots": 1,
-							"spells": [
-								"{@spell mirage arcane}"
-							]
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"token": {
-				"name": "Клаут",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"charisma",
-				"constitution",
-				"dexterity",
-				"wisdom"
-			]
-		},
-		{
-			"name": "Маэгера, Титан Рассвета",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Maegera the Dawn Titan",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true,
-					"hasFluff": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Базовая характеристика для заклинаний Маэгеры — Харизма. Маэгера может врождённо сотворить следующее заклинание (Сл спасброска от заклинаний {@dc 19}), не требующее материальных компонентов:"
-					],
-					"will": [
-						"{@spell fireball}"
-					],
-					"ability": "cha"
-				}
-			],
-			"token": {
-				"name": "Маэгера, Титан Рассвета",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"dexterity"
-			]
-		},
-		{
-			"name": "Наксин Драткала",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Naxene Drathkala",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Наксин — заклинатель 6-го уровня. Её базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 13}; {@hit 5}, чтобы попадать заклинательными атаками). У неё подготовлены следующие заклинания волшебника:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
-								"{@spell prestidigitation}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell misty step}",
-								"{@spell suggestion}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell fly}",
-								"{@spell lightning bolt}"
-							]
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"token": {
-				"name": "Наксин Драткала",
-				"source": "SKT"
-			},
-			"damageTagsSpell": [
-				"F",
-				"L",
-				"O"
-			],
-			"savingThrowForcedSpell": [
-				"dexterity",
-				"wisdom"
-			]
-		},
-		{
-			"name": "Нимир",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Nimir",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Базовая характеристика для врождённого использования заклинаний Нимира — Харизма (Сл спасброска от заклинаний {@dc 17}). Он может врождённо сотворять следующие заклинания, не требующие материальных компонентов:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell feather fall}",
-						"{@spell levitate}",
-						"{@spell light}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell control weather}",
-							"{@spell water breathing}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"token": {
-				"name": "Нимир",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity"
-			]
-		},
-		{
-			"name": "Орлекто",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Orlekto",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Базовая характеристика для врождённого использования заклинаний Орлекто — Харизма (Сл спасброска от заклинаний {@dc 17}). Он может врождённо сотворять следующие заклинания, не требующие материальных компонентов:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell feather fall}",
-						"{@spell levitate}",
-						"{@spell light}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell control weather}",
-							"{@spell water breathing}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"token": {
-				"name": "Орлекто",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity"
-			]
-		},
-		{
-			"name": "Отовир",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Othovir",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Отовир — заклинатель 2-го уровня. Его базовая характеристика для заклинаний — Харизма (Сл спасброска от заклинаний {@dc 13}; {@hit 5}, чтобы попадать заклинательными атаками). У него подготовлены следующие заклинания чародея:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell blade ward}",
-								"{@spell fire bolt}",
-								"{@spell mending}",
-								"{@spell prestidigitation}"
-							]
-						},
-						"1": {
-							"slots": 3,
-							"spells": [
-								"{@spell mage armor}",
-								"{@spell thunderwave}",
-								"{@spell witch bolt}"
-							]
-						}
-					},
-					"ability": "cha"
-				}
-			],
-			"token": {
-				"name": "Отовир",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"constitution"
-			]
-		},
-		{
-			"name": "Шалдур",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Shaldoor",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Базовая характеристика для врождённого использования заклинаний Шалдура — Харизма (Сл спасброска от заклинаний {@dc 17}). Он может врождённо накладывать следующие заклинания, не используя материальные компоненты:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell feather fall}",
-						"{@spell levitate}",
-						"{@spell light}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell control weather}",
-							"{@spell water breathing}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"token": {
-				"name": "Шалдур",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity"
-			]
-		},
-		{
-			"name": "Сларкретел",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Slarkrethel",
-				"source": "SKT",
-				"_mod": {
-					"spellcastingTags": {
-						"mode": "appendArr",
-						"items": [
-							"CW"
-						]
-					}
-				},
-				"_preserve": {
-					"page": true,
-					"legendaryGroup": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Сларкретел — заклинатель 20-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 22}, {@hit 14} для попадания атаками заклинаниями). Сларкретел подготовил следующие заклинания волшебника:"
-					],
-					"spells": {
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell comprehend languages}",
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"{@spell sleep}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell blindness/deafness}",
-								"{@spell detect thoughts}",
-								"{@spell suggestion}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell fly}",
-								"{@spell nondetection}",
-								"{@spell sending}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"{@spell arcane eye}",
-								"{@spell ice storm}",
-								"{@spell locate creature}"
-							]
-						},
-						"5": {
-							"slots": 3,
-							"spells": [
-								"{@spell cloudkill}",
-								"{@spell scrying}",
-								"{@spell telekinesis}"
-							]
-						},
-						"6": {
-							"slots": 2,
-							"spells": [
-								"{@spell chain lightning}",
-								"{@spell flesh to stone}",
-								"{@spell mass suggestion}"
-							]
-						},
-						"7": {
-							"slots": 2,
-							"spells": [
-								"{@spell delayed blast fireball}",
-								"{@spell sequester}",
-								"{@spell teleport}"
-							]
-						},
-						"8": {
-							"slots": 1,
-							"spells": [
-								"{@spell control weather}",
-								"{@spell feeblemind}"
-							]
-						},
-						"9": {
-							"slots": 1,
-							"spells": [
-								"{@spell foresight}",
-								"{@spell power word kill}"
-							]
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"token": {
-				"name": "Сларкретел",
-				"source": "SKT"
-			},
-			"damageTagsSpell": [
-				"B",
-				"C",
-				"F",
-				"I",
-				"L",
-				"Y"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity",
-				"intelligence",
-				"wisdom"
-			]
-		},
-		{
-			"name": "Турланг",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Turlang",
-				"source": "SKT",
-				"_mod": {
-					"spellcastingTags": {
-						"mode": "appendArr",
-						"items": [
-							"CD"
-						]
-					}
-				},
-				"_preserve": {
-					"page": true,
-					"hasToken": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Турланг — заклинатель 9-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 15}, {@hit 7} для попадания атаками заклинаниями). Турланг подготовил следующие заклинания друида:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell druidcraft}",
-								"{@spell guidance}",
-								"{@spell resistance}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell detect magic}",
-								"{@spell entangle}",
-								"{@spell goodberry}",
-								"{@spell speak with animals}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell animal messenger}",
-								"{@spell gust of wind}",
-								"{@spell pass without trace}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell plant growth}",
-								"{@spell speak with plants}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"{@spell conjure woodland beings}",
-								"{@spell hallucinatory terrain}"
-							]
-						},
-						"5": {
-							"slots": 1,
-							"spells": [
-								"{@spell commune with nature}"
-							]
-						}
-					},
-					"ability": "wis"
-				}
-			],
-			"token": {
-				"name": "Турланг",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"strength"
-			]
-		},
-		{
-			"name": "Утгардтский Шаман",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Uthgardt Shaman",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"alignment": [
-				"N",
-				"E"
-			],
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Шаман может врождённо накладывать следующие заклинания. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 12}, {@hit 4} для попадания атаками заклинаниями)."
-					],
-					"will": [
-						"{@spell dancing lights}",
-						"{@spell message}",
-						"{@spell mage hand}",
-						"{@spell thaumaturgy}"
-					],
-					"daily": {
-						"1e": [
-							"{@spell augury}",
-							"{@spell bestow curse}",
-							"{@spell cordon of arrows}",
-							"{@spell detect magic}",
-							"{@spell hex}",
-							"{@spell prayer of healing}",
-							"{@spell speak with dead}",
-							"{@spell spirit guardians}"
-						]
-					},
-					"ability": "wis"
-				}
-			],
-			"token": {
-				"name": "Утгардтский Шаман",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"dexterity",
-				"wisdom"
-			],
-			"_versions": [
-				{
-					"name": "Утгардтский Шаман (Чёрный Лев)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell animate dead}",
-									"{@spell chill touch}",
-									"{@spell feign death}",
-									"{@spell revivify}"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Чёрный Ворон)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell animal messenger} ({@creature raven} only)",
-									"{@spell feather fall}",
-									"{@spell polymorph} (into a {@creature raven} only)"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Синий Медведь)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell enhance ability} (bear's endurance only)",
-									"{@spell heroism}"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Лось)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell expeditious retreat}",
-									"{@spell find steed} ({@creature elk} only)",
-									"{@spell haste}"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Серый Волк)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell beast sense} ({@creature wolf} or {@creature dire wolf} only)",
-									"{@spell moonbeam}",
-									"{@spell speak with animals} ({@creature wolf} or {@creature dire wolf} only)"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Великий Червь)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell crusader's mantle}",
-									"{@spell divine favor}",
-									"{@spell hypnotic pattern}"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Грифон)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell feather fall}",
-									"{@spell fly}"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Красный Тигр)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell beast sense} ({@creature tiger} only)",
-									"{@spell enhance ability} (cat's grace only)",
-									"{@spell jump}"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Небесный Пони)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell divine favor}",
-									"{@spell feather fall}",
-									"{@spell lightning bolt}"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Громовой зверь)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell enhance ability} (bull's strength only)",
-									"{@spell pass without trace}",
-									"{@spell stoneskin}"
-								]
-							}
-						}
-					}
-				},
-				{
-					"name": "Утгардтский Шаман (Древесное Привидение)",
-					"source": "ErrataSpellcasters",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"1e": [
-									"{@spell druidcraft}",
-									"{@spell barkskin}",
-									"{@spell plant growth}",
-									"{@spell speak with plants}"
-								]
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"name": "Вааша",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Vaasha",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Врожденная базовая характеристика для заклинаний Вааши — Харизма (Сл спасброска от заклинаний {@dc 17}). Она может врождённо накладывать следующие заклинания, не нуждаясь в материальных компонентах:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell feather fall}",
-						"{@spell levitate}",
-						"{@spell light}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell control weather}",
-							"{@spell water breathing}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"token": {
-				"name": "Вааша",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity"
-			]
-		},
-		{
-			"name": "Молодой облачный великан",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Young Cloud Giant",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Врожденная базовая характеристика для заклинаний великана — Харизма. Он может врождённо накладывать следующие заклинания, не нуждаясь в материальных компонентах:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell fog cloud}",
-						"{@spell light}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell feather fall}",
-							"{@spell fly}",
-							"{@spell misty step}",
-							"{@spell telekinesis}"
-						],
-						"1e": [
-							"{@spell control weather}",
-							"{@spell gaseous form}"
-						]
-					},
-					"ability": "cha"
-				}
-			],
-			"trait": [
-				{
-					"name": "Острый нюх",
-					"entries": [
-						"Великан совершает проверки Мудрости ({@skill Perception}), основанные на обонянии, с преимуществом."
-					]
-				}
-			],
-			"token": {
-				"name": "Молодой облачный великан",
-				"source": "SKT"
-			},
-			"savingThrowForcedSpell": [
-				"dexterity"
-			]
-		},
-		{
-			"name": "Зефирос",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Zephyros",
-				"source": "SKT",
-				"_preserve": {
-					"page": true,
-					"hasToken": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"spellcasting": [
-				{
-					"name": "Врождённое колдовство",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Врожденная базовая характеристика для заклинаний Зефироса — Харизма. Он может врождённо накладывать следующие заклинания, не требуя материальных компонентов:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell fog cloud}",
-						"{@spell light}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell feather fall}",
-							"{@spell fly}",
-							"{@spell misty step}",
-							"{@spell telekinesis}"
-						],
-						"1e": [
-							"{@spell control weather}",
-							"{@spell gaseous form}"
-						]
-					},
-					"ability": "cha"
-				},
-				{
-					"name": "Сотворение заклинаний",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Зефирос — заклинатель 12-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 17}; {@hit 11} для попадания заклинаниями). Он подготовил следующие заклинания волшебника:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell mending}",
-								"{@spell message}",
-								"{@spell prestidigitation}",
-								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell charm person}",
-								"{@spell comprehend languages}",
-								"{@spell magic missile}",
-								"{@spell shield}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell crown of madness}",
-								"{@spell gust of wind}",
-								"{@spell levitate}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell nondetection}",
-								"{@spell protection from energy}",
-								"{@spell tongues}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"{@spell conjure minor elementals}",
-								"{@spell greater invisibility}",
-								"{@spell Otiluke's resilient sphere}"
-							]
-						},
-						"5": {
-							"slots": 2,
-							"spells": [
-								"{@spell cone of cold}",
-								"{@spell contact other plane}"
-							]
-						},
-						"6": {
-							"slots": 1,
-							"spells": [
-								"{@spell mass suggestion}"
-							]
-						}
-					},
-					"ability": "int"
-				}
-			],
-			"token": {
-				"name": "Зефирос",
-				"source": "SKT"
-			},
-			"damageTagsSpell": [
-				"C",
-				"L",
-				"O",
-				"Y"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity",
-				"intelligence",
-				"strength",
-				"wisdom"
-			]
-		}
-	],
-	"monsterFluff": [
-		{
-			"name": "Графиня Сансури",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Countess Sansuri",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Йимрит",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Iymrith",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Ярл Сторвальд",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Jarl Storvald",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Клаут",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Klauth",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Маэгера, Титан Рассвета",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Maegera the Dawn Titan",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Наксин Драткала",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Naxene Drathkala",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Отовир",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Othovir",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Сларкретел",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Slarkrethel",
-				"source": "SKT"
-			}
-		},
-		{
-			"name": "Утгардтский Шаман",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Uthgardt Shaman",
-				"source": "SKT"
-			},
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"Утгарды подозрительно и неприязненно относятся к большинству видов магии. Они редко сами выбирают стать Шаманами. Вместо этого эта роль выпадает тем, кто рождается с сильной связью с миром духов. Быть Шаманом — значит стоять одной ногой в землях живых, а другой — в землях мёртвых. Те, кто идут по тенистой тропе между двумя землями, делают это потому, что духи мёртвых принуждают их. Другие утгарды боятся силы Шамана и уважают её.",
-								"Утгардтский Шаман должен обладать священной связкой, чтобы накладывать заклинания. Священная связка состоит из палок, костей, перьев, клочков меха и камней, которых «касались» духи. Шаману требуется месяц, чтобы собрать священную связку, и одновременно он может использовать только одну такую связку. Священная связка приносит преимущества только создавшему её Шаману и не заменяет обычные компоненты заклинания.",
-								"Помимо заклинаний, которые могут накладывать все Утгардтские Шаманы, Шаман конкретного племени получает дополнительные заклинания в зависимости от принадлежности к племени (см. врезку «Племенные заклинания Утгардтских Шаманов»).",
-								"Общаясь с духами своих предков, утгардтские шаманы также могут изучать тайные ритуалы. Эти ритуалы почти всегда требуют какой-либо кровавой жертвы, а их эффекты обычно изменяют тело. Например, некоторые шаманы Чёрного Ворона знают ритуал, позволяющий им высиживать великанов-воронов из обычных яиц ворона, а некоторые шаманы племени Грифона могут превращаться в грифонов, выполняя ритуал, требующий выпить огромное количество конской крови.",
-								{
-									"type": "entries",
-									"name": "Утгардтский Шаман: племенные заклинания",
-									"entries": [
-										{
-											"type": "homebrew",
-											"entries": [
-												"{@note Эти записи восстановлены до версии, существовавшей до исправлений.}",
-												"В зависимости от племени утгардтского шамана его особенность «Врождённое использование заклинаний» получает дополнительные заклинания, которые шаман может накладывать 1 раз в день.",
-												"Чёрный Лев: {@spell animate dead}, {@spell chill touch}, {@spell feign death}, {@spell revivify}",
-												"Чёрный Ворон: {@spell animal messenger} (только {@creature raven}), {@spell feather fall}, {@spell polymorph} (только в {@creature raven})",
-												"Синий Медведь: {@spell enhance ability} (только Медвежья выносливость), {@spell heroism}",
-												"Лось: {@spell expeditious retreat}, {@spell find steed} (только {@creature elk}), {@spell haste}",
-												"Серый Волк: {@spell beast sense} (только {@creature wolf} или {@creature dire wolf}), {@spell moonbeam}, {@spell speak with animals} (только {@creature wolf} или {@creature dire wolf})",
-												"Великий Червь: {@spell crusader's mantle}, {@spell divine favor}, {@spell hypnotic pattern}",
-												"Грифон: {@spell feather fall}, {@spell fly}",
-												"Небесный пони: {@spell divine favor}, {@spell feather fall}, {@spell lightning bolt}",
-												"Красный тигр: {@spell beast sense} (только {@creature tiger}), {@spell enhance ability} (только «Кошачья ловкость»), {@spell jump}",
-												"Громовой зверь: {@spell enhance ability} (только «Бычья сила»), {@spell pass without trace}, {@spell stoneskin}",
-												"Древесное привидение: {@spell barkskin}, {@spell druidcraft}, {@spell plant growth}, {@spell speak with plants}"
-											],
-											"oldEntries": [
-												"Depending on an Uthgardt shaman's tribe, the shaman's Innate Spellcasting feature gains additional spells the shaman can cast once per day.",
-												"Black Lion: {@spell chill touch}, {@spell feign death}, {@spell revivify}",
-												"Black Raven: {@spell animal messenger} (raven only), {@spell polymorph} (self only; into a raven only)",
-												"Blue Bear: {@spell enhance ability} (bear's endurance only), {@spell heroism}",
-												"Elk: {@spell find steed} (cast as 1 action; elk only), {@spell haste}",
-												"Gray Wolf: {@spell beast sense} (wolf or dire wolf only), {@spell moonbeam}, {@spell speak with animals} (wolf or dire wolf only)",
-												"Great Worm: {@spell crusader's mantle}, {@spell hypnotic pattern}",
-												"Griffon: {@spell beast sense} (birds only), {@spell fly}",
-												"Sky Pony: {@spell gust of wind}, {@spell witch bolt}",
-												"Red Tiger: {@spell enhance ability} (cat's grace only), {@spell jump}",
-												"Thunderbeast: {@spell enhance ability} (bull's strength only), {@spell pass without trace}",
-												"Tree Ghost: {@spell barkskin}, {@spell speak with plants}"
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Зефирос",
-			"source": "ErrataSpellcasters",
-			"_copy": {
-				"name": "Zephyros",
-				"source": "SKT"
-			}
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "ErrataSpellcasters",
+        "abbreviation": "ErtSpl",
+        "full": "Errata Spellcasters",
+        "url": "https://dnd.wizards.com/dndstudioblog/sage-advice-book-updates",
+        "version": "Current as of 2021/12/19",
+        "authors": [
+          "Wizards of the Coast"
+        ],
+        "convertedBy": [
+          "Lyra [he/him]"
+        ]
+      }
+    ],
+    "dependencies": {
+      "monster": [
+        "SKT"
+      ],
+      "monsterFluff": [
+        "SKT"
+      ]
+    },
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1639480853,
+    "dateLastModified": 1772404109,
+    "_dateLastModifiedHash": "e02029c761"
+  },
+  "monster": [
+    {
+      "name": "Клаугийльяматар",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Клаугилиаматар",
+        "source": "SKT",
+        "_mod": {
+          "spellcastingTags": {
+            "mode": "appendArr",
+            "items": [
+              "CD"
+            ]
+          }
+        },
+        "_preserve": {
+          "page": true,
+          "hasToken": true
+        }
+      },
+      "cr": "23",
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Базовая характеристика для заклинаний Клаугийльяматар — Харизма (Сл спасброска от заклинаний {@dc 19}). Клаугийльяматар может использовать следующие заклинания без врождённых компонентов:"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell invisibility}",
+              "{@spell legend lore}",
+              "{@spell protection from energy}",
+              "{@spell true seeing}"
+            ]
+          },
+          "ability": "cha"
+        },
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Клаугийльяматар — заклинатель 8-го уровня. Её базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 18}, {@hit 10} для попадания атаками заклинаниями). Она подготовила следующие заклинания друида:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell druidcraft}",
+                "{@spell mending}",
+                "{@spell produce flame}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell cure wounds}",
+                "{@spell detect magic}",
+                "{@spell entangle}",
+                "{@spell speak with animals}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell animal messenger}",
+                "{@spell pass without trace}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell dispel magic}",
+                "{@spell plant growth}"
+              ]
+            },
+            "4": {
+              "slots": 2,
+              "spells": [
+                "{@spell blight}",
+                "{@spell locate creature}",
+                "{@spell stoneskin}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "token": {
+        "name": "Клаугийльяматар",
+        "source": "SKT"
+      },
+      "damageTagsSpell": [
+        "F",
+        "N"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "strength"
+      ]
+    },
+    {
+      "name": "Графиня Сансури",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Графиня Сансури",
+        "source": "SKT",
+        "_mod": {
+          "spellcastingTags": {
+            "mode": "appendArr",
+            "items": [
+              "CW"
+            ]
+          }
+        },
+        "_preserve": {
+          "page": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Базовая характеристика для заклинаний Сансури — Харизма. Она может использовать следующие заклинания без врождённых компонентов:"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell fog cloud}",
+            "{@spell light}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell feather fall}",
+              "{@spell fly}",
+              "{@spell misty step}",
+              "{@spell telekinesis}"
+            ],
+            "1e": [
+              "{@spell control weather}",
+              "{@spell gaseous form}"
+            ]
+          },
+          "ability": "cha"
+        },
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Сансури — заклинатель 13-го уровня. Её базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 15}; {@hit 7} для попадания атаками заклинаниями). Она подготовила следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell mage hand}",
+                "{@spell mending}",
+                "{@spell message}",
+                "{@spell prestidigitation}",
+                "{@spell ray of frost}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell identify}",
+                "{@spell magic missile}",
+                "{@spell shield}",
+                "{@spell unseen servant}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell arcane lock}",
+                "{@spell gust of wind}",
+                "{@spell invisibility}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell haste}",
+                "{@spell hypnotic pattern}",
+                "{@spell lightning bolt}"
+              ]
+            },
+            "4": {
+              "slots": 3,
+              "spells": [
+                "{@spell ice storm}",
+                "{@spell stoneskin}"
+              ]
+            },
+            "5": {
+              "slots": 2,
+              "spells": [
+                "{@spell Bigby's hand}",
+                "{@spell wall of force}"
+              ]
+            },
+            "6": {
+              "slots": 1,
+              "spells": [
+                "{@spell globe of invulnerability}"
+              ]
+            },
+            "7": {
+              "slots": 1,
+              "spells": [
+                "{@spell Mordenkainen's sword}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "token": {
+        "name": "Графиня Сансури",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "strength",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Йимрит",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Имрит",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Базовая характеристика для заклинаний Йимрит — Харизма (Сл спасброска от заклинаний {@dc 20}). {@spell stone shape} Йимрит может создать живую {@creature gargoyle}, а не изменить камень, как описано в описании заклинания. Она может использовать следующие заклинания без врождённых компонентов:"
+          ],
+          "daily": {
+            "1": [
+              "{@spell counterspell}",
+              "{@spell detect magic}",
+              "{@spell ice storm}",
+              "{@spell stone shape}",
+              "{@spell teleport}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "token": {
+        "name": "Йимрит",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Ярл Сторвальд",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Ярл Сторвальд",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Ярл Сторвальд — заклинатель 9-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 16}, {@hit 8} для попадания атаками заклинаниями). Он знает следующие заклинания следопыта:"
+          ],
+          "spells": {
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell hunter's mark}",
+                "{@spell jump}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell locate animals or plants}",
+                "{@spell locate object}"
+              ]
+            },
+            "3": {
+              "slots": 2,
+              "spells": [
+                "{@spell water breathing}",
+                "{@spell water walk}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "token": {
+        "name": "Ярл Сторвальд",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Клаут",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Клаут",
+        "source": "SKT",
+        "_mod": {
+          "spellcastingTags": {
+            "mode": "appendArr",
+            "items": [
+              "CW"
+            ]
+          }
+        },
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Базовая характеристика для заклинаний Клаута — Харизма (Сл спасброска от заклинаний {@dc 22}). Он может врождённо сотворять следующие заклинания, не требующие материальных компонентов:"
+          ],
+          "daily": {
+            "1": [
+              "{@spell banishment}",
+              "{@spell etherealness}",
+              "{@spell find the path}",
+              "{@spell locate object}",
+              "{@spell prismatic spray}",
+              "{@spell suggestion}"
+            ]
+          },
+          "ability": "cha"
+        },
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Клаут — заклинатель 14-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 20}; {@hit 12}, чтобы попадать заклинательными атаками). У него подготовлены следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell mage hand}",
+                "{@spell mending}",
+                "{@spell minor illusion}",
+                "{@spell prestidigitation}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell comprehend languages}",
+                "{@spell detect magic}",
+                "{@spell expeditious retreat}",
+                "{@spell identify}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell darkness}",
+                "{@spell detect thoughts}",
+                "{@spell Melf's acid arrow}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell clairvoyance}",
+                "{@spell haste}",
+                "{@spell nondetection}"
+              ]
+            },
+            "4": {
+              "slots": 3,
+              "spells": [
+                "{@spell greater invisibility}",
+                "{@spell ice storm}",
+                "{@spell stoneskin}"
+              ]
+            },
+            "5": {
+              "slots": 2,
+              "spells": [
+                "{@spell Bigby's hand}",
+                "{@spell cloudkill}",
+                "{@spell scrying}"
+              ]
+            },
+            "6": {
+              "slots": 1,
+              "spells": [
+                "{@spell disintegrate}",
+                "{@spell mass suggestion}"
+              ]
+            },
+            "7": {
+              "slots": 1,
+              "spells": [
+                "{@spell mirage arcane}"
+              ]
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "token": {
+        "name": "Клаут",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Маэгера, Титан Рассвета",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Маэгера, Титан Рассвета",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true,
+          "hasFluff": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Базовая характеристика для заклинаний Маэгеры — Харизма. Маэгера может врождённо сотворить следующее заклинание (Сл спасброска от заклинаний {@dc 19}), не требующее материальных компонентов:"
+          ],
+          "will": [
+            "{@spell fireball}"
+          ],
+          "ability": "cha"
+        }
+      ],
+      "token": {
+        "name": "Маэгера, Титан Рассвета",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Наксин Драткала",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Наксена Драткала",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Наксин — заклинатель 6-го уровня. Её базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 13}; {@hit 5}, чтобы попадать заклинательными атаками). У неё подготовлены следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell fire bolt}",
+                "{@spell light}",
+                "{@spell mage hand}",
+                "{@spell prestidigitation}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell mage armor}",
+                "{@spell magic missile}",
+                "{@spell shield}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell misty step}",
+                "{@spell suggestion}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell fly}",
+                "{@spell lightning bolt}"
+              ]
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "token": {
+        "name": "Наксин Драткала",
+        "source": "SKT"
+      },
+      "damageTagsSpell": [
+        "F",
+        "L",
+        "O"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Нимир",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Нимир",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Базовая характеристика для врождённого использования заклинаний Нимира — Харизма (Сл спасброска от заклинаний {@dc 17}). Он может врождённо сотворять следующие заклинания, не требующие материальных компонентов:"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell feather fall}",
+            "{@spell levitate}",
+            "{@spell light}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell control weather}",
+              "{@spell water breathing}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "token": {
+        "name": "Нимир",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Орлекто",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Орлекто",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Базовая характеристика для врождённого использования заклинаний Орлекто — Харизма (Сл спасброска от заклинаний {@dc 17}). Он может врождённо сотворять следующие заклинания, не требующие материальных компонентов:"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell feather fall}",
+            "{@spell levitate}",
+            "{@spell light}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell control weather}",
+              "{@spell water breathing}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "token": {
+        "name": "Орлекто",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Отовир",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Отовир",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Отовир — заклинатель 2-го уровня. Его базовая характеристика для заклинаний — Харизма (Сл спасброска от заклинаний {@dc 13}; {@hit 5}, чтобы попадать заклинательными атаками). У него подготовлены следующие заклинания чародея:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell blade ward}",
+                "{@spell fire bolt}",
+                "{@spell mending}",
+                "{@spell prestidigitation}"
+              ]
+            },
+            "1": {
+              "slots": 3,
+              "spells": [
+                "{@spell mage armor}",
+                "{@spell thunderwave}",
+                "{@spell witch bolt}"
+              ]
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "token": {
+        "name": "Отовир",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "constitution"
+      ]
+    },
+    {
+      "name": "Шалдур",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Шалдор",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Базовая характеристика для врождённого использования заклинаний Шалдура — Харизма (Сл спасброска от заклинаний {@dc 17}). Он может врождённо накладывать следующие заклинания, не используя материальные компоненты:"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell feather fall}",
+            "{@spell levitate}",
+            "{@spell light}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell control weather}",
+              "{@spell water breathing}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "token": {
+        "name": "Шалдур",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Сларкретел",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Сларкретел",
+        "source": "SKT",
+        "_mod": {
+          "spellcastingTags": {
+            "mode": "appendArr",
+            "items": [
+              "CW"
+            ]
+          }
+        },
+        "_preserve": {
+          "page": true,
+          "legendaryGroup": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Сларкретел — заклинатель 20-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 22}, {@hit 14} для попадания атаками заклинаниями). Сларкретел подготовил следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell comprehend languages}",
+                "{@spell detect magic}",
+                "{@spell identify}",
+                "{@spell sleep}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell blindness/deafness}",
+                "{@spell detect thoughts}",
+                "{@spell suggestion}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell fly}",
+                "{@spell nondetection}",
+                "{@spell sending}"
+              ]
+            },
+            "4": {
+              "slots": 3,
+              "spells": [
+                "{@spell arcane eye}",
+                "{@spell ice storm}",
+                "{@spell locate creature}"
+              ]
+            },
+            "5": {
+              "slots": 3,
+              "spells": [
+                "{@spell cloudkill}",
+                "{@spell scrying}",
+                "{@spell telekinesis}"
+              ]
+            },
+            "6": {
+              "slots": 2,
+              "spells": [
+                "{@spell chain lightning}",
+                "{@spell flesh to stone}",
+                "{@spell mass suggestion}"
+              ]
+            },
+            "7": {
+              "slots": 2,
+              "spells": [
+                "{@spell delayed blast fireball}",
+                "{@spell sequester}",
+                "{@spell teleport}"
+              ]
+            },
+            "8": {
+              "slots": 1,
+              "spells": [
+                "{@spell control weather}",
+                "{@spell feeblemind}"
+              ]
+            },
+            "9": {
+              "slots": 1,
+              "spells": [
+                "{@spell foresight}",
+                "{@spell power word kill}"
+              ]
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "token": {
+        "name": "Сларкретел",
+        "source": "SKT"
+      },
+      "damageTagsSpell": [
+        "B",
+        "C",
+        "F",
+        "I",
+        "L",
+        "Y"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "intelligence",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Турланг",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Турланг",
+        "source": "SKT",
+        "_mod": {
+          "spellcastingTags": {
+            "mode": "appendArr",
+            "items": [
+              "CD"
+            ]
+          }
+        },
+        "_preserve": {
+          "page": true,
+          "hasToken": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Турланг — заклинатель 9-го уровня. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 15}, {@hit 7} для попадания атаками заклинаниями). Турланг подготовил следующие заклинания друида:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell druidcraft}",
+                "{@spell guidance}",
+                "{@spell resistance}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell entangle}",
+                "{@spell goodberry}",
+                "{@spell speak with animals}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell animal messenger}",
+                "{@spell gust of wind}",
+                "{@spell pass without trace}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell plant growth}",
+                "{@spell speak with plants}"
+              ]
+            },
+            "4": {
+              "slots": 3,
+              "spells": [
+                "{@spell conjure woodland beings}",
+                "{@spell hallucinatory terrain}"
+              ]
+            },
+            "5": {
+              "slots": 1,
+              "spells": [
+                "{@spell commune with nature}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "token": {
+        "name": "Турланг",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "strength"
+      ]
+    },
+    {
+      "name": "Утгардтский Шаман",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Шаман Утгарда",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Шаман может врождённо накладывать следующие заклинания. Его базовая характеристика для заклинаний — Мудрость (Сл спасброска от заклинаний {@dc 12}, {@hit 4} для попадания атаками заклинаниями)."
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell message}",
+            "{@spell mage hand}",
+            "{@spell thaumaturgy}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell augury}",
+              "{@spell bestow curse}",
+              "{@spell cordon of arrows}",
+              "{@spell detect magic}",
+              "{@spell hex}",
+              "{@spell prayer of healing}",
+              "{@spell speak with dead}",
+              "{@spell spirit guardians}"
+            ]
+          },
+          "ability": "wis"
+        }
+      ],
+      "token": {
+        "name": "Утгардтский Шаман",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
+      ],
+      "_versions": [
+        {
+          "name": "Утгардтский Шаман (Чёрный Лев)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell animate dead}",
+                  "{@spell chill touch}",
+                  "{@spell feign death}",
+                  "{@spell revivify}"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Чёрный Ворон)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell animal messenger} ({@creature raven} only)",
+                  "{@spell feather fall}",
+                  "{@spell polymorph} (into a {@creature raven} only)"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Синий Медведь)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell enhance ability} (bear's endurance only)",
+                  "{@spell heroism}"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Лось)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell expeditious retreat}",
+                  "{@spell find steed} ({@creature elk} only)",
+                  "{@spell haste}"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Серый Волк)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell beast sense} ({@creature wolf} or {@creature dire wolf} only)",
+                  "{@spell moonbeam}",
+                  "{@spell speak with animals} ({@creature wolf} or {@creature dire wolf} only)"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Великий Червь)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell crusader's mantle}",
+                  "{@spell divine favor}",
+                  "{@spell hypnotic pattern}"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Грифон)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell feather fall}",
+                  "{@spell fly}"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Красный Тигр)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell beast sense} ({@creature tiger} only)",
+                  "{@spell enhance ability} (cat's grace only)",
+                  "{@spell jump}"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Небесный Пони)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell divine favor}",
+                  "{@spell feather fall}",
+                  "{@spell lightning bolt}"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Громовой зверь)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell enhance ability} (bull's strength only)",
+                  "{@spell pass without trace}",
+                  "{@spell stoneskin}"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Утгардтский Шаман (Древесное Привидение)",
+          "source": "ErrataSpellcasters",
+          "_mod": {
+            "_": {
+              "mode": "addSpells",
+              "daily": {
+                "1e": [
+                  "{@spell druidcraft}",
+                  "{@spell barkskin}",
+                  "{@spell plant growth}",
+                  "{@spell speak with plants}"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Вааша",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Вааша",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Врожденная базовая характеристика для заклинаний Вааши — Харизма (Сл спасброска от заклинаний {@dc 17}). Она может врождённо накладывать следующие заклинания, не нуждаясь в материальных компонентах:"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell feather fall}",
+            "{@spell levitate}",
+            "{@spell light}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell control weather}",
+              "{@spell water breathing}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "token": {
+        "name": "Вааша",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Молодой облачный великан",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Молодой облачный великан",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Врожденная базовая характеристика для заклинаний великана — Харизма. Он может врождённо накладывать следующие заклинания, не нуждаясь в материальных компонентах:"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell fog cloud}",
+            "{@spell light}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell feather fall}",
+              "{@spell fly}",
+              "{@spell misty step}",
+              "{@spell telekinesis}"
+            ],
+            "1e": [
+              "{@spell control weather}",
+              "{@spell gaseous form}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Острый нюх",
+          "entries": [
+            "Великан совершает проверки Мудрости ({@skill Perception}), основанные на обонянии, с преимуществом."
+          ]
+        }
+      ],
+      "token": {
+        "name": "Молодой облачный великан",
+        "source": "SKT"
+      },
+      "savingThrowForcedSpell": [
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Зефирос",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Зефирос",
+        "source": "SKT",
+        "_preserve": {
+          "page": true,
+          "hasToken": true,
+          "hasFluff": true,
+          "hasFluffImages": true
+        }
+      },
+      "spellcasting": [
+        {
+          "name": "Врождённое колдовство",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Врожденная базовая характеристика для заклинаний Зефироса — Харизма. Он может врождённо накладывать следующие заклинания, не требуя материальных компонентов:"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell fog cloud}",
+            "{@spell light}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell feather fall}",
+              "{@spell fly}",
+              "{@spell misty step}",
+              "{@spell telekinesis}"
+            ],
+            "1e": [
+              "{@spell control weather}",
+              "{@spell gaseous form}"
+            ]
+          },
+          "ability": "cha"
+        },
+        {
+          "name": "Сотворение заклинаний",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Зефирос — заклинатель 12-го уровня. Его базовая характеристика для заклинаний — Интеллект (Сл спасброска от заклинаний {@dc 17}; {@hit 11} для попадания заклинаниями). Он подготовил следующие заклинания волшебника:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell mending}",
+                "{@spell message}",
+                "{@spell prestidigitation}",
+                "{@spell ray of frost}",
+                "{@spell shocking grasp}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell charm person}",
+                "{@spell comprehend languages}",
+                "{@spell magic missile}",
+                "{@spell shield}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell crown of madness}",
+                "{@spell gust of wind}",
+                "{@spell levitate}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell nondetection}",
+                "{@spell protection from energy}",
+                "{@spell tongues}"
+              ]
+            },
+            "4": {
+              "slots": 3,
+              "spells": [
+                "{@spell conjure minor elementals}",
+                "{@spell greater invisibility}",
+                "{@spell Otiluke's resilient sphere}"
+              ]
+            },
+            "5": {
+              "slots": 2,
+              "spells": [
+                "{@spell cone of cold}",
+                "{@spell contact other plane}"
+              ]
+            },
+            "6": {
+              "slots": 1,
+              "spells": [
+                "{@spell mass suggestion}"
+              ]
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "token": {
+        "name": "Зефирос",
+        "source": "SKT"
+      },
+      "damageTagsSpell": [
+        "C",
+        "L",
+        "O",
+        "Y"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "intelligence",
+        "strength",
+        "wisdom"
+      ]
+    }
+  ],
+  "monsterFluff": [
+    {
+      "name": "Графиня Сансури",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Графиня Сансури",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Йимрит",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Имрит",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Ярл Сторвальд",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Ярл Сторвальд",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Клаут",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Клаут",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Маэгера, Титан Рассвета",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Маэгера, Титан Рассвета",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Наксин Драткала",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Наксена Драткала",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Отовир",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Отовир",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Сларкретел",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Сларкретел",
+        "source": "SKT"
+      }
+    },
+    {
+      "name": "Утгардтский Шаман",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Шаман Утгардта",
+        "source": "SKT"
+      },
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "entries": [
+                "Утгарды подозрительно и неприязненно относятся к большинству видов магии. Они редко сами выбирают стать Шаманами. Вместо этого эта роль выпадает тем, кто рождается с сильной связью с миром духов. Быть Шаманом — значит стоять одной ногой в землях живых, а другой — в землях мёртвых. Те, кто идут по тенистой тропе между двумя землями, делают это потому, что духи мёртвых принуждают их. Другие утгарды боятся силы Шамана и уважают её.",
+                "Утгардтский Шаман должен обладать священной связкой, чтобы накладывать заклинания. Священная связка состоит из палок, костей, перьев, клочков меха и камней, которых «касались» духи. Шаману требуется месяц, чтобы собрать священную связку, и одновременно он может использовать только одну такую связку. Священная связка приносит преимущества только создавшему её Шаману и не заменяет обычные компоненты заклинания.",
+                "Помимо заклинаний, которые могут накладывать все Утгардтские Шаманы, Шаман конкретного племени получает дополнительные заклинания в зависимости от принадлежности к племени (см. врезку «Племенные заклинания Утгардтских Шаманов»).",
+                "Общаясь с духами своих предков, утгардтские шаманы также могут изучать тайные ритуалы. Эти ритуалы почти всегда требуют какой-либо кровавой жертвы, а их эффекты обычно изменяют тело. Например, некоторые шаманы Чёрного Ворона знают ритуал, позволяющий им высиживать великанов-воронов из обычных яиц ворона, а некоторые шаманы племени Грифона могут превращаться в грифонов, выполняя ритуал, требующий выпить огромное количество конской крови.",
+                {
+                  "type": "entries",
+                  "name": "Утгардтский Шаман: племенные заклинания",
+                  "entries": [
+                    {
+                      "type": "homebrew",
+                      "entries": [
+                        "{@note Эти записи восстановлены до версии, существовавшей до исправлений.}",
+                        "В зависимости от племени утгардтского шамана его особенность «Врождённое использование заклинаний» получает дополнительные заклинания, которые шаман может накладывать 1 раз в день.",
+                        "Чёрный Лев: {@spell animate dead}, {@spell chill touch}, {@spell feign death}, {@spell revivify}",
+                        "Чёрный Ворон: {@spell animal messenger} (только {@creature raven}), {@spell feather fall}, {@spell polymorph} (только в {@creature raven})",
+                        "Синий Медведь: {@spell enhance ability} (только Медвежья выносливость), {@spell heroism}",
+                        "Лось: {@spell expeditious retreat}, {@spell find steed} (только {@creature elk}), {@spell haste}",
+                        "Серый Волк: {@spell beast sense} (только {@creature wolf} или {@creature dire wolf}), {@spell moonbeam}, {@spell speak with animals} (только {@creature wolf} или {@creature dire wolf})",
+                        "Великий Червь: {@spell crusader's mantle}, {@spell divine favor}, {@spell hypnotic pattern}",
+                        "Грифон: {@spell feather fall}, {@spell fly}",
+                        "Небесный пони: {@spell divine favor}, {@spell feather fall}, {@spell lightning bolt}",
+                        "Красный тигр: {@spell beast sense} (только {@creature tiger}), {@spell enhance ability} (только «Кошачья ловкость»), {@spell jump}",
+                        "Громовой зверь: {@spell enhance ability} (только «Бычья сила»), {@spell pass without trace}, {@spell stoneskin}",
+                        "Древесное привидение: {@spell barkskin}, {@spell druidcraft}, {@spell plant growth}, {@spell speak with plants}"
+                      ],
+                      "oldEntries": [
+                        "Depending on an Uthgardt shaman's tribe, the shaman's Innate Spellcasting feature gains additional spells the shaman can cast once per day.",
+                        "Black Lion: {@spell chill touch}, {@spell feign death}, {@spell revivify}",
+                        "Black Raven: {@spell animal messenger} (raven only), {@spell polymorph} (self only; into a raven only)",
+                        "Blue Bear: {@spell enhance ability} (bear's endurance only), {@spell heroism}",
+                        "Elk: {@spell find steed} (cast as 1 action; elk only), {@spell haste}",
+                        "Gray Wolf: {@spell beast sense} (wolf or dire wolf only), {@spell moonbeam}, {@spell speak with animals} (wolf or dire wolf only)",
+                        "Great Worm: {@spell crusader's mantle}, {@spell hypnotic pattern}",
+                        "Griffon: {@spell beast sense} (birds only), {@spell fly}",
+                        "Sky Pony: {@spell gust of wind}, {@spell witch bolt}",
+                        "Red Tiger: {@spell enhance ability} (cat's grace only), {@spell jump}",
+                        "Thunderbeast: {@spell enhance ability} (bull's strength only), {@spell pass without trace}",
+                        "Tree Ghost: {@spell barkskin}, {@spell speak with plants}"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Зефирос",
+      "source": "ErrataSpellcasters",
+      "_copy": {
+        "name": "Зефирос",
+        "source": "SKT"
+      }
+    }
+  ]
 }

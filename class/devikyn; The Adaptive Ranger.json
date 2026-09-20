@@ -1,2562 +1,2562 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "AdaptiveRanger",
-				"abbreviation": "AR",
-				"full": "The Adaptive Ranger",
-				"url": "https://drive.google.com/file/d/1ndh9fpRdjpnlpllMZY_AVvQ-OnZe_NOl/view",
-				"version": "1.30",
-				"authors": [
-					"/u/devikyn"
-				],
-				"convertedBy": [
-					"GoR"
-				],
-				"color": "6e7b40",
-				"targetSchema": "1.2"
-			}
-		],
-		"edition": "classic",
-		"dateAdded": 1625065042,
-		"dateLastModified": 1785698747,
-		"_dateLastModifiedHash": "60bf477384"
-	},
-	"class": [
-		{
-			"name": "Адаптивный следопыт",
-			"source": "AdaptiveRanger",
-			"hd": {
-				"number": 1,
-				"faces": 10
-			},
-			"proficiency": [
-				"str",
-				"dex"
-			],
-			"spellcastingAbility": "wis",
-			"casterProgression": "1/2",
-			"preparedSpells": "<$level$> / 2 + <$wis_mod$>",
-			"classSpells": [
-				{
-					"className": "Ranger",
-					"classSource": "PHB"
-				}
-			],
-			"startingProficiencies": {
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"acrobatics",
-								"animal handling",
-								"athletics",
-								"insight",
-								"investigation",
-								"nature",
-								"medicine",
-								"perception",
-								"stealth",
-								"survival"
-							],
-							"count": 2
-						}
-					}
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
-				"armor": [
-					"light",
-					"medium",
-					"shield"
-				],
-				"armorProficiencies": [
-					{
-						"light": true,
-						"medium": true,
-						"shield": true
-					}
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
-					"(a) два {@item shortsword|phb|короткие мечи} или (b) два {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"{@item longbow|phb} и {@item quiver|phb} с {@item arrows (20)|phb|20 стрелами}"
-				],
-				"goldAlternative": "{@dice 5d4x10}",
-				"defaultData": [
-					{
-						"a": [
-							"scale mail|phb"
-						],
-						"b": [
-							"leather armor|phb"
-						]
-					},
-					{
-						"a": [
-							{
-								"item": "shortsword|phb",
-								"quantity": 2
-							}
-						],
-						"b": [
-							{
-								"equipmentType": "weaponSimpleMelee",
-								"quantity": 2
-							}
-						]
-					},
-					{
-						"a": [
-							"dungeoneer's pack|phb"
-						],
-						"b": [
-							"explorer's pack|phb"
-						]
-					},
-					{
-						"_": [
-							"longbow|phb",
-							"arrows (20)|phb"
-						]
-					}
-				]
-			},
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"Метки"
-					],
-					"rows": [
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							6
-						],
-						[
-							6
-						],
-						[
-							6
-						],
-						[
-							6
-						]
-					]
-				},
-				{
-					"title": "Ячейки заклинаний по уровням заклинаний",
-					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Adaptive Ranger (AR)}",
-						"{@filter 2nd|spells|level=2|class=Adaptive Ranger (AR)}",
-						"{@filter 3rd|spells|level=3|class=Adaptive Ranger (AR)}",
-						"{@filter 4th|spells|level=4|class=Adaptive Ranger (AR)}",
-						"{@filter 5th|spells|level=5|class=Adaptive Ranger (AR)}"
-					],
-					"rows": [
-						[
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							2,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2
-						]
-					]
-				}
-			],
-			"classFeatures": [
-				"Ловкий исследователь|Adaptive Ranger|AdaptiveRanger|1|AdaptiveRanger",
-				"Метка охоты|Adaptive Ranger|AdaptiveRanger|1|AdaptiveRanger",
-				"Боевой стиль|Adaptive Ranger|AdaptiveRanger|2|AdaptiveRanger",
-				"Сотворение заклинаний|Adaptive Ranger|AdaptiveRanger|2|AdaptiveRanger",
-				{
-					"classFeature": "Архетип следопыта|Adaptive Ranger|AdaptiveRanger|3|AdaptiveRanger",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|4|AdaptiveRanger",
-				"Дополнительная атака|Adaptive Ranger|AdaptiveRanger|5|AdaptiveRanger",
-				"Затаиться на виду|Adaptive Ranger|AdaptiveRanger|6|AdaptiveRanger",
-				"Поступь земли|Adaptive Ranger|AdaptiveRanger|6|AdaptiveRanger",
-				{
-					"classFeature": "Умение архетипа следопыта|Adaptive Ranger|AdaptiveRanger|7|AdaptiveRanger",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|8|AdaptiveRanger",
-				"Уклонение|Adaptive Ranger|AdaptiveRanger|10|AdaptiveRanger",
-				{
-					"classFeature": "Умение архетипа следопыта|Adaptive Ranger|AdaptiveRanger|11|AdaptiveRanger",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|12|AdaptiveRanger",
-				"Исчезновение|Adaptive Ranger|AdaptiveRanger|14|AdaptiveRanger",
-				{
-					"classFeature": "Умение архетипа следопыта|Adaptive Ranger|AdaptiveRanger|15|AdaptiveRanger",
-					"gainSubclassFeature": true
-				},
-				"Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|16|AdaptiveRanger",
-				"Звериные чувства|Adaptive Ranger|AdaptiveRanger|18|AdaptiveRanger",
-				"Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|19|AdaptiveRanger",
-				"Убийца врагов|Adaptive Ranger|AdaptiveRanger|20|AdaptiveRanger"
-			],
-			"subclassTitle": "Архетип следопыта",
-			"hasFluff": true
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Адаптивный следопыт",
-			"source": "AdaptiveRanger",
-			"entries": [
-				{
-					"type": "section",
-					"name": "Адаптивный следопыт",
-					"source": "AdaptiveRanger",
-					"page": 1,
-					"entries": [
-						"Видя уникальную самобытность следопыта, многие придумали отличные идеи, которые раскрывают эту самобытность ещё полнее, добавляя новые уникальные способности, делающие следопыта ещё интереснее для игры. Мне нравятся эти хоумбрю, но я поставил себе целью создать следопыта, который вбирает идеи оригинального следопыта и просто позволяет ему быть более универсальным. Следопыт хитроумен, адаптивен и даёт полезные сведения остальной группе — и мне кажется, эти изменения сильно помогают воплотить эту фантазию.",
-						"Эти изменения делают следопыта несколько могущественнее его основы — следопыта из PHB. Наиболее значимые и при этом нейтральные по флавору изменения касаются заклинания «Метка охотника» и списка заклинаний следопыта. Если вы сочтёте этого следопыта слишком могущественным для своей кампании, я бы сначала отменил изменения заклинаний, прежде чем пробовать что-либо ещё.",
-						{
-							"type": "entries",
-							"name": "Цели дизайна",
-							"page": 1,
-							"entries": [
-								"Когда я смотрю на следопыта, я вижу небольшой список принципиальных проблем. Ни одна из них не связана с самобытностью следопыта; все они — механические кочки, из-за которых следопытом трудно играть. Проблемы, которые я стремился исправить, написав этот хоумбрю, таковы:",
-								{
-									"type": "list",
-									"items": [
-										"Следопыт должен быть умелым следопытом и охотником. Его ремесло, а порой и страсть — держать окраины цивилизации в безопасности. Также говорится, что он часто может путешествовать между цивилизациями, встречая совершенно разных врагов и местности. Почему же тогда следопыты закрывают глаза на всех врагов и местности, кроме одного типа? Разве не должны они адаптироваться к каждой ситуации быстрее всех остальных?",
-										"Наступление следопыта часто сводится к атаке-ослаблению без особого разнообразия. Это потому, что его характеристика для заклинаний и многие его заклинания сильно ограничены, и я полагаю, что это задумано как компенсация за сочетание дальнего боя и способностей к выслеживанию. Однако на практике это оставляет ему набор унылых опций, почти полностью лишённых взаимодействия друг с другом. Новые способы использования его заклинаний и снятие части ограничений помогают смягчить эти проблемы.",
-										"Все его способности пассивны. Это делает их совершенно незаметными — потому я не встречал ни следопыта, который помнит все пассивные преимущества всегда, ни Мастера, который точно учитывает следопыта. Это также мало побуждает отыгрывать свой класс. Многие могут компенсировать это продуманной предысторией персонажа, но класс следопыта куда меньше вплетён в личность персонажа, чем, скажем, у друида или паладина. Вы должны ощущать, что от вас никто не может скрыться благодаря вашим навыкам, а не просто получать эти навыки без удовольствия от их заслуги."
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Прочие изменения",
-							"page": 1,
-							"entries": [
-								"Ещё несколько изменений отсюда можно применить и к другим классам — это была просто вольность. Заклинание {@spell Целительный дух|AdaptiveRanger} ослаблено до уровня, который меня устраивает. Вы также можете использовать изменения списка известных заклинаний следопыта со многими видами хоумбрю-следопытов, а также со следопытами из PHB и Revised. Переработка архетипа Повелителя зверей должна работать с любой версией следопыта. В документе могут быть и другие подобные изменения, но эти проще всего адаптировать под почти любую игру."
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Вопросы? Отзывы?",
-							"entries": [
-								"Спасибо, что нашли время прочитать, оценить и порадоваться этому хоумбрю. Не стесняйтесь связаться со мной в Reddit: {@link /u/devikyn|https://www.reddit.com/u/devikyn} — со своими замечаниями и улучшениями!",
-								"Использованные иллюстрации можно найти здесь:",
-								{
-									"type": "list",
-									"columns": 2,
-									"items": [
-										"{@link Cover - Alexander Gustafon|https://www.illustratedpixels.com/}",
-										"{@link Ranger - TwoDeeTen|http://twodeeten.blogspot.com/2012/01/gauren-lightfoot.html}",
-										"{@link Ranger Tracking - Veli Nyström|https://www.artstation.com/artwork/Xzb0y}",
-										"{@link Hide in Plain Sight - Nick Keller|http://www.nickkellerart.com/}",
-										"{@link Beast Master Ranger - DigitalSashimi|https://www.deviantart.com/digitalsashimi/art/White-Tiger-408821183}",
-										"{@link Dragonguard Ranger - Straban|https://www.deviantart.com/straban/art/Elf-warrior-and-the-dragon-726130994}",
-										"{@link Hunter Ranger - Golarion|http://pathtogolarion.wikidot.com/part-4}",
-										"{@link Primeval Watch Ranger - Guild Wars|https://guildwars.fandom.com/wiki/Category:Concept_art}"
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	],
-	"subclass": [
-		{
-			"name": "Повелитель зверей",
-			"shortName": "Повелитель зверей",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"find familiar"
-						],
-						"5": [
-							"warding bond"
-						],
-						"9": [
-							"conjure animals"
-						],
-						"13": [
-							"dominate beast"
-						],
-						"17": [
-							"awaken"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Повелитель зверей|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|3|AdaptiveRanger",
-				"Ярость природы|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|7|AdaptiveRanger",
-				"Говорящий со зверями|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|11|AdaptiveRanger",
-				"Общие заклинания|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|15|AdaptiveRanger"
-			]
-		},
-		{
-			"name": "Драконья стража",
-			"shortName": "Драконья стража",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"cause fear|xge"
-						],
-						"5": [
-							"dragon's breath|xge"
-						],
-						"9": [
-							"fly"
-						],
-						"13": [
-							"polymorph"
-						],
-						"17": [
-							"control winds|xge"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Драконья стража|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|3|AdaptiveRanger",
-				"Призрачный всадник|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|7|AdaptiveRanger",
-				"Ужасающий аспект|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|11|AdaptiveRanger",
-				"Крыло свободы|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|15|AdaptiveRanger"
-			]
-		},
-		{
-			"name": "Охотник",
-			"shortName": "Охотник",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"expeditious retreat"
-						],
-						"5": [
-							"see invisibility"
-						],
-						"9": [
-							"meld into stone"
-						],
-						"13": [
-							"staggering smite"
-						],
-						"17": [
-							"scrying"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Охотник|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger",
-				"Оборонительная тактика|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger",
-				"Мультиатака|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|11|AdaptiveRanger",
-				"Превосходная защита охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|15|AdaptiveRanger"
-			]
-		},
-		{
-			"name": "Первобытная стража",
-			"shortName": "Первобытная стража",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"faerie fire"
-						],
-						"5": [
-							"warding wind"
-						],
-						"9": [
-							"plant growth"
-						],
-						"13": [
-							"guardian of nature"
-						],
-						"17": [
-							"insect plague"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Первобытная стража|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|3|AdaptiveRanger",
-				"Древняя стойкость|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|7|AdaptiveRanger",
-				"Укоренённая защита|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|11|AdaptiveRanger",
-				"Кора железного дерева|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|15|AdaptiveRanger"
-			]
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Ловкий исследователь",
-			"source": "AdaptiveRanger",
-			"page": 3,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 1,
-			"entries": [
-				"Ваш опыт путешествий по разным условиям научил вас приёмам выживания даже в самых суровых условиях.",
-				"Выберите навык {@skill Nature} или {@skill Survival}. Вы получаете владение выбранным навыком, и ваш бонус мастерства удваивается при совершении проверок характеристик с использованием этого навыка.",
-				"За каждую минуту, потраченную на изучение следов существа, вы можете узнать одну конкретную характеристику существа — на выбор из его типа, размера, скоростей или того, владеет ли оно навыками {@skill Acrobatics}, {@skill Athletics} или {@skill Stealth}.",
-				"Кроме того, вы и существа, путешествующие с вами, получают следующие преимущества:",
-				{
-					"type": "list",
-					"items": [
-						"Труднопроходимая местность не замедляет ваше путешествие.",
-						"Вам не нужно снижать темп, чтобы путешествовать скрытно.",
-						"Вы можете один раз перебросить любую кость хитов, которую бросаете, если результат на кости ниже вашего бонуса мастерства, и использовать больший результат.",
-						"Завершая короткий отдых, вы можете снизить свой уровень истощения на 1. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
-					]
-				}
-			]
-		},
-		{
-			"name": "Метка охоты",
-			"source": "AdaptiveRanger",
-			"page": 3,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 1,
-			"entries": [
-				"Вы разработали продвинутые приёмы выслеживания и охоты на существ, делающие вас неутомимым противником.",
-				"Один раз в каждый свой ход вы можете отметить видимое существо в пределах 90 футов от вас для охоты (действие не требуется). Ваши атаки оружием наносят дополнительный {@damage 1d4} урона типа оружия существу, отмеченному вами для охоты. Этот урон увеличивается до {@damage 1d6} на 5-м уровне и до {@damage 1d8} на 11-м уровне.",
-				"Вы совершаете с преимуществом проверки Интеллекта и Мудрости, связанные с выслеживанием отмеченного вами существа, и, находясь в пределах 30 футов от него, вы знаете местоположение существа, если только оно не скрыто от вас и вы не ослеплены или не оглохли. Вы можете иметь лишь одно отмеченное существо одновременно; если вы отметите другое существо, метка снимается с прежней цели.",
-				"Вы можете отмечать существо таким образом число раз, равное столбцу «Метки» таблицы следопыта, и восстанавливаете потраченные использования, завершая короткий или продолжительный отдых."
-			]
-		},
-		{
-			"name": "Боевой стиль",
-			"source": "AdaptiveRanger",
-			"page": 3,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 2,
-			"entries": [
-				"На 2-м уровне вы перенимаете особый стиль боя как свою специальность. Вы не можете взять вариант боевого стиля более одного раза, даже если позже получите возможность выбрать снова.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Archery"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Defense"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Dueling"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Two-Weapon Fighting"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Первобытная осведомлённость",
-			"source": "AdaptiveRanger",
-			"page": 3,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 2,
-			"entries": [
-				"Ваше колдовство пропускает ваши чувства через природу вокруг вас: вы можете наложить каждое из заклинаний, указанных в таблице Заклинания первобытной осведомлённости, один раз без траты ячейки заклинаний, когда достигаете определённых уровней в этом классе. Наложив одно из этих заклинаний, вы должны завершить продолжительный отдых, прежде чем сможете наложить его вновь.",
-				{
-					"type": "table",
-					"caption": "Заклинания первобытной осведомлённости",
-					"colLabels": [
-						"Уровень следопыта",
-						"Заклинание"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"2-й",
-							"{@spell detect magic}, {@spell speak with animals}"
-						],
-						[
-							"5-й",
-							"{@spell beast sense}. {@spell locate animals or plants}"
-						],
-						[
-							"9-й",
-							"{@spell speak with plants}"
-						],
-						[
-							"13-й",
-							"{@spell locate creature}"
-						],
-						[
-							"17-й",
-							"{@spell commune with nature}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Сотворение заклинаний",
-			"source": "AdaptiveRanger",
-			"page": 3,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 2,
-			"entries": [
-				"На 2-м уровне вы научились черпать магию, присущую природе, что позволяет вам накладывать заклинания.",
-				{
-					"type": "entries",
-					"name": "Подготовка и сотворение заклинаний",
-					"page": 0,
-					"entries": [
-						"Таблица Адаптивного следопыта показывает, сколько у вас есть ячеек заклинаний для накладывания заклинаний следопыта. Чтобы наложить одно из ваших заклинаний следопыта 1-го уровня или выше, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний, завершая продолжительный отдых.",
-						"Вы подготавливаете список заклинаний следопыта, доступных вам для накладывания, выбирая из списка заклинаний следопыта. При этом выберите число заклинаний следопыта, равное вашему модификатору Мудрости + половина вашего уровня следопыта, округлённая вниз (минимум одно заклинание). Заклинания должны быть уровня, для которого у вас есть ячейки заклинаний.",
-						"Наложение заклинания не убирает его из списка подготовленных. Вы можете изменить список подготовленных заклинаний, завершая продолжительный отдых. Подготовка нового заклинания следопыта требует времени, проведённого в единении с землёй: как минимум 1 минута на уровень заклинания для каждого подготавливаемого заклинания."
-					]
-				},
-				{
-					"type": "refClassFeature",
-					"classFeature": "Первобытная осведомлённость|Adaptive Ranger|AdaptiveRanger|2|AdaptiveRanger"
-				},
-				{
-					"type": "entries",
-					"name": "Базовая характеристика для заклинаний",
-					"entries": [
-						"Мудрость — ваша базовая характеристика для заклинаний следопыта, поскольку ваша магия черпает из вашей связи с природой. Вы используете Мудрость всякий раз, когда заклинание ссылается на вашу базовую характеристику для заклинаний. Кроме того, вы используете модификатор Мудрости при определении Сл спасброска от заклинания следопыта, которое сотворяете, и при совершении броска атаки им.",
-						{
-							"type": "abilityDc",
-							"name": "Заклинание",
-							"attributes": [
-								"wis"
-							]
-						},
-						{
-							"type": "abilityAttackMod",
-							"name": "Заклинание",
-							"attributes": [
-								"wis"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ритуальное сотворение",
-					"entries": [
-						"Вы можете наложить любое подготовленное вами заклинание следопыта как ритуал, если у этого заклинания есть метка «ритуал»."
-					]
-				}
-			]
-		},
-		{
-			"name": "Архетип следопыта",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 3,
-			"entries": [
-				"На 3-м уровне выберите архетип, к которому будете стремиться. Ваш выбор даёт вам умения на 3-м уровне, а также на 7-м, 11-м и 15-м уровне."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 4,
-			"entries": [
-				"Достигнув 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровне вы можете повысить одну характеристику на свой выбор на 2 или две характеристики на свой выбор на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Дополнительная атака",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 5,
-			"entries": [
-				"Начиная с 5-го уровня вы можете атаковать дважды вместо одного раза всякий раз, когда в свой ход совершаете действие {@action Attack}."
-			]
-		},
-		{
-			"name": "Затаиться на виду",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 6,
-			"entries": [
-				"Начиная с 6-го уровня вы получаете бонус +5 к проверкам Ловкости ({@skill Stealth}), пока прижимаетесь к твёрдой поверхности из природных материалов, например к дереву или каменной стене, достаточно большой, чтобы дать вам укрытие, или пока лежите ничком на травяном покрове, — материалы магически перестраиваются и принимают форму, обеспечивая вам подходящий камуфляж.",
-				"Вы теряете это преимущество до начала вашего следующего хода, если в свой ход перемещаетесь более чем на 5 футов, находясь в пределах 60 футов от существа, которое может вас видеть."
-			]
-		},
-		{
-			"name": "Поступь земли",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 6,
-			"entries": [
-				"Также на 6-м уровне земля вокруг признаёт вас своим защитником и даёт вам безопасный проход. Немагическая труднопроходимая местность не стоит вам дополнительного перемещения, а растения не могут вас замедлить и не могут навредить вам шипами, колючками и другими подобными опасностями, которые у них есть."
-			]
-		},
-		{
-			"name": "Умение архетипа следопыта",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 7,
-			"entries": [
-				"На 7-м уровне вы получаете умение, дарованное вашим архетипом следопыта."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 8,
-			"entries": [
-				"Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Уклонение",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 10,
-			"entries": [
-				"Начиная с 10-го уровня вы можете ловко уклоняться от некоторых эффектов по площади, таких как огненное дыхание красного дракона или заклинание {@spell Ice Storm}. Когда вы подвергаетесь эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить только половину урона, вы вместо этого не получаете урона при успехе и получаете лишь половину урона при провале."
-			]
-		},
-		{
-			"name": "Умение архетипа следопыта",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 11,
-			"entries": [
-				"На 11-м уровне вы получаете умение, дарованное вашим архетипом следопыта."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 12,
-			"entries": [
-				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Исчезновение",
-			"source": "AdaptiveRanger",
-			"page": 5,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 14,
-			"entries": [
-				"Начиная с 14-го уровня вы можете совершать действие {@action Hide} бонусным действием в каждый свой ход. Всякий раз, успешно скрываясь, вы становитесь {@condition invisible} и не оставляете следов или признаков своего присутствия до начала вашего следующего хода или до тех пор, пока не атакуете или не наложите заклинание."
-			]
-		},
-		{
-			"name": "Умение архетипа следопыта",
-			"source": "AdaptiveRanger",
-			"page": 5,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 15,
-			"entries": [
-				"На 15-м уровне вы получаете умение, дарованное вашим архетипом следопыта."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "AdaptiveRanger",
-			"page": 5,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 16,
-			"entries": [
-				"Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Звериные чувства",
-			"source": "AdaptiveRanger",
-			"page": 5,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 18,
-			"entries": [
-				"На 18-м уровне вы никогда не имеете помеху на броски атаки по существам, отмеченным вами для охоты.",
-				"Вы также знаете местоположение каждого существа в пределах 30 футов от вас, если только оно не скрыто от вас и вы не ослеплены или не оглохли."
-			]
-		},
-		{
-			"name": "Увеличение характеристик",
-			"source": "AdaptiveRanger",
-			"page": 5,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 19,
-			"entries": [
-				"Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
-			]
-		},
-		{
-			"name": "Убийца врагов",
-			"source": "AdaptiveRanger",
-			"page": 4,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 20,
-			"entries": [
-				"На 20-м уровне один раз за ход вы можете добавить модификатор Мудрости к броскам атаки и урона одной совершаемой вами атаки оружием. Вы можете сделать это после броска атаки, но до определения исхода атаки.",
-				"Кроме того, когда вы попадаете атакой по существу, отмеченному вами для охоты, вы можете выбрать критическое попадание и добавить дополнительный {@damage 6d6} урона к критическому попаданию. Вы не можете сделать это снова, пока не завершите короткий или продолжительный отдых."
-			]
-		}
-	],
-	"foundryClassFeature": [
-		{
-			"name": "Deft Explorer",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 1,
-			"entryData": {
-				"skillProficiencies": [
-					{
-						"choose": {
-							"from": [
-								"nature",
-								"survival"
-							]
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Mark of the Hunt",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 1,
-			"system": {
-				"activation.type": "none",
-				"target.type": "creature",
-				"target.units": "ft",
-				"target.value": "90",
-				"uses.max": "@classes.adaptive-ranger.levels > 16 ? 6  : @classes.adaptive-ranger.levels > 10 ? 5  : @classes.adaptive-ranger.levels > 4 ?  4  : 3",
-				"uses.per": "sr"
-			},
-			"effects": [
-				{
-					"name": "Mark of the Hunt",
-					"disabled": true,
-					"changes": [
-						{
-							"key": "data.bonuses.mwak.damage",
-							"mode": "ADD",
-							"value": "+1d4"
-						},
-						{
-							"key": "data.bonuses.rwak.damage",
-							"mode": "ADD",
-							"value": "+1d4"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Vanish",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 14,
-			"system": {
-				"activation.type": "bonus",
-				"activation.cost": 1
-			}
-		},
-		{
-			"name": "Foe Slayer",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"level": 20,
-			"system": {
-				"uses.value": 1,
-				"uses.max": 1,
-				"uses.per": "sr"
-			}
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": "Повелитель зверей",
-			"source": "AdaptiveRanger",
-			"page": 5,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Повелитель зверей",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Архетип Повелителя зверей воплощает дружбу между цивилизованными расами и зверями мира. Единые в цели, зверь и следопыт действуют как одно целое, сражаясь с чудовищными врагами, угрожающими и цивилизации, и дикой природе. Принимая архетип Повелителя зверей, вы посвящаете себя этому идеалу, работая в паре с животным как его спутник и друг.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Магия Повелителя зверей|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|3|AdaptiveRanger"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Звериный спутник|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|3|AdaptiveRanger"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Команда хозяина|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|3|AdaptiveRanger"
-				}
-			]
-		},
-		{
-			"name": "Звериный спутник",
-			"source": "AdaptiveRanger",
-			"page": 5,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Повелитель зверей",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Также на 3-м уровне вы можете призвать из дикой природы животное, которое станет вашим верным спутником, связав свою душу с вашей.",
-				"Вы можете потратить 8 часов непрерывной концентрации, оставаясь в естественной среде обитания, чтобы найти звериного спутника, который после этого верно следует за вами. Первого звериного спутника вы находите, получая это умение.",
-				"Ваш спутник может быть выбран из {@filter any Small or larger single beast of challenge rating 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=beast|size=s;m;l;h;g|miscellaneous=!swarm}. Однако ваш Мастер может разрешить лишь определённых животных, исходя из окружающей местности и того, какие существа логично присутствовали бы в этой области. Вы можете иметь лишь одного звериного спутника одновременно.",
-				"Ваш звериный спутник повинуется вашим командам настолько, насколько может. Он перемещается и действует в ваш ход, но его действия, решения, отношение и так далее определяете вы. Вы и ваш спутник можете перемещаться и действовать в любом порядке на ваш выбор. Если вы недееспособны или отсутствуете, ваш спутник действует самостоятельно.",
-				"Ваш спутник специально обучен сражаться с вами в унисон. Пока он связан с вами этим умением, действуют следующие правила:",
-				{
-					"type": "list",
-					"items": [
-						"Он не может совершать действия атаки из своего блока характеристик, но может совершать безоружные удары, использующие {@damage d4} в качестве урона.",
-						"Он владеет двумя спасбросками и двумя навыками на ваш выбор, в дополнение к своим обычным владениям спасбросками и навыками.",
-						"Он понимает один язык на ваш выбор, на котором говорите вы.",
-						"Он получает бонус к своим броскам атаки, к классу доспеха и к спасброскам и навыкам, которыми владеет. Этот бонус равен вашему бонусу мастерства минус 2 (минимум +0).",
-						"Получая это умение, а также за каждый ваш уровень следопыта выше 3-го, ваш спутник получает кость хитов, а его максимум хитов увеличивается на величину, равную его модификатору Телосложения (минимум 1) плюс четыре. Кроме того, всякий раз, получая от этого класса умение Увеличение характеристик, ваш спутник может увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1, но не выше 20.",
-						"Если ваш звериный спутник когда-либо погибнет, магическая связь, которую вы делите, позволяет вам вернуть его к жизни, завершая продолжительный отдых. Вы можете вернуть звериного спутника к жизни таким образом, даже не имея ни одной части его тела. Если вы используете эту способность, чтобы вернуть к жизни прежнего спутника, уже имея спутника, ваш нынешний спутник покидает вас и заменяется восстановленным спутником."
-					]
-				},
-				{
-					"type": "inset",
-					"name": "О владении существ",
-					"entries": [
-						"Разобраться в правильных бонусах существа бывает трудно, поэтому эти советы помогут вам понять, как владение и значения характеристик применяются к характеристикам существа. Значение ПО существа определяет его бонус мастерства так, как если бы оно было того же уровня в любом классе, и его бонус мастерства не может быть меньше +2, независимо от его ПО.",
-						"Этот расчёт уже включён в блок характеристик существа для вас. Например, укус {@creature wolf} имеет бонус к попаданию +4 — результат сложения бонуса мастерства +2 и модификатора Ловкости +2. Сл спасброска от укуса волка равна 11 (8 + его бонус мастерства + его модификатор Силы). Когда вы достигаете 5-го уровня, бонус мастерства вашего спутника увеличится до +3. Это повысит его бонус к попаданию до +5, а Сл спасброска от его укуса — до 12."
-					]
-				}
-			]
-		},
-		{
-			"name": "Магия Повелителя зверей",
-			"source": "AdaptiveRanger",
-			"page": 5,
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Повелитель зверей",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Начиная с 3-го уровня у вас всегда есть дополнительные подготовленные заклинания, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинания Повелителя зверей. Эти заклинания считаются для вас заклинаниями следопыта и не учитываются против числа заклинаний следопыта, которые вы можете подготовить.",
-				{
-					"type": "table",
-					"caption": "Заклинания Повелителя зверей",
-					"colLabels": [
-						"Уровень следопыта",
-						"Заклинание"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3-й",
-							"{@spell find familiar}"
-						],
-						[
-							"5-й",
-							"{@spell warding bond}"
-						],
-						[
-							"9-й",
-							"{@spell conjure animals}"
-						],
-						[
-							"13-й",
-							"{@spell dominate beast}"
-						],
-						[
-							"17-й",
-							"{@spell awaken}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Команда хозяина",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Повелитель зверей",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Также на 3-м уровне вы обучаете своего спутника следовать определённым командам в унисон с вами, со временем улучшая вашу связь.",
-				"У вас есть запас Костей команд, равный половине вашего уровня следопыта + ваш модификатор Мудрости. Кость команды — это d6, и она используется для отдачи команд обученным зверям, например вашему звериному спутнику. Вы можете отдать одну команду за раз обученному зверю в пределах 120 футов от вас, который может вас слышать; зверь должен быть способен вас слышать, чтобы исполнить команду, и команда пропадает, если зверь не выполнит её до начала вашего следующего хода. Ваша кость команды увеличивается в размере на определённых уровнях в этом классе: d8 на 7-м уровне и d10 на 11-м уровне.",
-				"Ваш звериный спутник знает две звериные команды на ваш выбор, описанные ниже. Он изучает ещё одну команду, когда вы достигаете 11-го уровня в этом классе. Вы также можете обучить любое дружественное зверю, кроме вашего спутника, одной звериной команде, потратив не менее 1 часа в день в течение 7 дней на обучение существа. Только ваш спутник может когда-либо узнать более одной звериной команды с помощью этого умения.",
-				"Вы восстанавливаете потраченные кости команд, завершая продолжительный отдых.",
-				"{@b —Звериные команды—}",
-				{
-					"type": "entries",
-					"name": "Атака",
-					"entries": [
-						"Вы можете использовать своё бонусное действие и потратить кость команды, чтобы отдать эту команду. Ваш спутник может действием совершить одно из своих действий природной атаки, кроме Мультиатаки. Если атака попадает, бросьте кость и добавьте результат к броску урона атаки."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Свалиться",
-					"entries": [
-						"Вы можете использовать своё бонусное действие и потратить кость команды, чтобы отдать эту команду. Ваш спутник использует свою реакцию, чтобы упасть ничком и попытаться совершить {@action Hide}, бросив кость и добавив результат к своей проверке Ловкости ({@skill Stealth}). Первая атака, которую он совершит, скрываясь таким образом, также добавляет результат кости команды к своему броску атаки."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Найти",
-					"entries": [
-						"Вы можете использовать своё бонусное действие и потратить кость команды, чтобы отдать эту команду. Ваш спутник использует свою реакцию, чтобы попытаться совершить {@action Search} в поисках скрытых существ или предметов, бросив кость и добавив результат к своей проверке Мудрости ({@skill Perception}) для этого действия."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Захват",
-					"entries": [
-						"Когда ваш спутник совершает {@action opportunity attack}, вы можете использовать свою реакцию и потратить кость команды, чтобы отдать эту команду. Если атака попадает, ваш спутник может попытаться {@action grapple} цель в рамках этой атаки, бросив кость и добавив результат к проверке навыка, совершаемой для этой попытки."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Наскок",
-					"entries": [
-						"Вы можете использовать своё бонусное действие и потратить кость команды, чтобы отдать эту команду. Ваш спутник использует свою реакцию, чтобы совершить действие {@action Help}, помогая следующей атаке по видимому им существу в пределах его досягаемости. Если эта атака попадает, бросьте кость команды и добавьте результат как дополнительный урон атаки."
-					]
-				}
-			]
-		},
-		{
-			"name": "Ярость природы",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Повелитель зверей",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"Начиная с 7-го уровня атаки вашего спутника считаются магическими для целей преодоления сопротивления немагическому урону."
-			]
-		},
-		{
-			"name": "Говорящий со зверями",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Повелитель зверей",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"header": 2,
-			"entries": [
-				"На 11-м уровне вы получаете владение навыком {@skill Animal Handling}, если ещё не владеете им, и ваш бонус мастерства удваивается для проверок характеристик, совершаемых с использованием этого навыка."
-			]
-		},
-		{
-			"name": "Общие заклинания",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Повелитель зверей",
-			"subclassSource": "AdaptiveRanger",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"Начиная с 15-го уровня, когда вы накладываете заклинание, которое включает вас в качестве цели, вы можете также подвергнуть этому заклинанию своего звериного спутника, если животное находится в пределах 30 футов от вас."
-			]
-		},
-		{
-			"name": "Драконья стража",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Драконья стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Драконья стража — это следопыты, верно служащие драконам. Они предлагают служение этим гордым созданиям в виде защиты их территории. Взамен драконы могут предоставить стражу использование своих сверхъестественных способностей. Однако эти следопыты мудро помнят, что драконы слишком разумны и горды, чтобы их приручить, и что гнев дракона долговечен.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Магия Драконьей стражи|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|3|AdaptiveRanger"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Слуга дракона|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|3|AdaptiveRanger"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Аспект дракона|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|3|AdaptiveRanger"
-				}
-			]
-		},
-		{
-			"name": "Аспект дракона",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Драконья стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Также на 3-м уровне сочетанием драконьей и следопытской магии вы можете вобрать в себя аспект дракона, приняв его облик.",
-				"Вы можете бонусным действием превратиться в {@creature Драконий аспект|AdaptiveRanger}. Вы остаётесь в этой форме число часов, равное вашему уровню следопыта, или до тех пор, пока не завершите превращение досрочно бонусным действием. Ваше снаряжение сливается с вашей формой, пока вы превращены. Вы можете досрочно вернуться в обычную форму бонусным действием. Пока вы превращены, действуют следующие правила:",
-				{
-					"type": "list",
-					"items": [
-						"Ваши игровые характеристики заменяются характеристиками дракона, но вы сохраняете свои умения следопыта, бонус мастерства, значения Интеллекта, Мудрости и Харизмы, мировоззрение и все известные вам языки.",
-						"Ваш Драконий аспект получает одну кость хитов, и его хиты увеличиваются на 8 ({@dice 1d8 + 3}) за каждый ваш уровень следопыта выше 3-го. Возвращаясь в обычную форму, вы возвращаетесь к числу хитов, которое у вас было до превращения. Однако если вы возвращаетесь в результате падения до 0 хитов, то вместо мгновенного падения без сознания весь избыточный урон переносится на вашу обычную форму. Например, если вы получаете 10 урона в драконьей форме, имея всего 1 хит, вы возвращаетесь и получаете 9 урона.",
-						"Ваша драконья форма невосприимчива к типу урона, связанному с цветом, выбранным для умения Слуга дракона, а её атака укусом наносит {@damage 1d4} дополнительного урона того же типа.",
-						"Вы не можете накладывать заклинания, кроме известных вам от умения Магия Драконьей стражи, и вам не нужно предоставлять материальные компоненты для накладываемых таким образом заклинаний. Превращение не нарушает вашу концентрацию на уже наложенном заклинании и не мешает вам совершать действия, являющиеся частью заклинания, например {@spell moonbeam}."
-					]
-				},
-				"Использовав это умение, вы не можете применить его снова, пока не завершите короткий или продолжительный отдых."
-			]
-		},
-		{
-			"name": "Слуга дракона",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Драконья стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Выбирая этот архетип на 3-м уровне, вы связаны службой дракону и защитой его территории. Вы можете говорить, читать и писать на Драконьем. Также выберите один цвет дракона из приведённого ниже списка, который определяет, какую форму примут умения Драконьей стражи, и даёт вам сопротивление типу урона этого цвета.",
-				{
-					"type": "table",
-					"caption": "Цвета слуги дракона",
-					"colLabels": [
-						"Цвет дракона",
-						"Тип урона"
-					],
-					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
-					],
-					"rows": [
-						[
-							"Чёрный",
-							"кислота"
-						],
-						[
-							"Синий",
-							"электричество"
-						],
-						[
-							"Латунный",
-							"огонь"
-						],
-						[
-							"Бронзовый",
-							"электричество"
-						],
-						[
-							"Медный",
-							"кислота"
-						],
-						[
-							"Золотой",
-							"огонь"
-						],
-						[
-							"Зелёный",
-							"яд"
-						],
-						[
-							"Красный",
-							"огонь"
-						],
-						[
-							"Серебряный",
-							"холод"
-						],
-						[
-							"Белый",
-							"холод"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Магия Драконьей стражи",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Драконья стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Начиная с 3-го уровня у вас всегда есть дополнительные подготовленные заклинания, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинания Драконьей стражи. Эти заклинания считаются для вас заклинаниями следопыта и не учитываются против числа заклинаний следопыта, которые вы можете подготовить.",
-				{
-					"type": "table",
-					"caption": "Заклинания Драконьей стражи",
-					"colLabels": [
-						"Уровень следопыта",
-						"Заклинание"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3-й",
-							"{@spell cause fear|xge}"
-						],
-						[
-							"5-й",
-							"{@spell dragon's breath|xge}"
-						],
-						[
-							"9-й",
-							"{@spell fly}"
-						],
-						[
-							"13-й",
-							"{@spell polymorph}"
-						],
-						[
-							"17-й",
-							"{@spell control winds|xge}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Призрачный всадник",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Драконья стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"На 7-м уровне призрачный, струящийся облик вашей обычной формы восседает на вашей драконьей форме, синхронизируя ваши способности со способностями дракона.",
-				"Ваша драконья форма получает чувства вашей обычной формы и становится владеющей любыми навыками, которыми владеете вы. Кроме того, вы можете добавить свой бонус мастерства к урону, наносимому вашим заклинанием {@spell Dragon's Breath|xge}, как в обычной форме, так и в драконьей."
-			]
-		},
-		{
-			"name": "Ужасающий аспект",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Драконья стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"header": 2,
-			"entries": [
-				"На 11-м уровне драконий аспект внутри вас создаёт присутствие, которое вы можете призвать, чтобы вселить страх во врагов.",
-				"Вы можете действием выбрать любое число существ в пределах 60 футов от вас. Выбранное существо, которое может вас видеть или слышать, должно преуспеть в спасброске Мудрости против Сл спасброска от ваших заклинаний, иначе становится {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе.",
-				"Использовав это умение, вы не можете применить его вновь, пока не завершите продолжительный отдых."
-			]
-		},
-		{
-			"name": "Крыло свободы",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Драконья стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"На 15-м уровне вы можете использовать свой драконий аспект, чтобы отрастить крылья, позволяющие вам спастись от опасности, даже пока вы не превращены.",
-				"Реакцией после попадания по вам рукопашной атакой атакующий должен преуспеть в спасброске Силы против Сл спасброска от ваших заклинаний, иначе падает {@condition prone}. Затем вы можете пролететь до 30 футов, не провоцируя провоцированные атаки, и парить там (если пожелаете) до конца вашего следующего хода, когда вы мягко опуститесь на землю, если что-то иное не удерживает вас в воздухе."
-			]
-		},
-		{
-			"name": "Охотник",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Принимая архетип Охотника, вы соглашаетесь со своей ролью оплота между цивилизацией и ужасами Дикой природы. Идя путём Охотника, вы изучаете специализированные приёмы борьбы с угрозами, с которыми сталкиваетесь, — от беснующихся огров и орды орков до возвышающихся Гигантов и ужасающих Драконов.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Магия охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Добыча охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Адаптация преследователя|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
-				}
-			]
-		},
-		{
-			"name": "Убийца колоссов",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Ваша настойчивость способна измотать самых могучих врагов. Когда вы попадаете по существу атакой оружием, вы можете нанести ему дополнительный {@damage 1d8} урона, если его хиты ниже максимума. Вы можете наносить этот дополнительный урон лишь раз за ход."
-			]
-		},
-		{
-			"name": "Сокрушитель орды",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Один раз в каждый свой ход вы можете максимизировать результат одной кости урона оружием, которую бросаете для атаки оружием, если ещё одно враждебное существо находится в пределах 5 футов от цели вашей атаки. Вы можете сделать это до или после броска кости урона."
-			]
-		},
-		{
-			"name": "Магия охотника",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Начиная с 3-го уровня у вас всегда есть дополнительные подготовленные заклинания, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинания охотника. Эти заклинания считаются для вас заклинаниями следопыта и не учитываются против числа заклинаний следопыта, которые вы можете подготовить.",
-				{
-					"type": "table",
-					"caption": "Заклинания охотника",
-					"colLabels": [
-						"Уровень следопыта",
-						"Заклинание"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3-й",
-							"{@spell expeditious retreat}"
-						],
-						[
-							"5-й",
-							"{@spell see invisibility}"
-						],
-						[
-							"9-й",
-							"{@spell meld into stone}"
-						],
-						[
-							"13-й",
-							"{@spell staggering smite}"
-						],
-						[
-							"17-й",
-							"{@spell scrying}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Добыча охотника",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"На 3-м уровне вы получаете одно из следующих умений на ваш выбор.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Убийца колоссов|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
-						},
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Сокрушитель хищников|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
-						},
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Сокрушитель орды|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Сокрушитель хищников",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Когда существо в пределах 5 футов от вас атакует вас, вы можете реакцией сразу после его атаки попытаться схватить это существо, при условии что вы его видите. Если попытка успешна, существо получает {@damage 1d8} дробящего урона. Кроме того, один раз за ход вы можете нанести дополнительный {@damage 1d8} дробящего урона, когда попадаете по существу атакой оружием, если оно схвачено вами."
-			]
-		},
-		{
-			"name": "Адаптация преследователя",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Также на 3-м уровне, завершая короткий или продолжительный отдых, вы можете заменить выбранное вами умение {@subclassFeature Добыча охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger} другим умением на ваш выбор из того же списка. Когда вы позже получаете умение из {@subclassFeature Оборонительная тактика|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger}, {@subclassFeature Мультиатака|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|11|AdaptiveRanger} и {@subclassFeature Превосходная защита охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|15|AdaptiveRanger}, вы также можете заменить свой выбор для этих умений другими вариантами из соответствующих списков умений."
-			]
-		},
-		{
-			"name": "Оборонительная тактика",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"На 7-м уровне вы получаете одно из следующих умений на ваш выбор.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Спасение от орды|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger"
-						},
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Защита от мультиатаки|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger"
-						},
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Стальная воля|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Спасение от орды",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"header": 3,
-			"entries": [
-				"Провоцированные атаки по вам совершаются с помехой, и когда провоцированная атака промахивается по вам, ваша скорость увеличивается на 10 футов до конца вашего хода."
-			]
-		},
-		{
-			"name": "Защита от мультиатаки",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"header": 3,
-			"entries": [
-				"Когда существо попадает по вам атакой, вы получаете бонус +4 к классу доспеха против всех последующих атак, совершаемых этим существом до конца хода."
-			]
-		},
-		{
-			"name": "Стальная воля",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"header": 3,
-			"entries": [
-				"Вы совершаете с преимуществом спасброски, когда повторяете спасбросок против любого продолжающегося эффекта."
-			]
-		},
-		{
-			"name": "Мультиатака",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"header": 2,
-			"entries": [
-				"На 11-м уровне вы получаете одно из следующих умений на ваш выбор.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Залп|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|11|AdaptiveRanger"
-						},
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Веерная атака|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|11|AdaptiveRanger"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Залп",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"header": 3,
-			"entries": [
-				"Действием вы можете совершить дальнобойную атаку по любому числу существ в пределах 10 футов от видимой вами точки в пределах досягаемости вашего оружия. У вас должны быть боеприпасы для каждой цели, как обычно, и вы совершаете отдельный бросок атаки по каждой цели."
-			]
-		},
-		{
-			"name": "Веерная атака",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"header": 3,
-			"entries": [
-				"Действием вы можете совершить рукопашную атаку по любому числу существ в пределах досягаемости оружия, которое держите, с отдельным броском атаки по каждой цели."
-			]
-		},
-		{
-			"name": "Превосходная защита охотника",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"На 15-м уровне вы получаете одно из следующих умений на ваш выбор.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Устоять против волны|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|15|AdaptiveRanger"
-						},
-						{
-							"type": "refSubclassFeature",
-							"subclassFeature": "Невероятное уклонение|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|15|AdaptiveRanger"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Устоять против волны",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 15,
-			"header": 3,
-			"entries": [
-				"Когда враждебное существо промахивается по вам рукопашной атакой, вы можете реакцией заставить это существо повторить ту же атаку по другому существу на ваш выбор (включая себя)."
-			]
-		},
-		{
-			"name": "Невероятное уклонение",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Охотник",
-			"subclassSource": "AdaptiveRanger",
-			"level": 15,
-			"header": 3,
-			"entries": [
-				"Когда видимый вами атакующий попадает по вам атакой, вы можете реакцией уменьшить урон этой атаки по вам вдвое."
-			]
-		},
-		{
-			"name": "Первобытная стража",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Первобытная стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Следопыты архетипа Первобытной стражи рыщут по границам древних лесов, лесистой местности и природных заповедников, считая своим долгом оберегать эти оплоты первобытной жизни. Их кредо дарует Первобытной страже ответную защиту, укрепляя их тела магией природы, которой они владеют.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Магия Первобытной стражи|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|3|AdaptiveRanger"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Душа хранителя|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|3|AdaptiveRanger"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Пронзающие шипы|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|3|AdaptiveRanger"
-				}
-			]
-		},
-		{
-			"name": "Душа хранителя",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Первобытная стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Начиная с 3-го уровня вы обретаете способность магически облачаться в древоподобный панцирь, покрытый листьями и корой.",
-				"Бонусным действием вы принимаете эту форму хранителя, которая длится, пока вы не завершите её бонусным действием или не станете недееспособны. Пока вы в этой форме, вы претерпеваете следующие изменения:",
-				{
-					"type": "list",
-					"items": [
-						"Вы получаете временные хиты, равные вашему модификатору Мудрости, когда используете это умение, а также в начале каждого своего хода; они длятся, пока не закончится ваша форма хранителя.",
-						"Ваша досягаемость увеличивается на 5 футов.",
-						"Когда вы накладываете заклинание следопыта, наносящее урон, вы можете добавить свой модификатор Мудрости к каждому из бросков урона заклинания."
-					]
-				},
-				{
-					"type": "inset",
-					"name": "Примечание к Душе хранителя",
-					"entries": [
-						"Душа хранителя не применяется к умению {@classFeature Метка охоты|Adaptive Ranger|AdaptiveRanger|1|AdaptiveRanger}, но применяется к заклинанию {@spell hunter's mark}. Это умение работает здесь благодаря тому изменению, но чтобы оно работало с любым другим стилем следопыта, исключите это заклинание из получения преимуществ Души хранителя."
-					]
-				}
-			]
-		},
-		{
-			"name": "Пронзающие шипы",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Первобытная стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Также на 3-м уровне вы можете ненадолго выпустить острые защитные шипы.",
-				"Всякий раз, когда по вам попадают рукопашной атакой, вы можете реакцией нанести {@damage 1d8} колющего урона своему атакующему. Этот урон увеличивается до {@damage 2d8}, когда вы достигаете 11-го уровня в этом классе."
-			]
-		},
-		{
-			"name": "Магия Первобытной стражи",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Первобытная стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Начиная с 3-го уровня у вас всегда есть дополнительные подготовленные заклинания, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинания Первобытной стражи. Эти заклинания считаются для вас заклинаниями следопыта и не учитываются против числа заклинаний следопыта, которые вы можете подготовить.",
-				{
-					"type": "table",
-					"caption": "Магия Первобытной стражи",
-					"colLabels": [
-						"Уровень следопыта",
-						"Заклинание"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3-й",
-							"{@spell faerie fire}"
-						],
-						[
-							"5-й",
-							"{@spell warding wind}"
-						],
-						[
-							"9-й",
-							"{@spell plant growth}"
-						],
-						[
-							"13-й",
-							"{@spell guardian of nature}"
-						],
-						[
-							"17-й",
-							"{@spell insect plague}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Древняя стойкость",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Первобытная стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"На 7-м уровне вы выдерживаете, как древнее дерево. Находясь в форме хранителя, ваш класс доспеха увеличивается на 2, и вы можете добавить свой модификатор Мудрости к спасброскам Силы, Ловкости и Телосложения."
-			]
-		},
-		{
-			"name": "Укоренённая защита",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Первобытная стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"header": 2,
-			"entries": [
-				"На 11-м уровне вы можете проецировать лианы и кору, которые застилают землю вокруг вас, замедляя врагов и защищая союзников.",
-				"Пока вы в форме хранителя, земля в пределах 20 футов от вас становится труднопроходимой местностью. При активации формы хранителя вы можете выбрать любое число существ, которые игнорируют эту труднопроходимую местность и вместо этого получают укрытие на половину в этой области."
-			]
-		},
-		{
-			"name": "Кора железного дерева",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Первобытная стража",
-			"subclassSource": "AdaptiveRanger",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"На 15-м уровне ваша кора становится исключительно крепкой и упругой. Вы можете добавить половину своего уровня следопыта к временным хитам, получаемым от формы хранителя."
-			]
-		}
-	],
-	"foundrySubclassFeature": [
-		{
-			"name": "Beast Whisperer",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Beast Master",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"entryData": {
-				"skillProficiencies": [
-					{
-						"animal handling": true
-					}
-				],
-				"expertise": [
-					{
-						"animal handling": true
-					}
-				]
-			}
-		},
-		{
-			"name": "Aspect of the Dragon",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Dragonguard",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"system": {
-				"activation.type": "bonus",
-				"activation.cost": 1,
-				"uses.value": 1,
-				"uses.max": 1,
-				"uses.per": "sr"
-			}
-		},
-		{
-			"name": "Freedom's Wing",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Dragonguard",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"system": {
-				"activation.type": "reaction",
-				"activation.cost": 1,
-				"activation.condition": "after you are hit with a melee attack",
-				"actionType": "save",
-				"save.ability": "str",
-				"save.scaling": "spell"
-			}
-		},
-		{
-			"name": "Frightful Aspect",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Dragonguard",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"system": {
-				"activation.type": "action",
-				"activation.cost": 1,
-				"target.type": "creature",
-				"target.units": "ft",
-				"target.value": 60,
-				"uses.max": 1,
-				"uses.value": 1,
-				"uses.per": "lr",
-				"actionType": "save",
-				"save.ability": "wis",
-				"save.scaling": "spell"
-			}
-		},
-		{
-			"name": "Colossus Slayer",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Hunter",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"system": {
-				"activation.type": "special",
-				"activation.condition": "hit a creature with a weapon attack while it's below its hit point maximum",
-				"actionType": "other",
-				"damage.parts[0][0]": "1d8"
-			}
-		},
-		{
-			"name": "Horde Breaker",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Hunter",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"system": {
-				"activation.type": "special",
-				"activation.condition": "another hostile creature is within 5 ft. of the target of your attack"
-			}
-		},
-		{
-			"name": "Predator Crusher",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Hunter",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"system": {
-				"activation.type": "reaction",
-				"activation.cost": 1,
-				"activation.condition": "a creature within 5 ft. of you attacks you",
-				"target.type": "creature",
-				"target.value": 1,
-				"range.value": 5,
-				"range.units": "ft"
-			}
-		},
-		{
-			"name": "Multiattack Defense",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Hunter",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"system": {
-				"activation.type": "special",
-				"activation.condition": "a creature hits you with an attack"
-			},
-			"effects": [
-				{
-					"name": "Multiattack Defense",
-					"disabled": true,
-					"changes": [
-						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
-							"value": "+4"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Volley",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Hunter",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"system": {
-				"activation.type": "action",
-				"activation.cost": 1
-			}
-		},
-		{
-			"name": "Whirlwind Attack",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Hunter",
-			"subclassSource": "AdaptiveRanger",
-			"level": 11,
-			"system": {
-				"activation.type": "action",
-				"activation.cost": 1
-			}
-		},
-		{
-			"name": "Stand Against the Tide",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Hunter",
-			"subclassSource": "AdaptiveRanger",
-			"level": 15,
-			"system": {
-				"activation.type": "reaction",
-				"activation.cost": 1,
-				"activation.condition": "a hostile creature misses you with a melee attack"
-			}
-		},
-		{
-			"name": "Uncanny Dodge",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Hunter",
-			"subclassSource": "AdaptiveRanger",
-			"level": 15,
-			"system": {
-				"activation.type": "reaction",
-				"activation.cost": 1,
-				"activation.condition": "an attacker that you can see hits you with an attack"
-			}
-		},
-		{
-			"name": "Guardian Soul",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Primeval Watch",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"system": {
-				"activation.type": "bonus",
-				"activation.cost": 1
-			},
-			"effects": [
-				{
-					"name": "Guardian Soul: Extra Spell Damage",
-					"disabled": true,
-					"changes": [
-						{
-							"key": "data.bonuses.msak.damage",
-							"mode": "ADD",
-							"value": "+@abilities.wis.mod"
-						},
-						{
-							"key": "data.bonuses.rsak.damage",
-							"mode": "ADD",
-							"value": "+@abilities.wis.mod"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Piercing Thorns",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Primeval Watch",
-			"subclassSource": "AdaptiveRanger",
-			"level": 3,
-			"system": {
-				"activation.type": "reaction",
-				"activation.cost": 1,
-				"activation.condition": "Whenever you are hit with a melee attack",
-				"damage.parts[0][0]": "ceil((@classes.adaptive-ranger.levels)/10)d8",
-				"actionType": "other"
-			}
-		},
-		{
-			"name": "Ancient Fortitude",
-			"source": "AdaptiveRanger",
-			"className": "Adaptive Ranger",
-			"classSource": "AdaptiveRanger",
-			"subclassShortName": "Primeval Watch",
-			"subclassSource": "AdaptiveRanger",
-			"level": 7,
-			"effects": [
-				{
-					"name": "Ancient Fortitude",
-					"disabled": true,
-					"changes": [
-						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
-							"value": "+2"
-						}
-					]
-				}
-			]
-		}
-	],
-	"spell": [
-		{
-			"name": "Призыв заграждения",
-			"source": "AdaptiveRanger",
-			"page": 11,
-			"level": 3,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "cone",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "ammunition or thrown weapon"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "round",
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"Вы бросаете один боеприпас или оружие, которое держите, и опасная лавина одинаковых оружий вырывается конусом, берущим начало от вас. Каждое существо в этой области должно совершить спасбросок Ловкости, получая {@damage 4d8} урона типа оружия при провале или вдвое меньше урона при успехе.",
-				"До конца вашего следующего хода область покрывается острыми обломками оружия или боеприпаса; когда существо впервые за ход входит в эту область или начинает там свой ход, вы можете заставить один из обломков ударить по существу (действие не требуется). Совершите рукопашную атаку заклинанием по существу. При попадании цель получает {@damage 2d8} колющего урона.",
-				"Когда заклинание заканчивается, созданные им обломки исчезают."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Начальный урон этого заклинания увеличивается на {@damage 1d8} за каждый уровень ячейки заклинаний выше 3-го."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Adaptive Ranger",
-						"source": "AdaptiveRanger"
-					}
-				]
-			},
-			"damageInflict": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
-			],
-			"spellAttack": [
-				"M"
-			],
-			"savingThrow": [
-				"dexterity"
-			],
-			"areaTags": [
-				"N"
-			]
-		},
-		{
-			"name": "Завеса стрел",
-			"source": "AdaptiveRanger",
-			"page": 11,
-			"level": 2,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "one or more arrows/bolts"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 8
-					}
-				}
-			],
-			"entries": [
-				"Вы зачаровываете до четырёх немагических боеприпасов — стрел или арбалетных болтов, — которые парят рядом с вами на время действия. До окончания заклинания, всякий раз, когда существо, кроме вас, впервые за ход приближается к боеприпасам на 30 футов или завершает там свой ход, вы можете заставить один боеприпас взлететь и ударить по нему. Существо должно преуспеть в спасброске Ловкости, иначе получает {@damage 1d8} колющего урона. Затем боеприпас уничтожается. Заклинание заканчивается, когда не остаётся боеприпасов.",
-				"Когда вы накладываете это заклинание или действием, вы можете воткнуть любое число этих боеприпасов в землю в пределах 5 футов от вас и наложить на них магию для защиты области.",
-				"Накладывая это заклинание, вы можете обозначить любых существ на ваш выбор, и заклинание их игнорирует."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"Когда вы накладываете это заклинание, используя ячейку заклинаний 3-го уровня или выше, количество боеприпасов, которые могут быть затронуты, увеличивается на два за каждый уровень ячейки выше 2-го."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Adaptive Ranger",
-						"source": "AdaptiveRanger"
-					}
-				]
-			},
-			"damageInflict": [
-				"piercing"
-			],
-			"savingThrow": [
-				"dexterity"
-			]
-		},
-		{
-			"name": "Целительный дух",
-			"source": "AdaptiveRanger",
-			"page": 11,
-			"level": 2,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "bonus"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Вы вызываете бесплотного духа в кубическое пространство 5 на 5 футов, которое видите. Когда дух появляется, он восстанавливает {@dice 1d6} хитов вплоть до двум существам на ваш выбор в пределах 5 футов от него. Вы можете бонусным действием переместить духа на расстояние до 30 футов в видимое вами пространство и повторить этот целительный эффект. Дух не может исцелять конструктов или нежить."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"За каждый уровень ячейки выше 2-го дух исцеляет дополнительно {@dice 1d6} хитов, и вы можете нацелиться на одно дополнительное существо, находящееся в пределах 5 футов от духа, когда используете бонусное действие заклинания."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Adaptive Ranger",
-						"source": "AdaptiveRanger"
-					}
-				]
-			},
-			"miscTags": [
-				"HL",
-				"UBA"
-			]
-		},
-		{
-			"name": "Молниевая стрела",
-			"source": "AdaptiveRanger",
-			"page": 12,
-			"level": 3,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 90
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a weapon capable of making ranged attacks"
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"В рамках накладывания этого заклинания вы должны совершить дальнобойную атаку оружием по существу в пределах досягаемости, используя дальнобойное или метательное оружие, которое держите, иначе заклинание проваливается. Оружие (если оно метательное) или его боеприпас превращается в разряд молнии, который устремляется к цели, игнорируя укрытие. При попадании цель испытывает обычные эффекты атаки и получает дополнительный {@damage 4d10} урона электричеством. При промахе цель получает вдвое меньше урона.",
-				"Попадёте вы или промахнётесь, каждое существо в линии шириной 5 футов между вами и целью, а также каждое существо в пределах 10 футов от цели, должно совершить спасбросок Ловкости. Существо получает {@damage 4d8} урона электричеством при провале или вдвое меньше урона при успехе. Затем оружие или боеприпас возвращается в свою обычную форму."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "На более высоких уровнях",
-					"entries": [
-						"За каждый уровень ячейки выше 3-го дополнительный урон электричеством при попадании увеличивается на {@damage 1d10}, а урон, получаемый существом при провале спасброска, увеличивается на {@damage 1d8}."
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Adaptive Ranger",
-						"source": "AdaptiveRanger"
-					}
-				]
-			},
-			"damageInflict": [
-				"lightning"
-			],
-			"savingThrow": [
-				"dexterity"
-			],
-			"areaTags": [
-				"L"
-			]
-		},
-		{
-			"name": "Удар Зефира",
-			"source": "AdaptiveRanger",
-			"page": 12,
-			"level": 1,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "bonus"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"v": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"Ветра проносятся над вами и подхватывают ваши руки и ноги, позволяя быстро двигаться и наносить удары. Ваше перемещение не вызывает провоцированных атак, пока заклинание не закончится.",
-				"Сразу после того как вы наложили заклинание, или бонусным действием один раз до окончания заклинания, вы можете переместиться на расстояние до 30 футов и совершить одну рукопашную атаку заклинанием по существу в пределах 5 футов от вас, нанося цели при попадании силовой урон, равный {@damage 1d8} плюс ваш модификатор базовой характеристики для заклинаний."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Adaptive Ranger",
-						"source": "AdaptiveRanger"
-					}
-				]
-			},
-			"damageInflict": [
-				"force"
-			],
-			"spellAttack": [
-				"M"
-			],
-			"miscTags": [
-				"UBA"
-			]
-		}
-	],
-	"monster": [
-		{
-			"name": "Драконий аспект",
-			"source": "AdaptiveRanger",
-			"page": 8,
-			"size": [
-				"M"
-			],
-			"type": "dragon",
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "3d8 + 9",
-				"average": 22
-			},
-			"speed": {
-				"walk": 30,
-				"fly": 30,
-				"swim": 30
-			},
-			"str": 18,
-			"dex": 10,
-			"con": 16,
-			"int": 10,
-			"wis": 11,
-			"cha": 14,
-			"save": {
-				"dex": "+2",
-				"con": "+5",
-				"wis": "+2",
-				"cha": "+4"
-			},
-			"skill": {
-				"perception": "+4",
-				"stealth": "+2"
-			},
-			"passive": 10,
-			"languages": [
-				"Драконий"
-			],
-			"cr": "1",
-			"action": [
-				{
-					"name": "Укус",
-					"entries": [
-						"{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 1d10 + 4}) колющего урона."
-					]
-				}
-			],
-			"dragonAge": "aspect",
-			"languageTags": [
-				"DR"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"fluff": {
-				"entries": [
-					"Следопыты, следующие архетипу Драконьей стражи, способны превращать себя в Драконий аспект, получая различные преимущества."
-				]
-			}
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "AdaptiveRanger",
+        "abbreviation": "AR",
+        "full": "The Adaptive Ranger",
+        "url": "https://drive.google.com/file/d/1ndh9fpRdjpnlpllMZY_AVvQ-OnZe_NOl/view",
+        "version": "1.30",
+        "authors": [
+          "/u/devikyn"
+        ],
+        "convertedBy": [
+          "GoR"
+        ],
+        "color": "6e7b40",
+        "targetSchema": "1.2"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1625065042,
+    "dateLastModified": 1785698747,
+    "_dateLastModifiedHash": "60bf477384"
+  },
+  "class": [
+    {
+      "name": "Адаптивный следопыт",
+      "source": "AdaptiveRanger",
+      "hd": {
+        "number": 1,
+        "faces": 10
+      },
+      "proficiency": [
+        "str",
+        "dex"
+      ],
+      "spellcastingAbility": "wis",
+      "casterProgression": "1/2",
+      "preparedSpells": "<$level$> / 2 + <$wis_mod$>",
+      "classSpells": [
+        {
+          "className": "Ranger",
+          "classSource": "PHB"
+        }
+      ],
+      "startingProficiencies": {
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "animal handling",
+                "athletics",
+                "insight",
+                "investigation",
+                "nature",
+                "medicine",
+                "perception",
+                "stealth",
+                "survival"
+              ],
+              "count": 2
+            }
+          }
+        ],
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
+          "(a) два {@item shortsword|phb|короткие мечи} или (b) два {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+          "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+          "{@item longbow|phb} и {@item quiver|phb} с {@item arrows (20)|phb|20 стрелами}"
+        ],
+        "goldAlternative": "{@dice 5d4x10}",
+        "defaultData": [
+          {
+            "a": [
+              "scale mail|phb"
+            ],
+            "b": [
+              "leather armor|phb"
+            ]
+          },
+          {
+            "a": [
+              {
+                "item": "shortsword|phb",
+                "quantity": 2
+              }
+            ],
+            "b": [
+              {
+                "equipmentType": "weaponSimpleMelee",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "a": [
+              "dungeoneer's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
+          },
+          {
+            "_": [
+              "longbow|phb",
+              "arrows (20)|phb"
+            ]
+          }
+        ]
+      },
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Метки"
+          ],
+          "rows": [
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              6
+            ],
+            [
+              6
+            ],
+            [
+              6
+            ]
+          ]
+        },
+        {
+          "title": "Ячейки заклинаний по уровням заклинаний",
+          "colLabels": [
+            "{@filter 1st|spells|level=1|class=Adaptive Ranger (AR)}",
+            "{@filter 2nd|spells|level=2|class=Adaptive Ranger (AR)}",
+            "{@filter 3rd|spells|level=3|class=Adaptive Ranger (AR)}",
+            "{@filter 4th|spells|level=4|class=Adaptive Ranger (AR)}",
+            "{@filter 5th|spells|level=5|class=Adaptive Ranger (AR)}"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2
+            ]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Ловкий исследователь|Adaptive Ranger|AdaptiveRanger|1|AdaptiveRanger",
+        "Метка охоты|Adaptive Ranger|AdaptiveRanger|1|AdaptiveRanger",
+        "Боевой стиль|Adaptive Ranger|AdaptiveRanger|2|AdaptiveRanger",
+        "Сотворение заклинаний|Adaptive Ranger|AdaptiveRanger|2|AdaptiveRanger",
+        {
+          "classFeature": "Архетип следопыта|Adaptive Ranger|AdaptiveRanger|3|AdaptiveRanger",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|4|AdaptiveRanger",
+        "Дополнительная атака|Adaptive Ranger|AdaptiveRanger|5|AdaptiveRanger",
+        "Затаиться на виду|Adaptive Ranger|AdaptiveRanger|6|AdaptiveRanger",
+        "Поступь земли|Adaptive Ranger|AdaptiveRanger|6|AdaptiveRanger",
+        {
+          "classFeature": "Умение архетипа следопыта|Adaptive Ranger|AdaptiveRanger|7|AdaptiveRanger",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|8|AdaptiveRanger",
+        "Уклонение|Adaptive Ranger|AdaptiveRanger|10|AdaptiveRanger",
+        {
+          "classFeature": "Умение архетипа следопыта|Adaptive Ranger|AdaptiveRanger|11|AdaptiveRanger",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|12|AdaptiveRanger",
+        "Исчезновение|Adaptive Ranger|AdaptiveRanger|14|AdaptiveRanger",
+        {
+          "classFeature": "Умение архетипа следопыта|Adaptive Ranger|AdaptiveRanger|15|AdaptiveRanger",
+          "gainSubclassFeature": true
+        },
+        "Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|16|AdaptiveRanger",
+        "Звериные чувства|Adaptive Ranger|AdaptiveRanger|18|AdaptiveRanger",
+        "Увеличение характеристик|Adaptive Ranger|AdaptiveRanger|19|AdaptiveRanger",
+        "Убийца врагов|Adaptive Ranger|AdaptiveRanger|20|AdaptiveRanger"
+      ],
+      "subclassTitle": "Архетип следопыта",
+      "hasFluff": true
+    }
+  ],
+  "classFluff": [
+    {
+      "name": "Адаптивный следопыт",
+      "source": "AdaptiveRanger",
+      "entries": [
+        {
+          "type": "section",
+          "name": "Адаптивный следопыт",
+          "source": "AdaptiveRanger",
+          "page": 1,
+          "entries": [
+            "Видя уникальную самобытность следопыта, многие придумали отличные идеи, которые раскрывают эту самобытность ещё полнее, добавляя новые уникальные способности, делающие следопыта ещё интереснее для игры. Мне нравятся эти хоумбрю, но я поставил себе целью создать следопыта, который вбирает идеи оригинального следопыта и просто позволяет ему быть более универсальным. Следопыт хитроумен, адаптивен и даёт полезные сведения остальной группе — и мне кажется, эти изменения сильно помогают воплотить эту фантазию.",
+            "Эти изменения делают следопыта несколько могущественнее его основы — следопыта из PHB. Наиболее значимые и при этом нейтральные по флавору изменения касаются заклинания «Метка охотника» и списка заклинаний следопыта. Если вы сочтёте этого следопыта слишком могущественным для своей кампании, я бы сначала отменил изменения заклинаний, прежде чем пробовать что-либо ещё.",
+            {
+              "type": "entries",
+              "name": "Цели дизайна",
+              "page": 1,
+              "entries": [
+                "Когда я смотрю на следопыта, я вижу небольшой список принципиальных проблем. Ни одна из них не связана с самобытностью следопыта; все они — механические кочки, из-за которых следопытом трудно играть. Проблемы, которые я стремился исправить, написав этот хоумбрю, таковы:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Следопыт должен быть умелым следопытом и охотником. Его ремесло, а порой и страсть — держать окраины цивилизации в безопасности. Также говорится, что он часто может путешествовать между цивилизациями, встречая совершенно разных врагов и местности. Почему же тогда следопыты закрывают глаза на всех врагов и местности, кроме одного типа? Разве не должны они адаптироваться к каждой ситуации быстрее всех остальных?",
+                    "Наступление следопыта часто сводится к атаке-ослаблению без особого разнообразия. Это потому, что его характеристика для заклинаний и многие его заклинания сильно ограничены, и я полагаю, что это задумано как компенсация за сочетание дальнего боя и способностей к выслеживанию. Однако на практике это оставляет ему набор унылых опций, почти полностью лишённых взаимодействия друг с другом. Новые способы использования его заклинаний и снятие части ограничений помогают смягчить эти проблемы.",
+                    "Все его способности пассивны. Это делает их совершенно незаметными — потому я не встречал ни следопыта, который помнит все пассивные преимущества всегда, ни Мастера, который точно учитывает следопыта. Это также мало побуждает отыгрывать свой класс. Многие могут компенсировать это продуманной предысторией персонажа, но класс следопыта куда меньше вплетён в личность персонажа, чем, скажем, у друида или паладина. Вы должны ощущать, что от вас никто не может скрыться благодаря вашим навыкам, а не просто получать эти навыки без удовольствия от их заслуги."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Прочие изменения",
+              "page": 1,
+              "entries": [
+                "Ещё несколько изменений отсюда можно применить и к другим классам — это была просто вольность. Заклинание {@spell Целительный дух|AdaptiveRanger} ослаблено до уровня, который меня устраивает. Вы также можете использовать изменения списка известных заклинаний следопыта со многими видами хоумбрю-следопытов, а также со следопытами из PHB и Revised. Переработка архетипа Повелителя зверей должна работать с любой версией следопыта. В документе могут быть и другие подобные изменения, но эти проще всего адаптировать под почти любую игру."
+              ]
+            },
+            {
+              "type": "inset",
+              "name": "Вопросы? Отзывы?",
+              "entries": [
+                "Спасибо, что нашли время прочитать, оценить и порадоваться этому хоумбрю. Не стесняйтесь связаться со мной в Reddit: {@link /u/devikyn|https://www.reddit.com/u/devikyn} — со своими замечаниями и улучшениями!",
+                "Использованные иллюстрации можно найти здесь:",
+                {
+                  "type": "list",
+                  "columns": 2,
+                  "items": [
+                    "{@link Cover - Alexander Gustafon|https://www.illustratedpixels.com/}",
+                    "{@link Ranger - TwoDeeTen|http://twodeeten.blogspot.com/2012/01/gauren-lightfoot.html}",
+                    "{@link Ranger Tracking - Veli Nyström|https://www.artstation.com/artwork/Xzb0y}",
+                    "{@link Hide in Plain Sight - Nick Keller|http://www.nickkellerart.com/}",
+                    "{@link Beast Master Ranger - DigitalSashimi|https://www.deviantart.com/digitalsashimi/art/White-Tiger-408821183}",
+                    "{@link Dragonguard Ranger - Straban|https://www.deviantart.com/straban/art/Elf-warrior-and-the-dragon-726130994}",
+                    "{@link Hunter Ranger - Golarion|http://pathtogolarion.wikidot.com/part-4}",
+                    "{@link Primeval Watch Ranger - Guild Wars|https://guildwars.fandom.com/wiki/Category:Concept_art}"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Повелитель зверей",
+      "shortName": "Повелитель зверей",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "find familiar"
+            ],
+            "5": [
+              "warding bond"
+            ],
+            "9": [
+              "conjure animals"
+            ],
+            "13": [
+              "dominate beast"
+            ],
+            "17": [
+              "awaken"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Повелитель зверей|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|3|AdaptiveRanger",
+        "Ярость природы|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|7|AdaptiveRanger",
+        "Говорящий со зверями|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|11|AdaptiveRanger",
+        "Общие заклинания|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|15|AdaptiveRanger"
+      ]
+    },
+    {
+      "name": "Драконья стража",
+      "shortName": "Драконья стража",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "cause fear|xge"
+            ],
+            "5": [
+              "dragon's breath|xge"
+            ],
+            "9": [
+              "fly"
+            ],
+            "13": [
+              "polymorph"
+            ],
+            "17": [
+              "control winds|xge"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Драконья стража|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|3|AdaptiveRanger",
+        "Призрачный всадник|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|7|AdaptiveRanger",
+        "Ужасающий аспект|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|11|AdaptiveRanger",
+        "Крыло свободы|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|15|AdaptiveRanger"
+      ]
+    },
+    {
+      "name": "Охотник",
+      "shortName": "Охотник",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "expeditious retreat"
+            ],
+            "5": [
+              "see invisibility"
+            ],
+            "9": [
+              "meld into stone"
+            ],
+            "13": [
+              "staggering smite"
+            ],
+            "17": [
+              "scrying"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Охотник|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger",
+        "Оборонительная тактика|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger",
+        "Мультиатака|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|11|AdaptiveRanger",
+        "Превосходная защита охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|15|AdaptiveRanger"
+      ]
+    },
+    {
+      "name": "Первобытная стража",
+      "shortName": "Первобытная стража",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "faerie fire"
+            ],
+            "5": [
+              "warding wind"
+            ],
+            "9": [
+              "plant growth"
+            ],
+            "13": [
+              "guardian of nature"
+            ],
+            "17": [
+              "insect plague"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Первобытная стража|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|3|AdaptiveRanger",
+        "Древняя стойкость|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|7|AdaptiveRanger",
+        "Укоренённая защита|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|11|AdaptiveRanger",
+        "Кора железного дерева|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|15|AdaptiveRanger"
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Ловкий исследователь",
+      "source": "AdaptiveRanger",
+      "page": 3,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 1,
+      "entries": [
+        "Ваш опыт путешествий по разным условиям научил вас приёмам выживания даже в самых суровых условиях.",
+        "Выберите навык {@skill Nature} или {@skill Survival}. Вы получаете владение выбранным навыком, и ваш бонус мастерства удваивается при совершении проверок характеристик с использованием этого навыка.",
+        "За каждую минуту, потраченную на изучение следов существа, вы можете узнать одну конкретную характеристику существа — на выбор из его типа, размера, скоростей или того, владеет ли оно навыками {@skill Acrobatics}, {@skill Athletics} или {@skill Stealth}.",
+        "Кроме того, вы и существа, путешествующие с вами, получают следующие преимущества:",
+        {
+          "type": "list",
+          "items": [
+            "Труднопроходимая местность не замедляет ваше путешествие.",
+            "Вам не нужно снижать темп, чтобы путешествовать скрытно.",
+            "Вы можете один раз перебросить любую кость хитов, которую бросаете, если результат на кости ниже вашего бонуса мастерства, и использовать больший результат.",
+            "Завершая короткий отдых, вы можете снизить свой уровень истощения на 1. Вы не можете сделать это снова, пока не завершите продолжительный отдых."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Метка охоты",
+      "source": "AdaptiveRanger",
+      "page": 3,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 1,
+      "entries": [
+        "Вы разработали продвинутые приёмы выслеживания и охоты на существ, делающие вас неутомимым противником.",
+        "Один раз в каждый свой ход вы можете отметить видимое существо в пределах 90 футов от вас для охоты (действие не требуется). Ваши атаки оружием наносят дополнительный {@damage 1d4} урона типа оружия существу, отмеченному вами для охоты. Этот урон увеличивается до {@damage 1d6} на 5-м уровне и до {@damage 1d8} на 11-м уровне.",
+        "Вы совершаете с преимуществом проверки Интеллекта и Мудрости, связанные с выслеживанием отмеченного вами существа, и, находясь в пределах 30 футов от него, вы знаете местоположение существа, если только оно не скрыто от вас и вы не ослеплены или не оглохли. Вы можете иметь лишь одно отмеченное существо одновременно; если вы отметите другое существо, метка снимается с прежней цели.",
+        "Вы можете отмечать существо таким образом число раз, равное столбцу «Метки» таблицы следопыта, и восстанавливаете потраченные использования, завершая короткий или продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Боевой стиль",
+      "source": "AdaptiveRanger",
+      "page": 3,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 2,
+      "entries": [
+        "На 2-м уровне вы перенимаете особый стиль боя как свою специальность. Вы не можете взять вариант боевого стиля более одного раза, даже если позже получите возможность выбрать снова.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Archery"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Defense"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Dueling"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Two-Weapon Fighting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Первобытная осведомлённость",
+      "source": "AdaptiveRanger",
+      "page": 3,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 2,
+      "entries": [
+        "Ваше колдовство пропускает ваши чувства через природу вокруг вас: вы можете наложить каждое из заклинаний, указанных в таблице Заклинания первобытной осведомлённости, один раз без траты ячейки заклинаний, когда достигаете определённых уровней в этом классе. Наложив одно из этих заклинаний, вы должны завершить продолжительный отдых, прежде чем сможете наложить его вновь.",
+        {
+          "type": "table",
+          "caption": "Заклинания первобытной осведомлённости",
+          "colLabels": [
+            "Уровень следопыта",
+            "Заклинание"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "2-й",
+              "{@spell detect magic}, {@spell speak with animals}"
+            ],
+            [
+              "5-й",
+              "{@spell beast sense}. {@spell locate animals or plants}"
+            ],
+            [
+              "9-й",
+              "{@spell speak with plants}"
+            ],
+            [
+              "13-й",
+              "{@spell locate creature}"
+            ],
+            [
+              "17-й",
+              "{@spell commune with nature}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Сотворение заклинаний",
+      "source": "AdaptiveRanger",
+      "page": 3,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 2,
+      "entries": [
+        "На 2-м уровне вы научились черпать магию, присущую природе, что позволяет вам накладывать заклинания.",
+        {
+          "type": "entries",
+          "name": "Подготовка и сотворение заклинаний",
+          "page": 0,
+          "entries": [
+            "Таблица Адаптивного следопыта показывает, сколько у вас есть ячеек заклинаний для накладывания заклинаний следопыта. Чтобы наложить одно из ваших заклинаний следопыта 1-го уровня или выше, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все потраченные ячейки заклинаний, завершая продолжительный отдых.",
+            "Вы подготавливаете список заклинаний следопыта, доступных вам для накладывания, выбирая из списка заклинаний следопыта. При этом выберите число заклинаний следопыта, равное вашему модификатору Мудрости + половина вашего уровня следопыта, округлённая вниз (минимум одно заклинание). Заклинания должны быть уровня, для которого у вас есть ячейки заклинаний.",
+            "Наложение заклинания не убирает его из списка подготовленных. Вы можете изменить список подготовленных заклинаний, завершая продолжительный отдых. Подготовка нового заклинания следопыта требует времени, проведённого в единении с землёй: как минимум 1 минута на уровень заклинания для каждого подготавливаемого заклинания."
+          ]
+        },
+        {
+          "type": "refClassFeature",
+          "classFeature": "Первобытная осведомлённость|Adaptive Ranger|AdaptiveRanger|2|AdaptiveRanger"
+        },
+        {
+          "type": "entries",
+          "name": "Базовая характеристика для заклинаний",
+          "entries": [
+            "Мудрость — ваша базовая характеристика для заклинаний следопыта, поскольку ваша магия черпает из вашей связи с природой. Вы используете Мудрость всякий раз, когда заклинание ссылается на вашу базовую характеристику для заклинаний. Кроме того, вы используете модификатор Мудрости при определении Сл спасброска от заклинания следопыта, которое сотворяете, и при совершении броска атаки им.",
+            {
+              "type": "abilityDc",
+              "name": "Заклинание",
+              "attributes": [
+                "wis"
+              ]
+            },
+            {
+              "type": "abilityAttackMod",
+              "name": "Заклинание",
+              "attributes": [
+                "wis"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ритуальное сотворение",
+          "entries": [
+            "Вы можете наложить любое подготовленное вами заклинание следопыта как ритуал, если у этого заклинания есть метка «ритуал»."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Архетип следопыта",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 3,
+      "entries": [
+        "На 3-м уровне выберите архетип, к которому будете стремиться. Ваш выбор даёт вам умения на 3-м уровне, а также на 7-м, 11-м и 15-м уровне."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 4,
+      "entries": [
+        "Достигнув 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровне вы можете повысить одну характеристику на свой выбор на 2 или две характеристики на свой выбор на 1. Как обычно, с помощью этого умения нельзя поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Дополнительная атака",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 5,
+      "entries": [
+        "Начиная с 5-го уровня вы можете атаковать дважды вместо одного раза всякий раз, когда в свой ход совершаете действие {@action Attack}."
+      ]
+    },
+    {
+      "name": "Затаиться на виду",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 6,
+      "entries": [
+        "Начиная с 6-го уровня вы получаете бонус +5 к проверкам Ловкости ({@skill Stealth}), пока прижимаетесь к твёрдой поверхности из природных материалов, например к дереву или каменной стене, достаточно большой, чтобы дать вам укрытие, или пока лежите ничком на травяном покрове, — материалы магически перестраиваются и принимают форму, обеспечивая вам подходящий камуфляж.",
+        "Вы теряете это преимущество до начала вашего следующего хода, если в свой ход перемещаетесь более чем на 5 футов, находясь в пределах 60 футов от существа, которое может вас видеть."
+      ]
+    },
+    {
+      "name": "Поступь земли",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 6,
+      "entries": [
+        "Также на 6-м уровне земля вокруг признаёт вас своим защитником и даёт вам безопасный проход. Немагическая труднопроходимая местность не стоит вам дополнительного перемещения, а растения не могут вас замедлить и не могут навредить вам шипами, колючками и другими подобными опасностями, которые у них есть."
+      ]
+    },
+    {
+      "name": "Умение архетипа следопыта",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 7,
+      "entries": [
+        "На 7-м уровне вы получаете умение, дарованное вашим архетипом следопыта."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 8,
+      "entries": [
+        "Достигнув 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Уклонение",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 10,
+      "entries": [
+        "Начиная с 10-го уровня вы можете ловко уклоняться от некоторых эффектов по площади, таких как огненное дыхание красного дракона или заклинание {@spell Ice Storm}. Когда вы подвергаетесь эффекту, позволяющему совершить спасбросок Ловкости, чтобы получить только половину урона, вы вместо этого не получаете урона при успехе и получаете лишь половину урона при провале."
+      ]
+    },
+    {
+      "name": "Умение архетипа следопыта",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 11,
+      "entries": [
+        "На 11-м уровне вы получаете умение, дарованное вашим архетипом следопыта."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 12,
+      "entries": [
+        "Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Исчезновение",
+      "source": "AdaptiveRanger",
+      "page": 5,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 14,
+      "entries": [
+        "Начиная с 14-го уровня вы можете совершать действие {@action Hide} бонусным действием в каждый свой ход. Всякий раз, успешно скрываясь, вы становитесь {@condition invisible} и не оставляете следов или признаков своего присутствия до начала вашего следующего хода или до тех пор, пока не атакуете или не наложите заклинание."
+      ]
+    },
+    {
+      "name": "Умение архетипа следопыта",
+      "source": "AdaptiveRanger",
+      "page": 5,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 15,
+      "entries": [
+        "На 15-м уровне вы получаете умение, дарованное вашим архетипом следопыта."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "AdaptiveRanger",
+      "page": 5,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 16,
+      "entries": [
+        "Достигнув 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Звериные чувства",
+      "source": "AdaptiveRanger",
+      "page": 5,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 18,
+      "entries": [
+        "На 18-м уровне вы никогда не имеете помеху на броски атаки по существам, отмеченным вами для охоты.",
+        "Вы также знаете местоположение каждого существа в пределах 30 футов от вас, если только оно не скрыто от вас и вы не ослеплены или не оглохли."
+      ]
+    },
+    {
+      "name": "Увеличение характеристик",
+      "source": "AdaptiveRanger",
+      "page": 5,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 19,
+      "entries": [
+        "Достигнув 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1. Как обычно, с помощью этого умения вы не можете поднять характеристику выше 20."
+      ]
+    },
+    {
+      "name": "Убийца врагов",
+      "source": "AdaptiveRanger",
+      "page": 4,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 20,
+      "entries": [
+        "На 20-м уровне один раз за ход вы можете добавить модификатор Мудрости к броскам атаки и урона одной совершаемой вами атаки оружием. Вы можете сделать это после броска атаки, но до определения исхода атаки.",
+        "Кроме того, когда вы попадаете атакой по существу, отмеченному вами для охоты, вы можете выбрать критическое попадание и добавить дополнительный {@damage 6d6} урона к критическому попаданию. Вы не можете сделать это снова, пока не завершите короткий или продолжительный отдых."
+      ]
+    }
+  ],
+  "foundryClassFeature": [
+    {
+      "name": "Deft Explorer",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 1,
+      "entryData": {
+        "skillProficiencies": [
+          {
+            "choose": {
+              "from": [
+                "nature",
+                "survival"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mark of the Hunt",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 1,
+      "system": {
+        "activation.type": "none",
+        "target.type": "creature",
+        "target.units": "ft",
+        "target.value": "90",
+        "uses.max": "@classes.adaptive-ranger.levels > 16 ? 6  : @classes.adaptive-ranger.levels > 10 ? 5  : @classes.adaptive-ranger.levels > 4 ?  4  : 3",
+        "uses.per": "sr"
+      },
+      "effects": [
+        {
+          "name": "Mark of the Hunt",
+          "disabled": true,
+          "changes": [
+            {
+              "key": "data.bonuses.mwak.damage",
+              "mode": "ADD",
+              "value": "+1d4"
+            },
+            {
+              "key": "data.bonuses.rwak.damage",
+              "mode": "ADD",
+              "value": "+1d4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vanish",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 14,
+      "system": {
+        "activation.type": "bonus",
+        "activation.cost": 1
+      }
+    },
+    {
+      "name": "Foe Slayer",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "level": 20,
+      "system": {
+        "uses.value": 1,
+        "uses.max": 1,
+        "uses.per": "sr"
+      }
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Повелитель зверей",
+      "source": "AdaptiveRanger",
+      "page": 5,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Повелитель зверей",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Архетип Повелителя зверей воплощает дружбу между цивилизованными расами и зверями мира. Единые в цели, зверь и следопыт действуют как одно целое, сражаясь с чудовищными врагами, угрожающими и цивилизации, и дикой природе. Принимая архетип Повелителя зверей, вы посвящаете себя этому идеалу, работая в паре с животным как его спутник и друг.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Магия Повелителя зверей|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|3|AdaptiveRanger"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Звериный спутник|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|3|AdaptiveRanger"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Команда хозяина|Adaptive Ranger|AdaptiveRanger|Повелитель зверей|AdaptiveRanger|3|AdaptiveRanger"
+        }
+      ]
+    },
+    {
+      "name": "Звериный спутник",
+      "source": "AdaptiveRanger",
+      "page": 5,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Повелитель зверей",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Также на 3-м уровне вы можете призвать из дикой природы животное, которое станет вашим верным спутником, связав свою душу с вашей.",
+        "Вы можете потратить 8 часов непрерывной концентрации, оставаясь в естественной среде обитания, чтобы найти звериного спутника, который после этого верно следует за вами. Первого звериного спутника вы находите, получая это умение.",
+        "Ваш спутник может быть выбран из {@filter any Small or larger single beast of challenge rating 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=beast|size=s;m;l;h;g|miscellaneous=!swarm}. Однако ваш Мастер может разрешить лишь определённых животных, исходя из окружающей местности и того, какие существа логично присутствовали бы в этой области. Вы можете иметь лишь одного звериного спутника одновременно.",
+        "Ваш звериный спутник повинуется вашим командам настолько, насколько может. Он перемещается и действует в ваш ход, но его действия, решения, отношение и так далее определяете вы. Вы и ваш спутник можете перемещаться и действовать в любом порядке на ваш выбор. Если вы недееспособны или отсутствуете, ваш спутник действует самостоятельно.",
+        "Ваш спутник специально обучен сражаться с вами в унисон. Пока он связан с вами этим умением, действуют следующие правила:",
+        {
+          "type": "list",
+          "items": [
+            "Он не может совершать действия атаки из своего блока характеристик, но может совершать безоружные удары, использующие {@damage d4} в качестве урона.",
+            "Он владеет двумя спасбросками и двумя навыками на ваш выбор, в дополнение к своим обычным владениям спасбросками и навыками.",
+            "Он понимает один язык на ваш выбор, на котором говорите вы.",
+            "Он получает бонус к своим броскам атаки, к классу доспеха и к спасброскам и навыкам, которыми владеет. Этот бонус равен вашему бонусу мастерства минус 2 (минимум +0).",
+            "Получая это умение, а также за каждый ваш уровень следопыта выше 3-го, ваш спутник получает кость хитов, а его максимум хитов увеличивается на величину, равную его модификатору Телосложения (минимум 1) плюс четыре. Кроме того, всякий раз, получая от этого класса умение Увеличение характеристик, ваш спутник может увеличить одну характеристику на ваш выбор на 2 или две характеристики на ваш выбор на 1, но не выше 20.",
+            "Если ваш звериный спутник когда-либо погибнет, магическая связь, которую вы делите, позволяет вам вернуть его к жизни, завершая продолжительный отдых. Вы можете вернуть звериного спутника к жизни таким образом, даже не имея ни одной части его тела. Если вы используете эту способность, чтобы вернуть к жизни прежнего спутника, уже имея спутника, ваш нынешний спутник покидает вас и заменяется восстановленным спутником."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "О владении существ",
+          "entries": [
+            "Разобраться в правильных бонусах существа бывает трудно, поэтому эти советы помогут вам понять, как владение и значения характеристик применяются к характеристикам существа. Значение ПО существа определяет его бонус мастерства так, как если бы оно было того же уровня в любом классе, и его бонус мастерства не может быть меньше +2, независимо от его ПО.",
+            "Этот расчёт уже включён в блок характеристик существа для вас. Например, укус {@creature wolf} имеет бонус к попаданию +4 — результат сложения бонуса мастерства +2 и модификатора Ловкости +2. Сл спасброска от укуса волка равна 11 (8 + его бонус мастерства + его модификатор Силы). Когда вы достигаете 5-го уровня, бонус мастерства вашего спутника увеличится до +3. Это повысит его бонус к попаданию до +5, а Сл спасброска от его укуса — до 12."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Магия Повелителя зверей",
+      "source": "AdaptiveRanger",
+      "page": 5,
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Повелитель зверей",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Начиная с 3-го уровня у вас всегда есть дополнительные подготовленные заклинания, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинания Повелителя зверей. Эти заклинания считаются для вас заклинаниями следопыта и не учитываются против числа заклинаний следопыта, которые вы можете подготовить.",
+        {
+          "type": "table",
+          "caption": "Заклинания Повелителя зверей",
+          "colLabels": [
+            "Уровень следопыта",
+            "Заклинание"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3-й",
+              "{@spell find familiar}"
+            ],
+            [
+              "5-й",
+              "{@spell warding bond}"
+            ],
+            [
+              "9-й",
+              "{@spell conjure animals}"
+            ],
+            [
+              "13-й",
+              "{@spell dominate beast}"
+            ],
+            [
+              "17-й",
+              "{@spell awaken}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Команда хозяина",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Повелитель зверей",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Также на 3-м уровне вы обучаете своего спутника следовать определённым командам в унисон с вами, со временем улучшая вашу связь.",
+        "У вас есть запас Костей команд, равный половине вашего уровня следопыта + ваш модификатор Мудрости. Кость команды — это d6, и она используется для отдачи команд обученным зверям, например вашему звериному спутнику. Вы можете отдать одну команду за раз обученному зверю в пределах 120 футов от вас, который может вас слышать; зверь должен быть способен вас слышать, чтобы исполнить команду, и команда пропадает, если зверь не выполнит её до начала вашего следующего хода. Ваша кость команды увеличивается в размере на определённых уровнях в этом классе: d8 на 7-м уровне и d10 на 11-м уровне.",
+        "Ваш звериный спутник знает две звериные команды на ваш выбор, описанные ниже. Он изучает ещё одну команду, когда вы достигаете 11-го уровня в этом классе. Вы также можете обучить любое дружественное зверю, кроме вашего спутника, одной звериной команде, потратив не менее 1 часа в день в течение 7 дней на обучение существа. Только ваш спутник может когда-либо узнать более одной звериной команды с помощью этого умения.",
+        "Вы восстанавливаете потраченные кости команд, завершая продолжительный отдых.",
+        "{@b —Звериные команды—}",
+        {
+          "type": "entries",
+          "name": "Атака",
+          "entries": [
+            "Вы можете использовать своё бонусное действие и потратить кость команды, чтобы отдать эту команду. Ваш спутник может действием совершить одно из своих действий природной атаки, кроме Мультиатаки. Если атака попадает, бросьте кость и добавьте результат к броску урона атаки."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Свалиться",
+          "entries": [
+            "Вы можете использовать своё бонусное действие и потратить кость команды, чтобы отдать эту команду. Ваш спутник использует свою реакцию, чтобы упасть ничком и попытаться совершить {@action Hide}, бросив кость и добавив результат к своей проверке Ловкости ({@skill Stealth}). Первая атака, которую он совершит, скрываясь таким образом, также добавляет результат кости команды к своему броску атаки."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Найти",
+          "entries": [
+            "Вы можете использовать своё бонусное действие и потратить кость команды, чтобы отдать эту команду. Ваш спутник использует свою реакцию, чтобы попытаться совершить {@action Search} в поисках скрытых существ или предметов, бросив кость и добавив результат к своей проверке Мудрости ({@skill Perception}) для этого действия."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Захват",
+          "entries": [
+            "Когда ваш спутник совершает {@action opportunity attack}, вы можете использовать свою реакцию и потратить кость команды, чтобы отдать эту команду. Если атака попадает, ваш спутник может попытаться {@action grapple} цель в рамках этой атаки, бросив кость и добавив результат к проверке навыка, совершаемой для этой попытки."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Наскок",
+          "entries": [
+            "Вы можете использовать своё бонусное действие и потратить кость команды, чтобы отдать эту команду. Ваш спутник использует свою реакцию, чтобы совершить действие {@action Help}, помогая следующей атаке по видимому им существу в пределах его досягаемости. Если эта атака попадает, бросьте кость команды и добавьте результат как дополнительный урон атаки."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ярость природы",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Повелитель зверей",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "Начиная с 7-го уровня атаки вашего спутника считаются магическими для целей преодоления сопротивления немагическому урону."
+      ]
+    },
+    {
+      "name": "Говорящий со зверями",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Повелитель зверей",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "На 11-м уровне вы получаете владение навыком {@skill Animal Handling}, если ещё не владеете им, и ваш бонус мастерства удваивается для проверок характеристик, совершаемых с использованием этого навыка."
+      ]
+    },
+    {
+      "name": "Общие заклинания",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Повелитель зверей",
+      "subclassSource": "AdaptiveRanger",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "Начиная с 15-го уровня, когда вы накладываете заклинание, которое включает вас в качестве цели, вы можете также подвергнуть этому заклинанию своего звериного спутника, если животное находится в пределах 30 футов от вас."
+      ]
+    },
+    {
+      "name": "Драконья стража",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Драконья стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Драконья стража — это следопыты, верно служащие драконам. Они предлагают служение этим гордым созданиям в виде защиты их территории. Взамен драконы могут предоставить стражу использование своих сверхъестественных способностей. Однако эти следопыты мудро помнят, что драконы слишком разумны и горды, чтобы их приручить, и что гнев дракона долговечен.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Магия Драконьей стражи|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|3|AdaptiveRanger"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Слуга дракона|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|3|AdaptiveRanger"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Аспект дракона|Adaptive Ranger|AdaptiveRanger|Драконья стража|AdaptiveRanger|3|AdaptiveRanger"
+        }
+      ]
+    },
+    {
+      "name": "Аспект дракона",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Драконья стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Также на 3-м уровне сочетанием драконьей и следопытской магии вы можете вобрать в себя аспект дракона, приняв его облик.",
+        "Вы можете бонусным действием превратиться в {@creature Драконий аспект|AdaptiveRanger}. Вы остаётесь в этой форме число часов, равное вашему уровню следопыта, или до тех пор, пока не завершите превращение досрочно бонусным действием. Ваше снаряжение сливается с вашей формой, пока вы превращены. Вы можете досрочно вернуться в обычную форму бонусным действием. Пока вы превращены, действуют следующие правила:",
+        {
+          "type": "list",
+          "items": [
+            "Ваши игровые характеристики заменяются характеристиками дракона, но вы сохраняете свои умения следопыта, бонус мастерства, значения Интеллекта, Мудрости и Харизмы, мировоззрение и все известные вам языки.",
+            "Ваш Драконий аспект получает одну кость хитов, и его хиты увеличиваются на 8 ({@dice 1d8 + 3}) за каждый ваш уровень следопыта выше 3-го. Возвращаясь в обычную форму, вы возвращаетесь к числу хитов, которое у вас было до превращения. Однако если вы возвращаетесь в результате падения до 0 хитов, то вместо мгновенного падения без сознания весь избыточный урон переносится на вашу обычную форму. Например, если вы получаете 10 урона в драконьей форме, имея всего 1 хит, вы возвращаетесь и получаете 9 урона.",
+            "Ваша драконья форма невосприимчива к типу урона, связанному с цветом, выбранным для умения Слуга дракона, а её атака укусом наносит {@damage 1d4} дополнительного урона того же типа.",
+            "Вы не можете накладывать заклинания, кроме известных вам от умения Магия Драконьей стражи, и вам не нужно предоставлять материальные компоненты для накладываемых таким образом заклинаний. Превращение не нарушает вашу концентрацию на уже наложенном заклинании и не мешает вам совершать действия, являющиеся частью заклинания, например {@spell moonbeam}."
+          ]
+        },
+        "Использовав это умение, вы не можете применить его снова, пока не завершите короткий или продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Слуга дракона",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Драконья стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Выбирая этот архетип на 3-м уровне, вы связаны службой дракону и защитой его территории. Вы можете говорить, читать и писать на Драконьем. Также выберите один цвет дракона из приведённого ниже списка, который определяет, какую форму примут умения Драконьей стражи, и даёт вам сопротивление типу урона этого цвета.",
+        {
+          "type": "table",
+          "caption": "Цвета слуги дракона",
+          "colLabels": [
+            "Цвет дракона",
+            "Тип урона"
+          ],
+          "colStyles": [
+            "col-6 text-center",
+            "col-6 text-center"
+          ],
+          "rows": [
+            [
+              "Чёрный",
+              "кислота"
+            ],
+            [
+              "Синий",
+              "электричество"
+            ],
+            [
+              "Латунный",
+              "огонь"
+            ],
+            [
+              "Бронзовый",
+              "электричество"
+            ],
+            [
+              "Медный",
+              "кислота"
+            ],
+            [
+              "Золотой",
+              "огонь"
+            ],
+            [
+              "Зелёный",
+              "яд"
+            ],
+            [
+              "Красный",
+              "огонь"
+            ],
+            [
+              "Серебряный",
+              "холод"
+            ],
+            [
+              "Белый",
+              "холод"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Магия Драконьей стражи",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Драконья стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Начиная с 3-го уровня у вас всегда есть дополнительные подготовленные заклинания, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинания Драконьей стражи. Эти заклинания считаются для вас заклинаниями следопыта и не учитываются против числа заклинаний следопыта, которые вы можете подготовить.",
+        {
+          "type": "table",
+          "caption": "Заклинания Драконьей стражи",
+          "colLabels": [
+            "Уровень следопыта",
+            "Заклинание"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3-й",
+              "{@spell cause fear|xge}"
+            ],
+            [
+              "5-й",
+              "{@spell dragon's breath|xge}"
+            ],
+            [
+              "9-й",
+              "{@spell fly}"
+            ],
+            [
+              "13-й",
+              "{@spell polymorph}"
+            ],
+            [
+              "17-й",
+              "{@spell control winds|xge}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Призрачный всадник",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Драконья стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "На 7-м уровне призрачный, струящийся облик вашей обычной формы восседает на вашей драконьей форме, синхронизируя ваши способности со способностями дракона.",
+        "Ваша драконья форма получает чувства вашей обычной формы и становится владеющей любыми навыками, которыми владеете вы. Кроме того, вы можете добавить свой бонус мастерства к урону, наносимому вашим заклинанием {@spell Dragon's Breath|xge}, как в обычной форме, так и в драконьей."
+      ]
+    },
+    {
+      "name": "Ужасающий аспект",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Драконья стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "На 11-м уровне драконий аспект внутри вас создаёт присутствие, которое вы можете призвать, чтобы вселить страх во врагов.",
+        "Вы можете действием выбрать любое число существ в пределах 60 футов от вас. Выбранное существо, которое может вас видеть или слышать, должно преуспеть в спасброске Мудрости против Сл спасброска от ваших заклинаний, иначе становится {@condition frightened} на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе.",
+        "Использовав это умение, вы не можете применить его вновь, пока не завершите продолжительный отдых."
+      ]
+    },
+    {
+      "name": "Крыло свободы",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Драконья стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "На 15-м уровне вы можете использовать свой драконий аспект, чтобы отрастить крылья, позволяющие вам спастись от опасности, даже пока вы не превращены.",
+        "Реакцией после попадания по вам рукопашной атакой атакующий должен преуспеть в спасброске Силы против Сл спасброска от ваших заклинаний, иначе падает {@condition prone}. Затем вы можете пролететь до 30 футов, не провоцируя провоцированные атаки, и парить там (если пожелаете) до конца вашего следующего хода, когда вы мягко опуститесь на землю, если что-то иное не удерживает вас в воздухе."
+      ]
+    },
+    {
+      "name": "Охотник",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Принимая архетип Охотника, вы соглашаетесь со своей ролью оплота между цивилизацией и ужасами Дикой природы. Идя путём Охотника, вы изучаете специализированные приёмы борьбы с угрозами, с которыми сталкиваетесь, — от беснующихся огров и орды орков до возвышающихся Гигантов и ужасающих Драконов.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Магия охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Добыча охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Адаптация преследователя|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
+        }
+      ]
+    },
+    {
+      "name": "Убийца колоссов",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Ваша настойчивость способна измотать самых могучих врагов. Когда вы попадаете по существу атакой оружием, вы можете нанести ему дополнительный {@damage 1d8} урона, если его хиты ниже максимума. Вы можете наносить этот дополнительный урон лишь раз за ход."
+      ]
+    },
+    {
+      "name": "Сокрушитель орды",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Один раз в каждый свой ход вы можете максимизировать результат одной кости урона оружием, которую бросаете для атаки оружием, если ещё одно враждебное существо находится в пределах 5 футов от цели вашей атаки. Вы можете сделать это до или после броска кости урона."
+      ]
+    },
+    {
+      "name": "Магия охотника",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Начиная с 3-го уровня у вас всегда есть дополнительные подготовленные заклинания, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинания охотника. Эти заклинания считаются для вас заклинаниями следопыта и не учитываются против числа заклинаний следопыта, которые вы можете подготовить.",
+        {
+          "type": "table",
+          "caption": "Заклинания охотника",
+          "colLabels": [
+            "Уровень следопыта",
+            "Заклинание"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3-й",
+              "{@spell expeditious retreat}"
+            ],
+            [
+              "5-й",
+              "{@spell see invisibility}"
+            ],
+            [
+              "9-й",
+              "{@spell meld into stone}"
+            ],
+            [
+              "13-й",
+              "{@spell staggering smite}"
+            ],
+            [
+              "17-й",
+              "{@spell scrying}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Добыча охотника",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "На 3-м уровне вы получаете одно из следующих умений на ваш выбор.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Убийца колоссов|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Сокрушитель хищников|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Сокрушитель орды|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Сокрушитель хищников",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Когда существо в пределах 5 футов от вас атакует вас, вы можете реакцией сразу после его атаки попытаться схватить это существо, при условии что вы его видите. Если попытка успешна, существо получает {@damage 1d8} дробящего урона. Кроме того, один раз за ход вы можете нанести дополнительный {@damage 1d8} дробящего урона, когда попадаете по существу атакой оружием, если оно схвачено вами."
+      ]
+    },
+    {
+      "name": "Адаптация преследователя",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Также на 3-м уровне, завершая короткий или продолжительный отдых, вы можете заменить выбранное вами умение {@subclassFeature Добыча охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|3|AdaptiveRanger} другим умением на ваш выбор из того же списка. Когда вы позже получаете умение из {@subclassFeature Оборонительная тактика|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger}, {@subclassFeature Мультиатака|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|11|AdaptiveRanger} и {@subclassFeature Превосходная защита охотника|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|15|AdaptiveRanger}, вы также можете заменить свой выбор для этих умений другими вариантами из соответствующих списков умений."
+      ]
+    },
+    {
+      "name": "Оборонительная тактика",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "На 7-м уровне вы получаете одно из следующих умений на ваш выбор.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Спасение от орды|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Защита от мультиатаки|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Стальная воля|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|7|AdaptiveRanger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Спасение от орды",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "header": 3,
+      "entries": [
+        "Провоцированные атаки по вам совершаются с помехой, и когда провоцированная атака промахивается по вам, ваша скорость увеличивается на 10 футов до конца вашего хода."
+      ]
+    },
+    {
+      "name": "Защита от мультиатаки",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "header": 3,
+      "entries": [
+        "Когда существо попадает по вам атакой, вы получаете бонус +4 к классу доспеха против всех последующих атак, совершаемых этим существом до конца хода."
+      ]
+    },
+    {
+      "name": "Стальная воля",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "header": 3,
+      "entries": [
+        "Вы совершаете с преимуществом спасброски, когда повторяете спасбросок против любого продолжающегося эффекта."
+      ]
+    },
+    {
+      "name": "Мультиатака",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "На 11-м уровне вы получаете одно из следующих умений на ваш выбор.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Залп|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|11|AdaptiveRanger"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Веерная атака|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|11|AdaptiveRanger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Залп",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "header": 3,
+      "entries": [
+        "Действием вы можете совершить дальнобойную атаку по любому числу существ в пределах 10 футов от видимой вами точки в пределах досягаемости вашего оружия. У вас должны быть боеприпасы для каждой цели, как обычно, и вы совершаете отдельный бросок атаки по каждой цели."
+      ]
+    },
+    {
+      "name": "Веерная атака",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "header": 3,
+      "entries": [
+        "Действием вы можете совершить рукопашную атаку по любому числу существ в пределах досягаемости оружия, которое держите, с отдельным броском атаки по каждой цели."
+      ]
+    },
+    {
+      "name": "Превосходная защита охотника",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "На 15-м уровне вы получаете одно из следующих умений на ваш выбор.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Устоять против волны|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|15|AdaptiveRanger"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Невероятное уклонение|Adaptive Ranger|AdaptiveRanger|Охотник|AdaptiveRanger|15|AdaptiveRanger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Устоять против волны",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 15,
+      "header": 3,
+      "entries": [
+        "Когда враждебное существо промахивается по вам рукопашной атакой, вы можете реакцией заставить это существо повторить ту же атаку по другому существу на ваш выбор (включая себя)."
+      ]
+    },
+    {
+      "name": "Невероятное уклонение",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Охотник",
+      "subclassSource": "AdaptiveRanger",
+      "level": 15,
+      "header": 3,
+      "entries": [
+        "Когда видимый вами атакующий попадает по вам атакой, вы можете реакцией уменьшить урон этой атаки по вам вдвое."
+      ]
+    },
+    {
+      "name": "Первобытная стража",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Первобытная стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Следопыты архетипа Первобытной стражи рыщут по границам древних лесов, лесистой местности и природных заповедников, считая своим долгом оберегать эти оплоты первобытной жизни. Их кредо дарует Первобытной страже ответную защиту, укрепляя их тела магией природы, которой они владеют.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Магия Первобытной стражи|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|3|AdaptiveRanger"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Душа хранителя|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|3|AdaptiveRanger"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Пронзающие шипы|Adaptive Ranger|AdaptiveRanger|Первобытная стража|AdaptiveRanger|3|AdaptiveRanger"
+        }
+      ]
+    },
+    {
+      "name": "Душа хранителя",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Первобытная стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Начиная с 3-го уровня вы обретаете способность магически облачаться в древоподобный панцирь, покрытый листьями и корой.",
+        "Бонусным действием вы принимаете эту форму хранителя, которая длится, пока вы не завершите её бонусным действием или не станете недееспособны. Пока вы в этой форме, вы претерпеваете следующие изменения:",
+        {
+          "type": "list",
+          "items": [
+            "Вы получаете временные хиты, равные вашему модификатору Мудрости, когда используете это умение, а также в начале каждого своего хода; они длятся, пока не закончится ваша форма хранителя.",
+            "Ваша досягаемость увеличивается на 5 футов.",
+            "Когда вы накладываете заклинание следопыта, наносящее урон, вы можете добавить свой модификатор Мудрости к каждому из бросков урона заклинания."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Примечание к Душе хранителя",
+          "entries": [
+            "Душа хранителя не применяется к умению {@classFeature Метка охоты|Adaptive Ranger|AdaptiveRanger|1|AdaptiveRanger}, но применяется к заклинанию {@spell hunter's mark}. Это умение работает здесь благодаря тому изменению, но чтобы оно работало с любым другим стилем следопыта, исключите это заклинание из получения преимуществ Души хранителя."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Пронзающие шипы",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Первобытная стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Также на 3-м уровне вы можете ненадолго выпустить острые защитные шипы.",
+        "Всякий раз, когда по вам попадают рукопашной атакой, вы можете реакцией нанести {@damage 1d8} колющего урона своему атакующему. Этот урон увеличивается до {@damage 2d8}, когда вы достигаете 11-го уровня в этом классе."
+      ]
+    },
+    {
+      "name": "Магия Первобытной стражи",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Первобытная стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Начиная с 3-го уровня у вас всегда есть дополнительные подготовленные заклинания, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинания Первобытной стражи. Эти заклинания считаются для вас заклинаниями следопыта и не учитываются против числа заклинаний следопыта, которые вы можете подготовить.",
+        {
+          "type": "table",
+          "caption": "Магия Первобытной стражи",
+          "colLabels": [
+            "Уровень следопыта",
+            "Заклинание"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3-й",
+              "{@spell faerie fire}"
+            ],
+            [
+              "5-й",
+              "{@spell warding wind}"
+            ],
+            [
+              "9-й",
+              "{@spell plant growth}"
+            ],
+            [
+              "13-й",
+              "{@spell guardian of nature}"
+            ],
+            [
+              "17-й",
+              "{@spell insect plague}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Древняя стойкость",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Первобытная стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "На 7-м уровне вы выдерживаете, как древнее дерево. Находясь в форме хранителя, ваш класс доспеха увеличивается на 2, и вы можете добавить свой модификатор Мудрости к спасброскам Силы, Ловкости и Телосложения."
+      ]
+    },
+    {
+      "name": "Укоренённая защита",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Первобытная стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "На 11-м уровне вы можете проецировать лианы и кору, которые застилают землю вокруг вас, замедляя врагов и защищая союзников.",
+        "Пока вы в форме хранителя, земля в пределах 20 футов от вас становится труднопроходимой местностью. При активации формы хранителя вы можете выбрать любое число существ, которые игнорируют эту труднопроходимую местность и вместо этого получают укрытие на половину в этой области."
+      ]
+    },
+    {
+      "name": "Кора железного дерева",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Первобытная стража",
+      "subclassSource": "AdaptiveRanger",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "На 15-м уровне ваша кора становится исключительно крепкой и упругой. Вы можете добавить половину своего уровня следопыта к временным хитам, получаемым от формы хранителя."
+      ]
+    }
+  ],
+  "foundrySubclassFeature": [
+    {
+      "name": "Beast Whisperer",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Beast Master",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "entryData": {
+        "skillProficiencies": [
+          {
+            "animal handling": true
+          }
+        ],
+        "expertise": [
+          {
+            "animal handling": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aspect of the Dragon",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Dragonguard",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "system": {
+        "activation.type": "bonus",
+        "activation.cost": 1,
+        "uses.value": 1,
+        "uses.max": 1,
+        "uses.per": "sr"
+      }
+    },
+    {
+      "name": "Freedom's Wing",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Dragonguard",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "system": {
+        "activation.type": "reaction",
+        "activation.cost": 1,
+        "activation.condition": "after you are hit with a melee attack",
+        "actionType": "save",
+        "save.ability": "str",
+        "save.scaling": "spell"
+      }
+    },
+    {
+      "name": "Frightful Aspect",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Dragonguard",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "system": {
+        "activation.type": "action",
+        "activation.cost": 1,
+        "target.type": "creature",
+        "target.units": "ft",
+        "target.value": 60,
+        "uses.max": 1,
+        "uses.value": 1,
+        "uses.per": "lr",
+        "actionType": "save",
+        "save.ability": "wis",
+        "save.scaling": "spell"
+      }
+    },
+    {
+      "name": "Colossus Slayer",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Hunter",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "system": {
+        "activation.type": "special",
+        "activation.condition": "hit a creature with a weapon attack while it's below its hit point maximum",
+        "actionType": "other",
+        "damage.parts[0][0]": "1d8"
+      }
+    },
+    {
+      "name": "Horde Breaker",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Hunter",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "system": {
+        "activation.type": "special",
+        "activation.condition": "another hostile creature is within 5 ft. of the target of your attack"
+      }
+    },
+    {
+      "name": "Predator Crusher",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Hunter",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "system": {
+        "activation.type": "reaction",
+        "activation.cost": 1,
+        "activation.condition": "a creature within 5 ft. of you attacks you",
+        "target.type": "creature",
+        "target.value": 1,
+        "range.value": 5,
+        "range.units": "ft"
+      }
+    },
+    {
+      "name": "Multiattack Defense",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Hunter",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "system": {
+        "activation.type": "special",
+        "activation.condition": "a creature hits you with an attack"
+      },
+      "effects": [
+        {
+          "name": "Multiattack Defense",
+          "disabled": true,
+          "changes": [
+            {
+              "key": "data.attributes.ac.value",
+              "mode": "ADD",
+              "value": "+4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volley",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Hunter",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "system": {
+        "activation.type": "action",
+        "activation.cost": 1
+      }
+    },
+    {
+      "name": "Whirlwind Attack",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Hunter",
+      "subclassSource": "AdaptiveRanger",
+      "level": 11,
+      "system": {
+        "activation.type": "action",
+        "activation.cost": 1
+      }
+    },
+    {
+      "name": "Stand Against the Tide",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Hunter",
+      "subclassSource": "AdaptiveRanger",
+      "level": 15,
+      "system": {
+        "activation.type": "reaction",
+        "activation.cost": 1,
+        "activation.condition": "a hostile creature misses you with a melee attack"
+      }
+    },
+    {
+      "name": "Uncanny Dodge",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Hunter",
+      "subclassSource": "AdaptiveRanger",
+      "level": 15,
+      "system": {
+        "activation.type": "reaction",
+        "activation.cost": 1,
+        "activation.condition": "an attacker that you can see hits you with an attack"
+      }
+    },
+    {
+      "name": "Guardian Soul",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Primeval Watch",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "system": {
+        "activation.type": "bonus",
+        "activation.cost": 1
+      },
+      "effects": [
+        {
+          "name": "Guardian Soul: Extra Spell Damage",
+          "disabled": true,
+          "changes": [
+            {
+              "key": "data.bonuses.msak.damage",
+              "mode": "ADD",
+              "value": "+@abilities.wis.mod"
+            },
+            {
+              "key": "data.bonuses.rsak.damage",
+              "mode": "ADD",
+              "value": "+@abilities.wis.mod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piercing Thorns",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Primeval Watch",
+      "subclassSource": "AdaptiveRanger",
+      "level": 3,
+      "system": {
+        "activation.type": "reaction",
+        "activation.cost": 1,
+        "activation.condition": "Whenever you are hit with a melee attack",
+        "damage.parts[0][0]": "ceil((@classes.adaptive-ranger.levels)/10)d8",
+        "actionType": "other"
+      }
+    },
+    {
+      "name": "Ancient Fortitude",
+      "source": "AdaptiveRanger",
+      "className": "Adaptive Ranger",
+      "classSource": "AdaptiveRanger",
+      "subclassShortName": "Primeval Watch",
+      "subclassSource": "AdaptiveRanger",
+      "level": 7,
+      "effects": [
+        {
+          "name": "Ancient Fortitude",
+          "disabled": true,
+          "changes": [
+            {
+              "key": "data.attributes.ac.value",
+              "mode": "ADD",
+              "value": "+2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "spell": [
+    {
+      "name": "Призыв заграждения",
+      "source": "AdaptiveRanger",
+      "page": 11,
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "ammunition or thrown weapon"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "Вы бросаете один боеприпас или оружие, которое держите, и опасная лавина одинаковых оружий вырывается конусом, берущим начало от вас. Каждое существо в этой области должно совершить спасбросок Ловкости, получая {@damage 4d8} урона типа оружия при провале или вдвое меньше урона при успехе.",
+        "До конца вашего следующего хода область покрывается острыми обломками оружия или боеприпаса; когда существо впервые за ход входит в эту область или начинает там свой ход, вы можете заставить один из обломков ударить по существу (действие не требуется). Совершите рукопашную атаку заклинанием по существу. При попадании цель получает {@damage 2d8} колющего урона.",
+        "Когда заклинание заканчивается, созданные им обломки исчезают."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Начальный урон этого заклинания увеличивается на {@damage 1d8} за каждый уровень ячейки заклинаний выше 3-го."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Адаптивный следопыт",
+            "source": "AdaptiveRanger"
+          }
+        ]
+      },
+      "damageInflict": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "spellAttack": [
+        "M"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ],
+      "areaTags": [
+        "N"
+      ]
+    },
+    {
+      "name": "Завеса стрел",
+      "source": "AdaptiveRanger",
+      "page": 11,
+      "level": 2,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "one or more arrows/bolts"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "entries": [
+        "Вы зачаровываете до четырёх немагических боеприпасов — стрел или арбалетных болтов, — которые парят рядом с вами на время действия. До окончания заклинания, всякий раз, когда существо, кроме вас, впервые за ход приближается к боеприпасам на 30 футов или завершает там свой ход, вы можете заставить один боеприпас взлететь и ударить по нему. Существо должно преуспеть в спасброске Ловкости, иначе получает {@damage 1d8} колющего урона. Затем боеприпас уничтожается. Заклинание заканчивается, когда не остаётся боеприпасов.",
+        "Когда вы накладываете это заклинание или действием, вы можете воткнуть любое число этих боеприпасов в землю в пределах 5 футов от вас и наложить на них магию для защиты области.",
+        "Накладывая это заклинание, вы можете обозначить любых существ на ваш выбор, и заклинание их игнорирует."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "Когда вы накладываете это заклинание, используя ячейку заклинаний 3-го уровня или выше, количество боеприпасов, которые могут быть затронуты, увеличивается на два за каждый уровень ячейки выше 2-го."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Адаптивный следопыт",
+            "source": "AdaptiveRanger"
+          }
+        ]
+      },
+      "damageInflict": [
+        "piercing"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Целительный дух",
+      "source": "AdaptiveRanger",
+      "page": 11,
+      "level": 2,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Вы вызываете бесплотного духа в кубическое пространство 5 на 5 футов, которое видите. Когда дух появляется, он восстанавливает {@dice 1d6} хитов вплоть до двум существам на ваш выбор в пределах 5 футов от него. Вы можете бонусным действием переместить духа на расстояние до 30 футов в видимое вами пространство и повторить этот целительный эффект. Дух не может исцелять конструктов или нежить."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "За каждый уровень ячейки выше 2-го дух исцеляет дополнительно {@dice 1d6} хитов, и вы можете нацелиться на одно дополнительное существо, находящееся в пределах 5 футов от духа, когда используете бонусное действие заклинания."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Адаптивный следопыт",
+            "source": "AdaptiveRanger"
+          }
+        ]
+      },
+      "miscTags": [
+        "HL",
+        "UBA"
+      ]
+    },
+    {
+      "name": "Молниевая стрела",
+      "source": "AdaptiveRanger",
+      "page": 12,
+      "level": 3,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a weapon capable of making ranged attacks"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "В рамках накладывания этого заклинания вы должны совершить дальнобойную атаку оружием по существу в пределах досягаемости, используя дальнобойное или метательное оружие, которое держите, иначе заклинание проваливается. Оружие (если оно метательное) или его боеприпас превращается в разряд молнии, который устремляется к цели, игнорируя укрытие. При попадании цель испытывает обычные эффекты атаки и получает дополнительный {@damage 4d10} урона электричеством. При промахе цель получает вдвое меньше урона.",
+        "Попадёте вы или промахнётесь, каждое существо в линии шириной 5 футов между вами и целью, а также каждое существо в пределах 10 футов от цели, должно совершить спасбросок Ловкости. Существо получает {@damage 4d8} урона электричеством при провале или вдвое меньше урона при успехе. Затем оружие или боеприпас возвращается в свою обычную форму."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "На более высоких уровнях",
+          "entries": [
+            "За каждый уровень ячейки выше 3-го дополнительный урон электричеством при попадании увеличивается на {@damage 1d10}, а урон, получаемый существом при провале спасброска, увеличивается на {@damage 1d8}."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Адаптивный следопыт",
+            "source": "AdaptiveRanger"
+          }
+        ]
+      },
+      "damageInflict": [
+        "lightning"
+      ],
+      "savingThrow": [
+        "dexterity"
+      ],
+      "areaTags": [
+        "L"
+      ]
+    },
+    {
+      "name": "Удар Зефира",
+      "source": "AdaptiveRanger",
+      "page": 12,
+      "level": 1,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "Ветра проносятся над вами и подхватывают ваши руки и ноги, позволяя быстро двигаться и наносить удары. Ваше перемещение не вызывает провоцированных атак, пока заклинание не закончится.",
+        "Сразу после того как вы наложили заклинание, или бонусным действием один раз до окончания заклинания, вы можете переместиться на расстояние до 30 футов и совершить одну рукопашную атаку заклинанием по существу в пределах 5 футов от вас, нанося цели при попадании силовой урон, равный {@damage 1d8} плюс ваш модификатор базовой характеристики для заклинаний."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Адаптивный следопыт",
+            "source": "AdaptiveRanger"
+          }
+        ]
+      },
+      "damageInflict": [
+        "force"
+      ],
+      "spellAttack": [
+        "M"
+      ],
+      "miscTags": [
+        "UBA"
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Драконий аспект",
+      "source": "AdaptiveRanger",
+      "page": 8,
+      "size": [
+        "M"
+      ],
+      "type": "dragon",
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "3d8 + 9",
+        "average": 22
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30,
+        "swim": 30
+      },
+      "str": 18,
+      "dex": 10,
+      "con": 16,
+      "int": 10,
+      "wis": 11,
+      "cha": 14,
+      "save": {
+        "dex": "+2",
+        "con": "+5",
+        "wis": "+2",
+        "cha": "+4"
+      },
+      "skill": {
+        "perception": "+4",
+        "stealth": "+2"
+      },
+      "passive": 10,
+      "languages": [
+        "Драконий"
+      ],
+      "cr": "1",
+      "action": [
+        {
+          "name": "Укус",
+          "entries": [
+            "{@atk mw} {@hit 6} к попаданию, досягаемость 5 футов, одна цель. {@h}13 ({@damage 1d10 + 4}) колющего урона."
+          ]
+        }
+      ],
+      "dragonAge": "aspect",
+      "languageTags": [
+        "DR"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "Следопыты, следующие архетипу Драконьей стражи, способны превращать себя в Драконий аспект, получая различные преимущества."
+        ]
+      }
+    }
+  ]
 }
