@@ -143,7 +143,7 @@
           }
         ],
         "weapons": [
-          "simple",
+          "простое",
           "{@item hand crossbow|phb|ручные арбалеты}",
           "{@item longbow|phb|длинные луки}",
           "{@item longsword|phb|длинные мечи}",
@@ -152,7 +152,7 @@
           "{@item shortsword|phb|короткие мечи}"
         ],
         "tools": [
-          "one {@item gaming set|phb} of your choice."
+          "один {@item gaming set|phb|игровой набор} на ваш выбор."
         ],
         "toolProficiencies": [
           {
@@ -160,9 +160,9 @@
           }
         ],
         "armor": [
-          "light",
-          "medium",
-          "shield"
+          "лёгкий",
+          "средний",
+          "щит"
         ],
         "armorProficiencies": [
           {
@@ -175,10 +175,10 @@
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
-          "(a) {@item scale mail|PHB} или (b) a {@item leather armor|PHB}",
-          "(a) {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} или (b) {@item longsword|phb} или (c) a {@item rapier|PHB}",
-          "(a) {@item light crossbow|PHB} и {@item Crossbow Bolts (20)|PHB|20 болтов} или (b) five {@item javelin|phb|метательные копья}",
-          "(a) a {@item scholar's pack|PHB} или (b) an {@item explorer's pack|PHB}"
+          "(а) {@item scale mail|PHB|чешуйчатый доспех} или (б) {@item leather armor|PHB|кожаный доспех}",
+          "(а) {@filter простое оружие|items|source=phb|category=basic|type=simple weapon} или (б) {@item longsword|phb|длинный меч} или (в) {@item rapier|PHB|рапира}",
+          "(а) {@item light crossbow|PHB|лёгкий арбалет} и {@item Crossbow Bolts (20)|PHB|20 арбалетных болтов} или (б) пять {@item javelin|phb|метательных копий}",
+          "(а) {@item scholar's pack|PHB|набор учёного} или (б) {@item explorer's pack|PHB|набор путешественника}"
         ],
         "defaultData": [
           {
@@ -240,12 +240,12 @@
         },
         "proficienciesGained": {
           "weapons": [
-            "simple"
+            "простое"
           ],
           "armor": [
-            "light",
-            "medium",
-            "shield"
+            "лёгкий",
+            "средний",
+            "щит"
           ],
           "armorProficiencies": [
             {
@@ -260,7 +260,7 @@
         {
           "colLabels": [
             "Вдохновляющее слово",
-            "{@filter Exploits Known|optionalfeatures|feature type=LL:TE}",
+            "{@filter Известные приёмы|optionalfeatures|feature type=LL:TE}",
             "Кость приёмов",
             "Кости приёмов"
           ],
@@ -633,7 +633,7 @@
       "foundryAdvancement": [
         {
           "type": "ScaleValue",
-          "title": "Iron Command",
+          "title": "Железный приказ",
           "configuration": {
             "identifier": "iron-command",
             "type": "distance",
@@ -781,12 +781,12 @@
         {
           "subclasses": [
             {
-              "name": "Галантность",
+              "name": "Отвага",
               "source": "LLAW"
             }
           ],
           "colLabels": [
-            "{@filter Spells Known|spells|subclass=Warlord: Gallantry (LLAW)}"
+            "{@filter Известные заклинания|spells|subclass=Воевода: Отвага (LLAW)}"
           ],
           "rows": [
             [
@@ -852,18 +852,18 @@
           ]
         },
         {
-          "title": "Spell Slots за Spell Level",
+          "title": "Ячейки заклинаний по уровню заклинания",
           "subclasses": [
             {
-              "name": "Галантность",
+              "name": "Отвага",
               "source": "LLAW"
             }
           ],
           "colLabels": [
-            "{@filter 1st|spells|level=1|subclass=Warlord: Gallantry (LLAW)}",
-            "{@filter 2nd|spells|level=2|subclass=Warlord: Gallantry (LLAW)}",
-            "{@filter 3rd|spells|level=3|subclass=Warlord: Gallantry (LLAW)}",
-            "{@filter 4th|spells|level=4|subclass=Warlord: Gallantry (LLAW)}"
+            "{@filter 1-й|spells|level=1|subclass=Воевода: Отвага (LLAW)}",
+            "{@filter 2-й|spells|level=2|subclass=Воевода: Отвага (LLAW)}",
+            "{@filter 3-й|spells|level=3|subclass=Воевода: Отвага (LLAW)}",
+            "{@filter 4-й|spells|level=4|subclass=Воевода: Отвага (LLAW)}"
           ],
           "rows": [
             [
@@ -1001,7 +1001,7 @@
       "foundryAdvancement": [
         {
           "type": "ScaleValue",
-          "title": "Heroic Charge",
+          "title": "Героическая атака",
           "configuration": {
             "identifier": "heroic-charge",
             "type": "distance",
@@ -1041,7 +1041,7 @@
       "classSource": "LLAW",
       "optionalfeatureProgression": [
         {
-          "name": "Мореплаватель",
+          "name": "Мореход",
           "featureType": [
             "FS:WD"
           ],
@@ -1162,7 +1162,7 @@
               }
             }
           },
-          "title": "Exploit Dice"
+          "title": "Кости приёмов"
         }
       ]
     },
@@ -1221,33 +1221,33 @@
           "known": {
             "3": [
               {
-                "choose": "level=1|subclass=warlord: zeal (llaware)",
+                "choose": "level=1|subclass=воевода: поклонение (llaware)",
                 "count": 2
               }
             ],
             "5": [
               {
-                "choose": "level=1|subclass=warlord: zeal (llaware)"
+                "choose": "level=1|subclass=воевода: поклонение (llaware)"
               }
             ],
             "7": [
               {
-                "choose": "level=1;2|subclass=warlord: zeal (llaware)"
+                "choose": "level=1;2|subclass=воевода: поклонение (llaware)"
               }
             ],
             "9": [
               {
-                "choose": "level=1;2|subclass=warlord: zeal (llaware)"
+                "choose": "level=1;2|subclass=воевода: поклонение (llaware)"
               }
             ],
             "13": [
               {
-                "choose": "level=1;2;3|subclass=warlord: zeal (llaware)"
+                "choose": "level=1;2;3|subclass=воевода: поклонение (llaware)"
               }
             ],
             "17": [
               {
-                "choose": "level=1;2;3|subclass=warlord: zeal (llaware)"
+                "choose": "level=1;2;3|subclass=воевода: поклонение (llaware)"
               }
             ]
           }
@@ -1313,7 +1313,7 @@
         {
           "subclasses": [
             {
-              "name": "Рвение",
+              "name": "Поклонение",
               "source": "LLAW:E"
             }
           ],
@@ -1336,92 +1336,92 @@
             [
               2,
               1,
-              "{@filter 1st|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 1-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               2,
               2,
-              "{@filter 1st|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
-            ],
-            [
-              3,
-              2,
-              "{@filter 1st|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 1-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               3,
               2,
-              "{@filter 1st|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 1-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
+            ],
+            [
+              3,
+              2,
+              "{@filter 1-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               4,
               2,
-              "{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 2-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               4,
               2,
-              "{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 2-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               5,
               2,
-              "{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 2-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               5,
               2,
-              "{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 2-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               6,
               2,
-              "{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 2-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               6,
               2,
-              "{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 2-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               7,
               2,
-              "{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 3-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               7,
               2,
-              "{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 3-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               8,
               2,
-              "{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 3-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               8,
               2,
-              "{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 3-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               9,
               2,
-              "{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 3-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               9,
               2,
-              "{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 3-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               10,
               2,
-              "{@filter 4th|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 4-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ],
             [
               10,
               2,
-              "{@filter 4th|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+              "{@filter 4-й|spells|level=1|subclass=Воевода: Поклонение (LLAW:E)}"
             ]
           ]
         }
@@ -1525,7 +1525,7 @@
       ],
       "header": 3,
       "entries": [
-        "Вы ведёте за собой силой характера, отвагой и дерзостью. Харизма — ваша Характеристика Лидерства. Вы также получаете владение тяжёлыми доспехами и владение одним из навыков на ваш выбор: {@skill Intimidation} или {@skill Persuasion}."
+        "Вы ведёте за собой силой характера, отвагой и дерзостью. Харизма — ваша Характеристика Лидерства. Вы также получаете владение тяжёлыми доспехами и владение одним из навыков на ваш выбор: {@skill Intimidation||Запугивание} или {@skill Persuasion||Убеждение}."
       ],
       "foundryImg": "icons/commodities/treasure/medal-ribbon-striped-gold-red.webp"
     },
@@ -1619,7 +1619,7 @@
       "classSource": "LLAW",
       "level": 2,
       "entries": [
-        "На 2-м уровне вы изучаете один {@filter Fighting Style|optionalfeatures|feature type=fs:wd} из списка в конце описания этого класса. Вы не можете изучить один и тот же Боевой стиль более одного раза, даже если умение позволяет вам изучить ещё один. Чтобы изучить Боевой стиль, вы должны соответствовать его предварительным требованиям.",
+        "На 2-м уровне вы изучаете один {@filter Боевой стиль|optionalfeatures|feature type=fs:wd} из списка в конце описания этого класса. Вы не можете изучить один и тот же Боевой стиль более одного раза, даже если умение позволяет вам изучить ещё один. Чтобы изучить Боевой стиль, вы должны соответствовать его предварительным требованиям.",
         "При получении уровня вы можете заменить этот Боевой стиль на другой Боевой стиль, доступный классу Воеводы."
       ],
       "foundryImg": "icons/skills/melee/weapons-crossed-swords-black.webp"
@@ -1641,7 +1641,7 @@
           "type": "entries",
           "name": "Известные приёмы",
           "entries": [
-            "Вы знаете два {@filter Tactical Exploits|optionalfeatures|feature type=LL:TE} на ваш выбор из списка в конце описания этого класса. Чтобы изучить Тактический приём, вы должны соответствовать любым его предварительным требованиям.",
+            "Вы знаете два {@filter Тактические приёмы|optionalfeatures|feature type=LL:TE} на ваш выбор из списка в конце описания этого класса. Чтобы изучить Тактический приём, вы должны соответствовать любым его предварительным требованиям.",
             "Вы изучаете дополнительные Приёмы на определённых уровнях, как показано в столбце «Известные приёмы» таблицы Воеводы. Наконец, при каждом получении уровня вы можете заменить один известный вам Приём на другой Тактический приём по вашему выбору."
           ]
         },
@@ -1658,7 +1658,7 @@
               "type": "abilityDc",
               "name": "Приём",
               "attributes": [
-                "your Leadership modifier"
+                "ваш модификатор Лидерства"
               ]
             }
           ]
@@ -1728,7 +1728,7 @@
       "level": 4,
       "entries": [
         "Когда вы достигаете 4-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2, либо увеличить две характеристики на ваш выбор на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этого умения.",
-        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools черта|feats.html}."
       ]
     },
     {
@@ -1739,7 +1739,7 @@
       "classSource": "LLAW",
       "level": 5,
       "entries": [
-        "Начиная с 5-го уровня вы можете совершать две атаки вместо одной, когда выполняете действие {@action Attack} в свой ход. Кроме того, если вы используете своё действие для {@action Dash} или для {@action Disengage}, вы можете совершить одну атаку оружием бонусным действием в этот ход."
+        "Начиная с 5-го уровня вы можете совершать две атаки вместо одной, когда выполняете действие {@action Attack||Атака} в свой ход. Кроме того, если вы используете своё действие для {@action Dash||Рывок} или для {@action Disengage||Отход}, вы можете совершить одну атаку оружием бонусным действием в этот ход."
       ],
       "foundryImg": "icons/skills/melee/spear-tips-triple-orange.webp"
     },
@@ -1762,7 +1762,7 @@
       "level": 7,
       "header": 3,
       "entries": [
-        "Вы можете нацеливать Вдохновляющим словом существ в состоянии {@condition Unconscious}, но не мёртвых, даже если они вас не слышат."
+        "Вы можете нацеливать Вдохновляющим словом существ в состоянии {@condition Unconscious||Бессознательный}, но не мёртвых, даже если они вас не слышат."
       ],
       "foundryImg": "icons/commodities/treasure/medal-ribbon-silver-blue.webp"
     },
@@ -1788,7 +1788,7 @@
       "level": 7,
       "header": 3,
       "entries": [
-        "Вы и выбранные вами существа в пределах 15 футов от вас получают бонус к броскам инициативы, равный вашему модификатору Интеллекта, пока вы не {@status surprised} или не {@condition Incapacitated}."
+        "Вы и выбранные вами существа в пределах 15 футов от вас получают бонус к броскам инициативы, равный вашему модификатору Интеллекта, пока вы не {@status surprised||Застигнутый врасплох} или не {@condition Incapacitated||Недееспособный}."
       ],
       "foundryImg": "icons/commodities/treasure/medal-ribbon-silver-blue.webp"
     },
@@ -1830,7 +1830,7 @@
       "level": 8,
       "entries": [
         "Когда вы достигаете 8-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2, либо увеличить две характеристики на ваш выбор на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этого умения.",
-        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools черта|feats.html}."
       ]
     },
     {
@@ -1854,7 +1854,7 @@
       "classSource": "LLAW",
       "level": 10,
       "entries": [
-        "Вам не дозволена роскошь поддаваться низменным инстинктам. Начиная с 10-го уровня вы совершаете с преимуществом спасброски против того, чтобы быть {@condition Charmed}, {@condition Frightened} или {@condition Stunned}."
+        "Вам не дозволена роскошь поддаваться низменным инстинктам. Начиная с 10-го уровня вы совершаете с преимуществом спасброски против того, чтобы быть {@condition Charmed||Очарованный}, {@condition Frightened||Испуганный} или {@condition Stunned||Ошеломлённый}."
       ],
       "foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp"
     },
@@ -1878,7 +1878,7 @@
       "level": 12,
       "entries": [
         "Когда вы достигаете 12-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2, либо увеличить две характеристики на ваш выбор на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этого умения.",
-        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools черта|feats.html}."
       ]
     },
     {
@@ -1943,7 +1943,7 @@
       "level": 15,
       "header": 3,
       "entries": [
-        "Ваше Вдохновляющее слово может снять одно из следующих состояний вместо восстановления цели хитов: {@condition Blinded}, {@condition Charmed}, {@condition Deafened}, {@condition Frightened}, {@condition Poisoned} или {@condition Stunned}."
+        "Ваше Вдохновляющее слово может снять одно из следующих состояний вместо восстановления цели хитов: {@condition Blinded||Ослеплённый}, {@condition Charmed||Очарованный}, {@condition Deafened||Оглохший}, {@condition Frightened||Испуганный}, {@condition Poisoned||Отравленный} или {@condition Stunned||Ошеломлённый}."
       ],
       "foundryImg": "icons/commodities/treasure/medal-ribbon-gold-red.webp"
     },
@@ -1968,7 +1968,7 @@
       "level": 16,
       "entries": [
         "Когда вы достигаете 16-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2, либо увеличить две характеристики на ваш выбор на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этого умения.",
-        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools черта|feats.html}."
       ]
     },
     {
@@ -1989,7 +1989,7 @@
       "level": 19,
       "entries": [
         "Когда вы достигаете 19-го уровня, вы можете увеличить одну характеристику на ваш выбор на 2, либо увеличить две характеристики на ваш выбор на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этого умения.",
-        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools feat|feats.html}."
+        "Если ваш Мастер разрешает использование черт, вы можете вместо этого взять {@5etools черта|feats.html}."
       ]
     },
     {
@@ -2014,7 +2014,7 @@
       "level": 1,
       "effects": [
         {
-          "name": "Captain Leadership",
+          "name": "Лидерство капитана",
           "transfer": true,
           "changes": [
             {
@@ -2054,14 +2054,14 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Heal",
+          "name": "Лечение",
           "type": "heal",
           "range": {
             "value": "30 * @scale.warlord.tactical-superiority",
             "units": "ft"
           },
           "healing": {
-            "bonus": "@flags.ll.leadership.mod",
+            "bonus": "1d8 + @flags.ll.leadership.mod",
             "types": [
               "healing"
             ]
@@ -2081,7 +2081,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "activation": {
             "type": "reaction",
@@ -2092,7 +2092,7 @@
             "units": "ft"
           },
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "1d4"
           }
         },
@@ -2102,7 +2102,7 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Exploit Dice"
+                  "name": "Кости приёмов"
                 }
               },
               "value": 1
@@ -2112,7 +2112,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Use (Exploit Die)",
+          "name": "Использование (кость приёмов)",
           "type": "utility",
           "activation": {
             "type": "reaction",
@@ -2123,7 +2123,7 @@
             "units": "ft"
           },
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "d@flags.ll.exploit.faces"
           },
           "visibility": {
@@ -2134,7 +2134,7 @@
       ],
       "effects": [
         {
-          "name": "Mentor Leadership",
+          "name": "Лидерство наставника",
           "transfer": true,
           "changes": [
             {
@@ -2159,7 +2159,7 @@
       "level": 1,
       "effects": [
         {
-          "name": "Strategist Leadership",
+          "name": "Лидерство стратега",
           "transfer": true,
           "changes": [
             {
@@ -2195,7 +2195,7 @@
             }
           ],
           "roll.formula": "d@flags.ll.exploit.faces",
-          "name": "Roll",
+          "name": "Бросок",
           "type": "utility"
         }
       ]
@@ -2208,7 +2208,7 @@
       "level": 2,
       "effects": [
         {
-          "name": "Warlord Exploits",
+          "name": "Приёмы Воеводы",
           "transfer": true,
           "changes": [
             {
@@ -2241,7 +2241,7 @@
                 "value": "1",
                 "target": {
                   "consumes": {
-                    "name": "Exploit Dice"
+                    "name": "Кости приёмов"
                   }
                 }
               }
@@ -2249,7 +2249,7 @@
           },
           "roll": {
             "formula": "d@flags.ll.exploit.faces",
-            "name": "Exploit Die",
+            "name": "Кость приёмов",
             "visible": true
           }
         }
@@ -2265,21 +2265,21 @@
         {
           "activation.type": "",
           "target.affects.type": "creature",
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "range": {
             "value": 15,
             "units": "ft"
           },
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "@abilities.int.mod"
           }
         }
       ],
       "effects": [
         {
-          "name": "Initiative Bonus",
+          "name": "Бонус к инициативе",
           "transfer": true,
           "changes": [
             {
@@ -2320,7 +2320,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "activation": {
             "type": "reaction",
@@ -2331,7 +2331,7 @@
             "units": "ft"
           },
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "@flags.ll.leadership.mod"
           }
         }
@@ -2351,7 +2351,7 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": -1
@@ -2360,13 +2360,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Rallying Cry"
+                  "name": "Воодушевляющий клич"
                 }
               },
               "value": -1
             }
           ],
-          "name": "Use",
+          "name": "Использование",
           "type": "utility"
         }
       ]
@@ -2380,7 +2380,7 @@
       "activities": [
         {
           "activation.type": "special",
-          "name": "Heal",
+          "name": "Лечение",
           "type": "heal",
           "duration": {
             "value": 1,
@@ -2448,15 +2448,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature attack order|LLExploits}, {@optfeature taunting strike|LLExploits}"
+              "{@optfeature attack order|LLExploits|приказ атаки}, {@optfeature taunting strike|LLExploits|насмешливый удар}"
             ],
             [
               "5-й",
-              "{@optfeature hold the line|LLExploits}, {@optfeature rejuvenating order|LLExploits}"
+              "{@optfeature hold the line|LLExploits|держать строй}, {@optfeature rejuvenating order|LLExploits|восстанавливающий приказ}"
             ],
             [
               "9-й",
-              "{@optfeature daring rescue|LLExploits}"
+              "{@optfeature daring rescue|LLExploits|дерзкое спасение}"
             ]
           ]
         },
@@ -2524,7 +2524,7 @@
       ],
       "header": 2,
       "entries": [
-        "Вы были обучены классическим навыкам рыцарства. Вы получаете владение всеми воинскими оружиями, одним музыкальным инструментом и одним из навыков на ваш выбор: {@skill History}, {@skill Performance} или {@skill Religion}."
+        "Вы были обучены классическим навыкам рыцарства. Вы получаете владение всеми воинскими оружиями, одним музыкальным инструментом и одним из навыков на ваш выбор: {@skill History||История}, {@skill Performance||Выступление} или {@skill Religion||Религия}."
       ],
       "foundryImg": "icons/equipment/head/greathelm-slotted-steel.webp"
     },
@@ -2566,7 +2566,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "Вы ведёте в бой лучше всего с передней линии. Когда вы выполняете действие {@action Attack} в свой ход и совершаете хотя бы одну рукопашную атаку, вы можете отдать {@optfeature attack order|LLExploits} бонусным действием в этот ход."
+        "Вы ведёте в бой лучше всего с передней линии. Когда вы выполняете действие {@action Attack||Атака} в свой ход и совершаете хотя бы одну рукопашную атаку, вы можете отдать {@optfeature attack order|LLExploits|приказ атаки} бонусным действием в этот ход."
       ],
       "foundryImg": "icons/environment/people/charge.webp"
     },
@@ -2609,14 +2609,14 @@
           "type": "entries",
           "name": "Союзники",
           "entries": [
-            "Дружественные существа получают временные хиты, равные вашей Кости приёмов + ваш модификатор Лидерства. Пока они длятся, существо нельзя {@condition Charmed} или {@condition Frightened}."
+            "Дружественные существа получают временные хиты, равные вашей Кости приёмов + ваш модификатор Лидерства. Пока они длятся, существо нельзя {@condition Charmed||Очарованный} или {@condition Frightened||Испуганный}."
           ]
         },
         {
           "type": "entries",
           "name": "Враги",
           "entries": [
-            "Враждебные существа должны совершить спасбросок Мудрости или стать {@condition Frightened} вами. Они повторяют спасбросок в конце каждого своего хода и когда получают урон, прекращая эффект при успехе."
+            "Враждебные существа должны совершить спасбросок Мудрости или стать {@condition Frightened||Испуганный} вами. Они повторяют спасбросок в конце каждого своего хода и когда получают урон, прекращая эффект при успехе."
           ]
         }
       ],
@@ -2637,7 +2637,7 @@
       ],
       "header": 2,
       "entries": [
-        "Вы являетесь образцом рыцарской добродетели, сияющим маяком для тех, кто следует за вами. Вы иммунны к состояниям {@condition Frightened} и {@condition Charmed}, а выбранные вами существа в пределах 30 футов, которые видят вас, совершают с преимуществом спасброски, чтобы сопротивляться этим состояниям или прекращать их."
+        "Вы являетесь образцом рыцарской добродетели, сияющим маяком для тех, кто следует за вами. Вы иммунны к состояниям {@condition Frightened||Испуганный} и {@condition Charmed||Очарованный}, а выбранные вами существа в пределах 30 футов, которые видят вас, совершают с преимуществом спасброски, чтобы сопротивляться этим состояниям или прекращать их."
       ],
       "foundryImg": "icons/magic/symbols/fleur-de-lis-yellow.webp"
     },
@@ -2686,7 +2686,7 @@
         }
       ],
       "entries": [
-        "Вы источаете ауру запугивания, сотрясающую до глубины души всех, кроме самых стойких воинов. Вы получаете владение всем воинским оружием и навыком {@skill Intimidation}.",
+        "Вы источаете ауру запугивания, сотрясающую до глубины души всех, кроме самых стойких воинов. Вы получаете владение всем воинским оружием и навыком {@skill Intimidation||Запугивание}.",
         "Кроме того, совершая проверку Запугивания, вы можете использовать свою характеристику Лидерства вместо Харизмы. Когда вы это делаете, считайте бросок 7 или ниже на к20 как 8."
       ],
       "foundryImg": "icons/magic/unholy/silhouette-evil-horned-giant.webp"
@@ -2715,15 +2715,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature attack order|LLExploits}, {@optfeature imposing presence|LLExploits}"
+              "{@optfeature attack order|LLExploits|приказ атаки}, {@optfeature imposing presence|LLExploits|внушительное присутствие}"
             ],
             [
               "5-й",
-              "{@optfeature intimidating command|LLExploits}, {@optfeature menacing shout|LLExploits}"
+              "{@optfeature intimidating command|LLExploits|устрашающая команда}, {@optfeature menacing shout|LLExploits|угрожающий крик}"
             ],
             [
               "9-й",
-              "{@optfeature war cry|LLExploits}"
+              "{@optfeature war cry|LLExploits|боевой клич}"
             ]
           ]
         },
@@ -2754,7 +2754,7 @@
       "subclassSource": "LLAW",
       "level": 3,
       "entries": [
-        "Ваше присутствие на поле боя вселяет страх в сердца ваших врагов. Бонусным действием вы можете потратить использование Вдохновляющего слова, чтобы заставить одно существо, которое видит вас в пределах 30 футов, совершить спасбросок Мудрости. При провале оно становится {@condition Frightened} вами на 1 минуту. Если это Испуганное существо видит, как вы получаете урон, эффект прекращается.",
+        "Ваше присутствие на поле боя вселяет страх в сердца ваших врагов. Бонусным действием вы можете потратить использование Вдохновляющего слова, чтобы заставить одно существо, которое видит вас в пределах 30 футов, совершить спасбросок Мудрости. При провале оно становится {@condition Frightened||Испуганный} вами на 1 минуту. Если это Испуганное существо видит, как вы получаете урон, эффект прекращается.",
         "Если существо спасается бегством и больше не находится в вашей линии обзора, оно может действием автоматически прекратить этот эффект."
       ],
       "foundryImg": "icons/magic/unholy/silhouette-robe-evil-glow.webp"
@@ -2796,8 +2796,8 @@
       "subclassSource": "LLAW",
       "level": 6,
       "entries": [
-        "Вы наполняете свои команды своей ужасающей волей. Вы можете использовать {@optfeature intimidating command|LLExploits} и {@optfeature menacing shout|LLExploits}, не тратя Кость приёмов, количество раз, равное вашему модификатору Лидерства (минимум один раз), и вы восстанавливаете все использованные применения, когда заканчиваете продолжительный отдых.",
-        "Также один раз за ход, когда вы накладываете на существо состояние {@condition Frightened}, вы можете немедленно отдать один {@optfeature attack order|LLExploits}."
+        "Вы наполняете свои команды своей ужасающей волей. Вы можете использовать {@optfeature intimidating command|LLExploits|устрашающая команда} и {@optfeature menacing shout|LLExploits|угрожающий крик}, не тратя Кость приёмов, количество раз, равное вашему модификатору Лидерства (минимум один раз), и вы восстанавливаете все использованные применения, когда заканчиваете продолжительный отдых.",
+        "Также один раз за ход, когда вы накладываете на существо состояние {@condition Frightened||Испуганный}, вы можете немедленно отдать один {@optfeature attack order|LLExploits|приказ атаки}."
       ],
       "foundryImg": "icons/skills/targeting/crosshair-triple-strike-orange.webp"
     },
@@ -2834,7 +2834,7 @@
       "subclassSource": "LLAW",
       "level": 14,
       "entries": [
-        "Вы распространяете страх и опустошение на поле боя. Существа, на которые вы нацеливаете Вдохновляющее слово или Тактический приём, получают преимущество на все броски атаки против существ, которые {@condition Frightened}, до конца их следующего хода.",
+        "Вы распространяете страх и опустошение на поле боя. Существа, на которые вы нацеливаете Вдохновляющее слово или Тактический приём, получают преимущество на все броски атаки против существ, которые {@condition Frightened||Испуганный}, до конца их следующего хода.",
         "Кроме того, когда вы используете Ауру страха, существо совершает свой начальный спасбросок Мудрости с помехой, если вы или существо под эффектом одного из ваших приёмов попали по нему атакой с конца вашего предыдущего хода."
       ],
       "foundryImg": "icons/magic/death/skull-fire-white-yellow.webp"
@@ -2849,7 +2849,7 @@
       "subclassSource": "LLAW",
       "level": 18,
       "entries": [
-        "Вы — ходячее воплощение страха. Когда вы заставляете существо в пределах 30 футов от вас совершить спасбросок, чтобы противостоять состоянию {@condition Frightened}, оно совершает его с помехой.",
+        "Вы — ходячее воплощение страха. Когда вы заставляете существо в пределах 30 футов от вас совершить спасбросок, чтобы противостоять состоянию {@condition Frightened||Испуганный}, оно совершает его с помехой.",
         "Кроме того, существа в пределах 30 футов, которые Испуганы вами, имеют скорость, сниженную до 0, пока видят вас."
       ],
       "foundryImg": "icons/magic/death/skull-flames-white-blue.webp"
@@ -2867,7 +2867,7 @@
         "frightened"
       ],
       "entries": [
-        "Вы являетесь зловещим памятником всем тем, кто пытался и не смог остановить ваше железное завоевание. Вы обладаете иммунитетом к состоянию {@condition Frightened}, и вы добавляете свой модификатор Лидерства (минимум +1) к любым броскам атаки, которые вы совершаете против существ, Испуганных вами."
+        "Вы являетесь зловещим памятником всем тем, кто пытался и не смог остановить ваше железное завоевание. Вы обладаете иммунитетом к состоянию {@condition Frightened||Испуганный}, и вы добавляете свой модификатор Лидерства (минимум +1) к любым броскам атаки, которые вы совершаете против существ, Испуганных вами."
       ],
       "foundryImg": "icons/creatures/magical/construct-gargoyle-stone-gray.webp"
     },
@@ -2922,15 +2922,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature feint|LLExploits}, {@optfeature maneuvering order|LLExploits}"
+              "{@optfeature feint|LLExploits|финт}, {@optfeature maneuvering order|LLExploits|манёвренный приказ}"
             ],
             [
               "5-й",
-              "{@optfeature crescendo of violence|LLExploits}, {@optfeature wild charge|LLExploits}"
+              "{@optfeature crescendo of violence|LLExploits|крещендо насилия}, {@optfeature wild charge|LLExploits|дикий натиск}"
             ],
             [
               "9-й",
-              "{@optfeature pack tactics|LLExploits}"
+              "{@optfeature pack tactics|LLExploits|тактика стаи}"
             ]
           ]
         },
@@ -2962,7 +2962,7 @@
       "level": 3,
       "header": 2,
       "entries": [
-        "Вы ведёте свою стаю на охоте. Бонусным действием вы можете пометить существо, которое видите в пределах 30 футов, как свою Добычу. Оно остаётся вашей Добычей в течение 1 минуты, но эффект заканчивается раньше, если ваша Добыча опускается до 0 хитов, вы становитесь {@condition Incapacitated}, или вы помечаете другое существо как свою Добычу.",
+        "Вы ведёте свою стаю на охоте. Бонусным действием вы можете пометить существо, которое видите в пределах 30 футов, как свою Добычу. Оно остаётся вашей Добычей в течение 1 минуты, но эффект заканчивается раньше, если ваша Добыча опускается до 0 хитов, вы становитесь {@condition Incapacitated||Недееспособный}, или вы помечаете другое существо как свою Добычу.",
         "Любое существо, на которое вы воздействуете Вдохновляющим словом или Тактическим приёмом, добавляет вашу Кость приёмов к первому броску атаки, совершаемому им против вашей Добычи до начала вашего следующего хода.",
         "Вы можете пометить существо как свою Добычу количество раз, равное вашему модификатору Лидерства (минимум один раз). Вы восстанавливаете одно использованное применение, когда заканчиваете короткий отдых, и все использованные применения, когда заканчиваете продолжительный отдых."
       ],
@@ -2994,7 +2994,7 @@
       ],
       "header": 2,
       "entries": [
-        "Вы охотитесь как дикий хищник. Вы получаете владение воинскими оружиями и одним из навыков на ваш выбор: {@skill Perception} или {@skill Survival}.",
+        "Вы охотитесь как дикий хищник. Вы получаете владение воинскими оружиями и одним из навыков на ваш выбор: {@skill Perception||Внимательность} или {@skill Survival||Выживание}.",
         "Кроме того, когда вы совершаете проверку Восприятия или Выживания, основанную на обонянии или слухе, вы можете считать результат 7 или меньше на d20 как 8."
       ],
       "foundryImg": "icons/creatures/abilities/paw-print-orange.webp"
@@ -3038,7 +3038,7 @@
       "header": 2,
       "entries": [
         "Вы направляете свою стаю на бесшумную охоту. Вы и существа по вашему выбору в пределах 30 футов от вас имеют преимущество на проверки {@skill Stealth} и могут передвигаться скрытно с обычной скоростью.",
-        "Кроме того, пока у вас есть существо, помеченное как Добыча, вы можете отдать {@optfeature maneuvering order|LLExploits} бонусным действием."
+        "Кроме того, пока у вас есть существо, помеченное как Добыча, вы можете отдать {@optfeature maneuvering order|LLExploits|манёвренный приказ} бонусным действием."
       ],
       "foundryImg": "icons/magic/nature/stealth-hide-beast-eyes-green.webp"
     },
@@ -3144,14 +3144,14 @@
           "type": "entries",
           "name": "Ячейки заклинаний",
           "entries": [
-            "Таблица Доблестного заклинательства показывает, сколько ячеек заклинаний у вас есть для сотворения заклинаний 1-го уровня и выше. Для сотворения заклинания вы должны потратить ячейку соответствующего уровня или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда заканчиваете продолжительный отдых. Например, если вы знаете заклинание {@spell thunderwave} и у вас есть ячейки заклинаний 1-го и 2-го уровня, вы можете сотворить thunderwave, используя любую из этих ячеек."
+            "Таблица Доблестного заклинательства показывает, сколько ячеек заклинаний у вас есть для сотворения заклинаний 1-го уровня и выше. Для сотворения заклинания вы должны потратить ячейку соответствующего уровня или выше. Вы восстанавливаете все потраченные ячейки заклинаний, когда заканчиваете продолжительный отдых. Например, если вы знаете заклинание {@spell thunderwave||волна грома} и у вас есть ячейки заклинаний 1-го и 2-го уровня, вы можете сотворить thunderwave, используя любую из этих ячеек."
           ]
         },
         {
           "type": "entries",
           "name": "Известные заклинания 1-го уровня и выше",
           "entries": [
-            "Вы знаете три заклинания 1-го уровня на ваш выбор из {@filter Gallantry spell list|spells|subclass=Warlord: Gallantry (LLAW)} на следующей странице. Столбец Известных заклинаний в таблице Доблестного заклинательства показывает, когда вы изучаете дополнительные заклинания из этого списка 1-го уровня и выше. Любые изучаемые вами заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний, как показано в таблице.",
+            "Вы знаете три заклинания 1-го уровня на ваш выбор из {@filter список заклинаний Отваги|spells|subclass=Воевода: Отвага (LLAW)} на следующей странице. Столбец Известных заклинаний в таблице Доблестного заклинательства показывает, когда вы изучаете дополнительные заклинания из этого списка 1-го уровня и выше. Любые изучаемые вами заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний, как показано в таблице.",
             "При получении уровня вы можете заменить одно из ваших Известных заклинаний другим заклинанием из списка заклинаний Отваги. Заклинание также должно быть того уровня, для которого у вас есть ячейки заклинаний."
           ]
         },
@@ -3171,14 +3171,14 @@
               "type": "abilityDc",
               "name": "Заклинание",
               "attributes": [
-                "your Leadership modifier"
+                "ваш модификатор Лидерства"
               ]
             },
             {
               "type": "abilityAttackMod",
               "name": "Заклинание",
               "attributes": [
-                "your Leadership modifier"
+                "ваш модификатор Лидерства"
               ]
             }
           ]
@@ -3206,7 +3206,7 @@
         }
       ],
       "entries": [
-        "Вы сочетаете воинское мастерство и музыкальный талант, чтобы вдохновлять своих союзников. Вы получаете владение двумя музыкальными инструментами на ваш выбор и навыком {@skill Performance}.",
+        "Вы сочетаете воинское мастерство и музыкальный талант, чтобы вдохновлять своих союзников. Вы получаете владение двумя музыкальными инструментами на ваш выбор и навыком {@skill Performance||Выступление}.",
         "Кроме того, когда вы совершаете проверку Выступления, включающую как оружие, так и музыкальный инструмент, вы получаете бонус к броску, равный вашему уровню Воеводы."
       ],
       "foundryImg": "icons/sundries/scrolls/scroll-bound-tan-leather.webp"
@@ -3236,15 +3236,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature attack order|LLExploits}, {@optfeature steadfast order|LLExploits}"
+              "{@optfeature attack order|LLExploits|приказ атаки}, {@optfeature steadfast order|LLExploits|непоколебимый приказ}"
             ],
             [
               "5-й",
-              "{@optfeature enlivening order|LLExploits}, {@optfeature heroic will|LLExploits}"
+              "{@optfeature enlivening order|LLExploits|живительный приказ}, {@optfeature heroic will|LLExploits|героическая воля}"
             ],
             [
               "9-й",
-              "{@optfeature stand the fallen|LLExploits}"
+              "{@optfeature stand the fallen|LLExploits|поднять павших}"
             ]
           ]
         },
@@ -3303,7 +3303,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "Когда вы бросаете инициативу, вы можете потратить одно использование Вдохновляющего слова, чтобы возглавить героическую атаку. Вы и любые выбранные вами существа в пределах 15 футов, которые слышат вас, получают преимущества действия {@action Dash} во время вашего первого хода в бою. Вы не можете использовать эту способность, если вы {@status surprised} или {@condition Incapacitated}.",
+        "Когда вы бросаете инициативу, вы можете потратить одно использование Вдохновляющего слова, чтобы возглавить героическую атаку. Вы и любые выбранные вами существа в пределах 15 футов, которые слышат вас, получают преимущества действия {@action Dash||Рывок} во время вашего первого хода в бою. Вы не можете использовать эту способность, если вы {@status surprised||Застигнутый врасплох} или {@condition Incapacitated||Недееспособный}.",
         "На 11-м уровне дальность этой способности увеличивается до 30 футов."
       ],
       "foundryImg": "icons/tools/instruments/horn-flared-wood.webp"
@@ -3359,7 +3359,7 @@
       "header": 2,
       "entries": [
         "Скальды легенд могли, как говорили, переломить ход самых отчаянных сражений. Когда вы нацеливаете Вдохновляющее слово или Тактический приём на существо, оно совершает с преимуществом первую проверку характеристики, бросок атаки или спасбросок до начала вашего следующего хода.",
-        "Также на это время оно не может стать {@condition Charmed} или {@condition Frightened}."
+        "Также на это время оно не может стать {@condition Charmed||Очарованный} или {@condition Frightened||Испуганный}."
       ],
       "foundryImg": "icons/tools/instruments/drum-brown-red.webp"
     },
@@ -3450,7 +3450,7 @@
       ],
       "header": 2,
       "entries": [
-        "Вы используете любые средства для достижения своих целей. Вы получаете владение навыком {@skill Deception}, а также владение предметами {@item Disguise Kit|PHB|наборы для грима} и {@item Poisoner's Kit|PHB|наборы отравителя}. Вы также можете использовать вашу Характеристику Лидерства вместо Харизмы для проверок Обмана."
+        "Вы используете любые средства для достижения своих целей. Вы получаете владение навыком {@skill Deception||Обман}, а также владение предметами {@item Disguise Kit|PHB|наборы для грима} и {@item Poisoner's Kit|PHB|наборы отравителя}. Вы также можете использовать вашу Характеристику Лидерства вместо Харизмы для проверок Обмана."
       ],
       "foundryImg": "icons/tools/scribal/ink-quill-red.webp"
     },
@@ -3479,15 +3479,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature feint|LLExploits}, {@optfeature maneuvering order|LLExploits}"
+              "{@optfeature feint|LLExploits|финт}, {@optfeature maneuvering order|LLExploits|манёвренный приказ}"
             ],
             [
               "5-й",
-              "{@optfeature exposing strike|LLExploits}, {@optfeature insightful order|LLExploits}"
+              "{@optfeature exposing strike|LLExploits|раскрывающий удар}, {@optfeature insightful order|LLExploits|проницательный приказ}"
             ],
             [
               "9-й",
-              "{@optfeature perilous gambit|LLExploits}"
+              "{@optfeature perilous gambit|LLExploits|опасный гамбит}"
             ]
           ]
         },
@@ -3546,8 +3546,8 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "Вы приказываете своим союзникам охотиться на слабых. Когда существо проваливает спасбросок против вашего Грязного приёма, вы можете немедленно отдать {@optfeature insightful order|LLExploits}, но существо получает преимущества вашего приказа только в том случае, если атакует цель вашего Грязного приёма.",
-        "Кроме того, если вы используете Тактический приём как часть своего действия, вы можете выполнить действие {@action Disengage} или {@action Hide} бонусным действием."
+        "Вы приказываете своим союзникам охотиться на слабых. Когда существо проваливает спасбросок против вашего Грязного приёма, вы можете немедленно отдать {@optfeature insightful order|LLExploits|проницательный приказ}, но существо получает преимущества вашего приказа только в том случае, если атакует цель вашего Грязного приёма.",
+        "Кроме того, если вы используете Тактический приём как часть своего действия, вы можете выполнить действие {@action Disengage||Отход} или {@action Hide||Засада} бонусным действием."
       ],
       "foundryImg": "icons/skills/targeting/target-strike-triple-blue.webp"
     },
@@ -3601,7 +3601,7 @@
       "level": 18,
       "header": 2,
       "entries": [
-        "Ваш коварный разум невозможно прочесть. Ваши мысли и сны не могут быть прочитаны магией без вашего дозволения. Если существо пытается прочесть ваш разум, вы можете обмануть его ложными мыслями, совершив проверку {@skill Deception}."
+        "Ваш коварный разум невозможно прочесть. Ваши мысли и сны не могут быть прочитаны магией без вашего дозволения. Если существо пытается прочесть ваш разум, вы можете обмануть его ложными мыслями, совершив проверку {@skill Deception||Обман}."
       ],
       "foundryImg": "icons/creatures/mammals/elk-moose-marked-green.webp"
     },
@@ -3636,7 +3636,7 @@
           "type": "entries",
           "name": "Приёмы",
           "entries": [
-            "Вы изучаете два дополнительных {@filter Tactical Exploits|optionalfeatures|feature type=LL:TE} 1-й ступени на ваш выбор. Эти Приёмы не учитываются в количестве Известных приёмов, но их можно заменить.",
+            "Вы изучаете два дополнительных {@filter Тактические приёмы|optionalfeatures|feature type=LL:TE} 1-й ступени на ваш выбор. Эти Приёмы не учитываются в количестве Известных приёмов, но их можно заменить.",
             "Вы изучаете дополнительные Тактические приёмы по тем же правилам на определённых уровнях: на 5-м уровне вы изучаете два приёма 2-й ступени, а на 9-м уровне — один приём 3-й ступени."
           ]
         },
@@ -3710,7 +3710,7 @@
       ],
       "header": 2,
       "entries": [
-        "Вы изучили великие истории войн и сражений. Вы получаете владение навыком {@skill History} и двумя Игровыми наборами на ваш выбор, а также добавляете удвоенный Бонус мастерства к любой проверке характеристики, использующей эти владения."
+        "Вы изучили великие истории войн и сражений. Вы получаете владение навыком {@skill History||История} и двумя Игровыми наборами на ваш выбор, а также добавляете удвоенный Бонус мастерства к любой проверке характеристики, использующей эти владения."
       ],
       "foundryImg": "icons/sundries/books/book-worn-blue.webp"
     },
@@ -3725,7 +3725,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "Вы используете своих товарищей так, как другие воины используют оружие. Если вы всем своим действием используете только Тактические приёмы, вы можете своим бонусным действием выполнить действие {@action Disengage} или {@action Search}, либо использовать один Приказ, такой как {@optfeature attack order|LLExploits}."
+        "Вы используете своих товарищей так, как другие воины используют оружие. Если вы всем своим действием используете только Тактические приёмы, вы можете своим бонусным действием выполнить действие {@action Disengage||Отход} или {@action Search||Поиск}, либо использовать один Приказ, такой как {@optfeature attack order|LLExploits|приказ атаки}."
       ],
       "foundryImg": "icons/commodities/biological/organ-brain-pink.webp"
     },
@@ -3740,7 +3740,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "Вы обладаете даром обнаружения уязвимых мест. Когда вы совершаете действие {@action Search}, вы можете сосредоточиться на существе, которое видите в пределах 30 футов (Сл = 8 + его Уровень опасности). Если вы видели, как оно получило попадание атакой, добавьте ваш уровень Воеводы к этому броску.",
+        "Вы обладаете даром обнаружения уязвимых мест. Когда вы совершаете действие {@action Search||Поиск}, вы можете сосредоточиться на существе, которое видите в пределах 30 футов (Сл = 8 + его Уровень опасности). Если вы видели, как оно получило попадание атакой, добавьте ваш уровень Воеводы к этому броску.",
         "При успехе вы узнаёте одну характеристику по вашему выбору из списка ниже. При провале вы не можете использовать это умение на этом существе снова, пока не увидите, как оно получит ещё одно попадание атакой:",
         {
           "type": "table",
@@ -3780,7 +3780,7 @@
       ],
       "header": 2,
       "entries": [
-        "Вы всегда на шаг впереди своих врагов. Вас нельзя застать {@status surprised}, пока вы в сознании, а когда вы бросаете инициативу, вы можете использовать один Тактический приём или выполнить действие {@action Ready}."
+        "Вы всегда на шаг впереди своих врагов. Вас нельзя застать {@status surprised||Застигнутый врасплох}, пока вы в сознании, а когда вы бросаете инициативу, вы можете использовать один Тактический приём или выполнить действие {@action Ready||Подготовка}."
       ],
       "foundryImg": "icons/commodities/tech/bulb-vacuum.webp"
     },
@@ -3795,7 +3795,7 @@
       "level": 18,
       "header": 2,
       "entries": [
-        "У вас есть план на любой случай. Вы изучаете Приём {@optfeature contingency plan|LLExploits}, но он не учитывается в общем числе Известных приёмов. В конце продолжительного отдыха вы можете использовать «План на случай», не тратя Кость приёмов, чтобы ввести план в действие. У вас одновременно может быть только один активный «План на случай».",
+        "У вас есть план на любой случай. Вы изучаете Приём {@optfeature contingency plan|LLExploits|план на случай непредвиденного}, но он не учитывается в общем числе Известных приёмов. В конце продолжительного отдыха вы можете использовать «План на случай», не тратя Кость приёмов, чтобы ввести план в действие. У вас одновременно может быть только один активный «План на случай».",
         {
           "type": "options",
           "count": 1,
@@ -3852,15 +3852,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature attack order|LLExploits}, {@optfeature imposing presence|LLExploits}"
+              "{@optfeature attack order|LLExploits|приказ атаки}, {@optfeature imposing presence|LLExploits|внушительное присутствие}"
             ],
             [
               "5-й",
-              "{@optfeature rending strike|LLExploits}, {@optfeature wild charge|LLExploits}"
+              "{@optfeature rending strike|LLExploits|разрывающий удар}, {@optfeature wild charge|LLExploits|дикий натиск}"
             ],
             [
               "9-й",
-              "{@optfeature survey wilderness|LLExploits}"
+              "{@optfeature survey wilderness|LLExploits|осмотр дикой местности}"
             ]
           ]
         },
@@ -3917,8 +3917,8 @@
           "type": "entries",
           "name": "Бой",
           "entries": [
-            "В бою ваш приспешник действует в ваш ход. Он может перемещаться и использовать свою реакцию самостоятельно, но будет совершать только действие {@action Dodge}, если вы не используете бонусное действие, чтобы приказать ему выполнить одно действие из его блока характеристик или другое действие.",
-            "Если вы {@condition Incapacitated}, ваш приспешник возвращается в своё дикое состояние, обычно спасаясь бегством в свою дикую обитель."
+            "В бою ваш приспешник действует в ваш ход. Он может перемещаться и использовать свою реакцию самостоятельно, но будет совершать только действие {@action Dodge||Уклонение}, если вы не используете бонусное действие, чтобы приказать ему выполнить одно действие из его блока характеристик или другое действие.",
+            "Если вы {@condition Incapacitated||Недееспособный}, ваш приспешник возвращается в своё дикое состояние, обычно спасаясь бегством в свою дикую обитель."
           ]
         },
         {
@@ -4071,15 +4071,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature defensive order|LLExploits}, {@optfeature support order|LLExploits}"
+              "{@optfeature defensive order|LLExploits|оборонительный приказ}, {@optfeature support order|LLExploits|поддерживающий приказ}"
             ],
             [
               "5-й",
-              "{@optfeature insightful order|LLExploits}, {@optfeature soothing speech|LLExploits}"
+              "{@optfeature insightful order|LLExploits|проницательный приказ}, {@optfeature soothing speech|LLExploits|успокаивающая речь}"
             ],
             [
               "9-й",
-              "{@optfeature forgotten knowledge|LLExploits}"
+              "{@optfeature forgotten knowledge|LLExploits|забытые знания}"
             ]
           ]
         },
@@ -4128,7 +4128,7 @@
           "type": "entries",
           "name": "Бой",
           "entries": [
-            "В бою ваш Подопечный действует в ваш ход. Он может перемещаться и использовать свою реакцию самостоятельно, но будет выполнять только действие {@action Dodge}, если вы не потратите своё бонусное действие, чтобы приказать ему совершить действие из его блока характеристик или другое действие. Если вы {@condition Incapacitated}, ваш Подопечный действует сам и защищает вас как может."
+            "В бою ваш Подопечный действует в ваш ход. Он может перемещаться и использовать свою реакцию самостоятельно, но будет выполнять только действие {@action Dodge||Уклонение}, если вы не потратите своё бонусное действие, чтобы приказать ему совершить действие из его блока характеристик или другое действие. Если вы {@condition Incapacitated||Недееспособный}, ваш Подопечный действует сам и защищает вас как может."
           ]
         },
         {
@@ -4230,7 +4230,7 @@
       "level": 14,
       "entries": [
         "Ваша преданность и терпение принесли плоды. Ваш Подопечный сам стал героем и теперь использует блок характеристик {@creature Возвышенный приспешник|LLAW:E} на этой странице.",
-        "Вы также изучаете приём {@optfeature heroic order|LLExploits}. Он не учитывается в числе известных вам приёмов и не может быть заменён. Один раз в продолжительный отдых вы можете использовать этот приём, нацеленный на вашего Подопечного, без учёта в ограничении использования приёма раз в отдых.",
+        "Вы также изучаете приём {@optfeature heroic order|LLExploits|героический приказ}. Он не учитывается в числе известных вам приёмов и не может быть заменён. Один раз в продолжительный отдых вы можете использовать этот приём, нацеленный на вашего Подопечного, без учёта в ограничении использования приёма раз в отдых.",
         {
           "type": "options",
           "count": 1,
@@ -4291,7 +4291,7 @@
       "subclassSource": "LLAW:E",
       "level": 3,
       "entries": [
-        "Хотя по отдельности вы, возможно, не представляете угрозы, вместе со своими товарищами вы можете одолеть любого врага. Вы можете отдавать {@optfeature support order|LLExploits} бонусным действием в каждый из ваших ходов."
+        "Хотя по отдельности вы, возможно, не представляете угрозы, вместе со своими товарищами вы можете одолеть любого врага. Вы можете отдавать {@optfeature support order|LLExploits|поддерживающий приказ} бонусным действием в каждый из ваших ходов."
       ],
       "foundryImg": "icons/skills/trades/academics-investigation-puzzles.webp"
     },
@@ -4318,15 +4318,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature first aid|LLExploits}, {@optfeature support order|LLExploits}"
+              "{@optfeature first aid|LLExploits|первая помощь}, {@optfeature support order|LLExploits|поддерживающий приказ}"
             ],
             [
               "5-й",
-              "{@optfeature rejuvenating order|LLExploits}, {@optfeature surprise attack|LLExploits}"
+              "{@optfeature rejuvenating order|LLExploits|восстанавливающий приказ}, {@optfeature surprise attack|LLExploits|внезапная атака}"
             ],
             [
               "9-й",
-              "{@optfeature inspirational speech|LLExploits}"
+              "{@optfeature inspirational speech|LLExploits|вдохновляющая речь}"
             ]
           ]
         },
@@ -4434,7 +4434,7 @@
       "level": 14,
       "entries": [
         "Чем больше товарищей вы собираете под свои знамёна, тем выше ваш лидерский потенциал. Когда вы бросаете инициативу, вы восстанавливаете количество потраченных Костей приёмов, равное числу союзных существ в пределах 15 футов от вас.",
-        "Вы также изучаете приём {@optfeature equip militia|LLExploits}. Он не учитывается в числе ваших Известных приёмов и не может быть заменён. Вы можете использовать equip militia во время короткого или продолжительного отдыха, и один раз за продолжительный отдых вы можете использовать его, не тратя Кость приёмов.",
+        "Вы также изучаете приём {@optfeature equip militia|LLExploits|снарядить ополчение}. Он не учитывается в числе ваших Известных приёмов и не может быть заменён. Вы можете использовать equip militia во время короткого или продолжительного отдыха, и один раз за продолжительный отдых вы можете использовать его, не тратя Кость приёмов.",
         {
           "type": "options",
           "count": 1,
@@ -4509,15 +4509,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature maneuvering order|LLExploits}, {@optfeature roguish charm|LLExploits}"
+              "{@optfeature maneuvering order|LLExploits|манёвренный приказ}, {@optfeature roguish charm|LLExploits|плутовское обаяние}"
             ],
             [
               "5-й",
-              "{@optfeature intimidating command|LLExploits}, {@optfeature resilient order|LLExploits}"
+              "{@optfeature intimidating command|LLExploits|устрашающая команда}, {@optfeature resilient order|LLExploits|стойкий приказ}"
             ],
             [
               "9-й",
-              "{@optfeature recruit mercenary|LLExploits}"
+              "{@optfeature recruit mercenary|LLExploits|найм бойца}"
             ]
           ]
         },
@@ -4572,7 +4572,7 @@
         }
       ],
       "entries": [
-        "Ваш опыт в открытом море сделал вас превосходным моряком. Вы получаете владение {@item Navigator's Tools|PHB}, Водными транспортными средствами и навыком {@skill Perception}. Вы используете вашу Характеристику Лидерства для всех проверок характеристик с этими навыками.",
+        "Ваш опыт в открытом море сделал вас превосходным моряком. Вы получаете владение {@item Navigator's Tools|PHB|инструменты навигатора}, Водными транспортными средствами и навыком {@skill Perception||Внимательность}. Вы используете вашу Характеристику Лидерства для всех проверок характеристик с этими навыками.",
         "Вы также получаете Боевой стиль {@optfeature Mariner|LLStyles}, и его нельзя заменить. Если вы уже знаете этот стиль — вы изучаете другой Боевой стиль Воеводы."
       ],
       "foundryImg": "icons/environment/wilderness/island.webp"
@@ -4628,7 +4628,7 @@
       "level": 6,
       "entries": [
         "Ваше присутствие раскрывает лучшее в вашем Экипаже. Когда член вашего Экипажа вынужден совершить спасбросок, находясь в пределах 15 футов от вас, он добавляет свой бонус мастерства к этому спасброску, если он ещё не владеет соответствующим навыком.",
-        "Кроме того, вы можете бонусным действием в каждый из ваших ходов отдавать Приказ, такой как {@optfeature maneuvering order|LLExploits}, члену вашего Экипажа, находящемуся в пределах 15 футов от вас."
+        "Кроме того, вы можете бонусным действием в каждый из ваших ходов отдавать Приказ, такой как {@optfeature maneuvering order|LLExploits|манёвренный приказ}, члену вашего Экипажа, находящемуся в пределах 15 футов от вас."
       ],
       "foundryImg": "icons/tools/navigation/compass-brass-blue-red.webp"
     },
@@ -4664,7 +4664,7 @@
       "subclassSource": "LLAW:E",
       "level": 14,
       "entries": [
-        "Вы вдохновляете преданность даже в самых отпетых негодяях. Когда вы используете {@optfeature recruit mercenary|LLExploits}, вы можете назначить их своим Первым помощником. Когда вы это делаете, вы можете восстановить вашу Кость приёмов как обычно, Наёмник получает преимущества умения Мореплаватель и является частью вашего Экипажа, не учитываясь в общей численности Экипажа. У вас одновременно может быть только один Первый помощник.",
+        "Вы вдохновляете преданность даже в самых отпетых негодяях. Когда вы используете {@optfeature recruit mercenary|LLExploits|найм бойца}, вы можете назначить их своим Первым помощником. Когда вы это делаете, вы можете восстановить вашу Кость приёмов как обычно, Наёмник получает преимущества умения Мореплаватель и является частью вашего Экипажа, не учитываясь в общей численности Экипажа. У вас одновременно может быть только один Первый помощник.",
         "Вместо назначения Наёмника вы можете назначить другого члена вашего Экипажа Первым помощником. Он получает преимущества умения Мореплаватель и не учитывается в общей численности Экипажа."
       ],
       "foundryImg": "icons/tools/nautical/diving-helmet.webp"
@@ -4726,7 +4726,7 @@
         }
       ],
       "entries": [
-        "Вы используете свою тактическую подготовку для поддержания закона и порядка в цивилизованном обществе. Вы получаете владение одним из навыков: {@skill Insight} или {@skill Investigation}, и когда совершаете проверку характеристики любым из этих навыков, можете использовать свою Характеристику Лидерства.",
+        "Вы используете свою тактическую подготовку для поддержания закона и порядка в цивилизованном обществе. Вы получаете владение одним из навыков: {@skill Insight||Проницательность} или {@skill Investigation||Анализ}, и когда совершаете проверку характеристики любым из этих навыков, можете использовать свою Характеристику Лидерства.",
         "Кроме того, когда вы снижаете хиты существа до 0 несмертельной рукопашной атакой, вы можете бонусным действием в этот ход связать его с помощью {@item net|PHB}, верёвки, {@item manacles|PHB} или подобного предмета. Сл для освобождения равна вашему Сл спасения Приёмов, если собственная Сл предмета не выше."
       ],
       "foundryImg": "icons/sundries/survival/cuffs-shackles-steel.webp"
@@ -4740,7 +4740,7 @@
       "subclassSource": "LLAW:E",
       "level": 3,
       "entries": [
-        "Ваш долг — поддерживать закон и защищать слабых. Когда существо, которое вы видите в пределах 15 футов, попадает под атаку, вы можете реакцией отдать ему {@optfeature defensive order|LLExploits}, наложив помеху на провоцирующую атаку и, возможно, превратив попадание в промах.",
+        "Ваш долг — поддерживать закон и защищать слабых. Когда существо, которое вы видите в пределах 15 футов, попадает под атаку, вы можете реакцией отдать ему {@optfeature defensive order|LLExploits|оборонительный приказ}, наложив помеху на провоцирующую атаку и, возможно, превратив попадание в промах.",
         "Вы можете использовать эту реакцию количество раз, равное вашему модификатору Лидерства (минимум один раз), и вы восстанавливаете все потраченные применения, когда заканчиваете продолжительный отдых. Когда у вас не осталось применений, вы можете потратить Вдохновляющее слово, чтобы использовать её снова."
       ],
       "foundryImg": "icons/skills/melee/shield-block-gray-orange.webp"
@@ -4768,15 +4768,15 @@
           "rows": [
             [
               "3-й",
-              "{@optfeature defensive order|LLExploits}, {@optfeature disarm|LLExploits}"
+              "{@optfeature defensive order|LLExploits|оборонительный приказ}, {@optfeature disarm|LLExploits}"
             ],
             [
               "5-й",
-              "{@optfeature hold the line|LLExploits}, {@optfeature soothing speech|LLExploits}"
+              "{@optfeature hold the line|LLExploits|держать строй}, {@optfeature soothing speech|LLExploits|успокаивающая речь}"
             ],
             [
               "9-й",
-              "{@optfeature survey settlement|LLExploits}"
+              "{@optfeature survey settlement|LLExploits|осмотр поселения}"
             ]
           ]
         },
@@ -4847,8 +4847,8 @@
       "subclassSource": "LLAW:E",
       "level": 6,
       "entries": [
-        "Вы — щит, сдерживающий силы беззакония и хаоса. Один раз за короткий или продолжительный отдых вы можете использовать {@optfeature hold the line|LLExploits}, не тратя Кость приёмов.",
-        "При использовании «Держать строй» его дистанция равна 15 футам, и вы можете отдавать {@optfeature defensive order|LLExploits} бонусным действием в каждый из ваших ходов."
+        "Вы — щит, сдерживающий силы беззакония и хаоса. Один раз за короткий или продолжительный отдых вы можете использовать {@optfeature hold the line|LLExploits|держать строй}, не тратя Кость приёмов.",
+        "При использовании «Держать строй» его дистанция равна 15 футам, и вы можете отдавать {@optfeature defensive order|LLExploits|оборонительный приказ} бонусным действием в каждый из ваших ходов."
       ],
       "foundryImg": "icons/environment/people/infantry-army.webp"
     },
@@ -4884,7 +4884,7 @@
       "subclassSource": "LLAW:E",
       "level": 14,
       "entries": [
-        "Вы — несгибаемый щит для тех, кто живёт в рамках закона. Пока вы используете {@optfeature hold the line|LLExploits}, вы можете использовать ваши реакции «Щит закона» и «Стой!» без трат применений этих умений или Вдохновляющего слова.",
+        "Вы — несгибаемый щит для тех, кто живёт в рамках закона. Пока вы используете {@optfeature hold the line|LLExploits|держать строй}, вы можете использовать ваши реакции «Щит закона» и «Стой!» без трат применений этих умений или Вдохновляющего слова.",
         "Кроме того, вы можете переместиться до 10 футов в свой ход, не прекращая действия «Держать строй»."
       ],
       "foundryImg": "icons/magic/defensive/armor-shield-barrier-steel.webp"
@@ -4911,7 +4911,7 @@
       "subclassSource": "LLAW:E",
       "level": 18,
       "entries": [
-        "Вы — высшая власть закона, превосходящая лишь монархами и божественными посланниками. Вы постоянно источаете эффекты {@optfeature hold the line|LLExploits} на существ по вашему выбору в пределах 15 футов от вас, но можете перемещаться и действовать как обычно.",
+        "Вы — высшая власть закона, превосходящая лишь монархами и божественными посланниками. Вы постоянно источаете эффекты {@optfeature hold the line|LLExploits|держать строй} на существ по вашему выбору в пределах 15 футов от вас, но можете перемещаться и действовать как обычно.",
         "Наконец, когда существо проваливает спасбросок против «Стой!», оно также становится {@condition Restrained} до начала его следующего хода."
       ],
       "foundryImg": "icons/magic/defensive/shield-barrier-flaming-pentagon-teal.webp"
@@ -4957,7 +4957,7 @@
           "type": "entries",
           "name": "Заговоры",
           "entries": [
-            "Вы изучаете два Заговора на ваш выбор из списка {@filter Zeal spell list|spells|subclass=warlord: zeal (llaware)} в конце описания этой Академии войны, и изучаете дополнительный Заговор Поклонения на 10-м уровне."
+            "Вы изучаете два Заговора на ваш выбор из списка {@filter список заклинаний Поклонения|spells|subclass=воевода: поклонение (llaware)} в конце описания этой Академии войны, и изучаете дополнительный Заговор Поклонения на 10-м уровне."
           ]
         },
         {
@@ -4965,7 +4965,7 @@
           "name": "Ячейки заклинаний",
           "entries": [
             "Таблица заклинаний Поклонения показывает, сколько у вас ячеек заклинаний и какого они уровня. Все ваши ячейки от этой способности одного уровня. Для применения известного вам заклинания Поклонения 1-го уровня и выше вы должны потратить одну из этих ячеек. Вы восстанавливаете все ячейки после каждого короткого или продолжительного отдыха.",
-            "Например, на 7-м уровне у вас две ячейки 2-го уровня. Чтобы сотворить заклинание 1-го уровня {@spell command}, вы должны потратить одну из этих ячеек, и command будет сотворено на 2-м уровне."
+            "Например, на 7-м уровне у вас две ячейки 2-го уровня. Чтобы сотворить заклинание 1-го уровня {@spell command||приказ}, вы должны потратить одну из этих ячеек, и command будет сотворено на 2-м уровне."
           ]
         },
         {
@@ -4980,7 +4980,7 @@
           "type": "entries",
           "name": "Фокус заклинаний",
           "entries": [
-            "Вы должны использовать {@item Holy Symbol|PHB} в качестве фокуса для своих заклинаний Поклонения. Если вы наносите Священный символ на {@item shield|PHB}, вы можете использовать щит как фокус для своих заклинаний Поклонения, пока держите его."
+            "Вы должны использовать {@item Holy Symbol|PHB|святой символ} в качестве фокуса для своих заклинаний Поклонения. Если вы наносите Священный символ на {@item shield|PHB}, вы можете использовать щит как фокус для своих заклинаний Поклонения, пока держите его."
           ]
         },
         {
@@ -5021,8 +5021,8 @@
         }
       ],
       "entries": [
-        "Вы были божественно назначены вести других на войне. Вы знаете Приём {@optfeature attack order|LLExploits}. Он не учитывается в общем числе Известных приёмов и не может быть заменён.",
-        "Вы также получаете владение навыком {@skill Religion}. Всякий раз, когда вы совершаете проверку Религии, добавляйте ваш модификатор Лидерства к броску.",
+        "Вы были божественно назначены вести других на войне. Вы знаете Приём {@optfeature attack order|LLExploits|приказ атаки}. Он не учитывается в общем числе Известных приёмов и не может быть заменён.",
+        "Вы также получаете владение навыком {@skill Religion||Религия}. Всякий раз, когда вы совершаете проверку Религии, добавляйте ваш модификатор Лидерства к броску.",
         {
           "type": "options",
           "count": 1,
@@ -5058,7 +5058,7 @@
       "subclassSource": "LLAW:E",
       "level": 6,
       "entries": [
-        "Действием вы поднимаете ваш Священный символ и наполняете себя божественным лидерством на 1 минуту. На время действия вы можете бонусным действием в каждый из ваших ходов совершить оружейную атаку или отдать один Приказ, такой как {@optfeature attack order|LLExploits}."
+        "Действием вы поднимаете ваш Священный символ и наполняете себя божественным лидерством на 1 минуту. На время действия вы можете бонусным действием в каждый из ваших ходов совершить оружейную атаку или отдать один Приказ, такой как {@optfeature attack order|LLExploits|приказ атаки}."
       ],
       "foundryImg": "icons/magic/holy/projectiles-blades-salvo-yellow.webp"
     },
@@ -5096,7 +5096,7 @@
       "header": 2,
       "entries": [
         "Ваш голос наполнен божественной властью. Когда вы используете Вдохновляющее слово, цель восстанавливает максимальное количество хитов вместо броска своей Кости хитов.",
-        "Кроме того, когда вы нацеливаете существо на {@optfeature attack order|LLExploits}, оно может выбрать, чтобы его оружейные атаки на следующем ходу наносили урон излучением вместо обычного типа урона."
+        "Кроме того, когда вы нацеливаете существо на {@optfeature attack order|LLExploits|приказ атаки}, оно может выбрать, чтобы его оружейные атаки на следующем ходу наносили урон излучением вместо обычного типа урона."
       ],
       "foundryImg": "icons/magic/holy/prayer-hands-glowing-yellow.webp"
     },
@@ -5110,7 +5110,7 @@
       "level": 18,
       "header": 2,
       "entries": [
-        "Вы доказали свою преданность божественному делу вашего божества и получили награду. Когда вы совершаете действие {@action Attack} в свой ход, вы можете сотворить заклинание Поклонения с временем сотворения «действие» вместо одной из ваших атак.",
+        "Вы доказали свою преданность божественному делу вашего божества и получили награду. Когда вы совершаете действие {@action Attack||Атака} в свой ход, вы можете сотворить заклинание Поклонения с временем сотворения «действие» вместо одной из ваших атак.",
         "Наконец, всякий раз, когда вы тратите ячейку заклинания «Помазанной магии», вы восстанавливаете одно из следующих: хиты в количестве, равном вашему уровню, одну Кость приёмов или одно использование Вдохновляющего слова."
       ],
       "foundryImg": "icons/magic/holy/chalice-glowing-yellow-blue.webp"
@@ -5133,7 +5133,7 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": 1
@@ -5143,7 +5143,7 @@
             "count": "@flags.ll.leadership.mod",
             "type": "creature"
           },
-          "name": "Heal",
+          "name": "Лечение",
           "type": "heal",
           "range": {
             "value": 30,
@@ -5189,7 +5189,7 @@
             }
           ],
           "target.affects.type": "ally",
-          "name": "Allies",
+          "name": "Союзники",
           "type": "heal",
           "range": {
             "value": 30,
@@ -5213,7 +5213,7 @@
             }
           ],
           "target.affects.type": "enemy",
-          "name": "Enemies",
+          "name": "Противники",
           "type": "save",
           "range": {
             "value": 30,
@@ -5238,7 +5238,7 @@
       "level": 3,
       "effects": [
         {
-          "name": "Intelligence Intimidation & min8",
+          "name": "Запугивание (Интеллект), мин. 8",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -5255,7 +5255,7 @@
           ]
         },
         {
-          "name": "Wisdom Intimidation & min8",
+          "name": "Запугивание (Мудрость), мин. 8",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -5272,7 +5272,7 @@
           ]
         },
         {
-          "name": "Charisma Intimidation & min8",
+          "name": "Запугивание (Харизма), мин. 8",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -5306,7 +5306,7 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": 1
@@ -5316,7 +5316,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Save",
+          "name": "Спасбросок",
           "type": "save",
           "duration": {
             "value": 1,
@@ -5363,7 +5363,7 @@
               "value": 1
             }
           ],
-          "name": "Use",
+          "name": "Использование",
           "type": "utility"
         }
       ]
@@ -5379,10 +5379,10 @@
       "activities": [
         {
           "activation.type": "",
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "max(1, @flags.ll.leadership.mod)"
           }
         }
@@ -5423,7 +5423,7 @@
       "level": 6,
       "effects": [
         {
-          "name": "Stealth Advantage",
+          "name": "Преимущество на Скрытность",
           "transfer": true,
           "changes": [
             {
@@ -5445,7 +5445,7 @@
       "level": 14,
       "activities": [
         {
-          "name": "Temporary Hit Points",
+          "name": "Временные хиты",
           "type": "heal",
           "activation": {
             "type": "reaction",
@@ -5464,13 +5464,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": -1
             }
           ],
-          "name": "Regain Inspiring Word",
+          "name": "Восстановить Вдохновляющее слово",
           "type": "utility",
           "activation": {
             "type": "reaction",
@@ -5483,13 +5483,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Exploit Dice"
+                  "name": "Кости приёмов"
                 }
               },
               "value": -1
             }
           ],
-          "name": "Regain Exploit Die",
+          "name": "Восстановить кость приёмов",
           "type": "utility",
           "activation": {
             "type": "reaction",
@@ -5520,9 +5520,9 @@
           "target.affects": {
             "count": 1,
             "type": "creature",
-            "special": "Your Prey"
+            "special": "Ваша добыча"
           },
-          "name": "Extra Damage",
+          "name": "Дополнительный урон",
           "type": "damage"
         },
         {
@@ -5530,9 +5530,9 @@
           "target.affects": {
             "count": 1,
             "type": "creature",
-            "special": "Target of Inspiring Word, Rallying Cry, or one of your Tactical Exploits"
+            "special": "Ваша добыча"
           },
-          "name": "Grant Extra Speed",
+          "name": "Дополнительная скорость",
           "type": "utility",
           "effects": [
             {
@@ -5544,7 +5544,7 @@
       "effects": [
         {
           "foundryId": "LLAWEffectFeAP00",
-          "name": "Increased Speed",
+          "name": "Повышенная скорость",
           "transfer": true,
           "changes": [
             {
@@ -5581,14 +5581,14 @@
       "level": 3,
       "activities": [
         {
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "activation": {
             "type": "special",
             "condition": "Когда вы совершаете проверку Выступления, включающую как оружие, так и музыкальный инструмент"
           },
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "@classes.warlord.levels"
           }
         }
@@ -5610,13 +5610,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": 1
             }
           ],
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "duration": {
             "value": 1,
@@ -5643,7 +5643,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Save",
+          "name": "Спасбросок",
           "type": "save",
           "activation": {
             "type": "special",
@@ -5669,7 +5669,7 @@
       "effects": [
         {
           "foundryId": "LLAWEffectScCS00",
-          "name": "Halved Speed",
+          "name": "Уполовиненная скорость",
           "changes": [
             {
               "key": "system.attributes.movement.walk",
@@ -5690,7 +5690,7 @@
       "level": 3,
       "effects": [
         {
-          "name": "Intelligence Deception",
+          "name": "Обман (Интеллект)",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -5702,7 +5702,7 @@
           ]
         },
         {
-          "name": "Wisdom Deception",
+          "name": "Обман (Мудрость)",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -5725,7 +5725,7 @@
       "level": 6,
       "activities": [
         {
-          "name": "Insightful Order",
+          "name": "Проницательный приказ",
           "type": "utility",
           "activation": {
             "type": "special",
@@ -5734,7 +5734,7 @@
         },
         {
           "activation.type": "bonus",
-          "name": "Disengage or Hide",
+          "name": "Отход или Засада",
           "type": "utility"
         }
       ]
@@ -5753,7 +5753,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Save",
+          "name": "Спасбросок",
           "type": "save",
           "activation": {
             "type": "reaction",
@@ -5792,7 +5792,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "activation": {
             "type": "special",
@@ -5811,7 +5811,7 @@
       "level": 3,
       "effects": [
         {
-          "name": "Tactical Exploits",
+          "name": "Тактические приёмы",
           "transfer": true,
           "changes": [
             {
@@ -5842,7 +5842,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Dominate",
+          "name": "Подчинение",
           "type": "save",
           "range": {
             "value": 10,
@@ -5858,7 +5858,7 @@
         {
           "activation.type": "",
           "summon.mode": "cr",
-          "name": "Summon",
+          "name": "Призыв",
           "type": "summon",
           "profiles": [
             {
@@ -5882,7 +5882,7 @@
       "level": 6,
       "activities": [
         {
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "activation": {
             "type": "reaction",
@@ -5893,7 +5893,7 @@
             "units": "ft"
           },
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "@flags.ll.leadership.mod"
           }
         }
@@ -5910,7 +5910,7 @@
       "activities": [
         {
           "bonuses.hp": "5 * @classes.alternate-fighter.levels",
-          "name": "Summon",
+          "name": "Призыв",
           "type": "summon",
           "activation": {
             "value": 8,
@@ -5943,7 +5943,7 @@
       "effects": [
         {
           "foundryId": "LLAWEffectCoCPHD",
-          "name": "Hit Dice",
+          "name": "Кости Хитов",
           "changes": [
             {
               "key": "system.attribute.hd.max",
@@ -5964,21 +5964,21 @@
       "level": 3,
       "activities": [
         {
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "activation": {
             "type": "special",
             "condition": "Когда вы совершаете проверку характеристики для взаимодействия с простыми людьми"
           },
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "d@flags.ll.exploit.faces"
           }
         }
       ],
       "effects": [
         {
-          "name": "Bonus HP",
+          "name": "Дополнительные хиты",
           "transfer": true,
           "changes": [
             {
@@ -6001,7 +6001,7 @@
       "activities": [
         {
           "activation.type": "encounter",
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "consumption": {
             "targets": [
@@ -6009,7 +6009,7 @@
                 "type": "itemUses",
                 "target": {
                   "consumes": {
-                    "name": "Exploit Dice"
+                    "name": "Кости приёмов"
                   }
                 },
                 "value": -1,
@@ -6036,7 +6036,7 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": 1
@@ -6046,7 +6046,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "range": {
             "value": 15,
@@ -6065,7 +6065,7 @@
       "level": 3,
       "effects": [
         {
-          "name": "Seafarer Proficiencies (Intelligence)",
+          "name": "Владения морехода (Интеллект)",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -6087,7 +6087,7 @@
           ]
         },
         {
-          "name": "Seafarer Proficiencies (Wisdom)",
+          "name": "Владения морехода (Мудрость)",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -6109,7 +6109,7 @@
           ]
         },
         {
-          "name": "Seafarer Proficiencies (Charisma)",
+          "name": "Владения морехода (Харизма)",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -6146,14 +6146,14 @@
             "count": "@flags.ll.leadership.mod",
             "type": "willing"
           },
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "activation": {
             "type": "special",
             "condition": "Во время продолжительного отдыха"
           },
           "roll": {
-            "name": "Bonus",
+            "name": "Бонус",
             "formula": "@flags.ll.leadership.mod"
           }
         }
@@ -6170,17 +6170,17 @@
       "activities": [
         {
           "activation.type": "bonus",
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "roll": {
-            "name": "DC",
+            "name": "Сл",
             "formula": "@flags.ll.exploit.dc"
           }
         }
       ],
       "effects": [
         {
-          "name": "Intelligence Insight and Investigation",
+          "name": "Проницательность и Анализ (Интеллект)",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -6197,7 +6197,7 @@
           ]
         },
         {
-          "name": "Wisdom Insight and Investigation",
+          "name": "Проницательность и Анализ (Мудрость)",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -6214,7 +6214,7 @@
           ]
         },
         {
-          "name": "Charisma Insight and Investigation",
+          "name": "Проницательность и Анализ (Харизма)",
           "disabled": true,
           "transfer": true,
           "changes": [
@@ -6264,7 +6264,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "activation": {
             "type": "reaction",
@@ -6282,13 +6282,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": 1
             }
           ],
-          "name": "Use (Inspiring Word)",
+          "name": "Использование (Вдохновляющее слово)",
           "type": "forward"
         }
       ]
@@ -6308,7 +6308,7 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": 1
@@ -6318,7 +6318,7 @@
             "count": 1,
             "type": "creature"
           },
-          "name": "Save",
+          "name": "Спасбросок",
           "type": "save",
           "activation": {
             "type": "reaction",
@@ -6344,7 +6344,7 @@
       "effects": [
         {
           "foundryId": "LLAWEffectOrHS00",
-          "name": "Zero Speed",
+          "name": "Нулевая скорость",
           "duration": {
             "rounds": 1
           },
@@ -6374,7 +6374,7 @@
       },
       "effects": [
         {
-          "name": "Hact Magic",
+          "name": "Магия ускорения",
           "transfer": true,
           "changes": [
             {
@@ -6411,7 +6411,7 @@
       "level": 3,
       "effects": [
         {
-          "name": "Religion Bonus",
+          "name": "Бонус к Религии",
           "transfer": true,
           "changes": [
             {
@@ -6439,13 +6439,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Channel Divinity"
+                  "name": "Божественный канал"
                 }
               },
               "value": 1
             }
           ],
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "duration": {
             "value": 10,
@@ -6472,7 +6472,7 @@
               "value": 1
             }
           ],
-          "name": "Use (Spell Slot)",
+          "name": "Использование (ячейка заклинания)",
           "type": "forward",
           "visibility": {
             "level.max": 6,
@@ -6488,7 +6488,7 @@
               "value": 1
             }
           ],
-          "name": "Use (Spell Slot)",
+          "name": "Использование (ячейка заклинания)",
           "type": "forward",
           "visibility": {
             "level": {
@@ -6507,7 +6507,7 @@
               "value": 1
             }
           ],
-          "name": "Use (Spell Slot)",
+          "name": "Использование (ячейка заклинания)",
           "type": "forward",
           "visibility": {
             "level": {
@@ -6526,7 +6526,7 @@
               "value": 1
             }
           ],
-          "name": "Use (Spell Slot)",
+          "name": "Использование (ячейка заклинания)",
           "type": "forward",
           "visibility": {
             "level.min": 19,
@@ -6537,7 +6537,7 @@
       "effects": [
         {
           "foundryId": "LLAWEffectZeADLI",
-          "name": "Intelligence Check Bonus",
+          "name": "Бонус к проверкам (Интеллект)",
           "duration": {
             "seconds": 600
           },
@@ -6551,7 +6551,7 @@
         },
         {
           "foundryId": "LLAWEffectZeADLW",
-          "name": "Wisdom Check Bonus",
+          "name": "Бонус к проверкам (Мудрость)",
           "duration": {
             "seconds": 600
           },
@@ -6565,7 +6565,7 @@
         },
         {
           "foundryId": "LLAWEffectZeADLC",
-          "name": "Charisma Check Bonus",
+          "name": "Бонус к проверкам (Харизма)",
           "duration": {
             "seconds": 600
           },
@@ -6620,13 +6620,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Channel Divinity"
+                  "name": "Божественный канал"
                 }
               },
               "value": 1
             }
           ],
-          "name": "Use",
+          "name": "Использование",
           "type": "utility",
           "duration": {
             "value": 1,
@@ -6642,7 +6642,7 @@
               "value": 1
             }
           ],
-          "name": "Use (Spell Slot)",
+          "name": "Использование (ячейка заклинания)",
           "type": "forward",
           "visibility": {
             "level.max": 6,
@@ -6658,7 +6658,7 @@
               "value": 1
             }
           ],
-          "name": "Use (Spell Slot)",
+          "name": "Использование (ячейка заклинания)",
           "type": "forward",
           "visibility": {
             "level": {
@@ -6677,7 +6677,7 @@
               "value": 1
             }
           ],
-          "name": "Use (Spell Slot)",
+          "name": "Использование (ячейка заклинания)",
           "type": "forward",
           "visibility": {
             "level": {
@@ -6696,7 +6696,7 @@
               "value": 1
             }
           ],
-          "name": "Use (Spell Slot)",
+          "name": "Использование (ячейка заклинания)",
           "type": "forward",
           "visibility": {
             "level.min": 19,
@@ -6705,7 +6705,7 @@
         },
         {
           "activation.type": "bonus",
-          "name": "Bonus Action",
+          "name": "Бонусное действие",
           "type": "utility"
         }
       ]
@@ -6720,7 +6720,7 @@
       "level": 18,
       "activities": [
         {
-          "name": "Regain Hit Points",
+          "name": "Восстановление хитов",
           "type": "heal",
           "activation": {
             "type": "special",
@@ -6739,13 +6739,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Exploit Dice"
+                  "name": "Кости приёмов"
                 }
               },
               "value": -1
             }
           ],
-          "name": "Regain Exploit Die",
+          "name": "Восстановить кость приёмов",
           "type": "utility",
           "activation": {
             "type": "special",
@@ -6758,13 +6758,13 @@
               "type": "itemUses",
               "target": {
                 "consumes": {
-                  "name": "Inspiring Word"
+                  "name": "Вдохновляющее слово"
                 }
               },
               "value": -1
             }
           ],
-          "name": "Regain Inspiring Word",
+          "name": "Восстановить Вдохновляющее слово",
           "type": "utility",
           "activation": {
             "type": "special",
@@ -6795,7 +6795,7 @@
         }
       ],
       "hp": {
-        "special": "5 + five times your Warlord level"
+        "special": "5 + пять раз ваш уровень Воеводы"
       },
       "speed": {
         "walk": 30
