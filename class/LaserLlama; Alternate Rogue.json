@@ -1873,7 +1873,7 @@
 						"Уменьшите ваш бонусный урон скрытой атаки на число d6, равное степени этой вылазки."
 					]
 				},
-				"Например, если бы вы использовали эту способность, чтобы применить {@optfeature crippling strike|LLExploits} вылазку, уменьшив ваш бонусный урон от Скрытой атаки на 2d6, поскольку {@optfeature crippling strike|LLExploits} является вылазкой 2-й степени."
+				"Например, если бы вы использовали эту способность, чтобы применить {@optfeature Калечащий удар|LLExploits} вылазку, уменьшив ваш бонусный урон от Скрытой атаки на 2d6, поскольку {@optfeature Калечащий удар|LLExploits} является вылазкой 2-й степени."
 			],
 			"foundryImg": "icons/weapons/daggers/dagger-ritual-crooked-crystal.webp"
 		},
@@ -1946,7 +1946,7 @@
 			"level": 11,
 			"entries": [
 				"Начиная с 11-го уровня, когда вы используете Хитрую вылазку в рамках атаки, включающей дополнительный урон от Скрытой атаки, вы можете уменьшить дополнительный урон на 2d6, чтобы заставить цель совершить спасбросок с помехой. Вы можете использовать эту способность и Хитрый удар в рамках одной и той же атаки.",
-				"Например, если вы используете Хитрый удар для применения вылазки {@optfeature crippling strike|LLExploits}, вы можете дополнительно уменьшить свой бонус от Скрытой атаки на 2d6 (итого уменьшение на 4d6), чтобы заставить цель совершить спасбросок телосложения с помехой."
+				"Например, если вы используете Хитрый удар для применения вылазки {@optfeature Калечащий удар|LLExploits}, вы можете дополнительно уменьшить свой бонус от Скрытой атаки на 2d6 (итого уменьшение на 4d6), чтобы заставить цель совершить спасбросок телосложения с помехой."
 			],
 			"foundryImg": "icons/magic/water/heart-ice-freeze.webp"
 		},
@@ -2383,15 +2383,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature precision strike|LLExploits}, {@optfeature aerial maneuver|LLExploits}"
+							"{@optfeature Точный удар|LLExploits}, {@optfeature Воздушный манёвр|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature craft simple poison|LLExploits}, {@optfeature crippling strike|LLExploits}"
+							"{@optfeature Простой яд|LLExploits}, {@optfeature Калечащий удар|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature craft expert poison|LLExploits}"
+							"{@optfeature Экспертный яд|LLExploits}"
 						]
 					]
 				},
@@ -2546,7 +2546,7 @@
 			"header": 2,
 			"entries": [
 				"Ваш навык обращения с ядами превосходит навык всех остальных, кто изучает токсичные искусства. Вы можете использовать любую известную вам Хитрую вылазку, позволяющую создать яд (например, создать простой яд), и нанести этот яд на оружие одним бонусным действием.",
-				"Вы также изучаете {@optfeature craft advanced poison|LLExploits}, но она не учитывается в вашем общем количестве известных вылазок.",
+				"Вы также изучаете {@optfeature Продвинутый яд|LLExploits}, но она не учитывается в вашем общем количестве известных вылазок.",
 				{
 					"type": "options",
 					"count": 1,
@@ -2627,15 +2627,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature modify device|LLExploits}, {@optfeature aerial maneuver|LLExploits}"
+							"{@optfeature Усовершенствование механизма|LLExploits}, {@optfeature Воздушный манёвр|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature dirty hit|LLExploits}, {@optfeature survey dungeon|LLExploits}"
+							"{@optfeature Грязный удар|LLExploits}, {@optfeature Осмотр комнаты|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature forgotten knowledge|LLExploits}"
+							"{@optfeature Забытое знание|LLExploits}"
 						]
 					]
 				},
@@ -2884,15 +2884,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature precision strike|LLExploits}, {@optfeature disarm|LLExploits}"
+							"{@optfeature Точный удар|LLExploits}, {@optfeature Разоружение|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature exposing strike|LLExploits}, {@optfeature survey dungeon|LLExploits}"
+							"{@optfeature Раскрывающий удар|LLExploits}, {@optfeature Осмотр комнаты|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature survey settlement|LLExploits}"
+							"{@optfeature Сбор слухов|LLExploits}"
 						]
 					]
 				},
@@ -3011,8 +3011,8 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Ваш процесс расследования не оставляет камня на камне. Использование вылазки {@optfeature survey dungeon|LLExploits} или {@optfeature survey settlement|LLExploits} занимает у вас вдвое меньше времени, и вы получаете вдвое больше информации.",
-				"Кроме того, всякий раз, когда вы завершаете продолжительный отдых в поселении или короткий отдых в подземелье, вы получаете преимущества вылазки {@optfeature survey dungeon|LLExploits} или {@optfeature survey settlement|LLExploits} соответственно. Однако эта черта не прерывает ваш короткий или продолжительный отдых."
+				"Ваш процесс расследования не оставляет камня на камне. Использование вылазки {@optfeature Осмотр комнаты|LLExploits} или {@optfeature Сбор слухов|LLExploits} занимает у вас вдвое меньше времени, и вы получаете вдвое больше информации.",
+				"Кроме того, всякий раз, когда вы завершаете продолжительный отдых в поселении или короткий отдых в подземелье, вы получаете преимущества вылазки {@optfeature Осмотр комнаты|LLExploits} или {@optfeature Сбор слухов|LLExploits} соответственно. Однако эта черта не прерывает ваш короткий или продолжительный отдых."
 			],
 			"foundryImg": "icons/sundries/misc/pipe-wooden-straight-brown.webp"
 		},
@@ -3084,7 +3084,7 @@
 			"header": 1,
 			"entries": [
 				"Вы собрали набор навыков, помогающих вам в ваших интригах. Вы учитесь говорить, читать и писать на двух дополнительных языках и получаете владение наборами для перевоплощения и подделки.",
-				"Кроме того, если вы разговариваете с существом на его родном языке не менее 1 минуты, вы можете использовать вылазку {@optfeature roguish charm|LLExploits}, не тратя кость приёмов. При этом вы можете потратить одну кость приёмов, чтобы эффект продлился до конца следующего продолжительного отдыха цели. Однако вы не можете восстановить эту кость приёмов, пока длится эффект этой вылазки."
+				"Кроме того, если вы разговариваете с существом на его родном языке не менее 1 минуты, вы можете использовать вылазку {@optfeature Плутовское обаяние|LLExploits}, не тратя кость приёмов. При этом вы можете потратить одну кость приёмов, чтобы эффект продлился до конца следующего продолжительного отдыха цели. Однако вы не можете восстановить эту кость приёмов, пока длится эффект этой вылазки."
 			],
 			"foundryImg": "icons/commodities/gems/gem-rough-heart-pink.webp"
 		},
@@ -3129,15 +3129,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature roguish charm|LLExploits}, {@optfeature eloquent speech|LLExploits}"
+							"{@optfeature Плутовское обаяние|LLExploits}, {@optfeature Красноречивость|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature exposing strike|LLExploits}, {@optfeature soothing speech|LLExploits}"
+							"{@optfeature Раскрывающий удар|LLExploits}, {@optfeature Успокаивающая речь|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature recruit informant|LLExploits}"
+							"{@optfeature Вербовка информатора|LLExploits}"
 						]
 					]
 				},
@@ -3358,15 +3358,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature feint|LLExploits}, {@optfeature arresting strike|LLExploits}"
+							"{@optfeature Финт|LLExploits}, {@optfeature Останавливающий удар|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature exposing strike|LLExploits}, {@optfeature grasp of night|LLExploits}"
+							"{@optfeature Раскрывающий удар|LLExploits}, {@optfeature Хватка ночи|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature forgotten knowledge|LLExploits}"
+							"{@optfeature Забытое знание|LLExploits}"
 						]
 					]
 				},
@@ -3776,15 +3776,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature arresting strike|LLExploits}, {@optfeature feint|LLExploits}"
+							"{@optfeature Останавливающий удар|LLExploits}, {@optfeature Финт|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature craft simple poison|LLExploits}, {@optfeature trick shot|LLExploits}"
+							"{@optfeature Простой яд|LLExploits}, {@optfeature Рикошет|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature craft expert poison|LLExploits}"
+							"{@optfeature Экспертный яд|LLExploits}"
 						]
 					]
 				},
@@ -3985,15 +3985,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature parry|LLExploits}, {@optfeature imposing presence|LLExploits}"
+							"{@optfeature Парирование|LLExploits}, {@optfeature Внушительное присутствие|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature soothing speech|LLExploits}, {@optfeature glancing blow|LLExploits}"
+							"{@optfeature Успокаивающая речь|LLExploits}, {@optfeature Касательный удар|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature recruit informant|LLExploits}"
+							"{@optfeature Вербовка информатора|LLExploits}"
 						]
 					]
 				},
@@ -4215,15 +4215,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature aerial maneuver|LLExploits}, {@optfeature lunge|LLExploits}"
+							"{@optfeature Воздушный манёвр|LLExploits}, {@optfeature Выпад|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature dirty hit|LLExploits}, {@optfeature trick shot|LLExploits}"
+							"{@optfeature Грязный удар|LLExploits}, {@optfeature Рикошет|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature survey settlement|LLExploits}"
+							"{@optfeature Сбор слухов|LLExploits}"
 						]
 					]
 				},
@@ -4297,7 +4297,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Ваш опыт Падений с большой высоты сделал вас Экспертом по приземлениям без травм. Вы можете использовать {@optfeature aerial maneuver|LLExploits} по желанию, не тратя кость приёмов.",
+				"Ваш опыт Падений с большой высоты сделал вас Экспертом по приземлениям без травм. Вы можете использовать {@optfeature Воздушный манёвр|LLExploits} по желанию, не тратя кость приёмов.",
 				"Если вы приземлитесь на что-то мягкое, смягчающее ваше падение, например на поверхность воды или телегу с сеном, вы не получаете урон от этого падения."
 			]
 		},
@@ -4682,15 +4682,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature imposing presence|LLExploits}, {@optfeature precision strike|LLExploits}"
+							"{@optfeature Внушительное присутствие|LLExploits}, {@optfeature Точный удар|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature martial focus|LLExploits}, {@optfeature crippling strike|LLExploits}"
+							"{@optfeature Боевая сосредоточенность|LLExploits}, {@optfeature Калечащий удар|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature bewildering blow|LLExploits}"
+							"{@optfeature Ошеломляющий удар|LLExploits}"
 						]
 					]
 				},
@@ -4935,15 +4935,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature roguish charm|LLExploits}, {@optfeature streetwise|LLExploits}"
+							"{@optfeature Плутовское обаяние|LLExploits}, {@optfeature Знаток улиц|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature soothing speech|LLExploits}, {@optfeature trick shot|LLExploits}"
+							"{@optfeature Успокаивающая речь|LLExploits}, {@optfeature Рикошет|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature incite violence|LLExploits}"
+							"{@optfeature Подбивать к насилию|LLExploits}"
 						]
 					]
 				},
@@ -5041,7 +5041,7 @@
 			"header": 2,
 			"entries": [
 				"Вы всегда совершаете первое перемещение. Вы совершаете броски инициативы с преимуществом, а если в свой первый ход совершаете атаку игральной картой, можете выбрать эффект «Клевец карты».",
-				"Вы также изучаете вылазку {@optfeature quick draw|LLExploits}, но она не учитывается в вашем общем количестве известных вылазок. Когда вы используете эту вылазку, она также действует на ваши атаки метательным оружием.",
+				"Вы также изучаете вылазку {@optfeature Быстрая рука|LLExploits}, но она не учитывается в вашем общем количестве известных вылазок. Когда вы используете эту вылазку, она также действует на ваши атаки метательным оружием.",
 				{
 					"type": "options",
 					"count": 1,
@@ -5163,15 +5163,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature streetwise|LLExploits}, {@optfeature sweeping strike|LLExploits}"
+							"{@optfeature Знаток улиц|LLExploits}, {@optfeature Размашистый удар|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature dirty hit|LLExploits}, {@optfeature grasp of night|LLExploits}"
+							"{@optfeature Грязный удар|LLExploits}, {@optfeature Хватка ночи|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature recruit informant|LLExploits}"
+							"{@optfeature Вербовка информатора|LLExploits}"
 						]
 					]
 				},
@@ -5285,7 +5285,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"У вас есть навык поиска преступных связей в любом городе. Вы изучаете вылазку {@optfeature Clandestine Source|LLExploits|Тайный источник}. Она не учитывается в ваших известных вылазках, но вы не можете её заменить.",
+				"У вас есть навык поиска преступных связей в любом городе. Вы изучаете вылазку {@optfeature Тайный источник|LLExploits|Тайный источник}. Она не учитывается в ваших известных вылазках, но вы не можете её заменить.",
 				{
 					"type": "options",
 					"count": 1,
@@ -5467,15 +5467,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature craft oil bomb|LLExploits}, {@optfeature craft smoke bomb|LLExploits}"
+							"{@optfeature Ремесло масляной бомбы|LLExploits}, {@optfeature Ремесло дымовой бомбы|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature craft alchemical oil|LLExploits}, {@optfeature craft flash bomb|LLExploits}"
+							"{@optfeature Ремесло алхимического масла|LLExploits}, {@optfeature Ремесло вспышковой бомбы|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature bewildering blow|LLExploits}"
+							"{@optfeature Ошеломляющий удар|LLExploits}"
 						]
 					]
 				},
@@ -5982,7 +5982,7 @@
 			"header": 1,
 			"entries": [
 				"Вы посвятили себя изучению медицины и анатомии. Вы получаете владение Мединой и Природой и совершаете проверки Интеллекта (Медицина). Кроме того, во время продолжительного отдыха вы можете потратить 1 час на пополнение наборов целителя, и они восстанавливают общее количество использований, равное вашему уровню Плута.",
-				"Кроме того, каждый раз, когда вы используете {@optfeature first aid|LLExploits}, вы можете потратить использования удерживаемого вами набора целителя вместо костей приёмов."
+				"Кроме того, каждый раз, когда вы используете {@optfeature Первая помощь|LLExploits}, вы можете потратить использования удерживаемого вами набора целителя вместо костей приёмов."
 			],
 			"foundryImg": "icons/sundries/books/book-symbol-reverse-blue.webp"
 		},
@@ -5998,7 +5998,7 @@
 			"header": 1,
 			"entries": [
 				"Ваше знание анатомии позволяет вам наносить удары со смертоносной точностью. Ваши броски атаки оружием против Зверей, Великанов, Гуманоидов, Чудовищ и Нежити становятся критическим попаданием при результате 19–20 на d20.",
-				"Вы также можете использовать бонусное действие, чтобы совершить проверку Медицины или применить вылазку {@optfeature first aid|LLExploits} к существу."
+				"Вы также можете использовать бонусное действие, чтобы совершить проверку Медицины или применить вылазку {@optfeature Первая помощь|LLExploits} к существу."
 			],
 			"foundryImg": "icons/tools/hand/needle-grey.webp"
 		},
@@ -6027,15 +6027,15 @@
 					"rows": [
 						[
 							"3-й",
-							"{@optfeature arresting strike|LLExploits}, {@optfeature first aid|LLExploits}"
+							"{@optfeature Останавливающий удар|LLExploits}, {@optfeature Первая помощь|LLExploits}"
 						],
 						[
 							"5-й",
-							"{@optfeature exposing strike|LLExploits}, {@optfeature crippling strike|LLExploits}"
+							"{@optfeature Раскрывающий удар|LLExploits}, {@optfeature Калечащий удар|LLExploits}"
 						],
 						[
 							"9-й",
-							"{@optfeature bewildering blow|LLExploits}"
+							"{@optfeature Ошеломляющий удар|LLExploits}"
 						]
 					]
 				},
