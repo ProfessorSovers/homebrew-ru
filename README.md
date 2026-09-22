@@ -1,48 +1,79 @@
-Homebrew JSONs compatible with 5etools. The [editor](https://5e.tools/makebrew.html) will be expanded to support more content types Eventually:tm:.
+# homebrew-ru — русская локализация 5etools Homebrew
 
-#### Getting Brew (automatically)
-1. Hit the "Manage Homebrew" button (if available) on a 5etools page.
-2. "Get Homebrew"
-3. Click to add. Currently, the list only displays items from this repository.
+*[English readme](README.en.md)*
 
-#### Getting Brew (manually)
-1. Browse for the file you want
-2. Click "Raw" (top-right) and save it as .json
-3. Load into 5etools via the Brew Manager
+Форк [TheGiddyLimit/homebrew](https://github.com/TheGiddyLimit/homebrew) — репозитория homebrew-JSON для [5e.tools](https://5e.tools). Здесь тот же контент, что и в оригинале, но **текст переведён на русский**: названия, описания, таблицы, тексты умений.
 
-#### Getting Help
+Переведён только текст. Пути файлов, идентификаторы источников (`source`, например `LLAW`), теги `{@...}`, ID умений, формулы и числа остались такими же, как в upstream — поэтому контент работает в 5e.tools и Plutonium так же, как оригинал, и форк остаётся совместим с обновлениями оригинального репозитория.
 
-Join the [5etools Discord Server](https://discord.gg/nGvRCDs), and ask in the `#brew conversion` channel.
+> **Переведено 874 файла** (цифра — из [`manifest.json`](manifest.json)). Всего в репозитории 1312 файлов контента: непереведённые лежат здесь английским текстом upstream, чтобы форк мог тянуть обновления оригинала.
 
-#### Requesting Additions/Updates
+## Что уже переведено
 
-Join the [5etools Discord Server](https://discord.gg/nGvRCDs), and see the pinned message format in the `#brew conversion` channel. You can vote for your conversion request, or those of others, in the `#brew-tracker` channel.
+| Категория | Файлов |
+|---|---:|
+| Подклассы (`subclass/`) | 258 |
+| Классы (`class/`) | 172 |
+| Существа (`creature/`) | 131 |
+| Расы (`race/`) | 84 |
+| Заклинания (`spell/`) | 65 |
+| Предметы (`item/`) | 43 |
+| Черты (`feat/`) | 21 |
+| Вариантные правила (`variantrule/`) | 19 |
+| Опциональные умения (`optionalfeature/`) | 13 |
+| Предыстории (`background/`) | 12 |
+| Таблицы, суб-расы, божества, языки, колоды, рецепты, ловушки и прочее | остальное до 874 |
 
-#### Creating and Contributing
+Крупные переведённые пласты: **LaserLlama** (Alternate-версии всех классов, Воевода/Warlord и Компендиум приёмов, компендиумы черт и зверей, Псионик, Магус, Учёный, Шаман), **KibblesTasty** (Воевода, Изобретатель, Псионик, Оккультист, Клинок заклинаний), **MCDM** (Illrigger), **Matthew Mercer** (Blood Hunter), **Benjamin Huffman** (Pugilist, Scholar, Magus, Spiritualist) и другие.
 
-_**Note:** one large advantage of contributing to this repo, is that your files will be kept up-to-date as changes are made to the main site._
+## Как подключить
 
-- The easiest way to make your own is to copy one of the existing 'brews as a template and use the main [5etools data](https://github.com/5etools-mirror-3/5etools-src/tree/main/data) as a reference.
-    - The schemas for homebrew data can be found [here](https://github.com/TheGiddyLimit/5etools-utils/tree/master/schema/brew)
-- Contributions are welcome. For the GitHub-literate, make a pull request.* For everyone else, create an Issue and post a link to your file (PasteBin is fine), and I (or other maintainers, in future) can add it for you.
+### 5e.tools — весь репозиторий
 
-\* _See the article [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) for a how-to._
+1. Открыть <https://5e.tools/managebrew.html> (или кнопку «Manage Homebrew» на любой странице сайта).
+2. Нажать **шестерёнку** рядом с «Get Homebrew» → **Set Custom Repository URL** → вставить корень репозитория (у GitHub-ссылок обязательно `raw.`, в конце — слэш):
 
-##### Conventions to Follow
+   ```
+   https://raw.githubusercontent.com/ProfessorSovers/homebrew-ru/master/
+   ```
 
-There are a few conventions used which should be followed when creating homebrew:
- - Use tabs over spaces, "LF" as end-of-line, and UTF-8 (without BOM) encoding.
- - Format filenames as "Author Name; Homebrew Name.json"
- - Use a unique `"json"` source name; they should be uniquely identifiable across all homebrew. For example, for the hypothetical book "A History Of Dragons" by "A. N. Other," a sensible source name would be `"ANOtherHistoryOfDragons"`. Note that this text is never displayed, so can be as long and as ugly as required. While this is not enforced, we reserve the right to change data as required to avoid naming conflicts.
- - Use `https://github.com/TheGiddyLimit/homebrew` as the source URL for sources without one.
- - Only include content authors in the source `"author"` field; conversion credit should be given in a `"convertedBy"` field (with the same format).
- - Include a `"dateAdded"` property in file metadata, which is a Unix timestamp (in seconds) at which the file was added. See [here](https://github.com/TheGiddyLimit/homebrew/blob/master/spell/Sample%20-%20Giddy%3B%20Assorted%20Marginalia.json#L36) for an example of the structure; an example timestamp would be `1537874753`. You can view and copy the current Unix time [here](https://www.epochconverter.com/).
- - Images (and similar assets, e.g. character sheet PDFs) should be added to the [homebrew image repository](https://github.com/TheGiddyLimit/homebrew-img)
+3. **Get Homebrew** — в списке те же файлы, что и в оригинальном репозитории, но с русским текстом. Отметить нужные.
+4. Обновлять так же: **Delete All**, затем **Get Homebrew** заново (5e.tools кеширует ранее загруженные файлы).
 
-#### Useful links
+### 5e.tools — один файл
 
- - https://5e.tools/renderdemo.html (a demo of the renderer and JSON format)
- - https://5e.tools/converter.html (a tool to convert text to stat blocks)
- - https://jsonlint.com/ (error-check your JSON)
- - https://code.visualstudio.com (top-notch editor)
- - https://marketplace.visualstudio.com/items?itemName=revilowaldow.5etools-language-server (live data validation and suggestions)
+1. Открыть нужный `.json` в этом репозитории, нажать **Raw** и сохранить файл.
+2. Manage Homebrew → **Load from File** (или **Load from URL**, вставив raw-ссылку).
+
+### Foundry VTT (Plutonium)
+
+Модуль Plutonium умеет импортировать брю из URL и из файла — вставить raw-ссылку на нужный `.json` этого репозитория и импортировать. Ссылки и ID внутри переведённых файлов сохранены, поэтому содержимое встаёт на те же места, что и английский оригинал.
+
+## Что не переводится
+
+Эти поля технические: если их перевести, контент сломается или потеряет связь с upstream.
+
+- `source` — ID источника книги (например `LLAW`).
+- Содержимое тегов-ссылок: `{@optfeature Вдохновляющее слово|Warlord|LLAW|1}`, `{@spell fireball}`, `{@filter ...}` — ID внутри тегов остаются английскими.
+- ID умений (`classFeature`, `subclassFeature`) и любые `...|Источник|ID|уровень`-строки.
+- Формулы, кубики, числа, названия полей JSON.
+
+## Терминология
+
+Перевод держится на русской терминологии [dnd.su](https://dnd.su) (5e14, книга правил — КИ):
+
+- `Exploit` → **приём**, `Exploit Die` → **кость приёмов**;
+- `proficiency bonus` → **бонус мастерства (БМ)**;
+- состояния: `charmed` → Очаровано, `frightened` → Испугано, `prone` → Ничком, `blinded` → Ослеплён, `poisoned` → Отравлено, `stunned` → Ошеломлено, `surprised` → Застигнут врасплох, `incapacitated` → Недееспособен;
+- футы остаются футами, названия книг и терминов без устоявшегося перевода — латиницей (например стили лидерства Captain / Mentor / Strategist).
+
+## Ошибка в переводе, правка, новый файл
+
+- Проще всего — [Issue](https://github.com/ProfessorSovers/homebrew-ru/issues): укажите файл и место (название умения или цитата).
+- Если умеете работать с git — правьте файл как обычный JSON и присылайте Pull Request. Оригиналы правил оформления — в [английском README](README.en.md) (табы вместо пробелов, LF, UTF-8 без BOM, имена файлов не меняем).
+
+## Права и благодарности
+
+- Авторские права на само хоумбрю принадлежат его авторам — поля `author` / `convertedBy` в файлах не тронуты.
+- Оригинальный репозиторий и его правила: <https://github.com/TheGiddyLimit/homebrew>.
+- Этот форк — производная работа для русскоязычных игроков; перевод распространяется на тех же условиях, что и оригинальный контент.
